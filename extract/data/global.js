@@ -27,7 +27,32 @@ global.getExcel = function(file, id) {
 		return accum;
 	}, {});
 }
-global.getTextMap = function(langcode) { return require(`${config.StarRailData_folder}/TextMap/TextMap${langcode}.json`); }
+global.getTextMap = function(langcode) {
+    const textMapDir = path.join(config.StarRailData_folder, 'TextMap');
+    const files = fs.readdirSync(textMapDir);
+    
+    // Filter files that contain the langcode (e.g., "EN") 
+    // and ensure they are .json files
+    const targetFiles = files.filter(file => 
+        file.toUpperCase().includes(langcode.toUpperCase()) && 
+        file.endsWith('.json')
+    );
+
+    let combinedMap = {};
+
+    for (const file of targetFiles) {
+        const filePath = path.join(textMapDir, file);
+        try {
+            const data = readJson(filePath);
+            // Merge the data into the main object
+            Object.assign(combinedMap, data);
+        } catch (err) {
+            console.error(`Failed to load ${file}:`, err);
+        }
+    }
+
+    return combinedMap;
+};
 
 const langcodes = ['CHT', 'CHS', 'DE', 'EN', 'ES', 'FR', 'ID', 'JP', 'KR', 'PT', 'RU', 'TH', 'VI'];
 // const langcodes = ['EN']; // for debug purposes
