@@ -7709,6 +7709,67 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"23056": {
+		"Id": "23056",
+		"Name": "The Finale of a Lie",
+		"PathType": "Rogue",
+		"PathTypeText": "Hunt",
+		"EffectName": "Subsume",
+		"EffectTemplate": "Meningkatkan <color=#f29e38ff>#1[i]%</color> CRIT Rate pengguna. Saat pertempuran dimulai atau setiap pengguna melancarkan total #2[i] kali Serangan Lanjutan, pengguna akan memperoleh \"Umbra Devourer\" yang berlangsung selama #3[i] giliran. Saat pengguna memiliki \"Umbra Devourer\", ATK pengguna meningkat <color=#f29e38ff>#4[i]%</color> dan DMG yang diterima seluruh musuh meningkat <color=#f29e38ff>#5[i]%</color>. Efek jenis serupa tidak dapat ditumpuk.",
+		"Superimpositions": [
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>18%</color> CRIT Rate pengguna. Saat pertempuran dimulai atau setiap pengguna melancarkan total 4 kali Serangan Lanjutan, pengguna akan memperoleh \"Umbra Devourer\" yang berlangsung selama 3 giliran. Saat pengguna memiliki \"Umbra Devourer\", ATK pengguna meningkat <color=#f29e38ff>40%</color> dan DMG yang diterima seluruh musuh meningkat <color=#f29e38ff>20%</color>. Efek jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.18,
+					4,
+					3,
+					0.4,
+					0.2
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>21%</color> CRIT Rate pengguna. Saat pertempuran dimulai atau setiap pengguna melancarkan total 4 kali Serangan Lanjutan, pengguna akan memperoleh \"Umbra Devourer\" yang berlangsung selama 3 giliran. Saat pengguna memiliki \"Umbra Devourer\", ATK pengguna meningkat <color=#f29e38ff>50%</color> dan DMG yang diterima seluruh musuh meningkat <color=#f29e38ff>22%</color>. Efek jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.21,
+					4,
+					3,
+					0.5,
+					0.225
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>24%</color> CRIT Rate pengguna. Saat pertempuran dimulai atau setiap pengguna melancarkan total 4 kali Serangan Lanjutan, pengguna akan memperoleh \"Umbra Devourer\" yang berlangsung selama 3 giliran. Saat pengguna memiliki \"Umbra Devourer\", ATK pengguna meningkat <color=#f29e38ff>60%</color> dan DMG yang diterima seluruh musuh meningkat <color=#f29e38ff>25%</color>. Efek jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.24,
+					4,
+					3,
+					0.6,
+					0.25
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>27%</color> CRIT Rate pengguna. Saat pertempuran dimulai atau setiap pengguna melancarkan total 4 kali Serangan Lanjutan, pengguna akan memperoleh \"Umbra Devourer\" yang berlangsung selama 3 giliran. Saat pengguna memiliki \"Umbra Devourer\", ATK pengguna meningkat <color=#f29e38ff>70%</color> dan DMG yang diterima seluruh musuh meningkat <color=#f29e38ff>27%</color>. Efek jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.27,
+					4,
+					3,
+					0.7,
+					0.275
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>30%</color> CRIT Rate pengguna. Saat pertempuran dimulai atau setiap pengguna melancarkan total 4 kali Serangan Lanjutan, pengguna akan memperoleh \"Umbra Devourer\" yang berlangsung selama 3 giliran. Saat pengguna memiliki \"Umbra Devourer\", ATK pengguna meningkat <color=#f29e38ff>80%</color> dan DMG yang diterima seluruh musuh meningkat <color=#f29e38ff>30%</color>. Efek jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.3,
+					4,
+					3,
+					0.8,
+					0.3
+				]
+			}
+		],
+		"VersionAdded": "4.1"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "On the Fall of an Aeon",
@@ -8054,5 +8115,56 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"24006": {
+		"Id": "24006",
+		"Name": "Elation Brimming With Blessings",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Opening",
+		"EffectTemplate": "Meningkatkan <color=#f29e38ff>#1[i]%</color> ATK pengguna. Setelah pengguna melancarkan Skill atau Ultimate pada 1 karakter tim, meningkatkan <color=#f29e38ff>#2[i]%</color> Tingkat Elation target tersebut selama #3[i] giliran.",
+		"Superimpositions": [
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>20%</color> ATK pengguna. Setelah pengguna melancarkan Skill atau Ultimate pada 1 karakter tim, meningkatkan <color=#f29e38ff>12%</color> Tingkat Elation target tersebut selama 2 giliran.",
+				"Params": [
+					0.2,
+					0.12,
+					2
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>25%</color> ATK pengguna. Setelah pengguna melancarkan Skill atau Ultimate pada 1 karakter tim, meningkatkan <color=#f29e38ff>15%</color> Tingkat Elation target tersebut selama 2 giliran.",
+				"Params": [
+					0.25,
+					0.15,
+					2
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>30%</color> ATK pengguna. Setelah pengguna melancarkan Skill atau Ultimate pada 1 karakter tim, meningkatkan <color=#f29e38ff>18%</color> Tingkat Elation target tersebut selama 2 giliran.",
+				"Params": [
+					0.3,
+					0.18,
+					2
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>35%</color> ATK pengguna. Setelah pengguna melancarkan Skill atau Ultimate pada 1 karakter tim, meningkatkan <color=#f29e38ff>21%</color> Tingkat Elation target tersebut selama 2 giliran.",
+				"Params": [
+					0.35,
+					0.21,
+					2
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>40%</color> ATK pengguna. Setelah pengguna melancarkan Skill atau Ultimate pada 1 karakter tim, meningkatkan <color=#f29e38ff>24%</color> Tingkat Elation target tersebut selama 2 giliran.",
+				"Params": [
+					0.4,
+					0.24,
+					2
+				]
+			}
+		],
+		"VersionAdded": "4.1"
 	}
 }

@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Ébranlements éclatants",
-				"Effect": "Après utilisation de l'ultime de Seele, inflige l'effet Volée de papillons à l'ennemi attaqué pendant 1 tour. Les ennemis affectés par Volée de papillons subissent 1 instance supplémentaire de <u>DGT additionnels</u> quantiques équivalents à 15% des DGT de l'ultime de Seele chaque fois qu'ils sont attaqués. Si la cible est vaincue par les <u>DGT additionnels</u> de Volée de papillons provoqués par les attaques d'autres alliés, le talent de Seele ne se déclenche pas.\nLorsque Seele est <u>à terre</u>, l'effet Volée de papillons infligé aux ennemis est supprimé."
+				"Effect": "Après avoir attaqué avec l'ultime de Seele, elle applique l'effet Volée de papillons à l'ennemi attaqué pendant 1 tour. Les ennemis affectés par Volée de papillons subissent 1 instance supplémentaire de <u>DGT additionnels</u> quantiques équivalents à 15% des DGT de l'ultime de Seele chaque fois qu'ils sont attaqués. Si la cible est vaincue par les <u>DGT additionnels</u> de Volée de papillons provoqués par les attaques d'autres alliés, le talent de Seele ne se déclenche pas.\nLorsque Seele est <u>à terre</u>, l'effet Volée de papillons infligé aux ennemis est supprimé."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -3114,6 +3114,47 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Foudre",
+		"PathType": "Rogue",
+		"PathTypeText": "La Chasse",
+		"Eidolons": [
+			{
+				"Id": "150401",
+				"Name": "Attention : ne sors pas à la pleine lune",
+				"Effect": "Lorsqu'Ashveil est sur le champ de bataille, augmente les DGT subis par tous les ennemis de 24%. Lorsque le pourcentage de PV actuel d'une cible ennemie est inférieur ou égal à 50%, augmente les DGT qu'elle subit à 36%."
+			},
+			{
+				"Id": "150402",
+				"Name": "Coup : l'écho des rires",
+				"Effect": "La limite de cumuls de Gourmandise augmente à 18. Chaque fois qu'Ashveil lance l'<u>ATQ de suivi</u> renforcée du talent, restitue 35% des cumuls de Gourmandise supprimés."
+			},
+			{
+				"Id": "150403",
+				"Name": "Silence : inquiétudes entre amis",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum."
+			},
+			{
+				"Id": "150404",
+				"Name": "Note : avale toute la vérité",
+				"Effect": "Lorsqu'Ashveil utilise son ultime, son ATQ augmente de 40% pendant 3 tours."
+			},
+			{
+				"Id": "150405",
+				"Name": "Rappel : le dédective devient le tueur",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "150406",
+				"Name": "Final : il n'en resta aucun",
+				"Effect": "Lorsqu'un Appât est sur le champ de bataille, réduit les RÉS à tous les types de tous les ennemis de 20%. Les DGT infligés par Ashveil augmentent de 4% pour chaque cumul de Gourmandise obtenu, jusqu'à un maximum de 30 cumuls comptabilisés."
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

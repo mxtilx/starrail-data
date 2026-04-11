@@ -475,6 +475,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10142": {
+		"Id": "10142",
+		"Name": "Presente del cometa",
+		"TabName": "Presente del cometa",
+		"Tag": "Detalles del evento",
+		"Introduction": "◆Información del evento◆\nInicia sesión en el juego cada día y recibe recompensas en el Diario de viaje.\n\n◆Recompensas◆\nLas recompensas se desbloquean en orden según la cantidad de días que hayas iniciado sesión. Las recompensas diarias se actualizan a las <unbreak>04</unbreak>:<unbreak>00</unbreak> (hora del servidor).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0410.png",
+		"VersionAdded": "4.1"
+	},
 	"20001": {
 		"Id": "20001",
 		"Name": "Demostración de aptitudes",
@@ -867,7 +876,7 @@
 		"TabName": "Demostración de aptitudes",
 		"Tag": "Prueba de personajes",
 		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial45.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial48.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1013,6 +1022,24 @@
 		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.\nSi ya completaste la etapa de prueba de un personaje en versiones pasadas, puedes recoger las recompensas directamente.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial47.png",
 		"VersionAdded": "4.0"
+	},
+	"20077": {
+		"Id": "20077",
+		"Name": "Demostración de aptitudes",
+		"TabName": "Demostración de aptitudes",
+		"Tag": "Prueba de personajes",
+		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.\nSi ya completaste la etapa de prueba de un personaje en versiones pasadas, puedes recoger las recompensas directamente.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial48.png",
+		"VersionAdded": "4.1"
+	},
+	"20078": {
+		"Id": "20078",
+		"Name": "Demostración de aptitudes",
+		"TabName": "Demostración de aptitudes",
+		"Tag": "Prueba de personajes",
+		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.\nSi ya completaste la etapa de prueba de un personaje en versiones pasadas, puedes recoger las recompensas directamente.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial48.png",
+		"VersionAdded": "4.1"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1711,6 +1738,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestGiftSRoleVer400.png",
 		"VersionAdded": "4.0"
 	},
+	"50092": {
+		"Id": "50092",
+		"Name": "Crónicas bélicas de los eterae",
+		"TabName": "Crónicas bélicas de los eterae",
+		"Description": "En la Escuela Grafía se alzan las llamas de la guerra, y el peligro acecha en las sombras. ¡Reúne a tu ejército de eterae, desafía a los héroes de esta era caótica y recupera la paz de antaño!",
+		"Tag": "Detalles del evento",
+		"Introduction": "◆Introducción◆\n● En la Escuela Grafía se alzan las llamas de la guerra, y el peligro acecha en las sombras. ¡Reúne a tu ejército de eterae, desafía a los héroes de esta era caótica y recupera la paz de antaño!\n\n◆Información del evento◆\n● En «Crónicas bélicas de los eterae», lideras a una legión de eterae en una campaña en la Escuela Grafía. En la escuela hay 4 héroes atrincherados en distintos lugares que esperan a ser desafiados.\n● Después de cada batalla, se desbloquean nuevas legiones de eterae para que puedas usarlas. También puedes potenciar tus legiones con cristales de Imagiesencia en \"Potenciación de refuerzo\". Al completar campañas, también aumentará el nivel de campaña.\n● Tras completar todas las campañas, podrás elegir cualquiera de las legiones que hayas conseguido para enfrentarte a misteriosos enemigos de más allá del cielo.\n\n◆Recompensas permanentes◆\n● Completa campañas para aumentar tu nivel de campaña y reclamar las recompensas correspondientes.\n● En las recompensas de campaña puedes obtener la burbuja de chat \"Verdad en el caos\".\n\n◆Recompensas de duración limitada◆\n● Durante el evento de duración limitada, completa objetivos determinados y gana recompensas.\n\n◆Aviso◆\n● Una vez que termine el evento de duración limitada «Crónicas bélicas de los eterae», ya no podrás obtener las recompensas de duración limitada. Sin embargo, todavía podrás ir a hablar con Armando Embrollos en la Escuela Grafía para jugar al evento y obtener las recompensas permanentes.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnChenLingBattle.png",
+		"VersionAdded": "4.1"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "Universo Simulado",
@@ -1806,6 +1843,15 @@
 		"Introduction": "◆Introducción◆\n¡Actualización importante del Universo Diferenciado! Nuevas bendiciones, ecuaciones, objetos raros ponderados y eventos aleatorios. ¡Además, se han añadido los nuevos dones de la sangre dorada!\n\n◆Objetivo◆\n● Supera Cálculo convencional y Cálculo periódico para obtener Sincronicidad y aumentar tu nivel de Sincronicidad.\n\n◆Recompensas◆\n● Reúne bendiciones, ecuaciones, eventos, objetos raros, objetos raros ponderados y dones de la sangre dorada en el Universo Diferenciado para obtener recompensas.\n● Al superar cada dificultad de Cálculo convencional por primera vez, obtendrás recompensas.\n● La primera vez que superes Cálculo periódico en cada período, obtendrás recompensas adicionales.\n● Completa los objetivos establecidos de la Matriz de computación estable para obtener las recompensas correspondientes.\n\n◆Cálculo convencional◆\n● Completa Cálculo convencional para desbloquear nuevas dificultades. Al superar una nueva dificultad por primera vez, obtendrás recompensas adicionales.\n● Tras completar el nivel de dificultad V, se desbloqueará el modo división estelar.\n\n◆Cálculo periódico◆\n● Cálculo periódico se actualiza cada periodo con contenido especial. Obtendrás recompensas adicionales al superarlo por primera vez en cada periodo.\n● Completa Cálculo periódico para obtener recompensas de Sincronicidad adicionales. Estas recompensas adicionales tienen un límite cada periodo. Sin embargo, puedes seguir obteniendo Sincronicidad tras alcanzar dicho límite al superar Cálculo periódico.\n● En Cálculo periódico, puedes seleccionar cualquier dificultad y nivel de protocolo de umbral que hayas desbloqueado en Cálculo convencional.\n● Cálculo periódico se actualiza cada dos semanas, el lunes a las <unbreak>04</unbreak>:<unbreak>00</unbreak> (hora del servidor).\n\n◆Modo división estelar◆\n● Durante el modo de división estelar, podrás desafiar protocolo de umbral, en el cual la dificultad aumentará en gran medida.\n● El modo de división estelar incluye el modo exploraestrellas y el modo de práctica.\n● En el modo exploraestrellas, puedes encender los Ojos de la Sabiduría para aumentar la división estelar. A mayor división estelar, el nivel del protocolo de umbral del modo exploraestrellas también aumentará.\n● La división estelar no se puede disminuir en el modo exploraestrellas. La cantidad de Ojos de la sabiduría puede aumentar o disminuir en la misma división estelar. Algunas divisiones estelares tienen mecanismos de retención de nivel.\n● En el modo de práctica, puedes elegir el nivel del protocolo de umbral. El nivel máximo no puede superar el nivel del protocolo de umbral correspondiente a la división estelar actual.\n● La división estelar y los Ojos de la sabiduría no se verán afectados en el modo de práctica.\n\n◆Mapeo aritmético◆\n● En el Universo Diferenciado, los niveles de los personajes, los niveles de los conos de luz, los Rastros y los artefactos mejorarán si cumples los requisitos. Esta mejora solo tiene efecto en el Universo Diferenciado.\n● Cuando el nivel de un personaje sea inferior a su nivel máximo en el nivel de Equilibrio actual, el nivel del personaje aumentará hasta alcanzar su nivel máximo en el nivel de Equilibrio actual.\n● Cuando un Rastro ya desbloqueado se encuentre inactivo o su nivel sea inferior al requerido en el nivel de Equilibrio actual, el Rastro se activará o su nivel aumentará hasta el requerido para el nivel de Equilibrio actual.\n● Cuando el nivel total de potenciación de los artefactos equipados por el personaje sea inferior al requerido en el nivel de Equilibrio actual, los artefactos serán reemplazados temporalmente por otros acordes al nivel de Equilibrio actual.\n\n◆Recompensas de expansión del nivel de Sincronicidad◆\n● El nivel de Sincronicidad del Universo Diferenciado se expandirá regularmente, lo que proporcionará nuevas recompensas.\n● No podrás obtener más Sincronicidad en el Universo Diferenciado si alcanzas el nivel de Sincronicidad máximo antes de que este se expanda.\n\n◆Puntos del Universo Simulado◆\n● Supera Cálculo periódico y Cálculo convencional para obtener puntos del Universo Simulado.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnRogueTourntBannerSmall2.png",
 		"VersionAdded": "3.1"
+	},
+	"60018": {
+		"Id": "60018",
+		"Name": "Universo Diferenciado: Memorias de la arcadia",
+		"TabName": "Universo Diferenciado: Memorias de la arcadia",
+		"Tag": "Instrucciones",
+		"Introduction": "◆Introducción◆\n¡Actualización importante del Universo Diferenciado! Nuevas bendiciones, ecuaciones, objetos raros ponderados y eventos aleatorios. ¡Además, se han añadido las máscaras de reverente!\n\n◆Objetivo◆\n● Supera Cálculo convencional y Cálculo periódico para obtener Sincronicidad y aumentar tu nivel de Sincronicidad.\n\n◆Recompensas◆\n● Reúne bendiciones, ecuaciones, eventos, objetos raros y milagros maravillosos en el Universo Diferenciado para obtener recompensas.\n● Al superar cada dificultad de Cálculo convencional por primera vez, obtendrás recompensas.\n● La primera vez que superes Cálculo periódico en cada período, obtendrás recompensas adicionales.\n● Completa los objetivos establecidos de la Matriz de computación estable para obtener las recompensas correspondientes.\n\n◆Cálculo convencional◆\n● Completa Cálculo convencional para desbloquear nuevas dificultades. Al superar una nueva dificultad por primera vez, obtendrás recompensas adicionales.\n● Tras completar el nivel de dificultad V, se desbloqueará el modo división estelar.\n\n◆Cálculo periódico◆\n● Cálculo periódico se actualiza cada periodo con contenido especial. Obtendrás recompensas adicionales al superarlo por primera vez en cada periodo.\n● Completa Cálculo periódico para obtener recompensas de Sincronicidad adicionales. Estas recompensas adicionales tienen un límite cada periodo. Sin embargo, puedes seguir obteniendo Sincronicidad tras alcanzar dicho límite al superar Cálculo periódico.\n● En Cálculo periódico, puedes seleccionar cualquier dificultad y nivel de protocolo de umbral que hayas desbloqueado en Cálculo convencional.\n● Cálculo periódico se actualiza cada dos semanas, el lunes a las <unbreak>04</unbreak>:<unbreak>00</unbreak> (hora del servidor).\n\n◆Modo división estelar◆\n● Durante el modo de división estelar, podrás desafiar protocolo de umbral, en el cual la dificultad aumentará en gran medida.\n● El modo de división estelar incluye el modo exploraestrellas y el modo de práctica.\n● En el modo exploraestrellas, puedes encender los Ojos de la Sabiduría para aumentar la división estelar. A mayor división estelar, el nivel del protocolo de umbral del modo exploraestrellas también aumentará.\n● La división estelar no se puede disminuir en el modo exploraestrellas. La cantidad de Ojos de la sabiduría puede aumentar o disminuir en la misma división estelar. Algunas divisiones estelares tienen mecanismos de retención de nivel.\n● En el modo de práctica, puedes elegir el nivel del protocolo de umbral. El nivel máximo no puede superar el nivel del protocolo de umbral correspondiente a la división estelar actual.\n● La división estelar y los Ojos de la sabiduría no se verán afectados en el modo de práctica.\n\n◆Mapeo aritmético◆\n● En el Universo Diferenciado, los niveles de los personajes, los niveles de los conos de luz, los Rastros y los artefactos mejorarán si cumples los requisitos. Esta mejora solo tiene efecto en el Universo Diferenciado.\n● Cuando el nivel de un personaje sea inferior a su nivel máximo en el nivel de Equilibrio actual, el nivel del personaje aumentará hasta alcanzar su nivel máximo en el nivel de Equilibrio actual.\n● Cuando un Rastro ya desbloqueado se encuentre inactivo o su nivel sea inferior al requerido en el nivel de Equilibrio actual, el Rastro se activará o su nivel aumentará hasta el requerido para el nivel de Equilibrio actual.\n● Cuando el nivel total de potenciación de los artefactos equipados por el personaje sea inferior al requerido en el nivel de Equilibrio actual, los artefactos serán reemplazados temporalmente por otros acordes al nivel de Equilibrio actual.\n\n◆Recompensas de expansión del nivel de Sincronicidad◆\n● El nivel de Sincronicidad del Universo Diferenciado se expandirá regularmente, lo que proporcionará nuevas recompensas.\n● No podrás obtener más Sincronicidad en el Universo Diferenciado si alcanzas el nivel de Sincronicidad máximo antes de que este se expanda.\n\n◆Puntos del Universo Simulado◆\n● Supera Cálculo periódico y Cálculo convencional para obtener puntos del Universo Simulado.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnRogueTournPersona.png",
+		"VersionAdded": "4.1"
 	},
 	"71002": {
 		"Id": "71002",
@@ -2054,5 +2100,14 @@
 		"Tag": "Comienzo de misión trazacaminos",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory400.png",
 		"VersionAdded": "4.0"
+	},
+	"80025": {
+		"Id": "80025",
+		"Name": "Al descontrol del alba",
+		"TabName": "Misión trazacaminos",
+		"Description": "Los susurros de la felicidad se extienden y los demonios del pasado reaparecen. Bajo el foco de atención, los héroes caminan por un riel en el cielo forjado de adoración y odio. Un mínimo descuido y caerán al vacío. ¡Escucha! Desde el confín del cielo se escucha una risa burlona. ¿Es el silbido del amanecer o el acto inaugural de una farsa absurda?",
+		"Tag": "Comienzo de misión trazacaminos",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory410.png",
+		"VersionAdded": "4.1"
 	}
 }

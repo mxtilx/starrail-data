@@ -7709,6 +7709,67 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"23056": {
+		"Id": "23056",
+		"Name": "Das Finale einer Lüge",
+		"PathType": "Rogue",
+		"PathTypeText": "Die Jagd",
+		"EffectName": "Verschlingen",
+		"EffectTemplate": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>#1[i]%</color>. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger #2[i]-mal einen Folgeangriff ausgeführt hat, erhält er für #3[i] Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um <color=#f29e38ff>#4[i]%</color> und der von allen Gegnern erlittene SCH um <color=#f29e38ff>#5[i]%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>18%</color>. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger 4-mal einen Folgeangriff ausgeführt hat, erhält er für 3 Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um <color=#f29e38ff>40%</color> und der von allen Gegnern erlittene SCH um <color=#f29e38ff>20%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.18,
+					4,
+					3,
+					0.4,
+					0.2
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>21%</color>. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger 4-mal einen Folgeangriff ausgeführt hat, erhält er für 3 Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um <color=#f29e38ff>50%</color> und der von allen Gegnern erlittene SCH um <color=#f29e38ff>22%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.21,
+					4,
+					3,
+					0.5,
+					0.225
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>24%</color>. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger 4-mal einen Folgeangriff ausgeführt hat, erhält er für 3 Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um <color=#f29e38ff>60%</color> und der von allen Gegnern erlittene SCH um <color=#f29e38ff>25%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.24,
+					4,
+					3,
+					0.6,
+					0.25
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>27%</color>. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger 4-mal einen Folgeangriff ausgeführt hat, erhält er für 3 Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um <color=#f29e38ff>70%</color> und der von allen Gegnern erlittene SCH um <color=#f29e38ff>27%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.27,
+					4,
+					3,
+					0.7,
+					0.275
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>30%</color>. Zu Beginn des Kampfes oder jedes Mal, nachdem der Träger 4-mal einen Folgeangriff ausgeführt hat, erhält er für 3 Rd. „Schattenverschlinger“. Wenn der Träger Schattenverschlinger besitzt, wird sein ANG um <color=#f29e38ff>80%</color> und der von allen Gegnern erlittene SCH um <color=#f29e38ff>30%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.3,
+					4,
+					3,
+					0.8,
+					0.3
+				]
+			}
+		],
+		"VersionAdded": "4.1"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Der Niedergang eines Äons",
@@ -8054,5 +8115,56 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"24006": {
+		"Id": "24006",
+		"Name": "Hochgefühl voller Segen",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"EffectName": "Eröffnung",
+		"EffectTemplate": "Erhöht den ANG des Trägers um <color=#f29e38ff>#1[i]%</color>. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für #3[i] Rd. um <color=#f29e38ff>#2[i]%</color> erhöht.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>20%</color>. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für 2 Rd. um <color=#f29e38ff>12%</color> erhöht.",
+				"Params": [
+					0.2,
+					0.12,
+					2
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>25%</color>. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für 2 Rd. um <color=#f29e38ff>15%</color> erhöht.",
+				"Params": [
+					0.25,
+					0.15,
+					2
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>30%</color>. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für 2 Rd. um <color=#f29e38ff>18%</color> erhöht.",
+				"Params": [
+					0.3,
+					0.18,
+					2
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>35%</color>. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für 2 Rd. um <color=#f29e38ff>21%</color> erhöht.",
+				"Params": [
+					0.35,
+					0.21,
+					2
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>40%</color>. Nachdem der Träger seine Fertigkeit oder seinen Ultimate auf einen Verbündeten eingesetzt hat, wird das Hochgefühl des Ziels für 2 Rd. um <color=#f29e38ff>24%</color> erhöht.",
+				"Params": [
+					0.4,
+					0.24,
+					2
+				]
+			}
+		],
+		"VersionAdded": "4.1"
 	}
 }

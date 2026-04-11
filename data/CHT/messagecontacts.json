@@ -3020,7 +3020,8 @@
 		"FactionType": 9,
 		"FactionTypeText": "假面愚者",
 		"ConversationIds": [
-			"15026"
+			"15026",
+			"15034"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Zhongshan.png"
@@ -3078,12 +3079,44 @@
 			"15027",
 			"15028",
 			"15029",
-			"15030"
+			"15030",
+			"15035",
+			"15036"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"218": {
+		"Id": "218",
+		"Name": "不死途",
+		"Signature": "接",
+		"ContactType": 1,
+		"ContactTypeText": "角色",
+		"FactionType": 21,
+		"FactionTypeText": "二相樂園",
+		"ConversationIds": [],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1504.png"
+		},
+		"VersionAdded": "4.1"
+	},
+	"219": {
+		"Id": "219",
+		"Name": "異常防禦部",
+		"Signature": "聽說有人想看「幻月遊戲」謁者即時排名",
+		"ContactType": 2,
+		"ContactTypeText": "其他",
+		"FactionType": 21,
+		"FactionTypeText": "二相樂園",
+		"ConversationIds": [
+			"15037"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"1000": {
 		"Id": "1000",
@@ -3232,6 +3265,7 @@
 			"11519",
 			"13039",
 			"15005",
+			"15010",
 			"20010",
 			"20011",
 			"20012",
@@ -4605,6 +4639,24 @@
 			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1502.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "不死途",
+		"Signature": "接",
+		"ContactType": 1,
+		"ContactTypeText": "角色",
+		"FactionType": 12,
+		"FactionTypeText": "巡海遊俠",
+		"ConversationIds": [
+			"20228",
+			"20229",
+			"20230"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1504.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8000": {
 		"Id": "8000",

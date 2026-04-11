@@ -568,5 +568,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "3.7"
+	},
+	"325": {
+		"Id": "325",
+		"Name": "Punklorde Stage Zero",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Meningkatkan 8% Tingkat Elation pengguna. Saat Tingkat Elation mencapai 40%/80% untuk pertama kalinya dalam pertempuran, meningkatkan 20%/32% CRIT DMG pengguna."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
+	},
+	"326": {
+		"Id": "326",
+		"Name": "City of Converging Stars",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Saat pengguna melancarkan Serangan Lanjutan, ATK meningkat 24% selama 2 giliran. Saat target musuh dikalahkan, CRIT DMG seluruh rekan tim dalam pertempuran ini meningkat 12%. Efek ini tidak dapat ditumpuk."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
 	}
 }

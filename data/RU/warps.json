@@ -1129,6 +1129,36 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1306_Selected.png",
 		"VersionAdded": "4.0"
 	},
+	"2113": {
+		"Id": "2113",
+		"Name": "Охота долгой ночи",
+		"Description": "Шанс получения указанного персонажа повышен.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Прыжок события: Персонаж",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1504.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1504_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"2114": {
+		"Id": "2114",
+		"Name": "Радужные сумерки",
+		"Description": "Шанс получения указанного персонажа повышен.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Прыжок события: Персонаж",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1409.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1409_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"2115": {
+		"Id": "2115",
+		"Name": "Одинокая звезда пыльных дорог",
+		"Description": "Шанс получения указанного персонажа повышен.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Прыжок события: Персонаж",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
+		"VersionAdded": "4.1"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Искрящаяся фиксация",
@@ -2248,6 +2278,36 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23021.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23021_Selected.png",
 		"VersionAdded": "4.0"
+	},
+	"3113": {
+		"Id": "3113",
+		"Name": "Искрящаяся фиксация",
+		"Description": "Шанс получения указанного Светового конуса повышен.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Прыжок события: Световой конус",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23056.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23056_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"3114": {
+		"Id": "3114",
+		"Name": "Ушедшие воспоминания",
+		"Description": "Шанс получения указанного Светового конуса повышен.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Прыжок события: Световой конус",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23042.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23042_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"3115": {
+		"Id": "3115",
+		"Name": "Ушедшие воспоминания",
+		"Description": "Шанс получения указанного Светового конуса повышен.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Прыжок события: Световой конус",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
+		"VersionAdded": "4.1"
 	},
 	"4001": {
 		"Id": "4001",

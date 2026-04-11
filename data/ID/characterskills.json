@@ -38887,7 +38887,7 @@
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
 			"EffectRaw": "Menciptakan area pembatas yang berlangsung selama <unbreak>#1[i]</unbreak> giliran, durasi area pembatas berkurang 1 setiap saat giliran diri sendiri dimulai. Selama durasi area pembatas, Tingkat Elation seluruh rekan tim meningkat sebesar <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> Tingkat Elation Yao Guang, dan Yao Guang memperoleh <unbreak>#3[i]</unbreak> <u>Punchline</u> setelah melancarkan Basic Attack atau Skill.",
-			"AbridgedEffect": "Menciptakan area pembatas, meningkatkan Tingkat Elation seluruh rekan tim, dan Yao Guang memperoleh <u>Punchline</u> setelah melancarkan Basic Attack atau Skill.",
+			"AbridgedEffect": "Menciptakan area pembatas, <color=#f29e38ff>meningkatkan Tingkat Elation</color> seluruh rekan tim, dan Yao Guang <color=#f29e38ff>memperoleh <u>Punchline</u></color> setelah melancarkan Basic Attack atau Skill.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39006,7 +39006,7 @@
 			"SkillTypeText": "Ultimate",
 			"MaxLevel": 15,
 			"EffectRaw": "Memperoleh <unbreak>#1[i]</unbreak> <u>Punchline</u>. Membuat <u>Aha</u> segera memperoleh 1 <u>giliran tambahan</u> yang menghitung <unbreak>#4[i]</unbreak> <u>Punchline</u> secara tetap, giliran tersebut tidak mengonsumsi <u>Punchline</u>. Selain itu, meningkatkan <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> <u>RES PEN</u> Seluruh Tipe dari seluruh rekan tim selama <unbreak>#3[i]</unbreak> giliran.",
-			"AbridgedEffect": "Memperoleh <u>Punchline</u>. Membuat <u>Aha</u> segera memperoleh 1 <u>giliran tambahan</u> yang menghitung sejumlah tetap <u>Punchline</u>, serta meningkatkan <u>RES PEN</u> Seluruh Tipe dari seluruh rekan tim.",
+			"AbridgedEffect": "<color=#f29e38ff>Memperoleh <u>Punchline</u></color>. Membuat <color=#f29e38ff><u>Aha</u></color> segera memperoleh 1 <color=#f29e38ff><u>giliran tambahan</u></color> yang menghitung sejumlah tetap <u>Punchline</u>, serta meningkatkan <u>RES PEN</u> Seluruh Tipe dari seluruh rekan tim.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39155,7 +39155,7 @@
 			"SkillTypeText": "Talent",
 			"MaxLevel": 15,
 			"EffectRaw": "Saat Yao Guang memiliki \"<u>Certified Banger</u>\":\nMemicu efek \"Great Boon\" setelah rekan tim melancarkan serangan, yang mengakibatkan ekstra 1 kali <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> <u>Elation DMG</u> dengan Tipe sesuai pada 1 target acak yang terserang. Jika serangan kali ini mengonsumsi Poin Skill, maka akan memicu ekstra 1 kali efek \"Great Boon\".\nSaat memicu efek \"Great Boon\", jika Tingkat Elation penyerang lebih rendah dari Yao Guang, maka <u>Elation DMG</u> kali ini akan dihitung menggunakan Tingkat Elation Yao Guang.\nMemicu efek \"Great Boon\" tidak dianggap sebagai 1 kali serangan.",
-			"AbridgedEffect": "Saat Yao Guang memiliki \"<u>Certified Banger</u>\", setelah rekan tim melancarkan serangan akan memicu \"Great Boon\": Mengakibatkan ekstra 1 kali <u>Elation DMG</u> dengan Tipe sesuai dalam jumlah kecil pada 1 target acak yang terserang. Jika serangan kali ini mengonsumsi Poin Skill, akan memicu ekstra 1 kali efek ini. Efek ini tidak dianggap sebagai 1 kali serangan.",
+			"AbridgedEffect": "Saat Yao Guang memiliki \"<u>Certified Banger</u>\", setelah rekan tim melancarkan serangan akan memicu \"Great Boon\": <color=#f29e38ff>Mengakibatkan ekstra</color> 1 kali <color=#f29e38ff><u>Elation DMG</u></color> dengan Tipe sesuai dalam jumlah kecil pada 1 target acak yang terserang. Jika serangan kali ini mengonsumsi Poin Skill, akan memicu ekstra 1 kali efek ini. Efek ini tidak dianggap sebagai 1 kali serangan.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39255,6 +39255,562 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1502/SkillIcon_1502_Maze.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"BasicATK": {
+			"Id": "150401",
+			"Name": "Talons: Inculcate Decorum",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Ashveil pada 1 musuh yang ditargetkan.",
+			"AbridgedEffect": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png"
+		},
+		"Skill": {
+			"Id": "150402",
+			"Name": "Flog: Smite Evil",
+			"TriggerKey": "Skill02",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Menjadikan 1 musuh yang ditargetkan sebagai \"Bait\" dan mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Ashveil padanya. Jika target tersebut adalah \"Bait\", maka akan mengakibatkan ekstra Lightning DMG sebesar <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> ATK Ashveil padanya, dan memulihkan <unbreak>#5[i]</unbreak> Poin Skill. Saat ada \"Bait\" di medan pertempuran, DEF seluruh musuh berkurang <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.\nSaat tidak ada \"Bait\" di medan pertempuran, Ashveil akan segera menjadikan 1 target musuh dengan HP terendah di medan pertempuran saat ini sebagai \"Bait\". Status \"Bait\" hanya efektif pada target terbaru yang ditambahkan status ini.",
+			"AbridgedEffect": "Menjadikan 1 musuh yang ditargetkan sebagai \"Bait\" dan mengakibatkan Lightning DMG dalam jumlah besar padanya. Jika target tersebut adalah \"Bait\", maka akan mengakibatkan ekstra Lightning DMG dalam jumlah kecil padanya, dan memulihkan <color=#f29e38ff><unbreak>#5[i]</unbreak></color> Poin Skill. Saat ada \"Bait\" di medan pertempuran, <color=#f29e38ff>DEF seluruh musuh berkurang</color>.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1,
+						0.5,
+						0.2,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.1,
+						1,
+						0.55,
+						0.22,
+						1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.2,
+						1,
+						0.6,
+						0.24,
+						1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.3,
+						1,
+						0.65,
+						0.26,
+						1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.4,
+						1,
+						0.7,
+						0.28,
+						1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.5,
+						1,
+						0.75,
+						0.3,
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.625,
+						1,
+						0.8125,
+						0.325,
+						1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.75,
+						1,
+						0.875,
+						0.35,
+						1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.875,
+						1,
+						0.9375,
+						0.375,
+						1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						1,
+						1,
+						0.4,
+						1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2.1,
+						1,
+						1.05,
+						0.42,
+						1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2.2,
+						1,
+						1.1,
+						0.44,
+						1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2.3,
+						1,
+						1.15,
+						0.46,
+						1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2.4,
+						1,
+						1.2,
+						0.48,
+						1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2.5,
+						1,
+						1.25,
+						0.5,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150403",
+			"Name": "Banquet: Insatiable Appetite",
+			"TriggerKey": "Skill03",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Menjadikan 1 musuh yang ditargetkan sebagai \"Bait\", mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Ashveil padanya, lalu segera melancarkan 1 kali <u>Serangan Lanjutan</u> yang diperkuat dari Talent pada \"Bait\", dan Ashveil memperoleh <unbreak>#2[i]</unbreak> poin Charge.\n<u>Serangan Lanjutan</u> yang diperkuat dari Talent tidak mengonsumsi Charge. Setiap kali \"Gluttony\" lebih dari atau sama dengan <unbreak>#3[i]</unbreak> lapis, dapat mengonsumsi <unbreak>#3[i]</unbreak> lapis \"Gluttony\" untuk mengakibatkan ekstra 1 kali Lightning DMG sebesar <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> ATK Ashveil, dan saat mengakibatkan serangan mematikan pada target dalam proses <u>Serangan Lanjutan</u> kali ini, akan lanjut mengakibatkan DMG pada \"Bait\" baru hingga jumlah \"Gluttony\" kurang dari <unbreak>#3[i]</unbreak> lapis. Jika seluruh target musuh yang ada di medan pertempuran saat ini sudah terkena serangan mematikan, maka <u>Serangan Lanjutan</u> yang diperkuat dari Talent akan langsung berakhir.",
+			"AbridgedEffect": "Menjadikan 1 musuh yang ditargetkan sebagai \"Bait\", mengakibatkan Lightning DMG dalam jumlah besar padanya, lalu <color=#f29e38ff>segera melancarkan</color> 1 kali <color=#f29e38ff><u>Serangan Lanjutan</u></color> yang diperkuat dari Talent pada <color=#f29e38ff>\"Bait\"</color>, dan Ashveil memperoleh Charge.\n<u>Serangan Lanjutan</u> yang diperkuat dari Talent tidak mengonsumsi Charge. Setiap kali \"Gluttony\" lebih dari atau sama dengan <color=#f29e38ff><unbreak>#3[i]</unbreak></color> lapis, dapat mengonsumsi <color=#f29e38ff><unbreak>#3[i]</unbreak></color> lapis \"Gluttony\" untuk mengakibatkan ekstra Lightning DMG dalam jumlah besar, dan saat mengakibatkan serangan mematikan pada target dalam proses <u>Serangan Lanjutan</u> kali ini, <color=#f29e38ff>akan lanjut mengakibatkan DMG pada \"Bait\" baru</color> hingga jumlah \"Gluttony\" kurang dari <color=#f29e38ff><unbreak>#3[i]</unbreak></color> lapis.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						4,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2.2,
+						3,
+						4,
+						1.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2.4,
+						3,
+						4,
+						1.2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2.6,
+						3,
+						4,
+						1.3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.8,
+						3,
+						4,
+						1.4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						3,
+						3,
+						4,
+						1.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						3.25,
+						3,
+						4,
+						1.625
+					]
+				},
+				"8": {
+					"EffectValues": [
+						3.5,
+						3,
+						4,
+						1.75
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.75,
+						3,
+						4,
+						1.875
+					]
+				},
+				"10": {
+					"EffectValues": [
+						4,
+						3,
+						4,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						4.2,
+						3,
+						4,
+						2.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						4.4,
+						3,
+						4,
+						2.2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						4.6,
+						3,
+						4,
+						2.3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						4.8,
+						3,
+						4,
+						2.4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						5,
+						3,
+						4,
+						2.5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150404",
+			"Name": "Rancor: Enmity Reprisal",
+			"TriggerKey": "SkillP01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Ashveil awalnya memiliki <unbreak>#1[i]</unbreak> poin Charge, maksimal memiliki <unbreak>#2[i]</unbreak> poin Charge. Setelah \"Bait\" terserang rekan tim lain, Ashveil akan memulihkan <unbreak>#7[i]</unbreak> Energy dalam jumlah tetap, lalu mengonsumsi <unbreak>#3[i]</unbreak> poin Charge untuk melancarkan <u>Serangan Lanjutan</u> yang mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> ATK Ashveil pada \"Bait\", dan kemudian memperoleh <unbreak>#5[i]</unbreak> lapis \"Gluttony\", dapat ditumpuk hingga <unbreak>#6[i]</unbreak> lapis.",
+			"AbridgedEffect": "Setelah \"Bait\" <color=#f29e38ff>terserang rekan tim lain</color>, Ashveil akan memulihkan Energy dalam jumlah tetap, lalu mengonsumsi Charge untuk <color=#f29e38ff>melancarkan <u>Serangan Lanjutan</u></color> yang mengakibatkan Lightning DMG dalam jumlah besar pada \"Bait\", dan kemudian memperoleh <color=#f29e38ff><unbreak>#5[i]</unbreak></color> lapis \"Gluttony\".",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1,
+						2,
+						12,
+						8
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.1,
+						2,
+						12,
+						8
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.2,
+						2,
+						12,
+						8
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.3,
+						2,
+						12,
+						8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.4,
+						2,
+						12,
+						8
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.5,
+						2,
+						12,
+						8
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.625,
+						2,
+						12,
+						8
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.75,
+						2,
+						12,
+						8
+					]
+				},
+				"9": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.875,
+						2,
+						12,
+						8
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2,
+						2,
+						12,
+						8
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.1,
+						2,
+						12,
+						8
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.2,
+						2,
+						12,
+						8
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.3,
+						2,
+						12,
+						8
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.4,
+						2,
+						12,
+						8
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.5,
+						2,
+						12,
+						8
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png"
+		},
+		"Technique": {
+			"Id": "150407",
+			"Name": "Devour: O Loathsome Hand",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Impair",
+			"TagTypeText": "Impair",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Setelah menggunakan Technique, membuat musuh dalam area tertentu memasuki status Daze selama <unbreak>#1[i]</unbreak> detik. Musuh berstatus Daze tidak akan menyerang rekan tim secara aktif.\nJika secara aktif menyerang musuh berstatus Daze, maka saat memasuki pertempuran, Ashveil akan mengakibatkan Lightning DMG sebesar <unbreak>#2[i]%</unbreak> ATK Ashveil pada seluruh musuh, serta memperoleh <unbreak>#3[i]</unbreak> poin Charge.",
+			"AbridgedEffect": "Membuat musuh dalam area tertentu memasuki status Daze. Jika menyerang musuh berstatus Daze, maka setelah memasuki pertempuran akan mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, dan Ashveil memperoleh <color=#f29e38ff><unbreak>#3[i]</unbreak></color> poin Charge.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						1,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

@@ -1901,6 +1901,36 @@
 		"Description": "Actual director de la Escuela Grafía.\nTambién es el patriarca de la familia Grafía y afirma ser el padre de Himeko.",
 		"VersionAdded": "4.0"
 	},
+	"10421": {
+		"Id": "10421",
+		"Name": "Espacio del fragmento del cuadro",
+		"Description": "Fragmentos espaciales que se desprendieron del mundo del cuadro cuando Planarcadia regresó a la realidad.\nEs la zona fronteriza entre la realidad y el cuadro, donde unas vías de tren abandonadas conducen a un abismo insondable.",
+		"VersionAdded": "4.1"
+	},
+	"10422": {
+		"Id": "10422",
+		"Name": "Sociedad de Investigación Sonrisa Feliz",
+		"Description": "Una organización benéfica de gran envergadura que surgió de la Asociación de Apoyo Mutuo para víctimas del incidente del Anunciamuertes.\nMediante métodos de sanación como la cirugía de la felicidad, se dedica a devolver la felicidad y las sonrisas a Planarcadia.",
+		"VersionAdded": "4.1"
+	},
+	"10423": {
+		"Id": "10423",
+		"Name": "Buendeseo",
+		"Description": "Presidenta de la Sociedad de Investigación Sonrisa Feliz y directora del canal de televisión Buendeseo. Huérfana sobreviviente de los Juegos de Sangre.\nAhora es una conocida filántropa y magnate de los medios de comunicación, y ha hecho de encauzar el camino de la Exultación su misión personal.",
+		"VersionAdded": "4.1"
+	},
+	"10424": {
+		"Id": "10424",
+		"Name": "Festival Star Rail",
+		"Description": "Convención temática del Expreso Astral, un escenario preparado por Perla para los Anónimos.\nLa asistencia de los Anónimos causó un gran revuelo, y atrajo las miradas y la Imagiesencia de toda Planarcadia.",
+		"VersionAdded": "4.1"
+	},
+	"10425": {
+		"Id": "10425",
+		"Name": "Consorcio Perlux",
+		"Description": "Grupo de entretenimiento interestelar a nombre de Perla. Sus principales actividades abarcan la producción y venta de mecatrones.\nLa Torre Perlux, su imponente sede, es un santuario anhelado por incontables buscadores de empleo.",
+		"VersionAdded": "4.1"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Volviendo a la perspectiva {F#de la}{M#del} Trazacaminos...",
@@ -2320,5 +2350,11 @@
 		"Name": "Cambiando a la perspectiva de Silver Wolf...",
 		"Description": "Tingyun logró robar la máscara. Poco después, una pobre alma que había perdido su máscara llegó al distrito Palomaguas...",
 		"VersionAdded": "4.0"
+	},
+	"20099": {
+		"Id": "20099",
+		"Name": "Cambiando a la perspectiva de Ashveil...",
+		"Description": "Siguiendo el rastro del criminal, Ashveil se detuvo junto al puente y recordó brevemente el pasado...",
+		"VersionAdded": "4.1"
 	}
 }

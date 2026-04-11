@@ -65233,6 +65233,110 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"15010": {
+		"Id": "15010",
+		"ContactId": "1004",
+		"ParticpatingContactIds": [
+			"8001",
+			"1004"
+		],
+		"Sections": [
+			{
+				"Id": "1501000",
+				"StartingMessageId": "150100000",
+				"Messages": {
+					"150100000": {
+						"Id": "150100000",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Chú Yang, chú đang ở đâu? Chú có thấy chị Himeko không?",
+						"NextMessageId": "150100001"
+					},
+					"150100001": {
+						"Id": "150100001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1004",
+						"Text": "Tôi vừa hoàn thành kiểm tra lây nhiễm Virus Meme. Himeko vẫn ở đây, chỉ là bây giờ không biết chạy đi đâu rồi.",
+						"NextMessageId": "150100002"
+					},
+					"150100002": {
+						"Id": "150100002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1004",
+						"Text": "{NICKNAME}, tôi nghe nói Himeko và cha cô ấy đã gặp lại nhau rồi.",
+						"NextMessageId": "150100003"
+					},
+					"150100003": {
+						"Id": "150100003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1004",
+						"Text": "Nhìn bộ dạng cô ấy trông như người mất hồn, tôi không dám hỏi nhiều, có thể kể cho tôi nghe tình hình lúc đó không?",
+						"NextMessageId": "choice4"
+					},
+					"150100004": {
+						"Id": "150100004",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Lúc đó tôi bị kẹp giữa hai cha con này... căng thẳng và ngại ngùng vô cùng, ngón chân bấu chặt xuống đất suýt chút nữa đào ra được cái Học Viện Graphia thứ hai luôn đó",
+						"NextMessageId": "150100005"
+					},
+					"150100005": {
+						"Id": "150100005",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Mọi người thật sự muốn nghe tôi kể sao?",
+						"NextMessageId": "150100006"
+					},
+					"150100006": {
+						"Id": "150100006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1004",
+						"Text": "Thành viên Đội Tàu đều là người nhà, tìm hiểu tình trạng của đồng đội là rất cần thiết.",
+						"NextMessageId": "150100007"
+					},
+					"150100007": {
+						"Id": "150100007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1004",
+						"Text": "Tôi đang ở ngay phòng học có hồn ma xuất hiện mà {F#cô}{M#cậu} nói trước đó, đợi {F#cô}{M#cậu}, tới nhanh nhé!"
+					},
+					"150100008": {
+						"Id": "150100008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Lúc đó tôi bị kẹp giữa hai cha con này... căng thẳng và ngại ngùng vô cùng, ngón chân bấu chặt xuống đất suýt chút nữa đào ra được cái Học Viện Graphia thứ hai luôn đó",
+						"NextMessageId": "150100005"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Một cuộc đối thoại rất khó chen ngang",
+								"NextMessageId": "150100004"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Chỉ nhớ được cảnh tượng chấn động",
+								"NextMessageId": "150100008"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
+	},
 	"15011": {
 		"Id": "15011",
 		"ContactId": "1501",
@@ -67246,6 +67350,542 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"15034": {
+		"Id": "15034",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503401",
+				"StartingMessageId": "150340100",
+				"Messages": {
+					"150340100": {
+						"Id": "150340100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Đây là Zhongshanshan, bartender trực ca",
+						"NextMessageId": "150340101"
+					},
+					"150340101": {
+						"Id": "150340101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "{NICKNAME}, lại có khách gửi đồ mới cho {F#cô}{M#anh} rồi",
+						"NextMessageId": "150340102"
+					},
+					"150340102": {
+						"Id": "150340102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Khi nào rảnh thì đến nhận nhé",
+						"NextMessageId": "150340103"
+					},
+					"150340103": {
+						"Id": "150340103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Vẫn là quà lưu niệm đặc biệt của \"Thỏ Đường Ray Tinh Cầu\"",
+						"NextMessageId": "choice4"
+					},
+					"150340104": {
+						"Id": "150340104",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Vẫn là người lần trước sao?",
+						"NextMessageId": "150340105"
+					},
+					"150340105": {
+						"Id": "150340105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Không phải người lần trước",
+						"NextMessageId": "150340106"
+					},
+					"150340106": {
+						"Id": "150340106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Cũng không để lại thư từ gì",
+						"NextMessageId": "150340110"
+					},
+					"150340107": {
+						"Id": "150340107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Có phải lại để lại thư gì không?",
+						"NextMessageId": "150340108"
+					},
+					"150340108": {
+						"Id": "150340108",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Không để lại thư",
+						"NextMessageId": "150340109"
+					},
+					"150340109": {
+						"Id": "150340109",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Cũng không phải người lần trước",
+						"NextMessageId": "150340110"
+					},
+					"150340110": {
+						"Id": "150340110",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Tôi cảm thấy người đến lần này khá hời hợt, cũng không biết có phải đã xảy ra biến cố gì hay không",
+						"NextMessageId": "150340111"
+					},
+					"150340111": {
+						"Id": "150340111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Mong là không xảy ra chuyện gì"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Vẫn là người lần trước sao?",
+								"NextMessageId": "150340104"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Có để lại thư gì không?",
+								"NextMessageId": "150340107"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
+	},
+	"15035": {
+		"Id": "15035",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1503501",
+				"StartingMessageId": "150350100",
+				"Messages": {
+					"150350100": {
+						"Id": "150350100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Chúc mừng bạn, bạn đã thu thập đủ tất cả Bụi Linh Vô Danh do dự án \"Thỏ Đường Ray Tinh Cầu\" bố trí tại Tháp Canh Cloudisle! Bây giờ bạn có thể dùng cách nhẹ nhàng nhất để vượt ải \"Thỏ Đường Ray Tinh Cầu\" đã thiết lập ở khu vực này. Chúc bạn chơi game vui vẻ! (Đây là quảng cáo tự động từ hệ thống, vui lòng không trả lời~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
+	},
+	"15036": {
+		"Id": "15036",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1503601",
+				"StartingMessageId": "150360100",
+				"Messages": {
+					"150360100": {
+						"Id": "150360100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Chúc mừng bạn, bạn đã thu thập đủ tất cả Bụi Linh Vô Danh do dự án \"Thỏ Đường Ray Tinh Cầu\" bố trí tại Tòa Tháp Pearluxe! Bây giờ bạn có thể dùng cách nhẹ nhàng nhất để vượt ải \"Thỏ Đường Ray Tinh Cầu\" đã thiết lập ở khu vực này. Chúc bạn chơi game vui vẻ! (Đây là quảng cáo tự động từ hệ thống, vui lòng không trả lời~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
+	},
+	"15037": {
+		"Id": "15037",
+		"ContactId": "219",
+		"ParticpatingContactIds": [
+			"8001",
+			"219"
+		],
+		"Sections": [
+			{
+				"Id": "1503701",
+				"StartingMessageId": "150370100",
+				"Messages": {
+					"150370100": {
+						"Id": "150370100",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Tin nhắn này được gửi riêng, nhận được không cần trả lời",
+						"NextMessageId": "150370101"
+					},
+					"150370101": {
+						"Id": "150370101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Xin chào! Trận chiến giữa Biệt Đội Bình Minh VS Đội Tàu Astral đã kết thúc, Cục Quản Chế Dị Thể sẽ công bố xếp hạng Nguyện Lực hiện tại của 8 Khách Tế Bái Mặt Nạ cho người tham gia Trò Chơi Ảo Nguyệt...",
+						"NextMessageId": "150370102"
+					},
+					"150370102": {
+						"Id": "150370102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Lưu ý: Tạm thời không có quyền truy cập thông tin liên quan đến Khách Tế Bái chưa xướng tên và Mặt Nạ sở hữu",
+						"NextMessageId": "150370103"
+					},
+					"150370103": {
+						"Id": "150370103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Xếp hạng thời gian thực: Hạng 5. Khách Tế Bái: Sparxie. Đã xướng tên",
+						"NextMessageId": "150370104"
+					},
+					"150370104": {
+						"Id": "150370104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Xếp hạng thời gian thực: Hạng 4. Khách Tế Bái: Biệt Đội Bình Minh. Đã xướng tên",
+						"NextMessageId": "150370105"
+					},
+					"150370105": {
+						"Id": "150370105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Xếp hạng thời gian thực: Hạng 3. Khách Tế Bái: Pearl. Chưa công khai xướng tên",
+						"NextMessageId": "150370106"
+					},
+					"150370106": {
+						"Id": "150370106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Lưu ý: Sau sự kiện SparxiCon, Mặt Nạ mà Sparxie sở hữu tạm thời bị lấy đi",
+						"NextMessageId": "choice7"
+					},
+					"150370107": {
+						"Id": "150370107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Thì ra, sau khi bị đánh bại còn bị xử tử công khai trên màn hình chat?",
+						"NextMessageId": "150370109"
+					},
+					"150370108": {
+						"Id": "150370108",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Căng thẳng quá! Xếp hạng hiện tại của tôi đang ở đâu?",
+						"NextMessageId": "150370109"
+					},
+					"150370109": {
+						"Id": "150370109",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Khách Tế Bái▀▄█: ▄▀█▄ ▄█▄ xếp hạng thời gian thực: ▀█▄",
+						"NextMessageId": "150370110"
+					},
+					"150370110": {
+						"Id": "150370110",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Cục Quản Chế Dị Thể đã ngắt kết nối",
+						"NextMessageId": "150370111"
+					},
+					"150370111": {
+						"Id": "150370111",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Cục Quản Chế Dị Thể đã khôi phục kết nối",
+						"NextMessageId": "150370112"
+					},
+					"150370112": {
+						"Id": "150370112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "[Cảnh Báo] Sau khi xét duyệt lại, bạn không đáp ứng tiêu chuẩn tham gia Trò Chơi Ảo Nguyệt, Mặt Nạ Gấu Mèo bạn sở hữu đã bị khóa",
+						"NextMessageId": "150370113"
+					},
+					"150370113": {
+						"Id": "150370113",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Trạng thái hiện tại: Lịch Thiên Đường 2099-3-25 10:00 có thể gỡ bỏ lệnh cấm",
+						"NextMessageId": "choice20"
+					},
+					"150370114": {
+						"Id": "150370114",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Cấm tôi 100 năm ư? Đợi tôi được gỡ bỏ lệnh cấm thì đã tới lần thứ mấy rồi? Các người phải cho tôi một lý do",
+						"NextMessageId": "150370115"
+					},
+					"150370115": {
+						"Id": "150370115",
+						"MessageType": "Sticker",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/Emoji/20007.png",
+						"Text": "[Hình ảnh]",
+						"NextMessageId": "150370118"
+					},
+					"150370116": {
+						"Id": "150370116",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tôi không có thời gian đùa với các người đâu, chuyển sang người thật, chuyển sang người thật cho tôi!",
+						"NextMessageId": "150370117"
+					},
+					"150370117": {
+						"Id": "150370117",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Rất tiếc phải thông báo với bạn, dịch vụ chăm sóc khách hàng người thật đang bận, vui lòng đợi...",
+						"NextMessageId": "150370118"
+					},
+					"150370118": {
+						"Id": "150370118",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Haha, đùa thôi, sợ rồi sao?",
+						"NextMessageId": "150370119"
+					},
+					"150370119": {
+						"Id": "150370119",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Nhắc bạn một câu, tiếp theo phải cẩn thận đấy",
+						"NextMessageId": "150370120"
+					},
+					"150370120": {
+						"Id": "150370120",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Thợ Săn Stellaron, Sói Bạc...",
+						"NextMessageId": "150370121"
+					},
+					"150370121": {
+						"Id": "150370121",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Sắp tham gia Trò Chơi Ảo Nguyệt",
+						"NextMessageId": "150370122"
+					},
+					"150370122": {
+						"Id": "150370122",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Image": "SpriteOutput/Emoji/30007.png",
+						"Text": "[Hình ảnh]",
+						"NextMessageId": "choice35"
+					},
+					"150370123": {
+						"Id": "150370123",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bây giờ cô ấy mới tới, có hơi muộn rồi phải không?",
+						"NextMessageId": "150370124"
+					},
+					"150370124": {
+						"Id": "150370124",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Haha, đừng thấy tôi vào trận muộn, chắc chắn sẽ thắng nhanh hơn {F#cô}{M#anh}.",
+						"NextMessageId": "150370127"
+					},
+					"150370125": {
+						"Id": "150370125",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Đừng giả vờ nữa Sói Bạc, cô hack tài khoản của Cục Quản Chế Dị Thể?",
+						"NextMessageId": "150370126"
+					},
+					"150370126": {
+						"Id": "150370126",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Chuyển cho tôi 6.100.000.000 Nguyện Bảo, tôi sẽ cho bạn biết đáp án",
+						"NextMessageId": "150370127"
+					},
+					"150370127": {
+						"Id": "150370127",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Cục Quản Chế Dị Thể đã ngắt kết nối",
+						"NextMessageId": "choice42"
+					},
+					"150370128": {
+						"Id": "150370128",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sói Bạc?",
+						"NextMessageId": "150370130"
+					},
+					"150370129": {
+						"Id": "150370129",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Còn đó không? Alo alo alo?",
+						"NextMessageId": "150370130"
+					},
+					"150370130": {
+						"Id": "150370130",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Gửi tin nhắn thất bại",
+						"NextMessageId": "150370131"
+					},
+					"150370131": {
+						"Id": "150370131",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Cục Quản Chế Dị Thể đã khôi phục kết nối",
+						"NextMessageId": "150370132"
+					},
+					"150370132": {
+						"Id": "150370132",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Xếp hạng thời gian thực: Hạng 2. Khách Tế Bái: Ashveil. Đã xướng tên",
+						"NextMessageId": "150370133"
+					},
+					"150370133": {
+						"Id": "150370133",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Xếp hạng thời gian thực: Hạng 1. Khách Tế Bái: {NICKNAME}. Đã xướng tên",
+						"NextMessageId": "150370134"
+					},
+					"150370134": {
+						"Id": "150370134",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "219",
+						"Text": "Trên đây là bảng xếp hạng Nguyện Lực mới nhất của Khách Tế Bái Mặt Nạ trong Trò Chơi Ảo Nguyệt, thông tin xếp hạng chi tiết hơn sẽ được công bố vào lần sau"
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Xử tử công khai, đáng sợ quá...",
+								"NextMessageId": "150370107"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Gấp gấp gấp, tôi đang ở đâu?",
+								"NextMessageId": "150370108"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Cái quái gì vậy? Tôi bị khóa rồi à?",
+								"NextMessageId": "150370114"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Chuyển sang người thật, muốn khiếu nại",
+								"NextMessageId": "150370116"
+							}
+						]
+					},
+					"choice35": {
+						"Id": "choice35",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Vậy sao? Bây giờ cô ấy mới tới?",
+								"NextMessageId": "150370123"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Đừng giả vờ, chính là cô đúng không?",
+								"NextMessageId": "150370125"
+							}
+						]
+					},
+					"choice42": {
+						"Id": "choice42",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Sói Bạc?",
+								"NextMessageId": "150370128"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Còn đó không? Alo alo alo?",
+								"NextMessageId": "150370129"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"20001": {
 		"Id": "20001",
@@ -131687,6 +132327,965 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"20228": {
+		"Id": "20228",
+		"ContactId": "1504",
+		"ParticpatingContactIds": [
+			"1504",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2022800",
+				"StartingMessageId": "202280000",
+				"Messages": {
+					"202280000": {
+						"Id": "202280000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Chào {NICKNAME}, là tôi, \"Người Dẫn Chuyện\" đây.",
+						"NextMessageId": "202280001"
+					},
+					"202280001": {
+						"Id": "202280001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tôi muốn hỏi bình thường {F#cô}{M#anh} thích ăn gì, có thể giới thiệu cho tôi một vài món không?",
+						"NextMessageId": "202280002"
+					},
+					"202280002": {
+						"Id": "202280002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tốt nhất là thực phẩm dinh dưỡng có mức giá tương đối bình dân.",
+						"NextMessageId": "choice3"
+					},
+					"202280003": {
+						"Id": "202280003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "\"Cơm Rang Tốt Cho Sức Khỏe\" không khói, không dầu, không chất phụ gia, bổ dưỡng nhưng nhạt nhẽo",
+						"NextMessageId": "202280004"
+					},
+					"202280004": {
+						"Id": "202280004",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Có thể thử các món ăn vặt từ nơi khác như Xúc Xích Belobog, Thịt Chim Xiên Xianzhou v.v, chuyển phát nhan hành tinh hôm sau là đến~",
+						"NextMessageId": "202280005"
+					},
+					"202280005": {
+						"Id": "202280005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Nhưng nghe nói không freeship, tôi sẽ tính toán lại chi phí mua sắm một chút, cảm ơn đã đề xuất.",
+						"NextMessageId": "202280011"
+					},
+					"202280006": {
+						"Id": "202280006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Khó giới thiệu quá... Mấy món tôi thích ăn hình như đều chẳng có dinh dưỡng gì",
+						"NextMessageId": "202280007"
+					},
+					"202280007": {
+						"Id": "202280007",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Xiên nướng, hầm thập cẩm, Trà Vui Vẻ, burger cánh, bánh kem...",
+						"NextMessageId": "202280008"
+					},
+					"202280008": {
+						"Id": "202280008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "So với tình hình ăn uống của vị Thám Tử Tro Tàn kia, {F#cô}{M#anh} như vậy cũng được xem là khá cân bằng dinh dưỡng rồi.",
+						"NextMessageId": "202280011"
+					},
+					"202280009": {
+						"Id": "202280009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tôi tưởng anh chỉ thích chuối",
+						"NextMessageId": "202280010"
+					},
+					"202280010": {
+						"Id": "202280010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Không phải tôi ăn, là anh Ashveil.",
+						"NextMessageId": "202280011"
+					},
+					"202280011": {
+						"Id": "202280011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Đúng là đau đầu thật, dạo này anh Ashveil bữa nào cũng ăn chuối cùng tôi. Có lẽ là để cho đỡ phiền, hoặc là để tiết kiệm tiền chăng.",
+						"NextMessageId": "202280012"
+					},
+					"202280012": {
+						"Id": "202280012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Nhưng nếu thiếu đi các dưỡng chất tổng hợp cần thiết cho con người, thì cái đầu của anh ấy sẽ chỉ càng thêm mụ mẫm hơn thôi.",
+						"NextMessageId": "202280013"
+					},
+					"202280013": {
+						"Id": "202280013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Nhiều lần quên mang điện thoại, chính là một trong những biểu hiện lâm sàng của suy dinh dưỡng.",
+						"NextMessageId": "202280014"
+					},
+					"202280014": {
+						"Id": "202280014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Cho nên, tôi phải rèn lại thói quen ăn uống của anh ấy thôi.",
+						"NextMessageId": "choice24"
+					},
+					"202280015": {
+						"Id": "202280015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Rèn kiểu gì vậy? Tôi cũng muốn quản lý sức khỏe nữa!",
+						"NextMessageId": "202280018"
+					},
+					"202280016": {
+						"Id": "202280016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Đúng là một trợ lý kiểu \"bảo mẫu\" tuyệt vời quá mà!",
+						"NextMessageId": "202280017"
+					},
+					"202280017": {
+						"Id": "202280017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Với mức độ lơ là của anh ấy, việc tôi đứng ra lo liệu cũng là điều nằm trong dự đoán thôi.",
+						"NextMessageId": "202280018"
+					},
+					"202280018": {
+						"Id": "202280018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Mấy ngày đầu, tôi nghiền nhuyễn chuối, rồi lén trộn thêm các loại trái cây khác vào cho anh ấy.",
+						"NextMessageId": "202280019"
+					},
+					"202280019": {
+						"Id": "202280019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Hiệu quả khá tốt, ăn uống bình thường, không có biểu hiện chống đối rõ rệt, cũng không có phản ứng căng thẳng.",
+						"NextMessageId": "202280020"
+					},
+					"202280020": {
+						"Id": "202280020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tiếp theo tôi định tăng dần tỷ lệ thức ăn mới, thêm vào các món nóng mà con người ưa thích, trộn lẫn dần dần.",
+						"NextMessageId": "202280021"
+					},
+					"202280021": {
+						"Id": "202280021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Vừa bảo vệ dạ dày, vừa có thể khơi dậy lại hứng thú của anh ấy đối với các món ăn khác của loài người thông qua vị giác.",
+						"NextMessageId": "202280022"
+					},
+					"202280022": {
+						"Id": "202280022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Một liệu trình tối thiểu 7 ngày, gọi tắt là... Phương Pháp Đổi Thức Ăn 7 Ngày, vô cùng khoa học!",
+						"NextMessageId": "choice37"
+					},
+					"202280023": {
+						"Id": "202280023",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Phương Pháp Đổi Thức Ăn 7 Ngày, đã tiếp thu!",
+						"NextMessageId": "202280026"
+					},
+					"202280024": {
+						"Id": "202280024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh còn giống chủ nhân của anh ấy hơn",
+						"NextMessageId": "202280025"
+					},
+					"202280025": {
+						"Id": "202280025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Mối quan hệ thám tử và trợ lý giữa chúng tôi sẽ không thay đổi.",
+						"NextMessageId": "202280026"
+					},
+					"202280026": {
+						"Id": "202280026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Để xem nào, hôm qua là hai quả táo, một quả trứng, một bát nếp, một thìa chuối, ba hũ muối.",
+						"NextMessageId": "202280027"
+					},
+					"202280027": {
+						"Id": "202280027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Ồ, giờ này chắc anh ấy sắp về rồi, tôi đi chuẩn bị món \"Tháp Muối Táo Chuối\" hôm nay đây.",
+						"NextMessageId": "202280028"
+					},
+					"202280028": {
+						"Id": "202280028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tạm biệt."
+					},
+					"choice3": {
+						"Id": "choice3",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Giới thiệu nhiệt liệt",
+								"NextMessageId": "202280003"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Rất khó giới thiệu",
+								"NextMessageId": "202280006"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Anh đã phản bội chuối",
+								"NextMessageId": "202280009"
+							}
+						]
+					},
+					"choice24": {
+						"Id": "choice24",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Rèn kiểu gì vậy?",
+								"NextMessageId": "202280015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Trợ lý kiêm \"bảo mẫu\" tốt quá",
+								"NextMessageId": "202280016"
+							}
+						]
+					},
+					"choice37": {
+						"Id": "choice37",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Đã tiếp thu!",
+								"NextMessageId": "202280023"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Ai là chủ nhân của ai?",
+								"NextMessageId": "202280024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
+	},
+	"20229": {
+		"Id": "20229",
+		"ContactId": "1504",
+		"ParticpatingContactIds": [
+			"1504",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2022900",
+				"StartingMessageId": "202290000",
+				"Messages": {
+					"202290000": {
+						"Id": "202290000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "<u>Sự thật chỉ có một, không phải cái này thì là cái kia. Cuốn \"21 Câu Hỏi Tạm Biệt Suy Luận Kém Hiệu Quả\" này, tôi chỉ mất 0,99 giây là học xong hết, vượt qua 99,99% người ở Planarcadia, {F#cô}{M#anh} cũng thử xem nhé</u>",
+						"NextMessageId": "choice1"
+					},
+					"202290001": {
+						"Id": "202290001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Thì ra muốn quảng cáo bán sách còn phải biết đọc nhanh lượng tử à?",
+						"NextMessageId": "202290002"
+					},
+					"202290002": {
+						"Id": "202290002",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tới luôn đi, tôi có thể nhanh hơn",
+						"NextMessageId": "202290005"
+					},
+					"202290003": {
+						"Id": "202290003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Đây là ủy thác quảng cáo bán sách à?",
+						"NextMessageId": "202290004"
+					},
+					"202290004": {
+						"Id": "202290004",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tới đi, tôi có thể thắng anh",
+						"NextMessageId": "202290005"
+					},
+					"202290005": {
+						"Id": "202290005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Phiên Bản Trải Nghiệm Câu 1:",
+						"NextMessageId": "202290006"
+					},
+					"202290006": {
+						"Id": "202290006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "\"Đêm khuya, nạn nhân vào bếp tìm đồ ăn, chỉ nghe 'bịch' một tiếng, anh ta chết.\" Hãy tái hiện lại vụ án...",
+						"NextMessageId": "choice10"
+					},
+					"202290007": {
+						"Id": "202290007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Nạn nhân đang đói cồn cào đã lẻn vào bếp nhà người khác để kiếm một bữa no nê, không may chạm mặt chủ nhà đã phát hiện tiếng động lạ, bị chủ nhà đánh gục.",
+						"NextMessageId": "202290008"
+					},
+					"202290008": {
+						"Id": "202290008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Ừm, vụ đột nhập trộm cắp rất hợp lý. Nhưng {F#cô}{M#anh} có vẻ đã bỏ sót manh mối then chốt là tiếng \"bịch\" này.",
+						"NextMessageId": "202290009"
+					},
+					"202290009": {
+						"Id": "202290009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tại sao lại là một tiếng \"bịch\", chứ không phải một tiếng \"á\"?",
+						"NextMessageId": "202290010"
+					},
+					"202290010": {
+						"Id": "202290010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tuyên bố đáp án...",
+						"NextMessageId": "202290011"
+					},
+					"202290011": {
+						"Id": "202290011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Nạn nhân là một con gián",
+						"NextMessageId": "202290021"
+					},
+					"202290012": {
+						"Id": "202290012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Chủ nhà đói đến không chịu nổi, vì quá vội vàng đã ăn phải thức ăn bị biến chất rồi tử vong, ngã \"bịch\" xuống đất.",
+						"NextMessageId": "202290013"
+					},
+					"202290013": {
+						"Id": "202290013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Thoạt nhìn thì như một vụ án mạng, nhưng thực chất là tai nạn, tư duy ngược khá đấy, tiếc là vẫn không đúng.",
+						"NextMessageId": "202290014"
+					},
+					"202290014": {
+						"Id": "202290014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Con người, lúc nào cũng biết đói, lúc nào cũng có thể ăn, nhưng mấu chốt của câu hỏi lại nhấn mạnh vào \"ban đêm\"",
+						"NextMessageId": "202290015"
+					},
+					"202290015": {
+						"Id": "202290015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tuyên bố đáp án...",
+						"NextMessageId": "202290016"
+					},
+					"202290016": {
+						"Id": "202290016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Nạn nhân là một con gián",
+						"NextMessageId": "202290021"
+					},
+					"202290017": {
+						"Id": "202290017",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Ban đêm... Nhà bếp... Ăn cơm... \"Bịch\" một tiếng...",
+						"NextMessageId": "202290018"
+					},
+					"202290018": {
+						"Id": "202290018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Nạn nhân là một con gián",
+						"NextMessageId": "202290019"
+					},
+					"202290019": {
+						"Id": "202290019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tôi đoán bừa thôi",
+						"NextMessageId": "202290020"
+					},
+					"202290020": {
+						"Id": "202290020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Đúng là thám tử tài ba!",
+						"NextMessageId": "202290021"
+					},
+					"202290021": {
+						"Id": "202290021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Những vụ án tôi phá được phần lớn cũng như vậy, hợp tình hợp lý, nhưng lại nằm ngoài dự đoán",
+						"NextMessageId": "202290022"
+					},
+					"202290022": {
+						"Id": "202290022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Vậy nên, một cuốn cẩm nang suy luận chuẩn sách giáo khoa này, {F#cô}{M#anh} có chắc là không muốn lấy một cuốn không?",
+						"NextMessageId": "202290023"
+					},
+					"202290023": {
+						"Id": "202290023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Thêm một câu nữa để cảm nhận nhé: \"Nạn nhân ra ngoài đi dạo đụng phải thứ dài dài xanh xanh, rồi bất ngờ tử vong.\" Hãy tái hiện lại vụ án...",
+						"NextMessageId": "202290024"
+					},
+					"202290024": {
+						"Id": "202290024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Ơ... Khoan đã",
+						"NextMessageId": "202290025"
+					},
+					"202290025": {
+						"Id": "202290025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Cầm nhầm quyển \"Đố Vui Xoắn Não\" mất rồi",
+						"NextMessageId": "choice40"
+					},
+					"202290026": {
+						"Id": "202290026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Cũng là một dạng sách suy luận thôi, còn có học được thứ gì thật sự không thì tính sau",
+						"NextMessageId": "202290027"
+					},
+					"202290027": {
+						"Id": "202290027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Không sao",
+						"NextMessageId": "202290028"
+					},
+					"202290028": {
+						"Id": "202290028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Cuốn này, cũng có trong đơn ủy thác của tôi",
+						"NextMessageId": "202290029"
+					},
+					"202290029": {
+						"Id": "202290029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "<u>Từ 9 đến 999 tuổi đều có thể hiểu cuốn \"Đố Vui Xoắn Não\" này, tôi chỉ mất 0,99 giây là học xong hết, vượt qua 99,99% người ở Planarcadia, {F#cô}{M#anh} cũng thử xem nhé</u>",
+						"NextMessageId": "202290030"
+					},
+					"202290030": {
+						"Id": "202290030",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Image": "SpriteOutput/Emoji/126009.png",
+						"Text": "[Kiệt Sức]"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Đọc nhanh lượng tử?",
+								"NextMessageId": "202290001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Đây là ủy thác bán sách sao?",
+								"NextMessageId": "202290003"
+							}
+						]
+					},
+					"choice10": {
+						"Id": "choice10",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Đột nhập trộm cắp",
+								"NextMessageId": "202290007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Ngộ độc thực phẩm",
+								"NextMessageId": "202290012"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "(Đoán bừa)",
+								"NextMessageId": "202290017"
+							}
+						]
+					},
+					"choice40": {
+						"Id": "choice40",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Cũng là một loại sách suy luận",
+								"NextMessageId": "202290026"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
+	},
+	"20230": {
+		"Id": "20230",
+		"ContactId": "1504",
+		"ParticpatingContactIds": [
+			"1504",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023000",
+				"StartingMessageId": "202300000",
+				"Messages": {
+					"202300000": {
+						"Id": "202300000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Trên đời sao lại có sinh vật dễ thương đến thế",
+						"NextMessageId": "202300001"
+					},
+					"202300001": {
+						"Id": "202300001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Móng vuốt mềm mại, còn có mùi thơm như cơm vậy",
+						"NextMessageId": "202300002"
+					},
+					"202300002": {
+						"Id": "202300002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tiếc là camera của tôi hỏng rồi, không thể chụp ảnh cho chó con thiên thần",
+						"NextMessageId": "choice3"
+					},
+					"202300003": {
+						"Id": "202300003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Đồng ý! Chó con giải cứu thế giới!",
+						"NextMessageId": "202300008"
+					},
+					"202300004": {
+						"Id": "202300004",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh nuôi chó à? Cho tôi sờ cái nào",
+						"NextMessageId": "202300005"
+					},
+					"202300005": {
+						"Id": "202300005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tiếc thật, là chú chó của người ủy thác",
+						"NextMessageId": "202300008"
+					},
+					"202300006": {
+						"Id": "202300006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Xin lỗi, tôi là con sen của loài mèo",
+						"NextMessageId": "202300007"
+					},
+					"202300007": {
+						"Id": "202300007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Ồ, vậy sao",
+						"NextMessageId": "202300008"
+					},
+					"202300008": {
+						"Id": "202300008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Có một nhân vật quan trọng không thể tiết lộ danh tính đã nhận được một bức thư đe dọa không rõ nguồn gốc sáng nay",
+						"NextMessageId": "202300009"
+					},
+					"202300009": {
+						"Id": "202300009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Chỉ viết mấy chữ: \"Lấy mạng chó của ngươi\"",
+						"NextMessageId": "202300010"
+					},
+					"202300010": {
+						"Id": "202300010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Tôi không chút do dự liền nhận ủy thác này",
+						"NextMessageId": "202300011"
+					},
+					"202300011": {
+						"Id": "202300011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Giờ thì không ai dám đụng đến một sợi lông của chó con",
+						"NextMessageId": "choice19"
+					},
+					"202300012": {
+						"Id": "202300012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Có khi nào, \"chó\" không phải là danh từ không?",
+						"NextMessageId": "202300013"
+					},
+					"202300013": {
+						"Id": "202300013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Ồ, {F#cô}{M#anh} nói người ủy thác à? Đương nhiên tôi biết, yên tâm, Người Dẫn Chuyện đã đi bảo vệ anh ta rồi",
+						"NextMessageId": "202300014"
+					},
+					"202300014": {
+						"Id": "202300014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "So với kim chủ, chó con cần tôi hơn",
+						"NextMessageId": "choice25"
+					},
+					"202300015": {
+						"Id": "202300015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tôi thấy rõ ràng là anh cần nó hơn",
+						"NextMessageId": "202300017"
+					},
+					"202300016": {
+						"Id": "202300016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Hay là anh nuôi một con chó đi, đỡ phải suốt ngày nựng ké chó nhà người khác",
+						"NextMessageId": "202300017"
+					},
+					"202300017": {
+						"Id": "202300017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Haizz!!! Nếu mua nổi thức ăn cho chó thì tôi đã tự nuôi rồi",
+						"NextMessageId": "202300018"
+					},
+					"202300018": {
+						"Id": "202300018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Người ủy thác nói rồi, chó con còn được gọi là \"thú nuốt tiền\"... Tôi không thể để chó con theo tôi chịu khổ được",
+						"NextMessageId": "202300019"
+					},
+					"202300019": {
+						"Id": "202300019",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Image": "SpriteOutput/Emoji/126010.png",
+						"Text": "[Nghèo Khó]",
+						"NextMessageId": "202300020"
+					},
+					"202300020": {
+						"Id": "202300020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Khoan đã, có gì đó không đúng lắm",
+						"NextMessageId": "202300021"
+					},
+					"202300021": {
+						"Id": "202300021",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202300022"
+					},
+					"202300022": {
+						"Id": "202300022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Ngoan nào, đừng gặm ví của tôi, không có tiền đâu. Chó con không được ăn bậy bạ. Gâu gâu gâu gâu!",
+						"NextMessageId": "202300023"
+					},
+					"202300023": {
+						"Id": "202300023",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Chuyển đổi tin nhắn thoại hoàn tất",
+						"NextMessageId": "202300024"
+					},
+					"202300024": {
+						"Id": "202300024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Sao lại chửi bậy thế hả? Gâu gâu gâu! Nghe thấy chưa? Chó con không được chửi bậy. Gâu gâu gâu gâu!",
+						"NextMessageId": "202300025"
+					},
+					"202300025": {
+						"Id": "202300025",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Chuyển đổi tin nhắn thoại hoàn tất",
+						"NextMessageId": "202300026"
+					},
+					"202300026": {
+						"Id": "202300026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Gâu gâu gâu tiền của tôi gâu gâu gâu! Gâu gâu gâu gâu!",
+						"NextMessageId": "202300027"
+					},
+					"202300027": {
+						"Id": "202300027",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Chuyển đổi tin nhắn thoại hoàn tất",
+						"NextMessageId": "202300028"
+					},
+					"202300028": {
+						"Id": "202300028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Chó con không được gâu gâu gâu! Gâu gâu gâu gâu gâu gâu!",
+						"NextMessageId": "202300029"
+					},
+					"202300029": {
+						"Id": "202300029",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Chuyển đổi tin nhắn thoại hoàn tất",
+						"NextMessageId": "202300030"
+					},
+					"202300030": {
+						"Id": "202300030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Người Dẫn Chuyện gâu gâu gâu gâu gâu gâu gâu gâu gâu gâu",
+						"NextMessageId": "202300031"
+					},
+					"202300031": {
+						"Id": "202300031",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Chuyển đổi tin nhắn thoại hoàn tất",
+						"NextMessageId": "202300032"
+					},
+					"202300032": {
+						"Id": "202300032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Gâu gâu gâu gâu gâu gâu gâu gâu gâu gâu",
+						"NextMessageId": "202300033"
+					},
+					"202300033": {
+						"Id": "202300033",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Chuyển đổi tin nhắn thoại hoàn tất",
+						"NextMessageId": "202300034"
+					},
+					"202300034": {
+						"Id": "202300034",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Ashveil đã offline"
+					},
+					"choice3": {
+						"Id": "choice3",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Đúng đó đúng đó!",
+								"NextMessageId": "202300003"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Anh nuôi chó à?",
+								"NextMessageId": "202300004"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Tôi là con sen của loài mèo",
+								"NextMessageId": "202300006"
+							}
+						]
+					},
+					"choice19": {
+						"Id": "choice19",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Khoan khoan khoan khoan!",
+								"NextMessageId": "202300012"
+							}
+						]
+					},
+					"choice25": {
+						"Id": "choice25",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Tôi thấy anh cần nó hơn đấy",
+								"NextMessageId": "202300015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Hay là anh nuôi một con chó đi",
+								"NextMessageId": "202300016"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"20998": {
 		"Id": "20998",

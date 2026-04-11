@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "Eine Audienz bei einem Gott verlangt immer ein Opfer.",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "Die Ehre des Vaters",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Der Albtraum aller Kinder: Den Eltern den eigenen Job erklären.\n<color=#8790abff>※ Führe Himekos Vater durch den Express.</color>",
+		"HiddenDescription": "Der Albtraum aller Kinder: Den Eltern den eigenen Job erklären.",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "Fangt mich, wenn ihr könnt",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Die soziale Identität ist nichts weiter als eine der unendlichen Masken, die der Mensch trägt.\n<color=#8790abff>※ Mach ein Foto mit Fräulein Nihilux.</color>",
+		"HiddenDescription": "Die soziale Identität ist nichts weiter als eine der unendlichen Masken, die der Mensch trägt.",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "Ich werde der Kopf sein!",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Mechatron, aufrecht auf der Erde stehend!\n<color=#8790abff>※ Baue deinen eigenen riesigen Mechatron zusammen und kämpfe gegen den Dämmerungstrupp.</color>",
+		"HiddenDescription": "Mechatron, aufrecht auf der Erde stehend!",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "Das Streben nach Glück",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Jeder strebt nach Glück, doch wer sagt, was Glück ist?\n<color=#8790abff>※ Schließe die Untersuchung gegen die Wohltätigkeitsorganisation „Forschungsgesellschaft für glückliches Lächeln“ ab.</color>",
+		"HiddenDescription": "Jeder strebt nach Glück, doch wer sagt, was Glück ist?",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "Traumfresser",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Künstler sind Tiere, die im Wachzustand träumen.\n<color=#8790abff>※ Offenbare die wahre Identität des Autors von „Flauschis himmlische Reise“ im Verlag.</color>",
+		"HiddenDescription": "Künstler sind Tiere, die im Wachzustand träumen.",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "Express zur Hölle",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "???\n<color=#8790abff>※ Erreiche einen unbekannten, stillgelegten Stationsbereich.</color>",
+		"HiddenDescription": "???",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "Glückschip",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Danke an den Freund, der den Chip verschenkt hat.\n<color=#8790abff>※ Mit Pearls Hilfe in die Realität zurückgekehrt.</color>",
+		"HiddenDescription": "Danke an den Freund, der den Chip verschenkt hat.",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "Wahngerede des Phantasmonds",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Er redet, du hörst zu.\n<color=#8790abff>※ Höre dir Phantasmonds wahnsinnige Ansprache an.</color>",
+		"HiddenDescription": "Er redet, du hörst zu.",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Echter Rollenspieler",
@@ -4898,7 +4986,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Geheimnissen auf den Grund gehen",
-		"Description": "Ändere im Spielmodus „Sprung-Zeit“ an der Perdido-Station „Interplanarer Sprung!“ wiederholt die Schwerkraft, um die Wispae hin- und herspringen zu lassen.",
+		"Description": "Ändere im Spielmodus „Sprung-Zeit“ an der Perdido-Station „Interplanarer Sprung!“ wiederholt die Schwerkraft, um die Wispaes hin- und herspringen zu lassen.",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5073,6 +5161,146 @@
 		"SeriesText": "Geheimnissen auf den Grund gehen",
 		"Description": "Lausche vor dem Karaoke-Laden in Duomension City oder Dovebrook heimlich dem schönen Gesang, der nach draußen dringt.",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "Ein Land namens Arcadia",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Sammle die sechs noch existierenden Seiten der „Chroniken des schwimmenden Schmieröls“ und finde alle Sammelobjekte in der Welt der „Chroniken des schwimmenden Schmieröls“ in Duomension City.",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "Inneres Feuer des blauen Lotus",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Zerschmettere alle Heliobi in „Sprung-Zeit“ in der Wolkenstation „Ausguck“.",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "Und dann ist Arbeitstag",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Besiege den großen Septimus erneut in „Sprung-Zeit“ in der Wolkenstation „Ausguck“.",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "„Betreten verboten“",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schleiche dich in das Mitarbeiterbüro des Pearluxe-Turms.",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "Skinners Taube",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Aktiviere „Interplanarer Sprung!“ #1-mal hintereinander den Knopf, der Goldmünzen auswirft.",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "Zeit zum Kombinieren!",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Öffne den verborgenen Pfad und gelange zur Brust des MagiMechs.",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "Pearluxe-Feuerleitarray",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Besiege den riesigen Igelgeist in „Interplanarer Sprung!“ im Pearluxe-Turm.",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "Die Goldene Regel der Katze",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Fange bei der Montage des Mechatrons alle Pixelmünzen auf, die von der Katze fallengelassen werden.",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "Ultimativ-Jahrhunderts-Formation des Super-Mechatrons",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Zerstöre alle zerstörbaren Gebäude im Filmstudio, in dem der Mechatron-Kampf stattfand.",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "Super-Mechatron-Talentscout",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Finde vier „seltsam aussehende“ Mechatrons.",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "Heißes Blut erkaltet nicht",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schließe die Herausforderung „Flammenlanze, vorwärts!“ beim „Star-Rail-FEST“ ab.",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "Vom Abgrund bis zum Himmel",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Stelle die „Teilung des Meeres“ im Xianzhou-Bereich des „Star-Rail-FEST“ nach.",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "Arcadia-Variation: Blechmann",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Spiele die seltsame Melodie und finde die mysteriöse Kreatur, die sich im Pearluxe-Turm versteckt.",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "Arcadia-Variation: Formwandelnder Furbo",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Spiele die seltsame Melodie und finde die mysteriöse Kreatur, die sich in der Wolkenstation „Ausguck“ versteckt.",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "Besiege die Vollkommenen Vier in „Lasst die Würfel fallen! Kollektiv!“.",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "Aus Spaß wird Ernst",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Zolle Silas im Kampftest-Sandkasten mit einem Schlag voller Kraft Respekt.",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "Aus Ernst wird Spaß",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Entscheide dich dazu, Silas’ Traum im Kampftest-Sandkasten zu schützen.",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "Bitte übernimm die Verantwortung für deine Schöpfung.",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Fang die faule Nihilux im Chaos der Signierstunde ein und bring sie zurück.",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "Auch das ist Teil der Fiktion",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Lass Furbulitzer im Chaos der Signierstunde mutig Aufgaben übernehmen, die nicht seine sind.",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "Kleider machen mehr als Leute",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Gib dem zögernden Mechatron vor dem Modifikationsraum für Mechatrone einen Rat.",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "Ein Albtraum für die Bösen",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Sprich separat mit Caenis SP und Donnerbogen.",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "Die Liebe in den Zeiten von Arcadia",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Bezeuge auf der Straße, wie Passanten ihre Gefühle austauschen.",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "Unvergleichlich",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Besiege alle Gegner im Club-Showdown.",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "An alle Einheiten: Auf mein Kommando!",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schalte alle Fähigkeiten in „Kampfvorbereitung“ frei.",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "Feinde aus dem Himmel",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schließe den Modus „Herausforderung der Dämonenfürstin“ ab.",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Schatten sterben unendlich oft (I)",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "Vorfreude auf den Kampf",
 		"Description": "Aha besiegt #1 Gegner mit „Gelächter im Anflug“.",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "Die drei Musketiere",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Erringe 1-mal einen Kampfsieg mit einem Team, das gleichzeitig Ashveil, Rappa und Boothill enthält.",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "Die Gerechtigkeit ist spät, nicht gestrichen",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Die Verbündeten griffen insgesamt #1-mal Ziele mit „Köder“ an, ohne Ashveils Folgeangriff auszulösen.",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "Zwei auf einen Streich",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Besiege mit der verbündeten Figur Ashveil #1 Gegner gleichzeitig mit einem einzigen Folgeangriff.",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "Die Sonne geht sofort auf",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Lass im Kampf gegen den „Dämmerungstrupp“ diesen eine sofortige Aktion auslösen, indem er im Status „Dämmerungskraftfeld“ von einem Angriff eines bestimmten Typs getroffen wird.",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "Anfängerglück tötet den Meister",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Bringe den „SD-Zivilmechatron“ im Kampf dazu, #1 Gegner zu besiegen.",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "Wassersparmaßnahme",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Entferne im Kampf gegen „Legierungs-Mechatron: König Pom-Pom“ seinen Status „Dampfreinigung“.",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "Blasenpionier",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Löse in einem einzigen Kampf gegen „Legierungs-Mechatron: König Pom-Pom“ mindestens #1-mal den Effekt „Hochglanz“ von „Starke Schaumseife“ aus.",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

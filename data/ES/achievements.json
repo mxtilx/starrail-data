@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "Las audiencias con dioses siempre requieren ofrendas.",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "En el nombre del padre",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "La pesadilla de todos los niños: presentar tu trabajo a tus padres.\n<color=#8790abff>※Guía al padre de Himeko en un recorrido por el Expreso.</color>",
+		"HiddenDescription": "La pesadilla de todos los niños: presentar tu trabajo a tus padres.",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "Atrápame si puedes",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "La identidad social no es más que una de las infinitas máscaras que usan los humanos.\n<color=#8790abff>※Hazte una foto con Nihilux.</color>",
+		"HiddenDescription": "La identidad social no es más que una de las infinitas máscaras que usan los humanos.",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "¡Iré adelante!",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Mecatrón, erguido sobre la tierra.\n<color=#8790abff>※Ensambla tu propio mecatrón gigante y enfréntate a la Patrulla Filonoche.</color>",
+		"HiddenDescription": "Mecatrón, erguido sobre la tierra",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "En busca de la felicidad",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Todos buscan la felicidad, pero ¿quién la define?\n<color=#8790abff>※Completa la investigación sobre la Sociedad de Investigación Sonrisa Feliz.</color>",
+		"HiddenDescription": "Todos buscan la felicidad, pero ¿quién la define?",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "Comesueños",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Los creadores son animales que sueñan despiertos.\n<color=#8790abff>※Revela la verdadera identidad de la autora de «Pelosete más allá del cielo» en la revista.</color>",
+		"HiddenDescription": "Los creadores son animales que sueñan despiertos.",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "Tren con destino al infierno",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "¿?\n<color=#8790abff>※Llega al espacio escondido de la estación abandonada.</color>",
+		"HiddenDescription": "¿?",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "Ficha de la suerte",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Gracias a la amiga que me dio la ficha.\n<color=#8790abff>※Regresa a la realidad con la ayuda de Perla.</color>",
+		"HiddenDescription": "Gracias al amigo que me dio las fichas.",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "Desvaríos de la fabuluna",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Ella lo dice, tú lo escuchas.\n<color=#8790abff>※Escucha la delirante declaración de la fabuluna.</color>",
+		"HiddenDescription": "Ella lo dice, tú lo escuchas.",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "{F#Jugadora}{M#Jugador} legítim{F#a}{M#o} de juegos de rol",
@@ -5073,6 +5161,146 @@
 		"SeriesText": "Indagación de misterios",
 		"Description": "Escucha a escondidas la hermosa canción que se puede oír delante del karaoke de Bidimensia o del distrito Palomaguas.",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "Una tierra llamada arcadia",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Reúne las seis páginas que existen de «Crónicas de la Grasa Flotante» y completa todos los elementos de recolección en el mundo de Crónicas de la Grasa Flotante de Bidimensia.",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "Fuego del corazón del loto azul",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Destruye todos los heliobus en \"Hora del salto\" de Islanube Contemplativa.",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "Luego, llegan los días laborales",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Vuelve a derrotar al Gran Septimus en \"Hora del salto\" de Islanube Contemplativa.",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "Prohibido el paso",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Cuélate en la oficina de empleados de la Torre Perlux.",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "Las palomas de Skinner",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "En Salto bidimensional, activa consecutivamente el botón que hace salir monedas #1 veces.",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "¡Hora de fusionarse!",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Encuentra el camino oculto y llega al pecho del Magitrón.",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "Matriz de control de fuego Perlux",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Derrota al fabuespín gigante en el Salto bidimensional de la Torre Perlux.",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "La regla de oro de los gatos",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Durante el ensamblaje del mecatrón, atrapa todos los pixelpesos que suelte el gato.",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "Formación letal centenaria de los supermecatrones",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Destruye todos los edificios destructibles en el estudio de combate de mecatrones.",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "Explorador supermecatrón",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Encuentra a cuatro mecatrones de \"aspecto peculiar\".",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "Pasión inquebrantable",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Completa el desafío de carga de lanza en llamas del Festival Star Rail.",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "Del abismo al cielo",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Recrea la apertura del mar en la zona de exposición de Xianzhou del Festival Star Rail.",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "Variaciones de la arcadia: Hombre de hojalata",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toca una melodía extraña y encuentra a la misteriosa criatura oculta en la Torre Perlux.",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "Variaciones de la arcadia: Osipachi cambiaformas",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toca una melodía extraña y encuentra a la misteriosa criatura oculta en la estación de Islanube Contemplativa.",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "Derrota a los Cuatro Formidables en «Prepadados, listos... ¡Fuerza Cósmica!».",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "Cuando la ficción se vuelve realidad",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "En la arena de pruebas de combate, rinde homenaje a Hanson con un golpe a máxima potencia.",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "Haz como si fuese real",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "En la arena de pruebas de combate, elige proteger el sueño de Hanson.",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "La responsabilidad de crear",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Haz que la holgazana de Nihilux regrese a la firma de cómics.",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "Esto también es parte de la ficción",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Haz que Pulitzpachi asuma valientemente responsabilidades que no le corresponden en la firma de cómics.",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "El hábito hace al monje",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Ofrece consejos a un mecatrón indeciso frente a la sala de modificaciones de mecatrones.",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "A bribón, bribón y medio",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Habla tanto con Caenis Especial como con Amorrayo.",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "El amor en tiempos de la arcadia",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Presencia cómo los transeúntes se transmiten sus sentimientos.",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "Invencible",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Vence a todos los oponentes en el Enfrentamiento de clubes.",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "¡Escuchen mis órdenes, soldados!",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Desbloquea todas las habilidades de Potenciación de refuerzo.",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "Enemigo en el cielo",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Supera el reto de la villana alienígena.",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Las sombras mueren varias veces (I)",
@@ -13083,7 +13411,7 @@
 	},
 	"4072612": {
 		"Id": "4072612",
-		"Name": "¡Debería probar con la Gran Lotería Galáctica!",
+		"Name": "¡Debería probar con la Gran Lotería Cósmica!",
 		"SortOrder": 886,
 		"Rarity": "Low",
 		"SeriesId": 7,
@@ -14852,6 +15180,76 @@
 		"SeriesText": "Ansia de batalla",
 		"Description": "Aha lanza Que haya risas y elimina a #1 enemigo.",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "Los tres mosqueteros",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Gana 1 batalla con un equipo que incluya a Ashveil, Rappa y Boothill.",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "Lo que se siembra, tarde o temprano se cosecha",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Los compañeros de equipo aliados atacan objetivos marcados como Cebo un total de #1 veces sin activar el ataque adicional de Ashveil.",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "Dos pájaros de un tiro",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Elimina a #1 enemigos con un solo ataque adicional del personaje aliado Ashveil.",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "El sol se eleva de inmediato",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En el combate contra la Patrulla Filonoche, cuando esta se encuentra en el estado de Campo de fuerza Filonoche, recibe un ataque de un tipo determinado y activa una acción inmediata.",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "La suerte del principiante derrota al maestro",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En el combate contra Mecatrón de Uso Civil NLS, haz que elimine a #1 enemigos.",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "Cada gota cuenta",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En el combate contra Mecatrón de Aleación: Rey Pom-Pom, disipa su estado Lavado a vapor.",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "Marcador de tendencias jabonosas",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En un solo combate contra Mecatrón de Aleación: Rey Pom-Pom, activa el efecto Reluciente de \"Jabón potente\" al menos #1 veces.",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

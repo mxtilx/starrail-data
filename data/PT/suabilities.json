@@ -1,14 +1,14 @@
 {
 	"1": {
 		"Id": "1",
-		"Name": "Ressonância do Caminho",
+		"Name": "Path Resonance",
 		"IsBigNode": true,
-		"Effect": "Desbloqueia um sistema de Caminhos do Universo Simulado e permite a seleção de Caminhos no início da exploração. Ao obter 3 Bênçãos do Caminho escolhido em exploração, a Ressonância do Caminho será ativada e pode ser usada ativamente como uma habilidade de combate",
-		"EffectTag": "Desbloqueio de Mecanismo Adicional",
+		"Effect": "ปลดล็อกระบบ Path ใน Simulated Universe และสามารถเลือก Path ได้เมื่อเริ่มทำการสำรวจ โดยหลังจากได้รับพรของ Path ที่เลือกในการสำรวจ 3 พรแล้ว จะสามารถเปิดใช้งาน Path Resonance และสามารถใช้สกิลที่เกี่ยวข้องในการต่อสู้ได้",
+		"EffectTag": "ปลดล็อกกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 50
 			}
 		],
@@ -22,14 +22,14 @@
 	},
 	"2": {
 		"Id": "2",
-		"Name": "Bônus de Todas as Habilidades",
+		"Name": "เสริมความสามารถทั้งหมด",
 		"IsBigNode": true,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens é aumentado em 70, a DEF, em 60, e os PV máximos em 130.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 70, DEF เพิ่มขึ้น 60 และ HP สูงสุดเพิ่มขึ้น 130",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 50
 			}
 		],
@@ -45,14 +45,14 @@
 	},
 	"3": {
 		"Id": "3",
-		"Name": "Bônus de ATQ I",
+		"Name": "เสริมการโจมตี I",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 35.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 35",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 50
 			}
 		],
@@ -66,14 +66,14 @@
 	},
 	"4": {
 		"Id": "4",
-		"Name": "Bônus de DEF I",
+		"Name": "เสริมการป้องกัน I",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 30.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 30",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 50
 			}
 		],
@@ -87,14 +87,14 @@
 	},
 	"5": {
 		"Id": "5",
-		"Name": "Bônus de PV I",
+		"Name": "เสริม HP I",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 60.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 60",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 50
 			}
 		],
@@ -108,14 +108,14 @@
 	},
 	"6": {
 		"Id": "6",
-		"Name": "Formação da Ressonância I",
+		"Name": "Resonance Formation I",
 		"IsBigNode": true,
-		"Effect": "Desbloqueia a Formação da Ressonância do sistema de Caminhos para aumentar a Ressonância do Caminho. Ao obter 6 Bênçãos do Caminho escolhido em exploração, é possível ativar 1 Ressonância do Caminho\n\nAumenta em 10% o Dano causado pela Ressonância do Caminho.",
-		"EffectTag": "Bônus de Mecanismo Adicional",
+		"Effect": "ปลดล็อก Resonance Formation ในระบบ Path เพื่อเสริมพลัง Path Resonance โดยหลังจากได้รับพรของ Path ที่เลือกในการสำรวจ 6 พรแล้ว จะสามารถเลือกเปิดใช้งาน Resonance Formation ได้ 1 อัน\n\nPath Resonance จะสร้าง DMG เพิ่มขึ้น 10%",
+		"EffectTag": "เสริมพลังกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 100
 			}
 		],
@@ -129,14 +129,14 @@
 	},
 	"7": {
 		"Id": "7",
-		"Name": "Revivedor",
+		"Name": "อุปกรณ์ฟื้นคืนชีพ",
 		"IsBigNode": true,
-		"Effect": "Adiciona um Revivedor ao Domínio — Trégua. Consome Fragmentos Cósmicos para reviver aliados derrubados e restaurar os PV deles para 100% dos seus PV máximos.",
-		"EffectTag": "Bônus de Mecanismo Adicional",
+		"Effect": "พื้นที่ - พักผ่อนจะเพิ่มอุปกรณ์ฟื้นคืนชีพ ซึ่งสามารถใช้ Cosmic Fragment รีเซ็ตตัวละครที่หมดสติ และฟื้นฟู HP ปัจจุบันของตัวละครจนถึง 100% ของ HP สูงสุดของตัวละครดังกล่าวได้",
+		"EffectTag": "เสริมพลังกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 100
 			}
 		],
@@ -152,14 +152,14 @@
 	},
 	"8": {
 		"Id": "8",
-		"Name": "Bônus de ATQ II",
+		"Name": "เสริมการโจมตี II",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 40.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 40",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 100
 			}
 		],
@@ -173,14 +173,14 @@
 	},
 	"9": {
 		"Id": "9",
-		"Name": "Bônus de DEF II",
+		"Name": "เสริมการป้องกัน II",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 35.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 35",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 100
 			}
 		],
@@ -194,14 +194,14 @@
 	},
 	"10": {
 		"Id": "10",
-		"Name": "Bônus de PV II",
+		"Name": "เสริม HP II",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 65.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 65",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 100
 			}
 		],
@@ -215,14 +215,14 @@
 	},
 	"11": {
 		"Id": "11",
-		"Name": "Redefinir Bênçãos",
+		"Name": "รีเซ็ตพร",
 		"IsBigNode": true,
-		"Effect": "Ao selecionar uma Bênção no Universo Simulado após derrotar inimigos, você pode consumir Fragmentos Cósmicos para redefinir as Bênçãos apenas 1 vez.",
-		"EffectTag": "Desbloqueio de Mecanismo Adicional",
+		"Effect": "ทุกครั้งที่เลือกรับพรจากการเอาชนะศัตรูใน Simulated Universe ได้สำเร็จ จะสามารถใช้ Cosmic Fragment รีเซ็ตพรที่ปรากฏได้สูงสุด 1 ครั้ง",
+		"EffectTag": "ปลดล็อกกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 150
 			}
 		],
@@ -236,14 +236,14 @@
 	},
 	"12": {
 		"Id": "12",
-		"Name": "Bênçãos do Desbravamento",
+		"Name": "พรบุกเบิก",
 		"IsBigNode": true,
-		"Effect": "Todos os efeitos das Bênçãos do Desbravamento são aprimorados.",
-		"EffectTag": "Bônus de Mecanismo Adicional",
+		"Effect": "เอฟเฟกต์ของพร \"บุกเบิก\" ทั้งหมดจะได้รับการเสริมพลัง",
+		"EffectTag": "เสริมพลังกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 150
 			}
 		],
@@ -259,14 +259,14 @@
 	},
 	"13": {
 		"Id": "13",
-		"Name": "Bônus de ATQ III",
+		"Name": "เสริมการโจมตี III",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 45.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 45",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 150
 			}
 		],
@@ -280,14 +280,14 @@
 	},
 	"14": {
 		"Id": "14",
-		"Name": "Bônus de DEF III",
+		"Name": "เสริมการป้องกัน III",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 35.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 35",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 150
 			}
 		],
@@ -301,14 +301,14 @@
 	},
 	"15": {
 		"Id": "15",
-		"Name": "Bônus de PV III",
+		"Name": "เสริม HP III",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 70.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 70",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 150
 			}
 		],
@@ -322,14 +322,14 @@
 	},
 	"16": {
 		"Id": "16",
-		"Name": "Formação da Ressonância II",
+		"Name": "Resonance Formation II",
 		"IsBigNode": true,
-		"Effect": "Ao obter 10 Bênçãos do Caminho escolhido em exploração, é possível ativar 1 Formação da Ressonância extra\n\nAumenta em 15% o Dano causado pela Ressonância do Caminho.",
-		"EffectTag": "Bônus de Mecanismo Adicional",
+		"Effect": "หลังจากได้รับพรของ Path ที่เลือกในการสำรวจ 10 พรแล้ว จะสามารถเลือกเปิดใช้งาน Resonance Formation เพิ่มเติมได้ 1 อัน\n\nPath Resonance จะสร้าง DMG เพิ่มขึ้น 15%",
+		"EffectTag": "เสริมพลังกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 200
 			}
 		],
@@ -343,14 +343,14 @@
 	},
 	"17": {
 		"Id": "17",
-		"Name": "Recurso Inicial",
+		"Name": "ทรัพยากรเริ่มต้น",
 		"IsBigNode": true,
-		"Effect": "No Universo Simulado, a quantidade inicial de Fragmentos Cósmicos aumenta em 50.",
-		"EffectTag": "Bônus de Mecanismos Adicionais",
+		"Effect": "จำนวน Cosmic Fragment ที่ได้รับตอนเริ่มต้นของ Simulated Universe จะเพิ่มขึ้น 50",
+		"EffectTag": "เสริมพลังกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 200
 			}
 		],
@@ -366,14 +366,14 @@
 	},
 	"18": {
 		"Id": "18",
-		"Name": "Bônus de ATQ IV",
+		"Name": "เสริมการโจมตี IV",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 50.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 50",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 200
 			}
 		],
@@ -387,14 +387,14 @@
 	},
 	"19": {
 		"Id": "19",
-		"Name": "Bônus de DEF IV",
+		"Name": "เสริมการป้องกัน IV",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 40.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 40",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 200
 			}
 		],
@@ -408,14 +408,14 @@
 	},
 	"20": {
 		"Id": "20",
-		"Name": "Bônus de PV IV",
+		"Name": "เสริม HP IV",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 75.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 75",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 200
 			}
 		],
@@ -429,14 +429,14 @@
 	},
 	"21": {
 		"Id": "21",
-		"Name": "Bênçãos Extra",
+		"Name": "พรเพิ่มเติม",
 		"IsBigNode": true,
-		"Effect": "Pode selecionar uma Bênção extra depois de vencer uma batalha pela primeira vez no Universo Simulado.",
-		"EffectTag": "Desbloqueio de Mecanismo Adicional",
+		"Effect": "เมื่อเลือกรับพร หลังจากชนะการต่อสู้ใน Simulated Universe ได้เป็นครั้งแรก จะสามารถเลือกรับพรเพิ่มได้อีก 1 ครั้ง",
+		"EffectTag": "ปลดล็อกกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 300
 			}
 		],
@@ -452,14 +452,14 @@
 	},
 	"22": {
 		"Id": "22",
-		"Name": "Bônus de ATQ V",
+		"Name": "เสริมการโจมตี V",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 60.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 60",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 300
 			}
 		],
@@ -473,14 +473,14 @@
 	},
 	"23": {
 		"Id": "23",
-		"Name": "Bônus de DEF V",
+		"Name": "เสริมการป้องกัน V",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 45.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 45",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 300
 			}
 		],
@@ -494,14 +494,14 @@
 	},
 	"24": {
 		"Id": "24",
-		"Name": "Bônus de PV V",
+		"Name": "เสริม HP V",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 80.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 80",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 300
 			}
 		],
@@ -515,14 +515,14 @@
 	},
 	"25": {
 		"Id": "25",
-		"Name": "Formação da Ressonância III",
+		"Name": "Resonance Formation III",
 		"IsBigNode": true,
-		"Effect": "Ao obter 14 Bênçãos do Caminho escolhido em exploração, é possível ativar 1 Formação da Ressonância extra\n\nAumenta em 20% o Dano causado pela Ressonância do Caminho.",
-		"EffectTag": "Bônus de Mecanismo Adicional",
+		"Effect": "หลังจากได้รับพรของ Path ที่เลือกในการสำรวจ 14 พรแล้ว จะสามารถเลือกเปิดใช้งาน Resonance Formation เพิ่มเติมได้อีก 1 อัน\n\nPath Resonance จะสร้าง DMG เพิ่มขึ้น 20%",
+		"EffectTag": "เสริมพลังกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 450
 			}
 		],
@@ -538,14 +538,14 @@
 	},
 	"26": {
 		"Id": "26",
-		"Name": "Bônus de Chance de CRIT",
+		"Name": "เสริมอัตราคริติคอล",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a Chance de CRIT de todos os personagens é aumentada em 5%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "อัตราคริติคอลของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 5%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 450
 			}
 		],
@@ -559,14 +559,14 @@
 	},
 	"27": {
 		"Id": "27",
-		"Name": "Bônus de Carga de Ressonância",
+		"Name": "เสริมการชาร์จ Resonance",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a Energia da Ressonância do Caminho é aumentada em 20 ao entrar em combate.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ทุกครั้งที่เข้าสู่การต่อสู้ใน Simulated Universe พลังงานของ Path Resonance จะเพิ่มขึ้น 20",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 450
 			}
 		],
@@ -580,14 +580,14 @@
 	},
 	"28": {
 		"Id": "28",
-		"Name": "Bônus de VEL",
+		"Name": "เสริมความเร็ว",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a VEL de todos os personagens é aumentada em 4%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ความเร็วของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 4%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 450
 			}
 		],
@@ -601,14 +601,14 @@
 	},
 	"29": {
 		"Id": "29",
-		"Name": "Bônus de ATQ VI",
+		"Name": "เสริมการโจมตี VI",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 60.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 60",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 600
 			}
 		],
@@ -622,14 +622,14 @@
 	},
 	"30": {
 		"Id": "30",
-		"Name": "Bônus de DEF VI",
+		"Name": "เสริมการป้องกัน VI",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 45.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 45",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 600
 			}
 		],
@@ -643,14 +643,14 @@
 	},
 	"31": {
 		"Id": "31",
-		"Name": "Bônus de PV VI",
+		"Name": "เสริม HP VI",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 80.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 80",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 600
 			}
 		],
@@ -664,14 +664,14 @@
 	},
 	"32": {
 		"Id": "32",
-		"Name": "Carga Extra",
+		"Name": "การชาร์จเพิ่มเติม",
 		"IsBigNode": true,
-		"Effect": "Aumenta em 100% a Energia inicial de todos os personagens no Universo Simulado. Ao entrar em um Domínio — Elite e Domínio — Chefe, a Energia de todos os personagens é totalmente restaurada.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "เพิ่มพลังงานเริ่มต้นของตัวละครทั้งหมดใน Simulated Universe ถึง 100% เมื่อเข้าสู่พื้นที่ - ระดับสูงและพื้นที่ - บอส จะฟื้นฟูพลังงานของตัวละครทั้งหมดจนเต็ม",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 900
 			}
 		],
@@ -687,14 +687,14 @@
 	},
 	"33": {
 		"Id": "33",
-		"Name": "Bônus de Dano CRIT",
+		"Name": "เสริม DMG คริติคอล",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o Dano CRIT de todos os personagens aumenta em 9%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DMG คริติคอลของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 9%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 900
 			}
 		],
@@ -708,14 +708,14 @@
 	},
 	"34": {
 		"Id": "34",
-		"Name": "Bônus de Dano de Ressonância I",
+		"Name": "เสริม DMG Resonance I",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o Dano da Ressonância do Caminho aumenta em 15%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "Path Resonance สร้าง DMG ใน Simulated Universe เพิ่มขึ้น 15%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 900
 			}
 		],
@@ -729,14 +729,14 @@
 	},
 	"35": {
 		"Id": "35",
-		"Name": "Bônus de Redução de Dano",
+		"Name": "เสริมการลด DMG",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o Dano recebido por todos os personagens é reduzido em 5%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ตัวละครทั้งหมดใน Simulated Universe ได้รับ DMG ลดลง 5%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 900
 			}
 		],
@@ -750,14 +750,14 @@
 	},
 	"36": {
 		"Id": "36",
-		"Name": "Bônus de ATQ VII",
+		"Name": "เสริมการโจมตี VII",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o ATQ de todos os personagens aumenta em 60.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "ATK ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 60",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 1500
 			}
 		],
@@ -771,14 +771,14 @@
 	},
 	"37": {
 		"Id": "37",
-		"Name": "Bônus de DEF VII",
+		"Name": "เสริมการป้องกัน VII",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a DEF de todos os personagens aumenta em 45.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "DEF ของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 45",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 1500
 			}
 		],
@@ -792,14 +792,14 @@
 	},
 	"38": {
 		"Id": "38",
-		"Name": "Bônus de PV VII",
+		"Name": "เสริม HP VII",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, os PV máximos de todos os personagens aumentam em 80.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "HP สูงสุดของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 80",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 1500
 			}
 		],
@@ -813,14 +813,14 @@
 	},
 	"39": {
 		"Id": "39",
-		"Name": "Bônus de Dano de Ressonância II",
+		"Name": "เสริม DMG Resonance II",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o Dano da Ressonância do Caminho aumenta em 10%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "Path Resonance สร้าง DMG ใน Simulated Universe เพิ่มขึ้น 10%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 2100
 			}
 		],
@@ -834,14 +834,14 @@
 	},
 	"40": {
 		"Id": "40",
-		"Name": "Bônus de Taxa de Acerto de Efeito",
+		"Name": "เสริมอัตราสร้างสถานะ",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, a Taxa de Acerto de todos os personagens é aumentada em 8%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "อัตราสร้างสถานะของตัวละครทั้งหมดใน Simulated Universe จะเพิ่มขึ้น 8%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 2100
 			}
 		],
@@ -855,14 +855,14 @@
 	},
 	"41": {
 		"Id": "41",
-		"Name": "Bônus de Dano de Ressonância II",
+		"Name": "เสริม DMG Resonance II",
 		"IsBigNode": false,
-		"Effect": "No Universo Simulado, o Dano da Ressonância do Caminho aumenta em 10%.",
-		"EffectTag": "Amplificação de Habilidade de Combate",
+		"Effect": "Path Resonance สร้าง DMG ใน Simulated Universe เพิ่มขึ้น 10%",
+		"EffectTag": "เสริมพลังต่อสู้",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 2100
 			}
 		],
@@ -876,14 +876,14 @@
 	},
 	"42": {
 		"Id": "42",
-		"Name": "Usar Consumível",
+		"Name": "ปลดล็อกวัสดุใช้งาน",
 		"IsBigNode": true,
-		"Effect": "Consumíveis são usáveis no Universo Simulado.",
-		"EffectTag": "Desbloqueio de Mecanismo Adicional",
+		"Effect": "สามารถใช้ \"วัสดุใช้งาน\" ใน Simulated Universe ได้",
+		"EffectTag": "ปลดล็อกกลไกเพิ่มเติม",
 		"Costs": [
 			{
 				"Id": 32,
-				"Name": "Ponto de Habilidade",
+				"Name": "Ability Point",
 				"Count": 700
 			}
 		],

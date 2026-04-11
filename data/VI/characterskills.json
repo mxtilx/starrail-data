@@ -38887,7 +38887,7 @@
 			"SkillTypeText": "Chiến Kỹ",
 			"MaxLevel": 15,
 			"EffectRaw": "Triển khai kết giới, duy trì <unbreak>#1[i]</unbreak> hiệp, khi bắt đầu mỗi hiệp của bản thân, số hiệp duy trì kết giới giảm 1. Trong thời gian duy trì kết giới, Độ Vui Vẻ của toàn bộ mục tiêu phe ta tăng, mức tăng bằng <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> Độ Vui Vẻ của Yao Guang, và Yao Guang nhận được <unbreak>#3[i]</unbreak> <u>Điểm Hài Hước</u> sau khi thi triển Tấn Công Thường, Chiến Kỹ.",
-			"AbridgedEffect": "Triển khai kết giới, tăng Độ Vui Vẻ của toàn bộ mục tiêu phe ta, và Yao Guang nhận được <u>Điểm Hài Hước</u> sau khi thi triển Tấn Công Thường, Chiến Kỹ.",
+			"AbridgedEffect": "Triển khai kết giới, <color=#f29e38ff>tăng Độ Vui Vẻ</color> của toàn bộ mục tiêu phe ta, và Yao Guang sau khi thi triển Tấn Công Thường, Chiến Kỹ sẽ <color=#f29e38ff>nhận được <u>Điểm Hài Hước</u></color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39006,7 +39006,7 @@
 			"SkillTypeText": "Tuyệt Kỹ",
 			"MaxLevel": 15,
 			"EffectRaw": "Nhận <unbreak>#1[i]</unbreak> <u>Điểm Hài Hước</u>. Khiến <u>Aha</u> lập tức nhận 1 <u>hiệp tăng thêm</u> tính cố định <unbreak>#4[i]</unbreak> <u>Điểm Hài Hước</u>, hiệp này không tiêu hao <u>Điểm Hài Hước</u>, và khiến <u>Xuyên Kháng</u> Toàn Thuộc Tính của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>, duy trì <unbreak>#3[i]</unbreak> hiệp.",
-			"AbridgedEffect": "Nhận <u>Điểm Hài Hước</u>. Khiến <u>Aha</u> lập tức nhận 1 <u>hiệp tăng thêm</u> được tính cố định <u>Điểm Hài Hước</u>, đồng thời tăng <u>Xuyên Kháng</u> Toàn Thuộc Tính của toàn bộ mục tiêu phe ta.",
+			"AbridgedEffect": "<color=#f29e38ff>Nhận <u>Điểm Hài Hước</u></color>. Khiến <color=#f29e38ff><u>Aha</u></color> lập tức nhận 1 <color=#f29e38ff><u>hiệp tăng thêm</u></color> được tính cố định <u>Điểm Hài Hước</u>, đồng thời tăng <u>Xuyên Kháng</u> Toàn Thuộc Tính của toàn bộ mục tiêu phe ta.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39155,7 +39155,7 @@
 			"SkillTypeText": "Thiên Phú",
 			"MaxLevel": 15,
 			"EffectRaw": "Khi Yao Guang sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\": \nKhiến mục tiêu phe ta sau khi thi triển tấn công sẽ kích hoạt hiệu ứng \"Đại Cát Đại Lợi\", gây thêm 1 lần <u>Sát Thương Vui Vẻ</u> thuộc tính tương ứng bằng <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> lên 1 mục tiêu đã bị đánh trúng ngẫu nhiên, nếu tiêu hao Điểm Chiến Kỹ trong lần tấn công này sẽ kích hoạt thêm 1 lần hiệu ứng \"Đại Cát Đại Lợi\".\nKhi kích hoạt hiệu ứng \"Đại Cát Đại Lợi\", nếu Độ Vui Vẻ của người tấn công thấp hơn Yao Guang, thì <u>Sát Thương Vui Vẻ</u> lần này sẽ dùng Độ Vui Vẻ của Yao Guang để tính toán.\nKích hoạt hiệu ứng \"Đại Cát Đại Lợi\" không được xem là 1 lần tấn công.",
-			"AbridgedEffect": "Yao Guang khi sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", sau khi mục tiêu phe ta thi triển tấn công sẽ kích hoạt \"Đại Cát Đại Lợi\": Gây thêm 1 lần lượng nhỏ <u>Sát Thương Vui Vẻ</u> thuộc tính tương ứng lên 1 mục tiêu trúng đòn ngẫu nhiên. Nếu tiêu hao Điểm Chiến Kỹ trong lần tấn công này, hiệu ứng này sẽ được kích hoạt thêm 1 lần. Hiệu ứng này không được xem là 1 lần tấn công.",
+			"AbridgedEffect": "Khi Yao Guang sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", sau khi mục tiêu phe ta thi triển tấn công sẽ kích hoạt \"Đại Cát Đại Lợi\": <color=#f29e38ff>Gây thêm</color> 1 lần lượng nhỏ <color=#f29e38ff><u>Sát Thương Vui Vẻ</u></color> thuộc tính tương ứng lên 1 mục tiêu trúng đòn ngẫu nhiên. Nếu tiêu hao Điểm Chiến Kỹ trong lần tấn công này, hiệu ứng này sẽ được kích hoạt thêm 1 lần. Hiệu ứng này không được xem là 1 lần tấn công.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39255,6 +39255,562 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1502/SkillIcon_1502_Maze.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"BasicATK": {
+			"Id": "150401",
+			"Name": "Vuốt Sắc: Truyền Thụ Lễ Nghi",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Lôi bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Ashveil cho 1 kẻ địch chỉ định.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Lôi lên 1 kẻ địch chỉ định.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png"
+		},
+		"Skill": {
+			"Id": "150402",
+			"Name": "Tiếng Roi: Quét Sạch Ác Thú",
+			"TriggerKey": "Skill02",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Khiến 1 kẻ địch chỉ định trở thành \"Mồi Ngon\", gây cho kẻ đó Sát Thương Lôi bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Ashveil. Nếu mục tiêu này là \"Mồi Ngon\", sẽ gây thêm cho kẻ đó Sát Thương Lôi bằng <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Tấn Công của Ashveil, và hồi phục <unbreak>#5[i]</unbreak> Điểm Chiến Kỹ. Khi trên sân tồn tại \"Mồi Ngon\", Phòng Thủ của toàn phe địch giảm <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.\nKhi trên sân không tồn tại \"Mồi Ngon\", Ashveil lập tức khiến 1 mục tiêu phe địch có HP thấp nhất trên sân hiện tại trở thành \"Mồi Ngon\", trạng thái \"Mồi Ngon\" chỉ có hiệu lực với mục tiêu được thi triển mới nhất.",
+			"AbridgedEffect": "Khiến 1 kẻ địch chỉ định trở thành \"Mồi Ngon\", gây lượng lớn Sát Thương Lôi cho kẻ đó. Nếu mục tiêu này là \"Mồi Ngon\", sẽ gây thêm lượng nhỏ Sát Thương Lôi cho kẻ đó và hồi phục <color=#f29e38ff><unbreak>#5[i]</unbreak></color> Điểm Chiến Kỹ. Khi trong trận tồn tại \"Mồi Ngon\", toàn bộ phe địch sẽ <color=#f29e38ff>giảm Phòng Thủ</color>.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1,
+						0.5,
+						0.2,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.1,
+						1,
+						0.55,
+						0.22,
+						1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.2,
+						1,
+						0.6,
+						0.24,
+						1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.3,
+						1,
+						0.65,
+						0.26,
+						1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.4,
+						1,
+						0.7,
+						0.28,
+						1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.5,
+						1,
+						0.75,
+						0.3,
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.625,
+						1,
+						0.8125,
+						0.325,
+						1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.75,
+						1,
+						0.875,
+						0.35,
+						1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.875,
+						1,
+						0.9375,
+						0.375,
+						1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						1,
+						1,
+						0.4,
+						1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2.1,
+						1,
+						1.05,
+						0.42,
+						1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2.2,
+						1,
+						1.1,
+						0.44,
+						1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2.3,
+						1,
+						1.15,
+						0.46,
+						1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2.4,
+						1,
+						1.2,
+						0.48,
+						1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2.5,
+						1,
+						1.25,
+						0.5,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150403",
+			"Name": "Yến Tiệc: Không Hồi Kết",
+			"TriggerKey": "Skill03",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Khiến 1 kẻ địch chỉ định trở thành \"Mồi Ngon\", gây cho kẻ đó Sát Thương Lôi bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Ashveil, sau đó lập tức phát động 1 lần <u>Đòn Đánh Theo Sau</u> của Thiên Phú được cường hóa lên \"Mồi Ngon\", và Ashveil nhận <unbreak>#2[i]</unbreak> điểm Nạp Năng Lượng.\n<u>Đòn Đánh Theo Sau</u> của Thiên Phú được cường hóa không tiêu hao Nạp Năng Lượng. Khi \"Tham Lam\" lớn hơn hoặc bằng <unbreak>#3[i]</unbreak> tầng, có thể tiêu hao <unbreak>#3[i]</unbreak> tầng \"Tham Lam\" gây thêm 1 lần Sát Thương Lôi bằng <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> Tấn Công của Ashveil, và trong quá trình <u>Đòn Đánh Theo Sau</u> lần này, khi gây tấn công chí tử cho mục tiêu, sẽ tiếp tục gây sát thương cho \"Mồi Ngon\" mới, cho đến khi \"Tham Lam\" dưới <unbreak>#3[i]</unbreak> tầng. Nếu sau khi tất cả mục tiêu phe địch hiện tại trên sân đều chịu tấn công chí tử, <u>Đòn Đánh Theo Sau</u> của Thiên Phú được cường hóa sẽ kết thúc ngay lập tức.",
+			"AbridgedEffect": "Khiến 1 kẻ địch chỉ định trở thành \"Mồi Ngon\", gây cho kẻ đó lượng lớn Sát Thương Lôi, sau đó <color=#f29e38ff>lập tức phát động lên \"Mồi Ngon\"</color> 1 lần <color=#f29e38ff><u>Đòn Đánh Theo Sau</u></color> của Thiên Phú được cường hóa, đồng thời Ashveil được Nạp Năng Lượng.\n<u>Đòn Đánh Theo Sau</u> của Thiên Phú được cường hóa không tiêu hao Nạp Năng Lượng, khi \"Tham Lam\" lớn hơn hoặc bằng <color=#f29e38ff><unbreak>#3[i]</unbreak></color> tầng, có thể tiêu hao <color=#f29e38ff><unbreak>#3[i]</unbreak></color> tầng \"Tham Lam\" để gây thêm lượng lớn Sát Thương Lôi, đồng thời trong quá trình <u>Đòn Đánh Theo Sau</u> lần này, khi gây tấn công chí tử cho mục tiêu, <color=#f29e38ff>sẽ tiếp tục gây sát thương cho \"Mồi Ngon\" mới</color>, cho đến khi \"Tham Lam\" dưới <color=#f29e38ff><unbreak>#3[i]</unbreak></color> tầng.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						4,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2.2,
+						3,
+						4,
+						1.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2.4,
+						3,
+						4,
+						1.2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2.6,
+						3,
+						4,
+						1.3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.8,
+						3,
+						4,
+						1.4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						3,
+						3,
+						4,
+						1.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						3.25,
+						3,
+						4,
+						1.625
+					]
+				},
+				"8": {
+					"EffectValues": [
+						3.5,
+						3,
+						4,
+						1.75
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.75,
+						3,
+						4,
+						1.875
+					]
+				},
+				"10": {
+					"EffectValues": [
+						4,
+						3,
+						4,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						4.2,
+						3,
+						4,
+						2.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						4.4,
+						3,
+						4,
+						2.2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						4.6,
+						3,
+						4,
+						2.3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						4.8,
+						3,
+						4,
+						2.4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						5,
+						3,
+						4,
+						2.5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150404",
+			"Name": "Oán Hận: Báo Ứng Đáp Trả",
+			"TriggerKey": "SkillP01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Ashveil ban đầu sở hữu <unbreak>#1[i]</unbreak> điểm Nạp Năng Lượng, tối đa sở hữu <unbreak>#2[i]</unbreak> điểm Nạp Năng Lượng. Sau khi \"Mồi Ngon\" bị mục tiêu khác của phe ta tấn công, Ashveil hồi phục cố định <unbreak>#7[i]</unbreak> điểm Năng Lượng, sau đó tiêu hao <unbreak>#3[i]</unbreak> điểm Nạp Năng Lượng để phát động <u>Đòn Đánh Theo Sau</u> lên \"Mồi Ngon\", gây sát thương Lôi bằng <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> Tấn Công của Ashveil, sau đó nhận <unbreak>#5[i]</unbreak> tầng \"Tham Lam\", tối đa cộng dồn <unbreak>#6[i]</unbreak> tầng.",
+			"AbridgedEffect": "\"Mồi Ngon\" <color=#f29e38ff>sau khi chịu tấn công bởi mục tiêu khác của phe ta</color>, Ashveil sẽ hồi cố định Năng Lượng, sau đó tiêu hao Nạp Năng Lượng để <color=#f29e38ff>phát động <u>Đòn Đánh Theo Sau</u></color> lên \"Mồi Ngon\", gây lượng lớn Sát Thương Lôi, sau đó nhận <color=#f29e38ff><unbreak>#5[i]</unbreak></color> tầng \"Tham Lam\".",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1,
+						2,
+						12,
+						8
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.1,
+						2,
+						12,
+						8
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.2,
+						2,
+						12,
+						8
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.3,
+						2,
+						12,
+						8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.4,
+						2,
+						12,
+						8
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.5,
+						2,
+						12,
+						8
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.625,
+						2,
+						12,
+						8
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.75,
+						2,
+						12,
+						8
+					]
+				},
+				"9": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.875,
+						2,
+						12,
+						8
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2,
+						2,
+						12,
+						8
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.1,
+						2,
+						12,
+						8
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.2,
+						2,
+						12,
+						8
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.3,
+						2,
+						12,
+						8
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.4,
+						2,
+						12,
+						8
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.5,
+						2,
+						12,
+						8
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png"
+		},
+		"Technique": {
+			"Id": "150407",
+			"Name": "Ăn Đi: Bàn Tay Đáng Ghét",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Impair",
+			"TagTypeText": "Quấy Nhiễu",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Sau khi dùng Bí Kỹ, khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Choáng <unbreak>#1[i]</unbreak> giây, kẻ địch ở trạng thái Choáng sẽ không chủ động tấn công mục tiêu phe ta.\nNếu chủ động tấn công kẻ địch ở trạng thái Choáng, khi vào chiến đấu, sẽ gây sát thương Lôi lên toàn bộ phe địch bằng <unbreak>#2[i]%</unbreak> Tấn Công của Ashveil, và Ashveil nhận <unbreak>#3[i]</unbreak> điểm Nạp Năng Lượng.",
+			"AbridgedEffect": "Khiến kẻ địch trong khu vực nhất định rơi vào trạng thái Choáng. Tấn công kẻ địch đang ở trạng thái Choáng, sau khi vào chiến đấu sẽ gây lượng nhỏ Sát Thương Lôi lên toàn phe địch, đồng thời Ashveil nhận <color=#f29e38ff><unbreak>#3[i]</unbreak></color> điểm Nạp Năng Lượng.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						1,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

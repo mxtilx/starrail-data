@@ -117448,6 +117448,1478 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1504": {
+		"Id": "1504",
+		"Name": "不死途",
+		"Nodes": {
+			"1504001": {
+				"Id": "1504001",
+				"Name": "利爪，授以禮儀",
+				"NodeType": 2,
+				"NodeTypeText": "普通攻擊",
+				"EffectRaw": "對指定敵方單體造成等同於不死途<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害。",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150401"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛爭血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504002": {
+				"Id": "1504002",
+				"Name": "鞭哨，逐盡惡獸",
+				"NodeType": 2,
+				"NodeTypeText": "戰技",
+				"EffectRaw": "使指定敵方單體成為【飼餌】，對其造成等同於不死途<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害。若該目標為【飼餌】，則額外對其造成等同於不死途<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>攻擊力的雷屬性傷害，並恢復<unbreak>#5[i]</unbreak>點戰技點。場上存在【飼餌】時，敵方全體防禦力降低<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>。\n場上不存在【飼餌】時，不死途立即使當下場上生命值最低的敵方單體目標成為【飼餌】，【飼餌】狀態僅對最新被施加的目標生效。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150402"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							1,
+							0.5,
+							0.2,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							1.1,
+							1,
+							0.55,
+							0.22,
+							1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							1.2,
+							1,
+							0.6,
+							0.24,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛爭血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							1.3,
+							1,
+							0.65,
+							0.26,
+							1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							1.4,
+							1,
+							0.7,
+							0.28,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1.5,
+							1,
+							0.75,
+							0.3,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							1.625,
+							1,
+							0.8125,
+							0.325,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							1.75,
+							1,
+							0.875,
+							0.35,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							1.875,
+							1,
+							0.9375,
+							0.375,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							1,
+							1,
+							0.4,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504003": {
+				"Id": "1504003",
+				"Name": "饗宴，自始無終",
+				"NodeType": 2,
+				"NodeTypeText": "終結技",
+				"EffectRaw": "使指定敵方單體成為【飼餌】，對其造成等同於不死途<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害，隨後立即對【飼餌】發動1次獲得強化的天賦<u>追加攻擊</u>，且不死途獲得<unbreak>#2[i]</unbreak>點充能。\n強化天賦<u>追加攻擊</u>不消耗充能，擁有【婪酣】時，每消耗<unbreak>#3[i]</unbreak>層【婪酣】可額外造成1次等同於不死途<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>攻擊力的雷屬性傷害，且本次<u>追加攻擊</u>過程中對目標造成致命攻擊時，會繼續對新的【飼餌】造成傷害，直至【婪酣】小於<unbreak>#3[i]</unbreak>層。若當下場上的所有敵方目標都受到致命攻擊後強化天賦<u>追加攻擊</u>會立即結束。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150403"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							4,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2.2,
+							3,
+							4,
+							1.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2.4,
+							3,
+							4,
+							1.2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛爭血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2.6,
+							3,
+							4,
+							1.3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2.8,
+							3,
+							4,
+							1.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							3,
+							3,
+							4,
+							1.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							3.25,
+							3,
+							4,
+							1.625
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							3.5,
+							3,
+							4,
+							1.75
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							3.75,
+							3,
+							4,
+							1.875
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							4,
+							3,
+							4,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504004": {
+				"Id": "1504004",
+				"Name": "宿怨，切齒奉還",
+				"NodeType": 2,
+				"NodeTypeText": "天賦",
+				"EffectRaw": "不死途初始擁有<unbreak>#1[i]</unbreak>點充能，最多擁有<unbreak>#2[i]</unbreak>點充能。【飼餌】受到我方其他目標攻擊後，不死途固定恢復<unbreak>#7[i]</unbreak>點能量，隨後消耗<unbreak>#3[i]</unbreak>點充能對【飼餌】發動<u>追加攻擊</u>，造成等同於不死途<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>攻擊力的雷屬性傷害，隨後獲得<unbreak>#5[i]</unbreak>層【婪酣】，最多疊加<unbreak>#6[i]</unbreak>層。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150404"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1,
+							2,
+							12,
+							8
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.1,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛爭血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.3,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.4,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.5,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.625,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.75,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.875,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504007": {
+				"Id": "1504007",
+				"Name": "吃吧，可憎的手",
+				"NodeType": 2,
+				"NodeTypeText": "秘技",
+				"EffectRaw": "使用秘技後使一定區域內的敵人陷入<unbreak>#1[i]</unbreak>秒的暈眩狀態，暈眩狀態下敵人不會主動攻擊我方目標。\n若主動攻擊陷入暈眩狀態的敵人，進入戰鬥時，對敵方全體造成等同於不死途攻擊力<unbreak>#2[i]%</unbreak>的雷屬性傷害，且不死途獲得<unbreak>#3[i]</unbreak>點充能。",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150407"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							1,
+							1
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1504101": {
+				"Id": "1504101",
+				"Name": "罪途",
+				"NodeType": 3,
+				"EffectRaw": "不死途施放戰技/終結技時，獲得<unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak>層【婪酣】。不死途<u>追加攻擊</u>過程中每有<unbreak>#3[i]</unbreak>個敵人受到致命攻擊，不死途便獲得<unbreak>#4[i]</unbreak>層【婪酣】。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							2,
+							1,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛爭血塵",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504102": {
+				"Id": "1504102",
+				"Name": "影肢",
+				"NodeType": 3,
+				"EffectRaw": "不死途<u>追加攻擊</u>造成的傷害提高<unbreak>#1[i]%</unbreak>，且每有<unbreak>#2[i]</unbreak>層【婪酣】，<u>追加攻擊</u>造成的傷害便相應進一步提高<unbreak>#3[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.8,
+							1,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504103": {
+				"Id": "1504103",
+				"Name": "頭狼",
+				"NodeType": 3,
+				"EffectRaw": "不死途在場時，我方目標造成的暴擊傷害提高<unbreak>#1[i]%</unbreak>，我方目標<u>追加攻擊</u>造成的暴擊傷害額外提高<unbreak>#2[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504201": {
+				"Id": "1504201",
+				"Name": "暴擊傷害強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1504202": {
+				"Id": "1504202",
+				"Name": "傷害強化•雷",
+				"NodeType": 1,
+				"EffectRaw": "雷屬性傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1504101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛爭血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1504203": {
+				"Id": "1504203",
+				"Name": "暴擊傷害強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1504202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504204": {
+				"Id": "1504204",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504205": {
+				"Id": "1504205",
+				"Name": "暴擊傷害強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1504102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戰魂血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504206": {
+				"Id": "1504206",
+				"Name": "傷害強化•雷",
+				"NodeType": 1,
+				"EffectRaw": "雷屬性傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1504205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504207": {
+				"Id": "1504207",
+				"Name": "暴擊傷害強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504208": {
+				"Id": "1504208",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1504103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504209": {
+				"Id": "1504209",
+				"Name": "傷害強化•雷",
+				"NodeType": 1,
+				"EffectRaw": "雷屬性傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504210": {
+				"Id": "1504210",
+				"Name": "暴擊傷害強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.107,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.107
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天譴血矛",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.1"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

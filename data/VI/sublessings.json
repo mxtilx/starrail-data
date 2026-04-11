@@ -4367,7 +4367,7 @@
 	},
 	"616451": {
 		"Id": "616451",
-		"Name": "Sức Mạnh Cảm Hóa Trăm Người",
+		"Name": "Sức Mạnh Địch Trăm Người",
 		"Rarity": 1,
 		"Effect": "Tăng Tỷ Lệ Bạo Kích của mục tiêu phe ta <color=#f29e38ff>11%</color>.",
 		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích.",
@@ -4407,7 +4407,7 @@
 	},
 	"616455": {
 		"Id": "616455",
-		"Name": "Mũi Tên Phá Hủy",
+		"Name": "Mũi Tên Hủy Vầng Trăng",
 		"Rarity": 1,
 		"Effect": "Khi hiệp của mục tiêu phe ta kết thúc, sẽ Ưu Tiên Hành Động <color=#f29e38ff>6%</color>.",
 		"AbridgedEffect": "Khi kết thúc hiệp, sẽ Ưu Tiên Hành Động.",
@@ -5109,7 +5109,7 @@
 	},
 	"616850": {
 		"Id": "616850",
-		"Name": "Lá Cờ Lấp Lánh",
+		"Name": "Lá Cờ Hologram Lấp Lánh",
 		"Rarity": 1,
 		"Effect": "Tăng Sát thương Tuyệt Kỹ mà mục tiêu phe ta gây ra <color=#f29e38ff>18%</color>.",
 		"AbridgedEffect": "Tăng Sát thương Tuyệt Kỹ gây ra.",
@@ -5267,7 +5267,7 @@
 	},
 	"616944": {
 		"Id": "616944",
-		"Name": "Nhịp Thơ Năm Âm Tiết",
+		"Name": "Nhịp Điệu Ngũ Âm",
 		"Rarity": 1,
 		"Effect": "Bội Số Sát Thương <u>Hòa Âm</u> tăng bằng <color=#f29e38ff>30%</color> bội số ban đầu.",
 		"AbridgedEffect": "Tăng sát thương <u>Hòa Âm</u>.",
@@ -5277,7 +5277,7 @@
 	},
 	"616945": {
 		"Id": "616945",
-		"Name": "Âm Nền Thấp",
+		"Name": "Âm Trầm Liên Tục",
 		"Rarity": 1,
 		"Effect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến giá trị Giảm Sức Bền của lần tấn công này chuyển hóa thành 1 lần <u>Siêu Sát Thương Phá Vỡ bằng </u> <color=#f29e38ff>50%</color>.",
 		"AbridgedEffect": "Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ gây <u>Siêu Sát Thương Phá Vỡ</u>.",
@@ -5374,6 +5374,1517 @@
 		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ hồi HP bằng <color=#f29e38ff>36%</color> Giới Hạn HP của bản thân.",
 		"EnhancedAbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ hồi HP.",
 		"VersionAdded": "3.1"
+	},
+	"617000": {
+		"Id": "617000",
+		"Name": "\"Khoảnh Khắc Nổi Bật\"",
+		"Rarity": 1,
+		"Effect": "Sát thương cuối cùng mục tiêu phe ta gây ra tăng <color=#f29e38ff>2%</color>, sát thương phải chịu giảm <color=#f29e38ff>1%</color>. Khi Nạp Năng Lượng đạt 100%, khiến mục tiêu của \"Khoảnh Khắc Nổi Bật\" Ưu Tiên Hành Động 100%, đồng thời khiến sát thương cuối cùng do kẻ đó và Linh Hồn Ký Ức của kẻ đó gây ra tăng <color=#f29e38ff>10%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"617120": {
+		"Id": "617120",
+		"Name": "Chuyện Kể Trước Giờ Ngủ",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng và tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Ký Ức\", gây sát thương Băng cho toàn bộ mục tiêu phe địch, đồng thời khiến chúng có xác suất cao rơi vào trạng thái Đóng Băng, duy trì <color=#f29e38ff>1</color> hiệp. Trong trạng thái Đóng Băng, sau khi bị Linh Hồn Ký Ức tấn công, sẽ chịu thêm Sát Thương Chuẩn bằng <color=#f29e38ff>8%</color> Giới Hạn HP. Mục tiêu phe địch sau mỗi lần vào trạng thái Đóng Băng kể trên, tối đa có thể kích hoạt <color=#f29e38ff>4</color> lần sát thương này.",
+		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, sẽ gây Sát Thương Băng cho toàn phe địch và khiến mục tiêu có xác suất lớn rơi vào trạng thái Đóng Băng. Ở trạng thái Đóng Băng này, sau khi bị Linh Hồn Ký Ức tấn công, sẽ chịu thêm Sát Thương Chuẩn bằng <color=#f29e38ff>8%</color> Giới Hạn HP.",
+		"VersionAdded": "4.1"
+	},
+	"617130": {
+		"Id": "617130",
+		"Name": "Trực Giác Chưa Từng Sai",
+		"Rarity": 1,
+		"Effect": "Khi nhân vật hành động, sẽ khiến bản thân và Linh Hồn Ký Ức nhận được <color=#f29e38ff>1</color> tầng \"<u>Chấp Niệm</u>\". Khi Linh Hồn Ký Ức hành động, sẽ khiến bản thân và Bậc Thầy Ký Ức nhận được <color=#f29e38ff>1</color> tầng \"<u>Chấp Niệm</u>\".",
+		"AbridgedEffect": "Khi nhân vật hành động, sẽ khiến bản thân và Linh Hồn Ký Ức nhận \"<u>Chấp Niệm</u>\". Khi Linh Hồn Ký Ức hành động, sẽ khiến bản thân và Bậc Thầy Ký Ức nhận \"<u>Chấp Niệm</u>\".",
+		"EnhancedEffect": "Khi nhân vật hành động, sẽ khiến bản thân và Linh Hồn Ký Ức nhận được <color=#f29e38ff>1</color> tầng \"<u>Chấp Niệm</u>\". Khi Linh Hồn Ký Ức hành động, sẽ khiến bản thân và Bậc Thầy Ký Ức nhận được <color=#f29e38ff>2</color> tầng \"<u>Chấp Niệm</u>\".",
+		"EnhancedAbridgedEffect": "Khi nhân vật hành động, sẽ khiến bản thân và Linh Hồn Ký Ức nhận \"<u>Chấp Niệm</u>\". Khi Linh Hồn Ký Ức hành động, sẽ khiến bản thân và Bậc Thầy Ký Ức nhận \"<u>Chấp Niệm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617131": {
+		"Id": "617131",
+		"Name": "Hồi Ức Vẹn Nguyên",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển tấn công, sẽ căn cứ vào tổng số tầng <u>Chấp Niệm</u> của phe ta, mỗi tầng sẽ gây Sát Thương Kèm Theo bằng <color=#f29e38ff>1%</color> Tấn Công cho mục tiêu bị tấn công.",
+		"AbridgedEffect": "Sau khi thi triển tấn công, gây Sát Thương Kèm Theo dựa theo tổng số tầng <u>Chấp Niệm</u> của phe ta.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, sẽ căn cứ vào tổng số tầng <u>Chấp Niệm</u> của phe ta, mỗi tầng sẽ gây Sát Thương Kèm Theo bằng <color=#f29e38ff>1.5%</color> Tấn Công cho mục tiêu bị tấn công.",
+		"EnhancedAbridgedEffect": "Sau khi thi triển tấn công, gây Sát Thương Kèm Theo dựa theo tổng số tầng <u>Chấp Niệm</u> của phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617132": {
+		"Id": "617132",
+		"Name": "Giấc Mộng Bình Yên Vĩnh Hằng",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, thì sau khi kết thúc hiệp đầu tiên sẽ Ưu Tiên Hành Động <color=#f29e38ff>50%</color>, sát thương gây ra tăng <color=#f29e38ff>50%</color>, duy trì <color=#f29e38ff>4</color> hiệp.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, thì sau khi kết thúc hiệp đầu tiên sẽ Ưu Tiên Hành Động và tăng sát thương gây ra.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, thì sau khi kết thúc hiệp đầu tiên sẽ Ưu Tiên Hành Động <color=#f29e38ff>75%</color>, sát thương gây ra tăng <color=#f29e38ff>75%</color>, duy trì <color=#f29e38ff>4</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, thì sau khi kết thúc hiệp đầu tiên sẽ Ưu Tiên Hành Động và tăng sát thương gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617140": {
+		"Id": "617140",
+		"Name": "Lĩnh Ngộ: Dệt Mây",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta bị tấn công, sẽ nhận được <color=#f29e38ff>2</color> tầng \"<u>Chấp Niệm</u>\".",
+		"AbridgedEffect": "Khi bị tấn công, sẽ nhận \"<u>Chấp Niệm</u>\".",
+		"EnhancedEffect": "Khi mục tiêu phe ta bị tấn công, sẽ nhận được <color=#f29e38ff>3</color> tầng \"<u>Chấp Niệm</u>\".",
+		"EnhancedAbridgedEffect": "Khi bị tấn công, sẽ nhận \"<u>Chấp Niệm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617141": {
+		"Id": "617141",
+		"Name": "Lĩnh Ngộ: Vá Núi",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tiêu diệt mục tiêu phe địch, sẽ cung cấp <color=#f29e38ff>4</color> tầng \"<u>Chấp Niệm</u>\" cho toàn bộ phe ta.",
+		"AbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ cung cấp \"<u>Chấp Niệm</u>\" cho toàn bộ phe ta.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta tiêu diệt mục tiêu phe địch, sẽ cung cấp <color=#f29e38ff>6</color> tầng \"<u>Chấp Niệm</u>\" cho toàn bộ phe ta.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ cung cấp \"<u>Chấp Niệm</u>\" cho toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617142": {
+		"Id": "617142",
+		"Name": "Lĩnh Ngộ: Đóng Giữ Cơn Sóng",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, sẽ nhận được <color=#f29e38ff>6</color> tầng \"<u>Chấp Niệm</u>\".",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, sẽ nhận \"<u>Chấp Niệm</u>\".",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, sẽ nhận được <color=#f29e38ff>9</color> tầng \"<u>Chấp Niệm</u>\".",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, sẽ nhận \"<u>Chấp Niệm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617143": {
+		"Id": "617143",
+		"Name": "Lĩnh Ngộ: Điếu Văn Biển Cạn",
+		"Rarity": 1,
+		"Effect": "Mỗi tầng \"<u>Chấp Niệm</u>\" sẽ khiến sát thương gây ra tăng thêm <color=#f29e38ff>0.3%</color>.",
+		"AbridgedEffect": "Mỗi tầng \"<u>Chấp Niệm</u>\" sẽ khiến sát thương gây ra tăng thêm.",
+		"EnhancedEffect": "Mỗi tầng \"<u>Chấp Niệm</u>\" sẽ khiến sát thương gây ra tăng thêm <color=#f29e38ff>0.4%</color>.",
+		"EnhancedAbridgedEffect": "Mỗi tầng \"<u>Chấp Niệm</u>\" sẽ khiến sát thương gây ra tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"617144": {
+		"Id": "617144",
+		"Name": "Lĩnh Ngộ: Ca Tụng Vực Sâu",
+		"Rarity": 1,
+		"Effect": "Giới hạn \"<u>Chấp Niệm</u>\" của nhân vật tăng <color=#f29e38ff>4</color> tầng.",
+		"AbridgedEffect": "Giới hạn \"<u>Chấp Niệm</u>\" của nhân vật tăng.",
+		"EnhancedEffect": "Giới hạn \"<u>Chấp Niệm</u>\" của nhân vật tăng <color=#f29e38ff>6</color> tầng.",
+		"EnhancedAbridgedEffect": "Giới hạn \"<u>Chấp Niệm</u>\" của nhân vật tăng.",
+		"VersionAdded": "4.1"
+	},
+	"617145": {
+		"Id": "617145",
+		"Name": "Lĩnh Ngộ: Tinh Luyện Bình Minh",
+		"Rarity": 1,
+		"Effect": "Mỗi lần mục tiêu phe địch bị các mục tiêu khác nhau của phe ta tấn công, sát thương phải chịu sẽ tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>6</color> tầng, duy trì đến khi hiệp kết thúc.",
+		"AbridgedEffect": "Khi mục tiêu phe địch bị tấn công bởi các mục tiêu khác nhau của phe ta, sẽ tăng sát thương phải chịu.",
+		"EnhancedEffect": "Mỗi lần mục tiêu phe địch bị các mục tiêu khác nhau của phe ta tấn công, sát thương phải chịu sẽ tăng <color=#f29e38ff>6%</color>, tối đa cộng dồn <color=#f29e38ff>6</color> tầng, duy trì đến khi hiệp kết thúc.",
+		"EnhancedAbridgedEffect": "Khi mục tiêu phe địch bị tấn công bởi các mục tiêu khác nhau của phe ta, sẽ tăng sát thương phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617146": {
+		"Id": "617146",
+		"Name": "Lĩnh Ngộ: Tan Chảy Hoàng Hôn",
+		"Rarity": 1,
+		"Effect": "Mỗi lần mục tiêu phe địch bị các mục tiêu khác nhau của phe ta tấn công, sát thương gây ra giảm <color=#f29e38ff>2%</color>, tối đa cộng dồn <color=#f29e38ff>6</color> tầng, duy trì đến khi hiệp kết thúc.",
+		"AbridgedEffect": "Khi mục tiêu phe địch bị tấn công bởi các mục tiêu khác nhau của phe ta, sẽ giảm sát thương gây ra.",
+		"EnhancedEffect": "Mỗi lần mục tiêu phe địch bị các mục tiêu khác nhau của phe ta tấn công, sát thương gây ra giảm <color=#f29e38ff>3%</color>, tối đa cộng dồn <color=#f29e38ff>6</color> tầng, duy trì đến khi hiệp kết thúc.",
+		"EnhancedAbridgedEffect": "Khi mục tiêu phe địch bị tấn công bởi các mục tiêu khác nhau của phe ta, sẽ giảm sát thương gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617150": {
+		"Id": "617150",
+		"Name": "Cảm Nhận: Độ Ấm Của Lưỡi Dao",
+		"Rarity": 1,
+		"Effect": "Tấn Công của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Tăng Tấn Công.",
+		"EnhancedEffect": "Tấn Công của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tấn Công.",
+		"VersionAdded": "4.1"
+	},
+	"617151": {
+		"Id": "617151",
+		"Name": "Cảm Nhận: Hình Dạng Của Móng Vuốt",
+		"Rarity": 1,
+		"Effect": "Sát thương toàn bộ mục tiêu phe ta gây ra tăng <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Tăng sát thương gây ra.",
+		"EnhancedEffect": "Sát thương toàn bộ mục tiêu phe ta gây ra tăng <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Tăng sát thương gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617152": {
+		"Id": "617152",
+		"Name": "Cảm Nhận: Hoa Văn Của Vỏ Ốc",
+		"Rarity": 1,
+		"Effect": "Phòng Thủ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Tăng Phòng Thủ.",
+		"EnhancedEffect": "Phòng Thủ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Phòng Thủ.",
+		"VersionAdded": "4.1"
+	},
+	"617153": {
+		"Id": "617153",
+		"Name": "Cảm Nhận: Câu Chuyện Gió Mùa",
+		"Rarity": 1,
+		"Effect": "Sát thương toàn bộ mục tiêu phe ta gây ra tăng <color=#f29e38ff>10%</color>, Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Tăng sát thương gây ra, tăng thêm cho Linh Hồn Ký Ức.",
+		"EnhancedEffect": "Sát thương toàn bộ mục tiêu phe ta gây ra tăng <color=#f29e38ff>15%</color>, Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Tăng sát thương gây ra, tăng thêm cho Linh Hồn Ký Ức.",
+		"VersionAdded": "4.1"
+	},
+	"617154": {
+		"Id": "617154",
+		"Name": "Cảm Nhận: Câu Chuyện Của Đá Cuội",
+		"Rarity": 1,
+		"Effect": "Phòng Thủ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>14%</color>, Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Tăng Phòng Thủ, tăng thêm cho Linh Hồn Ký Ức.",
+		"EnhancedEffect": "Phòng Thủ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>21%</color>, Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Phòng Thủ, tăng thêm cho Linh Hồn Ký Ức.",
+		"VersionAdded": "4.1"
+	},
+	"617155": {
+		"Id": "617155",
+		"Name": "Cảm Nhận: Câu Chuyện Của Thủy Triều",
+		"Rarity": 1,
+		"Effect": "Lượng Hồi Phục của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>10%</color>, Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Tăng Lượng Hồi Phục, tăng thêm cho Linh Hồn Ký Ức.",
+		"EnhancedEffect": "Lượng Hồi Phục của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>15%</color>, Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Lượng Hồi Phục, tăng thêm cho Linh Hồn Ký Ức.",
+		"VersionAdded": "4.1"
+	},
+	"617156": {
+		"Id": "617156",
+		"Name": "Cảm Nhận: Xương Đỏ Và Lá Đỏ",
+		"Rarity": 1,
+		"Effect": "Sau khi Linh Hồn Ký Ức hành động, tăng Tỷ Lệ Bạo Kích của toàn bộ mục tiêu phe ta <color=#f29e38ff>14%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi Linh Hồn Ký Ức hành động, sẽ tăng Tỷ Lệ Bạo Kích cho toàn bộ phe ta.",
+		"EnhancedEffect": "Sau khi Linh Hồn Ký Ức hành động, tăng Tỷ Lệ Bạo Kích của toàn bộ mục tiêu phe ta <color=#f29e38ff>21%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi Linh Hồn Ký Ức hành động, sẽ tăng Tỷ Lệ Bạo Kích cho toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617157": {
+		"Id": "617157",
+		"Name": "Cảm Nhận: Tóc Trắng Và Trân Châu",
+		"Rarity": 1,
+		"Effect": "Sau khi Linh Hồn Ký Ức hành động, tăng Sát Thương Bạo Kích của toàn bộ mục tiêu phe ta <color=#f29e38ff>28%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi Linh Hồn Ký Ức hành động, sẽ tăng Sát Thương Bạo Kích cho toàn bộ phe ta.",
+		"EnhancedEffect": "Sau khi Linh Hồn Ký Ức hành động, tăng Sát Thương Bạo Kích của toàn bộ mục tiêu phe ta <color=#f29e38ff>42%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi Linh Hồn Ký Ức hành động, sẽ tăng Sát Thương Bạo Kích cho toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617220": {
+		"Id": "617220",
+		"Name": "Lỗ Đen Đáng Yêu",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng và tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Hư Vô\", khiến toàn bộ mục tiêu phe địch rơi vào trạng thái Thiêu Đốt, Sốc Điện, Chảy Máu và 2 tầng Bào Mòn, duy trì <color=#f29e38ff>3</color> hiệp. Sau khi bị nhân vật tấn công, những Sát Thương Duy Trì kể trên sẽ lập tức gây sát thương bằng <color=#f29e38ff>25%</color> sát thương gốc.",
+		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, khiến toàn bộ phe địch rơi vào trạng thái Thiêu Đốt, Sốc Điện, Chảy Máu và Bào Mòn. Sau khi bị nhân vật tấn công sẽ kích hoạt những Sát Thương Duy Trì này.",
+		"VersionAdded": "4.1"
+	},
+	"617230": {
+		"Id": "617230",
+		"Name": "Thể Cộng Đồng Trầm Mặc",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch rơi vào Sát Thương Duy Trì, \"<u>Thầm Thì</u>\" sẽ nhận được điểm Nạp Năng Lượng bằng <color=#f29e38ff>20%</color> tổng Tấn Công của nhân vật phe ta.",
+		"AbridgedEffect": "Khi mục tiêu phe địch rơi vào Sát Thương Duy Trì, sẽ nạp Năng Lượng cho <u>Thầm Thì</u>.",
+		"EnhancedEffect": "Khi mục tiêu phe địch rơi vào Sát Thương Duy Trì, \"<u>Thầm Thì</u>\" sẽ nhận được điểm Nạp Năng Lượng bằng <color=#f29e38ff>30%</color> tổng Tấn Công của nhân vật phe ta.",
+		"EnhancedAbridgedEffect": "Khi mục tiêu phe địch rơi vào Sát Thương Duy Trì, sẽ nạp Năng Lượng cho <u>Thầm Thì</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617231": {
+		"Id": "617231",
+		"Name": "Từ Tồn Tại Đến Kẻ Tồn Tại",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe địch bị tấn công lần đầu trong mỗi hiệp, sẽ khiến \"<u>Thầm Thì</u>\" sinh ra sát thương bằng <color=#f29e38ff>160%</color> sát thương gốc.",
+		"AbridgedEffect": "Sau khi mục tiêu phe địch bị tấn công lần đầu trong mỗi hiệp, sẽ kích hoạt 1 lần sát thương \"<u>Thầm Thì</u>\".",
+		"EnhancedEffect": "Sau khi mục tiêu phe địch bị tấn công lần đầu trong mỗi hiệp, sẽ khiến \"<u>Thầm Thì</u>\" sinh ra sát thương bằng <color=#f29e38ff>240%</color> sát thương gốc.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe địch bị tấn công lần đầu trong mỗi hiệp, sẽ kích hoạt 1 lần sát thương \"<u>Thầm Thì</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617232": {
+		"Id": "617232",
+		"Name": "Giọng Nói Đến Từ Nơi Khác",
+		"Rarity": 1,
+		"Effect": "Khi bắt đầu hiệp của mục tiêu phe địch sẽ kích hoạt thêm 1 lần tổng kết Sát Thương Duy Trì, khiến trạng thái Sát Thương Duy Trì kẻ đó đang phải chịu lập tức sinh ra sát thương bằng <color=#f29e38ff>90%</color> sát thương gốc.",
+		"AbridgedEffect": "Khi mục tiêu phe địch bắt đầu hiệp, sẽ kích hoạt thêm 1 lần trạng thái Sát Thương Duy Trì.",
+		"EnhancedEffect": "Khi bắt đầu hiệp của mục tiêu phe địch sẽ kích hoạt thêm 1 lần tổng kết Sát Thương Duy Trì, khiến trạng thái Sát Thương Duy Trì kẻ đó đang phải chịu lập tức sinh ra sát thương bằng <color=#f29e38ff>135%</color> sát thương gốc.",
+		"EnhancedAbridgedEffect": "Khi mục tiêu phe địch bắt đầu hiệp, sẽ kích hoạt thêm 1 lần trạng thái Sát Thương Duy Trì.",
+		"VersionAdded": "4.1"
+	},
+	"617240": {
+		"Id": "617240",
+		"Name": "Khai Sáng Và Diệt Vong",
+		"Rarity": 1,
+		"Effect": "Khi hiệp của mục tiêu phe địch kết thúc, \"<u>Thầm Thì</u>\" sẽ nhận được điểm Nạp Năng Lượng bằng <color=#f29e38ff>40%</color> tổng Tấn Công của nhân vật phe ta.",
+		"AbridgedEffect": "Khi hiệp của mục tiêu phe địch kết thúc, \"<u>Thầm Thì</u>\" sẽ nhận được điểm Nạp Năng Lượng.",
+		"EnhancedEffect": "Khi hiệp của mục tiêu phe địch kết thúc, \"<u>Thầm Thì</u>\" sẽ nhận được điểm Nạp Năng Lượng bằng <color=#f29e38ff>60%</color> tổng Tấn Công của nhân vật phe ta.",
+		"EnhancedAbridgedEffect": "Khi hiệp của mục tiêu phe địch kết thúc, \"<u>Thầm Thì</u>\" sẽ nhận được điểm Nạp Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"617241": {
+		"Id": "617241",
+		"Name": "Nước Mắt Và Thánh Đồ",
+		"Rarity": 1,
+		"Effect": "Mục tiêu phe địch sau mỗi lần chịu sát thương \"<u>Thầm Thì</u>\", sát thương gây ra sẽ giảm <color=#f29e38ff>0.3%</color>, tối đa giảm <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Mục tiêu phe địch sau mỗi lần chịu sát thương \"<u>Thầm Thì</u>\", sẽ giảm sát thương gây ra.",
+		"EnhancedEffect": "Mục tiêu phe địch sau mỗi lần chịu sát thương \"<u>Thầm Thì</u>\", sát thương gây ra sẽ giảm <color=#f29e38ff>0.8%</color>, tối đa giảm <color=#f29e38ff>16%</color>.",
+		"EnhancedAbridgedEffect": "Mục tiêu phe địch sau mỗi lần chịu sát thương \"<u>Thầm Thì</u>\", sẽ giảm sát thương gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617242": {
+		"Id": "617242",
+		"Name": "Lời Ca Tụng Mất Ngủ",
+		"Rarity": 1,
+		"Effect": "Tăng sát thương \"<u>Thầm Thì</u>\" bằng <color=#f29e38ff>30%</color> Bội Số Sát Thương gốc.",
+		"AbridgedEffect": "Tăng sát thương \"<u>Thầm Thì</u>\".",
+		"EnhancedEffect": "Tăng sát thương \"<u>Thầm Thì</u>\" bằng <color=#f29e38ff>45%</color> Bội Số Sát Thương gốc.",
+		"EnhancedAbridgedEffect": "Tăng sát thương \"<u>Thầm Thì</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617243": {
+		"Id": "617243",
+		"Name": "Trên Đỉnh Tuyệt Vọng",
+		"Rarity": 1,
+		"Effect": "Ngưỡng xóa bỏ \"<u>Thầm Thì</u>\" tăng <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Tăng giới hạn ngưỡng xóa bỏ \"<u>Thầm Thì</u>\".",
+		"EnhancedEffect": "Ngưỡng xóa bỏ \"<u>Thầm Thì</u>\" tăng <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Tăng giới hạn ngưỡng xóa bỏ \"<u>Thầm Thì</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617244": {
+		"Id": "617244",
+		"Name": "Viết Về Tai Họa",
+		"Rarity": 1,
+		"Effect": "Khi \"<u>Thầm Thì</u>\" nhận Nạp Năng Lượng, hiệu suất Nạp Năng Lượng tăng <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Khi \"<u>Thầm Thì</u>\" nhận Nạp Năng Lượng, hiệu suất Nạp Năng Lượng tăng.",
+		"EnhancedEffect": "Khi \"<u>Thầm Thì</u>\" nhận Nạp Năng Lượng, hiệu suất Nạp Năng Lượng tăng <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Khi \"<u>Thầm Thì</u>\" nhận Nạp Năng Lượng, hiệu suất Nạp Năng Lượng tăng.",
+		"VersionAdded": "4.1"
+	},
+	"617245": {
+		"Id": "617245",
+		"Name": "Người Phát Ngôn Cuối Cùng",
+		"Rarity": 1,
+		"Effect": "Mỗi khi mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, thì toàn phe ta sẽ hồi HP bằng <color=#f29e38ff>1.0%</color> Giới Hạn HP của mỗi nhân vật.",
+		"AbridgedEffect": "Mỗi khi mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, toàn thể phe ta sẽ hồi HP.",
+		"EnhancedEffect": "Mỗi khi mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, thì toàn phe ta sẽ hồi HP bằng <color=#f29e38ff>1.5%</color> Giới Hạn HP của mỗi nhân vật.",
+		"EnhancedAbridgedEffect": "Mỗi khi mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, toàn thể phe ta sẽ hồi HP.",
+		"VersionAdded": "4.1"
+	},
+	"617246": {
+		"Id": "617246",
+		"Name": "Lập Lờ Nước Đôi",
+		"Rarity": 1,
+		"Effect": "Mục tiêu phe địch cứ rơi vào 1 trạng thái Sát Thương Duy Trì, thì sát thương phải chịu sẽ tăng <color=#f29e38ff>3.0%</color>, tối đa cộng dồn <color=#f29e38ff>6</color> tầng.",
+		"AbridgedEffect": "Mục tiêu phe địch cứ có 1 trạng thái Sát Thương Duy Trì, sát thương phải chịu sẽ tăng.",
+		"EnhancedEffect": "Mục tiêu phe địch cứ rơi vào 1 trạng thái Sát Thương Duy Trì, thì sát thương phải chịu sẽ tăng <color=#f29e38ff>4.5%</color>, tối đa cộng dồn <color=#f29e38ff>6</color> tầng.",
+		"EnhancedAbridgedEffect": "Mục tiêu phe địch cứ có 1 trạng thái Sát Thương Duy Trì, sát thương phải chịu sẽ tăng.",
+		"VersionAdded": "4.1"
+	},
+	"617250": {
+		"Id": "617250",
+		"Name": "Ẩn Dụ Sống Động",
+		"Rarity": 1,
+		"Effect": "Tăng Sát Thương Duy Trì mục tiêu phe ta gây ra <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Duy Trì gây ra.",
+		"EnhancedEffect": "Tăng Sát Thương Duy Trì mục tiêu phe ta gây ra <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Duy Trì gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617251": {
+		"Id": "617251",
+		"Name": "Kẻ Không Tồn Tại",
+		"Rarity": 1,
+		"Effect": "Tăng Chính Xác Hiệu Ứng của mục tiêu phe ta <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Tăng Chính Xác Hiệu Ứng.",
+		"EnhancedEffect": "Tăng Chính Xác Hiệu Ứng của mục tiêu phe ta <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Chính Xác Hiệu Ứng.",
+		"VersionAdded": "4.1"
+	},
+	"617252": {
+		"Id": "617252",
+		"Name": "Bệnh Tật Dẫn Đến Tử Vong",
+		"Rarity": 1,
+		"Effect": "Giảm Kháng Hiệu Ứng của mục tiêu phe địch <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Giảm Kháng Hiệu Ứng của mục tiêu phe địch.",
+		"EnhancedEffect": "Giảm Kháng Hiệu Ứng của mục tiêu phe địch <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Giảm Kháng Hiệu Ứng của mục tiêu phe địch.",
+		"VersionAdded": "4.1"
+	},
+	"617253": {
+		"Id": "617253",
+		"Name": "Báng Bổ Thần Linh",
+		"Rarity": 1,
+		"Effect": "Tăng Sát Thương Duy Trì mục tiêu phe địch phải chịu <color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Duy Trì mà mục tiêu phe địch phải chịu.",
+		"EnhancedEffect": "Tăng Sát Thương Duy Trì mục tiêu phe địch phải chịu <color=#f29e38ff>15%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Duy Trì mà mục tiêu phe địch phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617254": {
+		"Id": "617254",
+		"Name": "Thể Nghiệm Nội Tại",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển Hiệu Ứng Xấu, Tấn Công tăng <color=#f29e38ff>24%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi thi triển Hiệu Ứng Xấu, sẽ tăng Tấn Công.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển Hiệu Ứng Xấu, Tấn Công tăng <color=#f29e38ff>36%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi thi triển Hiệu Ứng Xấu, sẽ tăng Tấn Công.",
+		"VersionAdded": "4.1"
+	},
+	"617255": {
+		"Id": "617255",
+		"Name": "Mặt Trời Đen",
+		"Rarity": 1,
+		"Effect": "Mục tiêu phe địch trong trạng thái Sát Thương Duy Trì thì sẽ tăng sát thương phải chịu <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Mục tiêu phe địch có trạng thái Sát Thương Duy Trì, sẽ tăng sát thương phải chịu.",
+		"EnhancedEffect": "Mục tiêu phe địch trong trạng thái Sát Thương Duy Trì thì sẽ tăng sát thương phải chịu <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Mục tiêu phe địch có trạng thái Sát Thương Duy Trì, sẽ tăng sát thương phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617256": {
+		"Id": "617256",
+		"Name": "Vượt Qua Thiện Ác",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển Hiệu Ứng Xấu, Tốc Độ tăng <color=#f29e38ff>10%</color>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"AbridgedEffect": "Sau khi thi triển Hiệu Ứng Xấu, sẽ tăng Tốc Độ.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển Hiệu Ứng Xấu, Tốc Độ tăng <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi thi triển Hiệu Ứng Xấu, sẽ tăng Tốc Độ.",
+		"VersionAdded": "4.1"
+	},
+	"617257": {
+		"Id": "617257",
+		"Name": "Cái Chết Của Kẻ Khác",
+		"Rarity": 1,
+		"Effect": "Mỗi khi mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, mục tiêu ngẫu nhiên của phe ta sẽ hồi <color=#f29e38ff>1.0</color> Năng Lượng, mục tiêu phe địch mỗi hiệp tối đa kích hoạt <color=#f29e38ff>20</color> lần hiệu ứng này.",
+		"AbridgedEffect": "Sau mỗi lần mục tiêu phe địch chịu Sát Thương Duy Trì, thì mục tiêu ngẫu nhiên phe ta sẽ hồi Năng Lượng.",
+		"EnhancedEffect": "Mỗi khi mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, mục tiêu ngẫu nhiên của phe ta sẽ hồi <color=#f29e38ff>1.5</color> Năng Lượng, mục tiêu phe địch mỗi hiệp tối đa kích hoạt <color=#f29e38ff>20</color> lần hiệu ứng này.",
+		"EnhancedAbridgedEffect": "Sau mỗi lần mục tiêu phe địch chịu Sát Thương Duy Trì, thì mục tiêu ngẫu nhiên phe ta sẽ hồi Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"617420": {
+		"Id": "617420",
+		"Name": "Viên Đạn Cuối Cùng",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Săn Bắn\", gây Sát Thương Phong cho toàn bộ mục tiêu phe địch, đồng thời giúp toàn bộ phe ta Ưu Tiên Hành Động <color=#f29e38ff>100%</color>, Giới Hạn Năng Lượng là 200.",
+		"AbridgedEffect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Săn Bắn\", gây sát thương Phong cho toàn bộ mục tiêu phe địch, đồng thời giúp toàn bộ phe ta Ưu Tiên Hành Động <color=#f29e38ff>100%</color>, Giới Hạn Năng Lượng là 200.",
+		"VersionAdded": "4.1"
+	},
+	"617430": {
+		"Id": "617430",
+		"Name": "Giương Cung Bạt Kiếm, Thế Giới Chiến Tranh",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tiêu diệt mục tiêu phe địch, Ưu Tiên Hành Động 100%, đồng thời khiến mục tiêu phe địch khác nhận <color=#f29e38ff>4</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta tiêu diệt mục tiêu phe địch, Ưu Tiên Hành Động 100%, đồng thời khiến mục tiêu phe địch khác nhận <color=#f29e38ff>4</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"EnhancedEffect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>, sau khi mục tiêu phe ta tiêu diệt mục tiêu phe địch, Ưu Tiên Hành Động 100%, đồng thời khiến mục tiêu phe địch khác nhận <color=#f29e38ff>8</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"EnhancedAbridgedEffect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>, sau khi mục tiêu phe ta tiêu diệt mục tiêu phe địch, Ưu Tiên Hành Động 100%, đồng thời khiến mục tiêu phe địch khác nhận <color=#f29e38ff>8</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617431": {
+		"Id": "617431",
+		"Name": "Lông Trắng Bay Lượn, Biển Sao Tan Biến",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển tấn công, khi số lượng mục tiêu tấn công là 1/2/3/4/5, sát thương \"<u>Chính Xác Nghịch Đảo</u>\" gây ra tăng bằng <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> Bội Số Sát Thương gốc.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, khi số lượng mục tiêu tấn công là 1/2/3/4/5, sát thương \"<u>Chính Xác Nghịch Đảo</u>\" gây ra tăng bằng <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> Bội Số Sát Thương gốc.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, khi số lượng mục tiêu tấn công là 1/2/3/4/5, sát thương \"<u>Chính Xác Nghịch Đảo</u>\" gây ra tăng bằng <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> Bội Số Sát Thương gốc.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, khi số lượng mục tiêu tấn công là 1/2/3/4/5, sát thương \"<u>Chính Xác Nghịch Đảo</u>\" gây ra tăng bằng <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> Bội Số Sát Thương gốc.",
+		"VersionAdded": "4.1"
+	},
+	"617432": {
+		"Id": "617432",
+		"Name": "Vạn Cỗ Chiến Xa, Thử Lòng Dũng Cảm",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, bản thân Ưu Tiên Hành Động 100%.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, bản thân Ưu Tiên Hành Động 100%.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, bản thân Ưu Tiên Hành Động 100%, và tăng <color=#f29e38ff>50%</color> sát thương gây ra, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, bản thân Ưu Tiên Hành Động 100%, và tăng <color=#f29e38ff>50%</color> sát thương gây ra, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"617440": {
+		"Id": "617440",
+		"Name": "Nối Ánh Sao Vào Mũi Kiếm",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta gây sát thương lên mục tiêu phe địch sở hữu \"<u>Chính Xác Nghịch Đảo</u>\", Tỷ Lệ Bạo Kích tăng <color=#f29e38ff>20%</color>, mỗi 1 tầng \"<u>Chính Xác Nghịch Đảo</u>\", khiến Sát Thương Bạo Kích tăng thêm <color=#f29e38ff>3%</color>.",
+		"AbridgedEffect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta đối với mục tiêu phe địch có \"<u>Chính Xác Nghịch Đảo</u>\" tăng, số tầng \"<u>Chính Xác Nghịch Đảo</u>\" càng nhiều, Sát Thương Bạo Kích càng cao.",
+		"EnhancedEffect": "Khi mục tiêu phe ta gây sát thương lên mục tiêu phe địch sở hữu \"<u>Chính Xác Nghịch Đảo</u>\", Tỷ Lệ Bạo Kích tăng <color=#f29e38ff>25%</color>, mỗi 1 tầng \"<u>Chính Xác Nghịch Đảo</u>\", khiến Sát Thương Bạo Kích tăng thêm <color=#f29e38ff>5%</color>.",
+		"EnhancedAbridgedEffect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta đối với mục tiêu phe địch có \"<u>Chính Xác Nghịch Đảo</u>\" tăng, số tầng \"<u>Chính Xác Nghịch Đảo</u>\" càng nhiều, Sát Thương Bạo Kích càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"617441": {
+		"Id": "617441",
+		"Name": "Mũi Tên Không Đồng Đều",
+		"Rarity": 1,
+		"Effect": "Giới hạn số tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch tăng <color=#f29e38ff>5</color> tầng.",
+		"AbridgedEffect": "Giới hạn tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch tăng.",
+		"EnhancedEffect": "Giới hạn số tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch tăng <color=#f29e38ff>10</color> tầng.",
+		"EnhancedAbridgedEffect": "Giới hạn tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch tăng.",
+		"VersionAdded": "4.1"
+	},
+	"617442": {
+		"Id": "617442",
+		"Name": "Vó Ngựa Xé Gió",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch bắt đầu hiệp, với mỗi 1 tầng \"<u>Chính Xác Nghịch Đảo</u>\" đang có, sát thương phải chịu sẽ tăng <color=#f29e38ff>0.8%</color>, duy trì đến khi bắt đầu hiệp sau.",
+		"AbridgedEffect": "Số tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch càng nhiều, sát thương phải chịu càng cao.",
+		"EnhancedEffect": "Khi mục tiêu phe địch bắt đầu hiệp, với mỗi 1 tầng \"<u>Chính Xác Nghịch Đảo</u>\" đang có, sát thương phải chịu sẽ tăng <color=#f29e38ff>1.2%</color>, duy trì đến khi bắt đầu hiệp sau.",
+		"EnhancedAbridgedEffect": "Số tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch càng nhiều, sát thương phải chịu càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"617443": {
+		"Id": "617443",
+		"Name": "Có Thể Bẻ Từng Tấc",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, khiến mục tiêu bị tấn công ngẫu nhiên nhận thêm <color=#f29e38ff>2</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, khiến mục tiêu bị tấn công ngẫu nhiên nhận thêm <color=#f29e38ff>2</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, khiến mục tiêu bị tấn công ngẫu nhiên nhận thêm <color=#f29e38ff>2</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\", đồng thời khiến Tốc Độ bản thân tăng <color=#f29e38ff>30%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, khiến mục tiêu bị tấn công ngẫu nhiên nhận thêm <color=#f29e38ff>2</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\", đồng thời khiến bản thân tăng Tốc Độ.",
+		"VersionAdded": "4.1"
+	},
+	"617444": {
+		"Id": "617444",
+		"Name": "Ánh Chớp Lóe Sáng",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển tấn công, nếu có mục tiêu bị tấn công sở hữu từ <color=#f29e38ff>5</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\" trở lên, thì sẽ khiến Tấn Công của bản thân tăng <color=#f29e38ff>50%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, nếu có mục tiêu bị tấn công sở hữu từ <color=#f29e38ff>5</color> tầng <u>Chính Xác Nghịch Đảo</u> trở lên, thì sẽ khiến bản thân tăng Tấn Công.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, nếu có mục tiêu bị tấn công sở hữu từ <color=#f29e38ff>5</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\" trở lên, thì sẽ khiến Tấn Công của bản thân tăng <color=#f29e38ff>75%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, nếu có mục tiêu bị tấn công sở hữu từ <color=#f29e38ff>5</color> tầng <u>Chính Xác Nghịch Đảo</u> trở lên, thì sẽ khiến bản thân tăng Tấn Công.",
+		"VersionAdded": "4.1"
+	},
+	"617445": {
+		"Id": "617445",
+		"Name": "Cung Tốt Nắm Chặt Tay",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, có <color=#f29e38ff>40%</color> xác suất cố định hồi 1 Điểm Chiến Kỹ.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, có xác suất hồi phục Điểm Chiến Kỹ.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, có <color=#f29e38ff>60%</color> xác suất cố định hồi 1 Điểm Chiến Kỹ.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, có xác suất hồi phục Điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617446": {
+		"Id": "617446",
+		"Name": "Mũi Tên Lướt Như Sao Băng",
+		"Rarity": 1,
+		"Effect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>5%</color>, toàn đội cứ sau khi qua <color=#f29e38ff>12</color> hiệp, mục tiêu hiện tại của phe ta sẽ Ưu Tiên Hành Động 100%.",
+		"AbridgedEffect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>5%</color>, toàn đội cứ sau khi qua <color=#f29e38ff>12</color> hiệp, mục tiêu hiện tại của phe ta sẽ Ưu Tiên Hành Động 100%.",
+		"EnhancedEffect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>, toàn đội cứ sau khi qua <color=#f29e38ff>12</color> hiệp, mục tiêu hiện tại của phe ta sẽ Ưu Tiên Hành Động 100%.",
+		"EnhancedAbridgedEffect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>, toàn đội cứ sau khi qua <color=#f29e38ff>12</color> hiệp, mục tiêu hiện tại của phe ta sẽ Ưu Tiên Hành Động 100%.",
+		"VersionAdded": "4.1"
+	},
+	"617450": {
+		"Id": "617450",
+		"Name": "Uốn Nắn Chính Xác",
+		"Rarity": 1,
+		"Effect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Tăng Tốc Độ của mục tiêu phe ta.",
+		"EnhancedEffect": "Tốc Độ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tốc Độ của mục tiêu phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617451": {
+		"Id": "617451",
+		"Name": "Sức Mạnh Địch Trăm Người",
+		"Rarity": 1,
+		"Effect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của mục tiêu phe ta.",
+		"EnhancedEffect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của mục tiêu phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617452": {
+		"Id": "617452",
+		"Name": "Mục Tiêu Rõ Ràng",
+		"Rarity": 1,
+		"Effect": "Sát Thương Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta.",
+		"EnhancedEffect": "Sát Thương Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617453": {
+		"Id": "617453",
+		"Name": "Trăng Thu Trên Bầu Trời",
+		"Rarity": 1,
+		"Effect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ hồi HP bằng <color=#f29e38ff>12%</color> Giới Hạn HP cho toàn bộ mục tiêu phe ta.",
+		"AbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, hồi HP cho toàn bộ mục tiêu phe ta.",
+		"EnhancedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ hồi HP bằng <color=#f29e38ff>18%</color> Giới Hạn HP cho toàn bộ mục tiêu phe ta.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, hồi HP cho toàn bộ mục tiêu phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617454": {
+		"Id": "617454",
+		"Name": "Một Cú Búng Tay",
+		"Rarity": 1,
+		"Effect": "Sau khi tiêu diệt mục tiêu phe địch, Tấn Công của toàn bộ phe ta tăng <color=#f29e38ff>10%</color>, tối đa cộng dồn <color=#f29e38ff>4</color> lần.",
+		"AbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ tăng Tấn Công cho toàn bộ phe ta.",
+		"EnhancedEffect": "Sau khi tiêu diệt mục tiêu phe địch, Tấn Công của toàn bộ phe ta tăng <color=#f29e38ff>15%</color>, tối đa cộng dồn <color=#f29e38ff>4</color> lần.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ tăng Tấn Công cho toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617455": {
+		"Id": "617455",
+		"Name": "Mũi Tên Hủy Vầng Trăng",
+		"Rarity": 1,
+		"Effect": "Khi hiệp của mục tiêu phe ta kết thúc, sẽ Ưu Tiên Hành Động <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Khi mục tiêu phe ta kết thúc hiệp, sẽ Ưu Tiên Hành Động.",
+		"EnhancedEffect": "Khi hiệp của mục tiêu phe ta kết thúc, sẽ Ưu Tiên Hành Động <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Khi mục tiêu phe ta kết thúc hiệp, sẽ Ưu Tiên Hành Động.",
+		"VersionAdded": "4.1"
+	},
+	"617456": {
+		"Id": "617456",
+		"Name": "Sấm Rền Trên Vách",
+		"Rarity": 1,
+		"Effect": "Khi hiệp của mục tiêu phe ta bắt đầu, sẽ hồi <color=#f29e38ff>3</color> điểm Năng Lượng.",
+		"AbridgedEffect": "Khi bắt đầu hiệp của mục tiêu phe ta, sẽ hồi Năng Lượng.",
+		"EnhancedEffect": "Khi hiệp của mục tiêu phe ta bắt đầu, sẽ hồi <color=#f29e38ff>4</color> điểm Năng Lượng.",
+		"EnhancedAbridgedEffect": "Khi bắt đầu hiệp của mục tiêu phe ta, sẽ hồi Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"617457": {
+		"Id": "617457",
+		"Name": "Cành Xanh, Dây Đàn Đỏ",
+		"Rarity": 1,
+		"Effect": "Sau khi tiêu diệt mục tiêu phe địch, Tốc Độ toàn bộ phe ta tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>3</color> lần.",
+		"AbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ tăng Tốc Độ cho toàn bộ phe ta.",
+		"EnhancedEffect": "Sau khi tiêu diệt mục tiêu phe địch, Tốc Độ toàn bộ phe ta tăng <color=#f29e38ff>6%</color>, tối đa cộng dồn <color=#f29e38ff>3</color> lần.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ tăng Tốc Độ cho toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617520": {
+		"Id": "617520",
+		"Name": "Vua Quỷ Trời Bên Ngoài Ranh Giới",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Hủy Diệt\", gây Sát Thương Hỏa cho tất cả mục tiêu phe địch, tiêu hao đến còn <color=#f29e38ff>60%</color> HP của toàn bộ phe ta, đồng thời khiến Giới Hạn HP của toàn bộ phe ta tăng <color=#f29e38ff>100%</color>. Khi hiệp bắt đầu, hồi cho bản thân <color=#f29e38ff>100%</color> HP đã tiêu hao, duy trì <color=#f29e38ff>4</color> hiệp.",
+		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, sẽ gây Sát Thương Hỏa cho toàn bộ phe địch, giảm HP của toàn bộ phe ta, đồng thời khiến Giới Hạn HP tăng và hồi HP khi bắt đầu hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"617530": {
+		"Id": "617530",
+		"Name": "Bùng Nổ Nhanh Hơn Ánh Sáng",
+		"Rarity": 1,
+		"Effect": "Sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" do mục tiêu phe ta gây ra tăng <color=#f29e38ff>20%</color>, giới hạn \"<u>Bùng Nổ Ánh Sáng</u>\" tăng <color=#f29e38ff>65%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương \"<u>Bùng Nổ Ánh Sáng</u>\" mục tiêu phe ta gây ra, tăng giới hạn \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"EnhancedEffect": "Sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" do mục tiêu phe ta gây ra tăng <color=#f29e38ff>30%</color>, giới hạn \"<u>Bùng Nổ Ánh Sáng</u>\" tăng <color=#f29e38ff>100%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương \"<u>Bùng Nổ Ánh Sáng</u>\" mục tiêu phe ta gây ra, tăng giới hạn \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617531": {
+		"Id": "617531",
+		"Name": "Sóng Xung Kích Tự Do Ngẫu Nhiên",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta phát động tấn công lần đầu của mỗi hiệp, sẽ gây Sát Thương Kèm Theo bằng <color=#f29e38ff>100%</color> \"<u>Bùng Nổ Ánh Sáng</u>\" cho mục tiêu bị tấn công.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta phát động tấn công lần đầu của mỗi hiệp, sẽ gây cho mục tiêu bị tấn công Sát Thương Kèm Theo dựa trên <u>Bùng Nổ Ánh Sáng</u>.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta phát động tấn công lần đầu của mỗi hiệp, sẽ gây Sát Thương Kèm Theo bằng <color=#f29e38ff>150%</color> \"<u>Bùng Nổ Ánh Sáng</u>\" cho mục tiêu bị tấn công.",
+		"EnhancedAbridgedEffect": "Sau khi mục tiêu phe ta phát động tấn công lần đầu của mỗi hiệp, sẽ gây cho mục tiêu bị tấn công Sát Thương Kèm Theo dựa trên <u>Bùng Nổ Ánh Sáng</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617532": {
+		"Id": "617532",
+		"Name": "Môi Trường Trung Gian Mây Siêu Tốc",
+		"Rarity": 1,
+		"Effect": "Khi bị tấn công, sát thương mục tiêu phe ta phải chịu sẽ chia sẻ cho toàn bộ phe ta.",
+		"AbridgedEffect": "Toàn phe ta cùng chia sẻ sát thương phải chịu.",
+		"EnhancedEffect": "Giảm sát thương mục tiêu phe ta phải chịu <color=#f29e38ff>15%</color>, khi bị tấn công, sát thương mục tiêu phe ta phải chịu sẽ chia sẻ cho toàn bộ phe ta.",
+		"EnhancedAbridgedEffect": "Toàn phe ta cùng chia sẻ sát thương phải chịu, đồng thời giảm sát thương mục tiêu phe ta phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617540": {
+		"Id": "617540",
+		"Name": "Lửa Chớp Dày Đặc",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta bị tấn công, Bội Số Sát Thương của \"<u>Bùng Nổ Ánh Sáng</u>\" tăng bằng <color=#f29e38ff>20%</color> bội số gốc, tối đa cộng dồn <color=#f29e38ff>2</color> lần, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Khi bị tấn công, sẽ tăng sát thương <u>Bùng Nổ Ánh Sáng</u>.",
+		"EnhancedEffect": "Khi mục tiêu phe ta bị tấn công, Bội Số Sát Thương của \"<u>Bùng Nổ Ánh Sáng</u>\" tăng bằng <color=#f29e38ff>30%</color> bội số gốc, tối đa cộng dồn <color=#f29e38ff>2</color> lần, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Khi bị tấn công, sẽ tăng sát thương <u>Bùng Nổ Ánh Sáng</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617541": {
+		"Id": "617541",
+		"Name": "Bức Xạ Đồng Bộ",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> lượng Khiên mục tiêu phe ta nhận được sẽ chuyển hóa thêm thành \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"AbridgedEffect": "Lượng Khiên nhận được có thể chuyển hóa thêm thành <u>Bùng Nổ Ánh Sáng</u>",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> lượng Khiên mục tiêu phe ta nhận được sẽ chuyển hóa thêm thành \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"EnhancedAbridgedEffect": "Lượng Khiên nhận được có thể chuyển hóa thêm thành <u>Bùng Nổ Ánh Sáng</u>",
+		"VersionAdded": "4.1"
+	},
+	"617542": {
+		"Id": "617542",
+		"Name": "Quang Phổ Liên Tục",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> Lượng Hồi Phục dư ra cũng sẽ chuyển hóa thành \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"AbridgedEffect": "Lượng Hồi Phục dư ra cũng có thể chuyển hóa thành <u>Bùng Nổ Ánh Sáng</u>.",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> Lượng Hồi Phục dư ra cũng sẽ chuyển hóa thành \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"EnhancedAbridgedEffect": "Lượng Hồi Phục dư ra cũng có thể chuyển hóa thành <u>Bùng Nổ Ánh Sáng</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617543": {
+		"Id": "617543",
+		"Name": "Đai Che Giấu",
+		"Rarity": 1,
+		"Effect": "Giá trị cơ bản của \"<u>Bùng Nổ Ánh Sáng</u>\" tăng <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Tăng điểm cơ bản của <u>Bùng Nổ Ánh Sáng</u>.",
+		"EnhancedEffect": "Giá trị cơ bản của \"<u>Bùng Nổ Ánh Sáng</u>\" tăng <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Tăng điểm cơ bản của <u>Bùng Nổ Ánh Sáng</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617544": {
+		"Id": "617544",
+		"Name": "Sao Biến Quang Tai Ương",
+		"Rarity": 1,
+		"Effect": "Tăng Tỷ Lệ Bạo Kích của sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" gây ra <color=#f29e38ff>20%</color>, Tăng Sát Thương Bạo Kích <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích và Sát Thương Bạo Kích của sát thương gây ra bởi <u>Bùng Nổ Ánh Sáng</u>.",
+		"EnhancedEffect": "Tăng Tỷ Lệ Bạo Kích của sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" gây ra <color=#f29e38ff>30%</color>, Tăng Sát Thương Bạo Kích <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tỷ Lệ Bạo Kích và Sát Thương Bạo Kích của sát thương gây ra bởi <u>Bùng Nổ Ánh Sáng</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617545": {
+		"Id": "617545",
+		"Name": "Bước Nhảy Cưỡng Chế",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta bị tấn công hoặc tiêu hao HP, nếu phần trăm HP hiện tại dưới <color=#f29e38ff>35%</color>, sẽ hồi HP bằng <color=#f29e38ff>12%</color> Giới Hạn HP, trong 1 lần hành động tối đa có thể dùng phương thức này để hồi HP bằng <color=#f29e38ff>18%</color> Giới Hạn HP.",
+		"AbridgedEffect": "Sau khi bị tấn công hoặc tiêu hao HP, nếu phần trăm HP hiện tại nhỏ hơn <color=#f29e38ff>35%</color>, sẽ hồi phục HP.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta bị tấn công hoặc tiêu hao HP, nếu phần trăm HP hiện tại dưới <color=#f29e38ff>35%</color>, sẽ hồi HP bằng <color=#f29e38ff>20%</color> Giới Hạn HP, trong 1 lần hành động tối đa có thể dùng phương thức này để hồi HP bằng <color=#f29e38ff>30%</color> Giới Hạn HP.",
+		"EnhancedAbridgedEffect": "Sau khi bị tấn công hoặc tiêu hao HP, nếu phần trăm HP hiện tại nhỏ hơn <color=#f29e38ff>35%</color>, sẽ hồi phục HP.",
+		"VersionAdded": "4.1"
+	},
+	"617546": {
+		"Id": "617546",
+		"Name": "Phân Rã Phóng Xạ",
+		"Rarity": 1,
+		"Effect": "Khi phần trăm HP của mục tiêu phe ta thấp hơn 50%, sẽ giảm sát thương phải chịu <color=#f29e38ff>10%</color>, lượng hồi phục tăng <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Khi phần trăm HP thấp hơn 50%, giảm sát thương phải chịu và tăng Lượng Hồi Phục.",
+		"EnhancedEffect": "Khi phần trăm HP của mục tiêu phe ta thấp hơn 50%, sẽ giảm sát thương phải chịu <color=#f29e38ff>15%</color>, lượng hồi phục tăng <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Khi phần trăm HP thấp hơn 50%, giảm sát thương phải chịu và tăng Lượng Hồi Phục.",
+		"VersionAdded": "4.1"
+	},
+	"617550": {
+		"Id": "617550",
+		"Name": "Luồng Bắn Lưỡng Cực",
+		"Rarity": 1,
+		"Effect": "Giảm sát thương mục tiêu phe ta phải chịu <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Giảm sát thương phải chịu.",
+		"EnhancedEffect": "Giảm sát thương mục tiêu phe ta phải chịu <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Giảm sát thương phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617551": {
+		"Id": "617551",
+		"Name": "Kết Cấu Hai Cánh",
+		"Rarity": 1,
+		"Effect": "Tăng Kháng Hiệu Ứng của mục tiêu phe ta <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Tăng Kháng Hiệu Ứng.",
+		"EnhancedEffect": "Tăng Kháng Hiệu Ứng của mục tiêu phe ta <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Kháng Hiệu Ứng.",
+		"VersionAdded": "4.1"
+	},
+	"617552": {
+		"Id": "617552",
+		"Name": "Sao Đôi Liên Kết",
+		"Rarity": 1,
+		"Effect": "Giới Hạn HP của mục tiêu phe ta tăng <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Tăng Giới Hạn HP.",
+		"EnhancedEffect": "Giới Hạn HP của mục tiêu phe ta tăng <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Giới Hạn HP.",
+		"VersionAdded": "4.1"
+	},
+	"617553": {
+		"Id": "617553",
+		"Name": "Cấp Sao Tuyệt Đối",
+		"Rarity": 1,
+		"Effect": "Lượng Hồi Phục của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Tăng Lượng Hồi Phục.",
+		"EnhancedEffect": "Lượng Hồi Phục của mục tiêu phe ta tăng <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Lượng Hồi Phục.",
+		"VersionAdded": "4.1"
+	},
+	"617554": {
+		"Id": "617554",
+		"Name": "Ngọn Nến Tiêu Chuẩn",
+		"Rarity": 1,
+		"Effect": "Lượng Khiên mục tiêu phe ta nhận được tăng <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Tăng Lượng Khiên nhận được.",
+		"EnhancedEffect": "Lượng Khiên mục tiêu phe ta nhận được tăng <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Lượng Khiên nhận được.",
+		"VersionAdded": "4.1"
+	},
+	"617555": {
+		"Id": "617555",
+		"Name": "Sao Con Truyền Chất",
+		"Rarity": 1,
+		"Effect": "Sau khi HP hoặc lượng Khiên của mục tiêu phe ta giảm, Giới Hạn HP sẽ tăng <color=#f29e38ff>20%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi HP hoặc lượng Khiên giảm, sẽ tăng Giới Hạn HP.",
+		"EnhancedEffect": "Sau khi HP hoặc lượng Khiên của mục tiêu phe ta giảm, Giới Hạn HP sẽ tăng <color=#f29e38ff>30%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi HP hoặc lượng Khiên giảm, sẽ tăng Giới Hạn HP.",
+		"VersionAdded": "4.1"
+	},
+	"617556": {
+		"Id": "617556",
+		"Name": "Sao Đôi Thiên Thực",
+		"Rarity": 1,
+		"Effect": "Sau khi HP hoặc lượng Khiên của mục tiêu phe ta giảm, sẽ tăng Kháng Hiệu Ứng <color=#f29e38ff>16%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi HP hoặc lượng Khiên giảm, sẽ tăng Kháng Hiệu Ứng.",
+		"EnhancedEffect": "Sau khi HP hoặc lượng Khiên của mục tiêu phe ta giảm, sẽ tăng Kháng Hiệu Ứng <color=#f29e38ff>24%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi HP hoặc lượng Khiên giảm, sẽ tăng Kháng Hiệu Ứng.",
+		"VersionAdded": "4.1"
+	},
+	"617557": {
+		"Id": "617557",
+		"Name": "Vụ Nổ Tân Tinh",
+		"Rarity": 1,
+		"Effect": "Khi nhân vật chịu tấn công chí tử sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời khiến HP hiện tại lập tức hồi đến <color=#f29e38ff>20%</color> Giới Hạn HP của bản thân. Trong 1 trận, toàn phe ta chỉ có thể kích hoạt hiệu ứng này <color=#f29e38ff>1</color> lần.",
+		"AbridgedEffect": "Nhân vật có thể kháng sát thương chí tử, đồng thời hồi phục HP bản thân, có giới hạn số lần hiệu lực cho toàn thể phe ta.",
+		"EnhancedEffect": "Khi nhân vật chịu tấn công chí tử sẽ không rơi vào trạng thái không thể chiến đấu, đồng thời khiến HP hiện tại lập tức hồi đến <color=#f29e38ff>100%</color> Giới Hạn HP của bản thân. Trong 1 trận, toàn phe ta chỉ có thể kích hoạt hiệu ứng này <color=#f29e38ff>1</color> lần.",
+		"EnhancedAbridgedEffect": "Nhân vật có thể kháng sát thương chí tử, đồng thời hồi phục HP bản thân, có giới hạn số lần hiệu lực cho toàn thể phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617620": {
+		"Id": "617620",
+		"Name": "Phi Xác Suất Vô Hạn",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Vui Vẻ\", gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>5</color>-<color=#f29e38ff>10</color> lần Sát Thương Vui Vẻ thuộc tính ngẫu nhiên, đồng thời khiến Aha lập tức nhận 1 hiệp thêm được tính cố định <color=#f29e38ff>200</color> Điểm Hài Hước, hiệp này không tiêu hao Điểm Hài Hước.",
+		"AbridgedEffect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Vui Vẻ\", gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>5</color>-<color=#f29e38ff>10</color> lần Sát Thương Vui Vẻ thuộc tính ngẫu nhiên, đồng thời khiến Aha lập tức nhận 1 hiệp thêm được tính cố định <color=#f29e38ff>200</color> Điểm Hài Hước, hiệp này không tiêu hao Điểm Hài Hước.",
+		"VersionAdded": "4.1"
+	},
+	"617630": {
+		"Id": "617630",
+		"Name": "\"Pizza Cam Thảo: Đá Bào Bạc Hà\"",
+		"Rarity": 1,
+		"Effect": "Mỗi khi vượt qua <color=#f29e38ff>50</color> điểm hành động, \"<u>Người Chia Bài</u>\" sẽ vĩnh viễn nhận được 1 điểm Nạp Năng Lượng. \"<u>Người Chia Bài</u>\" mỗi khi có 1 điểm Nạp Năng Lượng, sẽ khiến Tốc Độ của sự kiện chiến đấu trung lập, của toàn bộ mục tiêu phe ta và Vật Triệu Hồi tăng <color=#f29e38ff>1</color>.",
+		"AbridgedEffect": "Mỗi khi vượt qua <color=#f29e38ff>50</color> điểm hành động, \"<u>Người Chia Bài</u>\" sẽ vĩnh viễn nhận được 1 điểm Nạp Năng Lượng. Nạp Năng Lượng của \"<u>Người Chia Bài</u>\" càng nhiều, thì Tốc Độ của sự kiện chiến đấu trung lập, của toàn thể mục tiêu phe ta và Vật Triệu Hồi sẽ càng cao.",
+		"EnhancedEffect": "Mỗi khi vượt qua <color=#f29e38ff>25</color> điểm hành động, \"<u>Người Chia Bài</u>\" sẽ vĩnh viễn nhận được 1 điểm Nạp Năng Lượng. \"<u>Người Chia Bài</u>\" mỗi khi có 1 điểm Nạp Năng Lượng, sẽ khiến Tốc Độ của sự kiện chiến đấu trung lập, của toàn bộ mục tiêu phe ta và Vật Triệu Hồi tăng <color=#f29e38ff>1</color>.",
+		"EnhancedAbridgedEffect": "Mỗi khi vượt qua <color=#f29e38ff>25</color> điểm hành động, \"<u>Người Chia Bài</u>\" sẽ vĩnh viễn nhận được 1 điểm Nạp Năng Lượng. Nạp Năng Lượng của \"<u>Người Chia Bài</u>\" càng nhiều, thì Tốc Độ của sự kiện chiến đấu trung lập, của toàn thể mục tiêu phe ta và Vật Triệu Hồi sẽ càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"617631": {
+		"Id": "617631",
+		"Name": "\"Thượng Tá Hải Dương: Thế Giới Của Ngày Hôm Qua\"",
+		"Rarity": 1,
+		"Effect": "Sau khi \"<u>Người Chia Bài</u>\" hành động, nhận <color=#f29e38ff>5</color> Điểm Hài Hước, đồng thời khiến Sát Thương Bạo Kích của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>60%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "\"<u>Người Chia Bài</u>\" sau khi hành động sẽ nhận Điểm Hài Hước, đồng thời tăng Sát Thương Bạo Kích cho toàn phe ta.",
+		"EnhancedEffect": "Sau khi \"<u>Người Chia Bài</u>\" hành động, nhận <color=#f29e38ff>10</color> Điểm Hài Hước, đồng thời khiến Sát Thương Bạo Kích của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>60%</color>, mỗi 1 điểm Nạp Năng Lượng tăng thêm <color=#f29e38ff>3%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "\"<u>Người Chia Bài</u>\" sau khi hành động sẽ nhận Điểm Hài Hước, đồng thời tăng Sát Thương Bạo Kích toàn phe ta, Nạp Năng Lượng càng nhiều tăng càng nhiều.",
+		"VersionAdded": "4.1"
+	},
+	"617632": {
+		"Id": "617632",
+		"Name": "\"Cát Vàng Bình Minh: Vũ Đoàn Một Người\"",
+		"Rarity": 1,
+		"Effect": "Xuyên Kháng Toàn Thuộc Tính của mục tiêu phe ta tăng <color=#f29e38ff>10%</color>. Khi Điểm Hài Hước lần đầu đạt <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color>, khiến Độ Vui Vẻ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>20%</color>, có thể cộng dồn.",
+		"AbridgedEffect": "Tăng Xuyên Kháng Toàn Thuộc Tính của mục tiêu phe ta. Điểm Hài Hước càng nhiều, Độ Vui Vẻ của toàn bộ mục tiêu phe ta càng cao.",
+		"EnhancedEffect": "Xuyên Kháng Toàn Thuộc Tính của mục tiêu phe ta tăng <color=#f29e38ff>15%</color>. Khi Điểm Hài Hước lần đầu đạt <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color>, khiến Độ Vui Vẻ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>30%</color>, có thể cộng dồn.",
+		"EnhancedAbridgedEffect": "Tăng Xuyên Kháng Toàn Thuộc Tính của mục tiêu phe ta. Điểm Hài Hước càng nhiều, Độ Vui Vẻ của toàn bộ mục tiêu phe ta càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"617640": {
+		"Id": "617640",
+		"Name": "\"Một Tháng Tĩnh Lặng Trong Căn Nhà\"",
+		"Rarity": 1,
+		"Effect": "Tăng Tỷ Lệ Bạo Kích của \"<u>Người Chia Bài</u>\" <color=#f29e38ff>20%</color>, tăng Sát Thương Bạo Kích <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích, Sát Thương Bạo Kích của \"<u>Người Chia Bài</u>\".",
+		"EnhancedEffect": "Tăng Tỷ Lệ Bạo Kích của \"<u>Người Chia Bài</u>\" <color=#f29e38ff>30%</color>, tăng Sát Thương Bạo Kích <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tỷ Lệ Bạo Kích, Sát Thương Bạo Kích của \"<u>Người Chia Bài</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617641": {
+		"Id": "617641",
+		"Name": "\"Thiếu Úy Thích Trứng Cá Muối\"",
+		"Rarity": 1,
+		"Effect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, khiến sát thương mà mục tiêu bị tấn công phải chịu tăng <color=#f29e38ff>5%</color>, hiệu ứng này có thể cộng dồn, duy trì đến trước lần hành động tiếp theo của \"<u>Người Chia Bài</u>\".",
+		"AbridgedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, sẽ tăng sát thương mà mục tiêu bị tấn công phải chịu.",
+		"EnhancedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, khiến sát thương mà mục tiêu bị tấn công phải chịu tăng <color=#f29e38ff>7%</color>, hiệu ứng này có thể cộng dồn, duy trì đến trước lần hành động tiếp theo của \"<u>Người Chia Bài</u>\".",
+		"EnhancedAbridgedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, sẽ tăng sát thương mà mục tiêu bị tấn công phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617642": {
+		"Id": "617642",
+		"Name": "\"Bạn Biết Không, Tủ Của Bạn Rất Đẹp\"",
+		"Rarity": 1,
+		"Effect": "Tốc Độ cơ bản của \"<u>Người Chia Bài</u>\" tăng <color=#f29e38ff>16</color> điểm, đồng thời khi bắt đầu chiến đấu, Ưu Tiên Hành Động <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Tăng tốc độ cơ bản của \"<u>Người Chia Bài</u>\", và khi bắt đầu chiến đấu sẽ ưu tiên hành động.",
+		"EnhancedEffect": "Tốc Độ cơ bản của \"<u>Người Chia Bài</u>\" tăng <color=#f29e38ff>24</color> điểm, đồng thời khi bắt đầu chiến đấu, Ưu Tiên Hành Động <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Tăng tốc độ cơ bản của \"<u>Người Chia Bài</u>\", và khi bắt đầu chiến đấu sẽ ưu tiên hành động.",
+		"VersionAdded": "4.1"
+	},
+	"617643": {
+		"Id": "617643",
+		"Name": "\"Hạt Giống Quả Thần Kỳ Dị\"",
+		"Rarity": 1,
+		"Effect": "Sau khi \"<u>Người Chia Bài</u>\" hành động, Tốc Độ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>18%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi \"<u>Người Chia Bài</u>\" hành động, sẽ tăng Tốc Độ của toàn bộ mục tiêu phe ta.",
+		"EnhancedEffect": "Sau khi \"<u>Người Chia Bài</u>\" hành động, Tốc Độ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>27%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi \"<u>Người Chia Bài</u>\" hành động, sẽ tăng Tốc Độ của toàn bộ mục tiêu phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617644": {
+		"Id": "617644",
+		"Name": "\"Tiếng Kêu Của Mèo Vũ Trụ\"",
+		"Rarity": 1,
+		"Effect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, khiến sát thương mục tiêu bị tấn công gây ra giảm <color=#f29e38ff>4%</color>, hiệu ứng này có thể cộng dồn, tối đa cộng dồn <color=#f29e38ff>3</color> tầng, duy trì đến trước lần hành động tiếp theo của \"<u>Người Chia Bài</u>\".",
+		"AbridgedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, sẽ khiến sát thương do mục tiêu bị tấn công gây ra giảm.",
+		"EnhancedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, khiến sát thương mục tiêu bị tấn công gây ra giảm <color=#f29e38ff>6%</color>, hiệu ứng này có thể cộng dồn, tối đa cộng dồn <color=#f29e38ff>3</color> tầng, duy trì đến trước lần hành động tiếp theo của \"<u>Người Chia Bài</u>\".",
+		"EnhancedAbridgedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, sẽ khiến sát thương do mục tiêu bị tấn công gây ra giảm.",
+		"VersionAdded": "4.1"
+	},
+	"617645": {
+		"Id": "617645",
+		"Name": "\"Simon Trong Biển Cả\"",
+		"Rarity": 1,
+		"Effect": "Sát Thương do mục tiêu phe ta gây ra bỏ qua <color=#f29e38ff>8%</color> Phòng Thủ của mục tiêu phe địch, nếu là Sát Thương Vui Vẻ, thì bỏ qua thêm <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Sát thương do mục tiêu phe ta gây ra bỏ qua Phòng Thủ của mục tiêu phe địch, nếu là Sát Thương Vui Vẻ, thì sẽ bỏ qua thêm.",
+		"EnhancedEffect": "Sát Thương do mục tiêu phe ta gây ra bỏ qua <color=#f29e38ff>12%</color> Phòng Thủ của mục tiêu phe địch, nếu là Sát Thương Vui Vẻ, thì bỏ qua thêm <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Sát thương do mục tiêu phe ta gây ra bỏ qua Phòng Thủ của mục tiêu phe địch, nếu là Sát Thương Vui Vẻ, thì sẽ bỏ qua thêm.",
+		"VersionAdded": "4.1"
+	},
+	"617646": {
+		"Id": "617646",
+		"Name": "\"Ngày Dài Đằng Đẵng, Con Đường Xa Xăm\"",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta gây sát thương Vui Vẻ, Hiệu Suất Phá Vỡ Điểm Yếu sẽ tăng <color=#f29e38ff>35%</color>.",
+		"AbridgedEffect": "Tăng Hiệu Suất Phá Vỡ Điểm Yếu khi mục tiêu phe ta gây Sát Thương Vui Vẻ.",
+		"EnhancedEffect": "Khi mục tiêu phe ta gây sát thương Vui Vẻ, Hiệu Suất Phá Vỡ Điểm Yếu sẽ tăng <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Hiệu Suất Phá Vỡ Điểm Yếu khi mục tiêu phe ta gây Sát Thương Vui Vẻ.",
+		"VersionAdded": "4.1"
+	},
+	"617650": {
+		"Id": "617650",
+		"Name": "\"Bãi Đỗ Xe Hư Ảo\"",
+		"Rarity": 1,
+		"Effect": "Khi vào chiến đấu, khiến toàn bộ phe ta Ưu Tiên Hành Động <color=#f29e38ff>30%</color>, và nhận <color=#f29e38ff>10</color> Điểm Hài Hước.",
+		"AbridgedEffect": "Khi vào chiến đấu, khiến toàn thể phe ta Ưu Tiên Hành Động, đồng thời nhận Điểm Hài Hước.",
+		"EnhancedEffect": "Khi vào chiến đấu, khiến toàn bộ phe ta Ưu Tiên Hành Động <color=#f29e38ff>45%</color>, và nhận <color=#f29e38ff>15</color> Điểm Hài Hước.",
+		"EnhancedAbridgedEffect": "Khi vào chiến đấu, khiến toàn thể phe ta Ưu Tiên Hành Động, đồng thời nhận Điểm Hài Hước.",
+		"VersionAdded": "4.1"
+	},
+	"617651": {
+		"Id": "617651",
+		"Name": "\"Tuyến Tình Cảm\"",
+		"Rarity": 1,
+		"Effect": "Sát thương mà toàn bộ mục tiêu phe ta phải chịu giảm <color=#f29e38ff>4%</color>, sau khi Aha hành động lần đầu, giảm thêm <color=#f29e38ff>3%</color>.",
+		"AbridgedEffect": "Giảm sát thương toàn thể phe ta phải chịu, sau khi Aha hành động lần đầu, sẽ giảm thêm.",
+		"EnhancedEffect": "Sát thương mà toàn bộ mục tiêu phe ta phải chịu giảm <color=#f29e38ff>6%</color>, sau khi Aha hành động lần đầu, giảm thêm <color=#f29e38ff>4%</color>.",
+		"EnhancedAbridgedEffect": "Giảm sát thương toàn thể phe ta phải chịu, sau khi Aha hành động lần đầu, sẽ giảm thêm.",
+		"VersionAdded": "4.1"
+	},
+	"617652": {
+		"Id": "617652",
+		"Name": "\"Thành Omega\"",
+		"Rarity": 1,
+		"Effect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>10%</color>, khi gây Sát Thương Vui Vẻ, tăng thêm <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của mục tiêu phe ta, tăng thêm Sát Thương Vui Vẻ.",
+		"EnhancedEffect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>15%</color>, khi gây Sát Thương Vui Vẻ, tăng thêm <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của mục tiêu phe ta, tăng thêm Sát Thương Vui Vẻ.",
+		"VersionAdded": "4.1"
+	},
+	"617653": {
+		"Id": "617653",
+		"Name": "\"Quý Ngài Bạo Lực\"",
+		"Rarity": 1,
+		"Effect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta <color=#f29e38ff>20%</color>, khi gây Sát Thương Vui Vẻ sẽ tăng thêm <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta, tăng thêm Sát Thương Vui Vẻ.",
+		"EnhancedEffect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta <color=#f29e38ff>30%</color>, khi gây Sát Thương Vui Vẻ sẽ tăng thêm <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta, tăng thêm Sát Thương Vui Vẻ.",
+		"VersionAdded": "4.1"
+	},
+	"617654": {
+		"Id": "617654",
+		"Name": "\"Nơi Lánh Nạn Từ Bỏ Thế Gian\"",
+		"Rarity": 1,
+		"Effect": "Khi Aha hành động, hồi phục cho toàn bộ phe ta <color=#f29e38ff>4</color> điểm Năng Lượng, hiệu ứng này mỗi mục tiêu phe ta mỗi hiệp kích hoạt tối đa <color=#f29e38ff>1</color> lần.",
+		"AbridgedEffect": "Khi Aha hành động, hồi phục Năng Lượng cho toàn thể phe ta.",
+		"EnhancedEffect": "Khi Aha hành động, hồi phục cho toàn bộ phe ta <color=#f29e38ff>6</color> điểm Năng Lượng, hiệu ứng này mỗi mục tiêu phe ta mỗi hiệp kích hoạt tối đa <color=#f29e38ff>1</color> lần.",
+		"EnhancedAbridgedEffect": "Khi Aha hành động, hồi phục Năng Lượng cho toàn thể phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617655": {
+		"Id": "617655",
+		"Name": "\"Đồng Tro Và Vàng\"",
+		"Rarity": 1,
+		"Effect": "Sau khi Aha hành động, toàn bộ mục tiêu phe ta nhận Khiên bằng <color=#f29e38ff>20%</color> Giới Hạn HP, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi Aha hành động, toàn bộ mục tiêu phe ta nhận được Khiên.",
+		"EnhancedEffect": "Sau khi Aha hành động, toàn bộ mục tiêu phe ta nhận Khiên bằng <color=#f29e38ff>30%</color> Giới Hạn HP, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi Aha hành động, toàn bộ mục tiêu phe ta nhận được Khiên.",
+		"VersionAdded": "4.1"
+	},
+	"617656": {
+		"Id": "617656",
+		"Name": "\"Thần Chết Lái Xe Đến\"",
+		"Rarity": 1,
+		"Effect": "Phòng Thủ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>12%</color>, sau khi Aha hành động lần đầu, tăng thêm <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Tăng Phòng Thủ của toàn bộ mục tiêu phe ta, sau khi Aha hành động lần đầu, sẽ tăng thêm.",
+		"EnhancedEffect": "Phòng Thủ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>18%</color>, sau khi Aha hành động lần đầu, tăng thêm <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Phòng Thủ của toàn bộ mục tiêu phe ta, sau khi Aha hành động lần đầu, sẽ tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"617657": {
+		"Id": "617657",
+		"Name": "\"Thị Trấn Mèo\"",
+		"Rarity": 1,
+		"Effect": "Tốc Độ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>6%</color>, sau khi Aha hành động lần đầu, tăng thêm <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Tăng Tốc Độ của toàn bộ mục tiêu phe ta, sau khi Aha hành động lần đầu, sẽ tăng thêm.",
+		"EnhancedEffect": "Tốc Độ của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>9%</color>, sau khi Aha hành động lần đầu, tăng thêm <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tốc Độ của toàn bộ mục tiêu phe ta, sau khi Aha hành động lần đầu, sẽ tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"617720": {
+		"Id": "617720",
+		"Name": "Huyễn Tạo Vật",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Sinh Sôi\", giúp 1 đồng đội chỉ định phe ta lập tức hành động, hồi <color=#f29e38ff>5</color> Điểm Chiến Kỹ và nhận hiệu ứng <u>Thoát Xác</u>. Sau khi đơn vị bất kỳ phe địch bị nhân vật có hiệu ứng \"<u>Thoát Xác</u>\" tiêu diệt, Phương Trình Giới Hạn sẽ hồi <color=#f29e38ff>50</color> điểm Năng Lượng, Giới Hạn Năng Lượng là 200.",
+		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, sẽ khiến 1 đồng đội chỉ định lập tức hành động, hồi <color=#f29e38ff>5</color> Điểm Chiến Kỹ, đồng thời nhận được hiệu ứng <u>Thoát Xác</u>. Sau khi đơn vị phe địch bất kỳ bị nhân vật có hiệu ứng <u>Thoát Xác</u> tiêu diệt, Phương Trình Giới Hạn sẽ hồi Năng Lượng, Giới Hạn Năng Lượng là 200.",
+		"VersionAdded": "4.1"
+	},
+	"617730": {
+		"Id": "617730",
+		"Name": "Bắt Chước Kiểu Müller",
+		"Rarity": 1,
+		"Effect": "Tấn Công của mục tiêu phe ta tăng <color=#f29e38ff>50%</color>, mỗi khi nhận được hoặc tiêu hao 1 Điểm Chiến Kỹ, sẽ giúp \"<u>Kén Linh Hồn</u>\" nạp Năng Lượng <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Tăng Tấn Công, sau khi nhận hoặc tiêu hao Điểm Chiến Kỹ, sẽ nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\".",
+		"EnhancedEffect": "Tấn Công của mục tiêu phe ta tăng <color=#f29e38ff>75%</color>, mỗi khi nhận được hoặc tiêu hao 1 Điểm Chiến Kỹ, sẽ giúp \"<u>Kén Linh Hồn</u>\" nạp Năng Lượng <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tấn Công, sau khi nhận hoặc tiêu hao Điểm Chiến Kỹ, sẽ nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617731": {
+		"Id": "617731",
+		"Name": "Phóng Thích Bào Tử",
+		"Rarity": 1,
+		"Effect": "Trong trạng thái \"<u>Hồn Bướm</u>\", tăng sát thương Tấn Công Thường/Chiến Kỹ do mục tiêu phe ta gây ra <color=#f29e38ff>40%</color>, đồng thời \"<u>Hồn Bướm</u>\" sẽ gây thêm 1 lần Sát Thương Chuẩn bằng <color=#f29e38ff>15%</color> sát thương gốc.",
+		"AbridgedEffect": "Ở trạng thái \"<u>Hồn Bướm</u>\", tăng Sát Thương Chiến Kỹ và Tấn Công Thường, tăng Sát Thương Chuẩn \"<u>Hồn Bướm</u>\" gây ra.",
+		"EnhancedEffect": "Trong trạng thái \"<u>Hồn Bướm</u>\", tăng sát thương Tấn Công Thường/Chiến Kỹ do mục tiêu phe ta gây ra <color=#f29e38ff>80%</color>, đồng thời \"<u>Hồn Bướm</u>\" sẽ gây thêm 1 lần Sát Thương Chuẩn bằng <color=#f29e38ff>15%</color> sát thương gốc.",
+		"EnhancedAbridgedEffect": "Ở trạng thái \"<u>Hồn Bướm</u>\", tăng Sát Thương Chiến Kỹ và Tấn Công Thường, tăng Sát Thương Chuẩn \"<u>Hồn Bướm</u>\" gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617732": {
+		"Id": "617732",
+		"Name": "Giọt Dưỡng Chất",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, Sát Thương Bạo Kích của toàn bộ phe ta tăng <color=#f29e38ff>2%</color>, tối đa cộng dồn <color=#f29e38ff>35</color> tầng. Sau khi thi triển Tuyệt Kỹ, lần sau tiêu hao Điểm Chiến Kỹ sẽ xem như tiêu hao thêm 1 điểm.",
+		"AbridgedEffect": "Sau khi tiêu hao Điểm Chiến Kỹ, tăng Sát Thương Bạo Kích cho toàn phe ta. Sau khi thi triển Tuyệt Kỹ, lần sau tiêu hao Điểm Chiến Kỹ sẽ xem như tiêu hao thêm 1 điểm.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta tiêu hao hoặc nhận được Điểm Chiến Kỹ, sẽ tăng Sát Thương Bạo Kích của toàn bộ phe ta <color=#f29e38ff>3%</color>, tối đa cộng dồn <color=#f29e38ff>35</color> tầng. Sau khi thi triển Tuyệt Kỹ, lần sau tiêu hao hoặc nhận được Điểm Chiến Kỹ sẽ xem như là tiêu hao hoặc nhận thêm 1 điểm.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu hao hoặc nhận Điểm Chiến Kỹ, tăng Sát Thương Bạo Kích cho toàn phe ta. Sau khi thi triển Tuyệt Kỹ, lần sau tiêu hao hoặc nhận Điểm Chiến Kỹ sẽ xem như tiêu hao hoặc nhận thêm 1 điểm.",
+		"VersionAdded": "4.1"
+	},
+	"617740": {
+		"Id": "617740",
+		"Name": "Quả Bào Tử",
+		"Rarity": 1,
+		"Effect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ giúp \"<u>Kén Linh Hồn</u>\" nạp Năng Lượng <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\".",
+		"EnhancedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ giúp \"<u>Kén Linh Hồn</u>\" nạp Năng Lượng <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu diệt mục tiêu phe địch, sẽ nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617741": {
+		"Id": "617741",
+		"Name": "Chất Chitin",
+		"Rarity": 1,
+		"Effect": "Tấn Công của mục tiêu phe ta tăng <color=#f29e38ff>30%</color>. Khi vào chiến đấu, nạp thêm cho \"<u>Kén Linh Hồn</u>\" <color=#f29e38ff>30%</color> Năng Lượng.",
+		"AbridgedEffect": "Tấn Công tăng. Khi vào chiến đấu sẽ nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\".",
+		"EnhancedEffect": "Tấn Công của mục tiêu phe ta tăng <color=#f29e38ff>50%</color>. Khi vào chiến đấu, nạp thêm cho \"<u>Kén Linh Hồn</u>\" <color=#f29e38ff>35%</color> Năng Lượng.",
+		"EnhancedAbridgedEffect": "Tấn Công tăng. Khi vào chiến đấu sẽ nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617742": {
+		"Id": "617742",
+		"Name": "Kén Tự Do",
+		"Rarity": 1,
+		"Effect": "Khi \"<u>Kén Linh Hồn</u>\" biến thành \"<u>Hồn Bướm</u>\", sẽ hồi <color=#f29e38ff>60%</color> HP, đồng thời tăng sát thương gây ra trong trạng thái này <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Khi \"<u>Kén Linh Hồn</u>\" biến thành \"<u>Hồn Bướm</u>\", sẽ hồi HP và tăng sát thương gây ra ở trạng thái này.",
+		"EnhancedEffect": "Khi \"<u>Kén Linh Hồn</u>\" biến thành \"<u>Hồn Bướm</u>\", sẽ hồi <color=#f29e38ff>100%</color> HP, đồng thời tăng sát thương gây ra trong trạng thái này <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Khi \"<u>Kén Linh Hồn</u>\" biến thành \"<u>Hồn Bướm</u>\", sẽ hồi HP và tăng sát thương gây ra ở trạng thái này.",
+		"VersionAdded": "4.1"
+	},
+	"617743": {
+		"Id": "617743",
+		"Name": "Bào Tử Đảm",
+		"Rarity": 1,
+		"Effect": "Trong trạng thái \"<u>Hồn Bướm</u>\", Xuyên Kháng Toàn Thuộc Tính của sát thương Tấn Công Thường/Chiến Kỹ tăng <color=#f29e38ff>14%</color>.",
+		"AbridgedEffect": "Ở trạng thái \"<u>Hồn Bướm</u>\", tăng Xuyên Kháng Toàn Thuộc Tính của Chiến Kỹ/Tấn Công Thường.",
+		"EnhancedEffect": "Trong trạng thái \"<u>Hồn Bướm</u>\", Xuyên Kháng Toàn Thuộc Tính của sát thương Tấn Công Thường/Chiến Kỹ tăng <color=#f29e38ff>21%</color>.",
+		"EnhancedAbridgedEffect": "Ở trạng thái \"<u>Hồn Bướm</u>\", tăng Xuyên Kháng Toàn Thuộc Tính của Chiến Kỹ/Tấn Công Thường.",
+		"VersionAdded": "4.1"
+	},
+	"617744": {
+		"Id": "617744",
+		"Name": "Sắc Thái Màu Kết Cấu",
+		"Rarity": 1,
+		"Effect": "Trong trạng thái \"<u>Kén Linh Hồn</u>\", Tốc Độ tăng <color=#f29e38ff>16%</color>. Trong trạng thái \"<u>Hồn Bướm</u>\", tăng sát thương Tấn Công Thường/Chiến Kỹ gây ra <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Ở trạng thái \"<u>Kén Linh Hồn</u>\", tăng Tốc Độ. Ở trạng thái \"<u>Hồn Bướm</u>\", tăng Sát Thương Chiến Kỹ và Tấn Công Thường gây ra.",
+		"EnhancedEffect": "Trong trạng thái \"<u>Kén Linh Hồn</u>\", Tốc Độ tăng <color=#f29e38ff>24%</color>. Trong trạng thái \"<u>Hồn Bướm</u>\", tăng sát thương Tấn Công Thường/Chiến Kỹ gây ra <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Ở trạng thái \"<u>Kén Linh Hồn</u>\", tăng Tốc Độ. Ở trạng thái \"<u>Hồn Bướm</u>\", tăng Sát Thương Chiến Kỹ và Tấn Công Thường gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617745": {
+		"Id": "617745",
+		"Name": "Thanh Giác Quan",
+		"Rarity": 1,
+		"Effect": "Mỗi khi mục tiêu phe ta tiêu hao 1 điểm Chiến Kỹ, sẽ giảm sát thương phải chịu <color=#f29e38ff>6%</color>, duy trì <color=#f29e38ff>2</color> hiệp, hiệu ứng này tối đa cộng dồn <color=#f29e38ff>2</color> tầng.",
+		"AbridgedEffect": "Sau khi tiêu hao điểm Chiến Kỹ, sẽ giảm sát thương phải chịu.",
+		"EnhancedEffect": "Mỗi khi mục tiêu phe ta tiêu hao 1 điểm Chiến Kỹ, sẽ giảm sát thương phải chịu <color=#f29e38ff>6%</color>, duy trì <color=#f29e38ff>2</color> hiệp, hiệu ứng này tối đa cộng dồn <color=#f29e38ff>3</color> tầng.",
+		"EnhancedAbridgedEffect": "Sau khi tiêu hao điểm Chiến Kỹ, sẽ giảm sát thương phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617746": {
+		"Id": "617746",
+		"Name": "Cú Bắn Trùng Độc",
+		"Rarity": 1,
+		"Effect": "Sát thương Tấn Công Thường/Chiến Kỹ mà mục tiêu phe ta gây ra sẽ gây sát thương bằng <color=#f29e38ff>10%</color> sát thương ban đầu cho mục tiêu lân cận.",
+		"AbridgedEffect": "Sát thương từ Tấn Công Thường và Chiến Kỹ gây ra, cũng sẽ gây sát thương lên mục tiêu lân cận.",
+		"EnhancedEffect": "Sát thương Tấn Công Thường/Chiến Kỹ mà mục tiêu phe ta gây ra sẽ gây sát thương bằng <color=#f29e38ff>15%</color> sát thương ban đầu cho mục tiêu lân cận.",
+		"EnhancedAbridgedEffect": "Sát thương từ Tấn Công Thường và Chiến Kỹ gây ra, cũng sẽ gây sát thương lên mục tiêu lân cận.",
+		"VersionAdded": "4.1"
+	},
+	"617750": {
+		"Id": "617750",
+		"Name": "Chân Nấm",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, sẽ có <color=#f29e38ff>16%</color> xác suất cố định hồi <color=#f29e38ff>1</color> Điểm Chiến Kỹ.",
+		"AbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, có xác suất hồi điểm Chiến Kỹ.",
+		"EnhancedEffect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, sẽ có <color=#f29e38ff>24%</color> xác suất cố định hồi <color=#f29e38ff>1</color> Điểm Chiến Kỹ.",
+		"EnhancedAbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, có xác suất hồi điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617751": {
+		"Id": "617751",
+		"Name": "Mạng Dây Treo",
+		"Rarity": 1,
+		"Effect": "Sát thương gây ra khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ tăng <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Tăng sát thương gây ra khi thi triển Tấn Công Thường, Chiến Kỹ.",
+		"EnhancedEffect": "Sát thương gây ra khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ tăng <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Tăng sát thương gây ra khi thi triển Tấn Công Thường, Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617752": {
+		"Id": "617752",
+		"Name": "Đốm Mắt",
+		"Rarity": 1,
+		"Effect": "Sát Thương Bạo Kích gây ra khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ tăng <color=#f29e38ff>32%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích gây ra khi thi triển Tấn Công Thường, Chiến Kỹ.",
+		"EnhancedEffect": "Sát Thương Bạo Kích gây ra khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ tăng <color=#f29e38ff>48%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Bạo Kích gây ra khi thi triển Tấn Công Thường, Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617753": {
+		"Id": "617753",
+		"Name": "Cánh Lưng",
+		"Rarity": 1,
+		"Effect": "Tỷ Lệ Bạo Kích gây ra khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ tăng <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích gây ra khi thi triển Tấn Công Thường, Chiến Kỹ.",
+		"EnhancedEffect": "Tỷ Lệ Bạo Kích gây ra khi mục tiêu phe ta thi triển Tấn Công Thường, Chiến Kỹ tăng <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tỷ Lệ Bạo Kích gây ra khi thi triển Tấn Công Thường, Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617754": {
+		"Id": "617754",
+		"Name": "Bức Tường Dày",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, Phòng Thủ sẽ tăng <color=#f29e38ff>30%</color>, duy trì <color=#f29e38ff>1</color> hiệp.",
+		"AbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ tăng Phòng Thủ.",
+		"EnhancedEffect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, Phòng Thủ sẽ tăng <color=#f29e38ff>45%</color>, duy trì <color=#f29e38ff>1</color> hiệp.",
+		"EnhancedAbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ tăng Phòng Thủ.",
+		"VersionAdded": "4.1"
+	},
+	"617755": {
+		"Id": "617755",
+		"Name": "Chân Khớp",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, Tốc Độ sẽ tăng <color=#f29e38ff>8%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ tăng Tốc Độ.",
+		"EnhancedEffect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, Tốc Độ sẽ tăng <color=#f29e38ff>12%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ tăng Tốc Độ.",
+		"VersionAdded": "4.1"
+	},
+	"617756": {
+		"Id": "617756",
+		"Name": "Ria Mép",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ sẽ hồi <color=#f29e38ff>2</color> điểm Năng Lượng.",
+		"AbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ hồi Năng Lượng.",
+		"EnhancedEffect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ sẽ hồi <color=#f29e38ff>3</color> điểm Năng Lượng.",
+		"EnhancedAbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ hồi Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"617757": {
+		"Id": "617757",
+		"Name": "Nhân Giống Chồi",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, sẽ hồi phục HP bằng <color=#f29e38ff>10%</color> Giới Hạn HP.",
+		"AbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ hồi HP.",
+		"EnhancedEffect": "Khi mục tiêu phe ta tiêu hao Điểm Chiến Kỹ, sẽ hồi phục HP bằng <color=#f29e38ff>15%</color> Giới Hạn HP.",
+		"EnhancedAbridgedEffect": "Khi tiêu hao điểm Chiến Kỹ, sẽ hồi HP.",
+		"VersionAdded": "4.1"
+	},
+	"617820": {
+		"Id": "617820",
+		"Name": "Văn Hiến Tham Khảo",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Tri Thức\", gây lượng nhỏ Sát Thương Số Ảo cho toàn bộ mục tiêu phe địch, đồng thời liên kết mục tiêu phe địch có Giới Hạn HP cao nhất với các mục tiêu phe địch khác, khiến toàn phe địch rơi vào trạng thái <u>Kết Nối Trung Khu</u>, và hồi Năng Lượng bằng <color=#f29e38ff>100%</color> Giới Hạn Năng Lượng cho toàn bộ phe ta.",
+		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, sẽ gây Sát Thương Số Ảo cho toàn bộ phe địch và khiến chúng rơi vào trạng thái \"<u>Kết Nối Trung Khu</u>\", đồng thời hồi Năng Lượng cho toàn phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617830": {
+		"Id": "617830",
+		"Name": "Hải Mã Thể TR<unbreak>-303</unbreak>",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>10%</color>, nếu kẻ địch đó là kẻ địch Tinh Anh thì sẽ nạp Năng Lượng thêm <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\", nếu là kẻ địch Tinh Anh thì sẽ nạp thêm Năng Lượng.",
+		"EnhancedEffect": "Khi vào chiến đấu, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>100%</color>. Sau khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>12%</color>, nếu kẻ địch đó là kẻ địch Tinh Anh thì sẽ nạp Năng Lượng thêm <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Khi vào chiến đấu sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\", sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\", nếu là kẻ địch Tinh Anh thì sẽ nạp thêm Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"617831": {
+		"Id": "617831",
+		"Name": "Hạt Nhân Não DBS<unbreak>-45</unbreak>",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta khiến mục tiêu phe địch chịu sát thương chí tử, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Khi khiến mục tiêu phe địch chịu sát thương chí tử, sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\".",
+		"EnhancedEffect": "Khi mục tiêu phe ta khiến mục tiêu phe địch chịu sát thương chí tử, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>50%</color>. Sau mỗi lần nạp đầy \"<u>Bộ Não Trong Thùng</u>\", sẽ khiến Tốc Độ tăng <color=#f29e38ff>20%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Khi khiến mục tiêu phe địch chịu sát thương chí tử, sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\". Mỗi khi nạp đầy \"<u>Bộ Não Trong Thùng</u>\", sẽ tăng Tốc Độ.",
+		"VersionAdded": "4.1"
+	},
+	"617832": {
+		"Id": "617832",
+		"Name": "Vật Chất Tối ELO<unbreak>-536</unbreak>",
+		"Rarity": 1,
+		"Effect": "Xuyên Kháng Toàn Thuộc Tính của sát thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <color=#f29e38ff>20%</color>, sau khi thi triển Tuyệt Kỹ tấn công, mỗi khi có 1 kẻ địch bị tấn công đều sẽ khiến Xuyên Kháng Toàn Thuộc Tính của sát thương Tuyệt Kỹ gây ra tăng thêm <color=#f29e38ff>3%</color>, duy trì đến sau lần thi triển Tuyệt Kỹ tiếp theo.",
+		"AbridgedEffect": "Giúp nhân vật tăng Xuyên Kháng Toàn Thuộc Tính của Sát Thương Tuyệt Kỹ, đồng thời mục tiêu phe địch mà Tuyệt Kỹ tấn công càng nhiều, thì Xuyên Kháng Toàn Thuộc Tính của Sát Thương Tuyệt Kỹ tăng càng nhiều, duy trì đến sau lần thi triển Tuyệt Kỹ tiếp theo.",
+		"EnhancedEffect": "Xuyên Kháng Toàn Thuộc Tính của sát thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <color=#f29e38ff>25%</color>. Dựa theo số lượng địch tối đa bị tấn công bởi 1 lần Tuyệt Kỹ đã được thi triển trong trận này, mỗi kẻ địch sẽ khiến Xuyên Kháng Toàn Thuộc Tính của sát thương Tuyệt Kỹ gây ra tăng thêm <color=#f29e38ff>3%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Xuyên Kháng Toàn Thuộc Tính từ Sát Thương Tuyệt Kỹ của nhân vật, đồng thời trong trận này, càng nhiều mục tiêu phe địch bị tấn công bởi Tuyệt Kỹ được thi triển, thì Xuyên Kháng Toàn Thuộc Tính của Sát Thương Tuyệt Kỹ tăng càng nhiều.",
+		"VersionAdded": "4.1"
+	},
+	"617840": {
+		"Id": "617840",
+		"Name": "Khởi Động Lại: Thần Kinh Cuối Cùng",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng Sát Thương Bạo Kích <color=#f29e38ff>80%</color>, duy trì đến khi kết thúc kỹ năng lần này.",
+		"AbridgedEffect": "Khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng Sát Thương Bạo Kích.",
+		"EnhancedEffect": "Khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng Sát Thương Bạo Kích <color=#f29e38ff>90%</color>, hiệu ứng tăng Sát Thương Bạo Kích sẽ duy trì đến khi kết thúc lần tấn công kế tiếp.",
+		"EnhancedAbridgedEffect": "Khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng Sát Thương Bạo Kích, hiệu ứng này sẽ duy trì đến khi lần tấn công tiếp theo kết thúc.",
+		"VersionAdded": "4.1"
+	},
+	"617841": {
+		"Id": "617841",
+		"Name": "Phép Lặp: Bản Đồ Nhận Thức",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ sẽ nhận được Khiên bằng <color=#f29e38ff>36%</color> Giới Hạn HP, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ nhận Khiên.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ sẽ nhận được Khiên bằng <color=#f29e38ff>45%</color> Giới Hạn HP, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ nhận Khiên.",
+		"VersionAdded": "4.1"
+	},
+	"617842": {
+		"Id": "617842",
+		"Name": "Phân Tích: Ký Ức Chương Trình",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sát thương do toàn bộ phe ta gây ra tăng <color=#f29e38ff>36%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng sát thương toàn phe ta gây ra.",
+		"EnhancedEffect": "Khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sát thương do toàn bộ phe ta gây ra tăng <color=#f29e38ff>54%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng sát thương toàn phe ta gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617843": {
+		"Id": "617843",
+		"Name": "Ổn Định: Giấc Ngủ Sóng Chậm",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta bị tấn công, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Sau khi bị tấn công sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\".",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta bị tấn công, sẽ giúp \"<u>Bộ Não Trong Thùng</u>\" nạp Năng Lượng <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Sau khi bị tấn công sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617844": {
+		"Id": "617844",
+		"Name": "Phái Sinh: Tế Bào Phân Chia",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, Tấn Công sẽ tăng <color=#f29e38ff>60%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ sẽ tăng Tấn Công.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, Tấn Công sẽ tăng <color=#f29e38ff>90%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ sẽ tăng Tấn Công.",
+		"VersionAdded": "4.1"
+	},
+	"617845": {
+		"Id": "617845",
+		"Name": "Chấp Hành: Học Tập Cường Hóa",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển Tuyệt Kỹ tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến kẻ đó Trì Hoãn Hành Động <color=#f29e38ff>16%</color>. Sau mỗi lần kẻ địch rơi vào trạng thái Phá Vỡ Điểm Yếu, tối đa kích hoạt <color=#f29e38ff>3</color> lần hiệu ứng này.",
+		"AbridgedEffect": "Sau khi thi triển Tuyệt Kỹ phát động tấn công, sẽ khiến mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu bị trì hoãn hành động.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển Tuyệt Kỹ tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến kẻ đó Trì Hoãn Hành Động <color=#f29e38ff>24%</color>. Sau mỗi lần kẻ địch rơi vào trạng thái Phá Vỡ Điểm Yếu, tối đa kích hoạt <color=#f29e38ff>3</color> lần hiệu ứng này.",
+		"EnhancedAbridgedEffect": "Sau khi thi triển Tuyệt Kỹ phát động tấn công, sẽ khiến mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu bị trì hoãn hành động.",
+		"VersionAdded": "4.1"
+	},
+	"617846": {
+		"Id": "617846",
+		"Name": "Mở Ra: Con Đường Trực Tiếp",
+		"Rarity": 1,
+		"Effect": "Nếu kỹ năng <u>Đánh Lan</u> của mục tiêu phe ta chỉ tấn công 1 mục tiêu phe địch, thì lần tấn công này sẽ gây thêm một lượng sát thương cố định bằng <color=#f29e38ff>40%</color> sát thương gốc lên mục tiêu phe địch bị tấn công.",
+		"AbridgedEffect": "Nếu kỹ năng <u>Đánh Lan</u> chỉ tấn công 1 mục tiêu phe địch, thì sẽ gây thêm sát thương.",
+		"EnhancedEffect": "Nếu kỹ năng <u>Đánh Lan</u> của mục tiêu phe ta chỉ tấn công 1 mục tiêu phe địch, thì lần tấn công này sẽ gây thêm một lượng sát thương cố định bằng <color=#f29e38ff>60%</color> sát thương gốc lên mục tiêu phe địch bị tấn công.",
+		"EnhancedAbridgedEffect": "Nếu kỹ năng <u>Đánh Lan</u> chỉ tấn công 1 mục tiêu phe địch, thì sẽ gây thêm sát thương.",
+		"VersionAdded": "4.1"
+	},
+	"617850": {
+		"Id": "617850",
+		"Name": "Lá Cờ Hologram Lấp Lánh",
+		"Rarity": 1,
+		"Effect": "Sát thương Tuyệt Kỹ mà mục tiêu phe ta gây ra tăng <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Tăng Sát thương Tuyệt Kỹ gây ra.",
+		"EnhancedEffect": "Sát thương Tuyệt Kỹ mà mục tiêu phe ta gây ra tăng <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát thương Tuyệt Kỹ gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617851": {
+		"Id": "617851",
+		"Name": "Giáp Lưu Trữ Thể Rắn",
+		"Rarity": 1,
+		"Effect": "Tỷ Lệ Bạo Kích của sát thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của Tuyệt Kỹ.",
+		"EnhancedEffect": "Tỷ Lệ Bạo Kích của sát thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của Tuyệt Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617852": {
+		"Id": "617852",
+		"Name": "Bản Đồ Xóa An Toàn",
+		"Rarity": 1,
+		"Effect": "Sát Thương Bạo Kích của sát thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <color=#f29e38ff>36%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích của Tuyệt Kỹ.",
+		"EnhancedEffect": "Sát Thương Bạo Kích của sát thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <color=#f29e38ff>54%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Bạo Kích của Tuyệt Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"617853": {
+		"Id": "617853",
+		"Name": "Gói Hàng Sắp Xếp Theo Khu Vực",
+		"Rarity": 1,
+		"Effect": "Khi vào chiến đấu, hồi phục Năng Lượng bằng <color=#f29e38ff>30%</color> Giới Hạn Năng Lượng.",
+		"AbridgedEffect": "Khi vào chiến đấu sẽ hồi Năng Lượng.",
+		"EnhancedEffect": "Khi vào chiến đấu, hồi phục Năng Lượng bằng <color=#f29e38ff>45%</color> Giới Hạn Năng Lượng.",
+		"EnhancedAbridgedEffect": "Khi vào chiến đấu sẽ hồi Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"617854": {
+		"Id": "617854",
+		"Name": "Lộ Trình Xóa Khối",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta thi triển Tuyệt Kỹ, Tấn Công sẽ tăng <color=#f29e38ff>24%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Khi thi triển Tuyệt Kỹ, sẽ tăng Tấn Công.",
+		"EnhancedEffect": "Khi mục tiêu phe ta thi triển Tuyệt Kỹ, Tấn Công sẽ tăng <color=#f29e38ff>36%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Khi thi triển Tuyệt Kỹ, sẽ tăng Tấn Công.",
+		"VersionAdded": "4.1"
+	},
+	"617855": {
+		"Id": "617855",
+		"Name": "Ngọn Hải Đăng Cộng Hưởng Tinh Thể",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển Tuyệt Kỹ, Giới Hạn HP tăng <color=#f29e38ff>20%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Sau khi thi triển Tuyệt Kỹ, sẽ tăng Giới Hạn HP.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển Tuyệt Kỹ, Giới Hạn HP tăng <color=#f29e38ff>30%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi thi triển Tuyệt Kỹ, sẽ tăng Giới Hạn HP.",
+		"VersionAdded": "4.1"
+	},
+	"617856": {
+		"Id": "617856",
+		"Name": "Thấu Kính Dẫn Quang Học",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển Tuyệt Kỹ, sẽ hồi HP bằng <color=#f29e38ff>20%</color> Giới Hạn HP.",
+		"AbridgedEffect": "Sau khi thi triển Tuyệt Kỹ, sẽ hồi HP.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta thi triển Tuyệt Kỹ, sẽ hồi HP bằng <color=#f29e38ff>30%</color> Giới Hạn HP.",
+		"EnhancedAbridgedEffect": "Sau khi thi triển Tuyệt Kỹ, sẽ hồi HP.",
+		"VersionAdded": "4.1"
+	},
+	"617857": {
+		"Id": "617857",
+		"Name": "Quỹ Đạo Được Ghi Tuần Tự",
+		"Rarity": 1,
+		"Effect": "Khi nhân vật chịu tấn công chí tử, sẽ không rơi vào trạng thái không thể chiến đấu, mà tiêu hao tất cả Năng Lượng của bản thân, hồi HP bằng <color=#f29e38ff>50%</color> Năng Lượng tiêu hao, mỗi trận cả đội chỉ có thể kích hoạt 1 lần.",
+		"AbridgedEffect": "Nhân vật có thể kháng sát thương chí tử, đồng thời tiêu hao Năng Lượng để hồi phục HP của bản thân, có giới hạn số lần hiệu lực của toàn thể phe ta.",
+		"EnhancedEffect": "Khi nhân vật chịu tấn công chí tử, sẽ không rơi vào trạng thái không thể chiến đấu, mà tiêu hao tất cả Năng Lượng của bản thân, hồi HP bằng <color=#f29e38ff>100%</color> Năng Lượng tiêu hao, mỗi trận cả đội chỉ có thể kích hoạt 1 lần.",
+		"EnhancedAbridgedEffect": "Nhân vật có thể kháng sát thương chí tử, đồng thời tiêu hao Năng Lượng để hồi phục HP của bản thân, có giới hạn số lần hiệu lực của toàn thể phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617920": {
+		"Id": "617920",
+		"Name": "Vũ Hội Cực Lạc",
+		"Rarity": 1,
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Hòa Hợp\", gây Sát Thương Lượng Tử cho toàn bộ mục tiêu phe địch và phá vỡ Điểm Yếu của chúng bằng <color=#f29e38ff>1000%</color> Tấn Công Kích Phá, khi phá vỡ Điểm Yếu sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu của tất cả thuộc tính.",
+		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, sẽ gây Sát Thương Lượng Tử cho toàn bộ mục tiêu phe địch và phá vỡ điểm yếu của chúng. Khi Phá Vỡ Điểm Yếu sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu của tất cả thuộc tính.",
+		"VersionAdded": "4.1"
+	},
+	"617930": {
+		"Id": "617930",
+		"Name": "Chương Nhạc Đầu Tiên: Ếch Và Kỵ Sĩ",
+		"Rarity": 1,
+		"Effect": "Mỗi khi mục tiêu phe địch chịu <color=#f29e38ff>10</color> điểm Giảm Sức Bền thực tế, sẽ rơi vào <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\".",
+		"AbridgedEffect": "Mỗi khi mục tiêu phe địch bị Giảm Sức Bền thực tế ở mức nhất định, sẽ rơi vào \"<u>Hòa Âm</u>\".",
+		"EnhancedEffect": "Mỗi khi mục tiêu phe địch chịu <color=#f29e38ff>10</color> điểm Giảm Sức Bền thực tế, sẽ rơi vào <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\", điểm Giảm Sức Bền thực tế phải chịu khi trong trạng thái Phá Vỡ Điểm Yếu cũng được tính vào.",
+		"EnhancedAbridgedEffect": "Mỗi khi mục tiêu phe địch bị Giảm Sức Bền thực tế ở mức nhất định, sẽ rơi vào \"<u>Hòa Âm</u>\". Khi ở trạng thái Phá Vỡ Điểm Yếu, Giảm Sức Bền thực tế phải chịu cũng sẽ tính vào.",
+		"VersionAdded": "4.1"
+	},
+	"617931": {
+		"Id": "617931",
+		"Name": "Chương Nhạc Thứ 2: Bữa Sáng Của Vị Thần Đồng Áng",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ kích hoạt 1 lần sát thương \"<u>Hòa Âm</u>\" theo tỷ lệ <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ kích hoạt sát thương <u>Hòa Âm</u>.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ kích hoạt 1 lần sát thương \"<u>Hòa Âm</u>\" theo tỷ lệ <color=#f29e38ff>10%</color>, bội số Sát Thương \"<u>Hòa Âm</u>\" tăng bằng <color=#f29e38ff>20%</color> bội số ban đầu.",
+		"EnhancedAbridgedEffect": "Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ kích hoạt sát thương <u>Hòa Âm</u>, tăng sát thương <u>Hòa Âm</u> gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617932": {
+		"Id": "617932",
+		"Name": "Chương Nhạc Thứ 3: Thể Luân Khúc",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ kích hoạt thêm hiệu ứng Phá Vỡ Điểm Yếu của điểm yếu khác với tỷ lệ <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Khi Phá Vỡ Điểm Yếu của mục tiêu phe địch, sẽ kích hoạt thêm hiệu ứng Phá Vỡ Điểm Yếu của Điểm Yếu khác mà mục tiêu đó sở hữu.",
+		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ kích hoạt thêm hiệu ứng Phá Vỡ Điểm Yếu của điểm yếu khác với tỷ lệ <color=#f29e38ff>80%</color>.",
+		"EnhancedAbridgedEffect": "Khi Phá Vỡ Điểm Yếu của mục tiêu phe địch, sẽ kích hoạt thêm hiệu ứng Phá Vỡ Điểm Yếu của Điểm Yếu khác mà mục tiêu đó sở hữu.",
+		"VersionAdded": "4.1"
+	},
+	"617940": {
+		"Id": "617940",
+		"Name": "Thời Kỳ Thực Hành Chung",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe địch có \"<u>Hòa Âm</u>\" bị tiêu diệt, sẽ khiến <color=#f29e38ff>1</color> mục tiêu lân cận ngẫu nhiên nhận được số tầng \"<u>Hòa Âm</u>\" của mục tiêu đó.",
+		"AbridgedEffect": "Khi mục tiêu phe địch có <u>Hòa Âm</u> bị tiêu diệt, sẽ khiến mục tiêu lân cận ngẫu nhiên nhận <u>Hòa Âm</u>.",
+		"EnhancedEffect": "Sau khi mục tiêu phe địch có \"<u>Hòa Âm</u>\" bị tiêu diệt, sẽ khiến <color=#f29e38ff>2</color> mục tiêu lân cận ngẫu nhiên nhận được số tầng \"<u>Hòa Âm</u>\" của mục tiêu đó.",
+		"EnhancedAbridgedEffect": "Khi mục tiêu phe địch có <u>Hòa Âm</u> bị tiêu diệt, sẽ khiến mục tiêu lân cận ngẫu nhiên nhận <u>Hòa Âm</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617941": {
+		"Id": "617941",
+		"Name": "Chiếc Cốc Của Thần Rượu",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến chúng rơi vào <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\".",
+		"AbridgedEffect": "Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ khiến mục tiêu rơi vào <u>Hòa Âm</u>.",
+		"EnhancedEffect": "Tấn Công Kích Phá của mục tiêu phe ta tăng <color=#f29e38ff>24%</color>, khi tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu sẽ khiến mục tiêu rơi vào <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\".",
+		"EnhancedAbridgedEffect": "Tấn Công Kích Phá tăng. Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ khiến mục tiêu rơi vào <u>Hòa Âm</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617942": {
+		"Id": "617942",
+		"Name": "Nhịp Đập Của Vành Nhật Hoa",
+		"Rarity": 1,
+		"Effect": "Mục tiêu phe địch cứ mỗi khi có 1 tầng \"<u>Hòa Âm</u>\" thì sẽ tăng Sát Thương Phá Vỡ phải chịu <color=#f29e38ff>1.0%</color>.",
+		"AbridgedEffect": "Mục tiêu phe địch có càng nhiều <u>Hòa Âm</u>, Sát Thương Phá Vỡ phải chịu sẽ càng cao.",
+		"EnhancedEffect": "Mục tiêu phe địch cứ mỗi khi có 1 tầng \"<u>Hòa Âm</u>\" thì sẽ tăng Sát Thương Phá Vỡ phải chịu <color=#f29e38ff>1.5%</color>.",
+		"EnhancedAbridgedEffect": "Mục tiêu phe địch có càng nhiều <u>Hòa Âm</u>, Sát Thương Phá Vỡ phải chịu sẽ càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"617943": {
+		"Id": "617943",
+		"Name": "Tứ Tấu Đàn Dây",
+		"Rarity": 1,
+		"Effect": "Khi kích hoạt sát thương \"<u>Hòa Âm</u>\" sẽ tính thêm <color=#f29e38ff>5</color> tầng, giới hạn \"<u>Hòa Âm</u>\" tăng <color=#f29e38ff>5</color> tầng.",
+		"AbridgedEffect": "Khi kích hoạt sát thương <u>Hòa Âm</u> sẽ tính thêm số tầng, tăng giới hạn <u>Hòa Âm</u>.",
+		"EnhancedEffect": "Khi kích hoạt sát thương \"<u>Hòa Âm</u>\" sẽ tính thêm <color=#f29e38ff>6</color> tầng, giới hạn \"<u>Hòa Âm</u>\" tăng <color=#f29e38ff>10</color> tầng.",
+		"EnhancedAbridgedEffect": "Khi kích hoạt sát thương <u>Hòa Âm</u> sẽ tính thêm số tầng, tăng giới hạn <u>Hòa Âm</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617944": {
+		"Id": "617944",
+		"Name": "Nhịp Điệu Ngũ Âm",
+		"Rarity": 1,
+		"Effect": "Bội Số Sát Thương \"<u>Hòa Âm</u>\" tăng bằng <color=#f29e38ff>30%</color> bội số ban đầu.",
+		"AbridgedEffect": "Tăng sát thương <u>Hòa Âm</u>.",
+		"EnhancedEffect": "Bội Số Sát Thương \"<u>Hòa Âm</u>\" tăng bằng <color=#f29e38ff>45%</color> bội số ban đầu.",
+		"EnhancedAbridgedEffect": "Tăng sát thương <u>Hòa Âm</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617945": {
+		"Id": "617945",
+		"Name": "Âm Trầm Liên Tục",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến giá trị Giảm Sức Bền của lần tấn công này chuyển hóa thành 1 lần <u>Siêu Sát Thương Phá Vỡ</u> <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ gây <u>Siêu Sát Thương Phá Vỡ</u>.",
+		"EnhancedEffect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ khiến giá trị Giảm Sức Bền của lần tấn công này chuyển hóa thành 1 lần <u>Siêu Sát Thương Phá Vỡ</u> <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Sau khi tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ gây <u>Siêu Sát Thương Phá Vỡ</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617946": {
+		"Id": "617946",
+		"Name": "Nome Chính Trực",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, có <color=#f29e38ff>100%</color> xác suất cơ bản khiến kẻ địch đó rơi vào trạng thái Đóng Băng, duy trì <color=#f29e38ff>1</color> hiệp.",
+		"AbridgedEffect": "Sau khi phá vỡ Điểm Yếu của mục tiêu phe địch, có xác suất khiến mục tiêu Đóng Băng.",
+		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, có <color=#f29e38ff>150%</color> xác suất cơ bản khiến kẻ địch đó rơi vào trạng thái Đóng Băng, duy trì <color=#f29e38ff>1</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi phá vỡ Điểm Yếu của mục tiêu phe địch, có xác suất khiến mục tiêu Đóng Băng.",
+		"VersionAdded": "4.1"
+	},
+	"617950": {
+		"Id": "617950",
+		"Name": "Kết Cấu Đông Cứng",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ khiến kẻ địch đó Trì Hoãn Hành Động <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Sau khi phá vỡ Điểm Yếu của mục tiêu phe địch, khiến mục tiêu Trì Hoãn Hành Động.",
+		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ khiến kẻ địch đó Trì Hoãn Hành Động <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Sau khi phá vỡ Điểm Yếu của mục tiêu phe địch, khiến mục tiêu Trì Hoãn Hành Động.",
+		"VersionAdded": "4.1"
+	},
+	"617951": {
+		"Id": "617951",
+		"Name": "Tuyên Bố Nguyên Thủy",
+		"Rarity": 1,
+		"Effect": "Sát Thương Phá Vỡ mục tiêu phe ta gây ra tăng <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Phá Vỡ gây ra.",
+		"EnhancedEffect": "Sát Thương Phá Vỡ mục tiêu phe ta gây ra tăng <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Phá Vỡ gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"617952": {
+		"Id": "617952",
+		"Name": "Cơn Bão Tĩnh Lặng",
+		"Rarity": 1,
+		"Effect": "Tấn Công Kích Phá của mục tiêu phe ta tăng <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Tăng Tấn Công Kích Phá.",
+		"EnhancedEffect": "Tấn Công Kích Phá của mục tiêu phe ta tăng <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Tấn Công Kích Phá.",
+		"VersionAdded": "4.1"
+	},
+	"617953": {
+		"Id": "617953",
+		"Name": "Giai Điệu Tuyến Tính",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, Tốc Độ tăng <color=#f29e38ff>12%</color>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"AbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ tăng Tốc Độ.",
+		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, Tốc Độ tăng <color=#f29e38ff>18%</color>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ tăng Tốc Độ.",
+		"VersionAdded": "4.1"
+	},
+	"617954": {
+		"Id": "617954",
+		"Name": "Nhịp Điệu Đan Xen",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, Tấn Công Kích Phá của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>40%</color>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"AbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ tăng Tấn Công Kích Phá của toàn bộ phe ta.",
+		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, Tấn Công Kích Phá của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>60%</color>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"EnhancedAbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ tăng Tấn Công Kích Phá của toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"617955": {
+		"Id": "617955",
+		"Name": "Âm Điệu Tự Do",
+		"Rarity": 1,
+		"Effect": "Sát Thương Phá Vỡ mục tiêu phe địch phải chịu tăng <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Phá Vỡ mục tiêu phe địch phải chịu.",
+		"EnhancedEffect": "Sát Thương Phá Vỡ mục tiêu phe địch phải chịu tăng <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Tăng Sát Thương Phá Vỡ mục tiêu phe địch phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"617956": {
+		"Id": "617956",
+		"Name": "Tước Sĩ Tai Ương",
+		"Rarity": 1,
+		"Effect": "Phòng Thủ của mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu giảm <color=#f29e38ff>15%</color>.",
+		"AbridgedEffect": "Mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ giảm Phòng Thủ.",
+		"EnhancedEffect": "Phòng Thủ của mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu giảm <color=#f29e38ff>20%</color>.",
+		"EnhancedAbridgedEffect": "Mục tiêu phe địch trong trạng thái Phá Vỡ Điểm Yếu, sẽ giảm Phòng Thủ.",
+		"VersionAdded": "4.1"
+	},
+	"617957": {
+		"Id": "617957",
+		"Name": "Ý Tưởng Âm Nhạc Mới Mẻ",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ hồi HP bằng <color=#f29e38ff>24%</color> Giới Hạn HP của bản thân.",
+		"AbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ hồi HP.",
+		"EnhancedEffect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ hồi HP bằng <color=#f29e38ff>36%</color> Giới Hạn HP của bản thân.",
+		"EnhancedAbridgedEffect": "Sau khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ hồi HP.",
+		"VersionAdded": "4.1"
 	},
 	"634000": {
 		"Id": "634000",
@@ -6054,6 +7565,615 @@
 		"Effect": "Sát thương cuối cùng do mục tiêu phe ta có \"Nham Tinh\" gây ra sẽ tăng thêm <color=#f29e38ff>50%</color>.",
 		"AbridgedEffect": "Sát thương cuối cùng do mục tiêu phe ta có \"Nham Tinh\" gây ra sẽ tăng thêm.",
 		"VersionAdded": "3.3"
+	},
+	"661001": {
+		"Id": "661001",
+		"Name": "March 7th",
+		"Rarity": 1,
+		"Effect": "Sát Thương của March 7th trong Vũ Trụ Sai Phân được tăng cường.\n\nTăng Chính Xác Hiệu Ứng <color=#f29e38ff>30%</color>, khi ở trong trận, Phòng Thủ của mục tiêu phe địch ở trạng thái Đóng Băng giảm <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661002": {
+		"Id": "661002",
+		"Name": "Dan Heng",
+		"Rarity": 1,
+		"Effect": "Sát thương của Dan Heng trong Vũ Trụ Sai Phân được tăng cường.\n\nTốc Độ tăng <color=#f29e38ff>10%</color>, với phần Tốc Độ vượt quá <color=#f29e38ff>150</color>, cứ mỗi 10 điểm vượt quá, sát thương cuối cùng gây ra tăng <color=#f29e38ff>2.0%</color>, tối đa tăng <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661003": {
+		"Id": "661003",
+		"Name": "Himeko",
+		"Rarity": 1,
+		"Effect": "Sát thương của Himeko trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch đang ở trạng thái Phá Vỡ Điểm Yếu, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661004": {
+		"Id": "661004",
+		"Name": "Welt",
+		"Rarity": 1,
+		"Effect": "Sát thương của Welt trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi thi triển trạng thái Giam Cầm, khiến mục tiêu phe địch Trì Hoãn Hành Động thêm <color=#f29e38ff>30%</color>, và khiến sát thương phải chịu tăng <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661005": {
+		"Id": "661005",
+		"Name": "Kafka",
+		"Rarity": 1,
+		"Effect": "Sát thương của Kafka trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra cho mục tiêu phe địch đang chịu từ <color=#f29e38ff>3</color> trạng thái Sát Thương Duy Trì trở lên tăng <color=#f29e38ff>12%</color>, mỗi 1 trạng thái vượt quá, tăng thêm <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661006": {
+		"Id": "661006",
+		"Name": "Sói Bạc",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sói Bạc trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra cho mục tiêu phe địch có từ <color=#f29e38ff>8</color> Hiệu Ứng Xấu trở lên tăng <color=#f29e38ff>10%</color>, mỗi 1 hiệu ứng vượt quá, tăng thêm <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661008": {
+		"Id": "661008",
+		"Name": "Arlan",
+		"Rarity": 1,
+		"Effect": "Sát thương của Arlan trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi Phần Trăm HP bản thân thấp hơn <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra tăng <color=#f29e38ff>40%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661009": {
+		"Id": "661009",
+		"Name": "Asta",
+		"Rarity": 1,
+		"Effect": "Sát thương của Asta trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tốc Độ toàn bộ phe ta tăng, mức tăng bằng <color=#f29e38ff>10%</color> Tốc Độ của Asta.",
+		"VersionAdded": "4.1"
+	},
+	"661013": {
+		"Id": "661013",
+		"Name": "Herta",
+		"Rarity": 1,
+		"Effect": "Sát thương của Herta trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch có Phần Trăm HP dưới <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661014": {
+		"Id": "661014",
+		"Name": "Saber",
+		"Rarity": 1,
+		"Effect": "Sát thương của Saber trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi khi thi triển Tuyệt Kỹ, khiến sát thương cuối cùng do bản thân gây ra tăng <color=#f29e38ff>3%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng.",
+		"VersionAdded": "4.1"
+	},
+	"661015": {
+		"Id": "661015",
+		"Name": "Archer",
+		"Rarity": 1,
+		"Effect": "Sát thương của Archer trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra tăng <color=#f29e38ff>15%</color>. Khi bắt đầu hiệp, hồi phục <color=#f29e38ff>1</color> Điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"661101": {
+		"Id": "661101",
+		"Name": "Bronya",
+		"Rarity": 1,
+		"Effect": "Sát thương của Bronya trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, khiến sát thương cuối cùng do nhân vật ở vị trí số 1 trong đội hình và Linh Hồn Ký Ức của người đó gây ra tăng <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661102": {
+		"Id": "661102",
+		"Name": "Seele",
+		"Rarity": 1,
+		"Effect": "Sát thương của Seele trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi thi triển tấn công, nếu Phần Trăm HP của mục tiêu bị tấn công nhỏ hơn hoặc bằng <color=#f29e38ff>15%</color>, sẽ gây cho mục tiêu Sát Thương Chuẩn bằng với HP hiện tại.",
+		"VersionAdded": "4.1"
+	},
+	"661103": {
+		"Id": "661103",
+		"Name": "Serval",
+		"Rarity": 1,
+		"Effect": "Sát thương của Serval trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi khi có 1 mục tiêu phe địch ở trong trận hiện tại, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>. Sau khi tiêu diệt mục tiêu phe địch, sát thương cuối cùng trong trận này tăng thêm <color=#f29e38ff>2%</color>, có thể cộng dồn.",
+		"VersionAdded": "4.1"
+	},
+	"661104": {
+		"Id": "661104",
+		"Name": "Gepard",
+		"Rarity": 1,
+		"Effect": "Sát thương của Gepard trong Vũ Trụ Sai Phân được tăng cường.\n\nChính Xác Hiệu Ứng tăng <color=#f29e38ff>30%</color>, khi ở trong trận, Phòng Thủ của mục tiêu phe địch ở trạng thái Đóng Băng giảm <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661105": {
+		"Id": "661105",
+		"Name": "Natasha",
+		"Rarity": 1,
+		"Effect": "Sát thương của Natasha trong Vũ Trụ Sai Phân được tăng cường.\n\nLượng Trị Liệu tăng <color=#f29e38ff>30%</color>, sát thương phải chịu của mục tiêu được trị liệu giảm <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661106": {
+		"Id": "661106",
+		"Name": "Pela",
+		"Rarity": 1,
+		"Effect": "Sát thương của Pela trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tấn Công của mục tiêu phe ta tăng, mức tăng bằng <color=#f29e38ff>12%</color> Tấn Công của Pela.",
+		"VersionAdded": "4.1"
+	},
+	"661107": {
+		"Id": "661107",
+		"Name": "Clara",
+		"Rarity": 1,
+		"Effect": "Sát thương của Clara trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương phải chịu giảm <color=#f29e38ff>10%</color>, sát thương cuối cùng do Đòn Đánh Theo Sau gây ra tăng <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661108": {
+		"Id": "661108",
+		"Name": "Sampo",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sampo trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi thi triển Tuyệt Kỹ phát động tấn công, khiến tất cả Sát Thương Duy Trì mà mục tiêu bị tấn công đang chịu hiện tại ngay lập tức sản sinh sát thương bằng <color=#f29e38ff>60%</color> sát thương gốc.",
+		"VersionAdded": "4.1"
+	},
+	"661109": {
+		"Id": "661109",
+		"Name": "Hook",
+		"Rarity": 1,
+		"Effect": "Sát thương của Hook trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch có Phần Trăm HP nhỏ hơn <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661110": {
+		"Id": "661110",
+		"Name": "Lynx",
+		"Rarity": 1,
+		"Effect": "Sát thương của Lynx trong Vũ Trụ Sai Phân được tăng cường.\n\nLượng Trị Liệu tăng <color=#f29e38ff>30%</color>, khiến sát thương phải chịu của mục tiêu được trị liệu giảm <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661111": {
+		"Id": "661111",
+		"Name": "Luka",
+		"Rarity": 1,
+		"Effect": "Sát thương của Luka trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi thi triển Tuyệt Kỹ phát động tấn công, khiến tất cả Sát Thương Duy Trì mà mục tiêu bị tấn công đang chịu hiện tại ngay lập tức sản sinh sát thương bằng <color=#f29e38ff>120%</color> sát thương gốc.",
+		"VersionAdded": "4.1"
+	},
+	"661112": {
+		"Id": "661112",
+		"Name": "Topaz & Numby",
+		"Rarity": 1,
+		"Effect": "Sát thương của Topaz & Numby trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi lần thi triển tấn công, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng, xóa bỏ sau khi HP giảm.",
+		"VersionAdded": "4.1"
+	},
+	"661201": {
+		"Id": "661201",
+		"Name": "Qingque",
+		"Rarity": 1,
+		"Effect": "Sát thương của Qingque trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra tăng <color=#f29e38ff>15%</color>. Khi bắt đầu hiệp, hồi phục <color=#f29e38ff>1</color> Điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"661202": {
+		"Id": "661202",
+		"Name": "Tingyun",
+		"Rarity": 1,
+		"Effect": "Sát thương của Tingyun trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tấn Công của mục tiêu phe ta tăng, mức tăng bằng <color=#f29e38ff>12%</color> Tấn Công của Tingyun.",
+		"VersionAdded": "4.1"
+	},
+	"661203": {
+		"Id": "661203",
+		"Name": "Luocha",
+		"Rarity": 1,
+		"Effect": "Sát thương của Luocha trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra tăng <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661204": {
+		"Id": "661204",
+		"Name": "Jing Yuan",
+		"Rarity": 1,
+		"Effect": "Sát thương của Jing Yuan trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi phát động Đòn Đánh Theo Sau, Ưu Tiên Hành Động <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661205": {
+		"Id": "661205",
+		"Name": "Blade",
+		"Rarity": 1,
+		"Effect": "Sát thương của Blade trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi HP giảm, Lượng Hồi Phục tăng <color=#f29e38ff>15%</color>, sát thương cuối cùng tăng <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661206": {
+		"Id": "661206",
+		"Name": "Sushang",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sushang trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi phá vỡ Điểm Yếu của mục tiêu phe địch, Tốc Độ tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng.",
+		"VersionAdded": "4.1"
+	},
+	"661207": {
+		"Id": "661207",
+		"Name": "Yukong",
+		"Rarity": 1,
+		"Effect": "Sát thương của Yukong trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tấn Công của mục tiêu phe ta tăng, mức tăng bằng <color=#f29e38ff>12%</color> Tấn Công của Yukong.",
+		"VersionAdded": "4.1"
+	},
+	"661208": {
+		"Id": "661208",
+		"Name": "Fu Xuan",
+		"Rarity": 1,
+		"Effect": "Sát thương của Fu Xuan trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương phải chịu giảm <color=#f29e38ff>20%</color>, khi bắt đầu hiệp, hồi HP bằng <color=#f29e38ff>15%</color> Giới Hạn HP.",
+		"VersionAdded": "4.1"
+	},
+	"661209": {
+		"Id": "661209",
+		"Name": "Yanqing",
+		"Rarity": 1,
+		"Effect": "Sát thương của Yanqing trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi lần thi triển tấn công, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng, xóa bỏ sau khi HP giảm.",
+		"VersionAdded": "4.1"
+	},
+	"661210": {
+		"Id": "661210",
+		"Name": "Guinaifen",
+		"Rarity": 1,
+		"Effect": "Sát thương của Guinaifen trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi thi triển Tuyệt Kỹ phát động tấn công, khiến tất cả Sát Thương Duy Trì mà mục tiêu bị tấn công đang chịu hiện tại ngay lập tức sinh ra sát thương bằng <color=#f29e38ff>60%</color> sát thương gốc.",
+		"VersionAdded": "4.1"
+	},
+	"661211": {
+		"Id": "661211",
+		"Name": "Bailu",
+		"Rarity": 1,
+		"Effect": "Sát thương của Bailu trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra tăng <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661212": {
+		"Id": "661212",
+		"Name": "Jingliu",
+		"Rarity": 1,
+		"Effect": "Sát thương của Jingliu trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi HP giảm, Lượng Hồi Phục tăng <color=#f29e38ff>15%</color>, sát thương cuối cùng tăng <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661213": {
+		"Id": "661213",
+		"Name": "Dan Heng - Ẩm Nguyệt",
+		"Rarity": 1,
+		"Effect": "Sát thương của Dan Heng - Ẩm Nguyệt trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra tăng <color=#f29e38ff>15%</color>. Khi bắt đầu hiệp, hồi phục <color=#f29e38ff>1</color> Điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"661214": {
+		"Id": "661214",
+		"Name": "Xueyi",
+		"Rarity": 1,
+		"Effect": "Sát thương của Xueyi trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch đang ở trạng thái Phá Vỡ Điểm Yếu, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661215": {
+		"Id": "661215",
+		"Name": "Hanya",
+		"Rarity": 1,
+		"Effect": "Sát thương của Hanya trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tốc Độ toàn phe ta tăng, mức tăng bằng <color=#f29e38ff>10%</color> Tốc Độ của Hanya.",
+		"VersionAdded": "4.1"
+	},
+	"661217": {
+		"Id": "661217",
+		"Name": "Huohuo",
+		"Rarity": 1,
+		"Effect": "Sát thương của Huohuo trong Vũ Trụ Sai Phân được tăng cường.\n\nLượng Trị Liệu tăng <color=#f29e38ff>30%</color>, khiến sát thương phải chịu của mục tiêu được trị liệu giảm <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661218": {
+		"Id": "661218",
+		"Name": "Jiaoqiu",
+		"Rarity": 1,
+		"Effect": "Sát thương của Jiaoqiu trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra tăng <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661220": {
+		"Id": "661220",
+		"Name": "Feixiao",
+		"Rarity": 1,
+		"Effect": "Sát thương của Feixiao trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi lần thi triển tấn công, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng, xóa bỏ sau khi HP giảm.",
+		"VersionAdded": "4.1"
+	},
+	"661221": {
+		"Id": "661221",
+		"Name": "Yunli",
+		"Rarity": 1,
+		"Effect": "Sát thương của Yunli trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương phải chịu giảm <color=#f29e38ff>10%</color>, sát thương cuối cùng do Đòn Đánh Theo Sau gây ra tăng <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661222": {
+		"Id": "661222",
+		"Name": "Lingsha",
+		"Rarity": 1,
+		"Effect": "Sát thương của Lingsha trong Vũ Trụ Sai Phân được tăng cường.\n\nLượng Trị Liệu tăng <color=#f29e38ff>30%</color>, khiến sát thương phải chịu của mục tiêu được trị liệu giảm <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661223": {
+		"Id": "661223",
+		"Name": "Moze",
+		"Rarity": 1,
+		"Effect": "Sát thương của Moze trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi lần thi triển tấn công, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng, xóa bỏ sau khi HP giảm.",
+		"VersionAdded": "4.1"
+	},
+	"661224": {
+		"Id": "661224",
+		"Name": "March 7th",
+		"Rarity": 1,
+		"Effect": "Sát thương của March 7th trong Vũ Trụ Sai Phân được tăng cường.\n\nTốc Độ tăng <color=#f29e38ff>10%</color>, với phần Tốc Độ vượt quá <color=#f29e38ff>150</color>, cứ mỗi 10 điểm vượt quá, sát thương cuối cùng gây ra tăng <color=#f29e38ff>2.0%</color>, tối đa tăng <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661225": {
+		"Id": "661225",
+		"Name": "Fugue",
+		"Rarity": 1,
+		"Effect": "Sát thương của Fugue trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra cho kẻ địch ở trạng thái Phá Vỡ tăng <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661301": {
+		"Id": "661301",
+		"Name": "Gallagher",
+		"Rarity": 1,
+		"Effect": "Sát thương của Gallagher trong Vũ Trụ Sai Phân được tăng cường.\n\nLượng Trị Liệu tăng <color=#f29e38ff>30%</color>, khiến sát thương phải chịu của mục tiêu được trị liệu giảm <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661302": {
+		"Id": "661302",
+		"Name": "Argenti",
+		"Rarity": 1,
+		"Effect": "Sát thương của Argenti trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi khi có 1 mục tiêu phe địch ở trong trận hiện tại, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>. Sau khi tiêu diệt mục tiêu phe địch, sát thương cuối cùng trong trận này tăng thêm <color=#f29e38ff>2%</color>, có thể cộng dồn.",
+		"VersionAdded": "4.1"
+	},
+	"661303": {
+		"Id": "661303",
+		"Name": "Ruan Mei",
+		"Rarity": 1,
+		"Effect": "Sát thương của Ruan Mei trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra cho kẻ địch ở trạng thái Phá Vỡ tăng <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661304": {
+		"Id": "661304",
+		"Name": "Aventurine",
+		"Rarity": 1,
+		"Effect": "Sát thương của Aventurine trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Sát Thương Bạo Kích của mục tiêu sở hữu Khiên của phe ta tăng <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661305": {
+		"Id": "661305",
+		"Name": "Dr. Ratio",
+		"Rarity": 1,
+		"Effect": "Sát thương của Dr. Ratio trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi lần thi triển tấn công, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng, xóa bỏ sau khi HP giảm.",
+		"VersionAdded": "4.1"
+	},
+	"661306": {
+		"Id": "661306",
+		"Name": "Sparkle",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sparkle trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra tăng <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661307": {
+		"Id": "661307",
+		"Name": "Black Swan",
+		"Rarity": 1,
+		"Effect": "Sát thương của Black Swan trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra cho mục tiêu phe địch đang chịu từ <color=#f29e38ff>3</color> trạng thái Sát Thương Duy Trì trở lên tăng <color=#f29e38ff>12%</color>, mỗi 1 trạng thái vượt quá, tăng thêm <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661308": {
+		"Id": "661308",
+		"Name": "Acheron",
+		"Rarity": 1,
+		"Effect": "Sát thương của Acheron trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra cho mục tiêu phe địch có từ <color=#f29e38ff>8</color> Hiệu Ứng Xấu trở lên tăng <color=#f29e38ff>10%</color>, mỗi 1 hiệu ứng vượt quá, tăng thêm <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661309": {
+		"Id": "661309",
+		"Name": "Robin",
+		"Rarity": 1,
+		"Effect": "Sát thương của Robin trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tốc Độ toàn phe ta tăng, mức tăng bằng <color=#f29e38ff>10%</color> Tốc Độ của Robin.",
+		"VersionAdded": "4.1"
+	},
+	"661310": {
+		"Id": "661310",
+		"Name": "Firefly",
+		"Rarity": 1,
+		"Effect": "Sát thương của Firefly trong Vũ Trụ Sai Phân được tăng cường.\n\nMục tiêu phe địch cứ có 10 điểm Giới Hạn Sức Bền, sát thương cuối cùng gây ra cho kẻ đó tăng <color=#f29e38ff>1.2%</color>, tối đa tăng <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661312": {
+		"Id": "661312",
+		"Name": "Misha",
+		"Rarity": 1,
+		"Effect": "Sát thương của Misha trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra cho mục tiêu phe địch ở trạng thái Đóng Băng tăng <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661313": {
+		"Id": "661313",
+		"Name": "Sunday",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sunday trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, khiến sát thương cuối cùng do nhân vật ở vị trí số 1 trong đội hình và Linh Hồn Ký Ức của người đó gây ra tăng <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661314": {
+		"Id": "661314",
+		"Name": "Jade",
+		"Rarity": 1,
+		"Effect": "Sát thương của Jade trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi lần thi triển tấn công, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng, xóa bỏ sau khi HP giảm.",
+		"VersionAdded": "4.1"
+	},
+	"661315": {
+		"Id": "661315",
+		"Name": "Boothill",
+		"Rarity": 1,
+		"Effect": "Sát thương của Boothill trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi phá vỡ Điểm Yếu của mục tiêu phe địch, Tốc Độ tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng.",
+		"VersionAdded": "4.1"
+	},
+	"661317": {
+		"Id": "661317",
+		"Name": "Rappa",
+		"Rarity": 1,
+		"Effect": "Sát thương của Rappa trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch đang ở trạng thái Phá Vỡ Điểm Yếu, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661321": {
+		"Id": "661321",
+		"Name": "Dahlia",
+		"Rarity": 1,
+		"Effect": "Sát thương của Dahlia trong Vũ Trụ Sai Phân được tăng cường.\n\nMục tiêu phe địch cứ có 10 điểm Giới Hạn Sức Bền, sát thương cuối cùng gây ra cho kẻ đó tăng <color=#f29e38ff>1.2%</color>, tối đa tăng <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661401": {
+		"Id": "661401",
+		"Name": "Đại Herta",
+		"Rarity": 1,
+		"Effect": "Sát thương của Đại Herta trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi khi có 1 mục tiêu phe địch ở trong trận hiện tại, sát thương cuối cùng gây ra tăng <color=#f29e38ff>4%</color>. Sau khi tiêu diệt mục tiêu phe địch, sát thương cuối cùng trong trận này tăng thêm <color=#f29e38ff>2%</color>, có thể cộng dồn.",
+		"VersionAdded": "4.1"
+	},
+	"661402": {
+		"Id": "661402",
+		"Name": "Aglaea",
+		"Rarity": 1,
+		"Effect": "Sát thương của Aglaea trong Vũ Trụ Sai Phân được tăng cường.\n\nTốc Độ của bản thân và Linh Hồn Ký Ức tăng <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661403": {
+		"Id": "661403",
+		"Name": "Tribbie",
+		"Rarity": 1,
+		"Effect": "Sát thương của Tribbie trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi khi thi triển Tuyệt Kỹ, khiến sát thương cuối cùng do bản thân gây ra tăng <color=#f29e38ff>3%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng.",
+		"VersionAdded": "4.1"
+	},
+	"661404": {
+		"Id": "661404",
+		"Name": "Mydei",
+		"Rarity": 1,
+		"Effect": "Sát thương của Mydei trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi HP giảm, Lượng Hồi Phục tăng <color=#f29e38ff>15%</color>, sát thương cuối cùng tăng <color=#f29e38ff>15%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"661405": {
+		"Id": "661405",
+		"Name": "Anaxa",
+		"Rarity": 1,
+		"Effect": "Sát thương của Anaxa trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi phá vỡ Điểm Yếu của mục tiêu phe địch, Tốc Độ tăng <color=#f29e38ff>4%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> tầng.",
+		"VersionAdded": "4.1"
+	},
+	"661406": {
+		"Id": "661406",
+		"Name": "Cipher",
+		"Rarity": 1,
+		"Effect": "Sát thương của Cipher trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Tốc Độ mục tiêu phe ta tăng <color=#f29e38ff>10%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661407": {
+		"Id": "661407",
+		"Name": "Castorice",
+		"Rarity": 1,
+		"Effect": "Sát thương của Castorice trong Vũ Trụ Sai Phân được tăng cường.\n\nSau khi Castorice và Linh Hồn Ký Ức tiêu diệt mục tiêu phe địch, hồi HP bằng <color=#f29e38ff>50%</color> Giới Hạn HP.",
+		"VersionAdded": "4.1"
+	},
+	"661408": {
+		"Id": "661408",
+		"Name": "Phainon",
+		"Rarity": 1,
+		"Effect": "Sát thương của Phainon trong Vũ Trụ Sai Phân được tăng cường.\n\nMỗi khi vượt qua 10 điểm hành động, sát thương cuối cùng gây ra tăng <color=#f29e38ff>0.8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661409": {
+		"Id": "661409",
+		"Name": "Hyacine",
+		"Rarity": 1,
+		"Effect": "Sát thương của Hyacine trong Vũ Trụ Sai Phân được tăng cường.\n\nTốc Độ tăng <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661410": {
+		"Id": "661410",
+		"Name": "Hysilens",
+		"Rarity": 1,
+		"Effect": "Sát thương của Hysilens trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra cho mục tiêu phe địch đang chịu từ <color=#f29e38ff>3</color> trạng thái Sát Thương Duy Trì trở lên tăng <color=#f29e38ff>12%</color>, mỗi 1 trạng thái vượt quá, tăng thêm <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661412": {
+		"Id": "661412",
+		"Name": "Cerydra",
+		"Rarity": 1,
+		"Effect": "Sát thương của Cerydra trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, khiến sát thương cuối cùng do nhân vật ở vị trí số 1 trong đội hình và Linh Hồn Ký Ức của người đó gây ra tăng <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661413": {
+		"Id": "661413",
+		"Name": "Evernight",
+		"Rarity": 1,
+		"Effect": "Sát thương của Evernight trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra tăng <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661414": {
+		"Id": "661414",
+		"Name": "Dan Heng - Permansor Terrae",
+		"Rarity": 1,
+		"Effect": "Sát thương của Dan Heng - Permansor Terrae trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Sát Thương Bạo Kích của mục tiêu sở hữu Khiên của phe ta tăng <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661415": {
+		"Id": "661415",
+		"Name": "Cyrene",
+		"Rarity": 1,
+		"Effect": "Sát thương của Cyrene trong Vũ Trụ Sai Phân được tăng cường.\n\nNếu trong đội ngoài Cyrene có từ 1 Hậu Duệ Chrysos trở lên, sát thương cuối cùng toàn phe ta gây ra tăng <color=#f29e38ff>10%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661501": {
+		"Id": "661501",
+		"Name": "Sparxie",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sparxie trong Vũ Trụ Sai Phân được tăng cường.\n\nToàn đội mỗi khi tích lũy <color=#f29e38ff>10</color> Điểm Hài Hước, sát thương cuối cùng do bản thân gây ra tăng <color=#f29e38ff>1%</color>, tối đa tăng <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661502": {
+		"Id": "661502",
+		"Name": "Yao Guang",
+		"Rarity": 1,
+		"Effect": "Sát thương của Yao Guang trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, tăng Tốc Độ của toàn bộ phe ta, mức tăng bằng <color=#f29e38ff>10%</color> Tốc Độ của Yao Guang.",
+		"VersionAdded": "4.1"
+	},
+	"661504": {
+		"Id": "661504",
+		"Name": "Ashveil",
+		"Rarity": 1,
+		"Effect": "Sát thương của Ashveil trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch có Phần Trăm HP dưới <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra sẽ tăng <color=#f29e38ff>30%</color>, nếu là Sát Thương Đòn Đánh Theo Sau thì sẽ tăng thêm <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668001": {
+		"Id": "668001",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch có Phần Trăm HP lớn hơn <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668002": {
+		"Id": "668002",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch có Phần Trăm HP lớn hơn <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra tăng <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668003": {
+		"Id": "668003",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Sát Thương Bạo Kích của mục tiêu sở hữu Khiên của phe ta tăng <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668004": {
+		"Id": "668004",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Sát Thương Bạo Kích của mục tiêu sở hữu Khiên của phe ta tăng <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668005": {
+		"Id": "668005",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra cho kẻ địch ở trạng thái Phá Vỡ tăng <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668006": {
+		"Id": "668006",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, sát thương cuối cùng do mục tiêu phe ta gây ra cho kẻ địch ở trạng thái Phá Vỡ tăng <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668007": {
+		"Id": "668007",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra tăng <color=#f29e38ff>15%</color>, khi vào chiến đấu, hồi Năng Lượng bằng <color=#f29e38ff>50%</color> Giới Hạn Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"668008": {
+		"Id": "668008",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra tăng <color=#f29e38ff>15%</color>, khi vào chiến đấu, hồi Năng Lượng bằng <color=#f29e38ff>50%</color> Giới Hạn Năng Lượng.",
+		"VersionAdded": "4.1"
 	},
 	"670010": {
 		"Id": "670010",
@@ -7678,5 +9798,581 @@
 		"Effect": "Bội Số Sát Thương của \"<u>Hòa Âm</u>\" tăng bằng <color=#f29e38ff>50%</color> bội số ban đầu. Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, thì sẽ gắn thêm <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\" cho mục tiêu.",
 		"AbridgedEffect": "Tăng sát thương <u>Hòa Âm</u>. Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau sẽ gắn kèm thêm <u>Hòa Âm</u>.",
 		"VersionAdded": "3.1"
+	},
+	"676170": {
+		"Id": "676170",
+		"Name": "Một Bài Thơ Đẹp",
+		"Rarity": 1,
+		"Effect": "Sau khi vào trạng thái \"<u>Hồn Bướm</u>\", Linh Hồn Ký Ức sau khi thi triển tấn công có thể gây Sát Thương Chuẩn \"<u>Hồn Bướm</u>\", đồng thời không tiêu hao số lần tấn công của bản thân. Mục tiêu phe địch có Giới Hạn HP cao nhất sẽ rơi vào trạng thái \"Kết Kén\", duy trì đến khi thoát khỏi \"<u>Hồn Bướm</u>\", trong thời gian duy trì trạng thái sẽ ghi nhận tất cả Sát Thương \"<u>Hồn Bướm</u>\" mà mục tiêu đó phải chịu. Sau mỗi khi chịu <color=#f29e38ff>5</color> lần tấn công/sau khi mục tiêu này bị tiêu diệt/khi thoát khỏi \"<u>Hồn Bướm</u>\", sẽ gây cho tất cả mục tiêu phe địch sát thương bằng <color=#f29e38ff>200%</color> sát thương đã ghi nhận, đồng thời xóa giá trị ghi nhận.",
+		"AbridgedEffect": "Linh Hồn Ký Ức có thể kích hoạt Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\". Mục tiêu phe địch có Giới Hạn HP cao nhất sẽ rơi vào trạng thái \"Kết Kén\", duy trì đến khi thoát khỏi \"<u>Hồn Bướm</u>\", trong thời gian duy trì trạng thái sẽ ghi lại tất cả sát thương \"<u>Hồn Bướm</u>\" mà kẻ đó phải chịu, sau mỗi khi chịu số lần tấn công nhất định hoặc sau khi mục tiêu này bị tiêu diệt hoặc khi thoát khỏi \"<u>Hồn Bướm</u>\", sẽ gây cho toàn phe địch sát thương được ghi lại theo tỷ lệ nhất định, đồng thời xóa bỏ giá trị ghi lại.",
+		"VersionAdded": "4.1"
+	},
+	"676180": {
+		"Id": "676180",
+		"Name": "Táo! Táo!",
+		"Rarity": 1,
+		"Effect": "Trên thứ tự hành động xuất hiện \"Khai Sáng\", khi hành động sẽ gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>2000%</color> <u>Sát Thương Cơ Bản</u> thuộc tính Băng, kích hoạt Tuyệt Kỹ của toàn bộ mục tiêu phe ta, nhân vật vị trí đầu tiên trong đội và Linh Hồn Ký Ức của người đó mỗi khi có 1 tầng \"<u>Chấp Niệm</u>\", sẽ khiến Tốc Độ cơ bản của \"Khai Sáng\" tăng <color=#f29e38ff>1</color> điểm, đồng thời khiến nó gây thêm cho mỗi mục tiêu phe địch <color=#f29e38ff>100%</color> <u>Sát Thương Cơ Bản</u> thuộc tính Băng.",
+		"AbridgedEffect": "Trên thứ tự hành động xuất hiện \"Khai Sáng\", khi hành động sẽ gây Sát Thương Băng cho toàn bộ phe địch, kích hoạt Tuyệt Kỹ của toàn bộ mục tiêu phe ta, số tầng \"<u>Chấp Niệm</u>\" của nhân vật đầu tiên trong đội và Linh Hồn Ký Ức của người đó càng cao, thì Tốc Độ và sát thương của \"Khai Sáng\" càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"676250": {
+		"Id": "676250",
+		"Name": "Nghi Lễ Hiến Tế Khái Niệm",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe địch tấn công mục tiêu phe ta, \"<u>Thầm Thì</u>\" Nạp Năng Lượng bằng <color=#f29e38ff>10%</color> ngưỡng xóa bỏ, \"<u>Thầm Thì</u>\" mỗi lần Nạp Năng Lượng bằng <color=#f29e38ff>5%</color> ngưỡng xóa bỏ, mục tiêu phe địch sẽ lập tức chịu 1 lần Sát Thương Lôi Duy Trì bằng <color=#f29e38ff>120%</color> ngưỡng xóa bỏ của \"<u>Thầm Thì</u>\", mỗi mục tiêu phe địch tối đa kích hoạt <color=#f29e38ff>2</color> lần, sau khi đơn vị bất kỳ hành động sẽ làm mới giới hạn số lần kích hoạt, sát thương này là sát thương \"<u>Thầm Thì</u>\", và không thể tiêu diệt mục tiêu phe địch.",
+		"AbridgedEffect": "Sau khi mục tiêu phe địch tấn công mục tiêu phe ta, sẽ Nạp Năng Lượng cho \"<u>Thầm Thì</u>\", mỗi khi \"<u>Thầm Thì</u>\" nạp năng lượng đạt một tỷ lệ nhất định của ngưỡng xóa bỏ, mục tiêu phe địch sẽ chịu ngay 1 lần sát thương \"<u>Thầm Thì</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"676280": {
+		"Id": "676280",
+		"Name": "Thầy Thuốc Hoàn Hồn",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tích lũy thi triển <color=#f29e38ff>5</color> lần Tuyệt Kỹ, \"<u>Thầm Thì</u>\" sẽ gây sát thương bằng <color=#f29e38ff>60%</color> Bội Số Sát Thương gốc cho mục tiêu lân cận, sau đó mỗi lần thi triển Tuyệt Kỹ đều sẽ khiến sát thương \"<u>Thầm Thì</u>\" gây ra tăng thêm <color=#f29e38ff>2%</color>.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta tích lũy thi triển <color=#f29e38ff>5</color> lần Tuyệt Kỹ, \"<u>Thầm Thì</u>\" sẽ gây sát thương cho các mục tiêu bên cạnh. Sau đó, mỗi lần thi triển Tuyệt Kỹ đều sẽ tăng sát thương \"<u>Thầm Thì</u>\" gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"676410": {
+		"Id": "676410",
+		"Name": "Sĩ Quan Đạp Xe Đường Phố",
+		"Rarity": 1,
+		"Effect": "Sau khi toàn bộ phe ta tích lũy thi triển <color=#f29e38ff>24</color> lần tấn công, nhân vật vị trí đầu tiên trong đội hiện tại nhận được hiệp thêm, số lần tấn công được tính vào của Đòn Đánh Theo Sau sẽ tăng gấp đôi. Sau khi thi triển tấn công trong hiệp thêm này, sẽ gây Sát Thương Kèm Theo bằng <color=#f29e38ff>600%</color> Giới Hạn HP + <color=#f29e38ff>1200%</color> Tấn Công cho mục tiêu bị tấn công, phe ta cứ có 1 tầng \"<u>Chấp Niệm</u>\", Bội Số Sát Thương này sẽ tăng bằng <color=#f29e38ff>1%</color> bội số ban đầu.",
+		"AbridgedEffect": "Mỗi khi phe ta phát động số lần tấn công nhất định, nhân vật đầu tiên trong đội hiện tại sẽ nhận hiệp thêm, sau khi tấn công sẽ gây sát thương dựa trên số tầng \"<u>Chấp Niệm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"676470": {
+		"Id": "676470",
+		"Name": "Người Trừ Ma",
+		"Rarity": 1,
+		"Effect": "Sát thương mục tiêu phe ta gây ra trong trạng thái \"<u>Hồn Bướm</u>\" tăng <color=#f29e38ff>200%</color>. Sau khi thi triển tấn công, nếu HP hiện tại của mục tiêu phe địch thấp hơn <color=#f29e38ff>25%</color> Giới Hạn HP, thì sẽ gây sát thương \"<u>Hồn Bướm</u>\" bằng giá trị cố định của HP hiện tại và hồi <color=#f29e38ff>2</color> Điểm Chiến Kỹ.",
+		"AbridgedEffect": "Tăng sát thương mục tiêu phe ta gây ra trong trạng thái <u>Hồn Bướm</u>, có thể trực tiếp tiêu diệt kẻ địch có HP thấp hơn <color=#f29e38ff>25%</color> giới hạn HP của kẻ đó, đồng thời hồi <color=#f29e38ff>2</color> điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"676510": {
+		"Id": "676510",
+		"Name": "Chúa Tể Ác Mộng",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu bất kỳ phe ta bị tấn công, xem như toàn bộ mục tiêu phe ta bị tấn công, đồng thời Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" cho toàn bộ mục tiêu phe ta bằng <color=#f29e38ff>15%</color> tổng Khiên và Giới Hạn HP của mỗi người.",
+		"AbridgedEffect": "Sau khi bị tấn công, sẽ xem như toàn bộ mục tiêu phe ta bị tấn công, và nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" cho toàn phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"676590": {
+		"Id": "676590",
+		"Name": "Khách Tế Bái Vĩnh Hằng",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta tích lũy tổn thất HP bằng <color=#f29e38ff>100%</color> Giới Hạn HP, hoặc hồi phục từ trạng thái không thể chiến đấu, sẽ gây cho toàn bộ phe địch sát thương bằng <color=#f29e38ff>75%</color> Giới Hạn \"<u>Hòa Âm</u>\". Khi bắt đầu hiệp của nhân vật, sẽ tiêu hao <color=#f29e38ff>5%</color> Giới Hạn HP, sau mỗi lần kích hoạt sẽ khiến giá trị này tăng <color=#f29e38ff>5%</color>. Khi nhân vật phe ta lần đầu rơi vào trạng thái không thể chiến đấu, sẽ khiến HP hiện tại hồi đến <color=#f29e38ff>100%</color> Giới Hạn HP, và khi bắt đầu hiệp sau đó không tiêu hao HP nữa.",
+		"AbridgedEffect": "Khi tích lũy tổn thất HP hoặc hồi phục từ trạng thái không thể chiến đấu, sẽ gây sát thương dựa trên giới hạn \"<u>Hòa Âm</u>\" cho toàn bộ phe địch. Nhân vật có thể kháng sát thương chí tử, trước khi kích hoạt hiệu ứng này, bắt đầu hiệp sẽ tiêu hao HP.",
+		"VersionAdded": "4.1"
+	},
+	"676640": {
+		"Id": "676640",
+		"Name": "Kẻ Trộm Tinh Tú",
+		"Rarity": 1,
+		"Effect": "Số lần tấn công khi \"<u>Người Chia Bài</u>\" hành động tăng <color=#f29e38ff>4</color> lần, đồng thời mục tiêu tấn công đổi thành mục tiêu phe địch có Giới Hạn HP hiện tại cao nhất, khi gây sát thương sẽ khiến kẻ đó rơi vào thêm <color=#f29e38ff>2</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\", và sau khi tấn công sẽ khiến toàn phe ta Ưu Tiên Hành Động <color=#f29e38ff>25%</color>, hiệu ứng này mỗi mục tiêu phe địch mỗi hiệp tối đa kích hoạt <color=#f29e38ff>1</color> lần.",
+		"AbridgedEffect": "Mục tiêu \"<u>Người Chia Bài</u>\" tấn công chuyển thành mục tiêu phe địch có Giới Hạn HP hiện tại cao nhất, đồng thời tăng số lần tấn công, khi gây sát thương, khiến kẻ đó rơi vào \"<u>Chính Xác Nghịch Đảo</u>\", và khiến toàn phe ta Ưu Tiên Hành Động.",
+		"VersionAdded": "4.1"
+	},
+	"676650": {
+		"Id": "676650",
+		"Name": "Kẻ Cự Tuyệt Lửa",
+		"Rarity": 1,
+		"Effect": "Trên thứ tự hành động xuất hiện \"Điên Cuồng\", mỗi điểm Nạp Năng Lượng của \"<u>Người Chia Bài</u>\" khiến Tốc Độ của nó tăng thêm <color=#f29e38ff>7</color>: Khi \"Điên Cuồng\" hành động, khiến sát thương toàn bộ mục tiêu phe ta gây ra tăng <color=#f29e38ff>15%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> lần; đồng thời Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" bằng <color=#f29e38ff>150%</color> tổng Giới Hạn HP và Khiên hiện tại của mỗi người, khiến mỗi mục tiêu phe ta sau khi thi triển lần tấn công tiếp theo, gây cho mỗi mục tiêu bị tấn công <color=#f29e38ff>7</color> lần <color=#f29e38ff>80%</color> sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" thuộc tính ngẫu nhiên.",
+		"AbridgedEffect": "Trên thứ tự hành động xuất hiện \"Điên Cuồng\", Tốc Độ của nó chịu ảnh hưởng tăng thêm từ số tầng Nạp Năng Lượng của \"<u>Người Chia Bài</u>\": Khi \"Điên Cuồng\" hành động, sẽ tăng sát thương toàn thể gây ra, đồng thời Nạp Năng Lượng cho \"<u>Bùng Nổ Ánh Sáng</u>\", khiến mỗi mục tiêu phe ta sau khi phát động lần tấn công tiếp theo, gây cho mỗi mục tiêu bị tấn công sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" thuộc tính ngẫu nhiên.",
+		"VersionAdded": "4.1"
+	},
+	"676720": {
+		"Id": "676720",
+		"Name": "Rắn Bò Trườn",
+		"Rarity": 1,
+		"Effect": "Trong trạng thái \"<u>Hồn Bướm</u>\", mỗi khi toàn bộ phe ta tiêu hao 1 Điểm Chiến Kỹ, sát thương toàn bộ phe địch phải chịu sẽ tăng <color=#f29e38ff>10%</color>, có thể cộng dồn, tối đa không vượt quá <color=#f29e38ff>40%</color>. Sau mỗi lần vào trạng thái \"<u>Hồn Bướm</u>\", khi lần đầu tích lũy tiêu hao <color=#f29e38ff>3</color> Điểm Chiến Kỹ, sẽ hồi phục <color=#f29e38ff>6</color> lần tấn công của \"<u>Hồn Bướm</u>\", và trước khi thoát khỏi \"<u>Hồn Bướm</u>\" lần này, sau khi mục tiêu phe ta phát động tấn công, sẽ gây 1 lần Sát Thương Chuẩn bằng <color=#f29e38ff>60%</color> sát thương gốc (ngoại trừ Sát Thương Kèm Theo) lên mục tiêu bị tấn công, hiệu ứng này cũng có hiệu lực với Sát Thương Duy Trì mà mục tiêu phe địch phải chịu khi bắt đầu hiệp.",
+		"AbridgedEffect": "Ở trạng thái \"<u>Hồn Bướm</u>\", Điểm Chiến Kỹ toàn thể phe ta tiêu hao càng nhiều, thì sát thương toàn thể phe địch phải chịu sẽ càng cao. Sau mỗi lần vào trạng thái \"<u>Hồn Bướm</u>\", sau lần đầu tích lũy tiêu hao <color=#f29e38ff>3</color> Điểm Chiến Kỹ, sẽ hồi phục số lần \"<u>Hồn Bướm</u>\", đồng thời khiến Tấn Công và Sát Thương Duy Trì có thể gây thêm Sát Thương Chuẩn.",
+		"VersionAdded": "4.1"
+	},
+	"676760": {
+		"Id": "676760",
+		"Name": "Quay Thưởng Ngân Hà",
+		"Rarity": 1,
+		"Effect": "Mục tiêu phe ta mỗi khi tiêu hao hoặc dư ra 1 Điểm Chiến Kỹ sẽ nhận được 1 lần rút thưởng, tối đa tích lũy <color=#f29e38ff>25</color> lần. Khi vào trạng thái \"<u>Hồn Bướm</u>\" triệu hồi ra \"Máy Quay Thưởng\", sẽ tiêu hao tất cả số lần rút thưởng để rút thưởng, số lần rút thưởng cơ bản là <color=#f29e38ff>5</color>, có xác suất thấp nhận được Giải Đặc Biệt: Gây 1 lần sát thương thuộc tính ngẫu nhiên bằng <color=#f29e38ff>4000%</color> <u>sát thương cơ bản</u> cho toàn thể mục tiêu phe địch, đồng thời khiến \"<u>Người Chia Bài</u>\" nhận <color=#f29e38ff>5</color> điểm Nạp Năng Lượng. Giải An Ủi: Gây 1 lần sát thương thuộc tính ngẫu nhiên bằng <color=#f29e38ff>500%</color> <u>sát thương cơ bản</u> cho mục tiêu phe địch ngẫu nhiên.",
+		"AbridgedEffect": "Mục tiêu phe ta mỗi khi tiêu hao hoặc dư ra 1 Điểm Chiến Kỹ, nhận 1 lần rút thưởng. Khi vào trạng thái \"<u>Hồn Bướm</u>\" sẽ triệu hồi \"Máy Quay Thưởng\", tiêu hao tất cả số lần rút thưởng để tiến hành rút thưởng, có xác suất nhỏ nhận Giải Đặc Biệt: Gây sát thương thuộc tính ngẫu nhiên cho toàn bộ phe địch, đồng thời khiến \"<u>Người Chia Bài</u>\" nhận <color=#f29e38ff>5</color> điểm Nạp Năng Lượng. Giải Khuyến Khích: Gây sát thương thuộc tính ngẫu nhiên cho mục tiêu phe địch ngẫu nhiên.",
+		"VersionAdded": "4.1"
+	},
+	"676860": {
+		"Id": "676860",
+		"Name": "Học Giả Hữu Dụng",
+		"Rarity": 1,
+		"Effect": "\"<u>Người Chia Bài</u>\" sau khi hành động <color=#f29e38ff>4</color> lần khi trong đội không có trạng thái \"Ép Xung\", sẽ khiến Sát Thương Bạo Kích toàn phe ta tăng <color=#f29e38ff>200%</color>, duy trì <color=#f29e38ff>5</color> hiệp, đồng thời khiến nhân vật ở vị trí đầu tiên trong đội hiện tại nhận trạng thái \"Ép Xung\": Kích hoạt Tuyệt Kỹ của người đó và Nạp Năng Lượng \"<u>Bộ Não Trong Thùng</u>\" đến <color=#f29e38ff>200%</color>, sau khi thi triển Tuyệt Kỹ <color=#f29e38ff>3</color> lần sẽ thoát trạng thái này. Khi thi triển lần đầu, \"<u>Người Chia Bài</u>\" chỉ cần hành động <color=#f29e38ff>1</color> lần.",
+		"AbridgedEffect": "\"<u>Người Chia Bài</u>\" sau khi hành động <color=#f29e38ff>4</color> lần khi trong đội không có trạng thái \"Ép Xung\", sẽ tăng Sát Thương Bạo Kích của toàn phe ta, đồng thời khiến nhân vật đầu tiên trong đội hiện tại nhận trạng thái \"Ép Xung\": Kích hoạt Tuyệt Kỹ của người đó và nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\" đến <color=#f29e38ff>200%</color>. Khi thi triển lần đầu, \"<u>Người Chia Bài</u>\" chỉ cần hành động <color=#f29e38ff>1</color> lần.",
+		"VersionAdded": "4.1"
+	},
+	"676890": {
+		"Id": "676890",
+		"Name": "Druid Đồ Điện",
+		"Rarity": 1,
+		"Effect": "Trên thứ tự hành động xuất hiện \"Hơi Thở Rùa Khổng Lồ\" có Tốc Độ là <color=#f29e38ff>150</color>: Khi hành động khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>50%</color>, duy trì <color=#f29e38ff>3</color> hiệp, gây Sát Thương Băng, Hỏa bằng <color=#f29e38ff>6000%</color> <u>Sát Thương Cơ Bản</u>, khiến chúng Trì Hoãn Hành Động <color=#f29e38ff>30%</color>, đồng thời bỏ qua Thuộc Tính Điểm Yếu và làm giảm <color=#f29e38ff>30</color> điểm Sức Bền của toàn bộ mục tiêu phe địch, khi phá vỡ Điểm Yếu của phe địch, kích hoạt hiệu ứng Phá Vỡ Điểm Yếu Băng và Hỏa. Sau khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" kích hoạt Tuyệt Kỹ, sẽ khiến Tốc Độ của \"Hơi Thở Rùa Khổng Lồ\" tăng <color=#f29e38ff>5</color> điểm, tối đa cộng dồn <color=#f29e38ff>15</color> lần.",
+		"AbridgedEffect": "Trên thứ tự hành động xuất hiện \"Hơi Thở Rùa Khổng Lồ\", khi hành động sẽ tăng sát thương toàn phe địch phải chịu, đồng thời gây Sát Thương Băng và Sát Thương Hỏa lên toàn bộ phe địch, khiến chúng bị Trì Hoãn Hành Động, đồng thời bỏ qua Thuộc Tính Điểm Yếu giảm Sức Bền phe địch, khi phá vỡ Điểm Yếu phe địch sẽ kích hoạt hiệu ứng Phá Vỡ Điểm Yếu Băng và Hỏa. Sau khi mục tiêu phe ta dùng \"<u>Bộ Não Trong Thùng</u>\" kích hoạt Tuyệt Kỹ, sẽ tăng Tốc Độ của \"Hơi Thở Rùa Khổng Lồ\".",
+		"VersionAdded": "4.1"
+	},
+	"676920": {
+		"Id": "676920",
+		"Name": "Tướng Quân Tử Vong",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, \"<u>Hòa Âm</u>\" sẽ căn cứ vào thuộc tính của nhân vật phe ta trong đội để nhận hiệu ứng thêm, hiệu ứng cùng loại có thể cộng dồn: Phong, Lôi, Vật Lý: Nhận hiệu ứng \"Kích Động\". Sau khi bị tấn công, khiến trạng thái Sát Thương Duy Trì mà mục tiêu phe địch đang chịu ngay lập tức sinh ra sát thương bằng <color=#f29e38ff>60%</color> sát thương gốc. Hỏa: Nhận hiệu ứng \"Lưu Hỏa\". <u>Siêu Sát Thương Phá Vỡ</u> mà mục tiêu phe địch chịu tăng <color=#f29e38ff>60%</color>. Lượng Tử, Số Ảo, Băng: Nhận hiệu ứng \"Kinh Hoàng\". Mục tiêu phe địch Trì Hoãn Hành Động <color=#f29e38ff>20%</color>, sau khi bị tấn công sẽ kích hoạt <color=#f29e38ff>1</color> lần sát thương \"<u>Hòa Âm</u>\" theo tỷ lệ <color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "Khi mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, <u>Hòa Âm</u> sẽ căn cứ vào thuộc tính của nhân vật phe ta trong đội để nhận hiệu ứng thêm: Phong, Lôi, Vật Lý: Nhận hiệu ứng \"Kích Động\". Sau khi bị tấn công, kích hoạt Sát Thương Duy Trì. Hỏa: Nhận hiệu ứng \"Lưu Hỏa\". Tăng <u>Siêu Sát Thương Phá Vỡ</u>. Lượng Tử, Số Ảo, Băng: Nhận hiệu ứng \"Kinh Hoàng\". Trì hoãn hành động của phe địch, sau khi bị tấn công sẽ chịu thêm sát thương <u>Hòa Âm</u>.",
+		"VersionAdded": "4.1"
+	},
+	"676940": {
+		"Id": "676940",
+		"Name": "Kẻ Gọi Tên Thần",
+		"Rarity": 1,
+		"Effect": "Tốc Độ mục tiêu phe ta tăng <color=#f29e38ff>35%</color>. Sau khi thi triển tấn công, có <color=#f29e38ff>60%</color> xác suất cố định thêm 1 Điểm Yếu thuộc tính bất kỳ cho mục tiêu bị tấn công ngẫu nhiên, đồng thời gây cho mục tiêu đó <color=#f29e38ff>3</color> lần sát thương thuộc tính tương ứng bằng <color=#f29e38ff>180%</color> <u>sát thương cơ bản</u>, nếu là Đòn Đánh Theo Sau thì chắc chắn sẽ kích hoạt, Điểm Yếu này sẽ xóa sau khi mục tiêu phe địch bị phá vỡ. Sau khi thêm Điểm Yếu cho mục tiêu phe địch, ghi nhận 1 lần điểm yếu được thêm, mỗi lần hành động tối đa kích hoạt <color=#f29e38ff>2</color> lần hiệu ứng này, sau khi mục tiêu phe địch bất kỳ bị phá vỡ, sẽ dựa trên Điểm Yếu được ghi nhận, mỗi lần ghi nhận gây <color=#f29e38ff>200%</color> Sát Thương Phá Vỡ thuộc tính tương ứng cho nó và mục tiêu lân cận.",
+		"AbridgedEffect": "Tốc độ của mục tiêu phe ta tăng. Sau khi thi triển tấn công, có xác suất thêm Điểm Yếu, và gây sát thương thuộc tính tương ứng, nếu là Đòn Đánh Theo Sau thì chắc chắn sẽ kích hoạt. Ghi lại Điểm Yếu đã thêm cho mục tiêu phe địch, khi phá vỡ mục tiêu phe địch, sẽ gây Sát Thương Phá Vỡ thuộc tính tương ứng cho mục tiêu và mục tiêu lân cận dựa trên Điểm Yếu đã được ghi nhận.",
+		"VersionAdded": "4.1"
+	},
+	"677160": {
+		"Id": "677160",
+		"Name": "Nghệ Nhân Làm Vườn",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta thi triển tấn công, sẽ gây thêm cho mục tiêu bị tấn công Sát Thương Kèm Theo bằng <color=#f29e38ff>100%</color> Giới Hạn HP. Sau khi \"<u>Người Chia Bài</u>\" hành động, Sát Thương Kèm Theo của lần tấn công tiếp theo tăng đến <color=#f29e38ff>300%</color> Giới Hạn HP.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta thi triển tấn công, sẽ gây thêm Sát Thương Kèm Theo dựa trên Giới Hạn HP cho mục tiêu bị tấn công. Sau khi \"<u>Người Chia Bài</u>\" hành động, Sát Thương Kèm Theo lần sau sẽ tăng.",
+		"VersionAdded": "4.1"
+	},
+	"677170": {
+		"Id": "677170",
+		"Name": "Người Đại Diện Lịch Sử",
+		"Rarity": 1,
+		"Effect": "Mục tiêu phe ta cứ có 1 tầng \"<u>Chấp Niệm</u>\", sát thương Tấn Công Thường và Chiến Kỹ gây ra sẽ tăng <color=#f29e38ff>6%</color>. Khi nhân vật phe ta rời trận, rơi vào trạng thái không thể chiến đấu hoặc Linh Hồn Ký Ức phe ta biến mất, nhân vật vị trí đầu tiên trong đội hiện tại sẽ nhận được <color=#f29e38ff>50%</color> số tầng \"<u>Chấp Niệm</u>\" của đơn vị đó, đồng thời nhận được giới hạn số tầng \"<u>Chấp Niệm</u>\" tương đương, giới hạn số tầng cộng thêm sẽ biến mất sau <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Mỗi tầng \"<u>Chấp Niệm</u>\" tăng sát thương Tấn Công Thường và Chiến Kỹ. Khi rời trận, nhân vật vị trí đầu tiên trong đội hiện tại sẽ nhận số tầng \"<u>Chấp Niệm</u>\" với tỷ lệ nhất định.",
+		"VersionAdded": "4.1"
+	},
+	"677190": {
+		"Id": "677190",
+		"Name": "Vòng Quay Chuyển Nghề",
+		"Rarity": 1,
+		"Effect": "Giới hạn \"<u>Chấp Niệm</u>\" mục tiêu phe ta tăng <color=#f29e38ff>4</color> tầng, đồng thời mỗi tầng \"<u>Chấp Niệm</u>\" sẽ tăng thêm <color=#f29e38ff>0.3%</color> Tốc Độ của toàn đội. Khi phá vỡ điểm yếu của mục tiêu phe địch, toàn bộ mục tiêu phe ta sẽ nhận được <color=#f29e38ff>3</color> tầng \"<u>Chấp Niệm</u>\".",
+		"AbridgedEffect": "Tăng giới hạn \"<u>Chấp Niệm</u>\", và mỗi tầng \"<u>Chấp Niệm</u>\" của toàn đội sẽ tăng thêm Tốc Độ, khi phá vỡ mục tiêu phe địch, toàn phe ta nhận \"<u>Chấp Niệm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677240": {
+		"Id": "677240",
+		"Name": "Cuộc Chạy Đua Vĩnh Hằng",
+		"Rarity": 1,
+		"Effect": "Sát Thương Duy Trì mà mục tiêu phe địch phải chịu có thể Bạo Kích. Tỷ Lệ Bạo Kích/Sát Thương Bạo Kích sẽ bằng <color=#f29e38ff>20%</color> tổng Tỷ Lệ Bạo Kích/Sát Thương Bạo Kích của toàn bộ nhân vật phe ta, Sát Thương Bạo Kích tối đa không vượt quá <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "Sát Thương Duy Trì mà mục tiêu phe địch phải chịu có thể bạo kích. Tỷ Lệ Bạo Kích/Sát Thương Bạo Kích dựa trên tổng Tỷ Lệ Bạo Kích/Sát Thương Bạo Kích của toàn bộ nhân vật phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"677250": {
+		"Id": "677250",
+		"Name": "Xúc Xắc Đúc Kết Nhân Sinh",
+		"Rarity": 1,
+		"Effect": "Sát thương \"<u>Thầm Thì</u>\" mục tiêu phe địch phải chịu tăng <color=#f29e38ff>35%</color>. Sau khi mục tiêu phe địch nhận Sát Thương Duy Trì ngoài hiệp của chúng, sẽ Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" cho toàn bộ mục tiêu phe ta bằng <color=#f29e38ff>10%</color> Tấn Công của mỗi người, mỗi hiệp mục tiêu phe địch tối đa chỉ có thể kích hoạt hiệu ứng này <color=#f29e38ff>5</color> lần.",
+		"AbridgedEffect": "Sát thương \"<u>Thầm Thì</u>\" mục tiêu phe địch phải chịu tăng. Sau khi mục tiêu phe địch nhận Sát Thương Duy Trì ngoài lượt của chúng, sẽ Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" cho toàn bộ phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"677260": {
+		"Id": "677260",
+		"Name": "Vua Khờ Khạo",
+		"Rarity": 1,
+		"Effect": "Sát Thương Duy Trì mà mục tiêu phe địch phải chịu tăng <color=#f29e38ff>30%</color>. Sau khi \"<u>Người Chia Bài</u>\" gây sát thương, mỗi đòn khiến trạng thái Sát Thương Duy Trì mà mục tiêu phe địch đang có ngay lập tức sinh ra sát thương bằng <color=#f29e38ff>15%</color> sát thương gốc.",
+		"AbridgedEffect": "Tăng Sát Thương Duy Trì mà mục tiêu phe địch phải chịu. Sau khi \"<u>Người Chia Bài</u>\" gây sát thương, kích hoạt Sát Thương Duy Trì.",
+		"VersionAdded": "4.1"
+	},
+	"677450": {
+		"Id": "677450",
+		"Name": "Hiệp Sĩ Tay Sắt",
+		"Rarity": 1,
+		"Effect": "Giới hạn \"<u>Chính Xác Nghịch Đảo</u>\" tăng <color=#f29e38ff>10</color> tầng. Toàn đội mỗi khi tích lũy mất HP bằng <color=#f29e38ff>15%</color> tổng HP của toàn đội, toàn bộ phe địch nhận ngay 1 tầng \"<u>Chính Xác Nghịch Đảo</u>\".",
+		"AbridgedEffect": "Tăng giới hạn <u>Chính Xác Nghịch Đảo</u>. Toàn đội mỗi khi tổn thất lượng HP nhất định sẽ nhận <u>Chính Xác Nghịch Đảo</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677460": {
+		"Id": "677460",
+		"Name": "Người Huấn Luyện Sao Chổi",
+		"Rarity": 1,
+		"Effect": "Với mỗi 1% Tỷ Lệ Bạo Kích dư ra của mục tiêu phe ta và \"<u>Người Chia Bài</u>\", Sát Thương Bạo Kích tăng <color=#f29e38ff>3%</color>, sau khi mục tiêu phe ta phát động tấn công, sẽ khiến bản thân và \"<u>Người Chia Bài</u>\" tăng <color=#f29e38ff>2%</color> Tỷ Lệ Bạo Kích, tối đa cộng dồn <color=#f29e38ff>50</color> tầng, nếu là Đòn Đánh Theo Sau, có thể cộng dồn thêm <color=#f29e38ff>2</color> tầng.",
+		"AbridgedEffect": "Với mỗi 1% Tỷ Lệ Bạo Kích dư ra của mục tiêu phe ta và \"<u>Người Chia Bài</u>\", Sát Thương Bạo Kích tăng <color=#f29e38ff>3%</color>, sau khi mục tiêu phe ta phát động tấn công, khiến bản thân và \"<u>Người Chia Bài</u>\" tăng Tỷ Lệ Bạo Kích, Đòn Đánh Theo Sau tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"677470": {
+		"Id": "677470",
+		"Name": "Nhà Bán Sỉ Sao Băng",
+		"Rarity": 1,
+		"Effect": "Mỗi khi mục tiêu phe ta nhận 1% hiệu ứng Ưu Tiên Hành Động, đều sẽ khiến sau khi thi triển tấn công ở hiệp sau, gây thêm Sát Thương Chuẩn bằng <color=#f29e38ff>0.5%</color> sát thương gốc, tối đa tính vào <color=#f29e38ff>50%</color> Sát Thương Chuẩn, ở trạng thái \"<u>Hồn Bướm</u>\" sẽ gây thêm Sát Thương Chuẩn bằng <color=#f29e38ff>50%</color> sát thương gốc.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta nhận hiệu ứng Ưu Tiên Hành Động, sau khi tấn công trong hiệp kế tiếp sẽ gây thêm Sát Thương Chuẩn, tăng thêm Sát Thương Chuẩn gây ra trong trạng thái \"<u>Hồn Bướm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677510": {
+		"Id": "677510",
+		"Name": "Người Khổng Lồ Băng",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta chịu sát thương hoặc tiêu hao HP, nếu Phần Trăm HP hiện tại dưới <color=#f29e38ff>40%</color>, thì sẽ tiêu hao <color=#f29e38ff>5</color> tầng \"<u>Chấp Niệm</u>\" của mục tiêu có số tầng \"<u>Chấp Niệm</u>\" cao nhất trong đội, hồi HP bằng <color=#f29e38ff>25%</color> Giới Hạn HP của bản thân, đồng thời khiến sát thương gây ra tăng <color=#f29e38ff>150%</color>, duy trì <color=#f29e38ff>2</color> hiệp. Hiệu ứng này mỗi hiệp tối đa kích hoạt <color=#f29e38ff>1</color> lần.",
+		"AbridgedEffect": "Khi phần trăm HP nhỏ hơn <color=#f29e38ff>40%</color>, tiêu hao số tầng \"<u>Chấp Niệm</u>\" cao nhất của mục tiêu phe ta để hồi HP và tăng sát thương gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"677570": {
+		"Id": "677570",
+		"Name": "Thần Tượng Tai Ương",
+		"Rarity": 1,
+		"Effect": "Hiệu suất Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" tăng <color=#f29e38ff>25%</color>. Trong trạng thái \"<u>Hồn Bướm</u>\", sau khi thi triển Tấn Công Thường/Chiến Kỹ phát động tấn công, sẽ gây <color=#f29e38ff>150%</color> sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" cho mục tiêu bị tấn công.",
+		"AbridgedEffect": "Tăng hiệu suất nạp Năng Lượng <u>Bùng Nổ Ánh Sáng</u>. Ở trạng thái <u>Hồn Bướm</u>, sau khi thi triển Tấn Công Thường/Chiến Kỹ sẽ gây sát thương <u>Bùng Nổ Ánh Sáng</u> lên mục tiêu.",
+		"VersionAdded": "4.1"
+	},
+	"677590": {
+		"Id": "677590",
+		"Name": "Thiết Bị Bỏ Phiếu Thiên Phạt",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ Nạp Năng Lượng cho \"<u>Bùng Nổ Ánh Sáng</u>\" bằng <color=#f29e38ff>100%</color> tổng Giới Hạn HP và Lượng Khiên. Nếu tất cả mục tiêu phe địch đều đang trong trạng thái Phá Vỡ Điểm Yếu, sẽ không xóa \"<u>Bùng Nổ Ánh Sáng</u>\" khi kết thúc hiệp của mục tiêu phe ta.",
+		"AbridgedEffect": "Khi Phá Vỡ Điểm Yếu sẽ nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\". Nếu tất cả mục tiêu phe địch đều ở trạng thái Phá Vỡ Điểm Yếu, thì khi hiệp của mục tiêu phe ta kết thúc, sẽ không xóa \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677650": {
+		"Id": "677650",
+		"Name": "Cờ May Mắn Chân Thật",
+		"Rarity": 1,
+		"Effect": "\"<u>Người Chia Bài</u>\" mỗi khi có <color=#f29e38ff>3</color> điểm Nạp Năng Lượng, số đòn tấn công tăng 1 đòn. Sau khi tích lũy <color=#f29e38ff>10</color> mục tiêu phe ta bị tấn công, \"<u>Người Chia Bài</u>\" tăng 1 điểm Nạp Năng Lượng.",
+		"AbridgedEffect": "\"<u>Người Chia Bài</u>\" mỗi khi có <color=#f29e38ff>3</color> điểm Nạp Năng Lượng, số đòn tấn công sẽ tăng 1. Sau khi nhiều mục tiêu phe ta chịu tấn công, \"<u>Người Chia Bài</u>\" sẽ tăng 1 điểm Nạp Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"677680": {
+		"Id": "677680",
+		"Name": "Aether Hacker",
+		"Rarity": 1,
+		"Effect": "Sát Thương Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>100%</color>. Sau mỗi lần thi triển Tuyệt Kỹ hoặc Kỹ Năng Vui Vẻ tiêu diệt mục tiêu phe địch, ghi lại sát thương dư ra, <color=#f29e38ff>1</color> lần tấn công kế tiếp sẽ gây thêm cho mục tiêu bị tấn công ngẫu nhiên sát thương bằng <color=#f29e38ff>300%</color> giá trị ghi nhận.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích mục tiêu phe ta. Sau mỗi lần thi triển Tuyệt Kỹ hoặc Kỹ Năng Vui Vẻ tiêu diệt mục tiêu phe địch, sẽ ghi lại lượng sát thương dư ra, <color=#f29e38ff>1</color> lần tấn công kế tiếp sẽ gây thêm cho mục tiêu bị tấn công ngẫu nhiên lượng sát thương bằng tỷ lệ nhất định của giá trị được ghi nhận.",
+		"VersionAdded": "4.1"
+	},
+	"677690": {
+		"Id": "677690",
+		"Name": "Nhà Ngụ Ngôn Bầu Trời Sao",
+		"Rarity": 1,
+		"Effect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, sẽ bỏ qua Thuộc Tính Điểm Yếu và làm giảm <color=#f29e38ff>30</color> điểm Sức Bền của mục tiêu phe địch, lần giảm Sức Bền này tối đa giảm Sức Bền của phe địch xuống còn 1 điểm. Khi mục tiêu phe địch bị Phá Vỡ Điểm Yếu, mỗi <color=#f29e38ff>10</color> điểm Giới Hạn Sức Bền, sẽ khiến sát thương phải chịu tăng <color=#f29e38ff>3%</color>, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Khi \"<u>Người Chia Bài</u>\" gây sát thương, bỏ qua Thuộc Tính Điểm Yếu và làm giảm Sức Bền. Khi mục tiêu phe địch bị phá vỡ Điểm Yếu, sẽ tăng sát thương mục tiêu phải chịu dựa trên Giới Hạn Sức Bền.",
+		"VersionAdded": "4.1"
+	},
+	"677710": {
+		"Id": "677710",
+		"Name": "Kẻ Bắt Cóc Ăn Đất",
+		"Rarity": 1,
+		"Effect": "Bội Số Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\" tăng bằng <color=#f29e38ff>60%</color> bội số ban đầu, số lần tấn công tăng <color=#f29e38ff>4</color> lần. Sau khi Linh Hồn Ký Ức thi triển tấn công có thể gây Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\" và tiêu hao số lần tấn công.",
+		"AbridgedEffect": "Tăng Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\". Linh Hồn Ký Ức tấn công sẽ kèm theo Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677720": {
+		"Id": "677720",
+		"Name": "Hiệp Sĩ Sầu Đời",
+		"Rarity": 1,
+		"Effect": "Mỗi lần mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, sẽ nạp <color=#f29e38ff>1%</color> Năng Lượng cho \"Kén Linh Hồn\", nếu lúc này đang ở trạng thái \"<u>Hồn Bướm</u>\", sẽ khiến sát thương toàn phe ta gây ra tăng <color=#f29e38ff>2%</color>, tối đa cộng dồn <color=#f29e38ff>99</color> tầng, duy trì đến khi thoát khỏi \"<u>Hồn Bướm</u>\".",
+		"AbridgedEffect": "Mỗi lần mục tiêu phe địch chịu 1 lần Sát Thương Duy Trì, sẽ nạp <color=#f29e38ff>1%</color> Năng Lượng cho \"Kén Linh Hồn\", nếu lúc này đang ở trạng thái \"<u>Hồn Bướm</u>\", sẽ khiến sát thương toàn phe ta gây ra tăng <color=#f29e38ff>2%</color>, tối đa cộng dồn <color=#f29e38ff>99</color> tầng, duy trì đến khi thoát khỏi \"<u>Hồn Bướm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677780": {
+		"Id": "677780",
+		"Name": "Vua Bọ Gai",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta vào trạng thái \"<u>Hồn Bướm</u>\", thi triển Tuyệt Kỹ cũng có thể gây ra Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\", đồng thời khiến số lần tấn công của \"<u>Hồn Bướm</u>\" tăng <color=#f29e38ff>4</color> lần, mỗi mục tiêu phe ta tối đa được kích hoạt hiệu ứng này 1 lần.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta vào trạng thái \"<u>Hồn Bướm</u>\", thi triển Tuyệt Kỹ cũng có thể gây ra Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\", đồng thời tăng số lần tấn công của \"<u>Hồn Bướm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677810": {
+		"Id": "677810",
+		"Name": "Thầy Phép Thuật Di Tích",
+		"Rarity": 1,
+		"Effect": "Sau khi Linh Hồn Ký Ức thi triển tấn công, sẽ nạp năng lượng <color=#f29e38ff>8%</color> cho <u>Bộ Não Trong Thùng</u> của Bậc Thầy Ký Ức. Sau khi Bậc Thầy Ký Ức dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng sát thương Linh Hồn Ký Ức <color=#f29e38ff>240%</color>, duy trì <color=#f29e38ff>4</color> hiệp.",
+		"AbridgedEffect": "Sau khi Linh Hồn Ký Ức thi triển tấn công, sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\" của Bậc Thầy Ký Ức. Sau khi Bậc Thầy Ký Ức dùng \"<u>Bộ Não Trong Thùng</u>\" thi triển Tuyệt Kỹ, sẽ tăng sát thương của Linh Hồn Ký Ức.",
+		"VersionAdded": "4.1"
+	},
+	"677820": {
+		"Id": "677820",
+		"Name": "Nhân Viên Thuế IQ",
+		"Rarity": 1,
+		"Effect": "Tăng <color=#f29e38ff>150%</color> Tấn Công cho mục tiêu phe ta, sau khi thi triển tấn công gây sát thương Tuyệt Kỹ, khiến \"<u>Thầm Thì</u>\" của mục tiêu bị tấn công sinh ra sát thương bằng <color=#f29e38ff>100%</color> sát thương gốc.",
+		"AbridgedEffect": "Tăng Tấn Công, sau khi thi triển tấn công gây sát thương Tuyệt Kỹ, sẽ kích hoạt sát thương \"<u>Thầm Thì</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677840": {
+		"Id": "677840",
+		"Name": "Học Sinh Thể Thao Siêu Cấp",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta phá vỡ Điểm Yếu của mục tiêu phe địch, sẽ nạp <color=#f29e38ff>20%</color> Năng Lượng cho <u>Bộ Não Trong Thùng</u>, đồng thời hồi Năng Lượng bằng <color=#f29e38ff>10%</color> Giới Hạn Năng Lượng. Sau khi tiêu diệt mục tiêu phe địch, hồi Năng Lượng bằng <color=#f29e38ff>60%</color> Giới Hạn Năng Lượng.",
+		"AbridgedEffect": "Khi phá vỡ điểm yếu của mục tiêu phe địch, sẽ nạp Năng Lượng cho \"<u>Bộ Não Trong Thùng</u>\" và hồi Năng Lượng, sau khi tiêu diệt mục tiêu phe địch sẽ hồi Năng Lượng.",
+		"VersionAdded": "4.1"
+	},
+	"677920": {
+		"Id": "677920",
+		"Name": "Khúc Ca Trọng Lực",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch chịu sát thương \"<u>Hòa Âm</u>\", thì sẽ chịu thêm 1 lần sát thương \"<u>Hòa Âm</u>\" bằng <color=#f29e38ff>75%</color> sát thương gốc. Cứ rơi vào 1 Hiệu Ứng Xấu thì sát thương này sẽ tăng thêm <color=#f29e38ff>2%</color>, tối đa tăng <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "Sát thương \"<u>Hòa Âm</u>\" sẽ kích hoạt thêm 1 lần, Hiệu Ứng Xấu mà mục tiêu phe địch rơi vào càng nhiều, sát thương này càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"677940": {
+		"Id": "677940",
+		"Name": "Chúa Tể Thiên Mệnh",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch đang ở trạng thái Phá Vỡ Điểm Yếu, sẽ chuyển hóa Giảm Sức Bền của lần tấn công này thành 1 lần <u>Siêu Sát Thương Phá Vỡ</u> <color=#f29e38ff>75%</color>, mục tiêu phe địch cứ có 1 tầng \"<u>Chính Xác Nghịch Đảo</u>\" sẽ gây thêm <u>Siêu Sát Thương Phá Vỡ</u> <color=#f29e38ff>5%</color>.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta tấn công mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu, sẽ gây <u>Siêu Sát Thương Phá Vỡ</u>, số tầng \"<u>Chính Xác Nghịch Đảo</u>\" của mục tiêu phe địch càng nhiều thì sát thương của <u>Siêu Sát Thương Phá Vỡ</u> lần này càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"677980": {
+		"Id": "677980",
+		"Name": "Người, Mãng Xà, Vòng Sao",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch bắt đầu hiệp, nếu đang ở trạng thái Phá Vỡ Điểm Yếu, sẽ chịu thêm 1 lần sát thương bằng <color=#f29e38ff>200%</color> sát thương gốc của \"<u>Hòa Âm</u>\". Mỗi khi mục tiêu phe ta thi triển Tuyệt Kỹ, khiến sát thương \"<u>Hòa Âm</u>\" tăng bằng <color=#f29e38ff>1%</color> sát thương gốc.",
+		"AbridgedEffect": "Khi bắt đầu hiệp của mục tiêu phe địch, nếu đang ở trạng thái Phá Vỡ Điểm Yếu, sẽ chịu thêm 1 lần Sát Thương \"<u>Hòa Âm</u>\". Mỗi khi mục tiêu phe ta thi triển Tuyệt Kỹ, sẽ khiến sát thương \"<u>Hòa Âm</u>\" tăng.",
+		"VersionAdded": "4.1"
+	},
+	"678150": {
+		"Id": "678150",
+		"Name": "Kẻ Thắng Tương Đối",
+		"Rarity": 1,
+		"Effect": "Sau khi mục tiêu phe ta tiêu hao HP, sẽ nhận được <color=#f29e38ff>5</color> tầng \"<u>Chấp Niệm</u>\", tối đa kích hoạt <color=#f29e38ff>1</color> lần, sau khi đơn vị bất kỳ hành động sẽ có thể kích hoạt lại.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta tiêu hao HP, nhận được \"<u>Chấp Niệm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678170": {
+		"Id": "678170",
+		"Name": "Bạn Thân",
+		"Rarity": 1,
+		"Effect": "Sau khi Linh Hồn Ký Ức biến mất, hồi 1 Điểm Chiến Kỹ cho mục tiêu phe ta. Mỗi khi toàn đội nhận 1 Điểm Chiến Kỹ, khiến sát thương toàn phe ta gây ra tăng <color=#f29e38ff>3%</color>, tối đa tăng <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "Sau khi Linh Hồn Ký Ức biến mất, hồi phục 1 Điểm Chiến Kỹ cho mục tiêu phe ta. Mỗi khi toàn đội nhận được 1 Điểm Chiến Kỹ, khiến sát thương do toàn bộ phe ta gây ra tăng.",
+		"VersionAdded": "4.1"
+	},
+	"678180": {
+		"Id": "678180",
+		"Name": "Nhà Ẩm Thực Hài Nhảm",
+		"Rarity": 1,
+		"Effect": "Khi số tầng \"<u>Chấp Niệm</u>\" của phe ta vượt quá <color=#f29e38ff>70</color> tầng, thì sẽ khiến Sát Thương Tuyệt Kỹ tăng <color=#f29e38ff>75%</color>, sát thương Linh Hồn Ký Ức tăng <color=#f29e38ff>75%</color>.",
+		"AbridgedEffect": "Khi số tầng \"<u>Chấp Niệm</u>\" của toàn phe ta vượt quá <color=#f29e38ff>70</color>, sẽ tăng sát thương Tuyệt Kỹ và sát thương do Linh Hồn Ký Ức gây ra.",
+		"VersionAdded": "4.1"
+	},
+	"678190": {
+		"Id": "678190",
+		"Name": "Bậc Thầy Chia Sẻ",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta có \"<u>Chấp Niệm</u>\", Xuyên Kháng Toàn Thuộc Tính sẽ tăng <color=#f29e38ff>15%</color>. Mỗi tầng \"<u>Chấp Niệm</u>\" khiến Tấn Công Kích Phá của toàn bộ mục tiêu phe ta tăng <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "Khi mục tiêu phe ta có \"<u>Chấp Niệm</u>\" sẽ tăng Xuyên Kháng Toàn Thuộc Tính. Mỗi tầng \"<u>Chấp Niệm</u>\" sẽ khiến Tấn Công Kích Phá của toàn phe ta tăng.",
+		"VersionAdded": "4.1"
+	},
+	"678240": {
+		"Id": "678240",
+		"Name": "Mê Cung Sát Phạt Vĩnh Hằng",
+		"Rarity": 1,
+		"Effect": "Sát Thương Duy Trì mục tiêu phe địch phải chịu tăng <color=#f29e38ff>20%</color>, sau khi chịu Đòn Đánh Theo Sau, sẽ Nạp Năng Lượng cho \"<u>Thầm Thì</u>\", giá trị nạp bằng <color=#f29e38ff>2%</color> ngưỡng xóa bỏ.",
+		"AbridgedEffect": "Tăng Sát Thương Duy Trì mục tiêu phe địch phải chịu, sau khi nhận Đòn Đánh Theo Sau sẽ nạp Năng Lượng cho \"<u>Thầm Thì</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678250": {
+		"Id": "678250",
+		"Name": "Vùng Đất Tương Truyền",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch vào chiến đấu, sẽ rơi vào trạng thái Chảy Máu. Ở trạng thái Chảy Máu, khi bắt đầu mỗi hiệp, mục tiêu phe địch sẽ chịu Sát Thương Vật Lý Duy Trì bằng <color=#f29e38ff>10%</color> Giới Hạn HP của bản thân, tối đa không vượt quá <color=#f29e38ff>200%</color> tổng HP của toàn bộ mục tiêu phe ta.",
+		"AbridgedEffect": "Khi mục tiêu phe địch vào chiến đấu, sẽ rơi vào trạng thái Chảy Máu. Khi bắt đầu mỗi hiệp sẽ phải chịu Sát Thương Vật Lý Duy Trì.",
+		"VersionAdded": "4.1"
+	},
+	"678260": {
+		"Id": "678260",
+		"Name": "Nhà Thám Hiểm Đảo Ngược",
+		"Rarity": 1,
+		"Effect": "Sau khi \"<u>Người Chia Bài</u>\" thi triển tấn công, khiến mục tiêu bị tấn công rơi vào trạng thái Thiêu Đốt. Khi bắt đầu hiệp, chịu Sát Thương Hỏa Duy Trì bằng <color=#f29e38ff>150%</color> <u>Sát Thương Cơ Bản</u>, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"AbridgedEffect": "Sau khi \"<u>Người Chia Bài</u>\" thi triển Tấn Công, sẽ khiến mục tiêu bị tấn công rơi vào trạng thái Thiêu Đốt. Khi bắt đầu hiệp, chịu Sát Thương Hỏa Duy Trì, duy trì <color=#f29e38ff>3</color> hiệp.",
+		"VersionAdded": "4.1"
+	},
+	"678280": {
+		"Id": "678280",
+		"Name": "Tiến Sĩ Mất Trí",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe địch bị tiêu diệt, cứ rơi vào 1 loại trạng thái Sát Thương Duy Trì, toàn bộ phe ta hồi <color=#f29e38ff>5.0</color> điểm Năng Lượng.",
+		"AbridgedEffect": "Khi mục tiêu phe địch bị tiêu diệt, sẽ căn cứ theo số lượng trạng thái Sát Thương Duy Trì đang rơi vào, để hồi Năng Lượng cho toàn bộ mục tiêu phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"678410": {
+		"Id": "678410",
+		"Name": "Chiến Thần Tổ Tiên",
+		"Rarity": 1,
+		"Effect": "Tỷ Lệ Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>25%</color>, sau khi Linh Hồn Ký Ức thi triển tấn công, sẽ gắn thêm <color=#f29e38ff>3</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\" cho mục tiêu bị tấn công ngẫu nhiên.",
+		"AbridgedEffect": "Tăng Tỷ Lệ Bạo Kích của mục tiêu phe ta, sau khi Linh Hồn Ký Ức thi triển tấn công, gắn thêm \"<u>Chính Xác Nghịch Đảo</u>\" cho mục tiêu tấn công ngẫu nhiên.",
+		"VersionAdded": "4.1"
+	},
+	"678420": {
+		"Id": "678420",
+		"Name": "Kẻ Kiến Tạo Đầu Trọc",
+		"Rarity": 1,
+		"Effect": "Mỗi khi Nạp Năng Lượng của \"<u>Thầm Thì</u>\" có 1% ngưỡng xóa bỏ, sát thương Bạo Kích mục tiêu phe địch phải chịu tăng <color=#f29e38ff>1.0%</color>, tối đa tăng <color=#f29e38ff>150%</color>.",
+		"AbridgedEffect": "Mỗi lần Nạp Năng Lượng của <u>Thầm Thì</u> có 1% ngưỡng xóa bỏ, sẽ tăng Sát Thương Bạo Kích mà mục tiêu phe địch phải chịu.",
+		"VersionAdded": "4.1"
+	},
+	"678460": {
+		"Id": "678460",
+		"Name": "Thợ Săn Chuột Lớn",
+		"Rarity": 1,
+		"Effect": "Sát thương \"<u>Chính Xác Nghịch Đảo</u>\" gây ra tăng <color=#f29e38ff>60%</color>, sát thương gây ra khi thi triển Kỹ Năng Vui Vẻ tấn công kích hoạt tăng thêm <color=#f29e38ff>60%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương gây ra bởi \"<u>Chính Xác Nghịch Đảo</u>\", tăng thêm khi thi triển Tấn Công Kỹ Năng Vui Vẻ để kích hoạt.",
+		"VersionAdded": "4.1"
+	},
+	"678480": {
+		"Id": "678480",
+		"Name": "Giáo Viên Bị Nguyền",
+		"Rarity": 1,
+		"Effect": "Mỗi khi tiêu diệt 1 mục tiêu phe địch, khiến sát thương do mục tiêu phe ta gây ra trong trận này tăng <color=#f29e38ff>30%</color>, Sát Thương Tuyệt Kỹ tăng thêm <color=#f29e38ff>15%</color>, có thể cộng dồn.",
+		"AbridgedEffect": "Mỗi khi tiêu diệt 1 mục tiêu phe địch, khiến sát thương do mục tiêu phe ta gây ra trong trận này tăng, Sát Thương Tuyệt Kỹ tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"678510": {
+		"Id": "678510",
+		"Name": "Ma Đổi Hồn",
+		"Rarity": 1,
+		"Effect": "Giới Hạn HP của mục tiêu phe ta tăng <color=#f29e38ff>40%</color>, khi vào chiến đấu/Linh Hồn Ký Ức được triệu hồi, Nạp Năng Lượng cho \"<u>Bùng Nổ Ánh Sáng</u>\" bằng <color=#f29e38ff>100%</color> Giới Hạn HP của bản thân, và khi kết thúc hiệp đầu tiên sau đó, sẽ không xóa \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"AbridgedEffect": "Tăng Giới Hạn HP. Khi vào chiến đấu hoặc Linh Hồn Ký Ức được triệu hồi, sẽ nạp Năng Lượng cho \"<u>Bùng Nổ Ánh Sáng</u>\". Khi kết thúc hiệp đầu tiên sau đó, \"<u>Bùng Nổ Ánh Sáng</u>\" sẽ không bị xoá bỏ.",
+		"VersionAdded": "4.1"
+	},
+	"678520": {
+		"Id": "678520",
+		"Name": "Kẻ Diệt Rồng Gara",
+		"Rarity": 1,
+		"Effect": "Kháng Hiệu Ứng của mục tiêu phe ta tăng <color=#f29e38ff>20%</color>, sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" gây ra tăng <color=#f29e38ff>80%</color>. Khi kháng Hiệu Ứng Xấu phải chịu, sẽ gây Sát Thương Kèm Theo bằng <color=#f29e38ff>60%</color> \"<u>Bùng Nổ Ánh Sáng</u>\" cho mục tiêu, sát thương này không thể tiêu diệt mục tiêu phe địch.",
+		"AbridgedEffect": "Tăng Kháng Hiệu Ứng, tăng sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" gây ra. Khi kháng Hiệu Ứng Xấu phải chịu, sẽ gây sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" lên mục tiêu.",
+		"VersionAdded": "4.1"
+	},
+	"678580": {
+		"Id": "678580",
+		"Name": "Cô Gái Phép Thuật Vật Lý",
+		"Rarity": 1,
+		"Effect": "Sau khi Phần Trăm HP của nhân vật phe ta lần đầu tiên trong một trận dưới <color=#f29e38ff>25%</color>, sẽ kích hoạt Tuyệt Kỹ, đồng thời trong trận đấu này, Sát Thương Tuyệt Kỹ gây ra bởi bản thân và Linh Hồn Ký Ức có thể bỏ qua <color=#f29e38ff>20%</color> Phòng Thủ.",
+		"AbridgedEffect": "Sau khi mục tiêu phe ta có Phần Trăm HP lần đầu tiên trong một trận dưới <color=#f29e38ff>25%</color>, sẽ kích hoạt Tuyệt Kỹ, và trong trận đấu này, sát thương Tuyệt Kỹ do bản thân và Linh Hồn Ký Ức gây ra có thể bỏ qua lượng Phòng Thủ nhất định của mục tiêu phe địch.",
+		"VersionAdded": "4.1"
+	},
+	"678590": {
+		"Id": "678590",
+		"Name": "Đài Phát Thanh Aha",
+		"Rarity": 1,
+		"Effect": "Lượng Khiên nhận được tăng <color=#f29e38ff>30%</color>. Sau khi phá vỡ điểm yếu của mục tiêu phe địch, toàn bộ phe ta nhận được Khiên bằng <color=#f29e38ff>15%</color> Giới Hạn HP, duy trì <color=#f29e38ff>2</color> hiệp.",
+		"AbridgedEffect": "Tăng lượng Khiên nhận được. Sau khi phá vỡ Điểm Yếu của mục tiêu phe địch, toàn phe ta sẽ nhận được Khiên.",
+		"VersionAdded": "4.1"
+	},
+	"678640": {
+		"Id": "678640",
+		"Name": "Kiếm Sĩ Buông Bỏ",
+		"Rarity": 1,
+		"Effect": "Độ Vui Vẻ của mục tiêu phe ta tăng <color=#f29e38ff>25%</color>, mỗi khi có 1 mục tiêu phe địch bị tiêu diệt, tăng thêm <color=#f29e38ff>15%</color>.",
+		"AbridgedEffect": "Độ Vui Vẻ của mục tiêu phe ta tăng, tăng thêm mỗi khi có 1 mục tiêu phe địch bị tiêu diệt.",
+		"VersionAdded": "4.1"
+	},
+	"678650": {
+		"Id": "678650",
+		"Name": "Sao Song Tử Được Bỏ Phiếu",
+		"Rarity": 1,
+		"Effect": "Sau mỗi lần \"<u>Người Chia Bài</u>\" hành động, Hiệu Suất Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" tăng <color=#f29e38ff>6%</color>, tối đa cộng dồn <color=#f29e38ff>10</color> lần.",
+		"AbridgedEffect": "Sau mỗi lần \"<u>Người Chia Bài</u>\" hành động, Hiệu Suất Nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" tăng.",
+		"VersionAdded": "4.1"
+	},
+	"678670": {
+		"Id": "678670",
+		"Name": "Người Pha Chế",
+		"Rarity": 1,
+		"Effect": "Sát Thương Bạo Kích của mục tiêu phe ta tăng <color=#f29e38ff>60%</color>. Sau mỗi lần \"<u>Người Chia Bài</u>\" hành động, khiến Sát Thương Bạo Kích của toàn bộ phe ta khi thi triển Tấn Công Thường/Chiến Kỹ lần sau tăng thêm <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích của mục tiêu phe ta. Sau mỗi lần \"<u>Người Chia Bài</u>\" hành động, khiến Sát Thương Bạo Kích khi toàn bộ phe ta thi triển Tấn Công Thường/Chiến Kỹ lần kế tiếp tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"678690": {
+		"Id": "678690",
+		"Name": "Kẻ Bi Thương",
+		"Rarity": 1,
+		"Effect": "Hiệu Suất Phá Vỡ Điểm Yếu của Sát Thương Vui Vẻ của mục tiêu phe ta tăng <color=#f29e38ff>25%</color>. Sau khi Phá Vỡ Điểm Yếu của mục tiêu phe địch, khiến Tốc Độ của bản thân tăng <color=#f29e38ff>25%</color>.",
+		"AbridgedEffect": "Hiệu Suất Phá Vỡ Điểm Yếu của Sát Thương Vui Vẻ của mục tiêu phe ta tăng. Sau khi Phá Vỡ Điểm Yếu của mục tiêu phe địch, khiến Tốc Độ của bản thân tăng.",
+		"VersionAdded": "4.1"
+	},
+	"678710": {
+		"Id": "678710",
+		"Name": "Thi Đấu Bốc Thăm Kỹ Năng",
+		"Rarity": 1,
+		"Effect": "Sau khi Linh Hồn Ký Ức thi triển Tấn Công, \"<u>Kén Linh Hồn</u>\" sẽ nạp Năng Lượng <color=#f29e38ff>15%</color>, đồng thời có <color=#f29e38ff>40%</color> xác suất hồi <color=#f29e38ff>1</color> điểm Chiến Kỹ.",
+		"AbridgedEffect": "Linh Hồn Ký Ức thi triển tấn công có thể nạp Năng Lượng cho \"<u>Kén Linh Hồn</u>\", và có xác suất hồi Điểm Chiến Kỹ.",
+		"VersionAdded": "4.1"
+	},
+	"678720": {
+		"Id": "678720",
+		"Name": "Xe Điện Đụng Hành Tinh",
+		"Rarity": 1,
+		"Effect": "Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\" tăng bằng <color=#f29e38ff>35%</color> bội số ban đầu. Cứ mỗi lần mục tiêu phe địch có 1 Hiệu Ứng Xấu thì sẽ tăng thêm bằng <color=#f29e38ff>1%</color> bội số ban đầu.",
+		"AbridgedEffect": "Tăng Sát Thương Chuẩn của \"<u>Hồn Bướm</u>\", với mỗi 1 Hiệu Ứng Xấu mà mục tiêu phe địch có, bội số sẽ tăng thêm.",
+		"VersionAdded": "4.1"
+	},
+	"678760": {
+		"Id": "678760",
+		"Name": "Bánh Ngọt Tri Kỷ",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta thi triển Tấn Công Thường/Chiến Kỹ, Sát Thương Bạo Kích tăng <color=#f29e38ff>100%</color>. Mỗi khi tiêu hao 1 Điểm Chiến Kỹ, nhận <color=#f29e38ff>1</color> Điểm Hài Hước.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích khi mục tiêu phe ta thi triển Tấn Công Thường/Chiến Kỹ. Mỗi khi tiêu hao 1 Điểm Chiến Kỹ, sẽ nhận Điểm Hài Hước.",
+		"VersionAdded": "4.1"
+	},
+	"678790": {
+		"Id": "678790",
+		"Name": "Kiến Lật Ngược",
+		"Rarity": 1,
+		"Effect": "Sát thương Tấn Công Thường/Chiến Kỹ mà mục tiêu phe ta gây ra sẽ bỏ qua <color=#f29e38ff>25%</color> Phòng Thủ của mục tiêu phe địch, hiệu ứng này sẽ tăng đến <color=#f29e38ff>40%</color> đối với mục tiêu phe địch ở trạng thái Phá Vỡ Điểm Yếu.",
+		"AbridgedEffect": "Sát thương Tấn Công Thường/Chiến Kỹ gây ra sẽ bỏ qua một tỷ lệ nhất định Phòng Thủ của mục tiêu phe địch. Hiệu quả này sẽ tăng thêm đối với mục tiêu phe địch ở trạng thái Phá Vỡ.",
+		"VersionAdded": "4.1"
+	},
+	"678840": {
+		"Id": "678840",
+		"Name": "Thần Cơ Giới Truy Ảnh",
+		"Rarity": 1,
+		"Effect": "Mỗi tầng \"<u>Chính Xác Nghịch Đảo</u>\" khi kích hoạt sẽ gây thêm sát thương bằng <color=#f29e38ff>15%</color> Tấn Công, sau khi thi triển Tuyệt Kỹ tấn công, sẽ gắn thêm <color=#f29e38ff>2</color> tầng \"<u>Chính Xác Nghịch Đảo</u>\" cho tất cả mục tiêu bị tấn công.",
+		"AbridgedEffect": "Mỗi tầng \"<u>Chính Xác Nghịch Đảo</u>\" khi kích hoạt sẽ gây thêm sát thương, sau khi thi triển Tuyệt Kỹ tấn công, sẽ gắn thêm \"<u>Chính Xác Nghịch Đảo</u>\" cho tất cả mục tiêu tấn công.",
+		"VersionAdded": "4.1"
+	},
+	"678850": {
+		"Id": "678850",
+		"Name": "Tiệm Bánh Vũ Trụ",
+		"Rarity": 1,
+		"Effect": "Sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" mục tiêu phe ta gây ra tăng <color=#f29e38ff>75%</color>, sau khi thi triển Tuyệt Kỹ, nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\" bằng <color=#f29e38ff>35%</color> Giới Hạn HP.",
+		"AbridgedEffect": "Tăng sát thương \"<u>Bùng Nổ Ánh Sáng</u>\" mục tiêu phe ta gây ra, sau khi thi triển Tuyệt Kỹ, nạp Năng Lượng \"<u>Bùng Nổ Ánh Sáng</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678860": {
+		"Id": "678860",
+		"Name": "Học Sĩ Chiêm Nghiệm",
+		"Rarity": 1,
+		"Effect": "Tăng Sát Thương Bạo Kích cho Sát Thương Tuyệt Kỹ của mục tiêu phe ta <color=#f29e38ff>75%</color>, sau khi \"<u>Người Chia Bài</u>\" hành động, sẽ nạp Năng Lượng <color=#f29e38ff>5%</color> cho \"<u>Bộ Não Trong Thùng</u>\" của nhân vật phe ta.",
+		"AbridgedEffect": "Tăng Sát Thương Bạo Kích Sát Thương Tuyệt Kỹ của mục tiêu phe ta, sau khi \"<u>Người Chia Bài</u>\" hành động, nạp Năng Lượng \"<u>Bộ Não Trong Thùng</u>\" cho nhân vật phe ta.",
+		"VersionAdded": "4.1"
+	},
+	"678870": {
+		"Id": "678870",
+		"Name": "Tân Tinh Thẻ Bài",
+		"Rarity": 1,
+		"Effect": "Mỗi khi mục tiêu phe ta tiêu hao 1 Điểm Chiến Kỹ, sát thương Tuyệt Kỹ gây ra sẽ tăng <color=#f29e38ff>65%</color>, tối đa tăng <color=#f29e38ff>130%</color>, duy trì đến sau khi thi triển Tuyệt Kỹ.",
+		"AbridgedEffect": "Điểm Chiến Kỹ mục tiêu phe ta tiêu hao càng nhiều, Sát Thương Tuyệt Kỹ gây ra càng cao.",
+		"VersionAdded": "4.1"
+	},
+	"678910": {
+		"Id": "678910",
+		"Name": "Nhà Tái Thiết Cố Quốc",
+		"Rarity": 1,
+		"Effect": "Mỗi tầng \"<u>Chấp Niệm</u>\" sẽ khiến Tấn Công Kích Phá tăng <color=#f29e38ff>0.8%</color>, Tấn Công Kích Phá của Linh Hồn Ký Ức tăng thêm <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "\"<u>Chấp Niệm</u>\" sẽ tăng Tấn Công Kích Phá, đồng thời tăng thêm Tấn Công Kích Phá của Linh Hồn Ký Ức.",
+		"VersionAdded": "4.1"
+	},
+	"678920": {
+		"Id": "678920",
+		"Name": "Gặp Gỡ Thần Y",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta thi triển tấn công khiến mục tiêu phe địch rơi vào Hiệu Ứng Xấu, thì sẽ gắn thêm <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\" cho kẻ địch. Nếu mục tiêu trong trạng thái Phá Vỡ Điểm Yếu thì số tầng gắn thêm sẽ nhân đôi.",
+		"AbridgedEffect": "Khi tấn công khiến phe địch rơi vào Hiệu Ứng Xấu, sẽ thêm \"<u>Hòa Âm</u>\", thêm gấp đôi số tầng cho kẻ địch ở trạng thái Phá Vỡ Điểm Yếu.",
+		"VersionAdded": "4.1"
+	},
+	"678940": {
+		"Id": "678940",
+		"Name": "Kỵ Sĩ Thiên Đường Vui Vẻ",
+		"Rarity": 1,
+		"Effect": "Bội Số Sát Thương của \"<u>Hòa Âm</u>\" tăng bằng <color=#f29e38ff>50%</color> bội số ban đầu. Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau, thì sẽ gắn thêm <color=#f29e38ff>1</color> tầng \"<u>Hòa Âm</u>\" cho mục tiêu.",
+		"AbridgedEffect": "Tăng sát thương \"<u>Hòa Âm</u>\". Sau khi mục tiêu phe ta phát động Đòn Đánh Theo Sau sẽ đính kèm thêm \"<u>Hòa Âm</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678970": {
+		"Id": "678970",
+		"Name": "Nhóm Hạt Hủy Diệt",
+		"Rarity": 1,
+		"Effect": "Khi mục tiêu phe ta thi triển Tấn Công Thường/Chiến Kỹ sẽ bỏ qua <color=#f29e38ff>20%</color> Kháng Toàn Thuộc Tính của mục tiêu phe địch, sau khi thi triển Tấn Công Thường/Chiến Kỹ phát động tấn công, sẽ bỏ qua Thuộc Tính Điểm Yếu và làm giảm cố định <color=#f29e38ff>15</color> điểm Sức Bền của mục tiêu phe địch.",
+		"AbridgedEffect": "Khi mục tiêu phe ta thi triển Tấn Công Thường/Chiến Kỹ sẽ bỏ qua một lượng Kháng Toàn Thuộc Tính nhất định của mục tiêu phe địch, sau khi thi triển Tấn Công Thường/Chiến Kỹ phát động tấn công, sẽ bỏ qua Thuộc Tính Điểm Yếu làm giảm lượng cố định Sức Bền của mục tiêu phe địch.",
+		"VersionAdded": "4.1"
 	}
 }

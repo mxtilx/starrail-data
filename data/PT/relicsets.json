@@ -1,572 +1,592 @@
 {
 	"101": {
 		"Id": "101",
-		"Name": "Transeunte da Nuvem Errante",
+		"Name": "Passerby of Wandering Cloud",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta Cura Realizada em 10%.",
-			"Pieces4": "No início da batalha, regenera imediatamente 1 Ponto de Perícia."
+			"Pieces2": "การรักษาเพิ่มขึ้น 10%",
+			"Pieces4": "เมื่อเริ่มต้นการต่อสู้ จะฟื้นฟูแต้มสกิลต่อสู้ของฝ่ายตัวเอง 1 แต้มโดยทันที"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"102": {
 		"Id": "102",
-		"Name": "Mosqueteira do Trigo Selvagem",
+		"Name": "Musketeer of Wild Wheat",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 12% o ATQ.",
-			"Pieces4": "Aumenta em 6% a VEL e em 10% o Dano causado pelo ATQ Básico do usuário."
+			"Pieces2": "ATK เพิ่มขึ้น 12%",
+			"Pieces4": "ความเร็วของผู้สวมใส่เพิ่มขึ้น 6% และ DMG จากการโจมตีปกติเพิ่มขึ้น 10%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"103": {
 		"Id": "103",
-		"Name": "Cavaleira do Palácio da Pureza",
+		"Name": "Knight of Purity Palace",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a DEF em 15%.",
-			"Pieces4": "Aumenta em 20% o Dano máximo que pode ser absorvido pelo Escudo criado pelo usuário."
+			"Pieces2": "DEF เพิ่มขึ้น 15%",
+			"Pieces4": "ปริมาณโล่ที่ผู้สวมใส่มอบให้เพิ่มขึ้น 20%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"104": {
 		"Id": "104",
-		"Name": "Caçador da Floresta Glacial",
+		"Name": "Hunter of Glacial Forest",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano de Gelo em 10%.",
-			"Pieces4": "Após o usuário utilizar sua Perícia Suprema, aumenta em 25% o Dano CRIT por 2 rodada(s)."
+			"Pieces2": "DMG น้ำแข็งเพิ่มขึ้น 10%",
+			"Pieces4": "เมื่อผู้สวมใส่ใช้ท่าไม้ตาย DMG คริติคอลจะเพิ่มขึ้น 25% เป็นเวลา 2 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"105": {
 		"Id": "105",
-		"Name": "Campeã de Boxe de Rua",
+		"Name": "Champion of Streetwise Boxing",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano Físico em 10%.",
-			"Pieces4": "Depois que o usuário ataca ou é atingido, aumenta em 5% seu ATQ durante todo o resto da batalha. Este efeito pode acumular até 5 vez(es)."
+			"Pieces2": "DMG กายภาพเพิ่มขึ้น 10%",
+			"Pieces4": "หลังจากที่ผู้สวมใส่ทำการโจมตีหรือถูกโจมตี ATK ของผู้ที่อยู่ในการต่อสู้จะเพิ่มขึ้น 5% ซึ่งสามารถซ้อนทับได้สูงสุด 5 ชั้น"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"106": {
 		"Id": "106",
-		"Name": "Guarda da Neve Uivante",
+		"Name": "Guard of Wuthering Snow",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Reduz o Dano recebido em 8%.",
-			"Pieces4": "No início da rodada, se a porcentagem dos PV do usuário for igual ou inferior a 50%, restaura PV igual a 8% de seus PV máximos e regenera 5 de Energia."
+			"Pieces2": "ได้รับ DMG ลดลง 8%",
+			"Pieces4": "เมื่อเริ่มต้นเทิร์น หากเปอร์เซ็นต์ HP ปัจจุบันของผู้สวมใส่เท่ากับหรือน้อยกว่า 50% จะฟื้นฟู HP 8% ของ HP สูงสุดของตัวเอง และฟื้นฟูพลังงาน 5 หน่วย"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"107": {
 		"Id": "107",
-		"Name": "Artesão de Fogo da Forja de Lava",
+		"Name": "Firesmith of Lava-Forging",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano de Fogo em 10%.",
-			"Pieces4": "Aumenta o Dano da Perícia do usuário em 12%. Após usar a Perícia Suprema, aumenta o Dano de Fogo do próximo ataque do usuário em 12%."
+			"Pieces2": "DMG ไฟเพิ่มขึ้น 10%",
+			"Pieces4": "ทำให้สกิลต่อสู้ของผู้สวมใส่สร้าง DMG เพิ่มขึ้น 12% และหลังจากที่ปล่อยท่าไม้ตาย การโจมตีครั้งต่อไปจะสร้าง DMG ไฟเพิ่มขึ้น 12%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"108": {
 		"Id": "108",
-		"Name": "Gênio das Estrelas Brilhantes",
+		"Name": "Genius of Brilliant Stars",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano Quântico em 10%.",
-			"Pieces4": "Quando o usuário causa Dano ao inimigo-alvo, ignora 10% de DEF. Se o inimigo-alvo tiver Fraqueza contra Quântico, o usuário ignora adicionalmente 10% de DEF."
+			"Pieces2": "DMG ควอนตัมเพิ่มขึ้น 10%",
+			"Pieces4": "เมื่อผู้สวมใส่สร้าง DMG แก่ศัตรูเป้าหมาย จะเพิกเฉยต่อ DEF 10% ของศัตรู หากเป้าหมายมีจุดอ่อนควอนตัม ผู้สวมใส่จะเพิกเฉยต่อ DEF 10% เพิ่มเติม"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"109": {
 		"Id": "109",
-		"Name": "Banda Trovão Crepitante",
+		"Name": "Band of Sizzling Thunder",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano de Raio em 10%.",
-			"Pieces4": "Quando o usuário usa a Perícia, aumenta o ATQ em 20% por 1 rodada(s)."
+			"Pieces2": "DMG สายฟ้าเพิ่มขึ้น 10%",
+			"Pieces4": "เมื่อผู้สวมใส่ใช้สกิลต่อสู้ ATK ของผู้สวมใส่จะเพิ่มขึ้น 20% เป็นเวลา 1 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"110": {
 		"Id": "110",
-		"Name": "Águia da Linha do Crepúsculo",
+		"Name": "Eagle of Twilight Line",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano de Vento em 10%.",
-			"Pieces4": "Após o usuário usar a Perícia Suprema, sua ação é Avançada Adiante em 25%."
+			"Pieces2": "DMG ลมเพิ่มขึ้น 10%",
+			"Pieces4": "หลังจากผู้สวมใส่ใช้ท่าไม้ตาย จะเร่งแอ็กชันขึ้น 25%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"111": {
 		"Id": "111",
-		"Name": "Ladrão da Chuva de Meteoros",
+		"Name": "Thief of Shooting Meteor",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Efeito de Quebra em 16%.",
-			"Pieces4": "Aumenta em 16% o Efeito de Quebra do usuário. Depois que o usuário inflige Quebra de Fraqueza em um inimigo, regenera 3 de Energia."
+			"Pieces2": "เอฟเฟกต์ทำลายล้างเพิ่มขึ้น 16%",
+			"Pieces4": "เอฟเฟกต์ทำลายล้างของผู้สวมใส่เพิ่มขึ้น 16% หลังจากผู้สวมใส่ทำลายจุดอ่อนของศัตรูเป้าหมาย จะฟื้นฟูพลังงาน 3 หน่วย"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"112": {
 		"Id": "112",
-		"Name": "Andarilho do Deserto da Bandidagem",
+		"Name": "Wastelander of Banditry Desert",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano Imaginário em 10%.",
-			"Pieces4": "Ao causar Dano a inimigos-alvo afligidos com penalidades, o usuário tem sua Chance de CRIT aumentada em 10%. E quando ele causa Dano a inimigos-alvo afligidos com Aprisionamento, sua Chance de CRIT aumenta em 20%."
+			"Pieces2": "DMG จินตภาพเพิ่มขึ้น 10%",
+			"Pieces4": "เมื่อผู้สวมใส่สร้าง DMG แก่ศัตรูเป้าหมายที่ติดเอฟเฟกต์ Debuff อัตราคริติคอลจะเพิ่มขึ้น 10% และเมื่อสร้าง DMG แก่ศัตรูเป้าหมายติดสถานะกักขัง DMG คริติคอลจะเพิ่มขึ้น 20%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"113": {
 		"Id": "113",
-		"Name": "Discípula Longeva",
+		"Name": "Longevous Disciple",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta os PV máximos em 12%.",
-			"Pieces4": "Quando o usuário recebe um golpe ou tem seus PV consumidos por um aliado ou por si próprio, a Chance de CRIT dele aumenta em 8% por 2 rodada(s) e até 2 acúmulos."
+			"Pieces2": "HP สูงสุดเพิ่มขึ้น 12%",
+			"Pieces4": "หลังจากผู้สวมใส่โดนโจมตี หรือถูกเป้าหมายฝ่ายเรา (รวมถึงผู้สวมใส่) ใช้ HP ไป อัตราคริติคอลจะเพิ่มขึ้น 8% เป็นเวลา 2 เทิร์น โดยเอฟเฟกต์นี้จะซ้อนทับได้มากสุด 2 ชั้น"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.2"
 	},
 	"114": {
 		"Id": "114",
-		"Name": "Mensageira Atravessando o Hackerspace",
+		"Name": "Messenger Traversing Hackerspace",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a VEL em 6%.",
-			"Pieces4": "Quando o usuário usa a sua Perícia Suprema em um aliado, a VEL de todos os aliados aumenta em 12% por 1 rodada(s). Este efeito não pode acumular."
+			"Pieces2": "ความเร็วเพิ่มขึ้น 6%",
+			"Pieces4": "เมื่อผู้สวมใส่ใช้ท่าไม้ตายกับเป้าหมายฝ่ายเรา ความเร็วของฝ่ายเราทั้งหมด จะเพิ่มขึ้น 12% เป็นเวลา 1 เทิร์น โดยเอฟเฟกต์นี้ไม่สามารถซ้อนทับได้"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.2"
 	},
 	"115": {
 		"Id": "115",
-		"Name": "Grão-Duque em Brasas",
+		"Name": "The Ashblazing Grand Duke",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano causado pelos <u>Ataques Extras</u> em 20%.",
-			"Pieces4": "Quando o usuário usa um Ataque Extra, aumenta o ATQ do usuário em 6% a cada vez que o Ataque Extra causa Dano. Este efeito pode ser chegar até um máximo de 8 acúmulo(s) e dura por 3 rodada(s). Este efeito é removido na próxima vez que o usuário utilizar um Ataque Extra."
+			"Pieces2": "DMG ที่เกิดจากการโจมตีต่อเนื่องเพิ่มขึ้น 20%",
+			"Pieces4": "เมื่อผู้สวมใส่ปล่อยการโจมตีต่อเนื่อง ATK ของผู้สวมใส่จะเพิ่มขึ้น 6% ทุกครั้งที่เกิด DMG จากการโจมตีต่อเนื่อง และสามารถซ้อนทับได้สูงสุด 8 ครั้ง เป็นเวลา 3 เทิร์น โดยเอฟเฟกต์นี้จะถูกลบออกไป เมื่อผู้สวมใส่ปล่อยการโจมตีต่อเนื่อง ในครั้งถัดไป"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.5"
 	},
 	"116": {
 		"Id": "116",
-		"Name": "Prisioneiro em Confinamento Profundo",
+		"Name": "Prisoner in Deep Confinement",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 12% o ATQ.",
-			"Pieces4": "Para cada Dano Contínuo aplicado ao inimigo-alvo, o usuário ignorará 6% de sua DEF ao causar Dano. Este efeito é válido por um máximo de 3 Danos Contínuos."
+			"Pieces2": "ATK เพิ่มขึ้น 12%",
+			"Pieces4": "ทุกครั้งที่ศัตรูเป้าหมายได้รับเอฟเฟกต์ DMG ต่อเนื่อง 1 เอฟเฟกต์ ผู้สวมใส่จะเพิกเฉยต่อ DEF 6% ของศัตรูตัวนั้นๆ เมื่อสร้าง DMG แก่ศัตรูดังกล่าว โดยสามารถสร้างเอฟเฟกต์ DMG ต่อเนื่องได้สูงสุดถึง 3 เอฟเฟกต์"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.5"
 	},
 	"117": {
 		"Id": "117",
-		"Name": "Mergulhadora Pioneira de Águas Mortas",
+		"Name": "Pioneer Diver of Dead Waters",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 12% o Dano causado a inimigos com penalidades.",
-			"Pieces4": "Aumenta a Chance de CRIT em 4%. O usuário causa 8%/12% de Dano CRIT aumentado em inimigos com pelo menos 2/3 penalidades. Após o usuário infligir uma penalidade nos inimigos-alvo, os efeitos mencionados anteriormente aumentam em 100%, durando por 1 rodada(s)."
+			"Pieces2": "สร้าง DMG แก่ศัตรูที่ติดสถานะ Debuff เพิ่มขึ้น 12%",
+			"Pieces4": "อัตราคริติคอลเพิ่มขึ้น 4% และผู้สวมใส่จะสร้าง DMG คริติคอลเพิ่มขึ้น 8%/12% แก่ศัตรูเป้าหมายที่ติดเอฟเฟกต์ Debuff ไม่น้อยกว่า 2/3 เอฟเฟกต์ และหลังจากผู้สวมใส่ปล่อยเอฟเฟกต์ Debuff ใส่ศัตรูเป้าหมาย เอฟเฟกต์ข้างต้นจะเพิ่มขึ้น 100% เป็นเวลา 1 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "2.0"
 	},
 	"118": {
 		"Id": "118",
-		"Name": "Relojoeiro, Mestre de Maquinações de Sonhos",
+		"Name": "Watchmaker, Master of Dream Machinations",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Efeito de Quebra em 16%.",
-			"Pieces4": "Quando o usuário usa sua Perícia Suprema em um aliado, o Efeito de Quebra de todos os aliados aumenta em 30% por 2 rodada(s). Esse efeito não pode ser acumulado."
+			"Pieces2": "เอฟเฟกต์ทำลายล้างเพิ่มขึ้น 16%",
+			"Pieces4": "เมื่อผู้สวมใส่ ใช้ท่าไม้ตายกับเป้าหมายฝ่ายเรา เอฟเฟกต์ทำลายล้างของฝ่ายเราทั้งหมด จะเพิ่มขึ้น 30% เป็นเวลา 2 เทิร์น โดยเอฟเฟกต์นี้ไม่สามารถซ้อนทับได้"
 		},
 		"Pieces": {},
 		"VersionAdded": "2.0"
 	},
 	"119": {
 		"Id": "119",
-		"Name": "Cavalaria de Ferro Contra a Praga",
+		"Name": "Iron Cavalry Against the Scourge",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Efeito de Quebra em 16%.",
-			"Pieces4": "Se o Efeito de Quebra do usuário for 150% ou maior, o Dano de Quebra causado ao inimigo ignora 10% da sua DEF. Se o Efeito de Quebra do usuário for 250% ou maior, o Super Dano de Quebra causado ao inimigo-alvo ignora adicionalmente 15% de sua DEF."
+			"Pieces2": "เอฟเฟกต์ทำลายล้างเพิ่มขึ้น 16%",
+			"Pieces4": "ขณะที่เอฟเฟกต์ทำลายล้างของผู้สวมใส่ มากกว่าหรือเท่ากับ 150% DMG ทำลายล้างที่สร้างแก่ศัตรูเป้าหมาย จะเพิกเฉยต่อ DEF 10% ของศัตรูดังกล่าว และเมื่อเอฟเฟกต์ทำลายล้างของผู้สวมใส่ มากกว่าหรือเท่ากับ 250% DMG สุดยอดทำลายล้าง ที่สร้างแก่ศัตรูเป้าหมาย จะเพิกเฉยต่อ DEF 15% ของศัตรูดังกล่าวเพิ่มเติม"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"120": {
 		"Id": "120",
-		"Name": "Coragem Como Vento e Nuvem",
+		"Name": "The Wind-Soaring Valorous",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o ATQ em 12%.",
-			"Pieces4": "Aumenta a Chance de CRIT do usuário em 6%. Depois que o usuário utiliza um Ataque Extra, aumenta o Dano causado pela Perícia Suprema em 36%, durando por 1 rodada(s)."
+			"Pieces2": "ATK เพิ่มขึ้น 12%",
+			"Pieces4": "อัตราคริติคอลของผู้สวมใส่ เพิ่มขึ้น 6% เมื่อผู้สวมใส่ปล่อยการโจมตีต่อเนื่อง จะทำให้ท่าไม้ตายสร้าง DMG เพิ่มขึ้น 36% เป็นเวลา 1 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"121": {
 		"Id": "121",
-		"Name": "O Ordálio Revivido de Sacerdos",
+		"Name": "Sacerdos' Relived Ordeal",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a VEL em 6%.",
-			"Pieces4": "Ao usar uma Perícia ou Perícia Suprema em um aliado-alvo, aumenta o Dano CRIT do alvo em 18%, durando por 2 rodada(s). Esse efeito pode acumular até 2 vez(es)."
+			"Pieces2": "ความเร็วเพิ่มขึ้น 6%",
+			"Pieces4": "เมื่อปล่อยสกิลต่อสู้หรือท่าไม้ตาย ใส่เป้าหมายฝ่ายเราหนึ่งตัว จะทำให้ DMG คริติคอลของเป้าหมายสกิล เพิ่มขึ้น 18% เป็นเวลา 2 เทิร์น โดยเอฟเฟกต์นี้ สามารถซ้อนทับได้มากสุด 2 ครั้ง"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"122": {
 		"Id": "122",
-		"Name": "Uma Erudita Perdida na Erudição",
+		"Name": "Scholar Lost in Erudition",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a Chance de CRIT em 8%.",
-			"Pieces4": "Aumenta o Dano causado pela Perícia e pela Perícia Suprema em 20%. Após usar a Perícia Suprema, aumenta adicionalmente o Dano causado pela próxima Perícia em 25%."
+			"Pieces2": "อัตราคริติคอลเพิ่มขึ้น 8%",
+			"Pieces4": "สกิลต่อสู้และท่าไม้ตายสร้าง DMG เพิ่มขึ้น 20% หลังจากปล่อยท่าไม้ตายแล้ว เมื่อปล่อยสกิลต่อสู้ครั้งต่อไปจะสร้าง DMG เพิ่มขึ้นอีก 25%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"123": {
 		"Id": "123",
-		"Name": "Herói da Melodia Triunfante",
+		"Name": "Hero of Triumphant Song",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o ATQ em 12%.",
-			"Pieces4": "Enquanto o Memoespírito do usuário está em campo, aumenta a VEL do usuário em 6%. Quando o Memoespírito do usuário ataca, aumenta o Dano CRIT do usuário e do Memoespírito em 30% por 2 rodada(s)."
+			"Pieces2": "ATK เพิ่มขึ้น 12%",
+			"Pieces4": "เมื่อภูตความทรงจำของผู้สวมใส่ อยู่ในการต่อสู้ ความเร็วของผู้สวมใส่ จะเพิ่มขึ้น 6% เมื่อภูตความทรงจำของผู้สวมใส่โจมตี DMG คริติคอลของภูตความทรงจำ และผู้สวมใส่จะเพิ่มขึ้น 30% เป็นเวลา 2 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"124": {
 		"Id": "124",
-		"Name": "Poetisa do Colapso Enlutada",
+		"Name": "Poet of Mourning Collapse",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano Quântico em 10%.",
-			"Pieces4": "Reduz a VEL do usuário em 8%. Antes de entrar em batalha, se a VEL do usuário estiver abaixo de 110/95, aumenta a Chance de CRIT do usuário em 20%/32%. Este efeito também se aplica no Memoespírito do usuário."
+			"Pieces2": "DMG ควอนตัมเพิ่มขึ้น 10%",
+			"Pieces4": "ทำให้ความเร็วของผู้สวมใส่ ลดลง 8% ทั้งนี้ก่อนเข้าสู่การต่อสู้ หากความเร็วของผู้สวมใส่น้อยกว่า 110/95 อัตราคริติคอลของผู้สวมใส่ จะเพิ่มขึ้น 20%/32% และเอฟเฟกต์นี้ จะมีผลกับภูตความทรงจำของผู้สวมใส่ ในเวลาเดียวกันด้วย"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"125": {
 		"Id": "125",
-		"Name": "Deusa Guerreira do Sol e do Trovão",
+		"Name": "Warrior Goddess of Sun and Thunder",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a VEL em 6%.",
-			"Pieces4": "Quando o usuário ou seu Memoespírito fornecem cura aos aliados-alvo que não sejam eles mesmos, o usuário recebe \"Chuva Suave\", que dura 2 rodada(s) e só pode ser ativada uma vez por rodada. Enquanto o usuário estiver com \"Chuva Suave\", a VEL aumenta em 6% e o Dano CRIT de todos os aliados aumenta em 15%. Esse efeito não pode ser acumulado."
+			"Pieces2": "ความเร็วเพิ่มขึ้น 6%",
+			"Pieces4": "หลังจากผู้สวมใส่ หรือภูตความทรงจำของผู้สวมใส่ ทำการรักษาแก่เป้าหมายฝ่ายเรา (ยกเว้นตัวผู้สวมใส่ หรือภูตความทรงจำของตัวดังกล่าว) จะทำให้ผู้สวมใส่ได้รับ \"หยาดฝน\" โดยในแต่ละเทิร์น จะเกิดขึ้นได้มากสุด 1 ครั้ง เป็นเวลา 2 เทิร์น เมื่อผู้สวมใส่มี \"หยาดฝน\" ความเร็วจะเพิ่มขึ้น 6% และ DMG คริติคอลของฝ่ายเราทั้งหมด จะเพิ่มขึ้น 15% โดยเอฟเฟกต์นี้ จะไม่สามารถซ้อนทับได้"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.3"
 	},
 	"126": {
 		"Id": "126",
-		"Name": "Capitão Navegante de Ondas",
+		"Name": "Wavestrider Captain",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano CRIT em 16%.",
-			"Pieces4": "Quando o usuário se torna o alvo da habilidade de outro aliado-alvo, ganha 1 acúmulo de \"Ajuda\", acumulando até 2 vez(es). Se tiver 2 acúmulo(s) de \"Ajuda\" quando o usuário usar sua Perícia Suprema, consome toda a \"Ajuda\" para aumentar o ATQ do usuário em 48% por 1 rodada(s)."
+			"Pieces2": "DMG คริติคอลเพิ่มขึ้น 16%",
+			"Pieces4": "เมื่อผู้สวมใส่กลายเป็นเป้าหมายสกิล ของเป้าหมายอื่นในฝ่ายเรา จะได้รับ \"แรงช่วย\" 1 ชั้น ซึ่งสามารถซ้อนทับได้สูงสุด 2 ชั้น เมื่อปล่อยท่าไม้ตาย หากมี \"แรงช่วย\" 2 ชั้น จะใช้ \"แรงช่วย\" ทั้งหมด เพื่อทำให้ ATK ของผู้สวมใส่เพิ่มขึ้น 48% เป็นเวลา 1 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.3"
 	},
 	"127": {
 		"Id": "127",
-		"Name": "Portador da Reconstrução do Mundo",
+		"Name": "World-Remaking Deliverer",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a Chance de CRIT em 8%.",
-			"Pieces4": "Depois que o usuário usar o ATQ Básico ou a Perícia, se o Memoespírito do usuário estiver em campo, aumenta os PV máximos do usuário e de seu Memoespírito em 24% e aumenta o Dano causado por todos os aliados em 15%, durando até o próximo uso de ATQ Básico ou Perícia do usuário."
+			"Pieces2": "อัตราคริติคอลเพิ่มขึ้น 8%",
+			"Pieces4": "หลังจากที่ผู้สวมใส่ปล่อยการโจมตีปกติ หรือสกิลต่อสู้ หากภูตความทรงจำของผู้สวมใส่ อยู่ในสนาม HP สูงสุดของผู้สวมใส่และภูตความทรงจำ จะเพิ่มขึ้น 24% และทำให้ฝ่ายเราทั้งหมดสร้าง DMG เพิ่มขึ้น 15% ไปจนกว่าผู้สวมใส่จะปล่อยการโจมตีปกติ หรือสกิลต่อสู้ครั้งถัดไป"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.6"
 	},
 	"128": {
 		"Id": "128",
-		"Name": "Ermitão Envolto em Si Mesmo",
+		"Name": "Self-Enshrouded Recluse",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "O Efeito de <u>Escudo</u> concedido é aumentado em 10%.",
-			"Pieces4": "Aumenta o Efeito de <u>Escudo</u> fornecido pelo usuário em 12%. Quando um aliado-alvo tem um Efeito de <u>Escudo</u> fornecido pelo usuário, o Dano CRIT do aliado-alvo aumenta em 15%."
+			"Pieces2": "มอบปริมาณโล่เพิ่มขึ้น 10%",
+			"Pieces4": "ผู้สวมใส่จะมอบปริมาณโล่เพิ่มขึ้น 12% เมื่อเป้าหมายฝ่ายเรา มีโล่ที่ได้รับจากผู้สวมใส่ DMG คริติคอลจะเพิ่มขึ้น 15%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.6"
 	},
 	"129": {
 		"Id": "129",
-		"Name": "Menina Mágica Sempre Gloriosa",
+		"Name": "Ever-Glorious Magical Girl",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano CRIT em 16%.",
-			"Pieces4": "O <u>Dano de Euforia</u> causado pelo usuário e seus Memoespíritos ignora 10% da DEF dos alvos. Para cada 5 ponto(s) de \"Piada\" acumulado(s) que os aliados ganharem, o <u>Dano de Euforia</u> causado ignora adicionalmente 1% da DEF dos alvos, acumulando até 10 vez(es)."
+			"Pieces2": "DMG คริติคอลเพิ่มขึ้น 16%",
+			"Pieces4": "ผู้สวมใส่และภูตความทรงจำของผู้สวมใส่ จะสร้าง DMG ปิติสุขโดยเพิกเฉยต่อ DEF 10% ของเป้าหมาย ทุกครั้งที่ฝ่ายเราได้รับจุดขำขันสะสม 5 แต้ม จะสร้าง DMG ปิติสุข โดยเพิกเฉยต่อ DEF ของเป้าหมายเพิ่มอีก 1% ซึ่งสามารถซ้อนทับได้สูงสุด 10 ชั้น"
 		},
 		"Pieces": {},
 		"VersionAdded": "4.0"
 	},
 	"130": {
 		"Id": "130",
-		"Name": "Profeta de Alcance Distante",
+		"Name": "Diviner of Distant Reach",
 		"IsPlanarOrnament": false,
 		"SetEffects": {
-			"Pieces2": "Aumenta a VEL em 6%.",
-			"Pieces4": "Antes de entrar em combate, se a VEL do usuário for maior ou igual a 120/160, aumenta a Chance de CRIT do usuário em 10%/18%. Quando o usuário usa uma Perícia da Euforia pela primeira vez em cada batalha, aprimora a Euforia de todos os aliados em 10%. Este efeito não pode acumular."
+			"Pieces2": "ความเร็วเพิ่มขึ้น 6%",
+			"Pieces4": "ก่อนเข้าสู่การต่อสู้ หากความเร็วของผู้สวมใส่ มากกว่าหรือเท่ากับ 120/160 อัตราคริติคอลของผู้สวมใส่จะเพิ่มขึ้น 10%/18% เมื่อผู้สวมใส่ใช้สกิลปิติสุข เป็นครั้งแรกในแต่ละการต่อสู้ จะทำให้ระดับปิติสุขของฝ่ายเราทั้งหมด เพิ่มขึ้น 10% เอฟเฟกต์นี้ไม่สามารถซ้อนทับได้"
 		},
 		"Pieces": {},
 		"VersionAdded": "4.0"
 	},
 	"301": {
 		"Id": "301",
-		"Name": "Estação de Vedação Espacial",
+		"Name": "Space Sealing Station",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 12% o ATQ do usuário. Quando a VEL do usuário chegar a 120 ou mais, aumenta em um extra de 12% o ATQ do usuário."
+			"Pieces2": "ATK ของผู้สวมใส่เพิ่มขึ้น 12% เมื่อความเร็วของผู้สวมใส่เท่ากับหรือมากกว่า 120 ATK จะเพิ่มขึ้นอีก 12%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"302": {
 		"Id": "302",
-		"Name": "Frota dos Eternos",
+		"Name": "Fleet of the Ageless",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 12% os PV máximos do usuário. Quando a VEL do usuário chegar a 120 ou mais, aumenta em 8% o ATQ de todos os aliados."
+			"Pieces2": "HP สูงสุดของผู้สวมใส่เพิ่มขึ้น 12% เมื่อความเร็วของผู้สวมใส่เท่ากับหรือมากกว่า 120 ATK ของฝ่ายตัวเองทั้งหมดจะเพิ่มขึ้น 8%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"303": {
 		"Id": "303",
-		"Name": "Empresa Mercantil Pan-Cósmica",
+		"Name": "Pan-Cosmic Commercial Enterprise",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 10% a Taxa de Acerto de Efeito do usuário. Além disso, aumenta o ATQ do usuário em 25% da Taxa de Acerto de Efeito atual, até um máximo de 25%."
+			"Pieces2": "อัตราสร้างสถานะของผู้สวมใส่เพิ่มขึ้น 10% พร้อมทั้งเพิ่ม ATK 25% ของอัตราสร้างสถานะในปัจจุบัน ซึ่งจะเพิ่มได้สูงสุด 25%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"304": {
 		"Id": "304",
-		"Name": "Belobog dos Arquitetos",
+		"Name": "Belobog of the Architects",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 15% a DEF do usuário. Quando a Taxa de Acerto de Efeito do usuário é de 50% ou maior, ele ganha mais 15% de DEF."
+			"Pieces2": "DEF ของผู้สวมใส่เพิ่มขึ้น 15% เมื่ออัตราสร้างสถานะของผู้สวมใส่มากกว่าหรือเท่ากับ 50% DEF จะเพิ่มขึ้นอีก 15%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"305": {
 		"Id": "305",
-		"Name": "Diferenciador Celestial",
+		"Name": "Celestial Differentiator",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano CRIT do usuário em 16%. Quando o Dano CRIT atual do usuário atingir 120% ou mais, após entrar na batalha, a Chance de CRIT do usuário aumenta em 60% até o fim de seu primeiro ataque."
+			"Pieces2": "ทำให้ DMG คริติคอลของผู้สวมใส่เพิ่มขึ้น 16% และเมื่อ DMG คริติคอลของผู้สวมใส่มากกว่าหรือเท่ากับ 120% หลังจากเข้าสู่การต่อสู้ อัตราคริติคอลของผู้สวมใส่จะเพิ่มขึ้น 60% จนกว่าการโจมตีครั้งแรกจะสิ้นสุด"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"306": {
 		"Id": "306",
-		"Name": "Salsotto Inerte",
+		"Name": "Inert Salsotto",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 8% a Chance de CRIT do usuário. Quando a Chance de CRIT atual chegar a 50% ou mais, aumenta em 15% o Dano causado pelo Ataque Extra e pela Perícia Suprema do usuário."
+			"Pieces2": "ทำให้อัตราคริติคอลของผู้สวมใส่เพิ่มขึ้น 8% เมื่ออัตราคริติคอลปัจจุบันของผู้สวมใส่มากกว่าหรือเท่ากับ 50% DMG จากท่าไม้ตายและการโจมตีต่อเนื่องจะเพิ่มขึ้น 15%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"307": {
 		"Id": "307",
-		"Name": "Talia: Reino do Banditismo",
+		"Name": "Talia - Kingdom of Banditry",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 16% o Efeito de Quebra do usuário. Quando a VEL do usuário chegar a 145 ou mais, aumenta em mais 20% o Efeito de Quebra do usuário."
+			"Pieces2": "เอฟเฟกต์ทำลายล้างของผู้สวมใส่เพิ่มขึ้น 16% เมื่อความเร็วของผู้สวมใส่เท่ากับหรือมากกว่า 145 เอฟเฟกต์ทำลายล้างจะเพิ่มขึ้นอีก 20%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"308": {
 		"Id": "308",
-		"Name": "Vonwacq Vivaz",
+		"Name": "Sprightly Vonwacq",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 5% a Taxa de Regeneração de Energia do usuário. Quando a VEL do usuário chegar a 120 ou mais, a ação do usuário é Avançada Adiante em 40% imediatamente ao entrar na batalha."
+			"Pieces2": "อัตราการฟื้นฟูพลังงานของผู้สวมใส่เพิ่มขึ้น 5% เมื่อความเร็วของผู้สวมใส่เท่ากับหรือมากกว่า 120 และเมื่อเข้าสู่การต่อสู้ จะเร่งแอ็กชันขึ้นทันที 40%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.0"
 	},
 	"309": {
 		"Id": "309",
-		"Name": "Arena Rutilante",
+		"Name": "Rutilant Arena",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 8% a Chance de CRIT do usuário. Quando a Chance de CRIT chegar a 70% ou mais, aumenta em 20% o Dano causado pelo ATQ Básico e pela Perícia do usuário."
+			"Pieces2": "ทำให้อัตราคริติคอลของผู้สวมใส่เพิ่มขึ้น 8% เมื่ออัตราคริติคอลปัจจุบัน ของผู้สวมใส่มากกว่าหรือเท่ากับ 70% DMG จากการโจมตีปกติและสกิลต่อสู้จะเพิ่มขึ้น 20%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.2"
 	},
 	"310": {
 		"Id": "310",
-		"Name": "Quilha Quebrada",
+		"Name": "Broken Keel",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta em 10% a RES a Efeito do usuário. Quando a RES a Efeito do usuário chegar em 30% ou mais, aumenta em 10% o Dano CRIT de todos os aliados."
+			"Pieces2": "ทำให้การต้านทานสถานะ ของผู้สวมใส่เพิ่มขึ้น 10% เมื่อการต้านทานสถานะของผู้สวมใส่ เท่ากับหรือมากกว่า 30% DMG คริติคอลของฝ่ายตัวเองทั้งหมดจะเพิ่มขึ้น 10%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.2"
 	},
 	"311": {
 		"Id": "311",
-		"Name": "Linha de Frente: Firmamento de Glamoth",
+		"Name": "Firmament Frontline: Glamoth",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta o ATQ do usuário em 12%. Quando a VEL é igual ou maior a 135/160, o usuário causa 12%/18% a mais de Dano."
+			"Pieces2": "ทำให้ ATK ของผู้สวมใส่เพิ่มขึ้น 12% เมื่อความเร็วของผู้สวมใส่มากกว่าหรือเท่ากับ 135/160 จะทำให้ผู้สวมใส่สร้าง DMG เพิ่มขึ้น 12%/18%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.5"
 	},
 	"312": {
 		"Id": "312",
-		"Name": "Penacony, Terra dos Sonhos",
+		"Name": "Penacony, Land of the Dreams",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta a Taxa de Regeneração de Energia do usuário em 5%. Aumenta em 10% o Dano para todos os outros aliados com o mesmo Tipo de Dano que o usuário."
+			"Pieces2": "ทำให้อัตราการฟื้นฟูพลังงานของผู้สวมใส่ เพิ่มขึ้น 5% และทำให้ตัวละครอื่นในฝ่ายเรา ที่เป็นประเภทเดียวกับผู้สวมใส่ สร้าง DMG เพิ่มขึ้น 10%"
 		},
 		"Pieces": {},
 		"VersionAdded": "1.5"
 	},
 	"313": {
 		"Id": "313",
-		"Name": "Sigonia, a Desolação Abandonada",
+		"Name": "Sigonia, the Unclaimed Desolation",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta a Chance de CRIT do usuário em 4%. Quando um inimigo-alvo é derrotado, o Dano CRIT do usuário aumenta em 4%, acumulando até 10 vez(es)."
+			"Pieces2": "ทำให้อัตราคริติคอลของผู้สวมใส่เพิ่มขึ้น 4% เมื่อศัตรูเป้าหมายถูกกำจัด DMG คริติคอลของผู้สวมใส่จะเพิ่มขึ้น 4% โดยสามารถซ้อนทับได้มากสุด 10 ชั้น"
 		},
 		"Pieces": {},
 		"VersionAdded": "2.1"
 	},
 	"314": {
 		"Id": "314",
-		"Name": "Izumo Gensei e Reino Divino de Takama",
+		"Name": "Izumo Gensei and Takama Divine Realm",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta o ATQ do usuário em 12%. Ao entrar em batalha, se ao menos um outro aliado seguir o mesmo Caminho que o usuário, a Chance de CRIT do usuário aumenta em 12%."
+			"Pieces2": "ทำให้ ATK ของผู้สวมใส่เพิ่มขึ้น 12% เมื่อเข้าสู่การต่อสู้ หากมีเพื่อนร่วมทีมที่อยู่ Path เดียวกันกับผู้สวมใส่อย่างน้อย 1 คน อัตราคริติคอลของผู้สวมใส่จะเพิ่มขึ้น 12%"
 		},
 		"Pieces": {},
 		"VersionAdded": "2.1"
 	},
 	"315": {
 		"Id": "315",
-		"Name": "Duran, Dinastia dos Lobos Errantes",
+		"Name": "Duran, Dynasty of Running Wolves",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Quando um aliado utiliza um <u>Ataque Extra</u>, o usuário recebe 1 acúmulo de Mérito, acumulando até 5 vez(es). Cada acúmulo de Mérito aumenta o Dano causado pelos <u>Ataques Extras</u> do usuário em 5%. Com 5 acúmulos, aumenta adicionalmente o Dano CRIT do usuário em 25%."
+			"Pieces2": "เมื่อตัวละครฝ่ายเรา ปล่อยการโจมตีต่อเนื่อง ผู้สวมใส่จะได้รับ \"คุณความดี\" หนึ่งชั้น และจะซ้อนทับได้มากสุด 5 ชั้น โดย \"คุณความดี\" แต่ละชั้น จะทำให้การโจมตีต่อเนื่องของผู้สวมใส่ สร้าง DMG เพิ่มขึ้น 5% เมื่อซ้อนทับถึง 5 ชั้นแล้ว จะทำให้ DMG คริติคอล ของผู้สวมใส่เพิ่มขึ้นอีก 25%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"316": {
 		"Id": "316",
-		"Name": "Forja da Lanterna Kalpagni",
+		"Name": "Forge of the Kalpagni Lantern",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta a VEL do usuário em 6%. Quando o usuário atinge um inimigo-alvo com Fraqueza contra Fogo, o Efeito de Quebra do usuário aumenta em 40%, durando por 1 rodada(s)."
+			"Pieces2": "ทำให้ความเร็วของผู้สวมใส่เพิ่มขึ้น 6% เมื่อผู้สวมใส่โจมตีศัตรูเป้าหมาย ที่มีจุดอ่อนไฟ เอฟเฟกต์ทำลายล้างจะเพิ่มขึ้น 40% เป็นเวลา 1 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"317": {
 		"Id": "317",
-		"Name": "Lushaka, os Mares Submersos",
+		"Name": "Lushaka, the Sunken Seas",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta a Taxa de Regeneração de Energia do usuário em 5%. Se o usuário não for o primeiro personagem na Formação de Equipe, então aumenta o ATQ do primeiro personagem na Formação de Equipe em 12%."
+			"Pieces2": "ทำให้อัตราการฟื้นฟูพลังงานของผู้สวมใส่ เพิ่มขึ้น 5% หากผู้สวมใส่ ไม่ใช่ตัวละครตัวแรกในการจัดทีม จะทำให้ ATK ของตัวละครตัวแรกในการจัดทีม เพิ่มขึ้น 12%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"318": {
 		"Id": "318",
-		"Name": "O Maravilhoso Parque Bananalândia",
+		"Name": "The Wondrous BananAmusement Park",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano CRIT do usuário em 16%. Quando um alvo invocado pelo usuário está em campo, o Dano CRIT aumenta adicionalmente em 32%."
+			"Pieces2": "ทำให้ DMG คริติคอลของผู้สวมใส่ เพิ่มขึ้น 16% เมื่อเป้าหมายที่ผู้สวมใส่อัญเชิญ อยู่ในการต่อสู้ DMG คริติคอลจะเพิ่มขึ้นอีก 32%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"319": {
 		"Id": "319",
-		"Name": "Domínio Sereno da Coleção de Ossos",
+		"Name": "Bone Collection's Serene Demesne",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta os PV máximos do usuário em 12%. Quando os PV máximos do usuário forem 5000 ou mais, aumenta o Dano CRIT do usuário e de seu Memoespírito em 28%."
+			"Pieces2": "ทำให้ HP สูงสุดของผู้สวมใส่ เพิ่มขึ้น 12% เมื่อ HP สูงสุดของผู้สวมใส่ มากกว่าหรือเท่ากับ 5000 จะทำให้ DMG คริติคอลของผู้สวมใส่ และภูตความทรงจำของผู้สวมใส่ เพิ่มขึ้น 28%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"320": {
 		"Id": "320",
-		"Name": "Árvore Gigante da Reflexão Arrebatadora",
+		"Name": "Giant Tree of Rapt Brooding",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta a VEL do usuário em 6%. Quando a VEL do usuário é 135/180 ou maior, a <u>Cura Realizada</u> do usuário e de seu Memoespírito aumenta em 12%/20%."
+			"Pieces2": "ทำให้ความเร็วของผู้สวมใส่เพิ่มขึ้น 6% เมื่อความเร็วของผู้สวมใส่มากกว่า หรือเท่ากับ 135/180 จะทำให้ปริมาณการรักษาของผู้สวมใส่ และภูตความทรงจำของผู้สวมใส่ เพิ่มขึ้น 12%/20%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.1"
 	},
 	"321": {
 		"Id": "321",
-		"Name": "Arcádia dos Sonhos Tecidos",
+		"Name": "Arcadia of Woven Dreams",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Quando o número de aliados-alvo no campo não for igual a 4, para cada aliado-alvo adicional/ausente, aumenta o Dano causado pelo usuário e seu Memoespírito em 9%/12%, acumulando até 4/3 vez(es)."
+			"Pieces2": "เมื่อจำนวนเป้าหมายฝ่ายเรา ในการต่อสู้ปัจจุบัน ไม่เท่ากับ 4 ตัว เป้าหมายฝ่ายเราทุกๆ 1 ตัวที่เกินมา/ขาดไป จะทำให้ผู้สวมใส่ และภูตความทรงจำของผู้สวมใส่ สร้าง DMG เพิ่มขึ้น 9%/12% โดยสามารถซ้อนทับได้สูงสุด 4/3 ชั้น"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.4"
 	},
 	"322": {
 		"Id": "322",
-		"Name": "Folia à Beira-Mar",
+		"Name": "Revelry by the Sea",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta o ATQ do usuário em 12%. Quando o ATQ do usuário for maior ou igual a 2400/3600, aumenta o <u>Dano Contínuo</u> causado em 12%/24%."
+			"Pieces2": "ทำให้ ATK ของผู้สวมใส่เพิ่มขึ้น 12% เมื่อ ATK ของผู้สวมใส่ มากกว่าหรือเท่ากับ 2400/3600 จะทำให้ DMG ต่อเนื่องที่สร้างเพิ่มขึ้นอีก 12%/24%"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.4"
 	},
 	"323": {
 		"Id": "323",
-		"Name": "Amphoreus, a Terra Eterna",
+		"Name": "Amphoreus, The Eternal Land",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta a Chance de CRIT do usuário em 8%. Enquanto o Memoespírito do usuário estiver em campo, aumenta a VEL de todos os aliados em 8%. Este efeito não pode ser acumulado."
+			"Pieces2": "อัตราคริติคอลของผู้สวมใส่ เพิ่มขึ้น 8% เมื่อภูตความทรงจำ ของผู้สวมใส่อยู่ในสนาม ความเร็วของฝ่ายเราทั้งหมด จะเพิ่มขึ้น 8% และเอฟเฟกต์นี้ไม่สามารถซ้อนทับได้"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.7"
 	},
 	"324": {
 		"Id": "324",
-		"Name": "Tengoku@Stream",
+		"Name": "Tengoku@Livestream",
 		"IsPlanarOrnament": true,
 		"SetEffects": {
-			"Pieces2": "Aumenta o Dano CRIT do usuário em 16%. Se 3 ou mais Pontos de Perícia forem consumidos na mesma rodada, aumenta adicionalmente o Dano CRIT do usuário em 32%, durando por 3 rodadas."
+			"Pieces2": "DMG คริติคอลของผู้สวมใส่ เพิ่มขึ้น 16% หากภายในหนึ่งเทิร์น ใช้แต้มสกิลต่อสู้มากกว่าหรือเท่ากับ 3 แต้ม จะทำให้ DMG คริติคอลของผู้สวมใส่ เพิ่มขึ้นอีก 32% เป็นเวลา 3 เทิร์น"
 		},
 		"Pieces": {},
 		"VersionAdded": "3.7"
+	},
+	"325": {
+		"Id": "325",
+		"Name": "Punklorde Stage Zero",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "ผู้สวมใส่จะมีระดับปิติสุข เพิ่มขึ้น 8% เมื่อระดับปิติสุขในการต่อสู้ถึง 40%/80% เป็นครั้งแรก ผู้สวมใส่จะมี DMG คริติคอลเพิ่มขึ้น 20%/32%"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
+	},
+	"326": {
+		"Id": "326",
+		"Name": "City of Converging Stars",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "เมื่อผู้สวมใส่โจมตีต่อเนื่อง ATK จะเพิ่มขึ้น 24% เป็นเวลา 2 เทิร์น เมื่อศัตรูเป้าหมายถูกกำจัด ในการต่อสู้นี้ ฝ่ายเราทั้งหมดจะมี DMG คริติคอลเพิ่มขึ้น 12% เอฟเฟกต์นี้ไม่สามารถซ้อนทับได้"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
 	}
 }

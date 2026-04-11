@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Trennung",
-				"Effect": "Der Ultimate verursacht beim getroffenen Gegner für 1 Rd. den Status „Schmetterlingssturm“. Gegner im Schmetterlingssturm erleiden bei Treffern 1-mal <u>zusätzlich Quanten-SCH</u> in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den <u>zusätzlichen SCH</u> von Schmetterlingssturm besiegt, wird Seeles Talent nicht ausgelöst.\nIst Seele <u>handlungsunfähig</u>, wird der Status Schmetterlingssturm vom Gegner entfernt."
+				"Effect": "Nach einem Angriff mit dem Ultimate werden getroffene Gegner für 1 Rd. mit dem Status „Schmetterlingssturm“ belegt. Gegner im Schmetterlingssturm erleiden nach einem erlittenen Angriff 1-mal <u>zusätzlichen Quanten-SCH</u> in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den <u>zusätzlichen SCH</u> von Schmetterlingssturm besiegt, wird Seeles Talent nicht ausgelöst.\nIst Seele <u>handlungsunfähig</u>, wird der Status Schmetterlingssturm vom Gegner entfernt."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -3114,6 +3114,47 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Blitz",
+		"PathType": "Rogue",
+		"PathTypeText": "Die Jagd",
+		"Eidolons": [
+			{
+				"Id": "150401",
+				"Name": "Achtung: Bleibe bei Vollmond zu Haus",
+				"Effect": "Wenn Ashveil sich auf dem Kampffeld befindet, wird der erlittene SCH aller Gegner um 24% erhöht. Wenn der aktuelle LP-Prozentsatz eines Gegners 50% oder weniger beträgt, wird sein erlittener SCH auf 36% erhöht."
+			},
+			{
+				"Id": "150402",
+				"Name": "Klopfen: Ein Kichern erschallet",
+				"Effect": "Erhöht die max. Stapelzahl von „Völlerei“ auf 18. Jedes Mal, nachdem Ashveil den verstärkten <u>Folgeangriff</u> des Talents ausgelöst hat, werden 35% der entfernten Stapelungen von Völlerei wiederhergestellt."
+			},
+			{
+				"Id": "150403",
+				"Name": "Schweigen: Sorgen der alten Freunde",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10."
+			},
+			{
+				"Id": "150404",
+				"Name": "Bedenke: Die Wahrheit braucht kein Grübeln",
+				"Effect": "Erhöht Ashveils ANG beim Einsatz des Ultimates für 3 Rd. um 40%."
+			},
+			{
+				"Id": "150405",
+				"Name": "Erinnerung: Der Detektiv wird zum Mörder",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15."
+			},
+			{
+				"Id": "150406",
+				"Name": "Finale: Und vielleicht gab’s keines mehr",
+				"Effect": "Wenn sich ein „Köder“ auf dem Kampffeld befindet, wird der WDS aller Typen aller Gegner um 20% reduziert. Für jede Stapelung von „Völlerei“, die Ashveil jemals erhalten hat, wird der verursachte SCH um 4% erhöht. Dieser Effekt ist bis zu 30-fach stapelbar."
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

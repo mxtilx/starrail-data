@@ -475,6 +475,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10142": {
+		"Id": "10142",
+		"Name": "Món Quà Phiêu Lưu",
+		"TabName": "Món Quà Phiêu Lưu",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nNhà Khai Phá mỗi ngày sau khi đăng nhập game, có thể nhận phần thưởng ngày trong Ký Sự Du Hành.\n\n◆ Thưởng Sự Kiện ◆\nPhần thưởng sẽ lần lượt mở khóa dựa theo số ngày tích lũy đăng nhập của Nhà Khai Phá, phần thưởng ngày sẽ làm mới vào <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0410.png",
+		"VersionAdded": "4.1"
+	},
 	"20001": {
 		"Id": "20001",
 		"Name": "Bộc Lộ Tài Năng",
@@ -867,7 +876,7 @@
 		"TabName": "Bộc Lộ Tài Năng",
 		"Tag": "Dùng Thử Nhân Vật",
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial45.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial48.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1013,6 +1022,24 @@
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện dùng thử nhân vật \"Bộc Lộ Tài Năng\", có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial47.png",
 		"VersionAdded": "4.0"
+	},
+	"20077": {
+		"Id": "20077",
+		"Name": "Bộc Lộ Tài Năng",
+		"TabName": "Bộc Lộ Tài Năng",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện dùng thử nhân vật \"Bộc Lộ Tài Năng\", có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial48.png",
+		"VersionAdded": "4.1"
+	},
+	"20078": {
+		"Id": "20078",
+		"Name": "Bộc Lộ Tài Năng",
+		"TabName": "Bộc Lộ Tài Năng",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện dùng thử nhân vật \"Bộc Lộ Tài Năng\", có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial48.png",
+		"VersionAdded": "4.1"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1711,6 +1738,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestGiftSRoleVer400.png",
 		"VersionAdded": "4.0"
 	},
+	"50092": {
+		"Id": "50092",
+		"Name": "Ký Sự Bụi Linh Loạn Thế",
+		"TabName": "Ký Sự Bụi Linh Loạn Thế",
+		"Description": "Học Viện Graphia khói lửa khắp nơi, nguy cơ tiềm ẩn. Hãy tập hợp đại quân Bụi Linh của bạn, khiêu chiến hào kiệt loạn thế, giành lại sự bình yên ngày xưa!",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Giới Thiệu ◆\n● Học Viện Graphia khói lửa khắp nơi, nguy cơ tiềm ẩn. Hãy tập hợp đại quân Bụi Linh của bạn, khiêu chiến hào kiệt loạn thế, giành lại sự bình yên ngày xưa!\n\n◆ Quy Tắc Sự Kiện ◆\n● Trong \"Ký Sự Bụi Linh Loạn Thế\", Nhà Khai Phá sẽ dẫn dắt Quân Đoàn Bụi Linh chinh chiến Học Viện Graphia. Trong học viện, có tổng cộng 4 anh hùng chiếm cứ các nơi chờ người đến khiêu chiến.\n● Sau khi hoàn thành mỗi trận chiến, có thể mở khóa và sử dụng Quân Đoàn Bụi Linh mới, còn có thể dùng Kết Tinh Nguyện Lực trong Cường Hóa Binh Lực để cường hóa quân đoàn. Hoàn thành trận chiến cũng sẽ tăng \"Cấp Chinh Chiến\".\n● Sau khi hoàn thành tất cả trận chiến, Nhà Khai Phá có thể chọn quân đoàn bất kỳ đã nhận để đối đầu với kẻ địch thần bí đến từ bên ngoài bầu trời.\n\n◆ Thưởng vĩnh viễn ◆\n● Hoàn thành trận chiến để tăng Cấp Chinh Chiến, có thể nhận Thưởng Chinh Chiến cấp tương ứng.\n● Trong Thưởng Chinh Chiến có thể nhận bong bóng chat Thời Thế Tạo Anh Hùng.\n\n◆ Thưởng Hạn Giờ ◆\n● Trong Sự Kiện Hạn Giờ, hoàn thành mục tiêu nhiệm vụ chỉ định sẽ nhận được phần thưởng tương ứng.\n\n◆ Nhắc Nhở Sự Kiện ◆\n● Sau khi sự kiện hạn giờ Ký Sự Bụi Linh Loạn Thế kết thúc, Nhà Khai Phá sẽ không thể nhận thưởng hạn giờ trong thời gian sự kiện, nhưng vẫn có thể đến chỗ Fibbs của Học Viện Graphia để trải nghiệm sự kiện và nhận thưởng vĩnh viễn.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnChenLingBattle.png",
+		"VersionAdded": "4.1"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "Vũ Trụ Mô Phỏng",
@@ -1806,6 +1843,15 @@
 		"Introduction": "◆ Giới Thiệu ◆\n Bản cập nhật lớn cho Vũ Trụ Sai Phân đã ra mắt! Không chỉ mang đến Chúc Phúc, Phương Trình, Vật Thể Lạ Trọng Số và Sự Kiện Ngẫu Nhiên mới, mà còn bổ sung thêm Chúc Tụng Máu Vàng.\n\n◆ Mục Tiêu Cách Chơi ◆\n● Vượt ải Ngoại Suy Thông Thường và Ngoại Suy Chu Kỳ nhận Điểm Đồng Bộ để tăng Cấp Đồng Bộ, tăng Cấp Đồng Bộ có thể nhận thưởng.\n\n◆ Thưởng Cách Chơi ◆\n● Trong Vũ Trụ Sai Phân, thu thập Chúc Phúc, Phương Trình, Sự Kiện, Vật Thể Lạ, Vật Thể Lạ Trọng Số và Chúc Tụng Máu Vàng có thể nhận thưởng thu thập.\n● Trong Ngoại Suy Thông Thường, lần đầu vượt ải thành công mỗi độ khó sẽ nhận thưởng khiêu chiến.\n● Mỗi kỳ, lần đầu tiên vượt ải Ngoại Suy Chu Kỳ thành công sẽ nhận thêm phần thưởng.\n● Hoàn thành mục tiêu Mảng Số Ổn Định chỉ định sẽ nhận thưởng tương ứng.\n\n◆ Ngoại Suy Thông Thường ◆\n● Vượt ải Ngoại Suy Thông Thường có thể mở khóa độ khó mới, lần đầu vượt ải thành công độ khó mới sẽ nhận thêm thưởng.\n● Sau khi vượt ải độ khó V, sẽ mở khóa Chế Độ Cấp Sao.\n\n◆ Ngoại Suy Chu Kỳ ◆\n● Trong Ngoại Suy Chu Kỳ, mỗi kỳ đều sẽ cập nhật nội dung cách chơi đặc biệt, mỗi kỳ lần đầu vượt ải sẽ nhận được thêm phần thưởng.\n● Vượt ải Ngoại Suy Chu Kỳ có thể nhận thêm Điểm Đồng Bộ, có giới hạn mỗi kỳ. Vượt ải Ngoại Suy Chu Kỳ sau khi đạt giới hạn vẫn có thể nhận Điểm Đồng Bộ.\n● Trong Ngoại Suy Chu Kỳ, có thể chọn Giao Thức Ngưỡng và độ khó mở khóa trong Ngoại Suy Thông Thường.\n● Ngoại Suy Chu Kỳ mỗi hai tuần sẽ cập nhật, thời gian cập nhật là <unbreak>04</unbreak>:<unbreak>00</unbreak> thứ hai của tuần đó (thời gian server).\n\n◆ Chế Độ Cấp Sao.◆\n ● Trong Chế Độ Cấp Sao người chơi có thể khiêu chiến Giao Thức Ngưỡng, nơi độ khó sẽ tăng lên đáng kể.\n● Chế Độ Cấp Sao bao gồm Chế Độ Khai Phá Sao và Chế Độ Luyện Tập.\n● Trong Chế Độ Khai Phá Sao, có thể thắp sáng Mắt Trí Tuệ và tăng Cấp Sao. Cấp Sao càng cao, cấp Giao Thức Ngưỡng của Chế Độ Khai Phá Sao cũng càng cao.\n● Ở Chế Độ Khai Phá Sao, Cấp Sao không thể giảm. Trong cùng một Cấp Sao, số lượng Mắt Trí Tuệ có thể tăng giảm, một số Cấp Sao có cơ chế giữ cấp.\n● Trong Chế Độ Luyện Tập có thể tùy ý chọn cấp Giao Thức Ngưỡng, tối đa không vượt quá cấp Giao Thức Ngưỡng tương ứng với Cấp Sao hiện tại.\n● Chế Độ Luyện Tập sẽ không ảnh hưởng đến Cấp Sao và Mắt Trí Tuệ.\n\n◆ Ánh Xạ Số Liệu ◆\n● Trong Vũ Trụ Sai Phân, cấp nhân vật, cấp Nón Ánh Sáng, Vết Tích và Di Vật sẽ được cường hóa sau khi đủ điều kiện. Cường hóa này chỉ có hiệu lực trong Vũ Trụ Sai Phân.\n● Khi cấp nhân vật thấp hơn giới hạn cấp nhân vật của cấp Cân Bằng hiện tại, sẽ tăng đến giới hạn cấp nhân vật của cấp Cân Bằng hiện tại.\n● Khi Vết Tích đã mở khóa của nhân vật chưa kích hoạt, hoặc khi cấp Vết Tích thấp hơn yêu cầu cấp Cân Bằng hiện tại, sẽ được kích hoạt Vết Tích hoặc tăng đến cấp Vết Tích phù hợp với cấp Cân Bằng hiện tại.\n● Khi tổng cấp cường hóa Di Vật mà nhân vật trang bị thấp hơn yêu cầu cấp Cân Bằng hiện tại, Di Vật sẽ được thay thế thành Di Vật tạm thời phù hợp với cấp Cân Bằng hiện tại.\n\n◆ Mở Rộng Phần Thưởng Cấp Đồng Bộ ◆\n● Cấp Đồng Bộ của Vũ Trụ Sai Phân sẽ mở rộng định kỳ và cung cấp phần thưởng mới.\n● Trước khi mở rộng Cấp Đồng Bộ, nếu Cấp Đồng Bộ đạt giới hạn, sẽ không thể nhận Điểm Đồng Bộ trong Vũ Trụ Sai Phân.\n\n◆ Điểm Vũ Trụ Mô Phỏng ◆\n● Vượt ải Ngoại Suy Chu Kỳ và Ngoại Suy Thông Thường đều có thể nhận được điểm tích lũy của Vũ Trụ Mô Phỏng.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnRogueTourntBannerSmall2.png",
 		"VersionAdded": "3.1"
+	},
+	"60018": {
+		"Id": "60018",
+		"Name": "Vũ Trụ Sai Phân: Ghi Chép Thiên Đường Vui Vẻ",
+		"TabName": "Vũ Trụ Sai Phân: Ghi Chép Thiên Đường Vui Vẻ",
+		"Tag": "Hướng Dẫn Cách Chơi",
+		"Introduction": "◆ Giới Thiệu ◆\n Bản cập nhật lớn cho Vũ Trụ Sai Phân đã ra mắt! Không chỉ mang đến Chúc Phúc, Phương Trình, Vật Thể Lạ Trọng Số và Sự Kiện Ngẫu Nhiên mới, mà còn bổ sung thêm Mặt Nạ Khách Tế Bái.\n\n◆ Mục Tiêu Cách Chơi ◆\n● Vượt ải Ngoại Suy Thông Thường và Ngoại Suy Chu Kỳ nhận Điểm Đồng Bộ để tăng Cấp Đồng Bộ, tăng Cấp Đồng Bộ có thể nhận thưởng.\n\n◆ Thưởng Cách Chơi ◆\n● Thu thập Chúc Phúc, Phương Trình, Sự Kiện, Vật Thể Lạ, Kỳ Tích Chấn Động của Vũ Trụ Sai Phân sẽ có thể nhận thưởng thu thập.\n● Lần đầu vượt ải các độ khó trong Ngoại Suy Thông Thường, có thể nhận thưởng khiêu chiến.\n● Mỗi kỳ lần đầu vượt ải Ngoại Suy Chu Kỳ có thể nhận thêm phần thưởng.\n● Thông qua hoàn thành mục tiêu Mảng Số Ổn Định chỉ định, có thể nhận thưởng tương ứng.\n\n◆ Ngoại Suy Thông Thường ◆\n● Vượt ải Ngoại Suy Thông Thường có thể mở khóa độ khó mới, lần đầu vượt ải thành công độ khó mới sẽ nhận thêm thưởng.\n● Sau khi vượt ải độ khó V, sẽ mở khóa Chế Độ Cấp Sao.\n\n◆ Ngoại Suy Chu Kỳ ◆\n● Trong Ngoại Suy Chu Kỳ, mỗi kỳ đều sẽ cập nhật nội dung cách chơi đặc biệt, mỗi kỳ lần đầu vượt ải sẽ nhận được thêm phần thưởng.\n● Vượt ải Ngoại Suy Chu Kỳ có thể nhận thêm Điểm Đồng Bộ, có giới hạn mỗi kỳ. Vượt ải Ngoại Suy Chu Kỳ sau khi đạt giới hạn vẫn có thể nhận Điểm Đồng Bộ.\n● Trong Ngoại Suy Chu Kỳ, có thể chọn Giao Thức Ngưỡng và độ khó mở khóa trong Ngoại Suy Thông Thường.\n● Ngoại Suy Chu Kỳ mỗi hai tuần sẽ cập nhật, thời gian cập nhật là <unbreak>04</unbreak>:<unbreak>00</unbreak> thứ hai của tuần đó (thời gian server).\n\n◆ Chế Độ Cấp Sao.◆\n ● Trong Chế Độ Cấp Sao người chơi có thể khiêu chiến Giao Thức Ngưỡng, nơi độ khó sẽ tăng lên đáng kể.\n● Chế Độ Cấp Sao bao gồm Chế Độ Khai Phá Sao và Chế Độ Luyện Tập.\n● Trong Chế Độ Khai Phá Sao, có thể thắp sáng Mắt Trí Tuệ và tăng Cấp Sao. Cấp Sao càng cao, cấp Giao Thức Ngưỡng của Chế Độ Khai Phá Sao cũng càng cao.\n● Ở Chế Độ Khai Phá Sao, Cấp Sao không thể giảm. Trong cùng một Cấp Sao, số lượng Mắt Trí Tuệ có thể tăng giảm, một số Cấp Sao có cơ chế giữ cấp.\n● Trong Chế Độ Luyện Tập có thể tùy ý chọn cấp Giao Thức Ngưỡng, tối đa không vượt quá cấp Giao Thức Ngưỡng tương ứng với Cấp Sao hiện tại.\n● Chế Độ Luyện Tập sẽ không ảnh hưởng đến Cấp Sao và Mắt Trí Tuệ.\n\n◆ Ánh Xạ Số Liệu ◆\n● Trong Vũ Trụ Sai Phân, cấp nhân vật, cấp Nón Ánh Sáng, Vết Tích và Di Vật sẽ được cường hóa sau khi đủ điều kiện. Cường hóa này chỉ có hiệu lực trong Vũ Trụ Sai Phân.\n● Khi cấp nhân vật thấp hơn giới hạn cấp nhân vật của cấp Cân Bằng hiện tại, sẽ tăng đến giới hạn cấp nhân vật của cấp Cân Bằng hiện tại.\n● Khi Vết Tích đã mở khóa của nhân vật chưa kích hoạt, hoặc khi cấp Vết Tích thấp hơn yêu cầu cấp Cân Bằng hiện tại, sẽ được kích hoạt Vết Tích hoặc tăng đến cấp Vết Tích phù hợp với cấp Cân Bằng hiện tại.\n● Khi tổng cấp cường hóa Di Vật mà nhân vật trang bị thấp hơn yêu cầu cấp Cân Bằng hiện tại, Di Vật sẽ được thay thế thành Di Vật tạm thời phù hợp với cấp Cân Bằng hiện tại.\n\n◆ Mở Rộng Phần Thưởng Cấp Đồng Bộ ◆\n● Cấp Đồng Bộ của Vũ Trụ Sai Phân sẽ mở rộng định kỳ và cung cấp phần thưởng mới.\n● Trước khi mở rộng Cấp Đồng Bộ, nếu Cấp Đồng Bộ đạt giới hạn, sẽ không thể nhận Điểm Đồng Bộ trong Vũ Trụ Sai Phân.\n\n◆ Điểm Vũ Trụ Mô Phỏng ◆\n● Vượt ải Ngoại Suy Chu Kỳ và Ngoại Suy Thông Thường đều có thể nhận được điểm tích lũy của Vũ Trụ Mô Phỏng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnRogueTournPersona.png",
+		"VersionAdded": "4.1"
 	},
 	"71002": {
 		"Id": "71002",
@@ -2054,5 +2100,14 @@
 		"Tag": "Mở Nhiệm Vụ Khai Phá",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory400.png",
 		"VersionAdded": "4.0"
+	},
+	"80025": {
+		"Id": "80025",
+		"Name": "Dâng Tặng Bình Minh Mất Kiểm Soát",
+		"TabName": "Nhiệm Vụ Khai Phá",
+		"Description": "Lời thầm thì của hạnh phúc lan tràn, ác linh của quá khứ tái hiện. Dưới ánh đèn sân khấu, các anh hùng bước đi trên đường ray trên không được đúc từ sự sùng bái và căm ghét, chỉ cần sơ sẩy là sẽ rơi xuống. Nghe đi! Nơi tận cùng của bầu trời truyền đến tiếng cười nhạo, là tiếng sáo lúc bình minh hay là màn mở đầu của vở kịch hoang đường?",
+		"Tag": "Mở Nhiệm Vụ Khai Phá",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory410.png",
+		"VersionAdded": "4.1"
 	}
 }

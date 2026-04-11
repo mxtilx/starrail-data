@@ -5375,6 +5375,1517 @@
 		"EnhancedAbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, akan memulihkan HP.",
 		"VersionAdded": "3.1"
 	},
+	"617000": {
+		"Id": "617000",
+		"Name": "\"Highlight\"",
+		"Rarity": 1,
+		"Effect": "DMG final yang diakibatkan rekan tim meningkat <color=#f29e38ff>2%</color>, DMG yang diterima berkurang <color=#f29e38ff>1%</color>. Saat Charge mencapai 100%, akan mendahulukan aksi target \"Highlight\" sebesar 100%, serta meningkatkan DMG final yang diakibatkan target tersebut dan Memosprite miliknya sebesar <color=#f29e38ff>10%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"617120": {
+		"Id": "617120",
+		"Name": "Bedtime Story",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Remembrance\", mengakibatkan Ice DMG pada seluruh target musuh, dan berpeluang besar membuatnya memasuki status Frozen selama <color=#f29e38ff>1</color> giliran. Selama berstatus Frozen dari efek ini, akan menerima tambahan True DMG sebesar <color=#f29e38ff>8%</color> Max HP setelah diserang oleh Memosprite. Setiap kali target musuh memasuki status Frozen ini, DMG ini maksimal dapat dipicu hingga <color=#f29e38ff>4</color> kali.",
+		"AbridgedEffect": "Setelah memicu Persamaan Batas, akan mengakibatkan Ice DMG pada seluruh musuh dan berpeluang besar membuat seluruh musuh memasuki status Frozen. Saat berstatus Frozen dari efek ini, setelah terkena serangan dari Memosprite, akan menerima tambahan True DMG sebesar <color=#f29e38ff>8%</color> Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"617130": {
+		"Id": "617130",
+		"Name": "Infallible Instinct",
+		"Rarity": 1,
+		"Effect": "Saat karakter beraksi, akan membuat dirinya dan Memosprite miliknya memperoleh <color=#f29e38ff>1</color> lapis \"<u>Obsession</u>\". Saat Memosprite beraksi, akan membuat dirinya dan pemilik Memosprite-nya memperoleh <color=#f29e38ff>1</color> lapis \"<u>Obsession</u>\".",
+		"AbridgedEffect": "Saat karakter beraksi, akan membuat dirinya dan Memosprite miliknya memperoleh \"<u>Obsession</u>\". Saat Memosprite beraksi, akan membuat dirinya dan pemilik Memosprite-nya memperoleh \"<u>Obsession</u>\".",
+		"EnhancedEffect": "Saat karakter beraksi, akan membuat dirinya dan Memosprite miliknya memperoleh <color=#f29e38ff>1</color> lapis \"<u>Obsession</u>\". Saat Memosprite beraksi, akan membuat dirinya dan pemilik Memosprite-nya memperoleh <color=#f29e38ff>2</color> lapis \"<u>Obsession</u>\".",
+		"EnhancedAbridgedEffect": "Saat karakter beraksi, akan membuat dirinya dan Memosprite miliknya memperoleh \"<u>Obsession</u>\". Saat Memosprite beraksi, akan membuat dirinya dan pemilik Memosprite-nya memperoleh \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617131": {
+		"Id": "617131",
+		"Name": "Unaging Memory",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan serangan, akan mengakibatkan DMG Tambahan berdasarkan jumlah total lapisan \"<u>Obsession</u>\" pada rekan tim, setiap lapisnya mengakibatkan DMG Tambahan sebesar <color=#f29e38ff>1%</color> ATK.",
+		"AbridgedEffect": "Setelah melancarkan serangan, akan mengakibatkan DMG Tambahan berdasarkan jumlah lapisan \"<u>Obsession</u>\" rekan tim.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan serangan, mengakibatkan DMG Tambahan berdasarkan jumlah total lapisan \"<u>Obsession</u>\" pada rekan tim, setiap lapisnya mengakibatkan DMG Tambahan sebesar <color=#f29e38ff>1.5%</color> ATK.",
+		"EnhancedAbridgedEffect": "Setelah melancarkan serangan, akan mengakibatkan DMG Tambahan berdasarkan jumlah lapisan \"<u>Obsession</u>\" rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617132": {
+		"Id": "617132",
+		"Name": "Ever-Peaceful Dream",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil: Setelah giliran pertama berakhir, aksi akan didahulukan <color=#f29e38ff>50%</color> dan DMG yang diakibatkan akan meningkat <color=#f29e38ff>50%</color>, berlangsung selama <color=#f29e38ff>4</color> giliran.",
+		"AbridgedEffect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, aksi akan didahulukan dan DMG yang diakibatkan akan meningkat setelah giliran pertama berakhir.",
+		"EnhancedEffect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil: Setelah giliran pertama berakhir, aksi akan didahulukan <color=#f29e38ff>75%</color> dan DMG yang diakibatkan akan meningkat <color=#f29e38ff>75%</color>, berlangsung selama <color=#f29e38ff>4</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, aksi akan didahulukan dan DMG yang diakibatkan akan meningkat setelah giliran pertama berakhir.",
+		"VersionAdded": "4.1"
+	},
+	"617140": {
+		"Id": "617140",
+		"Name": "Enlightenment: Cloudweave",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim terkena serangan, akan memperoleh <color=#f29e38ff>2</color> lapis \"<u>Obsession</u>\".",
+		"AbridgedEffect": "Memperoleh \"<u>Obsession</u>\" saat terkena serangan.",
+		"EnhancedEffect": "Saat rekan tim terkena serangan, akan memperoleh <color=#f29e38ff>3</color> lapis \"<u>Obsession</u>\".",
+		"EnhancedAbridgedEffect": "Memperoleh \"<u>Obsession</u>\" saat terkena serangan.",
+		"VersionAdded": "4.1"
+	},
+	"617141": {
+		"Id": "617141",
+		"Name": "Enlightenment: Ridgesew",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengalahkan target musuh, akan memberikan <color=#f29e38ff>4</color> lapis \"<u>Obsession</u>\" pada seluruh rekan tim.",
+		"AbridgedEffect": "Setelah mengalahkan target musuh, akan memberikan \"<u>Obsession</u>\" pada seluruh rekan tim.",
+		"EnhancedEffect": "Setelah rekan tim mengalahkan target musuh, akan memberikan <color=#f29e38ff>6</color> lapis \"<u>Obsession</u>\" pada seluruh rekan tim.",
+		"EnhancedAbridgedEffect": "Setelah mengalahkan target musuh, akan memberikan \"<u>Obsession</u>\" pada seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617142": {
+		"Id": "617142",
+		"Name": "Enlightenment: Wavebind",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, akan memperoleh <color=#f29e38ff>6</color> lapis \"<u>Obsession</u>\".",
+		"AbridgedEffect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, akan memperoleh \"<u>Obsession</u>\".",
+		"EnhancedEffect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, akan memperoleh <color=#f29e38ff>9</color> lapis \"<u>Obsession</u>\".",
+		"EnhancedAbridgedEffect": "Setelah rekan tim memasuki pertempuran/Memosprite dipanggil, akan memperoleh \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617143": {
+		"Id": "617143",
+		"Name": "Enlightenment: Eulogy of the Coast",
+		"Rarity": 1,
+		"Effect": "Setiap lapis \"<u>Obsession</u>\" membuat DMG yang diakibatkan meningkat ekstra <color=#f29e38ff>0.3%</color>.",
+		"AbridgedEffect": "Setiap lapis \"<u>Obsession</u>\" akan meningkatkan DMG yang diakibatkan.",
+		"EnhancedEffect": "Setiap lapis \"<u>Obsession</u>\" membuat DMG yang diakibatkan meningkat ekstra <color=#f29e38ff>0.4%</color>.",
+		"EnhancedAbridgedEffect": "Setiap lapis \"<u>Obsession</u>\" akan meningkatkan DMG yang diakibatkan.",
+		"VersionAdded": "4.1"
+	},
+	"617144": {
+		"Id": "617144",
+		"Name": "Enlightenment: Praise of the Abyss",
+		"Rarity": 1,
+		"Effect": "Batas maksimal \"<u>Obsession</u>\" karakter meningkat <color=#f29e38ff>4</color> lapis.",
+		"AbridgedEffect": "Batas lapisan \"<u>Obsession</u>\" karakter meningkat.",
+		"EnhancedEffect": "Batas maksimal \"<u>Obsession</u>\" karakter meningkat <color=#f29e38ff>6</color> lapis.",
+		"EnhancedAbridgedEffect": "Batas lapisan \"<u>Obsession</u>\" karakter meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617145": {
+		"Id": "617145",
+		"Name": "Enlightenment: Dawn Distilled",
+		"Rarity": 1,
+		"Effect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diterimanya akan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>6</color> lapis, dan berlangsung hingga giliran berakhir.",
+		"AbridgedEffect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diterimanya akan meningkat.",
+		"EnhancedEffect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diterimanya akan meningkat <color=#f29e38ff>6%</color>, dapat ditumpuk hingga <color=#f29e38ff>6</color> lapis, dan berlangsung hingga giliran berakhir.",
+		"EnhancedAbridgedEffect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diterimanya akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617146": {
+		"Id": "617146",
+		"Name": "Enlightenment: Sunset Melted",
+		"Rarity": 1,
+		"Effect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diakibatkan target tersebut akan berkurang <color=#f29e38ff>2%</color>, dapat ditumpuk hingga <color=#f29e38ff>6</color> lapis, dan berlangsung hingga giliran berakhir.",
+		"AbridgedEffect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diakibatkannya akan berkurang.",
+		"EnhancedEffect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diakibatkan target tersebut akan berkurang <color=#f29e38ff>3%</color>, dapat ditumpuk hingga <color=#f29e38ff>6</color> lapis, dan berlangsung hingga giliran berakhir.",
+		"EnhancedAbridgedEffect": "Setiap kali target musuh diserang oleh rekan tim yang berbeda, DMG yang diakibatkannya akan berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"617150": {
+		"Id": "617150",
+		"Name": "Acuity: Warmth of Blades",
+		"Rarity": 1,
+		"Effect": "ATK seluruh rekan tim +<color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "ATK meningkat.",
+		"EnhancedEffect": "ATK seluruh rekan tim +<color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "ATK meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617151": {
+		"Id": "617151",
+		"Name": "Acuity: Shape of Claws",
+		"Rarity": 1,
+		"Effect": "DMG yang diakibatkan seluruh rekan tim +<color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "DMG yang diakibatkan meningkat.",
+		"EnhancedEffect": "DMG yang diakibatkan seluruh rekan tim +<color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "DMG yang diakibatkan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617152": {
+		"Id": "617152",
+		"Name": "Acuity: Patterns of Conches",
+		"Rarity": 1,
+		"Effect": "DEF seluruh rekan tim +<color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "DEF meningkat.",
+		"EnhancedEffect": "DEF seluruh rekan tim +<color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "DEF meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617153": {
+		"Id": "617153",
+		"Name": "Acuity: Stories of Monsoons",
+		"Rarity": 1,
+		"Effect": "DMG yang diakibatkan seluruh rekan tim meningkat <color=#f29e38ff>10%</color>, dan DMG yang diakibatkan Memosprite meningkat ekstra <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "DMG yang diakibatkan meningkat, DMG yang diakibatkan Memosprite meningkat ekstra.",
+		"EnhancedEffect": "DMG yang diakibatkan seluruh rekan tim meningkat <color=#f29e38ff>15%</color>, dan DMG yang diakibatkan Memosprite meningkat ekstra <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "DMG yang diakibatkan meningkat, DMG yang diakibatkan Memosprite meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617154": {
+		"Id": "617154",
+		"Name": "Acuity: Stories of Boulders",
+		"Rarity": 1,
+		"Effect": "DEF seluruh rekan tim meningkat <color=#f29e38ff>14%</color>, dan DEF Memosprite meningkat ekstra <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "DEF meningkat, DEF Memosprite meningkat ekstra.",
+		"EnhancedEffect": "DEF seluruh rekan tim meningkat <color=#f29e38ff>21%</color>, dan DEF Memosprite meningkat ekstra <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "DEF meningkat, DEF Memosprite meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617155": {
+		"Id": "617155",
+		"Name": "Acuity: Stories of Tides",
+		"Rarity": 1,
+		"Effect": "Pemulihan HP seluruh rekan tim meningkat <color=#f29e38ff>10%</color>, dan Pemulihan HP Memosprite meningkat ekstra <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Pemulihan HP meningkat, Pemulihan HP Memosprite meningkat ekstra.",
+		"EnhancedEffect": "Pemulihan HP seluruh rekan tim meningkat <color=#f29e38ff>15%</color>, dan Pemulihan HP Memosprite meningkat ekstra <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Pemulihan HP meningkat, Pemulihan HP Memosprite meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617156": {
+		"Id": "617156",
+		"Name": "Acuity: Scarlet Bones and Crimson Leaves",
+		"Rarity": 1,
+		"Effect": "Setelah Memosprite beraksi, CRIT Rate seluruh rekan tim akan meningkat <color=#f29e38ff>14%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah Memosprite beraksi, CRIT Rate seluruh rekan tim akan meningkat.",
+		"EnhancedEffect": "Setelah Memosprite beraksi, CRIT Rate seluruh rekan tim akan meningkat <color=#f29e38ff>21%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah Memosprite beraksi, CRIT Rate seluruh rekan tim akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617157": {
+		"Id": "617157",
+		"Name": "Acuity: White Hair and Pearls",
+		"Rarity": 1,
+		"Effect": "Setelah Memosprite beraksi, CRIT DMG seluruh rekan tim akan meningkat <color=#f29e38ff>28%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah Memosprite beraksi, CRIT DMG seluruh rekan tim akan meningkat.",
+		"EnhancedEffect": "Setelah Memosprite beraksi, CRIT DMG seluruh rekan tim akan meningkat <color=#f29e38ff>42%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah Memosprite beraksi, CRIT DMG seluruh rekan tim akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617220": {
+		"Id": "617220",
+		"Name": "Adorable Black Hole",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Nihility\". Membuat seluruh target musuh memasuki status Burn, Shock, Bleed, dan 2 lapis Wind Shear selama <color=#f29e38ff>3</color> giliran. Setelah terkena serangan karakter, akan membuat DoT di atas segera mengakibatkan DMG sebesar <color=#f29e38ff>25%</color> dari DMG aslinya.",
+		"AbridgedEffect": "Setelah memicu Persamaan Batas, akan membuat seluruh musuh memasuki status Burn, Shock, Bleed, dan Wind Shear. Setelah terkena serangan karakter, akan memicu status DoT tersebut.",
+		"VersionAdded": "4.1"
+	},
+	"617230": {
+		"Id": "617230",
+		"Name": "La Communauté Inavouable",
+		"Rarity": 1,
+		"Effect": "Saat target musuh terkena DoT, \"<u>Murmur</u>\" akan memperoleh nilai Charge sebesar <color=#f29e38ff>20%</color> dari total ATK karakter tim.",
+		"AbridgedEffect": "Saat target musuh terkena DoT, akan mengisi Charge \"<u>Murmur</u>\".",
+		"EnhancedEffect": "Saat target musuh terkena DoT, \"<u>Murmur</u>\" akan memperoleh nilai Charge sebesar <color=#f29e38ff>30%</color> dari total ATK karakter tim.",
+		"EnhancedAbridgedEffect": "Saat target musuh terkena DoT, akan mengisi Charge \"<u>Murmur</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617231": {
+		"Id": "617231",
+		"Name": "De L'existence a L'existant",
+		"Rarity": 1,
+		"Effect": "Setelah target musuh terkena serangan untuk pertama kalinya pada setiap giliran, \"<u>Murmur</u>\" akan menghasilkan DMG sebesar <color=#f29e38ff>160%</color> dari DMG aslinya.",
+		"AbridgedEffect": "Setelah target musuh terkena serangan untuk pertama kalinya pada setiap giliran, akan memicu 1 kali \"<u>Murmur</u>\" DMG.",
+		"EnhancedEffect": "Setelah target musuh terkena serangan untuk pertama kalinya pada setiap giliran, \"<u>Murmur</u>\" akan menghasilkan DMG sebesar <color=#f29e38ff>240%</color> dari DMG aslinya.",
+		"EnhancedAbridgedEffect": "Setelah target musuh terkena serangan untuk pertama kalinya pada setiap giliran, akan memicu 1 kali \"<u>Murmur</u>\" DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617232": {
+		"Id": "617232",
+		"Name": "Une Voix Venue D'ailleurs",
+		"Rarity": 1,
+		"Effect": "Saat giliran target musuh dimulai, akan memicu ekstra 1 kali kalkulasi DoT, membuat seluruh status DoT yang dimilikinya saat ini untuk segera mengakibatkan DMG sebesar <color=#f29e38ff>90%</color> dari DMG aslinya.",
+		"AbridgedEffect": "Saat giliran target musuh dimulai, akan memicu semua status DoT yang dimilikinya sebanyak ekstra 1 kali.",
+		"EnhancedEffect": "Saat giliran target musuh dimulai, akan memicu ekstra 1 kali kalkulasi DoT, membuat seluruh status DoT yang dimilikinya saat ini untuk segera mengakibatkan DMG sebesar <color=#f29e38ff>135%</color> dari DMG aslinya.",
+		"EnhancedAbridgedEffect": "Saat giliran target musuh dimulai, akan memicu semua status DoT yang dimilikinya sebanyak ekstra 1 kali.",
+		"VersionAdded": "4.1"
+	},
+	"617240": {
+		"Id": "617240",
+		"Name": "Enlightenment and Extinction",
+		"Rarity": 1,
+		"Effect": "Saat giliran target musuh berakhir, \"<u>Murmur</u>\" akan memperoleh nilai Charge sebesar <color=#f29e38ff>40%</color> dari total ATK karakter tim.",
+		"AbridgedEffect": "Saat giliran target musuh berakhir, \"<u>Murmur</u>\" akan memperoleh Charge.",
+		"EnhancedEffect": "Saat giliran target musuh berakhir, \"<u>Murmur</u>\" akan memperoleh nilai Charge sebesar <color=#f29e38ff>60%</color> dari total ATK karakter tim.",
+		"EnhancedAbridgedEffect": "Saat giliran target musuh berakhir, \"<u>Murmur</u>\" akan memperoleh Charge.",
+		"VersionAdded": "4.1"
+	},
+	"617241": {
+		"Id": "617241",
+		"Name": "Lacrimi și Sfinți",
+		"Rarity": 1,
+		"Effect": "Setiap kali setelah target musuh menerima \"<u>Murmur</u>\" DMG, akan mengurangi <color=#f29e38ff>0.3%</color> DMG yang diakibatkannya, maksimal berkurang hingga <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Setiap kali setelah target musuh menerima \"<u>Murmur</u>\" DMG, akan mengurangi DMG yang diakibatkannya.",
+		"EnhancedEffect": "Setiap kali setelah target musuh menerima \"<u>Murmur</u>\" DMG, akan mengurangi <color=#f29e38ff>0.8%</color> DMG yang diakibatkannya, maksimal berkurang hingga <color=#f29e38ff>16%</color>.",
+		"EnhancedAbridgedEffect": "Setiap kali setelah target musuh menerima \"<u>Murmur</u>\" DMG, akan mengurangi DMG yang diakibatkannya.",
+		"VersionAdded": "4.1"
+	},
+	"617242": {
+		"Id": "617242",
+		"Name": "Insomnia's Praise",
+		"Rarity": 1,
+		"Effect": "\"<u>Murmur</u>\" DMG meningkat sebesar <color=#f29e38ff>30%</color> dari DMG Multiplier aslinya.",
+		"AbridgedEffect": "\"<u>Murmur</u>\" DMG meningkat.",
+		"EnhancedEffect": "\"<u>Murmur</u>\" DMG meningkat sebesar <color=#f29e38ff>45%</color> dari DMG Multiplier aslinya.",
+		"EnhancedAbridgedEffect": "\"<u>Murmur</u>\" DMG meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617243": {
+		"Id": "617243",
+		"Name": "Pe Culmile Disperării",
+		"Rarity": 1,
+		"Effect": "Batasan penghapusan \"<u>Murmur</u>\" meningkat <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Batasan penghapusan \"<u>Murmur</u>\" meningkat.",
+		"EnhancedEffect": "Batasan penghapusan \"<u>Murmur</u>\" meningkat <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Batasan penghapusan \"<u>Murmur</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617244": {
+		"Id": "617244",
+		"Name": "L'Écriture du Désastre",
+		"Rarity": 1,
+		"Effect": "Charging Efficiency \"<u>Murmur</u>\" saat memperoleh Charge meningkat <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Charging Efficiency meningkat saat \"<u>Murmur</u>\" memperoleh Charge.",
+		"EnhancedEffect": "Charging Efficiency \"<u>Murmur</u>\" saat memperoleh Charge meningkat <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Charging Efficiency meningkat saat \"<u>Murmur</u>\" memperoleh Charge.",
+		"VersionAdded": "4.1"
+	},
+	"617245": {
+		"Id": "617245",
+		"Name": "The Final Speaker",
+		"Rarity": 1,
+		"Effect": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan HP seluruh rekan tim sebesar <color=#f29e38ff>1.0%</color> Max HP masing-masing.",
+		"AbridgedEffect": "Setiap kali target musuh terkena 1 kali DoT, memulihkan HP seluruh rekan tim.",
+		"EnhancedEffect": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan HP seluruh rekan tim sebesar <color=#f29e38ff>1.5%</color> Max HP masing-masing.",
+		"EnhancedAbridgedEffect": "Setiap kali target musuh terkena 1 kali DoT, memulihkan HP seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617246": {
+		"Id": "617246",
+		"Name": "Unclear Opinions",
+		"Rarity": 1,
+		"Effect": "Setiap kali target musuh memasuki 1 status DoT, DMG yang diterimanya akan meningkat <color=#f29e38ff>3.0%</color>, dapat ditumpuk hingga <color=#f29e38ff>6</color> lapis.",
+		"AbridgedEffect": "Setiap kali target musuh memasuki 1 status DoT, DMG yang diterimanya akan meningkat.",
+		"EnhancedEffect": "Setiap kali target musuh memasuki 1 status DoT, DMG yang diterimanya akan meningkat <color=#f29e38ff>4.5%</color>, dapat ditumpuk hingga <color=#f29e38ff>6</color> lapis.",
+		"EnhancedAbridgedEffect": "Setiap kali target musuh memasuki 1 status DoT, DMG yang diterimanya akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617250": {
+		"Id": "617250",
+		"Name": "La Métaphore Vive",
+		"Rarity": 1,
+		"Effect": "DoT yang diakibatkan rekan tim +<color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Meningkatkan DoT yang diakibatkan.",
+		"EnhancedEffect": "DoT yang diakibatkan rekan tim +<color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan DoT yang diakibatkan.",
+		"VersionAdded": "4.1"
+	},
+	"617251": {
+		"Id": "617251",
+		"Name": "The Non-Existent",
+		"Rarity": 1,
+		"Effect": "Effect Hit Rate rekan tim +<color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Meningkatkan Effect Hit Rate.",
+		"EnhancedEffect": "Effect Hit Rate rekan tim +<color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan Effect Hit Rate.",
+		"VersionAdded": "4.1"
+	},
+	"617252": {
+		"Id": "617252",
+		"Name": "Sygdommen til Døden",
+		"Rarity": 1,
+		"Effect": "Effect RES target musuh -<color=#f29e38ff>12%</color>",
+		"AbridgedEffect": "Mengurangi Effect RES target musuh.",
+		"EnhancedEffect": "Effect RES target musuh -<color=#f29e38ff>18%</color>",
+		"EnhancedAbridgedEffect": "Mengurangi Effect RES target musuh.",
+		"VersionAdded": "4.1"
+	},
+	"617253": {
+		"Id": "617253",
+		"Name": "Sacrilegious",
+		"Rarity": 1,
+		"Effect": "DoT yang diterima target musuh +<color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "Meningkatkan DoT yang diterima target musuh.",
+		"EnhancedEffect": "DoT yang diterima target musuh +<color=#f29e38ff>15%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan DoT yang diterima target musuh.",
+		"VersionAdded": "4.1"
+	},
+	"617254": {
+		"Id": "617254",
+		"Name": "L'Expérience Intérieure",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim menambahkan status Debuff, ATK akan meningkat <color=#f29e38ff>24%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah menambahkan status Debuff, ATK akan meningkat.",
+		"EnhancedEffect": "Setelah rekan tim menambahkan status Debuff, ATK akan meningkat <color=#f29e38ff>36%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah menambahkan status Debuff, ATK akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617255": {
+		"Id": "617255",
+		"Name": "Soleil Noir",
+		"Rarity": 1,
+		"Effect": "DMG yang diterima oleh target musuh yang berstatus DoT +<color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "DMG yang diterima musuh yang berstatus DoT meningkat.",
+		"EnhancedEffect": "DMG yang diterima oleh target musuh yang berstatus DoT +<color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "DMG yang diterima musuh yang berstatus DoT meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617256": {
+		"Id": "617256",
+		"Name": "Beyond Good & Evil",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim menambahkan status Debuff, SPD akan meningkat <color=#f29e38ff>10%</color>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"AbridgedEffect": "Setelah menambahkan status Debuff, SPD akan meningkat.",
+		"EnhancedEffect": "Setelah rekan tim menambahkan status Debuff, SPD akan meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah menambahkan status Debuff, SPD akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617257": {
+		"Id": "617257",
+		"Name": "Die Austreibung des Anderen",
+		"Rarity": 1,
+		"Effect": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan <color=#f29e38ff>1.0</color> Energy rekan tim secara acak. Pada setiap giliran target musuh, maksimal dapat memicu efek ini sebanyak <color=#f29e38ff>20</color> kali.",
+		"AbridgedEffect": "Setiap kali setelah target musuh terkena DoT, akan memulihkan Energy rekan tim secara acak.",
+		"EnhancedEffect": "Setiap kali target musuh terkena 1 kali DoT, akan memulihkan <color=#f29e38ff>1.5</color> Energy rekan tim secara acak. Pada setiap giliran target musuh, maksimal dapat memicu efek ini sebanyak <color=#f29e38ff>20</color> kali.",
+		"EnhancedAbridgedEffect": "Setiap kali setelah target musuh terkena DoT, akan memulihkan Energy rekan tim secara acak.",
+		"VersionAdded": "4.1"
+	},
+	"617420": {
+		"Id": "617420",
+		"Name": "Last Bullet",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Hunt\", mengakibatkan Wind DMG pada seluruh target musuh, dan membuat aksi seluruh rekan tim didahulukan sebesar <color=#f29e38ff>100%</color>. Max Energy adalah 200.",
+		"AbridgedEffect": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Hunt\", mengakibatkan Wind DMG pada seluruh target musuh, dan membuat aksi seluruh rekan tim didahulukan sebesar <color=#f29e38ff>100%</color>. Max Energy adalah 200.",
+		"VersionAdded": "4.1"
+	},
+	"617430": {
+		"Id": "617430",
+		"Name": "Weapons Drawn, Paths Restless",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengalahkan target musuh, aksinya akan didahulukan 100%, dan membuat target musuh lainnya memperoleh <color=#f29e38ff>4</color> lapis \"<u>Reverse Critical Boost</u>\".",
+		"AbridgedEffect": "Setelah rekan tim mengalahkan target musuh, aksinya akan didahulukan 100%, dan membuat target musuh lainnya memperoleh <color=#f29e38ff>4</color> lapis \"<u>Reverse Critical Boost</u>\".",
+		"EnhancedEffect": "SPD rekan tim meningkat <color=#f29e38ff>12%</color>. Setelah rekan tim mengalahkan target musuh, aksinya akan didahulukan 100%, dan membuat target musuh lainnya memperoleh <color=#f29e38ff>8</color> lapis <u>Reverse Critical Boost</u>.",
+		"EnhancedAbridgedEffect": "SPD rekan tim meningkat <color=#f29e38ff>12%</color>. Setelah rekan tim mengalahkan target musuh, aksinya akan didahulukan 100%, dan membuat target musuh lainnya memperoleh <color=#f29e38ff>8</color> lapis <u>Reverse Critical Boost</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617431": {
+		"Id": "617431",
+		"Name": "White Feathers Fly, A Sky of Stars Vanish",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan serangan, saat jumlah target serangan adalah 1/2/3/4/5, <u>Reverse Critical Boost</u> DMG yang diakibatkan meningkat sebesar <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> DMG Multiplier aslinya.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan serangan, saat jumlah target serangan adalah 1/2/3/4/5, <u>Reverse Critical Boost</u> DMG yang diakibatkan meningkat sebesar <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> DMG Multiplier aslinya.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan serangan, saat jumlah target serangan adalah 1/2/3/4/5, <u>Reverse Critical Boost</u> DMG yang diakibatkan meningkat sebesar <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> DMG Multiplier aslinya.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim melancarkan serangan, saat jumlah target serangan adalah 1/2/3/4/5, <u>Reverse Critical Boost</u> DMG yang diakibatkan meningkat sebesar <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> DMG Multiplier aslinya.",
+		"VersionAdded": "4.1"
+	},
+	"617432": {
+		"Id": "617432",
+		"Name": "A Myriad Chariots, A Trial of Courage",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, dirinya akan memperoleh pendahuluan aksi sebesar 100%.",
+		"AbridgedEffect": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, dirinya akan memperoleh pendahuluan aksi sebesar 100%.",
+		"EnhancedEffect": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, aksi dirinya akan didahulukan 100%, serta meningkatkan <color=#f29e38ff>50%</color> DMG yang diakibatkan, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, aksi dirinya akan didahulukan 100%, serta meningkatkan <color=#f29e38ff>50%</color> DMG yang diakibatkan, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"617440": {
+		"Id": "617440",
+		"Name": "Stars Converge at Sword's Edge",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan DMG pada target musuh yang memiliki \"<u>Reverse Critical Boost</u>\", CRIT Rate meningkat <color=#f29e38ff>20%</color>. Untuk setiap 1 lapis \"<u>Reverse Critical Boost</u>\" yang dimiliki, meningkatkan ekstra CRIT DMG sebesar <color=#f29e38ff>3%</color>.",
+		"AbridgedEffect": "CRIT Rate rekan tim meningkat saat menyerang target musuh yang memiliki <u>Reverse Critical Boost</u>. Semakin banyak lapisan <u>Reverse Critical Boost</u>, semakin tinggi CRIT DMG rekan tim.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan DMG pada target musuh yang memiliki \"<u>Reverse Critical Boost</u>\", CRIT Rate meningkat <color=#f29e38ff>25%</color>. Untuk setiap 1 lapis \"<u>Reverse Critical Boost</u>\" yang dimiliki, meningkatkan ekstra CRIT DMG sebesar <color=#f29e38ff>5%</color>.",
+		"EnhancedAbridgedEffect": "CRIT Rate rekan tim meningkat saat menyerang target musuh yang memiliki <u>Reverse Critical Boost</u>. Semakin banyak lapisan <u>Reverse Critical Boost</u>, semakin tinggi CRIT DMG rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617441": {
+		"Id": "617441",
+		"Name": "The Crooked Path of Arrows",
+		"Rarity": 1,
+		"Effect": "Batas maksimal lapisan \"<u>Reverse Critical Boost</u>\" pada target musuh meningkat <color=#f29e38ff>5</color> lapis.",
+		"AbridgedEffect": "Batas maksimal lapisan <u>Reverse Critical Boost</u> yang dimiliki target musuh meningkat.",
+		"EnhancedEffect": "Batas maksimal lapisan \"<u>Reverse Critical Boost</u>\" pada target musuh meningkat <color=#f29e38ff>10</color> lapis.",
+		"EnhancedAbridgedEffect": "Batas maksimal lapisan <u>Reverse Critical Boost</u> yang dimiliki target musuh meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617442": {
+		"Id": "617442",
+		"Name": "Riders Surge in Chaos",
+		"Rarity": 1,
+		"Effect": "Saat giliran target musuh dimulai, setiap 1 lapis \"<u>Reverse Critical Boost</u>\" yang dimiliki akan meningkatkan <color=#f29e38ff>0.8%</color> DMG yang diterima target musuh, berlangsung hingga giliran berikutnya dimulai.",
+		"AbridgedEffect": "Semakin banyak lapisan <u>Reverse Critical Boost</u> yang dimiliki target musuh, semakin tinggi DMG yang diterimanya.",
+		"EnhancedEffect": "Saat giliran target musuh dimulai, setiap 1 lapis \"<u>Reverse Critical Boost</u>\" yang dimiliki akan meningkatkan <color=#f29e38ff>1.2%</color> DMG yang diterima target musuh, berlangsung hingga giliran berikutnya dimulai.",
+		"EnhancedAbridgedEffect": "Semakin banyak lapisan <u>Reverse Critical Boost</u> yang dimiliki target musuh, semakin tinggi DMG yang diterimanya.",
+		"VersionAdded": "4.1"
+	},
+	"617443": {
+		"Id": "617443",
+		"Name": "Broken but Not Bent",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan Serangan Lanjutan, membuat target serangan acak memperoleh <color=#f29e38ff>2</color> lapis <u>Reverse Critical Boost</u> tambahan.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan Serangan Lanjutan, membuat target serangan acak memperoleh <color=#f29e38ff>2</color> lapis <u>Reverse Critical Boost</u> tambahan.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan Serangan Lanjutan, target serangan acak memperoleh <color=#f29e38ff>2</color> lapis <u>Reverse Critical Boost</u> tambahan, dan SPD diri meningkat <color=#f29e38ff>30%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim melancarkan Serangan Lanjutan, membuat target serangan acak memperoleh <color=#f29e38ff>2</color> lapis <u>Reverse Critical Boost</u> tambahan, dan meningkatkan SPD diri.",
+		"VersionAdded": "4.1"
+	},
+	"617444": {
+		"Id": "617444",
+		"Name": "Radiance of Lightning's Edge",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan serangan, jika target serangan memiliki \"<u>Reverse Critical Boost</u>\" lebih dari atau sama dengan <color=#f29e38ff>5</color> lapis, maka ATK diri sendiri akan meningkat sebesar <color=#f29e38ff>50%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan serangan, jika target serangan memiliki \"<u>Reverse Critical Boost</u>\" lebih dari atau sama dengan <color=#f29e38ff>5</color> lapis, maka ATK diri sendiri akan meningkat.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan serangan, jika target serangan memiliki \"<u>Reverse Critical Boost</u>\" lebih dari atau sama dengan <color=#f29e38ff>5</color> lapis, maka ATK diri sendiri akan meningkat sebesar <color=#f29e38ff>75%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim melancarkan serangan, jika target serangan memiliki \"<u>Reverse Critical Boost</u>\" lebih dari atau sama dengan <color=#f29e38ff>5</color> lapis, maka ATK diri sendiri akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617445": {
+		"Id": "617445",
+		"Name": "The Archer's Trusted Bow",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan Serangan Lanjutan, memiliki <color=#f29e38ff>40%</color> peluang tetap untuk memulihkan 1 Poin Skill.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan Serangan Lanjutan, berpeluang untuk memulihkan Poin Skill.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan Serangan Lanjutan, memiliki <color=#f29e38ff>60%</color> peluang tetap untuk memulihkan 1 Poin Skill.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim melancarkan Serangan Lanjutan, berpeluang untuk memulihkan Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617446": {
+		"Id": "617446",
+		"Name": "Arrows Leap Like Meteors",
+		"Rarity": 1,
+		"Effect": "SPD rekan tim meningkat <color=#f29e38ff>5%</color>. Setelah setiap <color=#f29e38ff>12</color> giliran yang diselesaikan seluruh anggota tim, aksi rekan tim yang beraksi saat itu akan didahulukan 100%.",
+		"AbridgedEffect": "SPD rekan tim meningkat <color=#f29e38ff>5%</color>. Setelah setiap <color=#f29e38ff>12</color> giliran yang diselesaikan seluruh anggota tim, aksi rekan tim yang beraksi saat itu akan didahulukan 100%.",
+		"EnhancedEffect": "SPD rekan tim meningkat <color=#f29e38ff>12%</color>. Setelah setiap <color=#f29e38ff>12</color> giliran yang diselesaikan seluruh anggota tim, aksi rekan tim yang beraksi saat itu akan didahulukan 100%.",
+		"EnhancedAbridgedEffect": "SPD rekan tim meningkat <color=#f29e38ff>12%</color>. Setelah setiap <color=#f29e38ff>12</color> giliran yang diselesaikan seluruh anggota tim, aksi rekan tim yang beraksi saat itu akan didahulukan 100%.",
+		"VersionAdded": "4.1"
+	},
+	"617450": {
+		"Id": "617450",
+		"Name": "Aligned for Precision",
+		"Rarity": 1,
+		"Effect": "SPD rekan tim +<color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Meningkatkan SPD rekan tim.",
+		"EnhancedEffect": "SPD rekan tim +<color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan SPD rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617451": {
+		"Id": "617451",
+		"Name": "Strength to Overcome Hundreds",
+		"Rarity": 1,
+		"Effect": "CRIT Rate rekan tim +<color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Meningkatkan CRIT Rate rekan tim.",
+		"EnhancedEffect": "CRIT Rate rekan tim +<color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan CRIT Rate rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617452": {
+		"Id": "617452",
+		"Name": "Purpose Shines Clear",
+		"Rarity": 1,
+		"Effect": "CRIT DMG rekan tim +<color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Meningkatkan CRIT DMG rekan tim.",
+		"EnhancedEffect": "CRIT DMG rekan tim +<color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan CRIT DMG rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617453": {
+		"Id": "617453",
+		"Name": "Autumn Moon in the Sky",
+		"Rarity": 1,
+		"Effect": "Setelah mengalahkan target musuh, memulihkan HP seluruh rekan tim sebesar <color=#f29e38ff>12%</color> Max HP.",
+		"AbridgedEffect": "Setelah mengalahkan target musuh, memulihkan HP seluruh rekan tim.",
+		"EnhancedEffect": "Setelah mengalahkan target musuh, memulihkan HP seluruh rekan tim sebesar <color=#f29e38ff>18%</color> Max HP.",
+		"EnhancedAbridgedEffect": "Setelah mengalahkan target musuh, memulihkan HP seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617454": {
+		"Id": "617454",
+		"Name": "A Flick of the Hand",
+		"Rarity": 1,
+		"Effect": "Setelah mengalahkan target musuh, meningkatkan <color=#f29e38ff>10%</color> ATK seluruh rekan tim. Efek ini dapat ditumpuk hingga <color=#f29e38ff>4</color> kali.",
+		"AbridgedEffect": "Setelah mengalahkan target musuh, meningkatkan ATK seluruh rekan tim.",
+		"EnhancedEffect": "Setelah mengalahkan target musuh, meningkatkan <color=#f29e38ff>15%</color> ATK seluruh rekan tim. Efek ini dapat ditumpuk hingga <color=#f29e38ff>4</color> kali.",
+		"EnhancedAbridgedEffect": "Setelah mengalahkan target musuh, meningkatkan ATK seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617455": {
+		"Id": "617455",
+		"Name": "Arrow Shatters the Moon",
+		"Rarity": 1,
+		"Effect": "Saat giliran rekan tim berakhir, akan mengalami Pendahuluan Aksi sebesar <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Saat giliran rekan tim berakhir, akan mengalami Pendahuluan Aksi.",
+		"EnhancedEffect": "Saat giliran rekan tim berakhir, akan mengalami Pendahuluan Aksi sebesar <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Saat giliran rekan tim berakhir, akan mengalami Pendahuluan Aksi.",
+		"VersionAdded": "4.1"
+	},
+	"617456": {
+		"Id": "617456",
+		"Name": "Thunder Upon the Wall",
+		"Rarity": 1,
+		"Effect": "Saat giliran rekan tim dimulai, akan memulihkan <color=#f29e38ff>3</color> Energy.",
+		"AbridgedEffect": "Saat giliran rekan tim dimulai, akan memulihkan Energy.",
+		"EnhancedEffect": "Saat giliran rekan tim dimulai, akan memulihkan <color=#f29e38ff>4</color> Energy.",
+		"EnhancedAbridgedEffect": "Saat giliran rekan tim dimulai, akan memulihkan Energy.",
+		"VersionAdded": "4.1"
+	},
+	"617457": {
+		"Id": "617457",
+		"Name": "Verdant Branch, Vermillion String",
+		"Rarity": 1,
+		"Effect": "Setelah mengalahkan target musuh, meningkatkan <color=#f29e38ff>4%</color> SPD seluruh rekan tim. Efek ini dapat ditumpuk hingga <color=#f29e38ff>3</color> kali.",
+		"AbridgedEffect": "Setelah mengalahkan target musuh, meningkatkan SPD seluruh rekan tim.",
+		"EnhancedEffect": "Setelah mengalahkan target musuh, meningkatkan <color=#f29e38ff>6%</color> SPD seluruh rekan tim. Efek ini dapat ditumpuk hingga <color=#f29e38ff>3</color> kali.",
+		"EnhancedAbridgedEffect": "Setelah mengalahkan target musuh, meningkatkan SPD seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617520": {
+		"Id": "617520",
+		"Name": "Demon Lord From Beyond",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Destruction\", mengakibatkan Fire DMG pada seluruh target musuh, mengonsumsi HP seluruh rekan tim hingga <color=#f29e38ff>60%</color>, dan membuat Max HP seluruh rekan tim meningkat <color=#f29e38ff>100%</color>. Saat giliran dimulai, memulihkan <color=#f29e38ff>100%</color> HP yang telah dikonsumsi, berlangsung selama <color=#f29e38ff>4</color> giliran.",
+		"AbridgedEffect": "Setelah memicu Persamaan Batas, akan mengakibatkan Fire DMG pada seluruh musuh, mengurangi HP seluruh rekan tim, serta meningkatkan Max HP dan memulihkan HP saat giliran dimulai.",
+		"VersionAdded": "4.1"
+	},
+	"617530": {
+		"Id": "617530",
+		"Name": "Faster-than-Light Surge",
+		"Rarity": 1,
+		"Effect": "\"<u>Blazar</u>\" DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>20%</color>, serta batas maksimum \"<u>Blazar</u>\" meningkat <color=#f29e38ff>65%</color>.",
+		"AbridgedEffect": "\"<u>Blazar</u>\" DMG yang diakibatkan rekan tim meningkat, serta batas maksimum \"<u>Blazar</u>\" meningkat.",
+		"EnhancedEffect": "\"<u>Blazar</u>\" DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>30%</color>, serta batas maksimum \"<u>Blazar</u>\" meningkat <color=#f29e38ff>100%</color>.",
+		"EnhancedAbridgedEffect": "\"<u>Blazar</u>\" DMG yang diakibatkan rekan tim meningkat, serta batas maksimum \"<u>Blazar</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617531": {
+		"Id": "617531",
+		"Name": "Random Freepath Shockwave",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan serangan pertama kali setiap giliran, akan mengakibatkan DMG Tambahan sebesar <color=#f29e38ff>100%</color> \"<u>Blazar</u>\" pada target serangan.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan serangan untuk pertama kalinya pada setiap giliran, akan mengakibatkan DMG Tambahan berdasarkan \"<u>Blazar</u>\" pada target serangan.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan serangan pertama kali setiap giliran, akan mengakibatkan DMG Tambahan sebesar <color=#f29e38ff>150%</color> \"<u>Blazar</u>\" pada target serangan.",
+		"EnhancedAbridgedEffect": "Setelah rekan tim melancarkan serangan untuk pertama kalinya pada setiap giliran, akan mengakibatkan DMG Tambahan berdasarkan \"<u>Blazar</u>\" pada target serangan.",
+		"VersionAdded": "4.1"
+	},
+	"617532": {
+		"Id": "617532",
+		"Name": "Hypersonic Cloud Medium",
+		"Rarity": 1,
+		"Effect": "Saat terkena serangan, semua DMG yang diterima rekan tim akan terbagi ke seluruh rekan tim.",
+		"AbridgedEffect": "Seluruh rekan tim saling berbagi DMG yang diterima.",
+		"EnhancedEffect": "DMG yang diterima rekan tim berkurang <color=#f29e38ff>15%</color>. Saat terkena serangan, semua DMG yang diterima rekan tim akan terbagi ke seluruh rekan tim.",
+		"EnhancedAbridgedEffect": "Seluruh rekan tim saling berbagi DMG yang diterima, dan mengurangi DMG yang diterima rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617540": {
+		"Id": "617540",
+		"Name": "Compact Blaze",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim terkena serangan, DMG Multiplier \"<u>Blazar</u>\" akan meningkat sebesar <color=#f29e38ff>20%</color> dari Multiplier aslinya, dapat ditumpuk hingga <color=#f29e38ff>2</color> kali, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "\"<u>Blazar</u>\" DMG meningkat saat terkena serangan.",
+		"EnhancedEffect": "Saat rekan tim terkena serangan, DMG Multiplier \"<u>Blazar</u>\" akan meningkat sebesar <color=#f29e38ff>30%</color> dari Multiplier aslinya, dapat ditumpuk hingga <color=#f29e38ff>2</color> kali, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "\"<u>Blazar</u>\" DMG meningkat saat terkena serangan.",
+		"VersionAdded": "4.1"
+	},
+	"617541": {
+		"Id": "617541",
+		"Name": "Synchronous Radiation",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> dari kekuatan Shield yang diperoleh rekan tim akan ekstra dikonversi menjadi \"<u>Blazar</u>\".",
+		"AbridgedEffect": "Kekuatan Shield yang diperoleh dapat dikonversi lebih lanjut menjadi \"<u>Blazar</u>\".",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> dari kekuatan Shield yang diperoleh rekan tim akan ekstra dikonversi menjadi \"<u>Blazar</u>\".",
+		"EnhancedAbridgedEffect": "Kekuatan Shield yang diperoleh dapat dikonversi lebih lanjut menjadi \"<u>Blazar</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617542": {
+		"Id": "617542",
+		"Name": "Continuous Spectrum",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> dari Pemulihan HP yang berlebih juga dapat dikonversi menjadi \"<u>Blazar</u>\".",
+		"AbridgedEffect": "Pemulihan HP yang berlebih juga dapat dikonversi menjadi \"<u>Blazar</u>\".",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> dari Pemulihan HP yang berlebih juga dapat dikonversi menjadi \"<u>Blazar</u>\".",
+		"EnhancedAbridgedEffect": "Pemulihan HP yang berlebih juga dapat dikonversi menjadi \"<u>Blazar</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617543": {
+		"Id": "617543",
+		"Name": "Concealed Shadow Bands",
+		"Rarity": 1,
+		"Effect": "Nilai Dasar \"<u>Blazar</u>\" meningkat <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Nilai Dasar \"<u>Blazar</u>\" meningkat.",
+		"EnhancedEffect": "Nilai Dasar \"<u>Blazar</u>\" meningkat <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Nilai Dasar \"<u>Blazar</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617544": {
+		"Id": "617544",
+		"Name": "Cataclysmic Variable",
+		"Rarity": 1,
+		"Effect": "CRIT Rate dari DMG yang diakibatkan \"<u>Blazar</u>\" meningkat <color=#f29e38ff>20%</color>, CRIT DMG meningkat <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "CRIT Rate dan CRIT DMG yang diakibatkan \"<u>Blazar</u>\" meningkat.",
+		"EnhancedEffect": "CRIT Rate dari DMG yang diakibatkan \"<u>Blazar</u>\" meningkat <color=#f29e38ff>30%</color>, CRIT DMG meningkat <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "CRIT Rate dan CRIT DMG yang diakibatkan \"<u>Blazar</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617545": {
+		"Id": "617545",
+		"Name": "Forced Jump",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim terkena serangan atau mengonsumsi HP, jika HP rekan tim saat ini lebih rendah dari <color=#f29e38ff>35%</color>, maka HP rekan tim akan dipulihkan sebesar <color=#f29e38ff>12%</color> dari Max HP. Maksimal dapat memulihkan HP sebesar <color=#f29e38ff>18%</color> Max HP dengan cara ini dalam satu kali aksi.",
+		"AbridgedEffect": "Setelah terkena serangan atau mengonsumsi HP, jika persentase HP saat ini lebih rendah dari <color=#f29e38ff>35%</color>, maka HP akan dipulihkan.",
+		"EnhancedEffect": "Setelah rekan tim terkena serangan atau mengonsumsi HP, jika HP rekan tim saat ini lebih rendah dari <color=#f29e38ff>35%</color>, maka HP rekan tim akan dipulihkan sebesar <color=#f29e38ff>20%</color> dari Max HP. Maksimal dapat memulihkan HP sebesar <color=#f29e38ff>30%</color> Max HP dengan cara ini dalam satu kali aksi.",
+		"EnhancedAbridgedEffect": "Setelah terkena serangan atau mengonsumsi HP, jika persentase HP saat ini lebih rendah dari <color=#f29e38ff>35%</color>, maka HP akan dipulihkan.",
+		"VersionAdded": "4.1"
+	},
+	"617546": {
+		"Id": "617546",
+		"Name": "Radioactive Decay",
+		"Rarity": 1,
+		"Effect": "Saat persentase HP rekan tim lebih rendah dari 50%, DMG yang diterima berkurang <color=#f29e38ff>10%</color>, dan Pemulihan HP meningkat <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Saat persentase HP lebih rendah dari 50%, DMG yang diterima akan berkurang dan Pemulihan HP meningkat.",
+		"EnhancedEffect": "Saat persentase HP rekan tim lebih rendah dari 50%, DMG yang diterima berkurang <color=#f29e38ff>15%</color>, dan Pemulihan HP meningkat <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Saat persentase HP lebih rendah dari 50%, DMG yang diterima akan berkurang dan Pemulihan HP meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617550": {
+		"Id": "617550",
+		"Name": "Bipolar Jets",
+		"Rarity": 1,
+		"Effect": "DMG yang diterima rekan tim -<color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "DMG yang diterima berkurang.",
+		"EnhancedEffect": "DMG yang diterima rekan tim -<color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "DMG yang diterima berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"617551": {
+		"Id": "617551",
+		"Name": "Double-Segment Structure",
+		"Rarity": 1,
+		"Effect": "Effect RES rekan tim +<color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Effect RES Meningkat.",
+		"EnhancedEffect": "Effect RES rekan tim +<color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Effect RES Meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617552": {
+		"Id": "617552",
+		"Name": "Contact Binary Stars",
+		"Rarity": 1,
+		"Effect": "Max HP rekan tim +<color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Max HP Meningkat.",
+		"EnhancedEffect": "Max HP rekan tim +<color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Max HP Meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617553": {
+		"Id": "617553",
+		"Name": "Absolute Magnitude",
+		"Rarity": 1,
+		"Effect": "Pemulihan HP rekan tim +<color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Pemulihan HP Meningkat.",
+		"EnhancedEffect": "Pemulihan HP rekan tim +<color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Pemulihan HP Meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617554": {
+		"Id": "617554",
+		"Name": "Standard Candle",
+		"Rarity": 1,
+		"Effect": "Kekuatan Shield yang diperoleh rekan tim +<color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Kekuatan Shield yang diperoleh meningkat.",
+		"EnhancedEffect": "Kekuatan Shield yang diperoleh rekan tim +<color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Kekuatan Shield yang diperoleh meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617555": {
+		"Id": "617555",
+		"Name": "Mass Transfer Substar",
+		"Rarity": 1,
+		"Effect": "Setelah HP atau kekuatan Shield rekan tim berkurang, Max HP akan meningkat <color=#f29e38ff>20%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah HP atau kekuatan Shield berkurang, Max HP akan meningkat.",
+		"EnhancedEffect": "Setelah HP atau kekuatan Shield rekan tim berkurang, Max HP akan meningkat <color=#f29e38ff>30%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah HP atau kekuatan Shield berkurang, Max HP akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617556": {
+		"Id": "617556",
+		"Name": "Eclipsing Binary",
+		"Rarity": 1,
+		"Effect": "Setelah HP atau kekuatan Shield rekan tim berkurang, Effect RES akan meningkat <color=#f29e38ff>16%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah HP atau kekuatan Shield berkurang, Effect RES akan meningkat.",
+		"EnhancedEffect": "Setelah HP atau kekuatan Shield rekan tim berkurang, Effect RES akan meningkat <color=#f29e38ff>24%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah HP atau kekuatan Shield berkurang, Effect RES akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617557": {
+		"Id": "617557",
+		"Name": "Nova Burst",
+		"Rarity": 1,
+		"Effect": "Karakter tidak akan gugur setelah menerima serangan mematikan, dan HP-nya saat ini akan segera dipulihkan sebesar <color=#f29e38ff>20%</color> Max HP-nya. Seluruh rekan tim hanya dapat memicu efek ini <color=#f29e38ff>1</color> kali dalam 1 pertempuran.",
+		"AbridgedEffect": "Karakter dapat menahan DMG mematikan dan memulihkan HP-nya sendiri. Berlaku untuk seluruh rekan tim, dan memiliki batas terpicu.",
+		"EnhancedEffect": "Karakter tidak akan gugur setelah menerima serangan mematikan, dan HP-nya saat ini akan segera dipulihkan sebesar <color=#f29e38ff>100%</color> Max HP-nya. Seluruh rekan tim hanya dapat memicu efek ini <color=#f29e38ff>1</color> kali dalam 1 pertempuran.",
+		"EnhancedAbridgedEffect": "Karakter dapat menahan DMG mematikan dan memulihkan HP-nya sendiri. Berlaku untuk seluruh rekan tim, dan memiliki batas terpicu.",
+		"VersionAdded": "4.1"
+	},
+	"617620": {
+		"Id": "617620",
+		"Name": "Infinite Improbability",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan kemampuan dan memicu Boundary Resonance dengan Path \"Elation\", mengakibatkan <color=#f29e38ff>5</color> - <color=#f29e38ff>10</color> kali Elation DMG dengan Tipe acak pada seluruh target musuh, dan membuat Aha segera memperoleh 1 giliran tambahan yang menghitung <color=#f29e38ff>200</color> Punchline secara tetap, giliran tersebut tidak mengonsumsi Punchline.",
+		"AbridgedEffect": "Konsumsi 100 Energy untuk melancarkan kemampuan dan memicu Boundary Resonance dengan Path \"Elation\", mengakibatkan <color=#f29e38ff>5</color> - <color=#f29e38ff>10</color> kali Elation DMG dengan Tipe acak pada seluruh target musuh, dan membuat Aha segera memperoleh 1 giliran tambahan yang menghitung <color=#f29e38ff>200</color> Punchline secara tetap, giliran tersebut tidak mengonsumsi Punchline.",
+		"VersionAdded": "4.1"
+	},
+	"617630": {
+		"Id": "617630",
+		"Name": "\"Licorice Pizza: Mint Shaved Ice\"",
+		"Rarity": 1,
+		"Effect": "Setiap melewati <color=#f29e38ff>50</color> poin Nilai Aksi, \"<u>Dealer</u>\" akan memperoleh 1 poin Charge secara permanen. Setiap 1 poin Charge yang dimiliki \"<u>Dealer</u>\" akan meningkatkan ekstra SPD Event Pertempuran Netral, seluruh rekan tim, dan objek panggilan mereka sebesar <color=#f29e38ff>1</color>.",
+		"AbridgedEffect": "Setiap melewati <color=#f29e38ff>50</color> poin Nilai Aksi, \"<u>Dealer</u>\" akan memperoleh 1 poin Charge secara permanen. Semakin banyak Charge yang dimiliki \"<u>Dealer</u>\", semakin tinggi SPD Event Pertempuran Netral, seluruh rekan tim, dan objek panggilan mereka.",
+		"EnhancedEffect": "Setiap melewati <color=#f29e38ff>25</color> poin Nilai Aksi, \"<u>Dealer</u>\" akan memperoleh 1 poin Charge secara permanen. Setiap 1 poin Charge yang dimiliki \"<u>Dealer</u>\" akan meningkatkan ekstra SPD Event Pertempuran Netral, seluruh rekan tim, dan objek panggilan mereka sebesar <color=#f29e38ff>1</color>.",
+		"EnhancedAbridgedEffect": "Setiap melewati <color=#f29e38ff>25</color> poin Nilai Aksi, \"<u>Dealer</u>\" akan memperoleh 1 poin Charge secara permanen. Semakin banyak Charge yang dimiliki \"<u>Dealer</u>\", semakin tinggi SPD Event Pertempuran Netral, seluruh rekan tim, dan objek panggilan mereka.",
+		"VersionAdded": "4.1"
+	},
+	"617631": {
+		"Id": "617631",
+		"Name": "\"Ocean Colonel: World of Yesterday\"",
+		"Rarity": 1,
+		"Effect": "Setelah \"<u>Dealer</u>\" beraksi, memperoleh <color=#f29e38ff>5</color> Punchline, dan CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>60%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "\"<u>Dealer</u>\" memperoleh Punchline setelah melakukan aksi dan meningkatkan CRIT DMG seluruh rekan tim.",
+		"EnhancedEffect": "Setelah \"<u>Dealer</u>\" beraksi, memperoleh <color=#f29e38ff>10</color> Punchline dan meningkatkan CRIT DMG seluruh rekan tim sebesar <color=#f29e38ff>60%</color>. Setiap 1 poin Charge meningkatkan ekstra <color=#f29e38ff>3%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "\"<u>Dealer</u>\" memperoleh Punchline setelah melakukan aksi dan meningkatkan CRIT DMG seluruh rekan tim. Semakin banyak Charge yang diperoleh, semakin tinggi peningkatannya.",
+		"VersionAdded": "4.1"
+	},
+	"617632": {
+		"Id": "617632",
+		"Name": "\"Sands of Sunrise: Solo Dance\"",
+		"Rarity": 1,
+		"Effect": "RES PEN Seluruh Tipe milik rekan tim meningkat <color=#f29e38ff>10%</color>. Saat Punchline mencapai <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color> untuk pertama kalinya, Tingkat Elation seluruh rekan tim meningkat <color=#f29e38ff>20%</color>, efek ini dapat ditumpuk.",
+		"AbridgedEffect": "Meningkatkan RES PEN Seluruh Tipe rekan tim. Semakin banyak Punchline, semakin tinggi Tingkat Elation seluruh rekan tim.",
+		"EnhancedEffect": "RES PEN Seluruh Tipe milik rekan tim meningkat <color=#f29e38ff>15%</color>. Saat Punchline mencapai <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color> untuk pertama kalinya, Tingkat Elation seluruh rekan tim meningkat <color=#f29e38ff>30%</color>, efek ini dapat ditumpuk.",
+		"EnhancedAbridgedEffect": "Meningkatkan RES PEN Seluruh Tipe rekan tim. Semakin banyak Punchline, semakin tinggi Tingkat Elation seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617640": {
+		"Id": "617640",
+		"Name": "\"A Silent Month in a House\"",
+		"Rarity": 1,
+		"Effect": "CRIT Rate milik \"<u>Dealer</u>\" meningkat <color=#f29e38ff>20%</color>, CRIT DMG milik \"<u>Dealer</u>\" meningkat <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "CRIT Rate dan CRIT DMG \"<u>Dealer</u>\" meningkat.",
+		"EnhancedEffect": "CRIT Rate milik \"<u>Dealer</u>\" meningkat <color=#f29e38ff>30%</color>, CRIT DMG milik \"<u>Dealer</u>\" meningkat <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "CRIT Rate dan CRIT DMG \"<u>Dealer</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617641": {
+		"Id": "617641",
+		"Name": "\"Lieutenant Besotted with Caviar\"",
+		"Rarity": 1,
+		"Effect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, DMG yang diterima target serangan meningkat <color=#f29e38ff>5%</color>. Efek ini dapat ditumpuk dan berlangsung hingga sebelum aksi \"<u>Dealer</u>\" yang berikutnya.",
+		"AbridgedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, meningkatkan DMG yang diterima target serangan.",
+		"EnhancedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, DMG yang diterima target serangan meningkat <color=#f29e38ff>7%</color>. Efek ini dapat ditumpuk dan berlangsung hingga sebelum aksi \"<u>Dealer</u>\" yang berikutnya.",
+		"EnhancedAbridgedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, meningkatkan DMG yang diterima target serangan.",
+		"VersionAdded": "4.1"
+	},
+	"617642": {
+		"Id": "617642",
+		"Name": "\"Your Cabinet is Beautiful, You Know\"",
+		"Rarity": 1,
+		"Effect": "SPD Dasar \"<u>Dealer</u>\" meningkat <color=#f29e38ff>16</color> poin. Saat pertempuran dimulai, aksinya didahulukan <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "SPD Dasar \"<u>Dealer</u>\" meningkat, dan aksinya didahulukan pada saat pertempuran dimulai.",
+		"EnhancedEffect": "SPD Dasar \"<u>Dealer</u>\" meningkat <color=#f29e38ff>24</color> poin. Saat pertempuran dimulai, aksinya didahulukan <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "SPD Dasar \"<u>Dealer</u>\" meningkat, dan aksinya didahulukan pada saat pertempuran dimulai.",
+		"VersionAdded": "4.1"
+	},
+	"617643": {
+		"Id": "617643",
+		"Name": "\"Seed of a Fruit Strange and Divine\"",
+		"Rarity": 1,
+		"Effect": "Setelah \"<u>Dealer</u>\" beraksi, SPD seluruh rekan tim akan meningkat <color=#f29e38ff>18%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah \"<u>Dealer</u>\" melakukan aksi, meningkatkan SPD seluruh rekan tim.",
+		"EnhancedEffect": "Setelah \"<u>Dealer</u>\" beraksi, SPD seluruh rekan tim akan meningkat <color=#f29e38ff>27%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah \"<u>Dealer</u>\" melakukan aksi, meningkatkan SPD seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617644": {
+		"Id": "617644",
+		"Name": "\"Cry of the Cosmic Cat\"",
+		"Rarity": 1,
+		"Effect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, DMG yang diakibatkan target serangan berkurang <color=#f29e38ff>4%</color>. Efek ini dapat ditumpuk hingga <color=#f29e38ff>3</color> tumpukan dan berlangsung hingga sebelum aksi \"<u>Dealer</u>\" yang berikutnya.",
+		"AbridgedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, mengurangi DMG yang diakibatkan oleh target serangan.",
+		"EnhancedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, DMG yang diakibatkan target serangan berkurang <color=#f29e38ff>6%</color>. Efek ini dapat ditumpuk hingga <color=#f29e38ff>3</color> tumpukan dan berlangsung hingga sebelum aksi \"<u>Dealer</u>\" yang berikutnya.",
+		"EnhancedAbridgedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, mengurangi DMG yang diakibatkan oleh target serangan.",
+		"VersionAdded": "4.1"
+	},
+	"617645": {
+		"Id": "617645",
+		"Name": "\"Simon in the Sea\"",
+		"Rarity": 1,
+		"Effect": "DMG yang diakibatkan rekan tim mengabaikan <color=#f29e38ff>8%</color> DEF target musuh. Jika DMG tersebut berupa Elation DMG, akan ekstra mengabaikan <color=#f29e38ff>4%</color> DEF target musuh.",
+		"AbridgedEffect": "DMG yang diakibatkan rekan tim mengabaikan DEF target musuh. Jika DMG tersebut berupa Elation DMG, akan ekstra mengabaikan DEF target musuh.",
+		"EnhancedEffect": "DMG yang diakibatkan rekan tim mengabaikan <color=#f29e38ff>12%</color> DEF target musuh. Jika DMG tersebut berupa Elation DMG, akan ekstra mengabaikan <color=#f29e38ff>6%</color> DEF target musuh.",
+		"EnhancedAbridgedEffect": "DMG yang diakibatkan rekan tim mengabaikan DEF target musuh. Jika DMG tersebut berupa Elation DMG, akan ekstra mengabaikan DEF target musuh.",
+		"VersionAdded": "4.1"
+	},
+	"617646": {
+		"Id": "617646",
+		"Name": "\"Long Day's Journey into Day\"",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Elation DMG, Weakness Break Efficiency meningkat <color=#f29e38ff>35%</color>.",
+		"AbridgedEffect": "Saat rekan tim mengakibatkan Elation DMG, meningkatkan Weakness Break Efficiency.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Elation DMG, Weakness Break Efficiency meningkat <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Saat rekan tim mengakibatkan Elation DMG, meningkatkan Weakness Break Efficiency.",
+		"VersionAdded": "4.1"
+	},
+	"617650": {
+		"Id": "617650",
+		"Name": "\"Psychedelic Parking Lot\"",
+		"Rarity": 1,
+		"Effect": "Saat memasuki pertempuran, mendahulukan aksi seluruh rekan tim sebesar <color=#f29e38ff>30%</color> dan memperoleh <color=#f29e38ff>10</color> Punchline.",
+		"AbridgedEffect": "Saat memasuki pertempuran, mendahulukan aksi seluruh rekan tim dan rekan tim memperoleh Punchline.",
+		"EnhancedEffect": "Saat memasuki pertempuran, mendahulukan aksi seluruh rekan tim sebesar <color=#f29e38ff>45%</color> dan memperoleh <color=#f29e38ff>15</color> Punchline.",
+		"EnhancedAbridgedEffect": "Saat memasuki pertempuran, mendahulukan aksi seluruh rekan tim dan rekan tim memperoleh Punchline.",
+		"VersionAdded": "4.1"
+	},
+	"617651": {
+		"Id": "617651",
+		"Name": "\"Love Line\"",
+		"Rarity": 1,
+		"Effect": "DMG yang diterima seluruh rekan tim berkurang <color=#f29e38ff>4%</color>. Setelah Aha melakukan aksi pertama kali, pengurangan DMG bertambah <color=#f29e38ff>3%</color>.",
+		"AbridgedEffect": "Mengurangi DMG yang diterima oleh seluruh rekan tim. Setelah Aha melakukan aksi pertama kali, mengurangi ekstra DMG yang diterima rekan tim.",
+		"EnhancedEffect": "DMG yang diterima seluruh rekan tim berkurang <color=#f29e38ff>6%</color>. Setelah Aha melakukan aksi pertama kali, pengurangan DMG bertambah <color=#f29e38ff>4%</color>.",
+		"EnhancedAbridgedEffect": "Mengurangi DMG yang diterima oleh seluruh rekan tim. Setelah Aha melakukan aksi pertama kali, mengurangi ekstra DMG yang diterima rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617652": {
+		"Id": "617652",
+		"Name": "\"Omega City\"",
+		"Rarity": 1,
+		"Effect": "CRIT Rate rekan tim meningkat <color=#f29e38ff>10%</color>. Saat mengakibatkan Elation DMG, meningkatkan ekstra <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "CRIT Rate rekan tim meningkat, Elation DMG meningkat ekstra.",
+		"EnhancedEffect": "CRIT Rate rekan tim meningkat <color=#f29e38ff>15%</color>. Saat mengakibatkan Elation DMG, meningkatkan ekstra <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "CRIT Rate rekan tim meningkat, Elation DMG meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617653": {
+		"Id": "617653",
+		"Name": "\"Mr. Violence\"",
+		"Rarity": 1,
+		"Effect": "CRIT DMG rekan tim meningkat <color=#f29e38ff>20%</color>. Saat mengakibatkan Elation DMG, meningkatkan ekstra <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "CRIT DMG rekan tim meningkat, Elation DMG meningkat ektra.",
+		"EnhancedEffect": "CRIT DMG rekan tim meningkat <color=#f29e38ff>30%</color>. Saat mengakibatkan Elation DMG, meningkatkan ekstra <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "CRIT DMG rekan tim meningkat, Elation DMG meningkat ektra.",
+		"VersionAdded": "4.1"
+	},
+	"617654": {
+		"Id": "617654",
+		"Name": "\"Forsaken Sanctuary\"",
+		"Rarity": 1,
+		"Effect": "Saat Aha beraksi, memulihkan <color=#f29e38ff>4</color> poin Energy untuk seluruh rekan tim. Efek ini dapat dipicu maksimal <color=#f29e38ff>1</color> kali per giliran untuk setiap rekan tim.",
+		"AbridgedEffect": "Saat Aha melakukan aksi, memulihkan Energy seluruh rekan tim.",
+		"EnhancedEffect": "Saat Aha beraksi, memulihkan <color=#f29e38ff>6</color> poin Energy untuk seluruh rekan tim. Efek ini dapat dipicu maksimal <color=#f29e38ff>1</color> kali per giliran untuk setiap rekan tim.",
+		"EnhancedAbridgedEffect": "Saat Aha melakukan aksi, memulihkan Energy seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617655": {
+		"Id": "617655",
+		"Name": "\"Ashen Coins and Gold\"",
+		"Rarity": 1,
+		"Effect": "Setelah Aha beraksi, seluruh rekan tim memperoleh Shield sebesar <color=#f29e38ff>20%</color> Max HP, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah Aha melakukan aksi, seluruh rekan tim memperoleh Shield.",
+		"EnhancedEffect": "Setelah Aha beraksi, seluruh rekan tim memperoleh Shield sebesar <color=#f29e38ff>30%</color> Max HP, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah Aha melakukan aksi, seluruh rekan tim memperoleh Shield.",
+		"VersionAdded": "4.1"
+	},
+	"617656": {
+		"Id": "617656",
+		"Name": "\"Reaper Comes Riding\"",
+		"Rarity": 1,
+		"Effect": "DEF seluruh rekan tim meningkat <color=#f29e38ff>12%</color>. Setelah Aha melakukan aksi untuk pertama kali, DEF meningkat ekstra <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Meningkatkan DEF seluruh rekan tim. Setelah Aha melakukan aksi untuk pertama kali, DEF meningkat ekstra.",
+		"EnhancedEffect": "DEF seluruh rekan tim meningkat <color=#f29e38ff>18%</color>. Setelah Aha melakukan aksi untuk pertama kali, DEF meningkat ekstra <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan DEF seluruh rekan tim. Setelah Aha melakukan aksi untuk pertama kali, DEF meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617657": {
+		"Id": "617657",
+		"Name": "\"Cat Town\"",
+		"Rarity": 1,
+		"Effect": "SPD seluruh rekan tim meningkat <color=#f29e38ff>6%</color>. Setelah Aha melakukan aksi untuk pertama kali, SPD meningkat ekstra <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Meningkatkan SPD seluruh rekan tim. Setelah Aha melakukan aksi untuk pertama kali, SPD meningkat ekstra.",
+		"EnhancedEffect": "SPD seluruh rekan tim meningkat <color=#f29e38ff>9%</color>. Setelah Aha melakukan aksi untuk pertama kali, SPD meningkat ekstra <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan SPD seluruh rekan tim. Setelah Aha melakukan aksi untuk pertama kali, SPD meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617720": {
+		"Id": "617720",
+		"Name": "Imagenetic Creation",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan kemampuan dan memicu Boundary Resonance dengan Path \"Propagation\". Membuat 1 rekan tim yang ditargetkan segera beraksi, memulihkan <color=#f29e38ff>5</color> Poin Skill, serta memperoleh efek \"<u>Levitation</u>\". Setelah unit musuh mana pun dikalahkan oleh karakter yang memiliki efek \"<u>Levitation</u>\", akan memulihkan <color=#f29e38ff>50</color> Energy Persamaan Batas. Max Energy Persamaan Batas ini adalah 200.",
+		"AbridgedEffect": "Setelah memicu Persamaan Batas, akan membuat 1 rekan tim yang ditargetkan segera beraksi, memulihkan <color=#f29e38ff>5</color> Poin Skill, serta memperoleh efek \"<u>Levitation</u>\". Setelah unit musuh mana pun dikalahkan oleh karakter yang memiliki efek \"<u>Levitation</u>\", Energy Persamaan Batas akan dipulihkan. Max Energy Persamaan Batas ini adalah 200.",
+		"VersionAdded": "4.1"
+	},
+	"617730": {
+		"Id": "617730",
+		"Name": "Müllerian Mimicry",
+		"Rarity": 1,
+		"Effect": "Meningkatkan <color=#f29e38ff>50%</color> ATK rekan tim. Setiap kali memperoleh atau mengonsumsi 1 Poin Skill, akan mengisi Charge \"<u>Soul Chrysalis</u>\" sebesar <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "ATK meningkat. Setelah memperoleh atau mengonsumsi Poin Skill, akan mengisi Charge \"<u>Soul Chrysalis</u>\".",
+		"EnhancedEffect": "Meningkatkan <color=#f29e38ff>75%</color> ATK rekan tim. Setiap kali memperoleh atau mengonsumsi 1 Poin Skill, akan mengisi Charge \"<u>Soul Chrysalis</u>\" sebesar <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "ATK meningkat. Setelah memperoleh atau mengonsumsi Poin Skill, akan mengisi Charge \"<u>Soul Chrysalis</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617731": {
+		"Id": "617731",
+		"Name": "Ejecting Spores",
+		"Rarity": 1,
+		"Effect": "Saat berada dalam status \"<u>Butterfly Soul</u>\", Basic Attack/Skill DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>40%</color>, dan \"<u>Butterfly Soul</u>\" akan mengakibatkan tambahan 1 kali True DMG sebesar <color=#f29e38ff>15%</color> dari DMG aslinya.",
+		"AbridgedEffect": "Saat berstatus \"<u>Butterfly Soul</u>\", Basic Attack DMG dan Skill DMG meningkat, dan True DMG yang diakibatkan \"<u>Butterfly Soul</u>\" meningkat.",
+		"EnhancedEffect": "Saat berada dalam status \"<u>Butterfly Soul</u>\", Basic Attack/Skill DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>80%</color>, dan \"<u>Butterfly Soul</u>\" akan mengakibatkan tambahan 1 kali True DMG sebesar <color=#f29e38ff>15%</color> dari DMG aslinya.",
+		"EnhancedAbridgedEffect": "Saat berstatus \"<u>Butterfly Soul</u>\", Basic Attack DMG dan Skill DMG meningkat, dan True DMG yang diakibatkan \"<u>Butterfly Soul</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617732": {
+		"Id": "617732",
+		"Name": "Broodwater Droplets",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengonsumsi Poin Skill, CRIT DMG seluruh rekan tim akan meningkat <color=#f29e38ff>2%</color>, dapat ditumpuk hingga <color=#f29e38ff>35</color> lapis. Setelah melancarkan Ultimate, konsumsi Poin Skill yang berikutnya akan dianggap mengonsumsi ekstra 1 Poin Skill.",
+		"AbridgedEffect": "Setelah mengonsumsi Poin Skill, CRIT DMG seluruh rekan tim akan meningkat. Setelah melancarkan Ultimate, konsumsi Poin Skill yang berikutnya akan dianggap mengonsumsi ekstra 1 Poin Skill.",
+		"EnhancedEffect": "Setelah rekan tim mengonsumsi atau memperoleh Poin Skill, CRIT DMG seluruh rekan tim akan meningkat <color=#f29e38ff>3%</color>, dapat ditumpuk hingga <color=#f29e38ff>35</color> lapis. Setelah melancarkan Ultimate, konsumsi atau perolehan Poin Skill yang berikutnya akan dianggap mengonsumsi atau memperoleh ekstra 1 Poin Skill.",
+		"EnhancedAbridgedEffect": "Setelah mengonsumsi atau memperoleh Poin Skill, CRIT DMG seluruh rekan tim akan meningkat. Setelah melancarkan Ultimate, konsumsi atau perolehan Poin Skill yang berikutnya akan dianggap mengonsumsi atau memperoleh ekstra 1 Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617740": {
+		"Id": "617740",
+		"Name": "Sporocarp",
+		"Rarity": 1,
+		"Effect": "Setelah mengalahkan target musuh, akan mengisi Charge \"<u>Soul Chrysalis</u>\" sebesar <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Setelah mengalahkan target musuh, akan mengisi Charge \"<u>Soul Chrysalis</u>\".",
+		"EnhancedEffect": "Setelah mengalahkan target musuh, akan mengisi Charge \"<u>Soul Chrysalis</u>\" sebesar <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Setelah mengalahkan target musuh, akan mengisi Charge \"<u>Soul Chrysalis</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617741": {
+		"Id": "617741",
+		"Name": "Chitin Armor",
+		"Rarity": 1,
+		"Effect": "Meningkatkan <color=#f29e38ff>30%</color> ATK rekan tim. Saat memasuki pertempuran, akan mengisi Charge \"<u>Soul Chrysalis</u>\" sebesar ekstra <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "ATK meningkat. Saat memasuki pertempuran, akan mengisi Charge \"<u>Soul Chrysalis</u>\".",
+		"EnhancedEffect": "Meningkatkan <color=#f29e38ff>50%</color> ATK rekan tim. Saat memasuki pertempuran, akan mengisi Charge \"<u>Soul Chrysalis</u>\" sebesar ekstra <color=#f29e38ff>35%</color>.",
+		"EnhancedAbridgedEffect": "ATK meningkat. Saat memasuki pertempuran, akan mengisi Charge \"<u>Soul Chrysalis</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617742": {
+		"Id": "617742",
+		"Name": "Free Cocoon",
+		"Rarity": 1,
+		"Effect": "Saat \"<u>Soul Chrysalis</u>\" berubah menjadi \"<u>Butterfly Soul</u>\", akan memulihkan <color=#f29e38ff>60%</color> HP dan meningkatkan <color=#f29e38ff>20%</color> DMG yang diakibatkan dalam status ini.",
+		"AbridgedEffect": "Saat \"<u>Soul Chrysalis</u>\" berubah menjadi \"<u>Butterfly Soul</u>\", akan memulihkan HP dan meningkatkan DMG yang diakibatkan dalam status \"<u>Butterfly Soul</u>\".",
+		"EnhancedEffect": "Saat \"<u>Soul Chrysalis</u>\" berubah menjadi \"<u>Butterfly Soul</u>\", akan memulihkan <color=#f29e38ff>100%</color> HP dan meningkatkan <color=#f29e38ff>30%</color> DMG yang diakibatkan dalam status ini.",
+		"EnhancedAbridgedEffect": "Saat \"<u>Soul Chrysalis</u>\" berubah menjadi \"<u>Butterfly Soul</u>\", akan memulihkan HP dan meningkatkan DMG yang diakibatkan dalam status \"<u>Butterfly Soul</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617743": {
+		"Id": "617743",
+		"Name": "Basidiospores",
+		"Rarity": 1,
+		"Effect": "Saat berstatus \"<u>Butterfly Soul</u>\", RES PEN Seluruh Tipe dari Basic Attack/Skill DMG meningkat <color=#f29e38ff>14%</color>.",
+		"AbridgedEffect": "Saat berstatus \"<u>Butterfly Soul</u>\", RES PEN Seluruh Tipe dari Basic Attack/Skill meningkat.",
+		"EnhancedEffect": "Saat berstatus \"<u>Butterfly Soul</u>\", RES PEN Seluruh Tipe dari Basic Attack/Skill DMG meningkat <color=#f29e38ff>21%</color>.",
+		"EnhancedAbridgedEffect": "Saat berstatus \"<u>Butterfly Soul</u>\", RES PEN Seluruh Tipe dari Basic Attack/Skill meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617744": {
+		"Id": "617744",
+		"Name": "Structural Hues",
+		"Rarity": 1,
+		"Effect": "Saat berada dalam status \"<u>Soul Chrysalis</u>\", SPD meningkat <color=#f29e38ff>16%</color>. Saat berada dalam status \"<u>Butterfly Soul</u>\", DMG yang diakibatkan dari Basic Attack/Skill DMG meningkat <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Saat berstatus \"<u>Soul Chrysalis</u>\", SPD meningkat. Saat berstatus \"<u>Butterfly Soul</u>\", DMG yang diakibatkan Basic Attack dan Skill meningkat.",
+		"EnhancedEffect": "Saat berada dalam status \"<u>Soul Chrysalis</u>\", SPD meningkat <color=#f29e38ff>24%</color>. Saat berada dalam status \"<u>Butterfly Soul</u>\", DMG yang diakibatkan dari Basic Attack/Skill DMG meningkat <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Saat berstatus \"<u>Soul Chrysalis</u>\", SPD meningkat. Saat berstatus \"<u>Butterfly Soul</u>\", DMG yang diakibatkan Basic Attack dan Skill meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617745": {
+		"Id": "617745",
+		"Name": "Sensory Rods",
+		"Rarity": 1,
+		"Effect": "Setiap 1 Poin Skill yang dikonsumsi rekan tim akan mengurangi <color=#f29e38ff>6%</color> DMG yang diterima selama <color=#f29e38ff>2</color> giliran. Efek ini dapat ditumpuk hingga <color=#f29e38ff>2</color> lapis.",
+		"AbridgedEffect": "Setelah mengonsumsi Poin Skill, DMG yang diterima akan berkurang.",
+		"EnhancedEffect": "Setiap 1 Poin Skill yang dikonsumsi rekan tim akan mengurangi <color=#f29e38ff>6%</color> DMG yang diterima selama <color=#f29e38ff>2</color> giliran. Efek ini dapat ditumpuk hingga <color=#f29e38ff>3</color> lapis.",
+		"EnhancedAbridgedEffect": "Setelah mengonsumsi Poin Skill, DMG yang diterima akan berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"617746": {
+		"Id": "617746",
+		"Name": "Splash Hex",
+		"Rarity": 1,
+		"Effect": "Basic Attack/Skill DMG yang diakibatkan rekan tim akan mengakibatkan DMG pada target di sekitar sebesar <color=#f29e38ff>10%</color> dari DMG aslinya.",
+		"AbridgedEffect": "Basic Attack DMG dan Skill DMG yang diakibatkan juga akan mengakibatkan DMG pada target di sekitar.",
+		"EnhancedEffect": "Basic Attack/Skill DMG yang diakibatkan rekan tim akan mengakibatkan DMG pada target di sekitar sebesar <color=#f29e38ff>15%</color> dari DMG aslinya.",
+		"EnhancedAbridgedEffect": "Basic Attack DMG dan Skill DMG yang diakibatkan juga akan mengakibatkan DMG pada target di sekitar.",
+		"VersionAdded": "4.1"
+	},
+	"617750": {
+		"Id": "617750",
+		"Name": "Mushroom Base",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengonsumsi Poin Skill, memiliki <color=#f29e38ff>16%</color> peluang tetap untuk memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"AbridgedEffect": "Saat mengonsumsi Poin Skill, berpeluang untuk memulihkan Poin Skill.",
+		"EnhancedEffect": "Saat rekan tim mengonsumsi Poin Skill, memiliki <color=#f29e38ff>24%</color> peluang tetap untuk memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"EnhancedAbridgedEffect": "Saat mengonsumsi Poin Skill, berpeluang untuk memulihkan Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617751": {
+		"Id": "617751",
+		"Name": "Hanging Thread",
+		"Rarity": 1,
+		"Effect": "DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "DMG yang diakibatkan saat melancarkan Basic Attack atau Skill meningkat.",
+		"EnhancedEffect": "DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "DMG yang diakibatkan saat melancarkan Basic Attack atau Skill meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617752": {
+		"Id": "617752",
+		"Name": "Eye Spots",
+		"Rarity": 1,
+		"Effect": "CRIT DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat <color=#f29e38ff>32%</color>.",
+		"AbridgedEffect": "CRIT DMG yang diakibatkan saat melancarkan Basic Attack atau Skill meningkat.",
+		"EnhancedEffect": "CRIT DMG yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat <color=#f29e38ff>48%</color>.",
+		"EnhancedAbridgedEffect": "CRIT DMG yang diakibatkan saat melancarkan Basic Attack atau Skill meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617753": {
+		"Id": "617753",
+		"Name": "Dorsal Wings",
+		"Rarity": 1,
+		"Effect": "CRIT Rate yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "CRIT Rate yang diakibatkan saat melancarkan Basic Attack atau Skill meningkat.",
+		"EnhancedEffect": "CRIT Rate yang diakibatkan saat rekan tim melancarkan Basic Attack/Skill meningkat <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "CRIT Rate yang diakibatkan saat melancarkan Basic Attack atau Skill meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617754": {
+		"Id": "617754",
+		"Name": "Thickened Walls",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengonsumsi Poin Skill, DEF akan meningkat <color=#f29e38ff>30%</color>, berlangsung selama <color=#f29e38ff>1</color> giliran.",
+		"AbridgedEffect": "Saat mengonsumsi Poin Skill, DEF akan meningkat.",
+		"EnhancedEffect": "Saat rekan tim mengonsumsi Poin Skill, DEF akan meningkat <color=#f29e38ff>45%</color>, berlangsung selama <color=#f29e38ff>1</color> giliran.",
+		"EnhancedAbridgedEffect": "Saat mengonsumsi Poin Skill, DEF akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617755": {
+		"Id": "617755",
+		"Name": "Tarsal Segments",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengonsumsi Poin Skill, SPD akan meningkat <color=#f29e38ff>8%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Saat mengonsumsi Poin Skill, SPD akan meningkat.",
+		"EnhancedEffect": "Saat rekan tim mengonsumsi Poin Skill, SPD akan meningkat <color=#f29e38ff>12%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Saat mengonsumsi Poin Skill, SPD akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617756": {
+		"Id": "617756",
+		"Name": "Lip Bristles",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan <color=#f29e38ff>2</color> Energy.",
+		"AbridgedEffect": "Saat mengonsumsi Poin Skill, akan memulihkan Energy.",
+		"EnhancedEffect": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan <color=#f29e38ff>3</color> Energy.",
+		"EnhancedAbridgedEffect": "Saat mengonsumsi Poin Skill, akan memulihkan Energy.",
+		"VersionAdded": "4.1"
+	},
+	"617757": {
+		"Id": "617757",
+		"Name": "Budding Propagation",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan HP sebesar <color=#f29e38ff>10%</color> Max HP.",
+		"AbridgedEffect": "Saat mengonsumsi Poin Skill, akan memulihkan HP.",
+		"EnhancedEffect": "Saat rekan tim mengonsumsi Poin Skill, akan memulihkan HP sebesar <color=#f29e38ff>15%</color> Max HP.",
+		"EnhancedAbridgedEffect": "Saat mengonsumsi Poin Skill, akan memulihkan HP.",
+		"VersionAdded": "4.1"
+	},
+	"617820": {
+		"Id": "617820",
+		"Name": "References",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan kemampuan dan memicu Boundary Resonance dengan Path \"Erudition\". Mengakibatkan Imaginary DMG dalam jumlah kecil pada seluruh target musuh, dan menghubungkan target musuh yang Max HP-nya paling tinggi dengan target musuh yang lain, membuat seluruh musuh memasuki status \"<u>Central Link</u>\", serta memulihkan Energy seluruh rekan tim sebesar <color=#f29e38ff>100%</color> Max Energy.",
+		"AbridgedEffect": "Setelah memicu Persamaan Batas, akan mengakibatkan Imaginary DMG pada seluruh musuh, membuat mereka memasuki status \"<u>Central Link</u>\", serta memulihkan Energy seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617830": {
+		"Id": "617830",
+		"Name": "Hippocampus TR<unbreak>-303</unbreak>",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>10%</color>. Jika target musuh adalah musuh elite, maka akan mengisi Energy sebesar <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, akan mengisi Energy \"<u>Brain in a Vat</u>\". Jika target musuh adalah musuh elite, maka akan mengisi Energy ekstra.",
+		"EnhancedEffect": "Saat memasuki pertempuran, akan mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>100%</color>. Setelah rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>12%</color>. Jika target musuh adalah musuh elite, maka akan mengisi ekstra Charge sebesar <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Saat memasuki pertempuran, akan mengisi Energy untuk \"<u>Brain in a Vat</u>\". Setelah mengakibatkan Weakness Break pada target musuh, akan mengisi Energy untuk \"<u>Brain in a Vat</u>\". Jika target musuh adalah musuh elite, maka akan mengisi Energy ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"617831": {
+		"Id": "617831",
+		"Name": "Accumbens Nucleus DBS<unbreak>-45</unbreak>",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim membuat target musuh terkena DMG mematikan, akan mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Saat membuat target musuh menerima DMG mematikan, akan mengisi Energy \"<u>Brain in a Vat</u>\".",
+		"EnhancedEffect": "Saat rekan tim membuat target musuh terkena DMG mematikan, akan mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>50%</color>. Setiap kali setelah \"<u>Brain in a Vat</u>\" terisi penuh, SPD akan meningkat <color=#f29e38ff>20%</color> selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Saat membuat target musuh menerima DMG mematikan, akan mengisi Energy \"<u>Brain in a Vat</u>\". Setiap setelah \"<u>Brain in a Vat</u>\" terisi penuh, SPD akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617832": {
+		"Id": "617832",
+		"Name": "Dark Matter ELO<unbreak>-536</unbreak>",
+		"Rarity": 1,
+		"Effect": "RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>20%</color>. Setelah melancarkan Serangan Ultimate, untuk setiap 1 target musuh yang terkena serangan, akan meningkatkan <color=#f29e38ff>3%</color> RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan, berlangsung hingga setelah pelancaran Ultimate yang berikutnya.",
+		"AbridgedEffect": "RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan karakter meningkat. Semakin banyak target musuh yang diserang Ultimate, maka semakin banyak juga peningkatan RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan, berlangsung hingga setelah pelancaran Ultimate yang berikutnya.",
+		"EnhancedEffect": "RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan unit tim sendiri meningkat <color=#f29e38ff>25%</color>. Berdasarkan Ultimate yang telah dilancarkan dalam pertempuran kali ini (yang dihitung yang mengenai musuh terbanyak dalam 1 kali serang), untuk setiap 1 musuh yang terkena serangan akan meningkatkan ekstra <color=#f29e38ff>3%</color> RES PEN seluruh Tipe dari Ultimate DMG yang diakibatkan.",
+		"EnhancedAbridgedEffect": "RES PEN Seluruh Tipe dari Ultimate DMG karakter meningkat. Dalam pertempuran kali ini, semakin banyak target musuh yang diserang oleh Ultimate yang sudah dilancarkan, maka semakin tinggi peningkatan RES PEN Seluruh Tipe dari Ultimate DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617840": {
+		"Id": "617840",
+		"Name": "Restart: Terminal Nerve",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim memanfaatkan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, CRIT DMG meningkat <color=#f29e38ff>80%</color>, efek peningkatan CRIT DMG berlangsung hingga kemampuan kali ini berakhir.",
+		"AbridgedEffect": "Saat menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, CRIT DMG akan meningkat.",
+		"EnhancedEffect": "Saat rekan tim memanfaatkan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, CRIT DMG meningkat <color=#f29e38ff>90%</color>, efek peningkatan CRIT DMG berlangsung hingga serangan berikutnya berakhir.",
+		"EnhancedAbridgedEffect": "Saat menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, CRIT DMG akan meningkat. Efek ini berlangsung hingga serangan berikutnya berakhir.",
+		"VersionAdded": "4.1"
+	},
+	"617841": {
+		"Id": "617841",
+		"Name": "Iterate: Cognitive Map",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim memanfaatkan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, akan memperoleh Shield sebesar <color=#f29e38ff>36%</color> Max HP, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, akan memperoleh Shield.",
+		"EnhancedEffect": "Setelah rekan tim memanfaatkan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, akan memperoleh Shield sebesar <color=#f29e38ff>45%</color> Max HP, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, akan memperoleh Shield.",
+		"VersionAdded": "4.1"
+	},
+	"617842": {
+		"Id": "617842",
+		"Name": "Analyze: Procedural Memory",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, DMG yang diakibatkan seluruh rekan tim akan meningkat <color=#f29e38ff>36%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Saat menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, DMG yang diakibatkan seluruh rekan tim akan meningkat.",
+		"EnhancedEffect": "Saat rekan tim menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, DMG yang diakibatkan seluruh rekan tim akan meningkat <color=#f29e38ff>54%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Saat menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, DMG yang diakibatkan seluruh rekan tim akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617843": {
+		"Id": "617843",
+		"Name": "Stabilize: Slow-Wave Sleep",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim terkena serangan, akan mengisi Energy \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Setelah terkena serangan, akan mengisi Energy \"<u>Brain in a Vat</u>\".",
+		"EnhancedEffect": "Setelah rekan tim terkena serangan, akan mengisi Energy \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Setelah terkena serangan, akan mengisi Energy \"<u>Brain in a Vat</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617844": {
+		"Id": "617844",
+		"Name": "Derive: Cell Demarcation",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, ATK akan meningkat <color=#f29e38ff>60%</color> selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, ATK akan meningkat.",
+		"EnhancedEffect": "Setelah rekan tim menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, ATK akan meningkat <color=#f29e38ff>90%</color> selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, ATK akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617845": {
+		"Id": "617845",
+		"Name": "Execute: Enhanced Learning",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan Ultimate untuk menyerang target musuh berstatus Weakness Break, akan menunda aksi target sebesar <color=#f29e38ff>16%</color>. Efek ini hanya dapat terpicu <color=#f29e38ff>3</color> kali untuk setiap kali setelah target musuh memasuki status Weakness Break.",
+		"AbridgedEffect": "Setelah melancarkan Ultimate untuk menyerang, akan menunda aksi target musuh yang berstatus Weakness Break.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan Ultimate untuk menyerang target musuh berstatus Weakness Break, akan menunda aksi target sebesar <color=#f29e38ff>24%</color>. Efek ini hanya dapat terpicu <color=#f29e38ff>3</color> kali untuk setiap kali setelah target musuh memasuki status Weakness Break.",
+		"EnhancedAbridgedEffect": "Setelah melancarkan Ultimate untuk menyerang, akan menunda aksi target musuh yang berstatus Weakness Break.",
+		"VersionAdded": "4.1"
+	},
+	"617846": {
+		"Id": "617846",
+		"Name": "Open: Direct Pathway",
+		"Rarity": 1,
+		"Effect": "Jika Kemampuan <u>AoE ATK</u> rekan tim hanya menyerang 1 target musuh, maka serangan kali ini akan mengakibatkan tambahan DMG Dalam Jumlah Tetap sebesar <color=#f29e38ff>40%</color> dari DMG aslinya pada target musuh yang terkena serangan.",
+		"AbridgedEffect": "Jika kemampuan <u>AoE ATK</u> hanya menyerang 1 target musuh, maka akan mengakibatkan tambahan DMG.",
+		"EnhancedEffect": "Jika Kemampuan <u>AoE ATK</u> rekan tim hanya menyerang 1 target musuh, maka serangan kali ini akan mengakibatkan tambahan DMG Dalam Jumlah Tetap sebesar <color=#f29e38ff>60%</color> dari DMG aslinya pada target musuh yang terkena serangan.",
+		"EnhancedAbridgedEffect": "Jika kemampuan <u>AoE ATK</u> hanya menyerang 1 target musuh, maka akan mengakibatkan tambahan DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617850": {
+		"Id": "617850",
+		"Name": "Shimmering Flag",
+		"Rarity": 1,
+		"Effect": "Ultimate DMG yang diakibatkan rekan tim +<color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Meningkatkan Ultimate DMG yang diakibatkan.",
+		"EnhancedEffect": "Ultimate DMG yang diakibatkan rekan tim +<color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan Ultimate DMG yang diakibatkan.",
+		"VersionAdded": "4.1"
+	},
+	"617851": {
+		"Id": "617851",
+		"Name": "Solid-State Stored Armor",
+		"Rarity": 1,
+		"Effect": "CRIT Rate dari Ultimate DMG yang diakibatkan rekan tim +<color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Meningkatkan CRIT Rate dari Ultimate.",
+		"EnhancedEffect": "CRIT Rate dari Ultimate DMG yang diakibatkan rekan tim +<color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan CRIT Rate dari Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"617852": {
+		"Id": "617852",
+		"Name": "Safely Redacted Border",
+		"Rarity": 1,
+		"Effect": "CRIT DMG dari Ultimate DMG yang diakibatkan rekan tim +<color=#f29e38ff>36%</color>.",
+		"AbridgedEffect": "Meningkatkan CRIT DMG dari Ultimate.",
+		"EnhancedEffect": "CRIT DMG dari Ultimate DMG yang diakibatkan rekan tim +<color=#f29e38ff>54%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan CRIT DMG dari Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"617853": {
+		"Id": "617853",
+		"Name": "Packages Aligned by Partitions",
+		"Rarity": 1,
+		"Effect": "Saat memasuki pertempuran, akan memulihkan Energy sebesar <color=#f29e38ff>30%</color> Max Energy.",
+		"AbridgedEffect": "Saat memasuki pertempuran, akan memulihkan Energy.",
+		"EnhancedEffect": "Saat memasuki pertempuran, akan memulihkan Energy sebesar <color=#f29e38ff>45%</color> Max Energy.",
+		"EnhancedAbridgedEffect": "Saat memasuki pertempuran, akan memulihkan Energy.",
+		"VersionAdded": "4.1"
+	},
+	"617854": {
+		"Id": "617854",
+		"Name": "Route of Erased Macroblocks",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim melancarkan Ultimate, ATK akan meningkat <color=#f29e38ff>24%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Saat melancarkan Ultimate, ATK akan meningkat.",
+		"EnhancedEffect": "Saat rekan tim melancarkan Ultimate, ATK akan meningkat <color=#f29e38ff>36%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Saat melancarkan Ultimate, ATK akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617855": {
+		"Id": "617855",
+		"Name": "Lighthouse of Crystalline Resonance",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan Ultimate, Max HP akan meningkat <color=#f29e38ff>20%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setelah melancarkan Ultimate, Max HP akan meningkat.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan Ultimate, Max HP akan meningkat <color=#f29e38ff>30%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah melancarkan Ultimate, Max HP akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617856": {
+		"Id": "617856",
+		"Name": "Optical Guiding Lens",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan Ultimate, akan memulihkan HP sebesar <color=#f29e38ff>20%</color> Max HP.",
+		"AbridgedEffect": "Setelah melancarkan Ultimate, akan memulihkan HP.",
+		"EnhancedEffect": "Setelah rekan tim melancarkan Ultimate, akan memulihkan HP sebesar <color=#f29e38ff>30%</color> Max HP.",
+		"EnhancedAbridgedEffect": "Setelah melancarkan Ultimate, akan memulihkan HP.",
+		"VersionAdded": "4.1"
+	},
+	"617857": {
+		"Id": "617857",
+		"Name": "Sequentially Written Track",
+		"Rarity": 1,
+		"Effect": "Karakter tidak akan gugur saat terkena serangan mematikan. Konsumsi seluruh Energy dan memulihkan HP sebesar <color=#f29e38ff>50%</color> dari persentase Energy yang dikonsumsi. Efek ini hanya dapat dipicu 1 kali dalam setiap pertempuran bagi seluruh anggota tim.",
+		"AbridgedEffect": "Karakter dapat menahan DMG mematikan, dan mengonsumsi Energy untuk memulihkan HP dirinya. Ada batasan jumlah pemicuan untuk seluruh rekan tim.",
+		"EnhancedEffect": "Karakter tidak akan gugur saat terkena serangan mematikan. Konsumsi seluruh Energy dan memulihkan HP sebesar <color=#f29e38ff>100%</color> dari persentase Energy yang dikonsumsi. Efek ini hanya dapat dipicu 1 kali dalam setiap pertempuran bagi seluruh anggota tim.",
+		"EnhancedAbridgedEffect": "Karakter dapat menahan DMG mematikan, dan mengonsumsi Energy untuk memulihkan HP dirinya. Ada batasan jumlah pemicuan untuk seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"617920": {
+		"Id": "617920",
+		"Name": "Blissmost Gala",
+		"Rarity": 1,
+		"Effect": "Konsumsi 100 Energy untuk melancarkan Kemampuan dan memicu Boundary Resonance dengan Path \"Harmony\", mengakibatkan Quantum DMG pada seluruh target musuh, dan mengakibatkan Weakness Break pada seluruh target musuh dengan Break Effect sebesar<color=#f29e38ff>1000%</color>. Saat mengakibatkan Weakness Break, akan memicu efek Weakness Break semua Tipe.",
+		"AbridgedEffect": "Setelah memicu Persamaan Batas, akan mengakibatkan Quantum DMG dan Weakness Break pada seluruh target musuh. Saat mengakibatkan Weakness Break, akan memicu efek Weakness Break seluruh Tipe.",
+		"VersionAdded": "4.1"
+	},
+	"617930": {
+		"Id": "617930",
+		"Name": "First Movement: The Frog and the Knight",
+		"Rarity": 1,
+		"Effect": "Setiap target musuh menerima <color=#f29e38ff>10</color> Pengurangan Toughness aktual, akan memasuki <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\".",
+		"AbridgedEffect": "Setiap setelah target musuh menerima sejumlah Pengurangan Toughness aktual, akan memasuki status \"<u>Harmonize</u>\".",
+		"EnhancedEffect": "Setiap target musuh menerima <color=#f29e38ff>10</color> Pengurangan Toughness aktual, akan memasuki <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\". Pengurangan Toughness aktual yang diterima selama berstatus Weakness Break juga akan dihitung.",
+		"EnhancedAbridgedEffect": "Setiap setelah target musuh menerima sejumlah Pengurangan Toughness aktual, akan memasuki status \"<u>Harmonize</u>\". Pengurangan Toughness aktual yang diterima selama berstatus Weakness Break juga akan dihitung.",
+		"VersionAdded": "4.1"
+	},
+	"617931": {
+		"Id": "617931",
+		"Name": "Second Movement: The Faun's Breakfast",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan memicu 1 kali efek \"<u>Harmonize</u>\" DMG dengan rasio sebesar <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Setelah menyerang target musuh berstatus Weakness Break, akan memicu \"<u>Harmonize</u>\" DMG.",
+		"EnhancedEffect": "Setelah rekan tim menyerang target musuh yang berada dalam status Weakness Break, akan memicu 1 kali efek \"<u>Harmonize</u>\" DMG dengan rasio sebesar <color=#f29e38ff>10%</color>, dan DMG Multiplier \"<u>Harmonize</u>\" meningkat sebesar <color=#f29e38ff>20%</color> dari Multiplier aslinya.",
+		"EnhancedAbridgedEffect": "Setelah menyerang target musuh berstatus Weakness Break, akan memicu \"<u>Harmonize</u>\" DMG, dan DMG yang diakibatkan \"<u>Harmonize</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617932": {
+		"Id": "617932",
+		"Name": "Third Movement: Rondo Form",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan memicu tambahan efek Weakness Break dari Tipe Weakness lain yang dimiliki target, dengan rasio sebesar <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Saat mengakibatkan Weakness Break pada target musuh, juga akan memicu efek Weakness Break dari Tipe Weakness lain yang dimilikinya.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan memicu tambahan efek Weakness Break dari Tipe Weakness lain yang dimiliki target, dengan rasio sebesar <color=#f29e38ff>80%</color>.",
+		"EnhancedAbridgedEffect": "Saat mengakibatkan Weakness Break pada target musuh, juga akan memicu efek Weakness Break dari Tipe Weakness lain yang dimilikinya.",
+		"VersionAdded": "4.1"
+	},
+	"617940": {
+		"Id": "617940",
+		"Name": "Common Practice Period",
+		"Rarity": 1,
+		"Effect": "Setelah target musuh yang memiliki \"<u>Harmonize</u>\" dikalahkan, akan membuat <color=#f29e38ff>1</color> target acak di sekitar memperoleh \"<u>Harmonize</u>\" sejumlah lapisan yang sama dengan yang dimiliki target tersebut.",
+		"AbridgedEffect": "Saat target musuh yang memiliki \"<u>Harmonize</u>\" dikalahkan, akan membuat target acak di sekitarnya memperoleh \"<u>Harmonize</u>\".",
+		"EnhancedEffect": "Setelah target musuh yang memiliki \"<u>Harmonize</u>\" dikalahkan, akan membuat <color=#f29e38ff>2</color> target acak di sekitar memperoleh \"<u>Harmonize</u>\" sejumlah lapisan yang sama dengan yang dimiliki target tersebut.",
+		"EnhancedAbridgedEffect": "Saat target musuh yang memiliki \"<u>Harmonize</u>\" dikalahkan, akan membuat target acak di sekitarnya memperoleh \"<u>Harmonize</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617941": {
+		"Id": "617941",
+		"Name": "Goblet of Dionysus",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, akan membuatnya memasuki <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\".",
+		"AbridgedEffect": "Setelah menyerang target musuh yang berstatus Weakness Break, akan membuatnya memasuki status \"<u>Harmonize</u>\".",
+		"EnhancedEffect": "Break Effect rekan tim meningkat <color=#f29e38ff>24%</color>. Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, akan membuatnya memasuki <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\".",
+		"EnhancedAbridgedEffect": "Break Effect meningkat. Setelah menyerang target musuh yang berstatus Weakness Break, akan membuatnya memasuki status \"<u>Harmonize</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"617942": {
+		"Id": "617942",
+		"Name": "Coronal Pulse",
+		"Rarity": 1,
+		"Effect": "Untuk setiap 1 lapis \"<u>Harmonize</u>\" yang dimiliki target musuh, Break DMG yang diterima meningkat <color=#f29e38ff>1.0%</color>.",
+		"AbridgedEffect": "Semakin banyak \"<u>Harmonize</u>\" yang dimiliki target musuh, maka semakin tinggi Break DMG yang diterimanya.",
+		"EnhancedEffect": "Untuk setiap 1 lapis \"<u>Harmonize</u>\" yang dimiliki target musuh, Break DMG yang diterima meningkat <color=#f29e38ff>1.5%</color>.",
+		"EnhancedAbridgedEffect": "Semakin banyak \"<u>Harmonize</u>\" yang dimiliki target musuh, maka semakin tinggi Break DMG yang diterimanya.",
+		"VersionAdded": "4.1"
+	},
+	"617943": {
+		"Id": "617943",
+		"Name": "String Quartet",
+		"Rarity": 1,
+		"Effect": "Saat \"<u>Harmonize</u>\" DMG terpicu, akan menghitung ekstra <color=#f29e38ff>5</color> lapis. Batas maksimal \"<u>Harmonize</u>\" meningkat <color=#f29e38ff>5</color> lapis.",
+		"AbridgedEffect": "Saat \"<u>Harmonize</u>\" DMG terpicu, akan menghitung ekstra jumlah lapisan. Batas maksimal \"<u>Harmonize</u>\" meningkat.",
+		"EnhancedEffect": "Saat \"<u>Harmonize</u>\" DMG terpicu, akan menghitung ekstra <color=#f29e38ff>6</color> lapis. Batas maksimal \"<u>Harmonize</u>\" meningkat <color=#f29e38ff>10</color> lapis.",
+		"EnhancedAbridgedEffect": "Saat \"<u>Harmonize</u>\" DMG terpicu, akan menghitung ekstra jumlah lapisan. Batas maksimal \"<u>Harmonize</u>\" meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617944": {
+		"Id": "617944",
+		"Name": "Iambic Pentameter",
+		"Rarity": 1,
+		"Effect": "DMG Multiplier \"<u>Harmonize</u>\" meningkat <color=#f29e38ff>30%</color> dari Multiplier aslinya.",
+		"AbridgedEffect": "\"<u>Harmonize</u>\" DMG meningkat.",
+		"EnhancedEffect": "DMG Multiplier \"<u>Harmonize</u>\" meningkat <color=#f29e38ff>45%</color> dari Multiplier aslinya.",
+		"EnhancedAbridgedEffect": "\"<u>Harmonize</u>\" DMG meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617945": {
+		"Id": "617945",
+		"Name": "Basso Continuo",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim menyerang target musuh yang berstatus Weakness Break, Pengurangan Toughness dari serangan kali ini akan dikonversi menjadi 1 kali <color=#f29e38ff>50%</color> <u>Super Break DMG</u>.",
+		"AbridgedEffect": "Setelah menyerang target musuh yang berstatus Weakness Break, akan mengakibatkan <u>Super Break DMG</u>.",
+		"EnhancedEffect": "Saat rekan tim menyerang target musuh yang berstatus Weakness Break, Pengurangan Toughness dari serangan kali ini akan dikonversi menjadi 1 kali <color=#f29e38ff>75%</color> <u>Super Break DMG</u>.",
+		"EnhancedAbridgedEffect": "Setelah menyerang target musuh yang berstatus Weakness Break, akan mengakibatkan <u>Super Break DMG</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617946": {
+		"Id": "617946",
+		"Name": "Righteous Nome",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, memiliki <color=#f29e38ff>100%</color> peluang dasar untuk membuat target memasuki status Frozen, berlangsung selama <color=#f29e38ff>1</color> giliran.",
+		"AbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, berpeluang untuk membuatnya terkena Frozen.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, memiliki <color=#f29e38ff>150%</color> peluang dasar untuk membuat target memasuki status Frozen, berlangsung selama <color=#f29e38ff>1</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, berpeluang untuk membuatnya terkena Frozen.",
+		"VersionAdded": "4.1"
+	},
+	"617950": {
+		"Id": "617950",
+		"Name": "Stagnant Weave",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, aksi target akan tertunda <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, aksi target akan tertunda.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, aksi target akan tertunda <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, aksi target akan tertunda.",
+		"VersionAdded": "4.1"
+	},
+	"617951": {
+		"Id": "617951",
+		"Name": "Original Declaration",
+		"Rarity": 1,
+		"Effect": "Break DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Break DMG yang diakibatkan meningkat.",
+		"EnhancedEffect": "Break DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Break DMG yang diakibatkan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617952": {
+		"Id": "617952",
+		"Name": "Serene Storm",
+		"Rarity": 1,
+		"Effect": "Break Effect rekan tim meningkat <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Break Effect meningkat.",
+		"EnhancedEffect": "Break Effect rekan tim meningkat <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Break Effect meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617953": {
+		"Id": "617953",
+		"Name": "Linear Melody",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, SPD akan meningkat <color=#f29e38ff>12%</color>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"AbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, SPD meningkat.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, SPD akan meningkat <color=#f29e38ff>18%</color>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, SPD meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617954": {
+		"Id": "617954",
+		"Name": "Cross Rhythm",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, Break Effect seluruh rekan tim meningkat <color=#f29e38ff>40%</color>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"AbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, Break Effect seluruh rekan tim meningkat.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, Break Effect seluruh rekan tim meningkat <color=#f29e38ff>60%</color>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"EnhancedAbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, Break Effect seluruh rekan tim meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"617955": {
+		"Id": "617955",
+		"Name": "Free Tonality",
+		"Rarity": 1,
+		"Effect": "Break DMG yang diterima target musuh +<color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Meningkatkan Break DMG yang diterima target musuh.",
+		"EnhancedEffect": "Break DMG yang diterima target musuh +<color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Meningkatkan Break DMG yang diterima target musuh.",
+		"VersionAdded": "4.1"
+	},
+	"617956": {
+		"Id": "617956",
+		"Name": "Duke of Omens",
+		"Rarity": 1,
+		"Effect": "Mengurangi <color=#f29e38ff>15%</color> DEF target musuh yang berstatus Weakness Break.",
+		"AbridgedEffect": "Mengurangi DEF target musuh yang berstatus Weakness Break.",
+		"EnhancedEffect": "Mengurangi <color=#f29e38ff>20%</color> DEF target musuh yang berstatus Weakness Break.",
+		"EnhancedAbridgedEffect": "Mengurangi DEF target musuh yang berstatus Weakness Break.",
+		"VersionAdded": "4.1"
+	},
+	"617957": {
+		"Id": "617957",
+		"Name": "Novel Motif",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, rekan tersebut akan memulihkan HP sebesar <color=#f29e38ff>24%</color> Max HP dirinya.",
+		"AbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, akan memulihkan HP.",
+		"EnhancedEffect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, rekan tersebut akan memulihkan HP sebesar <color=#f29e38ff>36%</color> Max HP dirinya.",
+		"EnhancedAbridgedEffect": "Setelah mengakibatkan Weakness Break pada target musuh, akan memulihkan HP.",
+		"VersionAdded": "4.1"
+	},
 	"634000": {
 		"Id": "634000",
 		"Name": "0",
@@ -6054,6 +7565,615 @@
 		"Effect": "DMG final yang diakibatkan rekan tim yang memiliki \"Quartz\" meningkat ekstra <color=#f29e38ff>50%</color>.",
 		"AbridgedEffect": "DMG final yang diakibatkan rekan tim yang memiliki \"Quartz\" meningkat ekstra.",
 		"VersionAdded": "3.3"
+	},
+	"661001": {
+		"Id": "661001",
+		"Name": "March 7th",
+		"Rarity": 1,
+		"Effect": "March 7th memperoleh Amplifikasi DMG di Divergent Universe.\n\nEffect Hit Rate meningkat <color=#f29e38ff>30%</color>. Saat berada di medan pertempuran, DEF target musuh berstatus Frozen berkurang <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661002": {
+		"Id": "661002",
+		"Name": "Dan Heng",
+		"Rarity": 1,
+		"Effect": "Dan Heng memperoleh Amplifikasi DMG di Divergent Universe.\n\nSPD meningkat <color=#f29e38ff>10%</color>. Untuk setiap 10 poin SPD yang melebihi <color=#f29e38ff>150</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>2.0%</color>, maksimal meningkat <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661003": {
+		"Id": "661003",
+		"Name": "Himeko",
+		"Rarity": 1,
+		"Effect": "Himeko memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh yang berstatus Weakness Break, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661004": {
+		"Id": "661004",
+		"Name": "Welt",
+		"Rarity": 1,
+		"Effect": "Welt memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah memberikan status Imprisonment, aksi target musuh akan tertunda ekstra <color=#f29e38ff>30%</color>, dan DMG yang diterima target musuh meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661005": {
+		"Id": "661005",
+		"Name": "Kafka",
+		"Rarity": 1,
+		"Effect": "Kafka memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan pada target musuh yang memiliki efek DoT lebih dari atau sama dengan <color=#f29e38ff>3</color> meningkat <color=#f29e38ff>12%</color>. Setiap 1 efek DoT yang berlebih meningkatkan ekstra <color=#f29e38ff>1%</color> DMG final.",
+		"VersionAdded": "4.1"
+	},
+	"661006": {
+		"Id": "661006",
+		"Name": "Silver Wolf",
+		"Rarity": 1,
+		"Effect": "Silver Wolf memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan pada target musuh yang memiliki status Debuff lebih dari atau sama dengan <color=#f29e38ff>8</color> meningkat <color=#f29e38ff>10%</color>. Setiap 1 status Debuff yang berlebih meningkatkan ekstra <color=#f29e38ff>1%</color> DMG final.",
+		"VersionAdded": "4.1"
+	},
+	"661008": {
+		"Id": "661008",
+		"Name": "Arlan",
+		"Rarity": 1,
+		"Effect": "Arlan memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat persentase HP diri sendiri lebih rendah dari <color=#f29e38ff>50%</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>40%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661009": {
+		"Id": "661009",
+		"Name": "Asta",
+		"Rarity": 1,
+		"Effect": "Asta memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, SPD seluruh rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>10%</color> SPD Asta.",
+		"VersionAdded": "4.1"
+	},
+	"661013": {
+		"Id": "661013",
+		"Name": "Herta",
+		"Rarity": 1,
+		"Effect": "Herta memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh dengan persentase HP kurang dari <color=#f29e38ff>50%</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661014": {
+		"Id": "661014",
+		"Name": "Saber",
+		"Rarity": 1,
+		"Effect": "Saber memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali melancarkan Ultimate, DMG final yang diakibatkan Saber meningkat <color=#f29e38ff>3%</color>, dapat ditumpuk maksimal <color=#f29e38ff>10</color> lapis.",
+		"VersionAdded": "4.1"
+	},
+	"661015": {
+		"Id": "661015",
+		"Name": "Archer",
+		"Rarity": 1,
+		"Effect": "Archer memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan meningkat <color=#f29e38ff>15%</color>. Saat giliran dimulai, memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"661101": {
+		"Id": "661101",
+		"Name": "Bronya",
+		"Rarity": 1,
+		"Effect": "Bronya memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan oleh karakter pertama dalam lineup tim dan Memosprite-nya meningkat <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661102": {
+		"Id": "661102",
+		"Name": "Seele",
+		"Rarity": 1,
+		"Effect": "Seele memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah melancarkan serangan, jika persentase HP target serangan kurang dari atau sama dengan <color=#f29e38ff>15%</color>, mengakibatkan True DMG pada target tersebut sebesar HP saat ini.",
+		"VersionAdded": "4.1"
+	},
+	"661103": {
+		"Id": "661103",
+		"Name": "Serval",
+		"Rarity": 1,
+		"Effect": "Serval memperoleh Amplifikasi DMG di Divergent Universe.\n\nUntuk setiap 1 target musuh yang ada di medan pertempuran, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>. Setelah mengalahkan target musuh, DMG final dalam pertempuran ini akan meningkat ekstra <color=#f29e38ff>2%</color>. Efek ini dapat ditumpuk.",
+		"VersionAdded": "4.1"
+	},
+	"661104": {
+		"Id": "661104",
+		"Name": "Gepard",
+		"Rarity": 1,
+		"Effect": "Gepard memperoleh Amplifikasi DMG di Divergent Universe.\n\nEffect Hit Rate meningkat <color=#f29e38ff>30%</color>. Saat berada di medan pertempuran, DEF target musuh berstatus Frozen berkurang <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661105": {
+		"Id": "661105",
+		"Name": "Natasha",
+		"Rarity": 1,
+		"Effect": "Natasha memperoleh Amplifikasi DMG di Divergent Universe.\n\nPemulihan meningkat <color=#f29e38ff>30%</color>, dan DMG yang diterima target pemulihan berkurang <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661106": {
+		"Id": "661106",
+		"Name": "Pela",
+		"Rarity": 1,
+		"Effect": "Pela memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, ATK rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>12%</color> ATK Pela.",
+		"VersionAdded": "4.1"
+	},
+	"661107": {
+		"Id": "661107",
+		"Name": "Clara",
+		"Rarity": 1,
+		"Effect": "Clara memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG yang diterima berkurang <color=#f29e38ff>10%</color>, DMG final yang diakibatkan Serangan Lanjutan meningkat <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661108": {
+		"Id": "661108",
+		"Name": "Sampo",
+		"Rarity": 1,
+		"Effect": "Sampo memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah melancarkan Ultimate untuk menyerang, semua DoT yang sedang diterima target akan segera menghasilkan DMG sebesar <color=#f29e38ff>60%</color> dari DMG aslinya.",
+		"VersionAdded": "4.1"
+	},
+	"661109": {
+		"Id": "661109",
+		"Name": "Hook",
+		"Rarity": 1,
+		"Effect": "Hook memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh dengan persentase HP kurang dari <color=#f29e38ff>50%</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661110": {
+		"Id": "661110",
+		"Name": "Lynx",
+		"Rarity": 1,
+		"Effect": "Lynx memperoleh Amplifikasi DMG di Divergent Universe.\n\nOutgoing Healing meningkat <color=#f29e38ff>30%</color>. DMG yang diterima target pemulihan berkurang <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661111": {
+		"Id": "661111",
+		"Name": "Luka",
+		"Rarity": 1,
+		"Effect": "Luka memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah melancarkan Ultimate untuk menyerang, semua DoT yang sedang diterima target akan segera menghasilkan DMG sebesar <color=#f29e38ff>120%</color> dari DMG aslinya.",
+		"VersionAdded": "4.1"
+	},
+	"661112": {
+		"Id": "661112",
+		"Name": "Topaz & Numby",
+		"Rarity": 1,
+		"Effect": "Topaz & Numby memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali melancarkan serangan, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis, dihapus setelah HP berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"661201": {
+		"Id": "661201",
+		"Name": "Qingque",
+		"Rarity": 1,
+		"Effect": "Qingque memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan meningkat <color=#f29e38ff>15%</color>. Saat giliran dimulai, memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"661202": {
+		"Id": "661202",
+		"Name": "Tingyun",
+		"Rarity": 1,
+		"Effect": "Tingyun memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, ATK rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>12%</color> ATK Tingyun.",
+		"VersionAdded": "4.1"
+	},
+	"661203": {
+		"Id": "661203",
+		"Name": "Luocha",
+		"Rarity": 1,
+		"Effect": "Luocha memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan rekan tim meningkat <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661204": {
+		"Id": "661204",
+		"Name": "Jing Yuan",
+		"Rarity": 1,
+		"Effect": "Jing Yuan memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat melancarkan Serangan Lanjutan, mendahulukan aksi sebesar <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661205": {
+		"Id": "661205",
+		"Name": "Blade",
+		"Rarity": 1,
+		"Effect": "Blade memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah HP berkurang, Pemulihan HP meningkat <color=#f29e38ff>15%</color>, DMG final meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661206": {
+		"Id": "661206",
+		"Name": "Sushang",
+		"Rarity": 1,
+		"Effect": "Sushang memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah mengakibatkan Weakness Break pada target musuh, SPD meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk maksimal <color=#f29e38ff>10</color> lapis.",
+		"VersionAdded": "4.1"
+	},
+	"661207": {
+		"Id": "661207",
+		"Name": "Yukong",
+		"Rarity": 1,
+		"Effect": "Yukong memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, ATK rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>12%</color> ATK Yukong.",
+		"VersionAdded": "4.1"
+	},
+	"661208": {
+		"Id": "661208",
+		"Name": "Fu Xuan",
+		"Rarity": 1,
+		"Effect": "Fu Xuan memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG yang diterima berkurang <color=#f29e38ff>20%</color>. Saat giliran dimulai, memulihkan HP sebesar <color=#f29e38ff>15%</color> Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"661209": {
+		"Id": "661209",
+		"Name": "Yanqing",
+		"Rarity": 1,
+		"Effect": "Yanqing memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali saat melancarkan serangan, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis, dihapus setelah HP berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"661210": {
+		"Id": "661210",
+		"Name": "Guinaifen",
+		"Rarity": 1,
+		"Effect": "Guinaifen memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah melancarkan Ultimate untuk menyerang, semua DoT yang sedang diterima target akan segera menghasilkan DMG sebesar <color=#f29e38ff>60%</color> dari DMG aslinya.",
+		"VersionAdded": "4.1"
+	},
+	"661211": {
+		"Id": "661211",
+		"Name": "Bailu",
+		"Rarity": 1,
+		"Effect": "Bailu memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan oleh rekan tim meningkat <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661212": {
+		"Id": "661212",
+		"Name": "Jingliu",
+		"Rarity": 1,
+		"Effect": "Jingliu memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah HP berkurang, Pemulihan HP meningkat <color=#f29e38ff>15%</color>, DMG final meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661213": {
+		"Id": "661213",
+		"Name": "Dan Heng · Imbibitor Lunae",
+		"Rarity": 1,
+		"Effect": "Dan Heng · Imbibitor Lunae memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan meningkat <color=#f29e38ff>15%</color>. Saat giliran dimulai, memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"661214": {
+		"Id": "661214",
+		"Name": "Xueyi",
+		"Rarity": 1,
+		"Effect": "Xueyi memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh yang berstatus Weakness Break, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661215": {
+		"Id": "661215",
+		"Name": "Hanya",
+		"Rarity": 1,
+		"Effect": "Hanya memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, SPD seluruh rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>10%</color> SPD Hanya.",
+		"VersionAdded": "4.1"
+	},
+	"661217": {
+		"Id": "661217",
+		"Name": "Huohuo",
+		"Rarity": 1,
+		"Effect": "Huohuo memperoleh Amplifikasi DMG di Divergent Universe.\n\nOutgoing Healing meningkat <color=#f29e38ff>30%</color>. DMG yang diterima target pemulihan berkurang <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661218": {
+		"Id": "661218",
+		"Name": "Jiaoqiu",
+		"Rarity": 1,
+		"Effect": "Jiaoqiu memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan oleh rekan tim meningkat <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661220": {
+		"Id": "661220",
+		"Name": "Feixiao",
+		"Rarity": 1,
+		"Effect": "Feixiao memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali saat melancarkan serangan, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis, dihapus setelah HP berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"661221": {
+		"Id": "661221",
+		"Name": "Yunli",
+		"Rarity": 1,
+		"Effect": "Yunli memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG yang diterima berkurang <color=#f29e38ff>10%</color>, DMG final yang diakibatkan Serangan Lanjutan meningkat <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661222": {
+		"Id": "661222",
+		"Name": "Lingsha",
+		"Rarity": 1,
+		"Effect": "Lingsha memperoleh Amplifikasi DMG di Divergent Universe.\n\nOutgoing Healing meningkat <color=#f29e38ff>30%</color>. DMG yang diterima target pemulihan berkurang <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661223": {
+		"Id": "661223",
+		"Name": "Moze",
+		"Rarity": 1,
+		"Effect": "Moze memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali saat melancarkan serangan, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis, dihapus setelah HP berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"661224": {
+		"Id": "661224",
+		"Name": "March 7th",
+		"Rarity": 1,
+		"Effect": "March 7th memperoleh Amplifikasi DMG di Divergent Universe.\n\nSPD meningkat <color=#f29e38ff>10%</color>. Untuk setiap 10 poin SPD yang melebihi <color=#f29e38ff>150</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>2.0%</color>, maksimal meningkat <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661225": {
+		"Id": "661225",
+		"Name": "Fugue",
+		"Rarity": 1,
+		"Effect": "Fugue memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan rekan tim terhadap musuh berstatus Break meningkat <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661301": {
+		"Id": "661301",
+		"Name": "Gallagher",
+		"Rarity": 1,
+		"Effect": "Gallagher memperoleh Amplifikasi DMG di Divergent Universe.\n\nOutgoing Healing meningkat <color=#f29e38ff>30%</color>. DMG yang diterima target pemulihan berkurang <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661302": {
+		"Id": "661302",
+		"Name": "Argenti",
+		"Rarity": 1,
+		"Effect": "Argenti memperoleh Amplifikasi DMG di Divergent Universe.\n\nUntuk setiap 1 target musuh yang ada di medan pertempuran, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>. Setelah mengalahkan target musuh, DMG final dalam pertempuran ini akan meningkat ekstra <color=#f29e38ff>2%</color>. Efek ini dapat ditumpuk.",
+		"VersionAdded": "4.1"
+	},
+	"661303": {
+		"Id": "661303",
+		"Name": "Ruan Mei",
+		"Rarity": 1,
+		"Effect": "Ruan Mei memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan rekan tim terhadap musuh berstatus Break meningkat <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661304": {
+		"Id": "661304",
+		"Name": "Aventurine",
+		"Rarity": 1,
+		"Effect": "Aventurine memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, CRIT DMG rekan tim yang memiliki Shield meningkat <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661305": {
+		"Id": "661305",
+		"Name": "Dr. Ratio",
+		"Rarity": 1,
+		"Effect": "Dr. Ratio memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali saat melancarkan serangan, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis, dihapus setelah HP berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"661306": {
+		"Id": "661306",
+		"Name": "Sparkle",
+		"Rarity": 1,
+		"Effect": "Sparkle memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan oleh rekan tim meningkat <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661307": {
+		"Id": "661307",
+		"Name": "Black Swan",
+		"Rarity": 1,
+		"Effect": "Black Swan memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan pada target musuh yang memiliki efek DoT lebih dari atau sama dengan <color=#f29e38ff>3</color> meningkat <color=#f29e38ff>12%</color>. Setiap 1 efek DoT yang berlebih meningkatkan ekstra <color=#f29e38ff>1%</color> DMG final.",
+		"VersionAdded": "4.1"
+	},
+	"661308": {
+		"Id": "661308",
+		"Name": "Acheron",
+		"Rarity": 1,
+		"Effect": "Acheron memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan pada target musuh yang memiliki status Debuff lebih dari atau sama dengan <color=#f29e38ff>8</color> meningkat <color=#f29e38ff>10%</color>. Setiap 1 status Debuff yang berlebih meningkatkan ekstra <color=#f29e38ff>1%</color> DMG final.",
+		"VersionAdded": "4.1"
+	},
+	"661309": {
+		"Id": "661309",
+		"Name": "Robin",
+		"Rarity": 1,
+		"Effect": "Robin memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, SPD seluruh rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>10%</color> SPD Robin.",
+		"VersionAdded": "4.1"
+	},
+	"661310": {
+		"Id": "661310",
+		"Name": "Firefly",
+		"Rarity": 1,
+		"Effect": "Firefly memperoleh Amplifikasi DMG di Divergent Universe.\n\nUntuk setiap 10 poin Max Toughness yang dimiliki target musuh, DMG final yang diakibatkan Firefly meningkat <color=#f29e38ff>1.2%</color>, maksimal meningkat <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661312": {
+		"Id": "661312",
+		"Name": "Misha",
+		"Rarity": 1,
+		"Effect": "Misha memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan terhadap target musuh dalam status Frozen meningkat <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661313": {
+		"Id": "661313",
+		"Name": "Sunday",
+		"Rarity": 1,
+		"Effect": "Sunday memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan karakter pertama dalam lineup tim dan Memosprite-nya meningkat <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661314": {
+		"Id": "661314",
+		"Name": "Jade",
+		"Rarity": 1,
+		"Effect": "Jade memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali saat melancarkan serangan, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis, dihapus setelah HP berkurang.",
+		"VersionAdded": "4.1"
+	},
+	"661315": {
+		"Id": "661315",
+		"Name": "Boothill",
+		"Rarity": 1,
+		"Effect": "Boothill memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah mengakibatkan Weakness Break pada target musuh, SPD meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk maksimal <color=#f29e38ff>10</color> lapis.",
+		"VersionAdded": "4.1"
+	},
+	"661317": {
+		"Id": "661317",
+		"Name": "Rappa",
+		"Rarity": 1,
+		"Effect": "Rappa memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh yang berstatus Weakness Break, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661321": {
+		"Id": "661321",
+		"Name": "The Dahlia",
+		"Rarity": 1,
+		"Effect": "The Dahlia memperoleh Amplifikasi DMG di Divergent Universe.\n\nUntuk setiap 10 poin Max Toughness yang dimiliki target musuh, DMG final yang diakibatkan The Dahlia meningkat <color=#f29e38ff>1.2%</color>, maksimal meningkat <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661401": {
+		"Id": "661401",
+		"Name": "The Herta",
+		"Rarity": 1,
+		"Effect": "The Herta memperoleh Amplifikasi DMG di Divergent Universe.\n\nUntuk setiap 1 target musuh yang ada di medan pertempuran, DMG final yang diakibatkan meningkat <color=#f29e38ff>4%</color>. Setelah mengalahkan target musuh, DMG final dalam pertempuran ini akan meningkat ekstra <color=#f29e38ff>2%</color>. Efek ini dapat ditumpuk.",
+		"VersionAdded": "4.1"
+	},
+	"661402": {
+		"Id": "661402",
+		"Name": "Aglaea",
+		"Rarity": 1,
+		"Effect": "Aglaea memperoleh Amplifikasi DMG di Divergent Universe.\n\nSPD diri dan Memosprite meningkat <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661403": {
+		"Id": "661403",
+		"Name": "Tribbie",
+		"Rarity": 1,
+		"Effect": "Tribbie memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali melancarkan Ultimate, DMG final yang diakibatkan Tribbie meningkat <color=#f29e38ff>3%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis.",
+		"VersionAdded": "4.1"
+	},
+	"661404": {
+		"Id": "661404",
+		"Name": "Mydei",
+		"Rarity": 1,
+		"Effect": "Mydei memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah HP berkurang, Pemulihan HP meningkat <color=#f29e38ff>15%</color>, DMG final meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"661405": {
+		"Id": "661405",
+		"Name": "Anaxa",
+		"Rarity": 1,
+		"Effect": "Anaxa memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah mengakibatkan Weakness Break pada target musuh, SPD meningkat <color=#f29e38ff>4%</color>, dapat ditumpuk maksimal <color=#f29e38ff>10</color> lapis.",
+		"VersionAdded": "4.1"
+	},
+	"661406": {
+		"Id": "661406",
+		"Name": "Cipher",
+		"Rarity": 1,
+		"Effect": "Cipher memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, SPD rekan tim meningkat <color=#f29e38ff>10%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661407": {
+		"Id": "661407",
+		"Name": "Castorice",
+		"Rarity": 1,
+		"Effect": "Castorice memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah Castorice dan Memosprite mengalahkan target musuh, memulihkan HP sebesar <color=#f29e38ff>50%</color> Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"661408": {
+		"Id": "661408",
+		"Name": "Phainon",
+		"Rarity": 1,
+		"Effect": "Phainon memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap 10 poin Nilai Aksi yang tercapai, DMG final yang diakibatkan meningkat <color=#f29e38ff>0.8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661409": {
+		"Id": "661409",
+		"Name": "Hyacine",
+		"Rarity": 1,
+		"Effect": "Hyacine memperoleh Amplifikasi DMG di Divergent Universe.\n\nSPD meningkat <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661410": {
+		"Id": "661410",
+		"Name": "Hysilens",
+		"Rarity": 1,
+		"Effect": "Hysilens memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan pada target musuh yang memiliki efek DoT lebih dari atau sama dengan <color=#f29e38ff>3</color> meningkat <color=#f29e38ff>12%</color>. Setiap 1 efek DoT yang berlebih meningkatkan ekstra <color=#f29e38ff>1%</color> DMG final.",
+		"VersionAdded": "4.1"
+	},
+	"661412": {
+		"Id": "661412",
+		"Name": "Cerydra",
+		"Rarity": 1,
+		"Effect": "Cerydra memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan karakter pertama dalam lineup tim dan Memosprite-nya meningkat <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661413": {
+		"Id": "661413",
+		"Name": "Evernight",
+		"Rarity": 1,
+		"Effect": "Evernight memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan oleh rekan tim meningkat <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661414": {
+		"Id": "661414",
+		"Name": "Dan Heng • Permansor Terrae",
+		"Rarity": 1,
+		"Effect": "Dan Heng • Permansor Terrae memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, CRIT DMG rekan tim yang memiliki Shield meningkat <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661415": {
+		"Id": "661415",
+		"Name": "Cyrene",
+		"Rarity": 1,
+		"Effect": "Cyrene memperoleh Amplifikasi DMG di Divergent Universe.\n\nJika terdapat 1 atau lebih karakter Keturunan Chrysos selain Cyrene dalam tim, DMG final yang diakibatkan seluruh rekan tim meningkat <color=#f29e38ff>10%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661501": {
+		"Id": "661501",
+		"Name": "Sparxie",
+		"Rarity": 1,
+		"Effect": "Sparxie memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali seluruh anggota tim memperoleh <color=#f29e38ff>10</color> Punchline, DMG final yang diakibatkan Sparxie meningkat <color=#f29e38ff>1%</color>, maksimal dapat meningkat hingga <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661502": {
+		"Id": "661502",
+		"Name": "Yao Guang",
+		"Rarity": 1,
+		"Effect": "Yao Guang memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, SPD seluruh rekan tim meningkat, nilai peningkatan sebesar <color=#f29e38ff>10%</color> SPD Yao Guang.",
+		"VersionAdded": "4.1"
+	},
+	"661504": {
+		"Id": "661504",
+		"Name": "Ashveil",
+		"Rarity": 1,
+		"Effect": "Ashveil memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh dengan persentase HP kurang dari <color=#f29e38ff>50%</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>30%</color>. Jika merupakan DMG Serangan Lanjutan, maka akan meningkat ekstra <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668001": {
+		"Id": "668001",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh dengan persentase HP lebih dari <color=#f29e38ff>50%</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668002": {
+		"Id": "668002",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nTerhadap target musuh dengan persentase HP lebih dari <color=#f29e38ff>50%</color>, DMG final yang diakibatkan meningkat <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668003": {
+		"Id": "668003",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, CRIT DMG rekan tim yang memiliki Shield meningkat <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668004": {
+		"Id": "668004",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, CRIT DMG rekan tim yang memiliki Shield meningkat <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668005": {
+		"Id": "668005",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan rekan tim pada musuh berstatus Break meningkat <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668006": {
+		"Id": "668006",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nSaat berada di medan pertempuran, DMG final yang diakibatkan rekan tim pada musuh berstatus Break meningkat <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668007": {
+		"Id": "668007",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan meningkat <color=#f29e38ff>15%</color>. Saat memasuki pertempuran, memulihkan Energy sebesar <color=#f29e38ff>50%</color> Max Energy.",
+		"VersionAdded": "4.1"
+	},
+	"668008": {
+		"Id": "668008",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME} memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan meningkat <color=#f29e38ff>15%</color>. Saat memasuki pertempuran, memulihkan Energy sebesar <color=#f29e38ff>50%</color> Max Energy.",
+		"VersionAdded": "4.1"
 	},
 	"670010": {
 		"Id": "670010",
@@ -7678,5 +9798,581 @@
 		"Effect": "DMG Multiplier \"<u>Harmonize</u>\" meningkat <color=#f29e38ff>50%</color> dari Multiplier aslinya. Setelah rekan tim melancarkan Serangan Lanjutan, akan menambahkan <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\" pada target.",
 		"AbridgedEffect": "\"<u>Harmonize</u>\" DMG meningkat. Setelah rekan tim melancarkan Serangan Lanjutan, akan menambahkan \"<u>Harmonize</u>\".",
 		"VersionAdded": "3.1"
+	},
+	"676170": {
+		"Id": "676170",
+		"Name": "Beautiful Poem",
+		"Rarity": 1,
+		"Effect": "Setelah memasuki status \"<u>Butterfly Soul</u>\", setelah Memosprite melancarkan serangan, Memosprite dapat mengakibatkan \"<u>Butterfly Soul</u>\" True DMG tanpa mengonsumsi jumlah serangannya. Target musuh dengan Max HP tertinggi akan mengalami status \"Encocoon\", berlangsung hingga keluar dari status \"<u>Butterfly Soul</u>\". Selama status berlangsung, semua DMG \"<u>Butterfly Soul</u>\" yang diterima akan dicatat. Setelah menerima <color=#f29e38ff>5</color> kali serangan/target tersebut dikalahkan/keluar dari \"<u>Butterfly Soul</u>\", akan mengakibatkan DMG sebesar <color=#f29e38ff>200%</color> dari DMG yang tercatat kepada semua target musuh, kemudian nilai yang tercatat akan dihapus.",
+		"AbridgedEffect": "Memosprite dapat memicu True DMG dari \"<u>Butterfly Soul</u>\". Target musuh dengan Max HP tertinggi akan memasuki status \"Encocoon\", berlangsung hingga keluar dari status \"<u>Butterfly Soul</u>\". Selama status berlangsung, semua DMG dari \"<u>Butterfly Soul</u>\" yang diterima akan dicatat. Setelah menerima sejumlah serangan tertentu, atau target tersebut dikalahkan, atau keluar dari status \"<u>Butterfly Soul</u>\", akan mengakibatkan DMG kepada seluruh musuh sebesar sejumlah persentase tertentu dari DMG yang tercatat, kemudian nilai yang tercatat akan dihapus.",
+		"VersionAdded": "4.1"
+	},
+	"676180": {
+		"Id": "676180",
+		"Name": "Apples! Apples!",
+		"Rarity": 1,
+		"Effect": "\"Sudden Insight\" muncul pada Susunan Aksi. Saat beraksi, mengakibatkan <u>DMG Dasar</u> Tipe Ice sebesar <color=#f29e38ff>2000%</color> pada seluruh target musuh, dan mengaktifkan Ultimate seluruh rekan tim. Setiap 1 lapis \"<u>Obsession</u>\" yang dimiliki karakter pertama dalam tim dan Memosprite-nya akan meningkatkan SPD Dasar \"Sudden Insight\" sebesar <color=#f29e38ff>1</color> poin, serta mengakibatkan ekstra <u>DMG Dasar</u> Tipe Ice sebesar <color=#f29e38ff>100%</color> pada setiap target musuh.",
+		"AbridgedEffect": "\"Sudden Insight\" muncul di Susunan Aksi. Saat \"Sudden Insight\" beraksi, akan mengakibatkan Ice DMG pada seluruh musuh dan mengaktifkan Ultimate seluruh rekan tim. Semakin tinggi jumlah lapisan \"<u>Obsession</u>\" milik karakter pertama dalam tim dan Memosprite-nya, semakin tinggi SPD dan DMG dari \"Sudden Insight\".",
+		"VersionAdded": "4.1"
+	},
+	"676250": {
+		"Id": "676250",
+		"Name": "Conceptual Sacrificial Rite",
+		"Rarity": 1,
+		"Effect": "Setelah target musuh menyerang rekan tim, \"<u>Murmur</u>\" memperoleh Charge sebesar <color=#f29e38ff>10%</color> dari batasan penghapusan. Setiap kali \"<u>Murmur</u>\" mengisi Charge sebesar <color=#f29e38ff>5%</color> batasan penghapusan, target musuh akan segera menerima 1 kali Lightning DoT sebesar <color=#f29e38ff>120%</color> dari batasan penghapusan \"<u>Murmur</u>\". Setiap target musuh dapat memicu efek ini hingga <color=#f29e38ff>2</color> kali, dan jumlah kesempatan pemicuan akan direset setelah unit mana pun beraksi. DMG ini adalah \"<u>Murmur</u>\" DMG dan tidak dapat mengalahkan target musuh.",
+		"AbridgedEffect": "Setelah target musuh menyerang rekan tim, mengisi Charge \"<u>Murmur</u>\". Setiap kali Charge \"<u>Murmur</u>\" menghapus sejumlah persentase tertentu dari batasan penghapusan, akan membuat target musuh langsung menerima 1 kali <u>Murmur</u> DMG.",
+		"VersionAdded": "4.1"
+	},
+	"676280": {
+		"Id": "676280",
+		"Name": "Soul Returner",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan total <color=#f29e38ff>5</color> kali Ultimate, \"<u>Murmur</u>\" akan mengakibatkan DMG sebesar <color=#f29e38ff>60%</color> dari DMG Multiplier aslinya pada target di sekitar, lalu meningkatkan DMG yang diakibatkan \"<u>Murmur</u>\" sebesar ekstra <color=#f29e38ff>2%</color> setelah setiap kali pelancaran Ultimate.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan total <color=#f29e38ff>5</color> kali Ultimate, \"<u>Murmur</u>\" akan mengakibatkan DMG pada target di sekitar, lalu meningkatkan DMG yang diakibatkan \"<u>Murmur</u>\" setelah setiap kali pelancaran Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"676410": {
+		"Id": "676410",
+		"Name": "Street Rider Officer",
+		"Rarity": 1,
+		"Effect": "Setelah seluruh rekan tim melancarkan total <color=#f29e38ff>24</color> kali serangan, karakter pertama dalam tim saat ini memperoleh giliran tambahan, dan jumlah serangan dari Serangan Lanjutan dihitung dua kali lipat. Setelah melancarkan serangan dalam giliran tambahan tersebut, mengakibatkan DMG Tambahan sebesar <color=#f29e38ff>600%</color> Max HP + <color=#f29e38ff>1200%</color> ATK pada target serangan. Untuk setiap 1 lapis \"<u>Obsession</u>\" yang dimiliki rekan tim, DMG Multiplier tersebut akan meningkat sebesar <color=#f29e38ff>1%</color> dari Multiplier aslinya.",
+		"AbridgedEffect": "Setiap kali rekan tim melancarkan sejumlah serangan tertentu, karakter pertama dalam tim saat ini memperoleh giliran tambahan. Setelah serangan akan mengakibatkan DMG berdasarkan lapisan \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"676470": {
+		"Id": "676470",
+		"Name": "Exorcist",
+		"Rarity": 1,
+		"Effect": "Saat berada dalam status \"<u>Butterfly Soul</u>\", DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>200%</color>. Setelah melancarkan serangan, jika HP target musuh saat ini kurang dari <color=#f29e38ff>25%</color> Max HP, maka akan mengakibatkan \"<u>Butterfly Soul</u>\" DMG dengan nilai tetap yang setara dengan HP saat ini pada target tersebut, serta memulihkan <color=#f29e38ff>2</color> Poin Skill.",
+		"AbridgedEffect": "Saat berada dalam status \"<u>Butterfly Soul</u>\", DMG yang diakibatkan rekan tim meningkat, serta dapat langsung mengalahkan musuh dengan HP kurang dari <color=#f29e38ff>25%</color> Max HP-nya, dan memulihkan <color=#f29e38ff>2</color> Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"676510": {
+		"Id": "676510",
+		"Name": "Nightmare Lord",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mana pun terkena serangan, akan dianggap bahwa seluruh rekan tim terkena serangan, serta mengisi Charge \"<u>Blazar</u>\" untuk seluruh rekan tim sebesar <color=#f29e38ff>15%</color> Max HP dan Shield masing-masing.",
+		"AbridgedEffect": "Setelah terkena serangan, akan dianggap bahwa seluruh rekan tim terkena serangan, serta mengisi Charge \"<u>Blazar</u>\" untuk seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"676590": {
+		"Id": "676590",
+		"Name": "Eternal Supplicant",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim total sudah kehilangan HP sebesar <color=#f29e38ff>100%</color> Max HP atau saat rekan tim pulih dari status gugur, akan mengakibatkan DMG sebesar <color=#f29e38ff>75%</color> Max \"<u>Harmonize</u>\" pada seluruh musuh. Saat giliran karakter dimulai, akan mengonsumsi <color=#f29e38ff>5%</color> Max HP, dan nilai ini akan meningkat <color=#f29e38ff>5%</color> setiap kali setelah efek ini terpicu. Saat karakter tim gugur untuk pertama kalinya, akan memulihkan HP saat ini hingga <color=#f29e38ff>100%</color> Max HP, dan setelahnya tidak akan mengonsumsi HP lagi saat giliran dimulai.",
+		"AbridgedEffect": "Saat sudah kehilangan total sejumlah HP atau saat pulih dari status gugur, akan mengakibatkan DMG berdasarkan batas \"<u>Harmonize</u>\" pada seluruh musuh. Karakter dapat menahan DMG mematikan, dan sebelum efek ini terpicu, akan mengonsumsi HP saat giliran dimulai.",
+		"VersionAdded": "4.1"
+	},
+	"676640": {
+		"Id": "676640",
+		"Name": "Starlight Bandits",
+		"Rarity": 1,
+		"Effect": "Jumlah serangan saat \"<u>Dealer</u>\" beraksi meningkat <color=#f29e38ff>4</color> kali, dan target serangan berubah menjadi target musuh dengan Max HP tertinggi saat ini. Saat mengakibatkan DMG, membuat target tersebut terkena <color=#f29e38ff>2</color> lapis \"<u>Reverse Critical Boost</u>\" tambahan, dan setelah menyerang, aksi seluruh rekan tim didahulukan <color=#f29e38ff>25%</color>. Setiap target musuh dapat memicu efek ini hingga <color=#f29e38ff>1</color> kali di setiap giliran.",
+		"AbridgedEffect": "Target serangan \"<u>Dealer</u>\" berubah menjadi target musuh dengan Max HP tertinggi saat ini, dan jumlah serangan meningkat. Saat mengakibatkan DMG, membuat target terkena \"<u>Reverse Critical Boost</u>\", dan mendahulukan aksi seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"676650": {
+		"Id": "676650",
+		"Name": "Fire Rejectors",
+		"Rarity": 1,
+		"Effect": "\"Pother\" muncul di Susunan Aksi, setiap poin Charge \"<u>Dealer</u>\" membuat SPD-nya meningkat ekstra <color=#f29e38ff>7</color>: Saat \"Pother\" beraksi, meningkatkan <color=#f29e38ff>15%</color> DMG yang diakibatkan seluruh rekan tim, dapat ditumpuk hingga <color=#f29e38ff>10</color> kali; Juga mengisi Charge \"<u>Blazar</u>\" sebesar <color=#f29e38ff>150%</color> Max HP masing-masing + nilai Shield saat ini. Setelah setiap rekan tim melancarkan serangan berikutnya, mengakibatkan <color=#f29e38ff>7</color> kali \"<u>Blazar</u>\" DMG Tipe acak sebesar <color=#f29e38ff>80%</color> pada setiap target serangan.",
+		"AbridgedEffect": "\"Pother\" muncul di Susunan Aksi, SPD-nya mendapatkan bonus tambahan dari jumlah lapisan Charge \"<u>Dealer</u>\": Saat beraksi, meningkatkan DMG yang diakibatkan seluruh rekan tim, serta mengisi Charge \"<u>Blazar</u>\". Setelah setiap rekan tim melancarkan serangan berikutnya, mengakibatkan \"<u>Blazar</u>\" DMG Tipe acak pada target serangan.",
+		"VersionAdded": "4.1"
+	},
+	"676720": {
+		"Id": "676720",
+		"Name": "Serpent Slithering",
+		"Rarity": 1,
+		"Effect": "Saat berstatus \"<u>Butterfly Soul</u>\", setiap 1 Poin Skill yang dikonsumsi rekan tim mana pun akan meningkatkan <color=#f29e38ff>10%</color> DMG yang diterima seluruh musuh. Efek ini dapat ditumpuk hingga <color=#f29e38ff>40%</color>. Setiap setelah memasuki status \"<u>Butterfly Soul</u>\", setelah mengonsumsi total <color=#f29e38ff>3</color> Poin Skill untuk pertama kalinya, akan memulihkan <color=#f29e38ff>6</color> kali serangan \"<u>Butterfly Soul</u>\", dan setelah rekan tim melancarkan serangan akan mengakibatkan pada target serangan 1 kali True DMG sebesar <color=#f29e38ff>60%</color> dari DMG aslinya (tidak termasuk DMG Tambahan) sebelum \"<u>Butterfly Soul</u>\" kali ini berakhir. Efek ini juga berlaku untuk DoT yang diterima target musuh saat gilirannya dimulai.",
+		"AbridgedEffect": "Saat berstatus \"<u>Butterfly Soul</u>\", semakin banyak Poin Skill yang dikonsumsi seluruh rekan tim, DMG yang diterima seluruh musuh semakin meningkat. Setiap setelah memasuki status \"<u>Butterfly Soul</u>\", setelah mengonsumsi total <color=#f29e38ff>3</color> Poin Skill untuk pertama kalinya, akan memulihkan jumlah serangan \"<u>Butterfly Soul</u>\", serta membuat serangan dan DoT mengakibatkan ekstra True DMG.",
+		"VersionAdded": "4.1"
+	},
+	"676760": {
+		"Id": "676760",
+		"Name": "Galactic Grand Lotto",
+		"Rarity": 1,
+		"Effect": "Setiap kali rekan tim mengonsumsi atau kelebihan 1 Poin Skill, akan memperoleh 1 kali kesempatan undian, maksimal mengumpulkan <color=#f29e38ff>25</color> kesempatan. Saat memasuki status \"<u>Butterfly Soul</u>\", akan memanggil \"Lottery Machine\" dan menghabiskan seluruh kesempatan undian untuk melakukan undian, jumlah kesempatan undian dasar adalah <color=#f29e38ff>5</color> kali. Memiliki peluang kecil untuk memperoleh Hadiah Khusus: Mengakibatkan 1 kali DMG Tipe Acak sebesar <color=#f29e38ff>4000%</color> <u>DMG Dasar</u> pada seluruh target musuh serta membuat \"<u>Dealer</u>\" memperoleh <color=#f29e38ff>5</color> poin Charge. Hadiah Penghiburan: Mengakibatkan 1 kali DMG Tipe Acak sebesar <color=#f29e38ff>500%</color> <u>DMG Dasar</u> pada target musuh acak.",
+		"AbridgedEffect": "Setiap kali rekan tim mengonsumsi atau kelebihan 1 Poin Skill, akan memperoleh 1 kali kesempatan undian. Saat memasuki status \"<u>Butterfly Soul</u>\", memanggil \"Lottery Machine\" dan mengonsumsi semua kesempatan undian untuk melakukan undian, ada peluang kecil untuk memperoleh Hadiah Khusus: mengakibatkan DMG Tipe acak pada seluruh musuh dan membuat \"<u>Dealer</u>\" memperoleh <color=#f29e38ff>5</color> poin Charge. Hadiah Penghiburan: mengakibatkan DMG Tipe acak pada target musuh acak.",
+		"VersionAdded": "4.1"
+	},
+	"676860": {
+		"Id": "676860",
+		"Name": "Useful Scholar",
+		"Rarity": 1,
+		"Effect": "Setelah \"<u>Dealer</u>\" melakukan aksi sebanyak <color=#f29e38ff>4</color> kali saat tidak ada status \"Overclock\" dalam tim, CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>200%</color> selama <color=#f29e38ff>5</color> giliran, dan karakter pertama dalam tim saat ini memperoleh status \"Overclock\": Mengaktifkan Ultimate karakter tersebut dan mengisi Charge \"<u>Brain in a Vat</u>\" hingga <color=#f29e38ff>200%</color>. Status ini berakhir setelah melancarkan <color=#f29e38ff>3</color> kali Ultimate . Saat terpicu pertama kali, \"<u>Dealer</u>\" hanya perlu melakukan aksi <color=#f29e38ff>1</color> kali.",
+		"AbridgedEffect": "Setelah \"<u>Dealer</u>\" melakukan aksi <color=#f29e38ff>4</color> kali saat tidak ada status \"Overclock\" dalam tim, CRIT DMG seluruh rekan tim meningkat, dan karakter pertama dalam tim saat ini memperoleh status \"Overclock\": Mengaktifkan Ultimate karakter tersebut dan mengisi Charge \"<u>Brain in a Vat</u>\" hingga <color=#f29e38ff>200%</color>. Saat terpicu pertama kali, \"<u>Dealer</u>\" hanya perlu melakukan aksi <color=#f29e38ff>1</color> kali.",
+		"VersionAdded": "4.1"
+	},
+	"676890": {
+		"Id": "676890",
+		"Name": "Appliance Druid",
+		"Rarity": 1,
+		"Effect": "\"Giant Turtle's Breath\" dengan SPD <color=#f29e38ff>150</color> muncul di Susunan Aksi: Saat beraksi, meningkatkan DMG yang diterima seluruh musuh sebesar <color=#f29e38ff>50%</color> selama <color=#f29e38ff>3</color> giliran, mengakibatkan Ice DMG dan Fire DMG sebesar <color=#f29e38ff>6000%</color> <u>DMG Dasar</u>, menunda aksi mereka sebesar <color=#f29e38ff>30%</color>, serta mengurangi <color=#f29e38ff>30</color> Toughness seluruh target musuh dan mengabaikan Tipe Weakness. Saat mengakibatkan Weakness Break pada musuh, akan memicu efek Ice Weakness Break dan Fire Weakness Break. Setelah rekan tim menggunakan \"<u>Brain in a Vat</u>\" untuk mengaktifkan Ultimate, meningkatkan <color=#f29e38ff>5</color> SPD \"Giant Turtle's Breath\", dapat ditumpuk hingga <color=#f29e38ff>15</color> kali.",
+		"AbridgedEffect": "\"Giant Turtle's Breath\" muncul di Susunan Aksi: Saat beraksi akan meningkatkan DMG yang diterima seluruh musuh, serta mengakibatkan Ice DMG dan Fire DMG pada seluruh musuh, menunda aksi mereka, dan mengurangi Toughness musuh tanpa memedulikan Tipe Weakness. Saat mengakibatkan Weakness Break pada musuh, akan memicu efek Ice dan Fire Weakness Break. Setelah rekan tim menggunakan \"<u>Brain in a Vat</u>\" untuk mengaktifkan Ultimate, SPD \"Giant Turtle's Breath\" akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"676920": {
+		"Id": "676920",
+		"Name": "Dead General",
+		"Rarity": 1,
+		"Effect": "Saat target musuh berstatus Weakness Break, \"<u>Harmonize</u>\" akan memperoleh efek tambahan berdasarkan Tipe karakter tim di dalam tim. Efek sejenis dapat ditumpuk: Wind, Lightning, Physical: Memperoleh efek \"Stormheave\". Setelah terkena serangan, status DoT yang diterima target musuh saat ini akan segera menghasilkan DMG sebesar <color=#f29e38ff>60%</color> DMG aslinya. Fire: Memperoleh efek \"Moltflare\". <u>Super Break DMG</u> yang diterima target musuh meningkat <color=#f29e38ff>60%</color>. Quantum, Imaginary, Ice: Memperoleh efek \"Intimidation\". Aksi target musuh ditunda <color=#f29e38ff>20%</color>, dan setelah terkena serangan akan memicu <color=#f29e38ff>1</color> kali \"<u>Harmonize</u>\" DMG dengan rasio <color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "Saat target musuh berstatus Weakness Break, \"<u>Harmonize</u>\" akan memperoleh efek tambahan berdasarkan Tipe karakter dalam tim: Wind, Lightning, Physical: Memperoleh efek \"Stormheave\". Setelah terkena serangan, akan memicu DoT. Fire: Memperoleh efek \"Moltflare\". <u>Super Break DMG</u> yang diterima akan meningkat. Quantum, Imaginary, Ice: Memperoleh efek \"Intimidation\". Aksi musuh akan ditunda, dan setelah terkena serangan akan menerima \"<u>Harmonize</u>\" DMG tambahan.",
+		"VersionAdded": "4.1"
+	},
+	"676940": {
+		"Id": "676940",
+		"Name": "Summoner of God",
+		"Rarity": 1,
+		"Effect": "Meningkatkan SPD rekan tim sebesar <color=#f29e38ff>35%</color>. Setelah melancarkan serangan, terdapat <color=#f29e38ff>60%</color> peluang tetap untuk menambahkan 1 Weakness Tipe acak pada target serangan acak, dan mengakibatkan DMG Tipe yang sesuai sebesar <color=#f29e38ff>180%</color> <u>DMG Dasar</u> sebanyak <color=#f29e38ff>3</color> kali pada target tersebut. Jika merupakan Serangan Lanjutan, efek ini pasti terpicu. Weakness tersebut akan dihapus setelah target musuh terkena Weakness Break. Setelah menambahkan Weakness pada target musuh, akan mencatat 1 kali Weakness yang ditambahkan, efek ini dapat dipicu maksimal <color=#f29e38ff>2</color> kali di setiap aksi. Saat target musuh mana pun terkena Weakness Break, berdasarkan Weakness yang dicatat, setiap 1 kali pencatatan akan mengakibatkan Break DMG dengan Tipe yang sesuai sebesar <color=#f29e38ff>200%</color> pada target tersebut dan target di sekitarnya.",
+		"AbridgedEffect": "Meningkatkan SPD rekan tim. Setelah melancarkan serangan, berpeluang menambahkan Weakness dan mengakibatkan DMG Tipe yang sesuai. Efek ini pasti terpicu jika serangan merupakan Serangan Lanjutan. Mencatat Weakness yang ditambahkan ke target musuh. Saat mengakibatkan Weakness Break pada target musuh, akan mengakibatkan Break DMG dengan Tipe yang sesuai pada target musuh dan target di sekitarnya berdasarkan Weakness yang dicatat.",
+		"VersionAdded": "4.1"
+	},
+	"677160": {
+		"Id": "677160",
+		"Name": "Horticulturist",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim melancarkan serangan, mengakibatkan ekstra DMG Tambahan pada target serangan sebesar <color=#f29e38ff>100%</color> Max HP. Setelah \"<u>Dealer</u>\" beraksi, DMG Tambahan pada serangan berikutnya meningkat menjadi <color=#f29e38ff>300%</color> Max HP.",
+		"AbridgedEffect": "Setelah rekan tim melancarkan serangan, mengakibatkan ekstra DMG Tambahan berdasarkan Max HP kepada target serangan. Setelah \"<u>Dealer</u>\" melakukan aksi, DMG Tambahan berikutnya meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"677170": {
+		"Id": "677170",
+		"Name": "History Agent",
+		"Rarity": 1,
+		"Effect": "Untuk setiap 1 lapis \"<u>Obsession</u>\" yang dimiliki rekan tim, Basic Attack DMG dan Skill DMG yang diakibatkan akan meningkat <color=#f29e38ff>6%</color>. Saat karakter tim memasuki status Departed atau gugur, atau saat Memosprite rekan tim menghilang, karakter pertama dalam tim saat ini akan memperoleh <color=#f29e38ff>50%</color> dari jumlah lapisan \"<u>Obsession</u>\" yang dimiliki rekan tersebut, serta memperoleh batas maksimum lapisan \"<u>Obsession</u>\" yang setara. Tambahan batas maksimum lapisan tersebut akan menghilang setelah <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Setiap lapis \"<u>Obsession</u>\" meningkatkan Basic Attack DMG dan Skill DMG. Saat gugur dari pertempuran, karakter pertama dalam tim saat ini akan memperoleh sejumlah lapisan \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677190": {
+		"Id": "677190",
+		"Name": "Wheel of Career Transition",
+		"Rarity": 1,
+		"Effect": "Batas maksimal \"<u>Obsession</u>\" meningkat <color=#f29e38ff>4</color> lapis, dan untuk setiap lapis \"<u>Obsession</u>\" yang dimiliki seluruh anggota tim akan meningkatkan SPD sebesar ekstra <color=#f29e38ff>0.3%</color>. Saat mengakibatkan Weakness Break pada target musuh, seluruh rekan tim akan memperoleh <color=#f29e38ff>3</color> lapis \"<u>Obsession</u>\".",
+		"AbridgedEffect": "Batas maksimal \"<u>Obsession</u>\" meningkat, dan untuk setiap lapis \"<u>Obsession</u>\" yang dimiliki seluruh anggota tim akan meningkatkan SPD secara ekstra. Saat melakukan Break pada target musuh, seluruh rekan tim akan memperoleh \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677240": {
+		"Id": "677240",
+		"Name": "Eternal Sprint",
+		"Rarity": 1,
+		"Effect": "DoT yang diterima target musuh dapat CRIT Hit. CRIT Rate/CRIT DMG adalah sebesar <color=#f29e38ff>20%</color> dari total CRIT Rate/CRIT DMG seluruh karakter tim. CRIT DMG maksimal tidak melebihi <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "DoT yang diterima target musuh dapat memicu CRIT Hit. CRIT Rate/CRIT DMG didasarkan pada total CRIT Rate/CRIT DMG seluruh karakter tim.",
+		"VersionAdded": "4.1"
+	},
+	"677250": {
+		"Id": "677250",
+		"Name": "Life Forged By Dice",
+		"Rarity": 1,
+		"Effect": "\"<u>Murmur</u>\" DMG yang diterima target musuh meningkat <color=#f29e38ff>35%</color>. Setelah target musuh menerima DoT di luar gilirannya, akan mengisi Charge \"<u>Blazar</u>\" untuk seluruh rekan tim sebesar <color=#f29e38ff>10%</color> ATK mereka masing-masing. Target musuh dapat memicu efek ini hingga <color=#f29e38ff>5</color> kali di setiap giliran.",
+		"AbridgedEffect": "\"<u>Murmur</u>\" DMG yang diterima target musuh meningkat. Setelah target musuh menerima DoT di luar gilirannya, akan mengisi Charge \"<u>Blazar</u>\" untuk seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"677260": {
+		"Id": "677260",
+		"Name": "Foolish King",
+		"Rarity": 1,
+		"Effect": "DoT yang diterima target musuh meningkat <color=#f29e38ff>30%</color>. Setelah \"<u>Dealer</u>\" mengakibatkan DMG, setiap hit serangan membuat status DoT yang dimiliki target musuh langsung mengakibatkan DMG sebesar <color=#f29e38ff>15%</color> dari DMG aslinya.",
+		"AbridgedEffect": "DoT yang diterima target musuh meningkat. Setelah \"<u>Dealer</u>\" mengakibatkan DMG, memicu DoT.",
+		"VersionAdded": "4.1"
+	},
+	"677450": {
+		"Id": "677450",
+		"Name": "Ironarm Ranger",
+		"Rarity": 1,
+		"Effect": "Batas maksimum \"<u>Reverse Critical Boost</u>\" meningkat <color=#f29e38ff>10</color> lapis. Setiap kali seluruh anggota tim total kehilangan HP sebesar <color=#f29e38ff>15%</color> dari total HP seluruh tim, seluruh musuh segera memperoleh 1 lapis \"<u>Reverse Critical Boost</u>\".",
+		"AbridgedEffect": "Batas maksimum \"<u>Reverse Critical Boost</u>\" meningkat. Setiap kali seluruh anggota tim kehilangan sejumlah HP, akan memperoleh \"<u>Reverse Critical Boost</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677460": {
+		"Id": "677460",
+		"Name": "Comet Handler",
+		"Rarity": 1,
+		"Effect": "Untuk setiap 1% CRIT Rate berlebih dari rekan tim dan \"<u>Dealer</u>\", CRIT DMG meningkat <color=#f29e38ff>3%</color>. Setelah rekan tim melancarkan serangan, CRIT Rate diri dan \"<u>Dealer</u>\" meningkat <color=#f29e38ff>2%</color>, dapat ditumpuk hingga <color=#f29e38ff>50</color> lapis. Jika Serangan Lanjutan, dapat ditumpuk ekstra <color=#f29e38ff>2</color> lapis.",
+		"AbridgedEffect": "Untuk setiap 1% CRIT Rate berlebih dari rekan tim dan \"<u>Dealer</u>\", CRIT DMG meningkat <color=#f29e38ff>3%</color>. Setelah rekan tim melancarkan serangan, CRIT Rate unit ini dan \"<u>Dealer</u>\" meningkat, Serangan Lanjutan meningkat lebih ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"677470": {
+		"Id": "677470",
+		"Name": "Meteor Wholesaler",
+		"Rarity": 1,
+		"Effect": "Setiap 1% efek Pendahuluan Aksi yang diperoleh rekan tim akan mengakibatkan ekstra True DMG sebesar <color=#f29e38ff>0.5%</color> DMG aslinya setelah melancarkan serangan di giliran berikutnya, maksimal menghitung <color=#f29e38ff>50%</color> True DMG. Saat berada dalam status \"<u>Butterfly Soul</u>\", akan mengakibatkan ekstra True DMG sebesar <color=#f29e38ff>50%</color> DMG aslinya.",
+		"AbridgedEffect": "Setelah rekan tim menerima efek pendahuluan aksi, mengakibatkan True DMG tambahan setelah menyerang di giliran berikutnya. True DMG yang diakibatkan saat berstatus \"<u>Butterfly Soul</u>\" akan meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"677510": {
+		"Id": "677510",
+		"Name": "Frost Giant",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim menerima DMG atau mengonsumsi HP, jika persentase HP saat ini kurang dari <color=#f29e38ff>40%</color>, akan mengonsumsi <color=#f29e38ff>5</color> lapis \"<u>Obsession</u>\" dari target dengan jumlah lapisan \"<u>Obsession</u>\" tertinggi di dalam tim, memulihkan HP sebesar <color=#f29e38ff>25%</color> Max HP diri sendiri, serta meningkatkan <color=#f29e38ff>150%</color> DMG yang diakibatkan selama <color=#f29e38ff>2</color> giliran. Efek ini maksimal dipicu <color=#f29e38ff>1</color> kali setiap giliran.",
+		"AbridgedEffect": "Saat persentase HP kurang dari <color=#f29e38ff>40%</color>, akan mengonsumsi lapisan \"<u>Obsession</u>\" dari rekan tim dengan jumlah lapisan \"<u>Obsession</u>\" tertinggi, untuk memulihkan HP dan meningkatkan DMG yang diakibatkan.",
+		"VersionAdded": "4.1"
+	},
+	"677570": {
+		"Id": "677570",
+		"Name": "Aberration Idol",
+		"Rarity": 1,
+		"Effect": "Charging Efficiency \"<u>Blazar</u> \" meningkat <color=#f29e38ff>25%</color>. Setelah melancarkan Basic Attack/Skill untuk menyerang saat berstatus \"<u>Butterfly Soul</u>\", akan mengakibatkan <color=#f29e38ff>150%</color> \"<u>Blazar</u> \" DMG pada target serangan.",
+		"AbridgedEffect": "Charging Efficiency \"<u>Blazar</u>\" meningkat. Setelah menyerang dengan melancarkan Basic Attack/Skill saat berstatus \"<u>Butterfly Soul</u>\", akan mengakibatkan \"<u>Blazar</u>\" DMG pada target.",
+		"VersionAdded": "4.1"
+	},
+	"677590": {
+		"Id": "677590",
+		"Name": "Divine Retribution Voting Device",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Charge \"<u>Blazar</u>\" sebesar <color=#f29e38ff>100%</color> Max HP dan Shield. Jika semua target musuh berada dalam status Weakness Break, \"<u>Blazar</u>\" tidak akan dihapus saat giliran rekan tim berakhir.",
+		"AbridgedEffect": "Saat mengakibatkan Weakness Break, akan mengisi Charge \"<u>Blazar</u>\". Jika semua target musuh berstatus Weakness Break, maka \"<u>Blazar</u>\" tidak akan dihapus saat giliran rekan tim berakhir.",
+		"VersionAdded": "4.1"
+	},
+	"677650": {
+		"Id": "677650",
+		"Name": "Truly Fortunate Chess",
+		"Rarity": 1,
+		"Effect": "Setiap <color=#f29e38ff>3</color> poin Charge yang dimiliki \"<u>Dealer</u>\" akan menambah 1 Hits Per Action. Setelah terdapat total <color=#f29e38ff>10</color> rekan tim terkena serangan, \"<u>Dealer</u>\" memperoleh 1 poin Charge.",
+		"AbridgedEffect": "Setiap <color=#f29e38ff>3</color> poin Charge yang dimiliki \"<u>Dealer</u>\" akan menambah 1 Hits Per Action. Setelah beberapa rekan tim terkena serangan, \"<u>Dealer</u>\" mendapatkan 1 poin Charge.",
+		"VersionAdded": "4.1"
+	},
+	"677680": {
+		"Id": "677680",
+		"Name": "Aether Hacker",
+		"Rarity": 1,
+		"Effect": "Meningkatkan CRIT DMG rekan tim sebesar <color=#f29e38ff>100%</color>. Setiap kali melancarkan Ultimate atau Elation Skill yang mengalahkan target musuh, DMG berlebih akan dicatat. <color=#f29e38ff>1</color> serangan berikutnya akan mengakibatkan DMG tambahan sebesar <color=#f29e38ff>300%</color> dari nilai pencatatan pada target serangan acak.",
+		"AbridgedEffect": "Meningkatkan CRIT DMG rekan tim. Setiap setelah melancarkan Ultimate atau Elation Skill untuk mengalahkan musuh, DMG yang berlebih akan dicatat, dan <color=#f29e38ff>1</color> serangan berikutnya akan memberikan DMG tambahan sebesar persentase tertentu dari nilai pencatatan kepada target serangan acak.",
+		"VersionAdded": "4.1"
+	},
+	"677690": {
+		"Id": "677690",
+		"Name": "Fabulist of the Stars",
+		"Rarity": 1,
+		"Effect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, akan mengabaikan Tipe Weakness dan mengurangi <color=#f29e38ff>30</color> Toughness target musuh. Pengurangan Toughness kali ini maksimal akan mengurangi Toughness musuh hingga tersisa 1 poin. Saat target musuh terkena Weakness Break, setiap <color=#f29e38ff>10</color> Max Toughness yang dimiliki target musuh akan meningkatkan <color=#f29e38ff>3%</color> DMG yang diterimanya, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Saat \"<u>Dealer</u>\" mengakibatkan DMG, akan mengabaikan Tipe Weakness dan mengurangi Toughness. Saat target musuh terkena Weakness Break, akan meningkatkan DMG yang diterima target tersebut berdasarkan Max Toughness.",
+		"VersionAdded": "4.1"
+	},
+	"677710": {
+		"Id": "677710",
+		"Name": "Impoverished Kidnapper",
+		"Rarity": 1,
+		"Effect": "True DMG Multiplier \"<u>Butterfly Soul</u>\" meningkat sebesar <color=#f29e38ff>60%</color> dari Multiplier aslinya, jumlah serangan bertambah <color=#f29e38ff>4</color> kali. Setelah Memosprite melancarkan serangan, akan mengakibatkan True DMG \"<u>Butterfly Soul</u>\" dan mengonsumsi jumlah serangannya.",
+		"AbridgedEffect": "True DMG \"<u>Butterfly Soul</u>\" meningkat. Serangan Memosprite juga akan mengakibatkan True DMG \"<u>Butterfly Soul</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677720": {
+		"Id": "677720",
+		"Name": "Hero of Dejection",
+		"Rarity": 1,
+		"Effect": "Setiap kali target musuh menerima 1 kali DoT, akan mengisi Charge \"Soul Chrysalis\" sebesar <color=#f29e38ff>1%</color>. Jika saat ini berada dalam status \"<u>Butterfly Soul</u>\", maka akan meningkatkan DMG yang diakibatkan seluruh rekan tim sebesar <color=#f29e38ff>2%</color>, maksimal ditumpuk <color=#f29e38ff>99</color> lapis, berlangsung hingga keluar dari \"<u>Butterfly Soul</u>\".",
+		"AbridgedEffect": "Setiap kali target musuh menerima 1 kali DoT, akan mengisi Charge \"Soul Chrysalis\" sebesar <color=#f29e38ff>1%</color>. Jika saat ini berada dalam status \"<u>Butterfly Soul</u>\", maka akan meningkatkan DMG yang diakibatkan seluruh rekan tim sebesar <color=#f29e38ff>2%</color>, maksimal ditumpuk <color=#f29e38ff>99</color> lapis, berlangsung hingga keluar dari \"<u>Butterfly Soul</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677780": {
+		"Id": "677780",
+		"Name": "Imperial Sting",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim memasuki status \"<u>Butterfly Soul</u>\", Ultimate yang dilancarkan juga dapat mengakibatkan True DMG \"<u>Butterfly Soul</u>\", dan membuat jumlah serangan \"<u>Butterfly Soul</u>\" bertambah <color=#f29e38ff>4</color> kali. Setiap rekan tim dapat memicu efek ini maksimal 1 kali.",
+		"AbridgedEffect": "Setelah rekan tim memasuki status \"<u>Butterfly Soul</u>\", Ultimate yang dilancarkan juga dapat mengakibatkan True DMG \"<u>Butterfly Soul</u>\", dan membuat jumlah serangan \"<u>Butterfly Soul</u>\" bertambah.",
+		"VersionAdded": "4.1"
+	},
+	"677810": {
+		"Id": "677810",
+		"Name": "Mage of Ruins",
+		"Rarity": 1,
+		"Effect": "Setelah Memosprite melancarkan serangan, akan mengisi Energy \"<u>Brain in a Vat</u>\" pemilik Memosprite-nya sebesar <color=#f29e38ff>8%</color>. Saat pemilik Memosprite menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, DMG Memosprite miliknya akan meningkat <color=#f29e38ff>240%</color>, berlangsung selama <color=#f29e38ff>4</color> giliran.",
+		"AbridgedEffect": "Setelah Memosprite melancarkan serangan, akan mengisi Energy \"<u>Brain in a Vat</u>\" pemilik Memosprite-nya. Saat pemilik Memosprite menggunakan \"<u>Brain in a Vat</u>\" untuk melancarkan Ultimate, DMG Memosprite miliknya akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"677820": {
+		"Id": "677820",
+		"Name": "IQ Tax Collector",
+		"Rarity": 1,
+		"Effect": "ATK rekan tim meningkat <color=#f29e38ff>150%</color>. Setelah melancarkan serangan dan mengakibatkan Ultimate DMG, \"<u>Murmur</u>\" pada target serangan akan mengakibatkan DMG sebesar <color=#f29e38ff>100%</color> DMG aslinya.",
+		"AbridgedEffect": "ATK meningkat. Setelah melancarkan serangan dan mengakibatkan Ultimate DMG, akan memicu \"<u>Murmur</u>\" DMG.",
+		"VersionAdded": "4.1"
+	},
+	"677840": {
+		"Id": "677840",
+		"Name": "Super Jock",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim mengakibatkan Weakness Break pada target musuh, akan mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>20%</color>, serta memulihkan Energy sebesar <color=#f29e38ff>10%</color> Max Energy. Setelah mengalahkan target musuh, akan memulihkan Energy sebesar <color=#f29e38ff>60%</color> Max Energy.",
+		"AbridgedEffect": "Saat mengakibatkan Weakness Break pada target musuh, akan mengisi Energy \"<u>Brain in a Vat</u>\" serta memulihkan Energy. Setelah mengalahkan target musuh, akan memulihkan Energy.",
+		"VersionAdded": "4.1"
+	},
+	"677920": {
+		"Id": "677920",
+		"Name": "Song of Gravity",
+		"Rarity": 1,
+		"Effect": "Saat target musuh menerima \"<u>Harmonize</u>\" DMG, akan menerima ekstra 1 kali \"<u>Harmonize</u>\" DMG sebesar <color=#f29e38ff>75%</color> dari DMG aslinya. Untuk setiap 1 status Debuff yang dimilikinya, DMG ini akan meningkat ekstra <color=#f29e38ff>2%</color>, maksimal meningkat <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "\"<u>Harmonize</u>\" DMG akan terpicu 1 kali lagi. Semakin banyak efek Debuff yang dimiliki target musuh, maka semakin tinggi DMG tersebut.",
+		"VersionAdded": "4.1"
+	},
+	"677940": {
+		"Id": "677940",
+		"Name": "Master of Fates",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, Pengurangan Toughness dari serangan kali ini akan dikonversi menjadi 1 kali <color=#f29e38ff>75%</color> <u>Super Break DMG</u>, dan mengakibatkan ekstra <color=#f29e38ff>5%</color> <u>Super Break DMG</u> untuk setiap 1 lapis \"<u>Reverse Critical Boost</u>\" yang dimiliki target musuh.",
+		"AbridgedEffect": "Setelah rekan tim menyerang target musuh yang berstatus Weakness Break, mengakibatkan <u>Super Break DMG</u>. Semakin banyak jumlah lapisan \"<u>Reverse Critical Boost</u>\" yang dimiliki target musuh, semakin tinggi <u>Super Break DMG</u> kali ini.",
+		"VersionAdded": "4.1"
+	},
+	"677980": {
+		"Id": "677980",
+		"Name": "Man, Serpent, Astral Ring",
+		"Rarity": 1,
+		"Effect": "Saat giliran target musuh dimulai, jika berstatus Weakness Break, target tersebut akan menerima 1 kali DMG tambahan sebesar <color=#f29e38ff>200%</color> DMG asli \"<u>Harmonize</u>\". Setiap kali rekan tim melancarkan Ultimate, meningkatkan \"<u>Harmonize</u>\" DMG sebesar <color=#f29e38ff>1%</color> dari DMG aslinya.",
+		"AbridgedEffect": "Saat giliran target musuh dimulai, jika berstatus Weakness Break, target tersebut akan menerima ekstra 1 kali <u>Harmonize</u> DMG. Setiap kali rekan tim melancarkan Ultimate, <u>Harmonize</u> DMG meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"678150": {
+		"Id": "678150",
+		"Name": "Relative Winner",
+		"Rarity": 1,
+		"Effect": "Setelah rekan tim mengonsumsi HP, akan memperoleh <color=#f29e38ff>5</color> lapis \"<u>Obsession</u>\". Maksimal dapat dipicu <color=#f29e38ff>1</color> kali, dan dapat dipicu lagi setelah unit mana pun beraksi.",
+		"AbridgedEffect": "Setelah rekan tim mengonsumsi HP, memperoleh \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678170": {
+		"Id": "678170",
+		"Name": "Close Friends",
+		"Rarity": 1,
+		"Effect": "Setelah Memosprite menghilang, memulihkan 1 Poin Skill untuk rekan tim. Setiap 1 Poin Skill yang diperoleh seluruh anggota tim akan meningkatkan <color=#f29e38ff>3%</color> DMG yang diakibatkan seluruh rekan tim sebesar, maksimal meningkat hingga <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "Setelah Memosprite menghilang, memulihkan 1 Poin Skill untuk rekan tim. Setiap 1 Poin Skill yang diperoleh seluruh anggota tim akan meningkatkan DMG yang diakibatkan seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"678180": {
+		"Id": "678180",
+		"Name": "Pun-ishing Gourmet",
+		"Rarity": 1,
+		"Effect": "Saat jumlah lapisan \"<u>Obsession</u>\" rekan tim lebih dari <color=#f29e38ff>70</color> lapis, Ultimate DMG akan meningkat <color=#f29e38ff>75%</color>, dan DMG Memosprite meningkat <color=#f29e38ff>75%</color>.",
+		"AbridgedEffect": "Saat jumlah lapisan \"<u>Obsession</u>\" seluruh rekan tim lebih dari <color=#f29e38ff>70</color> lapis, DMG yang diakibatkan Ultimate dan Memosprite akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"678190": {
+		"Id": "678190",
+		"Name": "Master of Sharing",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim memiliki \"<u>Obsession</u>\", RES PEN Seluruh Tipe meningkat <color=#f29e38ff>15%</color>. Setiap lapis \"<u>Obsession</u>\" akan membuat Break Effect seluruh rekan tim meningkat <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "Saat rekan tim memiliki \"<u>Obsession</u>\", RES PEN Seluruh Tipe meningkat. Setiap lapis \"<u>Obsession</u>\" akan meningkatkan Break Effect seluruh rekan tim.",
+		"VersionAdded": "4.1"
+	},
+	"678240": {
+		"Id": "678240",
+		"Name": "Maze of Eternal Massacre",
+		"Rarity": 1,
+		"Effect": "DoT yang diterima target musuh meningkat <color=#f29e38ff>20%</color>. Setelah terkena Serangan Lanjutan, akan mengisi Charge \"<u>Murmur</u>\" sebesar <color=#f29e38ff>2%</color> dari batasan penghapusan.",
+		"AbridgedEffect": "DoT yang diterima target musuh meningkat. Setelah terkena Serangan Lanjutan, akan mengisi Charge \"<u>Murmur</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678250": {
+		"Id": "678250",
+		"Name": "Fabled Land",
+		"Rarity": 1,
+		"Effect": "Target musuh akan memasuki status Bleed saat memasuki pertempuran. Saat berstatus Bleed, target musuh akan menerima Physical DoT sebesar <color=#f29e38ff>10%</color> Max HP dirinya setiap saat gilirannya dimulai. DMG ini tidak dapat melebihi <color=#f29e38ff>200%</color> dari total HP seluruh rekan tim.",
+		"AbridgedEffect": "Saat target musuh memasuki pertempuran, akan memasuki status Bleed. Setiap saat gilirannya dimulai, akan menerima Physical DoT.",
+		"VersionAdded": "4.1"
+	},
+	"678260": {
+		"Id": "678260",
+		"Name": "Reverse Adventurer",
+		"Rarity": 1,
+		"Effect": "Setelah \"<u>Dealer</u>\" melancarkan serangan, membuat target serangan memasuki status Burn. Saat giliran dimulai, target menerima Fire DoT sebesar <color=#f29e38ff>150%</color> <u>DMG Dasar</u>, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"AbridgedEffect": "Setelah \"<u>Dealer</u>\" melancarkan serangan, membuat target serangan memasuki status Burn. Saat giliran dimulai, target menerima Fire DoT, berlangsung selama <color=#f29e38ff>3</color> giliran.",
+		"VersionAdded": "4.1"
+	},
+	"678280": {
+		"Id": "678280",
+		"Name": "Doctor of Delirium",
+		"Rarity": 1,
+		"Effect": "Saat target musuh dikalahkan, untuk setiap 1 jenis status DoT yang dimilikinya, akan memulihkan <color=#f29e38ff>5.0</color> Energy seluruh rekan tim.",
+		"AbridgedEffect": "Saat target musuh dikalahkan, akan memulihkan Energy seluruh rekan tim berdasarkan jumlah status DoT yang dimiliki target.",
+		"VersionAdded": "4.1"
+	},
+	"678410": {
+		"Id": "678410",
+		"Name": "Ancestral War God",
+		"Rarity": 1,
+		"Effect": "CRIT Rate rekan tim meningkat <color=#f29e38ff>25%</color>. Setelah Memosprite melancarkan attack, memberikan ekstra <color=#f29e38ff>3</color> lapis <u>Reverse Critical Boost</u> kepada target serangan secara acak.",
+		"AbridgedEffect": "CRIT Rate rekan tim meningkat. Setelah Memosprite melancarkan serangan, memberikan tambahan \"<u>Reverse Critical Boost</u>\" kepada target serangan secara acak.",
+		"VersionAdded": "4.1"
+	},
+	"678420": {
+		"Id": "678420",
+		"Name": "Bald Creator",
+		"Rarity": 1,
+		"Effect": "Untuk setiap 1% Charge batasan penghapusan yang dimiliki Charge \"<u>Murmur</u>\", CRIT DMG yang diterima target musuh akan meningkat <color=#f29e38ff>1.0%</color>, maksimal meningkat hingga <color=#f29e38ff>150%</color>.",
+		"AbridgedEffect": "Setiap 1% batasan penghapusan yang dimiliki Charge \"<u>Murmur</u>\" akan meningkatkan CRIT DMG yang diterima target musuh.",
+		"VersionAdded": "4.1"
+	},
+	"678460": {
+		"Id": "678460",
+		"Name": "Vermin Hunter",
+		"Rarity": 1,
+		"Effect": "DMG yang diakibatkan oleh \"<u>Reverse Critical Boost</u>\" meningkat <color=#f29e38ff>60%</color>. Saat menyerang dan memicu dengan melancarkan Elation Skill, DMG yang diakibatkan meningkat ekstra <color=#f29e38ff>60%</color>.",
+		"AbridgedEffect": "DMG yang diakibatkan oleh \"<u>Reverse Critical Boost</u>\" meningkat. Saat menyerang dan memicu dengan melancarkan Elation Skill, DMG meningkat lebih lanjut.",
+		"VersionAdded": "4.1"
+	},
+	"678480": {
+		"Id": "678480",
+		"Name": "Cursed Teacher",
+		"Rarity": 1,
+		"Effect": "Setiap mengalahkan 1 target musuh, meningkatkan <color=#f29e38ff>30%</color> DMG yang diakibatkan rekan tim dalam pertempuran ini, serta meningkatkan ekstra <color=#f29e38ff>15%</color> Ultimate DMG. Efek ini dapat ditumpuk.",
+		"AbridgedEffect": "Setiap mengalahkan 1 target musuh, meningkatkan DMG yang diakibatkan oleh rekan tim dalam pertempuran ini, Ultimate DMG meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"678510": {
+		"Id": "678510",
+		"Name": "Demon of Renege",
+		"Rarity": 1,
+		"Effect": "Max HP rekan tim meningkat <color=#f29e38ff>40%</color>. Saat memasuki pertempuran atau Memosprite dipanggil, akan mengisi Charge \"<u>Blazar</u>\" sebesar <color=#f29e38ff>100%</color> Max HP diri sendiri, serta tidak akan menghapus \"<u>Blazar</u>\" saat giliran pertama berakhir setelahnya.",
+		"AbridgedEffect": "Max HP meningkat. Saat memasuki pertempuran atau Memosprite dipanggil, akan mengisi Charge \"<u>Blazar</u>\", dan \"<u>Blazar</u>\" tidak akan dihapus saat giliran pertama berakhir setelahnya.",
+		"VersionAdded": "4.1"
+	},
+	"678520": {
+		"Id": "678520",
+		"Name": "Garage Dragon Slayer",
+		"Rarity": 1,
+		"Effect": "Effect RES rekan tim meningkat <color=#f29e38ff>20%</color>, dan \"<u>Blazar</u>\" DMG yang diakibatkan meningkat <color=#f29e38ff>80%</color>. Saat menahan efek Debuff yang diterima, akan mengakibatkan DMG Tambahan sebesar <color=#f29e38ff>60%</color> \"<u>Blazar</u>\", dan DMG ini tidak dapat mengalahkan target musuh.",
+		"AbridgedEffect": "Effect RES meningkat, dan \"<u>Blazar</u>\" DMG yang diakibatkan meningkat. Saat menahan efek Debuff yang diterima, akan mengakibatkan \"<u>Blazar</u>\" DMG pada target.",
+		"VersionAdded": "4.1"
+	},
+	"678580": {
+		"Id": "678580",
+		"Name": "Physical Magical Girl",
+		"Rarity": 1,
+		"Effect": "Setelah persentase HP karakter tim dalam satu pertempuran lebih rendah dari <color=#f29e38ff>25%</color> untuk pertama kalinya, mengaktifkan Ultimate dan membuat Ultimate DMG yang diakibatkan diri sendiri dan Memosprite dalam pertempuran ini mengabaikan <color=#f29e38ff>20%</color> DEF.",
+		"AbridgedEffect": "Mengaktifkan Ultimate setelah persentase HP rekan tim dalam 1 pertempuran lebih rendah dari <color=#f29e38ff>25%</color> untuk pertama kalinya, dan membuat Ultimate DMG yang diakibatkan unit ini dan Memosprite dalam pertempuran ini mengabaikan sejumlah DEF target musuh.",
+		"VersionAdded": "4.1"
+	},
+	"678590": {
+		"Id": "678590",
+		"Name": "Aha Radio Station",
+		"Rarity": 1,
+		"Effect": "Kekuatan Shield yang diperoleh meningkat <color=#f29e38ff>30%</color>. Setelah mengakibatkan Weakness Break pada target musuh, seluruh rekan tim akan memperoleh Shield sebesar <color=#f29e38ff>15%</color> Max HP, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"AbridgedEffect": "Kekuatan Shield yang diperoleh meningkat. Setelah mengakibatkan Weakness Break pada target musuh, seluruh rekan tim akan memperoleh Shield.",
+		"VersionAdded": "4.1"
+	},
+	"678640": {
+		"Id": "678640",
+		"Name": "Detached Swordmaster",
+		"Rarity": 1,
+		"Effect": "Tingkat Elation rekan tim meningkat <color=#f29e38ff>25%</color>. Setiap 1 target musuh yang dikalahkan, Tingkat Elation meningkat ekstra <color=#f29e38ff>15%</color>.",
+		"AbridgedEffect": "Tingkat Elation rekan tim meningkat. Setiap 1 target musuh dikalahkan, Tingkat Elation akan meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"678650": {
+		"Id": "678650",
+		"Name": "Upvoted Twin Stars",
+		"Rarity": 1,
+		"Effect": "Setiap kali \"<u>Dealer</u>\" melakukan aksi, \"<u>Blazar</u>\" Charging Efficiency meningkat <color=#f29e38ff>6%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> kali.",
+		"AbridgedEffect": "Setiap kali \"<u>Dealer</u>\" melakukan aksi, \"<u>Blazar</u>\" Charging Efficiency meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"678670": {
+		"Id": "678670",
+		"Name": "Drinksmith",
+		"Rarity": 1,
+		"Effect": "CRIT DMG rekan tim meningkat <color=#f29e38ff>60%</color>. Setelah setiap kali \"<u>Dealer</u>\" melakukan aksi, CRIT DMG untuk seluruh rekan tim saat melancarkan Basic Attack/Skill berikutnya akan meningkat ekstra <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "CRIT DMG rekan tim meningkat. Setelah setiap kali \"<u>Dealer</u>\" melakukan aksi, CRIT DMG untuk seluruh rekan tim saat melancarkan Basic Attack/Skill berikutnya akan meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"678690": {
+		"Id": "678690",
+		"Name": "Heartbroken Soul",
+		"Rarity": 1,
+		"Effect": "Weakness Break Efficiency untuk Elation DMG rekan tim meningkat <color=#f29e38ff>25%</color>. Setelah mengakibatkan Weakness Break pada target musuh, SPD diri sendiri meningkat <color=#f29e38ff>25%</color>.",
+		"AbridgedEffect": "Meningkatkan Weakness Break Efficiency dari Elation DMG rekan tim. Setelah mengakibatkan Weakness Break pada target musuh, SPD diri sendiri akan meningkat.",
+		"VersionAdded": "4.1"
+	},
+	"678710": {
+		"Id": "678710",
+		"Name": "Ability Raffle Competition",
+		"Rarity": 1,
+		"Effect": "Setelah Memosprite melancarkan serangan, akan memberi \"<u>Soul Chrysalis</u>\" Charge sebesar <color=#f29e38ff>15%</color>, dan memiliki <color=#f29e38ff>40%</color> peluang untuk memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"AbridgedEffect": "Setelah Memosprite melancarkan serangan, dapat mengisi Charge \"<u>Soul Chrysalis</u>\" dan berpeluang untuk memulihkan Poin Skill.",
+		"VersionAdded": "4.1"
+	},
+	"678720": {
+		"Id": "678720",
+		"Name": "Planetary Bumper Cars",
+		"Rarity": 1,
+		"Effect": "True DMG \"<u>Butterfly Soul</u>\" meningkat sebesar <color=#f29e38ff>35%</color> dari Multiplier aslinya. Untuk setiap 1 efek Debuff yang dimiliki target musuh, akan meningkat ekstra sebesar <color=#f29e38ff>1%</color> dari Multiplier aslinya.",
+		"AbridgedEffect": "True DMG \"<u>Butterfly Soul</u>\" meningkat. Untuk setiap 1 efek Debuff yang dimiliki target musuh, Multiplier akan meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"678760": {
+		"Id": "678760",
+		"Name": "Empathetic Cupcake",
+		"Rarity": 1,
+		"Effect": "CRIT DMG yang dilancarkan rekan tim meningkat <color=#f29e38ff>100%</color> saat melancarkan Basic Attack/Skill. Setiap mengonsumsi 1 Poin Skill, akan memperoleh <color=#f29e38ff>1</color> Punchline.",
+		"AbridgedEffect": "CRIT DMG yang dilancarkan rekan tim meningkat saat melancarkan Basic Attack/Skill. Setiap mengonsumsi 1 Poin Skill, akan memperoleh Punchline.",
+		"VersionAdded": "4.1"
+	},
+	"678790": {
+		"Id": "678790",
+		"Name": "Flipping Ant",
+		"Rarity": 1,
+		"Effect": "Basic Attack DMG/Skill DMG yang diakibatkan rekan tim akan mengabaikan <color=#f29e38ff>25%</color> DEF target musuh. Efek ini akan meningkat hingga <color=#f29e38ff>40%</color> terhadap target musuh yang berstatus Weakness Break.",
+		"AbridgedEffect": "Basic Attack DMG/Skill DMG yang diakibatkan rekan tim akan mengabaikan sejumlah DEF target musuh. Efek ini akan meningkat ekstra terhadap target musuh yang berstatus Weakness Break.",
+		"VersionAdded": "4.1"
+	},
+	"678840": {
+		"Id": "678840",
+		"Name": "Shadowchasing Mechagod",
+		"Rarity": 1,
+		"Effect": "Setiap lapis \"<u>Reverse Critical Boost</u>\" yang dipicu mengakibatkan ekstra DMG sebesar <color=#f29e38ff>15%</color> ATK. Setelah melancarkan Serangan Ultimate, menambahkan ekstra <color=#f29e38ff>2</color> lapis \"<u>Reverse Critical Boost</u>\" pada semua target serangan.",
+		"AbridgedEffect": "Setiap lapis \"<u>Reverse Critical Boost</u>\" yang dipicu mengakibatkan ekstra DMG. Setelah melancarkan Serangan Ultimate, menambahkan ekstra \"<u>Reverse Critical Boost</u>\" pada semua target serangan.",
+		"VersionAdded": "4.1"
+	},
+	"678850": {
+		"Id": "678850",
+		"Name": "Cosmic Bakery",
+		"Rarity": 1,
+		"Effect": "\"<u>Blazar</u>\" DMG yang diakibatkan rekan tim meningkat <color=#f29e38ff>75%</color>. Setelah melancarkan Ultimate, mengisi Charge \"<u>Blazar</u>\" sebesar <color=#f29e38ff>35%</color> Max HP.",
+		"AbridgedEffect": "\"<u>Blazar</u>\" DMG yang diakibatkan rekan tim meningkat. Setelah melancarkan Ultimate, mengisi Charge \"<u>Blazar</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678860": {
+		"Id": "678860",
+		"Name": "Self-Contemplating Scholar",
+		"Rarity": 1,
+		"Effect": "CRIT DMG dari Ultimate DMG rekan tim meningkat <color=#f29e38ff>75%</color>. Setelah \"<u>Dealer</u>\" melakukan aksi, mengisi Charge \"<u>Brain in a Vat</u>\" sebesar <color=#f29e38ff>5%</color> pada karakter tim.",
+		"AbridgedEffect": "Meningkatkan CRIT DMG dari Ultimate DMG rekan tim, setelah \"<u>Dealer</u>\" melakukan aksi, akan mengisi Charge \"<u>Brain in a Vat</u>\" kepada karakter tim.",
+		"VersionAdded": "4.1"
+	},
+	"678870": {
+		"Id": "678870",
+		"Name": "Card Game Rookie",
+		"Rarity": 1,
+		"Effect": "Setiap kali rekan tim mengonsumsi 1 Poin Skill, Ultimate DMG yang diakibatkan akan meningkat <color=#f29e38ff>65%</color>, maksimal meningkat hingga <color=#f29e38ff>130%</color>, berlangsung hingga setelah pelancaran Ultimate.",
+		"AbridgedEffect": "Semakin banyak Poin Skill yang dikonsumsi rekan tim, maka semakin tinggi Ultimate DMG yang diakibatkan.",
+		"VersionAdded": "4.1"
+	},
+	"678910": {
+		"Id": "678910",
+		"Name": "Homeland Rebuilder",
+		"Rarity": 1,
+		"Effect": "Setiap lapis \"<u>Obsession</u>\" akan membuat Break Effect meningkat <color=#f29e38ff>0.8%</color>, dan Break Effect Memosprite meningkat ekstra <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "\"<u>Obsession</u>\" akan meningkatkan Break Effect, dan Break Effect Memosprite akan meningkat ekstra.",
+		"VersionAdded": "4.1"
+	},
+	"678920": {
+		"Id": "678920",
+		"Name": "Encounter With a Miracle Doctor",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim melancarkan serangan untuk membuat target musuh memasuki status Debuff, akan menambahkan <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\" pada target musuh. Jika target berstatus Weakness Break, maka penambahan jumlah lapisan yang diperolehnya akan menjadi dua kali lipat.",
+		"AbridgedEffect": "Saat menyerang dan membuat musuh memasuki status Debuff, akan menambahkan \"<u>Harmonize</u>\". Jumlah lapisan yang ditambahkan pada musuh berstatus Weakness Break akan jadi dua kali lipat.",
+		"VersionAdded": "4.1"
+	},
+	"678940": {
+		"Id": "678940",
+		"Name": "Knights of Arcadia",
+		"Rarity": 1,
+		"Effect": "DMG Multiplier \"<u>Harmonize</u>\" meningkat <color=#f29e38ff>50%</color> dari Multiplier aslinya. Setelah rekan tim melancarkan Serangan Lanjutan, akan menambahkan <color=#f29e38ff>1</color> lapis \"<u>Harmonize</u>\" pada target.",
+		"AbridgedEffect": "\"<u>Harmonize</u>\" DMG meningkat. Setelah rekan tim melancarkan Serangan Lanjutan, akan menambahkan \"<u>Harmonize</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678970": {
+		"Id": "678970",
+		"Name": "Particle Annihilation Force",
+		"Rarity": 1,
+		"Effect": "Saat rekan tim melancarkan Basic Attack/Skill, mengabaikan <color=#f29e38ff>20%</color> RES seluruh Tipe milik target musuh. Setelah menyerang dengan melancarkan Basic Attack/Skill, mengabaikan Tipe Weakness dan mengurangi <color=#f29e38ff>15</color> poin Toughness target musuh secara tetap.",
+		"AbridgedEffect": "Saat rekan tim melancarkan Basic Attack/Skill, mengabaikan sejumlah RES Seluruh Tipe milik target musuh. Setelah menyerang dengan melancarkan Basic Attack/Skill, mengabaikan Tipe Weakness dan mengurangi Toughness target musuh dalam jumlah tetap.",
+		"VersionAdded": "4.1"
 	}
 }

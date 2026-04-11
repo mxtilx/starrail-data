@@ -7709,6 +7709,67 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"23056": {
+		"Id": "23056",
+		"Name": "Màn Kết Của Một Lời Nói Dối",
+		"PathType": "Rogue",
+		"PathTypeText": "Săn Bắn",
+		"EffectName": "Nuốt Chửng",
+		"EffectTemplate": "Tỷ Lệ Bạo Kích của người trang bị tăng <color=#f29e38ff>#1[i]%</color>. Khi bắt đầu chiến đấu hoặc mỗi khi người trang bị tích lũy thi triển #2[i] lần Đòn Đánh Theo Sau, sẽ khiến người trang bị nhận \"Nuốt Ảnh\", duy trì #3[i] hiệp. Khi người trang bị sở hữu \"Nuốt Ảnh\", Tấn Công tăng <color=#f29e38ff>#4[i]%</color>, đồng thời khiến sát thương phải chịu của toàn bộ phe địch tăng <color=#f29e38ff>#5[i]%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+		"Superimpositions": [
+			{
+				"Effect": "Tỷ Lệ Bạo Kích của người trang bị tăng <color=#f29e38ff>18%</color>. Khi bắt đầu chiến đấu hoặc mỗi khi người trang bị tích lũy thi triển 4 lần Đòn Đánh Theo Sau, sẽ khiến người trang bị nhận \"Nuốt Ảnh\", duy trì 3 hiệp. Khi người trang bị sở hữu \"Nuốt Ảnh\", Tấn Công tăng <color=#f29e38ff>40%</color>, đồng thời khiến sát thương phải chịu của toàn bộ phe địch tăng <color=#f29e38ff>20%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.18,
+					4,
+					3,
+					0.4,
+					0.2
+				]
+			},
+			{
+				"Effect": "Tỷ Lệ Bạo Kích của người trang bị tăng <color=#f29e38ff>21%</color>. Khi bắt đầu chiến đấu hoặc mỗi khi người trang bị tích lũy thi triển 4 lần Đòn Đánh Theo Sau, sẽ khiến người trang bị nhận \"Nuốt Ảnh\", duy trì 3 hiệp. Khi người trang bị sở hữu \"Nuốt Ảnh\", Tấn Công tăng <color=#f29e38ff>50%</color>, đồng thời khiến sát thương phải chịu của toàn bộ phe địch tăng <color=#f29e38ff>22%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.21,
+					4,
+					3,
+					0.5,
+					0.225
+				]
+			},
+			{
+				"Effect": "Tỷ Lệ Bạo Kích của người trang bị tăng <color=#f29e38ff>24%</color>. Khi bắt đầu chiến đấu hoặc mỗi khi người trang bị tích lũy thi triển 4 lần Đòn Đánh Theo Sau, sẽ khiến người trang bị nhận \"Nuốt Ảnh\", duy trì 3 hiệp. Khi người trang bị sở hữu \"Nuốt Ảnh\", Tấn Công tăng <color=#f29e38ff>60%</color>, đồng thời khiến sát thương phải chịu của toàn bộ phe địch tăng <color=#f29e38ff>25%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.24,
+					4,
+					3,
+					0.6,
+					0.25
+				]
+			},
+			{
+				"Effect": "Tỷ Lệ Bạo Kích của người trang bị tăng <color=#f29e38ff>27%</color>. Khi bắt đầu chiến đấu hoặc mỗi khi người trang bị tích lũy thi triển 4 lần Đòn Đánh Theo Sau, sẽ khiến người trang bị nhận \"Nuốt Ảnh\", duy trì 3 hiệp. Khi người trang bị sở hữu \"Nuốt Ảnh\", Tấn Công tăng <color=#f29e38ff>70%</color>, đồng thời khiến sát thương phải chịu của toàn bộ phe địch tăng <color=#f29e38ff>27%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.27,
+					4,
+					3,
+					0.7,
+					0.275
+				]
+			},
+			{
+				"Effect": "Tỷ Lệ Bạo Kích của người trang bị tăng <color=#f29e38ff>30%</color>. Khi bắt đầu chiến đấu hoặc mỗi khi người trang bị tích lũy thi triển 4 lần Đòn Đánh Theo Sau, sẽ khiến người trang bị nhận \"Nuốt Ảnh\", duy trì 3 hiệp. Khi người trang bị sở hữu \"Nuốt Ảnh\", Tấn Công tăng <color=#f29e38ff>80%</color>, đồng thời khiến sát thương phải chịu của toàn bộ phe địch tăng <color=#f29e38ff>30%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.3,
+					4,
+					3,
+					0.8,
+					0.3
+				]
+			}
+		],
+		"VersionAdded": "4.1"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Sự Sụp Đổ Của Aeon",
@@ -8054,5 +8115,56 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"24006": {
+		"Id": "24006",
+		"Name": "Chúc Phúc Tràn Đầy Vui Vẻ",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"EffectName": "Mở Đầu",
+		"EffectTemplate": "Khiến Tấn Công của người trang bị tăng <color=#f29e38ff>#1[i]%</color>. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng <color=#f29e38ff>#2[i]%</color>, duy trì #3[i] hiệp.",
+		"Superimpositions": [
+			{
+				"Effect": "Khiến Tấn Công của người trang bị tăng <color=#f29e38ff>20%</color>. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng <color=#f29e38ff>12%</color>, duy trì 2 hiệp.",
+				"Params": [
+					0.2,
+					0.12,
+					2
+				]
+			},
+			{
+				"Effect": "Khiến Tấn Công của người trang bị tăng <color=#f29e38ff>25%</color>. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng <color=#f29e38ff>15%</color>, duy trì 2 hiệp.",
+				"Params": [
+					0.25,
+					0.15,
+					2
+				]
+			},
+			{
+				"Effect": "Khiến Tấn Công của người trang bị tăng <color=#f29e38ff>30%</color>. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng <color=#f29e38ff>18%</color>, duy trì 2 hiệp.",
+				"Params": [
+					0.3,
+					0.18,
+					2
+				]
+			},
+			{
+				"Effect": "Khiến Tấn Công của người trang bị tăng <color=#f29e38ff>35%</color>. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng <color=#f29e38ff>21%</color>, duy trì 2 hiệp.",
+				"Params": [
+					0.35,
+					0.21,
+					2
+				]
+			},
+			{
+				"Effect": "Khiến Tấn Công của người trang bị tăng <color=#f29e38ff>40%</color>. Sau khi người trang bị thi triển Chiến Kỹ hoặc Tuyệt Kỹ lên 1 nhân vật phe ta, sẽ khiến Độ Vui Vẻ của mục tiêu tăng <color=#f29e38ff>24%</color>, duy trì 2 hiệp.",
+				"Params": [
+					0.4,
+					0.24,
+					2
+				]
+			}
+		],
+		"VersionAdded": "4.1"
 	}
 }

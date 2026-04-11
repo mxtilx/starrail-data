@@ -1,61 +1,61 @@
 {
 	"Warrior": {
 		"Id": "Warrior",
-		"Name": "A Destruição",
-		"Description": "Causa <color=#f29e38ff>Dano</color> extraordinário e melhora sua <color=#f29e38ff>capacidade de sobrevivência</color>. Excelente para diferentes cenários de combate.",
+		"Name": "ทำลายล้าง",
+		"Description": "มีความสามารถในการ<color=#f29e38ff>สร้าง DMG และอยู่รอด</color>ที่ไม่ธรรมดา และสามารถปรับตัวให้เข้ากับสภาพการต่อสู้แบบต่างๆ ได้",
 		"VersionAdded": "1.0"
 	},
 	"Rogue": {
 		"Id": "Rogue",
-		"Name": "A Caça",
-		"Description": "Causa uma quantidade extraordinária de <color=#f29e38ff>Dano a um único alvo</color>. A melhor maneira de causar Dano a Inimigos de Elite.",
+		"Name": "ล่าสังหาร",
+		"Description": "มีความสามารถในการ<color=#f29e38ff>โจมตีเดี่ยว</color>ที่ไม่ธรรมดา และเป็นกำลังหลักในการเอาชนะศัตรูระดับสูง",
 		"VersionAdded": "1.0"
 	},
 	"Mage": {
 		"Id": "Mage",
-		"Name": "A Erudição",
-		"Description": "Causa um poderoso <color=#f29e38ff>Dano a vários alvos</color>. A melhor maneira de causar Dano a grupos de inimigos.",
+		"Name": "ปัญญา",
+		"Description": "มีความสามารถในการ<color=#f29e38ff>โจมตีกลุ่ม</color>ที่โดดเด่น สามารถจัดการกับศัตรูได้หลายตัวในคราวเดียว",
 		"VersionAdded": "1.0"
 	},
 	"Shaman": {
 		"Id": "Shaman",
-		"Name": "A Harmonia",
-		"Description": "Aplica <color=#f29e38ff>melhorias</color> em aliados para aprimorar as capacidades de combate da equipe.",
+		"Name": "ประสาน",
+		"Description": "สามารถสร้าง<color=#f29e38ff>เอฟเฟกต์ Buff</color> ให้กับฝ่ายตัวเอง เพื่อยกระดับพลังต่อสู้โดยรวมให้กับทีม",
 		"VersionAdded": "1.0"
 	},
 	"Warlock": {
 		"Id": "Warlock",
-		"Name": "A Inexistência",
-		"Description": "Aplica <color=#f29e38ff>penalidades</color> em inimigos para reduzir as capacidades de combate deles.",
+		"Name": "ลบล้าง",
+		"Description": "สามารถสร้าง<color=#f29e38ff>เอฟเฟกต์ Debuff</color> แก่ฝ่ายศัตรู เพื่อลดพลังต่อสู้ของศัตรูและชิงความได้เปรียบ",
 		"VersionAdded": "1.0"
 	},
 	"Knight": {
 		"Id": "Knight",
-		"Name": "A Preservação",
-		"Description": "Possui habilidades <color=#f29e38ff>defensivas</color> poderosas para proteger aliados de muitas formas.",
+		"Name": "อนุรักษ์",
+		"Description": "มีความสามารถในการ<color=#f29e38ff>ป้องกัน</color>ที่แข็งแกร่ง และสามารถปกป้องเพื่อนร่วมทีมได้ด้วยวิธีการต่างๆ",
 		"VersionAdded": "1.0"
 	},
 	"Priest": {
 		"Id": "Priest",
-		"Name": "A Abundância",
-		"Description": "<color=#f29e38ff>Cura</color> aliados e restaura PV da equipe.",
+		"Name": "เฟื่องฟู",
+		"Description": "สามารถ<color=#f29e38ff>รักษา</color>ฝ่ายตัวเอง และฟื้นฟูพลังให้กับทีมได้",
 		"VersionAdded": "1.0"
 	},
 	"Memory": {
 		"Id": "Memory",
-		"Name": "A Recordação",
-		"Description": "Possui a habilidade de invocar um Memoespírito com <color=#f29e38ff>habilidades especiais</color> para lutar ao lado da equipe em batalha.",
+		"Name": "ความทรงจำ",
+		"Description": "สามารถอัญเชิญภูตความทรงจำที่มี<color=#f29e38ff>ทักษะพิเศษ</color> เพื่อมาต่อสู้เคียงบ่าเคียงไหล่กับทีมได้",
 		"VersionAdded": "3.1"
 	},
 	"Elation": {
 		"Id": "Elation",
-		"Name": "A Euforia",
-		"Description": "Elabore diferentes tipos de <color=#f29e38ff>piadas</color> para atrair Aha a <color=#f29e38ff>juntar-se à folia</color>.",
+		"Name": "ปิติสุข",
+		"Description": "ใช้วิธีของตัวเองสร้าง <color=#f29e38ff>เรื่องขำขัน</color> ต่างๆ นานา เพื่อดึงดูดให้เทพดารา Aha มา<color=#f29e38ff>สนุกสุดเหวี่ยงด้วยกัน</color>",
 		"VersionAdded": "4.0"
 	},
 	"undefined": {
 		"Id": "undefined",
-		"Name": "Geral",
+		"Name": "ทั่วไป",
 		"VersionAdded": "3.1"
 	}
 }

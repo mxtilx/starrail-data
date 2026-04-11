@@ -38887,7 +38887,7 @@
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
 			"EffectRaw": "Erzeugt ein Kraftfeld, das <unbreak>#1[i]</unbreak> Rd. anhält. Zu Beginn jeder Runde dieser Einheit wird die Dauer des Kraftfelds um 1 Runde verringert. Während das Kraftfeld aktiv ist, wird das Hochgefühl aller Verbündeten um <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> von Yao Guangs Hochgefühl erhöht. Außerdem erhält Yao Guang nach dem Einsatz von Standardangriffen oder Fertigkeiten <unbreak>#3[i]</unbreak> <u>Lachpunkte</u>.",
-			"AbridgedEffect": "Erzeugt ein Kraftfeld, das das Hochgefühl aller Verbündeten erhöht. Nach dem Einsatz von Yao Guangs Standardangriffen oder Fertigkeiten erhält sie <u>Lachpunkte</u>.",
+			"AbridgedEffect": "Erzeugt ein Kraftfeld, das <color=#f29e38ff>das Hochgefühl aller Verbündeten erhöht</color>. Nach dem Einsatz von Yao Guangs Standardangriffen oder Fertigkeiten <color=#f29e38ff>erhält sie <u>Lachpunkte</u></color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39006,7 +39006,7 @@
 			"SkillTypeText": "Ultimate",
 			"MaxLevel": 15,
 			"EffectRaw": "Erhält <unbreak>#1[i]</unbreak> <u>Lachpunkte</u>. Gewährt <u>Aha</u> sofort 1 <u>zusätzliche Runde</u>, in der eine feste Anzahl von <unbreak>#4[i]</unbreak> <u>Lachpunkten</u> angerechnet wird. In dieser Runde werden keine <u>Lachpunkte</u> verbraucht. Erhöht außerdem die <u>WDS-DUR</u> aller Typen aller Verbündeten für <unbreak>#3[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>.",
-			"AbridgedEffect": "Erhält <u>Lachpunkte</u>. Gewährt <u>Aha</u> sofort 1 <u>zusätzliche Runde</u>, in der eine feste Anzahl von <u>Lachpunkten</u> angerechnet wird. Erhöht außerdem die <u>WDS-DUR</u> aller Typen aller Verbündeten.",
+			"AbridgedEffect": "<color=#f29e38ff>Erhält <u>Lachpunkte</u></color>. Gewährt <color=#f29e38ff><u>Aha</u></color> sofort 1 <color=#f29e38ff><u>zusätzliche Runde</u></color>, in der eine feste Anzahl von <u>Lachpunkten</u> angerechnet wird. Erhöht außerdem die <u>WDS-DUR</u> aller Typen aller Verbündeten.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39155,7 +39155,7 @@
 			"SkillTypeText": "Talent",
 			"MaxLevel": 15,
 			"EffectRaw": "Wenn Yao Guang <u>Verdiente Leistung</u> besitzt:\nLöst den Effekt „Großer Segen“ nach Angriffen der Verbündeten aus, wobei einem zufällig getroffenen Ziel zusätzlich 1-mal <u>Hochgefühl-SCH</u> des entsprechenden Typs in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> zugefügt wird. Wenn bei diesem Angriff Fertigkeitspunkte verbraucht werden, wird der Effekt Großer Segen 1-mal zusätzlich ausgelöst.\nWenn beim Auslösen des Effekts Großer Segen das Hochgefühl des Angreifers niedriger ist als das von Yao Guang, wird dieser <u>Hochgefühl-SCH</u> mit Yao Guangs Hochgefühl berechnet.\nDas Auslösen des Effekts Großer Segen wird nicht als Angriff gewertet.",
-			"AbridgedEffect": "Wenn Yao Guang <u>Verdiente Leistung</u> besitzt, wird der Effekt „Großer Segen“ nach Angriffen der Verbündeten ausgelöst: Fügt einem zufällig getroffenen Ziel zusätzlich 1-mal geringen <u>Hochgefühl-SCH</u> des entsprechenden Typs zu. Wenn bei diesem Angriff Fertigkeitspunkte verbraucht werden, wird dieser Effekt 1-mal zusätzlich ausgelöst. Dieser Effekt wird nicht als Angriff gewertet.",
+			"AbridgedEffect": "Wenn Yao Guang <u>Verdiente Leistung</u> besitzt, wird der Effekt „Großer Segen“ nach Angriffen der Verbündeten ausgelöst: Fügt einem zufällig getroffenen Ziel <color=#f29e38ff>zusätzlich</color> 1-mal geringen <color=#f29e38ff><u>Hochgefühl-SCH</u></color> des entsprechenden Typs zu. Wenn bei diesem Angriff Fertigkeitspunkte verbraucht werden, wird dieser Effekt 1-mal zusätzlich ausgelöst. Dieser Effekt wird nicht als Angriff gewertet.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39255,6 +39255,562 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1502/SkillIcon_1502_Maze.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"BasicATK": {
+			"Id": "150401",
+			"Name": "Klauen: Lehrer der Etikette",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Ashveils ANG zu.",
+			"AbridgedEffect": "Fügt einem anvisierten Gegner geringen Blitz-SCH zu.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png"
+		},
+		"Skill": {
+			"Id": "150402",
+			"Name": "Peitschenknall: Vertreiben der Bestien",
+			"TriggerKey": "Skill02",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Fertigkeit",
+			"MaxLevel": 15,
+			"EffectRaw": "Markiert einen anvisierten Gegner als „Köder“ und fügt ihm Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Ashveils ANG zu. Ist das Ziel bereits als Köder markiert, wird ihm zusätzlich Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> von Ashveils ANG zugefügt und <unbreak>#5[i]</unbreak> Fertigkeitspunkt wiederhergestellt. Wenn sich ein Köder auf dem Kampffeld befindet, wird die VTD aller Gegner um <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> reduziert.\nWenn sich kein Köder auf dem Kampffeld befindet, markiert Ashveil sofort den Gegner mit den aktuell niedrigsten LP auf dem Kampffeld als Köder. Der Status Köder gilt nur für das zuletzt belegte Ziel.",
+			"AbridgedEffect": "Markiert einen anvisierten Gegner als „Köder“ und fügt ihm massiven Blitz-SCH zu. Ist das Ziel bereits als Köder markiert, wird ihm zusätzlich geringer Blitz-SCH zugefügt und <color=#f29e38ff><unbreak>#5[i]</unbreak></color> Fertigkeitspunkt wiederhergestellt. Wenn sich ein Köder auf dem Kampffeld befindet, wird die <color=#f29e38ff>VTD aller Gegner reduziert</color>.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1,
+						0.5,
+						0.2,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.1,
+						1,
+						0.55,
+						0.22,
+						1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.2,
+						1,
+						0.6,
+						0.24,
+						1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.3,
+						1,
+						0.65,
+						0.26,
+						1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.4,
+						1,
+						0.7,
+						0.28,
+						1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.5,
+						1,
+						0.75,
+						0.3,
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.625,
+						1,
+						0.8125,
+						0.325,
+						1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.75,
+						1,
+						0.875,
+						0.35,
+						1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.875,
+						1,
+						0.9375,
+						0.375,
+						1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						1,
+						1,
+						0.4,
+						1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2.1,
+						1,
+						1.05,
+						0.42,
+						1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2.2,
+						1,
+						1.1,
+						0.44,
+						1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2.3,
+						1,
+						1.15,
+						0.46,
+						1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2.4,
+						1,
+						1.2,
+						0.48,
+						1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2.5,
+						1,
+						1.25,
+						0.5,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150403",
+			"Name": "Festmahl: Anfang ohne Ende",
+			"TriggerKey": "Skill03",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Markiert einen anvisierten Gegner als „Köder“ und fügt ihm Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Ashveils ANG zu. Löst anschließend sofort 1-mal den verstärkten <u>Folgeangriff</u> des Talents gegen den Köder aus und Ashveil erhält <unbreak>#2[i]</unbreak> Pkt. Aufladung.\nDer verstärkte <u>Folgeangriff</u> des Talents verbraucht keine Aufladung. Jedes Mal, wenn „Völlerei“ <unbreak>#3[i]</unbreak> oder mehr Stapelungen erreicht, werden <unbreak>#3[i]</unbreak> Stapelungen Völlerei verbraucht, um zusätzlich 1-mal Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> von Ashveils ANG zu verursachen. Wenn das Ziel während dieses <u>Folgeangriffs</u> einen Todesstoß erleidet, wird weiterhin einem neuen Köder SCH zugefügt, bis die Stapelzahl von Völlerei unter <unbreak>#3[i]</unbreak> fällt. Wenn alle Gegner auf dem Kampffeld einen Todesstoß erlitten haben, endet der verstärkte <u>Folgeangriff</u> des Talents sofort.",
+			"AbridgedEffect": "Markiert einen anvisierten Gegner als „Köder“ und fügt ihm massiven Blitz-SCH zu. Löst anschließend sofort 1-mal den verstärkten <color=#f29e38ff><u>Folgeangriff</u></color> des Talents <color=#f29e38ff>gegen den Köder</color> aus und Ashveil erhält Aufladung.\nDer verstärkte <u>Folgeangriff</u> des Talents verbraucht keine Aufladung. Jedes Mal, wenn „Völlerei“ <color=#f29e38ff><unbreak>#3[i]</unbreak></color> oder mehr Stapelungen erreicht, werden <color=#f29e38ff><unbreak>#3[i]</unbreak></color> Stapelungen Völlerei verbraucht, um zusätzlich massiven Blitz-SCH zu verursachen. Wenn das Ziel während dieses <u>Folgeangriffs</u> einen Todesstoß erleidet, wird <color=#f29e38ff>weiterhin einem neuen Köder</color> SCH zugefügt, bis die Stapelzahl von Völlerei unter <color=#f29e38ff><unbreak>#3[i]</unbreak></color> fällt.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						4,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2.2,
+						3,
+						4,
+						1.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2.4,
+						3,
+						4,
+						1.2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2.6,
+						3,
+						4,
+						1.3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.8,
+						3,
+						4,
+						1.4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						3,
+						3,
+						4,
+						1.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						3.25,
+						3,
+						4,
+						1.625
+					]
+				},
+				"8": {
+					"EffectValues": [
+						3.5,
+						3,
+						4,
+						1.75
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.75,
+						3,
+						4,
+						1.875
+					]
+				},
+				"10": {
+					"EffectValues": [
+						4,
+						3,
+						4,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						4.2,
+						3,
+						4,
+						2.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						4.4,
+						3,
+						4,
+						2.2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						4.6,
+						3,
+						4,
+						2.3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						4.8,
+						3,
+						4,
+						2.4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						5,
+						3,
+						4,
+						2.5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150404",
+			"Name": "Groll: Vergeltung verübt",
+			"TriggerKey": "SkillP01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Ashveil verfügt zu Beginn über <unbreak>#1[i]</unbreak> Pkt. Aufladung, bis zu <unbreak>#2[i]</unbreak> Pkt. Nachdem der „Köder“ von einem anderen Verbündeten angegriffen wurde, stellt Ashveil eine feste Anzahl von <unbreak>#7[i]</unbreak> Pkt. Energie wieder her und verbraucht anschließend <unbreak>#3[i]</unbreak> Pkt. Aufladung, um einen <u>Folgeangriff</u> auf den Köder auszuführen, der Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> von Ashveils ANG verursacht. Danach erhält Ashveil <unbreak>#5[i]</unbreak> Stapelungen „Völlerei“, bis zu <unbreak>#6[i]</unbreak> Stapelungen.",
+			"AbridgedEffect": "Nachdem der „Köder“ <color=#f29e38ff>von einem anderen Verbündeten angegriffen wurde</color>, stellt Ashveil eine feste Menge Energie wieder her und verbraucht anschließend Aufladung, um <color=#f29e38ff>einen <u>Folgeangriff</u> auf den Köder auszuführen</color>, der massiven Blitz-SCH verursacht. Erhält danach <color=#f29e38ff><unbreak>#5[i]</unbreak></color> Stapelungen „Völlerei“.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1,
+						2,
+						12,
+						8
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.1,
+						2,
+						12,
+						8
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.2,
+						2,
+						12,
+						8
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.3,
+						2,
+						12,
+						8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.4,
+						2,
+						12,
+						8
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.5,
+						2,
+						12,
+						8
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.625,
+						2,
+						12,
+						8
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.75,
+						2,
+						12,
+						8
+					]
+				},
+				"9": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.875,
+						2,
+						12,
+						8
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2,
+						2,
+						12,
+						8
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.1,
+						2,
+						12,
+						8
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.2,
+						2,
+						12,
+						8
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.3,
+						2,
+						12,
+						8
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.4,
+						2,
+						12,
+						8
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.5,
+						2,
+						12,
+						8
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png"
+		},
+		"Technique": {
+			"Id": "150407",
+			"Name": "Friss: Abscheuliche Hand",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Impair",
+			"TagTypeText": "Beeinträchtigung",
+			"SkillTypeText": "Technik",
+			"MaxLevel": 1,
+			"EffectRaw": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich für <unbreak>#1[i]</unbreak> Sek. von Schwindel betroffen und können Verbündeten nicht aktiv angreifen.\nNach Kampfeintritt mit einem aktiven Angriff auf von Schwindel betroffene Gegner wird allen Gegnern Blitz-SCH in Höhe von <unbreak>#2[i]%</unbreak> von Ashveils ANG zugefügt und Ashveil erhält <unbreak>#3[i]</unbreak> Pkt. Aufladung.",
+			"AbridgedEffect": "Verursacht bei Gegnern in einem bestimmten Bereich Schwindel. Fügt beim Angriff eines von Schwindel betroffenen Gegners nach Kampfeintritt allen Gegnern geringen Blitz-SCH zu und Ashveil erhält <color=#f29e38ff><unbreak>#3[i]</unbreak></color> Pkt. Aufladung.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						1,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

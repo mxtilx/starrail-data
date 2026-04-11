@@ -38887,7 +38887,7 @@
 			"SkillTypeText": "戦闘スキル",
 			"MaxLevel": 15,
 			"EffectRaw": "<unbreak>#1[i]</unbreak>ターン継続する結界を展開する。爻光のターンが回ってくるたびに結界の継続時間-1ターン。結界が展開されている間、味方全体の愉悦度を、爻光の愉悦度の<color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>分アップさせる。爻光が通常攻撃、戦闘スキルを発動した後、<u>爆笑ネタ</u>を<unbreak>#3[i]</unbreak>個獲得する。",
-			"AbridgedEffect": "結界を展開し、味方全体の愉悦度をアップさせる。爻光が通常攻撃または戦闘スキルを発動した後、<u>爆笑ネタ</u>を獲得する。",
+			"AbridgedEffect": "結界を展開し、味方全体の<color=#f29e38ff>愉悦度をアップさせる</color>。爻光が通常攻撃または戦闘スキルを発動した後、<color=#f29e38ff><u>爆笑ネタ</u>を獲得する</color>。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39006,7 +39006,7 @@
 			"SkillTypeText": "必殺技",
 			"MaxLevel": 15,
 			"EffectRaw": "<u>爆笑ネタ</u>を<unbreak>#1[i]</unbreak>個獲得する。<u>アッハ</u>は<u>爆笑ネタ</u>が固定で<unbreak>#4[i]</unbreak>個カウントされる<u>追加ターン</u>を即座に1ターン獲得する。なお、このターンでは<u>爆笑ネタ</u>が消費されない。また、味方全体の全属性<u>耐性貫通</u>+<color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>、<unbreak>#3[i]</unbreak>ターン継続。",
-			"AbridgedEffect": "<u>爆笑ネタ</u>を獲得する。<u>アッハ</u>が即座に、一定数の<u>爆笑ネタ</u>がカウントされる<u>追加ターン</u>を1ターン獲得し、味方全体の全属性<u>耐性貫通</u>をアップさせる。",
+			"AbridgedEffect": "<color=#f29e38ff><u>爆笑ネタ</u>を獲得する</color>。<color=#f29e38ff><u>アッハ</u></color>が即座に、一定数の<u>爆笑ネタ</u>がカウントされる<color=#f29e38ff><u>追加ターン</u></color>を1ターン獲得し、味方全体の全属性<u>耐性貫通</u>をアップさせる。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39155,7 +39155,7 @@
 			"SkillTypeText": "天賦",
 			"MaxLevel": 15,
 			"EffectRaw": "爻光が「<u>爆笑の褒美</u>」を持つ時、以下の効果を獲得する。\n味方が攻撃を行った後「大吉大利」効果を発動する。\n「大吉大利」：攻撃が命中したランダムな敵単体に追加で<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>分の対応する属性の<u>愉悦ダメージ</u>を1回与える。また、その回の攻撃でSPを消費した場合、さらに「大吉大利」の効果を1回発動する。\n「大吉大利」の効果を発動する時、攻撃者の愉悦度が爻光より低い場合、その回の<u>愉悦ダメージ</u>は爻光の愉悦度で計算される。\n「大吉大利」の効果は攻撃を1回発動したと見なされない。",
-			"AbridgedEffect": "爻光が「<u>爆笑の褒美</u>」を持つ時、味方が攻撃を行った後「大吉大利」効果を発動する。\n「大吉大利」：攻撃が命中したランダムな敵単体にさらに1回対応する属性の少量の<u>愉悦ダメージ</u>を与える。その回の攻撃でSPを消費した場合、さらにこの効果を1回発動する。この効果は攻撃を1回発動したと見なされない。",
+			"AbridgedEffect": "爻光が「<u>爆笑の褒美</u>」を持つ時、味方が攻撃を行った後「大吉大利」効果を発動する。\n「大吉大利」：攻撃が命中したランダムな敵単体に<color=#f29e38ff>さらに</color>1回対応する属性の少量の<color=#f29e38ff><u>愉悦ダメージ</u></color>を与える。その回の攻撃でSPを消費した場合、さらにこの効果を1回発動する。この効果は攻撃を1回発動したと見なされない。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39255,6 +39255,562 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1502/SkillIcon_1502_Maze.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "{RUBY_B#しなず}不死途{RUBY_E#}",
+		"BasicATK": {
+			"Id": "150401",
+			"Name": "{RUBY_B#するど}鋭{RUBY_E#}き{RUBY_B#つめ}爪{RUBY_E#}よ、{RUBY_B#れいぎ}礼儀{RUBY_E#}を{RUBY_B#さず}授{RUBY_E#}けよ",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "指定した敵単体に不死途の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。",
+			"AbridgedEffect": "指定した敵単体に少量の雷属性ダメージを与える。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png"
+		},
+		"Skill": {
+			"Id": "150402",
+			"Name": "{RUBY_B#むち}鞭{RUBY_E#}と{RUBY_B#ふえ}笛{RUBY_E#}よ、{RUBY_B#あくじゅう}悪獣{RUBY_E#}を{RUBY_B#しりぞ}退{RUBY_E#}けよ",
+			"TriggerKey": "Skill02",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "戦闘スキル",
+			"MaxLevel": 15,
+			"EffectRaw": "指定した敵単体を「餌食」にし、不死途の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。ターゲットが「餌食」の場合、さらに不死途の攻撃力<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の雷属性ダメージを与え、SPを<unbreak>#5[i]</unbreak>回復する。フィールド上に「餌食」が存在する時、敵全体の防御力-<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>。\nフィールド上に「餌食」が存在しない場合、不死途は即座にフィールド上にいる残りHPが最も低い敵単体を「餌食」にする。「餌食」状態は最後に付与したターゲットにのみ有効。",
+			"AbridgedEffect": "指定した敵単体を「餌食」にし、大量の雷属性ダメージを与える。ターゲットが「餌食」の場合、さらに少量の雷属性ダメージを与え、SPを<color=#f29e38ff><unbreak>#5[i]</unbreak></color>回復する。フィールド上に「餌食」が存在する時、敵全体の<color=#f29e38ff>防御力がダウンする</color>。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1,
+						0.5,
+						0.2,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.1,
+						1,
+						0.55,
+						0.22,
+						1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.2,
+						1,
+						0.6,
+						0.24,
+						1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.3,
+						1,
+						0.65,
+						0.26,
+						1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.4,
+						1,
+						0.7,
+						0.28,
+						1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.5,
+						1,
+						0.75,
+						0.3,
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.625,
+						1,
+						0.8125,
+						0.325,
+						1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.75,
+						1,
+						0.875,
+						0.35,
+						1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.875,
+						1,
+						0.9375,
+						0.375,
+						1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						1,
+						1,
+						0.4,
+						1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2.1,
+						1,
+						1.05,
+						0.42,
+						1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2.2,
+						1,
+						1.1,
+						0.44,
+						1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2.3,
+						1,
+						1.15,
+						0.46,
+						1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2.4,
+						1,
+						1.2,
+						0.48,
+						1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2.5,
+						1,
+						1.25,
+						0.5,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150403",
+			"Name": "{RUBY_B#きょうえん}饗宴{RUBY_E#}の{RUBY_B#まく}幕{RUBY_E#}、{RUBY_B#ひら}開{RUBY_E#}けば{RUBY_B#と}閉{RUBY_E#}じず",
+			"TriggerKey": "Skill03",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "指定した敵単体を「餌食」にし、不死途の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。その後、「餌食」に対し、即座に強化された天賦による<u>追加攻撃</u>を1回行い、不死途はチャージを<unbreak>#2[i]</unbreak>獲得する。この回の強化された天賦による<u>追加攻撃</u>はチャージを消費しない。\nこの時、所持している「暴食」が<unbreak>#3[i]</unbreak>層以上である限り、「暴食」を<unbreak>#3[i]</unbreak>層消費し、追加で不死途の攻撃力<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>分の雷属性ダメージを1回与える。\nまた、この回の<u>追加攻撃</u>の発動中、ターゲットにHPが0になる攻撃を与えた時、所持している「暴食」が<unbreak>#3[i]</unbreak>層未満になるまで、不死途は新しく「餌食」となった敵に、引き続きダメージを与える。フィールド上にいるすべての敵がHPが0になる攻撃を受けた後、強化された天賦による<u>追加攻撃</u>は即座に終了する。",
+			"AbridgedEffect": "指定した敵単体を「餌食」にし、大量の雷属性ダメージを与える。その後<color=#f29e38ff>「餌食」に対し、即座に</color>強化された天賦による<color=#f29e38ff><u>追加攻撃</u></color>を1回行い、不死途はチャージを獲得する。この回の強化された天賦による<u>追加攻撃</u>はチャージを消費しない。\n所持している「暴食」が<color=#f29e38ff><unbreak>#3[i]</unbreak></color>層以上である限り、「暴食」を<unbreak>#3[i]</unbreak>層消費し、追加で大量の雷属性ダメージを1回与える。\nまた、この回の<u>追加攻撃</u>の発動中、ターゲットにHPが0になる攻撃を与えた時、所持している「暴食」が<color=#f29e38ff><unbreak>#3[i]</unbreak></color>層未満になるまで、不死途は<color=#f29e38ff>新しく「餌食」となった敵に、引き続き</color>ダメージを与える。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						4,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2.2,
+						3,
+						4,
+						1.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2.4,
+						3,
+						4,
+						1.2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2.6,
+						3,
+						4,
+						1.3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.8,
+						3,
+						4,
+						1.4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						3,
+						3,
+						4,
+						1.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						3.25,
+						3,
+						4,
+						1.625
+					]
+				},
+				"8": {
+					"EffectValues": [
+						3.5,
+						3,
+						4,
+						1.75
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.75,
+						3,
+						4,
+						1.875
+					]
+				},
+				"10": {
+					"EffectValues": [
+						4,
+						3,
+						4,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						4.2,
+						3,
+						4,
+						2.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						4.4,
+						3,
+						4,
+						2.2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						4.6,
+						3,
+						4,
+						2.3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						4.8,
+						3,
+						4,
+						2.4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						5,
+						3,
+						4,
+						2.5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150404",
+			"Name": "{RUBY_B#ふか}深{RUBY_E#}き{RUBY_B#うらみ}怨{RUBY_E#}み、{RUBY_B#きば}牙{RUBY_E#}で{RUBY_B#は}晴{RUBY_E#}らそう",
+			"TriggerKey": "SkillP01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "不死途の初期チャージは<unbreak>#1[i]</unbreak>。最大で<unbreak>#2[i]</unbreak>まで。「餌食」が不死途以外の味方の攻撃を受けた後、不死途はEPを<unbreak>#7[i]</unbreak>回復する。その後、チャージを<unbreak>#3[i]</unbreak>消費して「餌食」に<u>追加攻撃</u>を行い、不死途の攻撃力<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>分の雷属性ダメージを与え、「暴食」を<unbreak>#5[i]</unbreak>層獲得する。「暴食」は最大で<unbreak>#6[i]</unbreak>層まで累積できる。",
+			"AbridgedEffect": "「餌食」が<color=#f29e38ff>不死途以外の味方の攻撃を受けた後</color>、不死途は固定でEPを回復する。その後、チャージを消費して「餌食」に<color=#f29e38ff><u>追加攻撃</u>を行い</color>、大量の雷属性のダメージを与え、「暴食」を<color=#f29e38ff><unbreak>#5[i]</unbreak></color>層獲得する。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1,
+						2,
+						12,
+						8
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.1,
+						2,
+						12,
+						8
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.2,
+						2,
+						12,
+						8
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.3,
+						2,
+						12,
+						8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.4,
+						2,
+						12,
+						8
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.5,
+						2,
+						12,
+						8
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.625,
+						2,
+						12,
+						8
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.75,
+						2,
+						12,
+						8
+					]
+				},
+				"9": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.875,
+						2,
+						12,
+						8
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2,
+						2,
+						12,
+						8
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.1,
+						2,
+						12,
+						8
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.2,
+						2,
+						12,
+						8
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.3,
+						2,
+						12,
+						8
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.4,
+						2,
+						12,
+						8
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.5,
+						2,
+						12,
+						8
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png"
+		},
+		"Technique": {
+			"Id": "150407",
+			"Name": "{RUBY_B#にく}憎{RUBY_E#}き{RUBY_B#て}手{RUBY_E#}よ、{RUBY_B#く}食{RUBY_E#}らうがいい",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Impair",
+			"TagTypeText": "妨害",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "秘技を使用した後、一定範囲内の敵を<unbreak>#1[i]</unbreak>秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った時、敵全体に不死途の攻撃力<unbreak>#2[i]%</unbreak>分の雷属性ダメージを与え、不死途はチャージを<unbreak>#3[i]</unbreak>獲得する。",
+			"AbridgedEffect": "一定範囲内の敵を目眩状態にする。目眩状態の敵を攻撃して戦闘に入った後、敵全体に少量の雷属性ダメージを与え、不死途はチャージを<color=#f29e38ff><unbreak>#3[i]</unbreak></color>獲得する。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						1,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

@@ -568,5 +568,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "3.7"
+	},
+	"325": {
+		"Id": "325",
+		"Name": "ステージゼロ：パンクロード",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "装備キャラの愉悦度+8%。戦闘中、愉悦度が初めて40%/80%に達した時、装備キャラの会心ダメージ+20%/32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
+	},
+	"326": {
+		"Id": "326",
+		"Name": "千の星が集う街",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "装備キャラが追加攻撃を行う時、攻撃力+24%、2ターン継続。敵が倒された時、その戦闘中、味方全体の会心ダメージ+12%。この効果は累積できない。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
 	}
 }

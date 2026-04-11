@@ -117448,6 +117448,1478 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"Nodes": {
+			"1504001": {
+				"Id": "1504001",
+				"Name": "Klauen: Lehrer der Etikette",
+				"NodeType": 2,
+				"NodeTypeText": "Standardangriff",
+				"EffectRaw": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Ashveils ANG zu.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150401"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Zähigkeit des Zwists",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504002": {
+				"Id": "1504002",
+				"Name": "Peitschenknall: Vertreiben der Bestien",
+				"NodeType": 2,
+				"NodeTypeText": "Fertigkeit",
+				"EffectRaw": "Markiert einen anvisierten Gegner als „Köder“ und fügt ihm Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Ashveils ANG zu. Ist das Ziel bereits als Köder markiert, wird ihm zusätzlich Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> von Ashveils ANG zugefügt und <unbreak>#5[i]</unbreak> Fertigkeitspunkt wiederhergestellt. Wenn sich ein Köder auf dem Kampffeld befindet, wird die VTD aller Gegner um <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> reduziert.\nWenn sich kein Köder auf dem Kampffeld befindet, markiert Ashveil sofort den Gegner mit den aktuell niedrigsten LP auf dem Kampffeld als Köder. Der Status Köder gilt nur für das zuletzt belegte Ziel.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150402"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							1,
+							0.5,
+							0.2,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							1.1,
+							1,
+							0.55,
+							0.22,
+							1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							1.2,
+							1,
+							0.6,
+							0.24,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Zähigkeit des Zwists",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							1.3,
+							1,
+							0.65,
+							0.26,
+							1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							1.4,
+							1,
+							0.7,
+							0.28,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1.5,
+							1,
+							0.75,
+							0.3,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							1.625,
+							1,
+							0.8125,
+							0.325,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							1.75,
+							1,
+							0.875,
+							0.35,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							1.875,
+							1,
+							0.9375,
+							0.375,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							1,
+							1,
+							0.4,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504003": {
+				"Id": "1504003",
+				"Name": "Festmahl: Anfang ohne Ende",
+				"NodeType": 2,
+				"NodeTypeText": "Ultimate",
+				"EffectRaw": "Markiert einen anvisierten Gegner als „Köder“ und fügt ihm Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Ashveils ANG zu. Löst anschließend sofort 1-mal den verstärkten <u>Folgeangriff</u> des Talents gegen den Köder aus und Ashveil erhält <unbreak>#2[i]</unbreak> Pkt. Aufladung.\nDer verstärkte <u>Folgeangriff</u> des Talents verbraucht keine Aufladung. Jedes Mal, wenn „Völlerei“ <unbreak>#3[i]</unbreak> oder mehr Stapelungen erreicht, werden <unbreak>#3[i]</unbreak> Stapelungen Völlerei verbraucht, um zusätzlich 1-mal Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> von Ashveils ANG zu verursachen. Wenn das Ziel während dieses <u>Folgeangriffs</u> einen Todesstoß erleidet, wird weiterhin einem neuen Köder SCH zugefügt, bis die Stapelzahl von Völlerei unter <unbreak>#3[i]</unbreak> fällt. Wenn alle Gegner auf dem Kampffeld einen Todesstoß erlitten haben, endet der verstärkte <u>Folgeangriff</u> des Talents sofort.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150403"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							4,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2.2,
+							3,
+							4,
+							1.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2.4,
+							3,
+							4,
+							1.2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Zähigkeit des Zwists",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2.6,
+							3,
+							4,
+							1.3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2.8,
+							3,
+							4,
+							1.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							3,
+							3,
+							4,
+							1.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							3.25,
+							3,
+							4,
+							1.625
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							3.5,
+							3,
+							4,
+							1.75
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							3.75,
+							3,
+							4,
+							1.875
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							4,
+							3,
+							4,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504004": {
+				"Id": "1504004",
+				"Name": "Groll: Vergeltung verübt",
+				"NodeType": 2,
+				"NodeTypeText": "Talent",
+				"EffectRaw": "Ashveil verfügt zu Beginn über <unbreak>#1[i]</unbreak> Pkt. Aufladung, bis zu <unbreak>#2[i]</unbreak> Pkt. Nachdem der „Köder“ von einem anderen Verbündeten angegriffen wurde, stellt Ashveil eine feste Anzahl von <unbreak>#7[i]</unbreak> Pkt. Energie wieder her und verbraucht anschließend <unbreak>#3[i]</unbreak> Pkt. Aufladung, um einen <u>Folgeangriff</u> auf den Köder auszuführen, der Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> von Ashveils ANG verursacht. Danach erhält Ashveil <unbreak>#5[i]</unbreak> Stapelungen „Völlerei“, bis zu <unbreak>#6[i]</unbreak> Stapelungen.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150404"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1,
+							2,
+							12,
+							8
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.1,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Zähigkeit des Zwists",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.3,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.4,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.5,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.625,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.75,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.875,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504007": {
+				"Id": "1504007",
+				"Name": "Friss: Abscheuliche Hand",
+				"NodeType": 2,
+				"NodeTypeText": "Technik",
+				"EffectRaw": "Nach dem Einsatz der Technik werden Gegner in einem bestimmten Bereich für <unbreak>#1[i]</unbreak> Sek. von Schwindel betroffen und können Verbündeten nicht aktiv angreifen.\nNach Kampfeintritt mit einem aktiven Angriff auf von Schwindel betroffene Gegner wird allen Gegnern Blitz-SCH in Höhe von <unbreak>#2[i]%</unbreak> von Ashveils ANG zugefügt und Ashveil erhält <unbreak>#3[i]</unbreak> Pkt. Aufladung.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150407"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							1,
+							1
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1504101": {
+				"Id": "1504101",
+				"Name": "Pfad des Verbrechens",
+				"NodeType": 3,
+				"EffectRaw": "Wenn Ashveil seine Fertigkeit / seinen Ultimate einsetzt, erhält er <unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak> Stapelung(en) „Völlerei“. Jedes Mal, wenn <unbreak>#3[i]</unbreak> Gegner während Ashveils <u>Folgeangriff</u> einen Todesstoß erleidet, erhält er <unbreak>#4[i]</unbreak> Stapelung Völlerei.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							2,
+							1,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Zähigkeit des Zwists",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504102": {
+				"Id": "1504102",
+				"Name": "Schattenhafte Gliedmaßen",
+				"NodeType": 3,
+				"EffectRaw": "Erhöht den durch Ashveils <u>Folgeangriffe</u> verursachten SCH um <unbreak>#1[i]%</unbreak>. Für jeweils <unbreak>#2[i]</unbreak> Stapelung „Völlerei“ wird der durch <u>Folgeangriffe</u> verursachte SCH zusätzlich um <unbreak>#3[i]%</unbreak> erhöht.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.8,
+							1,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504103": {
+				"Id": "1504103",
+				"Name": "Leitwolf",
+				"NodeType": 3,
+				"EffectRaw": "Wenn Ashveil sich auf dem Kampffeld befindet, wird der von Verbündeten verursachte KRIT-SCH um <unbreak>#1[i]%</unbreak> und der von Verbündeten durch <u>Folgeangriffe</u> verursachte KRIT-SCH zusätzlich um <unbreak>#2[i]%</unbreak> erhöht.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504201": {
+				"Id": "1504201",
+				"Name": "KRIT-SCH-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1504202": {
+				"Id": "1504202",
+				"Name": "SCH-Verstärkung: Blitz",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Blitz-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1504101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Zähigkeit des Zwists",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1504203": {
+				"Id": "1504203",
+				"Name": "KRIT-SCH-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1504202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504204": {
+				"Id": "1504204",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504205": {
+				"Id": "1504205",
+				"Name": "KRIT-SCH-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1504102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Harz des Mutes",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504206": {
+				"Id": "1504206",
+				"Name": "SCH-Verstärkung: Blitz",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Blitz-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1504205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504207": {
+				"Id": "1504207",
+				"Name": "KRIT-SCH-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504208": {
+				"Id": "1504208",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1504103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504209": {
+				"Id": "1504209",
+				"Name": "SCH-Verstärkung: Blitz",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Blitz-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504210": {
+				"Id": "1504210",
+				"Name": "KRIT-SCH-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.107,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.107
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanze der Vergeltung",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.1"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

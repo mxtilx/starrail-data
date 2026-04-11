@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "신을 알현하는 의식에는 제물이 필요한 법",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "아버지의 영광",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "모든 자식의 악몽: 부모님에게 자신의 직업 소개하기\n<color=#8790abff>※ 히메코의 아버지를 모시고 열차 견학시켜 드리기</color>",
+		"HiddenDescription": "모든 자식의 악몽: 부모님에게 자신의 직업 소개하기",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "술래잡기",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "사회적 신분이란, 인간이 쓰는 무한한 가면 중 하나일 뿐이다\n<color=#8790abff>※ 나힐럭스 씨와 사진 촬영하기</color>",
+		"HiddenDescription": "사회적 신분이란, 인간이 쓰는 무한한 가면 중 하나일 뿐이다",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "내가 머리를 맡을게!",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "메카아머, 대지 위에 우뚝 서다\n<color=#8790abff>※ 자신만의 대형 메카아머를 조립하고, 데이브레이크 스쿼드와 대결하기</color>",
+		"HiddenDescription": "메카아머, 대지 위에 우뚝 서다",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "행복을 찾아서",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "누구나 행복을 좇지만, 그 행복은 누가 정의한 걸까?\n<color=#8790abff>※ 자선 단체 「행복 미소 연구회」에 대한 조사 완료하기</color>",
+		"HiddenDescription": "누구나 행복을 좇지만, 그 행복은 누가 정의한 걸까?",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "꿈을 먹는 자",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "창작자는 깨어 있을 때 꿈을 만드는 동물이다\n<color=#8790abff>※ 잡지사에서 ≪창천항로 복슬복슬호≫ 작가의 정체 밝혀내기</color>",
+		"HiddenDescription": "창작자는 깨어 있을 때 꿈을 만드는 동물이다",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "지옥으로 향하는 열차",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "???\n<color=#8790abff>※ 아무도 모르는 폐역 공간에 도착하기</color>",
+		"HiddenDescription": "???",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "행운의 칩",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "칩을 선물해 준 그 친구에게 감사하며\n<color=#8790abff>※ 펄의 도움을 받고 현실로 귀환하기</color>",
+		"HiddenDescription": "칩을 선물해 준 그 친구에게 감사하며",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "환월의 광언",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "그가 그냥 하는 말이니, 대충 흘려들어라\n<color=#8790abff>※ 환월이 발표하는 광란의 선언 경청하기</color>",
+		"HiddenDescription": "그가 그냥 하는 말이니, 대충 흘려들어라",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "롤플레잉 게임에서는 합법",
@@ -5073,6 +5161,146 @@
 		"SeriesText": "신비에 대한 탐구",
 		"Description": "2차원 시티 또는 도브브룩 구역의 노래방 앞에서 안에서 들려오는 아름다운 노랫소리 듣기",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "낙원이라 불리는 땅",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "≪연지의 기록≫의 현존하는 6페이지의 내용을 모두 수집하고, 2차원 시티 내 「연지의 기록」 세계에 있는 모든 수집 요소 완성하기",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "청련지심화",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "구름마루섬의 「Jump 타임」에서 모든 세양에 충돌해 부수기",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "그리고, 근무일이 되었다",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "구름마루섬의 「Jump 타임」에서 「신주의 날」 다시 「처치」하기",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "「출입 금지」",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "펄럭스 타워의 직원 사무실에 잠입하기",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "스키너의 비둘기",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서, 금화가 튀어나오는 버튼을 연속 #1회 발동하기",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "지금이다! 합체!",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "숨겨진 길을 열어 마동 메카아머의 가슴 부분에 도달하기",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "펄럭스 화력 제어 배열",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "펄럭스 타워의 「2차원 JUMP!」에서 거대 고슴도치 진령 쓰러트리기",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "고양이의 황금률",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "메카아머 조립 시, 고양이가 던지는 모든 픽셀 코인 받기",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "슈퍼 메카아머 대 건물",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "메카아머 대전 세트장에서 모든 파괴 가능한 건축물 파괴하기",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "슈퍼 메카아머 스카우터",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「생김새가 독특한」 메카아머 4명 찾기",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "식지 않는 열정",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「스타레일 FES」 화염의 랜스 돌격 도전 완료하기",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "혹약재연",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「스타레일 FES」 선주 전시구역에서 「바다 가르기」 재현하기",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "낙원 변주: 양철꾼",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "기이한 악장을 연주하고 펄럭스 타워에 숨은 수수께끼의 생물체 찾기",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "낙원 변주: 변신의 달인 너구리",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "기이한 악장을 연주하고 구름마루섬역에 숨은 수수께끼의 생물체 찾기",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "「주사위를 던져라! 코스믹 포스!」에서 「4대 천왕」 처치하기",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "거짓이 현실로",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "전투 테스트 모형판에서 전력의 일격으로 핸슨에게 경의 표하기",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "현실이 거짓으로",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "전투 테스트 모형판에서 핸슨의 꿈 지켜주기",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "창조에 대한 책임을 지세요",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "사인회 소동 속에서 게으름 피우는 나힐럭스 잡아 오기",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "이것도 허구의 일환",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "사인회 소동 속에서 꾸리가 용감하게 자신의 몫이 아닌 책임을 떠안게 하기",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "옷이 날개다",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "메카아머 개조실 앞에서 망설이는 메카아머에게 조언하기",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "악은 더한 악으로",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "카이니스 SP, 뇌광주 두 사람과 각각 대화하기",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "낙원 시기의 사랑",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "거리에서 행인들이 서로에게 마음을 전달하는 모습을 지켜보기",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "천하무적",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「동아리 대결」에서 모든 상대에게 승리하기",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "전군, 명을 받들라!",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「전력 강화」에서 모든 능력 개방하기",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "하늘에서 온 적",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「마왕 도전」 모드 클리어하기",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "영서백도 (1)",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "솟구치는 전의",
 		"Description": "아하가 [웃음이 있으리라]를 발동해 적 #1기 처치하기",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "삼총사",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "애쉬베일, 라파, 부트힐이 동시에 포함된 파티 조합으로 전투에서 1회 승리하기",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "인과응보는 시간문제",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "아군 동료가 [미끼] 목표를 공격하고 애쉬베일이 추가 공격을 #1회 발동하지 않게 하기 (누적)",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "일거양득",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "아군 캐릭터 애쉬베일이 단일 추가 공격으로 적 #1기 동시 처치하기",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "태양은 곧 떠오른다",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「데이브레이크 스쿼드」와의 전투 중, 대상이 [데이브레이크 필드] 상태에서 특정 속성의 공격을 받아 즉시 행동하게 하기",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "막주먹이 무섭다",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「SD 민간용 메카아머」와의 전투에서 해당 메카아머가 적을 #1기 처치하게 하기",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "물 절약",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「합금 메카아머•폼폼킹」과의 전투에서 [증기 세척] 상태 해제하기",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "버블 트렌드 세터",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「합금 메카아머•폼폼킹」과의 단일 전투에서 [초강력 비눗방울]의 [반짝반짝] 효과 최소 #1회 발동하기",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

@@ -117448,6 +117448,1478 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"Nodes": {
+			"1504001": {
+				"Id": "1504001",
+				"Name": "Garra para enseñar modales",
+				"NodeType": 2,
+				"NodeTypeText": "ATQ básico",
+				"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo a un enemigo.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150401"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Polvo del Conflicto",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504002": {
+				"Id": "1504002",
+				"Name": "Latigazo para subyugar el mal",
+				"NodeType": 2,
+				"NodeTypeText": "Habilidad básica",
+				"EffectRaw": "Marca a un enemigo como Cebo y le inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo. Si el objetivo ya está marcado como Cebo, le inflige adicionalmente un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo y recupera <unbreak>#5[i]</unbreak> pt. de habilidad básica. Cuando hay un Cebo en el campo de batalla, la DEF de todos los enemigos se reduce en un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.\nSi no hay ningún Cebo en el campo de batalla, Ashveil marca inmediatamente como Cebo al enemigo con menos PV actuales en el campo de batalla. El estado de Cebo solo tiene efecto sobre el último objetivo al que se le aplicó.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150402"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							1,
+							0.5,
+							0.2,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							1.1,
+							1,
+							0.55,
+							0.22,
+							1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							1.2,
+							1,
+							0.6,
+							0.24,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Polvo del Conflicto",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							1.3,
+							1,
+							0.65,
+							0.26,
+							1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							1.4,
+							1,
+							0.7,
+							0.28,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1.5,
+							1,
+							0.75,
+							0.3,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							1.625,
+							1,
+							0.8125,
+							0.325,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							1.75,
+							1,
+							0.875,
+							0.35,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							1.875,
+							1,
+							0.9375,
+							0.375,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							1,
+							1,
+							0.4,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504003": {
+				"Id": "1504003",
+				"Name": "Banquete para un hambre insaciable",
+				"NodeType": 2,
+				"NodeTypeText": "Habilidad definitiva",
+				"EffectRaw": "Marca a un enemigo como Cebo y le inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo. A continuación, lanza inmediatamente una vez una versión potenciada del <u>ataque adicional</u> del talento contra el Cebo y Ashveil obtiene <unbreak>#2[i]</unbreak> pts. de carga.\nEste <u>ataque adicional</u> potenciado del talento no consume carga. Cada vez que tenga <unbreak>#3[i]</unbreak> o más acumulaciones de Gula, consume <unbreak>#3[i]</unbreak> acumulaciones de Gula para infligir adicionalmente una vez un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo. Si inflige un golpe letal al objetivo durante este <u>ataque adicional</u>, seguirá infligiendo daño a un nuevo Cebo hasta que tenga menos de <unbreak>#3[i]</unbreak> acumulaciones de Gula. Si todos los enemigos actualmente en el campo de batalla reciben un golpe letal, el <u>ataque adicional</u> potenciado del talento finaliza inmediatamente.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150403"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							4,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2.2,
+							3,
+							4,
+							1.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2.4,
+							3,
+							4,
+							1.2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Polvo del Conflicto",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2.6,
+							3,
+							4,
+							1.3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2.8,
+							3,
+							4,
+							1.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							3,
+							3,
+							4,
+							1.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							3.25,
+							3,
+							4,
+							1.625
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							3.5,
+							3,
+							4,
+							1.75
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							3.75,
+							3,
+							4,
+							1.875
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							4,
+							3,
+							4,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504004": {
+				"Id": "1504004",
+				"Name": "Colmillo para cobrar venganza",
+				"NodeType": 2,
+				"NodeTypeText": "Talento",
+				"EffectRaw": "Ashveil inicialmente tiene <unbreak>#1[i]</unbreak> pts. de carga y puede tener hasta <unbreak>#2[i]</unbreak> pts. como máximo. Después de que el Cebo sea atacado por otro aliado, Ashveil recupera <unbreak>#7[i]</unbreak> pts. fijos de energía, consume <unbreak>#3[i]</unbreak> pt. de carga para lanzar un <u>ataque adicional</u> contra el Cebo que le inflige un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo, y a continuación obtiene <unbreak>#5[i]</unbreak> acumulaciones de Gula, que se puede acumular hasta <unbreak>#6[i]</unbreak> veces.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150404"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1,
+							2,
+							12,
+							8
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.1,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Polvo del Conflicto",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.3,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.4,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.5,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.625,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.75,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.875,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504007": {
+				"Id": "1504007",
+				"Name": "Mano para devorarlo todo",
+				"NodeType": 2,
+				"NodeTypeText": "Técnica",
+				"EffectRaw": "Tras usar la técnica, los enemigos de una zona determinada quedan afectados por Mareo durante <unbreak>#1[i]</unbreak> s, lo que les impide atacar activamente a los aliados.\nAl entrar en combate tras atacar a un enemigo mareado, inflige a todos los enemigos un Daño de Rayo equivalente al <unbreak>#2[i]%</unbreak> del ATQ de Ashveil y Ashveil obtiene <unbreak>#3[i]</unbreak> pt. de carga.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150407"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							1,
+							1
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1504101": {
+				"Id": "1504101",
+				"Name": "Vía del pecado",
+				"NodeType": 3,
+				"EffectRaw": "Cuando Ashveil lanza su habilidad básica/habilidad definitiva, obtiene <unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak> acumulaciones de Gula. Durante el <u>ataque adicional</u> de Ashveil, Ashveil obtiene <unbreak>#4[i]</unbreak> acumulación de Gula cada vez que <unbreak>#3[i]</unbreak> enemigo reciba un golpe letal.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							2,
+							1,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Polvo del Conflicto",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504102": {
+				"Id": "1504102",
+				"Name": "Extremidad fantasma",
+				"NodeType": 3,
+				"EffectRaw": "El daño que inflige el <u>ataque adicional</u> de Ashveil aumenta en un <unbreak>#1[i]%</unbreak>. Por cada <unbreak>#2[i]</unbreak> acumulación de Gula, el daño infligido por el <u>ataque adicional</u> aumenta en un <unbreak>#3[i]%</unbreak> extra.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.8,
+							1,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504103": {
+				"Id": "1504103",
+				"Name": "Lobo alfa",
+				"NodeType": 3,
+				"EffectRaw": "Mientras Ashveil está en el campo de batalla, el Daño CRIT que infligen los aliados aumenta en un <unbreak>#1[i]%</unbreak>, y el Daño CRIT que infligen los <u>ataques adicionales</u> de los aliados aumenta en un <unbreak>#2[i]%</unbreak> adicional.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504201": {
+				"Id": "1504201",
+				"Name": "Bonificación de Daño CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Daño CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1504202": {
+				"Id": "1504202",
+				"Name": "Bonificación de daño: Rayo",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Rayo +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1504101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Polvo del Conflicto",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1504203": {
+				"Id": "1504203",
+				"Name": "Bonificación de Daño CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Daño CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1504202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504204": {
+				"Id": "1504204",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504205": {
+				"Id": "1504205",
+				"Name": "Bonificación de Daño CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Daño CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1504102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Sangre de batalla",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504206": {
+				"Id": "1504206",
+				"Name": "Bonificación de daño: Rayo",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Rayo +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1504205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504207": {
+				"Id": "1504207",
+				"Name": "Bonificación de Daño CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Daño CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504208": {
+				"Id": "1504208",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1504103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504209": {
+				"Id": "1504209",
+				"Name": "Bonificación de daño: Rayo",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Rayo +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504210": {
+				"Id": "1504210",
+				"Name": "Bonificación de Daño CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Daño CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.107,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.107
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lanza sangrienta de la furia",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.1"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

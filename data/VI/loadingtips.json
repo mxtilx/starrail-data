@@ -1901,6 +1901,36 @@
 		"Description": "Hiệu trưởng hiện tại của Học Viện Graphia.\nĐồng thời cũng là gia chủ hiện tại của Gia Tộc Graphia, tự xưng là cha của Himeko.",
 		"VersionAdded": "4.0"
 	},
+	"10421": {
+		"Id": "10421",
+		"Name": "Không Gian \"Tàn Quyển\"",
+		"Description": "Mảnh vỡ không gian bị bóc tách từ \"Thế Giới Trong Tranh\" khi \"Planarcadia\" trở về hiện thực.\nVùng ranh giới giữa hiện thực và bức tranh, đường ray bỏ hoang dẫn đến vực thẳm khó lòng nhìn thấu.",
+		"VersionAdded": "4.1"
+	},
+	"10422": {
+		"Id": "10422",
+		"Name": "Hội Nghiên Cứu Nụ Cười Hạnh Phúc",
+		"Description": "Một tổ chức từ thiện quy mô lớn, tiền thân là Hội Tương Trợ Nạn Nhân Sự Kiện Ma Báo Tử.\nThông qua các biện pháp chữa lành như \"Phẫu Thuật Hạnh Phúc\", nỗ lực giúp \"Planarcadia\" tìm lại hạnh phúc và nụ cười.",
+		"VersionAdded": "4.1"
+	},
+	"10423": {
+		"Id": "10423",
+		"Name": "Fulwish",
+		"Description": "Hội Trưởng \"Hội Nghiên Cứu Nụ Cười Hạnh Phúc\" kiêm Giám Đốc \"Đài Truyền Hình Fulwish\". Đứa con mồ côi từ Trò Chơi Đẫm Máu.\nHiện là nhà từ thiện và trùm truyền thông nổi tiếng, coi việc dẫn dắt con đường Vui Vẻ đúng đắn là trách nhiệm của mình.",
+		"VersionAdded": "4.1"
+	},
+	"10424": {
+		"Id": "10424",
+		"Name": "Star Rail FES",
+		"Description": "Triển lãm lấy chủ đề \"Đội Tàu Astral\", sân khấu do Pearl dựng lên cho Khách Vô Danh.\nDo Khách Vô Danh tham dự đã dấy lên trào lưu, thu hút sự chú ý của ngàn vạn Nguyện Lực tại \"Planarcadia\".",
+		"VersionAdded": "4.1"
+	},
+	"10425": {
+		"Id": "10425",
+		"Name": "Tập Đoàn Pearluxe",
+		"Description": "Tập đoàn giải trí liên hành tinh dưới danh nghĩa của Pearl. Ngành nghề kinh doanh chính bao gồm sản xuất và buôn bán \"Giáp Máy\".\n\"Tòa Tháp Pearluxe\" sừng sững là trụ sở chính, cũng là nơi mà vô số người tìm việc khao khát đặt chân đến.",
+		"VersionAdded": "4.1"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Đang trở về góc nhìn của Nhà Khai Phá...",
@@ -2320,5 +2350,11 @@
 		"Name": "Đang chuyển sang góc nhìn của Sói Bạc...",
 		"Description": "Tingyun đã thuận lợi cướp mất chiếc mặt nạ. Không lâu sau đó, một người số khổ mất mặt nạ cũng đến Quận Dovebrook...",
 		"VersionAdded": "4.0"
+	},
+	"20099": {
+		"Id": "20099",
+		"Name": "Đang chuyển sang góc nhìn của Ashveil...",
+		"Description": "Lần theo dấu vết của tội phạm, Ashveil đứng bên cầu, thoáng hồi tưởng về quá khứ...",
+		"VersionAdded": "4.1"
 	}
 }

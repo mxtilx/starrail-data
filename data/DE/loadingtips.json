@@ -1807,8 +1807,8 @@
 	},
 	"10405": {
 		"Id": "10405",
-		"Name": "Aschenzeitalter",
-		"Description": "Im Jahr <unbreak>2148</unbreak> BZ erreichte die Vorhut der Zerstörung Ahatopia und läutete damit das Aschenzeitalter ein.\nUnter der Führung der Künstlerin Graphia kämpften die ersten Imagenaes Seite an Seite mit den Menschen, um gemeinsam die Dämonen aus den jenseitigen Sphären abzuwehren.",
+		"Name": "Aschezeitalter",
+		"Description": "Im Jahr <unbreak>2148</unbreak> BZ erreichte die Vorhut der Zerstörung Ahatopia und läutete damit das Aschezeitalter ein.\nUnter der Führung der Künstlerin Graphia kämpften die ersten Imagenaes Seite an Seite mit den Menschen, um gemeinsam die Dämonen aus den jenseitigen Sphären abzuwehren.",
 		"VersionAdded": "4.0"
 	},
 	"10406": {
@@ -1900,6 +1900,36 @@
 		"Name": "Ryusuke",
 		"Description": "Der derzeitige Rektor der Graphia-Akademie.\nEr ist auch das derzeitige Oberhaupt der Familie Graphia und behauptet, Himekos Vater zu sein.",
 		"VersionAdded": "4.0"
+	},
+	"10421": {
+		"Id": "10421",
+		"Name": "Raum „Zerrissene Schriftrolle“",
+		"Description": "Raumfragmente, die von der Welt auf Leinwand abgeschält wurden, als Planarcadia in die Realität zurückkehrte.\nDas Grenzgebiet zwischen Realität und Leinwand, wo verlassene Gleise in einen unergründlichen Abgrund führen.",
+		"VersionAdded": "4.1"
+	},
+	"10422": {
+		"Id": "10422",
+		"Name": "Forschungsgesellschaft für glückliches Lächeln",
+		"Description": "Eine riesige Wohltätigkeitsorganisation, ehemals die Gesellschaft für gegenseitige Hilfe für Opfer des Vorfalls mit dem Herold des Todes.\nMithilfe von Heilmethoden wie „Glücksoperationen“ setzt sie sich dafür ein, Planarcadia wieder Glück und Lächeln zu schenken.",
+		"VersionAdded": "4.1"
+	},
+	"10423": {
+		"Id": "10423",
+		"Name": "Füllwunsch",
+		"Description": "Vorsitzende der „Forschungsgesellschaft für glückliches Lächeln“ und Intendantin von „Wunscherfüllungs-TV“. Eine Waise der Blutdürstigen Spiele.\nHeute hat sie es sich als bekannte Philanthrop und Medienmogul zur Aufgabe gemacht, den Pfad des Hochgefühls in die richtigen Bahnen zu lenken.",
+		"VersionAdded": "4.1"
+	},
+	"10424": {
+		"Id": "10424",
+		"Name": "Star-Rail-FEST",
+		"Description": "Eine Ausstellung zum Thema „Astralexpress“, eine von Pearl für die Namenlosen errichtete Bühne.\nDie Anwesenheit der Namenlosen löste große Begeisterung aus, die die Aufmerksamkeit der unzähligen Wunschkraft von Planarcadia auf sich zog.",
+		"VersionAdded": "4.1"
+	},
+	"10425": {
+		"Id": "10425",
+		"Name": "Pearluxe Corp",
+		"Description": "Pearls interstellare Unterhaltungs-Mediengruppe. Das Hauptgeschäft umfasst die Produktion und den Verkauf von Mechatrons.\nDer hoch aufragende Hauptsitz, der Pearluxe-Turm, ist ein Tempel, nach dem sich unzählige Bewerber sehnen.",
+		"VersionAdded": "4.1"
 	},
 	"20000": {
 		"Id": "20000",
@@ -2320,5 +2350,11 @@
 		"Name": "Wechsel zur Perspektive von Silberwolf ...",
 		"Description": "Tingyun macht sich mit der Maske davon. Kurz darauf findet eine arme Seele, die sie verloren hat, ebenfalls den Weg nach Dovebrook ...",
 		"VersionAdded": "4.0"
+	},
+	"20099": {
+		"Id": "20099",
+		"Name": "Wechsel zur Perspektive von Ashveil ...",
+		"Description": "Auf der Suche nach dem Täter kommt Ashveil an der Brücke vorbei, als die Erinnerungen an die Vergangenheit wieder auftauchen ...",
+		"VersionAdded": "4.1"
 	}
 }

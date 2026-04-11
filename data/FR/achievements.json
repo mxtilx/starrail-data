@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "Une audience avec un dieu exige toujours un sacrifice",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "La Gloire de mon père",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Le pire cauchemar de tout enfant : expliquer son métier à ses parents\n<color=#8790abff>※ Faire visiter l'Astral Express au père de Himeko</color>",
+		"HiddenDescription": "Le pire cauchemar de tout enfant : expliquer son métier à ses parents",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "Arrête-moi si tu peux",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "L'identité sociale n'est qu'un des innombrables masques que nous portons\n<color=#8790abff>※ Prendre une photo avec Nihilux</color>",
+		"HiddenDescription": "L'identité sociale n'est qu'un des innombrables masques que nous portons",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "Je serai à la tête !",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Admirez ce Mécanoïde se dressant fièrement !\n<color=#8790abff>※ Assembler votre propre Mécanoïde géant et engager le combat contre l'Escadron Aurora</color>",
+		"HiddenDescription": "Admirez ce Mécanoïde se dressant fièrement !",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "À la recherche du bonheur",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Tout le monde recherche le bonheur, mais qui peut le définir ?\n<color=#8790abff>※ Terminer l'enquête sur la Société de recherche des sourires heureux</color>",
+		"HiddenDescription": "Tout le monde recherche le bonheur, mais qui peut le définir ?",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "Dévoreur de rêves",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Les créateurs sont des créatures qui rêvent au grand jour\n<color=#8790abff>※ Démasquer l'auteur de <i>Toudoux à travers les cieux</i> à la maison d'édition</color>",
+		"HiddenDescription": "Les créateurs sont des créatures qui rêvent au grand jour",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "Train express vers l'enfer",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "???\n<color=#8790abff>※ Atteindre une station abandonnée cachée</color>",
+		"HiddenDescription": "???",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "Jeton porte-bonheur",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Merci à l'ami qui m'a donné le jeton\n<color=#8790abff>※ Revenir à la réalité avec l'aide de Perle</color>",
+		"HiddenDescription": "Merci à l'ami qui m'a donné le jeton",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "Fabulations de la Fabulune",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Elle le dit ainsi, et c'est ainsi que vous l'entendez\n<color=#8790abff>※ Écouter la délirante déclaration de la Fabulune</color>",
+		"HiddenDescription": "Elle le dit ainsi, et c'est ainsi que vous l'entendez",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "{M#Maître}{F#Maîtresse} du jeu de rôle",
@@ -5073,6 +5161,146 @@
 		"SeriesText": "Sonder l'insondable",
 		"Description": "Écouter une mélodie envoûtante qui résonne depuis le bar karaoké au cœur de Duopolis ou au quartier de Colombeaux",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "Une terre nommée Arcadia",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Récupérer les 6 pages restantes des <i>Chroniques des graisses flottantes</i> et accomplir tous les objectifs de collection dans le monde des Chroniques des graisses flottantes à Duopolis",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "Feu de cœur du lotus azur",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Écraser tous les Héliobes à l'Heure du saut de Vigîlonuage",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "Puis vient la journée de travail",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Vaincre à nouveau Septimus à l'Heure du saut à Vigîlonuage",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "« Entrée interdite »",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "S'infiltrer dans le bureau du personnel de la Tour Perluxe",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "Le pigeon de Skinner",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Activer le bouton aux pièces d'or #1 fois de suite lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "Maintenant ! Assemblage !",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Trouver le passage secret pour atteindre le coffre du Magiméca",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "Batterie de ciblage Perluxe",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Vaincre le Hérissae géant lors d'un Saut interdimensionnel à la Tour Perluxe",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "La règle d'or d'un chat",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Attraper tous les pixaillons lancés par le chat durant l'assemblage du Mécanoïde",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "Formation ultime du siècle du Méga-mécanoïde",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Détruire toutes les structures destructibles dans le studio de combat de Mécanoïde",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "Dénicheur de Méga-mécanoïdes",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Trouver quatre Mécanoïdes à l'apparence inhabituelle",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "Passion ardente",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Terminer le défi « En avant, lance enflammée ! » pendant le Star Rail Fest",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "De l'abîme au ciel",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Recréer « l'ouverture des flots » dans la salle d'exposition de Xianzhou lors du Star Rail Fest",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "Variations d'Arcadia : Boîte-de-conserve",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Jouer une mélodie étrange et trouver la mystérieuse créature cachée à la Tour Perluxe",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "Variations d'Arcadia : Pandaroo métamorphe",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Jouer une mélodie étrange et découvrir la mystérieuse créature cachée à Vigîlonuage",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "Battre les Quatre Formidables dans Atout cosmique, à nous !",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "Du mensonge à la vérité",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Faire preuve de respect envers Hanson en frappant de toutes vos forces dans la salle d'entraînement au combat",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "Faux semblants, vrais sentiments",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Choisir de protéger le rêve de Hanson dans la salle d'entraînement au combat",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "Responsable de sa création",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Ramener Nihilux qui se la coule douce pendant la séance de dédicace",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "Tout ça fait partie de la fiction",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Laisser Pandarooporter assumer courageusement des responsabilités qui ne lui incombent pas lors de la séance de dédicace",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "L'habit fait le moine",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Donner des conseils au Mécanoïde hésitant devant la salle de modification de Mécanoïdes",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "Un cauchemar pour les méchants",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Parler à Cénée (Alt) et à Arche-tonnerre séparément",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "L'amour au temps d'Arcadia",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Regarder les passants partager ce qu'ils ressentent dans la rue",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "Inégalé{F#e}",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Vaincre tous vos adversaires lors du Combat des clubs",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "Toutes les unités, en position !",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Débloquer toutes les capacités dans Renforcement du bataillon",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "Un ennemi venu d'en haut",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Terminer le défi de la démone venue d'ailleurs",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Les mille morts d'une ombre (I)",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "Soif de combat",
 		"Description": "Aha utilise Que la rigolade soit pour vaincre #1 ennemis",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "Les Trois Mousquetaires",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Remporter 1 combat avec une équipe composée d'Ashveil, de Rappa et du Fossoyeur",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "La justice tarde, mais ne faillit pas",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Les coéquipiers alliés attaquent une cible définie comme Appât #1 fois sans déclencher l'ATQ de suivi d'Ashveil",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "Faire d'une pierre deux coups",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Utiliser le personnage allié Ashveil pour vaincre #1 ennemis avec une seule ATQ de suivi",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "Et le soleil se lève",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Durant le combat contre l'Escadron Aurora, touchez-les avec une attaque d'un type spécifique pendant qu'ils sont dans l'état Champ de force Aurora pour déclencher une action immédiate",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "La chance du débutant",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Durant le combat contre le Mécanoïde civil SD, lui faire éliminer #1 cible ennemie",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "Chaque goutte compte",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Dissiper l'état Lavage vapeur du Roi Pom-Pom en alliage en combat",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "Le surfeur d'écume",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Déclencher au moins #1 fois l'effet Brillance du Savon super moussant au cours d'un même combat contre le Roi Pom-Pom en alliage",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

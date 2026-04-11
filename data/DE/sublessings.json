@@ -4399,9 +4399,9 @@
 		"Id": "616454",
 		"Name": "Mit einem Handgriff",
 		"Rarity": 1,
-		"Effect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten um <color=#f29e38ff>6%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>4</color>-fach stapelbar.",
+		"Effect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten um <color=#f29e38ff>6%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>4</color>-mal stapelbar.",
 		"AbridgedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten.",
-		"EnhancedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten um <color=#f29e38ff>9%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>4</color>-fach stapelbar.",
+		"EnhancedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten um <color=#f29e38ff>9%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>4</color>-mal stapelbar.",
 		"EnhancedAbridgedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten.",
 		"VersionAdded": "3.1"
 	},
@@ -4429,9 +4429,9 @@
 		"Id": "616457",
 		"Name": "Grüner Zweig, rote Saite",
 		"Rarity": 1,
-		"Effect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-fach stapelbar.",
+		"Effect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-mal stapelbar.",
 		"AbridgedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten.",
-		"EnhancedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten um <color=#f29e38ff>6%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-fach stapelbar.",
+		"EnhancedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten um <color=#f29e38ff>6%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-mal stapelbar.",
 		"EnhancedAbridgedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten.",
 		"VersionAdded": "3.1"
 	},
@@ -4477,9 +4477,9 @@
 		"Id": "616540",
 		"Name": "Dichte Flammen",
 		"Rarity": 1,
-		"Effect": "Wenn Verbündete angegriffen werden, wird der SCH-Multiplikator von <u>Blazar</u> um <color=#f29e38ff>20%</color> des ursprünglichen Multiplikators erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-fach stapelbar und hält <color=#f29e38ff>2</color> Rd. an.",
+		"Effect": "Wenn Verbündete angegriffen werden, wird der SCH-Multiplikator von <u>Blazar</u> um <color=#f29e38ff>20%</color> des ursprünglichen Multiplikators erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-mal stapelbar und hält <color=#f29e38ff>2</color> Rd. an.",
 		"AbridgedEffect": "Beim Erleiden von Angriffen wird der <u>Blazar-SCH</u> erhöht.",
-		"EnhancedEffect": "Wenn Verbündete angegriffen werden, wird der SCH-Multiplikator von <u>Blazar</u> um <color=#f29e38ff>30%</color> des ursprünglichen Multiplikators erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-fach stapelbar und hält <color=#f29e38ff>2</color> Rd. an.",
+		"EnhancedEffect": "Wenn Verbündete angegriffen werden, wird der SCH-Multiplikator von <u>Blazar</u> um <color=#f29e38ff>30%</color> des ursprünglichen Multiplikators erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-mal stapelbar und hält <color=#f29e38ff>2</color> Rd. an.",
 		"EnhancedAbridgedEffect": "Beim Erleiden von Angriffen wird der <u>Blazar-SCH</u> erhöht.",
 		"VersionAdded": "3.1"
 	},
@@ -5375,6 +5375,1517 @@
 		"EnhancedAbridgedEffect": "Stellt nach dem Verursachen von Schwächebruch LP wieder her.",
 		"VersionAdded": "3.1"
 	},
+	"617000": {
+		"Id": "617000",
+		"Name": "„Highlights“",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Verbündeten verursachten endgültigen SCH um <color=#f29e38ff>2%</color> und reduziert ihren erlittenen SCH um <color=#f29e38ff>1%</color>. Wenn die Aufladung 100 % erreicht, wird die Aktion des Ziels von „Highlights“ um 100 % vorgezogen und der von ihm sowie seinem Memogeist verursachte endgültige SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>10%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617120": {
+		"Id": "617120",
+		"Name": "Gutenachtgeschichte",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad des Gedenkens eine Schwellenresonanz zu erzeugen. Fügt allen Gegnern Eis-SCH zu und friert sie mit hoher Chance für <color=#f29e38ff>1</color> Rd. ein. Nachdem eingefrorene Gegner von Memogeistern angegriffen wurden, erleiden sie zusätzlich Tatsächlichen SCH in Höhe von <color=#f29e38ff>8%</color> ihrer max. LP. Jedes Mal, nachdem ein Gegner eingefroren wurde, kann dieser SCH bis zu <color=#f29e38ff>4</color>-mal ausgelöst werden.",
+		"AbridgedEffect": "Nach Auslösen der Schwellengleichung wird allen Gegnern Eis-SCH zugefügt und es besteht eine hohe Chance, sie einzufrieren. Nachdem eingefrorene Gegner von Memogeistern angegriffen wurden, erleiden sie zusätzlichen Tatsächlichen SCH in Höhe von <color=#f29e38ff>8%</color> ihrer max. LP.",
+		"VersionAdded": "4.1"
+	},
+	"617130": {
+		"Id": "617130",
+		"Name": "Untrüglicher Instinkt",
+		"Rarity": 1,
+		"Effect": "Wenn eine Figur eine Aktion ausführt, erhalten sie und ihr Memogeist <color=#f29e38ff>1</color> Stapelung(en) <u>Besessenheit</u>. Wenn ein Memogeist eine Aktion ausführt, erhalten er und sein Memomeister <color=#f29e38ff>1</color> Stapelung(en) <u>Besessenheit</u>.",
+		"AbridgedEffect": "Wenn eine Figur eine Aktion ausführt, erhalten sie und ihr Memogeist <u>Besessenheit</u>. Wenn ein Memogeist eine Aktion ausführt, erhalten er und sein Memomeister <u>Besessenheit</u>.",
+		"EnhancedEffect": "Wenn eine Figur eine Aktion ausführt, erhalten sie und ihr Memogeist <color=#f29e38ff>1</color> Stapelung(en) <u>Besessenheit</u>. Wenn ein Memogeist eine Aktion ausführt, erhalten er und sein Memomeister <color=#f29e38ff>2</color> Stapelung(en) <u>Besessenheit</u>.",
+		"EnhancedAbridgedEffect": "Wenn eine Figur eine Aktion ausführt, erhalten sie und ihr Memogeist <u>Besessenheit</u>. Wenn ein Memogeist eine Aktion ausführt, erhalten er und sein Memomeister <u>Besessenheit</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617131": {
+		"Id": "617131",
+		"Name": "Unvergängliche Erinnerung",
+		"Rarity": 1,
+		"Effect": "Nach dem Angriff eines Verbündeten verursacht er zusätzlichen SCH in Höhe von <color=#f29e38ff>1%</color> seines ANG für jede Stapelung der gesamten Stapelzahl von <u>Besessenheit</u> aller Verbündeten.",
+		"AbridgedEffect": "Verursacht nach einem Angriff zusätzlichen SCH basierend auf der Stapelzahl von <u>Besessenheit</u> aller Verbündeten.",
+		"EnhancedEffect": "Nach dem Angriff eines Verbündeten verursacht er zusätzlichen SCH in Höhe von <color=#f29e38ff>1.5%</color> seines ANG für jede Stapelung der gesamten Stapelzahl von <u>Besessenheit</u> aller Verbündeten.",
+		"EnhancedAbridgedEffect": "Verursacht nach einem Angriff zusätzlichen SCH basierend auf der Stapelzahl von <u>Besessenheit</u> aller Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617132": {
+		"Id": "617132",
+		"Name": "Immer wieder friedlicher Traum",
+		"Rarity": 1,
+		"Effect": "Nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern wird nach dem Ende der ersten Runde ihre Aktion um <color=#f29e38ff>50%</color> vorgezogen und der verursachte SCH um <color=#f29e38ff>50%</color> erhöht. Dieser Effekt hält <color=#f29e38ff>4</color> Rd. an.",
+		"AbridgedEffect": "Nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern wird nach dem Ende der ersten Runde ihre Aktion vorgezogen und der verursachte SCH erhöht.",
+		"EnhancedEffect": "Nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern wird nach dem Ende der ersten Runde ihre Aktion um <color=#f29e38ff>75%</color> vorgezogen und der verursachte SCH um <color=#f29e38ff>75%</color> erhöht. Dieser Effekt hält <color=#f29e38ff>4</color> Rd. an.",
+		"EnhancedAbridgedEffect": "Nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern wird nach dem Ende der ersten Runde ihre Aktion vorgezogen und der verursachte SCH erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617140": {
+		"Id": "617140",
+		"Name": "Erkenntnis: Gewebte Wolken",
+		"Rarity": 1,
+		"Effect": "Erhält <color=#f29e38ff>2</color> Stapelung(en) <u>Besessenheit</u>, wenn Verbündete angegriffen werden.",
+		"AbridgedEffect": "Erhält bei einem erlittenen Angriff <u>Besessenheit</u>.",
+		"EnhancedEffect": "Erhält <color=#f29e38ff>3</color> Stapelung(en) <u>Besessenheit</u>, wenn Verbündete angegriffen werden.",
+		"EnhancedAbridgedEffect": "Erhält bei einem erlittenen Angriff <u>Besessenheit</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617141": {
+		"Id": "617141",
+		"Name": "Erkenntnis: Genähte Berge",
+		"Rarity": 1,
+		"Effect": "Nachdem Verbündete Gegner besiegt haben, erhalten alle Verbündeten <color=#f29e38ff>4</color> Stapelung(en) <u>Besessenheit</u>.",
+		"AbridgedEffect": "Verleiht allen Verbündeten <u>Besessenheit</u>, nachdem ein Gegner besiegt wurde.",
+		"EnhancedEffect": "Nachdem Verbündete Gegner besiegt haben, erhalten alle Verbündeten <color=#f29e38ff>6</color> Stapelung(en) <u>Besessenheit</u>.",
+		"EnhancedAbridgedEffect": "Verleiht allen Verbündeten <u>Besessenheit</u>, nachdem ein Gegner besiegt wurde.",
+		"VersionAdded": "4.1"
+	},
+	"617142": {
+		"Id": "617142",
+		"Name": "Erkenntnis: Bindende Welle",
+		"Rarity": 1,
+		"Effect": "Erhält nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern <color=#f29e38ff>6</color> Stapelung(en) <u>Besessenheit</u>.",
+		"AbridgedEffect": "Erhält nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern <u>Besessenheit</u>.",
+		"EnhancedEffect": "Erhält nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern <color=#f29e38ff>9</color> Stapelung(en) <u>Besessenheit</u>.",
+		"EnhancedAbridgedEffect": "Erhält nach Kampfeintritt von Verbündeten oder nach Beschwörung von Memogeistern <u>Besessenheit</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617143": {
+		"Id": "617143",
+		"Name": "Erkenntnis: Beileid des flachen Meeres",
+		"Rarity": 1,
+		"Effect": "Jede Stapelung <u>Besessenheit</u> erhöht den verursachten SCH zusätzlich um <color=#f29e38ff>0.3%</color>.",
+		"AbridgedEffect": "Jede Stapelung <u>Besessenheit</u> erhöht den verursachten SCH zusätzlich.",
+		"EnhancedEffect": "Jede Stapelung <u>Besessenheit</u> erhöht den verursachten SCH zusätzlich um <color=#f29e38ff>0.4%</color>.",
+		"EnhancedAbridgedEffect": "Jede Stapelung <u>Besessenheit</u> erhöht den verursachten SCH zusätzlich.",
+		"VersionAdded": "4.1"
+	},
+	"617144": {
+		"Id": "617144",
+		"Name": "Erkenntnis: Lob des Abgrunds",
+		"Rarity": 1,
+		"Effect": "Erhöht die max. Stapelzahl von <u>Besessenheit</u> der Figuren um <color=#f29e38ff>4</color>.",
+		"AbridgedEffect": "Erhöht die max. Stapelzahl von <u>Besessenheit</u> der Figuren.",
+		"EnhancedEffect": "Erhöht die max. Stapelzahl von <u>Besessenheit</u> der Figuren um <color=#f29e38ff>6</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die max. Stapelzahl von <u>Besessenheit</u> der Figuren.",
+		"VersionAdded": "4.1"
+	},
+	"617145": {
+		"Id": "617145",
+		"Name": "Erkenntnis: Verfeinerte Dämmerung",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner von einem anderen Verbündeten angegriffen wird, wird sein erlittener SCH um <color=#f29e38ff>4%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>6</color>-fach stapelbar und hält bis zum Ende der Runde an.",
+		"AbridgedEffect": "Wenn ein Gegner von verschiedenen Verbündeten getroffen wird, wird der erlittene SCH erhöht.",
+		"EnhancedEffect": "Jedes Mal, wenn ein Gegner von einem anderen Verbündeten angegriffen wird, wird sein erlittener SCH um <color=#f29e38ff>6%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>6</color>-fach stapelbar und hält bis zum Ende der Runde an.",
+		"EnhancedAbridgedEffect": "Wenn ein Gegner von verschiedenen Verbündeten getroffen wird, wird der erlittene SCH erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617146": {
+		"Id": "617146",
+		"Name": "Erkenntnis: Geschmolzener Sonnenuntergang",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner von einem anderen Verbündeten angegriffen wird, wird sein verursachter SCH um <color=#f29e38ff>2%</color> reduziert. Dieser Effekt ist bis zu <color=#f29e38ff>6</color>-fach stapelbar und hält bis zum Ende der Runde an.",
+		"AbridgedEffect": "Wenn ein Gegner von verschiedenen Verbündeten getroffen wird, wird der verursachte SCH reduziert.",
+		"EnhancedEffect": "Jedes Mal, wenn ein Gegner von einem anderen Verbündeten angegriffen wird, wird sein verursachter SCH um <color=#f29e38ff>3%</color> reduziert. Dieser Effekt ist bis zu <color=#f29e38ff>6</color>-fach stapelbar und hält bis zum Ende der Runde an.",
+		"EnhancedAbridgedEffect": "Wenn ein Gegner von verschiedenen Verbündeten getroffen wird, wird der verursachte SCH reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"617150": {
+		"Id": "617150",
+		"Name": "Wahrnehmung: Temperatur der Klinge",
+		"Rarity": 1,
+		"Effect": "Erhöht den ANG aller Verbündeten um <color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Erhöht den ANG.",
+		"EnhancedEffect": "Erhöht den ANG aller Verbündeten um <color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den ANG.",
+		"VersionAdded": "4.1"
+	},
+	"617151": {
+		"Id": "617151",
+		"Name": "Wahrnehmung: Form der Tierklauen",
+		"Rarity": 1,
+		"Effect": "Erhöht den verursachten SCH aller Verbündeten um <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Erhöht den verursachten SCH.",
+		"EnhancedEffect": "Erhöht den verursachten SCH aller Verbündeten um <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den verursachten SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617152": {
+		"Id": "617152",
+		"Name": "Wahrnehmung: Muster der Muschel",
+		"Rarity": 1,
+		"Effect": "Erhöht die VTD aller Verbündeten um <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Erhöht die VTD.",
+		"EnhancedEffect": "Erhöht die VTD aller Verbündeten um <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die VTD.",
+		"VersionAdded": "4.1"
+	},
+	"617153": {
+		"Id": "617153",
+		"Name": "Wahrnehmung: Geschichte der Monsune",
+		"Rarity": 1,
+		"Effect": "Erhöht den verursachten SCH aller Verbündeten um <color=#f29e38ff>10%</color> und den der Memogeister zusätzlich um <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Erhöht den verursachten SCH und der von Memogeistern wird zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht den verursachten SCH aller Verbündeten um <color=#f29e38ff>15%</color> und den der Memogeister zusätzlich um <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den verursachten SCH und der von Memogeistern wird zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617154": {
+		"Id": "617154",
+		"Name": "Wahrnehmung: Geschichte des Felsens",
+		"Rarity": 1,
+		"Effect": "Erhöht die VTD aller Verbündeten um <color=#f29e38ff>14%</color> und die der Memogeister zusätzlich um <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Erhöht die VTD und die von Memogeistern wird zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht die VTD aller Verbündeten um <color=#f29e38ff>21%</color> und die der Memogeister zusätzlich um <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die VTD und die von Memogeistern wird zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617155": {
+		"Id": "617155",
+		"Name": "Wahrnehmung: Geschichte der Gezeiten",
+		"Rarity": 1,
+		"Effect": "Erhöht die LP-Wiederherstellung aller Verbündeten um <color=#f29e38ff>10%</color> und die der Memogeister zusätzlich um <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Erhöht die LP-Wiederherstellung und die von Memogeistern wird zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht die LP-Wiederherstellung aller Verbündeten um <color=#f29e38ff>15%</color> und die der Memogeister zusätzlich um <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die LP-Wiederherstellung und die von Memogeistern wird zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617156": {
+		"Id": "617156",
+		"Name": "Wahrnehmung: Rote Knochen und Blätter",
+		"Rarity": 1,
+		"Effect": "Nach der Aktion eines Memogeists wird die KRIT-Rate aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>14%</color> erhöht.",
+		"AbridgedEffect": "Nach der Aktion eines Memogeists wird die KRIT-Rate aller Verbündeten erhöht.",
+		"EnhancedEffect": "Nach der Aktion eines Memogeists wird die KRIT-Rate aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>21%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nach der Aktion eines Memogeists wird die KRIT-Rate aller Verbündeten erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617157": {
+		"Id": "617157",
+		"Name": "Wahrnehmung: Weiße Haare und Perlen",
+		"Rarity": 1,
+		"Effect": "Nach der Aktion eines Memogeists wird der KRIT-SCH aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>28%</color> erhöht.",
+		"AbridgedEffect": "Nach der Aktion eines Memogeists wird der KRIT-SCH aller Verbündeten erhöht.",
+		"EnhancedEffect": "Nach der Aktion eines Memogeists wird der KRIT-SCH aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>42%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nach der Aktion eines Memogeists wird der KRIT-SCH aller Verbündeten erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617220": {
+		"Id": "617220",
+		"Name": "Niedliches Schwarzes Loch",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Nichtigkeit eine Schwellenresonanz zu erzeugen. Verursacht bei allen Gegnern für <color=#f29e38ff>3</color> Rd. Brennen, Schock, Bluten und 2-fach Windscherung. Wenn sie von einer Figur angegriffen werden, werden die oben genannten DoT-Effekte sofort ausgelöst und SCH in Höhe von <color=#f29e38ff>25%</color> des ursprünglichen SCH verursacht.",
+		"AbridgedEffect": "Nach dem Auslösen der Schwellengleichung werden bei allen Gegnern Brennen, Schock, Bluten und Windscherung verursacht. Wenn sie von einer Figur angegriffen werden, werden die DoT-Effekte ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"617230": {
+		"Id": "617230",
+		"Name": "Die uneingestehbare Gemeinschaft",
+		"Rarity": 1,
+		"Effect": "Wenn ein Gegner DoT erleidet, erhält <u>Flüstern</u> Aufladung in Höhe von <color=#f29e38ff>20%</color> der ANG-Gesamtsumme aller Verbündeten.",
+		"AbridgedEffect": "Wenn ein Gegner DoT erleidet, wird <u>Flüstern</u> aufgeladen.",
+		"EnhancedEffect": "Wenn ein Gegner DoT erleidet, erhält <u>Flüstern</u> Aufladung in Höhe von <color=#f29e38ff>30%</color> der ANG-Gesamtsumme aller Verbündeten.",
+		"EnhancedAbridgedEffect": "Wenn ein Gegner DoT erleidet, wird <u>Flüstern</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617231": {
+		"Id": "617231",
+		"Name": "Vom Sein zum Seienden",
+		"Rarity": 1,
+		"Effect": "Wenn Gegner zum ersten Mal in einer Runde angegriffen werden, verursacht <u>Flüstern</u> SCH in Höhe von <color=#f29e38ff>160%</color> des ursprünglichen SCH.",
+		"AbridgedEffect": "Wenn Gegner zum ersten Mal in einer Runde angegriffen werden, wird 1-mal <u>Flüstern-SCH</u> ausgelöst.",
+		"EnhancedEffect": "Wenn Gegner zum ersten Mal in einer Runde angegriffen werden, verursacht <u>Flüstern</u> SCH in Höhe von <color=#f29e38ff>240%</color> des ursprünglichen SCH.",
+		"EnhancedAbridgedEffect": "Wenn Gegner zum ersten Mal in einer Runde angegriffen werden, wird 1-mal <u>Flüstern-SCH</u> ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"617232": {
+		"Id": "617232",
+		"Name": "Eine Stimme von anderswo",
+		"Rarity": 1,
+		"Effect": "Zu Beginn der Runde eines Gegners wird DoT zusätzlich 1-mal ausgelöst, wodurch der aktuelle erlittene DoT SCH in Höhe von <color=#f29e38ff>90%</color> des ursprünglichen SCH verursacht.",
+		"AbridgedEffect": "Zu Beginn der Runde eines Gegners wird DoT 1-mal zusätzlich ausgelöst.",
+		"EnhancedEffect": "Zu Beginn der Runde eines Gegners wird DoT zusätzlich 1-mal ausgelöst, wodurch der aktuelle erlittene DoT SCH in Höhe von <color=#f29e38ff>135%</color> des ursprünglichen SCH verursacht.",
+		"EnhancedAbridgedEffect": "Zu Beginn der Runde eines Gegners wird DoT 1-mal zusätzlich ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"617240": {
+		"Id": "617240",
+		"Name": "Erleuchtung und Auslöschung",
+		"Rarity": 1,
+		"Effect": "Wenn die Runde eines Gegners endet, erhält <u>Flüstern</u> Aufladung in Höhe von <color=#f29e38ff>40%</color> der ANG-Gesamtsumme aller verbündeten Figuren.",
+		"AbridgedEffect": "Wenn die Runde eines Gegners endet, wird <u>Flüstern</u> aufgeladen.",
+		"EnhancedEffect": "Wenn die Runde eines Gegners endet, erhält <u>Flüstern</u> Aufladung in Höhe von <color=#f29e38ff>60%</color> der ANG-Gesamtsumme aller verbündeten Figuren.",
+		"EnhancedAbridgedEffect": "Wenn die Runde eines Gegners endet, wird <u>Flüstern</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617241": {
+		"Id": "617241",
+		"Name": "Von Tränen und von Heiligen",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, nachdem Gegner <u>Flüstern-SCH</u> erlitten haben, wird der von ihnen verursachte SCH um <color=#f29e38ff>0.3%</color> reduziert, bis zu <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Jedes Mal, nachdem Gegner <u>Flüstern-SCH</u> erlitten haben, wird der von ihnen verursachte SCH reduziert.",
+		"EnhancedEffect": "Jedes Mal, nachdem Gegner <u>Flüstern-SCH</u> erlitten haben, wird der von ihnen verursachte SCH um <color=#f29e38ff>0.8%</color> reduziert, bis zu <color=#f29e38ff>16%</color>.",
+		"EnhancedAbridgedEffect": "Jedes Mal, nachdem Gegner <u>Flüstern-SCH</u> erlitten haben, wird der von ihnen verursachte SCH reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"617242": {
+		"Id": "617242",
+		"Name": "Lob der Schlaflosigkeit",
+		"Rarity": 1,
+		"Effect": "Erhöht den <u>Flüstern-SCH</u> um <color=#f29e38ff>30%</color> des ursprünglichen SCH-Multiplikators.",
+		"AbridgedEffect": "Erhöht den <u>Flüstern-SCH</u>.",
+		"EnhancedEffect": "Erhöht den <u>Flüstern-SCH</u> um <color=#f29e38ff>45%</color> des ursprünglichen SCH-Multiplikators.",
+		"EnhancedAbridgedEffect": "Erhöht den <u>Flüstern-SCH</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617243": {
+		"Id": "617243",
+		"Name": "Auf den Gipfeln der Verzweiflung",
+		"Rarity": 1,
+		"Effect": "Erhöht die Entfernungsschwelle für Aufladung von <u>Flüstern</u> um <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Erhöht die Obergrenze zum Entfernen von <u>Flüstern</u>.",
+		"EnhancedEffect": "Erhöht die Entfernungsschwelle für Aufladung von <u>Flüstern</u> um <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die Obergrenze zum Entfernen von <u>Flüstern</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617244": {
+		"Id": "617244",
+		"Name": "Die Schrift des Desasters",
+		"Rarity": 1,
+		"Effect": "Erhöht die Aufladeeffizienz um <color=#f29e38ff>20%</color>, wenn <u>Flüstern</u> Aufladung erhält.",
+		"AbridgedEffect": "Erhöht die Aufladeeffizienz, wenn <u>Flüstern</u> Aufladung erhält.",
+		"EnhancedEffect": "Erhöht die Aufladeeffizienz um <color=#f29e38ff>30%</color>, wenn <u>Flüstern</u> Aufladung erhält.",
+		"EnhancedAbridgedEffect": "Erhöht die Aufladeeffizienz, wenn <u>Flüstern</u> Aufladung erhält.",
+		"VersionAdded": "4.1"
+	},
+	"617245": {
+		"Id": "617245",
+		"Name": "Der als letzter spricht",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner DoT erleidet, werden bei allen Verbündeten LP in Höhe von <color=#f29e38ff>1.0%</color> ihrer jeweiligen max. LP wiederhergestellt.",
+		"AbridgedEffect": "Jedes Mal, wenn ein Gegner DoT erleidet, werden bei allen Verbündeten LP wiederhergestellt.",
+		"EnhancedEffect": "Jedes Mal, wenn ein Gegner DoT erleidet, werden bei allen Verbündeten LP in Höhe von <color=#f29e38ff>1.5%</color> ihrer jeweiligen max. LP wiederhergestellt.",
+		"EnhancedAbridgedEffect": "Jedes Mal, wenn ein Gegner DoT erleidet, werden bei allen Verbündeten LP wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"617246": {
+		"Id": "617246",
+		"Name": "Unklare Stellungnahmen",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner mit einem DoT-Effekt belegt wird, wird sein erlittener SCH um <color=#f29e38ff>3.0%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>6</color>-fach stapelbar.",
+		"AbridgedEffect": "Für jeden DoT-Effekt, mit dem der Gegner belegt wird, wird sein erlittener SCH erhöht.",
+		"EnhancedEffect": "Jedes Mal, wenn ein Gegner mit einem DoT-Effekt belegt wird, wird sein erlittener SCH um <color=#f29e38ff>4.5%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>6</color>-fach stapelbar.",
+		"EnhancedAbridgedEffect": "Für jeden DoT-Effekt, mit dem der Gegner belegt wird, wird sein erlittener SCH erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617250": {
+		"Id": "617250",
+		"Name": "Die lebendige Metapher",
+		"Rarity": 1,
+		"Effect": "Erhöht den verursachten DoT der Verbündeten um <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Erhöht den verursachten DoT.",
+		"EnhancedEffect": "Erhöht den verursachten DoT der Verbündeten um <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den verursachten DoT.",
+		"VersionAdded": "4.1"
+	},
+	"617251": {
+		"Id": "617251",
+		"Name": "Das Nicht-Existierende",
+		"Rarity": 1,
+		"Effect": "Erhöht die Effekt-Trefferrate der Verbündeten um <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Erhöht die Effekt-Trefferrate.",
+		"EnhancedEffect": "Erhöht die Effekt-Trefferrate der Verbündeten um <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die Effekt-Trefferrate.",
+		"VersionAdded": "4.1"
+	},
+	"617252": {
+		"Id": "617252",
+		"Name": "Die Krankheit zum Tode",
+		"Rarity": 1,
+		"Effect": "Reduziert den Effekt-WDS der Gegner um <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Reduziert den Effekt-WDS der Gegner.",
+		"EnhancedEffect": "Reduziert den Effekt-WDS der Gegner um <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Reduziert den Effekt-WDS der Gegner.",
+		"VersionAdded": "4.1"
+	},
+	"617253": {
+		"Id": "617253",
+		"Name": "Sakrileg",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gegnern erlittenen DoT um <color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "Erhöht den von Gegnern erlittenen DoT.",
+		"EnhancedEffect": "Erhöht den von Gegnern erlittenen DoT um <color=#f29e38ff>15%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den von Gegnern erlittenen DoT.",
+		"VersionAdded": "4.1"
+	},
+	"617254": {
+		"Id": "617254",
+		"Name": "Die innere Erfahrung",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Debuff verursacht hat, wird sein ANG für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>24%</color> erhöht.",
+		"AbridgedEffect": "Erhöht nach dem Verursachen von Debuffs den ANG.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einen Debuff verursacht hat, wird sein ANG für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>36%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht nach dem Verursachen von Debuffs den ANG.",
+		"VersionAdded": "4.1"
+	},
+	"617255": {
+		"Id": "617255",
+		"Name": "Heiße Nächte",
+		"Rarity": 1,
+		"Effect": "Erhöht den erlittenen SCH von Gegnern mit DoT-Status um <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Erhöht den erlittenen SCH von Gegnern mit DoT-Status.",
+		"EnhancedEffect": "Erhöht den erlittenen SCH von Gegnern mit DoT-Status um <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den erlittenen SCH von Gegnern mit DoT-Status.",
+		"VersionAdded": "4.1"
+	},
+	"617256": {
+		"Id": "617256",
+		"Name": "Jenseits von Gut und Böse",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Debuff verursacht hat, wird seine GES für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>10%</color> erhöht.",
+		"AbridgedEffect": "Erhöht nach dem Verursachen von Debuffs die GES.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einen Debuff verursacht hat, wird seine GES für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>15%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht nach dem Verursachen von Debuffs die GES.",
+		"VersionAdded": "4.1"
+	},
+	"617257": {
+		"Id": "617257",
+		"Name": "Die Austreibung des Anderen",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner DoT erleidet, wird bei einem zufälligen Verbündeten <color=#f29e38ff>1.0</color> Pkt. Energie wiederhergestellt. Dieser Effekt kann bis zu <color=#f29e38ff>20</color>-mal pro Runde des Gegners ausgelöst werden.",
+		"AbridgedEffect": "Jedes Mal, nachdem ein Gegner DoT erlitten hat, wird bei einem zufälligen Verbündeten Energie wiederhergestellt.",
+		"EnhancedEffect": "Jedes Mal, wenn ein Gegner DoT erleidet, wird bei einem zufälligen Verbündeten <color=#f29e38ff>1.5</color> Pkt. Energie wiederhergestellt. Dieser Effekt kann bis zu <color=#f29e38ff>20</color>-mal pro Runde des Gegners ausgelöst werden.",
+		"EnhancedAbridgedEffect": "Jedes Mal, nachdem ein Gegner DoT erlitten hat, wird bei einem zufälligen Verbündeten Energie wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"617420": {
+		"Id": "617420",
+		"Name": "Die letzte Kugel",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Jagd eine Schwellenresonanz zu erzeugen. Fügt allen Gegnern Wind-SCH zu und zieht die Aktionen aller Verbündeten um <color=#f29e38ff>100%</color> vor. Die max. Energie beträgt 200.",
+		"AbridgedEffect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Jagd eine Schwellenresonanz zu erzeugen. Fügt allen Gegnern Wind-SCH zu und zieht die Aktionen aller Verbündeten um <color=#f29e38ff>100%</color> vor. Die max. Energie beträgt 200.",
+		"VersionAdded": "4.1"
+	},
+	"617430": {
+		"Id": "617430",
+		"Name": "Gezogene Waffen, unebene Pfade",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Gegner besiegt hat, wird seine Aktion um 100 % vorgezogen und andere Gegner erhalten <color=#f29e38ff>4</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"AbridgedEffect": "Nachdem ein Verbündeter einen Gegner besiegt hat, wird seine Aktion um 100 % vorgezogen und andere Gegner erhalten <color=#f29e38ff>4</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"EnhancedEffect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>12%</color>. Nachdem ein Verbündeter einen Gegner besiegt hat, wird seine Aktion um 100 % vorgezogen und andere Gegner erhalten <color=#f29e38ff>8</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"EnhancedAbridgedEffect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>12%</color>. Nachdem ein Verbündeter einen Gegner besiegt hat, wird seine Aktion um 100 % vorgezogen und andere Gegner erhalten <color=#f29e38ff>8</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617431": {
+		"Id": "617431",
+		"Name": "Fliegende weiße Federn, ein Himmel voller Sterne",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Angriff ausgeführt hat und die Anzahl der Angriffsziele 1/2/3/4/5 beträgt, wird der verursachte SCH von <u>Umgekehrter Kritischer Boost</u> um <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> des ursprünglichen SCH-Multiplikators erhöht.",
+		"AbridgedEffect": "Nachdem ein Verbündeter einen Angriff ausgeführt hat und die Anzahl der Angriffsziele 1/2/3/4/5 beträgt, wird der verursachte SCH von <u>Umgekehrter Kritischer Boost</u> um <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> des ursprünglichen SCH-Multiplikators erhöht.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einen Angriff ausgeführt hat und die Anzahl der Angriffsziele 1/2/3/4/5 beträgt, wird der verursachte SCH von <u>Umgekehrter Kritischer Boost</u> um <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> des ursprünglichen SCH-Multiplikators erhöht.",
+		"EnhancedAbridgedEffect": "Nachdem ein Verbündeter einen Angriff ausgeführt hat und die Anzahl der Angriffsziele 1/2/3/4/5 beträgt, wird der verursachte SCH von <u>Umgekehrter Kritischer Boost</u> um <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> des ursprünglichen SCH-Multiplikators erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617432": {
+		"Id": "617432",
+		"Name": "Unerwartete Wendungen, Mutprobe für die Zukunft",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einem Gegner Schwächebruch zugefügt hat, wird seine Aktion um 100 % vorgezogen.",
+		"AbridgedEffect": "Nachdem ein Verbündeter einem Gegner Schwächebruch zugefügt hat, wird seine Aktion um 100 % vorgezogen.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einem Gegner Schwächebruch zugefügt hat, wird seine eigene Aktion um 100 % vorgezogen und sein verursachter SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>50%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nachdem ein Verbündeter einem Gegner Schwächebruch zugefügt hat, wird seine eigene Aktion um 100 % vorgezogen und sein verursachter SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>50%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617440": {
+		"Id": "617440",
+		"Name": "Sterne an der Schwertspitze",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner mit <u>Umgekehrter Kritischer Boost</u> SCH zufügt, wird die KRIT-Rate um <color=#f29e38ff>20%</color> erhöht. Für jede Stapelung von <u>Umgekehrter Kritischer Boost</u> wird der KRIT-SCH zusätzlich um <color=#f29e38ff>3%</color> erhöht.",
+		"AbridgedEffect": "Die KRIT-Rate von Verbündeten gegen Gegner mit „<u>Umgekehrter Kritischer Boost</u>“ wird erhöht. Je mehr Stapelungen <u>Umgekehrter Kritischer Boost</u> vorhanden sind, desto höher ist der KRIT-SCH.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner mit <u>Umgekehrter Kritischer Boost</u> SCH zufügt, wird die KRIT-Rate um <color=#f29e38ff>25%</color> erhöht. Für jede Stapelung von <u>Umgekehrter Kritischer Boost</u> wird der KRIT-SCH zusätzlich um <color=#f29e38ff>5%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Die KRIT-Rate von Verbündeten gegen Gegner mit „<u>Umgekehrter Kritischer Boost</u>“ wird erhöht. Je mehr Stapelungen <u>Umgekehrter Kritischer Boost</u> vorhanden sind, desto höher ist der KRIT-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617441": {
+		"Id": "617441",
+		"Name": "Der krumme Pfad des Pfeils",
+		"Rarity": 1,
+		"Effect": "Erhöht die max. Stapelzahl von <u>Umgekehrter Kritischer Boost</u> bei Gegnern um <color=#f29e38ff>5</color>.",
+		"AbridgedEffect": "Erhöht die max. Stapelzahl von <u>Umgekehrter Kritischer Boost</u> bei Gegnern.",
+		"EnhancedEffect": "Erhöht die max. Stapelzahl von <u>Umgekehrter Kritischer Boost</u> bei Gegnern um <color=#f29e38ff>10</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die max. Stapelzahl von <u>Umgekehrter Kritischer Boost</u> bei Gegnern.",
+		"VersionAdded": "4.1"
+	},
+	"617442": {
+		"Id": "617442",
+		"Name": "Reiter galoppieren durch das Chaos",
+		"Rarity": 1,
+		"Effect": "Zu Beginn der Runde eines gegnerischen Ziels wird der erlittene SCH für jede Stapelung von <u>Umgekehrter Boost</u> um <color=#f29e38ff>0.8%</color> erhöht. Dieser Effekt hält bis zum Beginn der nächsten Runde an.",
+		"AbridgedEffect": "Je mehr Stapelungen <u>Umgekehrter Kritischer Boost</u> ein Gegner hat, desto höher ist sein erlittener SCH.",
+		"EnhancedEffect": "Zu Beginn der Runde eines gegnerischen Ziels wird der erlittene SCH für jede Stapelung von <u>Umgekehrter Boost</u> um <color=#f29e38ff>1.2%</color> erhöht. Dieser Effekt hält bis zum Beginn der nächsten Runde an.",
+		"EnhancedAbridgedEffect": "Je mehr Stapelungen <u>Umgekehrter Kritischer Boost</u> ein Gegner hat, desto höher ist sein erlittener SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617443": {
+		"Id": "617443",
+		"Name": "Gebrochen, aber nicht verbogen",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Folgeangriff ausgeführt hat, erhält ein zufälliges Angriffsziel zusätzlich <color=#f29e38ff>2</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"AbridgedEffect": "Nachdem ein Verbündeter einen Folgeangriff ausgeführt hat, erhält ein zufälliges Angriffsziel zusätzlich <color=#f29e38ff>2</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einen Folgeangriff ausgeführt hat, erhält ein zufälliges Angriffsziel zusätzlich <color=#f29e38ff>2</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u> und die GES des Verbündeten wird für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>30%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nachdem ein Verbündeter einen Folgeangriff ausgeführt hat, erhält ein zufälliges Angriffsziel zusätzlich <color=#f29e38ff>2</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u> und die GES des Verbündeten wird erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617444": {
+		"Id": "617444",
+		"Name": "Strahlender Blitz",
+		"Rarity": 1,
+		"Effect": "Wenn ein Angriffsziel nach dem Angriff eines Verbündeten mindestens <color=#f29e38ff>5</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u> besitzt, wird der ANG dieser Einheit für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>50%</color> erhöht.",
+		"AbridgedEffect": "Wenn ein Angriffsziel nach dem Angriff eines Verbündeten mindestens <color=#f29e38ff>5</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u> besitzt, wird der ANG dieser Einheit erhöht.",
+		"EnhancedEffect": "Wenn ein Angriffsziel nach dem Angriff eines Verbündeten mindestens <color=#f29e38ff>5</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u> besitzt, wird der ANG dieser Einheit für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>75%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Wenn ein Angriffsziel nach dem Angriff eines Verbündeten mindestens <color=#f29e38ff>5</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u> besitzt, wird der ANG dieser Einheit erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617445": {
+		"Id": "617445",
+		"Name": "Der alte, treue Bogen",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter Folgeangriffe ausgeführt hat, besteht eine feste Chance von <color=#f29e38ff>40%</color>, dass 1 Fertigkeitspunkt wiederhergestellt wird.",
+		"AbridgedEffect": "Nachdem ein Verbündeter Folgeangriffe ausgeführt hat, besteht eine Chance, dass Fertigkeitspunkte wiederhergestellt werden.",
+		"EnhancedEffect": "Nachdem ein Verbündeter Folgeangriffe ausgeführt hat, besteht eine feste Chance von <color=#f29e38ff>60%</color>, dass 1 Fertigkeitspunkt wiederhergestellt wird.",
+		"EnhancedAbridgedEffect": "Nachdem ein Verbündeter Folgeangriffe ausgeführt hat, besteht eine Chance, dass Fertigkeitspunkte wiederhergestellt werden.",
+		"VersionAdded": "4.1"
+	},
+	"617446": {
+		"Id": "617446",
+		"Name": "Pfeile fliegen wie Meteoriten",
+		"Rarity": 1,
+		"Effect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>5%</color>. Nach je <color=#f29e38ff>12</color> Rd. des ganzen Teams wird die Aktion des aktuellen Verbündeten um 100 % vorgezogen.",
+		"AbridgedEffect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>5%</color>. Nach je <color=#f29e38ff>12</color> Rd. des ganzen Teams wird die Aktion des aktuellen Verbündeten um 100 % vorgezogen.",
+		"EnhancedEffect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>12%</color>. Nach je <color=#f29e38ff>12</color> Rd. des ganzen Teams wird die Aktion des aktuellen Verbündeten um 100 % vorgezogen.",
+		"EnhancedAbridgedEffect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>12%</color>. Nach je <color=#f29e38ff>12</color> Rd. des ganzen Teams wird die Aktion des aktuellen Verbündeten um 100 % vorgezogen.",
+		"VersionAdded": "4.1"
+	},
+	"617450": {
+		"Id": "617450",
+		"Name": "Ausgerichtet für Präzision",
+		"Rarity": 1,
+		"Effect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Erhöht die GES der Verbündeten.",
+		"EnhancedEffect": "Erhöht die GES der Verbündeten um <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die GES der Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617451": {
+		"Id": "617451",
+		"Name": "Die Kraft, Hunderte zu überwinden",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate der Verbündeten um <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate der Verbündeten.",
+		"EnhancedEffect": "Erhöht die KRIT-Rate der Verbündeten um <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die KRIT-Rate der Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617452": {
+		"Id": "617452",
+		"Name": "Sonnenklare Absicht",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH der Verbündeten um <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Erhöht den KRIT-SCH der Verbündeten.",
+		"EnhancedEffect": "Erhöht den KRIT-SCH der Verbündeten um <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den KRIT-SCH der Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617453": {
+		"Id": "617453",
+		"Name": "Herbstmond am Himmel",
+		"Rarity": 1,
+		"Effect": "Stellt nach dem Besiegen eines Gegners bei allen Verbündeten LP in Höhe von <color=#f29e38ff>12%</color> ihrer max. LP wieder her.",
+		"AbridgedEffect": "Stellt nach dem Besiegen eines Gegners bei allen Verbündeten LP wieder her.",
+		"EnhancedEffect": "Stellt nach dem Besiegen eines Gegners bei allen Verbündeten LP in Höhe von <color=#f29e38ff>18%</color> ihrer max. LP wieder her.",
+		"EnhancedAbridgedEffect": "Stellt nach dem Besiegen eines Gegners bei allen Verbündeten LP wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"617454": {
+		"Id": "617454",
+		"Name": "Mit einem Handgriff",
+		"Rarity": 1,
+		"Effect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten um <color=#f29e38ff>10%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>4</color>-mal stapelbar.",
+		"AbridgedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten.",
+		"EnhancedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten um <color=#f29e38ff>15%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>4</color>-mal stapelbar.",
+		"EnhancedAbridgedEffect": "Erhöht nach dem Besiegen eines Gegners den ANG aller Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617455": {
+		"Id": "617455",
+		"Name": "Mondzertrümmernder Pfeil",
+		"Rarity": 1,
+		"Effect": "Am Ende der Runde eines Verbündeten wird seine Aktion um <color=#f29e38ff>6%</color> vorgezogen.",
+		"AbridgedEffect": "Am Ende der Runde eines Verbündeten wird seine Aktion vorgezogen.",
+		"EnhancedEffect": "Am Ende der Runde eines Verbündeten wird seine Aktion um <color=#f29e38ff>9%</color> vorgezogen.",
+		"EnhancedAbridgedEffect": "Am Ende der Runde eines Verbündeten wird seine Aktion vorgezogen.",
+		"VersionAdded": "4.1"
+	},
+	"617456": {
+		"Id": "617456",
+		"Name": "Donner auf der Mauer",
+		"Rarity": 1,
+		"Effect": "Stellt zu Beginn der Runde eines Verbündeten <color=#f29e38ff>3</color> Pkt. Energie wieder her.",
+		"AbridgedEffect": "Stellt zu Beginn der Runde eines Verbündeten Energie wieder her.",
+		"EnhancedEffect": "Stellt zu Beginn der Runde eines Verbündeten <color=#f29e38ff>4</color> Pkt. Energie wieder her.",
+		"EnhancedAbridgedEffect": "Stellt zu Beginn der Runde eines Verbündeten Energie wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"617457": {
+		"Id": "617457",
+		"Name": "Grüner Zweig, rote Saite",
+		"Rarity": 1,
+		"Effect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>3</color>-mal stapelbar.",
+		"AbridgedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten.",
+		"EnhancedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten um <color=#f29e38ff>6%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>3</color>-mal stapelbar.",
+		"EnhancedAbridgedEffect": "Erhöht nach dem Besiegen eines Gegners die GES aller Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617520": {
+		"Id": "617520",
+		"Name": "Dämonenfürst aus dem Jenseits",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Zerstörung eine Schwellenresonanz zu erzeugen. Fügt allen Gegnern Feuer-SCH zu, verbraucht die LP aller Verbündeten bis auf <color=#f29e38ff>60%</color> und erhöht die max. LP aller Verbündeten um <color=#f29e38ff>100%</color>. Stellt zu Beginn der Runde für <color=#f29e38ff>4</color> Rd. <color=#f29e38ff>100%</color> der verbrauchten LP des jeweiligen Verbündeten wieder her.",
+		"AbridgedEffect": "Nach Auslösen der Schwellengleichung wird allen Gegnern Feuer-SCH zugefügt und die LP aller Verbündeten werden reduziert. Außerdem werden ihre max. LP erhöht und zu Beginn der Runde LP wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"617530": {
+		"Id": "617530",
+		"Name": "Ein Aufstieg schneller als Licht",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Verbündeten verursachten <u>Blazar-SCH</u> um <color=#f29e38ff>20%</color> und die Obergrenze von <u>Blazar</u> um <color=#f29e38ff>65%</color>.",
+		"AbridgedEffect": "Erhöht den von Verbündeten verursachten <u>Blazar-SCH</u> und die Obergrenze von <u>Blazar</u>.",
+		"EnhancedEffect": "Erhöht den von Verbündeten verursachten <u>Blazar-SCH</u> um <color=#f29e38ff>30%</color> und die Obergrenze von <u>Blazar</u> um <color=#f29e38ff>100%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den von Verbündeten verursachten <u>Blazar-SCH</u> und die Obergrenze von <u>Blazar</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617531": {
+		"Id": "617531",
+		"Name": "Zufällige Schockwellen",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter jede Runde den ersten Angriff ausgeführt hat, erleidet das Ziel zusätzlichen SCH in Höhe von <color=#f29e38ff>100%</color> von <u>Blazar</u>.",
+		"AbridgedEffect": "Nachdem ein Verbündeter in einer Runde den ersten Angriff ausgeführt hat, erleidet das Ziel basierend auf <u>Blazar</u> zusätzlichen SCH.",
+		"EnhancedEffect": "Nachdem ein Verbündeter jede Runde den ersten Angriff ausgeführt hat, erleidet das Ziel zusätzlichen SCH in Höhe von <color=#f29e38ff>150%</color> von <u>Blazar</u>.",
+		"EnhancedAbridgedEffect": "Nachdem ein Verbündeter in einer Runde den ersten Angriff ausgeführt hat, erleidet das Ziel basierend auf <u>Blazar</u> zusätzlichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617532": {
+		"Id": "617532",
+		"Name": "Hyperschnelles Wolkenmedium",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter angegriffen wird, wird der erlittene SCH unter allen Verbündeten aufgeteilt.",
+		"AbridgedEffect": "Alle Verbündeten teilen den erlittenen SCH unter sich auf.",
+		"EnhancedEffect": "Reduziert den von Verbündeten erlittenen SCH um <color=#f29e38ff>15%</color>. Wenn ein Verbündeter angegriffen wird, wird der erlittene SCH unter allen Verbündeten aufgeteilt.",
+		"EnhancedAbridgedEffect": "Alle Verbündeten teilen den erlittenen SCH unter sich auf und der von Verbündeten erlittene SCH wird reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"617540": {
+		"Id": "617540",
+		"Name": "Dichte Flammen",
+		"Rarity": 1,
+		"Effect": "Wenn Verbündete angegriffen werden, wird der SCH-Multiplikator von <u>Blazar</u> um <color=#f29e38ff>20%</color> des ursprünglichen Multiplikators erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-mal stapelbar und hält <color=#f29e38ff>2</color> Rd. an.",
+		"AbridgedEffect": "Beim Erleiden von Angriffen wird der <u>Blazar-SCH</u> erhöht.",
+		"EnhancedEffect": "Wenn Verbündete angegriffen werden, wird der SCH-Multiplikator von <u>Blazar</u> um <color=#f29e38ff>30%</color> des ursprünglichen Multiplikators erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-mal stapelbar und hält <color=#f29e38ff>2</color> Rd. an.",
+		"EnhancedAbridgedEffect": "Beim Erleiden von Angriffen wird der <u>Blazar-SCH</u> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617541": {
+		"Id": "617541",
+		"Name": "Synchrotronstrahlung",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> der von Verbündeten erhaltenen Schildmenge werden zusätzlich in <u>Blazar</u> umgewandelt.",
+		"AbridgedEffect": "Erhaltene Schildmenge kann zusätzlich in <u>Blazar</u> umgewandelt werden.",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> der von Verbündeten erhaltenen Schildmenge werden zusätzlich in <u>Blazar</u> umgewandelt.",
+		"EnhancedAbridgedEffect": "Erhaltene Schildmenge kann zusätzlich in <u>Blazar</u> umgewandelt werden.",
+		"VersionAdded": "4.1"
+	},
+	"617542": {
+		"Id": "617542",
+		"Name": "Kontinuierliches Spektrum",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> der überschüssigen LP-Wiederherstellung können auch in <u>Blazar</u> umgewandelt werden.",
+		"AbridgedEffect": "Überschüssige LP-Wiederherstellung kann auch in <u>Blazar</u> umgewandelt werden.",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> der überschüssigen LP-Wiederherstellung können auch in <u>Blazar</u> umgewandelt werden.",
+		"EnhancedAbridgedEffect": "Überschüssige LP-Wiederherstellung kann auch in <u>Blazar</u> umgewandelt werden.",
+		"VersionAdded": "4.1"
+	},
+	"617543": {
+		"Id": "617543",
+		"Name": "Verdeckte Schattenbänder",
+		"Rarity": 1,
+		"Effect": "Erhöht den Basiswert von <u>Blazar</u> um <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Erhöht den Basiswert von <u>Blazar</u>.",
+		"EnhancedEffect": "Erhöht den Basiswert von <u>Blazar</u> um <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den Basiswert von <u>Blazar</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617544": {
+		"Id": "617544",
+		"Name": "Variable der Katastrophe",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate des von <u>Blazar</u> verursachten SCH um <color=#f29e38ff>20%</color> und den KRIT-SCH um <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate und den KRIT-SCH von <u>Blazar</u>.",
+		"EnhancedEffect": "Erhöht die KRIT-Rate des von <u>Blazar</u> verursachten SCH um <color=#f29e38ff>30%</color> und den KRIT-SCH um <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die KRIT-Rate und den KRIT-SCH von <u>Blazar</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617545": {
+		"Id": "617545",
+		"Name": "Erzwungener Warpsprung",
+		"Rarity": 1,
+		"Effect": "Wenn der LP-Prozentsatz eines Verbündeten nach einem erlittenen Angriff oder LP-Verbrauch weniger als <color=#f29e38ff>35%</color> beträgt, werden bei ihm LP in Höhe von <color=#f29e38ff>12%</color> seiner max. LP wiederhergestellt. Bei jeder Aktion können auf diese Weise bis zu <color=#f29e38ff>18%</color> der max. LP wiederhergestellt werden.",
+		"AbridgedEffect": "Wenn der LP-Prozentsatz nach einem erlittenen Angriff oder LP-Verbrauch weniger als <color=#f29e38ff>35%</color> beträgt, werden LP wiederhergestellt.",
+		"EnhancedEffect": "Wenn der LP-Prozentsatz eines Verbündeten nach einem erlittenen Angriff oder LP-Verbrauch weniger als <color=#f29e38ff>35%</color> beträgt, werden bei ihm LP in Höhe von <color=#f29e38ff>20%</color> seiner max. LP wiederhergestellt. Bei jeder Aktion können auf diese Weise bis zu <color=#f29e38ff>30%</color> der max. LP wiederhergestellt werden.",
+		"EnhancedAbridgedEffect": "Wenn der LP-Prozentsatz nach einem erlittenen Angriff oder LP-Verbrauch weniger als <color=#f29e38ff>35%</color> beträgt, werden LP wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"617546": {
+		"Id": "617546",
+		"Name": "Radioaktiver Zerfall",
+		"Rarity": 1,
+		"Effect": "Wenn der LP-Prozentsatz eines Verbündeten weniger als 50 % beträgt, wird der erlittene SCH um <color=#f29e38ff>10%</color> reduziert und die LP-Wiederherstellung um <color=#f29e38ff>20%</color> erhöht.",
+		"AbridgedEffect": "Wenn der LP-Prozentsatz weniger als 50 % beträgt, wird der erlittene SCH reduziert und die LP-Wiederherstellung erhöht.",
+		"EnhancedEffect": "Wenn der LP-Prozentsatz eines Verbündeten weniger als 50 % beträgt, wird der erlittene SCH um <color=#f29e38ff>15%</color> reduziert und die LP-Wiederherstellung um <color=#f29e38ff>30%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Wenn der LP-Prozentsatz weniger als 50 % beträgt, wird der erlittene SCH reduziert und die LP-Wiederherstellung erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617550": {
+		"Id": "617550",
+		"Name": "Bipolare Jets",
+		"Rarity": 1,
+		"Effect": "Reduziert den erlittenen SCH der Verbündeten um <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Reduziert den erlittenen SCH.",
+		"EnhancedEffect": "Reduziert den erlittenen SCH der Verbündeten um <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Reduziert den erlittenen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617551": {
+		"Id": "617551",
+		"Name": "Doppelsegment-Struktur",
+		"Rarity": 1,
+		"Effect": "Erhöht den Effekt-WDS der Verbündeten um <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Erhöht den Effekt-WDS.",
+		"EnhancedEffect": "Erhöht den Effekt-WDS der Verbündeten um <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den Effekt-WDS.",
+		"VersionAdded": "4.1"
+	},
+	"617552": {
+		"Id": "617552",
+		"Name": "Doppelsterne im Kontakt",
+		"Rarity": 1,
+		"Effect": "Erhöht die max. LP der Verbündeten um <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Erhöht die max. LP.",
+		"EnhancedEffect": "Erhöht die max. LP der Verbündeten um <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die max. LP.",
+		"VersionAdded": "4.1"
+	},
+	"617553": {
+		"Id": "617553",
+		"Name": "Absolute Helligkeit",
+		"Rarity": 1,
+		"Effect": "Erhöht die LP-Wiederherstellung der Verbündeten um <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Erhöht die LP-Wiederherstellung.",
+		"EnhancedEffect": "Erhöht die LP-Wiederherstellung der Verbündeten um <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die LP-Wiederherstellung.",
+		"VersionAdded": "4.1"
+	},
+	"617554": {
+		"Id": "617554",
+		"Name": "Standardkerzen",
+		"Rarity": 1,
+		"Effect": "Erhöht die erhaltene Schildmenge der Verbündeten um <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Erhöht die erhaltene Schildmenge.",
+		"EnhancedEffect": "Erhöht die erhaltene Schildmenge der Verbündeten um <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die erhaltene Schildmenge.",
+		"VersionAdded": "4.1"
+	},
+	"617555": {
+		"Id": "617555",
+		"Name": "Substellarer Massentransfer",
+		"Rarity": 1,
+		"Effect": "Nach der Reduktion der LP oder der Schildmenge eines Verbündeten werden seine max. LP für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>20%</color> erhöht.",
+		"AbridgedEffect": "Nach der Reduktion der LP oder der Schildmenge werden die max. LP erhöht.",
+		"EnhancedEffect": "Nach der Reduktion der LP oder der Schildmenge eines Verbündeten werden seine max. LP für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>30%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nach der Reduktion der LP oder der Schildmenge werden die max. LP erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617556": {
+		"Id": "617556",
+		"Name": "Binäre Finsternis",
+		"Rarity": 1,
+		"Effect": "Nach der Reduktion der LP oder der Schildmenge eines Verbündeten wird sein Effekt-WDS für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>16%</color> erhöht.",
+		"AbridgedEffect": "Nach der Reduktion der LP oder der Schildmenge wird der Effekt-WDS erhöht.",
+		"EnhancedEffect": "Nach der Reduktion der LP oder der Schildmenge eines Verbündeten wird sein Effekt-WDS für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>24%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nach der Reduktion der LP oder der Schildmenge wird der Effekt-WDS erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617557": {
+		"Id": "617557",
+		"Name": "Ausbruch einer Supernova",
+		"Rarity": 1,
+		"Effect": "Wenn eine Figur einen Todesstoß erleidet, wird sie nicht handlungsunfähig, sondern stellt sofort LP in Höhe von <color=#f29e38ff>20%</color> ihrer max. LP wieder her. Dieser Effekt kann unter allen Verbündeten nur <color=#f29e38ff>1</color>-mal pro Kampf ausgelöst werden.",
+		"AbridgedEffect": "Figuren können Todesstößen widerstehen und stellen ihre eigenen LP wieder her. Dies kann nur eine begrenzte Anzahl von Malen unter allen Verbündeten wirksam werden.",
+		"EnhancedEffect": "Wenn eine Figur einen Todesstoß erleidet, wird sie nicht handlungsunfähig, sondern stellt sofort LP in Höhe von <color=#f29e38ff>100%</color> ihrer max. LP wieder her. Dieser Effekt kann unter allen Verbündeten nur <color=#f29e38ff>1</color>-mal pro Kampf ausgelöst werden.",
+		"EnhancedAbridgedEffect": "Figuren können Todesstößen widerstehen und stellen ihre eigenen LP wieder her. Dies kann nur eine begrenzte Anzahl von Malen unter allen Verbündeten wirksam werden.",
+		"VersionAdded": "4.1"
+	},
+	"617620": {
+		"Id": "617620",
+		"Name": "Unendliche Unwahrscheinlichkeit",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um die Fähigkeit einzusetzen und eine Schwellenresonanz mit dem Pfad „Hochgefühl“ zu erzeugen, fügt allen Gegnern <color=#f29e38ff>5</color> bis <color=#f29e38ff>10</color> Mal Hochgefühl-SCH eines zufälligen Typs zu und gewährt Aha sofort 1 zusätzliche Runde, in der eine feste Anzahl von <color=#f29e38ff>200</color> Lachpunkt(en) angerechnet wird. Diese Runde verbraucht keine Lachpunkte.",
+		"AbridgedEffect": "Verbraucht 100 Pkt. Energie, um die Fähigkeit einzusetzen und eine Schwellenresonanz mit dem Pfad „Hochgefühl“ zu erzeugen, fügt allen Gegnern <color=#f29e38ff>5</color> bis <color=#f29e38ff>10</color> Mal Hochgefühl-SCH eines zufälligen Typs zu und gewährt Aha sofort 1 zusätzliche Runde, in der eine feste Anzahl von <color=#f29e38ff>200</color> Lachpunkt(en) angerechnet wird. Diese Runde verbraucht keine Lachpunkte.",
+		"VersionAdded": "4.1"
+	},
+	"617630": {
+		"Id": "617630",
+		"Name": "„Lakritz-Pizza: Minz-Eis“",
+		"Rarity": 1,
+		"Effect": "Für je <color=#f29e38ff>50</color> Aktionswert erhält der <u>Kartengeber</u> dauerhaft 1 Pkt. Aufladung. Für jeden Punkt Aufladung des <u>Kartengebers</u> wird zusätzlich die GES von neutralen Kampfereignissen, allen Verbündeten und deren beschworenen Objekten um <color=#f29e38ff>1</color> erhöht.",
+		"AbridgedEffect": "Für je <color=#f29e38ff>50</color> Aktionswert erhält der <u>Kartenleger</u> dauerhaft 1 Pkt. Aufladung. Je mehr Aufladung der <u>Kartengeber</u> hat, desto höher wird die GES von neutralen Kampfereignissen, allen Verbündeten und deren beschworenen Objekten.",
+		"EnhancedEffect": "Für je <color=#f29e38ff>25</color> Aktionswert erhält der <u>Kartengeber</u> dauerhaft 1 Pkt. Aufladung. Für jeden Punkt Aufladung des <u>Kartengebers</u> wird zusätzlich die GES von neutralen Kampfereignissen, allen Verbündeten und deren beschworenen Objekten um <color=#f29e38ff>1</color> erhöht.",
+		"EnhancedAbridgedEffect": "Für je <color=#f29e38ff>25</color> Aktionswert erhält der <u>Kartenleger</u> dauerhaft 1 Pkt. Aufladung. Je mehr Aufladung der <u>Kartengeber</u> hat, desto höher wird die GES von neutralen Kampfereignissen, allen Verbündeten und deren beschworenen Objekten.",
+		"VersionAdded": "4.1"
+	},
+	"617631": {
+		"Id": "617631",
+		"Name": "„Ozean-Colonel: Die Welt von gestern“",
+		"Rarity": 1,
+		"Effect": "Erhält nach der Aktion des <u>Kartengebers</u> <color=#f29e38ff>5</color> Lachpunkt(e) und erhöht den KRIT-SCH aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>60%</color>.",
+		"AbridgedEffect": "Erhält nach der Aktion des <u>Kartengebers</u> Lachpunkte und erhöht den KRIT-SCH aller Verbündeten.",
+		"EnhancedEffect": "Erhält nach der Aktion des <u>Kartengebers</u> <color=#f29e38ff>10</color> Lachpunkt(e) und erhöht den KRIT-SCH aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>60%</color>. Für jeden Punkt Aufladung wird dieser Wert zusätzlich um <color=#f29e38ff>3%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhält nach der Aktion des <u>Kartengebers</u> Lachpunkte und erhöht den KRIT-SCH aller Verbündeten. Je mehr Aufladung, desto größer die Erhöhung.",
+		"VersionAdded": "4.1"
+	},
+	"617632": {
+		"Id": "617632",
+		"Name": "„Sonnenaufgang im Sand: Solotanztruppe“",
+		"Rarity": 1,
+		"Effect": "Erhöht die WDS-DUR aller Typen von Verbündeten um <color=#f29e38ff>10%</color>. Erreichen die Lachpunkte zum ersten Mal <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color>, wird das Hochgefühl aller Verbündeten um <color=#f29e38ff>20%</color> erhöht. Dieser Effekt ist stapelbar.",
+		"AbridgedEffect": "Erhöht die WDS-DUR aller Typen von Verbündeten. Je mehr Lachpunkte vorhanden sind, desto höher ist das Hochgefühl aller Verbündeten.",
+		"EnhancedEffect": "Erhöht die WDS-DUR aller Typen von Verbündeten um <color=#f29e38ff>15%</color>. Erreichen die Lachpunkte zum ersten Mal <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color>, wird das Hochgefühl aller Verbündeten um <color=#f29e38ff>30%</color> erhöht. Dieser Effekt ist stapelbar.",
+		"EnhancedAbridgedEffect": "Erhöht die WDS-DUR aller Typen von Verbündeten. Je mehr Lachpunkte vorhanden sind, desto höher ist das Hochgefühl aller Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"617640": {
+		"Id": "617640",
+		"Name": "„Ein stiller Monat im Haus“",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate des <u>Kartengebers</u> um <color=#f29e38ff>20%</color> und seinen KRIT-SCH um <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate und den KRIT-SCH des <u>Kartengebers</u>.",
+		"EnhancedEffect": "Erhöht die KRIT-Rate des <u>Kartengebers</u> um <color=#f29e38ff>30%</color> und seinen KRIT-SCH um <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die KRIT-Rate und den KRIT-SCH des <u>Kartengebers</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617641": {
+		"Id": "617641",
+		"Name": "„Besessener Leutnant mit Kaviar“",
+		"Rarity": 1,
+		"Effect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel erlittene SCH um <color=#f29e38ff>5%</color> erhöht. Dieser Effekt ist stapelbar und hält bis zur nächsten Aktion des <u>Kartengebers</u> an.",
+		"AbridgedEffect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel erlittene SCH erhöht.",
+		"EnhancedEffect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel erlittene SCH um <color=#f29e38ff>7%</color> erhöht. Dieser Effekt ist stapelbar und hält bis zur nächsten Aktion des <u>Kartengebers</u> an.",
+		"EnhancedAbridgedEffect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel erlittene SCH erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617642": {
+		"Id": "617642",
+		"Name": "„Weißt du, wie hübsch dein Schrank ist?“",
+		"Rarity": 1,
+		"Effect": "Erhöht die Basis-GES des <u>Kartengebers</u> um <color=#f29e38ff>16</color>. Zu Beginn des Kampfes wird seine Aktion um <color=#f29e38ff>50%</color> vorgezogen.",
+		"AbridgedEffect": "Erhöht die Basis-GES des <u>Kartengebers</u>. Zu Beginn des Kampfes wird seine Aktion vorgezogen.",
+		"EnhancedEffect": "Erhöht die Basis-GES des <u>Kartengebers</u> um <color=#f29e38ff>24</color>. Zu Beginn des Kampfes wird seine Aktion um <color=#f29e38ff>50%</color> vorgezogen.",
+		"EnhancedAbridgedEffect": "Erhöht die Basis-GES des <u>Kartengebers</u>. Zu Beginn des Kampfes wird seine Aktion vorgezogen.",
+		"VersionAdded": "4.1"
+	},
+	"617643": {
+		"Id": "617643",
+		"Name": "„Samen einer wundersamen Frucht“",
+		"Rarity": 1,
+		"Effect": "Nach der Aktion des <u>Kartengebers</u> wird die GES aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>18%</color> erhöht.",
+		"AbridgedEffect": "Nach der Aktion des <u>Kartengebers</u> wird die GES aller Verbündeten erhöht.",
+		"EnhancedEffect": "Nach der Aktion des <u>Kartengebers</u> wird die GES aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>27%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nach der Aktion des <u>Kartengebers</u> wird die GES aller Verbündeten erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617644": {
+		"Id": "617644",
+		"Name": "„Miau-Miau in der Galaxie“",
+		"Rarity": 1,
+		"Effect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel verursachte SCH um <color=#f29e38ff>4%</color> reduziert. Dieser Effekt ist bis zu <color=#f29e38ff>3</color>-fach stapelbar und hält bis zur nächsten Aktion des <u>Kartengebers</u> an.",
+		"AbridgedEffect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel verursachte SCH verringert.",
+		"EnhancedEffect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel verursachte SCH um <color=#f29e38ff>6%</color> reduziert. Dieser Effekt ist bis zu <color=#f29e38ff>3</color>-fach stapelbar und hält bis zur nächsten Aktion des <u>Kartengebers</u> an.",
+		"EnhancedAbridgedEffect": "Wenn der <u>Kartengeber</u> SCH verursacht, wird der vom Angriffsziel verursachte SCH verringert.",
+		"VersionAdded": "4.1"
+	},
+	"617645": {
+		"Id": "617645",
+		"Name": "„Simon im Meer“",
+		"Rarity": 1,
+		"Effect": "Der von Verbündeten verursachte SCH ignoriert <color=#f29e38ff>8%</color> der VTD des Gegners. Handelt es sich um Hochgefühl-SCH, ignoriert er zusätzlich <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Der von Verbündeten verursachte SCH ignoriert VTD des Gegners. Handelt es sich um Hochgefühl-SCH, ignoriert er zusätzlich VTD.",
+		"EnhancedEffect": "Der von Verbündeten verursachte SCH ignoriert <color=#f29e38ff>12%</color> der VTD des Gegners. Handelt es sich um Hochgefühl-SCH, ignoriert er zusätzlich <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Der von Verbündeten verursachte SCH ignoriert VTD des Gegners. Handelt es sich um Hochgefühl-SCH, ignoriert er zusätzlich VTD.",
+		"VersionAdded": "4.1"
+	},
+	"617646": {
+		"Id": "617646",
+		"Name": "„Die lange Reise des Tages“",
+		"Rarity": 1,
+		"Effect": "Erhöht die Schwächebruch-Effizienz um <color=#f29e38ff>35%</color>, wenn Verbündete Hochgefühl-SCH verursachen.",
+		"AbridgedEffect": "Erhöht die Schwächebruch-Effizienz, wenn Verbündete Hochgefühl-SCH verursachen.",
+		"EnhancedEffect": "Erhöht die Schwächebruch-Effizienz um <color=#f29e38ff>50%</color>, wenn Verbündete Hochgefühl-SCH verursachen.",
+		"EnhancedAbridgedEffect": "Erhöht die Schwächebruch-Effizienz, wenn Verbündete Hochgefühl-SCH verursachen.",
+		"VersionAdded": "4.1"
+	},
+	"617650": {
+		"Id": "617650",
+		"Name": "„Psychedelischer Parkplatz“",
+		"Rarity": 1,
+		"Effect": "Beim Kampfeintritt wird die Aktion aller Verbündeten um <color=#f29e38ff>30%</color> vorgezogen und sie erhalten <color=#f29e38ff>10</color> Lachpunkt(e).",
+		"AbridgedEffect": "Beim Kampfeintritt wird die Aktion aller Verbündeten vorgezogen und sie erhalten Lachpunkte.",
+		"EnhancedEffect": "Beim Kampfeintritt wird die Aktion aller Verbündeten um <color=#f29e38ff>45%</color> vorgezogen und sie erhalten <color=#f29e38ff>15</color> Lachpunkt(e).",
+		"EnhancedAbridgedEffect": "Beim Kampfeintritt wird die Aktion aller Verbündeten vorgezogen und sie erhalten Lachpunkte.",
+		"VersionAdded": "4.1"
+	},
+	"617651": {
+		"Id": "617651",
+		"Name": "„Linie der Liebe“",
+		"Rarity": 1,
+		"Effect": "Reduziert den erlittenen SCH aller Verbündeten um <color=#f29e38ff>4%</color>. Nach Ahas erster Aktion wird er zusätzlich um <color=#f29e38ff>3%</color> reduziert.",
+		"AbridgedEffect": "Reduziert den erlittenen SCH aller Verbündeten. Nach Ahas erster Aktion wird er zusätzlich reduziert.",
+		"EnhancedEffect": "Reduziert den erlittenen SCH aller Verbündeten um <color=#f29e38ff>6%</color>. Nach Ahas erster Aktion wird er zusätzlich um <color=#f29e38ff>4%</color> reduziert.",
+		"EnhancedAbridgedEffect": "Reduziert den erlittenen SCH aller Verbündeten. Nach Ahas erster Aktion wird er zusätzlich reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"617652": {
+		"Id": "617652",
+		"Name": "„Omega-Stadt“",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate aller Verbündeten um <color=#f29e38ff>10%</color>. Beim Verursachen von Hochgefühl-SCH wird sie zusätzlich um <color=#f29e38ff>4%</color> erhöht.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate aller Verbündeten. Beim Verursachen von Hochgefühl-SCH wird sie zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht die KRIT-Rate aller Verbündeten um <color=#f29e38ff>15%</color>. Beim Verursachen von Hochgefühl-SCH wird sie zusätzlich um <color=#f29e38ff>6%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht die KRIT-Rate aller Verbündeten. Beim Verursachen von Hochgefühl-SCH wird sie zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617653": {
+		"Id": "617653",
+		"Name": "„Herr Gewalt“",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH aller Verbündeten um <color=#f29e38ff>20%</color>. Beim Verursachen von Hochgefühl-SCH wird er zusätzlich um <color=#f29e38ff>8%</color> erhöht.",
+		"AbridgedEffect": "Erhöht den KRIT-SCH aller Verbündeten. Beim Verursachen von Hochgefühl-SCH wird er zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht den KRIT-SCH aller Verbündeten um <color=#f29e38ff>30%</color>. Beim Verursachen von Hochgefühl-SCH wird er zusätzlich um <color=#f29e38ff>12%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht den KRIT-SCH aller Verbündeten. Beim Verursachen von Hochgefühl-SCH wird er zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617654": {
+		"Id": "617654",
+		"Name": "„Verlassener Zufluchtsort“",
+		"Rarity": 1,
+		"Effect": "Stellt bei allen Verbündeten <color=#f29e38ff>4</color> Energie wieder her, wenn Aha eine Aktion ausführt. Dieser Effekt kann bei jedem Verbündeten bis zu <color=#f29e38ff>1</color>-mal pro Runde ausgelöst werden.",
+		"AbridgedEffect": "Wenn Aha eine Aktion ausführt, wird bei allen Verbündeten Energie wiederhergestellt.",
+		"EnhancedEffect": "Stellt bei allen Verbündeten <color=#f29e38ff>6</color> Energie wieder her, wenn Aha eine Aktion ausführt. Dieser Effekt kann bei jedem Verbündeten bis zu <color=#f29e38ff>1</color>-mal pro Runde ausgelöst werden.",
+		"EnhancedAbridgedEffect": "Wenn Aha eine Aktion ausführt, wird bei allen Verbündeten Energie wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"617655": {
+		"Id": "617655",
+		"Name": "„Aschenmünzen und Gold“",
+		"Rarity": 1,
+		"Effect": "Nach Ahas Aktion erhalten alle Verbündeten für <color=#f29e38ff>2</color> Rd. einen Schild in Höhe von <color=#f29e38ff>20%</color> der max. LP.",
+		"AbridgedEffect": "Nach Ahas Aktion erhalten alle Verbündeten einen Schild.",
+		"EnhancedEffect": "Nach Ahas Aktion erhalten alle Verbündeten für <color=#f29e38ff>2</color> Rd. einen Schild in Höhe von <color=#f29e38ff>30%</color> der max. LP.",
+		"EnhancedAbridgedEffect": "Nach Ahas Aktion erhalten alle Verbündeten einen Schild.",
+		"VersionAdded": "4.1"
+	},
+	"617656": {
+		"Id": "617656",
+		"Name": "„Der Todesfahrer“",
+		"Rarity": 1,
+		"Effect": "Erhöht die VTD aller Verbündeten um <color=#f29e38ff>12%</color>. Nach Ahas erster Aktion wird sie zusätzlich um <color=#f29e38ff>8%</color> erhöht.",
+		"AbridgedEffect": "Erhöht die VTD aller Verbündeten. Nach Ahas erster Aktion wird sie zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht die VTD aller Verbündeten um <color=#f29e38ff>18%</color>. Nach Ahas erster Aktion wird sie zusätzlich um <color=#f29e38ff>12%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht die VTD aller Verbündeten. Nach Ahas erster Aktion wird sie zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617657": {
+		"Id": "617657",
+		"Name": "„Katzenstadt“",
+		"Rarity": 1,
+		"Effect": "Erhöht die GES aller Verbündeten um <color=#f29e38ff>6%</color>. Nach Ahas erster Aktion wird sie zusätzlich um <color=#f29e38ff>4%</color> erhöht.",
+		"AbridgedEffect": "Erhöht die GES aller Verbündeten. Nach Ahas erster Aktion wird sie zusätzlich erhöht.",
+		"EnhancedEffect": "Erhöht die GES aller Verbündeten um <color=#f29e38ff>9%</color>. Nach Ahas erster Aktion wird sie zusätzlich um <color=#f29e38ff>6%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht die GES aller Verbündeten. Nach Ahas erster Aktion wird sie zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617720": {
+		"Id": "617720",
+		"Name": "Schöpfung der Imagenasis",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Ausbreitung eine Schwellenresonanz zu erzeugen. Lässt einen anvisierten Verbündeten sofort eine Aktion ausführen, stellt <color=#f29e38ff>5</color> Fertigkeitspunkt(e) wieder her und erhält den Effekt <u>Schwebezustand</u>. Stellt bei Schwellengleichung <color=#f29e38ff>50</color> Pkt. Energie wieder her, wenn ein beliebiger Gegner von einer Figur mit <u>Schwebezustand</u> besiegt wird. Die max. Energie beträgt 200.",
+		"AbridgedEffect": "Nach dem Auslösen der Schwellengleichung führt ein anvisierter Verbündeter sofort eine Aktion aus, stellt <color=#f29e38ff>5</color> Fertigkeitspunkt(e) wieder her und erhält den Effekt <u>Schwebezustand</u>. Stellt bei Schwellengleichung Energie wieder her, wenn ein beliebiger Gegner von einer Figur mit <u>Schwebezustand</u> besiegt wird. Die max. Energie beträgt 200.",
+		"VersionAdded": "4.1"
+	},
+	"617730": {
+		"Id": "617730",
+		"Name": "Müllersche Mimikry",
+		"Rarity": 1,
+		"Effect": "Erhöht den ANG der Verbündeten um <color=#f29e38ff>50%</color>. Für jeden erhaltenen oder verbrauchten Fertigkeitspunkt wird <u>Seelenkokon</u> um <color=#f29e38ff>6%</color> aufgeladen.",
+		"AbridgedEffect": "Erhöht den ANG. Nach dem Erhalt oder Verbrauch der Fertigkeitspunkte wird <u>Seelenkokon</u> aufgeladen.",
+		"EnhancedEffect": "Erhöht den ANG der Verbündeten um <color=#f29e38ff>75%</color>. Für jeden erhaltenen oder verbrauchten Fertigkeitspunkt wird <u>Seelenkokon</u> um <color=#f29e38ff>9%</color> aufgeladen.",
+		"EnhancedAbridgedEffect": "Erhöht den ANG. Nach dem Erhalt oder Verbrauch der Fertigkeitspunkte wird <u>Seelenkokon</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617731": {
+		"Id": "617731",
+		"Name": "Abprallsporen",
+		"Rarity": 1,
+		"Effect": "Erhöht den Standardangriff- und Fertigkeits-SCH der Verbündeten im Status <u>Schmetterlingsseele</u> um <color=#f29e38ff>40%</color>. <u>Schmetterlingsseele</u> verursacht 1-mal zusätzlich Tatsächlichen SCH in Höhe von <color=#f29e38ff>15%</color> des ursprünglichen SCH.",
+		"AbridgedEffect": "Erhöht den Standardangriff- und Fertigkeits-SCH im Status <u>Schmetterlingsseele</u>. Erhöht außerdem den von <u>Schmetterlingsseele</u> verursachten Tatsächlichen SCH.",
+		"EnhancedEffect": "Erhöht den Standardangriff- und Fertigkeits-SCH der Verbündeten im Status <u>Schmetterlingsseele</u> um <color=#f29e38ff>80%</color>. <u>Schmetterlingsseele</u> verursacht 1-mal zusätzlich Tatsächlichen SCH in Höhe von <color=#f29e38ff>15%</color> des ursprünglichen SCH.",
+		"EnhancedAbridgedEffect": "Erhöht den Standardangriff- und Fertigkeits-SCH im Status <u>Schmetterlingsseele</u>. Erhöht außerdem den von <u>Schmetterlingsseele</u> verursachten Tatsächlichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617732": {
+		"Id": "617732",
+		"Name": "Bullers Tropfen",
+		"Rarity": 1,
+		"Effect": "Nachdem Verbündete Fertigkeitspunkte verbraucht haben, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>35</color>-fach stapelbar. Nach dem Einsatz eines Ultimates wird beim nächsten Verbrauch der Fertigkeitspunkte 1 zusätzlicher verbrauchter Fertigkeitspunkt berechnet.",
+		"AbridgedEffect": "Nach dem Verbrauch von Fertigkeitspunkten wird der KRIT-SCH aller Verbündeten erhöht. Nach dem Einsatz eines Ultimates wird beim Verbrauch des nächsten Fertigkeitspunkts 1 zusätzlicher verbrauchter Fertigkeitspunkt berechnet.",
+		"EnhancedEffect": "Nachdem Verbündete Fertigkeitspunkte verbraucht oder erhalten haben, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>3%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>35</color>-fach stapelbar. Nach dem Einsatz eines Ultimates wird beim Verbrauch oder Erhalt des nächsten Fertigkeitspunkts 1 zusätzlicher verbrauchter oder erhaltener Fertigkeitspunkt berechnet.",
+		"EnhancedAbridgedEffect": "Nach dem Verbrauch oder Erhalt von Fertigkeitspunkten wird der KRIT-SCH aller Verbündeten erhöht. Nach dem Einsatz eines Ultimates wird beim Verbrauch oder Erhalt des nächsten Fertigkeitspunkts 1 zusätzlicher verbrauchter oder erhaltener Fertigkeitspunkt berechnet.",
+		"VersionAdded": "4.1"
+	},
+	"617740": {
+		"Id": "617740",
+		"Name": "Sporokarp",
+		"Rarity": 1,
+		"Effect": "Nach dem Besiegen eines Gegners wird <u>Seelenkokon</u> um <color=#f29e38ff>30%</color> aufgeladen.",
+		"AbridgedEffect": "Nach dem Besiegen eines Gegners wird <u>Seelenkokon</u> aufgeladen.",
+		"EnhancedEffect": "Nach dem Besiegen eines Gegners wird <u>Seelenkokon</u> um <color=#f29e38ff>45%</color> aufgeladen.",
+		"EnhancedAbridgedEffect": "Nach dem Besiegen eines Gegners wird <u>Seelenkokon</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617741": {
+		"Id": "617741",
+		"Name": "Chitin",
+		"Rarity": 1,
+		"Effect": "Erhöht den ANG der Verbündeten um <color=#f29e38ff>30%</color>. Beim Kampfeintritt wird <u>Seelenkokon</u> zusätzlich um <color=#f29e38ff>30%</color> aufgeladen.",
+		"AbridgedEffect": "Erhöht den ANG. Beim Kampfeintritt wird <u>Seelenkokon</u> aufgeladen.",
+		"EnhancedEffect": "Erhöht den ANG der Verbündeten um <color=#f29e38ff>50%</color>. Beim Kampfeintritt wird <u>Seelenkokon</u> zusätzlich um <color=#f29e38ff>35%</color> aufgeladen.",
+		"EnhancedAbridgedEffect": "Erhöht den ANG. Beim Kampfeintritt wird <u>Seelenkokon</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617742": {
+		"Id": "617742",
+		"Name": "Freier Kokon",
+		"Rarity": 1,
+		"Effect": "Wenn <u>Seelenkokon</u> zu <u>Schmetterlingsseele</u> wird, werden <color=#f29e38ff>60%</color> LP wiederhergestellt und der verursachte SCH in diesem Status um <color=#f29e38ff>20%</color> erhöht.",
+		"AbridgedEffect": "Wenn <u>Seelenkokon</u> zu <u>Schmetterlingsseele</u> wird, werden LP wiederhergestellt und der verursachte SCH in diesem Status erhöht.",
+		"EnhancedEffect": "Wenn <u>Seelenkokon</u> zu <u>Schmetterlingsseele</u> wird, werden <color=#f29e38ff>100%</color> LP wiederhergestellt und der verursachte SCH in diesem Status um <color=#f29e38ff>30%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Wenn <u>Seelenkokon</u> zu <u>Schmetterlingsseele</u> wird, werden LP wiederhergestellt und der verursachte SCH in diesem Status erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617743": {
+		"Id": "617743",
+		"Name": "Basidiosporen",
+		"Rarity": 1,
+		"Effect": "Erhöht im Status <u>Schmetterlingsseele</u> die WDS-DUR aller Typen von Standardangriff-/Fertigkeits-SCH um <color=#f29e38ff>14%</color>.",
+		"AbridgedEffect": "Erhöht im Status <u>Schmetterlingsseele</u> die WDS-DUR aller Typen von Standardangriff und Fertigkeit.",
+		"EnhancedEffect": "Erhöht im Status <u>Schmetterlingsseele</u> die WDS-DUR aller Typen von Standardangriff-/Fertigkeits-SCH um <color=#f29e38ff>21%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht im Status <u>Schmetterlingsseele</u> die WDS-DUR aller Typen von Standardangriff und Fertigkeit.",
+		"VersionAdded": "4.1"
+	},
+	"617744": {
+		"Id": "617744",
+		"Name": "Strukturfarbe",
+		"Rarity": 1,
+		"Effect": "Erhöht im Status <u>Seelenkokon</u> die GES um <color=#f29e38ff>16%</color>. Erhöht im Status <u>Schmetterlingsseele</u> den durch Standardangriffe und Fertigkeiten verursachten SCH um <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Erhöht im Status <u>Seelenkokon</u> die GES. Erhöht im Status <u>Schmetterlingsseele</u> den durch Standardangriffe und Fertigkeiten verursachten SCH.",
+		"EnhancedEffect": "Erhöht im Status <u>Seelenkokon</u> die GES um <color=#f29e38ff>24%</color>. Erhöht im Status <u>Schmetterlingsseele</u> den durch Standardangriffe und Fertigkeiten verursachten SCH um <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht im Status <u>Seelenkokon</u> die GES. Erhöht im Status <u>Schmetterlingsseele</u> den durch Standardangriffe und Fertigkeiten verursachten SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617745": {
+		"Id": "617745",
+		"Name": "Sensorischer Stab",
+		"Rarity": 1,
+		"Effect": "Für jeden verbrauchten Fertigkeitspunkt eines Verbündeten wird sein erlittener SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>6%</color> reduziert. Dieser Effekt ist bis zu <color=#f29e38ff>2</color>-fach stapelbar.",
+		"AbridgedEffect": "Nach dem Verbrauch von Fertigkeitspunkten wird der erlittene SCH reduziert.",
+		"EnhancedEffect": "Für jeden verbrauchten Fertigkeitspunkt eines Verbündeten wird sein erlittener SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>6%</color> reduziert. Dieser Effekt ist bis zu <color=#f29e38ff>3</color>-fach stapelbar.",
+		"EnhancedAbridgedEffect": "Nach dem Verbrauch von Fertigkeitspunkten wird der erlittene SCH reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"617746": {
+		"Id": "617746",
+		"Name": "Guss-Zauber",
+		"Rarity": 1,
+		"Effect": "Der verursachte Standardangriff- oder Fertigkeits-SCH von Verbündeten fügt angrenzenden Einheiten SCH in Höhe von <color=#f29e38ff>10%</color> des ursprünglichen SCH zu.",
+		"AbridgedEffect": "Der verursachte Standardangriff- oder Fertigkeits-SCH fügt auch angrenzenden Einheiten SCH zu.",
+		"EnhancedEffect": "Der verursachte Standardangriff- oder Fertigkeits-SCH von Verbündeten fügt angrenzenden Einheiten SCH in Höhe von <color=#f29e38ff>15%</color> des ursprünglichen SCH zu.",
+		"EnhancedAbridgedEffect": "Der verursachte Standardangriff- oder Fertigkeits-SCH fügt auch angrenzenden Einheiten SCH zu.",
+		"VersionAdded": "4.1"
+	},
+	"617750": {
+		"Id": "617750",
+		"Name": "Pilzbasis",
+		"Rarity": 1,
+		"Effect": "Wenn Verbündete Fertigkeitspunkte verbrauchen, besteht eine feste Chance von <color=#f29e38ff>16%</color>, <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wiederherzustellen.",
+		"AbridgedEffect": "Beim Verbrauch von Fertigkeitspunkten besteht eine Chance, Fertigkeitspunkte wiederherzustellen.",
+		"EnhancedEffect": "Wenn Verbündete Fertigkeitspunkte verbrauchen, besteht eine feste Chance von <color=#f29e38ff>24%</color>, <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wiederherzustellen.",
+		"EnhancedAbridgedEffect": "Beim Verbrauch von Fertigkeitspunkten besteht eine Chance, Fertigkeitspunkte wiederherzustellen.",
+		"VersionAdded": "4.1"
+	},
+	"617751": {
+		"Id": "617751",
+		"Name": "Hängender Faden",
+		"Rarity": 1,
+		"Effect": "Erhöht den verursachten SCH durch Standardangriffe oder Fertigkeiten von Verbündeten um <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Erhöht den durch Standardangriffe und Fertigkeiten verursachten SCH.",
+		"EnhancedEffect": "Erhöht den verursachten SCH durch Standardangriffe oder Fertigkeiten von Verbündeten um <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den durch Standardangriffe und Fertigkeiten verursachten SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617752": {
+		"Id": "617752",
+		"Name": "Augenflecken",
+		"Rarity": 1,
+		"Effect": "Erhöht den verursachten KRIT-SCH durch Standardangriffe und Fertigkeiten von Verbündeten um <color=#f29e38ff>32%</color>.",
+		"AbridgedEffect": "Erhöht den durch Standardangriffe und Fertigkeiten verursachten KRIT-SCH.",
+		"EnhancedEffect": "Erhöht den verursachten KRIT-SCH durch Standardangriffe und Fertigkeiten von Verbündeten um <color=#f29e38ff>48%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den durch Standardangriffe und Fertigkeiten verursachten KRIT-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617753": {
+		"Id": "617753",
+		"Name": "Rückenflügel",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate der Standardangriffe und Fertigkeiten von Verbündeten um <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate der Standardangriffe und Fertigkeiten.",
+		"EnhancedEffect": "Erhöht die KRIT-Rate der Standardangriffe und Fertigkeiten von Verbündeten um <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die KRIT-Rate der Standardangriffe und Fertigkeiten.",
+		"VersionAdded": "4.1"
+	},
+	"617754": {
+		"Id": "617754",
+		"Name": "Dicke Mauer",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, wird seine VTD für <color=#f29e38ff>1</color> Rd. um <color=#f29e38ff>30%</color> erhöht.",
+		"AbridgedEffect": "Erhöht beim Verbrauch von Fertigkeitspunkten die VTD.",
+		"EnhancedEffect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, wird seine VTD für <color=#f29e38ff>1</color> Rd. um <color=#f29e38ff>45%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht beim Verbrauch von Fertigkeitspunkten die VTD.",
+		"VersionAdded": "4.1"
+	},
+	"617755": {
+		"Id": "617755",
+		"Name": "Tarsalsegmente",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, wird seine GES für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>8%</color> erhöht.",
+		"AbridgedEffect": "Erhöht beim Verbrauch von Fertigkeitspunkten die GES.",
+		"EnhancedEffect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, wird seine GES für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>12%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht beim Verbrauch von Fertigkeitspunkten die GES.",
+		"VersionAdded": "4.1"
+	},
+	"617756": {
+		"Id": "617756",
+		"Name": "Lippenborsten",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, stellt er <color=#f29e38ff>2</color> Pkt. Energie wieder her.",
+		"AbridgedEffect": "Stellt beim Verbrauch von Fertigkeitspunkten Energie wieder her.",
+		"EnhancedEffect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, stellt er <color=#f29e38ff>3</color> Pkt. Energie wieder her.",
+		"EnhancedAbridgedEffect": "Stellt beim Verbrauch von Fertigkeitspunkten Energie wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"617757": {
+		"Id": "617757",
+		"Name": "Sprießen",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, stellt er LP in Höhe von <color=#f29e38ff>10%</color> seiner max. LP wieder her.",
+		"AbridgedEffect": "Stellt beim Verbrauch von Fertigkeitspunkten LP wieder her.",
+		"EnhancedEffect": "Wenn ein Verbündeter Fertigkeitspunkte verbraucht, stellt er LP in Höhe von <color=#f29e38ff>15%</color> seiner max. LP wieder her.",
+		"EnhancedAbridgedEffect": "Stellt beim Verbrauch von Fertigkeitspunkten LP wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"617820": {
+		"Id": "617820",
+		"Name": "Referenzen",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Gelehrsamkeit eine Schwellenresonanz zu erzeugen. Fügt allen Gegnern geringen imaginären SCH zu. Verbindet zusätzlich den Gegner mit den höchsten max. LP mit anderen Gegnern, belegt alle Gegner mit „<u>Zentrale Verbindung</u>“ und stellt bei allen Verbündeten Energie in Höhe von <color=#f29e38ff>100%</color> der max. Energie wieder her.",
+		"AbridgedEffect": "Nach dem Auslösen der Schwellengleichung wird allen Gegnern imaginärer SCH zugefügt und sie werden mit <u>Zentrale Verbindung</u> belegt. Außerdem wird bei allen Verbündeten Energie wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"617830": {
+		"Id": "617830",
+		"Name": "Hippocampus TR<unbreak>-303</unbreak>",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einem Gegner Schwächebruch zugefügt hat, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>10%</color> aufgeladen. Wenn das Ziel ein Elitegegner ist, wird es zusätzlich um <color=#f29e38ff>40%</color> aufgeladen.",
+		"AbridgedEffect": "Nach dem Verursachen von Schwächebruch bei einem Gegner wird <u>Gehirn im Tank</u> aufgeladen. Wenn das Ziel ein Elitegegner ist, wird es zusätzlich aufgeladen.",
+		"EnhancedEffect": "Lädt beim Kampfeintritt <u>Gehirn im Tank</u> um <color=#f29e38ff>100%</color> auf. Nachdem ein Verbündeter einem Gegner Schwächebruch zugefügt hat, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>12%</color> aufgeladen. Wenn das Ziel ein Elitegegner ist, wird es zusätzlich um <color=#f29e38ff>50%</color> aufgeladen.",
+		"EnhancedAbridgedEffect": "Lädt beim Kampfeintritt <u>Gehirn im Tank</u> auf. Nach dem Verursachen von Schwächebruch bei einem Gegner wird <u>Gehirn im Tank</u> aufgeladen. Wenn das Ziel ein Elitegegner ist, wird es zusätzlich aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617831": {
+		"Id": "617831",
+		"Name": "Nucleus accumbens DBS<unbreak>-45</unbreak>",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner tödlichen SCH zufügt, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>50%</color> aufgeladen.",
+		"AbridgedEffect": "Wenn Gegnern tödlicher SCH zugefügt wird, wird <u>Gehirn im Tank</u> aufgeladen.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner tödlichen SCH zufügt, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>50%</color> aufgeladen. Jedes Mal, wenn <u>Gehirn im Tank</u> vollständig aufgeladen ist, wird die GES für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>20%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Wenn Gegnern tödlicher SCH zugefügt wird, wird <u>Gehirn im Tank</u> aufgeladen. Jedes Mal, wenn <u>Gehirn im Tank</u> vollständig aufgeladen ist, wird die GES erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617832": {
+		"Id": "617832",
+		"Name": "Dunkle Materie ELO<unbreak>-536</unbreak>",
+		"Rarity": 1,
+		"Effect": "Erhöht die WDS-DUR aller Typen des von Verbündeten verursachten Ultimate-SCH um <color=#f29e38ff>20%</color>. Nach einem Angriff mit dem Ultimate wird für jeden getroffenen Gegner die WDS-DUR aller Typen des Ultimate-SCH zusätzlich um <color=#f29e38ff>3%</color> erhöht, bis nach dem nächsten Einsatz eines Ultimates.",
+		"AbridgedEffect": "Erhöht die WDS-DUR aller Typen des von Figuren verursachten Ultimate-SCH. Je mehr Gegner vom Ultimate getroffen werden, desto mehr wird die WDS-DUR aller Typen des Ultimate-SCH erhöht, bis nach dem nächsten Einsatz eines Ultimate.",
+		"EnhancedEffect": "Erhöht die WDS-DUR aller Typen des von Verbündeten verursachten Ultimate-SCH um <color=#f29e38ff>25%</color>. Für die höchste Anzahl von Gegnern, die von einem in diesem Kampf bereits eingesetzten Ultimate angegriffen werden, erhöht jeder getroffene Gegner die WDS-DUR aller Typen des Ultimate-SCH um <color=#f29e38ff>3%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die WDS-DUR aller Typen des von Figuren verursachten Ultimate-SCH. Je mehr Gegner während des Kampfes von Angriffen mit Ultimates getroffen wurden, desto mehr wird die WDS-DUR aller Typen des Ultimate-SCH erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617840": {
+		"Id": "617840",
+		"Name": "Neustart: Nervus terminalis",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> einsetzt, wird der KRIT-SCH um <color=#f29e38ff>80%</color> erhöht, bis zum Ende dieser Fähigkeit.",
+		"AbridgedEffect": "Wenn der Ultimate mit <u>Gehirn im Tank</u> eingesetzt wird, wird der KRIT-SCH erhöht.",
+		"EnhancedEffect": "Wenn ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> einsetzt, wird der KRIT-SCH um <color=#f29e38ff>90%</color> erhöht. Diese KRIT-SCH-Erhöhung hält bis zum Ende des nächsten Angriffs an.",
+		"EnhancedAbridgedEffect": "Wenn der Ultimate mit <u>Gehirn im Tank</u> eingesetzt wird, wird der KRIT-SCH erhöht. Dieser Effekt hält bis zum Ende des nächsten Angriffs an.",
+		"VersionAdded": "4.1"
+	},
+	"617841": {
+		"Id": "617841",
+		"Name": "Iteration: Kognitive Karte",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> eingesetzt hat, erhält er für <color=#f29e38ff>2</color> Rd. einen Schild in Höhe von <color=#f29e38ff>36%</color> seiner max. LP.",
+		"AbridgedEffect": "Nach dem Einsatz eines Ultimates mit <u>Gehirn im Tank</u> wird ein Schild erhalten.",
+		"EnhancedEffect": "Nachdem ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> eingesetzt hat, erhält er für <color=#f29e38ff>3</color> Rd. einen Schild in Höhe von <color=#f29e38ff>45%</color> seiner max. LP.",
+		"EnhancedAbridgedEffect": "Nach dem Einsatz eines Ultimates mit <u>Gehirn im Tank</u> wird ein Schild erhalten.",
+		"VersionAdded": "4.1"
+	},
+	"617842": {
+		"Id": "617842",
+		"Name": "Analyse: Prozedurales Gedächtnis",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> einsetzt, wird der verursachte SCH aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>36%</color> erhöht.",
+		"AbridgedEffect": "Wenn der Ultimate mit <u>Gehirn im Tank</u> eingesetzt wird, wird der verursachte SCH aller Verbündeten erhöht.",
+		"EnhancedEffect": "Wenn ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> einsetzt, wird der verursachte SCH aller Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>54%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Wenn der Ultimate mit <u>Gehirn im Tank</u> eingesetzt wird, wird der verursachte SCH aller Verbündeten erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617843": {
+		"Id": "617843",
+		"Name": "Stabilität: Slow-Wave-Schlaf",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter angegriffen wurde, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>6%</color> aufgeladen.",
+		"AbridgedEffect": "Nach einem erlittenen Angriff wird <u>Gehirn im Tank</u> aufgeladen.",
+		"EnhancedEffect": "Nachdem ein Verbündeter angegriffen wurde, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>9%</color> aufgeladen.",
+		"EnhancedAbridgedEffect": "Nach einem erlittenen Angriff wird <u>Gehirn im Tank</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"617844": {
+		"Id": "617844",
+		"Name": "Ableger: Zellabgrenzung",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> eingesetzt hat, wird sein ANG für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>60%</color> erhöht.",
+		"AbridgedEffect": "Nach dem Einsatz eines Ultimates mit <u>Gehirn im Tank</u> wird der ANG erhöht.",
+		"EnhancedEffect": "Nachdem ein Verbündeter seinen Ultimate mit <u>Gehirn im Tank</u> eingesetzt hat, wird sein ANG für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>90%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Nach dem Einsatz eines Ultimates mit <u>Gehirn im Tank</u> wird der ANG erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617845": {
+		"Id": "617845",
+		"Name": "Ausführung: Verbessertes Lernen",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter mit seinem Ultimate Gegner angreift, die an Schwächebruch leiden, wird die Aktion der Gegner um <color=#f29e38ff>16%</color> verzögert. Jedes Mal, wenn der Gegner Schwächebruch erleidet, kann dieser Effekt bis zu <color=#f29e38ff>3</color>-mal ausgelöst werden.",
+		"AbridgedEffect": "Nach einem Angriff mit dem Ultimate wird die Aktion der Gegner mit Schwächebruch verzögert.",
+		"EnhancedEffect": "Wenn ein Verbündeter mit seinem Ultimate Gegner angreift, die an Schwächebruch leiden, wird die Aktion der Gegner um <color=#f29e38ff>24%</color> verzögert. Jedes Mal, wenn der Gegner Schwächebruch erleidet, kann dieser Effekt bis zu <color=#f29e38ff>3</color>-mal ausgelöst werden.",
+		"EnhancedAbridgedEffect": "Nach einem Angriff mit dem Ultimate wird die Aktion der Gegner mit Schwächebruch verzögert.",
+		"VersionAdded": "4.1"
+	},
+	"617846": {
+		"Id": "617846",
+		"Name": "Offen: Direkter Durchgang",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter nur einen einzelnen Gegner mit <u>Flächenangriff</u> angreift, fügt dieser Angriff dem Gegner zusätzlich eine bestimmte Menge an SCH in Höhe von <color=#f29e38ff>40%</color> des ursprünglichen SCH zu.",
+		"AbridgedEffect": "Wenn eine Fähigkeit mit <u>Flächenangriff</u> nur einen Gegner angreift, verursacht sie zusätzlichen SCH.",
+		"EnhancedEffect": "Wenn ein Verbündeter nur einen einzelnen Gegner mit <u>Flächenangriff</u> angreift, fügt dieser Angriff dem Gegner zusätzlich eine bestimmte Menge an SCH in Höhe von <color=#f29e38ff>60%</color> des ursprünglichen SCH zu.",
+		"EnhancedAbridgedEffect": "Wenn eine Fähigkeit mit <u>Flächenangriff</u> nur einen Gegner angreift, verursacht sie zusätzlichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617850": {
+		"Id": "617850",
+		"Name": "Schillerndes Banner",
+		"Rarity": 1,
+		"Effect": "Erhöht den verursachten Ultimate-SCH der Verbündeten um <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Erhöht den verursachten Ultimate-SCH.",
+		"EnhancedEffect": "Erhöht den verursachten Ultimate-SCH der Verbündeten um <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den verursachten Ultimate-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617851": {
+		"Id": "617851",
+		"Name": "Fest gelagerte Rüstung",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate des Ultimate-SCH der Verbündeten um <color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate von Ultimates.",
+		"EnhancedEffect": "Erhöht die KRIT-Rate des Ultimate-SCH der Verbündeten um <color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht die KRIT-Rate von Ultimates.",
+		"VersionAdded": "4.1"
+	},
+	"617852": {
+		"Id": "617852",
+		"Name": "Sicher redigierte Karte",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH des Ultimate-SCH der Verbündeten um <color=#f29e38ff>36%</color>.",
+		"AbridgedEffect": "Erhöht den KRIT-SCH von Ultimates.",
+		"EnhancedEffect": "Erhöht den KRIT-SCH des Ultimate-SCH der Verbündeten um <color=#f29e38ff>54%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den KRIT-SCH von Ultimates.",
+		"VersionAdded": "4.1"
+	},
+	"617853": {
+		"Id": "617853",
+		"Name": "Nach Partitionen ausgerichtete Pakete",
+		"Rarity": 1,
+		"Effect": "Stellt beim Kampfeintritt Energie in Höhe von <color=#f29e38ff>30%</color> der max. Energie wieder her.",
+		"AbridgedEffect": "Stellt beim Kampfeintritt Energie wieder her.",
+		"EnhancedEffect": "Stellt beim Kampfeintritt Energie in Höhe von <color=#f29e38ff>45%</color> der max. Energie wieder her.",
+		"EnhancedAbridgedEffect": "Stellt beim Kampfeintritt Energie wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"617854": {
+		"Id": "617854",
+		"Name": "Route der ausgelöschten Makroblöcke",
+		"Rarity": 1,
+		"Effect": "Erhöht beim Einsatz des Ultimates den ANG des Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Erhöht beim Einsatz des Ultimates den ANG.",
+		"EnhancedEffect": "Erhöht beim Einsatz des Ultimates den ANG des Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht beim Einsatz des Ultimates den ANG.",
+		"VersionAdded": "4.1"
+	},
+	"617855": {
+		"Id": "617855",
+		"Name": "Leuchtturm der kristallinen Resonanz",
+		"Rarity": 1,
+		"Effect": "Erhöht nach dem Einsatz des Ultimates die max. LP des Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Erhöht nach dem Einsatz des Ultimates die max. LP.",
+		"EnhancedEffect": "Erhöht nach dem Einsatz des Ultimates die max. LP des Verbündeten für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht nach dem Einsatz des Ultimates die max. LP.",
+		"VersionAdded": "4.1"
+	},
+	"617856": {
+		"Id": "617856",
+		"Name": "Optische Leitlinse",
+		"Rarity": 1,
+		"Effect": "Stellt nach dem Einsatz des Ultimates von Verbündeten LP in Höhe von <color=#f29e38ff>20%</color> der max. LP wieder her.",
+		"AbridgedEffect": "Stellt nach dem Einsatz des Ultimates LP wieder her.",
+		"EnhancedEffect": "Stellt nach dem Einsatz des Ultimates von Verbündeten LP in Höhe von <color=#f29e38ff>30%</color> der max. LP wieder her.",
+		"EnhancedAbridgedEffect": "Stellt nach dem Einsatz des Ultimates LP wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"617857": {
+		"Id": "617857",
+		"Name": "Sequentiell geschriebene Spur",
+		"Rarity": 1,
+		"Effect": "Wenn eine Figur einen Todesstoß erleidet, wird sie nicht handlungsunfähig, sondern verbraucht ihre gesamte Energie und stellt dann LP in Höhe von <color=#f29e38ff>50%</color> der verbrauchten Energie wieder her. Dieser Effekt kann unter allen Verbündeten nur 1-mal pro Kampf ausgelöst werden.",
+		"AbridgedEffect": "Figuren können Todesstoß widerstehen und Energie verbrauchen, um ihre eigenen LP wiederherzustellen. Dies kann eine begrenzte Anzahl von Malen unter allen Verbündeten wirksam werden.",
+		"EnhancedEffect": "Wenn eine Figur einen Todesstoß erleidet, wird sie nicht handlungsunfähig, sondern verbraucht ihre gesamte Energie und stellt dann LP in Höhe von <color=#f29e38ff>100%</color> der verbrauchten Energie wieder her. Dieser Effekt kann unter allen Verbündeten nur 1-mal pro Kampf ausgelöst werden.",
+		"EnhancedAbridgedEffect": "Figuren können Todesstoß widerstehen und Energie verbrauchen, um ihre eigenen LP wiederherzustellen. Dies kann eine begrenzte Anzahl von Malen unter allen Verbündeten wirksam werden.",
+		"VersionAdded": "4.1"
+	},
+	"617920": {
+		"Id": "617920",
+		"Name": "Ball der Glückseligkeit",
+		"Rarity": 1,
+		"Effect": "Verbraucht 100 Pkt. Energie, um diese Fähigkeit einzusetzen und mit dem Pfad der Harmonie eine Schwellenresonanz zu erzeugen. Fügt allen Gegnern Quanten-SCH und Schwächebruch mit <color=#f29e38ff>1000%</color> des Brucheffekts zu. Beim Erleiden von Schwächebruch werden Schwächebruch-Effekte aller Typen ausgelöst.",
+		"AbridgedEffect": "Nach dem Auslösen der Schwellengleichung werden allen Gegnern Quanten-SCH und Schwächebruch zugefügt. Beim Erleiden von Schwächebruch werden Schwächebruch-Effekte aller Typen ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"617930": {
+		"Id": "617930",
+		"Name": "1. Satz: Der Frosch und der Ritter",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner <color=#f29e38ff>10</color> Pkt. tatsächliche WDS-Reduzierung erleidet, wird er mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt.",
+		"AbridgedEffect": "Jedes Mal, wenn ein Gegner eine bestimmte Menge an tatsächlicher WDS-Reduzierung erleidet, wird er mit <u>Akkord</u> belegt.",
+		"EnhancedEffect": "Jedes Mal, wenn ein Gegner <color=#f29e38ff>10</color> Pkt. tatsächliche WDS-Reduzierung erleidet, wird er mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt (einschließlich im Schwächebruch erlittener tatsächlicher WDS-Reduzierung).",
+		"EnhancedAbridgedEffect": "Jedes Mal, wenn ein Gegner eine bestimmte Menge an tatsächlicher WDS-Reduzierung erleidet, wird er mit <u>Akkord</u> belegt (einschließlich im Schwächebruch erlittener tatsächlicher WDS-Reduzierung).",
+		"VersionAdded": "4.1"
+	},
+	"617931": {
+		"Id": "617931",
+		"Name": "2. Satz: Frühstück des Hirtengottes",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Gegner mit Schwächebruch angegriffen hat, wird mit einem Prozentsatz von <color=#f29e38ff>8%</color> 1-mal zusätzlich <u>Akkord-SCH</u> ausgelöst.",
+		"AbridgedEffect": "Angriffe auf Gegner mit Schwächebruch verursachen <u>Akkord-SCH</u>.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einen Gegner mit Schwächebruch angegriffen hat, wird mit einem Prozentsatz von <color=#f29e38ff>10%</color> 1-mal zusätzlich <u>Akkord-SCH</u> ausgelöst. Der SCH-Multiplikator von <u>Akkord</u> wird um <color=#f29e38ff>20%</color> des ursprünglichen Multiplikators erhöht.",
+		"EnhancedAbridgedEffect": "Angriffe auf Gegner mit Schwächebruch verursachen <u>Akkord-SCH</u>. Der verursachte SCH von <u>Akkord</u> wird erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617932": {
+		"Id": "617932",
+		"Name": "3. Satz: Rondo",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, werden bei ihm mit einem Prozentsatz von <color=#f29e38ff>50%</color> zusätzlich Schwächebruch-Effekte seiner anderen Schwächetypen ausgelöst.",
+		"AbridgedEffect": "Wenn ein Gegner Schwächebruch erleidet, werden bei ihm zusätzlich Schwächebruch-Effekte seiner anderen Schwächetypen ausgelöst.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, werden bei ihm mit einem Prozentsatz von <color=#f29e38ff>80%</color> zusätzlich Schwächebruch-Effekte seiner anderen Schwächetypen ausgelöst.",
+		"EnhancedAbridgedEffect": "Wenn ein Gegner Schwächebruch erleidet, werden bei ihm zusätzlich Schwächebruch-Effekte seiner anderen Schwächetypen ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"617940": {
+		"Id": "617940",
+		"Name": "Zeitraum der gemeinsamen Praxis",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Gegner mit <u>Akkord</u> besiegt wurde, erhält/erhalten zufällig <color=#f29e38ff>1</color> der angrenzenden Einheiten seine Stapelzahl von <u>Akkord</u>.",
+		"AbridgedEffect": "Wenn ein Gegner mit <u>Akkord </u> besiegt wird, werden zufällige angrenzende Einheiten mit <u>Akkord</u> belegt.",
+		"EnhancedEffect": "Nachdem ein Gegner mit <u>Akkord</u> besiegt wurde, erhält/erhalten zufällig <color=#f29e38ff>2</color> der angrenzenden Einheiten seine Stapelzahl von <u>Akkord</u>.",
+		"EnhancedAbridgedEffect": "Wenn ein Gegner mit <u>Akkord </u> besiegt wird, werden zufällige angrenzende Einheiten mit <u>Akkord</u> belegt.",
+		"VersionAdded": "4.1"
+	},
+	"617941": {
+		"Id": "617941",
+		"Name": "Gefäß des Weingottes",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Gegner mit Schwächebruch angegriffen hat, wird der Gegner mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt.",
+		"AbridgedEffect": "Angriffe auf Gegner mit Schwächebruch belegen sie mit <u>Akkord</u>.",
+		"EnhancedEffect": "Erhöht den Brucheffekt der Verbündeten um <color=#f29e38ff>24%</color>. Nach Angriffen auf Gegner mit Schwächebruch werden sie mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt.",
+		"EnhancedAbridgedEffect": "Erhöht den Brucheffekt. Angriffe auf Gegner mit Schwächebruch belegen sie mit <u>Akkord</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617942": {
+		"Id": "617942",
+		"Name": "Puls der Korona",
+		"Rarity": 1,
+		"Effect": "Erhöht den erlittenen Bruch-SCH für jede Stapelung <u>Akkord</u> des Gegners um <color=#f29e38ff>1.0%</color>.",
+		"AbridgedEffect": "Je mehr Gegner <u>Akkord</u> besitzen, erleiden sie mehr Bruch-SCH.",
+		"EnhancedEffect": "Erhöht den erlittenen Bruch-SCH für jede Stapelung <u>Akkord</u> des Gegners um <color=#f29e38ff>1.5%</color>.",
+		"EnhancedAbridgedEffect": "Je mehr Gegner <u>Akkord</u> besitzen, erleiden sie mehr Bruch-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617943": {
+		"Id": "617943",
+		"Name": "Streichquartett",
+		"Rarity": 1,
+		"Effect": "<u>Akkord-SCH</u> wird beim Auslösen mit <color=#f29e38ff>5</color> zusätzlichen Stapelungen berechnet. Die max. Stapelzahl von <u>Akkord</u> wird um <color=#f29e38ff>5</color> erhöht.",
+		"AbridgedEffect": "<u>Akkord-SCH</u> wird beim Auslösen mit zusätzlichen Stapelungen berechnet. Die max. Stapelzahl von <u>Akkord</u> wird erhöht.",
+		"EnhancedEffect": "<u>Akkord-SCH</u> wird beim Auslösen mit <color=#f29e38ff>6</color> zusätzlichen Stapelungen berechnet. Die max. Stapelzahl von <u>Akkord</u> wird um <color=#f29e38ff>10</color> erhöht.",
+		"EnhancedAbridgedEffect": "<u>Akkord-SCH</u> wird beim Auslösen mit zusätzlichen Stapelungen berechnet. Die max. Stapelzahl von <u>Akkord</u> wird erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"617944": {
+		"Id": "617944",
+		"Name": "Jambischer Fünfheber",
+		"Rarity": 1,
+		"Effect": "Erhöht den SCH-Multiplikator von <u>Akkord</u> um <color=#f29e38ff>30%</color> des ursprünglichen Multiplikators.",
+		"AbridgedEffect": "Erhöht den <u>Akkord-SCH</u>.",
+		"EnhancedEffect": "Erhöht den SCH-Multiplikator von <u>Akkord</u> um <color=#f29e38ff>45%</color> des ursprünglichen Multiplikators.",
+		"EnhancedAbridgedEffect": "Erhöht den <u>Akkord-SCH</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617945": {
+		"Id": "617945",
+		"Name": "Basso Continuo",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Gegner mit Schwächebruch angegriffen hat, wird der WDS-Reduzierungswert dieses Angriffs 1-mal in <color=#f29e38ff>50%</color> <u>Super-Bruch-SCH</u> umgewandelt.",
+		"AbridgedEffect": "Verursacht nach dem Angriff auf einen Gegner mit Schwächebruch <u>Super-Bruch-SCH</u>.",
+		"EnhancedEffect": "Nachdem ein Verbündeter einen Gegner mit Schwächebruch angegriffen hat, wird der WDS-Reduzierungswert dieses Angriffs 1-mal in <color=#f29e38ff>75%</color> <u>Super-Bruch-SCH</u> umgewandelt.",
+		"EnhancedAbridgedEffect": "Verursacht nach dem Angriff auf einen Gegner mit Schwächebruch <u>Super-Bruch-SCH</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617946": {
+		"Id": "617946",
+		"Name": "Aufrechter Nome",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, besteht eine Grundchance von <color=#f29e38ff>100%</color>, den Gegner für <color=#f29e38ff>1</color> Rd. einzufrieren.",
+		"AbridgedEffect": "Nach dem Verursachen von Schwächebruch bei einem Gegner besteht eine Chance, ihn einzufrieren.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, besteht eine Grundchance von <color=#f29e38ff>150%</color>, den Gegner für <color=#f29e38ff>1</color> Rd. einzufrieren.",
+		"EnhancedAbridgedEffect": "Nach dem Verursachen von Schwächebruch bei einem Gegner besteht eine Chance, ihn einzufrieren.",
+		"VersionAdded": "4.1"
+	},
+	"617950": {
+		"Id": "617950",
+		"Name": "Ruhendes Gewebe",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird die Aktion des Gegners um <color=#f29e38ff>20%</color> verzögert.",
+		"AbridgedEffect": "Nach dem Verursachen von Schwächebruch bei einem Gegner wird seine Aktion verzögert.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird die Aktion des Gegners um <color=#f29e38ff>30%</color> verzögert.",
+		"EnhancedAbridgedEffect": "Nach dem Verursachen von Schwächebruch bei einem Gegner wird seine Aktion verzögert.",
+		"VersionAdded": "4.1"
+	},
+	"617951": {
+		"Id": "617951",
+		"Name": "Primäraussage",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Verbündeten verursachten Bruch-SCH um <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Erhöht den verursachten Bruch-SCH.",
+		"EnhancedEffect": "Erhöht den von Verbündeten verursachten Bruch-SCH um <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den verursachten Bruch-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617952": {
+		"Id": "617952",
+		"Name": "Stille Stürme",
+		"Rarity": 1,
+		"Effect": "Erhöht den Brucheffekt der Verbündeten um <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Erhöht den Brucheffekt.",
+		"EnhancedEffect": "Erhöht den Brucheffekt der Verbündeten um <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den Brucheffekt.",
+		"VersionAdded": "4.1"
+	},
+	"617953": {
+		"Id": "617953",
+		"Name": "Lineare Melodie",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird seine GES für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>12%</color> erhöht.",
+		"AbridgedEffect": "Erhöht die GES nach dem Verursachen von Schwächebruch bei einem Gegner.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird seine GES für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>18%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht die GES nach dem Verursachen von Schwächebruch bei einem Gegner.",
+		"VersionAdded": "4.1"
+	},
+	"617954": {
+		"Id": "617954",
+		"Name": "Kreuzrhythmus",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird der Brucheffekt aller Verbündeten für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>40%</color> erhöht.",
+		"AbridgedEffect": "Erhöht den Brucheffekt aller Verbündeten nach dem Verursachen von Schwächebruch bei einem Gegner.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird der Brucheffekt aller Verbündeten für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>60%</color> erhöht.",
+		"EnhancedAbridgedEffect": "Erhöht den Brucheffekt aller Verbündeten nach dem Verursachen von Schwächebruch bei einem Gegner.",
+		"VersionAdded": "4.1"
+	},
+	"617955": {
+		"Id": "617955",
+		"Name": "Freie Tonalität",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gegnern erlittenen Bruch-SCH um <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Erhöht den von Gegnern erlittenen Bruch-SCH.",
+		"EnhancedEffect": "Erhöht den von Gegnern erlittenen Bruch-SCH um <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Erhöht den von Gegnern erlittenen Bruch-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"617956": {
+		"Id": "617956",
+		"Name": "Jazz des Unglücks",
+		"Rarity": 1,
+		"Effect": "Reduziert die VTD von Gegnern mit Schwächebruch um <color=#f29e38ff>15%</color>.",
+		"AbridgedEffect": "Reduziert die VTD von Gegnern mit Schwächebruch.",
+		"EnhancedEffect": "Reduziert die VTD von Gegnern mit Schwächebruch um <color=#f29e38ff>20%</color>.",
+		"EnhancedAbridgedEffect": "Reduziert die VTD von Gegnern mit Schwächebruch.",
+		"VersionAdded": "4.1"
+	},
+	"617957": {
+		"Id": "617957",
+		"Name": "Neues Leitmotiv",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, stellt er <color=#f29e38ff>24%</color> seiner max. LP wieder her.",
+		"AbridgedEffect": "Stellt nach dem Verursachen von Schwächebruch bei Gegnern LP wieder her.",
+		"EnhancedEffect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, stellt er <color=#f29e38ff>36%</color> seiner max. LP wieder her.",
+		"EnhancedAbridgedEffect": "Stellt nach dem Verursachen von Schwächebruch bei Gegnern LP wieder her.",
+		"VersionAdded": "4.1"
+	},
 	"634000": {
 		"Id": "634000",
 		"Name": "0",
@@ -6054,6 +7565,615 @@
 		"Effect": "Erhöht den verursachten endgültigen SCH von Verbündeten mit „Quarz“ zusätzlich um <color=#f29e38ff>50%</color>.",
 		"AbridgedEffect": "Erhöht den verursachten endgültige SCH von Verbündeten mit „Quarz“ zusätzlich.",
 		"VersionAdded": "3.3"
+	},
+	"661001": {
+		"Id": "661001",
+		"Name": "7. März",
+		"Rarity": 1,
+		"Effect": "Erhöht den von 7. März verursachten SCH in Divergentes Universum.\n\nErhöht die Effekt-Trefferrate um <color=#f29e38ff>30%</color>. Wenn 7. März sich auf dem Kampffeld befindet, wird die VTD von eingefrorenen Gegnern um <color=#f29e38ff>20%</color> reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"661002": {
+		"Id": "661002",
+		"Name": "Dan Heng",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Dan Heng verursachten SCH in Divergentes Universum.\n\nErhöht die GES um <color=#f29e38ff>10%</color>. Für je 10 Pkt. GES, die <color=#f29e38ff>150</color> überschreiten, wird der verursachte endgültige SCH um <color=#f29e38ff>2.0%</color> erhöht, bis zu <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661003": {
+		"Id": "661003",
+		"Name": "Himeko",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Himeko verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern im Schwächebruch um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661004": {
+		"Id": "661004",
+		"Name": "Welt",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Welt verursachten SCH in Divergentes Universum.\n\nNach dem Verursachen von Gefangenschaft wird die Aktion des Gegners zusätzlich um <color=#f29e38ff>30%</color> verzögert und der erlittene SCH um <color=#f29e38ff>15%</color> erhöht. Dieser Effekt hält <color=#f29e38ff>2</color> Rd. an.",
+		"VersionAdded": "4.1"
+	},
+	"661005": {
+		"Id": "661005",
+		"Name": "Kafka",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Kafka verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit mindestens <color=#f29e38ff>3</color> DoT-Status um <color=#f29e38ff>12%</color>. Für jeden weiteren DoT-Status wird der SCH zusätzlich um <color=#f29e38ff>1%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661006": {
+		"Id": "661006",
+		"Name": "Silberwolf",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Silberwolf verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit <color=#f29e38ff>8</color> oder mehr Debuffs um <color=#f29e38ff>10%</color>. Für jeden weiteren Debuff wird der SCH zusätzlich um <color=#f29e38ff>1%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661008": {
+		"Id": "661008",
+		"Name": "Arlan",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Arlan verursachten SCH in Divergentes Universum.\n\nLiegt sein LP-Prozentsatz unter <color=#f29e38ff>50%</color>, wird der verursachte endgültige SCH um <color=#f29e38ff>40%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661009": {
+		"Id": "661009",
+		"Name": "Asta",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Asta verursachten SCH in Divergentes Universum.\n\nWenn Asta sich auf dem Kampffeld befindet, wird die GES aller Verbündeten um <color=#f29e38ff>10%</color> von Astas GES erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661013": {
+		"Id": "661013",
+		"Name": "Herta",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Herta verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit einem LP-Prozentsatz von weniger als <color=#f29e38ff>50%</color> um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661014": {
+		"Id": "661014",
+		"Name": "Saber",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Saber verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem Einsatz des Ultimates um <color=#f29e38ff>3%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661015": {
+		"Id": "661015",
+		"Name": "Archer",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Archer verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt zu Beginn der Runde <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"661101": {
+		"Id": "661101",
+		"Name": "Bronya",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Bronya verursachten SCH in Divergentes Universum.\n\nWenn Bronya sich auf dem Kampffeld befindet, wird der verursachte endgültige SCH der ersten Figur in der Teamformation und ihres Memogeistes um <color=#f29e38ff>12%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661102": {
+		"Id": "661102",
+		"Name": "Seele",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Seele verursachten SCH in Divergentes Universum.\n\nWenn nach dem Ausführen eines Angriffs der LP-Prozentsatz des Ziels <color=#f29e38ff>15%</color> oder weniger beträgt, wird ihm Tatsächlicher SCH in Höhe seiner aktuellen LP zugefügt.",
+		"VersionAdded": "4.1"
+	},
+	"661103": {
+		"Id": "661103",
+		"Name": "Serval",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Serval verursachten SCH in Divergentes Universum.\n\nFür jeden Gegner, der sich auf dem Kampffeld befindet, wird der verursachte endgültige SCH um <color=#f29e38ff>4%</color> erhöht. Nach dem Besiegen eines Gegners wird der endgültige SCH in diesem Kampf zusätzlich um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661104": {
+		"Id": "661104",
+		"Name": "Gepard",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gepard verursachten SCH in Divergentes Universum.\n\nErhöht die Effekt-Trefferrate um <color=#f29e38ff>30%</color>. Wenn Gepard sich auf dem Kampffeld befindet, wird die VTD von eingefrorenen Gegnern um <color=#f29e38ff>20%</color> reduziert.",
+		"VersionAdded": "4.1"
+	},
+	"661105": {
+		"Id": "661105",
+		"Name": "Natasha",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Natasha verursachten SCH in Divergentes Universum.\n\nErhöht die bewirkte Heilung um <color=#f29e38ff>30%</color> und reduziert den vom geheilten Ziel erlittenen SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661106": {
+		"Id": "661106",
+		"Name": "Pela",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Pela verursachten SCH in Divergentes Universum.\n\nWenn Pela sich auf dem Kampffeld befindet, wird der ANG der Verbündeten um <color=#f29e38ff>12%</color> von Pelas ANG erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661107": {
+		"Id": "661107",
+		"Name": "Clara",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Clara verursachten SCH in Divergentes Universum.\n\nReduziert den erlittenen SCH um <color=#f29e38ff>10%</color> und erhöht den durch Folgeangriffe verursachten endgültigen SCH um <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661108": {
+		"Id": "661108",
+		"Name": "Sampo",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Sampo verursachten SCH in Divergentes Universum.\n\nNach einem Angriff mit dem Ultimate verursacht jeder aktuell auf dem Ziel wirkende DoT sofort SCH in Höhe von <color=#f29e38ff>60%</color> des ursprünglichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"661109": {
+		"Id": "661109",
+		"Name": "Hook",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Hook verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit einem LP-Prozentsatz von weniger als <color=#f29e38ff>50%</color> um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661110": {
+		"Id": "661110",
+		"Name": "Lynx",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Lynx verursachten SCH in Divergentes Universum.\n\nErhöht die bewirkte Heilung um <color=#f29e38ff>30%</color> und reduziert den vom geheilten Ziel erlittenen SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661111": {
+		"Id": "661111",
+		"Name": "Luka",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Luka verursachten SCH in Divergentes Universum.\n\nNach einem Angriff mit dem Ultimate verursacht jeder aktuell auf dem Ziel wirkende DoT sofort SCH in Höhe von <color=#f29e38ff>120%</color> des ursprünglichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"661112": {
+		"Id": "661112",
+		"Name": "Topaz & Kontie",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Topaz & Kontie verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem ausgeführten Angriff um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar und wird nach LP-Verlust entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"661201": {
+		"Id": "661201",
+		"Name": "Qingque",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Qingque verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt zu Beginn der Runde <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"661202": {
+		"Id": "661202",
+		"Name": "Tingyun",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Tingyun verursachten SCH in Divergentes Universum.\n\nWenn Tingyun sich auf dem Kampffeld befindet, wird der ANG der Verbündeten um <color=#f29e38ff>12%</color> von Tingyuns ANG erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661203": {
+		"Id": "661203",
+		"Name": "Luocha",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Luocha verursachten SCH in Divergentes Universum.\n\nWenn Luocha sich auf dem Kampffeld befindet, wird der von Verbündeten verursachte endgültige SCH um <color=#f29e38ff>8%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661204": {
+		"Id": "661204",
+		"Name": "Jing Yuan",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Jing Yuan verursachten SCH in Divergentes Universum.\n\nBeim Ausführen von Folgeangriffen wird seine Aktion um <color=#f29e38ff>20%</color> vorgezogen.",
+		"VersionAdded": "4.1"
+	},
+	"661205": {
+		"Id": "661205",
+		"Name": "Blade",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Blade verursachten SCH in Divergentes Universum.\n\nNach LP-Verlust wird für <color=#f29e38ff>2</color> Rd. die LP-Wiederherstellung um <color=#f29e38ff>15%</color> und der endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661206": {
+		"Id": "661206",
+		"Name": "Sushang",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Sushang verursachten SCH in Divergentes Universum.\n\nNachdem einem Gegner Schwächebruch zugefügt wurde, wird die GES um <color=#f29e38ff>4%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661207": {
+		"Id": "661207",
+		"Name": "Yukong",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Yukong verursachten SCH in Divergentes Universum.\n\nWenn Yukong sich auf dem Kampffeld befindet, wird der ANG der Verbündeten um <color=#f29e38ff>12%</color> von Yukongs ANG erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661208": {
+		"Id": "661208",
+		"Name": "Fu Xuan",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Fu Xuan verursachten SCH in Divergentes Universum.\n\nReduziert den erlittenen SCH um <color=#f29e38ff>20%</color> und stellt zu Beginn der Runde LP in Höhe von <color=#f29e38ff>15%</color> der max. LP wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"661209": {
+		"Id": "661209",
+		"Name": "Yanqing",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Yanqing verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem ausgeführten Angriff um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar und wird nach LP-Verlust entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"661210": {
+		"Id": "661210",
+		"Name": "Guinaifen",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Guinaifen verursachten SCH in Divergentes Universum.\n\nNach einem Angriff mit dem Ultimate verursacht jeder aktuell auf dem Ziel wirkende DoT sofort SCH in Höhe von <color=#f29e38ff>60%</color> des ursprünglichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"661211": {
+		"Id": "661211",
+		"Name": "Bailu",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Bailu verursachten SCH in Divergentes Universum.\n\nWenn Bailu sich auf dem Kampffeld befindet, wird der von Verbündeten verursachte endgültige SCH um <color=#f29e38ff>8%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661212": {
+		"Id": "661212",
+		"Name": "Jingliu",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Jingliu verursachten SCH in Divergentes Universum.\n\nNach LP-Verlust wird für <color=#f29e38ff>2</color> Rd. die LP-Wiederherstellung um <color=#f29e38ff>15%</color> und der endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661213": {
+		"Id": "661213",
+		"Name": "Dan Heng – Imbibitor Lunae",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Dan Heng – Imbibitor Lunae verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt zu Beginn der Runde <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"661214": {
+		"Id": "661214",
+		"Name": "Xueyi",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Xueyi verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern im Schwächebruch um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661215": {
+		"Id": "661215",
+		"Name": "Hanya",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Hanya verursachten SCH in Divergentes Universum.\n\nWenn Hanya sich auf dem Kampffeld befindet, wird die GES aller Verbündeten um <color=#f29e38ff>10%</color> von Hanyas GES erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661217": {
+		"Id": "661217",
+		"Name": "Huohuo",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Huohuo verursachten SCH in Divergentes Universum.\n\nErhöht die bewirkte Heilung um <color=#f29e38ff>30%</color> und reduziert den vom geheilten Ziel erlittenen SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661218": {
+		"Id": "661218",
+		"Name": "Jiaoqiu",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Jiaoqiu verursachten SCH in Divergentes Universum.\n\nWenn Jiaoqiu sich auf dem Kampffeld befindet, wird der von Verbündeten verursachte endgültige SCH um <color=#f29e38ff>8%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661220": {
+		"Id": "661220",
+		"Name": "Feixiao",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Feixiao verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem ausgeführten Angriff um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar und wird nach LP-Verlust entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"661221": {
+		"Id": "661221",
+		"Name": "Yunli",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Yunli verursachten SCH in Divergentes Universum.\n\nReduziert den erlittenen SCH um <color=#f29e38ff>10%</color> und erhöht den durch Folgeangriffe verursachten endgültigen SCH um <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661222": {
+		"Id": "661222",
+		"Name": "Lingsha",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Lingsha verursachten SCH in Divergentes Universum.\n\nErhöht die bewirkte Heilung um <color=#f29e38ff>30%</color> und reduziert den vom geheilten Ziel erlittenen SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661223": {
+		"Id": "661223",
+		"Name": "Moze",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Moze verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem ausgeführten Angriff um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar und wird nach LP-Verlust entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"661224": {
+		"Id": "661224",
+		"Name": "7. März",
+		"Rarity": 1,
+		"Effect": "Erhöht den von 7. März verursachten SCH in Divergentes Universum.\n\nErhöht die GES um <color=#f29e38ff>10%</color>. Für je 10 Pkt. GES, die <color=#f29e38ff>150</color> überschreiten, wird der verursachte endgültige SCH um <color=#f29e38ff>2.0%</color> erhöht, bis zu <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661225": {
+		"Id": "661225",
+		"Name": "Fugue",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Fugue verursachten SCH in Divergentes Universum.\n\nWenn Fugue sich auf dem Kampffeld befindet, wird der von Verbündeten an Gegnern mit Schwächebruch verursachte endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661301": {
+		"Id": "661301",
+		"Name": "Gallagher",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gallagher verursachten SCH in Divergentes Universum.\n\nErhöht die bewirkte Heilung um <color=#f29e38ff>30%</color> und reduziert den vom geheilten Ziel erlittenen SCH für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661302": {
+		"Id": "661302",
+		"Name": "Argenti",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Argenti verursachten SCH in Divergentes Universum.\n\nFür jeden Gegner, der sich auf dem Kampffeld befindet, wird der verursachte endgültige SCH um <color=#f29e38ff>4%</color> erhöht. Nach dem Besiegen eines Gegners wird der endgültige SCH in diesem Kampf zusätzlich um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661303": {
+		"Id": "661303",
+		"Name": "Ruan Mei",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Ruan Mei verursachten SCH in Divergentes Universum.\n\nWenn Ruan Mei sich auf dem Kampffeld befindet, wird der von Verbündeten an Gegnern mit Schwächebruch verursachte endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661304": {
+		"Id": "661304",
+		"Name": "Aventurin",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Aventurin verursachten SCH in Divergentes Universum.\n\nWenn Aventurin sich auf dem Kampffeld befindet, wird der KRIT-SCH von Verbündeten mit Schild um <color=#f29e38ff>25%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661305": {
+		"Id": "661305",
+		"Name": "Dr. Wahrheit",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Dr. Wahrheit verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem ausgeführten Angriff um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar und wird nach LP-Verlust entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"661306": {
+		"Id": "661306",
+		"Name": "Sparkle",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Sparkle verursachten SCH in Divergentes Universum.\n\nWenn Sparkle sich auf dem Kampffeld befindet, wird der von Verbündeten verursachte endgültige SCH um <color=#f29e38ff>8%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661307": {
+		"Id": "661307",
+		"Name": "Schwarzer Schwan",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Schwarzer Schwan verursachten SCH in Divergentes Universum.\n\nErhöht den endgültigen SCH an Gegnern mit mindestens <color=#f29e38ff>3</color> DoT-Status um <color=#f29e38ff>12%</color>. Für jeden weiteren DoT-Status wird der SCH zusätzlich um <color=#f29e38ff>1%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661308": {
+		"Id": "661308",
+		"Name": "Acheron",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Acheron verursachten SCH in Divergentes Universum.\n\nErhöht den endgültigen SCH an Gegnern mit <color=#f29e38ff>8</color> oder mehr Debuffs um <color=#f29e38ff>10%</color>. Für jeden weiteren Debuff wird der SCH zusätzlich um <color=#f29e38ff>1%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661309": {
+		"Id": "661309",
+		"Name": "Robin",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Robin verursachten SCH in Divergentes Universum.\n\nWenn Robin sich auf dem Kampffeld befindet, wird die GES aller Verbündeten um <color=#f29e38ff>10%</color> von Robins GES erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661310": {
+		"Id": "661310",
+		"Name": "Glühwürmchen",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Glühwürmchen verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH für je 10 Pkt. des max. WDS der Gegner um <color=#f29e38ff>1.2%</color>, bis zu <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661312": {
+		"Id": "661312",
+		"Name": "Misha",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Misha verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an eingefrorenen Gegnern um <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661313": {
+		"Id": "661313",
+		"Name": "Sonntag",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Sonntag verursachten SCH in Divergentes Universum.\n\nWenn Sonntag sich auf dem Kampffeld befindet, wird der verursachte endgültige SCH der ersten Figur in der Teamformation und ihres Memogeistes um <color=#f29e38ff>12%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661314": {
+		"Id": "661314",
+		"Name": "Jade",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Jade verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem ausgeführten Angriff um <color=#f29e38ff>4%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar und wird nach LP-Verlust entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"661315": {
+		"Id": "661315",
+		"Name": "Boothill",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Boothill verursachten SCH in Divergentes Universum.\n\nNachdem einem Gegner Schwächebruch zugefügt wurde, wird die GES um <color=#f29e38ff>4%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661317": {
+		"Id": "661317",
+		"Name": "Rappa",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Rappa verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern im Schwächebruch um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661321": {
+		"Id": "661321",
+		"Name": "Die Dahlie",
+		"Rarity": 1,
+		"Effect": "Erhöht den von der Dahlie verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH für je 10 Pkt. des max. WDS der Gegner um <color=#f29e38ff>1.2%</color>, bis zu <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661401": {
+		"Id": "661401",
+		"Name": "Große Herta",
+		"Rarity": 1,
+		"Effect": "Erhöht den von der Großen Herta verursachten SCH in Divergentes Universum.\n\nFür jeden Gegner, der sich auf dem Kampffeld befindet, wird der verursachte endgültige SCH um <color=#f29e38ff>4%</color> erhöht. Nach dem Besiegen eines Gegners wird der endgültige SCH in diesem Kampf zusätzlich um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661402": {
+		"Id": "661402",
+		"Name": "Aglaea",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Aglaea verursachten SCH in Divergentes Universum.\n\nErhöht die GES dieser Einheit und ihres Memogeists um <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661403": {
+		"Id": "661403",
+		"Name": "Tribbie",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Tribbie verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem Einsatz des Ultimates um <color=#f29e38ff>3%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661404": {
+		"Id": "661404",
+		"Name": "Mydei",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Mydei verursachten SCH in Divergentes Universum.\n\nNach LP-Verlust wird für <color=#f29e38ff>2</color> Rd. die LP-Wiederherstellung um <color=#f29e38ff>15%</color> und der endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661405": {
+		"Id": "661405",
+		"Name": "Anaxa",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Anaxa verursachten SCH in Divergentes Universum.\n\nNachdem einem Gegner Schwächebruch zugefügt wurde, wird die GES um <color=#f29e38ff>4%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"661406": {
+		"Id": "661406",
+		"Name": "Cipher",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Cipher verursachten SCH in Divergentes Universum.\n\nWenn Cipher sich auf dem Kampffeld befindet, wird die GES der Verbündeten um <color=#f29e38ff>10%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661407": {
+		"Id": "661407",
+		"Name": "Castorice",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Castorice verursachten SCH in Divergentes Universum.\n\nNachdem Castorice und ihr Memogeist einen Gegner besiegt haben, werden LP in Höhe von <color=#f29e38ff>50%</color> der max. LP wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"661408": {
+		"Id": "661408",
+		"Name": "Phainon",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Phainon verursachten SCH in Divergentes Universum.\n\nErhöht für je 10 Pkt. Aktionswert den verursachten endgültigen SCH um <color=#f29e38ff>0.8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661409": {
+		"Id": "661409",
+		"Name": "Hyacine",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Hyacine verursachten SCH in Divergentes Universum.\n\nErhöht GES um <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661410": {
+		"Id": "661410",
+		"Name": "Hysilens",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Hysilens verursachten SCH in Divergentes Universum.\n\nErhöht den endgültigen SCH an Gegnern mit mindestens <color=#f29e38ff>3</color> DoT-Status um <color=#f29e38ff>12%</color>. Für jeden weiteren DoT-Status wird der SCH zusätzlich um <color=#f29e38ff>1%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661412": {
+		"Id": "661412",
+		"Name": "Cerydra",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Cerydra verursachten SCH in Divergentes Universum.\n\nWenn Cerydra sich auf dem Kampffeld befindet, wird der verursachte endgültige SCH der ersten Figur in der Teamformation und ihres Memogeistes um <color=#f29e38ff>12%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661413": {
+		"Id": "661413",
+		"Name": "Evernight",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Evernight verursachten SCH in Divergentes Universum.\n\nWenn Evernight sich auf dem Kampffeld befindet, wird der von Verbündeten verursachte endgültige SCH um <color=#f29e38ff>8%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661414": {
+		"Id": "661414",
+		"Name": "Dan Heng – Permansor Terrae",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Dan Heng – Permansor Terrae verursachten SCH in Divergentes Universum.\n\nWenn Dan Heng – Permansor Terrae sich auf dem Kampffeld befindet, wird der KRIT-SCH von Verbündeten mit Schild um <color=#f29e38ff>25%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661415": {
+		"Id": "661415",
+		"Name": "Cyrene",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Cyrene verursachten SCH in Divergentes Universum.\n\nWenn sich außer Cyrene mindestens 1 Erbe von Chrysos im Team befindet, wird der von allen Verbündeten verursachte endgültige SCH um <color=#f29e38ff>10%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661501": {
+		"Id": "661501",
+		"Name": "Sparxie",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Sparxie verursachten SCH in Divergentes Universum.\n\nFür jeweils <color=#f29e38ff>10</color> Lachpunkt(e) des gesamten Teams wird der von dieser Einheit verursachte endgültige SCH um <color=#f29e38ff>1%</color> erhöht, bis zu <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661502": {
+		"Id": "661502",
+		"Name": "Yao Guang",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Yao Guang verursachten SCH in Divergentes Universum.\n\nWenn Yao Guang sich auf dem Kampffeld befindet, wird die GES aller Verbündeten um <color=#f29e38ff>10%</color> von Yao Guangs GES erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"661504": {
+		"Id": "661504",
+		"Name": "Ashveil",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Ashveil verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit einem LP-Prozentsatz von weniger als <color=#f29e38ff>50%</color> um <color=#f29e38ff>30%</color>. Handelt es sich um Folgeangriff-SCH, wird er zusätzlich um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"668001": {
+		"Id": "668001",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit einem LP-Prozentsatz von mehr als <color=#f29e38ff>50%</color> um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668002": {
+		"Id": "668002",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit einem LP-Prozentsatz von mehr als <color=#f29e38ff>50%</color> um <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668003": {
+		"Id": "668003",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nWenn {NICKNAME} sich auf dem Kampffeld befindet, wird der KRIT-SCH von Verbündeten mit Schild um <color=#f29e38ff>25%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"668004": {
+		"Id": "668004",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nWenn {NICKNAME} sich auf dem Kampffeld befindet, wird der KRIT-SCH von Verbündeten mit Schild um <color=#f29e38ff>25%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"668005": {
+		"Id": "668005",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nWenn {NICKNAME} sich auf dem Kampffeld befindet, wird der von Verbündeten an Gegnern mit Schwächebruch verursachte endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"668006": {
+		"Id": "668006",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nWenn {NICKNAME} sich auf dem Kampffeld befindet, wird der von Verbündeten an Gegnern mit Schwächebruch verursachte endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"668007": {
+		"Id": "668007",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt beim Kampfeintritt Energie in Höhe von <color=#f29e38ff>50%</color> der max. Energie wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"668008": {
+		"Id": "668008",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt beim Kampfeintritt Energie in Höhe von <color=#f29e38ff>50%</color> der max. Energie wieder her.",
+		"VersionAdded": "4.1"
 	},
 	"670010": {
 		"Id": "670010",
@@ -7678,5 +9798,581 @@
 		"Effect": "Erhöht den SCH-Multiplikator von <u>Akkord</u> um <color=#f29e38ff>50%</color> des ursprünglichen SCH-Multiplikators. Nachdem Verbündete Folgeangriffe ausgelöst haben, werden die Ziele mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt.",
 		"AbridgedEffect": "Erhöht den <u>Akkord-SCH</u>. Nachdem Verbündete Folgeangriffe ausgelöst haben, wird zusätzlich <u>Akkord</u> zugefügt.",
 		"VersionAdded": "3.1"
+	},
+	"676170": {
+		"Id": "676170",
+		"Name": "Ein wunderschönes Gedicht",
+		"Rarity": 1,
+		"Effect": "Nach Eintritt in den Status „<u>Schmetterlingsseele</u>“ verursacht der Memogeist nach dem Angreifen Tatsächlichen SCH von <u>Schmetterlingsseele</u>, ohne die Trefferzahl zu verbrauchen. Der Gegner mit den höchsten max. LP wird in den Status „Kokon“ versetzt, der bis zum Verlassen von <u>Schmetterlingsseele</u> anhält. Während der Dauer dieses Status wird jeglicher durch <u>Schmetterlingsseele</u> erlittene SCH aufgezeichnet. Nach jeweils <color=#f29e38ff>5</color> erlittenen Angriffen / nach Besiegen des Ziels / beim Verlassen von <u>Schmetterlingsseele</u> wird allen Gegnern SCH in Höhe von <color=#f29e38ff>200%</color> des aufgezeichneten SCH zugefügt und der aufgezeichnete Wert zurückgesetzt.",
+		"AbridgedEffect": "Memogeister können den Tatsächlichen SCH von „<u>Schmetterlingsseele</u>“ auslösen. Der Gegner mit den höchsten max. LP wird in den Status „Kokon“ versetzt, der bis zum Verlassen von <u>Schmetterlingsseele</u> anhält. Während der Dauer dieses Status wird jeglicher durch <u>Schmetterlingsseele</u> erlittene SCH aufgezeichnet. Nach einer bestimmten Anzahl erlittener Angriffe, nach Besiegen des Ziels oder beim Verlassen von <u>Schmetterlingsseele</u> wird allen Gegnern ein bestimmter Anteil des aufgezeichneten SCH zugefügt und der aufgezeichnete Wert zurückgesetzt.",
+		"VersionAdded": "4.1"
+	},
+	"676180": {
+		"Id": "676180",
+		"Name": "Äpfel! Äpfel!",
+		"Rarity": 1,
+		"Effect": "„Plötzliche Erkenntnis“ erscheint in der Aktionsreihenfolge. Fügt bei einer Aktion allen Gegnern Eis-<u>Basis-SCH</u> in Höhe von <color=#f29e38ff>2000%</color> zu und aktiviert die Ultimates aller Verbündeten. Für jede Stapelung „<u>Besessenheit</u>“ der ersten Figur im Team und ihres Memogeists wird die Basis-GES von Plötzliche Erkenntnis um <color=#f29e38ff>1</color> erhöht und jedem Gegner wird zusätzlich Eis-<u>Basis-SCH</u> in Höhe von <color=#f29e38ff>100%</color> zugefügt.",
+		"AbridgedEffect": "„Plötzliche Erkenntnis“ erscheint in der Aktionsreihenfolge. Fügt bei einer Aktion allen Gegnern Eis-SCH zu, aktiviert die Ultimates aller Verbündeten, und je mehr Stapel von <u>Besessenheit</u> die erste Figur im Team und ihr Memogeist besitzen, desto höher sind GES und SCH von Plötzliche Erkenntnis.",
+		"VersionAdded": "4.1"
+	},
+	"676250": {
+		"Id": "676250",
+		"Name": "Konzeptionelle Opferungszeremonie",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Gegner einen Verbündeten angegriffen hat, erhält <u>Flüstern</u> Aufladung in Höhe von <color=#f29e38ff>10%</color> der Entfernungsschwelle. Für je <color=#f29e38ff>5%</color> der Entfernungsschwelle, die <u>Flüstern</u> auflädt, erleiden Gegner 1-mal Blitz-DoT in Höhe von <color=#f29e38ff>120%</color> der Entfernungsschwelle für Aufladung von <u>Flüstern</u>. Für jeden Gegner wird dieser Effekt nur <color=#f29e38ff>2</color>-mal ausgelöst und die Auslösungszahl wird nach der Aktion einer beliebigen Einheit zurückgesetzt. Dieser SCH gilt als <u>Flüstern-SCH</u> und kann Gegner nicht besiegen.",
+		"AbridgedEffect": "Nachdem ein Gegner einen Verbündeten angegriffen hat, erhält <u>Flüstern</u> Aufladung. Jedes Mal, wenn <u>Flüstern</u> einen bestimmten Anteil der Entfernungsschwelle auflädt, erleidet der Gegner sofort 1-mal <u>Flüstern-SCH</u>.",
+		"VersionAdded": "4.1"
+	},
+	"676280": {
+		"Id": "676280",
+		"Name": "Auferstehungsarzt",
+		"Rarity": 1,
+		"Effect": "Nachdem Verbündete <color=#f29e38ff>5</color>-mal einen Ultimate eingesetzt haben, fügt <u>Flüstern</u> angrenzenden Einheiten SCH in Höhe von <color=#f29e38ff>60%</color> des ursprünglichen SCH-Multiplikators zu. Danach wird jedes Mal, wenn ein Ultimate eingesetzt wird, der SCH von <u>Flüstern</u> zusätzlich um <color=#f29e38ff>2%</color> erhöht.",
+		"AbridgedEffect": "Nachdem Verbündete <color=#f29e38ff>5</color>-mal einen Ultimate eingesetzt haben, fügt <u>Flüstern</u> angrenzenden Einheiten SCH zu. Danach wird jedes Mal, wenn ein Ultimate eingesetzt wird, der SCH von <u>Flüstern</u> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"676410": {
+		"Id": "676410",
+		"Name": "Straßenoffizier",
+		"Rarity": 1,
+		"Effect": "Nachdem die Verbündeten insgesamt <color=#f29e38ff>24</color>-mal einen Angriff ausgeführt haben, erhält die erste Figur im aktuellen Team eine zusätzliche Runde, wobei für Folgeangriffe die doppelte Trefferzahl angerechnet wird. Nachdem sie in dieser zusätzlichen Runde einen Angriff ausgeführt hat, fügt sie dem Angriffsziel zusätzlichen SCH in Höhe von <color=#f29e38ff>600%</color> der max. LP + <color=#f29e38ff>1200%</color> des ANG zu. Für jede Stapelung <u>Besessenheit</u> der Verbündeten wird der SCH-Multiplikator um <color=#f29e38ff>1%</color> des ursprünglichen Multiplikators erhöht.",
+		"AbridgedEffect": "Wenn Verbündete eine bestimmte Anzahl an Angriffen ausführen, erhält die erste Figur im aktuellen Team eine zusätzliche Runde und verursacht nach dem Angriff basierend auf der Stapelzahl von <u>Besessenheit</u> SCH.",
+		"VersionAdded": "4.1"
+	},
+	"676470": {
+		"Id": "676470",
+		"Name": "Exorzist",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Verbündeten verursachten SCH im Status „<u>Schmetterlingsseele</u>“ um <color=#f29e38ff>200%</color>. Wenn nach einem Angriff die aktuellen LP eines Gegners unter <color=#f29e38ff>25%</color> seiner max. LP liegen, wird ihm eine feste Menge <u>Schmetterlingsseele-SCH</u> in Höhe seiner aktuellen LP zugefügt; stellt außerdem <color=#f29e38ff>2</color> Fertigkeitspunkt(e) wieder her.",
+		"AbridgedEffect": "Im Status „<u>Schmetterlingsseele</u>“ wird der von Verbündeten verursachte SCH erhöht. Außerdem können sie Gegner mit LP unter <color=#f29e38ff>25%</color> ihrer max. LP sofort besiegen und <color=#f29e38ff>2</color> Fertigkeitspunkte wiederherstellen.",
+		"VersionAdded": "4.1"
+	},
+	"676510": {
+		"Id": "676510",
+		"Name": "Albtraummeister",
+		"Rarity": 1,
+		"Effect": "Nachdem ein beliebiger Verbündeter einen Angriff erlitten hat, wird dieser als Angriff auf alle Verbündeten angesehen. Alle Verbündeten erhalten Aufladung für <u>Blazar</u> in Höhe von <color=#f29e38ff>15%</color> ihrer jeweiligen max. LP und Schilde.",
+		"AbridgedEffect": "Nach dem Erleiden eines Angriffs wird dieser als Angriff auf alle Verbündeten angesehen und alle Verbündeten erhalten Aufladung für <u>Blazar</u>.",
+		"VersionAdded": "4.1"
+	},
+	"676590": {
+		"Id": "676590",
+		"Name": "Ewiger Supplikant",
+		"Rarity": 1,
+		"Effect": "Wenn die gesamten verlorenen LP der Verbündeten <color=#f29e38ff>100%</color> ihrer max. LP betragen oder wenn sie sich von der Handlungsunfähigkeit erholen, wird allen Gegnern SCH in Höhe von <color=#f29e38ff>75%</color> der Obergrenze von <u>Akkord</u> zugefügt. Zu Beginn der Runde einer Figur werden <color=#f29e38ff>5%</color> ihrer max. LP verbraucht, wobei dieser Wert nach jeder Auslösung um <color=#f29e38ff>5%</color> erhöht wird. Wenn eine verbündete Figur zum ersten Mal handlungsunfähig wird, werden ihre LP auf <color=#f29e38ff>100%</color> ihrer max. LP wiederhergestellt, und sie verbraucht anschließend in ihrer Runde keine LP mehr.",
+		"AbridgedEffect": "Beim Verlust einer gewissen Menge an LP oder Erholen von der Handlungsunfähigkeit wird allen Gegnern basierend auf der Obergrenze von <u>Akkord</u> SCH zugefügt. Figuren können Todesstößen widerstehen. Bevor dieser Effekt ausgelöst wird, werden LP zu Beginn der Runde verbraucht.",
+		"VersionAdded": "4.1"
+	},
+	"676640": {
+		"Id": "676640",
+		"Name": "Sternendiebe",
+		"Rarity": 1,
+		"Effect": "Erhöht die Trefferzahl bei der Aktion des <u>Kartengebers</u> um <color=#f29e38ff>4</color> und ändert das Angriffsziel auf den Gegner mit den höchsten aktuellen max. LP. Wenn SCH verursacht wird, wird das Ziel zusätzlich mit <color=#f29e38ff>2</color> Stapelung(en) „<u>Umgekehrter Kritischer Boost</u>“ belegt und die Aktion aller Verbündeten wird nach dem Angriff um <color=#f29e38ff>25%</color> vorgezogen. Dieser Effekt kann bei jedem Gegner max. <color=#f29e38ff>1</color>-mal pro Runde ausgelöst werden.",
+		"AbridgedEffect": "Ändert das Angriffsziel des <u>Kartengebers</u> zum Gegner mit den höchsten aktuellen max. LP und erhöht die Trefferzahl. Wenn SCH verursacht wird, wird das Ziel mit <u>Umgekehrter Kritischer Boost</u> belegt und die Aktion aller Verbündeten wird vorgezogen.",
+		"VersionAdded": "4.1"
+	},
+	"676650": {
+		"Id": "676650",
+		"Name": "Feuerverweigerer",
+		"Rarity": 1,
+		"Effect": "„Wahn“ erscheint in der Aktionsreihenfolge, und jeder Punkt Aufladung des <u>Kartengebers</u> erhöht dessen GES zusätzlich um <color=#f29e38ff>7</color>. Wenn Wahn eine Aktion ausführt, wird der verursachte SCH aller Verbündeten um <color=#f29e38ff>15%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-mal stapelbar. Zudem erhält „<u>Blazar</u>“ Aufladung in Höhe von <color=#f29e38ff>150%</color> der Summe aus den jeweiligen max. LP und aktuellen Schilden, wodurch jeder Verbündete nach seinem nächsten Angriff jedem Angriffsziel <color=#f29e38ff>7</color>-mal <color=#f29e38ff>80%</color> <u>Blazar-SCH</u> eines zufälligen Typs zufügt.",
+		"AbridgedEffect": "In der Aktionsreihenfolge erscheint „Wahnsinn“, dessen GES durch die Aufladungsstufen des <u>Kartengebers</u> zusätzlich erhöht wird: Wenn Wahnsinn eine Aktion ausführt, wird der von allen Verbündeten verursachte SCH erhöht und <u>Blazar</u> aufgeladen, wodurch jeder Verbündete nach seinem nächsten Angriff jedem Angriffsziel <u>Blazar-SCH</u> eines zufälligen Typs zufügt.",
+		"VersionAdded": "4.1"
+	},
+	"676720": {
+		"Id": "676720",
+		"Name": "Schlängelnde Schlange",
+		"Rarity": 1,
+		"Effect": "Im Status <u>Schmetterlingsseele</u> wird der von allen Gegnern erlittene SCH für jeden verbrauchten Fertigkeitspunkt der Verbündeten um <color=#f29e38ff>10%</color> erhöht. Dieser Effekt ist stapelbar, bis zu <color=#f29e38ff>40%</color>. Nach jedem Eintritt in den Status <u>Schmetterlingsseele</u> wird beim ersten Verbrauch von insgesamt <color=#f29e38ff>3</color> Fertigkeitspunkten die Trefferzahl von <u>Schmetterlingsseele</u> um <color=#f29e38ff>6</color> wiederhergestellt. Bis zum Ende dieser <u>Schmetterlingsseele</u> fügen die Verbündeten nach ihren Angriffen den getroffenen Zielen 1-mal Tatsächlichen SCH in Höhe von <color=#f29e38ff>60%</color> des ursprünglichen SCH (außer zusätzlichem SCH) zu. Dieser Effekt gilt auch für den erlittenen DoT zu Beginn der Runde der Gegner.",
+		"AbridgedEffect": "Im Status <u>Schmetterlingsseele</u> gilt: Je mehr Fertigkeitspunkte Verbündete verbrauchen, desto höher ist der erlittene SCH der Gegner. Nach jedem Eintritt in den Status <u>Schmetterlingsseele</u> und dem ersten Verbrauch von <color=#f29e38ff>3</color> Fertigkeitspunkten wird die Anzahl von <u>Schmetterlingsseele</u> wiederhergestellt und Angriffe sowie DoT verursachen zusätzlich Tatsächlichen SCH.",
+		"VersionAdded": "4.1"
+	},
+	"676760": {
+		"Id": "676760",
+		"Name": "Galaktische Lotterie",
+		"Rarity": 1,
+		"Effect": "Für jeden verbrauchten oder überschüssigen Fertigkeitspunkt von Verbündeten wird 1 Ziehung erhalten, bis zu <color=#f29e38ff>25</color>-mal. Beim Eintritt in den Status „<u>Schmetterlingsseele</u>“ wird ein Lotterie-Automat beschworen, der alle Ziehungen verbraucht, um Preise zu gewinnen, mit einer Basis-Ziehungszahl von <color=#f29e38ff>5</color>. Es besteht eine geringe Chance, den Sonderpreis zu erhalten: Fügt allen Gegnern 1-mal SCH eines zufälligen Typs in Höhe von <color=#f29e38ff>4000%</color> des <u>Basis-SCH</u> zu und gewährt dem <u>Kartengeber</u> <color=#f29e38ff>5</color> Pkt. Aufladung. Trostpreis: Fügt zufälligen Gegnern 1-mal SCH eines zufälligen Typs in Höhe von <color=#f29e38ff>500%</color> des <u>Basis-SCH</u> zu.",
+		"AbridgedEffect": "Für jeden verbrauchten oder überschüssigen Fertigkeitspunkt von Verbündeten wird 1 Ziehung erhalten. Beim Eintritt in den Status „<u>Schmetterlingsseele</u>“ wird ein Lotterie-Automat beschworen, der alle Ziehungen verbraucht, um Preise zu gewinnen. Es besteht eine geringe Chance, den Sonderpreis zu erhalten: Fügt allen Gegnern SCH eines zufälligen Typs zu und gewährt dem <u>Kartengeber</u> <color=#f29e38ff>5</color> Pkt. Aufladung. Trostpreis: Fügt zufälligen Gegnern SCH eines zufälligen Typs zu.",
+		"VersionAdded": "4.1"
+	},
+	"676860": {
+		"Id": "676860",
+		"Name": "Nützlicher Gelehrter",
+		"Rarity": 1,
+		"Effect": "Nachdem der <u>Kartengeber</u> <color=#f29e38ff>4</color>-mal eine Aktion ausgeführt hat, während der Status „Übertakten“ im Team nicht aktiv ist, wird der KRIT-SCH aller Verbündeten für <color=#f29e38ff>5</color> Rd. um <color=#f29e38ff>200%</color> erhöht. Außerdem erhält die erste Figur im aktuellen Team den Status Übertakten: Ihr Ultimate wird aktiviert und „<u>Gehirn im Tank</u>“ auf <color=#f29e38ff>200%</color> aufgeladen. Nachdem <color=#f29e38ff>3</color>-mal der Ultimate eingesetzt wurde, wird dieser Status entfernt. Beim ersten Mal muss der <u>Kartengeber</u> nur <color=#f29e38ff>1</color>-mal eine Aktion ausführen.",
+		"AbridgedEffect": "Nachdem der <u>Kartengeber</u> <color=#f29e38ff>4</color>-mal eine Aktion ausgeführt hat, während der Status „Übertakten“ im Team nicht aktiv ist, wird der KRIT-SCH aller Verbündeten erhöht. Außerdem erhält die erste Figur im aktuellen Team den Status Übertakten: Ihr Ultimate wird aktiviert und „<u>Gehirn im Tank</u>“ auf <color=#f29e38ff>200%</color> aufgeladen. Beim ersten Mal muss der <u>Kartengeber</u> nur <color=#f29e38ff>1</color>-mal eine Aktion ausführen.",
+		"VersionAdded": "4.1"
+	},
+	"676890": {
+		"Id": "676890",
+		"Name": "Elektro-Druide",
+		"Rarity": 1,
+		"Effect": "„Odem der Riesenschildkröte“ erscheint mit einer GES von <color=#f29e38ff>150</color> in der Aktionsreihenfolge: Erhöht bei der Aktion den erlittenen SCH aller Gegner für <color=#f29e38ff>3</color> Rd. um <color=#f29e38ff>50%</color>, verursacht Eis- und Feuer-SCH in Höhe von <color=#f29e38ff>6000%</color> des <u>Basis-SCH</u>, verzögert ihre Aktion um <color=#f29e38ff>30%</color> und reduziert den WDS aller Gegner unabhängig vom Schwächetyp um <color=#f29e38ff>30</color>. Beim Schwächebruch werden die Brucheffekte für Eis- und Feuer-Schwächen ausgelöst. Nachdem ein Verbündeter den Ultimate durch <u>Gehirn im Tank</u> aktiviert hat, wird die GES von Odem der Riesenschildkröte um <color=#f29e38ff>5</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>15</color>-mal stapelbar.",
+		"AbridgedEffect": "„Odem der Riesenschildkröte“ erscheint in der Aktionsreihenfolge. Erhöht bei der Aktion den erlittenen SCH aller Gegner, fügt allen Gegnern Eis- und Feuer-SCH zu, verzögert ihre Aktionen und reduziert ihren WDS unabhängig vom Schwächetyp. Beim Schwächebruch werden die Brucheffekte von Eis- und Feuer-Schwächen ausgelöst. Nachdem ein Verbündeter den Ultimate durch <u>Gehirn im Tank</u> aktiviert hat, wird die GES von Odem der Riesenschildkröte erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"676920": {
+		"Id": "676920",
+		"Name": "Toter General",
+		"Rarity": 1,
+		"Effect": "Wenn sich Gegner im Schwächebruch befinden, erhält „<u>Akkord</u>“ basierend auf den Typen der verbündeten Figuren im Team zusätzliche Effekte. Effekte desselben Typs sind stapelbar. Wind, Blitz, Physisch: Erhält den Effekt „Tumult“. Nach dem Erleiden eines Angriffs verursachen die aktuellen DoT-Status der Gegner sofort SCH in Höhe von <color=#f29e38ff>60%</color> des ursprünglichen SCH. Feuer: Erhält den Effekt „Feuerstrom“. Der von Gegnern erlittene <u>Super-Bruch-SCH</u> wird um <color=#f29e38ff>60%</color> erhöht. Quanten, Imaginär, Eis: Erhält den Effekt „Abschreckung“. Die Aktion der Gegner wird um <color=#f29e38ff>20%</color> verzögert und nach einem erlittenen Angriff wird <color=#f29e38ff>1</color>-mal <u>Akkord-SCH</u> mit einem Prozentsatz von <color=#f29e38ff>10%</color> ausgelöst.",
+		"AbridgedEffect": "Wenn sich Gegner im Schwächebruch befinden, erhält „<u>Akkord</u>“ basierend auf den Typen der verbündeten Figuren im Team zusätzliche Effekte. Wind, Blitz, Physisch: Erhält den Effekt „Tumult“. Nach dem Erleiden eines Angriffs wird DoT ausgelöst. Feuer: Erhält den Effekt „Feuerstrom“. Der erlittene <u>Super-Bruch-SCH</u> wird erhöht. Quanten, Imaginär, Eis: Erhält den Effekt „Abschreckung“. Die Aktion der Gegner wird verzögert und nach einem erlittenen Angriff wird zusätzlich <u>Akkord-SCH</u> erlitten.",
+		"VersionAdded": "4.1"
+	},
+	"676940": {
+		"Id": "676940",
+		"Name": "Der die Götter ruft",
+		"Rarity": 1,
+		"Effect": "Erhöht die GES von Verbündeten um <color=#f29e38ff>35%</color>. Nach einem Angriff besteht eine feste Chance von <color=#f29e38ff>60%</color>, einem zufälligen Angriffsziel eine zufällige Schwäche zu implantieren. Fügt dem Gegner <color=#f29e38ff>3</color>-mal SCH des entsprechenden Typs in Höhe von <color=#f29e38ff>180%</color> des <u>Basis-SCH</u> zu. Handelt es sich um einen Folgeangriff, wird der Effekt garantiert ausgelöst. Die implantierte Schwäche wird entfernt, nachdem der Gegner Schwächebruch erlitten hat. Nach dem Implantieren einer Schwäche wird die implantierte Schwäche 1-mal aufgezeichnet. Dieser Effekt kann pro Aktion bis zu <color=#f29e38ff>2</color>-mal ausgelöst werden. Nachdem ein beliebiges gegnerisches Ziel Schwächebruch erlitten hat, wird dem Ziel sowie den angrenzenden Einheiten basierend auf den aufgezeichneten Schwächen für jede Aufzeichnung Bruch-SCH des entsprechenden Typs in Höhe von <color=#f29e38ff>200%</color> zugefügt.",
+		"AbridgedEffect": "Erhöht die GES von Verbündeten. Nachdem ein Angriff ausgeführt wurde, besteht eine Chance, eine Schwäche zu implantieren und SCH des entsprechenden Typs zu verursachen. Handelt es sich um einen Folgeangriff, wird der Effekt garantiert ausgelöst. Zeichnet die implantierten Schwächen auf. Wenn ein Gegner Schwächebruch erleidet, wird ihm und angrenzenden Einheiten basierend auf den aufgezeichneten Schwächen der entsprechende Bruch-SCH zugefügt.",
+		"VersionAdded": "4.1"
+	},
+	"677160": {
+		"Id": "677160",
+		"Name": "Gärtner",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter einen Angriff ausführt, wird dem Ziel zusätzlicher SCH in Höhe von <color=#f29e38ff>100%</color> der max. LP zugefügt. Nach der Aktion des <u>Kartengebers</u> wird der zusätzliche SCH des nächsten Angriffs auf <color=#f29e38ff>300%</color> der max. LP erhöht.",
+		"AbridgedEffect": "Nachdem ein Verbündeter einen Angriff ausführt, wird dem Ziel zusätzlicher SCH basierend auf den max. LP zugefügt. Nach der Aktion des <u>Kartengebers</u> wird der nächste zusätzliche SCH erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"677170": {
+		"Id": "677170",
+		"Name": "Historischer Agent",
+		"Rarity": 1,
+		"Effect": "Für jede Stapelung <u>Besessenheit</u> eines Verbündeten wird der verursachte Standardangriff- und Fertigkeits-SCH um <color=#f29e38ff>6%</color> erhöht. Wenn ein Verbündeter das Kampffeld verlässt, handlungsunfähig wird oder ein verbündeter Memogeist verschwindet, erhält die erste Figur in der aktuellen Teamformation <color=#f29e38ff>50%</color> der Stapelzahl von <u>Besessenheit</u> dieser Einheit sowie die gleiche max. Stapelzahl von <u>Besessenheit</u>. Diese zusätzliche Obergrenze wird nach <color=#f29e38ff>2</color> Rd. entfernt.",
+		"AbridgedEffect": "Jede Stapelung von <u>Besessenheit</u> erhöht den Standardangriff- und Fertigkeits-SCH. Beim Verlassen des Kampffeldes erhält die erste Figur in der aktuellen Teamformation eine bestimmte Stapelzahl von <u>Besessenheit</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677190": {
+		"Id": "677190",
+		"Name": "Schnellzugriffsrad zum Klassenwechsel",
+		"Rarity": 1,
+		"Effect": "Erhöht die Obergrenze für <u>Besessenheit</u> der Verbündeten um <color=#f29e38ff>4</color>. Jede Stapelung <u>Besessenheit</u> des Teams erhöht die GES zusätzlich um <color=#f29e38ff>0.3%</color>. Wenn einem Gegner Schwächebruch zugefügt wird, erhalten alle Verbündeten <color=#f29e38ff>3</color> Stapelung(en) <u>Besessenheit</u>.",
+		"AbridgedEffect": "Erhöht die Obergrenze für <u>Besessenheit</u>. Jede Stapelung <u>Besessenheit</u> erhöht die GES aller Verbündeten zusätzlich. Wenn einem Gegner Schwächebruch zugefügt wird, erhalten alle Verbündeten <u>Besessenheit</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677240": {
+		"Id": "677240",
+		"Name": "Ewiges Rennen",
+		"Rarity": 1,
+		"Effect": "Von Gegnern erlittener DoT kann Kritische Treffer verursachen. Die KRIT-Rate / Der KRIT-SCH entspricht <color=#f29e38ff>20%</color> der Gesamtsumme von KRIT-Rate/KRIT-SCH aller Figuren. Der KRIT-SCH kann <color=#f29e38ff>120%</color> nicht überschreiten.",
+		"AbridgedEffect": "Von Gegnern erlittener DoT kann Kritische Treffer verursachen. Die KRIT-Rate / Der KRIT-SCH basiert auf der Gesamtsumme von KRIT-Rate/KRIT-SCH aller Figuren.",
+		"VersionAdded": "4.1"
+	},
+	"677250": {
+		"Id": "677250",
+		"Name": "Vom Würfel geschmiedetes Leben",
+		"Rarity": 1,
+		"Effect": "Gegner erleiden <color=#f29e38ff>35%</color> mehr <u>Flüstern-SCH</u>. Nachdem Gegner außerhalb ihrer eigenen Runde DoT erlitten haben, erhalten alle Verbündeten Aufladung für <u>Blazar</u> in Höhe von <color=#f29e38ff>10%</color> ihres jeweiligen ANG. Dieser Effekt kann bei Gegnern bis zu <color=#f29e38ff>5</color>-mal pro Runde ausgelöst werden.",
+		"AbridgedEffect": "Gegner erleiden mehr <u>Flüstern-SCH</u>. Nachdem Gegner außerhalb ihrer eigenen Runde DoT erlitten haben, erhalten alle Verbündeten Aufladung für <u>Blazar</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677260": {
+		"Id": "677260",
+		"Name": "Narrenkönig",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gegnern erlittenen DoT um <color=#f29e38ff>30%</color>. Nachdem der <u>Kartengeber</u> SCH verursacht hat, verursachen die DoT-Status auf dem Gegner bei jedem Treffer sofort SCH in Höhe von <color=#f29e38ff>15%</color> des ursprünglichen SCH.",
+		"AbridgedEffect": "Erhöht den von Gegnern erlittenen DoT. Nachdem der <u>Kartengeber</u> SCH verursacht hat, wird DoT ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"677450": {
+		"Id": "677450",
+		"Name": "Eisenarmiger Held",
+		"Rarity": 1,
+		"Effect": "Erhöht die Obergrenze von <u>Umgekehrter Kritischer Boost</u> um <color=#f29e38ff>10</color> Stapelung(en). Jedes Mal, wenn die gesamten verlorenen LP aller Verbündeten <color=#f29e38ff>15%</color> ihrer max. LP entsprechen, erhalten alle Gegner sofort 1 Stapelung <u>Umgekehrter Kritischer Boost</u>.",
+		"AbridgedEffect": "Erhöht die maximale Stapelzahl von <u>Umgekehrter Kritischer Boost</u>. Jedes Mal, wenn das Team eine bestimmte Menge LP verliert, wird <u>Umgekehrter Kritischer Boost</u> erhalten.",
+		"VersionAdded": "4.1"
+	},
+	"677460": {
+		"Id": "677460",
+		"Name": "Kometenbändiger",
+		"Rarity": 1,
+		"Effect": "Für je 1 % überschüssiger KRIT-Rate von Verbündeten und dem <u>Kartengeber</u> wird der KRIT-SCH um <color=#f29e38ff>3%</color> erhöht. Nach dem Angriff eines Verbündeten wird die KRIT-Rate dieser Einheit und des <u>Kartengebers</u> um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>50</color>-fach stapelbar. Bei einem Folgeangriff werden zusätzlich <color=#f29e38ff>2</color> Stapelung(en) gewährt.",
+		"AbridgedEffect": "Für je 1 % überschüssiger KRIT-Rate von Verbündeten und dem <u>Kartengeber</u> wird der KRIT-SCH um <color=#f29e38ff>3%</color> erhöht. Nach einem Angriff eines Verbündeten wird die KRIT-Rate dieser Einheit und des <u>Kartengebers</u> erhöht. Folgeangriffe erhöhen sie zusätzlich.",
+		"VersionAdded": "4.1"
+	},
+	"677470": {
+		"Id": "677470",
+		"Name": "Meteoritengroßhändler",
+		"Rarity": 1,
+		"Effect": "Für je 1 % Aktionsvorzug, den ein Verbündeter erhält, verursacht er nach einem Angriff in der nächsten Runde zusätzlichen Tatsächlichen SCH in Höhe von <color=#f29e38ff>0.5%</color> des ursprünglichen SCH, bis zu <color=#f29e38ff>50%</color> Tatsächlichen SCH. Im Status <u>Schmetterlingsseele</u> verursacht er zusätzlichen Tatsächlichen SCH in Höhe von <color=#f29e38ff>50%</color> des ursprünglichen SCH.",
+		"AbridgedEffect": "Nachdem Verbündete einen Aktionsvorzug erhalten haben, verursachen sie in der nächsten Runde nach einem Angriff zusätzlichen Tatsächlichen SCH. Im Status <u>Schmetterlingsseele</u> wird der verursachte Tatsächliche SCH zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"677510": {
+		"Id": "677510",
+		"Name": "Eisriese",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter SCH erleidet oder LP verbraucht und sein LP-Prozentsatz weniger als <color=#f29e38ff>40%</color> beträgt, wird <color=#f29e38ff>5</color>-fach <u>Besessenheit</u> von dem Verbündeten mit der höchsten Stapelzahl von <u>Besessenheit</u> im Team verbraucht, ihm werden LP in Höhe von <color=#f29e38ff>25%</color> seiner max. LP wiederhergestellt und sein verursachter SCH wird für <color=#f29e38ff>2</color> Rd. um <color=#f29e38ff>150%</color> erhöht. Dieser Effekt kann bis zu <color=#f29e38ff>1</color>-mal pro Runde ausgelöst werden.",
+		"AbridgedEffect": "Wenn der LP-Prozentsatz unter <color=#f29e38ff>40%</color> liegt, werden die Stapelungen von <u>Besessenheit</u> des Verbündeten mit der höchsten Stapelzahl im Team verbraucht, um LP wiederherzustellen und den verursachten SCH zu erhöhen.",
+		"VersionAdded": "4.1"
+	},
+	"677570": {
+		"Id": "677570",
+		"Name": "Katastrophenidol",
+		"Rarity": 1,
+		"Effect": "Erhöht die Aufladeeffizienz von <u>Blazar</u> um <color=#f29e38ff>25%</color>. Im Status <u>Schmetterlingsseele</u> verursachen Standardangriffe und Fertigkeiten <color=#f29e38ff>150%</color> <u>Blazar-SCH</u> bei den Angriffszielen.",
+		"AbridgedEffect": "Erhöht die Aufladeeffizienz von <u>Blazar</u>. Im Status <u>Schmetterlingsseele</u> verursachen Standardangriffe und Fertigkeiten <u>Blazar-SCH</u> bei den Zielen.",
+		"VersionAdded": "4.1"
+	},
+	"677590": {
+		"Id": "677590",
+		"Name": "Wahlgerät der himmlischen Strafe",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, erhält <u>Blazar</u> eine Aufladung von <color=#f29e38ff>100%</color> von max. LP und Schild. Wenn alle Gegner Schwächebruch erleiden, wird <u>Blazar</u> am Ende der Runde von Verbündeten nicht entfernt.",
+		"AbridgedEffect": "Das Verursachen von Schwächebruch lädt <u>Blazar</u> auf. Wenn alle Gegner Schwächebruch erleiden, wird <u>Blazar</u> am Ende der Runde von Verbündeten nicht entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"677650": {
+		"Id": "677650",
+		"Name": "Wahres Glücksschach",
+		"Rarity": 1,
+		"Effect": "Erhöht die Trefferzahl pro <color=#f29e38ff>3</color> Pkt. Aufladung des <u>Kartengebers</u> um 1. Nachdem insgesamt <color=#f29e38ff>10</color> Verbündete angegriffen wurden, erhält der <u>Kartengeber</u> 1 Pkt. Aufladung.",
+		"AbridgedEffect": "Erhöht die Trefferzahl pro <color=#f29e38ff>3</color> Pkt. Aufladung des <u>Kartengebers</u> um 1. Nachdem mehrere Verbündete angegriffen wurden, erhält der <u>Kartengeber</u> 1 Pkt. Aufladung.",
+		"VersionAdded": "4.1"
+	},
+	"677680": {
+		"Id": "677680",
+		"Name": "Ätherhacker",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH von Verbündeten um <color=#f29e38ff>100%</color>. Wenn ein Gegner durch einen Ultimate oder eine Hochgefühl-Fähigkeit besiegt wird, wird der überschüssige SCH aufgezeichnet und die nächsten <color=#f29e38ff>1</color> Angriffe fügen einem zufälligen Ziel zusätzlich SCH in Höhe von <color=#f29e38ff>300%</color> des aufgezeichneten Werts zu.",
+		"AbridgedEffect": "Erhöht den KRIT-SCH von Verbündeten. Wenn ein Gegner durch einen Ultimate oder eine Hochgefühl-Fähigkeit besiegt wird, wird der überschüssige SCH aufgezeichnet und die nächsten <color=#f29e38ff>1</color> Angriffe fügen einem zufälligen Ziel zusätzlich SCH in Höhe eines bestimmten Prozentsatzes des aufgezeichneten Werts zu.",
+		"VersionAdded": "4.1"
+	},
+	"677690": {
+		"Id": "677690",
+		"Name": "Fabeldichter des Sternenhimmels",
+		"Rarity": 1,
+		"Effect": "Wenn der <u>Kartengeber</u> SCH verursacht, reduziert er den WDS des gegnerischen Ziels unabhängig vom Schwächetyp um <color=#f29e38ff>30</color>. Diese WDS-Reduzierung kann den WDS des Gegners höchstens auf 1 Pkt. senken. Wenn ein Gegner Schwächebruch erleidet, wird der erlittene SCH für je <color=#f29e38ff>10</color> Pkt. des max. WDS um <color=#f29e38ff>3%</color> erhöht. Dieser Effekt hält <color=#f29e38ff>2</color> Rd. an.",
+		"AbridgedEffect": "Der <u>Kartengeber</u> reduziert beim Verursachen von SCH den WDS unabhängig vom Schwächetyp. Wenn ein Gegner Schwächebruch erleidet, wird sein erlittener SCH basierend auf seinem max. WDS erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"677710": {
+		"Id": "677710",
+		"Name": "Bitterarmer Entführer",
+		"Rarity": 1,
+		"Effect": "Erhöht den Multiplikator des Tatsächlichen SCH von <u>Schmetterlingsseele</u> um <color=#f29e38ff>60%</color> des ursprünglichen Multiplikators und die Trefferzahl um <color=#f29e38ff>4</color>. Nach dem Angriff eines Memogeists verursacht er den Tatsächlichen SCH von <u>Schmetterlingsseele</u> und verbraucht dessen Trefferzahl.",
+		"AbridgedEffect": "Erhöht den Tatsächlichen SCH von <u>Schmetterlingsseele</u>. Angriffe von Memogeistern verursachen zusätzlich Tatsächlichen SCH von <u>Schmetterlingsseele</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677720": {
+		"Id": "677720",
+		"Name": "Entmutigter Held",
+		"Rarity": 1,
+		"Effect": "Jedes Mal, wenn ein Gegner DoT erleidet, wird „Seelenkokon“ um <color=#f29e38ff>1%</color> aufgeladen. Wenn der Status <u>Schmetterlingsseele</u> aktiv ist, wird der verursachte SCH aller Verbündeten um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>99</color>-fach stapelbar und hält bis zum Verlassen von <u>Schmetterlingsseele</u>.",
+		"AbridgedEffect": "Jedes Mal, wenn ein Gegner DoT erleidet, wird „Seelenkokon“ um <color=#f29e38ff>1%</color> aufgeladen. Wenn der Status <u>Schmetterlingsseele</u> aktiv ist, wird der verursachte SCH aller Verbündeten um <color=#f29e38ff>2%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>99</color>-fach stapelbar und hält bis zum Verlassen von <u>Schmetterlingsseele</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677780": {
+		"Id": "677780",
+		"Name": "Imperator der Treustachel",
+		"Rarity": 1,
+		"Effect": "Nachdem Verbündete in den Status <u>Schmetterlingsseele</u> eingetreten sind, können ihre Ultimates auch Tatsächlichen SCH der <u>Schmetterlingsseele</u> verursachen und ihre Trefferzahl um <color=#f29e38ff>4</color> erhöhen. Dieser Effekt kann für jeden Verbündeten nur 1-mal ausgelöst werden.",
+		"AbridgedEffect": "Nachdem Verbündete in den Status <u>Schmetterlingsseele</u> eingetreten sind, können ihre Ultimates auch Tatsächlichen SCH der <u>Schmetterlingsseele</u> verursachen und ihre Trefferzahl erhöhen.",
+		"VersionAdded": "4.1"
+	},
+	"677810": {
+		"Id": "677810",
+		"Name": "Ruinenmagier",
+		"Rarity": 1,
+		"Effect": "Lädt nach dem Angriff eines Memogeists <u>Gehirn im Tank</u> seines Memomeisters um <color=#f29e38ff>8%</color> auf. Nachdem der Memomeister seinen Ultimate mit <u>Gehirn im Tank</u> eingesetzt hat, wird der SCH seines Memogeists für <color=#f29e38ff>4</color> Rd. um <color=#f29e38ff>240%</color> erhöht.",
+		"AbridgedEffect": "Lädt nach dem Angriff eines Memogeists <u>Gehirn im Tank</u> seines Memomeisters auf. Nachdem der Memomeister seinen Ultimate mit <u>Gehirn im Tank</u> eingesetzt hat, wird der SCH seines Memogeists erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"677820": {
+		"Id": "677820",
+		"Name": "IQ-Steuereintreiber",
+		"Rarity": 1,
+		"Effect": "Erhöht den ANG von Verbündeten um <color=#f29e38ff>150%</color>. Nach dem Verursachen von Ultimate-SCH durch Angriffe wird das <u>Flüstern</u> des Ziels SCH in Höhe von <color=#f29e38ff>100%</color> des ursprünglichen SCH verursachen.",
+		"AbridgedEffect": "Erhöht den ANG. Nach dem Verursachen von Ultimate-SCH durch Angriffe wird <u>Flüstern-SCH</u> ausgelöst.",
+		"VersionAdded": "4.1"
+	},
+	"677840": {
+		"Id": "677840",
+		"Name": "Spitzensportler",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter einem Gegner Schwächebruch zufügt, wird <u>Gehirn im Tank</u> um <color=#f29e38ff>20%</color> aufgeladen und Energie in Höhe von <color=#f29e38ff>10%</color> der max. Energie wiederhergestellt. Nachdem ein Gegner besiegt wurde, wird Energie in Höhe von <color=#f29e38ff>60%</color> der max. Energie wiederhergestellt.",
+		"AbridgedEffect": "Wenn ein Gegner Schwächebruch erleidet, wird <u>Gehirn im Tank</u> aufgeladen und Energie wiederhergestellt. Nach dem Besiegen eines Gegners wird Energie wiederhergestellt.",
+		"VersionAdded": "4.1"
+	},
+	"677920": {
+		"Id": "677920",
+		"Name": "Lied der Schwerkraft",
+		"Rarity": 1,
+		"Effect": "Wenn Gegner <u>Akkord-SCH</u> erleiden, erleiden sie zusätzlich 1-mal <u>Akkord-SCH</u> in Höhe von <color=#f29e38ff>75%</color> des ursprünglichen SCH. Für jeden Debuff des Ziels wird dieser SCH zusätzlich um <color=#f29e38ff>2%</color> erhöht, bis zu <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "<u>Akkord-SCH</u> wird 1-mal zusätzlich ausgelöst. Je mehr Debuffs auf den Gegner vorhanden sind, desto höher ist dieser SCH.",
+		"VersionAdded": "4.1"
+	},
+	"677940": {
+		"Id": "677940",
+		"Name": "Meister des Schicksals",
+		"Rarity": 1,
+		"Effect": "Nachdem Verbündete Gegner mit Schwächebruch angegriffen haben, wird der WDS-Reduzierungswert dieses Angriffs 1-mal in <color=#f29e38ff>75%</color> <u>Super-Bruch-SCH</u> umgewandelt. Jede Stapelung <u>Umgekehrter Kritischer Boost</u> eines Gegners verursacht zusätzlich <color=#f29e38ff>5%</color> <u>Super-Bruch-SCH</u>.",
+		"AbridgedEffect": "Nachdem Verbündete Gegner mit Schwächebruch angegriffen haben, wird <u>Super-Bruch-SCH</u> verursacht. Je höher die Stapelzahl von <u>Umgekehrter Kritischer Boost</u> der Gegner, desto höher ist dieser <u>Super-Bruch-SCH</u>.",
+		"VersionAdded": "4.1"
+	},
+	"677980": {
+		"Id": "677980",
+		"Name": "Mensch, Schlange, Sternenring",
+		"Rarity": 1,
+		"Effect": "Wenn sich ein Gegner zu Beginn seiner Runde im Schwächebruch befindet, erleidet er 1-mal zusätzlich SCH in Höhe von <color=#f29e38ff>200%</color> des ursprünglichen <u>Akkord-SCH</u>. Jedes Mal, wenn ein Verbündeter einen Ultimate einsetzt, wird der <u>Akkord-SCH</u> um <color=#f29e38ff>1%</color> des ursprünglichen SCH erhöht.",
+		"AbridgedEffect": "Wenn sich ein Gegner zu Beginn seiner Runde im Schwächebruch befindet, erleidet er 1-mal zusätzlich <u>Akkord-SCH</u>. Jedes Mal, wenn ein Verbündeter einen Ultimate einsetzt, wird der <u>Akkord-SCH</u> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678150": {
+		"Id": "678150",
+		"Name": "Relativer Gewinner",
+		"Rarity": 1,
+		"Effect": "Nachdem ein Verbündeter LP verbraucht hat, erhält er <color=#f29e38ff>5</color> Stapelung(en) <u>Besessenheit</u>. Dieser Effekt kann bis zu <color=#f29e38ff>1</color>-mal ausgelöst werden und kann nach der Aktion einer beliebigen Einheit erneut ausgelöst werden.",
+		"AbridgedEffect": "Nachdem ein Verbündeter LP verloren hat, erhält er <u>Besessenheit</u>.",
+		"VersionAdded": "4.1"
+	},
+	"678170": {
+		"Id": "678170",
+		"Name": "Enge Freunde",
+		"Rarity": 1,
+		"Effect": "Stellt nach dem Verschwinden eines Memogeistes 1 Fertigkeitspunkt für Verbündete wieder her. Erhöht den verursachten SCH aller Verbündeten für jeden Fertigkeitspunkt, den das Team erhält, um <color=#f29e38ff>3%</color>, bis zu <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "Stellt nach dem Verschwinden eines Memogeistes 1 Fertigkeitspunkt für Verbündete wieder her. Erhöht den von verursachten SCH aller Verbündeten für jeden Fertigkeitspunkt, den das Team erhält.",
+		"VersionAdded": "4.1"
+	},
+	"678180": {
+		"Id": "678180",
+		"Name": "Flachwitz-Feinschmecker",
+		"Rarity": 1,
+		"Effect": "Wenn <u>Besessenheit</u> von Verbündeten <color=#f29e38ff>70</color> Stapelung(en) überschreitet, wird der Ultimate-SCH um <color=#f29e38ff>75%</color> und der Memogeist-SCH um <color=#f29e38ff>75%</color> erhöht.",
+		"AbridgedEffect": "Wenn <u>Besessenheit</u> aller Verbündeten <color=#f29e38ff>70</color> Stapelung(en) überschreitet, wird der verursachte SCH ihrer Ultimates und Memogeister erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678190": {
+		"Id": "678190",
+		"Name": "Spezialist des Teilens",
+		"Rarity": 1,
+		"Effect": "Wenn Verbündete <u>Besessenheit</u> besitzen, wird ihre WDS-DUR aller Typen um <color=#f29e38ff>15%</color> erhöht. Jede Stapelung <u>Besessenheit</u> erhöht den Brucheffekt aller Verbündeten um <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "Wenn Verbündete <u>Besessenheit</u> besitzen, wird ihre WDS-DUR aller Typen erhöht. Jede Stapelung <u>Besessenheit</u> erhöht den Brucheffekt aller Verbündeten.",
+		"VersionAdded": "4.1"
+	},
+	"678240": {
+		"Id": "678240",
+		"Name": "Labyrinth des ewigen Gemetzels",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gegnern erlittenen DoT um <color=#f29e38ff>20%</color>. Nach einem erlittenen Folgeangriff wird <u>Flüstern</u> aufgeladen, wobei der Aufladewert <color=#f29e38ff>2%</color> der Entfernungsschwelle entspricht.",
+		"AbridgedEffect": "Erhöht den von Gegnern erlittenen DoT. Nach einem erlittenen Folgeangriff wird <u>Flüstern</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"678250": {
+		"Id": "678250",
+		"Name": "Ort der Legenden",
+		"Rarity": 1,
+		"Effect": "Gegner werden beim Kampfeintritt mit Bluten belegt. Im Status Bluten erleiden sie zu Beginn jeder Runde physischen DoT in Höhe von <color=#f29e38ff>10%</color> ihrer max. LP. Dieser SCH kann <color=#f29e38ff>200%</color> der LP-Gesamtsumme aller Verbündeten nicht überschreiten.",
+		"AbridgedEffect": "Gegner werden beim Kampfeintritt mit Bluten belegt, wodurch sie zu Beginn jeder Runde physischen DoT erleiden.",
+		"VersionAdded": "4.1"
+	},
+	"678260": {
+		"Id": "678260",
+		"Name": "Umgekehrter Abenteurer",
+		"Rarity": 1,
+		"Effect": "Nachdem der <u>Kartengeber</u> einen Angriff ausgeführt hat, wird das Ziel mit Brennen belegt. Zu Beginn jeder Runde erleidet das Ziel Feuer-DoT in Höhe von <color=#f29e38ff>150%</color> des <u>Basis-SCH</u>. Dieser Effekt hält <color=#f29e38ff>3</color> Rd. an.",
+		"AbridgedEffect": "Nachdem der <u>Kartengeber</u> einen Angriff ausgeführt hat, wird das Ziel mit Brennen belegt. Zu Beginn jeder Runde erleidet das Ziel Feuer-DoT. Dieser Effekt hält <color=#f29e38ff>3</color> Rd. an.",
+		"VersionAdded": "4.1"
+	},
+	"678280": {
+		"Id": "678280",
+		"Name": "Dr. Delirium",
+		"Rarity": 1,
+		"Effect": "Stellt beim Besiegen von Gegnern für jeden DoT-Effekt, von dem sie betroffen sind, bei allen Verbündeten <color=#f29e38ff>5.0</color> Pkt. Energie wieder her.",
+		"AbridgedEffect": "Stellt beim Besiegen von Gegnern bei allen Verbündeten basierend auf der Anzahl der aktuellen DoT-Status Energie wieder her.",
+		"VersionAdded": "4.1"
+	},
+	"678410": {
+		"Id": "678410",
+		"Name": "Ahnenkriegsgott",
+		"Rarity": 1,
+		"Effect": "Erhöht die KRIT-Rate der Verbündeten um <color=#f29e38ff>25%</color>. Belegt nach einem Angriff des Memogeists ein zufälliges getroffenes Ziel zusätzlich mit <color=#f29e38ff>3</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"AbridgedEffect": "Erhöht die KRIT-Rate der Verbündeten. Belegt nach einem Angriff des Memogeists ein zufälliges Ziel zusätzlich mit <u>Umgekehrter Kritischer Boost</u>.",
+		"VersionAdded": "4.1"
+	},
+	"678420": {
+		"Id": "678420",
+		"Name": "Glatzkopf-Schöpfer",
+		"Rarity": 1,
+		"Effect": "Für je 1 % der Entfernungsschwelle für Aufladung von <u>Flüstern</u> wird der erlittene KRIT-SCH der Gegner um <color=#f29e38ff>1.0%</color> erhöht, bis zu <color=#f29e38ff>150%</color>.",
+		"AbridgedEffect": "Für je 1 % der Entfernungsschwelle für Aufladung von <u>Flüstern</u> erleiden Gegner mehr KRIT-SCH.",
+		"VersionAdded": "4.1"
+	},
+	"678460": {
+		"Id": "678460",
+		"Name": "Rattenjäger",
+		"Rarity": 1,
+		"Effect": "Erhöht den durch <u>Umgekehrter Kritischer Boost</u> verursachten SCH um <color=#f29e38ff>60%</color>. Wenn dieser durch den Einsatz einer Hochgefühl-Fähigkeit ausgelöst wird, wird der verursachte SCH zusätzlich um <color=#f29e38ff>60%</color> erhöht.",
+		"AbridgedEffect": "Erhöht den durch <u>Umgekehrter Kritischer Boost</u> verursachten SCH. Wenn dieser durch den Einsatz einer Hochgefühl-Fähigkeit ausgelöst wird, wird der verursachte SCH zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678480": {
+		"Id": "678480",
+		"Name": "Verfluchter Lehrer",
+		"Rarity": 1,
+		"Effect": "Für jeden besiegten Gegner wird der von Verbündeten verursachte SCH in diesem Kampf um <color=#f29e38ff>30%</color> erhöht. Der Ultimate-SCH wird zusätzlich um <color=#f29e38ff>15%</color> erhöht. Dieser Effekt ist stapelbar.",
+		"AbridgedEffect": "Für jeden besiegten Gegner wird der von Verbündeten verursachte SCH in diesem Kampf erhöht. Der Ultimate-SCH wird zusätzlich erhöht. Dieser Effekt ist stapelbar.",
+		"VersionAdded": "4.1"
+	},
+	"678510": {
+		"Id": "678510",
+		"Name": "Dämon des Wortbruchs",
+		"Rarity": 1,
+		"Effect": "Erhöht die max. LP der Verbündeten um <color=#f29e38ff>40%</color>. Beim Kampfeintritt oder Beschwören von Memogeistern wird <u>Blazar</u> um <color=#f29e38ff>100%</color> ihrer eigenen max. LP aufgeladen. Anschließend wird am Ende der ersten Runde <u>Blazar</u> nicht entfernt.",
+		"AbridgedEffect": "Erhöht die max. LP. Beim Kampfeintritt / Beschwören von Memogeistern wird <u>Blazar</u> aufgeladen. Anschließend wird am Ende der ersten Runde <u>Blazar</u> nicht entfernt.",
+		"VersionAdded": "4.1"
+	},
+	"678520": {
+		"Id": "678520",
+		"Name": "Garagen-Drachentöter",
+		"Rarity": 1,
+		"Effect": "Erhöht den Effekt-WDS der Verbündeten um <color=#f29e38ff>20%</color> und ihren verursachten <u>Blazar-SCH</u> um <color=#f29e38ff>80%</color>. Beim Widerstehen von erlittenen Debuffs wird dem Ziel zusätzlicher SCH in Höhe von <color=#f29e38ff>60%</color> von <u>Blazar</u> zugefügt. Dieser SCH kann Gegner nicht besiegen.",
+		"AbridgedEffect": "Erhöht den Effekt-WDS und den verursachten <u>Blazar-SCH</u>. Beim Widerstehen von erlittenen Debuffs wird dem Ziel <u>Blazar-SCH</u> zugefügt.",
+		"VersionAdded": "4.1"
+	},
+	"678580": {
+		"Id": "678580",
+		"Name": "Physisches Magisches Mädchen",
+		"Rarity": 1,
+		"Effect": "Wenn der LP-Prozentsatz einer verbündeten Figur zum ersten Mal in einem Kampf unter <color=#f29e38ff>25%</color> fällt, wird ihr Ultimate aktiviert und der Ultimate-SCH dieser Einheit sowie ihres Memogeists ignoriert in diesem Kampf <color=#f29e38ff>20%</color> der VTD.",
+		"AbridgedEffect": "Wenn der LP-Prozentsatz der Verbündeten zum ersten Mal in einem Kampf unter <color=#f29e38ff>25%</color> sinkt, wird der Ultimate aktiviert und der Ultimate-SCH von dieser Einheit und ihrem Memogeist ignoriert in diesem Kampf einen Anteil der VTD der Gegner.",
+		"VersionAdded": "4.1"
+	},
+	"678590": {
+		"Id": "678590",
+		"Name": "Aha-Radio",
+		"Rarity": 1,
+		"Effect": "Erhöht die erhaltene Schildmenge um <color=#f29e38ff>30%</color>. Nach dem Verursachen von Schwächebruch bei einem Gegner erhalten alle Verbündeten für <color=#f29e38ff>2</color> Rd. einen Schild in Höhe von <color=#f29e38ff>15%</color> ihrer max. LP.",
+		"AbridgedEffect": "Erhöht die erhaltene Schildmenge. Nach dem Verursachen von Schwächebruch bei einem Gegner erhalten alle Verbündeten einen Schild.",
+		"VersionAdded": "4.1"
+	},
+	"678640": {
+		"Id": "678640",
+		"Name": "Schwertkämpfer des Verzichts",
+		"Rarity": 1,
+		"Effect": "Erhöht das Hochgefühl von Verbündeten um <color=#f29e38ff>25%</color>. Für jeden besiegten Gegner wird es zusätzlich um <color=#f29e38ff>15%</color> erhöht.",
+		"AbridgedEffect": "Erhöht das Hochgefühl von Verbündeten. Für jeden besiegten Gegner wird es zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678650": {
+		"Id": "678650",
+		"Name": "Top-Zwillingssterne",
+		"Rarity": 1,
+		"Effect": "Nach jeder Aktion des <u>Kartengebers</u> wird die Aufladeeffizienz von <u>Blazar</u> um <color=#f29e38ff>6%</color> erhöht. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-mal stapelbar.",
+		"AbridgedEffect": "Nach jeder Aktion des <u>Kartengebers</u> wird die Aufladeeffizienz von <u>Blazar</u> erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678670": {
+		"Id": "678670",
+		"Name": "Barkeeper",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH von Verbündeten um <color=#f29e38ff>60%</color>. Nach jeder Aktion des <u>Kartengebers</u> wird der KRIT-SCH aller Verbündeten beim nächsten Einsatz von Standardangriff/Fertigkeit zusätzlich um <color=#f29e38ff>40%</color> erhöht.",
+		"AbridgedEffect": "Erhöht den KRIT-SCH von Verbündeten. Nach jeder Aktion des <u>Kartengebers</u> wird der KRIT-SCH aller Verbündeten beim nächsten Einsatz von Standardangriff/Fertigkeit zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678690": {
+		"Id": "678690",
+		"Name": "Der Untröstliche",
+		"Rarity": 1,
+		"Effect": "Erhöht die Schwächebruch-Effizienz des Hochgefühl-SCH der Verbündeten um <color=#f29e38ff>25%</color>. Nachdem eine Einheit einem Gegner Schwächebruch zugefügt hat, wird ihre GES um <color=#f29e38ff>25%</color> erhöht.",
+		"AbridgedEffect": "Erhöht die Schwächebruch-Effizienz des Hochgefühl-SCH der Verbündeten. Nachdem eine Einheit einem Gegner Schwächebruch zugefügt hat, wird ihre GES erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678710": {
+		"Id": "678710",
+		"Name": "Fähigkeiten-Loswettbewerb",
+		"Rarity": 1,
+		"Effect": "Nach dem Angriff eines Memogeists wird <u>Seelenkokon</u> um <color=#f29e38ff>15%</color> aufgeladen und hat eine Chance von <color=#f29e38ff>40%</color>, <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wiederherzustellen.",
+		"AbridgedEffect": "Angriffe von Memogeistern laden <u>Seelenkokon</u> auf und es besteht eine Chance, Fertigkeitspunkte wiederherzustellen.",
+		"VersionAdded": "4.1"
+	},
+	"678720": {
+		"Id": "678720",
+		"Name": "Planeten-Autoscooter",
+		"Rarity": 1,
+		"Effect": "Erhöht den Tatsächlichen SCH von <u>Schmetterlingsseele</u> um <color=#f29e38ff>35%</color> des ursprünglichen Multiplikators. Für jeden Debuff der Gegner wird dieser Wert zusätzlich um <color=#f29e38ff>1%</color> des ursprünglichen Multiplikators erhöht.",
+		"AbridgedEffect": "Erhöht den Tatsächlichen SCH von <u>Schmetterlingsseele</u>. Für jeden Debuff der Gegner wird der Multiplikator zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678760": {
+		"Id": "678760",
+		"Name": "Verständnisvolles Törtchen",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH von Verbündeten beim Einsatz von Standardangriff/Fertigkeit um <color=#f29e38ff>100%</color>. Erhält für jeden verbrauchten Fertigkeitspunkt <color=#f29e38ff>1</color> Lachpunkt(e).",
+		"AbridgedEffect": "Erhöht den KRIT-SCH von Verbündeten beim Einsatz von Standardangriff/Fertigkeit. Erhält für jeden verbrauchten Fertigkeitspunkt Lachpunkte.",
+		"VersionAdded": "4.1"
+	},
+	"678790": {
+		"Id": "678790",
+		"Name": "Drehende Ameise",
+		"Rarity": 1,
+		"Effect": "Der Standardangriff-/Fertigkeits-SCH von Verbündeten ignoriert <color=#f29e38ff>25%</color> der VTD der Gegner. Dieser Effekt wird bei Gegnern mit Schwächebruch auf <color=#f29e38ff>40%</color> erhöht.",
+		"AbridgedEffect": "Standardangriff-/Fertigkeits-SCH ignorieren einen bestimmten Anteil der VTD der Gegner. Dieser Effekt wird bei Gegnern mit Schwächebruch zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678840": {
+		"Id": "678840",
+		"Name": "Schattenjäger Mechagott",
+		"Rarity": 1,
+		"Effect": "Verursacht beim Auslösen jeder Stapelung von <u>Umgekehrter Kritischer Boost</u> zusätzlich SCH in Höhe von <color=#f29e38ff>15%</color> des ANG und belegt nach einem Angriff mit dem Ultimate alle Angriffsziele zusätzlich mit <color=#f29e38ff>2</color> Stapelung(en) <u>Umgekehrter Kritischer Boost</u>.",
+		"AbridgedEffect": "Verursacht beim Auslösen jeder Stapelung von <u>Umgekehrter Kritischer Boost</u> zusätzlich SCH und belegt nach einem Angriff mit dem Ultimate alle Angriffsziele zusätzlich mit <u>Umgekehrter Kritischer Boost</u>.",
+		"VersionAdded": "4.1"
+	},
+	"678850": {
+		"Id": "678850",
+		"Name": "Galaktische Bäckerei",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Verbündeten verursachten <u>Blazar-SCH</u> um <color=#f29e38ff>75%</color>. Nach dem Einsatz des Ultimates wird <u>Blazar</u> um <color=#f29e38ff>35%</color> der max. LP aufgeladen.",
+		"AbridgedEffect": "Erhöht den von Verbündeten verursachten <u>Blazar-SCH</u>. Nach dem Einsatz des Ultimates wird <u>Blazar</u> aufgeladen.",
+		"VersionAdded": "4.1"
+	},
+	"678860": {
+		"Id": "678860",
+		"Name": "Selbstreflexiver Gelehrter",
+		"Rarity": 1,
+		"Effect": "Erhöht den KRIT-SCH des Ultimate-SCH von Verbündeten um <color=#f29e38ff>75%</color> und lädt nach der Aktion des <u>Kartengebers</u> für verbündete Figuren <u>Gehirn im Tank</u> um <color=#f29e38ff>5%</color> auf.",
+		"AbridgedEffect": "Erhöht den KRIT-SCH des Ultimate-SCH von Verbündeten und lädt nach der Aktion des <u>Kartengebers</u> für verbündete Figuren <u>Gehirn im Tank</u> auf.",
+		"VersionAdded": "4.1"
+	},
+	"678870": {
+		"Id": "678870",
+		"Name": "Karten-Novize",
+		"Rarity": 1,
+		"Effect": "Mit jedem Fertigkeitspunkt, den ein Verbündeter verbraucht, wird sein verursachter Ultimate-SCH um <color=#f29e38ff>65%</color> erhöht, bis zu <color=#f29e38ff>130%</color>. Dieser Effekt hält bis nach dem Einsatz des Ultimates an.",
+		"AbridgedEffect": "Je mehr Fertigkeitspunkte Verbündete verbrauchen, desto mehr Ultimate-SCH verursachen sie.",
+		"VersionAdded": "4.1"
+	},
+	"678910": {
+		"Id": "678910",
+		"Name": "Wiederaufbauer der Heimat",
+		"Rarity": 1,
+		"Effect": "Jede Stapelung <u>Besessenheit</u> erhöht Brucheffekt um <color=#f29e38ff>0.8%</color>. Der Brucheffekt von Memogeistern wird zusätzlich um <color=#f29e38ff>0.5%</color> erhöht.",
+		"AbridgedEffect": "<u>Besessenheit</u> erhöht den Brucheffekt. Der Brucheffekt von Memogeistern wird zusätzlich erhöht.",
+		"VersionAdded": "4.1"
+	},
+	"678920": {
+		"Id": "678920",
+		"Name": "Begegnung mit dem Wunderarzt",
+		"Rarity": 1,
+		"Effect": "Wenn ein Angriff eines Verbündeten einen Gegner mit einem Debuff belegt, wird das Ziel zusätzlich mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt. Wenn sich das Ziel im Schwächebruch befindet, wird die Anzahl der hinzugefügten Stapelungen verdoppelt.",
+		"AbridgedEffect": "Wenn ein Angriff einen Gegner mit einem Debuff belegt, wird er zusätzlich mit <u>Akkord</u> belegt. Für Gegner im Schwächebruch wird die Anzahl der Stapelungen verdoppelt.",
+		"VersionAdded": "4.1"
+	},
+	"678940": {
+		"Id": "678940",
+		"Name": "Ritter von Arcadia",
+		"Rarity": 1,
+		"Effect": "Erhöht den SCH-Multiplikator von <u>Akkord</u> um <color=#f29e38ff>50%</color> des ursprünglichen SCH-Multiplikators. Nachdem Verbündete Folgeangriffe ausgelöst haben, werden die Ziele mit <color=#f29e38ff>1</color> Stapelung(en) <u>Akkord</u> belegt.",
+		"AbridgedEffect": "Erhöht den <u>Akkord-SCH</u>. Nachdem Verbündete Folgeangriffe ausgelöst haben, wird zusätzlich <u>Akkord</u> zugefügt.",
+		"VersionAdded": "4.1"
+	},
+	"678970": {
+		"Id": "678970",
+		"Name": "Partikelschwarm der Vernichtung",
+		"Rarity": 1,
+		"Effect": "Wenn ein Verbündeter Standardangriff/Fertigkeit einsetzt, wird <color=#f29e38ff>20%</color> des WDS aller Typen der Gegner ignoriert. Nach einem Angriff mit Standardangriff/Fertigkeit wird der WDS der Gegner unabhängig vom Schwächetyp um eine feste Menge von <color=#f29e38ff>15</color> Pkt. reduziert.",
+		"AbridgedEffect": "Wenn ein Verbündeter Standardangriff/Fertigkeit einsetzt, wird eine bestimmte Menge des WDS aller Typen der Gegner ignoriert. Nach einem Angriff mit Standardangriff/Fertigkeit wird der WDS der Gegner unabhängig vom Schwächetyp reduziert.",
+		"VersionAdded": "4.1"
 	}
 }

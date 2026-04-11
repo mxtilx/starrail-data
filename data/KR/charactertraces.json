@@ -117448,6 +117448,1478 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1504": {
+		"Id": "1504",
+		"Name": "애쉬베일",
+		"Nodes": {
+			"1504001": {
+				"Id": "1504001",
+				"Name": "예절을 가르치는 발톱",
+				"NodeType": 2,
+				"NodeTypeText": "일반 공격",
+				"EffectRaw": "지정된 단일 적에게 애쉬베일 공격력의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 번개 속성 피해를 가한다",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150401"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "분쟁의 혈진",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504002": {
+				"Id": "1504002",
+				"Name": "짐승을 몰아내는 채찍",
+				"NodeType": 2,
+				"NodeTypeText": "전투 스킬",
+				"EffectRaw": "지정된 단일 적을 [미끼]로 만들고, 대상에게 애쉬베일 공격력의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 번개 속성 피해를 가한다. 해당 목표가 [미끼]일 경우, 추가로 대상에게 애쉬베일 공격력의 <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>만큼 번개 속성 피해를 가하고, 전투 스킬 포인트를 <unbreak>#5[i]</unbreak>pt 회복한다. 필드에 [미끼]가 존재할 시, 모든 적의 방어력이 <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> 감소한다.\n필드에 [미끼]가 없을 시, 애쉬베일은 즉시 현재 필드의 HP가 가장 낮은 단일 적을 [미끼]로 만들며, [미끼] 상태는 가장 최근에 부여된 목표에게만 적용된다",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150402"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							1,
+							0.5,
+							0.2,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							1.1,
+							1,
+							0.55,
+							0.22,
+							1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							1.2,
+							1,
+							0.6,
+							0.24,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "분쟁의 혈진",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							1.3,
+							1,
+							0.65,
+							0.26,
+							1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							1.4,
+							1,
+							0.7,
+							0.28,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1.5,
+							1,
+							0.75,
+							0.3,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							1.625,
+							1,
+							0.8125,
+							0.325,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							1.75,
+							1,
+							0.875,
+							0.35,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							1.875,
+							1,
+							0.9375,
+							0.375,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							1,
+							1,
+							0.4,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504003": {
+				"Id": "1504003",
+				"Name": "끝나지 않는 향연",
+				"NodeType": 2,
+				"NodeTypeText": "필살기",
+				"EffectRaw": "지정된 단일 적을 [미끼]로 만들고, 대상에게 애쉬베일 공격력의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 번개 속성 피해를 가하며, 이후 즉시 [미끼]에게 강화된 특성 <u>추가 공격</u>을 1회 발동하고, 애쉬베일은 충전을 <unbreak>#2[i]</unbreak>pt 획득한다.\n강화된 특성 <u>추가 공격</u>은 충전을 소모하지 않는다. [탐닉]이 <unbreak>#3[i]</unbreak>스택 이상일 시, 보유한 [탐닉] <unbreak>#3[i]</unbreak>스택당 상응하는 스택을 소모해 추가로 애쉬베일 공격력의 <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>만큼 번개 속성 피해를 1회 가하며, 이번 <u>추가 공격</u> 도중 목표에게 치명적인 공격을 가했을 경우, [탐닉]이 <unbreak>#3[i]</unbreak>스택 미만이 될 때까지 계속해서 새로운 [미끼]에게 피해를 가한다. 현재 필드 위 모든 적이 치명적인 공격을 받으면 강화된 특성 <u>추가 공격</u>은 즉시 종료된다",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150403"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							4,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2.2,
+							3,
+							4,
+							1.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2.4,
+							3,
+							4,
+							1.2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "분쟁의 혈진",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2.6,
+							3,
+							4,
+							1.3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2.8,
+							3,
+							4,
+							1.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							3,
+							3,
+							4,
+							1.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							3.25,
+							3,
+							4,
+							1.625
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							3.5,
+							3,
+							4,
+							1.75
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							3.75,
+							3,
+							4,
+							1.875
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							4,
+							3,
+							4,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504004": {
+				"Id": "1504004",
+				"Name": "이를 갈며 갚을 숙원",
+				"NodeType": 2,
+				"NodeTypeText": "특성",
+				"EffectRaw": "애쉬베일은 기본 상태에서 충전을 <unbreak>#1[i]</unbreak>pt 보유하며, 최대 <unbreak>#2[i]</unbreak>pt 보유할 수 있다. [미끼]가 다른 아군에게 피격되면, 애쉬베일은 고정으로 에너지를 <unbreak>#7[i]</unbreak>pt 회복하고, 이후 충전을 <unbreak>#3[i]</unbreak>pt 소모해 [미끼]에게 <u>추가 공격</u>을 발동하여 애쉬베일 공격력의 <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>만큼 번개 속성 피해를 가하고, 이후 [탐닉]을 <unbreak>#5[i]</unbreak>스택 획득한다, 최대 중첩수: <unbreak>#6[i]</unbreak>스택",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150404"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1,
+							2,
+							12,
+							8
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.1,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "분쟁의 혈진",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.3,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.4,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.5,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.625,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.75,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.875,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504007": {
+				"Id": "1504007",
+				"Name": "먹어라, 가증스러운 손이여",
+				"NodeType": 2,
+				"NodeTypeText": "비술",
+				"EffectRaw": "비술 사용 후 일정 구역 내의 적을 <unbreak>#1[i]</unbreak>초 동안 현기증 상태에 빠트린다. 현기증 상태인 적은 아군을 선공할 수 없다.\n현기증 상태에 빠진 적을 선공해 전투 진입 시, 모든 적에게 애쉬베일 공격력의 <unbreak>#2[i]%</unbreak>만큼 번개 속성 피해를 가하고, 애쉬베일이 충전을 <unbreak>#3[i]</unbreak>pt 획득한다",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150407"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							1,
+							1
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1504101": {
+				"Id": "1504101",
+				"Name": "죄의 길",
+				"NodeType": 3,
+				"EffectRaw": "애쉬베일이 전투 스킬/필살기 발동 시, [탐닉]을 <unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak>스택 획득한다. 애쉬베일의 <u>추가 공격</u> 도중 적 <unbreak>#3[i]</unbreak>기가 치명적인 공격을 받을 때마다, 애쉬베일이 [탐닉]을 <unbreak>#4[i]</unbreak>스택 획득한다",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							2,
+							1,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "분쟁의 혈진",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504102": {
+				"Id": "1504102",
+				"Name": "그림자의 팔",
+				"NodeType": 3,
+				"EffectRaw": "애쉬베일의 <u>추가 공격</u>이 가하는 피해가 <unbreak>#1[i]%</unbreak> 증가하고, 보유한 [탐닉] <unbreak>#2[i]</unbreak>스택당 <u>추가 공격</u>이 가하는 피해가 추가로 <unbreak>#3[i]%</unbreak> 증가한다",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.8,
+							1,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504103": {
+				"Id": "1504103",
+				"Name": "늑대 우두머리",
+				"NodeType": 3,
+				"EffectRaw": "애쉬베일이 필드에 있을 시, 아군이 가하는 치명타 피해가 <unbreak>#1[i]%</unbreak> 증가하고, 아군이 <u>추가 공격</u>으로 가하는 치명타 피해가 추가로 <unbreak>#2[i]%</unbreak> 증가한다",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "운명의 발자취",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "범람을 끊는 침묵",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504201": {
+				"Id": "1504201",
+				"Name": "치명타 피해 강화",
+				"NodeType": 1,
+				"EffectRaw": "치명타 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1504202": {
+				"Id": "1504202",
+				"Name": "피해 강화•번개",
+				"NodeType": 1,
+				"EffectRaw": "번개 속성 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1504101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "분쟁의 혈진",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "천진난만 크레파스",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1504203": {
+				"Id": "1504203",
+				"Name": "치명타 피해 강화",
+				"NodeType": 1,
+				"EffectRaw": "치명타 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1504202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504204": {
+				"Id": "1504204",
+				"Name": "공격 강화",
+				"NodeType": 1,
+				"EffectRaw": "공격력 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504205": {
+				"Id": "1504205",
+				"Name": "치명타 피해 강화",
+				"NodeType": 1,
+				"EffectRaw": "치명타 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1504102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "전혼의 혈정",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "꿈을 만드는 딥 펜",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504206": {
+				"Id": "1504206",
+				"Name": "피해 강화•번개",
+				"NodeType": 1,
+				"EffectRaw": "번개 속성 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1504205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504207": {
+				"Id": "1504207",
+				"Name": "치명타 피해 강화",
+				"NodeType": 1,
+				"EffectRaw": "치명타 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504208": {
+				"Id": "1504208",
+				"Name": "공격 강화",
+				"NodeType": 1,
+				"EffectRaw": "공격력 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1504103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504209": {
+				"Id": "1504209",
+				"Name": "피해 강화•번개",
+				"NodeType": 1,
+				"EffectRaw": "번개 속성 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504210": {
+				"Id": "1504210",
+				"Name": "치명타 피해 강화",
+				"NodeType": 1,
+				"EffectRaw": "치명타 피해 <unbreak>#1[f1]%</unbreak> 증가",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.107,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.107
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "신용 포인트",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "천벌의 혈창",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "꿈을 그리는 붓",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.1"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

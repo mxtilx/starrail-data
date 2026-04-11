@@ -38887,7 +38887,7 @@
 			"SkillTypeText": "Habilidad básica",
 			"MaxLevel": 15,
 			"EffectRaw": "Despliega un campo durante <unbreak>#1[i]</unbreak> turnos. Su duración se reduce en 1 al comienzo de cada turno de Yao Guang. Mientras el campo esté activo, la Exultación de todos los aliados aumenta en una cantidad equivalente al <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> de la Exultación de Yao Guang, y Yao Guang obtiene <unbreak>#3[i]</unbreak> puntos de <u>Chiste</u> tras lanzar su ATQ básico o habilidad básica.",
-			"AbridgedEffect": "Despliega un campo que aumenta la Exultación de todos los aliados y Yao Guang obtiene <u>Chiste</u> tras lanzar el ATQ básico o la habilidad básica.",
+			"AbridgedEffect": "Despliega un campo que <color=#f29e38ff>aumenta la Exultación</color> de todos los aliados y Yao Guang <color=#f29e38ff>obtiene <u>Chiste</u></color> tras lanzar el ATQ básico o la habilidad básica.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39006,7 +39006,7 @@
 			"SkillTypeText": "Habilidad definitiva",
 			"MaxLevel": 15,
 			"EffectRaw": "Obtiene <unbreak>#1[i]</unbreak> puntos de <u>Chiste</u>. <u>Aha</u> obtiene inmediatamente un <u>turno adicional</u> que cuenta como <unbreak>#4[i]</unbreak> puntos fijos de <u>Chiste</u>. Ese turno no consume <u>Chiste</u> y aumenta la <u>PEN de la RES</u> a todos los tipos de todos los aliados en un <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> durante <unbreak>#3[i]</unbreak> turnos.",
-			"AbridgedEffect": "Obtiene <u>Chiste</u>. <u>Aha</u> obtiene de inmediato un <u>turno adicional</u> que cuenta como una cantidad fija de <u>Chiste</u> y aumenta la <u>PEN de la RES</u> a todos los tipos de todos los aliados.",
+			"AbridgedEffect": "<color=#f29e38ff>Obtiene <u>Chiste</u></color>. <color=#f29e38ff><u>Aha</u></color> obtiene de inmediato un <color=#f29e38ff><u>turno adicional</u></color> que cuenta como una cantidad fija de <u>Chiste</u> y aumenta la <u>PEN de la RES</u> a todos los tipos de todos los aliados.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39155,7 +39155,7 @@
 			"SkillTypeText": "Talento",
 			"MaxLevel": 15,
 			"EffectRaw": "Cuando Yao Guang posee <u>¡Bien hecho!</u>:\nDespués de que un aliado ataque, activa el efecto Buena suerte, el cual inflige una vez adicional un <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> de <u>Daño de Exultación</u> del tipo correspondiente a uno de los objetivos golpeados al azar. Si dicho ataque consume pts. de habilidad básica, el efecto Buena suerte se activa una vez adicional.\nSi la Exultación del atacante es inferior a la de Yao Guang al activarse el efecto Buena suerte, el <u>Daño de Exultación</u> infligido esta vez se calculará con la Exultación de Yao Guang.\nActivar el efecto Buena suerte no cuenta como un ataque.",
-			"AbridgedEffect": "Cuando Yao Guang tiene <u>¡Bien hecho!</u>, activa Buena suerte después de que un aliado ataque: inflige una vez adicional una pequeña cantidad de <u>Daño de Exultación</u> del tipo correspondiente a uno de los objetivos golpeados al azar. Si dicho ataque consume pts. de habilidad básica, este efecto se activa una vez adicional. Este efecto no cuenta como un ataque.",
+			"AbridgedEffect": "Cuando Yao Guang tiene <u>¡Bien hecho!</u>, activa Buena suerte después de que un aliado ataque: <color=#f29e38ff>inflige una vez adicional</color> una pequeña cantidad de <color=#f29e38ff><u>Daño de Exultación</u></color> del tipo correspondiente a uno de los objetivos golpeados al azar. Si dicho ataque consume pts. de habilidad básica, este efecto se activa una vez adicional. Este efecto no cuenta como un ataque.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39255,6 +39255,562 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1502/SkillIcon_1502_Maze.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"BasicATK": {
+			"Id": "150401",
+			"Name": "Garra para enseñar modales",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo a un enemigo.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Rayo a un enemigo.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png"
+		},
+		"Skill": {
+			"Id": "150402",
+			"Name": "Latigazo para subyugar el mal",
+			"TriggerKey": "Skill02",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "Habilidad básica",
+			"MaxLevel": 15,
+			"EffectRaw": "Marca a un enemigo como Cebo y le inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo. Si el objetivo ya está marcado como Cebo, le inflige adicionalmente un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo y recupera <unbreak>#5[i]</unbreak> pt. de habilidad básica. Cuando hay un Cebo en el campo de batalla, la DEF de todos los enemigos se reduce en un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.\nSi no hay ningún Cebo en el campo de batalla, Ashveil marca inmediatamente como Cebo al enemigo con menos PV actuales en el campo de batalla. El estado de Cebo solo tiene efecto sobre el último objetivo al que se le aplicó.",
+			"AbridgedEffect": "Marca a un enemigo como Cebo y le inflige una gran cantidad de Daño de Rayo. Si el objetivo ya está marcado como Cebo, le inflige adicionalmente una pequeña cantidad de Daño de Rayo y recupera <color=#f29e38ff><unbreak>#5[i]</unbreak></color> pt. de habilidad básica. Mientras haya un Cebo en el campo de batalla, <color=#f29e38ff>se reduce la DEF</color> de todos los enemigos.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1,
+						0.5,
+						0.2,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.1,
+						1,
+						0.55,
+						0.22,
+						1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.2,
+						1,
+						0.6,
+						0.24,
+						1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.3,
+						1,
+						0.65,
+						0.26,
+						1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.4,
+						1,
+						0.7,
+						0.28,
+						1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.5,
+						1,
+						0.75,
+						0.3,
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.625,
+						1,
+						0.8125,
+						0.325,
+						1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.75,
+						1,
+						0.875,
+						0.35,
+						1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.875,
+						1,
+						0.9375,
+						0.375,
+						1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						1,
+						1,
+						0.4,
+						1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2.1,
+						1,
+						1.05,
+						0.42,
+						1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2.2,
+						1,
+						1.1,
+						0.44,
+						1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2.3,
+						1,
+						1.15,
+						0.46,
+						1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2.4,
+						1,
+						1.2,
+						0.48,
+						1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2.5,
+						1,
+						1.25,
+						0.5,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150403",
+			"Name": "Banquete para un hambre insaciable",
+			"TriggerKey": "Skill03",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Marca a un enemigo como Cebo y le inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo. A continuación, lanza inmediatamente una vez una versión potenciada del <u>ataque adicional</u> del talento contra el Cebo y Ashveil obtiene <unbreak>#2[i]</unbreak> pts. de carga.\nEste <u>ataque adicional</u> potenciado del talento no consume carga. Cada vez que tenga <unbreak>#3[i]</unbreak> o más acumulaciones de Gula, consume <unbreak>#3[i]</unbreak> acumulaciones de Gula para infligir adicionalmente una vez un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo. Si inflige un golpe letal al objetivo durante este <u>ataque adicional</u>, seguirá infligiendo daño a un nuevo Cebo hasta que tenga menos de <unbreak>#3[i]</unbreak> acumulaciones de Gula. Si todos los enemigos actualmente en el campo de batalla reciben un golpe letal, el <u>ataque adicional</u> potenciado del talento finaliza inmediatamente.",
+			"AbridgedEffect": "Marca a un enemigo como Cebo y le inflige una gran cantidad de Daño de Rayo. A continuación, <color=#f29e38ff>lanza inmediatamente</color> una vez una versión potenciada del <color=#f29e38ff><u>ataque adicional</u></color> del talento contra el Cebo y Ashveil obtiene carga.\nEste <u>ataque adicional</u> potenciado del talento no consume carga. Cada vez que tenga <color=#f29e38ff><unbreak>#3[i]</unbreak></color> o más acumulaciones de Gula, consume <color=#f29e38ff><unbreak>#3[i]</unbreak></color> acumulaciones de Gula para infligir adicionalmente una gran cantidad de Daño de Rayo. Si asesta un golpe letal al objetivo durante este <u>ataque adicional</u>, <color=#f29e38ff>seguirá infligiendo daño a un nuevo Cebo</color> hasta que tenga menos de <color=#f29e38ff><unbreak>#3[i]</unbreak></color> acumulaciones de Gula.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						4,
+						1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2.2,
+						3,
+						4,
+						1.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2.4,
+						3,
+						4,
+						1.2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2.6,
+						3,
+						4,
+						1.3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.8,
+						3,
+						4,
+						1.4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						3,
+						3,
+						4,
+						1.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						3.25,
+						3,
+						4,
+						1.625
+					]
+				},
+				"8": {
+					"EffectValues": [
+						3.5,
+						3,
+						4,
+						1.75
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.75,
+						3,
+						4,
+						1.875
+					]
+				},
+				"10": {
+					"EffectValues": [
+						4,
+						3,
+						4,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						4.2,
+						3,
+						4,
+						2.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						4.4,
+						3,
+						4,
+						2.2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						4.6,
+						3,
+						4,
+						2.3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						4.8,
+						3,
+						4,
+						2.4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						5,
+						3,
+						4,
+						2.5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150404",
+			"Name": "Colmillo para cobrar venganza",
+			"TriggerKey": "SkillP01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "Talento",
+			"MaxLevel": 15,
+			"EffectRaw": "Ashveil inicialmente tiene <unbreak>#1[i]</unbreak> pts. de carga y puede tener hasta <unbreak>#2[i]</unbreak> pts. como máximo. Después de que el Cebo sea atacado por otro aliado, Ashveil recupera <unbreak>#7[i]</unbreak> pts. fijos de energía, consume <unbreak>#3[i]</unbreak> pt. de carga para lanzar un <u>ataque adicional</u> contra el Cebo que le inflige un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> del ATQ de Ashveil como Daño de Rayo, y a continuación obtiene <unbreak>#5[i]</unbreak> acumulaciones de Gula, que se puede acumular hasta <unbreak>#6[i]</unbreak> veces.",
+			"AbridgedEffect": "<color=#f29e38ff>Después de que el Cebo sea atacado por otro aliado</color>, Ashveil recupera una cantidad fija de energía, luego consume carga para <color=#f29e38ff>lanzar contra el Cebo un <u>ataque adicional</u></color> que le inflige una gran cantidad de Daño de Rayo, y obtiene <color=#f29e38ff><unbreak>#5[i]</unbreak></color> acumulaciones de Gula.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1,
+						2,
+						12,
+						8
+					]
+				},
+				"2": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.1,
+						2,
+						12,
+						8
+					]
+				},
+				"3": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.2,
+						2,
+						12,
+						8
+					]
+				},
+				"4": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.3,
+						2,
+						12,
+						8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.4,
+						2,
+						12,
+						8
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.5,
+						2,
+						12,
+						8
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.625,
+						2,
+						12,
+						8
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.75,
+						2,
+						12,
+						8
+					]
+				},
+				"9": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						1.875,
+						2,
+						12,
+						8
+					]
+				},
+				"10": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2,
+						2,
+						12,
+						8
+					]
+				},
+				"11": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.1,
+						2,
+						12,
+						8
+					]
+				},
+				"12": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.2,
+						2,
+						12,
+						8
+					]
+				},
+				"13": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.3,
+						2,
+						12,
+						8
+					]
+				},
+				"14": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.4,
+						2,
+						12,
+						8
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						3,
+						1,
+						2.5,
+						2,
+						12,
+						8
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png"
+		},
+		"Technique": {
+			"Id": "150407",
+			"Name": "Mano para devorarlo todo",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Impair",
+			"TagTypeText": "Alteración",
+			"SkillTypeText": "Técnica",
+			"MaxLevel": 1,
+			"EffectRaw": "Tras usar la técnica, los enemigos de una zona determinada quedan afectados por Mareo durante <unbreak>#1[i]</unbreak> s, lo que les impide atacar activamente a los aliados.\nAl entrar en combate tras atacar a un enemigo mareado, inflige a todos los enemigos un Daño de Rayo equivalente al <unbreak>#2[i]%</unbreak> del ATQ de Ashveil y Ashveil obtiene <unbreak>#3[i]</unbreak> pt. de carga.",
+			"AbridgedEffect": "Afecta con Mareo a los enemigos de una zona. Al atacar a un enemigo mareado y entrar en combate, inflige una pequeña cantidad de Daño de Rayo a todos los enemigos y Ashveil obtiene <color=#f29e38ff><unbreak>#3[i]</unbreak></color> pt. de carga.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						1,
+						1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

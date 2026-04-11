@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Caos destructivo",
-				"Effect": "Tras usar la habilidad definitiva de Seele, el objetivo entra en el estado de Mariposa desbocada durante 1 turno. Cuando un enemigo afectado por Mariposa desbocada es atacado, recibe un Daño Cuántico <u>adicional</u> equivalente al 15% del daño de habilidad definitiva de Seele. Si el enemigo es eliminado por el <u>daño adicional</u> de Mariposa desbocada activado por el ataque de otro aliado, no se activará el talento de Seele.\nCuando Seele sea <u>derrotada</u>, se disipará el estado de Mariposa desbocada infligido a los enemigos."
+				"Effect": "Tras atacar con la habilidad definitiva de Seele, el objetivo entra en el estado de Mariposa desbocada durante 1 turno. Cuando un enemigo afectado por Mariposa desbocada es atacado, recibe un Daño Cuántico <u>adicional</u> equivalente al 15% del daño de habilidad definitiva de Seele. Si el enemigo es eliminado por el <u>daño adicional</u> de Mariposa desbocada activado por el ataque de otro aliado, no se activará el talento de Seele.\nCuando Seele sea <u>derrotada</u>, se disipará el estado de Mariposa desbocada infligido a los enemigos."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -3114,6 +3114,47 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Rayo",
+		"PathType": "Rogue",
+		"PathTypeText": "Cacería",
+		"Eidolons": [
+			{
+				"Id": "150401",
+				"Name": "Cuidado: no salgas durante la luna llena",
+				"Effect": "Mientras Ashveil está en el campo de batalla, el daño que reciben todos los enemigos aumenta en un 24%. Cuando el porcentaje de PV actual de un enemigo sea igual o inferior al 50%, el incremento de daño recibido aumenta al 36%."
+			},
+			{
+				"Id": "150402",
+				"Name": "Llamada: risa queda tras la puerta",
+				"Effect": "El límite de acumulaciones de Gula aumenta a 18. Cada vez que Ashveil lanza la versión potenciada del <u>ataque adicional</u> del talento, recupera un 35% de las acumulaciones de Gula eliminadas."
+			},
+			{
+				"Id": "150403",
+				"Name": "Silencio: ensimismamiento entre amigos",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10)."
+			},
+			{
+				"Id": "150404",
+				"Name": "Recuerda: la verdad hay que tragarla entera",
+				"Effect": "Cuando Ashveil lanza la habilidad definitiva, su ATQ aumenta en un 40% durante 3 turnos."
+			},
+			{
+				"Id": "150405",
+				"Name": "Aviso: el detective puede ser el asesino",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15)."
+			},
+			{
+				"Id": "150406",
+				"Name": "Final: y no quedó ninguno",
+				"Effect": "Cuando hay un Cebo en el campo de batalla, la RES a todos los tipos de todos los enemigos se reduce en un 20%. El daño que inflige Ashveil aumenta en un 4% por cada acumulación de Gula obtenida. Este efecto se puede acumular hasta 30 veces."
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

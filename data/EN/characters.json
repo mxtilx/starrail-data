@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Shattering Shambles",
-				"Effect": "After Seele uses Ultimate, inflict the attacked enemy with \"Butterfly Flurry\" for 1 turn(s). Enemies in \"Butterfly Flurry\" will additionally take 1 instance of Quantum <u>Additional DMG</u> equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target is defeated by the \"Butterfly Flurry\" state's <u>Additional DMG</u> triggered by other allies' attacks, Seele's Talent will not be triggered.\nWhen Seele is <u>knocked down</u>, the \"Butterfly Flurry\" inflicted on the enemies will be removed."
+				"Effect": "After attacking with Ultimate, Seele inflicts \"Butterfly Flurry\" on the attacked enemy target for 1 turn(s). Enemies in \"Butterfly Flurry\" will additionally take 1 instance of Quantum <u>Additional DMG</u> equal to 15% of Seele's Ultimate DMG every time they are attacked. If the target is defeated by the \"Butterfly Flurry\" state's <u>Additional DMG</u> triggered by other allies' attacks, Seele's Talent will not be triggered.\nWhen Seele is <u>knocked down</u>, the \"Butterfly Flurry\" inflicted on the enemies will be removed."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -3114,6 +3114,47 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lightning",
+		"PathType": "Rogue",
+		"PathTypeText": "The Hunt",
+		"Eidolons": [
+			{
+				"Id": "150401",
+				"Name": "Beware: Venture Not at Full Moon",
+				"Effect": "While Ashveil is on the field, increases DMG taken by all enemies by 24%. When an enemy target's current HP percentage is 50% or lower, the DMG they take increases to 36%."
+			},
+			{
+				"Id": "150402",
+				"Name": "Knock: Where Snickers Echo",
+				"Effect": "The max stack limit of \"Gluttony\" increases to 18. After each time Ashveil launches the enhanced Talent's <u>Follow-Up ATK</u>, refunds 35% of the removed \"Gluttony\" stacks."
+			},
+			{
+				"Id": "150403",
+				"Name": "Hush: Unsaid Between Friends",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+			},
+			{
+				"Id": "150404",
+				"Name": "Heed: Swallow Truth Whole",
+				"Effect": "When Ashveil uses Ultimate, increases ATK by 40% for 3 turn(s)."
+			},
+			{
+				"Id": "150405",
+				"Name": "Caution: Sleuth Turns Slayer",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "150406",
+				"Name": "Finale: And Then There Were None",
+				"Effect": "When the \"Bait\" exists on the field, reduces all enemies' All-Type RES by 20%. For every 1 stack of \"Gluttony\" Ashveil has gained, the DMG dealt increases by 4%. This effect can stack up to 30 time(s)."
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

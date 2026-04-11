@@ -568,5 +568,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "3.7"
+	},
+	"325": {
+		"Id": "325",
+		"Name": "Punklorde Stage Zero",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Increases the wearer's Elation by 8%. When Elation reaches 40%/80% for the first time in combat, increases the wearer's CRIT DMG by 20%/32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
+	},
+	"326": {
+		"Id": "326",
+		"Name": "City of Converging Stars",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "When the wearer uses Follow-Up ATK, increases ATK by 24% for 2 turn(s). When an enemy target gets defeated, increases CRIT DMG for all allies by 12% in the current battle. This effect cannot stack."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
 	}
 }

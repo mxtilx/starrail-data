@@ -117448,6 +117448,1478 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"Nodes": {
+			"1504001": {
+				"Id": "1504001",
+				"Name": "Talons: Inculcate Decorum",
+				"NodeType": 2,
+				"NodeTypeText": "Basic ATK",
+				"EffectRaw": "Mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Ashveil pada 1 musuh yang ditargetkan.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150401"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Grit of Strife",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504002": {
+				"Id": "1504002",
+				"Name": "Flog: Smite Evil",
+				"NodeType": 2,
+				"NodeTypeText": "Skill",
+				"EffectRaw": "Menjadikan 1 musuh yang ditargetkan sebagai \"Bait\" dan mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Ashveil padanya. Jika target tersebut adalah \"Bait\", maka akan mengakibatkan ekstra Lightning DMG sebesar <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> ATK Ashveil padanya, dan memulihkan <unbreak>#5[i]</unbreak> Poin Skill. Saat ada \"Bait\" di medan pertempuran, DEF seluruh musuh berkurang <color=#f29e38ff><unbreak>#4[i]%</unbreak></color>.\nSaat tidak ada \"Bait\" di medan pertempuran, Ashveil akan segera menjadikan 1 target musuh dengan HP terendah di medan pertempuran saat ini sebagai \"Bait\". Status \"Bait\" hanya efektif pada target terbaru yang ditambahkan status ini.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150402"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							1,
+							0.5,
+							0.2,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							1.1,
+							1,
+							0.55,
+							0.22,
+							1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							1.2,
+							1,
+							0.6,
+							0.24,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Grit of Strife",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							1.3,
+							1,
+							0.65,
+							0.26,
+							1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							1.4,
+							1,
+							0.7,
+							0.28,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1.5,
+							1,
+							0.75,
+							0.3,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							1.625,
+							1,
+							0.8125,
+							0.325,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							1.75,
+							1,
+							0.875,
+							0.35,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							1.875,
+							1,
+							0.9375,
+							0.375,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							1,
+							1,
+							0.4,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504003": {
+				"Id": "1504003",
+				"Name": "Banquet: Insatiable Appetite",
+				"NodeType": 2,
+				"NodeTypeText": "Ultimate",
+				"EffectRaw": "Menjadikan 1 musuh yang ditargetkan sebagai \"Bait\", mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Ashveil padanya, lalu segera melancarkan 1 kali <u>Serangan Lanjutan</u> yang diperkuat dari Talent pada \"Bait\", dan Ashveil memperoleh <unbreak>#2[i]</unbreak> poin Charge.\n<u>Serangan Lanjutan</u> yang diperkuat dari Talent tidak mengonsumsi Charge. Setiap kali \"Gluttony\" lebih dari atau sama dengan <unbreak>#3[i]</unbreak> lapis, dapat mengonsumsi <unbreak>#3[i]</unbreak> lapis \"Gluttony\" untuk mengakibatkan ekstra 1 kali Lightning DMG sebesar <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> ATK Ashveil, dan saat mengakibatkan serangan mematikan pada target dalam proses <u>Serangan Lanjutan</u> kali ini, akan lanjut mengakibatkan DMG pada \"Bait\" baru hingga jumlah \"Gluttony\" kurang dari <unbreak>#3[i]</unbreak> lapis. Jika seluruh target musuh yang ada di medan pertempuran saat ini sudah terkena serangan mematikan, maka <u>Serangan Lanjutan</u> yang diperkuat dari Talent akan langsung berakhir.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150403"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							4,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2.2,
+							3,
+							4,
+							1.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2.4,
+							3,
+							4,
+							1.2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Grit of Strife",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2.6,
+							3,
+							4,
+							1.3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2.8,
+							3,
+							4,
+							1.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							3,
+							3,
+							4,
+							1.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							3.25,
+							3,
+							4,
+							1.625
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							3.5,
+							3,
+							4,
+							1.75
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							3.75,
+							3,
+							4,
+							1.875
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							4,
+							3,
+							4,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504004": {
+				"Id": "1504004",
+				"Name": "Rancor: Enmity Reprisal",
+				"NodeType": 2,
+				"NodeTypeText": "Talent",
+				"EffectRaw": "Ashveil awalnya memiliki <unbreak>#1[i]</unbreak> poin Charge, maksimal memiliki <unbreak>#2[i]</unbreak> poin Charge. Setelah \"Bait\" terserang rekan tim lain, Ashveil akan memulihkan <unbreak>#7[i]</unbreak> Energy dalam jumlah tetap, lalu mengonsumsi <unbreak>#3[i]</unbreak> poin Charge untuk melancarkan <u>Serangan Lanjutan</u> yang mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> ATK Ashveil pada \"Bait\", dan kemudian memperoleh <unbreak>#5[i]</unbreak> lapis \"Gluttony\", dapat ditumpuk hingga <unbreak>#6[i]</unbreak> lapis.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150404"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1,
+							2,
+							12,
+							8
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.1,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Grit of Strife",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.3,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.4,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.5,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.625,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.75,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.875,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504007": {
+				"Id": "1504007",
+				"Name": "Devour: O Loathsome Hand",
+				"NodeType": 2,
+				"NodeTypeText": "Technique",
+				"EffectRaw": "Setelah menggunakan Technique, membuat musuh dalam area tertentu memasuki status Daze selama <unbreak>#1[i]</unbreak> detik. Musuh berstatus Daze tidak akan menyerang rekan tim secara aktif.\nJika secara aktif menyerang musuh berstatus Daze, maka saat memasuki pertempuran, Ashveil akan mengakibatkan Lightning DMG sebesar <unbreak>#2[i]%</unbreak> ATK Ashveil pada seluruh musuh, serta memperoleh <unbreak>#3[i]</unbreak> poin Charge.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150407"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							1,
+							1
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1504101": {
+				"Id": "1504101",
+				"Name": "Damnation Trail",
+				"NodeType": 3,
+				"EffectRaw": "Saat Ashveil melancarkan Skill/Ultimate, memperoleh <unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak> lapis \"Gluttony\". Selama proses <u>Serangan Lanjutan</u> Ashveil, setiap ada <unbreak>#3[i]</unbreak> musuh yang terkena serangan mematikan, Ashveil akan memperoleh <unbreak>#4[i]</unbreak> lapis \"Gluttony\".",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							2,
+							1,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Grit of Strife",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504102": {
+				"Id": "1504102",
+				"Name": "Phantom Limb",
+				"NodeType": 3,
+				"EffectRaw": "DMG yang diakibatkan <u>Serangan Lanjutan</u> Ashveil meningkat <unbreak>#1[i]%</unbreak>, dan untuk setiap <unbreak>#2[i]</unbreak> lapis \"Gluttony\" yang dimiliki, DMG yang diakibatkan <u>Serangan Lanjutan</u> meningkat ekstra <unbreak>#3[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.8,
+							1,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504103": {
+				"Id": "1504103",
+				"Name": "First Fang",
+				"NodeType": 3,
+				"EffectRaw": "Saat Ashveil berada di medan pertempuran, CRIT DMG yang diakibatkan rekan tim meningkat <unbreak>#1[i]%</unbreak>, CRIT DMG yang diakibatkan <u>Serangan Lanjutan</u> rekan tim meningkat ekstra <unbreak>#2[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504201": {
+				"Id": "1504201",
+				"Name": "Peningkatan CRIT DMG",
+				"NodeType": 1,
+				"EffectRaw": "CRIT DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1504202": {
+				"Id": "1504202",
+				"Name": "Peningkatan DMG: Lightning",
+				"NodeType": 1,
+				"EffectRaw": "Lightning DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1504101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "Grit of Strife",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1504203": {
+				"Id": "1504203",
+				"Name": "Peningkatan CRIT DMG",
+				"NodeType": 1,
+				"EffectRaw": "CRIT DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1504202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504204": {
+				"Id": "1504204",
+				"Name": "Peningkatan ATK",
+				"NodeType": 1,
+				"EffectRaw": "ATK +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504205": {
+				"Id": "1504205",
+				"Name": "Peningkatan CRIT DMG",
+				"NodeType": 1,
+				"EffectRaw": "CRIT DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1504102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "Resin of Valor",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504206": {
+				"Id": "1504206",
+				"Name": "Peningkatan DMG: Lightning",
+				"NodeType": 1,
+				"EffectRaw": "Lightning DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1504205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504207": {
+				"Id": "1504207",
+				"Name": "Peningkatan CRIT DMG",
+				"NodeType": 1,
+				"EffectRaw": "CRIT DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504208": {
+				"Id": "1504208",
+				"Name": "Peningkatan ATK",
+				"NodeType": 1,
+				"EffectRaw": "ATK +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1504103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504209": {
+				"Id": "1504209",
+				"Name": "Peningkatan DMG: Lightning",
+				"NodeType": 1,
+				"EffectRaw": "Lightning DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504210": {
+				"Id": "1504210",
+				"Name": "Peningkatan CRIT DMG",
+				"NodeType": 1,
+				"EffectRaw": "CRIT DMG +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.107,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.107
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "Lance of Retribution",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.1"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

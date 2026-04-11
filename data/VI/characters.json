@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Phân Ly",
-				"Effect": "Sau khi thi triển Tuyệt Kỹ sẽ khiến 1 kẻ địch bị tấn công rơi vào trạng thái Loạn Điệp, duy trì 1 hiệp. Sau khi mục tiêu phe địch ở trạng thái Loạn Điệp bị tấn công, sẽ chịu thêm 1 lần <u>Sát Thương Kèm Theo</u> thuộc tính Lượng Tử bằng 15% Sát Thương Tuyệt Kỹ của Seele. Nếu mục tiêu này bị tiêu diệt bởi <u>Sát Thương Kèm Theo</u> của trạng thái Loạn Điệp do mục tiêu khác của phe ta kích hoạt, sẽ không kích hoạt Thiên Phú của Seele.\nKhi Seele rơi vào <u>trạng thái không thể chiến đấu</u>, thì trạng thái Loạn Điệp của mục tiêu phe địch sẽ bị giải trừ."
+				"Effect": "Sau khi thi triển Tuyệt Kỹ tấn công sẽ khiến 1 kẻ địch bị tấn công rơi vào trạng thái \"Loạn Điệp\", duy trì 1 hiệp. Sau khi mục tiêu phe địch ở trạng thái \"Loạn Điệp\" bị tấn công, sẽ chịu thêm 1 lần <u>Sát Thương Kèm Theo</u> thuộc tính Lượng Tử bằng 15% Sát Thương Tuyệt Kỹ của Seele. Nếu mục tiêu này bị tiêu diệt bởi <u>Sát Thương Kèm Theo</u> của trạng thái \"Loạn Điệp\" do mục tiêu khác của phe ta kích hoạt, sẽ không kích hoạt Thiên Phú của Seele.\nKhi Seele rơi vào <u>trạng thái không thể chiến đấu</u>, thì trạng thái \"Loạn Điệp\" của mục tiêu phe địch sẽ bị giải trừ."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -3114,6 +3114,47 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lôi",
+		"PathType": "Rogue",
+		"PathTypeText": "Săn Bắn",
+		"Eidolons": [
+			{
+				"Id": "150401",
+				"Name": "Cẩn Thận: Trăng Tròn Không Được Ra Ngoài",
+				"Effect": "Khi Ashveil ở trong trận, sát thương toàn bộ phe địch phải chịu tăng 24%. Khi phần trăm HP hiện tại của mục tiêu phe địch nhỏ hơn hoặc bằng 50%, sát thương phải chịu của kẻ đó sẽ tăng đến 36%."
+			},
+			{
+				"Id": "150402",
+				"Name": "Gõ Cửa: Trong Phòng Chỉ Còn Tiếng Cười Thầm",
+				"Effect": "Giới hạn cộng dồn \"Tham Lam\" tăng đến 18 tầng, sau mỗi khi Ashveil phát động <u>Đòn Đánh Theo Sau</u> của Thiên Phú được cường hóa, sẽ hoàn trả 35% số tầng \"Tham Lam\" bị xóa bỏ."
+			},
+			{
+				"Id": "150403",
+				"Name": "Yên Lặng: Mỗi Người Bạn Cũ Một Tâm Tư",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+			},
+			{
+				"Id": "150404",
+				"Name": "Ghi Nhớ: Sự Thật Không Cần Nghiền Ngẫm",
+				"Effect": "Khi Ashveil thi triển Tuyệt Kỹ, Tấn Công tăng 40%, duy trì 3 hiệp."
+			},
+			{
+				"Id": "150405",
+				"Name": "Nhắc Nhở: Thám Tử Cũng Là Hung Thủ",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "150406",
+				"Name": "Kết Cục: Có Lẽ Không Ai Sống Sót",
+				"Effect": "Khi trong trận tồn tại \"Mồi Ngon\", Kháng Toàn Thuộc Tính của toàn bộ phe địch giảm 20%. Ashveil cứ nhận được 1 tầng \"Tham Lam\", thì sát thương gây ra sẽ tăng 4%, hiệu ứng này tối đa cộng dồn 30 tầng."
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

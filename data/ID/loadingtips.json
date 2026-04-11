@@ -1901,6 +1901,36 @@
 		"Description": "Kepala sekolah Akademi Graphia saat ini.\nSekaligus kepala keluarga Graphia saat ini, yang mengaku sebagai ayah Himeko.",
 		"VersionAdded": "4.0"
 	},
+	"10421": {
+		"Id": "10421",
+		"Name": "Ruang \"Gulungan Robek\"",
+		"Description": "Pecahan ruang yang terkelupas dari \"Dunia dalam Lukisan\" saat Planarcadia kembali ke dunia nyata.\nPerbatasan antara realitas dan lukisan, rel kereta yang terbengkalai mengarah ke jurang yang tak terselami.",
+		"VersionAdded": "4.1"
+	},
+	"10422": {
+		"Id": "10422",
+		"Name": "Asosiasi Penelitian Senyum Bahagia",
+		"Description": "Organisasi amal berskala besar, yang sebelumnya merupakan perkumpulan gotong royong untuk korban insiden Pengantar Maut.\nBerdedikasi membuat Planarcadia mendapatkan kembali kebahagiaan dan senyuman melalui metode pengobatan seperti \"Bedah Kebahagiaan\".",
+		"VersionAdded": "4.1"
+	},
+	"10423": {
+		"Id": "10423",
+		"Name": "Fulwish",
+		"Description": "Ketua \"Asosiasi Penelitian Senyum Bahagia\" sekaligus kepala stasiun \"TV Penuh Harapan\". Anak yatim piatu dari Permainan Berlumur Darah.\nKini dia adalah dermawan ternama dan taipan media, serta mengemban misi untuk meluruskan jalan Elation.",
+		"VersionAdded": "4.1"
+	},
+	"10424": {
+		"Id": "10424",
+		"Name": "Festival Star Rail",
+		"Description": "Pameran yang bertemakan Astral Express, panggung yang didirikan Pearl khusus untuk para The Nameless.\nKehadiran The Nameless memicu kehebohan dan menarik perhatian jutaan Wishpower dari seluruh Planarcadia.",
+		"VersionAdded": "4.1"
+	},
+	"10425": {
+		"Id": "10425",
+		"Name": "Perusahaan Pearluxe",
+		"Description": "Konglomerat hiburan antarbintang milik Pearl. Bisnis utamanya mencakup produksi dan penjualan \"mechatron\".\nKantor pusatnya yang megah, Gedung Pearluxe, adalah istana dambaan bagi banyaknya pencari kerja.",
+		"VersionAdded": "4.1"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Sedang kembali ke sudut pandang Trailblazer ....",
@@ -2320,5 +2350,11 @@
 		"Name": "Sedang berganti ke sudut pandang \"Silver Wolf\" ....",
 		"Description": "Tingyun berhasil merampas topeng. Tak lama kemudian, seorang korban malang yang kehilangan topengnya juga tiba di Distrik Dovebrook ....",
 		"VersionAdded": "4.0"
+	},
+	"20099": {
+		"Id": "20099",
+		"Name": "Sedang berganti ke sudut pandang \"Ashveil\" ....",
+		"Description": "Saat menelusuri jejak pelaku, Ashveil berdiri di tepi jembatan dan teringat pada masa lalunya ....",
+		"VersionAdded": "4.1"
 	}
 }

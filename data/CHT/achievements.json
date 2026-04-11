@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "謁見神明的儀式總要有祭品",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "父親的榮耀",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "所有孩子的噩夢：向父輩介紹自己的工作\n<color=#8790abff>※帶領姬子的父親遊覽列車</color>",
+		"HiddenDescription": "所有孩子的噩夢：向父輩介紹自己的工作。",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "貓抓老鼠",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "社會身分，不過是人類佩戴的無窮面具中的一個\n<color=#8790abff>※與虛照小姐合影</color>",
+		"HiddenDescription": "社會身分，不過是人類佩戴的無窮面具中的一個",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "我來帶領大家！",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "機鎧，屹立於大地之上\n<color=#8790abff>※拼裝屬於自己的大型機鎧，並與破曉戰隊交手</color>",
+		"HiddenDescription": "機鎧，屹立於大地之上",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "當幸福來敲門",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "人人追求幸福，但誰定義了幸福？\n<color=#8790abff>※完成對慈善組織「幸福微笑研究會」的調查</color>",
+		"HiddenDescription": "人人追求幸福，但誰定義了幸福？",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "食夢者",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "創作者是在醒時造夢的動物\n<color=#8790abff>※在雜誌社揭露《蒼天航路絨絨號》的作者真面目</color>",
+		"HiddenDescription": "創作者是在醒時造夢的動物",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "開往地獄的列車",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "？？？\n<color=#8790abff>※抵達不為人知的廢站空間</color>",
+		"HiddenDescription": "？？？",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "幸運籌碼",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "感謝那位贈予籌碼的友人\n<color=#8790abff>※在真珠的幫助下返回現實</color>",
+		"HiddenDescription": "感謝那位贈予籌碼的友人",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "幻月的狂言",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的軌道",
+		"Description": "祂就這麼一說，你就這麼一聽\n<color=#8790abff>※聆聽幻月發表狂亂的宣言</color>",
+		"HiddenDescription": "祂就這麼一說，你就這麼一聽",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "在角色扮演遊戲裡合法",
@@ -5073,6 +5161,146 @@
 		"SeriesText": "眾秘探奇",
 		"Description": "在二維市或鴿川區的卡拉OK店前，偷聽裡面傳來的美妙歌聲",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "名叫樂園的土地",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "集齊《浮脂記事》存世的六頁內容，並完成二維市內「浮脂記事」的世界中的所有蒐集要素",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "青蓮地心火",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在觀覽雲島的「Jump時刻」中，撞碎所有的歲陽",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "然後，是工作日",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在觀覽雲島的「Jump時刻」中再度「擊敗」神主日",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "「請勿入內」",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "溜進珠星大廈的員工辦公室",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "斯金納的鴿子",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在「二次元JUMP！」中，連續觸發會彈出金幣的按鈕#1次",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "現在！合體！",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "打開隱藏道路，抵達魔動機鎧的胸前",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "珠星射控陣列",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在珠星大廈的「二次元JUMP！」中擊敗巨型刺蝟靈",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "貓咪的黃金律",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在機鎧拼裝時，接住貓咪拋下的所有像素金幣",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "超機鎧之世紀必殺陣",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在機鎧對戰的攝影棚中，擊碎全部的可破壞建築",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "超級機鎧星探",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "找到四位「相貌奇特」的機鎧",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "熱血難涼",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "完成「星鐵FES」炎槍衝鋒的挑戰",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "或躍在淵",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "在「星鐵FES」的仙舟展區重現「開海」",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "樂園變奏：鐵皮人",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "演奏奇異樂章，找到躲在珠星大廈的迷之生物",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "樂園變奏：百變狸貓",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "眾秘探奇",
+		"Description": "演奏奇異樂章，找到躲在觀覽雲島站的迷之生物",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11607,7 +11835,7 @@
 	},
 	"4055048": {
 		"Id": "4055048",
-		"Name": "今天就要以大欺小",
+		"Name": "今天就是要以大欺小",
 		"SortOrder": 330,
 		"Rarity": "Low",
 		"SeriesId": 5,
@@ -11624,6 +11852,106 @@
 		"SeriesText": "與你同行的回憶",
 		"Description": "在「擲骰吧！戰力黨！」中擊敗「四大天王」",
 		"VersionAdded": "4.0"
+	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "假戲真做",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在戰鬥測試沙盒中，用全力一擊向宏樹表達敬意",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "真戲假做",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在戰鬥測試沙盒中，選擇守護宏樹的夢想",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "請負起創造的責任",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在簽售會風波中，把偷懶的虛照逮回去",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "這也是虛構的一環",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在簽售會風波中，讓普狸策勇敢承擔不屬於牠的職責",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "人靠衣裝馬靠鞍",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在機鎧改造室前，向猶豫的機鎧提供建議",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "惡人自有惡人磨",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "分別與凱妮斯SP、雷光主二人對話",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "樂園時期的愛情",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在街頭見證路人向彼此傳遞心意",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "天下無敵",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在「社團對決」中戰勝所有對手",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "三軍聽令！",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "在「整備強化」中解鎖所有能力",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "天上來敵",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "與你同行的回憶",
+		"Description": "完成「魔王挑戰」模式",
+		"VersionAdded": "4.1"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "戰意奔湧",
 		"Description": "阿哈施放【要有笑聲】消滅#1名敵人",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "三個火槍手",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "使用同時包含不死途、亂破、波提歐的隊伍獲得1場戰鬥的勝利",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "不是不報，時辰未到",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "累積#1次我方隊友攻擊【飼餌】目標未觸發不死途的追加攻擊",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "一擊雙吃",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "使用我方角色不死途在單次追加攻擊中同時消滅#1名敵人",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "太陽立刻升起",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "在與「破曉戰隊」的戰鬥中，使其處於【破曉力場】狀態時受到特定屬性攻擊而觸發立即行動",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "亂拳打死老師傅",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "在與「SD民用機鎧」的戰鬥中，使其消滅#1名敵方目標",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "節約用水",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "在與「合金機鎧•帕姆王」的戰鬥中，解除其【蒸汽洗滌】狀態",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "泡沫弄潮兒",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戰意奔湧",
+		"Description": "在與「合金機鎧•帕姆王」的單場戰鬥中，至少觸發#1次【強效肥皂泡】的【拋光】效果",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

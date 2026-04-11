@@ -7709,6 +7709,67 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"23056": {
+		"Id": "23056",
+		"Name": "El final de una mentira",
+		"PathType": "Rogue",
+		"PathTypeText": "Cacería",
+		"EffectName": "Engullimiento",
+		"EffectTemplate": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>#1[i]%</color>. Al entrar en combate o cada vez que el portador lanza #2[i] ataques adicionales, el portador obtiene Sombra voraz durante #3[i] turnos. Cuando el portador tiene Sombra voraz, su ATQ aumenta en un <color=#f29e38ff>#4[i]%</color> y el daño que reciben todos los enemigos aumenta en un <color=#f29e38ff>#5[i]%</color>. Los efectos del mismo tipo no se pueden acumular.",
+		"Superimpositions": [
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>18%</color>. Al entrar en combate o cada vez que el portador lanza 4 ataques adicionales, el portador obtiene Sombra voraz durante 3 turnos. Cuando el portador tiene Sombra voraz, su ATQ aumenta en un <color=#f29e38ff>40%</color> y el daño que reciben todos los enemigos aumenta en un <color=#f29e38ff>20%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.18,
+					4,
+					3,
+					0.4,
+					0.2
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>21%</color>. Al entrar en combate o cada vez que el portador lanza 4 ataques adicionales, el portador obtiene Sombra voraz durante 3 turnos. Cuando el portador tiene Sombra voraz, su ATQ aumenta en un <color=#f29e38ff>50%</color> y el daño que reciben todos los enemigos aumenta en un <color=#f29e38ff>22%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.21,
+					4,
+					3,
+					0.5,
+					0.225
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>24%</color>. Al entrar en combate o cada vez que el portador lanza 4 ataques adicionales, el portador obtiene Sombra voraz durante 3 turnos. Cuando el portador tiene Sombra voraz, su ATQ aumenta en un <color=#f29e38ff>60%</color> y el daño que reciben todos los enemigos aumenta en un <color=#f29e38ff>25%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.24,
+					4,
+					3,
+					0.6,
+					0.25
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>27%</color>. Al entrar en combate o cada vez que el portador lanza 4 ataques adicionales, el portador obtiene Sombra voraz durante 3 turnos. Cuando el portador tiene Sombra voraz, su ATQ aumenta en un <color=#f29e38ff>70%</color> y el daño que reciben todos los enemigos aumenta en un <color=#f29e38ff>27%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.27,
+					4,
+					3,
+					0.7,
+					0.275
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>30%</color>. Al entrar en combate o cada vez que el portador lanza 4 ataques adicionales, el portador obtiene Sombra voraz durante 3 turnos. Cuando el portador tiene Sombra voraz, su ATQ aumenta en un <color=#f29e38ff>80%</color> y el daño que reciben todos los enemigos aumenta en un <color=#f29e38ff>30%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.3,
+					4,
+					3,
+					0.8,
+					0.3
+				]
+			}
+		],
+		"VersionAdded": "4.1"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Sobre la caída de un Eón",
@@ -8054,5 +8115,56 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"24006": {
+		"Id": "24006",
+		"Name": "Exultación desbordante de bendiciones",
+		"PathType": "Elation",
+		"PathTypeText": "Exultación",
+		"EffectName": "Apertura",
+		"EffectTemplate": "El ATQ del portador aumenta en un <color=#f29e38ff>#1[i]%</color>. Cuando el portador lanza la habilidad básica o la habilidad definitiva sobre un personaje aliado, la Exultación del objetivo aumenta en un <color=#f29e38ff>#2[i]%</color> durante #3[i] turnos.",
+		"Superimpositions": [
+			{
+				"Effect": "El ATQ del portador aumenta en un <color=#f29e38ff>20%</color>. Cuando el portador lanza la habilidad básica o la habilidad definitiva sobre un personaje aliado, la Exultación del objetivo aumenta en un <color=#f29e38ff>12%</color> durante 2 turnos.",
+				"Params": [
+					0.2,
+					0.12,
+					2
+				]
+			},
+			{
+				"Effect": "El ATQ del portador aumenta en un <color=#f29e38ff>25%</color>. Cuando el portador lanza la habilidad básica o la habilidad definitiva sobre un personaje aliado, la Exultación del objetivo aumenta en un <color=#f29e38ff>15%</color> durante 2 turnos.",
+				"Params": [
+					0.25,
+					0.15,
+					2
+				]
+			},
+			{
+				"Effect": "El ATQ del portador aumenta en un <color=#f29e38ff>30%</color>. Cuando el portador lanza la habilidad básica o la habilidad definitiva sobre un personaje aliado, la Exultación del objetivo aumenta en un <color=#f29e38ff>18%</color> durante 2 turnos.",
+				"Params": [
+					0.3,
+					0.18,
+					2
+				]
+			},
+			{
+				"Effect": "El ATQ del portador aumenta en un <color=#f29e38ff>35%</color>. Cuando el portador lanza la habilidad básica o la habilidad definitiva sobre un personaje aliado, la Exultación del objetivo aumenta en un <color=#f29e38ff>21%</color> durante 2 turnos.",
+				"Params": [
+					0.35,
+					0.21,
+					2
+				]
+			},
+			{
+				"Effect": "El ATQ del portador aumenta en un <color=#f29e38ff>40%</color>. Cuando el portador lanza la habilidad básica o la habilidad definitiva sobre un personaje aliado, la Exultación del objetivo aumenta en un <color=#f29e38ff>24%</color> durante 2 turnos.",
+				"Params": [
+					0.4,
+					0.24,
+					2
+				]
+			}
+		],
+		"VersionAdded": "4.1"
 	}
 }

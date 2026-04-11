@@ -3020,7 +3020,8 @@
 		"FactionType": 9,
 		"FactionTypeText": "Maskierte Narren",
 		"ConversationIds": [
-			"15026"
+			"15026",
+			"15034"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Zhongshan.png"
@@ -3078,12 +3079,44 @@
 			"15027",
 			"15028",
 			"15029",
-			"15030"
+			"15030",
+			"15035",
+			"15036"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"218": {
+		"Id": "218",
+		"Name": "Ashveil",
+		"Signature": "Annehmen",
+		"ContactType": 1,
+		"ContactTypeText": "Figuren",
+		"FactionType": 21,
+		"FactionTypeText": "Planarcadia",
+		"ConversationIds": [],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1504.png"
+		},
+		"VersionAdded": "4.1"
+	},
+	"219": {
+		"Id": "219",
+		"Name": "Abteilung für Aberrationsabwehr",
+		"Signature": "Ich habe gehört, jemand möchte die Echtzeit-Rangliste der Supplikanten der Phantasmond-Spiele sehen?",
+		"ContactType": 2,
+		"ContactTypeText": "Andere",
+		"FactionType": 21,
+		"FactionTypeText": "Planarcadia",
+		"ConversationIds": [
+			"15037"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"1000": {
 		"Id": "1000",
@@ -3232,6 +3265,7 @@
 			"11519",
 			"13039",
 			"15005",
+			"15010",
 			"20010",
 			"20011",
 			"20012",
@@ -4605,6 +4639,24 @@
 			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1502.png"
 		},
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"Signature": "Annehmen",
+		"ContactType": 1,
+		"ContactTypeText": "Figuren",
+		"FactionType": 12,
+		"FactionTypeText": "Galaxieranger",
+		"ConversationIds": [
+			"20228",
+			"20229",
+			"20230"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1504.png"
+		},
+		"VersionAdded": "4.1"
 	},
 	"8000": {
 		"Id": "8000",

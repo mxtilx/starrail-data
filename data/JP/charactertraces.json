@@ -117448,6 +117448,1478 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1504": {
+		"Id": "1504",
+		"Name": "{RUBY_B#しなず}不死途{RUBY_E#}",
+		"Nodes": {
+			"1504001": {
+				"Id": "1504001",
+				"Name": "{RUBY_B#するど}鋭{RUBY_E#}き{RUBY_B#つめ}爪{RUBY_E#}よ、{RUBY_B#れいぎ}礼儀{RUBY_E#}を{RUBY_B#さず}授{RUBY_E#}けよ",
+				"NodeType": 2,
+				"NodeTypeText": "通常攻撃",
+				"EffectRaw": "指定した敵単体に不死途の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150401"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛争の血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504002": {
+				"Id": "1504002",
+				"Name": "{RUBY_B#むち}鞭{RUBY_E#}と{RUBY_B#ふえ}笛{RUBY_E#}よ、{RUBY_B#あくじゅう}悪獣{RUBY_E#}を{RUBY_B#しりぞ}退{RUBY_E#}けよ",
+				"NodeType": 2,
+				"NodeTypeText": "戦闘スキル",
+				"EffectRaw": "指定した敵単体を「餌食」にし、不死途の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。ターゲットが「餌食」の場合、さらに不死途の攻撃力<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の雷属性ダメージを与え、SPを<unbreak>#5[i]</unbreak>回復する。フィールド上に「餌食」が存在する時、敵全体の防御力-<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>。\nフィールド上に「餌食」が存在しない場合、不死途は即座にフィールド上にいる残りHPが最も低い敵単体を「餌食」にする。「餌食」状態は最後に付与したターゲットにのみ有効。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150402"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							1,
+							0.5,
+							0.2,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							1.1,
+							1,
+							0.55,
+							0.22,
+							1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							1.2,
+							1,
+							0.6,
+							0.24,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛争の血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							1.3,
+							1,
+							0.65,
+							0.26,
+							1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							1.4,
+							1,
+							0.7,
+							0.28,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1.5,
+							1,
+							0.75,
+							0.3,
+							1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							1.625,
+							1,
+							0.8125,
+							0.325,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							1.75,
+							1,
+							0.875,
+							0.35,
+							1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							1.875,
+							1,
+							0.9375,
+							0.375,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							1,
+							1,
+							0.4,
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504003": {
+				"Id": "1504003",
+				"Name": "{RUBY_B#きょうえん}饗宴{RUBY_E#}の{RUBY_B#まく}幕{RUBY_E#}、{RUBY_B#ひら}開{RUBY_E#}けば{RUBY_B#と}閉{RUBY_E#}じず",
+				"NodeType": 2,
+				"NodeTypeText": "必殺技",
+				"EffectRaw": "指定した敵単体を「餌食」にし、不死途の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。その後、「餌食」に対し、即座に強化された天賦による<u>追加攻撃</u>を1回行い、不死途はチャージを<unbreak>#2[i]</unbreak>獲得する。この回の強化された天賦による<u>追加攻撃</u>はチャージを消費しない。\nこの時、所持している「暴食」が<unbreak>#3[i]</unbreak>層以上である限り、「暴食」を<unbreak>#3[i]</unbreak>層消費し、追加で不死途の攻撃力<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>分の雷属性ダメージを1回与える。\nまた、この回の<u>追加攻撃</u>の発動中、ターゲットにHPが0になる攻撃を与えた時、所持している「暴食」が<unbreak>#3[i]</unbreak>層未満になるまで、不死途は新しく「餌食」となった敵に、引き続きダメージを与える。フィールド上にいるすべての敵がHPが0になる攻撃を受けた後、強化された天賦による<u>追加攻撃</u>は即座に終了する。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150403"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							4,
+							1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2.2,
+							3,
+							4,
+							1.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2.4,
+							3,
+							4,
+							1.2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛争の血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2.6,
+							3,
+							4,
+							1.3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2.8,
+							3,
+							4,
+							1.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							3,
+							3,
+							4,
+							1.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							3.25,
+							3,
+							4,
+							1.625
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							3.5,
+							3,
+							4,
+							1.75
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							3.75,
+							3,
+							4,
+							1.875
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							4,
+							3,
+							4,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504004": {
+				"Id": "1504004",
+				"Name": "{RUBY_B#ふか}深{RUBY_E#}き{RUBY_B#うらみ}怨{RUBY_E#}み、{RUBY_B#きば}牙{RUBY_E#}で{RUBY_B#は}晴{RUBY_E#}らそう",
+				"NodeType": 2,
+				"NodeTypeText": "天賦",
+				"EffectRaw": "不死途の初期チャージは<unbreak>#1[i]</unbreak>。最大で<unbreak>#2[i]</unbreak>まで。「餌食」が不死途以外の味方の攻撃を受けた後、不死途はEPを<unbreak>#7[i]</unbreak>回復する。その後、チャージを<unbreak>#3[i]</unbreak>消費して「餌食」に<u>追加攻撃</u>を行い、不死途の攻撃力<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>分の雷属性ダメージを与え、「暴食」を<unbreak>#5[i]</unbreak>層獲得する。「暴食」は最大で<unbreak>#6[i]</unbreak>層まで累積できる。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150404"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1,
+							2,
+							12,
+							8
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.1,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛争の血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.3,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.4,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.5,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.625,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.75,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							1.875,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							2,
+							3,
+							1,
+							2,
+							2,
+							12,
+							8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504007": {
+				"Id": "1504007",
+				"Name": "{RUBY_B#にく}憎{RUBY_E#}き{RUBY_B#て}手{RUBY_E#}よ、{RUBY_B#く}食{RUBY_E#}らうがいい",
+				"NodeType": 2,
+				"NodeTypeText": "秘技",
+				"EffectRaw": "秘技を使用した後、一定範囲内の敵を<unbreak>#1[i]</unbreak>秒間の目眩状態にする。目眩状態の敵は味方を攻撃しない。\n目眩状態の敵を先制攻撃して戦闘に入った時、敵全体に不死途の攻撃力<unbreak>#2[i]%</unbreak>分の雷属性ダメージを与え、不死途はチャージを<unbreak>#3[i]</unbreak>獲得する。",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150407"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							1,
+							1
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1504101": {
+				"Id": "1504101",
+				"Name": "{RUBY_B#つみ}罪{RUBY_E#}の{RUBY_B#みち}道{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "不死途が戦闘スキル/必殺技を発動する時、「暴食」を<unbreak>#1[i]</unbreak>/<unbreak>#2[i]</unbreak>層獲得する。不死途の<u>追加攻撃</u>中に、敵<unbreak>#3[i]</unbreak>体がHPが0になる攻撃を受けるたびに、不死途は「暴食」を<unbreak>#4[i]</unbreak>層獲得する。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							1,
+							2,
+							1,
+							1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛争の血塵",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504102": {
+				"Id": "1504102",
+				"Name": "{RUBY_B#かげ}影{RUBY_E#}の{RUBY_B#うで}腕{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "不死途の<u>追加攻撃</u>ダメージ+<unbreak>#1[i]%</unbreak>。所持している「暴食」<unbreak>#2[i]</unbreak>層につき、さらに<u>追加攻撃</u>ダメージ+<unbreak>#3[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.8,
+							1,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504103": {
+				"Id": "1504103",
+				"Name": "{RUBY_B#おさ}長{RUBY_E#}の{RUBY_B#おおかみ}狼{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "不死途がフィールド上にいる時、味方の会心ダメージ+<unbreak>#1[i]%</unbreak>、味方の<u>追加攻撃</u>の会心ダメージがさらに+<unbreak>#2[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.8
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1504201": {
+				"Id": "1504201",
+				"Name": "会心ダメージ強化",
+				"NodeType": 1,
+				"EffectRaw": "会心ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1504202": {
+				"Id": "1504202",
+				"Name": "ダメージ強化・雷",
+				"NodeType": 1,
+				"EffectRaw": "雷属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1504101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110271",
+								"Name": "紛争の血塵",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1504203": {
+				"Id": "1504203",
+				"Name": "会心ダメージ強化",
+				"NodeType": 1,
+				"EffectRaw": "会心ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1504202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504204": {
+				"Id": "1504204",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504205": {
+				"Id": "1504205",
+				"Name": "会心ダメージ強化",
+				"NodeType": 1,
+				"EffectRaw": "会心ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1504102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110272",
+								"Name": "戦魂の血珀",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1504206": {
+				"Id": "1504206",
+				"Name": "ダメージ強化・雷",
+				"NodeType": 1,
+				"EffectRaw": "雷属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1504205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504207": {
+				"Id": "1504207",
+				"Name": "会心ダメージ強化",
+				"NodeType": 1,
+				"EffectRaw": "会心ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1504208": {
+				"Id": "1504208",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1504103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504209": {
+				"Id": "1504209",
+				"Name": "ダメージ強化・雷",
+				"NodeType": 1,
+				"EffectRaw": "雷属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "ThunderAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconThunderAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1504210": {
+				"Id": "1504210",
+				"Name": "会心ダメージ強化",
+				"NodeType": 1,
+				"EffectRaw": "会心ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalDamageBase",
+				"StatBonusValue": 0.107,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalDamage.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.107
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1504208",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110273",
+								"Name": "天罰の血槍",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.1"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

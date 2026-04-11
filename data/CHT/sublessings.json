@@ -2083,9 +2083,9 @@
 		"Id": "612845",
 		"Name": "裝載：紋狀皮層",
 		"Rarity": 1,
-		"Effect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
+		"Effect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則該次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
 		"AbridgedEffect": "如果角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外根據基於原傷害造成固定數值傷害。",
-		"EnhancedEffect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
+		"EnhancedEffect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則該次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
 		"EnhancedAbridgedEffect": "如果角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外根據基於原傷害造成固定數值傷害。",
 		"VersionAdded": "1.5"
 	},
@@ -3765,9 +3765,9 @@
 		"Id": "615844",
 		"Name": "裝載：紋狀皮層",
 		"Rarity": 1,
-		"Effect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
+		"Effect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則該次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
 		"AbridgedEffect": "如果角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外根據原傷害造成固定數值傷害。",
-		"EnhancedEffect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
+		"EnhancedEffect": "若角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則該次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
 		"EnhancedAbridgedEffect": "如果角色的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外根據原傷害造成固定數值傷害。",
 		"VersionAdded": "3.1"
 	},
@@ -5101,9 +5101,9 @@
 		"Id": "616846",
 		"Name": "開放：直接通路",
 		"Rarity": 1,
-		"Effect": "若我方目標的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
+		"Effect": "若我方目標的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則該次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
 		"AbridgedEffect": "若<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外造成傷害。",
-		"EnhancedEffect": "若我方目標的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
+		"EnhancedEffect": "若我方目標的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則該次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
 		"EnhancedAbridgedEffect": "若<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外造成傷害。",
 		"VersionAdded": "3.1"
 	},
@@ -5374,6 +5374,1517 @@
 		"EnhancedEffect": "我方目標擊破敵方目標弱點時，回復等同於自身生命上限<color=#f29e38ff>36%</color>的生命值。",
 		"EnhancedAbridgedEffect": "擊破敵方目標弱點後，回復生命值。",
 		"VersionAdded": "3.1"
+	},
+	"617000": {
+		"Id": "617000",
+		"Name": "【經典時刻】",
+		"Rarity": 1,
+		"Effect": "我方目標造成的最終傷害提高<color=#f29e38ff>2%</color>，受到的傷害降低<color=#f29e38ff>1%</color>。充能達到100%時，使【經典時刻】的目標行動提前100%，並使其及其憶靈造成的最終傷害提高<color=#f29e38ff>10%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"617120": {
+		"Id": "617120",
+		"Name": "睡前故事",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「記憶」產生臨界迴響，對敵方全體目標造成冰屬性傷害，並使其高機率陷入凍結狀態，持續<color=#f29e38ff>1</color>回合。該凍結狀態下，受到憶靈攻擊後，會額外受到等同於生命上限<color=#f29e38ff>8%</color>的真實傷害。敵方目標每次陷入該凍結狀態後，最多觸發<color=#f29e38ff>4</color>次該傷害。",
+		"AbridgedEffect": "觸發臨界方程式後，對敵方全體造成冰屬性傷害並使其高機率陷入凍結狀態。該凍結狀態下，受到憶靈攻擊後，會額外受到等同於生命上限<color=#f29e38ff>8%</color>的真實傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617130": {
+		"Id": "617130",
+		"Name": "未曾出錯的直覺",
+		"Rarity": 1,
+		"Effect": "角色行動時，使自身與憶靈獲得<color=#f29e38ff>1</color>層【<u>執念</u>】，憶靈行動時，使自身與憶師獲得<color=#f29e38ff>1</color>層【<u>執念</u>】。",
+		"AbridgedEffect": "角色行動時，使自身與憶靈獲得【<u>執念</u>】，憶靈行動時，使自身與憶師獲得【<u>執念</u>】。",
+		"EnhancedEffect": "角色行動時，使自身與憶靈獲得<color=#f29e38ff>1</color>層【<u>執念</u>】，憶靈行動時，使自身與憶師獲得<color=#f29e38ff>2</color>層【<u>執念</u>】。",
+		"EnhancedAbridgedEffect": "角色行動時，使自身與憶靈獲得【<u>執念</u>】，憶靈行動時，使自身與憶師獲得【<u>執念</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617131": {
+		"Id": "617131",
+		"Name": "歷久彌新的回憶",
+		"Rarity": 1,
+		"Effect": "我方目標發動攻擊後，根據我方【<u>執念</u>】總層數，對攻擊目標造成每層<color=#f29e38ff>1%</color>攻擊力的附加傷害。",
+		"AbridgedEffect": "發動攻擊後，根據我方【<u>執念</u>】總層數，造成附加傷害。",
+		"EnhancedEffect": "我方目標發動攻擊後，根據我方【<u>執念</u>】總層數，對攻擊目標造成每層<color=#f29e38ff>1.5%</color>攻擊力的附加傷害。",
+		"EnhancedAbridgedEffect": "發動攻擊後，根據我方【<u>執念</u>】總層數，造成附加傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617132": {
+		"Id": "617132",
+		"Name": "恆常平和的夢境",
+		"Rarity": 1,
+		"Effect": "我方目標進入戰鬥/憶靈被召喚後，首次回合結束後行動提前<color=#f29e38ff>50%</color>，並使造成的傷害提高<color=#f29e38ff>50%</color>，持續<color=#f29e38ff>4</color>回合。",
+		"AbridgedEffect": "我方目標進入戰鬥/憶靈被召喚後，在首次回合結束後行動提前並使造成的傷害提高。",
+		"EnhancedEffect": "我方目標進入戰鬥/憶靈被召喚後，首次回合結束後行動提前<color=#f29e38ff>75%</color>，並使造成的傷害提高<color=#f29e38ff>75%</color>，持續<color=#f29e38ff>4</color>回合。",
+		"EnhancedAbridgedEffect": "我方目標進入戰鬥/憶靈被召喚後，在首次回合結束後行動提前並使造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617140": {
+		"Id": "617140",
+		"Name": "領悟：編織雲朵",
+		"Rarity": 1,
+		"Effect": "我方目標受到攻擊時，獲得<color=#f29e38ff>2</color>層【<u>執念</u>】。",
+		"AbridgedEffect": "受到攻擊時，獲得【<u>執念</u>】。",
+		"EnhancedEffect": "我方目標受到攻擊時，獲得<color=#f29e38ff>3</color>層【<u>執念</u>】。",
+		"EnhancedAbridgedEffect": "受到攻擊時，獲得【<u>執念</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617141": {
+		"Id": "617141",
+		"Name": "領悟：縫合山巒",
+		"Rarity": 1,
+		"Effect": "我方目標消滅敵方目標後，為我方全體提供<color=#f29e38ff>4</color>層【<u>執念</u>】。",
+		"AbridgedEffect": "消滅敵方目標後，為我方全體提供【<u>執念</u>】。",
+		"EnhancedEffect": "我方目標消滅敵方目標後，為我方全體提供<color=#f29e38ff>6</color>層【<u>執念</u>】。",
+		"EnhancedAbridgedEffect": "消滅敵方目標後，為我方全體提供【<u>執念</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617142": {
+		"Id": "617142",
+		"Name": "領悟：裝訂波浪",
+		"Rarity": 1,
+		"Effect": "我方目標進入戰鬥/憶靈被召喚後，獲得<color=#f29e38ff>6</color>層【<u>執念</u>】。",
+		"AbridgedEffect": "我方目標進入戰鬥/憶靈被召喚後，獲得【<u>執念</u>】。",
+		"EnhancedEffect": "我方目標進入戰鬥/憶靈被召喚後，獲得<color=#f29e38ff>9</color>層【<u>執念</u>】。",
+		"EnhancedAbridgedEffect": "我方目標進入戰鬥/憶靈被召喚後，獲得【<u>執念</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617143": {
+		"Id": "617143",
+		"Name": "領悟：淺海悼詞",
+		"Rarity": 1,
+		"Effect": "每層【<u>執念</u>】額外使造成的傷害提高<color=#f29e38ff>0.3%</color>。",
+		"AbridgedEffect": "每層【<u>執念</u>】額外使造成的傷害提高。",
+		"EnhancedEffect": "每層【<u>執念</u>】額外使造成的傷害提高<color=#f29e38ff>0.4%</color>。",
+		"EnhancedAbridgedEffect": "每層【<u>執念</u>】額外使造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617144": {
+		"Id": "617144",
+		"Name": "領悟：深淵禮讚",
+		"Rarity": 1,
+		"Effect": "角色的【<u>執念</u>】上限提高<color=#f29e38ff>4</color>層。",
+		"AbridgedEffect": "角色的【<u>執念</u>】上限提高。",
+		"EnhancedEffect": "角色的【<u>執念</u>】上限提高<color=#f29e38ff>6</color>層。",
+		"EnhancedAbridgedEffect": "角色的【<u>執念</u>】上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617145": {
+		"Id": "617145",
+		"Name": "領悟：精煉晨曦",
+		"Rarity": 1,
+		"Effect": "敵方目標每次受到不同我方目標攻擊時，受到的傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>6</color>層，持續至回合結束時。",
+		"AbridgedEffect": "敵方目標受到不同我方目標攻擊時，受到的傷害提高。",
+		"EnhancedEffect": "敵方目標每次受到不同我方目標攻擊時，受到的傷害提高<color=#f29e38ff>6%</color>，最多疊加<color=#f29e38ff>6</color>層，持續至回合結束時。",
+		"EnhancedAbridgedEffect": "敵方目標受到不同我方目標攻擊時，受到的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617146": {
+		"Id": "617146",
+		"Name": "領悟：溶解夕陽",
+		"Rarity": 1,
+		"Effect": "敵方目標每次受到不同我方目標攻擊時，造成的傷害降低<color=#f29e38ff>2%</color>，最多疊加<color=#f29e38ff>6</color>層，持續至回合結束時。",
+		"AbridgedEffect": "敵方目標受到不同我方目標攻擊時，造成的傷害降低。",
+		"EnhancedEffect": "敵方目標每次受到不同我方目標攻擊時，造成的傷害降低<color=#f29e38ff>3%</color>，最多疊加<color=#f29e38ff>6</color>層，持續至回合結束時。",
+		"EnhancedAbridgedEffect": "敵方目標受到不同我方目標攻擊時，造成的傷害降低。",
+		"VersionAdded": "4.1"
+	},
+	"617150": {
+		"Id": "617150",
+		"Name": "感知：鋒刃的溫度",
+		"Rarity": 1,
+		"Effect": "我方全體目標攻擊力提高<color=#f29e38ff>18%</color>。",
+		"AbridgedEffect": "攻擊力提高。",
+		"EnhancedEffect": "我方全體目標攻擊力提高<color=#f29e38ff>27%</color>。",
+		"EnhancedAbridgedEffect": "攻擊力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617151": {
+		"Id": "617151",
+		"Name": "感知：獸爪的形狀",
+		"Rarity": 1,
+		"Effect": "我方全體目標造成的傷害提高<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "造成的傷害提高。",
+		"EnhancedEffect": "我方全體目標造成的傷害提高<color=#f29e38ff>18%</color>。",
+		"EnhancedAbridgedEffect": "造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617152": {
+		"Id": "617152",
+		"Name": "感知：螺殼的紋理",
+		"Rarity": 1,
+		"Effect": "我方全體目標防禦力提高<color=#f29e38ff>16%</color>。",
+		"AbridgedEffect": "防禦力提高。",
+		"EnhancedEffect": "我方全體目標防禦力提高<color=#f29e38ff>24%</color>。",
+		"EnhancedAbridgedEffect": "防禦力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617153": {
+		"Id": "617153",
+		"Name": "感知：季風的故事",
+		"Rarity": 1,
+		"Effect": "我方全體目標造成的傷害提高<color=#f29e38ff>10%</color>，憶靈額外提高<color=#f29e38ff>4%</color>。",
+		"AbridgedEffect": "造成的傷害提高，憶靈額外提高。",
+		"EnhancedEffect": "我方全體目標造成的傷害提高<color=#f29e38ff>15%</color>，憶靈額外提高<color=#f29e38ff>6%</color>。",
+		"EnhancedAbridgedEffect": "造成的傷害提高，憶靈額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617154": {
+		"Id": "617154",
+		"Name": "感知：岩石的故事",
+		"Rarity": 1,
+		"Effect": "我方全體目標防禦力提高<color=#f29e38ff>14%</color>，憶靈額外提高<color=#f29e38ff>6%</color>。",
+		"AbridgedEffect": "防禦力提高，憶靈額外提高。",
+		"EnhancedEffect": "我方全體目標防禦力提高<color=#f29e38ff>21%</color>，憶靈額外提高<color=#f29e38ff>9%</color>。",
+		"EnhancedAbridgedEffect": "防禦力提高，憶靈額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617155": {
+		"Id": "617155",
+		"Name": "感知：潮汐的故事",
+		"Rarity": 1,
+		"Effect": "我方全體目標回復量提高<color=#f29e38ff>10%</color>，憶靈額外提高<color=#f29e38ff>4%</color>。",
+		"AbridgedEffect": "回復量提高，憶靈額外提高。",
+		"EnhancedEffect": "我方全體目標回復量提高<color=#f29e38ff>15%</color>，憶靈額外提高<color=#f29e38ff>6%</color>。",
+		"EnhancedAbridgedEffect": "回復量提高，憶靈額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617156": {
+		"Id": "617156",
+		"Name": "感知：赤骨與紅葉",
+		"Rarity": 1,
+		"Effect": "憶靈行動後，我方全體目標暴擊率提高<color=#f29e38ff>14%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "憶靈行動後，我方全體暴擊率提高。",
+		"EnhancedEffect": "憶靈行動後，我方全體目標暴擊率提高<color=#f29e38ff>21%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "憶靈行動後，我方全體暴擊率提高。",
+		"VersionAdded": "4.1"
+	},
+	"617157": {
+		"Id": "617157",
+		"Name": "感知：白髮與珍珠",
+		"Rarity": 1,
+		"Effect": "憶靈行動後，我方全體目標暴擊傷害提高<color=#f29e38ff>28%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "憶靈行動後，我方全體暴擊傷害提高。",
+		"EnhancedEffect": "憶靈行動後，我方全體目標暴擊傷害提高<color=#f29e38ff>42%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "憶靈行動後，我方全體暴擊傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617220": {
+		"Id": "617220",
+		"Name": "可愛黑洞",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「虛無」產生臨界迴響，使敵方全體目標陷入灼燒、觸電、裂傷和2層風化狀態，持續<color=#f29e38ff>3</color>回合。受到角色攻擊後上述持續傷害立即產生相當於原傷害<color=#f29e38ff>25%</color>的傷害。",
+		"AbridgedEffect": "觸發臨界方程式後，使敵方全體陷入灼燒、觸電、裂傷和風化狀態，受到角色攻擊後觸發該持續傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617230": {
+		"Id": "617230",
+		"Name": "不可言明共通體",
+		"Rarity": 1,
+		"Effect": "敵方目標陷入持續傷害時，【<u>呢喃</u>】獲得等同於我方角色攻擊力之和<color=#f29e38ff>20%</color>的充能值。",
+		"AbridgedEffect": "敵方目標陷入持續傷害時，為【<u>呢喃</u>】充能。",
+		"EnhancedEffect": "敵方目標陷入持續傷害時，【<u>呢喃</u>】獲得等同於我方角色攻擊力之和<color=#f29e38ff>30%</color>的充能值。",
+		"EnhancedAbridgedEffect": "敵方目標陷入持續傷害時，為【<u>呢喃</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"617231": {
+		"Id": "617231",
+		"Name": "從存在到存在者",
+		"Rarity": 1,
+		"Effect": "敵方目標每回合首次受到攻擊後，使【<u>呢喃</u>】產生等同於原傷害<color=#f29e38ff>160%</color>的傷害。",
+		"AbridgedEffect": "敵方目標每回合首次受到攻擊後，觸發1次【<u>呢喃</u>】傷害。",
+		"EnhancedEffect": "敵方目標每回合首次受到攻擊後，使【<u>呢喃</u>】產生等同於原傷害<color=#f29e38ff>240%</color>的傷害。",
+		"EnhancedAbridgedEffect": "敵方目標每回合首次受到攻擊後，觸發1次【<u>呢喃</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617232": {
+		"Id": "617232",
+		"Name": "來自別處的聲音",
+		"Rarity": 1,
+		"Effect": "敵方目標回合開始時額外觸發1次持續傷害結算，使其當下承受的持續傷害狀態立即產生相當於原傷害<color=#f29e38ff>90%</color>的傷害。",
+		"AbridgedEffect": "敵方目標回合開始時，持續傷害狀態額外觸發1次。",
+		"EnhancedEffect": "敵方目標回合開始時額外觸發1次持續傷害結算，使其當下承受的持續傷害狀態立即產生相當於原傷害<color=#f29e38ff>135%</color>的傷害。",
+		"EnhancedAbridgedEffect": "敵方目標回合開始時，持續傷害狀態額外觸發1次。",
+		"VersionAdded": "4.1"
+	},
+	"617240": {
+		"Id": "617240",
+		"Name": "啟蒙與滅盡",
+		"Rarity": 1,
+		"Effect": "敵方目標回合結束時，【<u>呢喃</u>】獲得等同於我方角色攻擊力之和<color=#f29e38ff>40%</color>的充能值。",
+		"AbridgedEffect": "敵方目標回合結束時，【<u>呢喃</u>】獲得充能值。",
+		"EnhancedEffect": "敵方目標回合結束時，【<u>呢喃</u>】獲得等同於我方角色攻擊力之和<color=#f29e38ff>60%</color>的充能值。",
+		"EnhancedAbridgedEffect": "敵方目標回合結束時，【<u>呢喃</u>】獲得充能值。",
+		"VersionAdded": "4.1"
+	},
+	"617241": {
+		"Id": "617241",
+		"Name": "眼淚與聖徒",
+		"Rarity": 1,
+		"Effect": "敵方目標每次受到【<u>呢喃</u>】傷害後，造成的傷害降低<color=#f29e38ff>0.3%</color>，最多降低<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "敵方目標每次受到【<u>呢喃</u>】傷害後，造成的傷害降低。",
+		"EnhancedEffect": "敵方目標每次受到【<u>呢喃</u>】傷害後，造成的傷害降低<color=#f29e38ff>0.8%</color>，最多降低<color=#f29e38ff>16%</color>。",
+		"EnhancedAbridgedEffect": "敵方目標每次受到【<u>呢喃</u>】傷害後，造成的傷害降低。",
+		"VersionAdded": "4.1"
+	},
+	"617242": {
+		"Id": "617242",
+		"Name": "失眠之禮讚",
+		"Rarity": 1,
+		"Effect": "【<u>呢喃</u>】傷害提高等同於原傷害倍率的<color=#f29e38ff>30%</color>。",
+		"AbridgedEffect": "【<u>呢喃</u>】傷害提高。",
+		"EnhancedEffect": "【<u>呢喃</u>】傷害提高等同於原傷害倍率的<color=#f29e38ff>45%</color>。",
+		"EnhancedAbridgedEffect": "【<u>呢喃</u>】傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617243": {
+		"Id": "617243",
+		"Name": "在絕望之巔",
+		"Rarity": 1,
+		"Effect": "【<u>呢喃</u>】的清除閾值提高<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "【<u>呢喃</u>】的清除值上限提高。",
+		"EnhancedEffect": "【<u>呢喃</u>】的清除閾值提高<color=#f29e38ff>75%</color>。",
+		"EnhancedAbridgedEffect": "【<u>呢喃</u>】的清除值上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617244": {
+		"Id": "617244",
+		"Name": "災異的書寫",
+		"Rarity": 1,
+		"Effect": "【<u>呢喃</u>】獲得充能時的充能效率提高<color=#f29e38ff>20%</color>。",
+		"AbridgedEffect": "【<u>呢喃</u>】獲得充能時的充能效率提高。",
+		"EnhancedEffect": "【<u>呢喃</u>】獲得充能時的充能效率提高<color=#f29e38ff>30%</color>。",
+		"EnhancedAbridgedEffect": "【<u>呢喃</u>】獲得充能時的充能效率提高。",
+		"VersionAdded": "4.1"
+	},
+	"617245": {
+		"Id": "617245",
+		"Name": "最後的言者",
+		"Rarity": 1,
+		"Effect": "敵方目標每受到1次持續傷害，我方全體便回復等同於各自<color=#f29e38ff>1.0%</color>生命上限的生命值。",
+		"AbridgedEffect": "敵方目標每受到1次持續傷害，我方全體便回復生命值。",
+		"EnhancedEffect": "敵方目標每受到1次持續傷害，我方全體便回復等同於各自<color=#f29e38ff>1.5%</color>生命上限的生命值。",
+		"EnhancedAbridgedEffect": "敵方目標每受到1次持續傷害，我方全體便回復生命值。",
+		"VersionAdded": "4.1"
+	},
+	"617246": {
+		"Id": "617246",
+		"Name": "模稜兩可",
+		"Rarity": 1,
+		"Effect": "敵方目標每陷入1個持續傷害狀態，受到的傷害提高<color=#f29e38ff>3.0%</color>，最多疊加<color=#f29e38ff>6</color>層。",
+		"AbridgedEffect": "敵方目標每陷入1個持續傷害狀態，受到的傷害提高。",
+		"EnhancedEffect": "敵方目標每陷入1個持續傷害狀態，受到的傷害提高<color=#f29e38ff>4.5%</color>，最多疊加<color=#f29e38ff>6</color>層。",
+		"EnhancedAbridgedEffect": "敵方目標每陷入1個持續傷害狀態，受到的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617250": {
+		"Id": "617250",
+		"Name": "活的隱喻",
+		"Rarity": 1,
+		"Effect": "我方目標造成的持續傷害提高<color=#f29e38ff>24%</color>。",
+		"AbridgedEffect": "造成的持續傷害提高。",
+		"EnhancedEffect": "我方目標造成的持續傷害提高<color=#f29e38ff>36%</color>。",
+		"EnhancedAbridgedEffect": "造成的持續傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617251": {
+		"Id": "617251",
+		"Name": "無存在者",
+		"Rarity": 1,
+		"Effect": "我方目標效果命中提高<color=#f29e38ff>24%</color>。",
+		"AbridgedEffect": "效果命中提高。",
+		"EnhancedEffect": "我方目標效果命中提高<color=#f29e38ff>36%</color>。",
+		"EnhancedAbridgedEffect": "效果命中提高。",
+		"VersionAdded": "4.1"
+	},
+	"617252": {
+		"Id": "617252",
+		"Name": "疾病致死",
+		"Rarity": 1,
+		"Effect": "敵方目標效果抗性降低<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "敵方目標效果抗性降低。",
+		"EnhancedEffect": "敵方目標效果抗性降低<color=#f29e38ff>18%</color>。",
+		"EnhancedAbridgedEffect": "敵方目標效果抗性降低。",
+		"VersionAdded": "4.1"
+	},
+	"617253": {
+		"Id": "617253",
+		"Name": "不敬神明",
+		"Rarity": 1,
+		"Effect": "敵方目標受到的持續傷害提高<color=#f29e38ff>10%</color>。",
+		"AbridgedEffect": "敵方目標受到的持續傷害提高。",
+		"EnhancedEffect": "敵方目標受到的持續傷害提高<color=#f29e38ff>15%</color>。",
+		"EnhancedAbridgedEffect": "敵方目標受到的持續傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617254": {
+		"Id": "617254",
+		"Name": "內在體驗",
+		"Rarity": 1,
+		"Effect": "我方目標施加負面狀態後，攻擊力提高<color=#f29e38ff>24%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "施加負面狀態後，攻擊力提高。",
+		"EnhancedEffect": "我方目標施加負面狀態後，攻擊力提高<color=#f29e38ff>36%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "施加負面狀態後，攻擊力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617255": {
+		"Id": "617255",
+		"Name": "黑色太陽",
+		"Rarity": 1,
+		"Effect": "持有持續傷害狀態的敵方目標，受到的傷害提高<color=#f29e38ff>8%</color>。",
+		"AbridgedEffect": "持有持續傷害狀態的敵方目標，受到的傷害提高。",
+		"EnhancedEffect": "持有持續傷害狀態的敵方目標，受到的傷害提高<color=#f29e38ff>12%</color>。",
+		"EnhancedAbridgedEffect": "持有持續傷害狀態的敵方目標，受到的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617256": {
+		"Id": "617256",
+		"Name": "超越善惡",
+		"Rarity": 1,
+		"Effect": "我方目標施加負面狀態後，速度提高<color=#f29e38ff>10%</color>，持續<color=#f29e38ff>3</color>回合。",
+		"AbridgedEffect": "施加負面狀態後，速度提高。",
+		"EnhancedEffect": "我方目標施加負面狀態後，速度提高<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>3</color>回合。",
+		"EnhancedAbridgedEffect": "施加負面狀態後，速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617257": {
+		"Id": "617257",
+		"Name": "他者之死",
+		"Rarity": 1,
+		"Effect": "敵方目標每受到1次持續傷害，我方隨機目標便恢復<color=#f29e38ff>1.0</color>點能量，敵方目標每回合最多觸發<color=#f29e38ff>20</color>次該效果。",
+		"AbridgedEffect": "敵方目標每次受到持續傷害後，隨機我方目標恢復能量。",
+		"EnhancedEffect": "敵方目標每受到1次持續傷害，我方隨機目標便恢復<color=#f29e38ff>1.5</color>點能量，敵方目標每回合最多觸發<color=#f29e38ff>20</color>次該效果。",
+		"EnhancedAbridgedEffect": "敵方目標每次受到持續傷害後，隨機我方目標恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"617420": {
+		"Id": "617420",
+		"Name": "最後的子彈",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「巡獵」產生臨界迴響，對敵方全體目標造成風屬性傷害，並使我方全體行動提前<color=#f29e38ff>100%</color>，能量上限為200。",
+		"AbridgedEffect": "可消耗100點能量施放技能與命途「巡獵」產生臨界迴響，對敵方全體目標造成風屬性傷害，並使我方全體行動提前<color=#f29e38ff>100%</color>，能量上限為200。",
+		"VersionAdded": "4.1"
+	},
+	"617430": {
+		"Id": "617430",
+		"Name": "彈鋏枕弓，世路干戈",
+		"Rarity": 1,
+		"Effect": "我方目標消滅敵方目標後，行動提前100%，並使其他敵方目標獲得<color=#f29e38ff>4</color>層【<u>逆會心</u>】。",
+		"AbridgedEffect": "我方目標消滅敵方目標後，行動提前100%，並使其他敵方目標獲得<color=#f29e38ff>4</color>層【<u>逆會心</u>】。",
+		"EnhancedEffect": "我方目標速度提高<color=#f29e38ff>12%</color>，我方目標消滅敵方目標後，行動提前100%，並使其他敵方目標獲得<color=#f29e38ff>8</color>層【<u>逆會心</u>】。",
+		"EnhancedAbridgedEffect": "我方目標速度提高<color=#f29e38ff>12%</color>，我方目標消滅敵方目標後，行動提前100%，並使其他敵方目標獲得<color=#f29e38ff>8</color>層【<u>逆會心</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617431": {
+		"Id": "617431",
+		"Name": "白羽奔湍，星海俄空",
+		"Rarity": 1,
+		"Effect": "我方目標發動攻擊後，當攻擊目標數量為1/2/3/4/5時，造成的【<u>逆會心</u>】傷害提高等同於原傷害倍率的<color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color>。",
+		"AbridgedEffect": "我方目標發動攻擊後，當攻擊目標數量為1/2/3/4/5時，造成的【<u>逆會心</u>】傷害提高等同於原傷害倍率的<color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color>。",
+		"EnhancedEffect": "我方目標發動攻擊後，當攻擊目標數量為1/2/3/4/5時，造成的【<u>逆會心</u>】傷害提高等同於原傷害倍率的<color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color>。",
+		"EnhancedAbridgedEffect": "我方目標發動攻擊後，當攻擊目標數量為1/2/3/4/5時，造成的【<u>逆會心</u>】傷害提高等同於原傷害倍率的<color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"617432": {
+		"Id": "617432",
+		"Name": "萬乘之變，可堪試勇",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點後，自身行動提前100%。",
+		"AbridgedEffect": "我方目標擊破敵方目標弱點後，自身行動提前100%。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點後，自身行動提前100%，並使造成的傷害提高<color=#f29e38ff>50%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "我方目標擊破敵方目標弱點後，自身行動提前100%，並使造成的傷害提高<color=#f29e38ff>50%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"617440": {
+		"Id": "617440",
+		"Name": "連星入劍端",
+		"Rarity": 1,
+		"Effect": "我方目標對持有【<u>逆會心</u>】的敵方目標造成傷害時，暴擊率提高<color=#f29e38ff>20%</color>。每有1層【<u>逆會心</u>】，便額外使暴擊傷害提高<color=#f29e38ff>3%</color>。",
+		"AbridgedEffect": "我方目標對持有【<u>逆會心</u>】的敵方目標暴擊率提高，【<u>逆會心</u>】層數越多暴擊傷害越高。",
+		"EnhancedEffect": "我方目標對持有【<u>逆會心</u>】的敵方目標造成傷害時，暴擊率提高<color=#f29e38ff>25%</color>。每有1層【<u>逆會心</u>】，便額外使暴擊傷害提高<color=#f29e38ff>5%</color>。",
+		"EnhancedAbridgedEffect": "我方目標對持有【<u>逆會心</u>】的敵方目標暴擊率提高，【<u>逆會心</u>】層數越多暴擊傷害越高。",
+		"VersionAdded": "4.1"
+	},
+	"617441": {
+		"Id": "617441",
+		"Name": "楛矢何參差",
+		"Rarity": 1,
+		"Effect": "敵方目標的【<u>逆會心</u>】層數上限提高<color=#f29e38ff>5</color>層。",
+		"AbridgedEffect": "敵方目標的【<u>逆會心</u>】層數上限提高。",
+		"EnhancedEffect": "敵方目標的【<u>逆會心</u>】層數上限提高<color=#f29e38ff>10</color>層。",
+		"EnhancedAbridgedEffect": "敵方目標的【<u>逆會心</u>】層數上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617442": {
+		"Id": "617442",
+		"Name": "騰騎紛往來",
+		"Rarity": 1,
+		"Effect": "敵方目標回合開始時，每持有1層【<u>逆會心</u>】，受到的傷害提高<color=#f29e38ff>0.8%</color>，持續至下回合開始時。",
+		"AbridgedEffect": "敵方目標【<u>逆會心</u>】層數越多，受到的傷害越高。",
+		"EnhancedEffect": "敵方目標回合開始時，每持有1層【<u>逆會心</u>】，受到的傷害提高<color=#f29e38ff>1.2%</color>，持續至下回合開始時。",
+		"EnhancedAbridgedEffect": "敵方目標【<u>逆會心</u>】層數越多，受到的傷害越高。",
+		"VersionAdded": "4.1"
+	},
+	"617443": {
+		"Id": "617443",
+		"Name": "可使寸寸折",
+		"Rarity": 1,
+		"Effect": "我方目標發動追加攻擊後，額外使隨機攻擊目標獲得<color=#f29e38ff>2</color>層【<u>逆會心</u>】。",
+		"AbridgedEffect": "我方目標發動追加攻擊後，額外使隨機攻擊目標獲得<color=#f29e38ff>2</color>層【<u>逆會心</u>】。",
+		"EnhancedEffect": "我方目標發動追加攻擊後，額外使隨機攻擊目標獲得<color=#f29e38ff>2</color>層【<u>逆會心</u>】，並使自身速度提高<color=#f29e38ff>30%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "我方目標發動追加攻擊後，額外使隨機攻擊目標獲得<color=#f29e38ff>2</color>層【<u>逆會心</u>】，並使自身速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617444": {
+		"Id": "617444",
+		"Name": "炯然耀電光",
+		"Rarity": 1,
+		"Effect": "我方目標發動攻擊後，若有攻擊目標持有大於等於<color=#f29e38ff>5</color>層【<u>逆會心</u>】，則使自身攻擊力提高<color=#f29e38ff>50%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "我方目標發動攻擊後，若有攻擊目標持有大於等於<color=#f29e38ff>5</color>層【<u>逆會心</u>】，則使自身攻擊力提高。",
+		"EnhancedEffect": "我方目標發動攻擊後，若有攻擊目標持有大於等於<color=#f29e38ff>5</color>層【<u>逆會心</u>】，則使自身攻擊力提高<color=#f29e38ff>75%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "我方目標發動攻擊後，若有攻擊目標持有大於等於<color=#f29e38ff>5</color>層【<u>逆會心</u>】，則使自身攻擊力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617445": {
+		"Id": "617445",
+		"Name": "宿昔秉良弓",
+		"Rarity": 1,
+		"Effect": "我方目標發動追加攻擊後，有<color=#f29e38ff>40%</color>的固定機率回復1點戰技點。",
+		"AbridgedEffect": "我方目標發動追加攻擊後，有機率回復戰技點。",
+		"EnhancedEffect": "我方目標發動追加攻擊後，有<color=#f29e38ff>60%</color>的固定機率回復1點戰技點。",
+		"EnhancedAbridgedEffect": "我方目標發動追加攻擊後，有機率回復戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"617446": {
+		"Id": "617446",
+		"Name": "激箭流星遠",
+		"Rarity": 1,
+		"Effect": "我方目標速度提高<color=#f29e38ff>5%</color>，全隊每經過<color=#f29e38ff>12</color>個回合後，目前我方目標行動便提前100%。",
+		"AbridgedEffect": "我方目標速度提高<color=#f29e38ff>5%</color>，全隊每經過<color=#f29e38ff>12</color>個回合後，目前我方目標行動便提前100%。",
+		"EnhancedEffect": "我方目標速度提高<color=#f29e38ff>12%</color>，全隊每經過<color=#f29e38ff>12</color>個回合後，目前我方目標行動便提前100%。",
+		"EnhancedAbridgedEffect": "我方目標速度提高<color=#f29e38ff>12%</color>，全隊每經過<color=#f29e38ff>12</color>個回合後，目前我方目標行動便提前100%。",
+		"VersionAdded": "4.1"
+	},
+	"617450": {
+		"Id": "617450",
+		"Name": "排檠則正",
+		"Rarity": 1,
+		"Effect": "我方目標速度提高<color=#f29e38ff>8%</color>。",
+		"AbridgedEffect": "我方目標速度提高。",
+		"EnhancedEffect": "我方目標速度提高<color=#f29e38ff>12%</color>。",
+		"EnhancedAbridgedEffect": "我方目標速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617451": {
+		"Id": "617451",
+		"Name": "百夫決拾",
+		"Rarity": 1,
+		"Effect": "我方目標暴擊率提高<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "我方目標暴擊率提高。",
+		"EnhancedEffect": "我方目標暴擊率提高<color=#f29e38ff>18%</color>。",
+		"EnhancedAbridgedEffect": "我方目標暴擊率提高。",
+		"VersionAdded": "4.1"
+	},
+	"617452": {
+		"Id": "617452",
+		"Name": "昭質既設",
+		"Rarity": 1,
+		"Effect": "我方目標暴擊傷害提高<color=#f29e38ff>24%</color>。",
+		"AbridgedEffect": "我方目標暴擊傷害提高。",
+		"EnhancedEffect": "我方目標暴擊傷害提高<color=#f29e38ff>36%</color>。",
+		"EnhancedAbridgedEffect": "我方目標暴擊傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617453": {
+		"Id": "617453",
+		"Name": "秋月行天",
+		"Rarity": 1,
+		"Effect": "消滅敵方目標後，為我方全體目標回復等同於生命值上限<color=#f29e38ff>12%</color>的生命值。",
+		"AbridgedEffect": "消滅敵方目標後，為我方全體目標回復生命值。",
+		"EnhancedEffect": "消滅敵方目標後，為我方全體目標回復等同於生命值上限<color=#f29e38ff>18%</color>的生命值。",
+		"EnhancedAbridgedEffect": "消滅敵方目標後，為我方全體目標回復生命值。",
+		"VersionAdded": "4.1"
+	},
+	"617454": {
+		"Id": "617454",
+		"Name": "捲手一挃",
+		"Rarity": 1,
+		"Effect": "消滅敵方目標後，我方全體攻擊力提高<color=#f29e38ff>10%</color>，最多疊加<color=#f29e38ff>4</color>次。",
+		"AbridgedEffect": "消滅敵方目標後，我方全體攻擊力提高。",
+		"EnhancedEffect": "消滅敵方目標後，我方全體攻擊力提高<color=#f29e38ff>15%</color>，最多疊加<color=#f29e38ff>4</color>次。",
+		"EnhancedAbridgedEffect": "消滅敵方目標後，我方全體攻擊力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617455": {
+		"Id": "617455",
+		"Name": "矢摧月支",
+		"Rarity": 1,
+		"Effect": "我方目標回合結束時，行動提前<color=#f29e38ff>6%</color>。",
+		"AbridgedEffect": "我方目標回合結束時，行動提前。",
+		"EnhancedEffect": "我方目標回合結束時，行動提前<color=#f29e38ff>9%</color>。",
+		"EnhancedAbridgedEffect": "我方目標回合結束時，行動提前。",
+		"VersionAdded": "4.1"
+	},
+	"617456": {
+		"Id": "617456",
+		"Name": "壁上雷鳴",
+		"Rarity": 1,
+		"Effect": "我方目標回合開始時，恢復<color=#f29e38ff>3</color>點能量。",
+		"AbridgedEffect": "我方目標回合開始時，恢復能量。",
+		"EnhancedEffect": "我方目標回合開始時，恢復<color=#f29e38ff>4</color>點能量。",
+		"EnhancedAbridgedEffect": "我方目標回合開始時，恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"617457": {
+		"Id": "617457",
+		"Name": "青枝朱弦",
+		"Rarity": 1,
+		"Effect": "消滅敵方目標後，我方全體速度提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>3</color>次。",
+		"AbridgedEffect": "消滅敵方目標後，我方全體速度提高。",
+		"EnhancedEffect": "消滅敵方目標後，我方全體速度提高<color=#f29e38ff>6%</color>，最多疊加<color=#f29e38ff>3</color>次。",
+		"EnhancedAbridgedEffect": "消滅敵方目標後，我方全體速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617520": {
+		"Id": "617520",
+		"Name": "界外天魔主",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「毀滅」產生臨界迴響，對敵方全體目標造成火屬性傷害，消耗我方全體生命值至<color=#f29e38ff>60%</color>，並使我方全體生命值上限提高<color=#f29e38ff>100%</color>，在回合開始時回復自身已消耗生命值的<color=#f29e38ff>100%</color>，持續<color=#f29e38ff>4</color>回合。",
+		"AbridgedEffect": "觸發臨界方程式後，對敵方全體造成火屬性傷害，降低我方全體生命值，並使生命上限提高且在回合開始時回復生命值。",
+		"VersionAdded": "4.1"
+	},
+	"617530": {
+		"Id": "617530",
+		"Name": "無毛超光速暴漲",
+		"Rarity": 1,
+		"Effect": "我方目標造成的【<u>耀變</u>】傷害提高<color=#f29e38ff>20%</color>，【<u>耀變</u>】上限提高<color=#f29e38ff>65%</color>。",
+		"AbridgedEffect": "我方目標造成的【<u>耀變</u>】傷害提高，【<u>耀變</u>】上限提高。",
+		"EnhancedEffect": "我方目標造成的【<u>耀變</u>】傷害提高<color=#f29e38ff>30%</color>，【<u>耀變</u>】上限提高<color=#f29e38ff>100%</color>。",
+		"EnhancedAbridgedEffect": "我方目標造成的【<u>耀變</u>】傷害提高，【<u>耀變</u>】上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617531": {
+		"Id": "617531",
+		"Name": "隨機自由程激波",
+		"Rarity": 1,
+		"Effect": "我方目標每回合首次發動攻擊後，對攻擊目標造成等同於【<u>耀變</u>】<color=#f29e38ff>100%</color>的附加傷害。",
+		"AbridgedEffect": "我方目標每回合首次發動攻擊後，根據【<u>耀變</u>】對攻擊目標造成附加傷害。",
+		"EnhancedEffect": "我方目標每回合首次發動攻擊後，對攻擊目標造成等同於【<u>耀變</u>】<color=#f29e38ff>150%</color>的附加傷害。",
+		"EnhancedAbridgedEffect": "我方目標每回合首次發動攻擊後，根據【<u>耀變</u>】對攻擊目標造成附加傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617532": {
+		"Id": "617532",
+		"Name": "超高速雲際介質",
+		"Rarity": 1,
+		"Effect": "受到攻擊時，我方目標所受傷害將由我方全體分攤。",
+		"AbridgedEffect": "我方全體共同分攤受擊傷害。",
+		"EnhancedEffect": "我方目標受到的傷害降低<color=#f29e38ff>15%</color>，受到攻擊時，我方目標所受傷害由我方全體分攤。",
+		"EnhancedAbridgedEffect": "我方全體共同分攤受擊傷害且使我方目標受到的傷害降低。",
+		"VersionAdded": "4.1"
+	},
+	"617540": {
+		"Id": "617540",
+		"Name": "緻密型閃焰",
+		"Rarity": 1,
+		"Effect": "我方目標受到攻擊時，【<u>耀變</u>】傷害倍率提高原倍率的<color=#f29e38ff>20%</color>，最多疊加<color=#f29e38ff>2</color>次，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "受到攻擊時，使【<u>耀變</u>】傷害提高。",
+		"EnhancedEffect": "我方目標受到攻擊時，【<u>耀變</u>】傷害倍率提高原倍率的<color=#f29e38ff>30%</color>，最多疊加<color=#f29e38ff>2</color>次，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "受到攻擊時，使【<u>耀變</u>】傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617541": {
+		"Id": "617541",
+		"Name": "同步性輻射",
+		"Rarity": 1,
+		"Effect": "我方目標獲得護盾量的<color=#f29e38ff>40%</color>被額外轉化為【<u>耀變</u>】。",
+		"AbridgedEffect": "獲得的護盾量可額外被轉化為【<u>耀變</u>】。",
+		"EnhancedEffect": "我方目標獲得護盾量的<color=#f29e38ff>60%</color>被額外轉化為【<u>耀變</u>】。",
+		"EnhancedAbridgedEffect": "獲得的護盾量可額外被轉化為【<u>耀變</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617542": {
+		"Id": "617542",
+		"Name": "連續性譜區",
+		"Rarity": 1,
+		"Effect": "溢出回復量的<color=#f29e38ff>40%</color>也可被轉化為【<u>耀變</u>】。",
+		"AbridgedEffect": "溢出回復量也可被轉化為【<u>耀變</u>】。",
+		"EnhancedEffect": "溢出回復量的<color=#f29e38ff>60%</color>也可被轉化為【<u>耀變</u>】。",
+		"EnhancedAbridgedEffect": "溢出回復量也可被轉化為【<u>耀變</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617543": {
+		"Id": "617543",
+		"Name": "遮蔽性隱帶",
+		"Rarity": 1,
+		"Effect": "【<u>耀變</u>】基礎值提高<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "【<u>耀變</u>】基礎值提高。",
+		"EnhancedEffect": "【<u>耀變</u>】基礎值提高<color=#f29e38ff>75%</color>。",
+		"EnhancedAbridgedEffect": "【<u>耀變</u>】基礎值提高。",
+		"VersionAdded": "4.1"
+	},
+	"617544": {
+		"Id": "617544",
+		"Name": "災難性變星",
+		"Rarity": 1,
+		"Effect": "【<u>耀變</u>】造成傷害的暴擊率提高<color=#f29e38ff>20%</color>，暴擊傷害提高<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "【<u>耀變</u>】造成傷害的暴擊率提高，暴擊傷害提高。",
+		"EnhancedEffect": "【<u>耀變</u>】造成傷害的暴擊率提高<color=#f29e38ff>30%</color>，暴擊傷害提高<color=#f29e38ff>75%</color>。",
+		"EnhancedAbridgedEffect": "【<u>耀變</u>】造成傷害的暴擊率提高，暴擊傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617545": {
+		"Id": "617545",
+		"Name": "受迫性躍遷",
+		"Rarity": 1,
+		"Effect": "我方目標受到攻擊或消耗生命值後，若現有生命值百分比小於<color=#f29e38ff>35%</color>，回復等同於生命上限<color=#f29e38ff>12%</color>的生命值，單次行動內最多依此法回復等同於生命上限<color=#f29e38ff>18%</color>的生命值。",
+		"AbridgedEffect": "受到攻擊或消耗生命值後，若現有生命值百分比小於<color=#f29e38ff>35%</color>，將回復生命值。",
+		"EnhancedEffect": "我方目標受到攻擊或消耗生命值後，若現有生命值百分比小於<color=#f29e38ff>35%</color>，回復等同於生命上限<color=#f29e38ff>20%</color>的生命值，單次行動內最多依此法回復等同於生命上限<color=#f29e38ff>30%</color>的生命值。",
+		"EnhancedAbridgedEffect": "受到攻擊或消耗生命值後，若現有生命值百分比小於<color=#f29e38ff>35%</color>，將回復生命值。",
+		"VersionAdded": "4.1"
+	},
+	"617546": {
+		"Id": "617546",
+		"Name": "放射性衰變",
+		"Rarity": 1,
+		"Effect": "我方目標生命百分比低於50%時，受到的傷害降低<color=#f29e38ff>10%</color>，回復量提高<color=#f29e38ff>20%</color>。",
+		"AbridgedEffect": "生命百分比低於50%時，受到的傷害降低，回復量提高。",
+		"EnhancedEffect": "我方目標生命百分比低於50%時，受到的傷害降低<color=#f29e38ff>15%</color>，回復量提高<color=#f29e38ff>30%</color>。",
+		"EnhancedAbridgedEffect": "生命百分比低於50%時，受到的傷害降低，回復量提高。",
+		"VersionAdded": "4.1"
+	},
+	"617550": {
+		"Id": "617550",
+		"Name": "雙極噴流",
+		"Rarity": 1,
+		"Effect": "我方目標受到的傷害降低<color=#f29e38ff>6%</color>。",
+		"AbridgedEffect": "受到的傷害降低。",
+		"EnhancedEffect": "我方目標受到的傷害降低<color=#f29e38ff>9%</color>。",
+		"EnhancedAbridgedEffect": "受到的傷害降低。",
+		"VersionAdded": "4.1"
+	},
+	"617551": {
+		"Id": "617551",
+		"Name": "雙瓣結構",
+		"Rarity": 1,
+		"Effect": "我方目標效果抗性提高<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "效果抗性提高。",
+		"EnhancedEffect": "我方目標效果抗性提高<color=#f29e38ff>18%</color>。",
+		"EnhancedAbridgedEffect": "效果抗性提高。",
+		"VersionAdded": "4.1"
+	},
+	"617552": {
+		"Id": "617552",
+		"Name": "相接雙星",
+		"Rarity": 1,
+		"Effect": "我方目標生命上限提高<color=#f29e38ff>16%</color>。",
+		"AbridgedEffect": "生命上限提高。",
+		"EnhancedEffect": "我方目標生命上限提高<color=#f29e38ff>24%</color>。",
+		"EnhancedAbridgedEffect": "生命上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617553": {
+		"Id": "617553",
+		"Name": "絕對星等",
+		"Rarity": 1,
+		"Effect": "我方目標回復量提高<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "回復量提高。",
+		"EnhancedEffect": "我方目標回復量提高<color=#f29e38ff>18%</color>。",
+		"EnhancedAbridgedEffect": "回復量提高。",
+		"VersionAdded": "4.1"
+	},
+	"617554": {
+		"Id": "617554",
+		"Name": "標準燭光",
+		"Rarity": 1,
+		"Effect": "我方目標獲得的護盾量提高<color=#f29e38ff>12%</color>。",
+		"AbridgedEffect": "獲得的護盾量提高。",
+		"EnhancedEffect": "我方目標獲得的護盾量提高<color=#f29e38ff>18%</color>。",
+		"EnhancedAbridgedEffect": "獲得的護盾量提高。",
+		"VersionAdded": "4.1"
+	},
+	"617555": {
+		"Id": "617555",
+		"Name": "傳質次星",
+		"Rarity": 1,
+		"Effect": "我方目標生命值或護盾量降低後，生命上限提高<color=#f29e38ff>20%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "生命值或護盾量降低後，生命上限提高。",
+		"EnhancedEffect": "我方目標生命值或護盾量降低後，生命上限提高<color=#f29e38ff>30%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "生命值或護盾量降低後，生命上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617556": {
+		"Id": "617556",
+		"Name": "互食聯星",
+		"Rarity": 1,
+		"Effect": "我方目標生命值或護盾量降低後，效果抗性提高<color=#f29e38ff>16%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "生命值或護盾量降低後，效果抗性提高。",
+		"EnhancedEffect": "我方目標生命值或護盾量降低後，效果抗性提高<color=#f29e38ff>24%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "生命值或護盾量降低後，效果抗性提高。",
+		"VersionAdded": "4.1"
+	},
+	"617557": {
+		"Id": "617557",
+		"Name": "新星爆發",
+		"Rarity": 1,
+		"Effect": "角色受到致命攻擊時不會陷入無法戰鬥狀態，並使現有生命值立即回復至自身生命上限的<color=#f29e38ff>20%</color>。該效果我方全體單場戰鬥中只能觸發<color=#f29e38ff>1</color>次。",
+		"AbridgedEffect": "角色可抵抗致命傷害，並回復自身生命值。我方全體生效次數有限。",
+		"EnhancedEffect": "角色受到致命攻擊時不會陷入無法戰鬥狀態，並使現有生命值立即回復至自身生命上限的<color=#f29e38ff>100%</color>。該效果我方全體單場戰鬥中只能觸發<color=#f29e38ff>1</color>次。",
+		"EnhancedAbridgedEffect": "角色可抵抗致命傷害，並回復自身生命值。我方全體生效次數有限。",
+		"VersionAdded": "4.1"
+	},
+	"617620": {
+		"Id": "617620",
+		"Name": "無限非機率",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「歡愉」產生臨界迴響，對敵方全體目標造成<color=#f29e38ff>5</color>～<color=#f29e38ff>10</color>次隨機屬性的歡愉傷害，並使阿哈立即獲得1個固定計入<color=#f29e38ff>200</color>笑點的額外回合，該回合不消耗笑點。",
+		"AbridgedEffect": "可消耗100點能量施放技能與命途「歡愉」產生臨界迴響，對敵方全體目標造成<color=#f29e38ff>5</color>～<color=#f29e38ff>10</color>次隨機屬性的歡愉傷害，並使阿哈立即獲得1個固定計入<color=#f29e38ff>200</color>笑點的額外回合，該回合不消耗笑點。",
+		"VersionAdded": "4.1"
+	},
+	"617630": {
+		"Id": "617630",
+		"Name": "《甘草披薩•薄荷刨冰》",
+		"Rarity": 1,
+		"Effect": "每經過<color=#f29e38ff>50</color>點行動值，【<u>發牌員</u>】便永久獲得1點充能。【<u>發牌員</u>】每有1點充能，便在中立戰鬥事件中使我方全體目標及其召喚物的速度額外提高<color=#f29e38ff>1</color>。",
+		"AbridgedEffect": "每經過<color=#f29e38ff>50</color>點行動值，【<u>發牌員</u>】便永久獲得1點充能。【<u>發牌員</u>】充能越多，中立戰鬥事件，我方全體目標及其召喚物的速度越高。",
+		"EnhancedEffect": "每經過<color=#f29e38ff>25</color>點行動值，【<u>發牌員</u>】便永久獲得1點充能。【<u>發牌員</u>】每有1點充能，便在中立戰鬥事件中使我方全體目標及其召喚物的速度額外提高<color=#f29e38ff>1</color>。",
+		"EnhancedAbridgedEffect": "每經過<color=#f29e38ff>25</color>點行動值，【<u>發牌員</u>】便永久獲得1點充能。【<u>發牌員</u>】充能越多，中立戰鬥事件，我方全體目標及其召喚物的速度越高。",
+		"VersionAdded": "4.1"
+	},
+	"617631": {
+		"Id": "617631",
+		"Name": "《海洋上校•昨日世界》",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】行動後，獲得<color=#f29e38ff>5</color>個笑點，並使我方全體目標暴擊傷害提高<color=#f29e38ff>60%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "【<u>發牌員</u>】行動後獲得笑點，並使我方全體暴擊傷害提高。",
+		"EnhancedEffect": "【<u>發牌員</u>】行動後，獲得<color=#f29e38ff>10</color>個笑點，並使我方全體目標暴擊傷害提高<color=#f29e38ff>60%</color>，每有1點充能便額外提高<color=#f29e38ff>3%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "【<u>發牌員</u>】行動後獲得笑點，並使我方全體暴擊傷害提高，充能越多提高越多。",
+		"VersionAdded": "4.1"
+	},
+	"617632": {
+		"Id": "617632",
+		"Name": "《日出黃沙•單人舞團》",
+		"Rarity": 1,
+		"Effect": "我方目標全屬性抗性穿透提高<color=#f29e38ff>10%</color>。笑點首次達到<color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color>時，使我方全體目標的歡愉度提高<color=#f29e38ff>20%</color>，可疊加。",
+		"AbridgedEffect": "我方目標全屬性抗性穿透提高。笑點越多，我方全體目標的歡愉度越高。",
+		"EnhancedEffect": "我方目標全屬性抗性穿透提高<color=#f29e38ff>15%</color>。笑點首次達到<color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color>時，使我方全體目標的歡愉度提高<color=#f29e38ff>30%</color>，可疊加。",
+		"EnhancedAbridgedEffect": "我方目標全屬性抗性穿透提高。笑點越多，我方全體目標的歡愉度越高。",
+		"VersionAdded": "4.1"
+	},
+	"617640": {
+		"Id": "617640",
+		"Name": "《屋中寂靜的一月》",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】的暴擊率提高<color=#f29e38ff>20%</color>，暴擊傷害提高<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "【<u>發牌員</u>】的暴擊率，暴擊傷害提高。",
+		"EnhancedEffect": "【<u>發牌員</u>】的暴擊率提高<color=#f29e38ff>30%</color>，暴擊傷害提高<color=#f29e38ff>75%</color>。",
+		"EnhancedAbridgedEffect": "【<u>發牌員</u>】的暴擊率，暴擊傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617641": {
+		"Id": "617641",
+		"Name": "《少尉深愛魚子醬》",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】造成傷害時，使攻擊目標受到的傷害提高<color=#f29e38ff>5%</color>，該效果可疊加，持續至下一次【<u>發牌員</u>】行動前。",
+		"AbridgedEffect": "【<u>發牌員</u>】造成傷害時，使攻擊目標受到的傷害提高。",
+		"EnhancedEffect": "【<u>發牌員</u>】造成傷害時，使攻擊目標受到的傷害提高<color=#f29e38ff>7%</color>，該效果可疊加，持續至下一次【<u>發牌員</u>】行動前。",
+		"EnhancedAbridgedEffect": "【<u>發牌員</u>】造成傷害時，使攻擊目標受到的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617642": {
+		"Id": "617642",
+		"Name": "《你知道，你的櫃子很漂亮》",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】的基礎速度提高<color=#f29e38ff>16</color>點，並在戰鬥開始時，行動提前<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "【<u>發牌員</u>】的基礎速度提高，並在戰鬥開始時，行動提前。",
+		"EnhancedEffect": "【<u>發牌員</u>】的基礎速度提高<color=#f29e38ff>24</color>點，並在戰鬥開始時，行動提前<color=#f29e38ff>50%</color>。",
+		"EnhancedAbridgedEffect": "【<u>發牌員</u>】的基礎速度提高，並在戰鬥開始時，行動提前。",
+		"VersionAdded": "4.1"
+	},
+	"617643": {
+		"Id": "617643",
+		"Name": "《神聖奇異果之種》",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】行動後，我方全體目標速度提高<color=#f29e38ff>18%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "【<u>發牌員</u>】行動後，我方全體目標速度提高。",
+		"EnhancedEffect": "【<u>發牌員</u>】行動後，我方全體目標速度提高<color=#f29e38ff>27%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "【<u>發牌員</u>】行動後，我方全體目標速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617644": {
+		"Id": "617644",
+		"Name": "《銀河系的貓叫聲》",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】造成傷害時，使攻擊目標造成的傷害降低<color=#f29e38ff>4%</color>，該效果可疊加，最多疊加<color=#f29e38ff>3</color>層，持續至下一次【<u>發牌員</u>】行動前。",
+		"AbridgedEffect": "【<u>發牌員</u>】造成傷害時，使攻擊目標造成的傷害降低。",
+		"EnhancedEffect": "【<u>發牌員</u>】造成傷害時，使攻擊目標造成的傷害降低<color=#f29e38ff>6%</color>，該效果可疊加，最多疊加<color=#f29e38ff>3</color>層，持續至下一次【<u>發牌員</u>】行動前。",
+		"EnhancedAbridgedEffect": "【<u>發牌員</u>】造成傷害時，使攻擊目標造成的傷害降低。",
+		"VersionAdded": "4.1"
+	},
+	"617645": {
+		"Id": "617645",
+		"Name": "《海洋裡的西蒙》",
+		"Rarity": 1,
+		"Effect": "我方目標造成的傷害無視敵方目標<color=#f29e38ff>8%</color>的防禦力，若為歡愉傷害，則額外無視<color=#f29e38ff>4%</color>。",
+		"AbridgedEffect": "我方目標造成的傷害無視敵方目標的防禦力，若為歡愉傷害，額外無視。",
+		"EnhancedEffect": "我方目標造成的傷害無視敵方目標<color=#f29e38ff>12%</color>的防禦力，若為歡愉傷害，則額外無視<color=#f29e38ff>6%</color>。",
+		"EnhancedAbridgedEffect": "我方目標造成的傷害無視敵方目標的防禦力，若為歡愉傷害，額外無視。",
+		"VersionAdded": "4.1"
+	},
+	"617646": {
+		"Id": "617646",
+		"Name": "《白日漫漫路迢迢》",
+		"Rarity": 1,
+		"Effect": "我方目標造成歡愉傷害時的弱點擊破效率提高<color=#f29e38ff>35%</color>。",
+		"AbridgedEffect": "我方目標造成歡愉傷害時的弱點擊破效率提高。",
+		"EnhancedEffect": "我方目標造成歡愉傷害時的弱點擊破效率提高<color=#f29e38ff>50%</color>。",
+		"EnhancedAbridgedEffect": "我方目標造成歡愉傷害時的弱點擊破效率提高。",
+		"VersionAdded": "4.1"
+	},
+	"617650": {
+		"Id": "617650",
+		"Name": "《迷幻停車場》",
+		"Rarity": 1,
+		"Effect": "進入戰鬥時，使我方全體行動提前<color=#f29e38ff>30%</color>，並獲得<color=#f29e38ff>10</color>個笑點。",
+		"AbridgedEffect": "進入戰鬥時，使我方全體行動提前，並獲得笑點。",
+		"EnhancedEffect": "進入戰鬥時，使我方全體行動提前<color=#f29e38ff>45%</color>，並獲得<color=#f29e38ff>15</color>個笑點。",
+		"EnhancedAbridgedEffect": "進入戰鬥時，使我方全體行動提前，並獲得笑點。",
+		"VersionAdded": "4.1"
+	},
+	"617651": {
+		"Id": "617651",
+		"Name": "《點戀線》",
+		"Rarity": 1,
+		"Effect": "我方全體目標受到的傷害降低<color=#f29e38ff>4%</color>，阿哈首次行動後，額外降低<color=#f29e38ff>3%</color>。",
+		"AbridgedEffect": "我方全體受到的傷害降低，阿哈首次行動後，額外降低。",
+		"EnhancedEffect": "我方全體目標受到的傷害降低<color=#f29e38ff>6%</color>，阿哈首次行動後，額外降低<color=#f29e38ff>4%</color>。",
+		"EnhancedAbridgedEffect": "我方全體受到的傷害降低，阿哈首次行動後，額外降低。",
+		"VersionAdded": "4.1"
+	},
+	"617652": {
+		"Id": "617652",
+		"Name": "《歐米茄城》",
+		"Rarity": 1,
+		"Effect": "我方目標的暴擊率提高<color=#f29e38ff>10%</color>，當造成歡愉傷害時，額外提高<color=#f29e38ff>4%</color>。",
+		"AbridgedEffect": "我方目標的暴擊率提高，歡愉傷害額外提高。",
+		"EnhancedEffect": "我方目標的暴擊率提高<color=#f29e38ff>15%</color>，當造成歡愉傷害時，額外提高<color=#f29e38ff>6%</color>。",
+		"EnhancedAbridgedEffect": "我方目標的暴擊率提高，歡愉傷害額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617653": {
+		"Id": "617653",
+		"Name": "《暴力先生》",
+		"Rarity": 1,
+		"Effect": "我方目標的暴擊傷害提高<color=#f29e38ff>20%</color>，當造成歡愉傷害時，額外提高<color=#f29e38ff>8%</color>。",
+		"AbridgedEffect": "我方目標的暴擊傷害提高，歡愉傷害額外提高。",
+		"EnhancedEffect": "我方目標的暴擊傷害提高<color=#f29e38ff>30%</color>，當造成歡愉傷害時，額外提高<color=#f29e38ff>12%</color>。",
+		"EnhancedAbridgedEffect": "我方目標的暴擊傷害提高，歡愉傷害額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617654": {
+		"Id": "617654",
+		"Name": "《遺世避難所》",
+		"Rarity": 1,
+		"Effect": "阿哈行動時，為我方全體恢復<color=#f29e38ff>4</color>點能量，該效果每個我方目標每回合最多觸發<color=#f29e38ff>1</color>次。",
+		"AbridgedEffect": "阿哈行動時，為我方全體恢復能量。",
+		"EnhancedEffect": "阿哈行動時，為我方全體恢復<color=#f29e38ff>6</color>點能量，該效果每個我方目標每回合最多觸發<color=#f29e38ff>1</color>次。",
+		"EnhancedAbridgedEffect": "阿哈行動時，為我方全體恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"617655": {
+		"Id": "617655",
+		"Name": "《灰幣金黃》",
+		"Rarity": 1,
+		"Effect": "阿哈行動後，我方全體目標獲得等同於生命上限<color=#f29e38ff>20%</color>的護盾，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "阿哈行動後，我方全體目標獲得護盾。",
+		"EnhancedEffect": "阿哈行動後，我方全體目標獲得等同於生命上限<color=#f29e38ff>30%</color>的護盾，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "阿哈行動後，我方全體目標獲得護盾。",
+		"VersionAdded": "4.1"
+	},
+	"617656": {
+		"Id": "617656",
+		"Name": "《死神騎車來》",
+		"Rarity": 1,
+		"Effect": "我方全體目標的防禦力提高<color=#f29e38ff>12%</color>，阿哈首次行動後，額外提高<color=#f29e38ff>8%</color>。",
+		"AbridgedEffect": "我方全體目標的防禦力提高，阿哈首次行動後，額外提高。",
+		"EnhancedEffect": "我方全體目標的防禦力提高<color=#f29e38ff>18%</color>，阿哈首次行動後，額外提高<color=#f29e38ff>12%</color>。",
+		"EnhancedAbridgedEffect": "我方全體目標的防禦力提高，阿哈首次行動後，額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617657": {
+		"Id": "617657",
+		"Name": "《貓鎮》",
+		"Rarity": 1,
+		"Effect": "我方全體目標的速度提高<color=#f29e38ff>6%</color>，阿哈首次行動後，額外提高<color=#f29e38ff>4%</color>。",
+		"AbridgedEffect": "我方全體目標的速度提高，阿哈首次行動後，額外提高。",
+		"EnhancedEffect": "我方全體目標的速度提高<color=#f29e38ff>9%</color>，阿哈首次行動後，額外提高<color=#f29e38ff>6%</color>。",
+		"EnhancedAbridgedEffect": "我方全體目標的速度提高，阿哈首次行動後，額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"617720": {
+		"Id": "617720",
+		"Name": "幻造物",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「繁育」產生臨界迴響，使指定我方單體立即行動，恢復<color=#f29e38ff>5</color>個戰技點，並獲得【<u>羽化</u>】效果，任意敵方單位被持有【<u>羽化</u>】效果的角色消滅後，臨界方程式恢復<color=#f29e38ff>50</color>點能量，能量上限為200。",
+		"AbridgedEffect": "觸發臨界方程式後，使指定我方單體立即行動，恢復<color=#f29e38ff>5</color>個戰技點，並獲得【<u>羽化</u>】效果，任意敵方單位被持有【<u>羽化</u>】效果的角色消滅後，臨界方程式恢復能量，能量上限為200。",
+		"VersionAdded": "4.1"
+	},
+	"617730": {
+		"Id": "617730",
+		"Name": "穆氏擬態",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊力提高<color=#f29e38ff>50%</color>。每獲得或消耗1個戰技點，便為【<u>魂繭</u>】充能<color=#f29e38ff>6%</color>。",
+		"AbridgedEffect": "攻擊力提高，獲得或消耗戰技點後，為【<u>魂繭</u>】充能。",
+		"EnhancedEffect": "我方目標攻擊力提高<color=#f29e38ff>75%</color>。每獲得或消耗1個戰技點，便為【<u>魂繭</u>】充能<color=#f29e38ff>9%</color>。",
+		"EnhancedAbridgedEffect": "攻擊力提高，獲得或消耗戰技點後，為【<u>魂繭</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"617731": {
+		"Id": "617731",
+		"Name": "彈射孢子",
+		"Rarity": 1,
+		"Effect": "【<u>蝶魄</u>】狀態下，我方目標造成的普通攻擊/戰技傷害提高<color=#f29e38ff>40%</color>，且【<u>蝶魄</u>】會額外造成1次原傷害<color=#f29e38ff>15%</color>的真實傷害。",
+		"AbridgedEffect": "【<u>蝶魄</u>】狀態下，普通攻擊戰技傷害提高，且【<u>蝶魄</u>】造成的真實傷害提高。",
+		"EnhancedEffect": "【<u>蝶魄</u>】狀態下，我方目標造成的普通攻擊/戰技傷害提高<color=#f29e38ff>80%</color>，且【<u>蝶魄</u>】會額外造成1次原傷害<color=#f29e38ff>15%</color>的真實傷害。",
+		"EnhancedAbridgedEffect": "【<u>蝶魄</u>】狀態下，普通攻擊戰技傷害提高，且【<u>蝶魄</u>】造成的真實傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617732": {
+		"Id": "617732",
+		"Name": "布勒水滴",
+		"Rarity": 1,
+		"Effect": "我方目標消耗戰技點後，我方全體暴擊傷害提高<color=#f29e38ff>2%</color>，最多疊加<color=#f29e38ff>35</color>層，施放終結技後，下次消耗戰技點後視為額外消耗1點。",
+		"AbridgedEffect": "消耗戰技點後，我方全體暴擊傷害提高，施放終結技後，下次消耗戰技點後視為額外消耗1點。",
+		"EnhancedEffect": "我方目標消耗或獲得戰技點後，我方全體暴擊傷害提高<color=#f29e38ff>3%</color>，最多疊加<color=#f29e38ff>35</color>層，施放終結技後，下次消耗或獲得戰技點後視為額外消耗或獲得1點。",
+		"EnhancedAbridgedEffect": "消耗或獲得戰技點後，我方全體暴擊傷害提高，施放終結技後，下次消耗或獲得戰技點後視為額外消耗或獲得1點。",
+		"VersionAdded": "4.1"
+	},
+	"617740": {
+		"Id": "617740",
+		"Name": "子實體",
+		"Rarity": 1,
+		"Effect": "消滅敵方目標後，為【<u>魂繭</u>】充能<color=#f29e38ff>30%</color>。",
+		"AbridgedEffect": "消滅敵方目標後，為【<u>魂繭</u>】充能。",
+		"EnhancedEffect": "消滅敵方目標後，為【<u>魂繭</u>】充能<color=#f29e38ff>45%</color>。",
+		"EnhancedAbridgedEffect": "消滅敵方目標後，為【<u>魂繭</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"617741": {
+		"Id": "617741",
+		"Name": "幾丁質",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊力提高<color=#f29e38ff>30%</color>。進入戰鬥時，為【<u>魂繭</u>】額外充能<color=#f29e38ff>30%</color>。",
+		"AbridgedEffect": "攻擊力提高。進入戰鬥時，為【<u>魂繭</u>】充能。",
+		"EnhancedEffect": "我方目標攻擊力提高<color=#f29e38ff>50%</color>。進入戰鬥時，為【<u>魂繭</u>】額外充能<color=#f29e38ff>35%</color>。",
+		"EnhancedAbridgedEffect": "攻擊力提高。進入戰鬥時，為【<u>魂繭</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"617742": {
+		"Id": "617742",
+		"Name": "自由蛹",
+		"Rarity": 1,
+		"Effect": "【<u>魂繭</u>】變為【<u>蝶魄</u>】時，回復<color=#f29e38ff>60%</color>生命值，並使該狀態下造成的傷害提高<color=#f29e38ff>20%</color>。",
+		"AbridgedEffect": "【<u>魂繭</u>】變為【<u>蝶魄</u>】時，回復生命值，並使該狀態下造成的傷害提高。",
+		"EnhancedEffect": "【<u>魂繭</u>】變為【<u>蝶魄</u>】時，回復<color=#f29e38ff>100%</color>生命值，並使該狀態下造成的傷害提高<color=#f29e38ff>30%</color>。",
+		"EnhancedAbridgedEffect": "【<u>魂繭</u>】變為【<u>蝶魄</u>】時，回復生命值，並使該狀態下造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617743": {
+		"Id": "617743",
+		"Name": "擔孢子",
+		"Rarity": 1,
+		"Effect": "【<u>蝶魄</u>】狀態下，普通攻擊/戰技傷害的全屬性抗性穿透提高<color=#f29e38ff>14%</color>。",
+		"AbridgedEffect": "【<u>蝶魄</u>】狀態下，普通攻擊/戰技的全屬性抗性穿透提高。",
+		"EnhancedEffect": "【<u>蝶魄</u>】狀態下，普通攻擊/戰技傷害的全屬性抗性穿透提高<color=#f29e38ff>21%</color>。",
+		"EnhancedAbridgedEffect": "【<u>蝶魄</u>】狀態下，普通攻擊/戰技的全屬性抗性穿透提高。",
+		"VersionAdded": "4.1"
+	},
+	"617744": {
+		"Id": "617744",
+		"Name": "結構色",
+		"Rarity": 1,
+		"Effect": "【<u>魂繭</u>】狀態下，速度提高<color=#f29e38ff>16%</color>，【<u>蝶魄</u>】狀態下，普通攻擊戰技造成的傷害提高<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "【<u>魂繭</u>】狀態下，速度提高，【<u>蝶魄</u>】狀態下，普通攻擊戰技造成的傷害提高。",
+		"EnhancedEffect": "【<u>魂繭</u>】狀態下，速度提高<color=#f29e38ff>24%</color>，【<u>蝶魄</u>】狀態下，普通攻擊戰技造成的傷害提高<color=#f29e38ff>75%</color>。",
+		"EnhancedAbridgedEffect": "【<u>魂繭</u>】狀態下，速度提高，【<u>蝶魄</u>】狀態下，普通攻擊戰技造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617745": {
+		"Id": "617745",
+		"Name": "端感棒",
+		"Rarity": 1,
+		"Effect": "我方目標每消耗1個戰技點，受到的傷害便降低<color=#f29e38ff>6%</color>，持續<color=#f29e38ff>2</color>回合。該效果最多疊加<color=#f29e38ff>2</color>層。",
+		"AbridgedEffect": "消耗戰技點後，受到的傷害降低。",
+		"EnhancedEffect": "我方目標每消耗1個戰技點，受到的傷害便降低<color=#f29e38ff>6%</color>，持續<color=#f29e38ff>2</color>回合。該效果最多疊加<color=#f29e38ff>3</color>層。",
+		"EnhancedAbridgedEffect": "消耗戰技點後，受到的傷害降低。",
+		"VersionAdded": "4.1"
+	},
+	"617746": {
+		"Id": "617746",
+		"Name": "飛濺蠱",
+		"Rarity": 1,
+		"Effect": "我方目標造成的普通攻擊/戰技傷害會對相鄰目標，造成等同於原傷害<color=#f29e38ff>10%</color>的傷害。",
+		"AbridgedEffect": "造成的普通攻擊與戰技傷害，會對相鄰目標也造成傷害。",
+		"EnhancedEffect": "我方目標造成的普通攻擊/戰技傷害會對相鄰目標，造成等同於原傷害<color=#f29e38ff>15%</color>的傷害。",
+		"EnhancedAbridgedEffect": "造成的普通攻擊與戰技傷害，會對相鄰目標也造成傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617750": {
+		"Id": "617750",
+		"Name": "蕈托",
+		"Rarity": 1,
+		"Effect": "我方目標消耗戰技點時，有<color=#f29e38ff>16%</color>固定機率恢復<color=#f29e38ff>1</color>個戰技點。",
+		"AbridgedEffect": "消耗戰技點時，有機率恢復戰技點。",
+		"EnhancedEffect": "我方目標消耗戰技點時，有<color=#f29e38ff>24%</color>固定機率恢復<color=#f29e38ff>1</color>個戰技點。",
+		"EnhancedAbridgedEffect": "消耗戰技點時，有機率恢復戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"617751": {
+		"Id": "617751",
+		"Name": "懸絲",
+		"Rarity": 1,
+		"Effect": "我方目標發動普通攻擊、戰技時造成的傷害提高<color=#f29e38ff>30%</color>。",
+		"AbridgedEffect": "發動普通攻擊、戰技時造成的傷害提高。",
+		"EnhancedEffect": "我方目標發動普通攻擊、戰技時造成的傷害提高<color=#f29e38ff>45%</color>。",
+		"EnhancedAbridgedEffect": "發動普通攻擊、戰技時造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617752": {
+		"Id": "617752",
+		"Name": "眼斑",
+		"Rarity": 1,
+		"Effect": "我方目標發動普通攻擊、戰技時造成的暴擊傷害提高<color=#f29e38ff>32%</color>。",
+		"AbridgedEffect": "發動普通攻擊、戰技時造成的暴擊傷害提高。",
+		"EnhancedEffect": "我方目標發動普通攻擊、戰技時造成的暴擊傷害提高<color=#f29e38ff>48%</color>。",
+		"EnhancedAbridgedEffect": "發動普通攻擊、戰技時造成的暴擊傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617753": {
+		"Id": "617753",
+		"Name": "背翼",
+		"Rarity": 1,
+		"Effect": "我方目標發動普通攻擊、戰技時造成的暴擊率提高<color=#f29e38ff>16%</color>。",
+		"AbridgedEffect": "發動普通攻擊、戰技時造成的暴擊率提高。",
+		"EnhancedEffect": "我方目標發動普通攻擊、戰技時造成的暴擊率提高<color=#f29e38ff>24%</color>。",
+		"EnhancedAbridgedEffect": "發動普通攻擊、戰技時造成的暴擊率提高。",
+		"VersionAdded": "4.1"
+	},
+	"617754": {
+		"Id": "617754",
+		"Name": "厚垣",
+		"Rarity": 1,
+		"Effect": "我方目標消耗戰技點時，防禦力提高<color=#f29e38ff>30%</color>，持續<color=#f29e38ff>1</color>回合。",
+		"AbridgedEffect": "消耗戰技點時，防禦力提高。",
+		"EnhancedEffect": "我方目標消耗戰技點時，防禦力提高<color=#f29e38ff>45%</color>，持續<color=#f29e38ff>1</color>回合。",
+		"EnhancedAbridgedEffect": "消耗戰技點時，防禦力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617755": {
+		"Id": "617755",
+		"Name": "跗節",
+		"Rarity": 1,
+		"Effect": "我方目標消耗戰技點時，速度提高<color=#f29e38ff>8%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "消耗戰技點時，速度提高。",
+		"EnhancedEffect": "我方目標消耗戰技點時，速度提高<color=#f29e38ff>12%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "消耗戰技點時，速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617756": {
+		"Id": "617756",
+		"Name": "唇鬚",
+		"Rarity": 1,
+		"Effect": "我方目標消耗戰技點時，恢復<color=#f29e38ff>2</color>點能量。",
+		"AbridgedEffect": "消耗戰技點時，恢復能量。",
+		"EnhancedEffect": "我方目標消耗戰技點時，恢復<color=#f29e38ff>3</color>點能量。",
+		"EnhancedAbridgedEffect": "消耗戰技點時，恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"617757": {
+		"Id": "617757",
+		"Name": "芽殖",
+		"Rarity": 1,
+		"Effect": "我方目標消耗戰技點時，回復等同於<color=#f29e38ff>10%</color>生命上限的生命值。",
+		"AbridgedEffect": "消耗戰技點時，回復生命值。",
+		"EnhancedEffect": "我方目標消耗戰技點時，回復等同於<color=#f29e38ff>15%</color>生命上限的生命值。",
+		"EnhancedAbridgedEffect": "消耗戰技點時，回復生命值。",
+		"VersionAdded": "4.1"
+	},
+	"617820": {
+		"Id": "617820",
+		"Name": "參考文獻",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「智識」產生臨界迴響，對敵方全體目標造成少量虛數屬性傷害，並將生命上限最高的敵方目標與其他敵方目標連接，使敵方全體陷入【<u>中樞連結</u>】狀態，並為我方全體恢復等同於能量上限<color=#f29e38ff>100%</color>的能量。",
+		"AbridgedEffect": "觸發臨界方程式後，對敵方全體造成虛數屬性傷害，使其陷入【<u>中樞連結</u>】狀態，並為我方全體恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"617830": {
+		"Id": "617830",
+		"Name": "TR<unbreak>-303</unbreak>式海馬體",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點後，為【<u>桶中腦</u>】充能<color=#f29e38ff>10%</color>，若為菁英敵人時則額外充能<color=#f29e38ff>40%</color>。",
+		"AbridgedEffect": "擊破敵方目標弱點後，為【<u>桶中腦</u>】充能，若為菁英敵人時則額外充能。",
+		"EnhancedEffect": "進入戰鬥時，為【<u>桶中腦</u>】充能<color=#f29e38ff>100%</color>。我方目標擊破敵方目標弱點後，為【<u>桶中腦</u>】充能<color=#f29e38ff>12%</color>，若為菁英敵人時則額外充能<color=#f29e38ff>50%</color>。",
+		"EnhancedAbridgedEffect": "進入戰鬥時，為【<u>桶中腦</u>】充能，擊破敵方目標弱點後，為【<u>桶中腦</u>】充能，若為菁英敵人時則額外充能。",
+		"VersionAdded": "4.1"
+	},
+	"617831": {
+		"Id": "617831",
+		"Name": "DBS<unbreak>-45</unbreak>式伏隔核",
+		"Rarity": 1,
+		"Effect": "我方目標使敵方目標受到致命傷害時，為【<u>桶中腦</u>】充能<color=#f29e38ff>50%</color>。",
+		"AbridgedEffect": "使敵方目標受到致命傷害時，為【<u>桶中腦</u>】充能。",
+		"EnhancedEffect": "我方目標使敵方目標受到致命傷害時，為【<u>桶中腦</u>】充能<color=#f29e38ff>50%</color>，每次充滿【<u>桶中腦</u>】後，速度提高<color=#f29e38ff>20%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "使敵方目標受到致命傷害時，為【<u>桶中腦</u>】充能，每次充滿【<u>桶中腦</u>】後，速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617832": {
+		"Id": "617832",
+		"Name": "ELO<unbreak>-536</unbreak>式黑質",
+		"Rarity": 1,
+		"Effect": "我方目標造成的終結技傷害的全屬性抗性穿透提高<color=#f29e38ff>20%</color>。施放終結技攻擊後，每有1個受到攻擊的敵方目標，便使所造成終結技傷害的全屬性抗性穿透額外提高<color=#f29e38ff>3%</color>，持續至下一次施放終結技後。",
+		"AbridgedEffect": "角色終結技傷害的全屬性抗性穿透提高，且終結技攻擊的敵方目標越多，終結技傷害的全屬性抗性穿透提高越多，持續至下一次施放終結技後。",
+		"EnhancedEffect": "我方目標造成的終結技傷害的全屬性抗性穿透提高<color=#f29e38ff>25%</color>。在本場戰鬥中已施放的終結技當中，取單次攻擊敵方目標的最大數量，每1名都會使造成的終結技傷害的全屬性抗性穿透額外提高<color=#f29e38ff>3%</color>。",
+		"EnhancedAbridgedEffect": "角色終結技傷害的全屬性抗性穿透提高，且本場戰鬥中已釋放的終結技攻擊的敵方目標越多，終結技傷害的全屬性抗性穿透提高越多。",
+		"VersionAdded": "4.1"
+	},
+	"617840": {
+		"Id": "617840",
+		"Name": "重啟：終末神經",
+		"Rarity": 1,
+		"Effect": "我方目標利用【<u>桶中腦</u>】施放終結技時，使暴擊傷害提高<color=#f29e38ff>80%</color>，持續至本次技能結束。",
+		"AbridgedEffect": "利用【<u>桶中腦</u>】施放終結技時，暴擊傷害提高。",
+		"EnhancedEffect": "我方目標利用【<u>桶中腦</u>】施放終結技時，使暴擊傷害提高<color=#f29e38ff>90%</color>，暴擊傷害提高效果會持續至下一次攻擊結束。",
+		"EnhancedAbridgedEffect": "利用【<u>桶中腦</u>】施放終結技時，暴擊傷害提高，該效果會持續至下一次攻擊結束。",
+		"VersionAdded": "4.1"
+	},
+	"617841": {
+		"Id": "617841",
+		"Name": "迭代：認知地圖",
+		"Rarity": 1,
+		"Effect": "我方目標利用【<u>桶中腦</u>】施放終結技後，獲得等同於生命上限<color=#f29e38ff>36%</color>的護盾，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "利用【<u>桶中腦</u>】施放終結技後，獲得護盾。",
+		"EnhancedEffect": "我方目標利用【<u>桶中腦</u>】施放終結技後，獲得等同於生命上限<color=#f29e38ff>45%</color>的護盾，持續<color=#f29e38ff>3</color>回合。",
+		"EnhancedAbridgedEffect": "利用【<u>桶中腦</u>】施放終結技後，獲得護盾。",
+		"VersionAdded": "4.1"
+	},
+	"617842": {
+		"Id": "617842",
+		"Name": "解析：程式記憶",
+		"Rarity": 1,
+		"Effect": "我方目標使用【<u>桶中腦</u>】施放終結技時，我方全體造成的傷害提高<color=#f29e38ff>36%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "使用【<u>桶中腦</u>】施放終結技時，我方全體造成的傷害提高。",
+		"EnhancedEffect": "我方目標使用【<u>桶中腦</u>】施放終結技時，我方全體造成的傷害提高<color=#f29e38ff>54%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "使用【<u>桶中腦</u>】施放終結技時，我方全體造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617843": {
+		"Id": "617843",
+		"Name": "穩定：慢波睡眠",
+		"Rarity": 1,
+		"Effect": "我方目標受到攻擊後，為【<u>桶中腦</u>】充能<color=#f29e38ff>6%</color>。",
+		"AbridgedEffect": "受到攻擊後，為【<u>桶中腦</u>】充能。",
+		"EnhancedEffect": "我方目標受到攻擊後，為【<u>桶中腦</u>】充能<color=#f29e38ff>9%</color>。",
+		"EnhancedAbridgedEffect": "受到攻擊後，為【<u>桶中腦</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"617844": {
+		"Id": "617844",
+		"Name": "衍生：分野細胞",
+		"Rarity": 1,
+		"Effect": "我方目標使用【<u>桶中腦</u>】施放終結技後，攻擊力提高<color=#f29e38ff>60%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "使用【<u>桶中腦</u>】施放終結技後，攻擊力提高。",
+		"EnhancedEffect": "我方目標使用【<u>桶中腦</u>】施放終結技後，攻擊力提高<color=#f29e38ff>90%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "使用【<u>桶中腦</u>】施放終結技後，攻擊力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617845": {
+		"Id": "617845",
+		"Name": "執行：強化學習",
+		"Rarity": 1,
+		"Effect": "我方目標施放終結技攻擊處於弱點擊破狀態下的敵方目標後，使其行動延後<color=#f29e38ff>16%</color>，敵方目標每次陷入弱點擊破狀態後最多觸發<color=#f29e38ff>3</color>次該效果。",
+		"AbridgedEffect": "施放終結技發動攻擊後，會使弱點擊破狀態下的敵方目標行動延後。",
+		"EnhancedEffect": "我方目標施放終結技攻擊處於弱點擊破狀態下的敵方目標後，使其行動延後<color=#f29e38ff>24%</color>，敵方目標每次陷入弱點擊破狀態後最多觸發<color=#f29e38ff>3</color>次該效果。",
+		"EnhancedAbridgedEffect": "施放終結技發動攻擊後，會使弱點擊破狀態下的敵方目標行動延後。",
+		"VersionAdded": "4.1"
+	},
+	"617846": {
+		"Id": "617846",
+		"Name": "開放：直接通路",
+		"Rarity": 1,
+		"Effect": "若我方目標的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>40%</color>的固定數值的傷害。",
+		"AbridgedEffect": "若<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外造成傷害。",
+		"EnhancedEffect": "若我方目標的<u>群體攻擊</u>技能只攻擊了1個敵方目標，則本次攻擊對受到攻擊的敵方目標額外造成等同於原傷害<color=#f29e38ff>60%</color>的固定數值的傷害。",
+		"EnhancedAbridgedEffect": "若<u>群體攻擊</u>技能只攻擊了1個敵方目標，則會額外造成傷害。",
+		"VersionAdded": "4.1"
+	},
+	"617850": {
+		"Id": "617850",
+		"Name": "投影閃爍的旌旗",
+		"Rarity": 1,
+		"Effect": "我方目標造成的終結技傷害提高<color=#f29e38ff>20%</color>。",
+		"AbridgedEffect": "造成的終結技傷害提高。",
+		"EnhancedEffect": "我方目標造成的終結技傷害提高<color=#f29e38ff>30%</color>。",
+		"EnhancedAbridgedEffect": "造成的終結技傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617851": {
+		"Id": "617851",
+		"Name": "固態儲存的甲冑",
+		"Rarity": 1,
+		"Effect": "我方目標造成的終結技傷害暴擊率提高<color=#f29e38ff>18%</color>。",
+		"AbridgedEffect": "終結技的暴擊率提高。",
+		"EnhancedEffect": "我方目標造成的終結技傷害暴擊率提高<color=#f29e38ff>27%</color>。",
+		"EnhancedAbridgedEffect": "終結技的暴擊率提高。",
+		"VersionAdded": "4.1"
+	},
+	"617852": {
+		"Id": "617852",
+		"Name": "安全擦除的輿圖",
+		"Rarity": 1,
+		"Effect": "我方目標造成的終結技傷害暴擊傷害提高<color=#f29e38ff>36%</color>。",
+		"AbridgedEffect": "終結技的暴擊傷害提高。",
+		"EnhancedEffect": "我方目標造成的終結技傷害暴擊傷害提高<color=#f29e38ff>54%</color>。",
+		"EnhancedAbridgedEffect": "終結技的暴擊傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617853": {
+		"Id": "617853",
+		"Name": "分區對齊的包裹",
+		"Rarity": 1,
+		"Effect": "進入戰鬥時，恢復等同於能量上限<color=#f29e38ff>30%</color>的能量。",
+		"AbridgedEffect": "進入戰鬥時，恢復能量。",
+		"EnhancedEffect": "進入戰鬥時，恢復等同於能量上限<color=#f29e38ff>45%</color>的能量。",
+		"EnhancedAbridgedEffect": "進入戰鬥時，恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"617854": {
+		"Id": "617854",
+		"Name": "宏塊抹除的航路",
+		"Rarity": 1,
+		"Effect": "我方目標施放終結技時，使攻擊力提高<color=#f29e38ff>24%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "施放終結技時，攻擊力提高。",
+		"EnhancedEffect": "我方目標施放終結技時，使攻擊力提高<color=#f29e38ff>36%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "施放終結技時，攻擊力提高。",
+		"VersionAdded": "4.1"
+	},
+	"617855": {
+		"Id": "617855",
+		"Name": "晶體諧振的燈塔",
+		"Rarity": 1,
+		"Effect": "我方目標施放終結技後，生命上限提高<color=#f29e38ff>20%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "施放終結技後，生命上限提高。",
+		"EnhancedEffect": "我方目標施放終結技後，生命上限提高<color=#f29e38ff>30%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"EnhancedAbridgedEffect": "施放終結技後，生命上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617856": {
+		"Id": "617856",
+		"Name": "光學導引的透鏡",
+		"Rarity": 1,
+		"Effect": "我方目標施放終結技後，回復等同於生命上限<color=#f29e38ff>20%</color>的生命值。",
+		"AbridgedEffect": "施放終結技後，回復生命值。",
+		"EnhancedEffect": "我方目標施放終結技後，回復等同於生命上限<color=#f29e38ff>30%</color>的生命值。",
+		"EnhancedAbridgedEffect": "施放終結技後，回復生命值。",
+		"VersionAdded": "4.1"
+	},
+	"617857": {
+		"Id": "617857",
+		"Name": "順序寫入的軌道",
+		"Rarity": 1,
+		"Effect": "角色受到致命攻擊時，不會陷入無法戰鬥狀態，改為消耗自身所有能量，回復等同於消耗能量值百分比的<color=#f29e38ff>50%</color>的生命值。全隊每場戰鬥只能觸發1次。",
+		"AbridgedEffect": "角色可抵抗致命傷害，並消耗能量回復自身生命值，我方全體生效次數有限。",
+		"EnhancedEffect": "角色受到致命攻擊時，不會陷入無法戰鬥狀態，改為消耗自身所有能量，回復等同於消耗能量值百分比的<color=#f29e38ff>100%</color>的生命值。全隊每場戰鬥只能觸發1次。",
+		"EnhancedAbridgedEffect": "角色可抵抗致命傷害，並消耗能量回復自身生命值，我方全體生效次數有限。",
+		"VersionAdded": "4.1"
+	},
+	"617920": {
+		"Id": "617920",
+		"Name": "極樂舞會",
+		"Rarity": 1,
+		"Effect": "可消耗100點能量施放技能與命途「同諧」產生臨界迴響，對敵方全體目標造成量子屬性傷害並以<color=#f29e38ff>1000%</color>的擊破特攻擊破其弱點，擊破弱點時觸發所有屬性的弱點擊破效果。",
+		"AbridgedEffect": "觸發臨界方程式後，對敵方全體目標造成量子屬性傷害並擊破其弱點，擊破弱點時觸發所有屬性的弱點擊破效果。",
+		"VersionAdded": "4.1"
+	},
+	"617930": {
+		"Id": "617930",
+		"Name": "第一樂章：鳴蛙與騎士",
+		"Rarity": 1,
+		"Effect": "敵方目標每承受<color=#f29e38ff>10</color>點實際削韌值，便陷入<color=#f29e38ff>1</color>層【<u>和音</u>】。",
+		"AbridgedEffect": "敵方目標每承受一定的實際削韌值，便會陷入【<u>和音</u>】。",
+		"EnhancedEffect": "敵方目標每承受<color=#f29e38ff>10</color>點實際削韌值，便陷入<color=#f29e38ff>1</color>層【<u>和音</u>】，處於弱點擊破狀態時受到的實際削韌值也會被計入。",
+		"EnhancedAbridgedEffect": "敵方目標每承受一定的實際削韌值，便會陷入【<u>和音</u>】，處於弱點擊破狀態時受到的實際削韌值也會計入。",
+		"VersionAdded": "4.1"
+	},
+	"617931": {
+		"Id": "617931",
+		"Name": "第二樂章：牧神的早餐",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，以<color=#f29e38ff>8%</color>的比例觸發1次【<u>和音</u>】傷害。",
+		"AbridgedEffect": "攻擊弱點擊破狀態下的敵方目標後，觸發【<u>和音</u>】傷害。",
+		"EnhancedEffect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，以<color=#f29e38ff>10%</color>的比例觸發1次【<u>和音</u>】傷害，【<u>和音</u>】傷害倍率提高原倍率的<color=#f29e38ff>20%</color>。",
+		"EnhancedAbridgedEffect": "攻擊弱點擊破狀態下的敵方目標後，觸發【<u>和音</u>】傷害，【<u>和音</u>】造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617932": {
+		"Id": "617932",
+		"Name": "第三樂章：迴旋曲式",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，以<color=#f29e38ff>50%</color>的比例額外觸發其餘持有弱點的弱點擊破效果。",
+		"AbridgedEffect": "擊破敵方目標弱點時，額外觸發其餘持有弱點的弱點擊破效果。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點時，以<color=#f29e38ff>80%</color>的比例額外觸發其餘持有弱點的弱點擊破效果。",
+		"EnhancedAbridgedEffect": "擊破敵方目標弱點時，額外觸發其餘持有弱點的弱點擊破效果。",
+		"VersionAdded": "4.1"
+	},
+	"617940": {
+		"Id": "617940",
+		"Name": "共曉的時期",
+		"Rarity": 1,
+		"Effect": "持有【<u>和音</u>】的敵方目標被消滅後，使<color=#f29e38ff>1</color>個隨機相鄰目標獲得其持有層數的【<u>和音</u>】。",
+		"AbridgedEffect": "持有【<u>和音</u>】的敵方目標被消滅時，使隨機相鄰目標獲得【<u>和音</u>】。",
+		"EnhancedEffect": "持有【<u>和音</u>】的敵方目標被消滅後，使<color=#f29e38ff>2</color>個隨機相鄰目標獲得其持有層數的【<u>和音</u>】。",
+		"EnhancedAbridgedEffect": "持有【<u>和音</u>】的敵方目標被消滅時，使隨機相鄰目標獲得【<u>和音</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617941": {
+		"Id": "617941",
+		"Name": "酒神的汲器",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，使其陷入<color=#f29e38ff>1</color>層【<u>和音</u>】。",
+		"AbridgedEffect": "攻擊處於弱點擊破狀態下的敵方目標後，使其陷入【<u>和音</u>】。",
+		"EnhancedEffect": "我方目標擊破特攻提高<color=#f29e38ff>24%</color>，攻擊處於弱點擊破狀態下的敵方目標後，使其陷入<color=#f29e38ff>1</color>層【<u>和音</u>】。",
+		"EnhancedAbridgedEffect": "擊破特攻提高，攻擊處於弱點擊破狀態下的敵方目標後，使其陷入【<u>和音</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"617942": {
+		"Id": "617942",
+		"Name": "日冕的悸動",
+		"Rarity": 1,
+		"Effect": "敵方目標每持有1層【<u>和音</u>】，受到的擊破傷害便提高<color=#f29e38ff>1.0%</color>。",
+		"AbridgedEffect": "敵方目標持有越多【<u>和音</u>】，受到的擊破傷害越高。",
+		"EnhancedEffect": "敵方目標每持有1層【<u>和音</u>】，受到的擊破傷害便提高<color=#f29e38ff>1.5%</color>。",
+		"EnhancedAbridgedEffect": "敵方目標持有越多【<u>和音</u>】，受到的擊破傷害越高。",
+		"VersionAdded": "4.1"
+	},
+	"617943": {
+		"Id": "617943",
+		"Name": "絃樂四重奏",
+		"Rarity": 1,
+		"Effect": "【<u>和音</u>】傷害觸發時額外計入<color=#f29e38ff>5</color>層，【<u>和音</u>】上限提高<color=#f29e38ff>5</color>層。",
+		"AbridgedEffect": "【<u>和音</u>】傷害觸發時額外計入層數，【<u>和音</u>】上限提高。",
+		"EnhancedEffect": "【<u>和音</u>】傷害觸發時額外計入<color=#f29e38ff>6</color>層，【<u>和音</u>】上限提高<color=#f29e38ff>10</color>層。",
+		"EnhancedAbridgedEffect": "【<u>和音</u>】傷害觸發時額外計入層數，【<u>和音</u>】上限提高。",
+		"VersionAdded": "4.1"
+	},
+	"617944": {
+		"Id": "617944",
+		"Name": "抑揚五步格",
+		"Rarity": 1,
+		"Effect": "【<u>和音</u>】的傷害倍率提高原倍率的<color=#f29e38ff>30%</color>。",
+		"AbridgedEffect": "【<u>和音</u>】傷害提高。",
+		"EnhancedEffect": "【<u>和音</u>】的傷害倍率提高原倍率的<color=#f29e38ff>45%</color>。",
+		"EnhancedAbridgedEffect": "【<u>和音</u>】傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617945": {
+		"Id": "617945",
+		"Name": "通奏的低音",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，會將本次攻擊的削韌值轉化為1次<color=#f29e38ff>50%</color>的<u>超擊破傷害</u>。",
+		"AbridgedEffect": "攻擊處於弱點擊破狀態下的敵方目標後，造成<u>超擊破傷害</u>。",
+		"EnhancedEffect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，會將本次攻擊的削韌值轉化為1次<color=#f29e38ff>75%</color>的<u>超擊破傷害</u>。",
+		"EnhancedAbridgedEffect": "攻擊處於弱點擊破狀態下的敵方目標後，造成<u>超擊破傷害</u>。",
+		"VersionAdded": "4.1"
+	},
+	"617946": {
+		"Id": "617946",
+		"Name": "正直的諾姆",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，有<color=#f29e38ff>100%</color>基礎機率使其陷入凍結狀態，持續<color=#f29e38ff>1</color>回合。",
+		"AbridgedEffect": "擊破敵方目標弱點後，有機率使其凍結。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點時，有<color=#f29e38ff>150%</color>基礎機率使其陷入凍結狀態，持續<color=#f29e38ff>1</color>回合。",
+		"EnhancedAbridgedEffect": "擊破敵方目標弱點後，有機率使其凍結。",
+		"VersionAdded": "4.1"
+	},
+	"617950": {
+		"Id": "617950",
+		"Name": "凝滯織體",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，使其行動延後<color=#f29e38ff>20%</color>。",
+		"AbridgedEffect": "擊破敵方目標弱點後，使其行動延後。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點時，使其行動延後<color=#f29e38ff>30%</color>。",
+		"EnhancedAbridgedEffect": "擊破敵方目標弱點後，使其行動延後。",
+		"VersionAdded": "4.1"
+	},
+	"617951": {
+		"Id": "617951",
+		"Name": "原始陳述",
+		"Rarity": 1,
+		"Effect": "我方目標造成的擊破傷害提高<color=#f29e38ff>8%</color>。",
+		"AbridgedEffect": "造成的擊破傷害提高。",
+		"EnhancedEffect": "我方目標造成的擊破傷害提高<color=#f29e38ff>12%</color>。",
+		"EnhancedAbridgedEffect": "造成的擊破傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617952": {
+		"Id": "617952",
+		"Name": "寧靜風暴",
+		"Rarity": 1,
+		"Effect": "我方目標擊破特攻提高<color=#f29e38ff>30%</color>。",
+		"AbridgedEffect": "擊破特攻提高。",
+		"EnhancedEffect": "我方目標擊破特攻提高<color=#f29e38ff>45%</color>。",
+		"EnhancedAbridgedEffect": "擊破特攻提高。",
+		"VersionAdded": "4.1"
+	},
+	"617953": {
+		"Id": "617953",
+		"Name": "直行旋律",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，速度提高<color=#f29e38ff>12%</color>，持續<color=#f29e38ff>3</color>回合。",
+		"AbridgedEffect": "擊破敵方目標弱點後，速度提高。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點時，速度提高<color=#f29e38ff>18%</color>，持續<color=#f29e38ff>3</color>回合。",
+		"EnhancedAbridgedEffect": "擊破敵方目標弱點後，速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"617954": {
+		"Id": "617954",
+		"Name": "交叉節拍",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，我方全體目標擊破特攻提高<color=#f29e38ff>40%</color>，持續<color=#f29e38ff>3</color>回合。",
+		"AbridgedEffect": "擊破敵方目標弱點後，我方全體擊破特攻提高。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點時，我方全體目標擊破特攻提高<color=#f29e38ff>60%</color>，持續<color=#f29e38ff>3</color>回合。",
+		"EnhancedAbridgedEffect": "擊破敵方目標弱點後，我方全體擊破特攻提高。",
+		"VersionAdded": "4.1"
+	},
+	"617955": {
+		"Id": "617955",
+		"Name": "自由調性",
+		"Rarity": 1,
+		"Effect": "敵方目標受到的擊破傷害提高<color=#f29e38ff>16%</color>。",
+		"AbridgedEffect": "敵方目標受到的擊破傷害提高。",
+		"EnhancedEffect": "敵方目標受到的擊破傷害提高<color=#f29e38ff>24%</color>。",
+		"EnhancedAbridgedEffect": "敵方目標受到的擊破傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"617956": {
+		"Id": "617956",
+		"Name": "厄運爵士",
+		"Rarity": 1,
+		"Effect": "處於弱點擊破狀態下的敵方目標，防禦力降低<color=#f29e38ff>15%</color>。",
+		"AbridgedEffect": "處於弱點擊破狀態下的敵方目標，防禦力降低。",
+		"EnhancedEffect": "處於弱點擊破狀態下的敵方目標，防禦力降低<color=#f29e38ff>20%</color>。",
+		"EnhancedAbridgedEffect": "處於弱點擊破狀態下的敵方目標，防禦力降低。",
+		"VersionAdded": "4.1"
+	},
+	"617957": {
+		"Id": "617957",
+		"Name": "嶄新樂想",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，回復等同於自身生命上限<color=#f29e38ff>24%</color>的生命值。",
+		"AbridgedEffect": "擊破敵方目標弱點後，回復生命值。",
+		"EnhancedEffect": "我方目標擊破敵方目標弱點時，回復等同於自身生命上限<color=#f29e38ff>36%</color>的生命值。",
+		"EnhancedAbridgedEffect": "擊破敵方目標弱點後，回復生命值。",
+		"VersionAdded": "4.1"
 	},
 	"634000": {
 		"Id": "634000",
@@ -6054,6 +7565,615 @@
 		"Effect": "持有【岩晶】的我方目標造成的最終傷害額外提高<color=#f29e38ff>50%</color>。",
 		"AbridgedEffect": "持有【岩晶】的我方目標，造成的最終傷害額外提高。",
 		"VersionAdded": "3.3"
+	},
+	"661001": {
+		"Id": "661001",
+		"Name": "三月七",
+		"Rarity": 1,
+		"Effect": "三月七在差分宇宙中的傷害獲得增幅。\n\n效果命中提高<color=#f29e38ff>30%</color>，在場時，凍結狀態下的敵方目標防禦力降低<color=#f29e38ff>20%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661002": {
+		"Id": "661002",
+		"Name": "丹恆",
+		"Rarity": 1,
+		"Effect": "丹恆在差分宇宙中的傷害獲得增幅。\n\n速度提高<color=#f29e38ff>10%</color>。速度超過<color=#f29e38ff>150</color>的部分，每超過10點，造成的最終傷害便提高<color=#f29e38ff>2.0%</color>，最多提高<color=#f29e38ff>30%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661003": {
+		"Id": "661003",
+		"Name": "姬子",
+		"Rarity": 1,
+		"Effect": "姬子在差分宇宙中的傷害獲得增幅。\n\n對處於弱點擊破狀態下的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661004": {
+		"Id": "661004",
+		"Name": "瓦爾特",
+		"Rarity": 1,
+		"Effect": "瓦爾特在差分宇宙中的傷害獲得增幅。\n\n施加禁錮狀態後，額外使敵方目標行動延後<color=#f29e38ff>30%</color>，並使其受到的傷害提高<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661005": {
+		"Id": "661005",
+		"Name": "卡芙卡",
+		"Rarity": 1,
+		"Effect": "卡芙卡在差分宇宙中的傷害獲得增幅。\n\n對持有至少<color=#f29e38ff>3</color>個持續傷害狀態的敵方目標造成的最終傷害提高<color=#f29e38ff>12%</color>，每超過1個便額外提高<color=#f29e38ff>1%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661006": {
+		"Id": "661006",
+		"Name": "銀狼",
+		"Rarity": 1,
+		"Effect": "銀狼在差分宇宙中的傷害獲得增幅。\n\n對持有至少<color=#f29e38ff>8</color>個負面狀態的敵方目標造成的最終傷害提高<color=#f29e38ff>10%</color>，每超過1個便額外提高<color=#f29e38ff>1%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661008": {
+		"Id": "661008",
+		"Name": "阿蘭",
+		"Rarity": 1,
+		"Effect": "阿蘭在差分宇宙中的傷害獲得增幅。\n\n自身生命值百分比小於<color=#f29e38ff>50%</color>時，造成的最終傷害提高<color=#f29e38ff>40%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661009": {
+		"Id": "661009",
+		"Name": "艾絲妲",
+		"Rarity": 1,
+		"Effect": "艾絲妲在差分宇宙中的傷害獲得增幅。\n\n在場時，我方全體速度提高，提高數值等同於艾絲妲速度的<color=#f29e38ff>10%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661013": {
+		"Id": "661013",
+		"Name": "黑塔",
+		"Rarity": 1,
+		"Effect": "黑塔在差分宇宙中的傷害獲得增幅。\n\n對生命值百分比小於<color=#f29e38ff>50%</color>的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661014": {
+		"Id": "661014",
+		"Name": "Saber",
+		"Rarity": 1,
+		"Effect": "Saber在差分宇宙中的傷害獲得增幅。\n\n每次施放終結技時，使自身造成的最終傷害提高<color=#f29e38ff>3%</color>，最多疊加<color=#f29e38ff>10</color>層。",
+		"VersionAdded": "4.1"
+	},
+	"661015": {
+		"Id": "661015",
+		"Name": "archer",
+		"Rarity": 1,
+		"Effect": "Archer在差分宇宙中的傷害獲得增幅。\n\n造成的最終傷害提高<color=#f29e38ff>15%</color>。回合開始時，恢復<color=#f29e38ff>1</color>點戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"661101": {
+		"Id": "661101",
+		"Name": "布洛妮婭",
+		"Rarity": 1,
+		"Effect": "布洛妮婭在差分宇宙中的傷害獲得增幅。\n\n在場時，使編隊中的第一位角色及其憶靈造成的最終傷害提高<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661102": {
+		"Id": "661102",
+		"Name": "希兒",
+		"Rarity": 1,
+		"Effect": "希兒在差分宇宙中的傷害獲得增幅。\n\n發動攻擊後，若攻擊目標生命值百分比小於等於<color=#f29e38ff>15%</color>，對其造成等同於現有生命值的真實傷害。",
+		"VersionAdded": "4.1"
+	},
+	"661103": {
+		"Id": "661103",
+		"Name": "希露瓦",
+		"Rarity": 1,
+		"Effect": "希露瓦在差分宇宙中的傷害獲得增幅。\n\n當下每有1名敵方目標在場，造成的最終傷害便提高<color=#f29e38ff>4%</color>。消滅敵方目標後，本場戰鬥中最終傷害額外提高<color=#f29e38ff>2%</color>，可疊加。",
+		"VersionAdded": "4.1"
+	},
+	"661104": {
+		"Id": "661104",
+		"Name": "傑帕德",
+		"Rarity": 1,
+		"Effect": "傑帕德在差分宇宙中的傷害獲得增幅。\n\n效果命中提高<color=#f29e38ff>30%</color>，在場時，凍結狀態下的敵方目標防禦力降低<color=#f29e38ff>20%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661105": {
+		"Id": "661105",
+		"Name": "娜塔莎",
+		"Rarity": 1,
+		"Effect": "娜塔莎在差分宇宙中的傷害獲得增幅。\n\n治療量提高<color=#f29e38ff>30%</color>，使治療目標受到的傷害降低<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661106": {
+		"Id": "661106",
+		"Name": "佩拉",
+		"Rarity": 1,
+		"Effect": "佩拉在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標攻擊力提高，提高數值等同於佩拉攻擊力的<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661107": {
+		"Id": "661107",
+		"Name": "克拉拉",
+		"Rarity": 1,
+		"Effect": "克拉拉在差分宇宙中的傷害獲得增幅。\n\n受到的傷害降低<color=#f29e38ff>10%</color>，追加攻擊造成的最終傷害提高<color=#f29e38ff>20%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661108": {
+		"Id": "661108",
+		"Name": "桑博",
+		"Rarity": 1,
+		"Effect": "桑博在差分宇宙中的傷害獲得增幅。\n\n施放終結技發動攻擊後，使攻擊目標當下承受的所有持續傷害立即產生相當於原傷害<color=#f29e38ff>60%</color>的傷害。",
+		"VersionAdded": "4.1"
+	},
+	"661109": {
+		"Id": "661109",
+		"Name": "虎克",
+		"Rarity": 1,
+		"Effect": "虎克在差分宇宙中的傷害獲得增幅。\n\n對生命值百分比小於<color=#f29e38ff>50%</color>的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661110": {
+		"Id": "661110",
+		"Name": "玲可",
+		"Rarity": 1,
+		"Effect": "玲可在差分宇宙中的傷害獲得增幅。\n\n治療量提高<color=#f29e38ff>30%</color>，使治療目標受到的傷害降低<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661111": {
+		"Id": "661111",
+		"Name": "盧卡",
+		"Rarity": 1,
+		"Effect": "盧卡在差分宇宙中的傷害獲得增幅。\n\n施放終結技發動攻擊後，使攻擊目標當下承受的所有持續傷害立即產生相當於原傷害<color=#f29e38ff>120%</color>的傷害。",
+		"VersionAdded": "4.1"
+	},
+	"661112": {
+		"Id": "661112",
+		"Name": "托帕&帳帳",
+		"Rarity": 1,
+		"Effect": "托帕&帳帳在差分宇宙中的傷害獲得增幅。\n\n每次發動攻擊時，造成的最終傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層，生命值降低後移除。",
+		"VersionAdded": "4.1"
+	},
+	"661201": {
+		"Id": "661201",
+		"Name": "青雀",
+		"Rarity": 1,
+		"Effect": "青雀在差分宇宙中的傷害獲得增幅。\n\n造成的最終傷害提高<color=#f29e38ff>15%</color>。回合開始時，恢復<color=#f29e38ff>1</color>點戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"661202": {
+		"Id": "661202",
+		"Name": "停雲",
+		"Rarity": 1,
+		"Effect": "停雲在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標攻擊力提高，提高數值等同於停雲攻擊力的<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661203": {
+		"Id": "661203",
+		"Name": "羅剎",
+		"Rarity": 1,
+		"Effect": "羅剎在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標造成的最終傷害提高<color=#f29e38ff>8%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661204": {
+		"Id": "661204",
+		"Name": "景元",
+		"Rarity": 1,
+		"Effect": "景元在差分宇宙中的傷害獲得增幅。\n\n發動追加攻擊時，行動提前<color=#f29e38ff>20%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661205": {
+		"Id": "661205",
+		"Name": "刃",
+		"Rarity": 1,
+		"Effect": "刃在差分宇宙中的傷害獲得增幅。\n\n生命值降低後，回復量提高<color=#f29e38ff>15%</color>，最終傷害提高<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661206": {
+		"Id": "661206",
+		"Name": "素裳",
+		"Rarity": 1,
+		"Effect": "素裳在差分宇宙中的傷害獲得增幅。\n\n擊破敵方目標弱點後，速度提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層。",
+		"VersionAdded": "4.1"
+	},
+	"661207": {
+		"Id": "661207",
+		"Name": "馭空",
+		"Rarity": 1,
+		"Effect": "馭空在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標攻擊力提高，提高數值等同於馭空攻擊力的<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661208": {
+		"Id": "661208",
+		"Name": "符玄",
+		"Rarity": 1,
+		"Effect": "符玄在差分宇宙中的傷害獲得增幅。\n\n受到的傷害降低<color=#f29e38ff>20%</color>，回合開始時，回復等同於生命上限<color=#f29e38ff>15%</color>的生命值。",
+		"VersionAdded": "4.1"
+	},
+	"661209": {
+		"Id": "661209",
+		"Name": "彥卿",
+		"Rarity": 1,
+		"Effect": "彥卿在差分宇宙中的傷害獲得增幅。\n\n每次發動攻擊時，造成的最終傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層，生命值降低後移除。",
+		"VersionAdded": "4.1"
+	},
+	"661210": {
+		"Id": "661210",
+		"Name": "桂乃芬",
+		"Rarity": 1,
+		"Effect": "桂乃芬在差分宇宙中的傷害獲得增幅。\n\n施放終結技發動攻擊後，使攻擊目標當下承受的所有持續傷害立即產生相當於原傷害<color=#f29e38ff>60%</color>的傷害。",
+		"VersionAdded": "4.1"
+	},
+	"661211": {
+		"Id": "661211",
+		"Name": "白露",
+		"Rarity": 1,
+		"Effect": "白露在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標造成的最終傷害提高<color=#f29e38ff>8%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661212": {
+		"Id": "661212",
+		"Name": "鏡流",
+		"Rarity": 1,
+		"Effect": "鏡流在差分宇宙中的傷害獲得增幅。\n\n生命值降低後，回復量提高<color=#f29e38ff>15%</color>，最終傷害提高<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661213": {
+		"Id": "661213",
+		"Name": "丹恆•飲月",
+		"Rarity": 1,
+		"Effect": "丹恆•飲月在差分宇宙中的傷害獲得增幅。\n\n造成的最終傷害提高<color=#f29e38ff>15%</color>。回合開始時，恢復<color=#f29e38ff>1</color>點戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"661214": {
+		"Id": "661214",
+		"Name": "雪衣",
+		"Rarity": 1,
+		"Effect": "雪衣在差分宇宙中的傷害獲得增幅。\n\n對處於弱點擊破狀態下的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661215": {
+		"Id": "661215",
+		"Name": "寒鴉",
+		"Rarity": 1,
+		"Effect": "寒鴉在差分宇宙中的傷害獲得增幅。\n\n在場時，我方全體速度提高，提高數值等同於寒鴉速度的<color=#f29e38ff>10%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661217": {
+		"Id": "661217",
+		"Name": "藿藿",
+		"Rarity": 1,
+		"Effect": "藿藿在差分宇宙中的傷害獲得增幅。\n\n治療量提高<color=#f29e38ff>30%</color>，使治療目標受到的傷害降低<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661218": {
+		"Id": "661218",
+		"Name": "椒丘",
+		"Rarity": 1,
+		"Effect": "椒丘在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標造成的最終傷害提高<color=#f29e38ff>8%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661220": {
+		"Id": "661220",
+		"Name": "飛霄",
+		"Rarity": 1,
+		"Effect": "飛霄在差分宇宙中的傷害獲得增幅。\n\n每次發動攻擊時，造成的最終傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層，生命值降低後移除。",
+		"VersionAdded": "4.1"
+	},
+	"661221": {
+		"Id": "661221",
+		"Name": "雲璃",
+		"Rarity": 1,
+		"Effect": "雲璃在差分宇宙中的傷害獲得增幅。\n\n受到的傷害降低<color=#f29e38ff>10%</color>，追加攻擊造成的最終傷害提高<color=#f29e38ff>20%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661222": {
+		"Id": "661222",
+		"Name": "靈砂",
+		"Rarity": 1,
+		"Effect": "靈砂在差分宇宙中的傷害獲得增幅。\n\n治療量提高<color=#f29e38ff>30%</color>，使治療目標受到的傷害降低<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661223": {
+		"Id": "661223",
+		"Name": "貊澤",
+		"Rarity": 1,
+		"Effect": "貊澤在差分宇宙中的傷害獲得增幅。\n\n每次發動攻擊時，造成的最終傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層，生命值降低後移除。",
+		"VersionAdded": "4.1"
+	},
+	"661224": {
+		"Id": "661224",
+		"Name": "三月七",
+		"Rarity": 1,
+		"Effect": "三月七在差分宇宙中的傷害獲得增幅。\n\n速度提高<color=#f29e38ff>10%</color>。速度超過<color=#f29e38ff>150</color>的部分，每超過10點，造成的最終傷害便提高<color=#f29e38ff>2.0%</color>，最多提高<color=#f29e38ff>30%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661225": {
+		"Id": "661225",
+		"Name": "忘歸人",
+		"Rarity": 1,
+		"Effect": "忘歸人在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標對擊破狀態下的敵人造成的最終傷害提高<color=#f29e38ff>15%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661301": {
+		"Id": "661301",
+		"Name": "加拉赫",
+		"Rarity": 1,
+		"Effect": "加拉赫在差分宇宙中的傷害獲得增幅。\n\n治療量提高<color=#f29e38ff>30%</color>，使治療目標受到的傷害降低<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661302": {
+		"Id": "661302",
+		"Name": "銀枝",
+		"Rarity": 1,
+		"Effect": "銀枝在差分宇宙中的傷害獲得增幅。\n\n當下每有1名敵方目標在場，造成的最終傷害便提高<color=#f29e38ff>4%</color>。消滅敵方目標後，本場戰鬥中最終傷害額外提高<color=#f29e38ff>2%</color>，可疊加。",
+		"VersionAdded": "4.1"
+	},
+	"661303": {
+		"Id": "661303",
+		"Name": "阮•梅",
+		"Rarity": 1,
+		"Effect": "阮•梅在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標對擊破狀態下的敵人造成的最終傷害提高<color=#f29e38ff>15%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661304": {
+		"Id": "661304",
+		"Name": "砂金",
+		"Rarity": 1,
+		"Effect": "砂金在差分宇宙中的傷害獲得增幅。\n\n在場時，持有護盾的我方目標暴擊傷害提高<color=#f29e38ff>25%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661305": {
+		"Id": "661305",
+		"Name": "真理醫生",
+		"Rarity": 1,
+		"Effect": "真理醫生在差分宇宙中的傷害獲得增幅。\n\n每次發動攻擊時，造成的最終傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層，生命值降低後移除。",
+		"VersionAdded": "4.1"
+	},
+	"661306": {
+		"Id": "661306",
+		"Name": "花火",
+		"Rarity": 1,
+		"Effect": "花火在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標造成的最終傷害提高<color=#f29e38ff>8%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661307": {
+		"Id": "661307",
+		"Name": "黑天鵝",
+		"Rarity": 1,
+		"Effect": "黑天鵝在差分宇宙中的傷害獲得增幅。\n\n對持有至少<color=#f29e38ff>3</color>個持續傷害狀態的敵方目標造成的最終傷害提高<color=#f29e38ff>12%</color>，每超過1個便額外提高<color=#f29e38ff>1%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661308": {
+		"Id": "661308",
+		"Name": "黃泉",
+		"Rarity": 1,
+		"Effect": "黃泉在差分宇宙中的傷害獲得增幅。\n\n對持有至少<color=#f29e38ff>8</color>個負面狀態的敵方目標造成的最終傷害提高<color=#f29e38ff>10%</color>，每超過1個便額外提高<color=#f29e38ff>1%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661309": {
+		"Id": "661309",
+		"Name": "知更鳥",
+		"Rarity": 1,
+		"Effect": "知更鳥在差分宇宙中的傷害獲得增幅。\n\n在場時，我方全體速度提高，提高數值等同於知更鳥速度的<color=#f29e38ff>10%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661310": {
+		"Id": "661310",
+		"Name": "流螢",
+		"Rarity": 1,
+		"Effect": "流螢在差分宇宙中的傷害獲得增幅。\n\n敵方目標每有10點韌性上限，對其造成的最終傷害便提高<color=#f29e38ff>1.2%</color>，最多提高<color=#f29e38ff>30%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661312": {
+		"Id": "661312",
+		"Name": "米沙",
+		"Rarity": 1,
+		"Effect": "米沙在差分宇宙中的傷害獲得增幅。\n\n對凍結狀態下的敵方目標造成的最終傷害提高<color=#f29e38ff>50%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661313": {
+		"Id": "661313",
+		"Name": "星期日",
+		"Rarity": 1,
+		"Effect": "星期日在差分宇宙中的傷害獲得增幅。\n\n在場時，使編隊中的第一位角色及其憶靈造成的最終傷害提高<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661314": {
+		"Id": "661314",
+		"Name": "翡翠",
+		"Rarity": 1,
+		"Effect": "翡翠在差分宇宙中的傷害獲得增幅。\n\n每次發動攻擊時，造成的最終傷害提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層，生命值降低後移除。",
+		"VersionAdded": "4.1"
+	},
+	"661315": {
+		"Id": "661315",
+		"Name": "波提歐",
+		"Rarity": 1,
+		"Effect": "波提歐在差分宇宙中的傷害獲得增幅。\n\n擊破敵方目標弱點後，速度提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層。",
+		"VersionAdded": "4.1"
+	},
+	"661317": {
+		"Id": "661317",
+		"Name": "亂破",
+		"Rarity": 1,
+		"Effect": "亂破在差分宇宙中的傷害獲得增幅。\n\n對處於弱點擊破狀態下的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661321": {
+		"Id": "661321",
+		"Name": "大理花",
+		"Rarity": 1,
+		"Effect": "大理花在差分宇宙中的傷害獲得增幅。\n\n敵方目標每有10點韌性上限，對其造成的最終傷害便提高<color=#f29e38ff>1.2%</color>，最多提高<color=#f29e38ff>30%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661401": {
+		"Id": "661401",
+		"Name": "大黑塔",
+		"Rarity": 1,
+		"Effect": "大黑塔在差分宇宙中的傷害獲得增幅。\n\n當下每有1名敵方目標在場，造成的最終傷害便提高<color=#f29e38ff>4%</color>。消滅敵方目標後，本場戰鬥中最終傷害額外提高<color=#f29e38ff>2%</color>，可疊加。",
+		"VersionAdded": "4.1"
+	},
+	"661402": {
+		"Id": "661402",
+		"Name": "阿格萊雅",
+		"Rarity": 1,
+		"Effect": "阿格萊雅在差分宇宙中的傷害獲得增幅。\n\n自身與憶靈的速度提高<color=#f29e38ff>25%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661403": {
+		"Id": "661403",
+		"Name": "緹寶",
+		"Rarity": 1,
+		"Effect": "緹寶在差分宇宙中的傷害獲得增幅。\n\n每次施放終結技時，使自身造成的最終傷害提高<color=#f29e38ff>3%</color>，最多疊加<color=#f29e38ff>10</color>層。",
+		"VersionAdded": "4.1"
+	},
+	"661404": {
+		"Id": "661404",
+		"Name": "萬敵",
+		"Rarity": 1,
+		"Effect": "萬敵在差分宇宙中的傷害獲得增幅。\n\n生命值降低後，回復量提高<color=#f29e38ff>15%</color>，最終傷害提高<color=#f29e38ff>15%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"661405": {
+		"Id": "661405",
+		"Name": "那刻夏",
+		"Rarity": 1,
+		"Effect": "那刻夏在差分宇宙中的傷害獲得增幅。\n\n擊破敵方目標弱點後，速度提高<color=#f29e38ff>4%</color>，最多疊加<color=#f29e38ff>10</color>層。",
+		"VersionAdded": "4.1"
+	},
+	"661406": {
+		"Id": "661406",
+		"Name": "賽飛兒",
+		"Rarity": 1,
+		"Effect": "賽飛兒在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標速度提高<color=#f29e38ff>10%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661407": {
+		"Id": "661407",
+		"Name": "遐蝶",
+		"Rarity": 1,
+		"Effect": "遐蝶在差分宇宙中的傷害獲得增幅。\n\n遐蝶與憶靈消滅敵方目標後，回復等同於生命上限<color=#f29e38ff>50%</color>的生命值。",
+		"VersionAdded": "4.1"
+	},
+	"661408": {
+		"Id": "661408",
+		"Name": "白厄",
+		"Rarity": 1,
+		"Effect": "白厄在差分宇宙中的傷害獲得增幅。\n\n每經過10點行動值，造成的最終傷害便提高<color=#f29e38ff>0.8%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661409": {
+		"Id": "661409",
+		"Name": "風堇",
+		"Rarity": 1,
+		"Effect": "風堇在差分宇宙中的傷害獲得增幅。\n\n速度提高<color=#f29e38ff>25%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661410": {
+		"Id": "661410",
+		"Name": "海瑟音",
+		"Rarity": 1,
+		"Effect": "海瑟音在差分宇宙中的傷害獲得增幅。\n\n對持有至少<color=#f29e38ff>3</color>個持續傷害狀態的敵方目標造成的最終傷害提高<color=#f29e38ff>12%</color>，每超過1個便額外提高<color=#f29e38ff>1%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661412": {
+		"Id": "661412",
+		"Name": "刻律德菈",
+		"Rarity": 1,
+		"Effect": "刻律德菈在差分宇宙中的傷害獲得增幅。\n\n在場時，使編隊中的第一位角色及其憶靈造成的最終傷害提高<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661413": {
+		"Id": "661413",
+		"Name": "長夜月",
+		"Rarity": 1,
+		"Effect": "長夜月在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標造成的最終傷害提高<color=#f29e38ff>8%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661414": {
+		"Id": "661414",
+		"Name": "丹恆•騰荒",
+		"Rarity": 1,
+		"Effect": "丹恆•騰荒在差分宇宙中的傷害獲得增幅。\n\n在場時，持有護盾的我方目標暴擊傷害提高<color=#f29e38ff>25%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661415": {
+		"Id": "661415",
+		"Name": "昔漣",
+		"Rarity": 1,
+		"Effect": "昔漣在差分宇宙中的傷害獲得增幅。\n\n若隊伍中除昔漣外有大於等於1名黃金裔，使我方全體造成的最終傷害提高<color=#f29e38ff>10%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661501": {
+		"Id": "661501",
+		"Name": "火花",
+		"Rarity": 1,
+		"Effect": "火花在差分宇宙中的傷害獲得增幅。\n\n全隊每累積獲得<color=#f29e38ff>10</color>點笑點，自身造成的最終傷害提高<color=#f29e38ff>1%</color>，最多提高<color=#f29e38ff>30%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661502": {
+		"Id": "661502",
+		"Name": "爻光",
+		"Rarity": 1,
+		"Effect": "爻光在差分宇宙中的傷害獲得增幅。\n\n在場時，我方全體速度提高，提高數值等同於爻光速度的<color=#f29e38ff>10%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"661504": {
+		"Id": "661504",
+		"Name": "不死途",
+		"Rarity": 1,
+		"Effect": "不死途在差分宇宙中的傷害獲得增幅。\n\n對生命值百分比小於<color=#f29e38ff>50%</color>的敵方目標，造成的最終傷害提高<color=#f29e38ff>30%</color>，若為追加攻擊傷害則額外提高<color=#f29e38ff>15%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668001": {
+		"Id": "668001",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n對生命值百分比大於<color=#f29e38ff>50%</color>的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668002": {
+		"Id": "668002",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n對生命值百分比大於<color=#f29e38ff>50%</color>的敵方目標，造成的最終傷害提高<color=#f29e38ff>35%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668003": {
+		"Id": "668003",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n在場時，持有護盾的我方目標暴擊傷害提高<color=#f29e38ff>25%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668004": {
+		"Id": "668004",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n在場時，持有護盾的我方目標暴擊傷害提高<color=#f29e38ff>25%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668005": {
+		"Id": "668005",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標對擊破狀態下的敵人造成的最終傷害提高<color=#f29e38ff>15%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668006": {
+		"Id": "668006",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標對擊破狀態下的敵人造成的最終傷害提高<color=#f29e38ff>15%</color>。",
+		"VersionAdded": "4.1"
+	},
+	"668007": {
+		"Id": "668007",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n造成的最終傷害提高<color=#f29e38ff>15%</color>，進入戰鬥時，恢復等同於<color=#f29e38ff>50%</color>能量上限的能量。",
+		"VersionAdded": "4.1"
+	},
+	"668008": {
+		"Id": "668008",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n造成的最終傷害提高<color=#f29e38ff>15%</color>，進入戰鬥時，恢復等同於<color=#f29e38ff>50%</color>能量上限的能量。",
+		"VersionAdded": "4.1"
 	},
 	"670010": {
 		"Id": "670010",
@@ -7678,5 +9798,581 @@
 		"Effect": "【<u>和音</u>】傷害倍率提高原倍率<color=#f29e38ff>50%</color>，我方目標發動追加攻擊後為目標附加<color=#f29e38ff>1</color>層【<u>和音</u>】。",
 		"AbridgedEffect": "【<u>和音</u>】傷害提高，我方目標發動追加攻擊後額外附加【<u>和音</u>】。",
 		"VersionAdded": "3.1"
+	},
+	"676170": {
+		"Id": "676170",
+		"Name": "一首美麗的詩",
+		"Rarity": 1,
+		"Effect": "進入【<u>蝶魄</u>】狀態後，憶靈發動攻擊後可造成【<u>蝶魄</u>】的真實傷害且不消耗其攻擊次數。生命上限最高的敵方目標會陷入【結繭】狀態，持續至退出【<u>蝶魄</u>】，狀態持續期間記錄其受到的所有【<u>蝶魄</u>】傷害。每受到<color=#f29e38ff>5</color>次攻擊後/該目標被消滅後/退出【<u>蝶魄</u>】時，對所有敵方目標造成等同於記錄傷害<color=#f29e38ff>200%</color>的傷害，並清除紀錄值。",
+		"AbridgedEffect": "憶靈可觸發【<u>蝶魄</u>】的真實傷害。生命上限最高的敵方目標會陷入【結繭】狀態，持續至退出【<u>蝶魄</u>】，狀態持續期間記錄其受到的所有【<u>蝶魄</u>】傷害，每受到一定次數的攻擊後、該目標被消滅後，或退出【<u>蝶魄</u>】時，對敵方全體造成一定比例的記錄傷害，並清除紀錄值。",
+		"VersionAdded": "4.1"
+	},
+	"676180": {
+		"Id": "676180",
+		"Name": "蘋果！蘋果！",
+		"Rarity": 1,
+		"Effect": "行動序列上出現【啟迪】，行動時對敵方全體目標造成<color=#f29e38ff>2000%</color>的冰屬性<u>基礎傷害</u>，啟動我方全體目標的終結技，隊伍中的第一位角色及其憶靈每有1層【<u>執念</u>】，使【啟迪】的基礎速度提高<color=#f29e38ff>1</color>點，並使其對每個敵方目標額外造成<color=#f29e38ff>100%</color>的冰屬性<u>基礎傷害</u>。",
+		"AbridgedEffect": "行動序列上出現【啟迪】，行動時對敵方全體造成冰屬性傷害，啟動我方全體目標的終結技，隊伍中的第一位角色及其憶靈【<u>執念</u>】層數越高，【啟迪】的速度與傷害越高。",
+		"VersionAdded": "4.1"
+	},
+	"676250": {
+		"Id": "676250",
+		"Name": "概念獻祭典儀",
+		"Rarity": 1,
+		"Effect": "敵方目標攻擊我方目標後，【<u>呢喃</u>】充能清除閾值的<color=#f29e38ff>10%</color>，【<u>呢喃</u>】每充能清除閾值的<color=#f29e38ff>5%</color>，敵方目標立即受到1次等同於【<u>呢喃</u>】清除閾值<color=#f29e38ff>120%</color>的雷屬性持續傷害，每名敵方目標最多觸發<color=#f29e38ff>2</color>次，任意單位行動後重置觸發次數上限，該傷害為【<u>呢喃</u>】傷害，且無法消滅敵方目標。",
+		"AbridgedEffect": "敵方目標攻擊我方目標後，為【<u>呢喃</u>】充能，【<u>呢喃</u>】每充能清除閾值的一定比例，敵方目標便立即受到1次【<u>呢喃</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"676280": {
+		"Id": "676280",
+		"Name": "還魂醫師",
+		"Rarity": 1,
+		"Effect": "我方目標累積施放<color=#f29e38ff>5</color>次終結技後，【<u>呢喃</u>】會對相鄰目標造成原傷害倍率<color=#f29e38ff>60%</color>的傷害，之後每次施放終結技，都會使【<u>呢喃</u>】造成的傷害額外提高<color=#f29e38ff>2%</color>。",
+		"AbridgedEffect": "我方目標累積發動<color=#f29e38ff>5</color>次終結技後，【<u>呢喃</u>】會對相鄰目標造成傷害，之後每次施放終結技，都會使【<u>呢喃</u>】造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"676410": {
+		"Id": "676410",
+		"Name": "街道騎行官",
+		"Rarity": 1,
+		"Effect": "我方全體累積發動<color=#f29e38ff>24</color>次攻擊後，當下隊伍中的第一位角色獲得額外回合，追加攻擊計入的攻擊次數翻倍。在該額外回合內發動攻擊後，對攻擊目標造成等同於生命上限<color=#f29e38ff>600%</color>+攻擊力<color=#f29e38ff>1200%</color>的附加傷害，我方每有1層【<u>執念</u>】，該傷害倍率便提高原倍率的<color=#f29e38ff>1%</color>。",
+		"AbridgedEffect": "我方每發動一定次數的攻擊，目前隊伍中的第一位角色便獲得額外回合，攻擊後根據【<u>執念</u>】層數造成傷害。",
+		"VersionAdded": "4.1"
+	},
+	"676470": {
+		"Id": "676470",
+		"Name": "除魔士",
+		"Rarity": 1,
+		"Effect": "【<u>蝶魄</u>】狀態下我方目標造成的傷害提高<color=#f29e38ff>200%</color>，發動攻擊後，若敵方目標現有生命值低於生命上限的<color=#f29e38ff>25%</color>，則對其造成等同於現有生命值的固定數值的【<u>蝶魄</u>】傷害，並恢復<color=#f29e38ff>2</color>點戰技點。",
+		"AbridgedEffect": "【<u>蝶魄</u>】狀態下我方目標造成的傷害提高，且可直接消滅生命值低於其上限<color=#f29e38ff>25%</color>的敵人，並恢復<color=#f29e38ff>2</color>點戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"676510": {
+		"Id": "676510",
+		"Name": "夢魘主",
+		"Rarity": 1,
+		"Effect": "我方任意目標受到攻擊後，視為我方全體目標受到攻擊，並為我方全體目標充能等同於各自生命上限與護盾之和<color=#f29e38ff>15%</color>的【<u>耀變</u>】。",
+		"AbridgedEffect": "受到攻擊後，視為我方全體目標受到攻擊，並為我方全體的【<u>耀變</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"676590": {
+		"Id": "676590",
+		"Name": "永世謁者",
+		"Rarity": 1,
+		"Effect": "我方目標累積損失等同於生命上限<color=#f29e38ff>100%</color>的生命值，或從無法戰鬥狀態恢復時，對敵方全體造成等同於【<u>和音</u>】上限<color=#f29e38ff>75%</color>的傷害。角色回合開始時，消耗生命上限的<color=#f29e38ff>5%</color>，每次觸發後使該值提高<color=#f29e38ff>5%</color>。我方角色首次陷入無法戰鬥狀態時，使現有生命值回復至生命上限的<color=#f29e38ff>100%</color>，且之後回合開始不再消耗生命值。",
+		"AbridgedEffect": "累積損失一定生命值或從無法戰鬥狀態恢復時，對敵方全體造成基於【<u>和音</u>】上限的傷害。角色可抵抗致命傷害，在觸發該效果前回合開始會消耗生命值。",
+		"VersionAdded": "4.1"
+	},
+	"676640": {
+		"Id": "676640",
+		"Name": "星星盜賊",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】行動時的攻擊次數提高<color=#f29e38ff>4</color>次，且攻擊目標更改為當下生命上限最高的敵方目標。造成傷害時，使其額外陷入<color=#f29e38ff>2</color>層【<u>逆會心</u>】，並在攻擊後使我方全體行動提前<color=#f29e38ff>25%</color>。此效果每個敵方目標每回合最多觸發<color=#f29e38ff>1</color>次。",
+		"AbridgedEffect": "【<u>發牌員</u>】攻擊目標更改為目前生命上限最高的敵方目標且攻擊次數提高。造成傷害時，使其陷入【<u>逆會心</u>】，並使我方全體行動提前。",
+		"VersionAdded": "4.1"
+	},
+	"676650": {
+		"Id": "676650",
+		"Name": "拒火者",
+		"Rarity": 1,
+		"Effect": "行動序列上出現【癲狂】，【<u>發牌員</u>】每點充能使其速度額外提高<color=#f29e38ff>7</color>：【癲狂】行動時，使我方全體目標造成傷害提高<color=#f29e38ff>15%</color>，最多疊加<color=#f29e38ff>10</color>次；並充能等同於各自生命上限與現有護盾值之和<color=#f29e38ff>150%</color>的【<u>耀變</u>】，使每個我方目標在發動下一次攻擊後，對每個攻擊目標造成<color=#f29e38ff>7</color>次<color=#f29e38ff>80%</color>的隨機屬性【<u>耀變</u>】傷害。",
+		"AbridgedEffect": "行動序列上出現【癲狂】，其速度受到【<u>發牌員</u>】充能層數的額外加成：【癲狂】行動時，使我方全體造成的傷害提高，並為【<u>耀變</u>】充能，使每個我方目標在發動下一次攻擊後，對每個攻擊目標造成隨機屬性【<u>耀變</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"676720": {
+		"Id": "676720",
+		"Name": "蠕行之蛇",
+		"Rarity": 1,
+		"Effect": "【<u>蝶魄</u>】狀態下，我方全體每消耗1個戰技點，敵方全體受到的傷害提高<color=#f29e38ff>10%</color>，可疊加，最多不超過<color=#f29e38ff>40%</color>；每次進入【<u>蝶魄</u>】狀態後，首次累積消耗<color=#f29e38ff>3</color>個戰技點後，恢復<color=#f29e38ff>6</color>次【<u>蝶魄</u>】的攻擊次數，並使本次【<u>蝶魄</u>】退出之前，我方目標發動攻擊後，對攻擊目標造成1次等同於除附加傷害外原傷害<color=#f29e38ff>60%</color>的真實傷害，該效果對敵方目標回合開始時受到的持續傷害也生效。",
+		"AbridgedEffect": "【<u>蝶魄</u>】狀態下，我方全體消耗的戰技點越多，敵方全體受到的傷害越高。每次進入【<u>蝶魄</u>】狀態後，首次累積消耗<color=#f29e38ff>3</color>個戰技點後，恢復【<u>蝶魄</u>】次數，並使攻擊與持續傷害能額外造成真實傷害。",
+		"VersionAdded": "4.1"
+	},
+	"676760": {
+		"Id": "676760",
+		"Name": "星系大樂透",
+		"Rarity": 1,
+		"Effect": "我方目標每消耗或溢出1點戰技點，便獲得1次抽獎次數，最多累積<color=#f29e38ff>25</color>次。進入【<u>蝶魄</u>】狀態時召喚出【搖獎機】，消耗全部抽獎次數進行抽獎，基礎抽獎次數為<color=#f29e38ff>5</color>，有低機率獲得特等獎：對敵方全體目標造成1次<color=#f29e38ff>4000%</color><u>基礎傷害</u>的隨機屬性傷害，並使【<u>發牌員</u>】獲得<color=#f29e38ff>5</color>點充能。安慰獎：對隨機敵方目標造成1次<color=#f29e38ff>500%</color><u>基礎傷害</u>的隨機屬性傷害。",
+		"AbridgedEffect": "我方目標每消耗或溢出1點戰技點，便獲得1次抽獎次數。進入【<u>蝶魄</u>】狀態時召喚出【搖獎機】，消耗全部抽獎次數進行抽獎，有低機率獲得特等獎：對敵方全體造成隨機屬性傷害，並使【<u>發牌員</u>】獲得<color=#f29e38ff>5</color>點充能。安慰獎：對隨機敵方目標造成隨機屬性傷害。",
+		"VersionAdded": "4.1"
+	},
+	"676860": {
+		"Id": "676860",
+		"Name": "有用學者",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】在隊伍中無【超頻】狀態時行動<color=#f29e38ff>4</color>次後，使我方全體的暴擊傷害提高<color=#f29e38ff>200%</color>，持續<color=#f29e38ff>5</color>回合，並使當下隊伍中的第一位角色獲得【超頻】狀態：啟動其終結技並將【<u>桶中腦</u>】充能至<color=#f29e38ff>200%</color>，發動<color=#f29e38ff>3</color>次終結技後退出該狀態。首次施放時【<u>發牌員</u>】只需行動<color=#f29e38ff>1</color>次。",
+		"AbridgedEffect": "【<u>發牌員</u>】在隊伍中無【超頻】狀態時行動<color=#f29e38ff>4</color>次後，使我方全體的暴擊傷害提高，並使當下隊伍中的第一位角色獲得【超頻】狀態：啟動其終結技並將【<u>桶中腦</u>】充能至<color=#f29e38ff>200%</color>。首次發動時【<u>發牌員</u>】只需行動<color=#f29e38ff>1</color>次。",
+		"VersionAdded": "4.1"
+	},
+	"676890": {
+		"Id": "676890",
+		"Name": "電器德魯伊",
+		"Rarity": 1,
+		"Effect": "行動序列上出現速度為<color=#f29e38ff>150</color>的【巨龜吐息】：行動時使敵方全體受到的傷害提高<color=#f29e38ff>50%</color>，持續<color=#f29e38ff>3</color>回合，造成等同於<color=#f29e38ff>6000%</color><u>基礎傷害</u>的冰、火屬性傷害，使其行動延後<color=#f29e38ff>30%</color>，並無視弱點屬性削減敵方全體目標<color=#f29e38ff>30</color>點韌性值，擊破敵方弱點時，觸發冰、火屬性弱點的擊破效果。我方目標使用【<u>桶中腦</u>】啟動終結技後，使【巨龜吐息】的速度提高<color=#f29e38ff>5</color>點，最多疊加<color=#f29e38ff>15</color>次。",
+		"AbridgedEffect": "行動序列上出現【巨龜吐息】，行動時使敵方全體受到的傷害提高，並對敵方全體造成冰，火屬性傷害，使其行動延後，並無視弱點屬性削減敵方韌性，擊破敵方弱點時觸發冰、火屬性弱點的擊破效果。我方目標使用【<u>桶中腦</u>】啟動終結技後，【巨龜吐息】的速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"676920": {
+		"Id": "676920",
+		"Name": "死將軍",
+		"Rarity": 1,
+		"Effect": "當敵方目標處於弱點擊破狀態時，【<u>和音</u>】基於隊伍中我方角色的屬性獲得額外效果，同類效果可疊加：風、雷、物理：獲得【激盪】效果。受到攻擊後，使敵方目標當下承受的持續傷害狀態立即產生相當於原傷害<color=#f29e38ff>60%</color>的傷害。火：獲得【流火】效果。敵方目標受到的<u>超擊破傷害</u>提高<color=#f29e38ff>60%</color>。量子、虛數、冰：獲得【震懾】效果。敵方目標行動延後<color=#f29e38ff>20%</color>，受到攻擊後以<color=#f29e38ff>10%</color>的比例觸發<color=#f29e38ff>1</color>次【<u>和音</u>】傷害。",
+		"AbridgedEffect": "當敵方目標處於弱點擊破狀態時，【<u>和音</u>】基於隊伍中我方角色的屬性獲得額外效果──風、雷、物理：獲得【激盪】效果。受到攻擊後，觸發持續傷害。火：獲得【流火】效果。受到的<u>超擊破傷害</u>提高。量子、虛數、冰：獲得【震懾】效果。敵方行動延後，受到攻擊後額外受到【<u>和音</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"676940": {
+		"Id": "676940",
+		"Name": "神之喚名人",
+		"Rarity": 1,
+		"Effect": "我方目標速度提高<color=#f29e38ff>35%</color>。發動攻擊後，有<color=#f29e38ff>60%</color>固定機率為隨機攻擊目標附加1個隨機屬性弱點，並對其造成<color=#f29e38ff>3</color>次等同於<color=#f29e38ff>180%</color><u>基礎傷害</u>的對應屬性傷害，若為追加攻擊則必定觸發，該弱點在敵方目標被擊破後移除。為敵方目標附加弱點後，記錄1次附加的弱點，每次行動最多觸發<color=#f29e38ff>2</color>次該效果，當任意敵方目標被擊破後，基於記錄的弱點，每次記錄對其及相鄰目標造成<color=#f29e38ff>200%</color>的對應屬性擊破傷害。",
+		"AbridgedEffect": "我方目標的速度提高。發動攻擊後，有機率附加弱點，並造成對應屬性的傷害，若為追加攻擊則必定觸發。記錄為敵方目標附加的弱點，擊破敵方目標時，基於記錄的弱點，對其及相鄰目標造成對應的屬性擊破傷害。",
+		"VersionAdded": "4.1"
+	},
+	"677160": {
+		"Id": "677160",
+		"Name": "園藝師",
+		"Rarity": 1,
+		"Effect": "我方目標發動攻擊後，對攻擊目標額外造成等同於生命上限<color=#f29e38ff>100%</color>的附加傷害。【<u>發牌員</u>】行動後，下次攻擊的附加傷害提高至生命上限的<color=#f29e38ff>300%</color>。",
+		"AbridgedEffect": "我方目標發動攻擊後，對攻擊目標額外造成基於生命上限的附加傷害。【<u>發牌員</u>】行動後，下次附加傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"677170": {
+		"Id": "677170",
+		"Name": "歷史代理人",
+		"Rarity": 1,
+		"Effect": "我方目標每持有1層【<u>執念</u>】，造成的普通攻擊和戰技傷害便提高<color=#f29e38ff>6%</color>。我方角色離場、陷入無法戰鬥狀態，或我方憶靈消失時，當下隊伍中的第一位角色會獲得其<color=#f29e38ff>50%</color>的【<u>執念</u>】層數，同時獲得等量的【<u>執念</u>】層數上限，額外的層數上限在<color=#f29e38ff>2</color>個回合後消失。",
+		"AbridgedEffect": "每層【<u>執念</u>】提高普通攻擊和戰技傷害，離場時，當下隊伍中的第一位角色獲得其一定比例的【<u>執念</u>】層數。",
+		"VersionAdded": "4.1"
+	},
+	"677190": {
+		"Id": "677190",
+		"Name": "轉職輪盤",
+		"Rarity": 1,
+		"Effect": "我方目標【<u>執念</u>】上限提高<color=#f29e38ff>4</color>層，且全隊每層【<u>執念</u>】額外提高<color=#f29e38ff>0.3%</color>速度，擊破敵方目標弱點時，我方全體目標獲得<color=#f29e38ff>3</color>層【<u>執念</u>】。",
+		"AbridgedEffect": "【<u>執念</u>】上限提高，且全隊每層【<u>執念</u>】額外提高速度，擊破敵方目標時，我方全體獲得【<u>執念</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"677240": {
+		"Id": "677240",
+		"Name": "永恆競走",
+		"Rarity": 1,
+		"Effect": "敵方目標受到的持續傷害可以暴擊，暴擊率/暴擊傷害等同於我方全體角色暴擊率/暴擊傷害之和的<color=#f29e38ff>20%</color>，暴擊傷害最高不超過<color=#f29e38ff>120%</color>。",
+		"AbridgedEffect": "敵方目標受到的持續傷害可以暴擊，暴擊率/暴擊傷害基於我方全體角色暴擊率/暴擊傷害之和。",
+		"VersionAdded": "4.1"
+	},
+	"677250": {
+		"Id": "677250",
+		"Name": "骰鑄人生",
+		"Rarity": 1,
+		"Effect": "敵方目標受到的【<u>呢喃</u>】傷害提高<color=#f29e38ff>35%</color>。敵方目標在自身回合外受到持續傷害後，為我方全體目標充能等同於各自攻擊力<color=#f29e38ff>10%</color>的【<u>耀變</u>】，敵方目標每回合最多觸發<color=#f29e38ff>5</color>次該效果。",
+		"AbridgedEffect": "敵方目標受到的【<u>呢喃</u>】傷害提高。敵方目標在自身回合外受到持續傷害後，為我方全體充能【<u>耀變</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"677260": {
+		"Id": "677260",
+		"Name": "痴王",
+		"Rarity": 1,
+		"Effect": "敵方目標受到的持續傷害提高<color=#f29e38ff>30%</color>。【<u>發牌員</u>】造成傷害後，每段使敵方目標持有的持續傷害狀態立刻產生等同於原傷害<color=#f29e38ff>15%</color>的傷害。",
+		"AbridgedEffect": "敵方目標受到的持續傷害提高。【<u>發牌員</u>】造成傷害後，觸發持續傷害。",
+		"VersionAdded": "4.1"
+	},
+	"677450": {
+		"Id": "677450",
+		"Name": "鐵臂俠",
+		"Rarity": 1,
+		"Effect": "【<u>逆會心</u>】上限提高<color=#f29e38ff>10</color>層。全隊每累積損失等同於全體生命值之和<color=#f29e38ff>15%</color>的生命值，敵方全體便立即獲得1層【<u>逆會心</u>】。",
+		"AbridgedEffect": "【<u>逆會心</u>】上限提高，全隊每損失一定生命值，便獲得【<u>逆會心</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"677460": {
+		"Id": "677460",
+		"Name": "彗星調教師",
+		"Rarity": 1,
+		"Effect": "我方目標與【<u>發牌員</u>】每溢出1%暴擊率，暴擊傷害便提高<color=#f29e38ff>3%</color>。我方目標發動攻擊後，使自身與【<u>發牌員</u>】暴擊率提高<color=#f29e38ff>2%</color>，最多疊加<color=#f29e38ff>50</color>層；若為追加攻擊，可額外疊加<color=#f29e38ff>2</color>層。",
+		"AbridgedEffect": "我方目標與【<u>發牌員</u>】每溢出1%暴擊率，暴擊傷害便提高<color=#f29e38ff>3%</color>。我方目標發動攻擊後，使自身與【<u>發牌員</u>】暴擊率提高；追加攻擊額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"677470": {
+		"Id": "677470",
+		"Name": "流星批發商",
+		"Rarity": 1,
+		"Effect": "我方目標每獲得1%的行動提前效果，便使下回合發動攻擊後，額外造成等於原傷害<color=#f29e38ff>0.5%</color>的真實傷害，最多計入<color=#f29e38ff>50%</color>的真實傷害。【<u>蝶魄</u>】狀態下額外造成原傷害<color=#f29e38ff>50%</color>的真實傷害。",
+		"AbridgedEffect": "我方目標受到行動提前效果後，下回合內攻擊後造成額外的真實傷害，【<u>蝶魄</u>】狀態下造成的真實傷害額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"677510": {
+		"Id": "677510",
+		"Name": "冰霜巨人",
+		"Rarity": 1,
+		"Effect": "我方目標受到傷害或消耗生命值時，若現有生命值百分比小於<color=#f29e38ff>40%</color>，消耗隊伍中【<u>執念</u>】層數最高的目標<color=#f29e38ff>5</color>層【<u>執念</u>】，回復等同於自身生命上限<color=#f29e38ff>25%</color>的生命值，並使造成的傷害提高<color=#f29e38ff>150%</color>，持續<color=#f29e38ff>2</color>回合。該效果每回合最多觸發<color=#f29e38ff>1</color>次。",
+		"AbridgedEffect": "生命值百分比小於<color=#f29e38ff>40%</color>時，消耗層數最高我方目標的【<u>執念</u>】，回復生命值並使造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"677570": {
+		"Id": "677570",
+		"Name": "災異偶像",
+		"Rarity": 1,
+		"Effect": "【<u>耀變</u>】充能效率提高<color=#f29e38ff>25%</color>。【<u>蝶魄</u>】狀態下發動普通攻擊/戰技後，對攻擊目標造成<color=#f29e38ff>150%</color>的【<u>耀變</u>】傷害。",
+		"AbridgedEffect": "【<u>耀變</u>】充能效率提高。【<u>蝶魄</u>】狀態下發動普通攻擊/戰技後，會對目標造成【<u>耀變</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"677590": {
+		"Id": "677590",
+		"Name": "天罰投票裝置",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，充能等同於生命上限與護盾值之和<color=#f29e38ff>100%</color>的【<u>耀變</u>】，若所有敵方目標都處於弱點擊破狀態，我方目標回合結束時不清除【<u>耀變</u>】。",
+		"AbridgedEffect": "擊破弱點時充能【<u>耀變</u>】，若所有敵方目標都處於弱點擊破狀態，我方目標回合結束時不清除【<u>耀變</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"677650": {
+		"Id": "677650",
+		"Name": "真實好運棋",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】每有<color=#f29e38ff>3</color>點充能，攻擊段數便增加1段。累積有<color=#f29e38ff>10</color>名我方目標受到攻擊後，【<u>發牌員</u>】增加1點充能。",
+		"AbridgedEffect": "【<u>發牌員</u>】每有<color=#f29e38ff>3</color>點充能，攻擊段數便增加1段。多名我方目標受到攻擊後，【<u>發牌員</u>】增加1點充能。",
+		"VersionAdded": "4.1"
+	},
+	"677680": {
+		"Id": "677680",
+		"Name": "乙太駭客",
+		"Rarity": 1,
+		"Effect": "我方目標暴擊傷害提高<color=#f29e38ff>100%</color>。每次施放終結技或歡愉技消滅敵方目標後，記錄溢出的傷害，下<color=#f29e38ff>1</color>次攻擊會對隨機攻擊目標額外造成<color=#f29e38ff>300%</color>紀錄值的傷害。",
+		"AbridgedEffect": "我方目標暴擊傷害提高。每次施放終結技或歡愉技消滅敵方目標後，記錄溢出的傷害，下<color=#f29e38ff>1</color>次攻擊會對隨機攻擊目標額外造成等同於紀錄值一定比例的傷害。",
+		"VersionAdded": "4.1"
+	},
+	"677690": {
+		"Id": "677690",
+		"Name": "星空寓言家",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】造成傷害時，無視弱點屬性削減敵方目標<color=#f29e38ff>30</color>點韌性，此次削韌最多將敵方削減至1點韌性。敵方目標被擊破弱點時，每有<color=#f29e38ff>10</color>點韌性上限，便使其受到的傷害提高<color=#f29e38ff>3%</color>，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "【<u>發牌員</u>】造成傷害時，無視弱點屬性削減韌性。敵方目標被擊破弱點時，基於韌性上限使其受到的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"677710": {
+		"Id": "677710",
+		"Name": "吃土綁架犯",
+		"Rarity": 1,
+		"Effect": "【<u>蝶魄</u>】的真實傷害倍率提高原倍率的<color=#f29e38ff>60%</color>，攻擊次數增加<color=#f29e38ff>4</color>次。憶靈發動攻擊後可造成【<u>蝶魄</u>】的真實傷害並消耗其攻擊次數。",
+		"AbridgedEffect": "【<u>蝶魄</u>】的真實傷害提高。憶靈攻擊會附加【<u>蝶魄</u>】的真實傷害。",
+		"VersionAdded": "4.1"
+	},
+	"677720": {
+		"Id": "677720",
+		"Name": "喪氣俠",
+		"Rarity": 1,
+		"Effect": "敵方目標每受到1次持續傷害，便為【魂繭】充能<color=#f29e38ff>1%</color>，若此時處於【<u>蝶魄</u>】狀態，則使我方全體造成的傷害提高<color=#f29e38ff>2%</color>，最多疊加<color=#f29e38ff>99</color>層，持續至退出【<u>蝶魄</u>】。",
+		"AbridgedEffect": "敵方目標每受到1次持續傷害，便為【魂繭】充能<color=#f29e38ff>1%</color>，若此時處於【<u>蝶魄</u>】狀態，則使我方全體造成的傷害提高<color=#f29e38ff>2%</color>，最多疊加<color=#f29e38ff>99</color>層，持續至退出【<u>蝶魄</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"677780": {
+		"Id": "677780",
+		"Name": "蟄蟲帝",
+		"Rarity": 1,
+		"Effect": "我方目標進入【<u>蝶魄</u>】後，施放的終結技也能造成【<u>蝶魄</u>】的真實傷害，並使【<u>蝶魄</u>】的攻擊次數增加<color=#f29e38ff>4</color>次，每名我方目標最多觸發1次該效果。",
+		"AbridgedEffect": "我方目標進入【<u>蝶魄</u>】後，施放的終結技也能造成【<u>蝶魄</u>】的真實傷害，並使【<u>蝶魄</u>】的攻擊次數增加。",
+		"VersionAdded": "4.1"
+	},
+	"677810": {
+		"Id": "677810",
+		"Name": "遺跡魔法師",
+		"Rarity": 1,
+		"Effect": "憶靈發動攻擊後，為憶師的【<u>桶中腦</u>】充能<color=#f29e38ff>8%</color>。憶師使用【<u>桶中腦</u>】施放終結技後，憶靈的傷害提高<color=#f29e38ff>240%</color>，持續<color=#f29e38ff>4</color>回合。",
+		"AbridgedEffect": "憶靈發動攻擊後，為憶師的【<u>桶中腦</u>】充能，憶師使用【<u>桶中腦</u>】施放終結技後，憶靈的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"677820": {
+		"Id": "677820",
+		"Name": "智商稅務官",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊力提高<color=#f29e38ff>150%</color>，發動攻擊造成終結技傷害後，使攻擊目標的【<u>呢喃</u>】產生等同於原傷害<color=#f29e38ff>100%</color>的傷害。",
+		"AbridgedEffect": "攻擊力提高，發動攻擊造成終結技傷害後，觸發【<u>呢喃</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"677840": {
+		"Id": "677840",
+		"Name": "超級體育生",
+		"Rarity": 1,
+		"Effect": "我方目標擊破敵方目標弱點時，為【<u>桶中腦</u>】充能 <color=#f29e38ff>20%</color>，並恢復等同於能量上限<color=#f29e38ff>10%</color>的能量，消滅敵方目標後，恢復等同於能量上限<color=#f29e38ff>60%</color>的能量。",
+		"AbridgedEffect": "擊破敵方目標弱點時，為【<u>桶中腦</u>】充能 ，並恢復能量，消滅敵方目標後，恢復能量。",
+		"VersionAdded": "4.1"
+	},
+	"677920": {
+		"Id": "677920",
+		"Name": "引力之歌",
+		"Rarity": 1,
+		"Effect": "敵方目標受到【<u>和音</u>】傷害時，額外受到1次等同於原傷害<color=#f29e38ff>75%</color>的【<u>和音</u>】傷害，每陷入1個負面狀態，該傷害便額外提高<color=#f29e38ff>2%</color>，最多提高<color=#f29e38ff>40%</color>。",
+		"AbridgedEffect": "【<u>和音</u>】傷害會額外觸發1次，敵方目標陷入的負面狀態越多該傷害越高。",
+		"VersionAdded": "4.1"
+	},
+	"677940": {
+		"Id": "677940",
+		"Name": "天命之主",
+		"Rarity": 1,
+		"Effect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，會將本次攻擊的削韌值轉化為1次<color=#f29e38ff>75%</color>的<u>超擊破傷害</u>，敵方目標每持有1層【<u>逆會心</u>】便額外造成<color=#f29e38ff>5%</color>的<u>超擊破傷害</u>。",
+		"AbridgedEffect": "我方目標攻擊處於弱點擊破狀態下的敵方目標後，造成<u>超擊破傷害</u>，敵方目標【<u>逆會心</u>】層數越多，此次<u>超擊破傷害</u>傷害越高。",
+		"VersionAdded": "4.1"
+	},
+	"677980": {
+		"Id": "677980",
+		"Name": "人、蟒、星環",
+		"Rarity": 1,
+		"Effect": "敵方目標回合開始時，若處於弱點擊破狀態，則額外受到1次等同於【<u>和音</u>】原傷害<color=#f29e38ff>200%</color>的傷害。我方目標每次施放終結技，使【<u>和音</u>】傷害提高等同於原傷害的<color=#f29e38ff>1%</color>。",
+		"AbridgedEffect": "敵方目標回合開始時，若處於弱點擊破狀態，則額外受到1次【<u>和音</u>】傷害。我方目標每施放一次終結技，便使【<u>和音</u>】傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"678150": {
+		"Id": "678150",
+		"Name": "相對贏家",
+		"Rarity": 1,
+		"Effect": "我方目標消耗生命值後，獲得<color=#f29e38ff>5</color>層【<u>執念</u>】，最多觸發<color=#f29e38ff>1</color>次，任意單位行動後可再次觸發。",
+		"AbridgedEffect": "我方目標消耗生命值後，獲得【<u>執念</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678170": {
+		"Id": "678170",
+		"Name": "親密好友",
+		"Rarity": 1,
+		"Effect": "憶靈消失後，為我方目標恢復1點戰技點。全隊每獲得1點戰技點，便使我方全體造成的傷害提高<color=#f29e38ff>3%</color>，最多提高<color=#f29e38ff>120%</color>。",
+		"AbridgedEffect": "憶靈消失後，為我方目標恢復1點戰技點。全隊每獲得1點戰技點，便使我方全體造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"678180": {
+		"Id": "678180",
+		"Name": "爛梗美食家",
+		"Rarity": 1,
+		"Effect": "我方【<u>執念</u>】層數超過<color=#f29e38ff>70</color>層時，使終結技傷害提高<color=#f29e38ff>75%</color>，憶靈傷害提高<color=#f29e38ff>75%</color>。",
+		"AbridgedEffect": "我方全體【<u>執念</u>】層數超過<color=#f29e38ff>70</color>層時，使終結技與憶靈造成的傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"678190": {
+		"Id": "678190",
+		"Name": "分享師",
+		"Rarity": 1,
+		"Effect": "我方目標持有【<u>執念</u>】時，全屬性抗性穿透提高<color=#f29e38ff>15%</color>。每層【<u>執念</u>】使我方全體目標擊破特攻提高<color=#f29e38ff>0.5%</color>。",
+		"AbridgedEffect": "我方目標持有【<u>執念</u>】時，全屬性抗性穿透提高。每層【<u>執念</u>】使我方全體擊破特攻提高。",
+		"VersionAdded": "4.1"
+	},
+	"678240": {
+		"Id": "678240",
+		"Name": "永恆殺伐迷宮",
+		"Rarity": 1,
+		"Effect": "敵方目標受到的持續傷害提高<color=#f29e38ff>20%</color>，受到追加攻擊後，為【<u>呢喃</u>】充能，充能值等同於清除閾值的<color=#f29e38ff>2%</color>。",
+		"AbridgedEffect": "敵方目標受到的持續傷害提高，受到追加攻擊後，為【<u>呢喃</u>】充能。",
+		"VersionAdded": "4.1"
+	},
+	"678250": {
+		"Id": "678250",
+		"Name": "據說之地",
+		"Rarity": 1,
+		"Effect": "敵方目標進入戰鬥時，陷入裂傷狀態。裂傷狀態下，敵方目標每回合開始時受到等同於自身<color=#f29e38ff>10%</color>生命上限的物理屬性持續傷害，最多不超過我方全體目標生命值之和的<color=#f29e38ff>200%</color>。",
+		"AbridgedEffect": "敵方目標進入戰鬥時，陷入裂傷狀態，每回合開始時受到物理屬性持續傷害。",
+		"VersionAdded": "4.1"
+	},
+	"678260": {
+		"Id": "678260",
+		"Name": "反向冒險家",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】發動攻擊後，使攻擊目標陷入灼燒狀態。回合開始時，受到<color=#f29e38ff>150%</color><u>基礎傷害</u>的火屬性持續傷害，持續<color=#f29e38ff>3</color>回合。",
+		"AbridgedEffect": "【<u>發牌員</u>】發動攻擊後，使攻擊目標陷入灼燒狀態。回合開始時，受到火屬性持續傷害，持續<color=#f29e38ff>3</color>回合。",
+		"VersionAdded": "4.1"
+	},
+	"678280": {
+		"Id": "678280",
+		"Name": "失心博士",
+		"Rarity": 1,
+		"Effect": "敵方目標被消滅時，每陷入1種持續傷害狀態，我方全體便回復<color=#f29e38ff>5.0</color>點能量。",
+		"AbridgedEffect": "敵方目標被消滅時，根據陷入的持續傷害狀態數量，為我方全體目標回復能量。",
+		"VersionAdded": "4.1"
+	},
+	"678410": {
+		"Id": "678410",
+		"Name": "祖宗戰神",
+		"Rarity": 1,
+		"Effect": "我方目標暴擊率提高<color=#f29e38ff>25%</color>，憶靈發動攻擊後，額外為隨機攻擊目標附加<color=#f29e38ff>3</color>層【<u>逆會心</u>】。",
+		"AbridgedEffect": "我方目標暴擊率提高，憶靈發動攻擊後，額外為隨機攻擊目標附加【<u>逆會心</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678420": {
+		"Id": "678420",
+		"Name": "光頭製造者",
+		"Rarity": 1,
+		"Effect": "【<u>呢喃</u>】的充能每有清除閾值的1%，敵方目標受到的暴擊傷害便提高<color=#f29e38ff>1.0%</color>，最多提高<color=#f29e38ff>150%</color>。",
+		"AbridgedEffect": "【<u>呢喃</u>】的充能每有清除閾值的1%，敵方目標受到的暴擊傷害便相應提高。",
+		"VersionAdded": "4.1"
+	},
+	"678460": {
+		"Id": "678460",
+		"Name": "碩鼠獵手",
+		"Rarity": 1,
+		"Effect": "【<u>逆會心</u>】造成的傷害提高<color=#f29e38ff>60%</color>，施放歡愉技攻擊觸發時造成的傷害額外提高<color=#f29e38ff>60%</color>。",
+		"AbridgedEffect": "【<u>逆會心</u>】造成的傷害提高，發動歡愉技攻擊觸發時額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"678480": {
+		"Id": "678480",
+		"Name": "受詛教師",
+		"Rarity": 1,
+		"Effect": "每消滅1名敵方目標，便使本場戰鬥中我方目標造成的傷害提高<color=#f29e38ff>30%</color>，終結技傷害額外提高<color=#f29e38ff>15%</color>，可疊加。",
+		"AbridgedEffect": "每消滅1名敵方目標，使本場戰鬥中我方目標造成的傷害便相應提高，終結技傷害額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"678510": {
+		"Id": "678510",
+		"Name": "換心魔",
+		"Rarity": 1,
+		"Effect": "我方目標生命上限提高<color=#f29e38ff>40%</color>，進入戰鬥/憶靈被召喚時，充能等同於自身生命上限<color=#f29e38ff>100%</color>的【<u>耀變</u>】，且之後第一個回合結束時，不清除【<u>耀變</u>】。",
+		"AbridgedEffect": "生命上限提高，進入戰鬥/憶靈被召喚時，為【<u>耀變</u>】充能，之後第一個回合結束時，不清除【<u>耀變</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678520": {
+		"Id": "678520",
+		"Name": "車庫屠龍者",
+		"Rarity": 1,
+		"Effect": "我方目標效果抗性提高<color=#f29e38ff>20%</color>，造成的【<u>耀變</u>】傷害提高<color=#f29e38ff>80%</color>，抵抗受到的負面效果時，對目標造成等同於【<u>耀變</u>】<color=#f29e38ff>60%</color>的附加傷害，該傷害無法消滅敵方目標。",
+		"AbridgedEffect": "效果抗性提高，造成的【<u>耀變</u>】傷害提高，抵抗受到的負面效果時，對目標造成【<u>耀變</u>】傷害。",
+		"VersionAdded": "4.1"
+	},
+	"678580": {
+		"Id": "678580",
+		"Name": "物理魔法少女",
+		"Rarity": 1,
+		"Effect": "我方角色在單場戰鬥中首次生命值百分比小於<color=#f29e38ff>25%</color>後，啟動終結技，並使本場戰鬥中自身與憶靈造成的終結技傷害可以無視<color=#f29e38ff>20%</color>的防禦力。",
+		"AbridgedEffect": "我方目標在單場戰鬥中首次生命值百分比小於<color=#f29e38ff>25%</color>後，啟動終結技，並使本場戰鬥中自身與憶靈造成的終結技傷害可以無視敵方目標一定的防禦力。",
+		"VersionAdded": "4.1"
+	},
+	"678590": {
+		"Id": "678590",
+		"Name": "阿哈廣播電台",
+		"Rarity": 1,
+		"Effect": "獲得的護盾量提高<color=#f29e38ff>30%</color>，擊破敵方目標弱點後，我方全體獲得等同於生命上限<color=#f29e38ff>15%</color>的護盾，持續<color=#f29e38ff>2</color>回合。",
+		"AbridgedEffect": "獲得的護盾量提高，擊破敵方目標弱點後，我方全體獲得護盾。",
+		"VersionAdded": "4.1"
+	},
+	"678640": {
+		"Id": "678640",
+		"Name": "斷捨離劍士",
+		"Rarity": 1,
+		"Effect": "我方目標歡愉度提高<color=#f29e38ff>25%</color>，每有1名敵方目標被消滅便額外提高<color=#f29e38ff>15%</color>。",
+		"AbridgedEffect": "我方目標歡愉度提高，每有1名敵方目標被消滅便額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"678650": {
+		"Id": "678650",
+		"Name": "打榜雙子星",
+		"Rarity": 1,
+		"Effect": "【<u>發牌員</u>】每次行動後，【<u>耀變</u>】充能效率提高<color=#f29e38ff>6%</color>，最多疊加<color=#f29e38ff>10</color>次。",
+		"AbridgedEffect": "【<u>發牌員</u>】每次行動後，【<u>耀變</u>】充能效率便提高。",
+		"VersionAdded": "4.1"
+	},
+	"678670": {
+		"Id": "678670",
+		"Name": "調飲師",
+		"Rarity": 1,
+		"Effect": "我方目標暴擊傷害提高<color=#f29e38ff>60%</color>。【<u>發牌員</u>】每次行動後，使我方全體下次發動普通攻擊/施放戰技時的暴擊傷害額外提高<color=#f29e38ff>40%</color>。",
+		"AbridgedEffect": "我方目標暴擊傷害提高。【<u>發牌員</u>】每次行動後，使我方全體下次發動普通攻擊/戰技時的暴擊傷害便額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"678690": {
+		"Id": "678690",
+		"Name": "傷心人",
+		"Rarity": 1,
+		"Effect": "我方目標歡愉傷害的弱點擊破效率提高<color=#f29e38ff>25%</color>，擊破敵方目標弱點後，使自身速度提高<color=#f29e38ff>25%</color>。",
+		"AbridgedEffect": "我方目標歡愉傷害的弱點擊破效率提高，擊破敵方目標弱點後，使自身速度提高。",
+		"VersionAdded": "4.1"
+	},
+	"678710": {
+		"Id": "678710",
+		"Name": "技能抓鬮賽",
+		"Rarity": 1,
+		"Effect": "憶靈發動攻擊後，【<u>魂繭</u>】充能<color=#f29e38ff>15%</color>，並有<color=#f29e38ff>40%</color>機率恢復<color=#f29e38ff>1</color>點戰技點。",
+		"AbridgedEffect": "憶靈發動攻擊可以給【<u>魂繭</u>】充能，並有機率恢復戰技點。",
+		"VersionAdded": "4.1"
+	},
+	"678720": {
+		"Id": "678720",
+		"Name": "行星碰碰車",
+		"Rarity": 1,
+		"Effect": "【<u>蝶魄</u>】的真實傷害提高原倍率的<color=#f29e38ff>35%</color>，敵方目標每有1個負面效果，便額外提高原倍率的<color=#f29e38ff>1%</color>。",
+		"AbridgedEffect": "【<u>蝶魄</u>】的真實傷害提高，敵方目標每有1個負面效果，倍率便額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"678760": {
+		"Id": "678760",
+		"Name": "知心小蛋糕",
+		"Rarity": 1,
+		"Effect": "我方目標發動普通攻擊/施放戰技時的暴擊傷害提高<color=#f29e38ff>100%</color>。每消耗1點戰技點便獲得<color=#f29e38ff>1</color>個笑點。",
+		"AbridgedEffect": "我方目標發動普通攻擊/戰技時的暴擊傷害提高。每消耗1點戰技點，便獲得笑點。",
+		"VersionAdded": "4.1"
+	},
+	"678790": {
+		"Id": "678790",
+		"Name": "翻轉蟻",
+		"Rarity": 1,
+		"Effect": "我方目標造成的普通攻擊/戰技傷害無視敵方目標<color=#f29e38ff>25%</color>的防禦力，該效果對弱點擊破狀態下的敵方目標提高至<color=#f29e38ff>40%</color>。",
+		"AbridgedEffect": "造成的普通攻擊/戰技傷害無視敵方目標一定比例的防禦力，該效果對擊破狀態下的敵方目標額外提高。",
+		"VersionAdded": "4.1"
+	},
+	"678840": {
+		"Id": "678840",
+		"Name": "逐影機神",
+		"Rarity": 1,
+		"Effect": "每層【<u>逆會心</u>】觸發時額外造成<color=#f29e38ff>15%</color>攻擊力的傷害，施放終結技攻擊後，額外對所有攻擊目標附加<color=#f29e38ff>2</color>層【<u>逆會心</u>】。",
+		"AbridgedEffect": "每層【<u>逆會心</u>】觸發時額外造成傷害，施放終結技攻擊後，額外對所有攻擊目標附加【<u>逆會心</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678850": {
+		"Id": "678850",
+		"Name": "銀河烘焙場",
+		"Rarity": 1,
+		"Effect": "我方目標造成的【<u>耀變</u>】傷害提高<color=#f29e38ff>75%</color>，施放終結技後，充能等同於生命上限<color=#f29e38ff>35%</color>的【<u>耀變</u>】。",
+		"AbridgedEffect": "我方目標造成的【<u>耀變</u>】傷害提高，施放終結技後，充能【<u>耀變</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678860": {
+		"Id": "678860",
+		"Name": "俺尋思學士",
+		"Rarity": 1,
+		"Effect": "我方目標終結技傷害的暴擊傷害提高<color=#f29e38ff>75%</color>，【<u>發牌員</u>】行動後，為我方角色充能<color=#f29e38ff>5%</color>【<u>桶中腦</u>】。",
+		"AbridgedEffect": "我方目標終結技傷害的暴擊傷害提高，【<u>發牌員</u>】行動後，為我方角色充能【<u>桶中腦</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678870": {
+		"Id": "678870",
+		"Name": "卡牌新星",
+		"Rarity": 1,
+		"Effect": "我方目標每消耗1個戰技點，造成的終結技傷害便提高<color=#f29e38ff>65%</color>，最多提高<color=#f29e38ff>130%</color>，持續至施放終結技後。",
+		"AbridgedEffect": "我方目標消耗的戰技點越多，造成的終結技傷害提高。",
+		"VersionAdded": "4.1"
+	},
+	"678910": {
+		"Id": "678910",
+		"Name": "故國重建師",
+		"Rarity": 1,
+		"Effect": "每層【<u>執念</u>】將使擊破特攻提高<color=#f29e38ff>0.8%</color>，憶靈的擊破特攻額外再提高<color=#f29e38ff>0.5%</color>。",
+		"AbridgedEffect": "【<u>執念</u>】將提高擊破特攻，並額外提高憶靈的擊破特攻。",
+		"VersionAdded": "4.1"
+	},
+	"678920": {
+		"Id": "678920",
+		"Name": "邂逅神醫",
+		"Rarity": 1,
+		"Effect": "我方目標發動攻擊使敵方目標陷入了負面狀態時，為其附加<color=#f29e38ff>1</color>層【<u>和音</u>】，如果目標處於弱點擊破狀態則附加的層數翻倍。",
+		"AbridgedEffect": "攻擊使敵方陷入負面狀態時，額外附加【<u>和音</u>】，對處於弱點擊破狀態下的敵人附加層數翻倍。",
+		"VersionAdded": "4.1"
+	},
+	"678940": {
+		"Id": "678940",
+		"Name": "樂園騎士",
+		"Rarity": 1,
+		"Effect": "【<u>和音</u>】傷害倍率提高原倍率<color=#f29e38ff>50%</color>，我方目標發動追加攻擊後為目標附加<color=#f29e38ff>1</color>層【<u>和音</u>】。",
+		"AbridgedEffect": "【<u>和音</u>】傷害提高，我方目標發動追加攻擊後額外附加【<u>和音</u>】。",
+		"VersionAdded": "4.1"
+	},
+	"678970": {
+		"Id": "678970",
+		"Name": "湮滅粒子群",
+		"Rarity": 1,
+		"Effect": "我方目標發動普通攻擊/施放戰技時無視敵方目標<color=#f29e38ff>20%</color>的全屬性抗性，發動普通攻擊/戰技後，無視弱點屬性固定削減敵方目標<color=#f29e38ff>15</color>點韌性。",
+		"AbridgedEffect": "我方目標發動普通攻擊/戰技時無視敵方目標一定的全屬性抗性，發動普通攻擊/戰技發動攻擊後，無視弱點屬性固定削減敵方目標韌性。",
+		"VersionAdded": "4.1"
 	}
 }

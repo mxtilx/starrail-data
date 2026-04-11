@@ -5375,6 +5375,1517 @@
 		"EnhancedAbridgedEffect": "Restores HP after Breaking enemy targets' Weakness.",
 		"VersionAdded": "3.1"
 	},
+	"617000": {
+		"Id": "617000",
+		"Name": "\"Highlight\"",
+		"Rarity": 1,
+		"Effect": "Increases the final DMG dealt by ally targets by <color=#f29e38ff>2%</color> and reduces DMG taken by <color=#f29e38ff>1%</color>. When Charge reaches 100%, the \"Highlight\" target's action advances by 100%, and increases final DMG dealt by them and their memosprite by <color=#f29e38ff>10%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"617120": {
+		"Id": "617120",
+		"Name": "Bedtime Story",
+		"Rarity": 1,
+		"Effect": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Remembrance, dealing Ice DMG to all enemy targets with a high chance of Freezing them for <color=#f29e38ff>1</color> turn(s). After being attacked by memosprite while under this Freeze effect, additionally take True DMG equal to <color=#f29e38ff>8%</color> of Max HP. Every time the enemy target is afflicted with this Freeze state, this DMG can be triggered a maximum of <color=#f29e38ff>4</color> time(s).",
+		"AbridgedEffect": "After triggering Boundary Equation, deals Ice DMG to all enemies with a high chance of Freezing them. After being attacked by a memosprite while under this Freeze state, additionally take True DMG equal to <color=#f29e38ff>8%</color> of Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"617130": {
+		"Id": "617130",
+		"Name": "Infallible Instinct",
+		"Rarity": 1,
+		"Effect": "When characters take action, both them and their memosprite gain <color=#f29e38ff>1</color> stack(s) of \"<u>Obsession</u>.\" When memosprites take action, both them and their memomaster gain <color=#f29e38ff>1</color> stack(s) of \"<u>Obsession</u>.\"",
+		"AbridgedEffect": "When characters take action, they and their memosprite gain \"<u>Obsession</u>.\" When memosprites take action, they and their memomaster gain \"<u>Obsession</u>.\"",
+		"EnhancedEffect": "When characters take action, both them and their memosprite gain <color=#f29e38ff>1</color> stack(s) of \"<u>Obsession</u>.\" When memosprites take action, both them and their memomaster gain <color=#f29e38ff>2</color> stack(s) of \"<u>Obsession</u>.\"",
+		"EnhancedAbridgedEffect": "When characters take action, they and their memosprite gain \"<u>Obsession</u>.\" When memosprites take action, they and their memomaster gain \"<u>Obsession</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617131": {
+		"Id": "617131",
+		"Name": "Unaging Memory",
+		"Rarity": 1,
+		"Effect": "After an ally target uses an attack, deals Additional DMG equal to <color=#f29e38ff>1%</color> of ATK to attack target(s) for every stack of allies' total \"<u>Obsession</u>\" stacks.",
+		"AbridgedEffect": "After using an attack, deals Additional DMG based on the total \"<u>Obsession</u>\" stacks of all allies.",
+		"EnhancedEffect": "After an ally target uses an attack, deals Additional DMG equal to <color=#f29e38ff>1.5%</color> of ATK to attack target(s) for every stack of allies' total \"<u>Obsession</u>\" stacks.",
+		"EnhancedAbridgedEffect": "After using an attack, deals Additional DMG based on the total \"<u>Obsession</u>\" stacks of all allies.",
+		"VersionAdded": "4.1"
+	},
+	"617132": {
+		"Id": "617132",
+		"Name": "Ever-Peaceful Dream",
+		"Rarity": 1,
+		"Effect": "After ally targets enter combat or after a memosprite is summoned, advances their action by <color=#f29e38ff>50%</color> and increases their DMG dealt by <color=#f29e38ff>50%</color> for <color=#f29e38ff>4</color> turn(s) after their first turn ends.",
+		"AbridgedEffect": "After ally targets enter combat or after a memosprite is summoned, advances their action after their first turn ends and increases their DMG dealt.",
+		"EnhancedEffect": "After ally targets enter combat or after a memosprite is summoned, advances their action by <color=#f29e38ff>75%</color> and increases their DMG dealt by <color=#f29e38ff>75%</color> for <color=#f29e38ff>4</color> turn(s) after their first turn ends.",
+		"EnhancedAbridgedEffect": "After ally targets enter combat or after a memosprite is summoned, advances their action after their first turn ends and increases their DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617140": {
+		"Id": "617140",
+		"Name": "Enlightenment: Cloudweave",
+		"Rarity": 1,
+		"Effect": "When an ally target is attacked, gains <color=#f29e38ff>2</color> stack(s) of \"<u>Obsession</u>.\"",
+		"AbridgedEffect": "Gains \"<u>Obsession</u>\" when attacked.",
+		"EnhancedEffect": "When an ally target is attacked, gains <color=#f29e38ff>3</color> stack(s) of \"<u>Obsession</u>.\"",
+		"EnhancedAbridgedEffect": "Gains \"<u>Obsession</u>\" when attacked.",
+		"VersionAdded": "4.1"
+	},
+	"617141": {
+		"Id": "617141",
+		"Name": "Enlightenment: Ridgesew",
+		"Rarity": 1,
+		"Effect": "After an ally target defeats any enemy target, all allies gain <color=#f29e38ff>4</color> stack(s) of \"<u>Obsession</u>.\"",
+		"AbridgedEffect": "After defeating an enemy target, grants all allies \"<u>Obsession</u>.\"",
+		"EnhancedEffect": "After an ally target defeats any enemy target, all allies gain <color=#f29e38ff>6</color> stack(s) of \"<u>Obsession</u>.\"",
+		"EnhancedAbridgedEffect": "After defeating an enemy target, grants all allies \"<u>Obsession</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617142": {
+		"Id": "617142",
+		"Name": "Enlightenment: Wavebind",
+		"Rarity": 1,
+		"Effect": "After ally targets enter combat or after memosprites are summoned, they gain <color=#f29e38ff>6</color> stack(s) of \"<u>Obsession</u>.\"",
+		"AbridgedEffect": "After ally targets enter combat or after memosprites are summoned, obtains \"<u>Obsession</u>.\"",
+		"EnhancedEffect": "After ally targets enter combat or after memosprites are summoned, they gain <color=#f29e38ff>9</color> stack(s) of \"<u>Obsession</u>.\"",
+		"EnhancedAbridgedEffect": "After ally targets enter combat or after memosprites are summoned, obtains \"<u>Obsession</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617143": {
+		"Id": "617143",
+		"Name": "Enlightenment: Eulogy of the Coast",
+		"Rarity": 1,
+		"Effect": "Each stack of \"<u>Obsession</u>\" additionally increases DMG dealt by <color=#f29e38ff>0.3%</color>.",
+		"AbridgedEffect": "Each stack of \"<u>Obsession</u>\" additionally increases DMG dealt.",
+		"EnhancedEffect": "Each stack of \"<u>Obsession</u>\" additionally increases DMG dealt by <color=#f29e38ff>0.4%</color>.",
+		"EnhancedAbridgedEffect": "Each stack of \"<u>Obsession</u>\" additionally increases DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617144": {
+		"Id": "617144",
+		"Name": "Enlightenment: Praise of the Abyss",
+		"Rarity": 1,
+		"Effect": "Characters' maximum \"<u>Obsession</u>\" increases by <color=#f29e38ff>4</color> stack(s).",
+		"AbridgedEffect": "Increases characters' \"<u>Obsession</u>\" stack limit.",
+		"EnhancedEffect": "Characters' maximum \"<u>Obsession</u>\" increases by <color=#f29e38ff>6</color> stack(s).",
+		"EnhancedAbridgedEffect": "Increases characters' \"<u>Obsession</u>\" stack limit.",
+		"VersionAdded": "4.1"
+	},
+	"617145": {
+		"Id": "617145",
+		"Name": "Enlightenment: Dawn Distilled",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target is attacked by different ally targets, increases their DMG taken by <color=#f29e38ff>4%</color> for up to <color=#f29e38ff>6</color> stacks, lasting till the end of the turn.",
+		"AbridgedEffect": "When an enemy target is attacked by different ally targets, increases their DMG taken.",
+		"EnhancedEffect": "Every time an enemy target is attacked by different ally targets, increases their DMG taken by <color=#f29e38ff>6%</color> for up to <color=#f29e38ff>6</color> stacks, lasting till the end of the turn.",
+		"EnhancedAbridgedEffect": "When an enemy target is attacked by different ally targets, increases their DMG taken.",
+		"VersionAdded": "4.1"
+	},
+	"617146": {
+		"Id": "617146",
+		"Name": "Enlightenment: Sunset Melted",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target is hit by different ally targets, decreases their DMG dealt by <color=#f29e38ff>2%</color> for up to <color=#f29e38ff>6</color> stacks, lasting till the end of the turn.",
+		"AbridgedEffect": "When an enemy target is attacked by different ally targets, decreases their DMG dealt.",
+		"EnhancedEffect": "Every time an enemy target is hit by different ally targets, decreases their DMG dealt by <color=#f29e38ff>3%</color> for up to <color=#f29e38ff>6</color> stacks, lasting till the end of the turn.",
+		"EnhancedAbridgedEffect": "When an enemy target is attacked by different ally targets, decreases their DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617150": {
+		"Id": "617150",
+		"Name": "Acuity: Warmth of Blades",
+		"Rarity": 1,
+		"Effect": "Increases all ally targets' ATK by <color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Increases ATK.",
+		"EnhancedEffect": "Increases all ally targets' ATK by <color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Increases ATK.",
+		"VersionAdded": "4.1"
+	},
+	"617151": {
+		"Id": "617151",
+		"Name": "Acuity: Shape of Claws",
+		"Rarity": 1,
+		"Effect": "Increases all ally targets' DMG dealt by <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Increases DMG dealt.",
+		"EnhancedEffect": "Increases all ally targets' DMG dealt by <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Increases DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617152": {
+		"Id": "617152",
+		"Name": "Acuity: Patterns of Conches",
+		"Rarity": 1,
+		"Effect": "Increases all ally targets' DEF by <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Increases DEF.",
+		"EnhancedEffect": "Increases all ally targets' DEF by <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Increases DEF.",
+		"VersionAdded": "4.1"
+	},
+	"617153": {
+		"Id": "617153",
+		"Name": "Acuity: Stories of Monsoons",
+		"Rarity": 1,
+		"Effect": "Increases all ally targets' DMG dealt by <color=#f29e38ff>10%</color> and additionally increases memosprites' DMG dealt by <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Increases DMG dealt, and additionally boosts memosprite's DMG dealt.",
+		"EnhancedEffect": "Increases all ally targets' DMG dealt by <color=#f29e38ff>15%</color> and additionally increases memosprites' DMG dealt by <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Increases DMG dealt, and additionally boosts memosprite's DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617154": {
+		"Id": "617154",
+		"Name": "Acuity: Stories of Boulders",
+		"Rarity": 1,
+		"Effect": "Increases all ally targets' DEF by <color=#f29e38ff>14%</color> and additionally increases memosprites' DEF by <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Increases DEF, and additionally boosts memosprite's DEF.",
+		"EnhancedEffect": "Increases all ally targets' DEF by <color=#f29e38ff>21%</color> and additionally increases memosprites' DEF by <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Increases DEF, and additionally boosts memosprite's DEF.",
+		"VersionAdded": "4.1"
+	},
+	"617155": {
+		"Id": "617155",
+		"Name": "Acuity: Stories of Tides",
+		"Rarity": 1,
+		"Effect": "Increases all ally targets' HP restored by <color=#f29e38ff>10%</color> and additionally increases memosprites' HP restored by <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Increases the HP restored, and additionally boosts memosprite's HP restoration.",
+		"EnhancedEffect": "Increases all ally targets' HP restored by <color=#f29e38ff>15%</color> and additionally increases memosprites' HP restored by <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Increases the HP restored, and additionally boosts memosprite's HP restoration.",
+		"VersionAdded": "4.1"
+	},
+	"617156": {
+		"Id": "617156",
+		"Name": "Acuity: Scarlet Bones and Crimson Leaves",
+		"Rarity": 1,
+		"Effect": "After a memosprite takes action, increases all ally targets' CRIT Rate by <color=#f29e38ff>14%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After a memosprite takes action, increases all allies' CRIT Rate.",
+		"EnhancedEffect": "After a memosprite takes action, increases all ally targets' CRIT Rate by <color=#f29e38ff>21%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After a memosprite takes action, increases all allies' CRIT Rate.",
+		"VersionAdded": "4.1"
+	},
+	"617157": {
+		"Id": "617157",
+		"Name": "Acuity: White Hair and Pearls",
+		"Rarity": 1,
+		"Effect": "After a memosprite takes action, increases all ally targets' CRIT DMG by <color=#f29e38ff>28%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After a memosprite takes action, increases all allies' CRIT DMG.",
+		"EnhancedEffect": "After a memosprite takes action, increases all ally targets' CRIT DMG by <color=#f29e38ff>42%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After a memosprite takes action, increases all allies' CRIT DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617220": {
+		"Id": "617220",
+		"Name": "Adorable Black Hole",
+		"Rarity": 1,
+		"Effect": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Nihility. Inflicts Burn, Shock, Bleed, and 2 stacks of Wind Shear to all enemy targets, lasting for <color=#f29e38ff>3</color> turn(s). After being attacked by a character, the aforementioned DoTs immediately deal DMG equal to <color=#f29e38ff>25%</color> of the original DMG.",
+		"AbridgedEffect": "After triggering Boundary Equation, inflicts Burn, Shock, Bleed, and Wind Shear on all enemies. After receiving a character's attack, the inflicted DoTs can be triggered.",
+		"VersionAdded": "4.1"
+	},
+	"617230": {
+		"Id": "617230",
+		"Name": "La Communauté Inavouable",
+		"Rarity": 1,
+		"Effect": "When enemy target is afflicted with DoT, \"<u>Murmur</u>\" gains Charge equal to <color=#f29e38ff>20%</color> of the sum of ally characters' ATK.",
+		"AbridgedEffect": "When an enemy target becomes afflicted by a DoT, charges \"<u>Murmur</u>.\"",
+		"EnhancedEffect": "When enemy target is afflicted with DoT, \"<u>Murmur</u>\" gains Charge equal to <color=#f29e38ff>30%</color> of the sum of ally characters' ATK.",
+		"EnhancedAbridgedEffect": "When an enemy target becomes afflicted by a DoT, charges \"<u>Murmur</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617231": {
+		"Id": "617231",
+		"Name": "De L'existence a L'existant",
+		"Rarity": 1,
+		"Effect": "After enemy targets are attacked for the first time in this turn, causes \"<u>Murmur</u>\" DMG equal to <color=#f29e38ff>160%</color> of original DMG.",
+		"AbridgedEffect": "After enemy targets are attacked for the first time in this turn, triggers 1 instance of \"<u>Murmur</u>\" DMG.",
+		"EnhancedEffect": "After enemy targets are attacked for the first time in this turn, causes \"<u>Murmur</u>\" DMG equal to <color=#f29e38ff>240%</color> of original DMG.",
+		"EnhancedAbridgedEffect": "After enemy targets are attacked for the first time in this turn, triggers 1 instance of \"<u>Murmur</u>\" DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617232": {
+		"Id": "617232",
+		"Name": "Une Voix Venue D'ailleurs",
+		"Rarity": 1,
+		"Effect": "At the beginning of an enemy target's turn, additionally trigger 1 instance of DoT calculation, and each DoT state currently on the target will immediately produce DMG equal to <color=#f29e38ff>90%</color> of the original DMG.",
+		"AbridgedEffect": "At the start of an enemy target's turn, all DoT states on them are triggered 1 extra time.",
+		"EnhancedEffect": "At the beginning of an enemy target's turn, additionally trigger 1 instance of DoT calculation, and each DoT state currently on the target will immediately produce DMG equal to <color=#f29e38ff>135%</color> of the original DMG.",
+		"EnhancedAbridgedEffect": "At the start of an enemy target's turn, all DoT states on them are triggered 1 extra time.",
+		"VersionAdded": "4.1"
+	},
+	"617240": {
+		"Id": "617240",
+		"Name": "Enlightenment and Extinction",
+		"Rarity": 1,
+		"Effect": "When enemy target's turn ends, \"<u>Murmur</u>\" gains Charge equal to <color=#f29e38ff>40%</color> of the sum of ally characters' ATK.",
+		"AbridgedEffect": "When an enemy target ends their turn, charges \"<u>Murmur</u>.\"",
+		"EnhancedEffect": "When enemy target's turn ends, \"<u>Murmur</u>\" gains Charge equal to <color=#f29e38ff>60%</color> of the sum of ally characters' ATK.",
+		"EnhancedAbridgedEffect": "When an enemy target ends their turn, charges \"<u>Murmur</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617241": {
+		"Id": "617241",
+		"Name": "Lacrimi și Sfinți",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target takes \"<u>Murmur</u>\" DMG, decreases their DMG dealt by <color=#f29e38ff>0.3%</color> to a max reduction of <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Every time an enemy target takes \"<u>Murmur</u>\" DMG, decreases their DMG dealt.",
+		"EnhancedEffect": "Every time an enemy target takes \"<u>Murmur</u>\" DMG, decreases their DMG dealt by <color=#f29e38ff>0.8%</color> to a max reduction of <color=#f29e38ff>16%</color>.",
+		"EnhancedAbridgedEffect": "Every time an enemy target takes \"<u>Murmur</u>\" DMG, decreases their DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617242": {
+		"Id": "617242",
+		"Name": "Insomnia's Praise",
+		"Rarity": 1,
+		"Effect": "\"<u>Murmur</u>\" DMG increases by <color=#f29e38ff>30%</color> of the original DMG multiplier.",
+		"AbridgedEffect": "Increases \"<u>Murmur</u>\" DMG.",
+		"EnhancedEffect": "\"<u>Murmur</u>\" DMG increases by <color=#f29e38ff>45%</color> of the original DMG multiplier.",
+		"EnhancedAbridgedEffect": "Increases \"<u>Murmur</u>\" DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617243": {
+		"Id": "617243",
+		"Name": "Pe Culmile Disperării",
+		"Rarity": 1,
+		"Effect": "Increases \"<u>Murmur</u>\" clear threshold by <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Increases maximum threshold for clearing \"<u>Murmur</u>.\"",
+		"EnhancedEffect": "Increases \"<u>Murmur</u>\" clear threshold by <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Increases maximum threshold for clearing \"<u>Murmur</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617244": {
+		"Id": "617244",
+		"Name": "L'Écriture du Désastre",
+		"Rarity": 1,
+		"Effect": "\"<u>Murmur's</u>\" Charging Efficiency when gaining Charge increases by <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Increases Charging Efficiency of \"<u>Murmur</u>\" when it charges.",
+		"EnhancedEffect": "\"<u>Murmur's</u>\" Charging Efficiency when gaining Charge increases by <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Increases Charging Efficiency of \"<u>Murmur</u>\" when it charges.",
+		"VersionAdded": "4.1"
+	},
+	"617245": {
+		"Id": "617245",
+		"Name": "The Final Speaker",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target takes 1 instance of DoT, all allies restore HP equal to <color=#f29e38ff>1.0%</color> of their respective Max HP.",
+		"AbridgedEffect": "Every time enemy targets take 1 instance of DoT, all allies restore HP.",
+		"EnhancedEffect": "Every time an enemy target takes 1 instance of DoT, all allies restore HP equal to <color=#f29e38ff>1.5%</color> of their respective Max HP.",
+		"EnhancedAbridgedEffect": "Every time enemy targets take 1 instance of DoT, all allies restore HP.",
+		"VersionAdded": "4.1"
+	},
+	"617246": {
+		"Id": "617246",
+		"Name": "Unclear Opinions",
+		"Rarity": 1,
+		"Effect": "For every 1 DoT state an enemy target are afflicted with, increases the DMG taken by them by <color=#f29e38ff>3.0%</color>. This effect can stack up to <color=#f29e38ff>6</color> times.",
+		"AbridgedEffect": "For each DoT status the enemy target is afflicted with, increases the DMG taken by them.",
+		"EnhancedEffect": "For every 1 DoT state an enemy target are afflicted with, increases the DMG taken by them by <color=#f29e38ff>4.5%</color>. This effect can stack up to <color=#f29e38ff>6</color> times.",
+		"EnhancedAbridgedEffect": "For each DoT status the enemy target is afflicted with, increases the DMG taken by them.",
+		"VersionAdded": "4.1"
+	},
+	"617250": {
+		"Id": "617250",
+		"Name": "La Métaphore Vive",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' DoT dealt by <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Increases DoT dealt.",
+		"EnhancedEffect": "Increases ally targets' DoT dealt by <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Increases DoT dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617251": {
+		"Id": "617251",
+		"Name": "The Non-Existent",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Effect Hit Rate by <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Increases Effect Hit Rate.",
+		"EnhancedEffect": "Increases ally targets' Effect Hit Rate by <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Increases Effect Hit Rate.",
+		"VersionAdded": "4.1"
+	},
+	"617252": {
+		"Id": "617252",
+		"Name": "Sygdommen til Døden",
+		"Rarity": 1,
+		"Effect": "Decreases enemy targets' Effect RES by <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Decreases enemy targets' Effect RES.",
+		"EnhancedEffect": "Decreases enemy targets' Effect RES by <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Decreases enemy targets' Effect RES.",
+		"VersionAdded": "4.1"
+	},
+	"617253": {
+		"Id": "617253",
+		"Name": "Sacrilegious",
+		"Rarity": 1,
+		"Effect": "Increases enemy targets' DoT taken by <color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "Increases DoT DMG taken by enemy targets.",
+		"EnhancedEffect": "Increases enemy targets' DoT taken by <color=#f29e38ff>15%</color>.",
+		"EnhancedAbridgedEffect": "Increases DoT DMG taken by enemy targets.",
+		"VersionAdded": "4.1"
+	},
+	"617254": {
+		"Id": "617254",
+		"Name": "L'Expérience Intérieure",
+		"Rarity": 1,
+		"Effect": "After any ally target applies a debuff, increases their ATK by <color=#f29e38ff>24%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After applying a debuff, increases ATK.",
+		"EnhancedEffect": "After any ally target applies a debuff, increases their ATK by <color=#f29e38ff>36%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After applying a debuff, increases ATK.",
+		"VersionAdded": "4.1"
+	},
+	"617255": {
+		"Id": "617255",
+		"Name": "Soleil Noir",
+		"Rarity": 1,
+		"Effect": "Increases DMG taken by enemy targets with any DoT state by <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Increases DMG taken by enemy targets with DoT states.",
+		"EnhancedEffect": "Increases DMG taken by enemy targets with any DoT state by <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Increases DMG taken by enemy targets with DoT states.",
+		"VersionAdded": "4.1"
+	},
+	"617256": {
+		"Id": "617256",
+		"Name": "Beyond Good & Evil",
+		"Rarity": 1,
+		"Effect": "After any ally target applies a debuff, increases their SPD by <color=#f29e38ff>10%</color> for <color=#f29e38ff>3</color> turn(s).",
+		"AbridgedEffect": "After applying a debuff, increases SPD.",
+		"EnhancedEffect": "After any ally target applies a debuff, increases their SPD by <color=#f29e38ff>15%</color> for <color=#f29e38ff>3</color> turn(s).",
+		"EnhancedAbridgedEffect": "After applying a debuff, increases SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617257": {
+		"Id": "617257",
+		"Name": "Die Austreibung des Anderen",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target takes 1 instance of DoT, regenerates <color=#f29e38ff>1.0</color> Energy for a random ally target. Enemy targets can trigger this effect for a max of <color=#f29e38ff>20</color> time(s) in one turn.",
+		"AbridgedEffect": "Every time an enemy target takes DMG from a DoT, regenerates Energy for a random ally target.",
+		"EnhancedEffect": "Every time an enemy target takes 1 instance of DoT, regenerates <color=#f29e38ff>1.5</color> Energy for a random ally target. Enemy targets can trigger this effect for a max of <color=#f29e38ff>20</color> time(s) in one turn.",
+		"EnhancedAbridgedEffect": "Every time an enemy target takes DMG from a DoT, regenerates Energy for a random ally target.",
+		"VersionAdded": "4.1"
+	},
+	"617420": {
+		"Id": "617420",
+		"Name": "Last Bullet",
+		"Rarity": 1,
+		"Effect": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of The Hunt, dealing Wind DMG to all enemy targets and advances all allies' actions by <color=#f29e38ff>100%</color>, with the Max Energy being 200.",
+		"AbridgedEffect": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of The Hunt, dealing Wind DMG to all enemy targets and advances all allies' actions by <color=#f29e38ff>100%</color>, with the Max Energy being 200.",
+		"VersionAdded": "4.1"
+	},
+	"617430": {
+		"Id": "617430",
+		"Name": "Weapons Drawn, Paths Restless",
+		"Rarity": 1,
+		"Effect": "After an ally target defeats an enemy target, advances their action by 100% and inflicts <color=#f29e38ff>4</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on other enemy targets.",
+		"AbridgedEffect": "After an ally target defeats an enemy target, advances their action by 100% and inflicts <color=#f29e38ff>4</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on other enemy targets.",
+		"EnhancedEffect": "Increases ally targets' SPD by <color=#f29e38ff>12%</color>. After an ally target defeats an enemy target, that ally's action is advanced by 100%, and inflicts <color=#f29e38ff>8</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on other enemy targets.",
+		"EnhancedAbridgedEffect": "Increases ally targets' SPD by <color=#f29e38ff>12%</color>. After an ally target defeats an enemy target, that ally's action is advanced by 100%, and inflicts <color=#f29e38ff>8</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on other enemy targets.",
+		"VersionAdded": "4.1"
+	},
+	"617431": {
+		"Id": "617431",
+		"Name": "White Feathers Fly, A Sky of Stars Vanish",
+		"Rarity": 1,
+		"Effect": "After an ally target uses an attack, when the number of attack targets is 1/2/3/4/5, the \"<u>Reverse Critical Boost</u>\" DMG dealt increases by <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> of the original DMG multiplier.",
+		"AbridgedEffect": "After an ally target uses an attack, when the number of attack targets is 1/2/3/4/5, the \"<u>Reverse Critical Boost</u>\" DMG dealt increases by <color=#f29e38ff>120%</color>/<color=#f29e38ff>80%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>40%</color>/<color=#f29e38ff>20%</color> of the original DMG multiplier.",
+		"EnhancedEffect": "After an ally target uses an attack, when the number of attack targets is 1/2/3/4/5, the \"<u>Reverse Critical Boost</u>\" DMG dealt increases by <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> of the original DMG multiplier.",
+		"EnhancedAbridgedEffect": "After an ally target uses an attack, when the number of attack targets is 1/2/3/4/5, the \"<u>Reverse Critical Boost</u>\" DMG dealt increases by <color=#f29e38ff>180%</color>/<color=#f29e38ff>120%</color>/<color=#f29e38ff>90%</color>/<color=#f29e38ff>60%</color>/<color=#f29e38ff>30%</color> of the original DMG multiplier.",
+		"VersionAdded": "4.1"
+	},
+	"617432": {
+		"Id": "617432",
+		"Name": "A Myriad Chariots, A Trial of Courage",
+		"Rarity": 1,
+		"Effect": "After any ally target inflicts Weakness Breaks on an enemy target, the ally target's next action advances by 100%.",
+		"AbridgedEffect": "After any ally target inflicts Weakness Breaks on an enemy target, the ally target's next action advances by 100%.",
+		"EnhancedEffect": "After an ally target inflicts Weakness Break on an enemy target, advances the ally target's action by 100% and increases DMG dealt by <color=#f29e38ff>50%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After an ally target inflicts Weakness Break on an enemy target, advances the ally target's action by 100% and increases DMG dealt by <color=#f29e38ff>50%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"617440": {
+		"Id": "617440",
+		"Name": "Stars Converge at Sword's Edge",
+		"Rarity": 1,
+		"Effect": "When an ally target deals DMG to an enemy target with <u>\"Reverse Critical Boost\"</u>, increases CRIT Rate by <color=#f29e38ff>20%</color>. For every stack of <u>\"Reverse Critical Boost\"</u>, additionally increases CRIT DMG by <color=#f29e38ff>3%</color>.",
+		"AbridgedEffect": "Increases ally targets' CRIT Rate against enemy targets that have \"<u>Reverse Critical Boost</u>.\" The more stacks of \"<u>Reverse Critical Boost</u>\" on the target, the higher the CRIT DMG.",
+		"EnhancedEffect": "When an ally target deals DMG to an enemy target with <u>\"Reverse Critical Boost\"</u>, increases CRIT Rate by <color=#f29e38ff>25%</color>. For every stack of <u>\"Reverse Critical Boost\"</u>, additionally increases CRIT DMG by <color=#f29e38ff>5%</color>.",
+		"EnhancedAbridgedEffect": "Increases ally targets' CRIT Rate against enemy targets that have \"<u>Reverse Critical Boost</u>.\" The more stacks of \"<u>Reverse Critical Boost</u>\" on the target, the higher the CRIT DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617441": {
+		"Id": "617441",
+		"Name": "The Crooked Path of Arrows",
+		"Rarity": 1,
+		"Effect": "Increases the max stack limit of \"<u>Reverse Critical Boost</u>\" on enemy targets by <color=#f29e38ff>5</color>.",
+		"AbridgedEffect": "Increases the max stack limit of \"<u>Reverse Critical Boost</u>\" on enemy targets.",
+		"EnhancedEffect": "Increases the max stack limit of \"<u>Reverse Critical Boost</u>\" on enemy targets by <color=#f29e38ff>10</color>.",
+		"EnhancedAbridgedEffect": "Increases the max stack limit of \"<u>Reverse Critical Boost</u>\" on enemy targets.",
+		"VersionAdded": "4.1"
+	},
+	"617442": {
+		"Id": "617442",
+		"Name": "Riders Surge in Chaos",
+		"Rarity": 1,
+		"Effect": "At the start of an enemy target's turn, for each stack of \"<u>Reverse Critical Boost</u>\" they have, increases the DMG taken by them by <color=#f29e38ff>0.8%</color>. This effect lasts until the start of their next turn.",
+		"AbridgedEffect": "The more stacks of <u>\"Reverse Critical Boost\"</u> an enemy target has, the more DMG taken by them.",
+		"EnhancedEffect": "At the start of an enemy target's turn, for each stack of \"<u>Reverse Critical Boost</u>\" they have, increases the DMG taken by them by <color=#f29e38ff>1.2%</color>. This effect lasts until the start of their next turn.",
+		"EnhancedAbridgedEffect": "The more stacks of <u>\"Reverse Critical Boost\"</u> an enemy target has, the more DMG taken by them.",
+		"VersionAdded": "4.1"
+	},
+	"617443": {
+		"Id": "617443",
+		"Name": "Broken but Not Bent",
+		"Rarity": 1,
+		"Effect": "After an ally target launches a Follow-Up ATK, additionally inflicts <color=#f29e38ff>2</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on a random attack target.",
+		"AbridgedEffect": "After an ally target launches a Follow-Up ATK, additionally inflicts <color=#f29e38ff>2</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on a random attack target.",
+		"EnhancedEffect": "After an ally target launches a Follow-Up ATK, inflicts <color=#f29e38ff>2</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on a random attack target and increases this unit's SPD by <color=#f29e38ff>30%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After an ally target launches a Follow-Up ATK, additionally inflicts <color=#f29e38ff>2</color> stack(s) of \"<u>Reverse Critical Boost</u>\" on a random attack target and increases this unit's SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617444": {
+		"Id": "617444",
+		"Name": "Radiance of Lightning's Edge",
+		"Rarity": 1,
+		"Effect": "After an ally target uses an attack, if any of the attack targets has <color=#f29e38ff>5</color> or more stacks of \"<u>Reverse Critical Boost</u>\", increases this unit's ATK by <color=#f29e38ff>50%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After an ally target uses an attack, if any of the attack targets has <color=#f29e38ff>5</color> or more stacks of \"<u>Reverse Critical Boost</u>,\" this unit's ATK increases.",
+		"EnhancedEffect": "After an ally target uses an attack, if any of the attack targets has <color=#f29e38ff>5</color> or more stacks of \"<u>Reverse Critical Boost</u>\", increases this unit's ATK by <color=#f29e38ff>75%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After an ally target uses an attack, if any of the attack targets has <color=#f29e38ff>5</color> or more stacks of \"<u>Reverse Critical Boost</u>,\" this unit's ATK increases.",
+		"VersionAdded": "4.1"
+	},
+	"617445": {
+		"Id": "617445",
+		"Name": "The Archer's Trusted Bow",
+		"Rarity": 1,
+		"Effect": "After an ally target launches a Follow-Up ATK, there is a <color=#f29e38ff>40%</color> fixed chance to recover 1 Skill Point.",
+		"AbridgedEffect": "After any ally target launches Follow-Up ATK, there is a chance to recover a Skill Point.",
+		"EnhancedEffect": "After an ally target launches a Follow-Up ATK, there is a <color=#f29e38ff>60%</color> fixed chance to recover 1 Skill Point.",
+		"EnhancedAbridgedEffect": "After any ally target launches Follow-Up ATK, there is a chance to recover a Skill Point.",
+		"VersionAdded": "4.1"
+	},
+	"617446": {
+		"Id": "617446",
+		"Name": "Arrows Leap Like Meteors",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' SPD by <color=#f29e38ff>5%</color>. After every <color=#f29e38ff>12</color> turn(s) spent by the entire team, the currently acting ally target's action advances by 100%.",
+		"AbridgedEffect": "Increases ally targets' SPD by <color=#f29e38ff>5%</color>. After every <color=#f29e38ff>12</color> turn(s) spent by the entire team, the currently acting ally target's action advances by 100%.",
+		"EnhancedEffect": "Increases ally targets' SPD by <color=#f29e38ff>12%</color>. After every <color=#f29e38ff>12</color> turn(s) spent by the entire team, the currently acting ally target's action advances by 100%.",
+		"EnhancedAbridgedEffect": "Increases ally targets' SPD by <color=#f29e38ff>12%</color>. After every <color=#f29e38ff>12</color> turn(s) spent by the entire team, the currently acting ally target's action advances by 100%.",
+		"VersionAdded": "4.1"
+	},
+	"617450": {
+		"Id": "617450",
+		"Name": "Aligned for Precision",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' SPD by <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Increases ally targets' SPD.",
+		"EnhancedEffect": "Increases ally targets' SPD by <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Increases ally targets' SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617451": {
+		"Id": "617451",
+		"Name": "Strength to Overcome Hundreds",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' CRIT Rate by <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Increases ally targets' CRIT Rate.",
+		"EnhancedEffect": "Increases ally targets' CRIT Rate by <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Increases ally targets' CRIT Rate.",
+		"VersionAdded": "4.1"
+	},
+	"617452": {
+		"Id": "617452",
+		"Name": "Purpose Shines Clear",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' CRIT DMG by <color=#f29e38ff>24%</color>.",
+		"AbridgedEffect": "Increases ally targets' CRIT DMG.",
+		"EnhancedEffect": "Increases ally targets' CRIT DMG by <color=#f29e38ff>36%</color>.",
+		"EnhancedAbridgedEffect": "Increases ally targets' CRIT DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617453": {
+		"Id": "617453",
+		"Name": "Autumn Moon in the Sky",
+		"Rarity": 1,
+		"Effect": "After defeating any enemy target, restores all ally targets' HP equal to <color=#f29e38ff>12%</color> of their respective Max HP.",
+		"AbridgedEffect": "After defeating an enemy target, restores HP for all ally targets.",
+		"EnhancedEffect": "After defeating any enemy target, restores all ally targets' HP equal to <color=#f29e38ff>18%</color> of their respective Max HP.",
+		"EnhancedAbridgedEffect": "After defeating an enemy target, restores HP for all ally targets.",
+		"VersionAdded": "4.1"
+	},
+	"617454": {
+		"Id": "617454",
+		"Name": "A Flick of the Hand",
+		"Rarity": 1,
+		"Effect": "After defeating any enemy targets, increases all allies' ATK by <color=#f29e38ff>10%</color>. This effect can stack up to <color=#f29e38ff>4</color> time(s).",
+		"AbridgedEffect": "After defeating any enemy targets, increases all allies' ATK.",
+		"EnhancedEffect": "After defeating any enemy targets, increases all allies' ATK by <color=#f29e38ff>15%</color>. This effect can stack up to <color=#f29e38ff>4</color> time(s).",
+		"EnhancedAbridgedEffect": "After defeating any enemy targets, increases all allies' ATK.",
+		"VersionAdded": "4.1"
+	},
+	"617455": {
+		"Id": "617455",
+		"Name": "Arrow Shatters the Moon",
+		"Rarity": 1,
+		"Effect": "At the end of an ally target's turn, advances their action by <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "When an ally target's turn ends, advances their action.",
+		"EnhancedEffect": "At the end of an ally target's turn, advances their action by <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "When an ally target's turn ends, advances their action.",
+		"VersionAdded": "4.1"
+	},
+	"617456": {
+		"Id": "617456",
+		"Name": "Thunder Upon the Wall",
+		"Rarity": 1,
+		"Effect": "At the beginning of an ally target's turn, they regenerate <color=#f29e38ff>3</color> Energy.",
+		"AbridgedEffect": "At the beginning of an ally target's turn, they regenerate Energy.",
+		"EnhancedEffect": "At the beginning of an ally target's turn, they regenerate <color=#f29e38ff>4</color> Energy.",
+		"EnhancedAbridgedEffect": "At the beginning of an ally target's turn, they regenerate Energy.",
+		"VersionAdded": "4.1"
+	},
+	"617457": {
+		"Id": "617457",
+		"Name": "Verdant Branch, Vermillion String",
+		"Rarity": 1,
+		"Effect": "After defeating any enemy targets, increases all allies' SPD by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>3</color> time(s).",
+		"AbridgedEffect": "After defeating any enemy targets, increases all allies' SPD.",
+		"EnhancedEffect": "After defeating any enemy targets, increases all allies' SPD by <color=#f29e38ff>6%</color>. This effect can stack up to <color=#f29e38ff>3</color> time(s).",
+		"EnhancedAbridgedEffect": "After defeating any enemy targets, increases all allies' SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617520": {
+		"Id": "617520",
+		"Name": "Demon Lord From Beyond",
+		"Rarity": 1,
+		"Effect": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Destruction, dealing Fire DMG to all enemy targets, consumes all allies' HP until <color=#f29e38ff>60%</color>, and increases all ally targets' Max HP by <color=#f29e38ff>100%</color>. At the start of the turn, restore <color=#f29e38ff>100%</color> of the acting unit's consumed HP. This effect lasts for <color=#f29e38ff>4</color> turn(s).",
+		"AbridgedEffect": "Upon triggering Boundary Equation, deals Fire DMG to all enemies, reduces all allies' HP, increases all allies' Max HP, restores all allies' HP at the beginning of the turn.",
+		"VersionAdded": "4.1"
+	},
+	"617530": {
+		"Id": "617530",
+		"Name": "Faster-than-Light Surge",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' \"<u>Blazar</u>\" DMG by <color=#f29e38ff>20%</color>, and increases the max limit of \"<u>Blazar</u>\" by <color=#f29e38ff>65%</color>.",
+		"AbridgedEffect": "Increases ally targets' \"<u>Blazar</u>\" DMG, and the max limit of \"<u>Blazar</u>\" increases.",
+		"EnhancedEffect": "Increases ally targets' \"<u>Blazar</u>\" DMG by <color=#f29e38ff>30%</color>, and increases the max limit of \"<u>Blazar</u>\" by <color=#f29e38ff>100%</color>.",
+		"EnhancedAbridgedEffect": "Increases ally targets' \"<u>Blazar</u>\" DMG, and the max limit of \"<u>Blazar</u>\" increases.",
+		"VersionAdded": "4.1"
+	},
+	"617531": {
+		"Id": "617531",
+		"Name": "Random Freepath Shockwave",
+		"Rarity": 1,
+		"Effect": "After any ally target first launches an ATK during each turn, deals Additional DMG equal to <color=#f29e38ff>100%</color> of \"<u>Blazar</u>\" to the attack targets.",
+		"AbridgedEffect": "After any ally target launches an attack for the first time in a turn, deals Additional DMG based on \"<u>Blazar</u>\" to the attack target.",
+		"EnhancedEffect": "After any ally target first launches an ATK during each turn, deals Additional DMG equal to <color=#f29e38ff>150%</color> of \"<u>Blazar</u>\" to the attack targets.",
+		"EnhancedAbridgedEffect": "After any ally target launches an attack for the first time in a turn, deals Additional DMG based on \"<u>Blazar</u>\" to the attack target.",
+		"VersionAdded": "4.1"
+	},
+	"617532": {
+		"Id": "617532",
+		"Name": "Hypersonic Cloud Medium",
+		"Rarity": 1,
+		"Effect": "When any ally target is attacked, the DMG taken is Distributed among all allies.",
+		"AbridgedEffect": "Incoming DMG is distributed across all allies.",
+		"EnhancedEffect": "Decreases DMG taken by ally targets by <color=#f29e38ff>15%</color>. When attacked, DMG taken by ally targets is Distributed among all allies.",
+		"EnhancedAbridgedEffect": "Incoming DMG is distributed across all allies and DMG taken by ally targets is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"617540": {
+		"Id": "617540",
+		"Name": "Compact Blaze",
+		"Rarity": 1,
+		"Effect": "When an ally target is attacked, \"<u>Blazar</u>\" DMG multiplier increases by <color=#f29e38ff>20%</color> of the original multiplier, stacking up to <color=#f29e38ff>2</color> time(s) and lasting for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increases \"<u>Blazar</u>\" DMG when attacked.",
+		"EnhancedEffect": "When an ally target is attacked, \"<u>Blazar</u>\" DMG multiplier increases by <color=#f29e38ff>30%</color> of the original multiplier, stacking up to <color=#f29e38ff>2</color> time(s) and lasting for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increases \"<u>Blazar</u>\" DMG when attacked.",
+		"VersionAdded": "4.1"
+	},
+	"617541": {
+		"Id": "617541",
+		"Name": "Synchronous Radiation",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> of Shield Effect obtained by ally targets will additionally be converted to \"<u>Blazar</u>.\"",
+		"AbridgedEffect": "Shield Effect gained can additionally be converted into \"<u>Blazar</u>.\"",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> of Shield Effect obtained by ally targets will additionally be converted to \"<u>Blazar</u>.\"",
+		"EnhancedAbridgedEffect": "Shield Effect gained can additionally be converted into \"<u>Blazar</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617542": {
+		"Id": "617542",
+		"Name": "Continuous Spectrum",
+		"Rarity": 1,
+		"Effect": "<color=#f29e38ff>40%</color> of Overflow HP restoration can be converted to \"<u>Blazar</u>.\"",
+		"AbridgedEffect": "Overflowing HP restoration can also be converted into \"<u>Blazar</u>.\"",
+		"EnhancedEffect": "<color=#f29e38ff>60%</color> of Overflow HP restoration can be converted to \"<u>Blazar</u>.\"",
+		"EnhancedAbridgedEffect": "Overflowing HP restoration can also be converted into \"<u>Blazar</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617543": {
+		"Id": "617543",
+		"Name": "Concealed Shadow Bands",
+		"Rarity": 1,
+		"Effect": "Increases \"<u>Blazar</u>\" Base Value by <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Increases Base Value of \"<u>Blazar</u>.\"",
+		"EnhancedEffect": "Increases \"<u>Blazar</u>\" Base Value by <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Increases Base Value of \"<u>Blazar</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617544": {
+		"Id": "617544",
+		"Name": "Cataclysmic Variable",
+		"Rarity": 1,
+		"Effect": "Increases CRIT Rate of DMG dealt by \"<u>Blazar</u>\" by <color=#f29e38ff>20%</color> and CRIT DMG by <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Increases CRIT Rate and CRIT DMG of DMG dealt by \"<u>Blazar</u>.\"",
+		"EnhancedEffect": "Increases CRIT Rate of DMG dealt by \"<u>Blazar</u>\" by <color=#f29e38ff>30%</color> and CRIT DMG by <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Increases CRIT Rate and CRIT DMG of DMG dealt by \"<u>Blazar</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617545": {
+		"Id": "617545",
+		"Name": "Forced Jump",
+		"Rarity": 1,
+		"Effect": "If an ally target's current HP percentage is lower than <color=#f29e38ff>35%</color> after being attacked or consuming HP, restores their HP by <color=#f29e38ff>12%</color> of their Max HP. This can restore HP equal to a maximum of <color=#f29e38ff>18%</color> Max HP during a single action.",
+		"AbridgedEffect": "After being attacked or consuming HP, units restore HP if their current HP percentage is less than <color=#f29e38ff>35%</color>.",
+		"EnhancedEffect": "If an ally target's current HP percentage is lower than <color=#f29e38ff>35%</color> after being attacked or consuming HP, restores their HP by <color=#f29e38ff>20%</color> of their Max HP. This can restore HP equal to a maximum of <color=#f29e38ff>30%</color> Max HP during a single action.",
+		"EnhancedAbridgedEffect": "After being attacked or consuming HP, units restore HP if their current HP percentage is less than <color=#f29e38ff>35%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"617546": {
+		"Id": "617546",
+		"Name": "Radioactive Decay",
+		"Rarity": 1,
+		"Effect": "When ally targets' HP percentage is lower than 50%, decreases their DMG taken by <color=#f29e38ff>10%</color> and increases the HP restored by <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "While a unit's HP percentage is lower than 50%, decreases DMG taken and increases the HP restored.",
+		"EnhancedEffect": "When ally targets' HP percentage is lower than 50%, decreases their DMG taken by <color=#f29e38ff>15%</color> and increases the HP restored by <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "While a unit's HP percentage is lower than 50%, decreases DMG taken and increases the HP restored.",
+		"VersionAdded": "4.1"
+	},
+	"617550": {
+		"Id": "617550",
+		"Name": "Bipolar Jets",
+		"Rarity": 1,
+		"Effect": "Decreases ally targets' DMG taken by <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "DMG taken decreases.",
+		"EnhancedEffect": "Decreases ally targets' DMG taken by <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "DMG taken decreases.",
+		"VersionAdded": "4.1"
+	},
+	"617551": {
+		"Id": "617551",
+		"Name": "Double-Segment Structure",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Effect RES by <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Effect RES increases.",
+		"EnhancedEffect": "Increases ally targets' Effect RES by <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Effect RES increases.",
+		"VersionAdded": "4.1"
+	},
+	"617552": {
+		"Id": "617552",
+		"Name": "Contact Binary Stars",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Max HP by <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Max HP increases.",
+		"EnhancedEffect": "Increases ally targets' Max HP by <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Max HP increases.",
+		"VersionAdded": "4.1"
+	},
+	"617553": {
+		"Id": "617553",
+		"Name": "Absolute Magnitude",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' HP restored by <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "HP restoration increases.",
+		"EnhancedEffect": "Increases ally targets' HP restored by <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "HP restoration increases.",
+		"VersionAdded": "4.1"
+	},
+	"617554": {
+		"Id": "617554",
+		"Name": "Standard Candle",
+		"Rarity": 1,
+		"Effect": "Increases Shield Effect received by ally targets by <color=#f29e38ff>12%</color>.",
+		"AbridgedEffect": "Increases Shield Effect gained.",
+		"EnhancedEffect": "Increases Shield Effect received by ally targets by <color=#f29e38ff>18%</color>.",
+		"EnhancedAbridgedEffect": "Increases Shield Effect gained.",
+		"VersionAdded": "4.1"
+	},
+	"617555": {
+		"Id": "617555",
+		"Name": "Mass Transfer Substar",
+		"Rarity": 1,
+		"Effect": "After an ally target's HP or Shield Effect is reduced, increases their Max HP by <color=#f29e38ff>20%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After HP or Shield Effect is reduced, increases Max HP.",
+		"EnhancedEffect": "After an ally target's HP or Shield Effect is reduced, increases their Max HP by <color=#f29e38ff>30%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After HP or Shield Effect is reduced, increases Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"617556": {
+		"Id": "617556",
+		"Name": "Eclipsing Binary",
+		"Rarity": 1,
+		"Effect": "After an ally target's HP or Shield Effect is reduced, increases their Effect RES by <color=#f29e38ff>16%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After HP or Shield Effect is reduced, increases Effect RES.",
+		"EnhancedEffect": "After an ally target's HP or Shield Effect is reduced, increases their Effect RES by <color=#f29e38ff>24%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After HP or Shield Effect is reduced, increases Effect RES.",
+		"VersionAdded": "4.1"
+	},
+	"617557": {
+		"Id": "617557",
+		"Name": "Nova Burst",
+		"Rarity": 1,
+		"Effect": "When struck with a killing blow, instead of becoming downed, characters immediately restore HP by <color=#f29e38ff>20%</color> of their Max HP. The team can only trigger this effect <color=#f29e38ff>1</color> time(s) per battle.",
+		"AbridgedEffect": "Characters can resist fatal damage and restore their own HP. This can take effect a limited number of times among all allies.",
+		"EnhancedEffect": "When struck with a killing blow, instead of becoming downed, characters immediately restore HP by <color=#f29e38ff>100%</color> of their Max HP. The team can only trigger this effect <color=#f29e38ff>1</color> time(s) per battle.",
+		"EnhancedAbridgedEffect": "Characters can resist fatal damage and restore their own HP. This can take effect a limited number of times among all allies.",
+		"VersionAdded": "4.1"
+	},
+	"617620": {
+		"Id": "617620",
+		"Name": "Infinite Improbability",
+		"Rarity": 1,
+		"Effect": "Consumes 100 Energy to use an ability and trigger Boundary Resonance with the Path of Elation, dealing <color=#f29e38ff>5</color>–<color=#f29e38ff>10</color> instances of Elation DMG of random Type to all enemy targets, as well as immediately granting Aha 1 extra turn where a fixed amount of <color=#f29e38ff>200</color> Punchline(s) are taken into account. This turn does not consume Punchlines.",
+		"AbridgedEffect": "Consumes 100 Energy to use an ability and trigger Boundary Resonance with the Path of Elation, dealing <color=#f29e38ff>5</color>–<color=#f29e38ff>10</color> instances of Elation DMG of random Type to all enemy targets, as well as immediately granting Aha 1 extra turn where a fixed amount of <color=#f29e38ff>200</color> Punchline(s) are taken into account. This turn does not consume Punchlines.",
+		"VersionAdded": "4.1"
+	},
+	"617630": {
+		"Id": "617630",
+		"Name": "<i>Licorice Pizza: Mint Shaved Ice</i>",
+		"Rarity": 1,
+		"Effect": "For every <color=#f29e38ff>50</color> action value that passed, the \"<u>Dealer</u>\" permanently gains 1 Charge. For each point of Charge the \"<u>Dealer</u>\" has, the SPD of Neutral Combat Events, all allies, and their summons increases by <color=#f29e38ff>1</color>.",
+		"AbridgedEffect": "After every <color=#f29e38ff>50</color> action value has passed, \"<u>Dealer</u>\" permanently gains 1 point of Charge. The more Charge \"<u>Dealer</u>\" has, the higher the SPD of Neutral Combat Events, all ally targets, and their summons.",
+		"EnhancedEffect": "For every <color=#f29e38ff>25</color> action value that passed, the \"<u>Dealer</u>\" permanently gains 1 Charge. For each point of Charge the \"<u>Dealer</u>\" has, the SPD of Neutral Combat Events, all allies, and their summons increases by <color=#f29e38ff>1</color>.",
+		"EnhancedAbridgedEffect": "After every <color=#f29e38ff>25</color> action value has passed, \"<u>Dealer</u>\" permanently gains 1 point of Charge. The more Charge \"<u>Dealer</u>\" has, the higher the SPD of Neutral Combat Events, all ally targets, and their summons.",
+		"VersionAdded": "4.1"
+	},
+	"617631": {
+		"Id": "617631",
+		"Name": "<i>Ocean Colonel: World of Yesterday</i>",
+		"Rarity": 1,
+		"Effect": "After \"<u>Dealer</u>\" takes action, gains <color=#f29e38ff>5</color> Punchline(s) and increases all allies' CRIT DMG by <color=#f29e38ff>60%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After a \"<u>Dealer</u>\" takes action, they gain Punchline and increase all allies' CRIT DMG.",
+		"EnhancedEffect": "After \"<u>Dealer</u>\" takes action, gains <color=#f29e38ff>10</color> Punchline(s) and increases all allies' CRIT DMG by <color=#f29e38ff>60%</color>, plus an additional <color=#f29e38ff>3%</color> for each Charge, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After the \"<u>Dealer</u>\" takes action, gains Punchline and increases all allies' CRIT DMG. The more Charge gained, the greater the increase.",
+		"VersionAdded": "4.1"
+	},
+	"617632": {
+		"Id": "617632",
+		"Name": "<i>Sands of Sunrise: Solo Dance</i>",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' All-Type RES PEN by <color=#f29e38ff>10%</color>. When Punchline reaches <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color> for the first time, increases all ally targets' Elation by <color=#f29e38ff>20%</color>. This effect can stack.",
+		"AbridgedEffect": "Increases all ally targets' All-Type RES PEN. The more Punchlines in possession, the higher the Elation of all ally targets.",
+		"EnhancedEffect": "Increases ally targets' All-Type RES PEN by <color=#f29e38ff>15%</color>. When Punchline reaches <color=#f29e38ff>50</color>/<color=#f29e38ff>100</color>/<color=#f29e38ff>200</color>/<color=#f29e38ff>300</color>/<color=#f29e38ff>500</color> for the first time, increases all ally targets' Elation by <color=#f29e38ff>30%</color>. This effect can stack.",
+		"EnhancedAbridgedEffect": "Increases all ally targets' All-Type RES PEN. The more Punchlines in possession, the higher the Elation of all ally targets.",
+		"VersionAdded": "4.1"
+	},
+	"617640": {
+		"Id": "617640",
+		"Name": "<i>A Silent Month in a House</i>",
+		"Rarity": 1,
+		"Effect": "Increases \"<u>Dealer's</u>\" CRIT Rate by <color=#f29e38ff>20%</color> and CRIT DMG by <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Increases the \"<u>Dealer's</u>\" CRIT Rate and CRIT DMG.",
+		"EnhancedEffect": "Increases \"<u>Dealer's</u>\" CRIT Rate by <color=#f29e38ff>30%</color> and CRIT DMG by <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Increases the \"<u>Dealer's</u>\" CRIT Rate and CRIT DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617641": {
+		"Id": "617641",
+		"Name": "<i>Lieutenant Besotted with Caviar</i>",
+		"Rarity": 1,
+		"Effect": "When \"<u>Dealer</u>\" deals DMG, increases DMG taken by the attack target by <color=#f29e38ff>5%</color>. This effect is stackable and lasts until \"<u>Dealer</u>'s\" next action.",
+		"AbridgedEffect": "When the \"<u>Dealer</u>\" deals DMG, increases the DMG taken by the attack target.",
+		"EnhancedEffect": "When \"<u>Dealer</u>\" deals DMG, increases DMG taken by the attack target by <color=#f29e38ff>7%</color>. This effect is stackable and lasts until \"<u>Dealer</u>'s\" next action.",
+		"EnhancedAbridgedEffect": "When the \"<u>Dealer</u>\" deals DMG, increases the DMG taken by the attack target.",
+		"VersionAdded": "4.1"
+	},
+	"617642": {
+		"Id": "617642",
+		"Name": "<i>Your Cabinet is Beautiful, You Know</i>",
+		"Rarity": 1,
+		"Effect": "Increases \"<u>Dealer</u>'s\" base SPD by <color=#f29e38ff>16</color> and advances their action by <color=#f29e38ff>50%</color> when the battle starts.",
+		"AbridgedEffect": "\"<u>Dealer's</u>\" base SPD increases, and their action advances forward at the start of battle.",
+		"EnhancedEffect": "Increases \"<u>Dealer</u>'s\" base SPD by <color=#f29e38ff>24</color> and advances their action by <color=#f29e38ff>50%</color> when the battle starts.",
+		"EnhancedAbridgedEffect": "\"<u>Dealer's</u>\" base SPD increases, and their action advances forward at the start of battle.",
+		"VersionAdded": "4.1"
+	},
+	"617643": {
+		"Id": "617643",
+		"Name": "<i>Seed of a Fruit Strange and Divine</i>",
+		"Rarity": 1,
+		"Effect": "After \"<u>Dealer</u>\" takes action, increases all ally targets' SPD by <color=#f29e38ff>18%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After the \"<u>Dealer</u>\" takes action, increases all ally targets' SPD.",
+		"EnhancedEffect": "After \"<u>Dealer</u>\" takes action, increases all ally targets' SPD by <color=#f29e38ff>27%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After the \"<u>Dealer</u>\" takes action, increases all ally targets' SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617644": {
+		"Id": "617644",
+		"Name": "<i>Cry of the Cosmic Cat</i>",
+		"Rarity": 1,
+		"Effect": "When \"<u>Dealer</u>\" deals DMG, reduces the attack target's DMG dealt by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>3</color> time(s) and lasts until \"<u>Dealer</u>'s\" next action.",
+		"AbridgedEffect": "When the \"<u>Dealer</u>\" deals DMG, decreases the DMG dealt by the attack target.",
+		"EnhancedEffect": "When \"<u>Dealer</u>\" deals DMG, reduces the attack target's DMG dealt by <color=#f29e38ff>6%</color>. This effect can stack up to <color=#f29e38ff>3</color> time(s) and lasts until \"<u>Dealer</u>'s\" next action.",
+		"EnhancedAbridgedEffect": "When the \"<u>Dealer</u>\" deals DMG, decreases the DMG dealt by the attack target.",
+		"VersionAdded": "4.1"
+	},
+	"617645": {
+		"Id": "617645",
+		"Name": "<i>Simon in the Sea</i>",
+		"Rarity": 1,
+		"Effect": "DMG dealt by ally targets ignores <color=#f29e38ff>8%</color> of the enemy target's DEF. If the DMG is Elation DMG, ignores an extra <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "DMG dealt by ally targets ignores enemy targets' DEF. When dealing Elation DMG, additionally ignores their DEF.",
+		"EnhancedEffect": "DMG dealt by ally targets ignores <color=#f29e38ff>12%</color> of the enemy target's DEF. If the DMG is Elation DMG, ignores an extra <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "DMG dealt by ally targets ignores enemy targets' DEF. When dealing Elation DMG, additionally ignores their DEF.",
+		"VersionAdded": "4.1"
+	},
+	"617646": {
+		"Id": "617646",
+		"Name": "<i>Long Day's Journey into Day</i>",
+		"Rarity": 1,
+		"Effect": "When ally targets deal Elation DMG, increases Weakness Break Efficiency by <color=#f29e38ff>35%</color>.",
+		"AbridgedEffect": "Increases Weakness Break Efficiency when ally targets deal Elation DMG.",
+		"EnhancedEffect": "When ally targets deal Elation DMG, increases Weakness Break Efficiency by <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Increases Weakness Break Efficiency when ally targets deal Elation DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617650": {
+		"Id": "617650",
+		"Name": "<i>Psychedelic Parking Lot</i>",
+		"Rarity": 1,
+		"Effect": "When entering combat, advances all allies' actions by <color=#f29e38ff>30%</color>, and the team gains <color=#f29e38ff>10</color> Punchline(s).",
+		"AbridgedEffect": "When entering combat, advances all allies' actions and grants Punchline.",
+		"EnhancedEffect": "When entering combat, advances all allies' actions by <color=#f29e38ff>45%</color>, and the team gains <color=#f29e38ff>15</color> Punchline(s).",
+		"EnhancedAbridgedEffect": "When entering combat, advances all allies' actions and grants Punchline.",
+		"VersionAdded": "4.1"
+	},
+	"617651": {
+		"Id": "617651",
+		"Name": "<i>Love Line</i>",
+		"Rarity": 1,
+		"Effect": "Decreases DMG taken by all allies by <color=#f29e38ff>4%</color>. After Aha takes THEIR first action, additionally decreases DMG taken by <color=#f29e38ff>3%</color>.",
+		"AbridgedEffect": "Decreases DMG taken by all allies. After Aha takes THEIR first action, further decreases DMG taken.",
+		"EnhancedEffect": "Decreases DMG taken by all allies by <color=#f29e38ff>6%</color>. After Aha takes THEIR first action, additionally decreases DMG taken by <color=#f29e38ff>4%</color>.",
+		"EnhancedAbridgedEffect": "Decreases DMG taken by all allies. After Aha takes THEIR first action, further decreases DMG taken.",
+		"VersionAdded": "4.1"
+	},
+	"617652": {
+		"Id": "617652",
+		"Name": "<i>Omega City</i>",
+		"Rarity": 1,
+		"Effect": "Increases ally target's CRIT Rate by <color=#f29e38ff>10%</color>. When dealing Elation DMG, additionally increases by <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Increases ally targets' CRIT Rate and additionally increases Elation DMG.",
+		"EnhancedEffect": "Increases ally target's CRIT Rate by <color=#f29e38ff>15%</color>. When dealing Elation DMG, additionally increases by <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Increases ally targets' CRIT Rate and additionally increases Elation DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617653": {
+		"Id": "617653",
+		"Name": "<i>Mr. Violence</i>",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' CRIT DMG by <color=#f29e38ff>20%</color>. When dealing Elation DMG, additionally increases it by <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Increases the CRIT DMG of ally targets. Additionally increases Elation DMG.",
+		"EnhancedEffect": "Increases ally targets' CRIT DMG by <color=#f29e38ff>30%</color>. When dealing Elation DMG, additionally increases it by <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Increases the CRIT DMG of ally targets. Additionally increases Elation DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617654": {
+		"Id": "617654",
+		"Name": "<i>Forsaken Sanctuary</i>",
+		"Rarity": 1,
+		"Effect": "When Aha takes action, restores <color=#f29e38ff>4</color> Energy to all allies. This effect can be triggered a maximum of <color=#f29e38ff>1</color> time(s) per ally per turn.",
+		"AbridgedEffect": "When Aha takes action, restores Energy to all allies.",
+		"EnhancedEffect": "When Aha takes action, restores <color=#f29e38ff>6</color> Energy to all allies. This effect can be triggered a maximum of <color=#f29e38ff>1</color> time(s) per ally per turn.",
+		"EnhancedAbridgedEffect": "When Aha takes action, restores Energy to all allies.",
+		"VersionAdded": "4.1"
+	},
+	"617655": {
+		"Id": "617655",
+		"Name": "<i>Ashen Coins and Gold</i>",
+		"Rarity": 1,
+		"Effect": "After Aha takes action, grants all allies a Shield equal to <color=#f29e38ff>20%</color> of their respective Max HP, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "After Aha takes action, grants a Shield to all allies.",
+		"EnhancedEffect": "After Aha takes action, grants all allies a Shield equal to <color=#f29e38ff>30%</color> of their respective Max HP, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "After Aha takes action, grants a Shield to all allies.",
+		"VersionAdded": "4.1"
+	},
+	"617656": {
+		"Id": "617656",
+		"Name": "<i>Reaper Comes Riding</i>",
+		"Rarity": 1,
+		"Effect": "Increases all allies' DEF by <color=#f29e38ff>12%</color>. After Aha takes THEIR first action, additionally increases DEF by <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Increases all allies' DEF. After Aha takes THEIR first action, additionally increases DEF.",
+		"EnhancedEffect": "Increases all allies' DEF by <color=#f29e38ff>18%</color>. After Aha takes THEIR first action, additionally increases DEF by <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Increases all allies' DEF. After Aha takes THEIR first action, additionally increases DEF.",
+		"VersionAdded": "4.1"
+	},
+	"617657": {
+		"Id": "617657",
+		"Name": "<i>Cat Town</i>",
+		"Rarity": 1,
+		"Effect": "Increases all allies' SPD by <color=#f29e38ff>6%</color>. After Aha takes action for the first time, additionally increases SPD by <color=#f29e38ff>4%</color>.",
+		"AbridgedEffect": "Increases all allies' SPD. After Aha takes THEIR first action, additionally increases SPD.",
+		"EnhancedEffect": "Increases all allies' SPD by <color=#f29e38ff>9%</color>. After Aha takes action for the first time, additionally increases SPD by <color=#f29e38ff>6%</color>.",
+		"EnhancedAbridgedEffect": "Increases all allies' SPD. After Aha takes THEIR first action, additionally increases SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617720": {
+		"Id": "617720",
+		"Name": "Imagenated Creation",
+		"Rarity": 1,
+		"Effect": "Spend 100 points of Energy to use this ability and trigger Boundary Resonance with the Path of Propagation. Causes one designated ally to immediately take action and recovers <color=#f29e38ff>5</color> Skill Point(s). Gains the \"<u>Levitation</u>\" effect. When any enemy unit is defeated by a character with \"<u>Levitation</u>,\" Boundary Equation regenerates <color=#f29e38ff>50</color> Energy, with the Max Energy set at 200.",
+		"AbridgedEffect": "After triggering Boundary Equation, causes one designated ally to immediately take action, recovers <color=#f29e38ff>5</color> Skill Point(s), and gains \"<u>Levitation</u>.\" When any enemy unit is defeated by a character that has \"<u>Levitation</u>,\" Boundary Equation regenerates Energy, with the Max Energy set at 200.",
+		"VersionAdded": "4.1"
+	},
+	"617730": {
+		"Id": "617730",
+		"Name": "Müllerian Mimicry",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' ATK by <color=#f29e38ff>50%</color>. Every Skill Point gained or consumed Charges \"<u>Soul Chrysalis</u>\" by <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Increases ATK. After gaining or consuming Skill Point(s), charges \"<u>Soul Chrysalis</u>.\"",
+		"EnhancedEffect": "Increases ally targets' ATK by <color=#f29e38ff>75%</color>. Every Skill Point gained or consumed Charges \"<u>Soul Chrysalis</u>\" by <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Increases ATK. After gaining or consuming Skill Point(s), charges \"<u>Soul Chrysalis</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617731": {
+		"Id": "617731",
+		"Name": "Ejecting Spores",
+		"Rarity": 1,
+		"Effect": "While in the \"<u>Butterfly Soul</u>\" state, ally targets' Basic ATK/Skill DMG dealt increases by <color=#f29e38ff>40%</color> and \"<u>Butterfly Soul</u>\" additionally deals 1 instance of True DMG equal to <color=#f29e38ff>15%</color> of the original DMG.",
+		"AbridgedEffect": "While in the \"<u>Butterfly Soul</u>\" state, increases Basic ATK DMG and Skill DMG, and increases True DMG dealt by \"<u>Butterfly Soul</u>.\"",
+		"EnhancedEffect": "While in the \"<u>Butterfly Soul</u>\" state, ally targets' Basic ATK/Skill DMG dealt increases by <color=#f29e38ff>80%</color> and \"<u>Butterfly Soul</u>\" additionally deals 1 instance of True DMG equal to <color=#f29e38ff>15%</color> of the original DMG.",
+		"EnhancedAbridgedEffect": "While in the \"<u>Butterfly Soul</u>\" state, increases Basic ATK DMG and Skill DMG, and increases True DMG dealt by \"<u>Butterfly Soul</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617732": {
+		"Id": "617732",
+		"Name": "Broodwater Droplets",
+		"Rarity": 1,
+		"Effect": "After any ally target consumes any Skill Point, increases all allies' CRIT DMG by <color=#f29e38ff>2%</color>, stacking up to <color=#f29e38ff>35</color> time(s). After using Ultimate, the next time Skill Point is consumed, it will be considered as consuming 1 additional Skill Point.",
+		"AbridgedEffect": "After consuming Skill Point(s), increases all allies' CRIT DMG. After using Ultimate, 1 extra Skill Point is considered to have been consumed the next time Skill Point(s) are consumed.",
+		"EnhancedEffect": "After any ally target consumes or gains any Skill Point, increases all allies' CRIT DMG by <color=#f29e38ff>3%</color>, stacking up to <color=#f29e38ff>35</color> time(s). After using Ultimate, the next time Skill Point is consumed or gained, it will be considered as consuming or gaining 1 additional Skill Point.",
+		"EnhancedAbridgedEffect": "After consuming Skill Point(s), increases all allies' CRIT DMG. After using Ultimate, 1 extra Skill Point is considered to have been consumed or gain the next time Skill Point(s) are consumed or gained.",
+		"VersionAdded": "4.1"
+	},
+	"617740": {
+		"Id": "617740",
+		"Name": "Sporocarp",
+		"Rarity": 1,
+		"Effect": "After defeating an enemy target, Charges \"<u>Soul Chrysalis</u>\" by <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "After defeating any enemy target, charges \"<u>Soul Chrysalis</u>.\"",
+		"EnhancedEffect": "After defeating an enemy target, Charges \"<u>Soul Chrysalis</u>\" by <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "After defeating any enemy target, charges \"<u>Soul Chrysalis</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617741": {
+		"Id": "617741",
+		"Name": "Chitin Armor",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' ATK by <color=#f29e38ff>30%</color>. When entering combat, additionally Charges \"<u>Soul Chrysalis</u>\" by <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Increases ATK. Charges \"<u>Soul Chrysalis</u>\" when entering combat.",
+		"EnhancedEffect": "Increases ally targets' ATK by <color=#f29e38ff>50%</color>. When entering combat, additionally Charges \"<u>Soul Chrysalis</u>\" by <color=#f29e38ff>35%</color>.",
+		"EnhancedAbridgedEffect": "Increases ATK. Charges \"<u>Soul Chrysalis</u>\" when entering combat.",
+		"VersionAdded": "4.1"
+	},
+	"617742": {
+		"Id": "617742",
+		"Name": "Free Cocoon",
+		"Rarity": 1,
+		"Effect": "When \"<u>Soul Chrysalis</u>\" changes to \"<u>Butterfly Soul</u>,\" restores <color=#f29e38ff>60%</color> HP and increases DMG dealt while in this state by <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Restores HP when \"<u>Soul Chrysalis</u>\" becomes \"<u>Butterfly Soul</u>\" and increases DMG dealt while in the \"<u>Butterfly Soul</u>\" state.",
+		"EnhancedEffect": "When \"<u>Soul Chrysalis</u>\" changes to \"<u>Butterfly Soul</u>,\" restores <color=#f29e38ff>100%</color> HP and increases DMG dealt while in this state by <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Restores HP when \"<u>Soul Chrysalis</u>\" becomes \"<u>Butterfly Soul</u>\" and increases DMG dealt while in the \"<u>Butterfly Soul</u>\" state.",
+		"VersionAdded": "4.1"
+	},
+	"617743": {
+		"Id": "617743",
+		"Name": "Basidiospores",
+		"Rarity": 1,
+		"Effect": "While in the \"<u>Butterfly Soul</u>\" state, increases the All-Type RES PEN of Basic ATK/Skill DMG by <color=#f29e38ff>14%</color>.",
+		"AbridgedEffect": "While in the \"<u>Butterfly Soul</u>\" state, increases the All-Type RES PEN of Basic ATK/Skill.",
+		"EnhancedEffect": "While in the \"<u>Butterfly Soul</u>\" state, increases the All-Type RES PEN of Basic ATK/Skill DMG by <color=#f29e38ff>21%</color>.",
+		"EnhancedAbridgedEffect": "While in the \"<u>Butterfly Soul</u>\" state, increases the All-Type RES PEN of Basic ATK/Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617744": {
+		"Id": "617744",
+		"Name": "Structural Hues",
+		"Rarity": 1,
+		"Effect": "While in \"<u>Soul Chrysalis</u>,\" increases SPD by <color=#f29e38ff>16%</color>. While in \"<u>Butterfly Soul</u>,\" increases DMG dealt by Basic ATK/Skill by <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Increases SPD while in the \"<u>Soul Chrysalis</u>\" state. Increases DMG dealt by Basic ATKs and Skills while in the \"<u>Butterfly Soul</u>\" state.",
+		"EnhancedEffect": "While in \"<u>Soul Chrysalis</u>,\" increases SPD by <color=#f29e38ff>24%</color>. While in \"<u>Butterfly Soul</u>,\" increases DMG dealt by Basic ATK/Skill by <color=#f29e38ff>75%</color>.",
+		"EnhancedAbridgedEffect": "Increases SPD while in the \"<u>Soul Chrysalis</u>\" state. Increases DMG dealt by Basic ATKs and Skills while in the \"<u>Butterfly Soul</u>\" state.",
+		"VersionAdded": "4.1"
+	},
+	"617745": {
+		"Id": "617745",
+		"Name": "Sensory Rods",
+		"Rarity": 1,
+		"Effect": "For each Skill Point consumed by an ally target, their DMG taken decreases by <color=#f29e38ff>6%</color> for <color=#f29e38ff>2</color> turn(s). This effect can be stacked up to <color=#f29e38ff>2</color> time(s).",
+		"AbridgedEffect": "After consuming Skill Point(s), decreases DMG taken.",
+		"EnhancedEffect": "For each Skill Point consumed by an ally target, their DMG taken decreases by <color=#f29e38ff>6%</color> for <color=#f29e38ff>2</color> turn(s). This effect can be stacked up to <color=#f29e38ff>3</color> time(s).",
+		"EnhancedAbridgedEffect": "After consuming Skill Point(s), decreases DMG taken.",
+		"VersionAdded": "4.1"
+	},
+	"617746": {
+		"Id": "617746",
+		"Name": "Splash Hex",
+		"Rarity": 1,
+		"Effect": "Basic ATK DMG/Skill DMG dealt by ally targets will deal DMG equal to <color=#f29e38ff>10%</color> of the original DMG to adjacent targets.",
+		"AbridgedEffect": "Basic ATK and Skill DMG dealt will also deal DMG to adjacent targets.",
+		"EnhancedEffect": "Basic ATK DMG/Skill DMG dealt by ally targets will deal DMG equal to <color=#f29e38ff>15%</color> of the original DMG to adjacent targets.",
+		"EnhancedAbridgedEffect": "Basic ATK and Skill DMG dealt will also deal DMG to adjacent targets.",
+		"VersionAdded": "4.1"
+	},
+	"617750": {
+		"Id": "617750",
+		"Name": "Mushroom Base",
+		"Rarity": 1,
+		"Effect": "When ally targets consume Skill Points, there is a <color=#f29e38ff>16%</color> fixed chance of regenerating <color=#f29e38ff>1</color> Skill Point(s).",
+		"AbridgedEffect": "When consuming Skill Points, there is a chance to recover Skill Point(s).",
+		"EnhancedEffect": "When ally targets consume Skill Points, there is a <color=#f29e38ff>24%</color> fixed chance of regenerating <color=#f29e38ff>1</color> Skill Point(s).",
+		"EnhancedAbridgedEffect": "When consuming Skill Points, there is a chance to recover Skill Point(s).",
+		"VersionAdded": "4.1"
+	},
+	"617751": {
+		"Id": "617751",
+		"Name": "Hanging Thread",
+		"Rarity": 1,
+		"Effect": "DMG dealt increases when any ally target uses Basic ATK or Skill by <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Increases DMG dealt when using Basic ATK or Skill.",
+		"EnhancedEffect": "DMG dealt increases when any ally target uses Basic ATK or Skill by <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Increases DMG dealt when using Basic ATK or Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617752": {
+		"Id": "617752",
+		"Name": "Eye Spots",
+		"Rarity": 1,
+		"Effect": "Increases CRIT DMG dealt when any ally target uses Basic ATK or Skill by <color=#f29e38ff>32%</color>.",
+		"AbridgedEffect": "Increases CRIT DMG dealt when using Basic ATK or Skill.",
+		"EnhancedEffect": "Increases CRIT DMG dealt when any ally target uses Basic ATK or Skill by <color=#f29e38ff>48%</color>.",
+		"EnhancedAbridgedEffect": "Increases CRIT DMG dealt when using Basic ATK or Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617753": {
+		"Id": "617753",
+		"Name": "Dorsal Wings",
+		"Rarity": 1,
+		"Effect": "Increases CRIT Rate when any ally target uses Basic ATK or Skill by <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Increases CRIT Rate when using Basic ATK or Skill.",
+		"EnhancedEffect": "Increases CRIT Rate when any ally target uses Basic ATK or Skill by <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Increases CRIT Rate when using Basic ATK or Skill.",
+		"VersionAdded": "4.1"
+	},
+	"617754": {
+		"Id": "617754",
+		"Name": "Thickened Walls",
+		"Rarity": 1,
+		"Effect": "After any ally target consumes Skill Points, increases their DEF by <color=#f29e38ff>30%</color> for <color=#f29e38ff>1</color> turn(s).",
+		"AbridgedEffect": "Increase DEF when consuming Skill Point(s).",
+		"EnhancedEffect": "After any ally target consumes Skill Points, increases their DEF by <color=#f29e38ff>45%</color> for <color=#f29e38ff>1</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increase DEF when consuming Skill Point(s).",
+		"VersionAdded": "4.1"
+	},
+	"617755": {
+		"Id": "617755",
+		"Name": "Tarsal Segments",
+		"Rarity": 1,
+		"Effect": "After any ally target consumes Skill Points, increases their SPD by <color=#f29e38ff>8%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increase SPD when consuming Skill Point(s).",
+		"EnhancedEffect": "After any ally target consumes Skill Points, increases their SPD by <color=#f29e38ff>12%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increase SPD when consuming Skill Point(s).",
+		"VersionAdded": "4.1"
+	},
+	"617756": {
+		"Id": "617756",
+		"Name": "Lip Bristles",
+		"Rarity": 1,
+		"Effect": "When an ally target consumes any Skill Point, regenerates <color=#f29e38ff>2</color> Energy.",
+		"AbridgedEffect": "Regenerate Energy when consuming Skill Points.",
+		"EnhancedEffect": "When an ally target consumes any Skill Point, regenerates <color=#f29e38ff>3</color> Energy.",
+		"EnhancedAbridgedEffect": "Regenerate Energy when consuming Skill Points.",
+		"VersionAdded": "4.1"
+	},
+	"617757": {
+		"Id": "617757",
+		"Name": "Budding Propagation",
+		"Rarity": 1,
+		"Effect": "When an ally target consumes any Skill Point, restore HP equal to <color=#f29e38ff>10%</color> of their Max HP.",
+		"AbridgedEffect": "Restore HP when consuming Skill Point(s).",
+		"EnhancedEffect": "When an ally target consumes any Skill Point, restore HP equal to <color=#f29e38ff>15%</color> of their Max HP.",
+		"EnhancedAbridgedEffect": "Restore HP when consuming Skill Point(s).",
+		"VersionAdded": "4.1"
+	},
+	"617820": {
+		"Id": "617820",
+		"Name": "References",
+		"Rarity": 1,
+		"Effect": "Spend 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Erudition. Deals minor Imaginary DMG to all enemy targets. Additionally, links the enemy with the highest Max HP with other enemies, inflicting \"<u>Central Link</u>\" on all enemies, and regenerating Energy equal to <color=#f29e38ff>100%</color> of Max Energy to all allies.",
+		"AbridgedEffect": "After triggering Boundary Equation, deals Imaginary DMG to all enemies and inflicts the \"<u>Central Link</u>\" effect on them, regenerating Energy for all allies.",
+		"VersionAdded": "4.1"
+	},
+	"617830": {
+		"Id": "617830",
+		"Name": "Hippocampus TR<unbreak>-303</unbreak>",
+		"Rarity": 1,
+		"Effect": "After an ally target Breaks an enemy target's Weakness, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>10%</color>. If it is an Elite Enemy, then additionally Charges <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "After Breaking enemy target Weakness, charges \"<u>Brain in a Vat</u>.\" If the target is an elite enemy, gains additional charges.",
+		"EnhancedEffect": "When entering combat, charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>100%</color>. After an ally target Breaks an enemy target's Weakness, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>12%</color>. If it is an Elite Enemy, then additionally Charges <color=#f29e38ff>50%</color>.",
+		"EnhancedAbridgedEffect": "Charges \"<u>Brain in a Vat</u>\" when entering combat or after Breaking enemy target Weakness. If the target is an elite enemy, gains additional charges for \"<u>Brain in a Vat</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617831": {
+		"Id": "617831",
+		"Name": "Accumbens Nucleus DBS<unbreak>-45</unbreak>",
+		"Rarity": 1,
+		"Effect": "When an ally target deals fatal damage to any enemy target, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>50%</color>.",
+		"AbridgedEffect": "Dealing fatal damage to an enemy target charges \"<u>Brain in a Vat</u>.\"",
+		"EnhancedEffect": "When an ally target deals fatal damage to any enemy target, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>50%</color>. Every time \"<u>Brain in a Vat</u>\" is fully Charged, SPD increases by <color=#f29e38ff>20%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Dealing fatal damage to an enemy charges \"<u>Brain in a Vat</u>.\" When \"<u>Brain in a Vat</u>\" is fully charged, increases SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617832": {
+		"Id": "617832",
+		"Name": "Dark Matter ELO<unbreak>-536</unbreak>",
+		"Rarity": 1,
+		"Effect": "The All-Type RES PEN for Ultimate DMG dealt by the ally target increases by <color=#f29e38ff>20%</color>. After an Ultimate ATK is used, for every enemy target that is hit by this Ultimate, the All-Type RES PEN for the Ultimate DMG dealt will additionally increase by <color=#f29e38ff>3%</color>. This effect lasts until after the next usage of an Ultimate.",
+		"AbridgedEffect": "Increases the All-Type RES PEN for characters' Ultimate DMG. The more enemy targets the Ultimate attacks, the greater the increase in the All-Type RES PEN for the Ultimate DMG, lasting until the next time the Ultimate is used.",
+		"EnhancedEffect": "The All-Type RES PEN for Ultimate DMG dealt by ally targets increases by <color=#f29e38ff>25%</color>. For each enemy target hit by the Ultimate that hit the largest number of enemy targets in a single attack in this battle, additionally increases All-Type RES PEN for the Ultimate DMG dealt by <color=#f29e38ff>3%</color>.",
+		"EnhancedAbridgedEffect": "Increases the All-Type RES PEN for characters' Ultimate DMG. The more enemy targets hit by Ultimates used during this battle, the greater the increase in the All-Type RES PEN for the Ultimate DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617840": {
+		"Id": "617840",
+		"Name": "Restart: Terminal Nerve",
+		"Rarity": 1,
+		"Effect": "When ally targets use their Ultimate via \"<u>Brain in a Vat</u>,\" increases their CRIT DMG by <color=#f29e38ff>80%</color>, lasting until this ability ends.",
+		"AbridgedEffect": "Increases CRIT DMG when using Ultimate with \"<u>Brain in a Vat</u>.\"",
+		"EnhancedEffect": "When ally target uses their Ultimate via \"<u>Brain in a Vat</u>,\" increases their CRIT DMG by <color=#f29e38ff>90%</color>, lasting until the next attack ends.",
+		"EnhancedAbridgedEffect": "Increases CRIT DMG when using Ultimate with \"<u>Brain in a Vat</u>.\" This effect lasts until the end of the next attack.",
+		"VersionAdded": "4.1"
+	},
+	"617841": {
+		"Id": "617841",
+		"Name": "Iterate: Cognitive Map",
+		"Rarity": 1,
+		"Effect": "After an ally target uses their Ultimate via \"<u>Brain in a Vat</u>,\" they gain a Shield equal in strength to <color=#f29e38ff>36%</color> of their Max HP, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Gains Shield when using Ultimate with \"<u>Brain in a Vat</u>.\"",
+		"EnhancedEffect": "After an ally target uses their Ultimate via \"<u>Brain in a Vat</u>,\" they gain a Shield equal in strength to <color=#f29e38ff>45%</color> of their Max HP, lasting for <color=#f29e38ff>3</color> turn(s).",
+		"EnhancedAbridgedEffect": "Gains Shield when using Ultimate with \"<u>Brain in a Vat</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617842": {
+		"Id": "617842",
+		"Name": "Analyze: Procedural Memory",
+		"Rarity": 1,
+		"Effect": "When an ally target uses \"<u>Brain in a Vat</u>\" to use their Ultimate, increases all allies' DMG dealt by <color=#f29e38ff>36%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increases all allies' DMG dealt when using Ultimate with \"<u>Brain in a Vat</u>.\"",
+		"EnhancedEffect": "When an ally target uses \"<u>Brain in a Vat</u>\" to use their Ultimate, increases all allies' DMG dealt by <color=#f29e38ff>54%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increases all allies' DMG dealt when using Ultimate with \"<u>Brain in a Vat</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617843": {
+		"Id": "617843",
+		"Name": "Stabilize: Slow-Wave Sleep",
+		"Rarity": 1,
+		"Effect": "After ally targets are attacked, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>6%</color>.",
+		"AbridgedEffect": "Charges \"<u>Brain in a Vat</u>\" after being attacked.",
+		"EnhancedEffect": "After ally targets are attacked, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>9%</color>.",
+		"EnhancedAbridgedEffect": "Charges \"<u>Brain in a Vat</u>\" after being attacked.",
+		"VersionAdded": "4.1"
+	},
+	"617844": {
+		"Id": "617844",
+		"Name": "Derive: Cell Demarcation",
+		"Rarity": 1,
+		"Effect": "After an ally target uses \"<u>Brain in a Vat</u>\" to use their Ultimate, their ATK increases by <color=#f29e38ff>60%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increases ATK after using Ultimate via \"<u>Brain in a Vat</u>.\"",
+		"EnhancedEffect": "After an ally target uses \"<u>Brain in a Vat</u>\" to use their Ultimate, their ATK increases by <color=#f29e38ff>90%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increases ATK after using Ultimate via \"<u>Brain in a Vat</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617845": {
+		"Id": "617845",
+		"Name": "Execute: Enhanced Learning",
+		"Rarity": 1,
+		"Effect": "After ally targets use their Ultimate to attack Weakness Broken enemies, delay the enemy's action by <color=#f29e38ff>16%</color>. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to <color=#f29e38ff>3</color> time(s).",
+		"AbridgedEffect": "After using Ultimate to attack, delays the action of Weakness Broken enemy targets.",
+		"EnhancedEffect": "After ally targets use their Ultimate to attack Weakness Broken enemies, delay the enemy's action by <color=#f29e38ff>24%</color>. Every time the enemy target becomes Weakness Broken, this effect can be triggered up to <color=#f29e38ff>3</color> time(s).",
+		"EnhancedAbridgedEffect": "After using Ultimate to attack, delays the action of Weakness Broken enemy targets.",
+		"VersionAdded": "4.1"
+	},
+	"617846": {
+		"Id": "617846",
+		"Name": "Open: Direct Pathway",
+		"Rarity": 1,
+		"Effect": "If an ally target's <u>AoE ATK</u> ability only attacks 1 enemy target, then this attack deals an additional set amount of DMG equal to <color=#f29e38ff>40%</color> of the original DMG to the attacked enemy target.",
+		"AbridgedEffect": "When an <u>AoE</u> ability only attacks 1 enemy target, it additionally deals DMG.",
+		"EnhancedEffect": "If an ally target's <u>AoE ATK</u> ability only attacks 1 enemy target, then this attack deals an additional set amount of DMG equal to <color=#f29e38ff>60%</color> of the original DMG to the attacked enemy target.",
+		"EnhancedAbridgedEffect": "When an <u>AoE</u> ability only attacks 1 enemy target, it additionally deals DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617850": {
+		"Id": "617850",
+		"Name": "Holo-Shimmer Flag",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Ultimate DMG dealt by <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "Increases Ultimate DMG dealt.",
+		"EnhancedEffect": "Increases ally targets' Ultimate DMG dealt by <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "Increases Ultimate DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617851": {
+		"Id": "617851",
+		"Name": "Solid-State Stored Armor",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Ultimate DMG CRIT Rate by <color=#f29e38ff>18%</color>.",
+		"AbridgedEffect": "Increases Ultimate's CRIT Rate.",
+		"EnhancedEffect": "Increases ally targets' Ultimate DMG CRIT Rate by <color=#f29e38ff>27%</color>.",
+		"EnhancedAbridgedEffect": "Increases Ultimate's CRIT Rate.",
+		"VersionAdded": "4.1"
+	},
+	"617852": {
+		"Id": "617852",
+		"Name": "Safely Redacted Border",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Ultimate DMG CRIT DMG by <color=#f29e38ff>36%</color>.",
+		"AbridgedEffect": "Increases Ultimate's CRIT DMG.",
+		"EnhancedEffect": "Increases ally targets' Ultimate DMG CRIT DMG by <color=#f29e38ff>54%</color>.",
+		"EnhancedAbridgedEffect": "Increases Ultimate's CRIT DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617853": {
+		"Id": "617853",
+		"Name": "Packages Aligned by Partitions",
+		"Rarity": 1,
+		"Effect": "When entering combat, regenerates Energy equal to <color=#f29e38ff>30%</color> of Max Energy.",
+		"AbridgedEffect": "When entering combat, regenerates Energy.",
+		"EnhancedEffect": "When entering combat, regenerates Energy equal to <color=#f29e38ff>45%</color> of Max Energy.",
+		"EnhancedAbridgedEffect": "When entering combat, regenerates Energy.",
+		"VersionAdded": "4.1"
+	},
+	"617854": {
+		"Id": "617854",
+		"Name": "Route of Erased Macroblocks",
+		"Rarity": 1,
+		"Effect": "When an ally target uses their Ultimate, their ATK increases by <color=#f29e38ff>24%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increases ATK when using Ultimate.",
+		"EnhancedEffect": "When an ally target uses their Ultimate, their ATK increases by <color=#f29e38ff>36%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increases ATK when using Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"617855": {
+		"Id": "617855",
+		"Name": "Lighthouse of Crystalline Resonance",
+		"Rarity": 1,
+		"Effect": "After an ally target uses their Ultimate, increases their Max HP by <color=#f29e38ff>20%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increases Max HP after using Ultimate.",
+		"EnhancedEffect": "After an ally target uses their Ultimate, increases their Max HP by <color=#f29e38ff>30%</color> for <color=#f29e38ff>2</color> turn(s).",
+		"EnhancedAbridgedEffect": "Increases Max HP after using Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"617856": {
+		"Id": "617856",
+		"Name": "Optical Guiding Lens",
+		"Rarity": 1,
+		"Effect": "After ally targets use their Ultimate, they restore HP equal to <color=#f29e38ff>20%</color> of their Max HP.",
+		"AbridgedEffect": "Restores HP after using Ultimate.",
+		"EnhancedEffect": "After ally targets use their Ultimate, they restore HP equal to <color=#f29e38ff>30%</color> of their Max HP.",
+		"EnhancedAbridgedEffect": "Restores HP after using Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"617857": {
+		"Id": "617857",
+		"Name": "Sequentially Written Track",
+		"Rarity": 1,
+		"Effect": "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to <color=#f29e38ff>50%</color> of the consumed Energy. This effect can only be triggered once per battle for the whole team.",
+		"AbridgedEffect": "Characters can resist fatal DMG and can consume Energy to restore their own HP. This can take effect a limited number of times among all allies.",
+		"EnhancedEffect": "When struck with a killing blow, characters will not be knocked down and will instead consume all their Energy, then restore HP equal to <color=#f29e38ff>100%</color> of the consumed Energy. This effect can only be triggered once per battle for the whole team.",
+		"EnhancedAbridgedEffect": "Characters can resist fatal DMG and can consume Energy to restore their own HP. This can take effect a limited number of times among all allies.",
+		"VersionAdded": "4.1"
+	},
+	"617920": {
+		"Id": "617920",
+		"Name": "Blissmost Gala",
+		"Rarity": 1,
+		"Effect": "Spends 100 points of Energy to use the ability and achieve Boundary Resonance with the Path of Harmony, dealing Quantum DMG to all enemy targets and Break their Weaknesses at <color=#f29e38ff>1000%</color> Break Effect. When Weakness is Broken, triggers all Weakness Break effects from all Types.",
+		"AbridgedEffect": "After triggering Boundary Equation, deals Quantum DMG to all enemy targets and Breaks their Weakness. Breaking Weakness triggers Weakness Break effects of all Types.",
+		"VersionAdded": "4.1"
+	},
+	"617930": {
+		"Id": "617930",
+		"Name": "First Movement: The Frog and the Knight",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target takes <color=#f29e38ff>10</color> actual Toughness reduction, they become afflicted with <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>.\"",
+		"AbridgedEffect": "Whenever any enemy target takes a certain amount of actual Toughness Reduction, they become afflicted with \"<u>Harmonize</u>.\"",
+		"EnhancedEffect": "Every time an enemy target takes <color=#f29e38ff>10</color> actual Toughness reduction, they become afflicted with <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>.\" Actual Toughness reduction received while Weakness Broken will also be taken into account.",
+		"EnhancedAbridgedEffect": "Whenever any enemy target takes a certain amount of actual Toughness Reduction, they become afflicted with \"<u>Harmonize</u>.\" Actual Toughness Reduction taken while Weakness Broken is also included.",
+		"VersionAdded": "4.1"
+	},
+	"617931": {
+		"Id": "617931",
+		"Name": "Second Movement: The Faun's Breakfast",
+		"Rarity": 1,
+		"Effect": "After any ally target attacks any Weakness Broken enemy targets, triggers 1 instance of \"<u>Harmonize</u>\" DMG in a <color=#f29e38ff>8%</color> ratio.",
+		"AbridgedEffect": "After attacking Weakness Broken enemy targets, triggers \"<u>Harmonize</u>\" DMG.",
+		"EnhancedEffect": "After any ally target attacks any Weakness Broken enemy targets, triggers 1 instance of \"<u>Harmonize</u>\" DMG with a ratio of <color=#f29e38ff>10%</color>, increasing the \"<u>Harmonize</u>\" DMG multiplier by <color=#f29e38ff>20%</color> of the original multiplier.",
+		"EnhancedAbridgedEffect": "After attacking Weakness Broken enemy targets, triggers \"<u>Harmonize</u>\" DMG. Increases DMG dealt by \"<u>Harmonize</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"617932": {
+		"Id": "617932",
+		"Name": "Third Movement: Rondo Form",
+		"Rarity": 1,
+		"Effect": "When any ally target Breaks any enemy target's Weakness, the Weakness Break effects of other Type Weaknesses the enemy possesses are additionally triggered at a <color=#f29e38ff>50%</color> ratio.",
+		"AbridgedEffect": "When Breaking enemy target Weakness, additionally trigger the Weakness Break effect of all other Weakness Types on the target.",
+		"EnhancedEffect": "When any ally target Breaks any enemy target's Weakness, the Weakness Break effects of other Type Weaknesses the enemy possesses are additionally triggered at a <color=#f29e38ff>80%</color> ratio.",
+		"EnhancedAbridgedEffect": "When Breaking enemy target Weakness, additionally trigger the Weakness Break effect of all other Weakness Types on the target.",
+		"VersionAdded": "4.1"
+	},
+	"617940": {
+		"Id": "617940",
+		"Name": "Common Practice Period",
+		"Rarity": 1,
+		"Effect": "After an enemy target with \"<u>Harmonize</u>\" is defeated, causes <color=#f29e38ff>1</color> random adjacent targets to gain that enemy target's \"<u>Harmonize</u>\" stacks.",
+		"AbridgedEffect": "When any enemy target with \"<u>Harmonize</u>\" is defeated, applies \"<u>Harmonize</u>\" on a random adjacent target.",
+		"EnhancedEffect": "After an enemy target with \"<u>Harmonize</u>\" is defeated, causes <color=#f29e38ff>2</color> random adjacent targets to gain that enemy target's \"<u>Harmonize</u>\" stacks.",
+		"EnhancedAbridgedEffect": "When any enemy target with \"<u>Harmonize</u>\" is defeated, applies \"<u>Harmonize</u>\" on a random adjacent target.",
+		"VersionAdded": "4.1"
+	},
+	"617941": {
+		"Id": "617941",
+		"Name": "Goblet of Dionysus",
+		"Rarity": 1,
+		"Effect": "After any ally target attacks any Weakness Broken enemy targets, inflicts <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>.\"",
+		"AbridgedEffect": "After attacking Weakness Broken enemy targets, inflicts \"<u>Harmonize</u>\" on them.",
+		"EnhancedEffect": "Increases ally targets' Break Effect by <color=#f29e38ff>24%</color>. After attacking any Weakness Broken enemy targets, inflicts <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>.\"",
+		"EnhancedAbridgedEffect": "Increases Break Effect. After attacking Weakness Broken enemy targets, inflicts \"<u>Harmonize</u>\" on them.",
+		"VersionAdded": "4.1"
+	},
+	"617942": {
+		"Id": "617942",
+		"Name": "Coronal Pulse",
+		"Rarity": 1,
+		"Effect": "For each stack of \"<u>Harmonize</u>\" an enemy target has, increases their Break DMG taken by <color=#f29e38ff>1.0%</color>.",
+		"AbridgedEffect": "Enemy targets with more \"<u>Harmonize</u>\" take more Break DMG.",
+		"EnhancedEffect": "For each stack of \"<u>Harmonize</u>\" an enemy target has, increases their Break DMG taken by <color=#f29e38ff>1.5%</color>.",
+		"EnhancedAbridgedEffect": "Enemy targets with more \"<u>Harmonize</u>\" take more Break DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617943": {
+		"Id": "617943",
+		"Name": "String Quartet",
+		"Rarity": 1,
+		"Effect": "When \"<u>Harmonize</u>\" DMG is triggered, additionally take into account <color=#f29e38ff>5</color> stack(s). Increases maximum \"<u>Harmonize</u>\" stacks by <color=#f29e38ff>5</color>.",
+		"AbridgedEffect": "Take into account additional stacks when \"<u>Harmonize</u>\" DMG is triggered. Increases maximum \"<u>Harmonize</u>\" stacks.",
+		"EnhancedEffect": "When \"<u>Harmonize</u>\" DMG is triggered, additionally take into account <color=#f29e38ff>6</color> stack(s). Increases maximum \"<u>Harmonize</u>\" stacks by <color=#f29e38ff>10</color>.",
+		"EnhancedAbridgedEffect": "Take into account additional stacks when \"<u>Harmonize</u>\" DMG is triggered. Increases maximum \"<u>Harmonize</u>\" stacks.",
+		"VersionAdded": "4.1"
+	},
+	"617944": {
+		"Id": "617944",
+		"Name": "Iambic Pentameter",
+		"Rarity": 1,
+		"Effect": "Increases the DMG multiplier of \"<u>Harmonize</u>\" by <color=#f29e38ff>30%</color> of the original multiplier.",
+		"AbridgedEffect": "Increases \"<u>Harmonize</u>\" DMG.",
+		"EnhancedEffect": "Increases the DMG multiplier of \"<u>Harmonize</u>\" by <color=#f29e38ff>45%</color> of the original multiplier.",
+		"EnhancedAbridgedEffect": "Increases \"<u>Harmonize</u>\" DMG.",
+		"VersionAdded": "4.1"
+	},
+	"617945": {
+		"Id": "617945",
+		"Name": "Basso Continuo",
+		"Rarity": 1,
+		"Effect": "After an ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of <color=#f29e38ff>50%</color> <u>Super Break DMG</u>.",
+		"AbridgedEffect": "After attacking Weakness Broken enemy targets, deal <u>Super Break DMG</u>.",
+		"EnhancedEffect": "After an ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of <color=#f29e38ff>75%</color> <u>Super Break DMG</u>.",
+		"EnhancedAbridgedEffect": "After attacking Weakness Broken enemy targets, deal <u>Super Break DMG</u>.",
+		"VersionAdded": "4.1"
+	},
+	"617946": {
+		"Id": "617946",
+		"Name": "Righteous Nome",
+		"Rarity": 1,
+		"Effect": "When an ally target Breaks an enemy target's Weakness, there is a <color=#f29e38ff>100%</color> base chance to inflict Freeze on the target, lasting for <color=#f29e38ff>1</color> turn(s).",
+		"AbridgedEffect": "After Breaking enemy targets' Weakness, there is a chance to Freeze them.",
+		"EnhancedEffect": "When an ally target Breaks an enemy target's Weakness, there is a <color=#f29e38ff>150%</color> base chance to inflict Freeze on the target, lasting for <color=#f29e38ff>1</color> turn(s).",
+		"EnhancedAbridgedEffect": "After Breaking enemy targets' Weakness, there is a chance to Freeze them.",
+		"VersionAdded": "4.1"
+	},
+	"617950": {
+		"Id": "617950",
+		"Name": "Stagnant Weave",
+		"Rarity": 1,
+		"Effect": "When any ally target Breaks an enemy target's Weakness, delays the enemy target's action by <color=#f29e38ff>20%</color>.",
+		"AbridgedEffect": "After Breaking enemy targets' Weakness, delay their action.",
+		"EnhancedEffect": "When any ally target Breaks an enemy target's Weakness, delays the enemy target's action by <color=#f29e38ff>30%</color>.",
+		"EnhancedAbridgedEffect": "After Breaking enemy targets' Weakness, delay their action.",
+		"VersionAdded": "4.1"
+	},
+	"617951": {
+		"Id": "617951",
+		"Name": "Original Declaration",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Break DMG dealt by <color=#f29e38ff>8%</color>.",
+		"AbridgedEffect": "Increases Break DMG dealt.",
+		"EnhancedEffect": "Increases ally targets' Break DMG dealt by <color=#f29e38ff>12%</color>.",
+		"EnhancedAbridgedEffect": "Increases Break DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"617952": {
+		"Id": "617952",
+		"Name": "Serene Storm",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Break Effect by <color=#f29e38ff>30%</color>.",
+		"AbridgedEffect": "Break Effect increases.",
+		"EnhancedEffect": "Increases ally targets' Break Effect by <color=#f29e38ff>45%</color>.",
+		"EnhancedAbridgedEffect": "Break Effect increases.",
+		"VersionAdded": "4.1"
+	},
+	"617953": {
+		"Id": "617953",
+		"Name": "Linear Melody",
+		"Rarity": 1,
+		"Effect": "When any ally target Breaks an enemy target's Weakness, increases the attacker's SPD by <color=#f29e38ff>12%</color> for <color=#f29e38ff>3</color> turn(s).",
+		"AbridgedEffect": "After inflicting Weakness Break on an enemy target, increases SPD.",
+		"EnhancedEffect": "When any ally target Breaks an enemy target's Weakness, increases the attacker's SPD by <color=#f29e38ff>18%</color> for <color=#f29e38ff>3</color> turn(s).",
+		"EnhancedAbridgedEffect": "After inflicting Weakness Break on an enemy target, increases SPD.",
+		"VersionAdded": "4.1"
+	},
+	"617954": {
+		"Id": "617954",
+		"Name": "Cross Rhythm",
+		"Rarity": 1,
+		"Effect": "When any ally target Breaks an enemy target's Weakness, increases all ally targets' Break Effect by <color=#f29e38ff>40%</color> for <color=#f29e38ff>3</color> turn(s).",
+		"AbridgedEffect": "After inflicting Weakness Break on an enemy target, increases all allies' Break Effect.",
+		"EnhancedEffect": "When any ally target Breaks an enemy target's Weakness, increases all ally targets' Break Effect by <color=#f29e38ff>60%</color> for <color=#f29e38ff>3</color> turn(s).",
+		"EnhancedAbridgedEffect": "After inflicting Weakness Break on an enemy target, increases all allies' Break Effect.",
+		"VersionAdded": "4.1"
+	},
+	"617955": {
+		"Id": "617955",
+		"Name": "Free Tonality",
+		"Rarity": 1,
+		"Effect": "Increases Break DMG taken by enemy targets by <color=#f29e38ff>16%</color>.",
+		"AbridgedEffect": "Increases enemy targets' Break DMG taken.",
+		"EnhancedEffect": "Increases Break DMG taken by enemy targets by <color=#f29e38ff>24%</color>.",
+		"EnhancedAbridgedEffect": "Increases enemy targets' Break DMG taken.",
+		"VersionAdded": "4.1"
+	},
+	"617956": {
+		"Id": "617956",
+		"Name": "Duke of Omens",
+		"Rarity": 1,
+		"Effect": "Decreases DEF of Weakness Broken enemy targets by <color=#f29e38ff>15%</color>.",
+		"AbridgedEffect": "Decreases Weakness Broken enemy targets' DEF.",
+		"EnhancedEffect": "Decreases DEF of Weakness Broken enemy targets by <color=#f29e38ff>20%</color>.",
+		"EnhancedAbridgedEffect": "Decreases Weakness Broken enemy targets' DEF.",
+		"VersionAdded": "4.1"
+	},
+	"617957": {
+		"Id": "617957",
+		"Name": "Novel Motif",
+		"Rarity": 1,
+		"Effect": "When ally targets Break any enemy target's Weakness, the attacker restores HP by <color=#f29e38ff>24%</color> of their Max HP.",
+		"AbridgedEffect": "Restores HP after Breaking enemy targets' Weakness.",
+		"EnhancedEffect": "When ally targets Break any enemy target's Weakness, the attacker restores HP by <color=#f29e38ff>36%</color> of their Max HP.",
+		"EnhancedAbridgedEffect": "Restores HP after Breaking enemy targets' Weakness.",
+		"VersionAdded": "4.1"
+	},
 	"634000": {
 		"Id": "634000",
 		"Name": "0",
@@ -6054,6 +7565,615 @@
 		"Effect": "Additionally increase the final DMG dealt by ally targets with \"Quartz\" by <color=#f29e38ff>50%</color>.",
 		"AbridgedEffect": "The final DMG dealt by ally targets with \"Quartz\" additionally increases.",
 		"VersionAdded": "3.3"
+	},
+	"661001": {
+		"Id": "661001",
+		"Name": "March 7th",
+		"Rarity": 1,
+		"Effect": "March 7th's DMG is amplified in the Divergent Universe.\n\nEffect Hit Rate increases by <color=#f29e38ff>30%</color>. When on the field, enemy targets in the Frozen state have their DEF reduced by <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661002": {
+		"Id": "661002",
+		"Name": "Dan Heng",
+		"Rarity": 1,
+		"Effect": "Dan Heng's DMG is amplified in the Divergent Universe.\n\nIncreases SPD by <color=#f29e38ff>10%</color>. For every 10 points of SPD that exceeds <color=#f29e38ff>150</color>, the final DMG dealt increases by <color=#f29e38ff>2.0%</color>, up to a max increase of <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661003": {
+		"Id": "661003",
+		"Name": "Himeko",
+		"Rarity": 1,
+		"Effect": "Himeko's DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> increased final DMG to enemy targets in the Weakness Broken state.",
+		"VersionAdded": "4.1"
+	},
+	"661004": {
+		"Id": "661004",
+		"Name": "Welt",
+		"Rarity": 1,
+		"Effect": "Welt's DMG is amplified in the Divergent Universe.\n\nAfter inflicting Imprisonment, additionally delays the enemy target's action by <color=#f29e38ff>30%</color> and increases the DMG they take by <color=#f29e38ff>15%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661005": {
+		"Id": "661005",
+		"Name": "Kafka",
+		"Rarity": 1,
+		"Effect": "Kafka's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt to enemy targets afflicted with <color=#f29e38ff>3</color> or more DoT states by <color=#f29e38ff>12%</color>. For each additional DoT state beyond that, increases final DMG by another <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661006": {
+		"Id": "661006",
+		"Name": "Silver Wolf",
+		"Rarity": 1,
+		"Effect": "Silver Wolf's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt to enemy targets afflicted with <color=#f29e38ff>8</color> or more debuffs by <color=#f29e38ff>10%</color>. For every debuff beyond that, the DMG boost additionally increases by <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661008": {
+		"Id": "661008",
+		"Name": "Arlan",
+		"Rarity": 1,
+		"Effect": "Arlan's DMG is amplified in the Divergent Universe.\n\nWhen his current HP percentage is below <color=#f29e38ff>50%</color>, increases final DMG dealt by <color=#f29e38ff>40%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661009": {
+		"Id": "661009",
+		"Name": "Asta",
+		"Rarity": 1,
+		"Effect": "Asta's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases all allies' SPD by <color=#f29e38ff>10%</color> of Asta's SPD.",
+		"VersionAdded": "4.1"
+	},
+	"661013": {
+		"Id": "661013",
+		"Name": "Herta",
+		"Rarity": 1,
+		"Effect": "Herta's DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> more final DMG to enemy targets whose HP percentage is below <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661014": {
+		"Id": "661014",
+		"Name": "Saber",
+		"Rarity": 1,
+		"Effect": "Saber's DMG is amplified in the Divergent Universe.\n\nEach time she uses Ultimate, increases her own final DMG dealt by <color=#f29e38ff>3%</color>. Stacks up to <color=#f29e38ff>10</color> times.",
+		"VersionAdded": "4.1"
+	},
+	"661015": {
+		"Id": "661015",
+		"Name": "Archer",
+		"Rarity": 1,
+		"Effect": "Archer's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. Recovers <color=#f29e38ff>1</color> Skill Point(s) at the start of every turn.",
+		"VersionAdded": "4.1"
+	},
+	"661101": {
+		"Id": "661101",
+		"Name": "Bronya",
+		"Rarity": 1,
+		"Effect": "Bronya's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by the first character in the team lineup and their memosprite by <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661102": {
+		"Id": "661102",
+		"Name": "Seele",
+		"Rarity": 1,
+		"Effect": "Seele's DMG is amplified in the Divergent Universe.\n\nAfter using an attack, if the target's HP percentage is less than or equal to <color=#f29e38ff>15%</color>, deals True DMG equal to the target's current HP.",
+		"VersionAdded": "4.1"
+	},
+	"661103": {
+		"Id": "661103",
+		"Name": "Serval",
+		"Rarity": 1,
+		"Effect": "Serval's DMG is amplified in the Divergent Universe.\n\nFor every enemy target present on the field, final DMG dealt increases by <color=#f29e38ff>4%</color>. After eliminating an enemy target, final DMG additionally increases by <color=#f29e38ff>2%</color> for this battle. This effect is stackable.",
+		"VersionAdded": "4.1"
+	},
+	"661104": {
+		"Id": "661104",
+		"Name": "Gepard",
+		"Rarity": 1,
+		"Effect": "Gepard's DMG is amplified in the Divergent Universe.\n\nEffect Hit Rate increases by <color=#f29e38ff>30%</color>. While on the field, enemy targets in the Frozen state have their DEF reduced by <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661105": {
+		"Id": "661105",
+		"Name": "Natasha",
+		"Rarity": 1,
+		"Effect": "Natasha's DMG is amplified in the Divergent Universe.\n\nIncreases Outgoing Healing by <color=#f29e38ff>30%</color> and reduces DMG taken by healed targets by <color=#f29e38ff>15%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661106": {
+		"Id": "661106",
+		"Name": "Pela",
+		"Rarity": 1,
+		"Effect": "Pela's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases ally targets' ATK by an amount equal to <color=#f29e38ff>12%</color> of Pela's ATK.",
+		"VersionAdded": "4.1"
+	},
+	"661107": {
+		"Id": "661107",
+		"Name": "Clara",
+		"Rarity": 1,
+		"Effect": "Clara's DMG is amplified in the Divergent Universe.\n\nDecreases DMG taken by <color=#f29e38ff>10%</color>. Final DMG dealt by Follow-Up ATKs increases by <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661108": {
+		"Id": "661108",
+		"Name": "Sampo",
+		"Rarity": 1,
+		"Effect": "Sampo's DMG is amplified in the Divergent Universe.\n\nAfter using his Ultimate to attack, all DoT currently inflicted on the attack target immediately produces DMG equal to <color=#f29e38ff>60%</color> of the original DMG.",
+		"VersionAdded": "4.1"
+	},
+	"661109": {
+		"Id": "661109",
+		"Name": "Hook",
+		"Rarity": 1,
+		"Effect": "Hook's DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> more final DMG to enemy targets with HP percentage below <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661110": {
+		"Id": "661110",
+		"Name": "Lynx",
+		"Rarity": 1,
+		"Effect": "Lynx's DMG is amplified in the Divergent Universe.\n\nIncreases Outgoing Healing by <color=#f29e38ff>30%</color>. Reduces DMG taken by the healed target by <color=#f29e38ff>15%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661111": {
+		"Id": "661111",
+		"Name": "Luka",
+		"Rarity": 1,
+		"Effect": "Luka's DMG is amplified in the Divergent Universe.\n\nAfter using his Ultimate to attack, all DoT currently inflicted on the attack target immediately produces DMG equal to <color=#f29e38ff>120%</color> of the original DMG.",
+		"VersionAdded": "4.1"
+	},
+	"661112": {
+		"Id": "661112",
+		"Name": "Topaz & Numby",
+		"Rarity": 1,
+		"Effect": "Topaz & Numby's DMG is amplified in the Divergent Universe.\n\nEach time an attack is used, final DMG dealt increases by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>10</color> time(s) and is removed when HP is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"661201": {
+		"Id": "661201",
+		"Name": "Qingque",
+		"Rarity": 1,
+		"Effect": "Qingque's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. Recovers <color=#f29e38ff>1</color> Skill Point(s) at the start of each turn.",
+		"VersionAdded": "4.1"
+	},
+	"661202": {
+		"Id": "661202",
+		"Name": "Tingyun",
+		"Rarity": 1,
+		"Effect": "Tingyun's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the ATK of ally targets by an amount equal to <color=#f29e38ff>12%</color> of Tingyun's ATK.",
+		"VersionAdded": "4.1"
+	},
+	"661203": {
+		"Id": "661203",
+		"Name": "Luocha",
+		"Rarity": 1,
+		"Effect": "Luocha's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by ally targets by <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661204": {
+		"Id": "661204",
+		"Name": "Jing Yuan",
+		"Rarity": 1,
+		"Effect": "Jing Yuan's DMG is amplified in the Divergent Universe.\n\nWhen launching a Follow-Up ATK, his action advances by <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661205": {
+		"Id": "661205",
+		"Name": "Blade",
+		"Rarity": 1,
+		"Effect": "Blade's DMG is amplified in the Divergent Universe.\n\nAfter losing HP, increases HP restored by <color=#f29e38ff>15%</color> and increases final DMG dealt by <color=#f29e38ff>15%</color>. Lasts for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661206": {
+		"Id": "661206",
+		"Name": "Sushang",
+		"Rarity": 1,
+		"Effect": "Sushang's DMG is amplified in the Divergent Universe.\n\nAfter Breaking an enemy target's Weakness, increases SPD by <color=#f29e38ff>4%</color>. Stacks up to <color=#f29e38ff>10</color> times.",
+		"VersionAdded": "4.1"
+	},
+	"661207": {
+		"Id": "661207",
+		"Name": "Yukong",
+		"Rarity": 1,
+		"Effect": "Yukong's DMG is increased in the Divergent Universe.\n\nWhen on the field, increases all ally targets' ATK by an amount equal to <color=#f29e38ff>12%</color> of Yukong's ATK.",
+		"VersionAdded": "4.1"
+	},
+	"661208": {
+		"Id": "661208",
+		"Name": "Fu Xuan",
+		"Rarity": 1,
+		"Effect": "Fu Xuan's DMG is amplified in the Divergent Universe.\n\nDecreases DMG taken by <color=#f29e38ff>20%</color>. At the start of each turn, restores HP equal to <color=#f29e38ff>15%</color> of Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"661209": {
+		"Id": "661209",
+		"Name": "Yanqing",
+		"Rarity": 1,
+		"Effect": "Yanqing's DMG is amplified in the Divergent Universe.\n\nEach time an attack is used, final DMG dealt increases by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>10</color> time(s) and is removed when HP is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"661210": {
+		"Id": "661210",
+		"Name": "Guinaifen",
+		"Rarity": 1,
+		"Effect": "Guinaifen's DMG is amplified in the Divergent Universe.\n\nAfter using her Ultimate to attack, all DoT currently inflicted on the attack target immediately produces DMG equal to <color=#f29e38ff>60%</color> of the original DMG.",
+		"VersionAdded": "4.1"
+	},
+	"661211": {
+		"Id": "661211",
+		"Name": "Bailu",
+		"Rarity": 1,
+		"Effect": "Bailu's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by ally targets by <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661212": {
+		"Id": "661212",
+		"Name": "Jingliu",
+		"Rarity": 1,
+		"Effect": "Jingliu's DMG is amplified in the Divergent Universe.\n\nAfter losing HP, increases HP restored by <color=#f29e38ff>15%</color> and increases final DMG dealt by <color=#f29e38ff>15%</color>. Lasts for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661213": {
+		"Id": "661213",
+		"Name": "Dan Heng • Imbibitor Lunae",
+		"Rarity": 1,
+		"Effect": "Dan Heng • Imbibitor Lunae's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. Recovers <color=#f29e38ff>1</color> Skill Point(s) at the start of every turn.",
+		"VersionAdded": "4.1"
+	},
+	"661214": {
+		"Id": "661214",
+		"Name": "Xueyi",
+		"Rarity": 1,
+		"Effect": "Xueyi's DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> increased final DMG to enemy targets in the Weakness Broken state.",
+		"VersionAdded": "4.1"
+	},
+	"661215": {
+		"Id": "661215",
+		"Name": "Hanya",
+		"Rarity": 1,
+		"Effect": "Hanya's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases all allies' SPD by <color=#f29e38ff>10%</color> of Hanya's SPD.",
+		"VersionAdded": "4.1"
+	},
+	"661217": {
+		"Id": "661217",
+		"Name": "Huohuo",
+		"Rarity": 1,
+		"Effect": "Huohuo's DMG is amplified in the Divergent Universe.\n\nIncreases Outgoing Healing by <color=#f29e38ff>30%</color>. Reduces DMG taken by the healed target by <color=#f29e38ff>15%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661218": {
+		"Id": "661218",
+		"Name": "Jiaoqiu",
+		"Rarity": 1,
+		"Effect": "Jiaoqiu's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by ally targets by <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661220": {
+		"Id": "661220",
+		"Name": "Feixiao",
+		"Rarity": 1,
+		"Effect": "Feixiao's DMG is amplified in the Divergent Universe.\n\nEach time an attack is used, final DMG dealt increases by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>10</color> time(s) and is removed when HP is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"661221": {
+		"Id": "661221",
+		"Name": "Yunli",
+		"Rarity": 1,
+		"Effect": "Yunli's DMG is amplified in the Divergent Universe.\n\nDecreases DMG taken by <color=#f29e38ff>10%</color>. Final DMG dealt by Follow-Up ATKs increases by <color=#f29e38ff>20%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661222": {
+		"Id": "661222",
+		"Name": "Lingsha",
+		"Rarity": 1,
+		"Effect": "Lingsha's DMG is amplified in the Divergent Universe.\n\nIncreases Outgoing Healing by <color=#f29e38ff>30%</color>. Reduces DMG taken by the healed target by <color=#f29e38ff>15%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661223": {
+		"Id": "661223",
+		"Name": "Moze",
+		"Rarity": 1,
+		"Effect": "Moze's DMG is amplified in the Divergent Universe.\n\nEach time an attack is used, final DMG dealt increases by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>10</color> time(s) and is removed when HP is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"661224": {
+		"Id": "661224",
+		"Name": "March 7th",
+		"Rarity": 1,
+		"Effect": "March 7th's DMG is amplified in the Divergent Universe.\n\nIncreases SPD by <color=#f29e38ff>10%</color>. For every 10 points of SPD that exceeds <color=#f29e38ff>150</color>, increases final DMG dealt by <color=#f29e38ff>2.0%</color>, up to a max increase of <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661225": {
+		"Id": "661225",
+		"Name": "Fugue",
+		"Rarity": 1,
+		"Effect": "Fugue's DMG is amplified in the Divergent Universe.\n\nWhen on the field, increases the final DMG dealt by ally targets to Broken enemies by <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661301": {
+		"Id": "661301",
+		"Name": "Gallagher",
+		"Rarity": 1,
+		"Effect": "Gallagher's DMG is amplified in the Divergent Universe.\n\nIncreases Outgoing Healing by <color=#f29e38ff>30%</color>. Reduces DMG taken by the healed target by <color=#f29e38ff>15%</color>, lasting for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661302": {
+		"Id": "661302",
+		"Name": "Argenti",
+		"Rarity": 1,
+		"Effect": "Argenti's DMG is amplified in the Divergent Universe.\n\nFor every enemy target present on the field, final DMG dealt increases by <color=#f29e38ff>4%</color>. After eliminating an enemy target, final DMG additionally increases by <color=#f29e38ff>2%</color> for this battle. This effect is stackable.",
+		"VersionAdded": "4.1"
+	},
+	"661303": {
+		"Id": "661303",
+		"Name": "Ruan Mei",
+		"Rarity": 1,
+		"Effect": "Ruan Mei's DMG is amplified in the Divergent Universe.\n\nWhen on the field, increases the final DMG dealt by ally targets to Broken enemies by <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661304": {
+		"Id": "661304",
+		"Name": "Aventurine",
+		"Rarity": 1,
+		"Effect": "Aventurine's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the CRIT DMG for ally targets with Shields by <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661305": {
+		"Id": "661305",
+		"Name": "Dr. Ratio",
+		"Rarity": 1,
+		"Effect": "Dr. Ratio's DMG is amplified in the Divergent Universe.\n\nEach time an attack is used, final DMG dealt increases by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>10</color> time(s) and is removed when HP is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"661306": {
+		"Id": "661306",
+		"Name": "Sparkle",
+		"Rarity": 1,
+		"Effect": "Sparkle's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by ally targets by <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661307": {
+		"Id": "661307",
+		"Name": "Black Swan",
+		"Rarity": 1,
+		"Effect": "Black Swan's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt to enemy targets afflicted with <color=#f29e38ff>3</color> or more DoT state by <color=#f29e38ff>12%</color>. For every DoT state beyond that, the DMG boost additionally increases by <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661308": {
+		"Id": "661308",
+		"Name": "Acheron",
+		"Rarity": 1,
+		"Effect": "Acheron's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt to enemy targets afflicted with <color=#f29e38ff>8</color> or more debuffs by <color=#f29e38ff>10%</color>. For every debuff beyond that, the DMG boost additionally increases by <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661309": {
+		"Id": "661309",
+		"Name": "Robin",
+		"Rarity": 1,
+		"Effect": "Robin's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases all allies' SPD by <color=#f29e38ff>10%</color> of Robin's SPD.",
+		"VersionAdded": "4.1"
+	},
+	"661310": {
+		"Id": "661310",
+		"Name": "Firefly",
+		"Rarity": 1,
+		"Effect": "Firefly's DMG is amplified in the Divergent Universe.\n\nFor every 10 points of an enemy target's Max Toughness, increases final DMG dealt to them by <color=#f29e38ff>1.2%</color>, up to a max increase of <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661312": {
+		"Id": "661312",
+		"Name": "Misha",
+		"Rarity": 1,
+		"Effect": "Misha's DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>50%</color> increased final DMG to Frozen enemy targets.",
+		"VersionAdded": "4.1"
+	},
+	"661313": {
+		"Id": "661313",
+		"Name": "Sunday",
+		"Rarity": 1,
+		"Effect": "Sunday's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by the first character in the team lineup and their memosprite by <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661314": {
+		"Id": "661314",
+		"Name": "Jade",
+		"Rarity": 1,
+		"Effect": "Jade's DMG is amplified in the Divergent Universe.\n\nEach time an attack is used, final DMG dealt increases by <color=#f29e38ff>4%</color>. This effect can stack up to <color=#f29e38ff>10</color> time(s) and is removed when HP is reduced.",
+		"VersionAdded": "4.1"
+	},
+	"661315": {
+		"Id": "661315",
+		"Name": "Boothill",
+		"Rarity": 1,
+		"Effect": "Boothill's DMG is amplified in the Divergent Universe.\n\nAfter Breaking an enemy target's Weakness, increases SPD by <color=#f29e38ff>4%</color>. Stacks up to <color=#f29e38ff>10</color> times.",
+		"VersionAdded": "4.1"
+	},
+	"661317": {
+		"Id": "661317",
+		"Name": "Rappa",
+		"Rarity": 1,
+		"Effect": "Rappa's DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> increased final DMG to enemy targets in the Weakness Broken state.",
+		"VersionAdded": "4.1"
+	},
+	"661321": {
+		"Id": "661321",
+		"Name": "The Dahlia",
+		"Rarity": 1,
+		"Effect": "The Dahlia's DMG is amplified in the Divergent Universe.\n\nFor every 10 points of an enemy target's Max Toughness, increases final DMG dealt to them by <color=#f29e38ff>1.2%</color>, up to a max increase of <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661401": {
+		"Id": "661401",
+		"Name": "The Herta",
+		"Rarity": 1,
+		"Effect": "The Herta's DMG is amplified in the Divergent Universe.\n\nFor every enemy target present on the field, final DMG dealt increases by <color=#f29e38ff>4%</color>. After eliminating an enemy target, final DMG additionally increases by <color=#f29e38ff>2%</color> for this battle. This effect is stackable.",
+		"VersionAdded": "4.1"
+	},
+	"661402": {
+		"Id": "661402",
+		"Name": "Aglaea",
+		"Rarity": 1,
+		"Effect": "Aglaea's DMG is amplified in the Divergent Universe.\n\nIncreases this unit's and her memosprite's SPD by <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661403": {
+		"Id": "661403",
+		"Name": "Tribbie",
+		"Rarity": 1,
+		"Effect": "Tribbie's DMG is amplified in the Divergent Universe.\n\nEach time she uses Ultimate, increases her own final DMG dealt by <color=#f29e38ff>3%</color>. Stacks up to <color=#f29e38ff>10</color> times.",
+		"VersionAdded": "4.1"
+	},
+	"661404": {
+		"Id": "661404",
+		"Name": "Mydei",
+		"Rarity": 1,
+		"Effect": "Mydei's DMG is amplified in the Divergent Universe.\n\nAfter losing HP, increases HP restored by <color=#f29e38ff>15%</color> and increases final DMG dealt by <color=#f29e38ff>15%</color>. Lasts for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"661405": {
+		"Id": "661405",
+		"Name": "Anaxa",
+		"Rarity": 1,
+		"Effect": "Anaxa's DMG is amplified in the Divergent Universe.\n\nAfter Breaking an enemy target's Weakness, increases SPD by <color=#f29e38ff>4%</color>. Stacks up to <color=#f29e38ff>10</color> times.",
+		"VersionAdded": "4.1"
+	},
+	"661406": {
+		"Id": "661406",
+		"Name": "Cipher",
+		"Rarity": 1,
+		"Effect": "Cipher's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the SPD of ally targets by <color=#f29e38ff>10%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661407": {
+		"Id": "661407",
+		"Name": "Castorice",
+		"Rarity": 1,
+		"Effect": "Castorice's DMG is amplified in the Divergent Universe.\n\nAfter Castorice and her memosprite eliminates an enemy target, restores HP equal to <color=#f29e38ff>50%</color> of Max HP.",
+		"VersionAdded": "4.1"
+	},
+	"661408": {
+		"Id": "661408",
+		"Name": "Phainon",
+		"Rarity": 1,
+		"Effect": "Phainon's DMG is amplified in the Divergent Universe.\n\nFor every 10 action value that passes, increases final DMG dealt by <color=#f29e38ff>0.8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661409": {
+		"Id": "661409",
+		"Name": "Hyacine",
+		"Rarity": 1,
+		"Effect": "Hyacine's DMG is amplified in the Divergent Universe.\n\nIncreases SPD by <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661410": {
+		"Id": "661410",
+		"Name": "Hysilens",
+		"Rarity": 1,
+		"Effect": "Hysilens's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt to enemy targets afflicted with <color=#f29e38ff>3</color> or more DoT state by <color=#f29e38ff>12%</color>. For every DoT state beyond that, the DMG boost additionally increases by <color=#f29e38ff>1%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661412": {
+		"Id": "661412",
+		"Name": "Cerydra",
+		"Rarity": 1,
+		"Effect": "Cerydra's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by the first character in the team lineup and their memosprite by <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661413": {
+		"Id": "661413",
+		"Name": "Evernight",
+		"Rarity": 1,
+		"Effect": "Evernight's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the final DMG dealt by ally targets by <color=#f29e38ff>8%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661414": {
+		"Id": "661414",
+		"Name": "Dan Heng • Permansor Terrae",
+		"Rarity": 1,
+		"Effect": "Dan Heng • Permansor Terrae's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the CRIT DMG for ally targets with Shields by <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661415": {
+		"Id": "661415",
+		"Name": "Cyrene",
+		"Rarity": 1,
+		"Effect": "Cyrene's DMG is amplified in the Divergent Universe.\n\nIf there is more than or equal to 1 Chrysos Heir in the team (excluding Cyrene), increases the final DMG dealt by all allies by <color=#f29e38ff>10%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661501": {
+		"Id": "661501",
+		"Name": "Sparxie",
+		"Rarity": 1,
+		"Effect": "Sparxie's DMG is amplified in the Divergent Universe.\n\nFor every <color=#f29e38ff>10</color> Punchline(s) accumulated by the entire team, increases this unit's final DMG dealt by <color=#f29e38ff>1%</color>, up to a max increase of <color=#f29e38ff>30%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"661502": {
+		"Id": "661502",
+		"Name": "Yao Guang",
+		"Rarity": 1,
+		"Effect": "Yao Guang's DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases all allies' SPD by <color=#f29e38ff>10%</color> of Yao Guang's SPD.",
+		"VersionAdded": "4.1"
+	},
+	"661504": {
+		"Id": "661504",
+		"Name": "Ashveil",
+		"Rarity": 1,
+		"Effect": "Ashveil's DMG is amplified in the Divergent Universe.\n\nHis final DMG dealt to enemy targets with HP percentage below <color=#f29e38ff>50%</color> increases by <color=#f29e38ff>30%</color>. If it is Follow-Up ATK DMG, additionally increases by <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668001": {
+		"Id": "668001",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> more final DMG to enemy targets with HP percentage above <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668002": {
+		"Id": "668002",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nDeals <color=#f29e38ff>35%</color> more final DMG to enemy targets with HP percentage above <color=#f29e38ff>50%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668003": {
+		"Id": "668003",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the CRIT DMG for ally targets with Shields by <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668004": {
+		"Id": "668004",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nWhile on the field, increases the CRIT DMG for ally targets with Shields by <color=#f29e38ff>25%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668005": {
+		"Id": "668005",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nWhen on the field, increases the final DMG dealt by ally targets to Broken enemies by <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668006": {
+		"Id": "668006",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nWhen on the field, increases the final DMG dealt by ally targets to Broken enemies by <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.1"
+	},
+	"668007": {
+		"Id": "668007",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. When entering combat, regenerates Energy equal to <color=#f29e38ff>50%</color> of Max Energy.",
+		"VersionAdded": "4.1"
+	},
+	"668008": {
+		"Id": "668008",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. When entering combat, regenerates Energy equal to <color=#f29e38ff>50%</color> of Max Energy.",
+		"VersionAdded": "4.1"
 	},
 	"670010": {
 		"Id": "670010",
@@ -7678,5 +9798,581 @@
 		"Effect": "Increases the DMG multiplier of \"<u>Harmonize</u>\" by <color=#f29e38ff>50%</color>. After ally targets launch a Follow-Up ATK, apply <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>\" to attacked targets.",
 		"AbridgedEffect": "Increases \"<u>Harmonize</u>\" DMG. After ally targets launch a Follow-Up ATK, additionally applies \"<u>Harmonize</u>.\"",
 		"VersionAdded": "3.1"
+	},
+	"676170": {
+		"Id": "676170",
+		"Name": "Beautiful Poem",
+		"Rarity": 1,
+		"Effect": "After entering the \"<u>Butterfly Soul</u>\" state, after memosprites use an attack, they can deal the True DMG from \"<u>Butterfly Soul</u>\" without consuming its attack count. The enemy target with the highest Max HP becomes \"Encocooned,\" until you exit \"<u>Butterfly Soul</u>.\" While in this state, all \"<u>Butterfly Soul</u>\" DMG taken by it is recorded. After taking <color=#f29e38ff>5</color> hits/after the target is defeated/when exiting \"<u>Butterfly Soul</u>,\" deals DMG equal to <color=#f29e38ff>200%</color> of the recorded DMG to all enemy targets and clears the recorded value.",
+		"AbridgedEffect": "Memosprites can trigger \"<u>Butterfly Soul</u>'s\" True DMG. The enemy target with the highest Max HP will enter the \"Encocoon\" state, lasting until exiting \"<u>Butterfly Soul</u>.\" While in this state, all \"<u>Butterfly Soul</u>\" DMG dealt to them is recorded. After receiving a certain number of attacks, or when the target is defeated, or when exiting \"<u>Butterfly Soul</u>,\" deals a certain percentage of the recorded DMG to all enemies and clears the recorded value.",
+		"VersionAdded": "4.1"
+	},
+	"676180": {
+		"Id": "676180",
+		"Name": "Apples! Apples!",
+		"Rarity": 1,
+		"Effect": "\"Sudden Insight\" appears on the Action Order. When taking action, deals <color=#f29e38ff>2000%</color> Ice <u>Base DMG</u> to all enemies and activates the Ultimates of all allies. For every stack of \"<u>Obsession</u>\" possessed by the first character in the team and their memosprite, increases the Base SPD of \"Sudden Insight\" by <color=#f29e38ff>1</color> and additionally deals the <color=#f29e38ff>100%</color> Ice <u>Base DMG</u> to each enemy target.",
+		"AbridgedEffect": "\"Sudden Insight\" appears in the Action Order. When it takes action, it deals Ice DMG to all enemies and activates all allies' Ultimates. The higher the <u>Obsession</u> stacks of the first character in the team and their memosprite, the higher \"Sudden Insight's\" SPD and DMG.",
+		"VersionAdded": "4.1"
+	},
+	"676250": {
+		"Id": "676250",
+		"Name": "Conceptual Sacrificial Rite",
+		"Rarity": 1,
+		"Effect": "After an enemy target attacks an ally target, \"<u>Murmur</u>\" obtains Charge equal to <color=#f29e38ff>10%</color> of the clearance threshold. For every <color=#f29e38ff>5%</color> of the clearance threshold \"<u>Murmur</u>\" charges, the enemy target immediately takes 1 instance of Lightning DoT equal to <color=#f29e38ff>120%</color> of the \"<u>Murmur</u>\" clearance threshold. Each enemy target can trigger this up to <color=#f29e38ff>2</color> time(s), and the trigger count resets after any unit's action. This DMG is considered as \"<u>Murmur</u>\" DMG and cannot defeat the enemy target.",
+		"AbridgedEffect": "When an enemy target attacks an ally target, \"<u>Murmur</u>\" gains Charge. For every certain percentage of \"<u>Murmur</u>\" Charge threshold cleared, that enemy target immediately takes 1 instance of <u>\"Murmur\"</u> DMG.",
+		"VersionAdded": "4.1"
+	},
+	"676280": {
+		"Id": "676280",
+		"Name": "Soul Returner",
+		"Rarity": 1,
+		"Effect": "After ally targets use Ultimates <color=#f29e38ff>5</color> time(s) in total, \"<u>Murmur</u>\" deals DMG equal to <color=#f29e38ff>60%</color> of the original DMG multiplier to adjacent targets. DMG dealt by \"<u>Murmur</u>\" then additionally increases by <color=#f29e38ff>2%</color> every time an Ultimate is used.",
+		"AbridgedEffect": "After ally targets use Ultimates <color=#f29e38ff>5</color> time(s) in total, \"<u>Murmur</u>\" dealts DMG to adjacent targets. Then, DMG dealt by \"<u>Murmur</u>\" increases for every time an Ultimate is used.",
+		"VersionAdded": "4.1"
+	},
+	"676410": {
+		"Id": "676410",
+		"Name": "Street Rider Officer",
+		"Rarity": 1,
+		"Effect": "After all allies cumulatively launch <color=#f29e38ff>24</color> attacks, the first character in the current team gains an extra turn. The attack count taken into account by Follow-Up ATKs is doubled. After using an attack in this extra turn, deals Additional DMG equal to <color=#f29e38ff>600%</color> of Max HP plus <color=#f29e38ff>1200%</color> of ATK to the attack target. Every stack of \"<u>Obsession</u>\" allies possess increases this DMG multiplier by <color=#f29e38ff>1%</color> of the original multiplier.",
+		"AbridgedEffect": "After the ally team launches a certain number of attacks, the first character in the current team gains an extra turn and deals DMG based on \"<u>Obsession</u>\" stacks after attacking.",
+		"VersionAdded": "4.1"
+	},
+	"676470": {
+		"Id": "676470",
+		"Name": "Exorcist",
+		"Rarity": 1,
+		"Effect": "While in the \"<u>Butterfly Soul</u>\" state, increases the DMG dealt by ally targets by <color=#f29e38ff>200%</color>. After using an attack, if the enemy target's current HP is lower than <color=#f29e38ff>25%</color> of their Max HP, deals \"<u>Butterfly Soul</u>\" DMG equal to a set amount of their current HP and recovers <color=#f29e38ff>2</color> Skill Point(s).",
+		"AbridgedEffect": "While in the \"<u>Butterfly Soul</u>\" state, increases DMG dealt by ally targets. Additionally, they can immediately defeat enemies with HP lower than <color=#f29e38ff>25%</color> of their Max HP, and recovers <color=#f29e38ff>2</color> Skill Point(s).",
+		"VersionAdded": "4.1"
+	},
+	"676510": {
+		"Id": "676510",
+		"Name": "Nightmare Lord",
+		"Rarity": 1,
+		"Effect": "After any ally unit is attacked, it is considered as all ally targets have been attacked. All ally targets will Charge \"<u>Blazar</u>\" equal to the sum of <color=#f29e38ff>15%</color> of their respective Max HP and Shield.",
+		"AbridgedEffect": "After receiving an attack, it is considered as all ally targets having been attacked, and all ally targets will Charge their \"<u>Blazar</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"676590": {
+		"Id": "676590",
+		"Name": "Eternal Supplicant",
+		"Rarity": 1,
+		"Effect": "When the total HP lost by ally targets is equal to <color=#f29e38ff>100%</color> of their Max HP or after recovering from being downed, deals DMG equal to <color=#f29e38ff>75%</color> of the max limit of \"<u>Harmonize</u>\" to all enemies. When a character's turn starts, consumes HP equal to <color=#f29e38ff>5%</color> of Max HP, increasing this value by <color=#f29e38ff>5%</color> after every time this effect is triggered. When ally characters become downed for the first time in this battle, restore their current HP to <color=#f29e38ff>100%</color> of their Max HP, and HP will no longer be consumed when their turn starts.",
+		"AbridgedEffect": "When accumulating a certain amount of lost HP or recovering from being downed, deals DMG to all enemies based on the max limit of \"<u>Harmonize</u>.\" Characters can resist fatal damage, and consume their HP at the start of every turn before this effect is triggered.",
+		"VersionAdded": "4.1"
+	},
+	"676640": {
+		"Id": "676640",
+		"Name": "Starlight Bandits",
+		"Rarity": 1,
+		"Effect": "When \"<u>Dealer</u>\" takes action, increases attack count by <color=#f29e38ff>4</color> and changes the attack target to the enemy with the highest current Max HP. When dealing DMG, inflicts <color=#f29e38ff>2</color> additional stack(s) of \"<u>Reverse Critical Boost</u>\" on the target, and after attacking, advances all allies' actions by <color=#f29e38ff>25%</color>. This effect can be triggered at most <color=#f29e38ff>1</color> time(s) per turn on each enemy target.",
+		"AbridgedEffect": "Changes the attack target of \"<u>Dealer</u>\" to the enemy target with the current highest Max HP, and increases attack count. When dealing DMG, inflicts \"<u>Reverse Critical Boost</u>\" on the target and advances the actions of all allies.",
+		"VersionAdded": "4.1"
+	},
+	"676650": {
+		"Id": "676650",
+		"Name": "Fire Rejectors",
+		"Rarity": 1,
+		"Effect": "When \"Pother\" appears in the Action Order, each point of <u>Dealer's</u> Charge additionally increases its SPD by <color=#f29e38ff>7</color>. When \"Pother\" takes action, increases DMG dealt by all allies by <color=#f29e38ff>15%</color>, stacking up to <color=#f29e38ff>10</color> times. Also Charges \"<u>Blazar</u>\" by an amount equal to <color=#f29e38ff>150%</color> of each ally target's respective Max HP and current Shield value combined. After each ally unleashes their next attack, deals <color=#f29e38ff>7</color> instance(s) of <color=#f29e38ff>80%</color> \"<u>Blazar</u>\" DMG of a random Type to each of the attack targets.",
+		"AbridgedEffect": "When \"Pother\" appears in the Action Order, its SPD receives an additional bonus based on the number of \"<u>Dealer</u>\" Charges: When \"Pother\" takes action, increases DMG dealt by all allies and Charges \"<u>Blazar</u>,\" causing each ally target to deal \"<u>Blazar</u>\" DMG of a random Type to every attack target after launching their next attack.",
+		"VersionAdded": "4.1"
+	},
+	"676720": {
+		"Id": "676720",
+		"Name": "Serpent Slithering",
+		"Rarity": 1,
+		"Effect": "Under the \"<u>Butterfly Soul</u>\" state, each time all allies consume 1 Skill Point, DMG taken by all enemies increases by <color=#f29e38ff>10%</color>, stackable up to <color=#f29e38ff>40%</color>. After entering the \"<u>Butterfly Soul</u>\" state and consuming a total of <color=#f29e38ff>3</color> Skill Points for the first time, recover <color=#f29e38ff>6</color> attack count(s) of \"<u>Butterfly Soul</u>,\" and before this \"<u>Butterfly Soul</u>\" state ends, after ally targets attack, deals 1 instance of True DMG equal to <color=#f29e38ff>60%</color> of the original DMG (excluding Additional DMG) to the attack target. This effect also applies to DoT taken by enemy targets at the start of their turn.",
+		"AbridgedEffect": "While in the \"<u>Butterfly Soul</u>\" state, the more Skill Points consumed by all allies, the higher the DMG dealt to all enemies. After entering the \"<u>Butterfly Soul</u>\" state and consuming a total of <color=#f29e38ff>3</color> Skill Points for the first time in that state, recover \"<u>Butterfly Soul</u>\" count(s) and enable attacks and DoT to deal additional True DMG.",
+		"VersionAdded": "4.1"
+	},
+	"676760": {
+		"Id": "676760",
+		"Name": "Galactic Grand Lotto",
+		"Rarity": 1,
+		"Effect": "For every 1 consumed or overflowing Skill point of ally targets, obtain 1 prize draw chance, up to <color=#f29e38ff>25</color> time(s). When entering the \"<u>Butterfly Soul</u>\" state, summons \"Lottery Machine\" and consumes all prize draw chances to obtain prizes, with a base draw of <color=#f29e38ff>5</color> time(s). There is a small chance of obtaining the Special Prize, which deals 1 instance of DMG of a random Type equal to <color=#f29e38ff>4000%</color> of <u>base DMG</u> to all enemy targets and gains <color=#f29e38ff>5</color> Charge for the \"<u>Dealer</u>.\" The Consolation Prize deals 1 instance of DMG of a random Type equal to <color=#f29e38ff>500%</color> of <u>base DMG</u> to random enemy targets.",
+		"AbridgedEffect": "For every 1 Skill Point consumed or overflowed by ally targets, obtain 1 prize draw chance. When entering the \"<u>Butterfly Soul</u>\" state, summons the \"Lottery Machine\" and consumes all prize draw chances to obtain prizes. There is a small chance of obtaining the Special Prize: Deals DMG of a random Type to all enemies and grants <color=#f29e38ff>5</color> Charge to the \"<u>Dealer</u>.\" Consolation Prize: Deals DMG of a random Type to a random enemy target.",
+		"VersionAdded": "4.1"
+	},
+	"676860": {
+		"Id": "676860",
+		"Name": "Useful Scholar",
+		"Rarity": 1,
+		"Effect": "After \"<u>Dealer</u>\" takes action <color=#f29e38ff>4</color> time(s) while no allies in the team are in the \"Overclock\" state, increases all allies' CRIT DMG by <color=#f29e38ff>200%</color> for <color=#f29e38ff>5</color> turn(s). Then, grants the first character in the current team the \"Overclock\" state: activates their Ultimate and Charges \"<u>Brain in a Vat</u>\" to <color=#f29e38ff>200%</color>. This state ends after using Ultimate <color=#f29e38ff>3</color> time(s). When triggered for the first time, \"<u>Dealer</u>\" only needs to take action <color=#f29e38ff>1</color> time(s).",
+		"AbridgedEffect": "After the \"<u>Dealer</u>\" takes action <color=#f29e38ff>4</color> times when no allies are in the \"Overclock\" state, increases all allies' CRIT DMG and grants the first character in the current team the \"Overclock\" state: Activates their Ultimate and Charges \"<u>Brain in a Vat</u>\" to <color=#f29e38ff>200%</color>. When triggered for the first time, the \"<u>Dealer</u>\" only needs to take action <color=#f29e38ff>1</color> time(s).",
+		"VersionAdded": "4.1"
+	},
+	"676890": {
+		"Id": "676890",
+		"Name": "Appliance Druid",
+		"Rarity": 1,
+		"Effect": "\"Giant Turtle's Breath\" with a SPD of <color=#f29e38ff>150</color> appears in Action Order: When taking action, increases DMG taken by all enemies by <color=#f29e38ff>50%</color>, lasting <color=#f29e38ff>3</color> turns, dealing Ice and Fire DMG equal to <color=#f29e38ff>6000%</color> of <u>base DMG</u>, delays their actions by <color=#f29e38ff>30%</color>, and reduces <color=#f29e38ff>30</color> Toughness from all enemy targets ignoring Weakness Type. When Weakness Break occurs on an enemy, triggers both Ice and Fire Weakness Break effects. When ally target activates Ultimate with \"<u>Brain in a Vat</u>,\" \"Giant Turtle's Breath's\" SPD increases by <color=#f29e38ff>5</color> that can stack up to <color=#f29e38ff>15</color> times.",
+		"AbridgedEffect": "\"Giant Turtle's Breath\" appears in Action Order. When taking action, increases the DMG taken by all enemies, deals Ice and Fire DMG to all enemies, delays their actions, and reduces Toughness from all enemy targets while ignoring Weakness Type. If Weakness Break occurs, triggers both Ice and Fire Weakness Break effects. When ally target activates Ultimate with \"<u>Brain in a Vat</u>,\" \"Giant Turtle's Breath's\" SPD increases.",
+		"VersionAdded": "4.1"
+	},
+	"676920": {
+		"Id": "676920",
+		"Name": "Dead General",
+		"Rarity": 1,
+		"Effect": "When an enemy target is in the Weakness Broken state, \"<u>Harmonize</u>\" gains additional effects based on the Types of ally characters in the team. Effects of the same type can stack: Wind, Lightning, Physical: Gains the \"Stormheave\" effect. When attacked, enemy targets immediately take DMG equal to <color=#f29e38ff>60%</color> of the original DMG from the DoT currently inflicted on them. Fire: Gains the \"Moltflare\" effect. Increases <u>Super Break DMG</u> taken by enemy targets by <color=#f29e38ff>60%</color>. Quantum, Imaginary, Ice: Gains the \"Intimidation\" effect. Enemy target's action is delayed by <color=#f29e38ff>20%</color>. When attacked, triggers \"<u>Harmonize</u>\" DMG <color=#f29e38ff>1</color> time(s) at a rate of <color=#f29e38ff>10%</color>.",
+		"AbridgedEffect": "When an enemy target is in the Weakness Break state, \"<u>Harmonize</u>\" gains additional effects based on the Types of ally characters in the team: Wind, Lightning, Physical: Gains the \"Stormheave\" effect. Triggers DoT after being attacked. Fire: Gains the \"Moltflare\" effect. <u>Super Break DMG</u> taken increases. Quantum, Imaginary, Ice: Gains the \"Intimidation\" effect. Enemy action is delayed, and additionally takes \"<u>Harmonize</u>\" DMG after being attacked.",
+		"VersionAdded": "4.1"
+	},
+	"676940": {
+		"Id": "676940",
+		"Name": "Summoner of God",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' SPD by <color=#f29e38ff>35%</color>. After using an attack, there is a <color=#f29e38ff>60%</color> fixed chance to add 1 Weakness of a random Type to a random attack target and deals <color=#f29e38ff>3</color> instance(s) <color=#f29e38ff>180%</color> of <u>base DMG</u> of the corresponding Type to them and is guaranteed to trigger if the attack is a Follow-Up ATK. The added Type Weakness is removed after the enemy target is Weakness Broken. After adding a Weakness to an enemy target, records the added Weakness once. This effect can trigger up to <color=#f29e38ff>2</color> time(s) per action. When any enemy target is Weakness Broken, based on the recorded Weaknesses, deals <color=#f29e38ff>200%</color> Break DMG of the corresponding Type for each record to the target and adjacent targets.",
+		"AbridgedEffect": "Increases ally targets' SPD. After using an attack, there is a chance to add Weaknesses and deals DMG of corresponding Type to them. If the attack is a Follow-Up ATK, the effect is guaranteed to trigger. Records the Weakness added to enemy targets. When inflicting Weakness Break on enemy targets, deals Break DMG of corresponding Type to the enemy target and adjacent targets based on recorded Weaknesses.",
+		"VersionAdded": "4.1"
+	},
+	"677160": {
+		"Id": "677160",
+		"Name": "Horticulturist",
+		"Rarity": 1,
+		"Effect": "After an ally target uses an attack, deals Additional DMG to the target equal to <color=#f29e38ff>100%</color> of Max HP. After <u>\"Dealer\"</u> takes action, the Additional DMG of the next attack is increased to <color=#f29e38ff>300%</color> of Max HP.",
+		"AbridgedEffect": "After an ally target uses an attack, deals Additional DMG to the attack target based on Max HP. After the \"<u>Dealer</u>\" takes action, the next Additional DMG is increased.",
+		"VersionAdded": "4.1"
+	},
+	"677170": {
+		"Id": "677170",
+		"Name": "History Agent",
+		"Rarity": 1,
+		"Effect": "For each stack of \"<u>Obsession</u>\" ally target has, ally target's Basic ATK and Skill DMG dealt increase by <color=#f29e38ff>6%</color>. When an ally character departs from the field, is knocked down, or when an ally memosprite disappears, the character in position 1 in the current team obtains <color=#f29e38ff>50%</color> of that ally's \"<u>Obsession</u>\" stacks and an equal amount of \"<u>Obsession</u>\" max limit. This additional stack limit will disappear after <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Every stack of \"<u>Obsession</u>\" increases Basic ATK and Skill DMG. Upon leaving the field, the first character in the current team obtains a certain percentage of \"<u>Obsession</u>\" stacks.",
+		"VersionAdded": "4.1"
+	},
+	"677190": {
+		"Id": "677190",
+		"Name": "Wheel of Career Transition",
+		"Rarity": 1,
+		"Effect": "Increases max \"<u>Obsession</u>\" stacks of allies by <color=#f29e38ff>4</color>, and increases SPD by an additional <color=#f29e38ff>0.3%</color> for each \"<u>Obsession</u>\" stack for all allies. When breaking an enemy's Weakness, all allies gain <color=#f29e38ff>3</color> \"<u>Obsession</u>\" stacks.",
+		"AbridgedEffect": "Increases the maximum number of \"<u>Obsession</u>\" stacks. Each \"<u>Obsession</u>\" stack increases all allies' SPD. All allies obtain \"<u>Obsession</u>\" when any enemy target is Broken.",
+		"VersionAdded": "4.1"
+	},
+	"677240": {
+		"Id": "677240",
+		"Name": "Eternal Sprint",
+		"Rarity": 1,
+		"Effect": "DoTs taken by enemy targets can CRIT. The CRIT Rate/CRIT DMG is equal to <color=#f29e38ff>20%</color> of all ally characters' total CRIT Rate/CRIT DMG, with CRIT DMG capped at <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "DoTs taken by enemy targets can CRIT. The CRIT Rate/CRIT DMG is based on all ally characters' total CRIT Rate/CRIT DMG.",
+		"VersionAdded": "4.1"
+	},
+	"677250": {
+		"Id": "677250",
+		"Name": "Life Forged By Dice",
+		"Rarity": 1,
+		"Effect": "Increases the \"<u>Murmur</u>\" DMG taken by enemy targets by <color=#f29e38ff>35%</color>. After enemy targets take DoT outside their turn, all allies receive \"<u>Blazar</u>\" Charge equal to <color=#f29e38ff>10%</color> of their respective ATK. This effect can be triggered up to <color=#f29e38ff>5</color> times per enemy target per turn.",
+		"AbridgedEffect": "Enemy targets take increased \"<u>Murmur</u>\" DMG. After enemy targets take DoT outside their turn, charge all allies with \"<u>Blazar</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"677260": {
+		"Id": "677260",
+		"Name": "Foolish King",
+		"Rarity": 1,
+		"Effect": "Increases DoT taken by enemy targets by <color=#f29e38ff>30%</color>. After \"<u>Dealer</u>\" deals DMG, each instance immediately causes all DoT debuffs on the enemy target to deal DMG equal to <color=#f29e38ff>15%</color> of the original DMG.",
+		"AbridgedEffect": "Increases DoT taken by enemy targets. After the \"<u>Dealer</u>\" deals DMG, triggers DoT.",
+		"VersionAdded": "4.1"
+	},
+	"677450": {
+		"Id": "677450",
+		"Name": "Ironarm Ranger",
+		"Rarity": 1,
+		"Effect": "Increases \"<u>Reverse Critical Boost</u>\" max limit by <color=#f29e38ff>10</color> stack(s). For every <color=#f29e38ff>15%</color> of total team Max HP lost by the entire team, all enemies immediately gain 1 stack of \"<u>Reverse Critical Boost</u>.\"",
+		"AbridgedEffect": "The maximum stack of \"<u>Reverse Critical Boost</u>\" increases. Every time the team loses a certain amount of HP, they gain \"<u>Reverse Critical Boost</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"677460": {
+		"Id": "677460",
+		"Name": "Comet Handler",
+		"Rarity": 1,
+		"Effect": "For every 1% of CRIT Rate that exceeds 100% for the ally target and the \"<u>Dealer</u>,\" CRIT DMG increases by <color=#f29e38ff>3%</color>. After ally targets launch an attack, increases the CRIT Rate of this unit and the \"<u>Dealer</u>\" by <color=#f29e38ff>2%</color>, up to <color=#f29e38ff>50</color> stacks. If it is a Follow-Up ATK, it can additionally stack <color=#f29e38ff>2</color> time(s).",
+		"AbridgedEffect": "For every 1% of CRIT Rate that exceeds 100% for the ally target and the \"<u>Dealer</u>,\" CRIT DMG increases by <color=#f29e38ff>3%</color>. After an ally target launches an attack, increases the CRIT Rate of this unit and the \"<u>Dealer</u>,\" with Follow-Up ATKs providing an additional increase.",
+		"VersionAdded": "4.1"
+	},
+	"677470": {
+		"Id": "677470",
+		"Name": "Meteor Wholesaler",
+		"Rarity": 1,
+		"Effect": "For every 1% of action advance effect gained by ally targets, additionally deals True DMG equal to <color=#f29e38ff>0.5%</color> of the original DMG dealt after using an attack in the next turn, up to a max of <color=#f29e38ff>50%</color> of True DMG. Additionally deals True DMG equal to <color=#f29e38ff>50%</color> of the original DMG when in the \"<u>Butterfly Soul</u>\" state.",
+		"AbridgedEffect": "After an ally target gains any action advance effects, they additionally deal more True DMG after attacking in their next turn. While in the \"<u>Butterfly Soul</u>\" state, further increases the True DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"677510": {
+		"Id": "677510",
+		"Name": "Frost Giant",
+		"Rarity": 1,
+		"Effect": "When an ally target takes DMG or consumes HP while their HP percentage is less than <color=#f29e38ff>40%</color>, consumes <color=#f29e38ff>5</color> stack(s) of \"<u>Obsession</u>\" from the target with the highest \"<u>Obsession</u>\" stacks in the team, heals for <color=#f29e38ff>25%</color> of this unit's Max HP, and increases DMG dealt by <color=#f29e38ff>150%</color> for <color=#f29e38ff>2</color> turn(s). This effect can only be triggered <color=#f29e38ff>1</color> time(s) per turn.",
+		"AbridgedEffect": "While HP percentage is less than <color=#f29e38ff>40%</color>, consumes \"<u>Obsession</u>\" from the ally target with the highest \"<u>Obsession</u>\" stacks in the team to restore HP and increase DMG dealt.",
+		"VersionAdded": "4.1"
+	},
+	"677570": {
+		"Id": "677570",
+		"Name": "Aberration Idol",
+		"Rarity": 1,
+		"Effect": "Increases \"<u>Blazar</u>\" Charging Efficiency by <color=#f29e38ff>25%</color>. When \"<u>Butterfly Soul</u>\" state is active, using Basic ATK/Skills to perform attacks deals <color=#f29e38ff>150%</color> \"<u>Blazar</u>\" DMG to the target.",
+		"AbridgedEffect": "Increases the Charging Efficiency of \"<u>Blazar</u>.\" After attacking via using Basic ATK/Skill while in the \"<u>Butterfly Soul</u>\" state, deals \"<u>Blazar</u>\" DMG to the target.",
+		"VersionAdded": "4.1"
+	},
+	"677590": {
+		"Id": "677590",
+		"Name": "Divine Retribution Voting Device",
+		"Rarity": 1,
+		"Effect": "When ally targets Break any enemy target's Weakness, Charge \"<u>Blazar</u>\" equal to <color=#f29e38ff>100%</color> of Max HP and Shield. If all enemy targets are Weakness Broken, \"<u>Blazar</u>\" will not be cleared at the end of ally targets' turns.",
+		"AbridgedEffect": "When Breaking Weakness, charges \"<u>Blazar</u>.\" If all enemy targets are Weakness Broken, \"<u>Blazar</u>\" will not be cleared at the end of an ally target's turn.",
+		"VersionAdded": "4.1"
+	},
+	"677650": {
+		"Id": "677650",
+		"Name": "Truly Fortunate Chess",
+		"Rarity": 1,
+		"Effect": "For every <color=#f29e38ff>3</color> point(s) of Charge on the \"<u>Dealer</u>,\" gains 1 additional Hit Per Action. When a total of <color=#f29e38ff>10</color> ally targets are attacked, the \"<u>Dealer</u>\" gains 1 point of Charge.",
+		"AbridgedEffect": "For every <color=#f29e38ff>3</color> point(s) of Charge on the \"<u>Dealer</u>,\" gains 1 additional Hit Per Action. When multiple ally targets are attacked, the \"<u>Dealer</u>\" gains 1 point of Charge.",
+		"VersionAdded": "4.1"
+	},
+	"677680": {
+		"Id": "677680",
+		"Name": "Aether Hacker",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' CRIT DMG by <color=#f29e38ff>100%</color>. After using an Ultimate or Elation Skill to defeat an enemy target, records overflow DMG. The next <color=#f29e38ff>1</color> attack(s) will deal additional DMG equal to <color=#f29e38ff>300%</color> of the recorded value to a random attack target.",
+		"AbridgedEffect": "Increases ally targets' CRIT DMG. After using an Ultimate or Elation Skill to defeat an enemy target, records overflow DMG. The next <color=#f29e38ff>1</color> attack(s) will deal additional DMG equal a certain percentage of the recorded value to a random attack target.",
+		"VersionAdded": "4.1"
+	},
+	"677690": {
+		"Id": "677690",
+		"Name": "Fabulist of the Stars",
+		"Rarity": 1,
+		"Effect": "When \"<u>Dealer</u>\" deals DMG, ignores Weakness Type and reduces the enemy target's Toughness by <color=#f29e38ff>30</color> points. This Toughness Reduction can at most reduce the enemy to 1 point of Toughness. When an enemy target's Weakness is Broken, for every <color=#f29e38ff>10</color> points of Max Toughness, they receive <color=#f29e38ff>3%</color> more DMG for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "\"<u>Dealer</u>\" ignores Weakness Type when reducing Toughness while dealing DMG. When an enemy target's Weakness is Broken, increases DMG taken based on Max Toughness.",
+		"VersionAdded": "4.1"
+	},
+	"677710": {
+		"Id": "677710",
+		"Name": "Impoverished Kidnapper",
+		"Rarity": 1,
+		"Effect": "The True DMG multiplier of \"<u>Butterfly Soul</u>\" increases by <color=#f29e38ff>60%</color> of the original multiplier and increases attack count by <color=#f29e38ff>4</color>. After a memosprite uses an attack, they can trigger the True DMG of \"<u>Butterfly Soul</u>\" and consume its attack count.",
+		"AbridgedEffect": "Increases the True DMG dealt by \"<u>Butterfly Soul.</u>\" Memosprites' attacks will additionally apply True DMG from \"<u>Butterfly Soul.</u>\"",
+		"VersionAdded": "4.1"
+	},
+	"677720": {
+		"Id": "677720",
+		"Name": "Hero of Dejection",
+		"Rarity": 1,
+		"Effect": "Every time an enemy target takes 1 instance of DoT, Charges \"Soul Chrysalis\" by <color=#f29e38ff>1%</color>. If currently in the \"<u>Butterfly Soul</u>\" state, increases DMG dealt by all allies by <color=#f29e38ff>2%</color>. Stacks up to <color=#f29e38ff>99</color> time(s) and lasts until exiting the \"<u>Butterfly Soul</u>\" state.",
+		"AbridgedEffect": "Every time an enemy target takes 1 instance of DoT, Charges \"Soul Chrysalis\" by <color=#f29e38ff>1%</color>. If currently in the \"<u>Butterfly Soul</u>\" state, increases DMG dealt by all allies by <color=#f29e38ff>2%</color>. Stacks up to <color=#f29e38ff>99</color> time(s) and lasts until exiting the \"<u>Butterfly Soul</u>\" state.",
+		"VersionAdded": "4.1"
+	},
+	"677780": {
+		"Id": "677780",
+		"Name": "Imperial Sting",
+		"Rarity": 1,
+		"Effect": "When ally target enters \"<u>Butterfly Soul</u>\" state, used Ultimate also deals \"<u>Butterfly Soul</u>\"'s True DMG, and increases \"<u>Butterfly Soul</u>\"'s attack count by <color=#f29e38ff>4</color>. This effect triggers up to 1 time for each ally.",
+		"AbridgedEffect": "After ally targets enter \"<u>Butterfly Soul</u>\" state, using Ultimate also deals \"<u>Butterfly Soul</u>\" True DMG and increases \"<u>Butterfly Soul</u>\" attack count.",
+		"VersionAdded": "4.1"
+	},
+	"677810": {
+		"Id": "677810",
+		"Name": "Mage of Ruins",
+		"Rarity": 1,
+		"Effect": "After a memosprite uses an attack, Charge their memomaster's \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>8%</color>. After the memomaster uses \"<u>Brain in a Vat</u>\" to use their Ultimate, increases the memosprite's DMG by <color=#f29e38ff>240%</color> for <color=#f29e38ff>4</color> turn(s).",
+		"AbridgedEffect": "After a memosprite attacks, Charges their memomaster's \"<u>Brain in a Vat.</u>\" After a memomaster uses their Ultimate via \"<u>Brain in a Vat,</u>\" increases their memosprite's DMG.",
+		"VersionAdded": "4.1"
+	},
+	"677820": {
+		"Id": "677820",
+		"Name": "IQ Tax Collector",
+		"Rarity": 1,
+		"Effect": "Ally targets' ATK increases by <color=#f29e38ff>150%</color>. After using ATKs that deal Ultimate DMG, causes the \"<u>Murmur</u>\" on the attack target to deal DMG equal to <color=#f29e38ff>100%</color> of original DMG.",
+		"AbridgedEffect": "Increases ATK. After using attacks to deal Ultimate DMG, triggers \"<u>Murmur</u>\" DMG.",
+		"VersionAdded": "4.1"
+	},
+	"677840": {
+		"Id": "677840",
+		"Name": "Super Jock",
+		"Rarity": 1,
+		"Effect": "When any ally target Breaks any enemy target's Weakness, Charges \"<u>Brain in a Vat</u>\" by <color=#f29e38ff>20%</color> and regenerates Energy equal to <color=#f29e38ff>10%</color> of Max Energy. After defeating any enemy target, regenerates Energy equal to <color=#f29e38ff>60%</color> of Max Energy.",
+		"AbridgedEffect": "When Breaking enemy targets' Weakness, Charges \"<u>Brain in a Vat</u>\" and regenerates Energy. After any enemy target is defeated, regenerates Energy.",
+		"VersionAdded": "4.1"
+	},
+	"677920": {
+		"Id": "677920",
+		"Name": "Song of Gravity",
+		"Rarity": 1,
+		"Effect": "When enemy targets take \"<u>Harmonize</u>\" DMG, additionally take 1 instance of \"<u>Harmonize</u>\" DMG equal to <color=#f29e38ff>75%</color> of the original DMG. Every debuff currently on the target additionally increases this DMG by <color=#f29e38ff>2%</color>, up to a max of <color=#f29e38ff>40%</color>.",
+		"AbridgedEffect": "\"<u>Harmonize</u>\" DMG is triggered 1 more time. This DMG increases with the number of debuffs afflicted on the enemy target.",
+		"VersionAdded": "4.1"
+	},
+	"677940": {
+		"Id": "677940",
+		"Name": "Master of Fates",
+		"Rarity": 1,
+		"Effect": "After any ally target attacks a Weakness Broken enemy target, converts the Toughness Reduction of this attack into 1 instance of <color=#f29e38ff>75%</color> <u>Super Break DMG</u>. For each stack of \"<u>Reverse Critical Boost</u>\" inflicted on an enemy target, this effect additionally deals <color=#f29e38ff>5%</color> <u>Super Break DMG</u>.",
+		"AbridgedEffect": "After ally targets attack Weakness Broken enemy targets, deal <u>Super Break DMG</u>. The higher the number of \"<u>Reverse Critical Boost</u>\" stacks on enemy targets, the higher this <u>Super Break DMG</u> will be.",
+		"VersionAdded": "4.1"
+	},
+	"677980": {
+		"Id": "677980",
+		"Name": "Man, Serpent, Astral Ring",
+		"Rarity": 1,
+		"Effect": "When an enemy target's turn begins while Weakness Broken, they take 1 additional instance of \"<u>Harmonize</u>\" DMG equal to <color=#f29e38ff>200%</color> of its original DMG. Each time an ally target uses their Ultimate, increases the \"<u>Harmonize</u>\" DMG by <color=#f29e38ff>1%</color> of its original DMG.",
+		"AbridgedEffect": "When an enemy target's turn begins while Weakness Broken, they take 1 additional instance of \"<u>Harmonize</u>\" DMG. Each time an ally target uses their Ultimate, \"<u>Harmonize</u>\" DMG is increased.",
+		"VersionAdded": "4.1"
+	},
+	"678150": {
+		"Id": "678150",
+		"Name": "Relative Winner",
+		"Rarity": 1,
+		"Effect": "When an ally target consumes HP, they gain <color=#f29e38ff>5</color> stacks of \"<u>Obsession</u>.\" This can trigger up to <color=#f29e38ff>1</color> time(s) and can be triggered again after any unit takes action.",
+		"AbridgedEffect": "When an ally target loses HP, gains \"<u>Obsession</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678170": {
+		"Id": "678170",
+		"Name": "Close Friends",
+		"Rarity": 1,
+		"Effect": "When a memosprite disappears, restores 1 Skill Point to ally targets. For every 1 Skill Point the team gains, increases DMG dealt by all allies by <color=#f29e38ff>3%</color>, up to a max increase of <color=#f29e38ff>120%</color>.",
+		"AbridgedEffect": "When a memosprite disappears, recovers 1 Skill Point for ally targets. For every 1 Skill Point the team gains, increases DMG dealt by all allies.",
+		"VersionAdded": "4.1"
+	},
+	"678180": {
+		"Id": "678180",
+		"Name": "Pun-ishing Gourmet",
+		"Rarity": 1,
+		"Effect": "While allies' \"<u>Obsession</u>\" stacks exceed <color=#f29e38ff>70</color>, increases Ultimate DMG by <color=#f29e38ff>75%</color> and memosprite DMG by <color=#f29e38ff>75%</color>.",
+		"AbridgedEffect": "While all allies have more than <color=#f29e38ff>70</color> \"<u>Obsession</u>\" stacks, increases DMG dealt by Ultimate and DMG dealt by memosprites.",
+		"VersionAdded": "4.1"
+	},
+	"678190": {
+		"Id": "678190",
+		"Name": "Master of Sharing",
+		"Rarity": 1,
+		"Effect": "While ally targets possess \"<u>Obsession</u>\" increases their All-Type RES PEN by <color=#f29e38ff>15%</color>. Every \"<u>Obsession</u>\" stack increases all ally targets' Break Effect by <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "While ally targets have \"<u>Obsession</u>,\" increase their All-Type RES PEN. Every \"<u>Obsession</u>\" stack increases all allies' Break Effect.",
+		"VersionAdded": "4.1"
+	},
+	"678240": {
+		"Id": "678240",
+		"Name": "Maze of Eternal Massacre",
+		"Rarity": 1,
+		"Effect": "Increases enemy target's DoT taken by <color=#f29e38ff>20%</color>. After receiving a Follow-Up ATK, gains \"<u>Murmur</u>\" Charge equal to <color=#f29e38ff>2%</color> of the clearing threshold.",
+		"AbridgedEffect": "Increases enemy target's DoT. After receiving Follow-Up ATK, charges \"<u>Murmur</u>\".",
+		"VersionAdded": "4.1"
+	},
+	"678250": {
+		"Id": "678250",
+		"Name": "Fabled Land",
+		"Rarity": 1,
+		"Effect": "When enemy targets enter combat, they are inflicted with the Bleed effect. While Bleeding, they will take Physical DoT equal to <color=#f29e38ff>10%</color> of their Max HP at the start of their turn. This DMG cannot exceed <color=#f29e38ff>200%</color> of all ally targets' total HP.",
+		"AbridgedEffect": "When an enemy target enters combat, inflicts Bleed on them, making them take Physical DoT at the beginning of the turn.",
+		"VersionAdded": "4.1"
+	},
+	"678260": {
+		"Id": "678260",
+		"Name": "Reverse Adventurer",
+		"Rarity": 1,
+		"Effect": "After \"Dealer\" uses an attack, inflicts Burn on the target. At the start of each turn, the target receives Fire DoT equal to <color=#f29e38ff>150%</color> of \"<u>Dealer's</u>\" <u>base DMG</u>, lasting for <color=#f29e38ff>3</color> turn(s).",
+		"AbridgedEffect": "After the \"<u>Dealer</u>\" uses an attack, inflicts Burn on the attack target. At the start of each turn, the target takes Fire DoT, lasting for <color=#f29e38ff>3</color> turn(s).",
+		"VersionAdded": "4.1"
+	},
+	"678280": {
+		"Id": "678280",
+		"Name": "Doctor of Delirium",
+		"Rarity": 1,
+		"Effect": "When any enemy targets are defeated, every DoT state it possesses regenerates <color=#f29e38ff>5.0</color> Energy for all allies.",
+		"AbridgedEffect": "When any enemy target is defeated, regenerates Energy for all ally targets based on the number of DoT states the target had.",
+		"VersionAdded": "4.1"
+	},
+	"678410": {
+		"Id": "678410",
+		"Name": "Ancestral War God",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' CRIT Rate by <color=#f29e38ff>25%</color>. After a memosprite uses an attack, additionally applies <color=#f29e38ff>3</color> stack(s) of \"<u>Reverse Critical Boost</u>\" to a random attack target.",
+		"AbridgedEffect": "Increases ally target's CRIT Rate. After a memosprite uses an attack, additionally inflicts \"<u>Reverse Critical Boost</u>\" on a random attack target.",
+		"VersionAdded": "4.1"
+	},
+	"678420": {
+		"Id": "678420",
+		"Name": "Bald Creator",
+		"Rarity": 1,
+		"Effect": "For every \"<u>Murmur</u>\" Charge that equals to 1% of the clearing threshold, increases CRIT DMG taken by enemy targets by <color=#f29e38ff>1.0%</color>, up to a max of <color=#f29e38ff>150%</color>.",
+		"AbridgedEffect": "Increases CRIT DMG taken by enemy targets for every 1% of the clearing threshold that the current charge of \"<u>Murmur</u>\" has reached.",
+		"VersionAdded": "4.1"
+	},
+	"678460": {
+		"Id": "678460",
+		"Name": "Vermin Hunter",
+		"Rarity": 1,
+		"Effect": "Increases the DMG dealt by \"<u>Reverse Critical Boost</u>\" by <color=#f29e38ff>60%</color>. Increases the DMG dealt by the attack triggered when using Elation Skill by <color=#f29e38ff>60%</color>.",
+		"AbridgedEffect": "Increases DMG dealt with \"<u>Reverse Critical Boost</u>.\" DMG dealt further increases when using Elation Skill attacks to trigger it.",
+		"VersionAdded": "4.1"
+	},
+	"678480": {
+		"Id": "678480",
+		"Name": "Cursed Teacher",
+		"Rarity": 1,
+		"Effect": "For every enemy target defeated, increases DMG dealt by all ally targets in the current battle by <color=#f29e38ff>30%</color>. Additionally increases Ultimate DMG by <color=#f29e38ff>15%</color>. This effect can stack.",
+		"AbridgedEffect": "For every enemy target defeated, increases DMG dealt by ally targets in the current battle, with Ultimate DMG receiving an additional boost.",
+		"VersionAdded": "4.1"
+	},
+	"678510": {
+		"Id": "678510",
+		"Name": "Demon of Renege",
+		"Rarity": 1,
+		"Effect": "Ally targets' Max HP increases by <color=#f29e38ff>40%</color>. When entering combat or when a memosprite is summoned, charges \"<u>Blazar</u>\" equal to <color=#f29e38ff>100%</color> of each unit's Max HP. Then, when the turn ends, \"<u>Blazar</u>\" is not depleted.",
+		"AbridgedEffect": "Increases Max HP. When entering combat or summoning memosprite, charges \"<u>Blazar</u>.\" Then, when the first turn ends, \"<u>Blazar</u>\" is not cleared.",
+		"VersionAdded": "4.1"
+	},
+	"678520": {
+		"Id": "678520",
+		"Name": "Garage Dragon Slayer",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Effect RES by <color=#f29e38ff>20%</color> and \"<u>Blazar</u>\" DMG dealt by <color=#f29e38ff>80%</color>. When resisting debuffs, deals Additional DMG equal to <color=#f29e38ff>60%</color> of \"<u>Blazar</u>\" to the target. This DMG cannot defeat enemy targets.",
+		"AbridgedEffect": "Increases Effect RES and \"<u>Blazar</u>\" DMG dealt. When resisting debuffs, deals \"<u>Blazar</u>\" DMG to the target.",
+		"VersionAdded": "4.1"
+	},
+	"678580": {
+		"Id": "678580",
+		"Name": "Physical Magical Girl",
+		"Rarity": 1,
+		"Effect": "When ally character's HP percentage drops below <color=#f29e38ff>25%</color> for the first time in a single combat, activates Ultimate and allows this unit and memosprite's Ultimate DMG in this combat to ignore <color=#f29e38ff>20%</color> DEF.",
+		"AbridgedEffect": "When ally target's HP percentage drops below <color=#f29e38ff>25%</color> for the first time in a single combat, activates Ultimate and allows this unit and memosprite's Ultimate DMG in this combat to ignore a portion of enemy target's DEF.",
+		"VersionAdded": "4.1"
+	},
+	"678590": {
+		"Id": "678590",
+		"Name": "Aha Radio Station",
+		"Rarity": 1,
+		"Effect": "Increases Shield Effect gained by <color=#f29e38ff>30%</color>. After Breaking an enemy target's Weakness, all allies obtain a Shield equal to <color=#f29e38ff>15%</color> of their Max HP for <color=#f29e38ff>2</color> turn(s).",
+		"AbridgedEffect": "Increases Shield Effect gained. After Breaking the enemy target's Weakness, all allies obtain a Shield.",
+		"VersionAdded": "4.1"
+	},
+	"678640": {
+		"Id": "678640",
+		"Name": "Detached Swordmaster",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Elation by <color=#f29e38ff>25%</color>. For every enemy target defeated, additionally increases it by <color=#f29e38ff>15%</color>.",
+		"AbridgedEffect": "Increases ally targets' Elation. With every enemy target defeated, Elation is further increased.",
+		"VersionAdded": "4.1"
+	},
+	"678650": {
+		"Id": "678650",
+		"Name": "Upvoted Twin Stars",
+		"Rarity": 1,
+		"Effect": "After each time \"<u>Dealer</u>\" takes action, \"<u>Blazar</u>\" Charging Efficiency increases by <color=#f29e38ff>6%</color>. Stacks up to <color=#f29e38ff>10</color> times.",
+		"AbridgedEffect": "After each action taken by the <u>Dealer</u>, \"<u>Blazar's</u>\" Charging Efficiency increases.",
+		"VersionAdded": "4.1"
+	},
+	"678670": {
+		"Id": "678670",
+		"Name": "Drinksmith",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' CRIT DMG by <color=#f29e38ff>60%</color>. After each time \"<u>Dealer</u>\" takes action, additionally increases all allies' CRIT DMG by <color=#f29e38ff>40%</color> the next time they use their Basic ATK or Skill.",
+		"AbridgedEffect": "Increases ally targets' CRIT DMG. After each action taken by the \"<u>Dealer</u>,\" additionally increases all allies' CRIT DMG for their next Basic ATK/Skill.",
+		"VersionAdded": "4.1"
+	},
+	"678690": {
+		"Id": "678690",
+		"Name": "Heartbroken Soul",
+		"Rarity": 1,
+		"Effect": "Increases ally targets' Elation DMG's Weakness Break Efficiency by <color=#f29e38ff>25%</color>. After inflicting Weakness Break on an enemy target, increases the unit's SPD by <color=#f29e38ff>25%</color>.",
+		"AbridgedEffect": "Increases ally targets' Elation DMG's Weakness Break Efficiency. After inflicting Weakness Break on an enemy target, increases the unit's SPD.",
+		"VersionAdded": "4.1"
+	},
+	"678710": {
+		"Id": "678710",
+		"Name": "Ability Raffle Competition",
+		"Rarity": 1,
+		"Effect": "After a memosprite attacks, \"<u>Soul Chrysalis</u>\" Charges for <color=#f29e38ff>15%</color> with a <color=#f29e38ff>40%</color> chance to recover <color=#f29e38ff>1</color> Skill Point(s).",
+		"AbridgedEffect": "Memosprites using attacks can Charge \"<u>Soul Chrysalis</u>\" with a chance to recover Skill Points.",
+		"VersionAdded": "4.1"
+	},
+	"678720": {
+		"Id": "678720",
+		"Name": "Planetary Bumper Cars",
+		"Rarity": 1,
+		"Effect": "Increases the True DMG multiplier of \"<u>Butterfly Soul</u>\" by <color=#f29e38ff>35%</color> of the original multiplier. Every debuff on the enemy target additionally increases this by <color=#f29e38ff>1%</color> of the original multiplier.",
+		"AbridgedEffect": "Increases the True DMG of \"<u>Butterfly Soul</u>.\" Every debuff on the enemy target additionally increases the multiplier.",
+		"VersionAdded": "4.1"
+	},
+	"678760": {
+		"Id": "678760",
+		"Name": "Empathetic Cupcake",
+		"Rarity": 1,
+		"Effect": "Increases the CRIT DMG of ally targets when they use Basic ATK or Skill by <color=#f29e38ff>100%</color>. For every 1 Skill Point consumed, gain <color=#f29e38ff>1</color> points of Punchline.",
+		"AbridgedEffect": "Increases CRIT DMG dealt when ally targets use Basic ATK or Skill. For every 1 Skill Point consumed, gains Punchline.",
+		"VersionAdded": "4.1"
+	},
+	"678790": {
+		"Id": "678790",
+		"Name": "Flipping Ant",
+		"Rarity": 1,
+		"Effect": "Ally targets' Basic ATK DMG and Skill DMG ignore <color=#f29e38ff>25%</color> of the enemy target's DEF. This effect increases to <color=#f29e38ff>40%</color> on enemy targets in the Weakness Broken state.",
+		"AbridgedEffect": "Basic ATK DMG and Skill DMG dealt ignore a certain percentage of the enemy target's DEF. This effect additionally increases on Weakness Broken enemy targets.",
+		"VersionAdded": "4.1"
+	},
+	"678840": {
+		"Id": "678840",
+		"Name": "Shadowchasing Mechagod",
+		"Rarity": 1,
+		"Effect": "Each stack of \"<u>Reverse Critical Boost</u>\" additionally deals DMG equal to <color=#f29e38ff>15%</color> of ATK when triggered. After using an Ultimate to attack, applies an extra <color=#f29e38ff>2</color> stack(s) of \"<u>Reverse Critical Boost</u>\" to all targets hit.",
+		"AbridgedEffect": "Each stack of <u>\"Reverse Critical Boost\"</u> additionally deals DMG when it is triggered. After using an Ultimate to attack, additionally applies <u>\"Reverse Critical Boost\"</u> to all attack targets.",
+		"VersionAdded": "4.1"
+	},
+	"678850": {
+		"Id": "678850",
+		"Name": "Cosmic Bakery",
+		"Rarity": 1,
+		"Effect": "Increases ally target's \"<u>Blazar</u>\" DMG by <color=#f29e38ff>75%</color>, after using Ultimate, gain \"<u>Blazar</u>\" Charge equal to <color=#f29e38ff>35%</color> of Max HP.",
+		"AbridgedEffect": "Increases ally targets' \"<u>Blazar</u>\" DMG, and gains \"<u>Blazar</u>\" Charge after using Ultimate.",
+		"VersionAdded": "4.1"
+	},
+	"678860": {
+		"Id": "678860",
+		"Name": "Self-Contemplating Scholar",
+		"Rarity": 1,
+		"Effect": "Increases the CRIT DMG of ally targets' Ultimate DMG by <color=#f29e38ff>75%</color>. After \"<u>Dealer</u>\" takes action, Charges <u>\"Brain in a Vat\"</u> by <color=#f29e38ff>5%</color> for all ally characters.",
+		"AbridgedEffect": "Increases the CRIT DMG of ally targets' Ultimate DMG. After the <u>\"Dealer\"</u> takes action, charges <u>\"Brain in a Vat\"</u> for ally characters.",
+		"VersionAdded": "4.1"
+	},
+	"678870": {
+		"Id": "678870",
+		"Name": "Card Game Rookie",
+		"Rarity": 1,
+		"Effect": "For every 1 Skill Point consumed by an ally target, increases their Ultimate DMG dealt by <color=#f29e38ff>65%</color>, up to a max increase of <color=#f29e38ff>130%</color> and lasting until after using their Ultimate.",
+		"AbridgedEffect": "The more Skill Points ally targets consume, the more Ultimate DMG is dealt.",
+		"VersionAdded": "4.1"
+	},
+	"678910": {
+		"Id": "678910",
+		"Name": "Homeland Rebuilder",
+		"Rarity": 1,
+		"Effect": "Every stack of \"<u>Obsession</u>\" increases Break Effect by <color=#f29e38ff>0.8%</color>. Memosprite's Break Effect additionally increases by <color=#f29e38ff>0.5%</color>.",
+		"AbridgedEffect": "\"<u>Obsession</u>\" increases Break Effect and additionally increases memosprites' Break Effect.",
+		"VersionAdded": "4.1"
+	},
+	"678920": {
+		"Id": "678920",
+		"Name": "Encounter With a Miracle Doctor",
+		"Rarity": 1,
+		"Effect": "When any ally target used an attack to inflict a debuff on enemy targets, apply <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>\" to the enemy targets. If the targets are Weakness Broken, the applied stacks are doubled.",
+		"AbridgedEffect": "When an attack inflicts a debuff on an enemy, additionally applies \"<u>Harmonize</u>.\" If the enemy is Weakness Broken, applies doubled \"<u>Harmonize</u>\" stacks.",
+		"VersionAdded": "4.1"
+	},
+	"678940": {
+		"Id": "678940",
+		"Name": "Knights of Arcadia",
+		"Rarity": 1,
+		"Effect": "Increases the DMG multiplier of \"<u>Harmonize</u>\" by <color=#f29e38ff>50%</color>. After ally targets launch a Follow-Up ATK, applies <color=#f29e38ff>1</color> stack(s) of \"<u>Harmonize</u>\" to the targets.",
+		"AbridgedEffect": "Increases \"<u>Harmonize</u>\" DMG. After ally targets launch a Follow-Up ATK, additionally applies \"<u>Harmonize</u>.\"",
+		"VersionAdded": "4.1"
+	},
+	"678970": {
+		"Id": "678970",
+		"Name": "Particle Annihilation Force",
+		"Rarity": 1,
+		"Effect": "When an ally target uses their Basic ATK or Skill, ignores <color=#f29e38ff>20%</color> of the enemy target's All-Type RES. After attacking with a Basic ATK or Skill, reduces the enemy target's Toughness by <color=#f29e38ff>15</color> points, regardless of Weakness Type.",
+		"AbridgedEffect": "When an ally target uses their Basic ATK/Skill, they ignore a certain amount of the enemy target's All-Type RES. After attacking with their Basic ATK/Skill, they reduce the enemy target's Toughness by a fixed amount, ignoring Weakness Type.",
+		"VersionAdded": "4.1"
 	}
 }

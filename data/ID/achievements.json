@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "Setiap upacara untuk menghadap dewa mengharuskan adanya pengorbanan",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "Kemuliaan Ayah",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Mimpi buruk setiap anak: Menjelaskan pekerjaannya kepada ayah\n<color=#8790abff>※ Memandu ayah Himeko berkeliling Express</color>",
+		"HiddenDescription": "Mimpi buruk setiap anak: Menjelaskan pekerjaannya kepada ayah",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "Kucing dan Tikus",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Identitas sosial hanyalah salah satu dari banyaknya topeng yang dikenakan manusia\n<color=#8790abff>※ Foto bersama Nona Nihilux</color>",
+		"HiddenDescription": "Identitas sosial hanyalah salah satu dari banyaknya topeng yang dikenakan manusia",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "Aku Jadi Kepalanya!",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Mechatron yang perkasa berdiri tegak di atas Bumi\n<color=#8790abff>※ Rakit Mechatron besar milikmu sendiri, dan bertarunglah melawan Daybreak Squadron</color>",
+		"HiddenDescription": "Mechatron yang perkasa berdiri tegak di atas Bumi",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "Saat Kebahagiaan Mengetuk Pintu",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Semua orang mengejar kebahagiaan, tapi siapa yang mendefinisikan kebahagiaan?\n<color=#8790abff>※ Selesaikan investigasi terhadap organisasi amal \"Asosiasi Penelitian Senyum Bahagia\"</color>",
+		"HiddenDescription": "Semua orang mengejar kebahagiaan, tapi siapa yang mendefinisikan kebahagiaan?",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "Pemakan Mimpi",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Pencipta adalah makhluk yang menciptakan mimpi saat terjaga\n<color=#8790abff>※ Ungkap identitas asli pengarang \"Bululu Melintasi Biru Angkasa\" di kantor redaksi</color>",
+		"HiddenDescription": "Pencipta adalah makhluk yang menciptakan mimpi saat terjaga",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "Kereta Ekspres Neraka",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "???\n<color=#8790abff>※ Tiba di ruang stasiun yang terbengkalai dan tak dikenal</color>",
+		"HiddenDescription": "???",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "Chip Keberuntungan",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Terima kasih kepada teman yang memberikan chip itu\n<color=#8790abff>※ Kembali ke dunia nyata berkat bantuan Pearl</color>",
+		"HiddenDescription": "Terima kasih kepada teman yang memberikan chip itu",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "Ocehan Bulan Imajinasi",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Saat \"Dia\" berbicara, dengarkan saja\n<color=#8790abff>※ Mendengarkan ocehan gila Bulan Imajinasi</color>",
+		"HiddenDescription": "Saat \"Dia\" berbicara, dengarkan saja",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Karakter Permainan Peran yang Legal",
@@ -5073,6 +5161,146 @@
 		"SeriesText": "Penyelidikan Misteri",
 		"Description": "Menguping suara nyanyian merdu di depan tempat karaoke di Kota Dua Dimensi atau Distrik Dovebrook",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "Tanah Bernama Utopia",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Kumpulkan enam halaman berisi konten \"Kisah Lemak Melayang\" yang ada dan selesaikan semua objek koleksi di dunia \"Kisah Lemak Melayang\" di Kota Dua Dimensi.",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "Api Teratai Biru dari Inti Bumi",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Hancurkan semua Heliobus dengan cara menabraknya selama \"Momen Jump\" di Awan Panorama",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "Kemudian, Tibalah Hari Kerja",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "\"Kalahkan\" The Great Septimus lagi selama \"Momen Jump\" di Awan Panorama",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "\"Dilarang Masuk\"",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Menyelinap masuk ke ruang karyawan di Gedung Pearluxe",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "Merpati Skinner",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di \"Jump 2D!\", picu tombol yang mengeluarkan Koin Emas sebanyak #1 kali berturut-turut",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "Bergabung! Sekarang!",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Buka jalan tersembunyi dan capai bagian dada mechatron tenaga magis",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "Sistem Kendali Tembak Pearluxe",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Kalahkan Hedgehogae raksasa di \"Jump 2D!\" Gedung Pearluxe",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "Aturan Emas Kucing",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Tangkap semua Koin Piksel yang dijatuhkan kucing saat merakit mechatron",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "Formasi Maut Era Mechatron Super",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di studio pertempuran mechatron, hancurkan semua bangunan yang dapat dihancurkan",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "Pencari Bakat Mechatron Super",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Temukan 4 mechatron yang \"berpenampilan unik\"",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "Semangat yang Menggelora",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Selesaikan tantangan \"Tombak Berapi, Maju!\" selama \"Festival Star Rail\"",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "Mengatur Strategi",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Reka ulang \"Membelah Lautan\" di area pameran Xianzhou selama \"Festival Star Rail\"",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "Variasi Utopia: Manusia Besi",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Mainkan Simfoni Aneh dan temukan makhluk misterius yang bersembunyi di Gedung Pearluxe",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "Variasi Utopia: Anjing Rakun Seribu Wajah",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Mainkan Simfoni Aneh dan temukan makhluk misterius yang bersembunyi di Awan Panorama",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "Kalahkan \"Empat Jagoan\" dalam \"Kekuatan Galaksi, Lempar Dadu!\"",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "Sepenuh Hati",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Tunjukkan rasa hormatmu kepada Silas dengan satu pukulan berkekuatan penuh di zona uji tempur",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "Bersandiwara",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Pilih melindungi impian Silas di zona uji tempur",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "Bertanggung Jawablah atas Kreasimu",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Di tengah kericuhan sesi tanda tangan, tangkap dan bawa kembali Nihilux yang sedang bermalas-malasan",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "Ini Juga Bagian dari Fiksi",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Di tengah kericuhan sesi tanda tangan, minta Pulitzkun dengan berani memikul tanggung jawab yang bukan miliknya",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "Manusia Mengandalkan Pakaian, Kuda Mengandalkan Pelana",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Berikan saran kepada mechatron yang ragu di depan ruang modifikasi mechatron",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "Orang Jahat Pasti akan Ada yang Hajar",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Bicara dengan Caenis (Alt) dan Thunderarch secara terpisah",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "Cinta di Era Utopia",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Saksikan pejalan kaki saling menyampaikan perasaan mereka di jalan",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "Tak Tertandingi",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Kalahkan semua lawan di \"Duel Klub\"",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "Para Pasukan, Dengarkan Perintah!",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Telah membuka semua kemampuan di \"Persiapan\"",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "Musuh dari Langit",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Selesaikan \"Tantangan Raja Iblis\"",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Ratusan Kematian Bayangan (1)",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "Luapan Semangat Tempur",
 		"Description": "Aha melancarkan \"Let There Be Laughter\" dan mengalahkan #1 musuh",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "Tiga Musketeer",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Memenangkan 1 pertempuran dengan tim yang terdiri dari Ashveil, Rappa, dan Boothill",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "Balasan Pasti Datang, Hanya Soal Waktu",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Rekan Tim menyerang target \"Bait\" total #1 kali tanpa memicu Serangan Lanjutan Ashveil",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "Sekali Dayung, Dua Tiga Pulau Terlampaui",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Gunakan karakter tim Ashveil untuk mengalahkan#1 musuh sekaligus dalam satu Serangan Lanjutan",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "Matahari Terbit Seketika",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam pertempuran melawan \"Daybreak Squadron\" dan saat berstatus \"Daybreak Forcefield\", \"Daybreak Squadron\" menerima serangan Tipe tertentu dan memicu \"segera beraksi\"",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "Keberuntungan Noob",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam pertempuran melawan \"SD Civilian Mechatron\", buat ia mengalahkan #1 target musuh",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "Hemat Air",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam pertempuran melawan \"Alloy Mechatron: King Pom-Pom\", hilangkan status \"Steam Wash\"-nya",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "Pelopor Tren Buih",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam satu pertempuran melawan \"Alloy Mechatron: King Pom-Pom\", picu efek \"Shiny\" dari \"Potent Foam Soap\" setidaknya #1 kali",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

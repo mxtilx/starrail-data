@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Shattering Shambles",
-				"Effect": "Setelah melancarkan Ultimate, musuh yang diserang akan memasuki status \"Butterfly Flurry\" selama 1 giliran. Target musuh yang berada dalam status \"Butterfly Flurry\" akan menerima Quantum <u>DMG tambahan</u> sebesar 15% dari Ultimate DMG Seele setiap kali terkena serangan. Jika target tersebut gugur akibat <u>DMG Tambahan</u> dari \"Butterfly Flurry\" yang dipicu oleh rekan lain, maka Talent Seele tidak akan terpicu.\nJika Seele <u>gugur</u>, maka status \"Butterfly Flurry\" yang ada pada musuh akan dihapus."
+				"Effect": "Setelah melancarkan serangan Ultimate, musuh yang diserang akan memasuki status \"Butterfly Flurry\" selama 1 giliran. Target musuh yang berada dalam status \"Butterfly Flurry\" akan menerima Quantum <u>DMG tambahan</u> sebesar 15% dari Ultimate DMG Seele setiap kali terkena serangan. Jika target tersebut gugur akibat <u>DMG Tambahan</u> dari \"Butterfly Flurry\" yang dipicu oleh rekan lain, maka Talent Seele tidak akan terpicu.\nJika Seele <u>gugur</u>, maka status \"Butterfly Flurry\" yang ada pada musuh akan dihapus."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -3114,6 +3114,47 @@
 			}
 		],
 		"VersionAdded": "4.0"
+	},
+	"1504": {
+		"Id": "1504",
+		"Name": "Ashveil",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lightning",
+		"PathType": "Rogue",
+		"PathTypeText": "Hunt",
+		"Eidolons": [
+			{
+				"Id": "150401",
+				"Name": "Beware: Venture Not at Full Moon",
+				"Effect": "Saat Ashveil berada di medan pertempuran, DMG yang diterima seluruh musuh meningkat 24%. Saat persentase HP target musuh saat ini kurang dari atau sama dengan 50%, DMG yang diterimanya meningkat hingga 36%."
+			},
+			{
+				"Id": "150402",
+				"Name": "Knock: Where Snickers Echo",
+				"Effect": "Batas tumpukan \"Gluttony\" meningkat hingga 18 lapis. Setiap setelah Ashveil melancarkan <u>Serangan Lanjutan</u> yang diperkuat dari Talent, akan mengembalikan 35% dari jumlah lapisan \"Gluttony\" yang dihapus."
+			},
+			{
+				"Id": "150403",
+				"Name": "Hush: Unsaid Between Friends",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10."
+			},
+			{
+				"Id": "150404",
+				"Name": "Heed: Swallow Truth Whole",
+				"Effect": "Saat Ashveil melancarkan Ultimate, ATK meningkat 40% selama 3 giliran."
+			},
+			{
+				"Id": "150405",
+				"Name": "Caution: Sleuth Turns Slayer",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15."
+			},
+			{
+				"Id": "150406",
+				"Name": "Finale: And Then There Were None",
+				"Effect": "Saat ada \"Bait\" di medan pertempuran, RES Seluruh Tipe dari seluruh musuh berkurang 20%. Setiap 1 lapis \"Gluttony\" yang pernah diperoleh Ashveil akan meningkatkan 4% DMG yang diakibatkan, efek ini dapat ditumpuk hingga 30 lapis."
+			}
+		],
+		"VersionAdded": "4.1"
 	},
 	"8001": {
 		"Id": "8001",

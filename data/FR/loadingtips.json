@@ -1901,6 +1901,36 @@
 		"Description": "Directeur actuel de l'Académie Graphia.\nActuellement à la tête de la famille Graphia, il prétend être le père d'Himeko.",
 		"VersionAdded": "4.0"
 	},
+	"10421": {
+		"Id": "10421",
+		"Name": "Fragment de toile",
+		"Description": "Des fragments spatiaux qui se sont détachés du Pictomonde lorsque Planarcadia est revenue à la réalité.\nÀ la frontière entre la réalité et le Pictomonde, c'est un cimetière de voies ferrées menant à un abîme insondable.",
+		"VersionAdded": "4.1"
+	},
+	"10422": {
+		"Id": "10422",
+		"Name": "Société de recherche des sourires heureux",
+		"Description": "Initialement créée pour aider les victimes du Héraut de la mort, la Société d'aide mutuelle est devenue une organisation caritative d'envergure.\nÀ travers des méthodes de guérison telles que la chirurgie du bonheur, elle s'efforce de redonner le sourire et propager le bonheur à travers Planarcadia.",
+		"VersionAdded": "4.1"
+	},
+	"10423": {
+		"Id": "10423",
+		"Name": "Exosouhait",
+		"Description": "Présidente de la Société de recherche des sourires heureux et directrice de la chaîne de télévision Exosouhait TV. C'est une orpheline des Jeux Sanglants.\nDevenue philanthrope et magnat renommée des médias, elle s'est donnée pour mission de promouvoir la Voie de l'Allégresse.",
+		"VersionAdded": "4.1"
+	},
+	"10424": {
+		"Id": "10424",
+		"Name": "Star Rail Fest",
+		"Description": "Une exposition dédiée à l'Astral Express, une production créée par Perle pour les Sans Noms.\nLa présence des Sans Noms a suscité un grand enthousiasme, attirant la Souhaissence de tous à Planarcadia.",
+		"VersionAdded": "4.1"
+	},
+	"10425": {
+		"Id": "10425",
+		"Name": "Perluxe Corp",
+		"Description": "Groupe de divertissement interstellaire dont Perle a donné le nom. Ses principales activités comprennent la production et la vente de Mécanoïdes.\nLa Tour Perluxe, imposant siège social, est un sanctuaire convoité par d'innombrables aspirants.",
+		"VersionAdded": "4.1"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Adoption du point de vue {M#du pionnier}{F#de la pionnière}...",
@@ -2320,5 +2350,11 @@
 		"Name": "Adoption du point de vue de Louve d'argent...",
 		"Description": "Tingyun s'enfuit avec le masque. Plus tard, une pauvre âme qui l'a perdu se rend elle aussi au quartier de Colombeaux...",
 		"VersionAdded": "4.0"
+	},
+	"20099": {
+		"Id": "20099",
+		"Name": "Adoption du point de vue d'Ashveil...",
+		"Description": "En traquant le criminel, Ashveil décide de s'arrêter sur un pont alors que les souvenirs du passé refont surface...",
+		"VersionAdded": "4.1"
 	}
 }

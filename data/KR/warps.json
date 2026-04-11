@@ -1129,6 +1129,36 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1306_Selected.png",
 		"VersionAdded": "4.0"
 	},
+	"2113": {
+		"Id": "2113",
+		"Name": "긴 밤 속 사냥꾼의 그림자",
+		"Description": "지정 캐릭터 출현 확률 UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1504.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1504_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"2114": {
+		"Id": "2114",
+		"Name": "조석을 관통한 무지개",
+		"Description": "지정 캐릭터 출현 확률 UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1409.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1409_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"2115": {
+		"Id": "2115",
+		"Name": "황야의 론스타",
+		"Description": "지정 캐릭터 출현 확률 UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
+		"VersionAdded": "4.1"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "세월의 응고",
@@ -2248,6 +2278,36 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23021.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23021_Selected.png",
 		"VersionAdded": "4.0"
+	},
+	"3113": {
+		"Id": "3113",
+		"Name": "세월의 응고",
+		"Description": "지정 광추 출현 확률 UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23056.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23056_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"3114": {
+		"Id": "3114",
+		"Name": "거슬러 올라가는 기억",
+		"Description": "지정 광추 출현 확률 UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23042.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23042_Selected.png",
+		"VersionAdded": "4.1"
+	},
+	"3115": {
+		"Id": "3115",
+		"Name": "거슬러 올라가는 기억",
+		"Description": "지정 광추 출현 확률 UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
+		"VersionAdded": "4.1"
 	},
 	"4001": {
 		"Id": "4001",

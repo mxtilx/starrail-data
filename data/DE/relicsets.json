@@ -568,5 +568,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "3.7"
+	},
+	"325": {
+		"Id": "325",
+		"Name": "Etappe Nr. Null von Punklorde",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Erhöht das Hochgefühl des Trägers um 8%. Wenn das Hochgefühl im Kampf zum ersten Mal 40%/80% erreicht, wird der KRIT-SCH des Trägers um 20%/32% erhöht."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
+	},
+	"326": {
+		"Id": "326",
+		"Name": "Stadt der unzähligen Sterne",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Wenn der Träger einen Folgeangriff einsetzt, wird sein ANG für 2 Rd. um 24% erhöht. Wenn ein Gegner besiegt wird, wird der KRIT-SCH aller Verbündeten im aktuellen Kampf um 12% erhöht. Dieser Effekt ist nicht stapelbar."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.1"
 	}
 }

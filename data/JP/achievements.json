@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "神に謁見する儀式には、供物が必要だ",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "父の栄光",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "すべての子供にとっての悪夢——それは、自分の仕事を親に説明することだ\n<color=#8790abff>※姫子の父に列車を案内する</color>",
+		"HiddenDescription": "すべての子供にとっての悪夢——それは、自分の仕事を親に説明することだ",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "猫とネズミの追いかけっこ",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "社会的地位など、人間がかぶる無数の仮面のうちの1つにすぎない\n<color=#8790abff>※虚照先生と写真を撮る</color>",
+		"HiddenDescription": "社会的地位など、人間がかぶる無数の仮面のうちの1つにすぎない",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "レッツ・ゴー・ナナシビト！",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "メカヨロイ大地に立つ\n<color=#8790abff>※自分用の大型メカヨロイを組み立てて、払暁戦隊と勝負する</color>",
+		"HiddenDescription": "メカヨロイ大地に立つ",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "ハッピーのちから",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "誰だってハッピーになりたい…でも、そのハッピーは誰が決めた？\n<color=#8790abff>※慈善団体「ハッピースマイル研究会」の調査を完了する</color>",
+		"HiddenDescription": "誰だってハッピーになりたい…でも、そのハッピーは誰が決めた？",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "バクウーマン。",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "クリエイターとは、目覚めながらにして夢を創る生き物だ\n<color=#8790abff>※雑誌社で『青天航路もふもふ号』の作者の正体を暴く</color>",
+		"HiddenDescription": "クリエイターとは、目覚めながらにして夢を創る生き物だ",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "地獄行きの列車",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "？？？\n<color=#8790abff>※人知れぬ廃駅がある空間に到着する</color>",
+		"HiddenDescription": "？？？",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "幸運のチップ",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "このチップを贈ってくれた友に感謝を\n<color=#8790abff>※パールの助力で現実に戻る</color>",
+		"HiddenDescription": "このチップを贈ってくれた友に感謝を",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "幻月の妄言",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "其が言うことだし、聞くだけ聞いておこう\n<color=#8790abff>※幻月のイカれた宣言を聞く</color>",
+		"HiddenDescription": "其が言うことだし、聞くだけ聞いておこう",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "RPGでは合法的",
@@ -4727,7 +4815,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "衆秘探奇",
-		"Description": "「星軌の兎」のタイトル画面で、伝説の万能コマンドを入力する\n<color=#8790abff>※「星軌の兎」のタイトル画面で「上上下下左左右右 戻す 確認」を入力する</color>",
+		"Description": "「星軌の兎」のタイトル画面で、伝説の万能コマンドを入力する\n<color=#8790abff>※「星軌の兎」のタイトル画面で「上上下下左右左右 戻す 確認」を入力する</color>",
 		"HiddenDescription": "「星軌の兎」のタイトル画面で、伝説の万能コマンドを入力する",
 		"VersionAdded": "4.0"
 	},
@@ -5073,6 +5161,146 @@
 		"SeriesText": "衆秘探奇",
 		"Description": "二次元シティまたは鳩川区のカラオケ前で、店内から聞こえてくる歌声をこっそり聞く",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "楽園と呼ばれる地",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "『浮脂紀事』の現存する6ページを全て集め、二次元シティ内の「浮脂紀事」の世界にある全ての収集要素をクリアする",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "青蓮地心炎",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "雲の島の「ジャンプタイム」で、すべての歳陽とぶつかって散らす",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "そして、出勤日…",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "雲の島の「ジャンプタイム」で、再びディエス・ドミニを「倒す」",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "「立ち入り禁止」",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "珠星ビルのオフィスに忍び込む",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "スキナーのハト",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で、コインが飛び出すボタンを#1回連続で押す",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "いくぞ！合体！",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "隠し通路を開き、魔動メカヨロイの胸元へたどり着く",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "珠星火器管制アレイ",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "珠星ビルの「二次元ジャンプ！」で巨大なハリネズミの初を倒す",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "ネコの黄金律",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "メカヨロイの組み立て中に、ネコが落としたピクセルコインをすべてキャッチする",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "超メカヨロイVSレイメイジャー",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "メカヨロイ対戦スタジオで、破壊できる建物をすべて壊す",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "スーパー・メカヨロイ・スカウトマン",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「変わった見た目」のメカヨロイを4体見つける",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "熱しやすく冷めにくい",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「星穹列車FES」で、「炎の槍よ！断ち切れ！」の挑戦をクリアする",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "或いは躍りて淵に在り",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「星穹列車FES」の仙舟エリアで「海割り」を再現する",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "楽園の変奏曲：ブリキマン",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "奇妙な楽章を演奏して、珠星ビルに潜む謎の生き物を見つけ出す",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "楽園の変奏曲：たぬき変身",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "奇妙な楽章を演奏して、雲の島駅に潜む謎の生き物を見つけ出す",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "「サイコロ最高！コズミック・フォース！」で「四天王」を倒す",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "いつだって本気",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "戦闘テスト用のサンドボックスで、全力の一撃で宏樹への敬意を表す",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "善意の嘘",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "戦闘テスト用のサンドボックスで、宏樹の夢を守ることを選ぶ",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "作者としての責任を取ってください",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "サイン会騒動の中、サボっている虚照を捕まえて連れ戻す",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "これも虚構の一部",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "サイン会騒動の中、勇敢なタヌッツァーに職務範囲外の責任を背負わせる",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "馬子にも衣装",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "メカヨロイ改造室の前で、迷っているメカヨロイにアドバイスをする",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "悪役専な人々",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "カイニスSP、ライコースと会話する",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "楽園時代の愛",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "街中で想いを伝え合う者たちを見届ける",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "天下無敵",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「サークルバトル」ですべての相手に勝利する",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "全軍、聞け！",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「軍備強化」ですべての能力を解放する",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "天からの敵",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「魔王の挑戦」モードをクリアする",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "影は百度死ぬ（一）",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "戦意奔湧",
 		"Description": "アッハが「笑いあれ」を発動し、敵を#1体倒す",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "三銃士",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "不死途、乱破、ブートヒルを含めた編成で、戦闘に1回勝利する",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "報いは訪れる、それが今でないとしても",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "不死途以外の味方が「餌食」を攻撃しても自身の追加攻撃が発動しなかった回数が累計#1回に達する",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "一石二鳥",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "味方の不死途が、1回の追加攻撃で#1体の敵を倒す",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "日はすぐ昇る",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「払暁戦隊」との戦闘で、「払暁フィールド」状態になった敵に特定の属性の攻撃を当てて、即座に行動させる",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "プロを黙らせる素人パンチ",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「SD民間メカヨロイ」との戦闘で、敵を#1体倒させる",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "節水",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「合金メカヨロイ・パムキング」との戦闘で、敵の「蒸気洗浄」状態を解除する",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "シャボン玉マスター",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「合金メカヨロイ・パムキング」との1回の戦闘で、「強力シャボン玉」の「ツルピカ」効果を#1回以上発動させる",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",

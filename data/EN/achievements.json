@@ -2012,6 +2012,94 @@
 		"HiddenDescription": "An audience with a god always demands a sacrifice",
 		"VersionAdded": "4.0"
 	},
+	"4035101": {
+		"Id": "4035101",
+		"Name": "In the Name of the Father",
+		"SortOrder": 852,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Every kid's worst nightmare: explaining your job to your parents\n<color=#8790abff>※ Give Himeko's father a tour of the Express</color>",
+		"HiddenDescription": "Every kid's worst nightmare: explaining your job to your parents.",
+		"VersionAdded": "4.1"
+	},
+	"4035102": {
+		"Id": "4035102",
+		"Name": "Catch Me If You Can",
+		"SortOrder": 851,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Social identity is but one of the infinite masks we wear\n<color=#8790abff>※ Take a photo with Miss Nihilux</color>",
+		"HiddenDescription": "Social identity is but one of the infinite masks we wear",
+		"VersionAdded": "4.1"
+	},
+	"4035103": {
+		"Id": "4035103",
+		"Name": "I'll be the Head!",
+		"SortOrder": 850,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Behold the mechatron, standing tall astride the earth!\n<color=#8790abff>※ Assemble your very own giant mechatron and battle against the Daybreak Squadron</color>",
+		"HiddenDescription": "Behold the mechatron, standing tall astride the earth!",
+		"VersionAdded": "4.1"
+	},
+	"4035104": {
+		"Id": "4035104",
+		"Name": "The Pursuit of Happyness",
+		"SortOrder": 849,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Everyone seeks happiness, but who gets to define what it is?\n<color=#8790abff>※ Finish the investigation into the Research Society of Happy Smiles</color>",
+		"HiddenDescription": "Everyone seeks happiness, but who gets to define what it is?",
+		"VersionAdded": "4.1"
+	},
+	"4035105": {
+		"Id": "4035105",
+		"Name": "Dream Eater",
+		"SortOrder": 848,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "A creator is a creature that dreams while wide awake\n<color=#8790abff>※ Unmask the author of <i>Fluffy Across the Blue</i> at the publishing house</color>",
+		"HiddenDescription": "A creator is a creature that dreams while wide awake",
+		"VersionAdded": "4.1"
+	},
+	"4035106": {
+		"Id": "4035106",
+		"Name": "The Hellbound Express",
+		"SortOrder": 847,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "???\n<color=#8790abff>※ Reach a hidden, abandoned station</color>",
+		"HiddenDescription": "???",
+		"VersionAdded": "4.1"
+	},
+	"4035107": {
+		"Id": "4035107",
+		"Name": "Lucky Chip",
+		"SortOrder": 846,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Thanks to the friend who gave me the chip\n<color=#8790abff>※ Return to reality with Pearl's help</color>",
+		"HiddenDescription": "Thanks to the friend who gave me the chip",
+		"VersionAdded": "4.1"
+	},
+	"4035108": {
+		"Id": "4035108",
+		"Name": "Phantasmoon's Ravings",
+		"SortOrder": 845,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "THEY say it, you hear it\n<color=#8790abff>※ Listen to the Phantasmoon's crazed declaration</color>",
+		"HiddenDescription": "THEY say it, you hear it",
+		"VersionAdded": "4.1"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Proper Role-Playing Gamer",
@@ -5073,6 +5161,146 @@
 		"SeriesText": "Fathom the Unfathomable",
 		"Description": "Eavesdropping on a mesmerizing melody echoing from the karaoke bar in the heart of Duomension City or Dovebrook District",
 		"VersionAdded": "4.0"
+	},
+	"4045101": {
+		"Id": "4045101",
+		"Name": "A Land Called Arcadia",
+		"SortOrder": 686,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Collect all 6 surviving pages of <i>Floating Grease Chronicles</i> and complete all collection objectives in the world of \"Floating Grease Chronicles\" within Duomension City",
+		"VersionAdded": "4.1"
+	},
+	"4045102": {
+		"Id": "4045102",
+		"Name": "Azure Lotus Heartfire",
+		"SortOrder": 685,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Smash all heliobi during \"Jump Time\" on Lookout Cloud",
+		"VersionAdded": "4.1"
+	},
+	"4045103": {
+		"Id": "4045103",
+		"Name": "Then Comes the Workday",
+		"SortOrder": 684,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "\"Defeat\" The Great Septimus again during \"Jump Time\" on Lookout Cloud",
+		"VersionAdded": "4.1"
+	},
+	"4045104": {
+		"Id": "4045104",
+		"Name": "\"No Entry\"",
+		"SortOrder": 683,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Sneak into the staff office in the Pearluxe Tower",
+		"VersionAdded": "4.1"
+	},
+	"4045105": {
+		"Id": "4045105",
+		"Name": "Skinner's Pigeon",
+		"SortOrder": 682,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Trigger the button that pops out Gold Coins #1 times in a row in \"Interplanar Jump!\"",
+		"VersionAdded": "4.1"
+	},
+	"4045106": {
+		"Id": "4045106",
+		"Name": "Time to Combine!",
+		"SortOrder": 681,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Find the hidden path to reach the MagiMech's chest",
+		"VersionAdded": "4.1"
+	},
+	"4045107": {
+		"Id": "4045107",
+		"Name": "Pearluxe Fire-Control Array",
+		"SortOrder": 680,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Defeat the giant Hedgehogae in \"Interplanar Jump!\" at Pearluxe Tower",
+		"VersionAdded": "4.1"
+	},
+	"4045108": {
+		"Id": "4045108",
+		"Name": "A Cat's Golden Rule",
+		"SortOrder": 679,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Catch all the Pixcoins tossed by the cat during mechatron assembly",
+		"VersionAdded": "4.1"
+	},
+	"4045109": {
+		"Id": "4045109",
+		"Name": "Mega Mechatron's Ultimate Formation of the Century",
+		"SortOrder": 678,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Destroy all destructible structures in the mechatron battle studio",
+		"VersionAdded": "4.1"
+	},
+	"4045110": {
+		"Id": "4045110",
+		"Name": "Mega Mechatron Talent Scout",
+		"SortOrder": 677,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Find four \"unusual-looking\" mechatrons",
+		"VersionAdded": "4.1"
+	},
+	"4045111": {
+		"Id": "4045111",
+		"Name": "Burning Passion",
+		"SortOrder": 676,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Complete the \"flaming lance, forward\" challenge during Star Rail FEST",
+		"VersionAdded": "4.1"
+	},
+	"4045112": {
+		"Id": "4045112",
+		"Name": "From the Abyss to the Sky",
+		"SortOrder": 675,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Re-enact \"parting the waters\" in the Xianzhou Exhibition Area during Star Rail FEST",
+		"VersionAdded": "4.1"
+	},
+	"4045113": {
+		"Id": "4045113",
+		"Name": "Arcadia Variations: Tin Man",
+		"SortOrder": 674,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Play a Bizarre Melody to find the mysterious creature hiding in the Pearluxe Tower",
+		"VersionAdded": "4.1"
+	},
+	"4045114": {
+		"Id": "4045114",
+		"Name": "Arcadia Variations: Shapeshifting Furbo",
+		"SortOrder": 673,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Play a Bizarre Melody to find the mysterious creature hiding on Lookout Cloud Station",
+		"VersionAdded": "4.1"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -11625,6 +11853,106 @@
 		"Description": "Defeat \"the Formidable Four\" in \"Cosmicon, Roll On!\"",
 		"VersionAdded": "4.0"
 	},
+	"4055101": {
+		"Id": "4055101",
+		"Name": "Making it Real",
+		"SortOrder": 328,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Show your respect to Silas with a full-power strike in the combat test sandpit",
+		"VersionAdded": "4.1"
+	},
+	"4055102": {
+		"Id": "4055102",
+		"Name": "Faking it Real",
+		"SortOrder": 327,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Choose to protect Silas's dream in the combat test sandpit",
+		"VersionAdded": "4.1"
+	},
+	"4055103": {
+		"Id": "4055103",
+		"Name": "Be Responsible for Your Creation",
+		"SortOrder": 326,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Drag the slacking Nihilux back during the book signing",
+		"VersionAdded": "4.1"
+	},
+	"4055104": {
+		"Id": "4055104",
+		"Name": "This is All Part of the Fiction",
+		"SortOrder": 325,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Have Furbulitzer bravely take on duties that aren't its own during the book signing",
+		"VersionAdded": "4.1"
+	},
+	"4055105": {
+		"Id": "4055105",
+		"Name": "Looking the Part",
+		"SortOrder": 324,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Offer advice to the hesitant mechatron outside the Mechatron Modification Room",
+		"VersionAdded": "4.1"
+	},
+	"4055106": {
+		"Id": "4055106",
+		"Name": "A Nightmare for the Wicked",
+		"SortOrder": 323,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Talk to Caenis (Alt) and Thunderarch separately",
+		"VersionAdded": "4.1"
+	},
+	"4055107": {
+		"Id": "4055107",
+		"Name": "Love in the Time of Arcadia",
+		"SortOrder": 322,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Watch as passers-by share their feelings on the street",
+		"VersionAdded": "4.1"
+	},
+	"4055108": {
+		"Id": "4055108",
+		"Name": "Matchless",
+		"SortOrder": 321,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Defeat all your opponents in the Club Showdown",
+		"VersionAdded": "4.1"
+	},
+	"4055109": {
+		"Id": "4055109",
+		"Name": "All Units, Stand By!",
+		"SortOrder": 320,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Unlock all the abilities in Battalion Buildup",
+		"VersionAdded": "4.1"
+	},
+	"4055110": {
+		"Id": "4055110",
+		"Name": "An Enemy from Above",
+		"SortOrder": 319,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Complete the Demon King Challenge",
+		"VersionAdded": "4.1"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Shadows Die Ad Infinitum (I)",
@@ -14852,6 +15180,76 @@
 		"SeriesText": "Eager for Battle",
 		"Description": "Aha uses \"Let There Be Laughter\" to defeat #1 enemies",
 		"VersionAdded": "4.0"
+	},
+	"4075101": {
+		"Id": "4075101",
+		"Name": "The Three Musketeers",
+		"SortOrder": 715,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Win 1 battle(s) using a team comprising Ashveil, Rappa, and Boothill.",
+		"VersionAdded": "4.1"
+	},
+	"4075102": {
+		"Id": "4075102",
+		"Name": "Justice Delayed, Not Denied",
+		"SortOrder": 714,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Ally teammates attack a \"Bait\" target #1 time(s) without triggering Ashveil's Follow-Up ATK",
+		"VersionAdded": "4.1"
+	},
+	"4075103": {
+		"Id": "4075103",
+		"Name": "Two Birds with One Strike",
+		"SortOrder": 713,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Use the ally character Ashveil to defeat #1 enemies with a single Follow-Up ATK",
+		"VersionAdded": "4.1"
+	},
+	"4075105": {
+		"Id": "4075105",
+		"Name": "And the Sun Rises",
+		"SortOrder": 711,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "During combat against the Daybreak Squadron, hit them with a specific Type attack while they're in the \"Daybreak Forcefield\" state to trigger an immediate action",
+		"VersionAdded": "4.1"
+	},
+	"4075106": {
+		"Id": "4075106",
+		"Name": "Beginner's Luck Over Skill",
+		"SortOrder": 710,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In the battle against the SD Civilian Mechatron, have it eliminate #1 enemy target(s)",
+		"VersionAdded": "4.1"
+	},
+	"4075107": {
+		"Id": "4075107",
+		"Name": "Every Drop Counts",
+		"SortOrder": 709,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In the battle against Alloy Mechatron: King Pom-Pom, remove its \"Steam Wash\" state",
+		"VersionAdded": "4.1"
+	},
+	"4075108": {
+		"Id": "4075108",
+		"Name": "Bubble Trendsetter",
+		"SortOrder": 708,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Trigger the \"Shiny\" effect of Potent Foam Soap at least #1 time(s) in a single battle against Alloy Mechatron: King Pom-Pom",
+		"VersionAdded": "4.1"
 	},
 	"4080101": {
 		"Id": "4080101",
