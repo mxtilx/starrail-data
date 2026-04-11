@@ -18,7 +18,9 @@ function collate(langCode) {
 		data.Rarity = obj.BuffRarity;
 
 		data.Effect = global.replaceParams(language[obj.BuffDesc.Hash], obj.ParamList);
-		data.AbridgedEffect = language[obj.BuffSimpleDesc.Hash] && global.replaceParams(language[obj.BuffSimpleDesc.Hash], obj.ParamList).replaceAll('\\n', '\n');
+		if (language && obj && obj.BuffSimpleDesc && language[obj.BuffSimpleDesc.Hash] && global && global.replaceParams) {
+		    data.AbridgedEffect = global.replaceParams(language[obj.BuffSimpleDesc.Hash], obj.ParamList).replaceAll('\\n', '\n');
+		}
 
 		if (enhancedObj) {
 			data.EnhancedEffect = global.replaceParams(language[enhancedObj.BuffDesc.Hash], enhancedObj.ParamList);
