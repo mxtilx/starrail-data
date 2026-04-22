@@ -4469,6 +4469,57 @@
 		],
 		"VersionAdded": "3.7"
 	},
+	"22007": {
+		"Id": "22007",
+		"Name": "Tương Lai, Có Chúng Ta Cùng Nhau",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"EffectName": "Đồng Hành",
+		"EffectTemplate": "Tăng <color=#f29e38ff>#1[i]%</color> Sát Thương Bạo Kích của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Độ Vui Vẻ của toàn bộ phe ta tăng <color=#f29e38ff>#2[i]%</color>, duy trì #3[i] hiệp.",
+		"Superimpositions": [
+			{
+				"Effect": "Tăng <color=#f29e38ff>12%</color> Sát Thương Bạo Kích của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Độ Vui Vẻ của toàn bộ phe ta tăng <color=#f29e38ff>8%</color>, duy trì 1 hiệp.",
+				"Params": [
+					0.12,
+					0.08,
+					1
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>15%</color> Sát Thương Bạo Kích của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Độ Vui Vẻ của toàn bộ phe ta tăng <color=#f29e38ff>9%</color>, duy trì 1 hiệp.",
+				"Params": [
+					0.15,
+					0.09,
+					1
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>18%</color> Sát Thương Bạo Kích của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Độ Vui Vẻ của toàn bộ phe ta tăng <color=#f29e38ff>10%</color>, duy trì 1 hiệp.",
+				"Params": [
+					0.18,
+					0.1,
+					1
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>21%</color> Sát Thương Bạo Kích của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Độ Vui Vẻ của toàn bộ phe ta tăng <color=#f29e38ff>11%</color>, duy trì 1 hiệp.",
+				"Params": [
+					0.21,
+					0.11,
+					1
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>24%</color> Sát Thương Bạo Kích của người trang bị. Sau khi người trang bị thi triển Tuyệt Kỹ, khiến Độ Vui Vẻ của toàn bộ phe ta tăng <color=#f29e38ff>12%</color>, duy trì 1 hiệp.",
+				"Params": [
+					0.24,
+					0.12,
+					1
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"23000": {
 		"Id": "23000",
 		"Name": "Chuyến Tàu Đêm Trên Dải Ngân Hà",
@@ -7769,6 +7820,133 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"23057": {
+		"Id": "23057",
+		"Name": "Chào Mừng Đến Với Thành Phố Vũ Trụ",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"EffectName": "Tất Thắng",
+		"EffectTemplate": "Khiến Tốc Độ của người trang bị tăng <color=#f29e38ff>#1[i]%</color>, Sát Thương Vui Vẻ gây ra bỏ qua <color=#f29e38ff>#2[i]%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận <color=#f29e38ff>#3[i]</color> \"Điểm Hài Hước\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển #4[i] lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+		"Superimpositions": [
+			{
+				"Effect": "Khiến Tốc Độ của người trang bị tăng <color=#f29e38ff>18%</color>, Sát Thương Vui Vẻ gây ra bỏ qua <color=#f29e38ff>20%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận <color=#f29e38ff>20</color> \"Điểm Hài Hước\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+				"Params": [
+					0.18,
+					0.2,
+					20,
+					3
+				]
+			},
+			{
+				"Effect": "Khiến Tốc Độ của người trang bị tăng <color=#f29e38ff>21%</color>, Sát Thương Vui Vẻ gây ra bỏ qua <color=#f29e38ff>24%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận <color=#f29e38ff>25</color> \"Điểm Hài Hước\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+				"Params": [
+					0.21,
+					0.24,
+					25,
+					3
+				]
+			},
+			{
+				"Effect": "Khiến Tốc Độ của người trang bị tăng <color=#f29e38ff>24%</color>, Sát Thương Vui Vẻ gây ra bỏ qua <color=#f29e38ff>28%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận <color=#f29e38ff>30</color> \"Điểm Hài Hước\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+				"Params": [
+					0.24,
+					0.28,
+					30,
+					3
+				]
+			},
+			{
+				"Effect": "Khiến Tốc Độ của người trang bị tăng <color=#f29e38ff>27%</color>, Sát Thương Vui Vẻ gây ra bỏ qua <color=#f29e38ff>32%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận <color=#f29e38ff>35</color> \"Điểm Hài Hước\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+				"Params": [
+					0.27,
+					0.32,
+					35,
+					3
+				]
+			},
+			{
+				"Effect": "Khiến Tốc Độ của người trang bị tăng <color=#f29e38ff>30%</color>, Sát Thương Vui Vẻ gây ra bỏ qua <color=#f29e38ff>36%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Tuyệt Kỹ lên bản thân, nhận <color=#f29e38ff>40</color> \"Điểm Hài Hước\". Hiệu ứng này kích hoạt tối đa 1 lần, sau khi thi triển 3 lần Tấn Công Thường sẽ đặt lại số lần có thể kích hoạt.",
+				"Params": [
+					0.3,
+					0.36,
+					40,
+					3
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"23058": {
+		"Id": "23058",
+		"Name": "Hẹn Gặp Mùa Hoa Tới",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"EffectName": "Mơ Mộng",
+		"EffectTemplate": "Tăng <color=#f29e38ff>#1[i]%</color> Sát Thương Bạo Kích và <color=#f29e38ff>#4[f1]%</color> Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn #5[i], mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm #6[f1]% Hiệu Suất Hồi Năng Lượng, tính tối đa #7[i] điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>#2[f1]%</color>, duy trì #3[i] hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+		"Superimpositions": [
+			{
+				"Effect": "Tăng <color=#f29e38ff>60%</color> Sát Thương Bạo Kích và <color=#f29e38ff>10.0%</color> Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0.3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>15.0%</color>, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.6,
+					0.15,
+					2,
+					0.1,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>75%</color> Sát Thương Bạo Kích và <color=#f29e38ff>11.5%</color> Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0.3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>18.8%</color>, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.75,
+					0.1875,
+					2,
+					0.115,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>90%</color> Sát Thương Bạo Kích và <color=#f29e38ff>13.0%</color> Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0.3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>22.5%</color>, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.9,
+					0.225,
+					2,
+					0.13,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>105%</color> Sát Thương Bạo Kích và <color=#f29e38ff>14.5%</color> Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0.3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>26.3%</color>, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					1.05,
+					0.2625,
+					2,
+					0.145,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>120%</color> Sát Thương Bạo Kích và <color=#f29e38ff>16.0%</color> Hiệu Suất Hồi Năng Lượng của người trang bị. Khi Giới Hạn Năng Lượng của người trang bị lớn hơn 120, mỗi 10 điểm Giới Hạn Năng Lượng vượt mức sẽ tăng thêm 0.3% Hiệu Suất Hồi Năng Lượng, tính tối đa 360 điểm Giới Hạn Năng Lượng vượt mức. Khi người trang bị thi triển Kỹ Năng Vui Vẻ, khiến sát thương toàn phe địch phải chịu tăng <color=#f29e38ff>30.0%</color>, duy trì 2 hiệp, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					1.2,
+					0.3,
+					2,
+					0.16,
+					120,
+					0.003,
+					360
+				]
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"24000": {
 		"Id": "24000",

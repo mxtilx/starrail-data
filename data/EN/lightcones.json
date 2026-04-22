@@ -4469,6 +4469,57 @@
 		],
 		"VersionAdded": "3.7"
 	},
+	"22007": {
+		"Id": "22007",
+		"Name": "Tomorrow, Together",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Companion",
+		"EffectTemplate": "Increases the wearer's CRIT DMG by <color=#f29e38ff>#1[i]%</color>. After the wearer uses their Ultimate, increases all allies' Elation by <color=#f29e38ff>#2[i]%</color>, lasting for #3[i] turn(s).",
+		"Superimpositions": [
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>12%</color>. After the wearer uses their Ultimate, increases all allies' Elation by <color=#f29e38ff>8%</color>, lasting for 1 turn(s).",
+				"Params": [
+					0.12,
+					0.08,
+					1
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>15%</color>. After the wearer uses their Ultimate, increases all allies' Elation by <color=#f29e38ff>9%</color>, lasting for 1 turn(s).",
+				"Params": [
+					0.15,
+					0.09,
+					1
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>18%</color>. After the wearer uses their Ultimate, increases all allies' Elation by <color=#f29e38ff>10%</color>, lasting for 1 turn(s).",
+				"Params": [
+					0.18,
+					0.1,
+					1
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>21%</color>. After the wearer uses their Ultimate, increases all allies' Elation by <color=#f29e38ff>11%</color>, lasting for 1 turn(s).",
+				"Params": [
+					0.21,
+					0.11,
+					1
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>24%</color>. After the wearer uses their Ultimate, increases all allies' Elation by <color=#f29e38ff>12%</color>, lasting for 1 turn(s).",
+				"Params": [
+					0.24,
+					0.12,
+					1
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"23000": {
 		"Id": "23000",
 		"Name": "Night on the Milky Way",
@@ -7769,6 +7820,133 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"23057": {
+		"Id": "23057",
+		"Name": "Welcome to the Cosmic City",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Guaranteed Victory",
+		"EffectTemplate": "Increases the wearer's SPD by <color=#f29e38ff>#1[i]%</color>. The Elation DMG dealt ignores <color=#f29e38ff>#2[i]%</color> of the target's DEF. When the wearer uses Ultimate on themselves, gains <color=#f29e38ff>#3[i]</color> point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK #4[i] time(s).",
+		"Superimpositions": [
+			{
+				"Effect": "Increases the wearer's SPD by <color=#f29e38ff>18%</color>. The Elation DMG dealt ignores <color=#f29e38ff>20%</color> of the target's DEF. When the wearer uses Ultimate on themselves, gains <color=#f29e38ff>20</color> point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).",
+				"Params": [
+					0.18,
+					0.2,
+					20,
+					3
+				]
+			},
+			{
+				"Effect": "Increases the wearer's SPD by <color=#f29e38ff>21%</color>. The Elation DMG dealt ignores <color=#f29e38ff>24%</color> of the target's DEF. When the wearer uses Ultimate on themselves, gains <color=#f29e38ff>25</color> point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).",
+				"Params": [
+					0.21,
+					0.24,
+					25,
+					3
+				]
+			},
+			{
+				"Effect": "Increases the wearer's SPD by <color=#f29e38ff>24%</color>. The Elation DMG dealt ignores <color=#f29e38ff>28%</color> of the target's DEF. When the wearer uses Ultimate on themselves, gains <color=#f29e38ff>30</color> point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).",
+				"Params": [
+					0.24,
+					0.28,
+					30,
+					3
+				]
+			},
+			{
+				"Effect": "Increases the wearer's SPD by <color=#f29e38ff>27%</color>. The Elation DMG dealt ignores <color=#f29e38ff>32%</color> of the target's DEF. When the wearer uses Ultimate on themselves, gains <color=#f29e38ff>35</color> point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).",
+				"Params": [
+					0.27,
+					0.32,
+					35,
+					3
+				]
+			},
+			{
+				"Effect": "Increases the wearer's SPD by <color=#f29e38ff>30%</color>. The Elation DMG dealt ignores <color=#f29e38ff>36%</color> of the target's DEF. When the wearer uses Ultimate on themselves, gains <color=#f29e38ff>40</color> point(s) of \"Punchline.\" This effect can be triggered up to 1 time. And resets this trigger count after using Basic ATK 3 time(s).",
+				"Params": [
+					0.3,
+					0.36,
+					40,
+					3
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"23058": {
+		"Id": "23058",
+		"Name": "Until the Flowers Bloom Again",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Daydream",
+		"EffectTemplate": "Increases the wearer's CRIT DMG by <color=#f29e38ff>#1[i]%</color> and Energy Regeneration Rate by <color=#f29e38ff>#4[f1]%</color>. When the wearer's Max Energy is greater than #5[i], for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by #6[f1]%. Up to a maximum of #7[i] points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <color=#f29e38ff>#2[f1]%</color> for #3[i] turn(s). Effects of the same type cannot stack.",
+		"Superimpositions": [
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>60%</color> and Energy Regeneration Rate by <color=#f29e38ff>10.0%</color>. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <color=#f29e38ff>15.0%</color> for 2 turn(s). Effects of the same type cannot stack.",
+				"Params": [
+					0.6,
+					0.15,
+					2,
+					0.1,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>75%</color> and Energy Regeneration Rate by <color=#f29e38ff>11.5%</color>. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <color=#f29e38ff>18.8%</color> for 2 turn(s). Effects of the same type cannot stack.",
+				"Params": [
+					0.75,
+					0.1875,
+					2,
+					0.115,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>90%</color> and Energy Regeneration Rate by <color=#f29e38ff>13.0%</color>. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <color=#f29e38ff>22.5%</color> for 2 turn(s). Effects of the same type cannot stack.",
+				"Params": [
+					0.9,
+					0.225,
+					2,
+					0.13,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>105%</color> and Energy Regeneration Rate by <color=#f29e38ff>14.5%</color>. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <color=#f29e38ff>26.3%</color> for 2 turn(s). Effects of the same type cannot stack.",
+				"Params": [
+					1.05,
+					0.2625,
+					2,
+					0.145,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Increases the wearer's CRIT DMG by <color=#f29e38ff>120%</color> and Energy Regeneration Rate by <color=#f29e38ff>16.0%</color>. When the wearer's Max Energy is greater than 120, for every 10 points of Max Energy that exceeds this amount, further increases Energy Regeneration Rate by 0.3%. Up to a maximum of 360 points of excess Max Energy can be taken into account. When the wearer uses Elation Skill, increases the DMG received by all enemies by <color=#f29e38ff>30.0%</color> for 2 turn(s). Effects of the same type cannot stack.",
+				"Params": [
+					1.2,
+					0.3,
+					2,
+					0.16,
+					120,
+					0.003,
+					360
+				]
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"24000": {
 		"Id": "24000",

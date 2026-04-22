@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "戦闘スキル",
 			"MaxLevel": 15,
 			"EffectRaw": "指定した自身以外の味方単体を「師匠」にする。「師匠」の速度+<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>。戦闘スキルで最後に指定したターゲットのみ、三月なのかの「師匠」と見なされる。\n通常攻撃を行う、または強化通常攻撃「一に眉間、二に心臓」によるダメージを1段与える時、フィールド上に特定の運命を歩む「師匠」が存在する場合、「師匠」の歩む運命に応じて特定の効果を発動する。\n\n「師匠」の歩む運命が「知恵」、「壊滅」、「巡狩」、「記憶」または「愉悦」の場合：三月なのかの攻撃力<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>分の、「師匠」の属性に応じた<u>付加ダメージ</u>を与える。\n\n「師匠」の歩む運命が「調和」、「虚無」、「存護」または「豊穣」の場合：その回の攻撃の削靭値+<unbreak>#3[i]%</unbreak>。",
-			"AbridgedEffect": "味方単体を「師匠」にする。通常攻撃、または強化通常攻撃を行ってダメージを与える時、<color=#f29e38ff>「師匠」の運命</color>に応じて以下の効果を発動する：\n「師匠」の運命が「知恵」、「壊滅」、「巡狩」、「記憶」の場合：「師匠」の属性に応じた<color=#f29e38ff><u>付加ダメージ</u></color>をさらに与える。\n「師匠」の運命が「調和」、「虚無」、「存護」、「豊穣」の場合：<color=#f29e38ff>削靭値</color>がアップする。",
+			"AbridgedEffect": "味方単体を「師匠」にする。通常攻撃、または強化通常攻撃を行ってダメージを与える時、<color=#f29e38ff>「師匠」の運命</color>に応じて以下の効果を発動する：\n「師匠」の運命が「知恵」、「壊滅」、「巡狩」、「記憶」、「愉悦」の場合：「師匠」の属性に応じた<color=#f29e38ff><u>付加ダメージ</u></color>をさらに与える。\n「師匠」の運命が「調和」、「虚無」、「存護」、「豊穣」の場合：<color=#f29e38ff>削靭値</color>がアップする。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39812,6 +39812,1278 @@
 		},
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "{RUBY_B#ひえい}緋英{RUBY_E#}",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "{RUBY_B#しどう}指導{RUBY_E#}・{RUBY_B#ぬ}抜{RUBY_E#}き{RUBY_B#う}打{RUBY_E#}ち{RUBY_B#けんさ}検査{RUBY_E#}",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "指定した敵単体に緋英の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の物理属性ダメージを与える。",
+			"AbridgedEffect": "指定した敵単体に少量の物理属性ダメージを与える。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "{RUBY_B#ふうき}風紀{RUBY_E#}・{RUBY_B#りょうとう}量刀{RUBY_E#}にて{RUBY_B#さば}裁{RUBY_E#}かん",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "拡散攻撃",
+			"SkillTypeText": "戦闘スキル",
+			"MaxLevel": 15,
+			"EffectRaw": "指定した敵単体に緋英の攻撃力<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>分の物理属性ダメージを与え、隣接する敵に緋英の攻撃力<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の物理属性ダメージを与える。さらに<u>爆笑ネタ</u>を<unbreak>#4[i]</unbreak>個獲得する。",
+			"AbridgedEffect": "敵単体に大量の物理属性ダメージを与え、隣接する敵に物理属性ダメージを与える。さらに<u>爆笑ネタ</u>を追加で獲得する。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "{RUBY_B#けんか}剣歌{RUBY_E#}・{RUBY_B#しんきむしゃ}神鬼無赦{RUBY_E#}",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "敵全体に緋英の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の物理属性ダメージを与え、追加で5ヒットする。1ヒットごとに、ランダムな敵単体に緋英の攻撃力<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の物理属性ダメージを与える。",
+			"AbridgedEffect": "敵全体に物理属性ダメージを与える。その後、ランダムな敵単体に物理属性ダメージを与え、5回バウンドする。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "{RUBY_B#せいしゅん}青春{RUBY_E#}・{RUBY_B#は}果{RUBY_E#}てなき{RUBY_B#はる}春{RUBY_E#}の{RUBY_B#ひかり}光{RUBY_E#}",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "緋英は会心ダメージ<unbreak>#5[i]%</unbreak>分の愉悦度を獲得する。緋英がEPを獲得する時、同量の「<u>爆笑の褒美</u>」を獲得する。緋英が「<u>爆笑の褒美</u>」を獲得する時、同量のEPを獲得する。なお、この方法でEPを獲得する際、1度にカウントされる「<u>爆笑の褒美</u>」は最大<unbreak>100</unbreak>まで。\n累計でEPを<unbreak>#3[i]</unbreak>獲得した時、累計値を<unbreak>#3[i]</unbreak>消費し、「キツネ先生」が<u>追加攻撃</u>を発動し、敵全体に緋英の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の物理属性ダメージを与え、緋英のEPを<unbreak>#4[i]</unbreak>回復する。EPを獲得する際、1度に獲得できる累計値は最大<unbreak>#3[i]</unbreak>まで。緋英が「<u>爆笑の褒美</u>」を持つ時、以下の効果が発動する。\n戦闘スキルを発動すると、攻撃を受けた敵に<color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>分の物理属性の<u>愉悦ダメージ</u>を与える。\n必殺技を発動すると、敵全体に<color=#f29e38ff><unbreak>#6[i]%</unbreak></color>分の物理属性の<u>愉悦ダメージ</u>を与え、必殺技の追加のヒットでダメージを受けたランダムな敵に<color=#f29e38ff><unbreak>#8[i]%</unbreak></color>分の物理属性の<u>愉悦ダメージ</u>を与える。必殺技で<u>愉悦ダメージ</u>を与える時、カウントされる「<u>爆笑の褒美</u>」は少なくとも最大EPと同量となる。\n「キツネ先生」の<u>追加攻撃</u>は、敵全体に<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>分の物理属性の<u>愉悦ダメージ</u>を与える。",
+			"AbridgedEffect": "緋英がEPを獲得する時、<color=#f29e38ff>同量の「<u>爆笑の褒美</u>」を獲得する。</color>緋英が「<u>爆笑の褒美</u>」を獲得する時、<color=#f29e38ff>同量のEPを獲得する。</color>累計で一定量のEPを獲得した時、「キツネ先生」が<u>追加攻撃</u>を発動して敵全体に少量の物理属性のダメージを与え、緋英のEPを回復する。緋英が「<u>爆笑の褒美</u>」を持つ時、戦闘スキル、必殺技、または「キツネ先生」の<u>追加攻撃</u>を発動すると、敵に少量の物理属性の<u>愉悦ダメージ</u>を与えられる。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "{RUBY_B#らくえい}落英{RUBY_E#}・{RUBY_B#おも}思{RUBY_E#}い{RUBY_B#で}出{RUBY_E#}も{RUBY_B#ち}散{RUBY_E#}りて",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "即座に一定範囲内のすべての敵を攻撃する。戦闘に入った後、敵全体に緋英の攻撃力<unbreak>#1[i]%</unbreak>分の物理属性ダメージを与え、「<u>爆笑の褒美</u>」を<unbreak>#2[i]</unbreak>個獲得する。",
+			"AbridgedEffect": "即座に一定範囲内のすべての敵を攻撃する。戦闘に入った後、敵全体に少量の物理属性ダメージを与え、「<u>爆笑の褒美</u>」を獲得する。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "{RUBY_B#ぎんろう}銀狼{RUBY_E#}LV.<unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "{RUBY_B#てっけんせいさい}鉄拳制裁{RUBY_E#}！",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "指定した敵単体に「銀狼LV.<unbreak>999</unbreak>」の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の虚数属性ダメージを与える。",
+			"AbridgedEffect": "指定した敵単体に少量の虚数属性ダメージを与える。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "ボーナスステージ「ウルフロードタイム」",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "バウンド",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "合計で「銀狼LV.<unbreak>999</unbreak>」の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の虚数属性ダメージを与える。このダメージは<unbreak>#3[i]</unbreak>段に均等に分けられ、1段ごとにランダムな敵単体に与える。一定段数のダメージを与えるたびに、攻撃を一時中断し、「<u>SSSサプライボックス</u>」が1回発動、合計で<unbreak>#5[i]</unbreak>回発動する。\nフィールド上のすべての敵のHPが0になった場合、この回のスキルを終了する。なお、攻撃可能な敵ターゲットが現れた後、<u>追加ターン</u>を1ターン獲得し、残りのダメージ段数と「<u>SSSサプライボックス</u>」の発動可能回数を引き継いで攻撃を再開する。各ターンで初めてこの効果を発動する時、自身のすべての<u>バフ</u>を1ターン延長する。\n上記のダメージがすべて終了した後、ラストアタックを発動し、「銀狼LV.<unbreak>999</unbreak>」の攻撃力<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>分の虚数属性ダメージを、敵全体に均等に分けて与える。\n強化通常攻撃ではSPを回復できない。所持する「シークレットスコア」が<unbreak>#6[i]</unbreak>につき、強化通常攻撃中の与ダメージが本来のダメージの<unbreak>#8[i]%</unbreak>分アップする。最大<unbreak>#7[i]</unbreak>層累積できる。",
+			"AbridgedEffect": "虚数属性ダメージを与え、何度もバウンドする。その間、<color=#f29e38ff><unbreak>#5[i]</unbreak></color>回「SSSサプライボックス」が発動する。<color=#f29e38ff>すべての敵のHPが0になった場合、残りの効果を保留して、</color>新しく登場した敵に引き続き発動する。最後に虚数属性ダメージを、敵全体に均等に分けて与える。\n「シークレットスコア」が一定数に達するたびに、強化通常攻撃のダメージをさらにアップする。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Shootモードオン",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "戦闘スキル",
+			"MaxLevel": 15,
+			"EffectRaw": "<u>爆笑ネタ</u>を<unbreak>#2[i]</unbreak>個獲得し、敵全体に「銀狼LV.<unbreak>999</unbreak>」の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の虚数属性ダメージを与える。",
+			"AbridgedEffect": "<u>爆笑ネタ</u>を獲得し、敵全体に虚数属性ダメージを与える。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "{RUBY_B#むてき}無敵{RUBY_E#}プレイヤー、ゲームスタート！",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "「無敵プレイヤー」状態となり、<u>行動順</u>が<unbreak>100%</unbreak><u>早まる</u>。\n「無敵プレイヤー」状態中、結界を展開する。「銀狼LV.<unbreak>999</unbreak>」が「<u>爆笑の褒美</u>」を持つ時、結界内にいる味方がSPを1消費するごとに、確率で「銀狼LV.<unbreak>999</unbreak>」の「<u>SSSサプライボックス</u>」が1回発動する。発動時、<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の虚数属性の<u>愉悦ダメージ</u>を敵全体に均等に分けて与える。さらにランダムで以下の効果を1つ発動する。\n・「スーパー・グレートソード」：残りHPが最も高い敵に、今回の総ダメージ<unbreak>#5[i]%</unbreak>分の<u>確定ダメージ</u>を追加で与える。\n・「ウルトラ・エッグボンバー」：SPを<unbreak>#7[i]</unbreak>回復する。\n・「ストレンジ・ビーン」：<u>爆笑ネタ</u>を<unbreak>#6[i]</unbreak>個獲得する。\nこの効果が発動する初期の<u>固定確率</u>は<unbreak>100%</unbreak>。発動するたび、次に発動する際の<u>固定確率</u>が現在の固定確率の<unbreak>#4[i]%</unbreak>になる。発動前にターゲットが倒れた場合、新たに登場した敵に対して発動する。",
+			"AbridgedEffect": "変身して<u>行動順</u>が<unbreak>100%</unbreak><u>早まる</u>。\n変身中は結界を展開する。「<u>爆笑の褒美</u>」を持つ時、味方が<color=#f29e38ff>SPを1消費する</color>ごとに、高確率で<color=#f29e38ff>「SSSサプライボックス」が1回発動する</color>。発動時、大量の虚数属性の<u>愉悦ダメージ</u>を、敵全体に均等に分けて与える。さらにランダムで以下の効果を1つ発動する。\n・残りHPが最も高い敵に、総ダメージに基づいた<color=#f29e38ff><u>確定ダメージ</u></color>を与える。\n・<color=#f29e38ff>SP</color>を回復する。\n・<color=#f29e38ff><u>爆笑ネタ</u></color>を獲得する。\n発動するたびに、発動確率は一定の割合で減少する。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "スーパー・グレートソード",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "大量の虚数属性の<u>愉悦ダメージ</u>を敵全体に均等に分けて与え、残りHPが最も高い敵に総ダメージに応じた<u>確定ダメージ</u>を与える。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "{RUBY_B#わたし}私{RUBY_E#}がいればヌルゲー",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "「シークレットスコア」が<unbreak>#1[i]</unbreak>に達した後、必殺技を発動できる。「シークレットスコア」は上限を超えても、最大<unbreak>#2[i]</unbreak>まで累積できる。\n<u>爆笑ネタ</u>を獲得した時、「銀狼LV.<unbreak>999</unbreak>」は同量の「シークレットスコア」を獲得する。「シークレットスコア」が1につき、会心率+<color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>。会心率が<unbreak>100%</unbreak>に達した後、残りの「シークレットスコア」が1につき、代わりに会心ダメージ+<color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>。\n「無敵プレイヤー」状態の時、「銀狼LV.<unbreak>999</unbreak>」は<u>行動制限系デバフ</u>に抵抗でき、必殺技を発動できなくなる代わりに、強化通常攻撃「ボーナスステージ『ウルフロードタイム』」と強化愉悦スキル「崩壊級ダメージ実演」を発動できる。強化通常攻撃を<unbreak>#5[i]</unbreak>回最後まで発動した後、「無敵プレイヤー」状態は解除される。「無敵プレイヤー」状態が解除される時、「シークレットスコア」はクリアされる。\n「<u>爆笑の褒美</u>」を持つ時、通常攻撃、戦闘スキルを発動すると、攻撃を受けた敵に<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の虚数属性の<u>愉悦ダメージ</u>を与える。また、強化通常攻撃のスキルダメージは同じ倍率の<u>愉悦ダメージ</u>に変わる。",
+			"AbridgedEffect": "「シークレットスコア」が<color=#f29e38ff><unbreak>#1[i]</unbreak></color>に達した後、必殺技を発動できる。<color=#f29e38ff><u>爆笑ネタ</u>を獲得した時、同量の「シークレットスコア」を獲得する</color>。「シークレットスコア」が高いほど会心率がアップし、会心率が<unbreak>100%</unbreak>に達した後は、代わりに会心ダメージがアップする。\n変身中、「銀狼LV.<unbreak>999</unbreak>」は<u>行動制限系デバフ</u>に抵抗でき、通常攻撃と愉悦スキルが強化される。強化通常攻撃を<color=#f29e38ff><unbreak>#5[i]</unbreak></color>回発動した後、変身が解除される。\n「<u>爆笑の褒美</u>」を持つ時、通常攻撃、戦闘スキルを発動すると、虚数属性の<u>愉悦ダメージ</u>を追加で与えられ、強化通常攻撃のスキルダメージは<u>愉悦ダメージ</u>となる。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "これがTier0の{RUBY_B#ひぎ}秘技{RUBY_E#}だよ",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "召喚",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "「ストレンジ・ビーン」を召喚する。再度秘技を使用すると召喚が解除される。秘技を使用しても秘技PTは消費されず、秘技PTが0になると召喚を解除し、秘技を使用できなくなる。\n「ストレンジ・ビーン」は一定範囲内の通常エネミーを恐怖状態にする。同時に、自動で通常エネミーを索敵および攻撃し、秘技PTを1消費して戦闘に入ることなく即座に倒す。\n「ストレンジ・ビーン」がマップにいる場合、戦闘に入った後、各ウェーブ開始時に「ストレンジ・ビーン」に対応する「<u>SSSサプライボックス</u>」を1回発動する。なお、この効果による<u>愉悦ダメージ</u>は「<u>爆笑の褒美</u>」を固定で<unbreak>#1[i]</unbreak>カウントする。",
+			"AbridgedEffect": "「ストレンジ・ビーン」を召喚する。再度秘技を使用すると召喚が解除される。使用時は<color=#f29e38ff>秘技PTを消費しない</color>。\n「ストレンジ・ビーン」は自動で通常エネミーを索敵および攻撃し、秘技PTを1消費して<color=#f29e38ff>戦闘に入ることなく即座に倒す</color>。\n戦闘に入った後、各ウェーブ開始時に「ストレンジ・ビーン」に対応する「SSSサプライボックス」が発動する。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "これぞ{RUBY_B#おうえん}応援{RUBY_E#}",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "指定した敵単体に開拓者の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。",
+			"AbridgedEffect": "敵単体に少量の雷属性ダメージを与える。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "{RUBY_B#かぜ}風{RUBY_E#}が{RUBY_B#さわ}騒{RUBY_E#}がしい",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "戦闘スキル",
+			"MaxLevel": 15,
+			"EffectRaw": "敵全体に開拓者の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与え、「<u>爆笑の褒美</u>」を<unbreak>#2[i]</unbreak>獲得する。",
+			"AbridgedEffect": "敵全体に少量の雷属性ダメージを与え、「<u>爆笑の褒美</u>」を獲得する。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "{RUBY_B#と}飛{RUBY_E#}べ、{RUBY_B#かいたく}開拓{RUBY_E#}と{RUBY_B#とも}共{RUBY_E#}に！",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "サポート",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "<u>爆笑ネタ</u>を<unbreak>#6[i]</unbreak>個獲得し、指定した味方単体の会心ダメージ+<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>、<unbreak>#2[i]</unbreak>ターン継続。さらに、その味方の<u>行動制限系デバフ</u>を解除する。\n愉悦スキルを持っている場合、その味方は追加で「<u>爆笑の褒美</u>」を<unbreak>#4[i]</unbreak>獲得し、<u>爆笑ネタ</u>が固定で<unbreak>#5[i]</unbreak>個カウントされる愉悦スキルを即座に1回発動する。愉悦スキルの発動前に敵が倒れた場合、新たにフィールドに登場した敵に対して愉悦スキルを発動する。\n愉悦スキルを持っていない場合、その味方の<u>行動順</u>を<unbreak>#3[i]%</unbreak><u>早める</u>。",
+			"AbridgedEffect": "<u>爆笑ネタ</u>を獲得し、指定した味方単体の会心ダメージをアップさせ、その味方の<u>行動制限系デバフ</u>を解除する。愉悦スキルを持っている場合、その味方は<color=#f29e38ff>追加で「<u>爆笑の褒美</u>」</color>を獲得して<color=#f29e38ff>即座に愉悦スキルを発動する</color>。持っていない場合、その味方の<u>行動順を早める</u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "{RUBY_B#み}見{RUBY_E#}ろ、ヒーローが{RUBY_B#わら}笑{RUBY_E#}ってる",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "サポート",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "攻撃を行った後、EPを<unbreak>#1[i]</unbreak>回復し、<u>爆笑ネタ</u>を<unbreak>#2[i]</unbreak>個獲得する。\n開拓者が「<u>爆笑の褒美</u>」を持つ時、戦闘スキルは敵全体に追加で<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の雷属性の<u>愉悦ダメージ</u>を与える。このダメージは味方の最も高い「<u>爆笑の褒美</u>」の数値を参照する。",
+			"AbridgedEffect": "攻撃を行った後、EPを回復し、<u>爆笑ネタ</u>を獲得する。\n開拓者が「<u>爆笑の褒美</u>」を持つ時、戦闘スキルは敵全体に追加で少量の雷属性の<u>愉悦ダメージ</u>を与える。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "{RUBY_B#も}燃{RUBY_E#}えてきた！",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "秘技を使用すると、以下の効果からランダムで1つ獲得する。\n低確率で「心からの大笑い」を獲得し、愉悦度+<unbreak>#1[i]%</unbreak>。\n高確率で「禁じえない笑い」を獲得し、愉悦度+<unbreak>#3[i]%</unbreak>。\n次の戦闘開始時、味方全体の愉悦度を対応する数値分アップさせる。<unbreak>#5[i]</unbreak>ターン継続。",
+			"AbridgedEffect": "秘技を使用した後、次の戦闘開始時、味方<color=#f29e38ff>全体の愉悦度がアップする</color>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "これぞ{RUBY_B#おうえん}応援{RUBY_E#}",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "指定した敵単体に開拓者の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与える。",
+			"AbridgedEffect": "敵単体に少量の雷属性ダメージを与える。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "{RUBY_B#かぜ}風{RUBY_E#}が{RUBY_B#さわ}騒{RUBY_E#}がしい",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "戦闘スキル",
+			"MaxLevel": 15,
+			"EffectRaw": "敵全体に開拓者の攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の雷属性ダメージを与え、「<u>爆笑の褒美</u>」を<unbreak>#2[i]</unbreak>獲得する。",
+			"AbridgedEffect": "敵全体に少量の雷属性ダメージを与え、「<u>爆笑の褒美</u>」を獲得する。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "{RUBY_B#と}飛{RUBY_E#}べ、{RUBY_B#かいたく}開拓{RUBY_E#}と{RUBY_B#とも}共{RUBY_E#}に！",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "サポート",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "<u>爆笑ネタ</u>を<unbreak>#6[i]</unbreak>個獲得し、指定した味方単体の会心ダメージ+<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>、<unbreak>#2[i]</unbreak>ターン継続。さらに、その味方の<u>行動制限系デバフ</u>を解除する。\n愉悦スキルを持っている場合、その味方は追加で「<u>爆笑の褒美</u>」を<unbreak>#4[i]</unbreak>獲得し、<u>爆笑ネタ</u>が固定で<unbreak>#5[i]</unbreak>個カウントされる愉悦スキルを即座に1回発動する。愉悦スキルの発動前に敵が倒れた場合、新たにフィールドに登場した敵に対して愉悦スキルを発動する。\n愉悦スキルを持っていない場合、その味方の<u>行動順</u>を<unbreak>#3[i]%</unbreak><u>早める</u>。",
+			"AbridgedEffect": "<u>爆笑ネタ</u>を獲得し、指定した味方単体の会心ダメージをアップさせ、その味方の<u>行動制限系デバフ</u>を解除する。愉悦スキルを持っている場合、その味方は<color=#f29e38ff>追加で「<u>爆笑の褒美</u>」</color>を獲得して<color=#f29e38ff>即座に愉悦スキルを発動する</color>。持っていない場合、その味方の<u>行動順を早める</u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "{RUBY_B#み}見{RUBY_E#}ろ、ヒーローが{RUBY_B#わら}笑{RUBY_E#}ってる",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "サポート",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "攻撃を行った後、EPを<unbreak>#1[i]</unbreak>回復し、<u>爆笑ネタ</u>を<unbreak>#2[i]</unbreak>個獲得する。\n開拓者が「<u>爆笑の褒美</u>」を持つ時、戦闘スキルは敵全体に追加で<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の雷属性の<u>愉悦ダメージ</u>を与える。このダメージは味方の最も高い「<u>爆笑の褒美</u>」の数値を参照する。",
+			"AbridgedEffect": "攻撃を行った後、EPを回復し、<u>爆笑ネタ</u>を獲得する。\n開拓者が「<u>爆笑の褒美</u>」を持つ時、戦闘スキルは敵全体に追加で少量の雷属性の<u>愉悦ダメージ</u>を与える。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "{RUBY_B#も}燃{RUBY_E#}えてきた！",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "秘技を使用すると、以下の効果からランダムで1つ獲得する。\n低確率で「心からの大笑い」を獲得し、愉悦度+<unbreak>#1[i]%</unbreak>。\n高確率で「禁じえない笑い」を獲得し、愉悦度+<unbreak>#3[i]%</unbreak>。\n次の戦闘開始時、味方全体の愉悦度を対応する数値分アップさせる。<unbreak>#5[i]</unbreak>ターン継続。",
+			"AbridgedEffect": "秘技を使用した後、次の戦闘開始時、味方<color=#f29e38ff>全体の愉悦度がアップする</color>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

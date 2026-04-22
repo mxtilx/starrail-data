@@ -58284,7 +58284,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1006",
-						"Text": "Siempre se desmaya y no puede usar su mecha.",
+						"Text": "Siempre se dsmaya y no pued usar su mecha.",
 						"NextMessageId": "133880110"
 					},
 					"133880110": {
@@ -58300,7 +58300,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1006",
-						"Text": "Pero se está recuperando, no te preocupes.",
+						"Text": "Pero se stá recuperando, no t preocups.",
 						"NextMessageId": "choice17"
 					},
 					"133880112": {
@@ -64489,7 +64489,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1002",
-						"Text": "Me comuniqué con el emisario de Xianzhou, pero ellos también tienen problemas y necesitan ayuda.",
+						"Text": "Me comuniqué con la emisaria de Xianzhou, pero ellos también tienen problemas y necesitan ayuda.",
 						"NextMessageId": "150040115"
 					},
 					"150040115": {
@@ -64545,7 +64545,7 @@
 						"MessageType": "Text",
 						"SenderType": "PlayerAuto",
 						"SenderContactId": "8001",
-						"Text": "Es amiga mía y se encarga de custodiar las máscaras necesarias para participar en los Juegos Fabuluna.",
+						"Text": "Es amiga mía y se encarga de custodiar la máscara necesaria para participar en los Juegos Fabuluna.",
 						"NextMessageId": "150040122"
 					},
 					"150040122": {
@@ -64683,7 +64683,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1501",
-						"Text": "¡Quédate quietecita ahí, que ya mando a mis fans a buscarte!"
+						"Text": "¡Quédate ahí, que ya mando a mis fans a buscarte!"
 					},
 					"choice0": {
 						"Id": "choice0",
@@ -64965,7 +64965,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1002",
-						"Text": "Me comuniqué con el emisario de Xianzhou, pero ellos también tienen problemas y necesitan ayuda.",
+						"Text": "Me comuniqué con la emisaria de Xianzhou, pero ellos también tienen problemas y necesitan ayuda.",
 						"NextMessageId": "150080114"
 					},
 					"150080114": {
@@ -65021,7 +65021,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1003",
-						"Text": "Es amiga mía y se encarga de custodiar las máscaras necesarias para participar en los Juegos Fabuluna.",
+						"Text": "Es amiga mía y se encarga de custodiar la máscara necesaria para participar en los Juegos Fabuluna.",
 						"NextMessageId": "150080121"
 					},
 					"150080121": {
@@ -65274,7 +65274,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1004",
-						"Text": "Parecía estar un poco alterada, así que no me atreví a hacerle demasiadas preguntas. ¿Puedes contarme lo pasó?",
+						"Text": "Parecía estar un poco alterada, así que no me atreví a hacerle demasiadas preguntas. ¿Puedes contarme lo que pasó?",
 						"NextMessageId": "choice4"
 					},
 					"150100004": {
@@ -65290,7 +65290,7 @@
 						"MessageType": "Text",
 						"SenderType": "PlayerAuto",
 						"SenderContactId": "8001",
-						"Text": "¿Seguro que quieren que se lo cuente todo?",
+						"Text": "¿Seguro que quiere que se lo cuente todo?",
 						"NextMessageId": "150100006"
 					},
 					"150100006": {
@@ -67351,6 +67351,388 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"15031": {
+		"Id": "15031",
+		"ContactId": "9",
+		"ParticpatingContactIds": [
+			"9",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503101",
+				"StartingMessageId": "150310100",
+				"Messages": {
+					"150310100": {
+						"Id": "150310100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "Silver Wolf",
+						"NextMessageId": "choice1"
+					},
+					"150310101": {
+						"Id": "150310101",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "quién ers?",
+						"NextMessageId": "150310102"
+					},
+					"150310102": {
+						"Id": "150310102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "Escúchame.",
+						"NextMessageId": "choice4"
+					},
+					"150310103": {
+						"Id": "150310103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kafka?",
+						"NextMessageId": "150310104"
+					},
+					"150310104": {
+						"Id": "150310104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "¡Eres un chiste!",
+						"NextMessageId": "choice7"
+					},
+					"150310105": {
+						"Id": "150310105",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "idiota",
+						"NextMessageId": "150310106"
+					},
+					"150310106": {
+						"Id": "150310106",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "no m molests",
+						"NextMessageId": "150310111"
+					},
+					"150310107": {
+						"Id": "150310107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "dsuscribirme",
+						"NextMessageId": "150310108"
+					},
+					"150310108": {
+						"Id": "150310108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "mnsajes basura, fuera de aquí",
+						"NextMessageId": "150310111"
+					},
+					"150310109": {
+						"Id": "150310109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "lol, q risa",
+						"NextMessageId": "150310110"
+					},
+					"150310110": {
+						"Id": "150310110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "ya t qdast a gusto? idiota",
+						"NextMessageId": "150310111"
+					},
+					"150310111": {
+						"Id": "150310111",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Error en el envío del mensaje.",
+						"NextMessageId": "150310112"
+					},
+					"150310112": {
+						"Id": "150310112",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "El usuario no se encuentra en el área de servicio. Inténtalo más tarde."
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Quién eres?",
+								"NextMessageId": "150310101"
+							}
+						]
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Kafka?",
+								"NextMessageId": "150310103"
+							}
+						]
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Qué dices?",
+								"NextMessageId": "150310105"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Darme de baja.",
+								"NextMessageId": "150310107"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Qué risa!",
+								"NextMessageId": "150310109"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15032": {
+		"Id": "15032",
+		"ContactId": "1501",
+		"ParticpatingContactIds": [
+			"1501",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503201",
+				"StartingMessageId": "150320100",
+				"Messages": {
+					"150320100": {
+						"Id": "150320100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "Pelo gris.",
+						"NextMessageId": "150320101"
+					},
+					"150320101": {
+						"Id": "150320101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "¡Ten mucho cuidado!",
+						"NextMessageId": "choice2"
+					},
+					"150320102": {
+						"Id": "150320102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Por fin apareces!",
+						"NextMessageId": "150320104"
+					},
+					"150320103": {
+						"Id": "150320103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Casi me olvido de ti.",
+						"NextMessageId": "150320104"
+					},
+					"150320104": {
+						"Id": "150320104",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Tienes buenas noticias?",
+						"NextMessageId": "150320105"
+					},
+					"150320105": {
+						"Id": "150320105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "El poder de Buendeseo se llama gramática de la felicidad.",
+						"NextMessageId": "150320106"
+					},
+					"150320106": {
+						"Id": "150320106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "Suena muy bonito, pero no es más que avivar y amplificar los deseos internos de la gente y manipular sus mentes.",
+						"NextMessageId": "150320107"
+					},
+					"150320107": {
+						"Id": "150320107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "La mala noticia es: este truquito funciona mejor en Planarcadia.",
+						"NextMessageId": "choice13"
+					},
+					"150320108": {
+						"Id": "150320108",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Solo dijiste las malas noticias, ¿y las buenas?",
+						"NextMessageId": "150320111"
+					},
+					"150320109": {
+						"Id": "150320109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Su habilidad ya ha empezado a propagarse por todas partes.",
+						"NextMessageId": "150320110"
+					},
+					"150320110": {
+						"Id": "150320110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Solo dijiste las malas noticias, ¿y las buenas?",
+						"NextMessageId": "150320111"
+					},
+					"150320111": {
+						"Id": "150320111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "¡Acabo de lograr escapar de la taberna y volveré a transmitir prontito!",
+						"NextMessageId": "150320112"
+					},
+					"150320112": {
+						"Id": "150320112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "¡Suerte entonces, nos vemos!"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Por fin apareces!",
+								"NextMessageId": "150320102"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Casi me olvido de ti.",
+								"NextMessageId": "150320103"
+							}
+						]
+					},
+					"choice13": {
+						"Id": "choice13",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Tienes buenas noticias?",
+								"NextMessageId": "150320108"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Demasiado tarde.",
+								"NextMessageId": "150320109"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15033": {
+		"Id": "15033",
+		"ContactId": "9",
+		"ParticpatingContactIds": [
+			"9",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503301",
+				"StartingMessageId": "150330100",
+				"Messages": {
+					"150330100": {
+						"Id": "150330100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "La marea de Imagiesencia se ha calmado.",
+						"NextMessageId": "150330101"
+					},
+					"150330101": {
+						"Id": "150330101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "No me equivocaba. Volviste a cumplir tu promesa.",
+						"NextMessageId": "150330102"
+					},
+					"150330102": {
+						"Id": "150330102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "Ahora me toca a mí pedirte ayuda.",
+						"NextMessageId": "150330103"
+					},
+					"150330103": {
+						"Id": "150330103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "¿Nos vemos de camino a la Escuela Grafía?",
+						"NextMessageId": "choice4"
+					},
+					"150330104": {
+						"Id": "150330104",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Espérame."
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Sí, espérame.",
+								"NextMessageId": "150330104"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"15034": {
 		"Id": "15034",
 		"ContactId": "213",
@@ -67886,6 +68268,154 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"15038": {
+		"Id": "15038",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1503801",
+				"StartingMessageId": "150380100",
+				"Messages": {
+					"150380100": {
+						"Id": "150380100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Soy Zhongshanshan, la cantinera de turno.",
+						"NextMessageId": "150380101"
+					},
+					"150380101": {
+						"Id": "150380101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "{NICKNAME}, ha llegado otro artículo especial de Conejo estelar.",
+						"NextMessageId": "150380102"
+					},
+					"150380102": {
+						"Id": "150380102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Era la misma persona que la última vez.",
+						"NextMessageId": "150380103"
+					},
+					"150380103": {
+						"Id": "150380103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Hice el esfuerzo de intercambiar unas palabras con ella.",
+						"NextMessageId": "150380104"
+					},
+					"150380104": {
+						"Id": "150380104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Pero no quiso hablar mucho.",
+						"NextMessageId": "150380105"
+					},
+					"150380105": {
+						"Id": "150380105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "En fin, ven a recogerlo cuando tengas tiempo."
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15039": {
+		"Id": "15039",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1503901",
+				"StartingMessageId": "150390100",
+				"Messages": {
+					"150390100": {
+						"Id": "150390100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "¡Felicidades! Has recolectado todos los eterae anónimos que el proyecto Conejo estelar ha colocado en Manamar. Ahora puedes superar de forma más fácil las etapas que Conejo estelar ha configurado en esta zona. ¡Que disfrutes del juego! (Este es un anuncio enviado automáticamente por el sistema. Por favor, no respondas)."
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15040": {
+		"Id": "15040",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504001",
+				"StartingMessageId": "150400100",
+				"Messages": {
+					"150400100": {
+						"Id": "150400100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "¡Felicidades! Has recolectado todos los eterae anónimos que el proyecto Conejo estelar ha colocado en la torre de televisión de Manamar. Ahora puedes superar de forma más fácil las etapas que Conejo estelar ha configurado en esta zona. ¡Que disfrutes del juego! (Este es un anuncio enviado automáticamente por el sistema. Por favor, no respondas)."
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15041": {
+		"Id": "15041",
+		"ContactId": "221",
+		"ParticpatingContactIds": [
+			"221"
+		],
+		"Sections": [
+			{
+				"Id": "1504101",
+				"StartingMessageId": "150410100",
+				"Messages": {
+					"150410100": {
+						"Id": "150410100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "(Mensaje para todos los fans de Salto bidimensional)",
+						"NextMessageId": "150410101"
+					},
+					"150410101": {
+						"Id": "150410101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "Hay nuevas actividades para probar en el campo de entrenamiento.",
+						"NextMessageId": "150410102"
+					},
+					"150410102": {
+						"Id": "150410102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "Si quieren practicar cómo atravesar el mundo del cuadro, vengan a buscarme a la @Plaza de entretenimiento."
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"20001": {
 		"Id": "20001",
@@ -133286,6 +133816,2145 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"20231": {
+		"Id": "20231",
+		"ContactId": "1505",
+		"ParticpatingContactIds": [
+			"8001",
+			"1505"
+		],
+		"Sections": [
+			{
+				"Id": "2023100",
+				"StartingMessageId": "202310000",
+				"Messages": {
+					"202310000": {
+						"Id": "202310000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Tienes un mensaje en el historial. Recibiéndolo...",
+						"NextMessageId": "202310001"
+					},
+					"202310001": {
+						"Id": "202310001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "¡Las actualizaciones están tardando demasiado! Voy a venderle a Codi algunas ideas para capítulos extra.",
+						"NextMessageId": "202310002"
+					},
+					"202310002": {
+						"Id": "202310002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Las dejo aquí apuntadas (al fin y al cabo, ¡eres {F#la}{M#el} protagonista!).",
+						"NextMessageId": "202310003"
+					},
+					"202310003": {
+						"Id": "202310003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Tras una victoria aplastante en los Juegos Fabuluna, {F#la}{M#el} protagonista le pide un deseo a Aha...",
+						"NextMessageId": "202310004"
+					},
+					"202310004": {
+						"Id": "202310004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Tener diecisiete años otra vez y regresar a la escuela (nota: la edad está por confirmar, parece que el mapachito todavía es bastante joven).",
+						"NextMessageId": "202310005"
+					},
+					"202310005": {
+						"Id": "202310005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Pero la escuela no es una cualquiera, está llena de historias de terror.",
+						"NextMessageId": "202310006"
+					},
+					"202310006": {
+						"Id": "202310006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "La árbitra Evanescia es el primer obstáculo con el que se topa {F#la}{M#el} protagonista al llegar a la escuela. ¡Pero también es la primera aliada tras superar su desafío!",
+						"NextMessageId": "choice7"
+					},
+					"202310007": {
+						"Id": "202310007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Evanescia! ¡Sigues ahí! ¿Dónde estás?",
+						"NextMessageId": "202310010"
+					},
+					"202310008": {
+						"Id": "202310008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Evanescia! ¿Dónde estás ahora?",
+						"NextMessageId": "202310010"
+					},
+					"202310009": {
+						"Id": "202310009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Solo tengo tres años, me quedan catorce para cumplir diecisiete.",
+						"NextMessageId": "202310010"
+					},
+					"202310010": {
+						"Id": "202310010",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Error en el envío del mensaje.",
+						"NextMessageId": "202310011"
+					},
+					"202310011": {
+						"Id": "202310011",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "El usuario no se encuentra en el área de servicio. Inténtalo más tarde.",
+						"NextMessageId": "202310012"
+					},
+					"202310012": {
+						"Id": "202310012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "La árbitra Evanescia presentará ahora las reglas de supervivencia escolar. Primera regla: una vez que se conocen las reglas, deben respetarse.",
+						"NextMessageId": "202310013"
+					},
+					"202310013": {
+						"Id": "202310013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Segunda regla: todas las instalaciones del campus son en realidad animalitos. Hay que tratarlos con cuidado.",
+						"NextMessageId": "202310014"
+					},
+					"202310014": {
+						"Id": "202310014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Tercera regla: hay que hacer enfadar a los animalitos, porque cuando se enfadan, se les eriza el pelo (y son muy cómodos para dormir).",
+						"NextMessageId": "202310015"
+					},
+					"202310015": {
+						"Id": "202310015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Cuarta regla: mientras la árbitra esté despierta, será imparcial y no podrás encontrar ni la más mínima oportunidad de hacer trampa.",
+						"NextMessageId": "202310016"
+					},
+					"202310016": {
+						"Id": "202310016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Quinta regla: cuando la árbitra se queda dormida... se convierte en una máquina repetidora que solo dice: Publica más actualizaciones.",
+						"NextMessageId": "202310017"
+					},
+					"202310017": {
+						"Id": "202310017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "Sexta regla: (aún no la he pensado).",
+						"NextMessageId": "202310018"
+					},
+					"202310018": {
+						"Id": "202310018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "¡La verdadera árbitra va a empezar su turno, tengo que irme! ¡Ayúdame a recordar esto!",
+						"NextMessageId": "choice38"
+					},
+					"202310019": {
+						"Id": "202310019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tranquila, ¡te ayudaré a presionarle para que actualice!",
+						"NextMessageId": "202310020"
+					},
+					"202310020": {
+						"Id": "202310020",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Te prometo que cuando despiertes habrá algo increíble.",
+						"NextMessageId": "202310023"
+					},
+					"202310021": {
+						"Id": "202310021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tranquila, te ayudaré a vender la idea.",
+						"NextMessageId": "202310022"
+					},
+					"202310022": {
+						"Id": "202310022",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¡Te prometo que, cuando despiertes, el arco de las leyendas urbanas de la escuela habrá concluido!",
+						"NextMessageId": "202310023"
+					},
+					"202310023": {
+						"Id": "202310023",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Error en el envío del mensaje.",
+						"NextMessageId": "202310024"
+					},
+					"202310024": {
+						"Id": "202310024",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "El usuario no se encuentra en el área de servicio. Inténtalo más tarde."
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Sigues ahí?",
+								"NextMessageId": "202310007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¡¿Dónde estás?!",
+								"NextMessageId": "202310008"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Solo tengo tres años.",
+								"NextMessageId": "202310009"
+							}
+						]
+					},
+					"choice38": {
+						"Id": "choice38",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Te ayudaré a presionar para que actualice!",
+								"NextMessageId": "202310019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Te ayudaré a vender tu idea.",
+								"NextMessageId": "202310021"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20232": {
+		"Id": "20232",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023200",
+				"StartingMessageId": "202320000",
+				"Messages": {
+					"202320000": {
+						"Id": "202320000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "lo q dijist q querías ver",
+						"NextMessageId": "202320001"
+					},
+					"202320001": {
+						"Id": "202320001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ese boleto",
+						"NextMessageId": "202320002"
+					},
+					"202320002": {
+						"Id": "202320002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "t lo conseguí",
+						"NextMessageId": "202320003"
+					},
+					"202320003": {
+						"Id": "202320003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "d paso vi q",
+						"NextMessageId": "202320004"
+					},
+					"202320004": {
+						"Id": "202320004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "tienes bastants prerregistros d entradas en tdas las plataformas",
+						"NextMessageId": "202320005"
+					},
+					"202320005": {
+						"Id": "202320005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "q bien t lo pasas",
+						"NextMessageId": "choice6"
+					},
+					"202320006": {
+						"Id": "202320006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Gracias, Loba Insigne! En realidad...",
+						"NextMessageId": "202320009"
+					},
+					"202320007": {
+						"Id": "202320007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Gracias, Loba Insigne! ¿Para qué espectáculo es el boleto? La verdad es que...",
+						"NextMessageId": "202320009"
+					},
+					"202320008": {
+						"Id": "202320008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿Pagaste por mí? ¡Loba Insigne, qué generosa! La verdad es que...",
+						"NextMessageId": "202320009"
+					},
+					"202320009": {
+						"Id": "202320009",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Todavía hay muchas cosas que quiero ver...",
+						"NextMessageId": "202320010"
+					},
+					"202320010": {
+						"Id": "202320010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "lo sabía",
+						"NextMessageId": "202320011"
+					},
+					"202320011": {
+						"Id": "202320011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "espera",
+						"NextMessageId": "202320012"
+					},
+					"202320012": {
+						"Id": "202320012",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "La otra persona está escribiendo...",
+						"NextMessageId": "202320013"
+					},
+					"202320013": {
+						"Id": "202320013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ya stá",
+						"NextMessageId": "202320014"
+					},
+					"202320014": {
+						"Id": "202320014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "teatros, convnciones d cómics, conciertos, convnciones d videojuegos",
+						"NextMessageId": "202320015"
+					},
+					"202320015": {
+						"Id": "202320015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "todo lo q quiers ver",
+						"NextMessageId": "202320016"
+					},
+					"202320016": {
+						"Id": "202320016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "prerregistrados",
+						"NextMessageId": "202320017"
+					},
+					"202320017": {
+						"Id": "202320017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "presionados",
+						"NextMessageId": "202320018"
+					},
+					"202320018": {
+						"Id": "202320018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "vistos",
+						"NextMessageId": "202320019"
+					},
+					"202320019": {
+						"Id": "202320019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "con boletos a la venta",
+						"NextMessageId": "202320020"
+					},
+					"202320020": {
+						"Id": "202320020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sin boletos a la venta",
+						"NextMessageId": "202320021"
+					},
+					"202320021": {
+						"Id": "202320021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "los tngo todos",
+						"NextMessageId": "choice49"
+					},
+					"202320022": {
+						"Id": "202320022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Qué rapidez, ¿cómo lo hiciste?",
+						"NextMessageId": "202320023"
+					},
+					"202320023": {
+						"Id": "202320023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no s nada",
+						"NextMessageId": "202320029"
+					},
+					"202320024": {
+						"Id": "202320024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿Así de rápidas son las manos de la Loba Insigne?",
+						"NextMessageId": "202320025"
+					},
+					"202320025": {
+						"Id": "202320025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no s nada",
+						"NextMessageId": "202320029"
+					},
+					"202320026": {
+						"Id": "202320026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Ya que estás aquí, ¿podrías traerme unos huevos del supermercado?",
+						"NextMessageId": "202320027"
+					},
+					"202320027": {
+						"Id": "202320027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "eso es lo + difícil d conseguir",
+						"NextMessageId": "202320028"
+					},
+					"202320028": {
+						"Id": "202320028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "lo dmás es pan comido",
+						"NextMessageId": "202320029"
+					},
+					"202320029": {
+						"Id": "202320029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "la próxima vez avísame y ya",
+						"NextMessageId": "202320030"
+					},
+					"202320030": {
+						"Id": "202320030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ya stá",
+						"NextMessageId": "202320031"
+					},
+					"202320031": {
+						"Id": "202320031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ve a pagar",
+						"NextMessageId": "202320032"
+					},
+					"202320032": {
+						"Id": "202320032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "válido durante 15 min",
+						"NextMessageId": "202320033"
+					},
+					"202320033": {
+						"Id": "202320033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "56 pdidos en total",
+						"NextMessageId": "202320034"
+					},
+					"202320034": {
+						"Id": "202320034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "échales 1 ojo",
+						"NextMessageId": "202320035"
+					},
+					"202320035": {
+						"Id": "202320035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "q no se t olvide ninguno",
+						"NextMessageId": "choice77"
+					},
+					"202320036": {
+						"Id": "202320036",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿?",
+						"NextMessageId": "202320037"
+					},
+					"202320037": {
+						"Id": "202320037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Me falta velocidad en las manos?",
+						"NextMessageId": "202320042"
+					},
+					"202320038": {
+						"Id": "202320038",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿No pagaste por mí?",
+						"NextMessageId": "202320039"
+					},
+					"202320039": {
+						"Id": "202320039",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Me falta velocidad en las manos?",
+						"NextMessageId": "202320042"
+					},
+					"202320040": {
+						"Id": "202320040",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿Me faltan boletos?",
+						"NextMessageId": "202320041"
+					},
+					"202320041": {
+						"Id": "202320041",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Me falta velocidad en las manos?",
+						"NextMessageId": "202320042"
+					},
+					"202320042": {
+						"Id": "202320042",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127004.png",
+						"Text": "[Hablador]",
+						"NextMessageId": "202320043"
+					},
+					"202320043": {
+						"Id": "202320043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Tu amiga Silver Wolf se ha desconectado."
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Gracias!",
+								"NextMessageId": "202320006"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Cuál?",
+								"NextMessageId": "202320007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Lo pagaste tú?",
+								"NextMessageId": "202320008"
+							}
+						]
+					},
+					"choice49": {
+						"Id": "choice49",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Guau!",
+								"NextMessageId": "202320022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Tan rápidas son tus manos?",
+								"NextMessageId": "202320024"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Necesito comprar huevos.",
+								"NextMessageId": "202320026"
+							}
+						]
+					},
+					"choice77": {
+						"Id": "choice77",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿?",
+								"NextMessageId": "202320036"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¡No has pagado!",
+								"NextMessageId": "202320038"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Crees que me faltan boletos?",
+								"NextMessageId": "202320040"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20233": {
+		"Id": "20233",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001",
+			"220"
+		],
+		"Sections": [
+			{
+				"Id": "2023300",
+				"StartingMessageId": "202330000",
+				"Messages": {
+					"202330000": {
+						"Id": "202330000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "m hice 1 programita q genera guiones",
+						"NextMessageId": "202330001"
+					},
+					"202330001": {
+						"Id": "202330001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "quiers jugar?",
+						"NextMessageId": "choice2"
+					},
+					"202330002": {
+						"Id": "202330002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Claro, ¿cómo se juega?",
+						"NextMessageId": "202330003"
+					},
+					"202330003": {
+						"Id": "202330003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "El simulador \"Escribe tu propio guion\" (versión sin Elio) se ha adjuntado en el chat.",
+						"NextMessageId": "202330004"
+					},
+					"202330004": {
+						"Id": "202330004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Selecciona un modo para comenzar la simulación:",
+						"NextMessageId": "choice6"
+					},
+					"202330005": {
+						"Id": "202330005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Modo clásico.",
+						"NextMessageId": "202330006"
+					},
+					"202330006": {
+						"Id": "202330006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Comienzo clásico: trasfondo -10, inteligencia -10, condición física -10, fuerza -10, vitalidad -10",
+						"NextMessageId": "202330007"
+					},
+					"202330007": {
+						"Id": "202330007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Guion de la vida de {NICKNAME}: \"He vuelto a la vida: mamá, ¡qué salvaje!\".",
+						"NextMessageId": "202330008"
+					},
+					"202330008": {
+						"Id": "202330008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Ahora, da el primer paso de tu vida.",
+						"NextMessageId": "choice15"
+					},
+					"202330009": {
+						"Id": "202330009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Quiero ser {F#la primera}{M#el primero} en subir al Expreso Astral! ¡Y ser {F#la revisora}{M#el revisor}!",
+						"NextMessageId": "202330010"
+					},
+					"202330010": {
+						"Id": "202330010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "De pequeñ{F#a}{M#o}, {NICKNAME} subió al Expreso Astral y se negó a bajar de él.",
+						"NextMessageId": "202330011"
+					},
+					"202330011": {
+						"Id": "202330011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Cuando era adolescente, {NICKNAME} pilotó el Expreso durante una crisis cósmica y sobrevivió de milagro.",
+						"NextMessageId": "202330012"
+					},
+					"202330012": {
+						"Id": "202330012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "En su juventud, {NICKNAME} fue víctima de una trampa tendida por un Eón y no pudo resistirse.",
+						"NextMessageId": "202330013"
+					},
+					"202330013": {
+						"Id": "202330013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "En la edad adulta, despertaron sus poderes y juró salvar el mundo.",
+						"NextMessageId": "202330014"
+					},
+					"202330014": {
+						"Id": "202330014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Nanook, muerto.",
+						"NextMessageId": "202330015"
+					},
+					"202330015": {
+						"Id": "202330015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Una historia fantástica?",
+						"NextMessageId": "202330046"
+					},
+					"202330016": {
+						"Id": "202330016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "\"No tuve el valor de dar el primer paso\".",
+						"NextMessageId": "202330017"
+					},
+					"202330017": {
+						"Id": "202330017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Fin.",
+						"NextMessageId": "202330018"
+					},
+					"202330018": {
+						"Id": "202330018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿?",
+						"NextMessageId": "202330019"
+					},
+					"202330019": {
+						"Id": "202330019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Algo no encaja...",
+						"NextMessageId": "202330020"
+					},
+					"202330020": {
+						"Id": "202330020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Espera, olvidé meter la frase icónica de Kafka.",
+						"NextMessageId": "202330021"
+					},
+					"202330021": {
+						"Id": "202330021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "\"Cuando tengas la oportunidad de tomar una decisión, toma una de la que sepas que no te arrepentirás\".",
+						"NextMessageId": "202330022"
+					},
+					"202330022": {
+						"Id": "202330022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Muy bien, vamos a ver la historia de tu vida...",
+						"NextMessageId": "202330023"
+					},
+					"202330023": {
+						"Id": "202330023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Durante la infancia de {NICKNAME}, el universo estaba en paz y {F#ella}{M#él} pasó hermosos momentos en Pegana.",
+						"NextMessageId": "202330024"
+					},
+					"202330024": {
+						"Id": "202330024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "En su juventud, cuando el universo estaba en crisis, {NICKNAME} logró sobrevivir gracias a sus orígenes y a la suerte.",
+						"NextMessageId": "202330025"
+					},
+					"202330025": {
+						"Id": "202330025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "En su juventud, {NICKNAME} fue víctima de una trampa tendida por un Eón y no pudo resistirse.",
+						"NextMessageId": "202330026"
+					},
+					"202330026": {
+						"Id": "202330026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Fin.",
+						"NextMessageId": "202330046"
+					},
+					"202330027": {
+						"Id": "202330027",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Modo sorpresa.",
+						"NextMessageId": "202330028"
+					},
+					"202330028": {
+						"Id": "202330028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Comienzo sorpresa: 10 tiradas de atributos de libre distribución: trasfondo -0, inteligencia -0, condición física -0, fuerza -0, vitalidad -50",
+						"NextMessageId": "202330029"
+					},
+					"202330029": {
+						"Id": "202330029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Guion de la vida de {NICKNAME}: \"He vuelto a la vida: soy {F#una lunática nata}{M#un lunático nato}\".",
+						"NextMessageId": "202330030"
+					},
+					"202330030": {
+						"Id": "202330030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Ahora, da el primer paso de tu vida.",
+						"NextMessageId": "choice16"
+					},
+					"202330031": {
+						"Id": "202330031",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Gracias por la invitación. Acabo de nacer y ya voy a enfrentarme a Nanook.",
+						"NextMessageId": "202330032"
+					},
+					"202330032": {
+						"Id": "202330032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "En su vida anterior, era bastante mediocre y estaba completamente indefens{F#a}{M#o}.",
+						"NextMessageId": "202330033"
+					},
+					"202330033": {
+						"Id": "202330033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "En esta vida, ha sido bendecid{F#a}{M#o} con un poder divino y pelea a toda potencia.",
+						"NextMessageId": "202330034"
+					},
+					"202330034": {
+						"Id": "202330034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Trasfondo infinito, inteligencia infinita, condición física infinita, fuerza infinita, vitalidad infinita",
+						"NextMessageId": "202330035"
+					},
+					"202330035": {
+						"Id": "202330035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME} derrota a Nanook de un solo golpe.",
+						"NextMessageId": "202330036"
+					},
+					"202330036": {
+						"Id": "202330036",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es una novela de fantasía? ¡¿Sin ni un solo obstáculo?!",
+						"NextMessageId": "202330046"
+					},
+					"202330037": {
+						"Id": "202330037",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "\"No tuve el valor de dar el primer paso\".",
+						"NextMessageId": "202330038"
+					},
+					"202330038": {
+						"Id": "202330038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Fin.",
+						"NextMessageId": "202330039"
+					},
+					"202330039": {
+						"Id": "202330039",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Cómo? ¿No tuve que hacer nada en absoluto?",
+						"NextMessageId": "202330040"
+					},
+					"202330040": {
+						"Id": "202330040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Espera, olvidé meter la frase icónica de Kafka.",
+						"NextMessageId": "202330041"
+					},
+					"202330041": {
+						"Id": "202330041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "\"Cuando tengas la oportunidad de tomar una decisión, toma una de la que sepas que no te arrepentirás\".",
+						"NextMessageId": "202330042"
+					},
+					"202330042": {
+						"Id": "202330042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Muy bien, vamos a ver la historia de tu vida...",
+						"NextMessageId": "202330043"
+					},
+					"202330043": {
+						"Id": "202330043",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{F#Una lunática nata}{M#Un lunático nato} desafía a Nanook con un bate de béisbol.",
+						"NextMessageId": "202330044"
+					},
+					"202330044": {
+						"Id": "202330044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "Nanook, muerto.",
+						"NextMessageId": "202330045"
+					},
+					"202330045": {
+						"Id": "202330045",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Ah, o sea que la palmó él.",
+						"NextMessageId": "202330046"
+					},
+					"202330046": {
+						"Id": "202330046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "q tal? t has divertido?",
+						"NextMessageId": "choice47"
+					},
+					"202330047": {
+						"Id": "202330047",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Quiero probar otra vez!",
+						"NextMessageId": "202330048"
+					},
+					"202330048": {
+						"Id": "202330048",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no tngas prisa, es la vrsión de prueba",
+						"NextMessageId": "202330053"
+					},
+					"202330049": {
+						"Id": "202330049",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿Y cuál es tu guion?",
+						"NextMessageId": "202330050"
+					},
+					"202330050": {
+						"Id": "202330050",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "q cuál es el mío?",
+						"NextMessageId": "202330051"
+					},
+					"202330051": {
+						"Id": "202330051",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "gano con cualquiera",
+						"NextMessageId": "202330052"
+					},
+					"202330052": {
+						"Id": "202330052",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no m envidies",
+						"NextMessageId": "202330053"
+					},
+					"202330053": {
+						"Id": "202330053",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "la próxima vez t daré acceso",
+						"NextMessageId": "202330054"
+					},
+					"202330054": {
+						"Id": "202330054",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "es tu guion",
+						"NextMessageId": "202330055"
+					},
+					"202330055": {
+						"Id": "202330055",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "pueds escribir lo q t dé la gana",
+						"NextMessageId": "202330056"
+					},
+					"202330056": {
+						"Id": "202330056",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "m voy a arreglar bugs, chao"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Claro.",
+								"NextMessageId": "202330002"
+							}
+						]
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Modo clásico.",
+								"NextMessageId": "202330005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Modo sorpresa.",
+								"NextMessageId": "202330027"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Ser {F#la primera}{M#el primero} en abordar el Expreso Astral.",
+								"NextMessageId": "202330009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "No tuve el valor de dar el primer paso.",
+								"NextMessageId": "202330016"
+							}
+						]
+					},
+					"choice16": {
+						"Id": "choice16",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Desafiar a Nanook.",
+								"NextMessageId": "202330031"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "No tuve el valor de dar el primer paso.",
+								"NextMessageId": "202330037"
+							}
+						]
+					},
+					"choice47": {
+						"Id": "choice47",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Quiero probar otra vez!",
+								"NextMessageId": "202330047"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Cuál es tu guion?",
+								"NextMessageId": "202330049"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20234": {
+		"Id": "20234",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023400",
+				"StartingMessageId": "202340000",
+				"Messages": {
+					"202340000": {
+						"Id": "202340000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "game over",
+						"NextMessageId": "202340001"
+					},
+					"202340001": {
+						"Id": "202340001",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127001.png",
+						"Text": "[Quiero ganar]",
+						"NextMessageId": "202340002"
+					},
+					"202340002": {
+						"Id": "202340002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "tiens 1 minuto?",
+						"NextMessageId": "202340003"
+					},
+					"202340003": {
+						"Id": "202340003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "verdad o reto",
+						"NextMessageId": "202340004"
+					},
+					"202340004": {
+						"Id": "202340004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "hazme 3 preguntas",
+						"NextMessageId": "202340005"
+					},
+					"202340005": {
+						"Id": "202340005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "q pueda respondr con sí o no",
+						"NextMessageId": "202340006"
+					},
+					"202340006": {
+						"Id": "202340006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "vamos",
+						"NextMessageId": "choice7"
+					},
+					"202340007": {
+						"Id": "202340007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que la Loba Insigne y Aha jugaron una partida una vez.",
+						"NextMessageId": "202340008"
+					},
+					"202340008": {
+						"Id": "202340008",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es verdad?",
+						"NextMessageId": "202340009"
+					},
+					"202340009": {
+						"Id": "202340009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí (?)",
+						"NextMessageId": "choice17"
+					},
+					"202340010": {
+						"Id": "202340010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que los Cazadores de Estelaron adoptaron a todos los gatos callejeros de un planeta abandonado.",
+						"NextMessageId": "202340011"
+					},
+					"202340011": {
+						"Id": "202340011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es verdad?",
+						"NextMessageId": "202340012"
+					},
+					"202340012": {
+						"Id": "202340012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí",
+						"NextMessageId": "202340013"
+					},
+					"202340013": {
+						"Id": "202340013",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Entonces todos ustedes son más de gatos?",
+						"NextMessageId": "202340014"
+					},
+					"202340014": {
+						"Id": "202340014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí, sí, sí, sí, sí",
+						"NextMessageId": "choice47"
+					},
+					"202340015": {
+						"Id": "202340015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿O sea que tienen a Elio muy mimado?",
+						"NextMessageId": "202340016"
+					},
+					"202340016": {
+						"Id": "202340016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340085"
+					},
+					"202340017": {
+						"Id": "202340017",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Y también se rumorea que los Cazadores de Estelaron le deben dinero al Expreso Astral.",
+						"NextMessageId": "202340018"
+					},
+					"202340018": {
+						"Id": "202340018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es cierto que nos deben dinero?",
+						"NextMessageId": "202340019"
+					},
+					"202340019": {
+						"Id": "202340019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340020"
+					},
+					"202340020": {
+						"Id": "202340020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "t regalo 1 +",
+						"NextMessageId": "202340021"
+					},
+					"202340021": {
+						"Id": "202340021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no puedo respondr esa pregunta, si tú lo dics, pues será",
+						"NextMessageId": "202340085"
+					},
+					"202340022": {
+						"Id": "202340022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que los Cazadores de Estelaron le deben dinero al Expreso Astral.",
+						"NextMessageId": "202340023"
+					},
+					"202340023": {
+						"Id": "202340023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es cierto que nos deben dinero?",
+						"NextMessageId": "202340024"
+					},
+					"202340024": {
+						"Id": "202340024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no puedo respondr esa pregunta, si tú lo dics, pues será",
+						"NextMessageId": "choice35"
+					},
+					"202340025": {
+						"Id": "202340025",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Picaste el anzuelo! ¿Y no habíamos dicho que vendríamos a cobrar de vez en cuando?",
+						"NextMessageId": "202340026"
+					},
+					"202340026": {
+						"Id": "202340026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no!",
+						"NextMessageId": "202340027"
+					},
+					"202340027": {
+						"Id": "202340027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ya van 3 preguntas",
+						"NextMessageId": "202340085"
+					},
+					"202340028": {
+						"Id": "202340028",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Y también se rumorea que los Cazadores de Estelaron adoptaron a todos los gatos callejeros de un planeta abandonado, ¿es verdad?",
+						"NextMessageId": "202340029"
+					},
+					"202340029": {
+						"Id": "202340029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí",
+						"NextMessageId": "202340030"
+					},
+					"202340030": {
+						"Id": "202340030",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Porque todos ustedes son más de gatos?",
+						"NextMessageId": "202340031"
+					},
+					"202340031": {
+						"Id": "202340031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340032"
+					},
+					"202340032": {
+						"Id": "202340032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "t regalo 1 +",
+						"NextMessageId": "202340033"
+					},
+					"202340033": {
+						"Id": "202340033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí, sí, sí, sí, sí",
+						"NextMessageId": "202340034"
+					},
+					"202340034": {
+						"Id": "202340034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿O sea que tienen a Elio muy mimado?",
+						"NextMessageId": "202340085"
+					},
+					"202340035": {
+						"Id": "202340035",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que los Cazadores de Estelaron adoptaron a todos los gatos callejeros de un planeta abandonado.",
+						"NextMessageId": "202340036"
+					},
+					"202340036": {
+						"Id": "202340036",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es verdad?",
+						"NextMessageId": "202340037"
+					},
+					"202340037": {
+						"Id": "202340037",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí",
+						"NextMessageId": "202340038"
+					},
+					"202340038": {
+						"Id": "202340038",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Entonces todos ustedes son más de gatos?",
+						"NextMessageId": "202340039"
+					},
+					"202340039": {
+						"Id": "202340039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí, sí, sí, sí, sí",
+						"NextMessageId": "202340040"
+					},
+					"202340040": {
+						"Id": "202340040",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿O sea que tienen a Elio muy mimado?",
+						"NextMessageId": "choice31"
+					},
+					"202340041": {
+						"Id": "202340041",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que la Loba Insigne y Aha jugaron una partida una vez, ¿es verdad?",
+						"NextMessageId": "202340042"
+					},
+					"202340042": {
+						"Id": "202340042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí (?)",
+						"NextMessageId": "choice50"
+					},
+					"202340043": {
+						"Id": "202340043",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¿Ganaste?",
+						"NextMessageId": "202340044"
+					},
+					"202340044": {
+						"Id": "202340044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340085"
+					},
+					"202340045": {
+						"Id": "202340045",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Y también se rumorea que los Cazadores de Estelaron le deben dinero al Expreso Astral.",
+						"NextMessageId": "202340046"
+					},
+					"202340046": {
+						"Id": "202340046",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es cierto que nos deben dinero?",
+						"NextMessageId": "202340047"
+					},
+					"202340047": {
+						"Id": "202340047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340085"
+					},
+					"202340048": {
+						"Id": "202340048",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que los Cazadores de Estelaron le deben dinero al Expreso Astral.",
+						"NextMessageId": "202340049"
+					},
+					"202340049": {
+						"Id": "202340049",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es cierto que nos deben dinero?",
+						"NextMessageId": "202340050"
+					},
+					"202340050": {
+						"Id": "202340050",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no puedo respondr esa pregunta, si tú lo dics, pues será",
+						"NextMessageId": "choice61"
+					},
+					"202340051": {
+						"Id": "202340051",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Picaste el anzuelo! ¿Y no habíamos dicho que vendríamos a cobrar de vez en cuando?",
+						"NextMessageId": "202340052"
+					},
+					"202340052": {
+						"Id": "202340052",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340085"
+					},
+					"202340053": {
+						"Id": "202340053",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "También se rumorea que la Loba Insigne y Aha jugaron una partida una vez, ¿es verdad?",
+						"NextMessageId": "202340054"
+					},
+					"202340054": {
+						"Id": "202340054",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340055"
+					},
+					"202340055": {
+						"Id": "202340055",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "t regalo 1 +",
+						"NextMessageId": "202340056"
+					},
+					"202340056": {
+						"Id": "202340056",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí (?)",
+						"NextMessageId": "202340085"
+					},
+					"202340057": {
+						"Id": "202340057",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que los Cazadores de Estelaron le deben dinero al Expreso Astral.",
+						"NextMessageId": "202340058"
+					},
+					"202340058": {
+						"Id": "202340058",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es cierto que nos deben dinero?",
+						"NextMessageId": "202340059"
+					},
+					"202340059": {
+						"Id": "202340059",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "¿?",
+						"NextMessageId": "202340060"
+					},
+					"202340060": {
+						"Id": "202340060",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no puedo respondr esa pregunta, si tú lo dics, pues será",
+						"NextMessageId": "choice23"
+					},
+					"202340061": {
+						"Id": "202340061",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "¡Picaste el anzuelo! ¿Y no habíamos dicho que vendríamos a cobrar de vez en cuando?",
+						"NextMessageId": "202340062"
+					},
+					"202340062": {
+						"Id": "202340062",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no!",
+						"NextMessageId": "202340063"
+					},
+					"202340063": {
+						"Id": "202340063",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Está bien.",
+						"NextMessageId": "choice45"
+					},
+					"202340064": {
+						"Id": "202340064",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "También se rumorea que la Loba Insigne y Aha jugaron una partida una vez, ¿es verdad?",
+						"NextMessageId": "202340065"
+					},
+					"202340065": {
+						"Id": "202340065",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí (?)",
+						"NextMessageId": "202340066"
+					},
+					"202340066": {
+						"Id": "202340066",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Ganaste?",
+						"NextMessageId": "202340067"
+					},
+					"202340067": {
+						"Id": "202340067",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340085"
+					},
+					"202340068": {
+						"Id": "202340068",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Y también se rumorea que los Cazadores de Estelaron adoptaron a todos los gatos callejeros de un planeta abandonado, ¿es verdad?",
+						"NextMessageId": "202340069"
+					},
+					"202340069": {
+						"Id": "202340069",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí",
+						"NextMessageId": "202340070"
+					},
+					"202340070": {
+						"Id": "202340070",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Porque todos ustedes son más de gatos?",
+						"NextMessageId": "202340071"
+					},
+					"202340071": {
+						"Id": "202340071",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340072"
+					},
+					"202340072": {
+						"Id": "202340072",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "t regalo 1 +",
+						"NextMessageId": "202340073"
+					},
+					"202340073": {
+						"Id": "202340073",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí, sí, sí, sí, sí",
+						"NextMessageId": "202340074"
+					},
+					"202340074": {
+						"Id": "202340074",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿O sea que tienen a Elio muy mimado?",
+						"NextMessageId": "202340085"
+					},
+					"202340075": {
+						"Id": "202340075",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Se rumorea que los Cazadores de Estelaron adoptaron a todos los gatos callejeros de un planeta abandonado.",
+						"NextMessageId": "202340076"
+					},
+					"202340076": {
+						"Id": "202340076",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Es verdad?",
+						"NextMessageId": "202340077"
+					},
+					"202340077": {
+						"Id": "202340077",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí",
+						"NextMessageId": "202340078"
+					},
+					"202340078": {
+						"Id": "202340078",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿Entonces todos ustedes son más de gatos?",
+						"NextMessageId": "202340079"
+					},
+					"202340079": {
+						"Id": "202340079",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí, sí, sí, sí, sí",
+						"NextMessageId": "202340080"
+					},
+					"202340080": {
+						"Id": "202340080",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "¿O sea que tienen a Elio muy mimado?",
+						"NextMessageId": "choice75"
+					},
+					"202340081": {
+						"Id": "202340081",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "También se rumorea que la Loba Insigne y Aha jugaron una partida una vez, ¿es verdad?",
+						"NextMessageId": "202340082"
+					},
+					"202340082": {
+						"Id": "202340082",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3 preguntas, ya stá",
+						"NextMessageId": "202340083"
+					},
+					"202340083": {
+						"Id": "202340083",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "t regalo 1 +",
+						"NextMessageId": "202340084"
+					},
+					"202340084": {
+						"Id": "202340084",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "sí (?)",
+						"NextMessageId": "202340085"
+					},
+					"202340085": {
+						"Id": "202340085",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ya stá",
+						"NextMessageId": "202340086"
+					},
+					"202340086": {
+						"Id": "202340086",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "no + preguntas",
+						"NextMessageId": "202340087"
+					},
+					"202340087": {
+						"Id": "202340087",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "stá claro q los retos me van +",
+						"NextMessageId": "202340088"
+					},
+					"202340088": {
+						"Id": "202340088",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ahora viene mi contraataq",
+						"NextMessageId": "202340089"
+					},
+					"202340089": {
+						"Id": "202340089",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127003.png",
+						"Text": "[Genial]",
+						"NextMessageId": "202340090"
+					},
+					"202340090": {
+						"Id": "202340090",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "victoria asegurada"
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Según los rumores, la Loba Insigne...",
+								"NextMessageId": "202340007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Según los rumores, los Cazadores de Estelaron...",
+								"NextMessageId": "202340035"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Según los rumores, el Expreso Astral...",
+								"NextMessageId": "202340057"
+							}
+						]
+					},
+					"choice17": {
+						"Id": "choice17",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Según los rumores, los Cazadores de Estelaron...",
+								"NextMessageId": "202340010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Según los rumores, el Expreso Astral...",
+								"NextMessageId": "202340022"
+							}
+						]
+					},
+					"choice23": {
+						"Id": "choice23",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Picaste el anzuelo!",
+								"NextMessageId": "202340061"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "(Preguntar otra cosa).",
+								"NextMessageId": "202340075"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores de que la Loba Insigne...",
+								"NextMessageId": "202340041"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Según los rumores, el Expreso Astral...",
+								"NextMessageId": "202340048"
+							}
+						]
+					},
+					"choice35": {
+						"Id": "choice35",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Picaste el anzuelo!",
+								"NextMessageId": "202340025"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores de que ustedes...",
+								"NextMessageId": "202340028"
+							}
+						]
+					},
+					"choice45": {
+						"Id": "choice45",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores de que la Loba Insigne...",
+								"NextMessageId": "202340064"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores de que ustedes...",
+								"NextMessageId": "202340068"
+							}
+						]
+					},
+					"choice47": {
+						"Id": "choice47",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Tienen a Elio muy mimado?",
+								"NextMessageId": "202340015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Y según los rumores, el Expreso Astral...",
+								"NextMessageId": "202340017"
+							}
+						]
+					},
+					"choice50": {
+						"Id": "choice50",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¿Ganaste?",
+								"NextMessageId": "202340043"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores que dicen...",
+								"NextMessageId": "202340045"
+							}
+						]
+					},
+					"choice61": {
+						"Id": "choice61",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "¡Picaste el anzuelo!",
+								"NextMessageId": "202340051"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores de que la Loba Insigne...",
+								"NextMessageId": "202340053"
+							}
+						]
+					},
+					"choice75": {
+						"Id": "choice75",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "También hay rumores que dicen...",
+								"NextMessageId": "202340081"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"20998": {
 		"Id": "20998",

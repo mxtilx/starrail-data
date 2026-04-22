@@ -209,6 +209,16 @@
 		"Description": "Nhà Khai Phá bước lên Vận Mệnh Ký Ức",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "Thế Là, Phải Có Tiếng Cười",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "Tôi, Nhà Khai Phá",
+		"Description": "Nhà Khai Phá bước lên Vận Mệnh \"Vui Vẻ\"",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "Hướng Dẫn Hành Khách Ngân Hà",
@@ -2099,6 +2109,83 @@
 		"Description": "Ngài nói thế, bạn nghe vậy\n<color=#8790abff>※ Lắng nghe Ảo Nguyệt phát biểu tuyên ngôn cuồng loạn</color>",
 		"HiddenDescription": "Ngài nói thế, bạn nghe vậy",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "Hành Trình Công Sở",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Không có cách di chuyển nào đặc biệt sao?\n<color=#8790abff>※Đi tàu điện giải cứu thế giới</color>",
+		"HiddenDescription": "Không có cách di chuyển nào đặc biệt sao?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "Lời Tuyên Án Của Người Phán Quyết",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Tượng trưng cho thân phận của người phán quyết\n<color=#8790abff>※Evanescia đã lấy lại thước đao của cô ấy</color>",
+		"HiddenDescription": "Tượng trưng cho thân phận của người phán quyết",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "Người Bệnh Tâm Thần Thiên Đường Vui Vẻ",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Không ai quan tâm bạn nghĩ gì, cho đến khi bạn quyết định hủy diệt thế giới\n<color=#8790abff>※Bước vào \"vết nứt\" trong lòng Fulwish.</color>",
+		"HiddenDescription": "Không ai quan tâm bạn nghĩ gì, cho đến khi bạn quyết định hủy diệt thế giới",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "Vui Vẻ Đến Chết",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Hoặc vui vẻ, hoặc là chết\n<color=#8790abff>※Chứng kiến Bệnh Dịch Huyễn Tạo \"Lạc Biến Thiên Nhân\" bùng phát</color>",
+		"HiddenDescription": "Hoặc vui vẻ, hoặc là chết",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "Người Chơi Hàng Đầu Vũ Trụ",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Thà tử trận dưới tay kẻ khốn, còn hơn được chúng ngợi ca\n<color=#8790abff>※Thực ra, cũng không ai muốn tử trận dưới tay kẻ khốn cả</color>",
+		"HiddenDescription": "Thà tử trận dưới tay kẻ khốn, còn hơn được chúng ngợi ca",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "Cái Chết Của Ma Báo Tử",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Kẻ tuyên bố cái chết, cái chết cũng tuyên bố tên hắn\n<color=#8790abff>※Đánh bại \"Ma Báo Tử\" mới</color>",
+		"HiddenDescription": "Kẻ tuyên bố cái chết, cái chết cũng tuyên bố tên hắn",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "Gió Báo Hoa Nở",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Cô ấy lướt qua tựa cánh hoa trong gió\n<color=#8790abff>※Nhận ủy thác của Evanescia</color>",
+		"HiddenDescription": "Cô ấy lướt qua tựa cánh hoa trong gió",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Khám Phá Bí Ẩn",
-		"Description": "Trong \"Thời Khắc Jump\" của \"JUMP Không Gian 2D!\" tại Ga Perdido, liên tục thay đổi trọng lực, khiến Bụi Linh nhảy qua nhảy lại",
+		"Description": "Trong \"JUMP Không Gian 2D!\" tại Ga Perdido, liên tục thay đổi trọng lực, khiến Bụi Linh nhảy qua nhảy lại",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "Khám Phá Bí Ẩn",
 		"Description": "Diễn tấu Chương Nhạc Kỳ Dị, tìm ra sinh vật bí ẩn ẩn náu tại trạm Tháp Canh Cloudisle",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "Phần Đời Còn Lại Đều Là Kỳ Nghỉ",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Tích lũy thu thập #1 Bụi Linh Vô Danh của \"Thỏ Đường Ray Tinh Cầu\"",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "Quả Cầu Sắt Của Galileo",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Hoàn thành \"Thời Khắc Jump\" trên nóc đài truyền hình, nhảy từ tầng cao nhất xuống sảnh phỏng vấn",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "Nghệ Sĩ Piano Trên Tháp",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Lấy tất cả nốt nhạc trong \"Thời Khắc Jump\" trên nóc đài truyền hình",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "Chẳng Phải Thích Khách, Không Có Tín Điều",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Đến nơi cao nhất của Tháp Truyền Hình Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "Linh Hồn Bị Trọng Lực Trói Buộc",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Trong \"JUMP Không Gian 2D!\", duy trì trạng thái không chạm đất và liên tục chạm vào đường trọng lực 10 lần",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "Bậc Thầy Bowling",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Trong \"JUMP Không Gian 2D!\" dùng Trợ Thủ Robot tông bay Linh Thể Nhím hoặc Linh Thể Lơ Lửng",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "Cạn Ly Vì Đôi Mắt Của Bạn",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Hoàn thành ải Pha Chế trong \"JUMP Không Gian 2D!\" của Tháp Truyền Hình Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "Bên Kia Biển Là Hàng Xóm",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Đến khu dân cư bên kia bờ biển trong \"JUMP Không Gian 2D!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "Khúc Nhạc Của Orpheus",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Tấu nhạc trong \"JUMP Không Gian 2D!\", xua tan sương mù trên hòn đảo thần bí",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "Trốn Việc Chính Là Làm Việc",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Trong \"JUMP Không Gian 2D!\", cưỡi Trợ Thủ Robot lướt trên mặt nước",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "Sức Nặng Khó Chống Đỡ",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Trong \"JUMP Không Gian 2D!\", bị Waldundun hoặc PiPinTun chèn ép dẫn đến game thất bại",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "Kỳ Binh Đoạt Đảo",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Leo lên đỉnh đảo nhỏ thần bí đầu tiên trong cuộc đua bóng của \"JUMP Không Gian 2D!\" tại Thành Phố Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "Boomerang",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Trong \"JUMP Không Gian 2D!\" bắn cung tên trúng bản thân",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "Cỗ Máy Điều Khiển Tối Thượng",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Trong \"JUMP Không Gian 2D!\", cưỡi Trợ Thủ Nhỏ vượt qua chướng ngại vật gai nhọn",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "Trợ Thủ Nhỏ, Tiến Hóa!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Mở khóa sức mạnh chuyên biệt của Trợ Thủ Robot trong \"JUMP Không Gian 2D!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "Biến Tấu Thiên Đường Vui Vẻ: Công Chúa Bóng Tròn",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Diễn tấu Chương Nhạc Kỳ Dị, tìm ra sinh vật bí ẩn ẩn náu tại Tháp Truyền Hình Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "Biến Tấu Thiên Đường Vui Vẻ: Khúc Ca Capybara",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Diễn tấu Chương Nhạc Kỳ Dị, tìm ra sinh vật bí ẩn ẩn náu tại Thành Phố Seafeld",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
-		"Description": "Ngắm nhìn tất cả vật sưu tầm trong phòng mình",
+		"Description": "Bố trí #1 vật kỷ niệm tại khu \"Mô Hình Kỷ Niệm\" của Tủ Trưng Bày",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11953,6 +12210,219 @@
 		"Description": "Vượt ải chế độ \"Khiêu Chiến Ma Vương\"",
 		"VersionAdded": "4.1"
 	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "Dẫu Xa Ắt Diệt",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Giao hung thủ sát hại Skott cho Liên Minh Xianzhou\n<color=#8790abff>※Hy vọng cô ấy sẽ quen với đồ ăn ở Nhà Giam Xiềng Xích</color>",
+		"HiddenDescription": "Giao hung thủ sát hại Skott cho Liên Minh Xianzhou",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "Nguyên Tắc Địa Bàn",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Giao hung thủ sát hại Skott cho Bộ Phận Đầu Tư Chiến Lược\n<color=#8790abff>※Như chưa từng có chuyện gì xảy ra</color>",
+		"HiddenDescription": "Giao hung thủ sát hại Skott cho Bộ Phận Đầu Tư Chiến Lược",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "Ân Oán Giang Hồ",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Giao hung thủ sát hại Skott cho công lý\n<color=#8790abff>※ \"Nếu cô ta không biết cách cư xử, thì bạn hãy giúp cô ta biết cách cư xử.\"</color>",
+		"HiddenDescription": "Giao hung thủ sát hại Skott cho công lý",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "Ký Ức Chưa Biết",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Hoàn thành điều tra sân ga Đội Tàu trên nước",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "Bộ Phận Anti-Meme Không Tồn Tại",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Điều tra máy tính trong nhà kho đài truyền hình",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "Thế Nào Là Anh Hùng",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Hội ngộ Chiến Binh Tro Tàn tại đài truyền hình",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "Sự Tu Dưỡng Của Diễn Viên",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Hoàn thành đối thoại lần đầu gặp gia đình Ploo",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "Cho Nên Tình Yêu Sẽ Biến Mất, Đúng Không?",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Lắng nghe lý do người qua đường bịa ra để trốn gặp mặt phụ huynh",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "Thời Đại Cửu Tử Đoạt Ngôi",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Gia đình furbo chúng ta đúng là ngày càng hưng thịnh rồi!\n<color=#8790abff>※ \"Tuần Báo Furbobo\" chính thức có #1 Phóng Viên Furbo thường trú</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "Một Tôi Khác Trên Thế Giới",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong Toa Tiệc Tùng Co-Op, gặp gỡ Nhà Khai Phá khác",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "Hội Yêu Tàu Khai Phá",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Ghé thăm Toa Tiệc Tùng Co-Op của #1 Nhà Khai Phá khác",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Lệnh Sứ \"Khai Phá\" Meo Meo",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Nhận được Món Quà Của \"Akivimeow\"",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "Thợ Săn Tiệc Tùng",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Đã bắt được Tạo Vật từ mọi điểm ẩn nấp trong Toa Tiệc Tùng",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "Bữa Tối Cuối Cùng",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Đặt #1 Tạo Vật giống nhau tại Khu Bố Trí Tạo Vật",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "Nhà Vạn Vật Học",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Thu thập đủ #1 Tạo Vật trong \"Ghi Chép Quan Sát Tạo Vật\"",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "Xúc Xắc May Mắn! Khởi Đầu Tốt Lành!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong cách chơi Băng Lực Chiến Vũ Trụ, tích lũy thu thập #1 Xúc Xắc Rực Rỡ từ \"Gói Mở Rộng 2\"",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "Xúc Xắc Của Bạn Rất Muốn Đến Nhà Tôi",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!\", tích lũy đổi xúc xắc #1 lần",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "Ba Lần Cùng Lúc",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!\", sử dụng liên tục #1 Thẻ Chiến Thuật trong 1 hiệp",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "Sát Thương Size XL",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!\", gây #1 điểm sát thương trong 1 hiệp",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "\"Tuần Báo Furbobo\" Tiến Lên",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!\", đại diện \"Tuần Báo Furbobo\" đánh bại top 5 bảng xếp hạng Phố Thương Mại Thành Phố Seafeld: \"Seafeld Ngũ Kiệt\"",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "Chơi Xúc Xắc Đệ Nhất Vũ Trụ",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!\", hoàn thành trận quyết đấu cuối cùng với Sói Bạc LV.999",
+		"VersionAdded": "4.2"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Trăm Ảnh Thoáng Qua 1",
@@ -14548,7 +15018,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Chiến Ý Sục Sôi",
-		"Description": "Khi toàn bộ nhân vật phe ta ở trạng thái Phần Trăm HP tối đa thấp hơn#1%, tiêu diệt \"Người Đưa Hồn, Xác Rồng Tử Vong, Pollux\"",
+		"Description": "Khi toàn bộ nhân vật phe ta ở trạng thái Phần Trăm HP tối đa thấp hơn #1%, tiêu diệt \"Người Đưa Hồn, Xác Rồng Tử Vong, Pollux\"",
 		"VersionAdded": "3.2"
 	},
 	"4074209": {
@@ -15181,6 +15651,16 @@
 		"Description": "Aha thi triển \"Phải Có Tiếng Cười\" tiêu diệt #1 kẻ địch",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "Ngày Kỳ Diệu Hân Hoan",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Giành chiến thắng trong trường hợp trong trận có #1 nhân vật Vận Mệnh Vui Vẻ",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "Ba Chàng Lính Ngự Lâm",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "Chiến Ý Sục Sôi",
 		"Description": "Trong một trận chiến với \"Giáp Máy Hợp Kim-Vua Pom-Pom\", kích hoạt ít nhất #1 lần hiệu ứng \"Sáng Loáng\" của \"Bong Bóng Xà Phòng Cực Mạnh\"",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "Đừng Ai Cau Có",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong một trận chiến, dùng Nhà Khai Phá vận mệnh \"Vui Vẻ\" tích lũy thi triển 1 lần Tuyệt Kỹ lên #1 đồng đội khác nhau",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "Cảm Ơn Tặng Thưởng",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong một trận chiến, dùng Nhà Khai Phá vận mệnh \"Vui Vẻ\" tích lũy thi triển #1 lần Tuyệt Kỹ lên Sparxie",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "Top <unbreak>500</unbreak> Gọi Vốn",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong một trận chiến, tổng số \"Việc Tốt Đáng Thưởng\" mà Evanescia nhận từ các đồng đội khác thông qua Thiên Phú \"Thanh Xuân - Tuổi Trẻ Vô Hạn\" vượt quá #1",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "Trò Hay Không Sợ Nhiều",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Dùng nhân vật Evanescia phe ta thi triển Tuyệt Kỹ khi số lượng \"Việc Tốt Đáng Thưởng\" đạt #1",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "Đừng Đùa Nữa, Quý Cô Kafka",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Kích hoạt \"McAwolfee 999\" của Sói Bạc LV.999, giải trừ trạng thái \"Chi Phối\" do \"Thợ Săn Stellaron - Kafka\" thi triển",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "Danh Sách Trang Bị",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong một hiệp, đồng đội kích hoạt #1 loại \"Túi Mù Tiếp Tế Cực Phẩm\" khác nhau của Sói Bạc LV.999",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "Sói Già Phố Tài Chính",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Sử dụng Bí Kỹ \"Ôi Bạn Ơi, Đây Mới Là Bí Kỹ Tier 0\" của Sói Bạc LV.999 ăn #1 Xu Vàng trong 1 lần",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "Nguy Cơ Sinh Hóa",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong trận chiến với \"Cực Lạc Điên Đảo - Tà Nguyện Liên Hoa Chủ\", nhân vật phe ta sau khi bị chuyển hóa thành \"Con Rối Hạnh Phúc\" gây \"Đòn Đánh Chính Xác\" đánh bại mục tiêu bất kỳ",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "Max Điểm Tỉnh Táo",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong trận chiến với \"Cực Lạc Điên Đảo - Tà Nguyện Liên Hoa Chủ\", không có nhân vật nào bị chuyển hóa thành \"Con Rối Hạnh Phúc\" do kích hoạt \"Hạnh Phúc\"",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "Sự Kết Thúc Của Niềm Vui",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong trận chiến với \"Lạc Biến Thiên Nhân\", 1 lần tấn công tiêu diệt cùng lúc từ #1 \"Lạc Biến Thiên Nhân - Kết Thúc\" trở lên",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

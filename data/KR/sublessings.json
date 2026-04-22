@@ -8119,6 +8119,20 @@
 		"Effect": "애쉬베일이 차분화 우주에서 피해가 증폭된다.\n\nHP 백분율이 <color=#f29e38ff>50%</color> 미만인 적에게 가하는 최종 피해가 <color=#f29e38ff>30%</color> 증가하며, 추가 공격 피해일 경우 추가로 <color=#f29e38ff>15%</color> 증가한다",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "에바네시아",
+		"Rarity": 1,
+		"Effect": "에바네시아가 차분화 우주에서 피해가 증폭된다.\n\n[훌륭한 솜씨에는 보상을] 보유 시, 자신이 가하는 최종 피해가 <color=#f29e38ff>15%</color> 증가하고, [훌륭한 솜씨에는 보상을]이 <color=#f29e38ff>100</color>pt 이상일 경우 가하는 최종 피해가 추가로 <color=#f29e38ff>15%</color> 증가한다",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "은랑 LV.<unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "은랑 LV.999가 차분화 우주에서 피해가 증폭된다.\n\n아하 턴 시작 시 웃음 포인트 1pt당 은랑 LV.999의 환락도를 <color=#f29e38ff>0.5%</color> 증가시키며, 다음 아하 턴이 시작될 때까지 지속된다",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "{NICKNAME}이(가) 차분화 우주에서 피해가 증폭된다.\n\n가하는 최종 피해가 <color=#f29e38ff>15%</color> 증가하고, 전투 진입 시 에너지 최대치의 <color=#f29e38ff>50%</color>만큼 에너지를 회복한다",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}이(가) 차분화 우주에서 피해가 증폭된다.\n\n필드에 있을 시, 아군의 환락도가 <color=#f29e38ff>12%</color> 증가한다",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}이(가) 차분화 우주에서 피해가 증폭된다.\n\n필드에 있을 시, 아군의 환락도가 <color=#f29e38ff>12%</color> 증가한다",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",

@@ -209,6 +209,16 @@
 		"Description": "Tread on the Path of Remembrance",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "So, Let There Be Laughter",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "I, Trailblazer",
+		"Description": "Tread on the Path of Elation",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "The Express Passenger's Guide to the Galaxy",
@@ -2099,6 +2109,83 @@
 		"Description": "THEY say it, you hear it\n<color=#8790abff>※ Listen to the Phantasmoon's crazed declaration</color>",
 		"HiddenDescription": "THEY say it, you hear it",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "Scenic Route to Work",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Isn't there a cooler way to get around?\n<color=#8790abff>※ Board the train and save the world</color>",
+		"HiddenDescription": "Isn't there a cooler way to get around?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "Arbiter's Verdict",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Symbol of the Arbiter's Authority\n<color=#8790abff>※ Evanescia has reclaimed her ruler blade</color>",
+		"HiddenDescription": "Symbol of the Arbiter's Authority",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "Arcadian Psycho",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "No one cares what you think... until you decide to tear the world apart\n<color=#8790abff>※ Enter the \"Rift\" within Fulwish's heart</color>",
+		"HiddenDescription": "No one cares what you think... until you decide to tear the world apart",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "Amusing Ourselves to Death",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Either laugh, or die\n<color=#8790abff>※ Witness the outbreak of the imagenesis plague \"Joy Ascendant\"</color>",
+		"HiddenDescription": "Either laugh, or die",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "Cosmic Top Player",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Better to die by at the hands of a Meanie than to be honored by the likes of them\n<color=#8790abff>※ Though honestly, no one wants to die at the hands of a Meanie</color>",
+		"HiddenDescription": "Better to die by at the hands of a Meanie than to be honored by the likes of them",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "Death of the Herald of Death",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Those who proclaim death shall themselves be claimed by death\n<color=#8790abff>※ Defeat the new Herald of Death</color>",
+		"HiddenDescription": "Those who proclaim death shall themselves be claimed by death",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "Zephyr of Blossoms",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Gone with the blossom on the breeze\n<color=#8790abff>※ Accept Evanescia's request</color>",
+		"HiddenDescription": "Gone with the blossom on the breeze",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Fathom the Unfathomable",
-		"Description": "In the \"Jump Time\" of \"Interplanar Jump!\" at Perdido Station, repeatedly change gravity to make the wispae bounce back and forth",
+		"Description": "In the \"Interplanar Jump!\" at Perdido Station, repeatedly change gravity to make the wispae bounce back and forth",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "Fathom the Unfathomable",
 		"Description": "Play a Bizarre Melody to find the mysterious creature hiding on Lookout Cloud Station",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "Holiday for the Rest of My Life",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Collect #1 Star Rabbit's Nameless Wispae in total",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "Galileo's Iron Ball",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Complete \"Jump Time\" on the TV station rooftop and leap from the top all the way down to the interview hall",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "The Legend of the Tower",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Collect all Music Notes during \"Jump Time\" on the TV station rooftop",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "No Assassin, No Creed",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Reach the very top of Seafeld TV Tower",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "Souls Bound by Gravity",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "In \"Interplanar Jump!\", stay airborne and touch the Gravity Line 10 times in a row",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "Bowling Master",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "In \"Interplanar Jump!\", use a HelpBot to send Hedgehogae or Floatspirit flying",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "A Toast to Your Eyes",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Complete the Drink-Mixing stage in \"Interplanar Jump!\" at the Seafeld TV Tower",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "Beyond the Sea, the Neighbors",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Reach the residential zone across the sea in \"Interplanar Jump!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "Orpheus' Lyre",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Play music during \"Interplanar Jump!\" to dispel the fog shrouding the mysterious island",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "Slacking Off Is Working",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Ride the HelpBot across the water's surface during \"Interplanar Jump!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "Unbearable Weight",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Fail the game after being squashed by Waldundun or PiPinTuns in \"Interplanar Jump!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "Raiders of the Lost Isle",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Be the first to reach the summit of the mysterious island in Seafeld City's \"Interplanar Jump!\" shadow race",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "Boomerang",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Fire and get hit by your own bow and arrow during \"Interplanar Jump!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "Ultimate Driving Machine",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Ride the HelpBot through the spiked obstacles during \"Interplanar Jump!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "HelpBot, Evolution!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Unlock the HelpBot's exclusive ability during \"Interplanar Jump!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "Arcadia Variation: Orb Princess",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Play a Bizarre Melody to find the mysterious creature hiding in the Seafeld TV Tower",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "Arcadia Variation: Song of the Capybara",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Play a Bizarre Melody and find the mysterious creature hiding in Seafeld City",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "The Memories We Share",
-		"Description": "View all collections in your room",
+		"Description": "Place #1 souvenirs in the Commemorative Figure area of the Collection Showcase feature",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11652,7 +11909,7 @@
 	},
 	"4055024": {
 		"Id": "4055024",
-		"Name": "A——men!",
+		"Name": "A-Door-Able!",
 		"SortOrder": 354,
 		"Rarity": "Low",
 		"SeriesId": 5,
@@ -11952,6 +12209,219 @@
 		"SeriesText": "The Memories We Share",
 		"Description": "Complete the Demon King Challenge",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "Hunt to the Ends",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Hand over Skott's killer to the Xianzhou Alliance\n<color=#8790abff>※ Hope the food in Shackling Prison grows on her</color>",
+		"HiddenDescription": "Hand over Skott's killer to the Xianzhou Alliance",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "Territorial Principle",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Hand over Skott's killer to the Strategic Investment Department\n<color=#8790abff>※ As if nothing ever happened</color>",
+		"HiddenDescription": "Hand over Skott's killer to the Strategic Investment Department",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "Tangled Web of Enmity",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Bring Skott's killer to justice\n<color=#8790abff>※ \"If she won't act right, you help her act right.\"</color>",
+		"HiddenDescription": "Bring Skott's killer to justice",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "Unknown Memory",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Complete the investigation of the Buoyant Express Platform",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "The Antimemetics Division Does Not Exist",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Investigate the computer in the TV station's storage room",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "What Makes a Hero",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Reunite with the Cinderborne Warrior at the TV station",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "An Actor Prepares",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Complete the first meeting dialogue with the Ploo Family",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "So Love Fades, Huh?",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Listen to a passerby making excuses to avoid meeting the parents",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "Furbo-cession",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Look at us! Our furbo family is booming!\n<color=#8790abff>※ <i>Furbobo Weekly</i> now officially has #1 permanent furbo journalists on staff</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "Another Me in This World",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Meet other Trailblazers in the Co-Op Party Car",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "Trailblazer Express Club",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Visit #1 other Trailblazers' Co-Op Party Car",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Meow-velous Emanator of the Trailblaze",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Receive Akivimeow's Gift",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "Party Hunter",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Catch a creation from every hiding spot in the Party Car",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "The Last Supper",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Place #1 identical creations in the Creation Placement Zone",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "Naturalist",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Collect #1 creations in the Creation Observation Record",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "Lucky Dice! Lucky Start!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In Cosmicon Collective, collect #1 Prismatic Dice from Expansion Pack II in total",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "Your Dice Miss My Place",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Cosmicon, Roll On Again!\", swap dice #1 times in total",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "Triple-Cast",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Cosmicon, Roll On Again!\", use #1 Tactics Cards consecutively in a single turn",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "DMG (XL)",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Deal #1 DMG in a single turn in \"Cosmicon, Roll On Again!\"",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "<i>Furbobo Weekly</i> Dash",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Cosmicon, Roll On Again!\", represent <i>Furbobo Weekly</i> and defeat the top five on the Seafeld City Commerce Street leaderboard: the \"Seafeld Five\"",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "Cosmic Top Die",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Complete the final showdown with Silver Wolf LV.999 in \"Cosmicon, Roll On Again!\"",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "Aha uses \"Let There Be Laughter\" to defeat #1 enemies",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "Delightfully Bizarre Day",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Win a battle while deploying #1 Elation characters",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "The Three Musketeers",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "Eager for Battle",
 		"Description": "Trigger the \"Shiny\" effect of Potent Foam Soap at least #1 time(s) in a single battle against Alloy Mechatron: King Pom-Pom",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "No Frowns Allowed",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In a single battle, use Trailblazer (Elation)'s Ultimate on #1 different teammates once each",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "Thanks for the Tip",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In a single battle, use Trailblazer (Elation)'s Ultimate on Sparxie #1 times in total",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "Fundraiser <unbreak>500</unbreak>",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In a single battle, the total number of \"Certified Banger\" stacks Evanescia obtains from other teammates via her Talent \"Youth: Halcyon Evermore\" exceeds #1",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "Never Too Much of a Good Thing",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Use ally character Evanescia's Ultimate when the number of \"Certified Banger\" stacks reaches #1",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "Not Today, Miss Kafka",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Trigger Silver Wolf LV.999's \"McAwolfee 999\" to dispel the \"Dominance\" state inflicted by Stellaron Hunter, Kafka",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "Gear List",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In a single turn, teammates trigger #1 types of Silver Wolf LV.999's \"Top Loot Box\" effects",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "The Wolf of Finance Street",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Use Silver Wolf LV.999's \"This? Absolute Meta!\" Technique to gain #1 Gold Coins in one go",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "Marionette Evil",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In the battle against \"Paramount Bliss Inverted: Illwish Archlotus,\" an ally character is converted into a \"Happiness Puppet,\" then deals \"Right on Target\" and defeats any target",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "Full Sanity",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In the battle against \"Paramount Bliss Inverted: Illwish Archlotus,\" no characters were converted into Happiness Puppets by triggering \"Happiness\"",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "Good Times Come to an End",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In the battle against \"Joy Ascendant\", defeat #1 or more \"Joy Ascendant: Finale\" in a single attack",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

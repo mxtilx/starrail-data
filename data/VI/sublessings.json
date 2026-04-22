@@ -5948,7 +5948,7 @@
 	},
 	"617520": {
 		"Id": "617520",
-		"Name": "Vua Quỷ Trời Bên Ngoài Ranh Giới",
+		"Name": "Thiên Ma Chủ Dị Giới",
 		"Rarity": 1,
 		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Hủy Diệt\", gây Sát Thương Hỏa cho tất cả mục tiêu phe địch, tiêu hao đến còn <color=#f29e38ff>60%</color> HP của toàn bộ phe ta, đồng thời khiến Giới Hạn HP của toàn bộ phe ta tăng <color=#f29e38ff>100%</color>. Khi hiệp bắt đầu, hồi cho bản thân <color=#f29e38ff>100%</color> HP đã tiêu hao, duy trì <color=#f29e38ff>4</color> hiệp.",
 		"AbridgedEffect": "Sau khi kích hoạt Phương Trình Giới Hạn, sẽ gây Sát Thương Hỏa cho toàn bộ phe địch, giảm HP của toàn bộ phe ta, đồng thời khiến Giới Hạn HP tăng và hồi HP khi bắt đầu hiệp.",
@@ -6138,8 +6138,8 @@
 		"Id": "617620",
 		"Name": "Phi Xác Suất Vô Hạn",
 		"Rarity": 1,
-		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Vui Vẻ\", gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>5</color>-<color=#f29e38ff>10</color> lần Sát Thương Vui Vẻ thuộc tính ngẫu nhiên, đồng thời khiến Aha lập tức nhận 1 hiệp thêm được tính cố định <color=#f29e38ff>200</color> Điểm Hài Hước, hiệp này không tiêu hao Điểm Hài Hước.",
-		"AbridgedEffect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Vui Vẻ\", gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>5</color>-<color=#f29e38ff>10</color> lần Sát Thương Vui Vẻ thuộc tính ngẫu nhiên, đồng thời khiến Aha lập tức nhận 1 hiệp thêm được tính cố định <color=#f29e38ff>200</color> Điểm Hài Hước, hiệp này không tiêu hao Điểm Hài Hước.",
+		"Effect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Vui Vẻ\", gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>5</color>-<color=#f29e38ff>10</color> lần Sát Thương Vui Vẻ thuộc tính ngẫu nhiên, đồng thời khiến Aha lập tức nhận 1 hiệp tăng thêm được tính cố định <color=#f29e38ff>200</color> Điểm Hài Hước, hiệp này không tiêu hao Điểm Hài Hước.",
+		"AbridgedEffect": "Có thể tiêu hao 100 Năng Lượng để thi triển kỹ năng tạo ra Tiếng Vọng Giới Hạn với vận mệnh \"Vui Vẻ\", gây cho toàn bộ mục tiêu phe địch <color=#f29e38ff>5</color>-<color=#f29e38ff>10</color> lần Sát Thương Vui Vẻ thuộc tính ngẫu nhiên, đồng thời khiến Aha lập tức nhận 1 hiệp tăng thêm được tính cố định <color=#f29e38ff>200</color> Điểm Hài Hước, hiệp này không tiêu hao Điểm Hài Hước.",
 		"VersionAdded": "4.1"
 	},
 	"617630": {
@@ -8119,6 +8119,20 @@
 		"Effect": "Sát thương của Ashveil trong Vũ Trụ Sai Phân được tăng cường.\n\nĐối với mục tiêu phe địch có Phần Trăm HP dưới <color=#f29e38ff>50%</color>, sát thương cuối cùng gây ra sẽ tăng <color=#f29e38ff>30%</color>, nếu là Sát Thương Đòn Đánh Theo Sau thì sẽ tăng thêm <color=#f29e38ff>15%</color>.",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "Evanescia",
+		"Rarity": 1,
+		"Effect": "Sát thương của Evanescia trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi sở hữu \"Việc Tốt Đáng Thưởng\", sát thương cuối cùng bản thân gây ra tăng <color=#f29e38ff>15%</color>, nếu \"Việc Tốt Đáng Thưởng\" lớn hơn hoặc bằng <color=#f29e38ff>100</color> điểm, sát thương cuối cùng gây ra tăng thêm <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "Sói Bạc LV.<unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "Sát thương của Sói Bạc LV.999 trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi bắt đầu hiệp của Aha, mỗi khi có 1 Điểm Hài Hước, Độ Vui Vẻ của Sói Bạc LV.999 tăng <color=#f29e38ff>0.5%</color>, duy trì đến khi bắt đầu hiệp tiếp theo của Aha.",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nSát thương cuối cùng gây ra tăng <color=#f29e38ff>15%</color>, khi vào chiến đấu, hồi Năng Lượng bằng <color=#f29e38ff>50%</color> Giới Hạn Năng Lượng.",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Độ Vui Vẻ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Sát thương của {NICKNAME} trong Vũ Trụ Sai Phân được tăng cường.\n\nKhi ở trong trận, Độ Vui Vẻ của mục tiêu phe ta tăng <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",

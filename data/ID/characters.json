@@ -3156,6 +3156,88 @@
 		],
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"ElementType": "Physical",
+		"ElementTypeText": "Physical",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "150501",
+				"Name": "Home: A Prayer in Dance",
+				"Effect": "RES PEN Seluruh Tipe meningkat 20%. Setelah \"Master Fox\" melancarkan serangan, akan memicu ekstra 1 kali Elation Skill. Elation Skill akan memberikan diri sendiri ekstra 10 poin \"<u>Certified Banger</u>\"."
+			},
+			{
+				"Id": "150502",
+				"Name": "Voyage: A Wish for Everbloom",
+				"Effect": "CRIT DMG meningkat 36%. Saat memicu efek perolehan \"Certified Banger\" dari Trace \"Watch All Revels\"/\"Best All Blooms\", memperoleh ekstra \"<u>Certified Banger</u>\" sebesar 50%/100% dari perolehan \"<u>Certified Banger</u>\" kali ini."
+			},
+			{
+				"Id": "150503",
+				"Name": "Blade: A Feast on Evils",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "150504",
+				"Name": "Meadow: A Ruin by Vice",
+				"Effect": "DMG yang diakibatkan Evanescia mengabaikan 15% DEF target musuh."
+			},
+			{
+				"Id": "150505",
+				"Name": "Arcadia: A Glimpse of Fates",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "150506",
+				"Name": "Maiden: A Step into Dreams",
+				"Effect": "Durasi \"<u>Certified Banger</u>\" Evanescia bertambah sebanyak 1 giliran. <u>Elation DMG</u> yang diakibatkan oleh Evanescia memperoleh <u>Penambahan Tawa</u> sebesar 15%, untuk setiap 100 poin \"<u>Certified Banger</u>\" yang dimiliki akan memberikan <u>Penambahan Tawa</u> tambahan sebesar 2.0%, maksimal menghitung 1.000 poin \"<u>Certified Banger</u>\". Setelah memasuki pertempuran dan melancarkan Ultimate untuk pertama kalinya, akan memulihkan 120 Energy secara tetap untuk Evanescia, efek ini dapat dipicu 1 kali setiap melancarkan 4 kali Ultimate."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silver Wolf LV.<unbreak>999</unbreak>",
+		"ElementType": "Imaginary",
+		"ElementTypeText": "Imaginary",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "150601",
+				"Name": "Aether Editing: Eidolon +1",
+				"Effect": "DMG yang diterima target musuh di dalam area pembatas meningkat 20%.\nSaat keluar dari status \"Godmode Player\", \"Hidden MMR\" tidak akan dihapus, melainkan akan menyisakan 20% \"Hidden MMR\"."
+			},
+			{
+				"Id": "150602",
+				"Name": "It's a Feature, Not a Bug",
+				"Effect": "Setelah memasuki status \"Godmode Player\", durasi semua <u>efek Buff</u> diri sendiri diperpanjang 1 giliran. Dalam status \"Godmode Player\" kali ini, setiap kali meningkatkan 120 \"Hidden MMR\" (termasuk \"Hidden MMR\" awal) akan membuat \"Silver Wolf LV.999\" memperoleh 1 <u>giliran tambahan</u> dan memulihkan jumlah pemicuan Enhanced Basic Attack sebanyak 1 kali."
+			},
+			{
+				"Id": "150603",
+				"Name": "Max Lv. <unbreak>15</unbreak>? Says who?",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "150604",
+				"Name": "I Came. I Saw. I One-Shot.",
+				"Effect": "<u>Elation DMG</u> yang diakibatkan \"Honkai-DMG Demo\" menghitung ekstra 5 kali <u>Punchline</u>."
+			},
+			{
+				"Id": "150605",
+				"Name": "Basic ATK Is the New Ultimate",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "150606",
+				"Name": "Solo Maxxing!",
+				"Effect": "<u>Elation DMG</u> yang diakibatkan selama Enhanced Basic Attack memberikan 50% <u>Penambahan Tawa</u>.\nSaat target musuh memasuki pertempuran, akan ditanamkan \"Absolute Weakness\": Memiliki Weakness Seluruh Tipe, dan <u>RES Dasar</u> Seluruh Tipe berkurang menjadi 0 (jika <u>RES Dasar</u> adalah 0, maka RES Tipe terkait berkurang 20%)."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physical)",
@@ -3499,5 +3581,91 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "Trailblazer (Lightning)",
+		"TrailblazerCanonName": "Caelus",
+		"TrailblazerGender": "M",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lightning",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "800901",
+				"Name": "Believe In the Light",
+				"Effect": "Setelah melancarkan Skill, Ultimate berikutnya meningkatkan 2 poin \"<u>Certified Banger</u>\" yang diperoleh rekan tim. Efek ini dapat ditumpuk hingga 3 lapis."
+			},
+			{
+				"Id": "800902",
+				"Name": "History in the Making...",
+				"Effect": "Ultimate meningkatkan ekstra 12% Tingkat Elation satu rekan tim yang ditargetkan selama 2 giliran."
+			},
+			{
+				"Id": "800903",
+				"Name": "Into the Spotlight",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "800904",
+				"Name": "Save the World. Just Because.",
+				"Effect": "Saat melancarkan Elation Skill, meningkatkan 10% DMG yang diterima target musuh selama 2 giliran."
+			},
+			{
+				"Id": "800905",
+				"Name": "Love & Courage: Always in Style",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "800906",
+				"Name": "The Cosmic Legend Cometh!",
+				"Effect": "Saat melancarkan Elation Skill, meningkatkan 100% CRIT DMG diri sendiri selama 3 giliran."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "Trailblazer (Lightning)",
+		"TrailblazerCanonName": "Stelle",
+		"TrailblazerGender": "F",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lightning",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "801001",
+				"Name": "Believe In the Light",
+				"Effect": "Setelah melancarkan Skill, Ultimate berikutnya meningkatkan 2 poin \"<u>Certified Banger</u>\" yang diperoleh rekan tim. Efek ini dapat ditumpuk hingga 3 lapis."
+			},
+			{
+				"Id": "801002",
+				"Name": "History in the Making...",
+				"Effect": "Ultimate meningkatkan ekstra 12% Tingkat Elation satu rekan tim yang ditargetkan selama 2 giliran."
+			},
+			{
+				"Id": "801003",
+				"Name": "Into the Spotlight",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "801004",
+				"Name": "Save the World. Just Because.",
+				"Effect": "Saat melancarkan Elation Skill, meningkatkan 10% DMG yang diterima target musuh selama 2 giliran."
+			},
+			{
+				"Id": "801005",
+				"Name": "Love & Courage: Always in Style",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10. Level Elation Skill +1, maksimal Lv. 15."
+			},
+			{
+				"Id": "801006",
+				"Name": "The Cosmic Legend Cometh!",
+				"Effect": "Saat melancarkan Elation Skill, meningkatkan 100% CRIT DMG diri sendiri selama 3 giliran."
+			}
+		],
+		"VersionAdded": "4.2"
 	}
 }

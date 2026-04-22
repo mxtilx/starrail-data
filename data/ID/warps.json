@@ -1159,6 +1159,86 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
 		"VersionAdded": "4.1"
 	},
+	"2116": {
+		"Id": "2116",
+		"Name": "Gamer Dewa",
+		"Description": "Persentase Karakter yang ditentukan UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2117": {
+		"Id": "2117",
+		"Name": "Rekan dalam Sanubari: The Dahlia",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2118": {
+		"Id": "2118",
+		"Name": "Rekan dalam Sanubari: Castorice",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2119": {
+		"Id": "2119",
+		"Name": "Rekan dalam Sanubari: Firefly",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2120": {
+		"Id": "2120",
+		"Name": "Nona Muda sang Penentu",
+		"Description": "Persentase Karakter yang ditentukan UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2121": {
+		"Id": "2121",
+		"Name": "Rekan dalam Sanubari: Tribbie",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2122": {
+		"Id": "2122",
+		"Name": "Rekan dalam Sanubari: Sunday",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2123": {
+		"Id": "2123",
+		"Name": "Rekan dalam Sanubari: Feixiao",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
+		"VersionAdded": "4.2"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Fiksasi Brilian",
@@ -2308,6 +2388,86 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
 		"VersionAdded": "4.1"
+	},
+	"3116": {
+		"Id": "3116",
+		"Name": "Fiksasi Brilian",
+		"Description": "Persentase Light Cone yang ditentukan UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3117": {
+		"Id": "3117",
+		"Name": "Kumpulan Makna Sejati: Never Forget Her Flame",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3118": {
+		"Id": "3118",
+		"Name": "Kumpulan Makna Sejati: Make Farewells More Beautiful",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3119": {
+		"Id": "3119",
+		"Name": "Kumpulan Makna Sejati: Whereabouts Should Dreams Rest",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3120": {
+		"Id": "3120",
+		"Name": "Fiksasi Brilian",
+		"Description": "Persentase Light Cone yang ditentukan UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3121": {
+		"Id": "3121",
+		"Name": "Kumpulan Makna Sejati: If Time Were a Flower",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3122": {
+		"Id": "3122",
+		"Name": "Kumpulan Makna Sejati: A Grounded Ascent",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3123": {
+		"Id": "3123",
+		"Name": "Kumpulan Makna Sejati: I Venture Forth to Hunt",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
+		"VersionAdded": "4.2"
 	},
 	"4001": {
 		"Id": "4001",

@@ -209,6 +209,16 @@
 		"Description": "ผู้บุกเบิกก้าวสู่ Path \"ความทรงจำ\"",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "ดังนั้น ต้องมีเสียงหัวเราะ",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "ฉันนี่แหละ ผู้บุกเบิก",
+		"Description": "ผู้บุกเบิกก้าวสู่ Path \"ปิติสุข\"",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "คู่มือผู้โดยสารสู่กาแล็กซี",
@@ -2099,6 +2109,83 @@
 		"Description": "เขาพูดไปอย่างนั้น คุณก็ฟังไปอย่างนั้น\n<color=#8790abff>※ ฟังคำประกาศอันคลุ้มคลั่งของจันทร์มายา</color>",
 		"HiddenDescription": "เขาพูดไปอย่างนั้น คุณก็ฟังไปอย่างนั้น",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "ทริปทำงาน",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "ไม่มีวิธีการเดินทางแบบพิเศษเลยเหรอ?\n<color=#8790abff>※ นั่งรถรางไปกู้โลก</color>",
+		"HiddenDescription": "ไม่มีวิธีการเดินทางแบบพิเศษเลยเหรอ?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "คำพิพากษาของผู้ตัดสิน",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "สัญลักษณ์แสดงตัวตนของผู้ตัดสิน\n<color=#8790abff>※ Evanescia ได้นำดาบบรรทัดของเธอกลับมา</color>",
+		"HiddenDescription": "สัญลักษณ์แสดงตัวตนของผู้ตัดสิน",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "ผู้ป่วยทางจิตแห่งแดนสุขาวดี",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "ไม่มีใครสนใจสิ่งที่คุณคิด จนกว่าคุณจะตัดสินใจทำลายโลก\n<color=#8790abff>※ ก้าวเข้าสู่ \"รอยร้าว\" ในจิตใจของ Fulwish</color>",
+		"HiddenDescription": "ไม่มีใครสนใจสิ่งที่คุณคิด จนกว่าคุณจะตัดสินใจทำลายโลก",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "เพลิดเพลินจนดับสูญ",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "หากไม่ขบขัน ก็จงสิ้นชีวัน\n<color=#8790abff>※ เป็นสักขีพยานในการระบาดของโรคจินตรังสรรค์ \"ชาวสวรรค์สู่สุข\"</color>",
+		"HiddenDescription": "หากไม่ขบขัน ก็จงสิ้นชีวัน",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "ผู้เล่นมือหนึ่งแห่งกาแล็กซี",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "แทนที่จะได้รับคำชมจากตัวอิ๊บอ๋าย ยอมสู้ตายในเงื้อมมือของมันยังจะดีกว่า\n<color=#8790abff>※ อันที่จริง ก็ไม่มีใครอยากสู้จนตายในเงื้อมมือของตัวอิ๊บอ๋ายหรอก</color>",
+		"HiddenDescription": "แทนที่จะได้รับคำชมจากตัวอิ๊บอ๋าย ยอมสู้ตายในเงื้อมมือของมันยังจะดีกว่า",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "ความตายของปีศาจลางมรณะ",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "ผู้ใดประกาศลางมรณะ มรณะก็ประกาศชื่อของผู้นั้นเช่นกัน\n<color=#8790abff>※ เอาชนะ \"ปีศาจลางมรณะ\" ตัวใหม่</color>",
+		"HiddenDescription": "ผู้ใดประกาศลางมรณะ มรณะก็ประกาศชื่อของผู้นั้นเช่นกัน",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "ลมแห่งบุปผาพัดผ่าน",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "เธอล่องลอยผ่านไป ดั่งดอกไม้ในสายลม\n<color=#8790abff>※ รับคำไหว้วานจาก Evanescia</color>",
+		"HiddenDescription": "เธอล่องลอยผ่านไป ดั่งดอกไม้ในสายลม",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
-		"Description": "เปลี่ยนแรงโน้มถ่วงซ้ำๆ ใน \"ช่วงเวลา Jump\" ของ \"JUMP ทะลุมิติ!\" ที่สถานีเพอร์ดิโด และให้ภูตธุลีกระโดดไปมา",
+		"Description": "เปลี่ยนแรงโน้มถ่วงซ้ำๆ ใน \"JUMP ทะลุมิติ!\" ที่สถานีเพอร์ดิโด และให้ภูตธุลีกระโดดไปมา",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
 		"Description": "บรรเลงโน้ตเพลงพิลึก เพื่อตามหาสิ่งมีชีวิตลึกลับที่ซ่อนตัวอยู่ในสถานีเกาะเมฆาทัศนา",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "ชีวิตที่เหลือคือวันหยุด",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "รวบรวมภูตธุลีไร้ชื่อของ \"กระต่ายรางดาว\" #1 ตัว",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "ลูกเหล็กของ Galileo",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "สำเร็จ \"ช่วงเวลา Jump\" บนดาดฟ้าสถานีโทรทัศน์ และกระโดดจากชั้นบนสุด ลงไปยังโถงสัมภาษณ์",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "นักเปียโนบนหอคอย",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "เก็บตัวโน้ตทั้งหมดใน \"ช่วงเวลา Jump\" บนดาดฟ้าสถานีโทรทัศน์",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "ไม่ใช่มือสังหาร ไม่ใช่ลัทธิ",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ไปถึงจุดสูงสุดของหอโทรทัศน์ห้วงสมุทร",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "วิญญาณผูกมัดด้วยแรงโน้มถ่วง",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ใน \"JUMP ทะลุมิติ!\" รักษาสถานะไม่ให้ตกถึงพื้น และสัมผัสเส้นแรงโน้มถ่วงติดต่อกัน 10 ครั้ง",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "ปรมาจารย์โบว์ลิ่ง",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ใช้ผู้ช่วยจักรกลชนวิญญาณเม่นหรือวิญญาณล่องลอยใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "ชนแก้วสู่ดวงตาคุณ",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "สำเร็จด่านชงเครื่องดื่มใน \"JUMP ทะลุมิติ!\" ของหอโทรทัศน์ห้วงสมุทร",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "อีกฟากของทะเลคือเพื่อนบ้าน",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ไปถึงเขตที่อยู่อาศัยอีกฟากของทะเลใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "เพลงพิณของออร์ฟิอัส",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "บรรเลงบทเพลงใน \"JUMP ทะลุมิติ!\" เพื่อปัดเป่าหมอกบนเกาะลึกลับ",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "อู้งานคือทำงาน",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "นั่งจักรกลผู้ช่วยไถลไปบนผิวน้ำใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "น้ำหนักที่เกินรับไหว",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "พ่ายแพ้ในเกม เนื่องจากถูกหมาก้อนหรือคาปิเด้งทับใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "ปฏิบัติการยึดเกาะ",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "พิชิตยอดเกาะลึกลับเป็นคนแรก ในการแข่งความเร็วเงาของ \"JUMP ทะลุมิติ!\" ที่เมืองห้วงสมุทร",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "บูมเมอแรง",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ยิงธนูใน \"JUMP ทะลุมิติ!\" แล้วโดนตัวเอง",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "สุดยอดเครื่องจักรขับขี่",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ใน \"JUMP ทะลุมิติ!\" โดยสารผู้ช่วยเพื่อผ่านสิ่งกีดขวางที่มีหนาม",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "ผู้ช่วย วิวัฒนาการ!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ปลดล็อกความสามารถพิเศษของผู้ช่วยจักรกลใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "บทเพลงแดนสุขาวดี: เจ้าหญิงก้อนกลม",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "บรรเลงโน้ตเพลงพิลึก เพื่อตามหาสิ่งมีชีวิตลึกลับที่ซ่อนอยู่ในหอโทรทัศน์ห้วงสมุทร",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "บทเพลงแดนสุขาวดี: ลำนำคาปิบาร่า",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "บรรเลงโน้ตเพลงพิลึก เพื่อตามหาสิ่งมีชีวิตลึกลับที่ซ่อนอยู่ในเมืองห้วงสมุทร",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
-		"Description": "ชมของสะสมทั้งหมดในห้องส่วนตัว",
+		"Description": "จัดวางของที่ระลึก #1 ชิ้นในโซน \"ฟิกเกอร์ที่ระลึก\" ของตู้โชว์ของสะสม",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11952,6 +12209,219 @@
 		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
 		"Description": "ผ่านด่านโหมด \"ท้าทายจอมมาร\"",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "ไม่ว่าไกลแค่ไหน จะต้องถูกกำจัด",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ส่งตัวฆาตกรที่สังหาร Skott ให้กับสหพันธ์ Xianzhou\n<color=#8790abff>※ หวังว่าเธอจะชินกับอาหารใน Shackling Prison นะ</color>",
+		"HiddenDescription": "ส่งตัวฆาตกรที่สังหาร Skott ให้กับสหพันธ์ Xianzhou",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "หลักอาณาเขต",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ส่งตัวฆาตกรที่สังหาร Skott ให้กับแผนกกลยุทธ์การลงทุน\n<color=#8790abff>※ ราวกับว่าไม่มีอะไรเกิดขึ้น</color>",
+		"HiddenDescription": "ส่งตัวฆาตกรที่สังหาร Skott ให้กับแผนกกลยุทธ์การลงทุน",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "บุญคุณความแค้นในยุทธภพ",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ส่งตัวฆาตกรที่สังหาร Skott ให้กับความยุติธรรม\n<color=#8790abff>※ \"ถ้าเธอไม่ยอมทำตัวดีๆ คุณก็ช่วยทำให้เธอทำตัวดีๆ ซะ\"</color>",
+		"HiddenDescription": "ส่งตัวฆาตกรที่สังหาร Skott ให้กับความยุติธรรม",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "ความทรงจำที่ไม่รู้",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "สำเร็จการตรวจสอบสถานีรถไฟลอยน้ำ",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "แผนกต้านร่างจิตไม่มีจริง",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ตรวจสอบคอมพิวเตอร์ในโกดังของสถานีโทรทัศน์",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "ฮีโร่คืออะไร",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "พบกับนักรบเถ้าธุลีอีกครั้งที่สถานีโทรทัศน์",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "การฝึกตนของนักแสดง",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "สำเร็จบทสนทนาแรกพบของครอบครัวพลู",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "แปลว่าความรักจะหายไป ใช่มั้ย",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ฟังข้ออ้างที่คนผ่านทางแต่งขึ้น เพื่อหลีกเลี่ยงการไปพบพ่อฝ่ายหญิง",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "ยุคเก้าบุตรชิงบัลลังก์",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "พวกเรามีสมาชิกเฟอร์โบ้เพิ่มขึ้นเรื่อยๆ จริงๆ เลยนะโบ้!\n<color=#8790abff>※ \"เฟอร์โบโบ้รายสัปดาห์\" มีนักข่าวเฟอร์โบ้ประจำอย่างเป็นทางการ #1 คน</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "ฉันอีกคนในโลกนี้",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "พบกับผู้บุกเบิกคนอื่นในตู้ปาร์ตี้ co-op",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "ชมรมคนรักรถไฟบุกเบิก",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ไปเยี่ยมชมตู้ปาร์ตี้ co-op ของผู้บุกเบิกคนอื่น #1 คน",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Emanator แห่งการ \"บุกเบิก\" เมี้ยวๆ",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ได้รับของขวัญจาก \"อาคิวิเมี้ยว\"",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "นักล่าปาร์ตี้",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "จับผลงานสิ่งมีชีวิตในจุดซ่อนตัวทุกแห่งของตู้ปาร์ตี้",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "อาหารค่ำมื้อสุดท้าย",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "จัดวางผลงานสิ่งมีชีวิตแบบเดียวกัน #1 ตัว ในโซนจัดวางผลงานสิ่งมีชีวิต",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "นักธรรมชาติวิทยา",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "รวบรวมผลงานสิ่งมีชีวิต #1 ตัว ใน \"บันทึกการสังเกต\"",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "ลูกเต๋านำโชค! โชคดีหนุนนำ!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "รวบรวมลูกเต๋าปริซึมทั้งหมด #1 ลูก ใน \"แพ็กเสริม 2\" ของเกมเพลย์ศึกดวลพลังกาแล็กซี",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "ลูกเต๋าของคุณอยากมาบ้านฉัน",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ทอยเต๋าอีกครั้ง! ศึกดวลพลัง!\" สลับลูกเต๋าทั้งหมด #1 ครั้ง",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "ปุ่มเดียวสามฟังก์ชัน",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ทอยเต๋าอีกครั้ง! ศึกดวลพลัง!\" ใช้การ์ดกลยุทธ์ติดต่อกัน #1 ใบภายในหนึ่งเทิร์น",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "DMG แก้วใหญ่พิเศษ",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ทอยเต๋าอีกครั้ง! ศึกดวลพลัง!\" สร้าง DMG #1 หน่วยภายในหนึ่งเทิร์น",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "\"เฟอร์โบโบ้รายสัปดาห์\" จงพุ่งไป",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ทอยเต๋าอีกครั้ง! ศึกดวลพลัง!\" เป็นตัวแทนของ \"เฟอร์โบโบ้รายสัปดาห์\" และเอาชนะห้าอันดับแรกของย่านการค้าเมืองห้วงสมุทร: \"ท็อปห้าห้วงสมุทร\"",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "ลูกเต๋าอันดับหนึ่งแห่งกาแล็กซี",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "สำเร็จการดวลสุดท้ายกับ Silver Wolf LV.999 ใน \"ทอยเต๋าอีกครั้ง! ศึกดวลพลัง!\"",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "Aha ปล่อย \"ต้องมีเสียงหัวเราะ\" และกำจัดศัตรู #1 ตัว",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "แฮปปี้วันดีๆ",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ชนะการต่อสู้โดยส่งตัวละคร Path ปิติสุข #1 ตัวลงสนาม",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "สามทหารเสือ",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
 		"Description": "ในการต่อสู้กับ \"เมคคาทรอนอัลลอย: ราชา Pom-Pom\" หนึ่งครั้ง ทำให้เกิดเอฟเฟกต์ \"วาววับ\" ของ \"Potent Foam Soap\" อย่างน้อย #1 ครั้ง",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "ห้ามทำหน้าเครียด",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในหนึ่งการต่อสู้ ใช้ผู้บุกเบิก Path \"ปิติสุข\" ปล่อยท่าไม้ตายใส่เพื่อนร่วมทีมที่ต่างกันทั้งหมด #1 คน คนละ 1 ครั้ง",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "ขอบคุณสำหรับโดเนต",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในหนึ่งการต่อสู้ ใช้ผู้บุกเบิก Path \"ปิติสุข\" ปล่อยท่าไม้ตายใส่ Sparxie ทั้งหมด #1 ครั้ง",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "ระดมทุน <unbreak>500</unbreak>",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในหนึ่งการต่อสู้ จำนวน \"เจ๋งแจ๋ว\" โดยรวมที่ Evanescia ได้รับจากเพื่อนร่วมทีมคนอื่นผ่านพรสวรรค์ \"Youth: Halcyon Evermore\" เกินกว่า #1 แต้ม",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "ของดีไม่มีคำว่าเยอะ",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ใช้ Evanescia ในตัวละครฝ่ายเราปล่อยท่าไม้ตายเมื่อจำนวนของ \"เจ๋งแจ๋ว\" ถึง #1 แต้ม",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "เลิกเล่นได้แล้ว คุณ Kafka",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ทำให้ \"McAwolfee 999\" ของ Silver Wolf LV.999 ทำงาน และลบล้างสถานะ \"ครอบงำ\" ที่ \"นักล่า Stellaron: Kafka\" มอบให้",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "ลิสต์อุปกรณ์",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในหนึ่งเทิร์น เพื่อนร่วมทีมทำให้เกิด \"กล่องสุ่มซูเปอร์เสบียง\" ของ Silver Wolf LV.999 ที่แตกต่างกัน #1 ชนิด",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "หมาป่าจะรวยช่วยไม่ได้",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ใช้เทคนิค \"This? Absolute Meta!\" ของ Silver Wolf LV.999 เพื่อกินเหรียญทอง #1 เหรียญในรวดเดียว",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "ผีชีวะ",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในการต่อสู้กับ \"สุขาวดีพลิกผัน: เจ้าปทุมมุ่งสามานย์\" หลังจากตัวละครฝ่ายเราถูกเปลี่ยนเป็น \"หุ่นเชิดความสุข\" สร้าง \"การโจมตีพึงใจ\" เพื่อกำจัดเป้าหมายตัวใดก็ได้",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "ค่าสติเต็มแม็กซ์",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในการต่อสู้กับ \"สุขาวดีพลิกผัน: เจ้าปทุมมุ่งสามานย์\" ไม่มีตัวละครถูกเปลี่ยนเป็น \"หุ่นเชิดความสุข\" เนื่องจากเกิดเอฟเฟกต์ \"ความสุข\"",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "จุดจบความหรรษา",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในการต่อสู้กับ \"ชาวสวรรค์สู่สุข\" ใช้การโจมตีกำจัด \"ชาวสวรรค์สู่สุข: จบ\" จำนวน #1 ตัวขึ้นไปในครั้งเดียว",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

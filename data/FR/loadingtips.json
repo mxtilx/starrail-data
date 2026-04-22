@@ -311,12 +311,6 @@
 		"Description": "Une ancienne union composée de plusieurs peuples doués d'intelligence.\nIls dirigent Xianzhou dans le but d'éliminer les Abominations de l'Abondance.",
 		"VersionAdded": "1.0"
 	},
-	"10053": {
-		"Id": "10053",
-		"Name": "Chasseurs de Stellaron",
-		"Description": "Une organisation qui voyage entre les mondes pour chasser les Stellarons.\nPersonne ne sait quel Aiôn leur a conféré leur pouvoir.",
-		"VersionAdded": "1.0"
-	},
 	"10054": {
 		"Id": "10054",
 		"Name": "Peuples de l'Abondance",
@@ -1931,6 +1925,30 @@
 		"Description": "Groupe de divertissement interstellaire dont Perle a donné le nom. Ses principales activités comprennent la production et la vente de Mécanoïdes.\nLa Tour Perluxe, imposant siège social, est un sanctuaire convoité par d'innombrables aspirants.",
 		"VersionAdded": "4.1"
 	},
+	"10426": {
+		"Id": "10426",
+		"Name": "Exosouhait",
+		"Description": "Présidente de la Société de recherche des sourires heureux et directrice de la chaîne de télévision Exosouhait TV. C'est une orpheline des Jeux Sanglants.\nCherchant à se venger de l'Allégresse de Planarcadia, elle s'est transformée en sa propre ennemie et a prononcé un jugement contre l'Arcadia sous la forme du Héraut de la mort.",
+		"VersionAdded": "4.2"
+	},
+	"10427": {
+		"Id": "10427",
+		"Name": "Société de recherche des sourires heureux",
+		"Description": "Initialement créée pour aider les victimes du Héraut de la mort, cette société est devenue une organisation caritative d'envergure.\nÀ travers des méthodes de guérison telles que la chirurgie du bonheur et d'autres méthodes, ils transforment les citoyens en bêtes sans esprit qui ne connaissent que le goût du bonheur suprême.",
+		"VersionAdded": "4.2"
+	},
+	"10428": {
+		"Id": "10428",
+		"Name": "Héraut de la mort",
+		"Description": "Le coupable derrière les Jeux Sanglants, un monstre qui se délecte du carnage.\nMaintenant exploité par Exosouhait, il incarne la peur et est utilisé pour manipuler l'opinion publique à Planarcadia.",
+		"VersionAdded": "4.2"
+	},
+	"10429": {
+		"Id": "10429",
+		"Name": "Chasseurs de Stellaron",
+		"Description": "Une organisation qui voyage entre les mondes à la poursuite des Stellarons.\nDans un but précis, elle navigue à contre-courant sur la Voie de la Finalité.",
+		"VersionAdded": "4.2"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Adoption du point de vue {M#du pionnier}{F#de la pionnière}...",
@@ -2356,5 +2374,29 @@
 		"Name": "Adoption du point de vue d'Ashveil...",
 		"Description": "En traquant le criminel, Ashveil décide de s'arrêter sur un pont alors que les souvenirs du passé refont surface...",
 		"VersionAdded": "4.1"
+	},
+	"20102": {
+		"Id": "20102",
+		"Name": "Adoption du point de vue d'Evanescia...",
+		"Description": "Pendant que {NICKNAME} poursuit l'enquête à l'école, Evanescia et Yao Guang arrivent à Merchamps...",
+		"VersionAdded": "4.2"
+	},
+	"20103": {
+		"Id": "20103",
+		"Name": "Adoption du point de vue de Sparxie...",
+		"Description": "Pendant ce temps, Sparxie est à la taverne, en train de bavarder et de s'amuser...",
+		"VersionAdded": "4.2"
+	},
+	"20104": {
+		"Id": "20104",
+		"Name": "Adoption du point de vue d'Evanescia...",
+		"Description": "Evanescia saisit sa règlame, prête à accomplir l'objectif qu'elle s'était fixé...",
+		"VersionAdded": "4.2"
+	},
+	"20105": {
+		"Id": "20105",
+		"Name": "Adoption du point de vue de Louve d'argent...",
+		"Description": "Pendant ce temps, dans le studio de Perle, Louve d'argent prépare son prochain coup...",
+		"VersionAdded": "4.2"
 	}
 }

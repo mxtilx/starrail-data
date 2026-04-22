@@ -311,12 +311,6 @@
 		"Description": "An ancient union composed of many intelligent races.\nThey commandeer Xianzhou to eliminate the Abominations of Abundance.",
 		"VersionAdded": "1.0"
 	},
-	"10053": {
-		"Id": "10053",
-		"Name": "Stellaron Hunters",
-		"Description": "An organization that travels between the worlds hunting for Stellarons.\nIt is unknown which Aeon bestows them with their power.",
-		"VersionAdded": "1.0"
-	},
 	"10054": {
 		"Id": "10054",
 		"Name": "Denizens of Abundance",
@@ -1931,6 +1925,30 @@
 		"Description": "An interastral media conglomerate under Pearl's name, its core business revolves around mechatron production and sales.\nIts towering headquarters, Pearluxe Tower, is the holy grail for countless job seekers.",
 		"VersionAdded": "4.1"
 	},
+	"10426": {
+		"Id": "10426",
+		"Name": "Fulwish",
+		"Description": "President of the Research Society of Happy Smiles and the director of Fulwish TV. An orphan of the Bloodstained Games.\nSeeking revenge from Planarcadia's \"Elation,\" she transformed into her own enemy, and delivered judgment upon the arcadia in the form of the Herald of Death.",
+		"VersionAdded": "4.2"
+	},
+	"10427": {
+		"Id": "10427",
+		"Name": "Research Society of Happy Smiles",
+		"Description": "A massive charity organization, originally founded as a mutual aid society for victims of the Herald of Death incident.\nThrough methods such as the \"Happiness Surgery\", and other means, they transformed citizens into mindless beasts that knew only the taste of supreme happiness.",
+		"VersionAdded": "4.2"
+	},
+	"10428": {
+		"Id": "10428",
+		"Name": "Herald of Death",
+		"Description": "The culprit behind the Bloodstained Games, a monster who revels in carnage.\nNow exploited by Fulwish, it symbolizes \"fear\" and is used to manipulate public sentiment in Planarcadia.",
+		"VersionAdded": "4.2"
+	},
+	"10429": {
+		"Id": "10429",
+		"Name": "Stellaron Hunters",
+		"Description": "An organization that travels between the worlds hunting for Stellarons.\nFor a certain purpose, they sail against the current in the Path of Finality.",
+		"VersionAdded": "4.2"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Returning to the Trailblazer's POV...",
@@ -2356,5 +2374,29 @@
 		"Name": "Switching to Ashveil's POV...",
 		"Description": "While tracking the culprit, Ashveil stops by the bridge as memories of the past come flooding back...",
 		"VersionAdded": "4.1"
+	},
+	"20102": {
+		"Id": "20102",
+		"Name": "Switching to Evanescia's POV...",
+		"Description": "While {NICKNAME} continues the investigation at the school, Evanescia and Yao Guang arrive in Seafeld City...",
+		"VersionAdded": "4.2"
+	},
+	"20103": {
+		"Id": "20103",
+		"Name": "Switching to Sparxie's POV...",
+		"Description": "Meanwhile, Sparxie is at the tavern, chatting it up and enjoying herself...",
+		"VersionAdded": "4.2"
+	},
+	"20104": {
+		"Id": "20104",
+		"Name": "Switching to Evanescia's POV...",
+		"Description": "Evanescia takes up her ruler blade, ready to follow through on what she set out to do...",
+		"VersionAdded": "4.2"
+	},
+	"20105": {
+		"Id": "20105",
+		"Name": "Switching to Silver Wolf's POV...",
+		"Description": "Meanwhile, in Pearl's Studio, Silver Wolf is lining up her next move...",
+		"VersionAdded": "4.2"
 	}
 }

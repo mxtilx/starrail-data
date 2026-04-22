@@ -209,6 +209,16 @@
 		"Description": "開拓者が「記憶」の運命に足を踏み入れる",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "そして、笑いあれ",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "我、開拓者なり",
+		"Description": "開拓者が「愉悦」の運命に足を踏み入れる",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "銀河系乗客ガイド",
@@ -2099,6 +2109,83 @@
 		"Description": "其が言うことだし、聞くだけ聞いておこう\n<color=#8790abff>※幻月のイカれた宣言を聞く</color>",
 		"HiddenDescription": "其が言うことだし、聞くだけ聞いておこう",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "通勤旅行",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "もっと特別な移動手段はなかったのか？\n<color=#8790abff>※世界を救うため、電車で出発する</color>",
+		"HiddenDescription": "もっと特別な移動手段はなかったのか？",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "裁決者の裁定",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "裁決者の象徴\n<color=#8790abff>※緋英が自分の量刀を取り戻した</color>",
+		"HiddenDescription": "裁決者の象徴",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "楽園の病み人",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "あなたの考えに注意を払う者などいなかった、世界を滅ぼすと決めるまでは\n<color=#8790abff>※満願の心の中にある「裂け目」に足を踏み入れる</color>",
+		"HiddenDescription": "あなたの考えに注意を払う者などいなかった、世界を滅ぼすと決めるまでは",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "娯楽に殺される",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "笑みか、あるいは死か\n<color=#8790abff>※幻造された疫病「楽変天人」のパンデミックを目撃する</color>",
+		"HiddenDescription": "笑みか、あるいは死か",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "銀河トップ・プレイヤー",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "悪玉に称賛されるくらいなら、その手にかかって死ぬほうがマシだ\n<color=#8790abff>※実のところ、悪玉の手にかかって死にたい人なんているはずないけど</color>",
+		"HiddenDescription": "悪玉に称賛されるくらいなら、その手にかかって死ぬほうがマシだ",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "死告魔の死",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "死を告げる者もまた、死にその名を告げられる\n<color=#8790abff>※新たな「死告魔」を倒す</color>",
+		"HiddenDescription": "死を告げる者もまた、死にその名を告げられる",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "過ぎ去りし花信風",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "彼女は風花のようにひらりと過ぎていった\n<color=#8790abff>※緋英からの依頼を引き受ける</color>",
+		"HiddenDescription": "彼女は風花のようにひらりと過ぎていった",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "衆秘探奇",
-		"Description": "ペルディード駅「二次元ジャンプ！」の「ジャンプタイム」で重力を何度も切り替えて、初を跳ね返らせる",
+		"Description": "ペルディード駅の「二次元ジャンプ！」で重力を何度も切り替えて、初を跳ね返らせる",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "衆秘探奇",
 		"Description": "奇妙な楽章を演奏して、雲の島駅に潜む謎の生き物を見つけ出す",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "余生はすべて休暇",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「星軌の兎」の名もなき初を累計#1体集める",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "ガリレオの鉄球",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "テレビ局屋上の「ジャンプタイム」をクリアし、最上階からインタビューロビーまでジャンプする",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "塔の上のピアニスト",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "テレビ局屋上の「ジャンプタイム」で、すべての音符を獲得する",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "アサシンでも、クリードでもなく",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "海原テレビタワーの頂上に辿り着く",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "重力に縛られた魂",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で、着地せず連続で10回グラビティラインに触れる",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "ボウリングマスター",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で助手ロボットを使ってハリネズミの初または浮遊する初を跳ね飛ばす",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "君の瞳に乾杯",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "海原テレビタワーの「二次元ジャンプ！」でドリンク調合ステージをクリアする",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "海の向こうの隣人",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で海の向こう側にある住宅街に到達する",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "オルペウスの調べ",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で曲を奏で、謎の小島の霧を晴らす",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "仕事とはサボることと見つけたり",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で助手ロボットに乗って水面を滑走する",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "耐えられない重さ",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」でプクワンまたはブヒッピに押しつぶされてゲームオーバーになる",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "レイダース・オブ・ロストアイランド",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "海原市の「二次元ジャンプ！」の中で、シャドウレースで謎の小島の頂上へ最初に到達する",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "ブーメラン",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で放った矢が自分に命中する",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "アルティメット・ドライビングマシン",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で助手ロボットに乗って、トゲを通過する",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "助手ロボット、進化！",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」で助手ロボットの専用能力を解放する",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "楽園の変奏曲：オーブ姫",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "奇妙な楽章を演奏して、海原テレビタワーに潜む謎の生き物を見つけ出す",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "楽園の変奏曲：カピバラの唄",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "奇妙な楽章を演奏して、海原市に潜む謎の生き物を見つけ出す",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "君との思い出",
-		"Description": "自分の部屋ですべてのコレクションを鑑賞する",
+		"Description": "コレクションケースの「記念フィギュア」エリアに記念品を#1個飾る",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11952,6 +12209,219 @@
 		"SeriesText": "君との思い出",
 		"Description": "「魔王の挑戦」モードをクリアする",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "仇は討つ、どこにいようとも",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "スコートを殺害した犯人を仙舟同盟に引き渡す\n<color=#8790abff>※彼女が幽囚獄の食事に慣れることを願う</color>",
+		"HiddenDescription": "スコートを殺害した犯人を仙舟同盟に引き渡す",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "領地原則",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "スコートを殺害した犯人を戦略投資部に引き渡す\n<color=#8790abff>※まるで何事もなかったかのように</color>",
+		"HiddenDescription": "スコートを殺害した犯人を戦略投資部に引き渡す",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "恩讐",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "スコートを殺害した犯人に正義の裁きを下す\n<color=#8790abff>※「彼女が潔くないのなら、貴方の手で潔くさせてやればいい」</color>",
+		"HiddenDescription": "スコートを殺害した犯人に正義の裁きを下す",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "未知の記憶",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "水上列車ホームでの調査を完了する",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "反ミーム部門なんて無い",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "テレビ局の倉庫にあるパソコンを調査する",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "ヒーローとは何か",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "テレビ局でレイメイグレーと再会する",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "役者ならこのくらい",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "グワラ一家と最初の会話を済ませる",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "もう愛してないってこと？",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "親と会うのを避けるために通行人がでっち上げた言い訳を聞く",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "群雄たぬ拠",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "たぬきが増えて、編集部がますます賑やかになってきただぬ！\n<color=#8790abff>※『週刊タヌキ』に常駐する正規のたぬき記者が#1名になった</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "この世界の、もう1人の自分",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "オンラインパーティー車両で、他の開拓者と出会う",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "開拓同好会",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "#1人の開拓者のオンラインパーティー車両を訪問する",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "「開拓」のニャ令",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ニャキヴィリ」の贈り物を受け取る",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "パーティーハンター",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "パーティー車両に隠れたすべての創造物を見つける",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "最後の晩餐",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "創造物配置エリアに同じ創造物を#1体配置する",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "博物学者",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「創造物観察記録」に#1匹の創造物を記録する",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "サイコロ最高！ハッピーラッキー！",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "コズミック・フォースで、「拡張パック・2」からプリズムサイコロを#1個集める",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "そっちのサイコロはこっちに来たがってるよ",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ふたたび！サイコロ最高！コズミック・フォース！」で、サイコロを累計#1回交換する",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "高評価、ルーム登録、SNSフォロー",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ふたたび！サイコロ最高！コズミック・フォース！」で、1ターン中に連続で#1枚の戦術カードを使用する",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "ダメージ(XLサイズ)",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ふたたび！サイコロ最高！コズミック・フォース！」で、1ターン中に#1ダメージを与える",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "進め！『週刊タヌキ』",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ふたたび！サイコロ最高！コズミック・フォース！」で、『週刊タヌキ』の代表として、海原市商店街の上位ランカー5名「海原の五傑」を倒す",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "銀河いちのサイコロ",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ふたたび！サイコロ最高！コズミック・フォース！」で、銀狼LV.999との最終決戦を終える",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "アッハが「笑いあれ」を発動し、敵を#1体倒す",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "アメイジング・デイ",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「愉悦」の運命を歩むキャラクターをパーティに#1人編成して戦闘に勝利する",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "三銃士",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "戦意奔湧",
 		"Description": "「合金メカヨロイ・パムキング」との1回の戦闘で、「強力シャボン玉」の「ツルピカ」効果を#1回以上発動させる",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "ほらみんな、しかめっ面はやめて",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "一度の戦闘中に、「愉悦」の運命を歩む開拓者が#1名の異なる味方に必殺技を1回ずつ発動する",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "投げ銭センキュー",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "一度の戦闘中に、「愉悦」の運命を歩む開拓者が火花に累計#1回必殺技を発動する",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "フォーチュン・クラファン<unbreak>500</unbreak>",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "一度の戦闘中に、緋英が天賦「青春・果てなき春の光」によって自身以外の味方から獲得した「爆笑の褒美」の合計が#1を超える",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "良いネタは何度見ても良い",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "味方の緋英が、「爆笑の褒美」の数が#1に達した状態で必殺技を発動する",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "カフカ、冗談はやめて",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "銀狼LV.999が「999セキュリティバリア」を発動し、「星核ハンター・カフカ」に付与された「支配」状態を解除する",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "装備品リスト",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "1ターン中に、銀狼LV.999以外の味方が#1種類の異なる【SSSサプライボックス】を発動する",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "ウルフ・オブ・フィナンシャルストリート",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "銀狼LV.999の秘技「これがTier0の秘技だよ」を使って、一度にコインを#1枚獲得する",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "バイオクライシス",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「極楽顛倒・邪願蓮主」との戦闘中、「幸福傀儡」になった味方キャラが、「会心の一撃」で任意のターゲットを倒す",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "SAN値MAX",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「極楽顛倒・邪願蓮主」との戦闘中、「幸福」が発動して「幸福傀儡」になった味方がいない",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "愉しみの終わり",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「楽変天人」との戦闘中、1回の攻撃で同時に#1体以上の「楽変天人・終」を倒す",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

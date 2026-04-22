@@ -209,6 +209,16 @@
 		"Description": "Anda por la Vía de la Reminiscencia.",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "Entonces, que haya risas",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "Yo, Trazacaminos",
+		"Description": "Anda por la Vía de la Exultación.",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "Guía del tripulante galáctico",
@@ -2099,6 +2109,83 @@
 		"Description": "Ella lo dice, tú lo escuchas.\n<color=#8790abff>※Escucha la delirante declaración de la fabuluna.</color>",
 		"HiddenDescription": "Ella lo dice, tú lo escuchas.",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "Viaje rutinario",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "¿No hay ninguna forma especial de desplazarse?\n<color=#8790abff>※Toma el tren para salvar el mundo.</color>",
+		"HiddenDescription": "¿No hay ninguna forma especial de desplazarse?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "Veredicto de la jueza",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Un símbolo de identidad de la autoridad.\n<color=#8790abff>※Evanescia recupera su espada regla.</color>",
+		"HiddenDescription": "Un símbolo de identidad de la autoridad.",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "Psiquiatría en la arcadia",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "A nadie le importa lo que piensas hasta que decides destruir el mundo.\n<color=#8790abff>※Adéntrate en la grieta de la mente de Buendeseo.</color>",
+		"HiddenDescription": "A nadie le importa lo que piensas hasta que decides destruir el mundo.",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "Divertirse hasta morir",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "O ríes o mueres.\n<color=#8790abff>※Presencia el estallido de la plaga fabularia de los Ascendentes del Gozo.</color>",
+		"HiddenDescription": "O ríes o mueres.",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "Ready Player One del cosmos",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Es mejor morir a manos de un cretino que ser elogiado por él.\n<color=#8790abff>※En realidad, nadie quiere morir a manos de un cretino.</color>",
+		"HiddenDescription": "Es mejor morir a manos de un cretino que ser elogiado por él.",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "La muerte del Anunciamuertes",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Aquellos que proclaman la muerte, serán reclamados por ella.\n<color=#8790abff>※Derrota al nuevo Anunciamuertes.</color>",
+		"HiddenDescription": "Aquellos que proclaman la muerte, serán reclamados por ella.",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "Susurros de primavera",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Ella pasó flotando como una flor al viento.\n<color=#8790abff>※Acepta el encargo de Evanescia.</color>",
+		"HiddenDescription": "Ella pasó flotando como una flor al viento.",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Indagación de misterios",
-		"Description": "Cambia la gravedad repetidamente durante la \"hora de salto\" de Salto bidimensional en la estación Perdido para hacer que los eterae salten de un lado a otro.",
+		"Description": "Cambia la gravedad repetidamente en Salto bidimensional de la estación Perdido para hacer que los eterae salten de un lado a otro.",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "Indagación de misterios",
 		"Description": "Toca una melodía extraña y encuentra a la misteriosa criatura oculta en la estación de Islanube Contemplativa.",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "Vacaciones de por vida",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Consigue un total de #1 eterae anónimos de Conejo estelar.",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "Bola de hierro de Galileo",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Completa \"Hora del salto\" en lo alto de la estación de televisión y salta desde el último piso hasta la sala de entrevistas.",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "El pianista de la torre",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Consigue todas las notas musicales en \"Hora del salto\" en lo alto de la estación de televisión.",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "Ni asesino ni credo",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Llega a lo más alto de la torre de televisión de Manamar.",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "Alma atada por la gravedad",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "En ¡Salto bidimensional!, toca las líneas de gravedad 10 veces consecutivas sin tocar el suelo.",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "Maestr{F#a}{M#o} de los bolos",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Lanza por los aires a un fabuespín o a un espíritu flotante con un ayudante robot en Salto bidimensional.",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "Un brindis por tus ojos",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Completa la etapa de preparación de bebidas en Salto bidimensional de la torre de televisión de Manamar.",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "Al otro lado del mar, los vecinos",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Llega a la zona residencial al otro lado del mar en ¡Salto bidimensional!",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "Canto de Orfeo",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toca una canción en ¡Salto bidimensional! para disipar la niebla de la pequeña isla misteriosa.",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "Holgazanear es trabajar",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Monta un ayudante robot y deslízate por el agua en Salto bidimensional.",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "Peso insoportable",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Pierde en Salto bidimensional tras ser aplastad{F#a}{M#o} por Guautuntún o Pipitún.",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "Cazadores de la isla perdida",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Alcanza antes que nadie la cima de la isla misteriosa en la carrera de sombras de Salto bidimensional en Manamar.",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "Búmeran",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Dispara una flecha en Salto bidimensional y date a ti mism{F#a}{M#o}.",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "Máquina de conducción definitiva",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Atraviesa los obstáculos con pinchos a bordo del pequeño ayudante en Salto bidimensional.",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "¡Pequeño ayudante, evoluciona!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Desbloquea la habilidad exclusiva del ayudante robot en Salto bidimensional.",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "Variaciones de la arcadia: Princesa pelota",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toca una melodía extraña y encuentra a la misteriosa criatura oculta en la torre de televisión de Manamar.",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "Variaciones de la arcadia: La canción del carpincho",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toca la melodía extraña y encuentra a la misteriosa criatura oculta en Manamar.",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Recuerdos de un viaje contigo",
-		"Description": "Observa todas las cosas que hay en tu habitación.",
+		"Description": "Coloca #1 recuerdos en la zona de figuras conmemorativas de la vitrina de exposición.",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11436,7 +11693,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Recuerdos de un viaje contigo",
-		"Description": "Infíltrate en la sala de reuniones del CEO.",
+		"Description": "Infíltrate en la sala de reuniones de la CEO.",
 		"VersionAdded": "4.0"
 	},
 	"4055002": {
@@ -11476,7 +11733,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Recuerdos de un viaje contigo",
-		"Description": "Primer paso para convertirte en jef{F#a}{M#e} de una revista: ¡publicar muchos titulares!\n<color=#8790abff>※Publica el primer número de «El Titular Arcadio».</color>",
+		"Description": "Primer paso para convertirte en jef{F#a}{M#e} de una revista: ¡publicar muchos titulares!\n<color=#8790abff>※Publica el primer número de los titulares de arcadia.</color>",
 		"HiddenDescription": "Primer paso para convertirte en jef{F#a}{M#e} de una revista: ¡publicar muchos titulares!",
 		"VersionAdded": "4.0"
 	},
@@ -11952,6 +12209,219 @@
 		"SeriesText": "Recuerdos de un viaje contigo",
 		"Description": "Supera el reto de la villana alienígena.",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "No escapará sin su castigo",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Entrega a la persona que asesinó a Skott a la Alianza Xianzhou.\n<color=#8790abff>※Ojalá pueda acostumbrarse a la comida de la Prisión de los encadenados.</color>",
+		"HiddenDescription": "Entrega a la persona que asesinó a Skott a la Alianza Xianzhou.",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "Principio de territorialidad",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Entrega a la persona que asesinó a Skott al Departamento de Inversiones Estratégicas.\n<color=#8790abff>※Como si nada hubiera pasado.</color>",
+		"HiddenDescription": "Entrega a la persona que asesinó a Skott al Departamento de Inversiones Estratégicas.",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "Rencillas del mundo marcial",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Lleva ante la justicia a la persona que asesinó a Skott.\n<color=#8790abff>※\"Si no tiene dignidad, habrá que echarle una mano para que la tenga\".</color>",
+		"HiddenDescription": "Lleva ante la justicia a la persona que asesinó a Skott.",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "Recuerdos desconocidos",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Completa la investigación del andén del tren acuático.",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "El Departamento Antimemético no existe",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Investiga la computadora del almacén de la cadena de televisión.",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "¿Qué es un héroe?",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Reencuéntrate con el Guerrero Cinéreo en la estación de televisión.",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "La preparación de un actor",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Completa el primer diálogo con la familia blubi.",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "Así que el amor desaparece, ¿verdad?",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Escucha las excusas que inventa un transeúnte para evitar ir a conocer a su futuro suegro.",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "Sucesión osipachi",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "¡Nuestra familia de osipachis es cada vez más numerosa!\n<color=#8790abff>※El Semanario Pachi cuenta oficialmente con #1 reporteros osipachis fijos.</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "Mi otr{F#a}{M#o} yo en el mundo",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Encuéntrate con otros Trazacaminos en el vagón de fiestas multijugador.",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "Club de conductores Trazacaminos",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Visita el vagón de fiestas multijugador de otros #1 Trazacaminos.",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Miau, miau, Emanado{F#ra}{M#r} Trazacaminos",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Obtén el regalo de Akimiauli.",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "Cazado{F#ra}{M#r} de fiestas",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Atrapa una creación en cada escondite del vagón de fiestas.",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "La última cena",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Coloca #1 creaciones iguales en la zona de colocación de creaciones.",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "Naturalista",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Reúne #1 creaciones en el registro de observación de creaciones.",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "¡Dado de la suerte! ¡A ganar!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Acumula #1 dados iridiscentes del Paquete de expansión 2 en el modo de juego Fuerza Cósmica.",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "Tu dado me extraña",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Intercambia dados un total de #1 veces en ¡Fuerza Cósmica, a tirar de nuevo!",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "Dale a \"me gusta\", comenta y suscríbete",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "En ¡Fuerza Cósmica, a tirar de nuevo!, usa #1 cartas de tácticas de forma consecutiva en un turno.",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "Daño tamaño XL",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "En ¡Fuerza Cósmica, a tirar de nuevo!, inflige #1 pts. de daño en un turno.",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "Semanario Pachi a la carga",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "En ¡Fuerza Cósmica, a tirar de nuevo!, representa al Semanario Pachi y derrota a los cinco mejores de la clasificación de la calle comercial de Manamar: los Cinco Maestros de Manamar.",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "El mejor dado del cosmos",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Completa el duelo final contra Silver Wolf Niv. 999 en «¡Fuerza Cósmica, a tirar de nuevo!».",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "Aha lanza Que haya risas y elimina a #1 enemigo.",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "Humor a porrillo",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Gana una batalla con un equipo que tenga #1 personajes de la Vía de la Exultación.",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "Los tres mosqueteros",
@@ -15228,7 +15708,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Ansia de batalla",
-		"Description": "En el combate contra Mecatrón de Uso Civil NLS, haz que elimine a #1 enemigos.",
+		"Description": "En el combate contra Mecatrón de Uso Civil NLS, haz que elimine a #1 enemigo.",
 		"VersionAdded": "4.1"
 	},
 	"4075107": {
@@ -15250,6 +15730,106 @@
 		"SeriesText": "Ansia de batalla",
 		"Description": "En un solo combate contra Mecatrón de Aleación: Rey Pom-Pom, activa el efecto Reluciente de \"Jabón potente\" al menos #1 veces.",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "Nada de caras largas",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En una sola batalla, usa {F#a la}{M#al} Trazacaminos de la Vía de la Exultación para lanzar la habilidad definitiva una vez sobre #1 compañeros de equipo diferentes.",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "Gracias por las donaciones",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En una sola batalla, lanza la habilidad definitiva sobre Chispa un total de #1 veces con {F#la}{M#el} Trazacaminos de la Vía de la Exultación.",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "El top <unbreak>500</unbreak> de micromecenazgo",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En una sola batalla, la cantidad total de ¡Bien hecho! que obtiene Evanescia de otros compañeros de equipo mediante el talento Juventud: primavera eterna supera #1",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "Lo bueno nunca sobra",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Usa al personaje aliado Evanescia para lanzar la habilidad definitiva cuando las acumulaciones de ¡Bien hecho! alcancen #1.",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "Basta de bromas, Kafka",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Activa Protección 999 grados de Silver Wolf Niv. 999 y disipa el estado de Dominación aplicado por Kafka de los Cazadores de Estelaron.",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "Lista de equipamiento",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En un solo turno, los compañeros de equipo activan #1 tipos distintos de Caja de botín premium de Silver Wolf Niv. 999.",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "La loba de la calle financiera",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Recoge de una vez #1 pixelpesos al usar la técnica de Silver Wolf Niv. 999 \"Esto sí es meta\".",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "Crisis biológica",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En la batalla contra Júbilo Inverso: Archiloto Maldeseo, un personaje aliado derrota a cualquier objetivo con Justo en el blanco tras convertirse en Marioneta de la felicidad.",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "Cordura al máximo",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En la batalla contra Júbilo Inverso: Archiloto Maldeseo, ningún personaje se convierte en una Marioneta de la felicidad al activarse Felicidad.",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "El final de la diversión",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En una batalla contra Ascendentes del Gozo, elimina a #1 o más Ascendente del Gozo: Final con un solo ataque.",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

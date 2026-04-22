@@ -311,12 +311,6 @@
 		"Description": "Eine uralte Vereinigung aus vielen intelligenten Arten.\nIhr Ziel für Xianzhou ist es, die Ausgeburten des Überflusses auszulöschen.",
 		"VersionAdded": "1.0"
 	},
-	"10053": {
-		"Id": "10053",
-		"Name": "Stellaron-Jäger",
-		"Description": "Eine Organisation, die auf der Jagd nach Stellarons zwischen den Welten reist.\nEs ist unbekannt, von welchem Äon ihre Macht stammt.",
-		"VersionAdded": "1.0"
-	},
 	"10054": {
 		"Id": "10054",
 		"Name": "Wesen des Überflusses",
@@ -1931,6 +1925,30 @@
 		"Description": "Pearls interstellare Unterhaltungs-Mediengruppe. Das Hauptgeschäft umfasst die Produktion und den Verkauf von Mechatrons.\nDer hoch aufragende Hauptsitz, der Pearluxe-Turm, ist ein Tempel, nach dem sich unzählige Bewerber sehnen.",
 		"VersionAdded": "4.1"
 	},
+	"10426": {
+		"Id": "10426",
+		"Name": "Füllwunsch",
+		"Description": "Präsidentin der „Forschungsgesellschaft für glückliches Lächeln“ und Direktorin von „Wunscherfüllungs-TV“. Ein Waisenkind der Blutdürstigen Spiele.\nUm sich am Hochgefühl von Planarcadia zu rächen, verwandelte sie sich in ihren eigenen Feind, um Arcadia als Herold des Todes das Urteil zu bringen.",
+		"VersionAdded": "4.2"
+	},
+	"10427": {
+		"Id": "10427",
+		"Name": "Forschungsgesellschaft für glückliches Lächeln",
+		"Description": "Eine riesige Wohltätigkeitsorganisation, ehemals die Gesellschaft für gegenseitige Hilfe für Opfer des Vorfalls mit dem Herold des Todes.\nMithilfe von Heilmethoden wie „Glücksoperationen“ verwandelt sie die Bürger in Bestien, die nur den Geschmack des Glücks kennen.",
+		"VersionAdded": "4.2"
+	},
+	"10428": {
+		"Id": "10428",
+		"Name": "Herold des Todes",
+		"Description": "Der Hauptschuldige der Blutdürstigen Spiele, ein Monster, das sich am Gemetzel ergötzt.\nNun wird es von Füllwunsch benutzt, um als Symbol der „Angst“ das Gedankengut von Planarcadia in Aufruhr zu versetzen.",
+		"VersionAdded": "4.2"
+	},
+	"10429": {
+		"Id": "10429",
+		"Name": "Stellaron-Jäger",
+		"Description": "Eine Organisation, die auf der Jagd nach Stellarons zwischen den Welten reist.\nFür ein bestimmtes Ziel bewegt sie sich auf dem Pfad der „Endgültigkeit“ stromaufwärts.",
+		"VersionAdded": "4.2"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Zurück zur Perspektive {F#der Trailblazerin}{M#des Trailblazers} ...",
@@ -2356,5 +2374,29 @@
 		"Name": "Wechsel zur Perspektive von Ashveil ...",
 		"Description": "Auf der Suche nach dem Täter kommt Ashveil an der Brücke vorbei, als die Erinnerungen an die Vergangenheit wieder auftauchen ...",
 		"VersionAdded": "4.1"
+	},
+	"20102": {
+		"Id": "20102",
+		"Name": "Wechsel zur Perspektive von Evanescia ...",
+		"Description": "Während {NICKNAME} die Ermittlungen an der Schule fortsetzt, treffen Evanescia und Yao Guang in Seafeld City ein ...",
+		"VersionAdded": "4.2"
+	},
+	"20103": {
+		"Id": "20103",
+		"Name": "Wechsel zur Perspektive von Sparxie ...",
+		"Description": "Andernorts unterhält sich Sparxie in der Taverne prächtig mit anderen ...",
+		"VersionAdded": "4.2"
+	},
+	"20104": {
+		"Id": "20104",
+		"Name": "Wechsel zur Perspektive von Evanescia ...",
+		"Description": "Evanescia greift nach ihrer Herrscherklinge, bereit, das durchzuziehen, was sie sich vorgenommen hat ...",
+		"VersionAdded": "4.2"
+	},
+	"20105": {
+		"Id": "20105",
+		"Name": "Wechsel zur Perspektive von Silberwolf ...",
+		"Description": "Währenddessen bereitet sich auch Silberwolf in Pearls Studio darauf vor, in Aktion zu treten ...",
+		"VersionAdded": "4.2"
 	}
 }

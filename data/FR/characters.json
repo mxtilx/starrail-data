@@ -2495,7 +2495,7 @@
 			{
 				"Id": "140106",
 				"Name": "Appât de la réponse",
-				"Effect": "La PÉN de RÉS à la glace de la Grande Herta augmente de 20%. Lorsque le nombre de cibles ennemies sur le champ de bataille est de 3 (ou plus)/2/1, le multiplicateur de DGT de l'ultime augmente de 140%/250%/400% respectivement."
+				"Effect": "La PÉN de RÉS à la glace de la Grande Herta augmente de 20%. Lorsque le nombre de cibles ennemies sur le champ de bataille est de 3+/2/1, le multiplicateur de DGT de l'ultime augmente de 140%/250%/400% respectivement."
 			}
 		],
 		"VersionAdded": "3.1"
@@ -3156,6 +3156,88 @@
 		],
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"ElementType": "Physical",
+		"ElementTypeText": "Physique",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"Eidolons": [
+			{
+				"Id": "150501",
+				"Name": "Terre natale : Une prière dansée",
+				"Effect": "Augmente la PÉN de RÉS à tous les types de 20%. Après une attaque de Maître renard, déclenche la comicompétence 1 fois supplémentaire. La comicompétence accorde 10 points de <u>Banger absolu</u> supplémentaires à cette unité."
+			},
+			{
+				"Id": "150502",
+				"Name": "Voyage : Vœu d'une route fleurie",
+				"Effect": "Les DGT critiques augmentent de 36%. Lorsque s'active l'effet d'obtention de Banger absolu des Traces Exultation partagée/Meilleures floraisons, accorde également des points de <u>Banger absolu</u> équivalents à 50%/100% des points de <u>Banger absolu</u> obtenus cette fois-ci."
+			},
+			{
+				"Id": "150503",
+				"Name": "Lame : Dévoration des démons",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "150504",
+				"Name": "Prairie : Ravage par le mal",
+				"Effect": "Les DGT infligés par Evanescia ignorent 15% de la DÉF des cibles ennemies."
+			},
+			{
+				"Id": "150505",
+				"Name": "Arcadia : Un aperçu des destins",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "150506",
+				"Name": "Demoiselle : Un pas dans les rêves",
+				"Effect": "La durée de <u>Banger absolu</u> d'Evanescia augmente de 1 tour. Les <u>comidégâts</u> infligés par Evanescia <u>s'égayent</u> de 15%. Pour chaque tranche de 100 points de <u>Banger absolu</u> en possession, les DGT <u>s'égayent</u> de 2.0% supplémentaires, jusqu'à 1 000 points de <u>Banger absolu</u> comptabilisés. Après avoir utilisé son ultime pour la première fois après l'entrée en combat, Evanescia régénère un montant fixe de 120 points d'énergie. Cet effet peut se déclencher 1 fois tous les 4 ultimes utilisés."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Louve d'argent Niv. <unbreak>999</unbreak>",
+		"ElementType": "Imaginary",
+		"ElementTypeText": "Imaginaire",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"Eidolons": [
+			{
+				"Id": "150601",
+				"Name": "Édition d'éther : Eidolon +1",
+				"Effect": "Les cibles ennemies dans la zone subissent 20% de DGT supplémentaires.\nLorsque l'état MVP incontestée prend fin, le Score caché n'est pas réinitialisé, mais 20% du Score caché est conservé."
+			},
+			{
+				"Id": "150602",
+				"Name": "C'est une fonctionnalité, pas un bug",
+				"Effect": "Entrer dans l'état MVP incontestée prolonge tous les <u>bonus</u> de cette unité de 1 tour. Dans l'état MVP incontestée actuel, pour chaque tranche de 120 points de Score caché obtenus (y compris le Score caché initial), Louve d'argent Niv. 999 obtient 1 <u>tour supplémentaire</u> et récupère 1 utilisation d'ATQ normale renforcée."
+			},
+			{
+				"Id": "150603",
+				"Name": "Max Niv. <unbreak>15</unbreak> ? Selon qui ?",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "150604",
+				"Name": "Veni, vidi, one-shot",
+				"Effect": "Multiplie par 5 la quantité de points de <u>Panache</u> comptabilisés par les <u>comidégâts</u> infligés par Honkai Impact."
+			},
+			{
+				"Id": "150605",
+				"Name": "L'ATQ normale est le nouvel ultime",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "150606",
+				"Name": "Solo maxxing !",
+				"Effect": "Les <u>comidégâts</u> infligés lors de l'ATQ normale renforcée <u>s'égayent</u> de 50%.\nLorsqu'une cible ennemie entre en combat, lui applique Faiblesse absolue, ce qui lui implante une Faiblesse à tous les types, et réduit sa <u>RÉS de base</u> à tous les types à 0 (si la <u>RÉS de base</u> est déjà à 0, la RÉS du type correspondant diminue de 20%)."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Pionnier (Physique)",
@@ -3499,5 +3581,91 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "Pionnier (Foudre)",
+		"TrailblazerCanonName": "Caelus",
+		"TrailblazerGender": "M",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Foudre",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"Eidolons": [
+			{
+				"Id": "800901",
+				"Name": "Brûle ton cosmos",
+				"Effect": "Après avoir utilisé la compétence, le prochain ultime augmente le <u>Banger absolu</u> obtenu par les cibles alliées de 2 points. Cet effet peut être cumulé jusqu'à 3 fois."
+			},
+			{
+				"Id": "800902",
+				"Name": "Moment incroyable en préparation...",
+				"Effect": "L'ultime augmente l'Allégresse d'un allié désigné de 12% supplémentaires pendant 2 tours."
+			},
+			{
+				"Id": "800903",
+				"Name": "Sous les projecteurs",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "800904",
+				"Name": "Pas besoin d'une raison pour sauver le monde",
+				"Effect": "Utiliser la comicompétence augmente les DGT subis par les cibles ennemies de 10% pendant 2 tours."
+			},
+			{
+				"Id": "800905",
+				"Name": "Amour et courage, toujours indémodables",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "800906",
+				"Name": "La légende cosmique arrive !",
+				"Effect": "Utiliser la comicompétence augmente les DGT critiques de cette unité de 100% pendant 3 tours."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "Pionnière (Foudre)",
+		"TrailblazerCanonName": "Stelle",
+		"TrailblazerGender": "F",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Foudre",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"Eidolons": [
+			{
+				"Id": "801001",
+				"Name": "Brûle ton cosmos",
+				"Effect": "Après avoir utilisé la compétence, le prochain ultime augmente le <u>Banger absolu</u> obtenu par les cibles alliées de 2 points. Cet effet peut être cumulé jusqu'à 3 fois."
+			},
+			{
+				"Id": "801002",
+				"Name": "Moment incroyable en préparation...",
+				"Effect": "L'ultime augmente l'Allégresse d'un allié désigné de 12% supplémentaires pendant 2 tours."
+			},
+			{
+				"Id": "801003",
+				"Name": "Sous les projecteurs",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "801004",
+				"Name": "Pas besoin d'une raison pour sauver le monde",
+				"Effect": "Utiliser la comicompétence augmente les DGT subis par les cibles ennemies de 10% pendant 2 tours."
+			},
+			{
+				"Id": "801005",
+				"Name": "Amour et courage, toujours indémodables",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum.\nNiv. de la comicompétence +1, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "801006",
+				"Name": "La légende cosmique arrive !",
+				"Effect": "Utiliser la comicompétence augmente les DGT critiques de cette unité de 100% pendant 3 tours."
+			}
+		],
+		"VersionAdded": "4.2"
 	}
 }

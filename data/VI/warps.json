@@ -1159,6 +1159,86 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
 		"VersionAdded": "4.1"
 	},
+	"2116": {
+		"Id": "2116",
+		"Name": "Người Chơi Vô Địch",
+		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2117": {
+		"Id": "2117",
+		"Name": "Gặp Gỡ Khó Phai - Dahlia",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2118": {
+		"Id": "2118",
+		"Name": "Gặp Gỡ Khó Phai - Castorice",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2119": {
+		"Id": "2119",
+		"Name": "Gặp Gỡ Khó Phai - Firefly",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2120": {
+		"Id": "2120",
+		"Name": "Thiếu Nữ Phán Định",
+		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2121": {
+		"Id": "2121",
+		"Name": "Gặp Gỡ Khó Phai - Tribbie",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2122": {
+		"Id": "2122",
+		"Name": "Gặp Gỡ Khó Phai - Sunday",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2123": {
+		"Id": "2123",
+		"Name": "Gặp Gỡ Khó Phai - Feixiao",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
+		"VersionAdded": "4.2"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Định Hình Năm Tháng",
@@ -2308,6 +2388,86 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
 		"VersionAdded": "4.1"
+	},
+	"3116": {
+		"Id": "3116",
+		"Name": "Định Hình Năm Tháng",
+		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3117": {
+		"Id": "3117",
+		"Name": "Chân Ý Hội Tụ - Đừng Quên Ngọn Lửa Của Cô Ấy",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3118": {
+		"Id": "3118",
+		"Name": "Chân Ý Hội Tụ - Để Lời Từ Biệt Đẹp Đẽ Hơn",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3119": {
+		"Id": "3119",
+		"Name": "Chân Ý Hội Tụ - Giấc Mộng Sẽ Đi Về Đâu",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3120": {
+		"Id": "3120",
+		"Name": "Định Hình Năm Tháng",
+		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3121": {
+		"Id": "3121",
+		"Name": "Chân Ý Hội Tụ - Nếu Thời Gian Là Một Đóa Hoa",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3122": {
+		"Id": "3122",
+		"Name": "Chân Ý Hội Tụ - Chuyến Bay Trở Về Mặt Đất",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3123": {
+		"Id": "3123",
+		"Name": "Chân Ý Hội Tụ - Ta Sẽ, Tuần Tra Săn Bắn",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
+		"VersionAdded": "4.2"
 	},
 	"4001": {
 		"Id": "4001",

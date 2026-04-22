@@ -56,7 +56,7 @@
 			{
 				"Id": "100202",
 				"Name": "Bosheit kontrollieren, Flamme löschen",
-				"Effect": "Verringert die Abklingzeit des Talents um 1 Rd."
+				"Effect": "Reduziert die Abklingzeit des Talents um 1 Rd."
 			},
 			{
 				"Id": "100203",
@@ -133,7 +133,7 @@
 			{
 				"Id": "100401",
 				"Name": "Nachlass der Ehre",
-				"Effect": "Nach dem Einsatz des Ultimates wird Welt verstärkt. Die nächsten 2 Einsätze seines Standardangriffs oder seiner Fertigkeit fügen dem Gegner 1-mal <u>zusätzlichen SCH</u> in Höhe von 50% des SCH-Multiplikators seines Standardangriffs bzw. 80% des SCH-Multiplikators seiner Fertigkeit zu."
+				"Effect": "Nach dem Einsatz des Ultimates wird Welt verstärkt. Die nächsten 2 Einsätze seines Standardangriffs oder seiner Fertigkeit fügen den Gegnern noch 1-mal <u>zusätzlichen SCH</u> in Höhe von 50% des SCH-Multiplikators seines Standardangriffs bzw. 80% des SCH-Multiplikators seiner Fertigkeit zu."
 			},
 			{
 				"Id": "100402",
@@ -158,7 +158,7 @@
 			{
 				"Id": "100406",
 				"Name": "Glänzende Aussichten",
-				"Effect": "Fügt einem zufälligen Gegner beim Einsatz der Fertigkeit 1-mal zusätzlichen SCH zu."
+				"Effect": "Fügt einem zufälligen Gegner beim Einsatz der Fertigkeit zusätzlich 1-mal SCH zu."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -435,7 +435,7 @@
 			{
 				"Id": "110204",
 				"Name": "Ein kurzer Blick",
-				"Effect": "Besiegt Seele einen Gegner, erhält sie 15 Pkt. Energie zurück."
+				"Effect": "Besiegt Seele einen Gegner, stellt sie 15 Energie wieder her."
 			},
 			{
 				"Id": "110205",
@@ -445,7 +445,7 @@
 			{
 				"Id": "110206",
 				"Name": "Trennung",
-				"Effect": "Nach einem Angriff mit dem Ultimate werden getroffene Gegner für 1 Rd. mit dem Status „Schmetterlingssturm“ belegt. Gegner im Schmetterlingssturm erleiden nach einem erlittenen Angriff 1-mal <u>zusätzlichen Quanten-SCH</u> in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den <u>zusätzlichen SCH</u> von Schmetterlingssturm besiegt, wird Seeles Talent nicht ausgelöst.\nIst Seele <u>handlungsunfähig</u>, wird der Status Schmetterlingssturm vom Gegner entfernt."
+				"Effect": "Ein Angriff mit dem Ultimate verursacht beim getroffenen Gegner für 1 Rd. den Status „Schmetterlingssturm“. Gegner im Schmetterlingssturm erleiden bei Treffern 1-mal <u>zusätzlichen Quanten-SCH</u> in Höhe von 15% von Seeles Ultimate-SCH. Wenn ein anderer Verbündeter das Ziel durch den <u>zusätzlichen SCH</u> von Schmetterlingssturm besiegt, wird Seeles Talent nicht ausgelöst.\nIst Seele <u>handlungsunfähig</u>, wird der Status Schmetterlingssturm vom Gegner entfernt."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -1486,7 +1486,7 @@
 			{
 				"Id": "121701",
 				"Name": "Von Heliobi besessen, vom Bösen ergriffen",
-				"Effect": "Die Dauer von „Gesegnete Heilung“, das vom Talent bewirkt wird, wird um 1 Rd. verlängert. Wenn Huohuo Gesegnete Heilung besitzt, wird die GES aller Verbündeten um 12% erhöht."
+				"Effect": "Die Dauer von „Gesegnete Heilung“ des Talents wird um 1 Rd. verlängert. Wenn Huohuo Gesegnete Heilung besitzt, wird die GES aller Verbündeten um 12% erhöht."
 			},
 			{
 				"Id": "121702",
@@ -1511,7 +1511,7 @@
 			{
 				"Id": "121706",
 				"Name": "Einmal verwoben, auf ewig vereint",
-				"Effect": "Erhöht den zugefügten SCH eines Verbündeten für 2 Rd. um 50%, wenn dieser geheilt wird."
+				"Effect": "Erhöht den verursachten SCH eines Verbündeten für 2 Rd. um 50%, wenn dieser geheilt wird."
 			}
 		],
 		"VersionAdded": "1.5"
@@ -3156,6 +3156,88 @@
 		],
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"ElementType": "Physical",
+		"ElementTypeText": "Physisch",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"Eidolons": [
+			{
+				"Id": "150501",
+				"Name": "Heimat, Tanz für den Segen",
+				"Effect": "Erhöht die WDS-DUR aller Typen um 20%. Löst nach einem Angriff von „Fuchslehrer“ zusätzlich 1-mal die Hochgefühl-Fähigkeit aus. Die Hochgefühl-Fähigkeit gewährt dieser Einheit zusätzlich 10 Pkt. <u>Verdiente Leistung</u>."
+			},
+			{
+				"Id": "150502",
+				"Name": "Reise, Bitte um ewige Blüte",
+				"Effect": "Erhöht den KRIT-SCH um 36%. Wenn der Effekt zum Erhalt von „Verdiente Leistung“ der Spuren „Gemeinsame Freude“ / „Blütenpracht“ ausgelöst wird, wird zusätzlich <u>Verdiente Leistung</u> in Höhe von 50%/100% der diesmal erhaltenen <u>Verdiente Leistung</u> erhalten."
+			},
+			{
+				"Id": "150503",
+				"Name": "Schwert, Verschlinger des Bösen",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "150504",
+				"Name": "Blumenfeld, zerpflückt durch Schurken",
+				"Effect": "Der von Evanescia verursachte SCH ignoriert 15% der VTD des Gegners."
+			},
+			{
+				"Id": "150505",
+				"Name": "Arcadia, Zeuge von Freud und Leid",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "150506",
+				"Name": "Mädchen, Traumvision im Wandel",
+				"Effect": "Erhöht die Dauer von Evanescias <u>Verdiente Leistung</u> um 1 Rd. Der von Evanescia verursachte <u>Hochgefühl-SCH</u> <u>verstärkt das Lachen</u> um 15%. Für je 100 Pkt. <u>Verdiente Leistung</u> im Besitz wird das <u>Lachen</u> zusätzlich um 2.0% <u>verstärkt</u>, wobei bis zu 1.000 Pkt. <u>Verdiente Leistung</u> gezählt werden. Stellt nach dem ersten Einsatz des Ultimates im Kampf eine feste Menge von 120 Energie für Evanescia wieder her. Nachdem der Ultimate noch 4-mal eingesetzt wurde, kann dieser Effekt jeweils noch 1-mal ausgelöst werden."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silberwolf St. <unbreak>999</unbreak>",
+		"ElementType": "Imaginary",
+		"ElementTypeText": "Imaginär",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"Eidolons": [
+			{
+				"Id": "150601",
+				"Name": "Ätherbearbeitung: Eidolon +1",
+				"Effect": "Erhöht den von Gegnern im Kraftfeld erlittenen SCH um 20%.\nBeim Verlassen des Status „God-Mode-Spielerin“ wird „Verstecktes MMR“ nicht zurückgesetzt, stattdessen werden 20% des Versteckten MMR beibehalten."
+			},
+			{
+				"Id": "150602",
+				"Name": "Ein Feature, kein Bug",
+				"Effect": "Verlängert nach dem Eintritt in den Status „God-Mode-Spielerin“ alle <u>Buffs</u> dieser Einheit um 1 Rd. Für jede Erhöhung von „Verstecktes MMR“ um 120 Pkt. in diesem Status God-Mode-Spielerin (einschließlich des anfänglichen Versteckten MMR) erhält Silberwolf St. 999 1 <u>zusätzliche Runde</u> und stellt 1 Einsatz des verstärkten Standardangriffs wieder her."
+			},
+			{
+				"Id": "150603",
+				"Name": "Nur St. <unbreak>15</unbreak>? Wer hat das eingetragen?",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "150604",
+				"Name": "Ich kam, ich sah, ich ... kloppte",
+				"Effect": "Der von „Schadensdemo: Honkai-Niveau“ verursachte <u>Hochgefühl-SCH</u> rechnet zusätzlich das 5-Fache der <u>Lachpunkte</u> an."
+			},
+			{
+				"Id": "150605",
+				"Name": "Standardangriff = Ultimate",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "150606",
+				"Name": "Solo-Leveling zum Maximum!",
+				"Effect": "Der während des verstärkten Standardangriffs verursachte <u>Hochgefühl-SCH</u> <u>verstärkt das Lachen</u> um 50%.\nWenn ein Gegner in den Kampf eintritt, wird er mit „Limitierte Schwäche“ belegt: Er erhält Schwächen aller Typen und der <u>Basis-WDS</u> aller Typen wird auf 0 reduziert (beträgt der <u>Basis-WDS</u> 0, wird stattdessen der WDS des entsprechenden Typs um 20% reduziert)."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physisch)",
@@ -3499,5 +3581,91 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "Trailblazer (Blitz)",
+		"TrailblazerCanonName": "Caelus",
+		"TrailblazerGender": "M",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Blitz",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"Eidolons": [
+			{
+				"Id": "800901",
+				"Name": "Zeit, an das Licht zu glauben",
+				"Effect": "Nach dem Einsatz der Fertigkeit erhöht der nächste Ultimate die von Verbündeten erhaltene <u>Verdiente Leistung</u> um 2 Pkt. Dieser Effekt ist bis zu 3-fach stapelbar."
+			},
+			{
+				"Id": "800902",
+				"Name": "Epische Szene in Arbeit ...",
+				"Effect": "Der Ultimate erhöht das Hochgefühl eines anvisierten Verbündeten zusätzlich für 2 Rd. um 12%."
+			},
+			{
+				"Id": "800903",
+				"Name": "Los, Kamera auf mich",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "800904",
+				"Name": "Zum Weltretten braucht man keinen Grund",
+				"Effect": "Erhöht beim Einsatz der Hochgefühl-Fähigkeit den von Gegnern erlittenen SCH für 2 Rd. um 10%."
+			},
+			{
+				"Id": "800905",
+				"Name": "Liebe und Mut kommen nie aus der Mode",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "800906",
+				"Name": "Die Galaktische Legende betritt die Bühne!",
+				"Effect": "Erhöht beim Einsatz der Hochgefühl-Fähigkeit den KRIT-SCH dieser Einheit für 3 Rd. um 100%."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "Trailblazer (Blitz)",
+		"TrailblazerCanonName": "Stella",
+		"TrailblazerGender": "F",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Blitz",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"Eidolons": [
+			{
+				"Id": "801001",
+				"Name": "Zeit, an das Licht zu glauben",
+				"Effect": "Nach dem Einsatz der Fertigkeit erhöht der nächste Ultimate die von Verbündeten erhaltene <u>Verdiente Leistung</u> um 2 Pkt. Dieser Effekt ist bis zu 3-fach stapelbar."
+			},
+			{
+				"Id": "801002",
+				"Name": "Epische Szene in Arbeit ...",
+				"Effect": "Der Ultimate erhöht das Hochgefühl eines anvisierten Verbündeten zusätzlich für 2 Rd. um 12%."
+			},
+			{
+				"Id": "801003",
+				"Name": "Los, Kamera auf mich",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "801004",
+				"Name": "Zum Weltretten braucht man keinen Grund",
+				"Effect": "Erhöht beim Einsatz der Hochgefühl-Fähigkeit den von Gegnern erlittenen SCH für 2 Rd. um 10%."
+			},
+			{
+				"Id": "801005",
+				"Name": "Liebe und Mut kommen nie aus der Mode",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10. Hochgefühl-Fähigkeitsstufe +1 bis max. St. 15."
+			},
+			{
+				"Id": "801006",
+				"Name": "Die Galaktische Legende betritt die Bühne!",
+				"Effect": "Erhöht beim Einsatz der Hochgefühl-Fähigkeit den KRIT-SCH dieser Einheit für 3 Rd. um 100%."
+			}
+		],
+		"VersionAdded": "4.2"
 	}
 }

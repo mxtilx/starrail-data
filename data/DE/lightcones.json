@@ -4469,6 +4469,57 @@
 		],
 		"VersionAdded": "3.7"
 	},
+	"22007": {
+		"Id": "22007",
+		"Name": "Gemeinsam in die Zukunft",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"EffectName": "Gefährte",
+		"EffectTemplate": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>#1[i]%</color>. Nachdem der Träger seinen Ultimate eingesetzt hat, wird das Hochgefühl aller Verbündeten für #3[i] Rd. um <color=#f29e38ff>#2[i]%</color> erhöht.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>12%</color>. Nachdem der Träger seinen Ultimate eingesetzt hat, wird das Hochgefühl aller Verbündeten für 1 Rd. um <color=#f29e38ff>8%</color> erhöht.",
+				"Params": [
+					0.12,
+					0.08,
+					1
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>15%</color>. Nachdem der Träger seinen Ultimate eingesetzt hat, wird das Hochgefühl aller Verbündeten für 1 Rd. um <color=#f29e38ff>9%</color> erhöht.",
+				"Params": [
+					0.15,
+					0.09,
+					1
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>18%</color>. Nachdem der Träger seinen Ultimate eingesetzt hat, wird das Hochgefühl aller Verbündeten für 1 Rd. um <color=#f29e38ff>10%</color> erhöht.",
+				"Params": [
+					0.18,
+					0.1,
+					1
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>21%</color>. Nachdem der Träger seinen Ultimate eingesetzt hat, wird das Hochgefühl aller Verbündeten für 1 Rd. um <color=#f29e38ff>11%</color> erhöht.",
+				"Params": [
+					0.21,
+					0.11,
+					1
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>24%</color>. Nachdem der Träger seinen Ultimate eingesetzt hat, wird das Hochgefühl aller Verbündeten für 1 Rd. um <color=#f29e38ff>12%</color> erhöht.",
+				"Params": [
+					0.24,
+					0.12,
+					1
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"23000": {
 		"Id": "23000",
 		"Name": "Nacht auf der Milchstraße",
@@ -7769,6 +7820,133 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"23057": {
+		"Id": "23057",
+		"Name": "Willkommen in der kosmischen Stadt",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"EffectName": "Garantierter Sieg",
+		"EffectTemplate": "Erhöht die GES des Trägers um <color=#f29e38ff>#1[i]%</color>. Der verursachte Hochgefühl-SCH ignoriert <color=#f29e38ff>#2[i]%</color> der VTD des Ziels. Wenn der Träger den Ultimate auf sich selbst als Einzelziel anwendet, erhält er <color=#f29e38ff>#3[i]</color> Lachpunkte. Dieser Effekt kann bis zu 1-mal ausgelöst werden. Nach #4[i]-maligem Einsatz des Standardangriffs wird die Auslösungsanzahl zurückgesetzt.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht die GES des Trägers um <color=#f29e38ff>18%</color>. Der verursachte Hochgefühl-SCH ignoriert <color=#f29e38ff>20%</color> der VTD des Ziels. Wenn der Träger den Ultimate auf sich selbst als Einzelziel anwendet, erhält er <color=#f29e38ff>20</color> Lachpunkte. Dieser Effekt kann bis zu 1-mal ausgelöst werden. Nach 3-maligem Einsatz des Standardangriffs wird die Auslösungsanzahl zurückgesetzt.",
+				"Params": [
+					0.18,
+					0.2,
+					20,
+					3
+				]
+			},
+			{
+				"Effect": "Erhöht die GES des Trägers um <color=#f29e38ff>21%</color>. Der verursachte Hochgefühl-SCH ignoriert <color=#f29e38ff>24%</color> der VTD des Ziels. Wenn der Träger den Ultimate auf sich selbst als Einzelziel anwendet, erhält er <color=#f29e38ff>25</color> Lachpunkte. Dieser Effekt kann bis zu 1-mal ausgelöst werden. Nach 3-maligem Einsatz des Standardangriffs wird die Auslösungsanzahl zurückgesetzt.",
+				"Params": [
+					0.21,
+					0.24,
+					25,
+					3
+				]
+			},
+			{
+				"Effect": "Erhöht die GES des Trägers um <color=#f29e38ff>24%</color>. Der verursachte Hochgefühl-SCH ignoriert <color=#f29e38ff>28%</color> der VTD des Ziels. Wenn der Träger den Ultimate auf sich selbst als Einzelziel anwendet, erhält er <color=#f29e38ff>30</color> Lachpunkte. Dieser Effekt kann bis zu 1-mal ausgelöst werden. Nach 3-maligem Einsatz des Standardangriffs wird die Auslösungsanzahl zurückgesetzt.",
+				"Params": [
+					0.24,
+					0.28,
+					30,
+					3
+				]
+			},
+			{
+				"Effect": "Erhöht die GES des Trägers um <color=#f29e38ff>27%</color>. Der verursachte Hochgefühl-SCH ignoriert <color=#f29e38ff>32%</color> der VTD des Ziels. Wenn der Träger den Ultimate auf sich selbst als Einzelziel anwendet, erhält er <color=#f29e38ff>35</color> Lachpunkte. Dieser Effekt kann bis zu 1-mal ausgelöst werden. Nach 3-maligem Einsatz des Standardangriffs wird die Auslösungsanzahl zurückgesetzt.",
+				"Params": [
+					0.27,
+					0.32,
+					35,
+					3
+				]
+			},
+			{
+				"Effect": "Erhöht die GES des Trägers um <color=#f29e38ff>30%</color>. Der verursachte Hochgefühl-SCH ignoriert <color=#f29e38ff>36%</color> der VTD des Ziels. Wenn der Träger den Ultimate auf sich selbst als Einzelziel anwendet, erhält er <color=#f29e38ff>40</color> Lachpunkte. Dieser Effekt kann bis zu 1-mal ausgelöst werden. Nach 3-maligem Einsatz des Standardangriffs wird die Auslösungsanzahl zurückgesetzt.",
+				"Params": [
+					0.3,
+					0.36,
+					40,
+					3
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"23058": {
+		"Id": "23058",
+		"Name": "Begegnung in der nächsten Blütezeit",
+		"PathType": "Elation",
+		"PathTypeText": "Das Hochgefühl",
+		"EffectName": "Tagträumerei",
+		"EffectTemplate": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>#1[i]%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>#4[f1]%</color>. Wenn die max. Energie des Trägers höher als #5[i] ist, wird die Energie-Wiederherstellungsrate für je 10 überschüssige Pkt. an max. Energie zusätzlich um #6[f1]% erhöht, wobei höchstens #7[i] überschüssige Pkt. an max. Energie gezählt werden. Wenn der Träger eine Hochgefühl-Fähigkeit einsetzt, wird der von allen Gegnern erlittene SCH für #3[i] Rd. um <color=#f29e38ff>#2[f1]%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>60%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>10.0%</color>. Wenn die max. Energie des Trägers höher als 120 ist, wird die Energie-Wiederherstellungsrate für je 10 überschüssige Pkt. an max. Energie zusätzlich um 0.3% erhöht, wobei höchstens 360 überschüssige Pkt. an max. Energie gezählt werden. Wenn der Träger eine Hochgefühl-Fähigkeit einsetzt, wird der von allen Gegnern erlittene SCH für 2 Rd. um <color=#f29e38ff>15.0%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.6,
+					0.15,
+					2,
+					0.1,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>75%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>11.5%</color>. Wenn die max. Energie des Trägers höher als 120 ist, wird die Energie-Wiederherstellungsrate für je 10 überschüssige Pkt. an max. Energie zusätzlich um 0.3% erhöht, wobei höchstens 360 überschüssige Pkt. an max. Energie gezählt werden. Wenn der Träger eine Hochgefühl-Fähigkeit einsetzt, wird der von allen Gegnern erlittene SCH für 2 Rd. um <color=#f29e38ff>18.8%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.75,
+					0.1875,
+					2,
+					0.115,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>90%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>13.0%</color>. Wenn die max. Energie des Trägers höher als 120 ist, wird die Energie-Wiederherstellungsrate für je 10 überschüssige Pkt. an max. Energie zusätzlich um 0.3% erhöht, wobei höchstens 360 überschüssige Pkt. an max. Energie gezählt werden. Wenn der Träger eine Hochgefühl-Fähigkeit einsetzt, wird der von allen Gegnern erlittene SCH für 2 Rd. um <color=#f29e38ff>22.5%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.9,
+					0.225,
+					2,
+					0.13,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>105%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>14.5%</color>. Wenn die max. Energie des Trägers höher als 120 ist, wird die Energie-Wiederherstellungsrate für je 10 überschüssige Pkt. an max. Energie zusätzlich um 0.3% erhöht, wobei höchstens 360 überschüssige Pkt. an max. Energie gezählt werden. Wenn der Träger eine Hochgefühl-Fähigkeit einsetzt, wird der von allen Gegnern erlittene SCH für 2 Rd. um <color=#f29e38ff>26.3%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					1.05,
+					0.2625,
+					2,
+					0.145,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Erhöht den KRIT-SCH des Trägers um <color=#f29e38ff>120%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>16.0%</color>. Wenn die max. Energie des Trägers höher als 120 ist, wird die Energie-Wiederherstellungsrate für je 10 überschüssige Pkt. an max. Energie zusätzlich um 0.3% erhöht, wobei höchstens 360 überschüssige Pkt. an max. Energie gezählt werden. Wenn der Träger eine Hochgefühl-Fähigkeit einsetzt, wird der von allen Gegnern erlittene SCH für 2 Rd. um <color=#f29e38ff>30.0%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					1.2,
+					0.3,
+					2,
+					0.16,
+					120,
+					0.003,
+					360
+				]
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"24000": {
 		"Id": "24000",

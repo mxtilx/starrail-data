@@ -6138,8 +6138,8 @@
 		"Id": "617620",
 		"Name": "Infinite Improbability",
 		"Rarity": 1,
-		"Effect": "Consumes 100 Energy to use an ability and trigger Boundary Resonance with the Path of Elation, dealing <color=#f29e38ff>5</color>–<color=#f29e38ff>10</color> instances of Elation DMG of random Type to all enemy targets, as well as immediately granting Aha 1 extra turn where a fixed amount of <color=#f29e38ff>200</color> Punchline(s) are taken into account. This turn does not consume Punchlines.",
-		"AbridgedEffect": "Consumes 100 Energy to use an ability and trigger Boundary Resonance with the Path of Elation, dealing <color=#f29e38ff>5</color>–<color=#f29e38ff>10</color> instances of Elation DMG of random Type to all enemy targets, as well as immediately granting Aha 1 extra turn where a fixed amount of <color=#f29e38ff>200</color> Punchline(s) are taken into account. This turn does not consume Punchlines.",
+		"Effect": "Consumes 100 Energy to use an ability and trigger Boundary Resonance with the Path of Elation, dealing <color=#f29e38ff>5</color>–<color=#f29e38ff>10</color> instances of Elation DMG of random Type(s) to all enemy targets, as well as immediately granting Aha 1 extra turn where a fixed amount of <color=#f29e38ff>200</color> Punchline points are taken into account. This turn does not consume Punchlines.",
+		"AbridgedEffect": "Consumes 100 Energy to use an ability and trigger Boundary Resonance with the Path of Elation, dealing <color=#f29e38ff>5</color>–<color=#f29e38ff>10</color> instances of Elation DMG of random Type(s) to all enemy targets, as well as immediately granting Aha 1 extra turn where a fixed amount of <color=#f29e38ff>200</color> Punchline points are taken into account. This turn does not consume Punchlines.",
 		"VersionAdded": "4.1"
 	},
 	"617630": {
@@ -8119,6 +8119,20 @@
 		"Effect": "Ashveil's DMG is amplified in the Divergent Universe.\n\nHis final DMG dealt to enemy targets with HP percentage below <color=#f29e38ff>50%</color> increases by <color=#f29e38ff>30%</color>. If it is Follow-Up ATK DMG, additionally increases by <color=#f29e38ff>15%</color>.",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "Evanescia",
+		"Rarity": 1,
+		"Effect": "Evanescia's DMG receives Amplification in the Divergent Universe.\n\nWhile in possession of \"Certified Banger,\" increases this unit's final DMG dealt by <color=#f29e38ff>15%</color>. If \"Certified Banger\" is <color=#f29e38ff>100</color> or more, additionally increases final DMG dealt by <color=#f29e38ff>15%</color>.",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "Silver Wolf LV.<unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "Silver Wolf LV.999's DMG gains Amplification in the Divergent Universe.\n\nWhen Aha's turn begins, Silver Wolf LV.999's Elation increases by <color=#f29e38ff>0.5%</color> for every 1 Punchline possessed, lasting until Aha's next turn begins.",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "{NICKNAME}'s DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. When entering combat, regenerates Energy equal to <color=#f29e38ff>50%</color> of Max Energy.",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG receives Amplification in the Divergent Universe.\n\nWhile on the field, increases the Elation of ally targets by <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}'s DMG receives Amplification in the Divergent Universe.\n\nWhile on the field, increases the Elation of ally targets by <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",

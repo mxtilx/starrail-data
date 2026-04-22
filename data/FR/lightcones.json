@@ -4469,6 +4469,57 @@
 		],
 		"VersionAdded": "3.7"
 	},
+	"22007": {
+		"Id": "22007",
+		"Name": "L'avenir nous verra réunis",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"EffectName": "Adelphes",
+		"EffectTemplate": "Augmente les DGT critiques du porteur de <color=#f29e38ff>#1[i]%</color>. Après l'ultime du porteur, augmente l'Allégresse de tous les alliés de <color=#f29e38ff>#2[i]%</color> pour une durée de #3[i] tour.",
+		"Superimpositions": [
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>12%</color>. Après l'ultime du porteur, augmente l'Allégresse de tous les alliés de <color=#f29e38ff>8%</color> pour une durée de 1 tour.",
+				"Params": [
+					0.12,
+					0.08,
+					1
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>15%</color>. Après l'ultime du porteur, augmente l'Allégresse de tous les alliés de <color=#f29e38ff>9%</color> pour une durée de 1 tour.",
+				"Params": [
+					0.15,
+					0.09,
+					1
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>18%</color>. Après l'ultime du porteur, augmente l'Allégresse de tous les alliés de <color=#f29e38ff>10%</color> pour une durée de 1 tour.",
+				"Params": [
+					0.18,
+					0.1,
+					1
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>21%</color>. Après l'ultime du porteur, augmente l'Allégresse de tous les alliés de <color=#f29e38ff>11%</color> pour une durée de 1 tour.",
+				"Params": [
+					0.21,
+					0.11,
+					1
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>24%</color>. Après l'ultime du porteur, augmente l'Allégresse de tous les alliés de <color=#f29e38ff>12%</color> pour une durée de 1 tour.",
+				"Params": [
+					0.24,
+					0.12,
+					1
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"23000": {
 		"Id": "23000",
 		"Name": "Nuit sur la voie lactée",
@@ -7769,6 +7820,133 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"23057": {
+		"Id": "23057",
+		"Name": "Terrain de jeu universel",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"EffectName": "Victoire assurée",
+		"EffectTemplate": "Augmente la VIT du porteur de <color=#f29e38ff>#1[i]%</color>. Les comidégâts infligés ignorent <color=#f29e38ff>#2[i]%</color> de la DÉF de la cible. Lorsque le porteur utilise son ultime sur lui-même, il gagne <color=#f29e38ff>#3[i]</color> points de Panache. Cet effet peut être déclenché jusqu'à 1 fois et le nombre de déclenchements se réinitialise après avoir utilisé l'ATQ normale #4[i] fois.",
+		"Superimpositions": [
+			{
+				"Effect": "Augmente la VIT du porteur de <color=#f29e38ff>18%</color>. Les comidégâts infligés ignorent <color=#f29e38ff>20%</color> de la DÉF de la cible. Lorsque le porteur utilise son ultime sur lui-même, il gagne <color=#f29e38ff>20</color> points de Panache. Cet effet peut être déclenché jusqu'à 1 fois et le nombre de déclenchements se réinitialise après avoir utilisé l'ATQ normale 3 fois.",
+				"Params": [
+					0.18,
+					0.2,
+					20,
+					3
+				]
+			},
+			{
+				"Effect": "Augmente la VIT du porteur de <color=#f29e38ff>21%</color>. Les comidégâts infligés ignorent <color=#f29e38ff>24%</color> de la DÉF de la cible. Lorsque le porteur utilise son ultime sur lui-même, il gagne <color=#f29e38ff>25</color> points de Panache. Cet effet peut être déclenché jusqu'à 1 fois et le nombre de déclenchements se réinitialise après avoir utilisé l'ATQ normale 3 fois.",
+				"Params": [
+					0.21,
+					0.24,
+					25,
+					3
+				]
+			},
+			{
+				"Effect": "Augmente la VIT du porteur de <color=#f29e38ff>24%</color>. Les comidégâts infligés ignorent <color=#f29e38ff>28%</color> de la DÉF de la cible. Lorsque le porteur utilise son ultime sur lui-même, il gagne <color=#f29e38ff>30</color> points de Panache. Cet effet peut être déclenché jusqu'à 1 fois et le nombre de déclenchements se réinitialise après avoir utilisé l'ATQ normale 3 fois.",
+				"Params": [
+					0.24,
+					0.28,
+					30,
+					3
+				]
+			},
+			{
+				"Effect": "Augmente la VIT du porteur de <color=#f29e38ff>27%</color>. Les comidégâts infligés ignorent <color=#f29e38ff>32%</color> de la DÉF de la cible. Lorsque le porteur utilise son ultime sur lui-même, il gagne <color=#f29e38ff>35</color> points de Panache. Cet effet peut être déclenché jusqu'à 1 fois et le nombre de déclenchements se réinitialise après avoir utilisé l'ATQ normale 3 fois.",
+				"Params": [
+					0.27,
+					0.32,
+					35,
+					3
+				]
+			},
+			{
+				"Effect": "Augmente la VIT du porteur de <color=#f29e38ff>30%</color>. Les comidégâts infligés ignorent <color=#f29e38ff>36%</color> de la DÉF de la cible. Lorsque le porteur utilise son ultime sur lui-même, il gagne <color=#f29e38ff>40</color> points de Panache. Cet effet peut être déclenché jusqu'à 1 fois et le nombre de déclenchements se réinitialise après avoir utilisé l'ATQ normale 3 fois.",
+				"Params": [
+					0.3,
+					0.36,
+					40,
+					3
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"23058": {
+		"Id": "23058",
+		"Name": "Printemps des retrouvailles",
+		"PathType": "Elation",
+		"PathTypeText": "L'Allégresse",
+		"EffectName": "Rêverie",
+		"EffectTemplate": "Augmente les DGT critiques du porteur de <color=#f29e38ff>#1[i]%</color> et son taux de régénération d'énergie de <color=#f29e38ff>#4[f1]%</color>. Lorsque l'énergie max du porteur est supérieure à #5[i], pour chaque tranche de 10 points d'énergie max en excédent, augmente le taux de régénération d'énergie de #6[f1]% supplémentaire, jusqu'à un maximum de #7[i] points d'énergie max en excédent comptabilisés. Lorsque le porteur utilise une comicompétence, augmente les DGT subis par tous les ennemis de <color=#f29e38ff>#2[f1]%</color> pendant #3[i] tours. Les effets du même type ne peuvent pas se cumuler.",
+		"Superimpositions": [
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>60%</color> et son taux de régénération d'énergie de <color=#f29e38ff>10.0%</color>. Lorsque l'énergie max du porteur est supérieure à 120, pour chaque tranche de 10 points d'énergie max en excédent, augmente le taux de régénération d'énergie de 0.3% supplémentaire, jusqu'à un maximum de 360 points d'énergie max en excédent comptabilisés. Lorsque le porteur utilise une comicompétence, augmente les DGT subis par tous les ennemis de <color=#f29e38ff>15.0%</color> pendant 2 tours. Les effets du même type ne peuvent pas se cumuler.",
+				"Params": [
+					0.6,
+					0.15,
+					2,
+					0.1,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>75%</color> et son taux de régénération d'énergie de <color=#f29e38ff>11.5%</color>. Lorsque l'énergie max du porteur est supérieure à 120, pour chaque tranche de 10 points d'énergie max en excédent, augmente le taux de régénération d'énergie de 0.3% supplémentaire, jusqu'à un maximum de 360 points d'énergie max en excédent comptabilisés. Lorsque le porteur utilise une comicompétence, augmente les DGT subis par tous les ennemis de <color=#f29e38ff>18.8%</color> pendant 2 tours. Les effets du même type ne peuvent pas se cumuler.",
+				"Params": [
+					0.75,
+					0.1875,
+					2,
+					0.115,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>90%</color> et son taux de régénération d'énergie de <color=#f29e38ff>13.0%</color>. Lorsque l'énergie max du porteur est supérieure à 120, pour chaque tranche de 10 points d'énergie max en excédent, augmente le taux de régénération d'énergie de 0.3% supplémentaire, jusqu'à un maximum de 360 points d'énergie max en excédent comptabilisés. Lorsque le porteur utilise une comicompétence, augmente les DGT subis par tous les ennemis de <color=#f29e38ff>22.5%</color> pendant 2 tours. Les effets du même type ne peuvent pas se cumuler.",
+				"Params": [
+					0.9,
+					0.225,
+					2,
+					0.13,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>105%</color> et son taux de régénération d'énergie de <color=#f29e38ff>14.5%</color>. Lorsque l'énergie max du porteur est supérieure à 120, pour chaque tranche de 10 points d'énergie max en excédent, augmente le taux de régénération d'énergie de 0.3% supplémentaire, jusqu'à un maximum de 360 points d'énergie max en excédent comptabilisés. Lorsque le porteur utilise une comicompétence, augmente les DGT subis par tous les ennemis de <color=#f29e38ff>26.3%</color> pendant 2 tours. Les effets du même type ne peuvent pas se cumuler.",
+				"Params": [
+					1.05,
+					0.2625,
+					2,
+					0.145,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Augmente les DGT critiques du porteur de <color=#f29e38ff>120%</color> et son taux de régénération d'énergie de <color=#f29e38ff>16.0%</color>. Lorsque l'énergie max du porteur est supérieure à 120, pour chaque tranche de 10 points d'énergie max en excédent, augmente le taux de régénération d'énergie de 0.3% supplémentaire, jusqu'à un maximum de 360 points d'énergie max en excédent comptabilisés. Lorsque le porteur utilise une comicompétence, augmente les DGT subis par tous les ennemis de <color=#f29e38ff>30.0%</color> pendant 2 tours. Les effets du même type ne peuvent pas se cumuler.",
+				"Params": [
+					1.2,
+					0.3,
+					2,
+					0.16,
+					120,
+					0.003,
+					360
+				]
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"24000": {
 		"Id": "24000",

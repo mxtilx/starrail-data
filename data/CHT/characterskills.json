@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "戰技",
 			"MaxLevel": 15,
 			"EffectRaw": "使除自身以外的我方指定單體成為【師父】，【師父】的速度提高<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>。僅戰技最新的施放目標視為三月七的【師父】。\n每當發動普通攻擊或造成1段強化普通攻擊的傷害時，若場上存在指定命途的【師父】，則觸發對應效果：\n「智識」、「毀滅」、「巡獵」、「記憶」、「歡愉」：額外造成等同於三月七<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>攻擊力的基於【師父】屬性的<u>附加傷害</u>。\n「同諧」、「虛無」、「存護」、「豐饒」：本次傷害的削韌值提高<unbreak>#3[i]%</unbreak>。",
-			"AbridgedEffect": "使我方單體成為【師父】。發動普通攻擊或造成強化普通攻擊的傷害時，根據<color=#f29e38ff>【師父】命途</color>觸發對應效果：\n「智識」、「毀滅」、「巡獵」、「記憶」：額外造成基於【師父】屬性的<color=#f29e38ff><u>附加傷害</u></color>。\n「同諧」、「虛無」、「存護」、「豐饒」：<color=#f29e38ff>削韌值</color>提高。",
+			"AbridgedEffect": "使我方單體成為【師父】。發動普通攻擊或造成強化普通攻擊的傷害時，根據<color=#f29e38ff>【師父】命途</color>觸發對應效果：\n「智識」、「毀滅」、「巡獵」、「記憶」、「歡愉」：額外根據【師父】屬性造成<color=#f29e38ff><u>附加傷害</u></color>。\n「同諧」、「虛無」、「存護」、「豐饒」：<color=#f29e38ff>削韌值</color>提高。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -28634,8 +28634,8 @@
 			"TagTypeText": "強化",
 			"SkillTypeText": "終結技",
 			"MaxLevel": 15,
-			"EffectRaw": "進入【結印】狀態，立即獲得1個<u>額外回合</u>並獲得<unbreak>#3[i]</unbreak>點【彩墨】，同時弱點擊破效率提高<unbreak>#1[i]%</unbreak>，擊破特攻提高<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>。\n【結印】狀態下普通攻擊獲得強化且無法施放戰技和終結技，施放強化普通攻擊後會消耗1點【彩墨】，耗盡時退出【結印】狀態。",
-			"AbridgedEffect": "進入【結印】狀態，獲得<color=#f29e38ff><u>額外回合</u></color>並獲得3點【彩墨】，且<color=#f29e38ff>弱點擊破效率提高，擊破特攻提高</color>。\n【結印】狀態下<color=#f29e38ff>獲得強化普通攻擊</color>，施放強化普通攻擊後會消耗1點【彩墨】，耗盡時退出【結印】狀態。",
+			"EffectRaw": "進入【結印】狀態，立即獲得1個<u>額外回合</u>並獲得<unbreak>#3[i]</unbreak>點【彩墨】，同時弱點擊破效率提高<unbreak>#1[i]%</unbreak>，擊破特攻提高<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>。\n【結印】狀態下普通攻擊獲得強化且無法施放戰技和終結技，發動強化普通攻擊後會消耗1點【彩墨】，耗盡時退出【結印】狀態。",
+			"AbridgedEffect": "進入【結印】狀態，獲得<color=#f29e38ff><u>額外回合</u></color>並獲得3點【彩墨】，且<color=#f29e38ff>弱點擊破效率提高，擊破特攻提高</color>。\n【結印】狀態下<color=#f29e38ff>獲得強化普通攻擊</color>，發動強化普通攻擊後會消耗1點【彩墨】，耗盡時退出【結印】狀態。",
 			"ElementType": "Imaginary",
 			"Levels": {
 				"1": {
@@ -38159,7 +38159,7 @@
 			"TagTypeText": "強化",
 			"SkillTypeText": "戰技",
 			"MaxLevel": 15,
-			"EffectRaw": "開啟直播連線，使普通攻擊變為【百花齊放，勝者獨享！】並發動1次【互動陷阱】，本次技能內可以重複發動【互動陷阱】，最多發動<unbreak>#1[i]</unbreak>次。施放本技能不視為使用戰技。",
+			"EffectRaw": "開啟直播連線，使普通攻擊變為【百花齊放，勝者獨享！】並施放1次【互動陷阱】，本次技能內可以重複施放【互動陷阱】，最多施放<unbreak>#1[i]</unbreak>次。施放本技能不視為使用戰技。",
 			"AbridgedEffect": "開啟直播連線，使普通攻擊變為【百花齊放，勝者獨享！】並發動1次【互動陷阱】，本次技能內可以<color=#f29e38ff>重複發動</color>【互動陷阱】。",
 			"Levels": {
 				"1": {
@@ -38886,7 +38886,7 @@
 			"TagTypeText": "輔助",
 			"SkillTypeText": "戰技",
 			"MaxLevel": 15,
-			"EffectRaw": "展開結界，持續<unbreak>#1[i]</unbreak>回合，自身每回合開始時結界持續回合數減1。結界持續期間，我方全體目標歡愉度提高，提高數值等同於爻光歡愉度的<color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>，且爻光發動普通攻擊、施放戰技後可獲得<unbreak>#3[i]</unbreak>個<u>笑點</u>。",
+			"EffectRaw": "展開結界，持續<unbreak>#1[i]</unbreak>回合，自身每回合開始時結界持續回合數減1。結界持續期間，我方全體目標歡愉度提高，提高數值等同於爻光歡愉度的<color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>，且爻光發動普通攻擊或施放戰技後可獲得<unbreak>#3[i]</unbreak>個<u>笑點</u>。",
 			"AbridgedEffect": "展開結界，使我方全體目標<color=#f29e38ff>歡愉度提高</color>，且爻光發動普通攻擊、施放戰技後<color=#f29e38ff>獲得<u>笑點</u></color>。",
 			"Levels": {
 				"1": {
@@ -39811,6 +39811,1278 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
 		},
 		"VersionAdded": "4.1"
+	},
+	"1505": {
+		"Id": "1505",
+		"Name": "緋英",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "課業•突擊檢查",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "單體攻擊",
+			"SkillTypeText": "普通攻擊",
+			"MaxLevel": 10,
+			"EffectRaw": "對指定敵方單體造成等同於緋英<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的物理屬性傷害。",
+			"AbridgedEffect": "對指定敵方單體造成少量物理屬性傷害。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "風紀•尺出繚判",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "擴散",
+			"SkillTypeText": "戰技",
+			"MaxLevel": 15,
+			"EffectRaw": "對指定敵方單體造成等同於緋英<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>攻擊力的物理屬性傷害，對相鄰目標造成等同於緋英<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>攻擊力的物理屬性傷害，並額外獲得<unbreak>#4[i]</unbreak>個<u>笑點</u>。",
+			"AbridgedEffect": "對敵方單體造成大量物理屬性傷害、對相鄰目標造成物理屬性傷害，並額外獲得<u>笑點</u>。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "劍歌•神鬼無赦",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群體攻擊",
+			"SkillTypeText": "終結技",
+			"MaxLevel": 15,
+			"EffectRaw": "對敵方全體造成等同於緋英<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的物理屬性傷害，隨後造成5次傷害，每次傷害對敵方隨機單體造成等同於緋英<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>攻擊力的物理屬性傷害。",
+			"AbridgedEffect": "對敵方全體造成物理屬性傷害，隨後對敵方隨機單體造成物理屬性傷害，共彈射5次。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "青春•韶華無限",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "緋英獲得等同於暴擊傷害<unbreak>#5[i]%</unbreak>的歡愉度。緋英獲得能量時，將同步獲得等值的【<u>好活當賞</u>】，緋英獲得【<u>好活當賞</u>】時，將同步獲得等值的能量，單次依此法計算的【<u>好活當賞</u>】不超過<unbreak>100</unbreak>點。\n累積獲得<unbreak>#3[i]</unbreak>點能量時，消耗<unbreak>#3[i]</unbreak>點累積值，【狐狸老師】發動<u>追加攻擊</u>對敵方全體造成等同於緋英<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的物理屬性傷害，為緋英恢復<unbreak>#4[i]</unbreak>點能量，單次獲得能量時最多獲得<unbreak>#3[i]</unbreak>點累積值。當緋英持有【<u>好活當賞</u>】時：\n施放戰技可對受到攻擊的敵方目標造成<color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>的物理屬性<u>歡愉傷害</u>。\n施放終結技可對敵方全體造成<color=#f29e38ff><unbreak>#6[i]%</unbreak></color>的物理屬性<u>歡愉傷害</u>，並對終結技隨機造成傷害的敵方目標造成<color=#f29e38ff><unbreak>#8[i]%</unbreak></color>的物理屬性<u>歡愉傷害</u>，終結技造成<u>歡愉傷害</u>時至少計入等同於能量上限的【<u>好活當賞</u>】。\n【狐狸老師】的<u>追加攻擊</u>可對敵方全體造成<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>的物理屬性<u>歡愉傷害</u>。",
+			"AbridgedEffect": "緋英獲得能量時，將同步<color=#f29e38ff>獲得等值的【<u>好活當賞</u>】</color>，緋英獲得【<u>好活當賞</u>】時，將同步<color=#f29e38ff>獲得等值的能量</color>。累積獲得一定數量能量時，【狐狸老師】發動<u>追加攻擊</u>對敵方全體造成少量物理屬性傷害，並為緋英恢復能量。當緋英持有【<u>好活當賞</u>】時，施放戰技、終結技和【狐狸老師】的<u>追加攻擊</u>可對敵方造成少量物理屬性<u>歡愉傷害</u>。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "落英•散者皆憶",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "立即攻擊一定範圍內的所有敵人。進入戰鬥後，對敵方全體造成等同於緋英<unbreak>#1[i]%</unbreak>攻擊力的物理屬性傷害並獲得<unbreak>#2[i]</unbreak>點【<u>好活當賞</u>】。",
+			"AbridgedEffect": "立即攻擊一定範圍內的所有敵人。進入戰鬥後對敵方全體造成少量物理屬性傷害並獲得【<u>好活當賞</u>】。",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "銀狼LV.<unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "拳頭硬了！",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "單體攻擊",
+			"SkillTypeText": "普通攻擊",
+			"MaxLevel": 10,
+			"EffectRaw": "對指定敵方單體造成等同於「銀狼LV.<unbreak>999</unbreak>」<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的虛數屬性傷害。",
+			"AbridgedEffect": "對指定敵方單體造成少量虛數屬性傷害。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "獎勵關：「狼尊時刻」",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "彈射",
+			"SkillTypeText": "普通攻擊",
+			"MaxLevel": 10,
+			"EffectRaw": "造成總計等同於「銀狼LV.<unbreak>999</unbreak>」<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的虛數屬性傷害，均分為<unbreak>#3[i]</unbreak>段傷害彈射至敵方隨機單體。每彈射一定段數，暫停彈射並觸發1次【<u>頭號補給盲盒</u>】，總計可觸發<unbreak>#5[i]</unbreak>次。\n若對場上所有敵方造成了致命傷害則結束本次技能，當存在可攻擊的敵方目標後獲得1個<u>額外回合</u>並基於所剩彈射段數和【<u>頭號補給盲盒</u>】次數再次發動。每回合首次觸發該效果時，使自身所有<u>增益效果</u>延長1回合。\n上述傷害全部結算後發動最後一擊，造成等同於「銀狼LV.<unbreak>999</unbreak>」<color=#f29e38ff><unbreak>#4[i]%</unbreak></color>攻擊力的虛數屬性傷害，由敵方全體均分。\n強化普通攻擊無法恢復戰技點。每擁有<unbreak>#6[i]</unbreak>點【隱藏分】，強化普通攻擊期間造成的傷害提高原傷害的<unbreak>#8[i]%</unbreak>，最多疊加<unbreak>#7[i]</unbreak>層。",
+			"AbridgedEffect": "造成虛數屬性傷害，共彈射大量次數，期間可觸發<color=#f29e38ff><unbreak>#5[i]</unbreak></color>次【頭號補給盲盒】。若<color=#f29e38ff>對所有敵方造成了致命傷害，保留所剩效果</color>對新入場的敵方目標繼續施放。最後造成虛數屬性傷害，由敵方全體均分。\n【隱藏分】每達到一定點數，可額外提高強化普通攻擊的傷害。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Shoot屬性大爆發",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群體攻擊",
+			"SkillTypeText": "戰技",
+			"MaxLevel": 15,
+			"EffectRaw": "獲得<unbreak>#2[i]</unbreak>個<u>笑點</u>，對敵方全體造成等同於「銀狼LV.<unbreak>999</unbreak>」<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的虛數屬性傷害。",
+			"AbridgedEffect": "獲得<u>笑點</u>，對敵方全體造成虛數屬性傷害。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "無敵玩家，啟動！",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "終結技",
+			"MaxLevel": 15,
+			"EffectRaw": "進入【無敵玩家】狀態並且<u>行動提前</u><unbreak>100%</unbreak>。\n【無敵玩家】狀態下展開結界。「銀狼LV.<unbreak>999</unbreak>」持有【<u>好活當賞</u>】時，結界內我方目標每消耗1個戰技點，有機率觸發1次「銀狼LV.<unbreak>999</unbreak>」的【<u>頭號補給盲盒</u>】：造成<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>的虛數屬性<u>歡愉傷害</u>，由敵方全體均分，並隨機觸發1種效果：\n【超超超大劍】：對生命值最高的敵方目標額外造成等同於本次總傷害值<unbreak>#5[i]%</unbreak>的<u>真實傷害</u>；\n【爆爆爆炸蛋】：恢復<unbreak>#7[i]</unbreak>個戰技點；\n【怪怪怪味豆】：獲得<unbreak>#6[i]</unbreak>個<u>笑點</u>。\n觸發該效果的初始<u>固定機率</u>為<unbreak>100%</unbreak>，成功觸發後下一次觸發的<u>固定機率</u>降低至當下機率的<unbreak>#4[i]%</unbreak>。若觸發前目標被消滅則對新入場的敵方目標觸發。",
+			"AbridgedEffect": "變身並且<u>行動提前</u><unbreak>100%</unbreak>。\n變身期間展開結界。持有【<u>好活當賞</u>】時，我方每<color=#f29e38ff>消耗1個戰技點</color>，高機率<color=#f29e38ff>觸發1次【頭號補給盲盒】</color>：造成大量虛數屬性<u>歡愉傷害</u>，由敵方全體均分，並隨機觸發1種效果：\n對生命值最高的目標基於總傷害值造成<color=#f29e38ff><u>真實傷害</u></color>；\n恢復<color=#f29e38ff>戰技點</color>；\n獲得<color=#f29e38ff><u>笑點</u></color>。\n每次觸發後機率會按比例遞減。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "超超超大劍",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群體攻擊",
+			"SkillTypeText": "普通攻擊",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "對敵方全體造成大量虛數屬性<u>歡愉傷害</u>，由敵方全體均分。對生命值最高的目標基於總傷害值造成<u>真實傷害</u>。",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "有我在，把把都是順風局",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "【隱藏分】達到<unbreak>#1[i]</unbreak>點後可啟動終結技，達到上限後還可溢出<unbreak>#2[i]</unbreak>點。\n獲得<u>笑點</u>時，「銀狼LV.<unbreak>999</unbreak>」獲得等量【隱藏分】。每點【隱藏分】使暴擊率提高<color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>。暴擊率達到<unbreak>100%</unbreak>後，其餘每點【隱藏分】改為使暴擊傷害提高<color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>。\n【無敵玩家】狀態下，「銀狼LV.<unbreak>999</unbreak>」免疫<u>控制類負面狀態</u>，無法施放終結技，擁有強化普通攻擊和強化歡愉技，完整發動<unbreak>#5[i]</unbreak>次強化普通攻擊後退出【無敵玩家】狀態。退出【無敵玩家】狀態時【隱藏分】會歸零。\n持有【<u>好活當賞</u>】時，發動普通攻擊、戰技對受到攻擊的敵方目標造成<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>的虛數屬性<u>歡愉傷害</u>，強化普通攻擊的技能傷害改為相同倍率的<u>歡愉傷害</u>。",
+			"AbridgedEffect": "【隱藏分】達到<color=#f29e38ff><unbreak>#1[i]</unbreak></color>點後可啟動終結技。<color=#f29e38ff>獲得<u>笑點</u>時獲得等量【隱藏分】</color>。【隱藏分】越高暴擊率越高，暴擊率達到<unbreak>100%</unbreak>後改為提高暴擊傷害。\n變身期間，「銀狼LV.<unbreak>999</unbreak>」免疫<u>控制類負面狀態</u>，普通攻擊和歡愉技得到強化，發動<color=#f29e38ff><unbreak>#5[i]</unbreak></color>次強化普通攻擊後退出變身。\n持有【<u>好活當賞</u>】時，發動普通攻擊、戰技額外造成虛數屬性<u>歡愉傷害</u>，強化普通攻擊的技能傷害改為<u>歡愉傷害</u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "朋友，這才是T0級秘技",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "召喚",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "召喚【怪怪怪味豆】，再次使用則解除召喚。使用秘技不消耗秘技點，秘技點為0時解除召喚且無法使用秘技。\n【怪怪怪味豆】會使一定範圍內的普通敵人陷入恐懼狀態，同時自動搜尋並攻擊普通敵人，消耗1個秘技點立即將其消滅，不會進入戰鬥。\n【怪怪怪味豆】在場時，進入戰鬥後每一波開始時觸發1次【怪怪怪味豆】對應的【<u>頭號補給盲盒</u>】，本次造成的<u>歡愉傷害</u>固定計入<unbreak>#1[i]</unbreak>點【<u>好活當賞</u>】。",
+			"AbridgedEffect": "召喚【怪怪怪味豆】，再次使用則解除召喚。使用時<color=#f29e38ff>不消耗秘技點</color>。\n【怪怪怪味豆】會自動搜尋並攻擊普通敵人，消耗1個秘技點<color=#f29e38ff>立即將其消滅，不會進入戰鬥</color>。\n進入戰鬥後，每一波開始時觸發【怪怪怪味豆】對應的【頭號補給盲盒】。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	},
 	"8001": {
 		"Id": "8001",
@@ -41384,7 +42656,7 @@
 			"SkillTypeText": "天賦",
 			"MaxLevel": 15,
 			"EffectRaw": "每受到1次攻擊，便疊加1層【灼熱意志】，最多可疊加<unbreak>#3[i]</unbreak>層。\n【灼熱意志】層數不低於4時，普通攻擊將獲得強化，對指定敵方單體及其相鄰目標同時造成傷害。\n開拓者發動普通攻擊或施放戰技/終結技後，為我方全體提供能夠抵消等同於開拓者<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>防禦力+<color=#f29e38ff><unbreak>#4[i]</unbreak></color>傷害的護盾，持續<unbreak>#2[i]</unbreak>回合。",
-			"AbridgedEffect": "被攻擊時疊加【灼熱意志】，【灼熱意志】不低於4層時，普通攻擊獲得<color=#f29e38ff>強化</color>。施放普通攻擊、戰技、終結技後，為我方全體提供護盾。",
+			"AbridgedEffect": "被攻擊時疊加【灼熱意志】，【灼熱意志】不低於4層時，普通攻擊獲得<color=#f29e38ff>強化</color>。發動普通攻擊、戰技、終結技後，為我方全體提供護盾。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -41908,7 +43180,7 @@
 			"SkillTypeText": "天賦",
 			"MaxLevel": 15,
 			"EffectRaw": "每受到1次攻擊，便疊加1層【灼熱意志】，最多可疊加<unbreak>#3[i]</unbreak>層。\n【灼熱意志】層數不低於4時，普通攻擊將獲得強化，對指定敵方單體及其相鄰目標同時造成傷害。\n開拓者發動普通攻擊或施放戰技/終結技後，為我方全體提供能夠抵消等同於開拓者<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>防禦力+<color=#f29e38ff><unbreak>#4[i]</unbreak></color>傷害的護盾，持續<unbreak>#2[i]</unbreak>回合。",
-			"AbridgedEffect": "被攻擊時疊加【灼熱意志】，【灼熱意志】不低於4層時，普通攻擊獲得<color=#f29e38ff>強化</color>。施放普通攻擊、戰技、終結技後，為我方全體提供護盾。",
+			"AbridgedEffect": "被攻擊時疊加【灼熱意志】，【灼熱意志】不低於4層時，普通攻擊獲得<color=#f29e38ff>強化</color>。發動普通攻擊、戰技、終結技後，為我方全體提供護盾。",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "此即應援",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "單體攻擊",
+			"SkillTypeText": "普通攻擊",
+			"MaxLevel": 10,
+			"EffectRaw": "對指定敵方單體造成等同於開拓者<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害。",
+			"AbridgedEffect": "對敵方單體造成少量雷屬性傷害。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "風暴甚是喧囂",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群體攻擊",
+			"SkillTypeText": "戰技",
+			"MaxLevel": 15,
+			"EffectRaw": "對敵方全體造成等同於開拓者<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害，獲得<unbreak>#2[i]</unbreak>點【<u>好活當賞</u>】。",
+			"AbridgedEffect": "對敵方全體造成少量雷屬性傷害，獲得【<u>好活當賞</u>】。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "放心飛，開拓永相隨！",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "輔助",
+			"SkillTypeText": "終結技",
+			"MaxLevel": 15,
+			"EffectRaw": "獲得<unbreak>#6[i]</unbreak>個<u>笑點</u>，使指定我方單體暴擊傷害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，持續<unbreak>#2[i]</unbreak>回合，並解除該目標的<u>控制類負面狀態</u>。\n若目標擁有歡愉技，目標額外獲得<unbreak>#4[i]</unbreak>點【<u>好活當賞</u>】，並使其立即發動1次固定計入<unbreak>#5[i]</unbreak><u>笑點</u>的歡愉技，若歡愉技發動前敵方目標被消滅則對新入場的敵方目標施放歡愉技。\n若目標不擁有歡愉技，使其<u>行動提前</u><unbreak>#3[i]%</unbreak>。",
+			"AbridgedEffect": "獲得<u>笑點</u>，使指定我方單體暴擊傷害提高，並解除該目標的<u>控制類負面狀態</u>。若目標擁有歡愉技，則目標額外獲得【<color=#f29e38ff>好活當賞<u>】，並使其</u>立即施放歡愉技</color>，否則使其<color=#f29e38ff></color>行動提前<u></u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "英雄一笑，生死難料",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "輔助",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "發動攻擊後，固定恢復<unbreak>#1[i]</unbreak>點能量並獲得<unbreak>#2[i]</unbreak>個<u>笑點</u>。\n開拓者持有【<u>好活當賞</u>】時，戰技對敵方全體額外造成<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>的雷屬性<u>歡愉傷害</u>，此傷害使用我方最高的【<u>好活當賞</u>】數值計算。",
+			"AbridgedEffect": "發動攻擊後恢復能量並獲得<u>笑點</u>。\n開拓者持有【<u>好活當賞</u>】時，戰技對敵方全體額外造成少量雷屬性<u>歡愉傷害</u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "燃燒起來了！",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "使用秘技後隨機獲得以下1種效果：\n低機率獲得【開懷大笑】：歡愉度提高<unbreak>#1[i]%</unbreak>。\n高機率獲得【忍俊不禁】：歡愉度提高<unbreak>#3[i]%</unbreak>。\n下一次戰鬥開始時，使我方全體提高對應數值的歡愉度，持續<unbreak>#5[i]</unbreak>回合。",
+			"AbridgedEffect": "使用秘技後，下一次進入戰鬥時使我方<color=#f29e38ff>全體歡愉度提高</color>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "此即應援",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "單體攻擊",
+			"SkillTypeText": "普通攻擊",
+			"MaxLevel": 10,
+			"EffectRaw": "對指定敵方單體造成等同於開拓者<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害。",
+			"AbridgedEffect": "對敵方單體造成少量雷屬性傷害。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "風暴甚是喧囂",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群體攻擊",
+			"SkillTypeText": "戰技",
+			"MaxLevel": 15,
+			"EffectRaw": "對敵方全體造成等同於開拓者<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的雷屬性傷害，獲得<unbreak>#2[i]</unbreak>點【<u>好活當賞</u>】。",
+			"AbridgedEffect": "對敵方全體造成少量雷屬性傷害，獲得【<u>好活當賞</u>】。",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "放心飛，開拓永相隨！",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "輔助",
+			"SkillTypeText": "終結技",
+			"MaxLevel": 15,
+			"EffectRaw": "獲得<unbreak>#6[i]</unbreak>個<u>笑點</u>，使指定我方單體暴擊傷害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，持續<unbreak>#2[i]</unbreak>回合，並解除該目標的<u>控制類負面狀態</u>。\n若目標擁有歡愉技，目標額外獲得<unbreak>#4[i]</unbreak>點【<u>好活當賞</u>】，並使其立即發動1次固定計入<unbreak>#5[i]</unbreak><u>笑點</u>的歡愉技，若歡愉技發動前敵方目標被消滅則對新入場的敵方目標施放歡愉技。\n若目標不擁有歡愉技，使其<u>行動提前</u><unbreak>#3[i]%</unbreak>。",
+			"AbridgedEffect": "獲得<u>笑點</u>，使指定我方單體暴擊傷害提高，並解除該目標的<u>控制類負面狀態</u>。若目標擁有歡愉技，則目標額外獲得【<color=#f29e38ff>好活當賞<u>】，並使其</u>立即施放歡愉技</color>，否則使其<color=#f29e38ff></color>行動提前<u></u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "英雄一笑，生死難料",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "輔助",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "發動攻擊後，固定恢復<unbreak>#1[i]</unbreak>點能量並獲得<unbreak>#2[i]</unbreak>個<u>笑點</u>。\n開拓者持有【<u>好活當賞</u>】時，戰技對敵方全體額外造成<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>的雷屬性<u>歡愉傷害</u>，此傷害使用我方最高的【<u>好活當賞</u>】數值計算。",
+			"AbridgedEffect": "發動攻擊後恢復能量並獲得<u>笑點</u>。\n開拓者持有【<u>好活當賞</u>】時，戰技對敵方全體額外造成少量雷屬性<u>歡愉傷害</u>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "燃燒起來了！",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "使用秘技後隨機獲得以下1種效果：\n低機率獲得【開懷大笑】：歡愉度提高<unbreak>#1[i]%</unbreak>。\n高機率獲得【忍俊不禁】：歡愉度提高<unbreak>#3[i]%</unbreak>。\n下一次戰鬥開始時，使我方全體提高對應數值的歡愉度，持續<unbreak>#5[i]</unbreak>回合。",
+			"AbridgedEffect": "使用秘技後，下一次進入戰鬥時使我方<color=#f29e38ff>全體歡愉度提高</color>。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

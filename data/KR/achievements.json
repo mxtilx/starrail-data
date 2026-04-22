@@ -209,6 +209,16 @@
 		"Description": "개척자 「기억」 운명의 길에 오르기",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "그리하여, 웃음이 있으라",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "나, 개척자",
+		"Description": "개척자 「환락」 운명의 길에 오르기",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "은하수를 여행하는 히치하이커를 위한 안내서",
@@ -2099,6 +2109,83 @@
 		"Description": "그가 그냥 하는 말이니, 대충 흘려들어라\n<color=#8790abff>※ 환월이 발표하는 광란의 선언 경청하기</color>",
 		"HiddenDescription": "그가 그냥 하는 말이니, 대충 흘려들어라",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "통근 여행",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "뭔가 특별한 이동 수단은 없는 거야?\n<color=#8790abff>※ 전차를 타고 세계를 구하러 가기</color>",
+		"HiddenDescription": "뭔가 특별한 이동 수단은 없는 거야?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "판결자의 판결문",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "판결자 신분의 상징\n<color=#8790abff>※ 에바네시아가 자신의 척도 되찾기</color>",
+		"HiddenDescription": "판결자 신분의 상징",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "낙원의 싸이코",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "세계를 파괴하기로 결심하기 전까진, 아무도 당신의 생각에 관심 없다\n<color=#8790abff>※ 만원의 마음속 「균열」에 진입하기</color>",
+		"HiddenDescription": "세계를 파괴하기로 결심하기 전까진, 아무도 당신의 생각에 관심 없다",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "죽도록 즐기기",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "즐거움 아니면 죽음을\n<color=#8790abff>※ 환조 역병 「낙변화천인」의 발발 목격하기</color>",
+		"HiddenDescription": "즐거움 아니면 죽음을",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "은하 탑 플레이어",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "골칫덩어리한테 칭찬받느니, 차라리 녀석의 손에 전사하겠다\n<color=#8790abff>※ 사실, 골칫덩어리의 손에 전사하고 싶은 사람은 없다</color>",
+		"HiddenDescription": "골칫덩어리한테 칭찬받느니, 차라리 녀석의 손에 전사하겠다",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "죽음의 전령의 죽음",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "죽음을 선고하는 자, 죽음 또한 그 이름을 선고하리라\n<color=#8790abff>※ 새로운 「죽음의 전령」 처치하기</color>",
+		"HiddenDescription": "죽음을 선고하는 자, 죽음 또한 그 이름을 선고하리라",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "꽃바람의 자취",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "그녀는 꽃필 무렵의 바람처럼 사뿐히 스쳐 지나갔다\n<color=#8790abff>※ 에바네시아의 부탁 수락하기</color>",
+		"HiddenDescription": "그녀는 꽃필 무렵의 바람처럼 사뿐히 스쳐 지나갔다",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "신비에 대한 탐구",
-		"Description": "페르디도역 「2차원 JUMP!」의 「Jump 타임」에 중력을 반복적으로 변경해 진령이 이리저리 튕기게 하기",
+		"Description": "페르디도역 「2차원 JUMP!」에서 중력을 반복적으로 변경해 진령이 이리저리 튕기게 하기",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "신비에 대한 탐구",
 		"Description": "기이한 악장을 연주하고 구름마루섬역에 숨은 수수께끼의 생물체 찾기",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "남은 날은 전부 휴가",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「별의 궤도 토끼」의 이름 없는 진령 #1개 수집하기 (누적)",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "갈릴레오의 쇠공",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "방송국 꼭대기의 「Jump 타임」을 완료하고, 최상층에서 인터뷰 홀로 뛰어내리기",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "탑 위 피아니스트의 전설",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "방송국 꼭대기의 「Jump 타임」에서 모든 음표 획득하기",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "No 어쌔신, No 크리드",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "시필드 TV 타워 최상단에 도달하기",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "중력에 사로잡힌 영혼",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 바닥에 닿지 않은 상태를 유지하며 중력 라인에 연속 10회 닿기",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "볼링 마스터",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 기계 도우미로 고슴도치 진령 또는 떠다니는 진령과 부딪쳐 그들을 날려버리기",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "당신의 눈동자에 건배",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "시필드 TV 타워 「2차원 JUMP!」의 음료 제조 스테이지 완료하기",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "바다 저편의 이웃",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 바다 건너편 거주 구역에 도착하기",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "오르페우스의 현가",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 곡을 연주해 신비로운 섬의 안개 걷어내기",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "농땡이가 곧 출근",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 기계 도우미를 타고 수면 위 활주하기",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "감당할 수 없는 무게",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 뚠뚠이 또는 까불이에 눌려 게임 실패하기",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "인디아나 존스",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "시필드 시티 「2차원 JUMP!」의 그림자 레이스에서 가장 먼저 신비로운 섬 정상에 오르기",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "부메랑",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 화살을 발사해 자신을 명중하기",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "궁극의 드라이빙 머신",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 도우미를 타고 가시 장애물 통과하기",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "도우미, 진화!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 기계 도우미 전용 능력 개방하기",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "낙원 변주: 둥근 공 공주",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "기이한 악장을 연주하고 시필드 TV 타워에 숨은 수수께끼의 생물체 찾기",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "낙원 변주: 카피바라의 노래",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "기이한 악장을 연주하고 시필드 시티에 숨은 수수께끼의 생물체 찾기",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "너와 동행한 추억",
-		"Description": "자신의 방에서 모든 소장품 감상하기",
+		"Description": "수집품 진열장의 「기념 피규어」 구역에 기념품 #1개 배치하기",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11722,7 +11979,7 @@
 	},
 	"4055031": {
 		"Id": "4055031",
-		"Name": "하늘에서 내려온 정의",
+		"Name": "하늘에서 정의가 빗발친다",
 		"SortOrder": 347,
 		"Rarity": "Low",
 		"SeriesId": 5,
@@ -11952,6 +12209,219 @@
 		"SeriesText": "너와 동행한 추억",
 		"Description": "「마왕 도전」 모드 클리어하기",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "끝까지 쫓아가 응징하리",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "스코트를 살해한 범인을 선주 연맹에 넘기기\n<color=#8790abff>※ 그녀가 유폐옥의 식사에 적응하길 바란다</color>",
+		"HiddenDescription": "스코트를 살해한 범인을 선주 연맹에 넘기기",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "속지주의 원칙",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "스코트를 살해한 범인을 전략투자부에 넘기기\n<color=#8790abff>※ 마치 아무 일도 없었던 것처럼</color>",
+		"HiddenDescription": "스코트를 살해한 범인을 전략투자부에 넘기기",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "강호의 은원",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "스코트를 살해한 범인을 정의의 심판대에 세우기\n<color=#8790abff>※「그녀가 비도덕적으로 나온다면, 당신이 도덕적으로 만들어 주자」</color>",
+		"HiddenDescription": "스코트를 살해한 범인을 정의의 심판대에 세우기",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "미지의 기억",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "수상 열차 승강장 조사 완료하기",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "항밈부는 존재하지 않습니다",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "방송국 창고에 있는 컴퓨터 조사하기",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "영웅이란 무엇인가",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "방송국에서 신더본 워리어와 재회하기",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "배우 수업",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "플루 가족과의 첫 대화 완료하기",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "사랑이 어떻게 변하니?",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "행인이 부모님과의 만남을 피하려고 꾸며낸 핑계 듣기",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "구자탈적의 시대",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "우리 너구리 식구가 갈수록 번창하고 있다구리!\n<color=#8790abff>※ ≪주간 너굴≫에 상주 너구리 기자 #1마리 정식으로 영입하기</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "세상의 또 다른 나",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "멀티 파티 칸에서 다른 개척자와 만나기",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "개척 열차 동호회",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "다른 개척자 #1명의 멀티 파티 칸 방문하기",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "야옹야옹 「개척」의 사도",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「냥키비리」의 선물 획득하기",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "파티 사냥꾼",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "파티 칸 내 모든 은신처에서 창조물 포획하기",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "최후의 만찬",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "창조물 배치 구역에 동일한 창조물 #1마리 배치하기",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "박물학자",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「창조물 관찰 기록」의 창조물 #1마리 수집하기",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "행운의 주사위! 행운 가득!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "코스믹 포스 콘텐츠에서 「확장 패키지•2」의 프리즘 주사위 #1개 획득하기 (누적)",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "네 주사위가 우리 집에 오고 싶대",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「또 주사위를 던져라! 코스믹 포스!」에서 주사위 #1회 교환하기 (누적)",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "일석삼조",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「또 주사위를 던져라! 코스믹 포스!」에서 1턴 내에 연속으로 전술 카드 #1장 사용하기",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "벤티 사이즈 피해",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「또 주사위를 던져라! 코스믹 포스!」에서 1턴 내에 피해 #1pt 가하기",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "달려라, ≪주간 너굴≫",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「또 주사위를 던져라! 코스믹 포스!」에서 ≪주간 너굴≫을 대표해 시필드 시티 상점가 랭킹 상위 5위, 「시필드 파이브」 쓰러트리기",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "은하 제일의 주사위",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「또 주사위를 던져라! 코스믹 포스!」에서 은랑 LV.999와의 최종 대결 완료하기",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "아하가 [웃음이 있으리라]를 발동해 적 #1기 처치하기",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "희극 콘서트",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "환락 운명의 길 캐릭터가 #1명 출전한 상태에서 전투 승리하기",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "삼총사",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "솟구치는 전의",
 		"Description": "「합금 메카아머•폼폼킹」과의 단일 전투에서 [초강력 비눗방울]의 [반짝반짝] 효과 최소 #1회 발동하기",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "다들 표정 좀 풀어",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "단일 전투에서 「환락」 운명의 길 개척자로 서로 다른 동료 #1명에게 각각 필살기 1회 발동하기",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "후원 감사합니다",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "단일 전투에서 「환락」 운명의 길 개척자로 스파키에게 필살기 #1회 발동하기 (누적)",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "크라우드 펀딩 상위 <unbreak>500</unbreak>",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "단일 전투에서 에바네시아가 특성 [청춘•찬란무한]을 통해 다른 파티원에게서 획득한 [훌륭한 솜씨에는 보상을]의 총 개수 #1 초과하기",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "좋은 건 다다익선",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "아군 캐릭터 에바네시아가 [훌륭한 솜씨에는 보상을] 수량이 #1에 도달한 상태에서 필살기 발동하기",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "그만하세요, 카프카 씨",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "은랑 LV.999의 [999 디펜더]를 발동해 「스텔라론 헌터•카프카」가 부여한 [지배] 상태 해제하기",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "장비 리스트",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "단일 턴 내에 동료가 은랑 LV.999의 #1가지 서로 다른 [최상급 보급상자] 발동하기",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "금융가의 늑대",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "은랑 LV.999의 비술 [이게 바로 0티어 비술이야]를 사용해 한 번에 금화 #1개 획득하기",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "바이오 크라이시스",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「뒤틀린 극락•악원연화주」와의 전투 중, 아군 캐릭터가 [행복 꼭두각시]로 전환된 후 [회심의 일격]을 발동해 임의의 목표 처치하기",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "새니티 MAX",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「뒤틀린 극락•악원연화주」와의 전투에서 [행복] 발동으로 [행복 꼭두각시]로 전환된 캐릭터가 없게 하기",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "웃음의 종결",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「낙변화천인」과의 전투에서 단일 공격으로 「낙변화천인•종(終)」을 #1기 이상 동시에 처치하기",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

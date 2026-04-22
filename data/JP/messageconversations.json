@@ -64747,7 +64747,7 @@
 						"MessageType": "Text",
 						"SenderType": "Player",
 						"SenderContactId": "8001",
-						"Text": "「火花」は…暴走した花火のアバターで",
+						"Text": "「火花」は暴走した花火のアバターで",
 						"NextMessageId": "150070106"
 					},
 					"150070105": {
@@ -64755,7 +64755,7 @@
 						"MessageType": "Text",
 						"SenderType": "Player",
 						"SenderContactId": "8001",
-						"Text": "「火花」は…暴走した花火のアバターで",
+						"Text": "「火花」は暴走した花火のアバターで",
 						"NextMessageId": "150070106"
 					},
 					"150070106": {
@@ -66214,7 +66214,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "208",
-						"Text": "おいらのスケジュールもう来月まで埋まってるんだ社長。サボってるわけじゃないほんとに忙しいんだ書き上げてない原稿が山積みでたとえ8匹に分身したって当分終わりそうにないくらいで。",
+						"Text": "おいらのスケジュールもう来月まで埋まってるんだ社長。サボってるわけじゃないほんとに忙しいんだ書き上げてない原稿が山積みでたとえ8匹に分身したって終わりそうにないくらい。",
 						"NextMessageId": "150160107"
 					},
 					"150160107": {
@@ -67351,6 +67351,388 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"15031": {
+		"Id": "15031",
+		"ContactId": "9",
+		"ParticpatingContactIds": [
+			"9",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503101",
+				"StartingMessageId": "150310100",
+				"Messages": {
+					"150310100": {
+						"Id": "150310100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "銀狼",
+						"NextMessageId": "choice1"
+					},
+					"150310101": {
+						"Id": "150310101",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "誰？",
+						"NextMessageId": "150310102"
+					},
+					"150310102": {
+						"Id": "150310102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "聞いて",
+						"NextMessageId": "choice4"
+					},
+					"150310103": {
+						"Id": "150310103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "カフカ？",
+						"NextMessageId": "150310104"
+					},
+					"150310104": {
+						"Id": "150310104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "面白いわね",
+						"NextMessageId": "choice7"
+					},
+					"150310105": {
+						"Id": "150310105",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "バカ",
+						"NextMessageId": "150310106"
+					},
+					"150310106": {
+						"Id": "150310106",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "口を出さないで",
+						"NextMessageId": "150310111"
+					},
+					"150310107": {
+						"Id": "150310107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "配信停止",
+						"NextMessageId": "150310108"
+					},
+					"150310108": {
+						"Id": "150310108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "迷惑メールなら間に合ってる",
+						"NextMessageId": "150310111"
+					},
+					"150310109": {
+						"Id": "150310109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あはは、超ウケる",
+						"NextMessageId": "150310110"
+					},
+					"150310110": {
+						"Id": "150310110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "もう気は済んだ？バーカ",
+						"NextMessageId": "150310111"
+					},
+					"150310111": {
+						"Id": "150310111",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "メッセージの送信に失敗しました",
+						"NextMessageId": "150310112"
+					},
+					"150310112": {
+						"Id": "150310112",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "ユーザーが圏外のため、メッセージを送信できません。しばらくしてから、再度お試しください"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "誰？",
+								"NextMessageId": "150310101"
+							}
+						]
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "カフカ？",
+								"NextMessageId": "150310103"
+							}
+						]
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "なに？",
+								"NextMessageId": "150310105"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "配信停止",
+								"NextMessageId": "150310107"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "超ウケる",
+								"NextMessageId": "150310109"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15032": {
+		"Id": "15032",
+		"ContactId": "1501",
+		"ParticpatingContactIds": [
+			"1501",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503201",
+				"StartingMessageId": "150320100",
+				"Messages": {
+					"150320100": {
+						"Id": "150320100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "芦毛ちゃん",
+						"NextMessageId": "150320101"
+					},
+					"150320101": {
+						"Id": "150320101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "とにかく気をつけて",
+						"NextMessageId": "choice2"
+					},
+					"150320102": {
+						"Id": "150320102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "やっと来た{F#ね}{M#な}",
+						"NextMessageId": "150320104"
+					},
+					"150320103": {
+						"Id": "150320103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "もうちょっとで{F#あんた}{M#お前}のこと忘れるところだった",
+						"NextMessageId": "150320104"
+					},
+					"150320104": {
+						"Id": "150320104",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "良い知らせはある{F#}{M#か}？",
+						"NextMessageId": "150320105"
+					},
+					"150320105": {
+						"Id": "150320105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "満願の力はね、「幸福文法」って言うんだって",
+						"NextMessageId": "150320106"
+					},
+					"150320106": {
+						"Id": "150320106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "聞こえはいいけど、要は他人の心の中の欲望を無遠慮に煽り立てて肥大化させて、そうやって考えを操ってるってわけ",
+						"NextMessageId": "150320107"
+					},
+					"150320107": {
+						"Id": "150320107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "それから悪い知らせはね、こういうやり方が、二相楽園では一番効果的だってことかな",
+						"NextMessageId": "choice13"
+					},
+					"150320108": {
+						"Id": "150320108",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "悪い知らせしか聞かされてないけど、良い知らせはどこ{F#}{M#だ}？",
+						"NextMessageId": "150320111"
+					},
+					"150320109": {
+						"Id": "150320109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "彼女のその力は、もうだいぶ広がってる",
+						"NextMessageId": "150320110"
+					},
+					"150320110": {
+						"Id": "150320110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "悪い知らせしか聞かされてないけど、良い知らせはどこ{F#}{M#だ}？",
+						"NextMessageId": "150320111"
+					},
+					"150320111": {
+						"Id": "150320111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "火花ちゃんが無事にパブを脱出したこと！もうすぐ配信も再開できるよ！",
+						"NextMessageId": "150320112"
+					},
+					"150320112": {
+						"Id": "150320112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "それじゃ、あとはせいぜい頑張ってね～"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "やっと来た{F#ね}{M#な}",
+								"NextMessageId": "150320102"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "忘れるところだった",
+								"NextMessageId": "150320103"
+							}
+						]
+					},
+					"choice13": {
+						"Id": "choice13",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "あれ、良い知らせは？",
+								"NextMessageId": "150320108"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "手遅れかも",
+								"NextMessageId": "150320109"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15033": {
+		"Id": "15033",
+		"ContactId": "9",
+		"ParticpatingContactIds": [
+			"9",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503301",
+				"StartingMessageId": "150330100",
+				"Messages": {
+					"150330100": {
+						"Id": "150330100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "願力の波は収まったか",
+						"NextMessageId": "150330101"
+					},
+					"150330101": {
+						"Id": "150330101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "妾の目に狂いはなかった、また約束を果たしてくれたようじゃな",
+						"NextMessageId": "150330102"
+					},
+					"150330102": {
+						"Id": "150330102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "では、次はこちらを手伝ってくれ",
+						"NextMessageId": "150330103"
+					},
+					"150330103": {
+						"Id": "150330103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "グラフィエ学院への通学路で会えぬか？",
+						"NextMessageId": "choice4"
+					},
+					"150330104": {
+						"Id": "150330104",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "待ってて{F#}{M#くれ}"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "わかった、待ってて{F#}{M#くれ}",
+								"NextMessageId": "150330104"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"15034": {
 		"Id": "15034",
 		"ContactId": "213",
@@ -67886,6 +68268,154 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"15038": {
+		"Id": "15038",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1503801",
+				"StartingMessageId": "150380100",
+				"Messages": {
+					"150380100": {
+						"Id": "150380100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "当番バーテンダーの鐘珊です",
+						"NextMessageId": "150380101"
+					},
+					"150380101": {
+						"Id": "150380101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "{NICKNAME}、「星軌の兎」の特別グッズがまた届いてますよ",
+						"NextMessageId": "150380102"
+					},
+					"150380102": {
+						"Id": "150380102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "置いていったのも前回と同じ人でした",
+						"NextMessageId": "150380103"
+					},
+					"150380103": {
+						"Id": "150380103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "試しに声をかけて、世間話でもしないかと誘ってみたんですが",
+						"NextMessageId": "150380104"
+					},
+					"150380104": {
+						"Id": "150380104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "彼女は何も話そうとしませんでした",
+						"NextMessageId": "150380105"
+					},
+					"150380105": {
+						"Id": "150380105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "とにかく、また時間がある時にでも受け取りに来てくださいね"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15039": {
+		"Id": "15039",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1503901",
+				"StartingMessageId": "150390100",
+				"Messages": {
+					"150390100": {
+						"Id": "150390100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "おめでとうございます。あなたは「星軌の兎」プロジェクトが海原市に配置した「名もなき初」をすべて収集しました！これにより、このエリアに配置された「星軌の兎」のステージを、最も簡単な方法でクリアできるようになります。引き続きゲームをお楽しみください！（このメッセージは自動送信広告です。このメッセージに返信されても返答は致しかねます、予めご了承ください）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15040": {
+		"Id": "15040",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504001",
+				"StartingMessageId": "150400100",
+				"Messages": {
+					"150400100": {
+						"Id": "150400100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "おめでとうございます。あなたは「星軌の兎」プロジェクトが海原テレビタワーに配置した「名もなき初」をすべて収集しました！これにより、このエリアに配置された「星軌の兎」のステージを、最も簡単な方法でクリアできるようになります。引き続きゲームをお楽しみください！（このメッセージは自動送信広告です。このメッセージに返信されても返答は致しかねます、予めご了承ください）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15041": {
+		"Id": "15041",
+		"ContactId": "221",
+		"ParticpatingContactIds": [
+			"221"
+		],
+		"Sections": [
+			{
+				"Id": "1504101",
+				"StartingMessageId": "150410100",
+				"Messages": {
+					"150410100": {
+						"Id": "150410100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "（「二次元ジャンプ」ファンへの一斉送信メッセージ）",
+						"NextMessageId": "150410101"
+					},
+					"150410101": {
+						"Id": "150410101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "トレーニング場で新しいアトラクションが利用可能になったぞ。",
+						"NextMessageId": "150410102"
+					},
+					"150410102": {
+						"Id": "150410102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "絵の中で動き回る練習がしたい時は、いつでも@アミューズメントプラザまで来てくれ。"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"20001": {
 		"Id": "20001",
@@ -132425,7 +132955,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1504",
-						"Text": "私ではなく、不死途さんの食べ物の話をしています。",
+						"Text": "私ではなく、不死途様の食べ物の話をしています。",
 						"NextMessageId": "202280011"
 					},
 					"202280011": {
@@ -132433,7 +132963,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1504",
-						"Text": "困ったことに不死途さんは最近、毎食私と一緒にバナナを食べています。おおかた、手軽でいいと思っているか、節約のためでしょう。",
+						"Text": "困ったことに不死途様は最近、毎食私と一緒にバナナを食べています。おおかた、手軽でいいと思っているか、節約のためでしょう。",
 						"NextMessageId": "202280012"
 					},
 					"202280012": {
@@ -133286,6 +133816,2145 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"20231": {
+		"Id": "20231",
+		"ContactId": "1505",
+		"ParticpatingContactIds": [
+			"8001",
+			"1505"
+		],
+		"Sections": [
+			{
+				"Id": "2023100",
+				"StartingMessageId": "202310000",
+				"Messages": {
+					"202310000": {
+						"Id": "202310000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "過去からのメッセージを受信中",
+						"NextMessageId": "202310001"
+					},
+					"202310001": {
+						"Id": "202310001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "更新が遅すぎる。そこで、二次元ホース先生に番外編のアイデアを売り込もうと思うんじゃ",
+						"NextMessageId": "202310002"
+					},
+					"202310002": {
+						"Id": "202310002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "汝の手元にメモを残しておくぞ（なにせ汝は主人公じゃからな！",
+						"NextMessageId": "202310003"
+					},
+					"202310003": {
+						"Id": "202310003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "「主人公」は幻月遊儀で大勝利を収め、アッハに願いを告げ——",
+						"NextMessageId": "202310004"
+					},
+					"202310004": {
+						"Id": "202310004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "17歳の頃、学園生活に戻るんじゃ（備考：年齢設定は仮、ラクーンはかなり若そうじゃし",
+						"NextMessageId": "202310005"
+					},
+					"202310005": {
+						"Id": "202310005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "「学園」といっても、ただの学園ではないぞ。なんと、そこでは至る所に怪談の法則が存在しておったのじゃ",
+						"NextMessageId": "202310006"
+					},
+					"202310006": {
+						"Id": "202310006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "審判者の「緋英」は、主人公が学園で遭遇する最初の難敵なんじゃ（そして和解後は最初の助っ人となる！",
+						"NextMessageId": "choice7"
+					},
+					"202310007": {
+						"Id": "202310007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "緋英！無事だったんだ{F#ね}{M#な}！今どこにいる{F#の}{M#んだ}？",
+						"NextMessageId": "202310010"
+					},
+					"202310008": {
+						"Id": "202310008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "緋英！今どこにいる{F#の}{M#んだ}？",
+						"NextMessageId": "202310010"
+					},
+					"202310009": {
+						"Id": "202310009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}はまだ3歳だから、17歳まであと14年待たないと",
+						"NextMessageId": "202310010"
+					},
+					"202310010": {
+						"Id": "202310010",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "メッセージの送信に失敗しました",
+						"NextMessageId": "202310011"
+					},
+					"202310011": {
+						"Id": "202310011",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "ユーザーが圏外のため、メッセージを送信できません。しばらくしてから、再度お試しください",
+						"NextMessageId": "202310012"
+					},
+					"202310012": {
+						"Id": "202310012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "審判者の妾が、まず「学園生存法則」を提示する。第1条：この法則を認識した者は、以後率先してこれを遵守すること",
+						"NextMessageId": "202310013"
+					},
+					"202310013": {
+						"Id": "202310013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第2条：学園内の設備はすべて小動物である、小動物を大切にすること",
+						"NextMessageId": "202310014"
+					},
+					"202310014": {
+						"Id": "202310014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第3条：小動物は怒るともふもふになる、怒った彼らはもふ度が増す（枕にすると気持ちが良いぞ",
+						"NextMessageId": "202310015"
+					},
+					"202310015": {
+						"Id": "202310015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第4条：審判者は目覚めておる間、常に公正無私であること。よってつけ入る隙なぞありはせぬ",
+						"NextMessageId": "202310016"
+					},
+					"202310016": {
+						"Id": "202310016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第5条：審判者は眠っておる間…「もう1話分更新して！」と叫ぶだけのリピート機になってしまう",
+						"NextMessageId": "202310017"
+					},
+					"202310017": {
+						"Id": "202310017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第6条：（まだ考え中じゃ）",
+						"NextMessageId": "202310018"
+					},
+					"202310018": {
+						"Id": "202310018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "おっと仕事じゃ、本来の審判を始めねば。では、妾のためにここまでのメモを取っておいてくれ！",
+						"NextMessageId": "choice38"
+					},
+					"202310019": {
+						"Id": "202310019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "安心し{F#て}{M#ろ}、{F#私}{M#俺}がちゃんと更新を催促しておくから！",
+						"NextMessageId": "202310020"
+					},
+					"202310020": {
+						"Id": "202310020",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "次に目を覚ましたら、好きなだけ続きが読めるって保証する{F#よ}{M#ぞ}",
+						"NextMessageId": "202310023"
+					},
+					"202310021": {
+						"Id": "202310021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "安心{F#して}{M#しろ}、アイデアの売り込みはバッチリ手伝うから",
+						"NextMessageId": "202310022"
+					},
+					"202310022": {
+						"Id": "202310022",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "次に目を覚ましたら、「学園の怪談編」が堂々完結してるって保証する{F#よ}{M#ぞ}！",
+						"NextMessageId": "202310023"
+					},
+					"202310023": {
+						"Id": "202310023",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "メッセージの送信に失敗しました",
+						"NextMessageId": "202310024"
+					},
+					"202310024": {
+						"Id": "202310024",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "ユーザーが圏外のため、メッセージを送信できません。しばらくしてから、再度お試しください"
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "無事だったの{F#}{M#か}！？",
+								"NextMessageId": "202310007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "今どこ{F#}{M#だ}！？",
+								"NextMessageId": "202310008"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "まだ3歳だ{F#よ}{M#}",
+								"NextMessageId": "202310009"
+							}
+						]
+					},
+					"choice38": {
+						"Id": "choice38",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "更新を催促しておく！",
+								"NextMessageId": "202310019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "アイデアの売り込みを手伝う{F#よ}{M#ぞ}",
+								"NextMessageId": "202310021"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20232": {
+		"Id": "20232",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023200",
+				"StartingMessageId": "202320000",
+				"Messages": {
+					"202320000": {
+						"Id": "202320000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "前にあなたが見たいって言ってた",
+						"NextMessageId": "202320001"
+					},
+					"202320001": {
+						"Id": "202320001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "例のチケット",
+						"NextMessageId": "202320002"
+					},
+					"202320002": {
+						"Id": "202320002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "手に入れたよ",
+						"NextMessageId": "202320003"
+					},
+					"202320003": {
+						"Id": "202320003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ついでに確認したんだけど",
+						"NextMessageId": "202320004"
+					},
+					"202320004": {
+						"Id": "202320004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "あなた、ずいぶんいろんなプラットフォームでチケットを予約してたみたいだね",
+						"NextMessageId": "202320005"
+					},
+					"202320005": {
+						"Id": "202320005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "こういうところもあなたらしい",
+						"NextMessageId": "choice6"
+					},
+					"202320006": {
+						"Id": "202320006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "ありがとう、ウルフロード！実は……",
+						"NextMessageId": "202320009"
+					},
+					"202320007": {
+						"Id": "202320007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "ありがとう、ウルフロード！ちなみにどれのチケット{F#}{M#だ}？実は……",
+						"NextMessageId": "202320009"
+					},
+					"202320008": {
+						"Id": "202320008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "支払いまでしてくれたの{F#}{M#か}？さすがウルフロード様、太っ腹！実は……",
+						"NextMessageId": "202320009"
+					},
+					"202320009": {
+						"Id": "202320009",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "見に行きたいものは他にもたくさんあるんだけど……",
+						"NextMessageId": "202320010"
+					},
+					"202320010": {
+						"Id": "202320010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "やっぱり",
+						"NextMessageId": "202320011"
+					},
+					"202320011": {
+						"Id": "202320011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ちょっと待って",
+						"NextMessageId": "202320012"
+					},
+					"202320012": {
+						"Id": "202320012",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "銀狼が入力中…",
+						"NextMessageId": "202320013"
+					},
+					"202320013": {
+						"Id": "202320013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "よし",
+						"NextMessageId": "202320014"
+					},
+					"202320014": {
+						"Id": "202320014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "舞台でしょ、アニメコンベンションでしょ、それからライブにゲームショウ",
+						"NextMessageId": "202320015"
+					},
+					"202320015": {
+						"Id": "202320015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "あなたが興味ありそうなものは",
+						"NextMessageId": "202320016"
+					},
+					"202320016": {
+						"Id": "202320016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "予約しておいたから",
+						"NextMessageId": "202320017"
+					},
+					"202320017": {
+						"Id": "202320017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "クリックしたやつ",
+						"NextMessageId": "202320018"
+					},
+					"202320018": {
+						"Id": "202320018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "閲覧したやつ",
+						"NextMessageId": "202320019"
+					},
+					"202320019": {
+						"Id": "202320019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "発行済みのやつ",
+						"NextMessageId": "202320020"
+					},
+					"202320020": {
+						"Id": "202320020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "未発行のやつ",
+						"NextMessageId": "202320021"
+					},
+					"202320021": {
+						"Id": "202320021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "全部確保した",
+						"NextMessageId": "choice49"
+					},
+					"202320022": {
+						"Id": "202320022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "とんでもない早業…どんな訓練を積んだ{F#の}{M#んだ}？",
+						"NextMessageId": "202320023"
+					},
+					"202320023": {
+						"Id": "202320023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "このくらいなら楽勝",
+						"NextMessageId": "202320029"
+					},
+					"202320024": {
+						"Id": "202320024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "さすが、これこそがウルフロードのスピードなんだ{F#ね}{M#な}？",
+						"NextMessageId": "202320025"
+					},
+					"202320025": {
+						"Id": "202320025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "余裕",
+						"NextMessageId": "202320029"
+					},
+					"202320026": {
+						"Id": "202320026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "スーパーで卵の特売があるんだけど、せっかくなら手伝ってくれない{F#}{M#か}？",
+						"NextMessageId": "202320027"
+					},
+					"202320027": {
+						"Id": "202320027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "最難関クエストだね",
+						"NextMessageId": "202320028"
+					},
+					"202320028": {
+						"Id": "202320028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "それ以外ならなんでも出来るけど",
+						"NextMessageId": "202320029"
+					},
+					"202320029": {
+						"Id": "202320029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "次ははじめから私を頼っていいよ",
+						"NextMessageId": "202320030"
+					},
+					"202320030": {
+						"Id": "202320030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "じゃ",
+						"NextMessageId": "202320031"
+					},
+					"202320031": {
+						"Id": "202320031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "早めに決済しなよ",
+						"NextMessageId": "202320032"
+					},
+					"202320032": {
+						"Id": "202320032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "決済の期限は15分以内だから",
+						"NextMessageId": "202320033"
+					},
+					"202320033": {
+						"Id": "202320033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "全部で56件ね",
+						"NextMessageId": "202320034"
+					},
+					"202320034": {
+						"Id": "202320034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "漏れがないように",
+						"NextMessageId": "202320035"
+					},
+					"202320035": {
+						"Id": "202320035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "チェックしておいて",
+						"NextMessageId": "choice77"
+					},
+					"202320036": {
+						"Id": "202320036",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "？？？",
+						"NextMessageId": "202320037"
+					},
+					"202320037": {
+						"Id": "202320037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}の手じゃ速さが足りないかも……",
+						"NextMessageId": "202320042"
+					},
+					"202320038": {
+						"Id": "202320038",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "払ってくれてなかったの{F#}{M#か}！？",
+						"NextMessageId": "202320039"
+					},
+					"202320039": {
+						"Id": "202320039",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "こっちで払うにしても、{F#私}{M#俺}の手じゃ速さが足りないかも……",
+						"NextMessageId": "202320042"
+					},
+					"202320040": {
+						"Id": "202320040",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "足りないのはチケット？",
+						"NextMessageId": "202320041"
+					},
+					"202320041": {
+						"Id": "202320041",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "それとも{F#私}{M#俺}の手の速さ？？",
+						"NextMessageId": "202320042"
+					},
+					"202320042": {
+						"Id": "202320042",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127004.png",
+						"Text": "[レスバ]",
+						"NextMessageId": "202320043"
+					},
+					"202320043": {
+						"Id": "202320043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 銀狼 がオフラインになりました"
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "ありがとう！",
+								"NextMessageId": "202320006"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "どれのこと？",
+								"NextMessageId": "202320007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "支払いまでしてくれたの{F#}{M#か}？",
+								"NextMessageId": "202320008"
+							}
+						]
+					},
+					"choice49": {
+						"Id": "choice49",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "すごすぎる",
+								"NextMessageId": "202320022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "これがウルフロードのスピード？",
+								"NextMessageId": "202320024"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "卵の買い出しを手伝って",
+								"NextMessageId": "202320026"
+							}
+						]
+					},
+					"choice77": {
+						"Id": "choice77",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "？？？",
+								"NextMessageId": "202320036"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "払ってないじゃん！",
+								"NextMessageId": "202320038"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "まだチケットが足りない？",
+								"NextMessageId": "202320040"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20233": {
+		"Id": "20233",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001",
+			"220"
+		],
+		"Sections": [
+			{
+				"Id": "2023300",
+				"StartingMessageId": "202330000",
+				"Messages": {
+					"202330000": {
+						"Id": "202330000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "「脚本」を生成するちょっとしたプログラムを用意したんだけど",
+						"NextMessageId": "202330001"
+					},
+					"202330001": {
+						"Id": "202330001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "遊んでみない？",
+						"NextMessageId": "choice2"
+					},
+					"202330002": {
+						"Id": "202330002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "いいよ、どうすればいい{F#の}{M#んだ}？",
+						"NextMessageId": "202330003"
+					},
+					"202330003": {
+						"Id": "202330003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "人生シミュレーター「脚本を自作しよう」（エリオブロック版）がチャットに導入されました",
+						"NextMessageId": "202330004"
+					},
+					"202330004": {
+						"Id": "202330004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "人生リスタートのモードを選択してください",
+						"NextMessageId": "choice6"
+					},
+					"202330005": {
+						"Id": "202330005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "通常モードで",
+						"NextMessageId": "202330006"
+					},
+					"202330006": {
+						"Id": "202330006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "【通常モードスタート】バックグラウンド-10、知力-10、体力-10、パワー-10、HP-10",
+						"NextMessageId": "202330007"
+					},
+					"202330007": {
+						"Id": "202330007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME}の人生脚本『生まれ変わった：ママ、人って野生的な存在なんだ』",
+						"NextMessageId": "202330008"
+					},
+					"202330008": {
+						"Id": "202330008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "では、人生の第一歩を踏み出してください",
+						"NextMessageId": "choice15"
+					},
+					"202330009": {
+						"Id": "202330009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}が最初に星穹列車に乗り込む！車掌になるのはこの{F#私}{M#俺}だ{F#よ}{M#}！",
+						"NextMessageId": "202330010"
+					},
+					"202330010": {
+						"Id": "202330010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "幼年期、{NICKNAME}は星穹列車に乗り込むと下車を拒み、そのまま居座り続けました",
+						"NextMessageId": "202330011"
+					},
+					"202330011": {
+						"Id": "202330011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "少年期、宇宙の危機に見舞われた{NICKNAME}は列車を巧みに操ってその危機を回避し、幸運にも生き延びることができました",
+						"NextMessageId": "202330012"
+					},
+					"202330012": {
+						"Id": "202330012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "青年期、{NICKNAME}は星神の罠にハマり、そこから逃れられませんでした",
+						"NextMessageId": "202330013"
+					},
+					"202330013": {
+						"Id": "202330013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "壮年期になり能力が覚醒、世界を救うことを誓いました",
+						"NextMessageId": "202330014"
+					},
+					"202330014": {
+						"Id": "202330014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "ナヌーク、討伐",
+						"NextMessageId": "202330015"
+					},
+					"202330015": {
+						"Id": "202330015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "え、ただの{F#私}{M#俺}TUEEE？",
+						"NextMessageId": "202330046"
+					},
+					"202330016": {
+						"Id": "202330016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "『第一歩を踏み出す勇気が出ない』",
+						"NextMessageId": "202330017"
+					},
+					"202330017": {
+						"Id": "202330017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "死亡",
+						"NextMessageId": "202330018"
+					},
+					"202330018": {
+						"Id": "202330018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "？",
+						"NextMessageId": "202330019"
+					},
+					"202330019": {
+						"Id": "202330019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "これ、おかしいんじゃない{F#}{M#か}？",
+						"NextMessageId": "202330020"
+					},
+					"202330020": {
+						"Id": "202330020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "あ、待った。カフカの決めゼリフを入れるの忘れてた",
+						"NextMessageId": "202330021"
+					},
+					"202330021": {
+						"Id": "202330021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "『選択の機会がある時に、自分が後悔するようなことはしちゃだめよ』",
+						"NextMessageId": "202330022"
+					},
+					"202330022": {
+						"Id": "202330022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "承知しました。それではあなたのために、走馬灯を再生します——",
+						"NextMessageId": "202330023"
+					},
+					"202330023": {
+						"Id": "202330023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "幼年期、世界は平和であり、{NICKNAME}はペガーナで穏やかな日々を過ごしました",
+						"NextMessageId": "202330024"
+					},
+					"202330024": {
+						"Id": "202330024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "少年期、宇宙に危機が訪れ、{NICKNAME}はそのバックグラウンドのおかげか、幸運にも生き延びることができました",
+						"NextMessageId": "202330025"
+					},
+					"202330025": {
+						"Id": "202330025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "青年期、{NICKNAME}は星神の罠にハマり、そこから逃れられませんでした",
+						"NextMessageId": "202330026"
+					},
+					"202330026": {
+						"Id": "202330026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "死亡",
+						"NextMessageId": "202330046"
+					},
+					"202330027": {
+						"Id": "202330027",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "サプライズモードで",
+						"NextMessageId": "202330028"
+					},
+					"202330028": {
+						"Id": "202330028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "【サプライズモードスタート】10連ガチャの結果を、自由にステータスに分配——バックグラウンド-0、知力-0、体力-0、パワー-0、HP-50",
+						"NextMessageId": "202330029"
+					},
+					"202330029": {
+						"Id": "202330029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME}の人生脚本『生まれ変わった：イェーイ、ママから生まれた変人だよー』",
+						"NextMessageId": "202330030"
+					},
+					"202330030": {
+						"Id": "202330030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "では、人生の第一歩を踏み出してください",
+						"NextMessageId": "choice16"
+					},
+					"202330031": {
+						"Id": "202330031",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "お招きどうも。それじゃ生まれたばかりだけど、ナヌークに挑戦しよう",
+						"NextMessageId": "202330032"
+					},
+					"202330032": {
+						"Id": "202330032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "前世の{F#彼女}{M#彼}は平凡で、取り立ててなんの長所もありませんでした",
+						"NextMessageId": "202330033"
+					},
+					"202330033": {
+						"Id": "202330033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "今世では、{F#彼女}{M#彼}は天より神力を授かり、強大な力を発揮できます",
+						"NextMessageId": "202330034"
+					},
+					"202330034": {
+						"Id": "202330034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "バックグラウンド-無限、知力-無限、体力-無限、パワー-無限、HP-無限",
+						"NextMessageId": "202330035"
+					},
+					"202330035": {
+						"Id": "202330035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME}はたった一撃で、ナヌークを打ち倒しました",
+						"NextMessageId": "202330036"
+					},
+					"202330036": {
+						"Id": "202330036",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "転生チート無双？挫折は1つも無かったってこと{F#}{M#か}！？",
+						"NextMessageId": "202330046"
+					},
+					"202330037": {
+						"Id": "202330037",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "『第一歩を踏み出す勇気が出ない』",
+						"NextMessageId": "202330038"
+					},
+					"202330038": {
+						"Id": "202330038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "死亡",
+						"NextMessageId": "202330039"
+					},
+					"202330039": {
+						"Id": "202330039",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "これはおかしい{F#でしょ}{M#だろ}？{F#私}{M#俺}って事なかれ主義じゃないの{F#}{M#か}？",
+						"NextMessageId": "202330040"
+					},
+					"202330040": {
+						"Id": "202330040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "あ、待った。カフカの決めゼリフを入れるの忘れてた",
+						"NextMessageId": "202330041"
+					},
+					"202330041": {
+						"Id": "202330041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "『選択の機会がある時に、自分が後悔するようなことはしちゃだめよ』",
+						"NextMessageId": "202330042"
+					},
+					"202330042": {
+						"Id": "202330042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "承知しました。それではあなたのために、走馬灯を再生します——",
+						"NextMessageId": "202330043"
+					},
+					"202330043": {
+						"Id": "202330043",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "生まれついての変人は、バット1本でナヌークに挑戦します",
+						"NextMessageId": "202330044"
+					},
+					"202330044": {
+						"Id": "202330044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "ナヌーク、討伐",
+						"NextMessageId": "202330045"
+					},
+					"202330045": {
+						"Id": "202330045",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "なるほど、其は死んだんだ{F#ね}{M#な}",
+						"NextMessageId": "202330046"
+					},
+					"202330046": {
+						"Id": "202330046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "どう？面白い？",
+						"NextMessageId": "choice47"
+					},
+					"202330047": {
+						"Id": "202330047",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "もう1回最初からやらせて{F#}{M#くれ}！",
+						"NextMessageId": "202330048"
+					},
+					"202330048": {
+						"Id": "202330048",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "焦らないで、まだベータ版だから",
+						"NextMessageId": "202330053"
+					},
+					"202330049": {
+						"Id": "202330049",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "{F#あんた}{M#お前}の「脚本」はどうな{F#の}{M#んだ}？",
+						"NextMessageId": "202330050"
+					},
+					"202330050": {
+						"Id": "202330050",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "どれのこと？",
+						"NextMessageId": "202330051"
+					},
+					"202330051": {
+						"Id": "202330051",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "まあどれも勝ちだけど",
+						"NextMessageId": "202330052"
+					},
+					"202330052": {
+						"Id": "202330052",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "あ、でも羨む必要はないよ",
+						"NextMessageId": "202330053"
+					},
+					"202330053": {
+						"Id": "202330053",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "次回は権限をあげるから",
+						"NextMessageId": "202330054"
+					},
+					"202330054": {
+						"Id": "202330054",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "あなたの脚本は",
+						"NextMessageId": "202330055"
+					},
+					"202330055": {
+						"Id": "202330055",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "自分で好きなように書けばいい",
+						"NextMessageId": "202330056"
+					},
+					"202330056": {
+						"Id": "202330056",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "バグ修正しなきゃ、じゃあね"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "いいよ",
+								"NextMessageId": "202330002"
+							}
+						]
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "通常モード",
+								"NextMessageId": "202330005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "サプライズモード",
+								"NextMessageId": "202330027"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "星穹列車の最初の乗員になる",
+								"NextMessageId": "202330009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "一歩踏み出す勇気がない",
+								"NextMessageId": "202330016"
+							}
+						]
+					},
+					"choice16": {
+						"Id": "choice16",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "ナヌークに挑戦する",
+								"NextMessageId": "202330031"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "一歩踏み出す勇気がない",
+								"NextMessageId": "202330037"
+							}
+						]
+					},
+					"choice47": {
+						"Id": "choice47",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "もう1回！",
+								"NextMessageId": "202330047"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "{F#あんた}{M#お前}の脚本は？",
+								"NextMessageId": "202330049"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20234": {
+		"Id": "20234",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023400",
+				"StartingMessageId": "202340000",
+				"Messages": {
+					"202340000": {
+						"Id": "202340000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ゲームに負けた",
+						"NextMessageId": "202340001"
+					},
+					"202340001": {
+						"Id": "202340001",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127001.png",
+						"Text": "[勝つッ]",
+						"NextMessageId": "202340002"
+					},
+					"202340002": {
+						"Id": "202340002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "1分でいいから話さない？",
+						"NextMessageId": "202340003"
+					},
+					"202340003": {
+						"Id": "202340003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "罰ゲーム、本音を話して来いって",
+						"NextMessageId": "202340004"
+					},
+					"202340004": {
+						"Id": "202340004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "私に3つ質問して",
+						"NextMessageId": "202340005"
+					},
+					"202340005": {
+						"Id": "202340005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "「はい」か「いいえ」で答えるから",
+						"NextMessageId": "202340006"
+					},
+					"202340006": {
+						"Id": "202340006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ほら",
+						"NextMessageId": "choice7"
+					},
+					"202340007": {
+						"Id": "202340007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "噂によればウルフロードって、アッハと戦ったことがあるらしいけど",
+						"NextMessageId": "202340008"
+					},
+					"202340008": {
+						"Id": "202340008",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "それって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340009"
+					},
+					"202340009": {
+						"Id": "202340009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい（？",
+						"NextMessageId": "choice17"
+					},
+					"202340010": {
+						"Id": "202340010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "噂によれば星核ハンターって、荒廃した惑星から、生き残りの野良猫を全部引き取ったらしいけど",
+						"NextMessageId": "202340011"
+					},
+					"202340011": {
+						"Id": "202340011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "それって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340012"
+					},
+					"202340012": {
+						"Id": "202340012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい",
+						"NextMessageId": "202340013"
+					},
+					"202340013": {
+						"Id": "202340013",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#あんた}{M#お前}たちって、みんな猫派だったの{F#}{M#か}？",
+						"NextMessageId": "202340014"
+					},
+					"202340014": {
+						"Id": "202340014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい はい はい はい はい",
+						"NextMessageId": "choice47"
+					},
+					"202340015": {
+						"Id": "202340015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "みんなしてエリオを全肯定してるってこと{F#}{M#か}！？",
+						"NextMessageId": "202340016"
+					},
+					"202340016": {
+						"Id": "202340016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340085"
+					},
+					"202340017": {
+						"Id": "202340017",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あとは、星核ハンターは星穹列車に借金があるって噂も聞いたことがある",
+						"NextMessageId": "202340018"
+					},
+					"202340018": {
+						"Id": "202340018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}たちに借金してるって、本当なの{F#}{M#か}？",
+						"NextMessageId": "202340019"
+					},
+					"202340019": {
+						"Id": "202340019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340020"
+					},
+					"202340020": {
+						"Id": "202340020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "けど、あとひとつくらいなら答えてもいい",
+						"NextMessageId": "202340021"
+					},
+					"202340021": {
+						"Id": "202340021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "その質問には答えられないかな。あなたがそう言うならそうなんじゃない？",
+						"NextMessageId": "202340085"
+					},
+					"202340022": {
+						"Id": "202340022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "じゃあ、星核ハンターは星穹列車に借金があるって噂は？",
+						"NextMessageId": "202340023"
+					},
+					"202340023": {
+						"Id": "202340023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}たちに借金してるって、本当なの{F#}{M#か}？",
+						"NextMessageId": "202340024"
+					},
+					"202340024": {
+						"Id": "202340024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "その質問には答えられないかな。あなたがそう言うならそうなんじゃない？",
+						"NextMessageId": "choice35"
+					},
+					"202340025": {
+						"Id": "202340025",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "釣れた{F#ね}{M#な}…定期的に取り立てに行くって、言っておいた{F#でしょ}{M#だろ}？",
+						"NextMessageId": "202340026"
+					},
+					"202340026": {
+						"Id": "202340026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "いいえ！",
+						"NextMessageId": "202340027"
+					},
+					"202340027": {
+						"Id": "202340027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "今のが3つ目ね",
+						"NextMessageId": "202340085"
+					},
+					"202340028": {
+						"Id": "202340028",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あと、噂によれば星核ハンターって、荒廃した惑星から生き残りの野良猫を全部引き取ったらしいけど、これは本当の話？",
+						"NextMessageId": "202340029"
+					},
+					"202340029": {
+						"Id": "202340029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい",
+						"NextMessageId": "202340030"
+					},
+					"202340030": {
+						"Id": "202340030",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "みんな猫派だったから{F#}{M#か}？",
+						"NextMessageId": "202340031"
+					},
+					"202340031": {
+						"Id": "202340031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340032"
+					},
+					"202340032": {
+						"Id": "202340032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "けど、あとひとつくらいなら答えてもいい",
+						"NextMessageId": "202340033"
+					},
+					"202340033": {
+						"Id": "202340033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい はい はい はい はい",
+						"NextMessageId": "202340034"
+					},
+					"202340034": {
+						"Id": "202340034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "みんなしてエリオを全肯定してるってこと{F#}{M#か}！？",
+						"NextMessageId": "202340085"
+					},
+					"202340035": {
+						"Id": "202340035",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "噂によれば星核ハンターって、荒廃した惑星から、生き残りの野良猫を全部引き取ったらしいけど",
+						"NextMessageId": "202340036"
+					},
+					"202340036": {
+						"Id": "202340036",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "それって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340037"
+					},
+					"202340037": {
+						"Id": "202340037",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい",
+						"NextMessageId": "202340038"
+					},
+					"202340038": {
+						"Id": "202340038",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#あんた}{M#お前}たちって、みんな猫派だったの{F#}{M#か}？",
+						"NextMessageId": "202340039"
+					},
+					"202340039": {
+						"Id": "202340039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい はい はい はい はい",
+						"NextMessageId": "202340040"
+					},
+					"202340040": {
+						"Id": "202340040",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "みんなしてエリオを全肯定してるってこと{F#}{M#か}！？",
+						"NextMessageId": "choice31"
+					},
+					"202340041": {
+						"Id": "202340041",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "噂によればウルフロードって、アッハと戦ったことがあるらしいけど、これって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340042"
+					},
+					"202340042": {
+						"Id": "202340042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい（？",
+						"NextMessageId": "choice50"
+					},
+					"202340043": {
+						"Id": "202340043",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "勝った？",
+						"NextMessageId": "202340044"
+					},
+					"202340044": {
+						"Id": "202340044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340085"
+					},
+					"202340045": {
+						"Id": "202340045",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あとは、星核ハンターは星穹列車に借金があるって噂も聞いたことがある",
+						"NextMessageId": "202340046"
+					},
+					"202340046": {
+						"Id": "202340046",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}たちに借金してるって、本当なの{F#}{M#か}？",
+						"NextMessageId": "202340047"
+					},
+					"202340047": {
+						"Id": "202340047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340085"
+					},
+					"202340048": {
+						"Id": "202340048",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "じゃあ、星核ハンターは星穹列車に借金があるって噂は？",
+						"NextMessageId": "202340049"
+					},
+					"202340049": {
+						"Id": "202340049",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}たちに借金してるって、本当なの{F#}{M#か}？",
+						"NextMessageId": "202340050"
+					},
+					"202340050": {
+						"Id": "202340050",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "その質問には答えられないかな。あなたがそう言うならそうなんじゃない？",
+						"NextMessageId": "choice61"
+					},
+					"202340051": {
+						"Id": "202340051",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "釣れた{F#ね}{M#な}…定期的に取り立てに行くって、言っておいた{F#でしょ}{M#だろ}？",
+						"NextMessageId": "202340052"
+					},
+					"202340052": {
+						"Id": "202340052",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340085"
+					},
+					"202340053": {
+						"Id": "202340053",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あと噂によればウルフロードって、アッハと戦ったことがあるらしいけど、これって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340054"
+					},
+					"202340054": {
+						"Id": "202340054",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340055"
+					},
+					"202340055": {
+						"Id": "202340055",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "けど、あとひとつくらいなら答えてもいい",
+						"NextMessageId": "202340056"
+					},
+					"202340056": {
+						"Id": "202340056",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい（？",
+						"NextMessageId": "202340085"
+					},
+					"202340057": {
+						"Id": "202340057",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "じゃあ、星核ハンターは星穹列車に借金があるって噂は？",
+						"NextMessageId": "202340058"
+					},
+					"202340058": {
+						"Id": "202340058",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}たちに借金してるって、本当なの{F#}{M#か}？",
+						"NextMessageId": "202340059"
+					},
+					"202340059": {
+						"Id": "202340059",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "？",
+						"NextMessageId": "202340060"
+					},
+					"202340060": {
+						"Id": "202340060",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "その質問には答えられないかな。あなたがそう言うならそうなんじゃない？",
+						"NextMessageId": "choice23"
+					},
+					"202340061": {
+						"Id": "202340061",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "釣れた{F#ね}{M#な}…定期的に取り立てに行くって、言っておいた{F#でしょ}{M#だろ}？",
+						"NextMessageId": "202340062"
+					},
+					"202340062": {
+						"Id": "202340062",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "いいえ！",
+						"NextMessageId": "202340063"
+					},
+					"202340063": {
+						"Id": "202340063",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "よしよし",
+						"NextMessageId": "choice45"
+					},
+					"202340064": {
+						"Id": "202340064",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あと噂によればウルフロードって、アッハと戦ったことがあるらしいけど、これって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340065"
+					},
+					"202340065": {
+						"Id": "202340065",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい（？",
+						"NextMessageId": "202340066"
+					},
+					"202340066": {
+						"Id": "202340066",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "勝った？",
+						"NextMessageId": "202340067"
+					},
+					"202340067": {
+						"Id": "202340067",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340085"
+					},
+					"202340068": {
+						"Id": "202340068",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あと、噂によれば星核ハンターって、荒廃した惑星から生き残りの野良猫を全部引き取ったらしいけど、これは本当の話？",
+						"NextMessageId": "202340069"
+					},
+					"202340069": {
+						"Id": "202340069",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい",
+						"NextMessageId": "202340070"
+					},
+					"202340070": {
+						"Id": "202340070",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "みんな猫派だったから{F#}{M#か}？",
+						"NextMessageId": "202340071"
+					},
+					"202340071": {
+						"Id": "202340071",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340072"
+					},
+					"202340072": {
+						"Id": "202340072",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "けど、あとひとつくらいなら答えてもいい",
+						"NextMessageId": "202340073"
+					},
+					"202340073": {
+						"Id": "202340073",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい はい はい はい はい",
+						"NextMessageId": "202340074"
+					},
+					"202340074": {
+						"Id": "202340074",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "みんなしてエリオを全肯定してるってこと{F#}{M#か}！？",
+						"NextMessageId": "202340085"
+					},
+					"202340075": {
+						"Id": "202340075",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "噂によれば星核ハンターって、荒廃した惑星から、生き残りの野良猫を全部引き取ったらしいけど",
+						"NextMessageId": "202340076"
+					},
+					"202340076": {
+						"Id": "202340076",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "それって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340077"
+					},
+					"202340077": {
+						"Id": "202340077",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい",
+						"NextMessageId": "202340078"
+					},
+					"202340078": {
+						"Id": "202340078",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#あんた}{M#お前}たちって、みんな猫派だったの{F#}{M#か}？",
+						"NextMessageId": "202340079"
+					},
+					"202340079": {
+						"Id": "202340079",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい はい はい はい はい",
+						"NextMessageId": "202340080"
+					},
+					"202340080": {
+						"Id": "202340080",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "みんなしてエリオを全肯定してるってこと{F#}{M#か}！？",
+						"NextMessageId": "choice75"
+					},
+					"202340081": {
+						"Id": "202340081",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "あと噂によればウルフロードって、アッハと戦ったことがあるらしいけど、これって本当なの{F#}{M#か}？",
+						"NextMessageId": "202340082"
+					},
+					"202340082": {
+						"Id": "202340082",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "3つの質問はもうおしまい",
+						"NextMessageId": "202340083"
+					},
+					"202340083": {
+						"Id": "202340083",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "けど、あとひとつくらいなら答えてもいい",
+						"NextMessageId": "202340084"
+					},
+					"202340084": {
+						"Id": "202340084",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "はい（？",
+						"NextMessageId": "202340085"
+					},
+					"202340085": {
+						"Id": "202340085",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "よし",
+						"NextMessageId": "202340086"
+					},
+					"202340086": {
+						"Id": "202340086",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "質問はここまで",
+						"NextMessageId": "202340087"
+					},
+					"202340087": {
+						"Id": "202340087",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "やっぱり、私には挑戦が似合うよね",
+						"NextMessageId": "202340088"
+					},
+					"202340088": {
+						"Id": "202340088",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "次はウルフロードが反撃する番だ",
+						"NextMessageId": "202340089"
+					},
+					"202340089": {
+						"Id": "202340089",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127003.png",
+						"Text": "[いいね]",
+						"NextMessageId": "202340090"
+					},
+					"202340090": {
+						"Id": "202340090",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "ゼッタイ勝つ"
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "噂によればウルフロードって…",
+								"NextMessageId": "202340007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "噂によれば星核ハンターって…",
+								"NextMessageId": "202340035"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "じゃあ、星穹列車に…",
+								"NextMessageId": "202340057"
+							}
+						]
+					},
+					"choice17": {
+						"Id": "choice17",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "噂によれば星核ハンターって…",
+								"NextMessageId": "202340010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "じゃあ、星穹列車に…",
+								"NextMessageId": "202340022"
+							}
+						]
+					},
+					"choice23": {
+						"Id": "choice23",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "釣れた…",
+								"NextMessageId": "202340061"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "（質問を変えよう）",
+								"NextMessageId": "202340075"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "噂によればウルフロードって…",
+								"NextMessageId": "202340041"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "じゃあ、星穹列車に…",
+								"NextMessageId": "202340048"
+							}
+						]
+					},
+					"choice35": {
+						"Id": "choice35",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "釣れた…",
+								"NextMessageId": "202340025"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "あと、噂によれば…",
+								"NextMessageId": "202340028"
+							}
+						]
+					},
+					"choice45": {
+						"Id": "choice45",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "あと噂によればウルフロードって…",
+								"NextMessageId": "202340064"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "あと、噂によれば…",
+								"NextMessageId": "202340068"
+							}
+						]
+					},
+					"choice47": {
+						"Id": "choice47",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "エリオ全肯定！？",
+								"NextMessageId": "202340015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "あとは、星穹列車に…",
+								"NextMessageId": "202340017"
+							}
+						]
+					},
+					"choice50": {
+						"Id": "choice50",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "勝った？",
+								"NextMessageId": "202340043"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "あとは、星核ハンターは…",
+								"NextMessageId": "202340045"
+							}
+						]
+					},
+					"choice61": {
+						"Id": "choice61",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "釣れた…",
+								"NextMessageId": "202340051"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "あと噂によればウルフロードって…",
+								"NextMessageId": "202340053"
+							}
+						]
+					},
+					"choice75": {
+						"Id": "choice75",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "あと噂によれば…",
+								"NextMessageId": "202340081"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"20998": {
 		"Id": "20998",

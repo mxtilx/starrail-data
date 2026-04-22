@@ -133,7 +133,7 @@
 			{
 				"Id": "100401",
 				"Name": "Legado de honor",
-				"Effect": "Tras usar su habilidad definitiva, Welt obtiene una potenciación: las 2 siguientes veces que ataque usando el ATQ básico o la habilidad básica, inflige <u>daño adicional</u> a los objetivos 1 vez. El <u>daño adicional</u> que inflige el ATQ básico es igual al 50% del multiplicador del daño de ATQ básico, y el <u>daño adicional</u> que inflige la habilidad básica es igual al 80% del multiplicador del daño de habilidad básica."
+				"Effect": "Tras usar su habilidad definitiva, Welt obtiene una potenciación: las 2 siguientes veces que ataque usando el ATQ básico o la habilidad básica, inflige <u>daño adicional</u> a los objetivos 1 vez. El <u>daño adicional</u> que inflige el ATQ básico es igual al 50% del multiplicador de daño del ATQ básico, y el <u>daño adicional</u> que inflige la habilidad básica es igual al 80% del multiplicador de daño de la habilidad básica."
 			},
 			{
 				"Id": "100402",
@@ -3156,6 +3156,88 @@
 		],
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"ElementType": "Physical",
+		"ElementTypeText": "Físico",
+		"PathType": "Elation",
+		"PathTypeText": "Exultación",
+		"Eidolons": [
+			{
+				"Id": "150501",
+				"Name": "Hogar, plegaria danzada",
+				"Effect": "La PEN de la RES a todos los tipos aumenta en un 20%. Después de que el maestro zorro ataque, se activa una vez adicional la habilidad de Exultación. La habilidad de Exultación otorga a esta unidad 10 pts. adicionales de <u>¡Bien hecho!</u>"
+			},
+			{
+				"Id": "150502",
+				"Name": "Camino, por el florecer eterno",
+				"Effect": "El Daño CRIT aumenta en un 36%. Al activar el efecto de obtención de ¡Bien hecho! de los Rastros Alborozo vigilado/Florecimiento inmarcesible, se obtiene respectivamente una cantidad adicional de <u>¡Bien hecho!</u> equivalente al 50%/100% del <u>¡Bien hecho!</u> obtenido en esta ocasión."
+			},
+			{
+				"Id": "150503",
+				"Name": "Espada, mal hecho festín",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "150504",
+				"Name": "Prado, despojado por el mal",
+				"Effect": "El daño que inflige Evanescia ignora un 15% de la DEF del enemigo."
+			},
+			{
+				"Id": "150505",
+				"Name": "Arcadia, crisol de emociones",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "150506",
+				"Name": "Doncella, la vida en el sueño",
+				"Effect": "La duración de <u>¡Bien hecho!</u> de Evanescia aumenta en 1 turno. El <u>Daño de Exultación</u> que inflige Evanescia <u>aumenta su gracia</u> en un 15%. Por cada 100 pts. de <u>¡Bien hecho!</u> que tenga, <u>aumenta su gracia</u> adicionalmente en un 2.0%. Se cuentan un máximo de 1000 pts. Al lanzar la habilidad definitiva por primera vez tras entrar en combate, Evanescia recupera 120 pts. de energía fijos. Este efecto se puede activar una vez tras cada 4 lanzamientos de la habilidad definitiva."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silver Wolf Niv. <unbreak>999</unbreak>",
+		"ElementType": "Imaginary",
+		"ElementTypeText": "Imaginario",
+		"PathType": "Elation",
+		"PathTypeText": "Exultación",
+		"Eidolons": [
+			{
+				"Id": "150601",
+				"Name": "Edición de éter: Eidolon +1",
+				"Effect": "El daño que reciben los enemigos en el campo aumenta en un 20%.\nAl salir del estado Jugadora imbatible, el MMR oculto no se restablece, sino que se conserva un 20% del MMR oculto."
+			},
+			{
+				"Id": "150602",
+				"Name": "Es una funcionalidad, no un error",
+				"Effect": "Tras entrar en el estado Jugadora imbatible, prolonga todos sus <u>efectos positivos</u> en 1 turno. Mientras se encuentra en este estado de Jugadora imbatible, cada vez que aumenta su MMR oculto en 120 pts. (incluyendo el MMR oculto inicial), Silver Wolf Niv. 999 obtiene 1 <u>turno adicional</u> y recupera 1 uso del ATQ básico potenciado."
+			},
+			{
+				"Id": "150603",
+				"Name": "¿Solo <unbreak>15</unbreak> niveles? ¿Quién diseñó esto?",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "150604",
+				"Name": "Vine, vi... y lo derribé a la primera",
+				"Effect": "Los puntos de <u>Chiste</u> que cuenta el <u>Daño de Exultación</u> infligido por Demostración de daño Honkai se multiplican por 5."
+			},
+			{
+				"Id": "150605",
+				"Name": "El ATQ básico es la nueva definitiva",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "150606",
+				"Name": "¡Solo maxxing!",
+				"Effect": "El <u>Daño de Exultación</u> infligido durante el ATQ básico potenciado <u>aumenta su gracia</u> en un 50%.\nCuando un enemigo entra en combate, se le implanta Debilidad absoluta: tiene Debilidad a todos los tipos y su <u>RES base</u> a todos los tipos se reduce a 0 (si la <u>RES base</u> es 0, la RES al tipo correspondiente se reduce en un 20%)."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trazacaminos (Físico)",
@@ -3499,5 +3581,91 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "Trazacaminos (Rayo)",
+		"TrailblazerCanonName": "Caelus",
+		"TrailblazerGender": "M",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Rayo",
+		"PathType": "Elation",
+		"PathTypeText": "Exultación",
+		"Eidolons": [
+			{
+				"Id": "800901",
+				"Name": "Cree en la luz",
+				"Effect": "Después de lanzar la habilidad básica, su siguiente habilidad definitiva aumenta en 2 pts. el <u>¡Bien hecho!</u> que obtiene el aliado. Este efecto se puede acumular hasta 3 veces."
+			},
+			{
+				"Id": "800902",
+				"Name": "Haciendo historia...",
+				"Effect": "La habilidad definitiva además aumenta la Exultación del aliado designado en un 12% durante 2 turnos."
+			},
+			{
+				"Id": "800903",
+				"Name": "Bajo los focos",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "800904",
+				"Name": "Salvando el mundo porque sí",
+				"Effect": "Al lanzar la habilidad de Exultación, el daño que reciben los enemigos aumenta en un 10% durante 2 turnos."
+			},
+			{
+				"Id": "800905",
+				"Name": "El amor y el valor nunca pasan de moda",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "800906",
+				"Name": "¡La leyenda cósmica entra en escena!",
+				"Effect": "Al lanzar la habilidad de Exultación, el Daño CRIT de esta unidad aumenta en un 100% durante 3 turnos."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "Trazacaminos (Rayo)",
+		"TrailblazerCanonName": "Estela",
+		"TrailblazerGender": "F",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Rayo",
+		"PathType": "Elation",
+		"PathTypeText": "Exultación",
+		"Eidolons": [
+			{
+				"Id": "801001",
+				"Name": "Cree en la luz",
+				"Effect": "Después de lanzar la habilidad básica, su siguiente habilidad definitiva aumenta en 2 pts. el <u>¡Bien hecho!</u> que obtiene el aliado. Este efecto se puede acumular hasta 3 veces."
+			},
+			{
+				"Id": "801002",
+				"Name": "Haciendo historia...",
+				"Effect": "La habilidad definitiva además aumenta la Exultación del aliado designado en un 12% durante 2 turnos."
+			},
+			{
+				"Id": "801003",
+				"Name": "Bajo los focos",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "801004",
+				"Name": "Salvando el mundo porque sí",
+				"Effect": "Al lanzar la habilidad de Exultación, el daño que reciben los enemigos aumenta en un 10% durante 2 turnos."
+			},
+			{
+				"Id": "801005",
+				"Name": "El amor y el valor nunca pasan de moda",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10). Niv. de habilidad de Exultación +1 (máximo: nivel 15)."
+			},
+			{
+				"Id": "801006",
+				"Name": "¡La leyenda cósmica entra en escena!",
+				"Effect": "Al lanzar la habilidad de Exultación, el Daño CRIT de esta unidad aumenta en un 100% durante 3 turnos."
+			}
+		],
+		"VersionAdded": "4.2"
 	}
 }

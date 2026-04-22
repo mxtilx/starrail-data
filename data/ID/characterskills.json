@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
 			"EffectRaw": "Membuat 1 rekan tim selain diri sendiri menjadi \"Shifu\". SPD \"Shifu\" akan meningkat <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. Hanya target pelancaran Skill terbaru yang akan dianggap sebagai \"Shifu\" March 7th.\nSetiap kali melancarkan Basic Attack atau mengakibatkan 1 Hit Enhanced Basic Attack DMG, jika ada \"Shifu\" dari Path tertentu di medan pertempuran, akan memicu efek yang sesuai:\n\"Erudition\", \"Destruction\", \"Hunt\", \"Remembrance\", \"Elation\": Mengakibatkan <u>DMG Tambahan</u> berdasarkan Tipe \"Shifu\" sebesar <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> ATK March 7th.\n\"Harmony\", \"Nihility\", \"Preservation\", dan \"Abundance\": Pengurangan Toughness dari DMG kali ini meningkat <unbreak>#3[i]%</unbreak>.",
-			"AbridgedEffect": "Membuat 1 rekan tim menjadi \"Shifu\". Saat melancarkan Basic Attack atau mengakibatkan Enhanced Basic Attack DMG, akan memicu efek berikut berdasarkan <color=#f29e38ff>Path \"Shifu\"</color>:\n\"Erudition\", \"Destruction\", \"Hunt\", \"Remembrance\": mengakibatkan <color=#f29e38ff><u>DMG Tambahan</u></color> berdasarkan Tipe \"Shifu\".\n\"Harmony\", \"Nihility\", \"Preservation\", \"Abundance\": <color=#f29e38ff>Pengurangan Toughness</color> meningkat.",
+			"AbridgedEffect": "Membuat 1 rekan tim menjadi \"Shifu\". Saat melancarkan Basic Attack atau mengakibatkan Enhanced Basic Attack DMG, akan memicu efek berikut berdasarkan <color=#f29e38ff>Path \"Shifu\"</color>:\n\"Erudition\", \"Destruction\", \"Hunt\", \"Remembrance\", \"Elation\": mengakibatkan <color=#f29e38ff><u>DMG Tambahan</u></color> berdasarkan Tipe \"Shifu\".\n\"Harmony\", \"Nihility\", \"Preservation\", \"Abundance\": <color=#f29e38ff>Pengurangan Toughness</color> meningkat.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39812,6 +39812,1278 @@
 		},
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "Syllabus: Pop Quiz",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Physical DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Evanescia pada 1 musuh yang ditargetkan.",
+			"AbridgedEffect": "Mengakibatkan Physical DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "Discipline: Final Verdict",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "Blast",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Mengakibatkan Physical DMG sebesar <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> ATK Evanescia pada 1 musuh yang ditargetkan, mengakibatkan Physical DMG sebesar <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> ATK Evanescia pada target di sekitarnya, serta memperoleh ekstra <unbreak>#4[i]</unbreak> <u>Punchline</u>.",
+			"AbridgedEffect": "Mengakibatkan Physical DMG dalam jumlah besar pada 1 musuh, mengakibatkan Physical DMG pada target di sekitar, dan memperoleh ekstra <u>Punchline</u>.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "Swordsong: Absolution Denied",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Mengakibatkan Physical DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Evanescia pada seluruh musuh, kemudian mengakibatkan 5 kali DMG, yang setiap kalinya mengakibatkan Physical DMG sebesar <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> ATK Evanescia pada 1 target musuh acak.",
+			"AbridgedEffect": "Mengakibatkan Physical DMG pada seluruh musuh, kemudian mengakibatkan Physical DMG pada 1 musuh acak, total Bounce 5 kali.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "Youth: Halcyon Evermore",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Evanescia memperoleh Tingkat Elation sebesar <unbreak>#5[i]%</unbreak> CRIT DMG. Saat Evanescia memperoleh Energy, dia akan memperoleh sejumlah \"<u>Certified Banger</u>\" yang sama secara bersamaan. Saat Evanescia memperoleh \"<u>Certified Banger</u>\", dia akan memperoleh sejumlah Energy yang sama secara bersamaan, maksimal menghitung <unbreak>100</unbreak> poin \"<u>Certified Banger</u>\" melalui cara ini dalam satu kali perhitungan.\nSaat mengakumulasi <unbreak>#3[i]</unbreak> poin Energy, akan mengonsumsi <unbreak>#3[i]</unbreak> poin nilai akumulasi, \"Master Fox\" melancarkan <u>Serangan Lanjutan</u> yang mengakibatkan Physical DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Evanescia pada seluruh musuh, serta memulihkan <unbreak>#4[i]</unbreak> Energy untuk Evanescia, maksimal memperoleh <unbreak>#3[i]</unbreak> poin nilai akumulasi dalam satu kali memperoleh Energy. Saat Evanescia memiliki \"<u>Certified Banger</u>\":\nMelancarkan Skill dapat mengakibatkan <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> <u>Elation DMG</u> Tipe Physical pada target musuh yang terkena serangan.\nMelancarkan Ultimate dapat mengakibatkan <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> <u>Elation DMG</u> Tipe Physical pada seluruh musuh, serta mengakibatkan <color=#f29e38ff><unbreak>#8[i]%</unbreak></color> <u>Elation DMG</u> Tipe Physical pada target musuh yang secara acak terkena DMG dari Ultimate. Saat Ultimate mengakibatkan <u>Elation DMG</u>, \"<u>Certified Banger</u>\" yang dihitung setidaknya setara dengan Max Energy.\n<u>Serangan Lanjutan</u> \"Master Fox\" dapat mengakibatkan <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>Elation DMG</u> Tipe Physical pada seluruh musuh.",
+			"AbridgedEffect": "Saat Evanescia memperoleh Energy, secara bersamaan akan <color=#f29e38ff>memperoleh \"<u>Certified Banger</u>\" dengan jumlah yang setara</color>; saat Evanescia memperoleh \"<u>Certified Banger</u>\", secara bersamaan akan <color=#f29e38ff>memperoleh Energy dengan jumlah yang setara</color>. Saat akumulasi perolehan Energy mencapai jumlah tertentu, \"Master Fox\" akan melancarkan <u>Serangan Lanjutan</u> yang mengakibatkan Physical DMG dalam jumlah kecil pada seluruh musuh, dan memulihkan Energy untuk Evanescia. Saat Evanescia memiliki \"<u>Certified Banger</u>\", melancarkan Skill, Ultimate, atau <u>Serangan Lanjutan</u> \"Master Fox\" dapat mengakibatkan <u>Elation DMG</u> Tipe Physical dalam jumlah kecil pada musuh.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "Petalfall: Floral Reminiscence",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Segera menyerang seluruh musuh dalam jangkauan tertentu. Setelah memasuki pertempuran, mengakibatkan Physical DMG sebesar <unbreak>#1[i]%</unbreak> ATK Evanescia pada seluruh musuh dan memperoleh <unbreak>#2[i]</unbreak> poin \"<u>Certified Banger</u>\".",
+			"AbridgedEffect": "Segera menyerang seluruh musuh dalam jangkauan tertentu. Setelah memasuki pertempuran, akan mengakibatkan Physical DMG dalam jumlah kecil pada seluruh musuh dan memperoleh \"<u>Certified Banger</u>\".",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silver Wolf LV.<unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "One Punch!",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Imaginary DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK \"Silver Wolf LV.<unbreak>999</unbreak>\" pada 1 musuh yang ditargetkan.",
+			"AbridgedEffect": "Mengakibatkan Imaginary DMG dalam jumlah kecil pada 1 musuh yang ditargetkan.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "Bonus Stage: αWolf Instant",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "Bounce",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Imaginary DMG total sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Silver Wolf LV.<unbreak>999</unbreak>, dibagi rata menjadi <unbreak>#3[i]</unbreak> Hit serangan yang Bounce pada satu musuh secara acak. Setiap Bounce beberapa kali, Bounce akan dijeda dan memicu 1 kali \"<u>Top Loot Box</u>\", total dapat memicu <unbreak>#5[i]</unbreak> kali.\nJika mengakibatkan DMG mematikan pada seluruh musuh di medan pertempuran, maka kemampuan kali ini akan berakhir. Setelah ada target musuh yang dapat diserang, akan memperoleh 1 <u>giliran tambahan</u> dan dilancarkan kembali berdasarkan sisa Bounce dan kesempatan pemicuan \"<u>Top Loot Box</u>\". Saat efek ini terpicu untuk pertama kalinya setiap giliran, akan memperpanjang seluruh <u>Buff</u> pada diri sendiri sebanyak 1 giliran.\nSetelah seluruh DMG di atas dikalkulasi, akan melancarkan Final Hit yang mengakibatkan Imaginary DMG sebesar <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> ATK Silver Wolf LV.<unbreak>999</unbreak> yang dibagi rata di antara seluruh musuh.\nEnhanced Basic Attack tidak dapat memulihkan Poin Skill. Untuk setiap <unbreak>#6[i]</unbreak> poin \"Hidden MMR\" yang dimiliki, akan meningkatkan DMG yang diakibatkan selama durasi Enhanced Basic Attack sebesar <unbreak>#8[i]%</unbreak> dari DMG aslinya, dapat ditumpuk hingga <unbreak>#7[i]</unbreak> lapis.",
+			"AbridgedEffect": "Mengakibatkan Imaginary DMG, total Bounce dalam jumlah besar, dan selama periode waktu tersebut dapat memicu \"Top Loot Box\" sebanyak <color=#f29e38ff><unbreak>#5[i]</unbreak></color> kali. Jika <color=#f29e38ff>mengakibatkan DMG mematikan pada seluruh musuh, efek yang tersisa akan dipertahankan</color> dan terus dilancarkan pada target musuh yang baru memasuki pertempuran. Terakhir, mengakibatkan Imaginary DMG yang dibagi rata di antara seluruh musuh.\nSetiap \"Hidden MMR\" mencapai sejumlah poin, dapat meningkatkan ekstra Enhanced Basic Attack DMG.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Trigger Happy",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Memperoleh <unbreak>#2[i]</unbreak> <u>Punchline</u>, mengakibatkan Imaginary DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK \"Silver Wolf LV.<unbreak>999</unbreak>\" pada seluruh musuh.",
+			"AbridgedEffect": "Memperoleh <u>Punchline</u>, mengakibatkan Imaginary DMG pada seluruh musuh.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "God Mode: ON!",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Memasuki status \"Godmode Player\", dan <u>aksi didahulukan</u> sebesar <unbreak>100%</unbreak>.\nMenciptakan area pembatas saat berstatus \"Godmode Player\". Saat \"Silver Wolf LV.<unbreak>999</unbreak>\" memiliki \"<u>Certified Banger</u>\", setiap kali rekan tim di dalam area pembatas mengonsumsi 1 Poin Skill, berpeluang memicu 1 kali \"<u>Top Loot Box</u>\" milik \"Silver Wolf LV.<unbreak>999</unbreak>\" yang mengakibatkan <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Elation DMG</u> Tipe Imaginary yang dibagi rata di antara seluruh musuh, dan secara acak memicu 1 dari efek berikut:\n\"Big Flipping Sword\": Mengakibatkan ekstra <u>True DMG</u> sebesar <unbreak>#5[i]%</unbreak> dari total DMG saat ini pada target musuh dengan HP tertinggi;\n\"Kaboom Eggsplosion\": Memulihkan <unbreak>#7[i]</unbreak> Poin Skill;\n\"Funky Munch Bean\": Memperoleh <unbreak>#6[i]</unbreak> <u>Punchline</u>.\n<u>Peluang tetap</u> awal untuk memicu efek ini adalah <unbreak>100%</unbreak>, setelah berhasil dipicu, <u>peluang tetap</u> untuk pemicuan berikutnya berkurang <unbreak>#4[i]%</unbreak> dari peluang saat ini. Jika target musuh dikalahkan sebelum terpicu, maka efek akan dipicu pada target musuh yang baru memasuki pertempuran.",
+			"AbridgedEffect": "Bertransformasi dan <u>aksi didahulukan</u> <unbreak>100%</unbreak>.\nMenciptakan area pembatas selama durasi transformasi. Saat memiliki \"<u>Certified Banger</u>\", setiap kali rekan tim <color=#f29e38ff>mengonsumsi 1 Poin Skill</color>, berpeluang besar <color=#f29e38ff>memicu 1 kali \"Top Loot Box\"</color>: Mengakibatkan <u>Elation DMG</u> Tipe Imaginary dalam jumlah besar yang dibagi rata di antara seluruh musuh, dan secara acak memicu 1 jenis efek:\nMengakibatkan <color=#f29e38ff><u>True DMG</u></color> pada target dengan HP tertinggi berdasarkan total DMG;\nMemulihkan <color=#f29e38ff>Poin Skill</color>;\nMemperoleh <color=#f29e38ff><u>Punchline</u></color>.\nPeluang akan berkurang secara proporsional setiap setelah dipicu.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "Big Flipping Sword",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "Mengakibatkan <u>Elation DMG</u> Tipe Imaginary dalam jumlah besar pada seluruh musuh yang dibagi rata di antara seluruh musuh, mengakibatkan <u>True DMG</u> berdasarkan total DMG pada target dengan HP tertinggi.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "I Carry, We Win",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Setelah \"Hidden MMR\" mencapai <unbreak>#1[i]</unbreak> poin, Ultimate dapat diaktifkan, dan setelah mencapai batas maksimum, masih dapat meluap sebanyak <unbreak>#2[i]</unbreak> poin. \nSaat memperoleh <u>Punchline</u>, \"Silver Wolf LV.<unbreak>999</unbreak>\" memperoleh \"Hidden MMR\" dengan jumlah yang setara. Setiap poin \"Hidden MMR\" membuat CRIT Rate meningkat <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Setelah CRIT Rate mencapai <unbreak>100%</unbreak>, setiap poin \"Hidden MMR\" yang tersisa akan beralih meningkatkan CRIT DMG sebesar <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\nSaat berstatus \"Godmode Player\", \"Silver Wolf LV.<unbreak>999</unbreak>\" kebal terhadap <u>Crowd Control Debuff</u>, tidak dapat melancarkan Ultimate, serta memiliki Enhanced Basic Attack dan Enhanced Elation Skill. Setelah melancarkan <unbreak>#5[i]</unbreak> kali Enhanced Basic Attack, dia akan keluar dari status \"Godmode Player\". Saat keluar dari status \"Godmode Player\", \"Hidden MMR\" akan dihapus.\nSaat memiliki \"<u>Certified Banger</u>\", melancarkan Basic Attack atau Skill akan mengakibatkan <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Elation DMG</u> Tipe Imaginary pada target musuh yang terkena serangan. DMG kemampuan dari Enhanced Basic Attack akan berubah menjadi <u>Elation DMG</u> dengan persentase yang sama.",
+			"AbridgedEffect": "Setelah \"Hidden MMR\" mencapai <color=#f29e38ff><unbreak>#1[i]</unbreak></color> poin, Ultimate dapat diaktifkan. Saat <color=#f29e38ff>memperoleh <u>Punchline</u>, akan memperoleh \"Hidden MMR\" dengan jumlah yang setara</color>. Semakin tinggi \"Hidden MMR\", semakin tinggi juga \"CRIT Rate\". Setelah CRIT Rate mencapai <unbreak>100%</unbreak>, akan berubah menjadi meningkatkan CRIT DMG.\nSelama durasi transformasi, \"Silver Wolf LV.<unbreak>999</unbreak>\" kebal terhadap <u>Crowd Control Debuff</u>, Basic Attack dan Elation Skill diperkuat. Akan keluar dari transformasi setelah melancarkan <color=#f29e38ff><unbreak>#5[i]</unbreak></color> kali Enhanced Basic Attack.\nSaat memiliki \"<u>Certified Banger</u>\", melancarkan Basic Attack atau Skill akan mengakibatkan ekstra <u>Elation DMG</u> Tipe Imaginary, dan DMG kemampuan Enhanced Basic Attack akan berubah menjadi <u>Elation DMG</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "This? Absolute Meta!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "Panggil",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Memanggil \"Funky Munch Bean\", gunakan lagi untuk membatalkan pemanggilan. Menggunakan Technique tidak mengonsumsi Poin Technique. Saat Poin Technique 0, pemanggilan dibatalkan dan Technique tidak dapat digunakan.\n\"Funky Munch Bean\" akan membuat musuh biasa dalam jangkauan tertentu memasuki status Terrified, sekaligus otomatis mencari dan menyerang musuh biasa, serta mengonsumsi 1 Poin Technique untuk langsung mengalahkan musuh tanpa memasuki pertempuran.\nSaat \"Funky Munch Bean\" berada di medan pertempuran, setelah memasuki pertempuran akan memicu 1 kali \"<u>Top Loot Box</u>\" yang sesuai dengan \"Funky Munch Bean\" di awal setiap gelombang, dan <u>Elation DMG</u> yang diakibatkan kali ini secara tetap dihitung sebagai <unbreak>#1[i]</unbreak> poin \"<u>Certified Banger</u>\".",
+			"AbridgedEffect": "Memanggil \"Funky Munch Bean\", gunakan lagi untuk membatalkan pemanggilan. <color=#f29e38ff>Tidak mengonsumsi Poin Technique</color> saat digunakan.\n\"Funky Munch Bean\" dapat otomatis mencari dan menyerang musuh biasa, serta mengonsumsi 1 Poin Technique untuk <color=#f29e38ff>segera mengalahkan musuh tanpa memasuki pertempuran</color>.\nSetelah memasuki pertempuran, akan memicu \"Top Loot Box\" yang sesuai dengan \"Funky Munch Bean\" di awal setiap gelombang.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "Make Some Noise",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Trailblazer pada 1 musuh yang ditargetkan.",
+			"AbridgedEffect": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "Let the Storm Rage On",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Trailblazer pada seluruh musuh, dan memperoleh <unbreak>#2[i]</unbreak> poin \"<u>Certified Banger</u>\".",
+			"AbridgedEffect": "Mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, memperoleh \"<u>Certified Banger</u>\".",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "May the Trailblaze Fly You Starward",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Memperoleh <unbreak>#6[i]</unbreak> <u>Punchline</u>, meningkatkan <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> CRIT DMG 1 rekan tim yang ditargetkan selama <unbreak>#2[i]</unbreak> giliran, dan menghapus <u>Crowd Control Debuff</u> dari target tersebut.\nJika target memiliki Elation Skill, maka target akan memperoleh ekstra <unbreak>#4[i]</unbreak> poin \"<u>Certified Banger</u>\" dan segera melancarkan 1 kali Elation Skill yang menghitung <unbreak>#5[i]</unbreak> <u>Punchline</u> secara tetap. Jika target musuh dikalahkan sebelum Elation Skill dilancarkan, maka akan melancarkan Elation Skill pada target musuh yang baru memasuki medan pertempuran.\nJika target tidak memiliki Elation Skill, maka <u>aksinya akan didahulukan</u> sebesar <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Memperoleh <u>Punchline</u>, meningkatkan CRIT DMG 1 rekan tim yang ditargetkan, dan menghapus <u>Crowd Control Debuff</u> dari target tersebut. Jika target memiliki Elation Skill, <color=#f29e38ff>target akan memperoleh ekstra \"<u>Certified Banger</u>\"</color>, dan <color=#f29e38ff>segera melancarkan Elation Skill</color>. Jika tidak, maka <u>aksinya akan didahulukan</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "That Smile Hits Different",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Setelah melancarkan serangan, memulihkan <unbreak>#1[i]</unbreak> Energy secara tetap dan memperoleh <unbreak>#2[i]</unbreak> <u>Punchline</u>.\nSaat Trailblazer memiliki \"<u>Certified Banger</u>\", Skill mengakibatkan ekstra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Elation DMG</u> Tipe Lightning pada seluruh musuh, DMG ini dihitung menggunakan jumlah \"<u>Certified Banger</u>\" tertinggi rekan tim.",
+			"AbridgedEffect": "Setelah melancarkan serangan, memulihkan Energy dan memperoleh <u>Punchline</u>.\nSaat Trailblazer memiliki \"<u>Certified Banger</u>\", Skill juga mengakibatkan <u>Elation DMG</u> Tipe Lightning dalam jumlah kecil pada seluruh musuh.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "We Are So Back!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Memperoleh salah 1 dari efek berikut secara acak setelah menggunakan Technique:\nBerpeluang kecil memperoleh \"Hearty Laughter\": Tingkat Elation meningkat <unbreak>#1[i]%</unbreak>.\nBerpeluang besar memperoleh \"Irrepressible Laughter\": Tingkat Elation meningkat <unbreak>#3[i]%</unbreak>.\nSaat pertempuran berikutnya dimulai, meningkatkan Tingkat Elation seluruh rekan tim dengan nilai yang sesuai selama <unbreak>#5[i]</unbreak> giliran.",
+			"AbridgedEffect": "Setelah menggunakan Technique, <color=#f29e38ff>meningkatkan Tingkat Elation seluruh</color> rekan tim saat memasuki pertempuran berikutnya.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "Make Some Noise",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Trailblazer pada 1 musuh yang ditargetkan.",
+			"AbridgedEffect": "Mengakibatkan Lightning DMG dalam jumlah kecil pada 1 musuh.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "Let the Storm Rage On",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Mengakibatkan Lightning DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Trailblazer pada seluruh musuh, dan memperoleh <unbreak>#2[i]</unbreak> poin \"<u>Certified Banger</u>\".",
+			"AbridgedEffect": "Mengakibatkan Lightning DMG dalam jumlah kecil pada seluruh musuh, memperoleh \"<u>Certified Banger</u>\".",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "May the Trailblaze Fly You Starward",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Memperoleh <unbreak>#6[i]</unbreak> <u>Punchline</u>, meningkatkan <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> CRIT DMG 1 rekan tim yang ditargetkan selama <unbreak>#2[i]</unbreak> giliran, dan menghapus <u>Crowd Control Debuff</u> dari target tersebut.\nJika target memiliki Elation Skill, maka target akan memperoleh ekstra <unbreak>#4[i]</unbreak> poin \"<u>Certified Banger</u>\" dan segera melancarkan 1 kali Elation Skill yang menghitung <unbreak>#5[i]</unbreak> <u>Punchline</u> secara tetap. Jika target musuh dikalahkan sebelum Elation Skill dilancarkan, maka akan melancarkan Elation Skill pada target musuh yang baru memasuki medan pertempuran.\nJika target tidak memiliki Elation Skill, maka <u>aksinya akan didahulukan</u> sebesar <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Memperoleh <u>Punchline</u>, meningkatkan CRIT DMG 1 rekan tim yang ditargetkan, dan menghapus <u>Crowd Control Debuff</u> dari target tersebut. Jika target memiliki Elation Skill, <color=#f29e38ff>target akan memperoleh ekstra \"<u>Certified Banger</u>\"</color>, dan <color=#f29e38ff>segera melancarkan Elation Skill</color>. Jika tidak, maka <u>aksinya akan didahulukan</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "That Smile Hits Different",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Setelah melancarkan serangan, memulihkan <unbreak>#1[i]</unbreak> Energy secara tetap dan memperoleh <unbreak>#2[i]</unbreak> <u>Punchline</u>.\nSaat Trailblazer memiliki \"<u>Certified Banger</u>\", Skill mengakibatkan ekstra <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Elation DMG</u> Tipe Lightning pada seluruh musuh, DMG ini dihitung menggunakan jumlah \"<u>Certified Banger</u>\" tertinggi rekan tim.",
+			"AbridgedEffect": "Setelah melancarkan serangan, memulihkan Energy dan memperoleh <u>Punchline</u>.\nSaat Trailblazer memiliki \"<u>Certified Banger</u>\", Skill juga mengakibatkan <u>Elation DMG</u> Tipe Lightning dalam jumlah kecil pada seluruh musuh.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "We Are So Back!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Memperoleh salah 1 dari efek berikut secara acak setelah menggunakan Technique:\nBerpeluang kecil memperoleh \"Hearty Laughter\": Tingkat Elation meningkat <unbreak>#1[i]%</unbreak>.\nBerpeluang besar memperoleh \"Irrepressible Laughter\": Tingkat Elation meningkat <unbreak>#3[i]%</unbreak>.\nSaat pertempuran berikutnya dimulai, meningkatkan Tingkat Elation seluruh rekan tim dengan nilai yang sesuai selama <unbreak>#5[i]</unbreak> giliran.",
+			"AbridgedEffect": "Setelah menggunakan Technique, <color=#f29e38ff>meningkatkan Tingkat Elation seluruh</color> rekan tim saat memasuki pertempuran berikutnya.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

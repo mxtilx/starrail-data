@@ -311,12 +311,6 @@
 		"Description": "Đồng minh cổ xưa do rất nhiều chủng tộc có trí tuệ tạo thành.\nBước lên Xianzhou tiêu diệt đám Tà Vật Trù Phú khắp vũ trụ.",
 		"VersionAdded": "1.0"
 	},
-	"10053": {
-		"Id": "10053",
-		"Name": "Thợ Săn Stellaron",
-		"Description": "Tổ chức đi qua các thế giới để săn Stellaron.\nAeon ban năng lực cho họ là ai vẫn chưa rõ.",
-		"VersionAdded": "1.0"
-	},
 	"10054": {
 		"Id": "10054",
 		"Name": "Dân Trù Phú",
@@ -1808,7 +1802,7 @@
 	"10405": {
 		"Id": "10405",
 		"Name": "Kỷ Nguyên Tro Tàn",
-		"Description": "Hổ Phách Kỷ <unbreak>2148</unbreak>, quân tiên phong của \"Hủy Diệt\" tấn công Ahatopia, mở màn cho Kỷ Nguyên Tro Tàn.\nDưới sự lãnh đạo của họa sư \"Graphia\", những Huyễn Tạo Chủng đầu tiên đã kề vai sát cánh cùng con người, cùng nhau chống lại lũ ác quỷ đến từ phía bên ngoài.",
+		"Description": "Hổ Phách Kỷ <unbreak>2148</unbreak>, quân tiên phong của \"Hủy Diệt\" tấn công Ahatopia, mở màn cho Kỷ Nguyên Tro Tàn.\nDưới sự lãnh đạo của họa sư \"Graphia\", những Huyễn Tạo Chủng đầu tiên đã kề vai sát cánh cùng con người, cùng nhau chống lại lũ Thiên Ma đến từ phía bên ngoài.",
 		"VersionAdded": "4.0"
 	},
 	"10406": {
@@ -1930,6 +1924,30 @@
 		"Name": "Tập Đoàn Pearluxe",
 		"Description": "Tập đoàn giải trí liên hành tinh dưới danh nghĩa của Pearl. Ngành nghề kinh doanh chính bao gồm sản xuất và buôn bán \"Giáp Máy\".\n\"Tòa Tháp Pearluxe\" sừng sững là trụ sở chính, cũng là nơi mà vô số người tìm việc khao khát đặt chân đến.",
 		"VersionAdded": "4.1"
+	},
+	"10426": {
+		"Id": "10426",
+		"Name": "Fulwish",
+		"Description": "Hội Trưởng \"Hội Nghiên Cứu Nụ Cười Hạnh Phúc\" kiêm Giám Đốc \"Đài Truyền Hình Fulwish\". Đứa con mồ côi trong Trò Chơi Đẫm Máu.\nĐể trả thù \"Vui Vẻ\" của Planarcadia, hóa thân thành kẻ thù của chính mình, dùng dáng vẻ Ma Báo Tử mang đến phán quyết cho thiên đường vui vẻ.",
+		"VersionAdded": "4.2"
+	},
+	"10427": {
+		"Id": "10427",
+		"Name": "Hội Nghiên Cứu Nụ Cười Hạnh Phúc",
+		"Description": "Một tổ chức từ thiện quy mô lớn, tiền thân là Tổ Chức Hỗ Trợ Nạn Nhân Sự Kiện Ma Báo Tử.\nThông qua các phương pháp như \"Phẫu Thuật Hạnh Phúc\", biến người dân thành ác thú chỉ biết đến hương vị của hạnh phúc.",
+		"VersionAdded": "4.2"
+	},
+	"10428": {
+		"Id": "10428",
+		"Name": "Ma Báo Tử",
+		"Description": "Kẻ đầu sỏ của Trò Chơi Đẫm Máu, con quái vật lấy việc giết chóc làm niềm vui.\nNay lại bị Fulwish lợi dụng, với tư cách là biểu tượng của \"nỗi sợ\", nó khuấy động làn sóng tư tưởng của Planarcadia.",
+		"VersionAdded": "4.2"
+	},
+	"10429": {
+		"Id": "10429",
+		"Name": "Thợ Săn Stellaron",
+		"Description": "Tổ chức đi qua các thế giới để săn Stellaron.\nVì một mục đích nào đó, họ đã đi ngược dòng trong Vận Mệnh \"Tuyệt Diệt\".",
+		"VersionAdded": "4.2"
 	},
 	"20000": {
 		"Id": "20000",
@@ -2356,5 +2374,29 @@
 		"Name": "Đang chuyển sang góc nhìn của Ashveil...",
 		"Description": "Lần theo dấu vết của tội phạm, Ashveil đứng bên cầu, thoáng hồi tưởng về quá khứ...",
 		"VersionAdded": "4.1"
+	},
+	"20102": {
+		"Id": "20102",
+		"Name": "Đang chuyển sang góc nhìn của \"Evanescia\"...",
+		"Description": "Hoa nở hai đóa, mỗi đóa một cành, trong lúc {NICKNAME} đang điều tra ở trường học, Evanescia và Yao Guang cũng đã đến Thành Phố Seafeld...",
+		"VersionAdded": "4.2"
+	},
+	"20103": {
+		"Id": "20103",
+		"Name": "Đang chuyển sang góc nhìn của \"Sparxie\"...",
+		"Description": "Phía bên kia, Sparxie đang cười nói rôm rả với những người trong \"Quán Rượu\"...",
+		"VersionAdded": "4.2"
+	},
+	"20104": {
+		"Id": "20104",
+		"Name": "Đang chuyển sang góc nhìn của \"Evanescia\"...",
+		"Description": "Evanescia rút thước đao ra, chuẩn bị thực thi sứ mệnh của mình...",
+		"VersionAdded": "4.2"
+	},
+	"20105": {
+		"Id": "20105",
+		"Name": "Đang chuyển sang góc nhìn của \"Sói Bạc\"...",
+		"Description": "Lúc này, tại Phòng Tranh Của Pearl, Sói Bạc cũng chuẩn bị bắt đầu hành động...",
+		"VersionAdded": "4.2"
 	}
 }

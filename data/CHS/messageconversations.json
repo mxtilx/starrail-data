@@ -67351,6 +67351,388 @@
 		],
 		"VersionAdded": "4.0"
 	},
+	"15031": {
+		"Id": "15031",
+		"ContactId": "9",
+		"ParticpatingContactIds": [
+			"9",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503101",
+				"StartingMessageId": "150310100",
+				"Messages": {
+					"150310100": {
+						"Id": "150310100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "银狼",
+						"NextMessageId": "choice1"
+					},
+					"150310101": {
+						"Id": "150310101",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "谁啊？",
+						"NextMessageId": "150310102"
+					},
+					"150310102": {
+						"Id": "150310102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "听我说",
+						"NextMessageId": "choice4"
+					},
+					"150310103": {
+						"Id": "150310103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "卡芙卡吗？",
+						"NextMessageId": "150310104"
+					},
+					"150310104": {
+						"Id": "150310104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "你就是个笑话",
+						"NextMessageId": "choice7"
+					},
+					"150310105": {
+						"Id": "150310105",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "蠢货",
+						"NextMessageId": "150310106"
+					},
+					"150310106": {
+						"Id": "150310106",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "别来沾边",
+						"NextMessageId": "150310111"
+					},
+					"150310107": {
+						"Id": "150310107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "TD",
+						"NextMessageId": "150310108"
+					},
+					"150310108": {
+						"Id": "150310108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "垃圾短信，别来沾边",
+						"NextMessageId": "150310111"
+					},
+					"150310109": {
+						"Id": "150310109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "哈哈哈哈哈，好好笑哦",
+						"NextMessageId": "150310110"
+					},
+					"150310110": {
+						"Id": "150310110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "满意了吗？蠢货",
+						"NextMessageId": "150310111"
+					},
+					"150310111": {
+						"Id": "150310111",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "消息发送失败",
+						"NextMessageId": "150310112"
+					},
+					"150310112": {
+						"Id": "150310112",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "用户不在通信服务区内，请稍后再试"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "谁？",
+								"NextMessageId": "150310101"
+							}
+						]
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "卡芙卡？",
+								"NextMessageId": "150310103"
+							}
+						]
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "什么东西",
+								"NextMessageId": "150310105"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "退订",
+								"NextMessageId": "150310107"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "好好笑哦",
+								"NextMessageId": "150310109"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15032": {
+		"Id": "15032",
+		"ContactId": "1501",
+		"ParticpatingContactIds": [
+			"1501",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503201",
+				"StartingMessageId": "150320100",
+				"Messages": {
+					"150320100": {
+						"Id": "150320100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "小灰毛",
+						"NextMessageId": "150320101"
+					},
+					"150320101": {
+						"Id": "150320101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "千万要当心",
+						"NextMessageId": "choice2"
+					},
+					"150320102": {
+						"Id": "150320102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你可算来了",
+						"NextMessageId": "150320104"
+					},
+					"150320103": {
+						"Id": "150320103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "差点忘了你",
+						"NextMessageId": "150320104"
+					},
+					"150320104": {
+						"Id": "150320104",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "有好消息吗？",
+						"NextMessageId": "150320105"
+					},
+					"150320105": {
+						"Id": "150320105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "满愿的力量叫「幸福语法」",
+						"NextMessageId": "150320106"
+					},
+					"150320106": {
+						"Id": "150320106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "说着好听，但不过是煽动放大人们内心的渴望、操纵念头",
+						"NextMessageId": "150320107"
+					},
+					"150320107": {
+						"Id": "150320107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "坏消息是：这招在二相乐园最管用",
+						"NextMessageId": "choice13"
+					},
+					"150320108": {
+						"Id": "150320108",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你只说了坏消息，那好消息呢？",
+						"NextMessageId": "150320111"
+					},
+					"150320109": {
+						"Id": "150320109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "她的能力已经开始到处传播了",
+						"NextMessageId": "150320110"
+					},
+					"150320110": {
+						"Id": "150320110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你只说了坏消息，那好消息呢？",
+						"NextMessageId": "150320111"
+					},
+					"150320111": {
+						"Id": "150320111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "火花花刚成功杀出酒馆，复播在即！",
+						"NextMessageId": "150320112"
+					},
+					"150320112": {
+						"Id": "150320112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1501",
+						"Text": "自求多福吧，回见"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "你可算来了",
+								"NextMessageId": "150320102"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "差点忘了你",
+								"NextMessageId": "150320103"
+							}
+						]
+					},
+					"choice13": {
+						"Id": "choice13",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "有好消息吗？",
+								"NextMessageId": "150320108"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "晚了",
+								"NextMessageId": "150320109"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15033": {
+		"Id": "15033",
+		"ContactId": "9",
+		"ParticpatingContactIds": [
+			"9",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1503301",
+				"StartingMessageId": "150330100",
+				"Messages": {
+					"150330100": {
+						"Id": "150330100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "愿力的海潮平息了",
+						"NextMessageId": "150330101"
+					},
+					"150330101": {
+						"Id": "150330101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "我没有看错，你又完成了承诺",
+						"NextMessageId": "150330102"
+					},
+					"150330102": {
+						"Id": "150330102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "现在，轮到我向你求助了",
+						"NextMessageId": "150330103"
+					},
+					"150330103": {
+						"Id": "150330103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "9",
+						"Text": "我们在绘世学院校的上学路上见面吧？",
+						"NextMessageId": "choice4"
+					},
+					"150330104": {
+						"Id": "150330104",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "等我。"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "好，等我。",
+								"NextMessageId": "150330104"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"15034": {
 		"Id": "15034",
 		"ContactId": "213",
@@ -67886,6 +68268,154 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"15038": {
+		"Id": "15038",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1503801",
+				"StartingMessageId": "150380100",
+				"Messages": {
+					"150380100": {
+						"Id": "150380100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "这里是轮值酒保钟珊珊",
+						"NextMessageId": "150380101"
+					},
+					"150380101": {
+						"Id": "150380101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "{NICKNAME}，「星轨之兔」的特别周边又到了",
+						"NextMessageId": "150380102"
+					},
+					"150380102": {
+						"Id": "150380102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "这次和上次来的是同一个人",
+						"NextMessageId": "150380103"
+					},
+					"150380103": {
+						"Id": "150380103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "我特意和她攀谈了几句",
+						"NextMessageId": "150380104"
+					},
+					"150380104": {
+						"Id": "150380104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "但她什么都不愿多说",
+						"NextMessageId": "150380105"
+					},
+					"150380105": {
+						"Id": "150380105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "总之，有空的时候来收一下吧"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15039": {
+		"Id": "15039",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1503901",
+				"StartingMessageId": "150390100",
+				"Messages": {
+					"150390100": {
+						"Id": "150390100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "恭喜您，您在海原市已经收集了由「星轨之兔」项目布置的所有无名尘灵！您现在可以用最轻松的方式通关「星轨之兔」在这个地区配置的关卡。祝您游戏愉快！（本条为系统自动推送广告，请勿回复~）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15040": {
+		"Id": "15040",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504001",
+				"StartingMessageId": "150400100",
+				"Messages": {
+					"150400100": {
+						"Id": "150400100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "恭喜您，您在海原电视塔已经收集了由「星轨之兔」项目布置的所有无名尘灵！您现在可以用最轻松的方式通关「星轨之兔」在这个地区配置的关卡。祝您游戏愉快！（本条为系统自动推送广告，请勿回复~）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"15041": {
+		"Id": "15041",
+		"ContactId": "221",
+		"ParticpatingContactIds": [
+			"221"
+		],
+		"Sections": [
+			{
+				"Id": "1504101",
+				"StartingMessageId": "150410100",
+				"Messages": {
+					"150410100": {
+						"Id": "150410100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "（给「二次元JUMP」粉丝的群发消息）",
+						"NextMessageId": "150410101"
+					},
+					"150410101": {
+						"Id": "150410101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "训练场里有新的项目可供体验了。",
+						"NextMessageId": "150410102"
+					},
+					"150410102": {
+						"Id": "150410102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "221",
+						"Text": "想练习画中穿行，就来@娱乐广场找我吧。"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"20001": {
 		"Id": "20001",
@@ -130973,7 +131503,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "215",
-						"Text": "我们分享冠名权，全称就叫《火花花和小灰毛和他们的朋友》",
+						"Text": "我们分享冠名权，全称就叫《火花花和小灰毛和{F#她}{M#他}们的朋友》",
 						"NextMessageId": "202230015"
 					},
 					"202230015": {
@@ -133136,7 +133666,7 @@
 						"MessageType": "Text",
 						"SenderType": "NPC",
 						"SenderContactId": "1504",
-						"Text": "乖，別咬我的钱包，没钱。小狗不许乱吃东西。汪汪汪汪！",
+						"Text": "乖，别咬我的钱包，没钱。小狗不许乱吃东西。汪汪汪汪！",
 						"NextMessageId": "202300023"
 					},
 					"202300023": {
@@ -133286,6 +133816,2145 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"20231": {
+		"Id": "20231",
+		"ContactId": "1505",
+		"ParticpatingContactIds": [
+			"8001",
+			"1505"
+		],
+		"Sections": [
+			{
+				"Id": "2023100",
+				"StartingMessageId": "202310000",
+				"Messages": {
+					"202310000": {
+						"Id": "202310000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您有一条历史消息，正在接收",
+						"NextMessageId": "202310001"
+					},
+					"202310001": {
+						"Id": "202310001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "等更新太慢啦，我要给二维马兜售些番外的点子",
+						"NextMessageId": "202310002"
+					},
+					"202310002": {
+						"Id": "202310002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "在你这记一下（毕竟你是主角嘛！",
+						"NextMessageId": "202310003"
+					},
+					"202310003": {
+						"Id": "202310003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "「主角」在幻月游戏中大获全胜，向阿哈许愿——",
+						"NextMessageId": "202310004"
+					},
+					"202310004": {
+						"Id": "202310004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "重返到十七岁的校园（备注：年龄设定待定，小浣熊好像还挺年轻",
+						"NextMessageId": "202310005"
+					},
+					"202310005": {
+						"Id": "202310005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "「校园」却不是普普通通的校园，那里到处都是规则怪谈",
+						"NextMessageId": "202310006"
+					},
+					"202310006": {
+						"Id": "202310006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "裁判「绯英」是主角来到校园后，遇到的第一个难关（也是攻略后的第一个帮手！",
+						"NextMessageId": "choice7"
+					},
+					"202310007": {
+						"Id": "202310007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "绯英！你还在呀！你在哪里呢",
+						"NextMessageId": "202310010"
+					},
+					"202310008": {
+						"Id": "202310008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "绯英！你现在在哪里呢？",
+						"NextMessageId": "202310010"
+					},
+					"202310009": {
+						"Id": "202310009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "我今年才三岁，距离十七岁还有十四年",
+						"NextMessageId": "202310010"
+					},
+					"202310010": {
+						"Id": "202310010",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "消息发送失败",
+						"NextMessageId": "202310011"
+					},
+					"202310011": {
+						"Id": "202310011",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "用户不在通信服务区内，请稍后再试",
+						"NextMessageId": "202310012"
+					},
+					"202310012": {
+						"Id": "202310012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "裁判绯英先介绍「校园生存法则」，第一条：听完规则介绍后请自觉遵守",
+						"NextMessageId": "202310013"
+					},
+					"202310013": {
+						"Id": "202310013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第二条：校园里的所有硬件设施都是小动物，请爱惜小动物",
+						"NextMessageId": "202310014"
+					},
+					"202310014": {
+						"Id": "202310014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第三条：惹毛小动物，因为惹毛它们，它们就会变得毛茸茸的（睡着很舒服",
+						"NextMessageId": "202310015"
+					},
+					"202310015": {
+						"Id": "202310015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第四条：裁判醒着的时候公正无私，你钻不到半点空子",
+						"NextMessageId": "202310016"
+					},
+					"202310016": {
+						"Id": "202310016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第五条：裁判睡着的时候…就会变成一台只会喊「再更新一篇吧」的复读机",
+						"NextMessageId": "202310017"
+					},
+					"202310017": {
+						"Id": "202310017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "第六条：（没想好）",
+						"NextMessageId": "202310018"
+					},
+					"202310018": {
+						"Id": "202310018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1505",
+						"Text": "来活了，真裁判要上岗了，先帮我记着这几点吧！",
+						"NextMessageId": "choice38"
+					},
+					"202310019": {
+						"Id": "202310019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "放心，我会帮你催更的！",
+						"NextMessageId": "202310020"
+					},
+					"202310020": {
+						"Id": "202310020",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "保证你醒来量大管饱",
+						"NextMessageId": "202310023"
+					},
+					"202310021": {
+						"Id": "202310021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "放心，我会帮你兜售点子的",
+						"NextMessageId": "202310022"
+					},
+					"202310022": {
+						"Id": "202310022",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "保证你醒来后，「校园怪谈篇」已堂堂完结！",
+						"NextMessageId": "202310023"
+					},
+					"202310023": {
+						"Id": "202310023",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "消息发送失败",
+						"NextMessageId": "202310024"
+					},
+					"202310024": {
+						"Id": "202310024",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "用户不在通信服务区内，请稍后再试"
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "你还在！",
+								"NextMessageId": "202310007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "你在哪里呢！",
+								"NextMessageId": "202310008"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "我今年才三岁",
+								"NextMessageId": "202310009"
+							}
+						]
+					},
+					"choice38": {
+						"Id": "choice38",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "我会帮你催更的！",
+								"NextMessageId": "202310019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "我会帮你兜售点子的",
+								"NextMessageId": "202310021"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20232": {
+		"Id": "20232",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023200",
+				"StartingMessageId": "202320000",
+				"Messages": {
+					"202320000": {
+						"Id": "202320000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "上次你说想看的",
+						"NextMessageId": "202320001"
+					},
+					"202320001": {
+						"Id": "202320001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "那个票",
+						"NextMessageId": "202320002"
+					},
+					"202320002": {
+						"Id": "202320002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "帮你抢到了",
+						"NextMessageId": "202320003"
+					},
+					"202320003": {
+						"Id": "202320003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "顺便看了下",
+						"NextMessageId": "202320004"
+					},
+					"202320004": {
+						"Id": "202320004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "你全平台的抢票预约还挺多",
+						"NextMessageId": "202320005"
+					},
+					"202320005": {
+						"Id": "202320005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "很有生活嘛",
+						"NextMessageId": "choice6"
+					},
+					"202320006": {
+						"Id": "202320006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "多谢狼尊！其实……",
+						"NextMessageId": "202320009"
+					},
+					"202320007": {
+						"Id": "202320007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "多谢狼尊！狼尊抢的哪一场？其实……",
+						"NextMessageId": "202320009"
+					},
+					"202320008": {
+						"Id": "202320008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "帮我付款了吗？狼尊太大方了！其实……",
+						"NextMessageId": "202320009"
+					},
+					"202320009": {
+						"Id": "202320009",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "我还有好多想看的……",
+						"NextMessageId": "202320010"
+					},
+					"202320010": {
+						"Id": "202320010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "我就知道",
+						"NextMessageId": "202320011"
+					},
+					"202320011": {
+						"Id": "202320011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "等着",
+						"NextMessageId": "202320012"
+					},
+					"202320012": {
+						"Id": "202320012",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "对方正在输入中",
+						"NextMessageId": "202320013"
+					},
+					"202320013": {
+						"Id": "202320013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "行了",
+						"NextMessageId": "202320014"
+					},
+					"202320014": {
+						"Id": "202320014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "剧场、漫展、演唱会、游戏展",
+						"NextMessageId": "202320015"
+					},
+					"202320015": {
+						"Id": "202320015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "你想看的",
+						"NextMessageId": "202320016"
+					},
+					"202320016": {
+						"Id": "202320016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "预约过的",
+						"NextMessageId": "202320017"
+					},
+					"202320017": {
+						"Id": "202320017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "点击的",
+						"NextMessageId": "202320018"
+					},
+					"202320018": {
+						"Id": "202320018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "浏览的",
+						"NextMessageId": "202320019"
+					},
+					"202320019": {
+						"Id": "202320019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "开票的",
+						"NextMessageId": "202320020"
+					},
+					"202320020": {
+						"Id": "202320020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "没开票的",
+						"NextMessageId": "202320021"
+					},
+					"202320021": {
+						"Id": "202320021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "都抢到了",
+						"NextMessageId": "choice49"
+					},
+					"202320022": {
+						"Id": "202320022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "手速太强了，怎么练的",
+						"NextMessageId": "202320023"
+					},
+					"202320023": {
+						"Id": "202320023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "小意思",
+						"NextMessageId": "202320029"
+					},
+					"202320024": {
+						"Id": "202320024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "这就是狼尊的手速吗？",
+						"NextMessageId": "202320025"
+					},
+					"202320025": {
+						"Id": "202320025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "小意思",
+						"NextMessageId": "202320029"
+					},
+					"202320026": {
+						"Id": "202320026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "来都来了，能帮我在超市抢个鸡蛋吗？",
+						"NextMessageId": "202320027"
+					},
+					"202320027": {
+						"Id": "202320027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "那个最难抢",
+						"NextMessageId": "202320028"
+					},
+					"202320028": {
+						"Id": "202320028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "其他的小意思",
+						"NextMessageId": "202320029"
+					},
+					"202320029": {
+						"Id": "202320029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "下次喊我就是",
+						"NextMessageId": "202320030"
+					},
+					"202320030": {
+						"Id": "202320030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "好了",
+						"NextMessageId": "202320031"
+					},
+					"202320031": {
+						"Id": "202320031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "快去付款吧",
+						"NextMessageId": "202320032"
+					},
+					"202320032": {
+						"Id": "202320032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "15分钟内有效",
+						"NextMessageId": "202320033"
+					},
+					"202320033": {
+						"Id": "202320033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "一共56个订单",
+						"NextMessageId": "202320034"
+					},
+					"202320034": {
+						"Id": "202320034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "检查下",
+						"NextMessageId": "202320035"
+					},
+					"202320035": {
+						"Id": "202320035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "别漏了",
+						"NextMessageId": "choice77"
+					},
+					"202320036": {
+						"Id": "202320036",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "？？？",
+						"NextMessageId": "202320037"
+					},
+					"202320037": {
+						"Id": "202320037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "我缺的是手速吗？",
+						"NextMessageId": "202320042"
+					},
+					"202320038": {
+						"Id": "202320038",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "没帮我付钱啊！",
+						"NextMessageId": "202320039"
+					},
+					"202320039": {
+						"Id": "202320039",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "我缺的是手速吗？",
+						"NextMessageId": "202320042"
+					},
+					"202320040": {
+						"Id": "202320040",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "我缺的是票吗？",
+						"NextMessageId": "202320041"
+					},
+					"202320041": {
+						"Id": "202320041",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "我缺的是手速吗？？",
+						"NextMessageId": "202320042"
+					},
+					"202320042": {
+						"Id": "202320042",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127004.png",
+						"Text": "[嘴炮]",
+						"NextMessageId": "202320043"
+					},
+					"202320043": {
+						"Id": "202320043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 银狼 已下线"
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "谢了！",
+								"NextMessageId": "202320006"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "哪一场？",
+								"NextMessageId": "202320007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "付款了吗？",
+								"NextMessageId": "202320008"
+							}
+						]
+					},
+					"choice49": {
+						"Id": "choice49",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "太强了",
+								"NextMessageId": "202320022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "这就是狼尊手速吗？",
+								"NextMessageId": "202320024"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "帮我抢鸡蛋吧",
+								"NextMessageId": "202320026"
+							}
+						]
+					},
+					"choice77": {
+						"Id": "choice77",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "？？？",
+								"NextMessageId": "202320036"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "你没付钱啊！",
+								"NextMessageId": "202320038"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "我缺的是票吗？",
+								"NextMessageId": "202320040"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20233": {
+		"Id": "20233",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001",
+			"220"
+		],
+		"Sections": [
+			{
+				"Id": "2023300",
+				"StartingMessageId": "202330000",
+				"Messages": {
+					"202330000": {
+						"Id": "202330000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "脑了个「剧本」生成小程序",
+						"NextMessageId": "202330001"
+					},
+					"202330001": {
+						"Id": "202330001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "玩玩？",
+						"NextMessageId": "choice2"
+					},
+					"202330002": {
+						"Id": "202330002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "来，怎么玩？",
+						"NextMessageId": "202330003"
+					},
+					"202330003": {
+						"Id": "202330003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "人生模拟器之「剧本就该自己写」（屏蔽艾利欧版）已植入聊天",
+						"NextMessageId": "202330004"
+					},
+					"202330004": {
+						"Id": "202330004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "请选择人生重开模式：",
+						"NextMessageId": "choice6"
+					},
+					"202330005": {
+						"Id": "202330005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "经典模式",
+						"NextMessageId": "202330006"
+					},
+					"202330006": {
+						"Id": "202330006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "【经典开局】背景-10，智力-10，体能-10，力量-10，生命力-10",
+						"NextMessageId": "202330007"
+					},
+					"202330007": {
+						"Id": "202330007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME}的人生剧本：《我重生了：妈妈，人是野生的》",
+						"NextMessageId": "202330008"
+					},
+					"202330008": {
+						"Id": "202330008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "接下来，请迈出你人生的第一步",
+						"NextMessageId": "choice15"
+					},
+					"202330009": {
+						"Id": "202330009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "我要第一个登上星穹列车！当列车长！",
+						"NextMessageId": "202330010"
+					},
+					"202330010": {
+						"Id": "202330010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "幼年时，{NICKNAME}登上了星穹列车，赖在上面不肯下来",
+						"NextMessageId": "202330011"
+					},
+					"202330011": {
+						"Id": "202330011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "少年时，寰宇危机，{NICKNAME}驾驶列车完美闪避，侥幸存活",
+						"NextMessageId": "202330012"
+					},
+					"202330012": {
+						"Id": "202330012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "青年时，遭星神做局，{NICKNAME}无法反抗",
+						"NextMessageId": "202330013"
+					},
+					"202330013": {
+						"Id": "202330013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "壮年时，能力觉醒，立誓要拯救世界",
+						"NextMessageId": "202330014"
+					},
+					"202330014": {
+						"Id": "202330014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "纳努克，卒",
+						"NextMessageId": "202330015"
+					},
+					"202330015": {
+						"Id": "202330015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "纯纯爽文？",
+						"NextMessageId": "202330046"
+					},
+					"202330016": {
+						"Id": "202330016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "『没有勇气踏出第一步』",
+						"NextMessageId": "202330017"
+					},
+					"202330017": {
+						"Id": "202330017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "卒",
+						"NextMessageId": "202330018"
+					},
+					"202330018": {
+						"Id": "202330018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "？",
+						"NextMessageId": "202330019"
+					},
+					"202330019": {
+						"Id": "202330019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "这不对吧？",
+						"NextMessageId": "202330020"
+					},
+					"202330020": {
+						"Id": "202330020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "等等，忘记植入卡芙卡的经典台词了",
+						"NextMessageId": "202330021"
+					},
+					"202330021": {
+						"Id": "202330021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "『当你有机会做出选择时，不要让自己后悔。』",
+						"NextMessageId": "202330022"
+					},
+					"202330022": {
+						"Id": "202330022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "好吧，为你播放人生走马灯——",
+						"NextMessageId": "202330023"
+					},
+					"202330023": {
+						"Id": "202330023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "幼年时，寰宇安宁，{NICKNAME}在裴伽纳度过了温暖的时光",
+						"NextMessageId": "202330024"
+					},
+					"202330024": {
+						"Id": "202330024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "少年时，寰宇危机，{NICKNAME}凭借背景侥幸存活",
+						"NextMessageId": "202330025"
+					},
+					"202330025": {
+						"Id": "202330025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "青年时，遭星神做局，{NICKNAME}无法反抗",
+						"NextMessageId": "202330026"
+					},
+					"202330026": {
+						"Id": "202330026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "卒",
+						"NextMessageId": "202330046"
+					},
+					"202330027": {
+						"Id": "202330027",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "惊喜模式",
+						"NextMessageId": "202330028"
+					},
+					"202330028": {
+						"Id": "202330028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "【惊喜开局】10连抽自由分配属性——背景-0，智力-0，体能-0，力量-0，生命力-50",
+						"NextMessageId": "202330029"
+					},
+					"202330029": {
+						"Id": "202330029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME}的人生剧本：《我重生了：嘢，是妈生的狂人》",
+						"NextMessageId": "202330030"
+					},
+					"202330030": {
+						"Id": "202330030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "接下来，请迈出你人生的第一步：",
+						"NextMessageId": "choice16"
+					},
+					"202330031": {
+						"Id": "202330031",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "谢邀，刚出生，我要迎战纳努克",
+						"NextMessageId": "202330032"
+					},
+					"202330032": {
+						"Id": "202330032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "上一世，{F#她}{M#他}资质平平，手无寸铁",
+						"NextMessageId": "202330033"
+					},
+					"202330033": {
+						"Id": "202330033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "这一世，{F#她}{M#他}天赐神力，火力全开",
+						"NextMessageId": "202330034"
+					},
+					"202330034": {
+						"Id": "202330034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "背景-无限，智力-无限，体能-无限，力量-无限，生命力-无限",
+						"NextMessageId": "202330035"
+					},
+					"202330035": {
+						"Id": "202330035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "{NICKNAME}仅用一击，纳努克卒",
+						"NextMessageId": "202330036"
+					},
+					"202330036": {
+						"Id": "202330036",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "纯纯重生爽文？不带一点挫折的吗！",
+						"NextMessageId": "202330046"
+					},
+					"202330037": {
+						"Id": "202330037",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "『没有勇气踏出第一步』",
+						"NextMessageId": "202330038"
+					},
+					"202330038": {
+						"Id": "202330038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "卒",
+						"NextMessageId": "202330039"
+					},
+					"202330039": {
+						"Id": "202330039",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "这不对吧？我不是躺平了吗？",
+						"NextMessageId": "202330040"
+					},
+					"202330040": {
+						"Id": "202330040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "等等，忘记植入卡芙卡的经典台词了",
+						"NextMessageId": "202330041"
+					},
+					"202330041": {
+						"Id": "202330041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "『当你有机会做出选择时，不要让自己后悔。』",
+						"NextMessageId": "202330042"
+					},
+					"202330042": {
+						"Id": "202330042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "好吧，为你播放人生走马灯——",
+						"NextMessageId": "202330043"
+					},
+					"202330043": {
+						"Id": "202330043",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "妈生的狂人，用一根球棒挑战纳努克",
+						"NextMessageId": "202330044"
+					},
+					"202330044": {
+						"Id": "202330044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "220",
+						"Text": "纳努克，卒",
+						"NextMessageId": "202330045"
+					},
+					"202330045": {
+						"Id": "202330045",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "原来是祂卒了",
+						"NextMessageId": "202330046"
+					},
+					"202330046": {
+						"Id": "202330046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "怎么样？好玩吗",
+						"NextMessageId": "choice47"
+					},
+					"202330047": {
+						"Id": "202330047",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "我要重开！",
+						"NextMessageId": "202330048"
+					},
+					"202330048": {
+						"Id": "202330048",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "不急，测试版",
+						"NextMessageId": "202330053"
+					},
+					"202330049": {
+						"Id": "202330049",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你的「剧本」又是什么？",
+						"NextMessageId": "202330050"
+					},
+					"202330050": {
+						"Id": "202330050",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "你说哪个",
+						"NextMessageId": "202330051"
+					},
+					"202330051": {
+						"Id": "202330051",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "哪个都是赢",
+						"NextMessageId": "202330052"
+					},
+					"202330052": {
+						"Id": "202330052",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "不要羡慕",
+						"NextMessageId": "202330053"
+					},
+					"202330053": {
+						"Id": "202330053",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "下次给你权限",
+						"NextMessageId": "202330054"
+					},
+					"202330054": {
+						"Id": "202330054",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "你的剧本",
+						"NextMessageId": "202330055"
+					},
+					"202330055": {
+						"Id": "202330055",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "想怎么写就怎么写",
+						"NextMessageId": "202330056"
+					},
+					"202330056": {
+						"Id": "202330056",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "改Bug去了，拜"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "来",
+								"NextMessageId": "202330002"
+							}
+						]
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "经典模式",
+								"NextMessageId": "202330005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "惊喜模式",
+								"NextMessageId": "202330027"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "第一个登上星穹列车",
+								"NextMessageId": "202330009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "没有勇气踏出第一步",
+								"NextMessageId": "202330016"
+							}
+						]
+					},
+					"choice16": {
+						"Id": "choice16",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "挑战纳努克",
+								"NextMessageId": "202330031"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "没有勇气踏出第一步",
+								"NextMessageId": "202330037"
+							}
+						]
+					},
+					"choice47": {
+						"Id": "choice47",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "我要重开！",
+								"NextMessageId": "202330047"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "你的剧本是什么？",
+								"NextMessageId": "202330049"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"20234": {
+		"Id": "20234",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023400",
+				"StartingMessageId": "202340000",
+				"Messages": {
+					"202340000": {
+						"Id": "202340000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "游戏输了",
+						"NextMessageId": "202340001"
+					},
+					"202340001": {
+						"Id": "202340001",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127001.png",
+						"Text": "[想赢]",
+						"NextMessageId": "202340002"
+					},
+					"202340002": {
+						"Id": "202340002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "来聊个一分钟的",
+						"NextMessageId": "202340003"
+					},
+					"202340003": {
+						"Id": "202340003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "真心话惩罚",
+						"NextMessageId": "202340004"
+					},
+					"202340004": {
+						"Id": "202340004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "问我三个问题",
+						"NextMessageId": "202340005"
+					},
+					"202340005": {
+						"Id": "202340005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "我答是与不是",
+						"NextMessageId": "202340006"
+					},
+					"202340006": {
+						"Id": "202340006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "来",
+						"NextMessageId": "choice7"
+					},
+					"202340007": {
+						"Id": "202340007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，狼尊和阿哈打过一局",
+						"NextMessageId": "202340008"
+					},
+					"202340008": {
+						"Id": "202340008",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "这是真的吗？",
+						"NextMessageId": "202340009"
+					},
+					"202340009": {
+						"Id": "202340009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是（？",
+						"NextMessageId": "choice17"
+					},
+					"202340010": {
+						"Id": "202340010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，星核猎手收留了一个荒废星球上的所有流浪猫",
+						"NextMessageId": "202340011"
+					},
+					"202340011": {
+						"Id": "202340011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "这是真的吗？",
+						"NextMessageId": "202340012"
+					},
+					"202340012": {
+						"Id": "202340012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是",
+						"NextMessageId": "202340013"
+					},
+					"202340013": {
+						"Id": "202340013",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你们全都是猫猫派？",
+						"NextMessageId": "202340014"
+					},
+					"202340014": {
+						"Id": "202340014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是，是，是，是，是",
+						"NextMessageId": "choice47"
+					},
+					"202340015": {
+						"Id": "202340015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "敢情是艾利欧全肯定啊你们！",
+						"NextMessageId": "202340016"
+					},
+					"202340016": {
+						"Id": "202340016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340085"
+					},
+					"202340017": {
+						"Id": "202340017",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，星穹列车是星核猎手的债主",
+						"NextMessageId": "202340018"
+					},
+					"202340018": {
+						"Id": "202340018",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "欠我们钱这事，是真的吗？",
+						"NextMessageId": "202340019"
+					},
+					"202340019": {
+						"Id": "202340019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340020"
+					},
+					"202340020": {
+						"Id": "202340020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "但可以送你一个",
+						"NextMessageId": "202340021"
+					},
+					"202340021": {
+						"Id": "202340021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "这个问题我没法回答，只能说你说是就是",
+						"NextMessageId": "202340085"
+					},
+					"202340022": {
+						"Id": "202340022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，星穹列车是星核猎手的债主",
+						"NextMessageId": "202340023"
+					},
+					"202340023": {
+						"Id": "202340023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "欠我们钱这事，是真的吗？",
+						"NextMessageId": "202340024"
+					},
+					"202340024": {
+						"Id": "202340024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "这个问题我没法回答，只能说你说是就是",
+						"NextMessageId": "choice35"
+					},
+					"202340025": {
+						"Id": "202340025",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "钓鱼成功…那我们是不是说过，会定期向你们讨债？",
+						"NextMessageId": "202340026"
+					},
+					"202340026": {
+						"Id": "202340026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "不是！",
+						"NextMessageId": "202340027"
+					},
+					"202340027": {
+						"Id": "202340027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题了",
+						"NextMessageId": "202340085"
+					},
+					"202340028": {
+						"Id": "202340028",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，星核猎手收留了一个荒废星球上的所有流浪猫，是真的吗？",
+						"NextMessageId": "202340029"
+					},
+					"202340029": {
+						"Id": "202340029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是",
+						"NextMessageId": "202340030"
+					},
+					"202340030": {
+						"Id": "202340030",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "因为你们都是猫猫派？",
+						"NextMessageId": "202340031"
+					},
+					"202340031": {
+						"Id": "202340031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340032"
+					},
+					"202340032": {
+						"Id": "202340032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "但可以送你一个",
+						"NextMessageId": "202340033"
+					},
+					"202340033": {
+						"Id": "202340033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是，是，是，是，是",
+						"NextMessageId": "202340034"
+					},
+					"202340034": {
+						"Id": "202340034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "敢情你们是艾利欧全肯定啊！",
+						"NextMessageId": "202340085"
+					},
+					"202340035": {
+						"Id": "202340035",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，星核猎手收留了一个荒废星球上的所有流浪猫",
+						"NextMessageId": "202340036"
+					},
+					"202340036": {
+						"Id": "202340036",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "这是真的吗？",
+						"NextMessageId": "202340037"
+					},
+					"202340037": {
+						"Id": "202340037",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是",
+						"NextMessageId": "202340038"
+					},
+					"202340038": {
+						"Id": "202340038",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你们全都是猫猫派？",
+						"NextMessageId": "202340039"
+					},
+					"202340039": {
+						"Id": "202340039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是，是，是，是，是",
+						"NextMessageId": "202340040"
+					},
+					"202340040": {
+						"Id": "202340040",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "敢情你们是艾利欧全肯定啊！",
+						"NextMessageId": "choice31"
+					},
+					"202340041": {
+						"Id": "202340041",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，狼尊和阿哈打过一局，是真的吗？",
+						"NextMessageId": "202340042"
+					},
+					"202340042": {
+						"Id": "202340042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是（？",
+						"NextMessageId": "choice50"
+					},
+					"202340043": {
+						"Id": "202340043",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你赢了吗？",
+						"NextMessageId": "202340044"
+					},
+					"202340044": {
+						"Id": "202340044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340085"
+					},
+					"202340045": {
+						"Id": "202340045",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，星穹列车是星核猎手的债主",
+						"NextMessageId": "202340046"
+					},
+					"202340046": {
+						"Id": "202340046",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "欠我们钱这事，是真的吗？",
+						"NextMessageId": "202340047"
+					},
+					"202340047": {
+						"Id": "202340047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340085"
+					},
+					"202340048": {
+						"Id": "202340048",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，星穹列车是星核猎手的债主",
+						"NextMessageId": "202340049"
+					},
+					"202340049": {
+						"Id": "202340049",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "欠我们钱这事，是真的吗？",
+						"NextMessageId": "202340050"
+					},
+					"202340050": {
+						"Id": "202340050",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "这个问题我没法回答，只能说你说是就是",
+						"NextMessageId": "choice61"
+					},
+					"202340051": {
+						"Id": "202340051",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "钓鱼成功…那我们是不是说过，会定期向你们讨债？",
+						"NextMessageId": "202340052"
+					},
+					"202340052": {
+						"Id": "202340052",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340085"
+					},
+					"202340053": {
+						"Id": "202340053",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，狼尊和阿哈打过一局，这是真的吗？",
+						"NextMessageId": "202340054"
+					},
+					"202340054": {
+						"Id": "202340054",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340055"
+					},
+					"202340055": {
+						"Id": "202340055",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "但可以送你一个",
+						"NextMessageId": "202340056"
+					},
+					"202340056": {
+						"Id": "202340056",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是（？",
+						"NextMessageId": "202340085"
+					},
+					"202340057": {
+						"Id": "202340057",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，星穹列车是星核猎手的债主",
+						"NextMessageId": "202340058"
+					},
+					"202340058": {
+						"Id": "202340058",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "欠我们钱这事，是真的吗？",
+						"NextMessageId": "202340059"
+					},
+					"202340059": {
+						"Id": "202340059",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "？",
+						"NextMessageId": "202340060"
+					},
+					"202340060": {
+						"Id": "202340060",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "这个问题我没法回答，只能说你说是就是",
+						"NextMessageId": "choice23"
+					},
+					"202340061": {
+						"Id": "202340061",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "钓鱼成功…那我们是不是说过，会定期向你们讨债？",
+						"NextMessageId": "202340062"
+					},
+					"202340062": {
+						"Id": "202340062",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "不是！",
+						"NextMessageId": "202340063"
+					},
+					"202340063": {
+						"Id": "202340063",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "好吧",
+						"NextMessageId": "choice45"
+					},
+					"202340064": {
+						"Id": "202340064",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，狼尊和阿哈打过一局，这是真的吗？",
+						"NextMessageId": "202340065"
+					},
+					"202340065": {
+						"Id": "202340065",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是（？",
+						"NextMessageId": "202340066"
+					},
+					"202340066": {
+						"Id": "202340066",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你赢了吗？",
+						"NextMessageId": "202340067"
+					},
+					"202340067": {
+						"Id": "202340067",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340085"
+					},
+					"202340068": {
+						"Id": "202340068",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，星核猎手收留了一个荒废星球上的所有流浪猫，是真的吗？",
+						"NextMessageId": "202340069"
+					},
+					"202340069": {
+						"Id": "202340069",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是",
+						"NextMessageId": "202340070"
+					},
+					"202340070": {
+						"Id": "202340070",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "因为你们都是猫猫派？",
+						"NextMessageId": "202340071"
+					},
+					"202340071": {
+						"Id": "202340071",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340072"
+					},
+					"202340072": {
+						"Id": "202340072",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "但可以送你一个",
+						"NextMessageId": "202340073"
+					},
+					"202340073": {
+						"Id": "202340073",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是，是，是，是，是",
+						"NextMessageId": "202340074"
+					},
+					"202340074": {
+						"Id": "202340074",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "敢情你们是艾利欧全肯定啊！",
+						"NextMessageId": "202340085"
+					},
+					"202340075": {
+						"Id": "202340075",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有八卦说，星核猎手收留了一个荒废星球上的所有流浪猫",
+						"NextMessageId": "202340076"
+					},
+					"202340076": {
+						"Id": "202340076",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "这是真的吗？",
+						"NextMessageId": "202340077"
+					},
+					"202340077": {
+						"Id": "202340077",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是",
+						"NextMessageId": "202340078"
+					},
+					"202340078": {
+						"Id": "202340078",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你们全都是猫猫派吗？",
+						"NextMessageId": "202340079"
+					},
+					"202340079": {
+						"Id": "202340079",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是，是，是，是，是",
+						"NextMessageId": "202340080"
+					},
+					"202340080": {
+						"Id": "202340080",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "敢情你们是艾利欧全肯定啊！",
+						"NextMessageId": "choice75"
+					},
+					"202340081": {
+						"Id": "202340081",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "还有八卦说，狼尊和阿哈打过一局，这是真的吗？",
+						"NextMessageId": "202340082"
+					},
+					"202340082": {
+						"Id": "202340082",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "三个问题结束了",
+						"NextMessageId": "202340083"
+					},
+					"202340083": {
+						"Id": "202340083",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "但可以送你一个",
+						"NextMessageId": "202340084"
+					},
+					"202340084": {
+						"Id": "202340084",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "是（？",
+						"NextMessageId": "202340085"
+					},
+					"202340085": {
+						"Id": "202340085",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "好了",
+						"NextMessageId": "202340086"
+					},
+					"202340086": {
+						"Id": "202340086",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "不许问了",
+						"NextMessageId": "202340087"
+					},
+					"202340087": {
+						"Id": "202340087",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "果然还是大冒险更适合我",
+						"NextMessageId": "202340088"
+					},
+					"202340088": {
+						"Id": "202340088",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "现在轮到狼尊反击了",
+						"NextMessageId": "202340089"
+					},
+					"202340089": {
+						"Id": "202340089",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Image": "SpriteOutput/Emoji/127003.png",
+						"Text": "[酷]",
+						"NextMessageId": "202340090"
+					},
+					"202340090": {
+						"Id": "202340090",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "必赢"
+					},
+					"choice7": {
+						"Id": "choice7",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "有八卦说，狼尊……",
+								"NextMessageId": "202340007"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "有八卦说，星核猎手……",
+								"NextMessageId": "202340035"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "有八卦说，星穹列车……",
+								"NextMessageId": "202340057"
+							}
+						]
+					},
+					"choice17": {
+						"Id": "choice17",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "有八卦说，星核猎手……",
+								"NextMessageId": "202340010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "有八卦说，星穹列车……",
+								"NextMessageId": "202340022"
+							}
+						]
+					},
+					"choice23": {
+						"Id": "choice23",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "钓鱼成功……",
+								"NextMessageId": "202340061"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "（换一个问题）",
+								"NextMessageId": "202340075"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说，狼尊……",
+								"NextMessageId": "202340041"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "有八卦说，星穹列车……",
+								"NextMessageId": "202340048"
+							}
+						]
+					},
+					"choice35": {
+						"Id": "choice35",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "钓鱼成功……",
+								"NextMessageId": "202340025"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说，你们……",
+								"NextMessageId": "202340028"
+							}
+						]
+					},
+					"choice45": {
+						"Id": "choice45",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说，狼尊……",
+								"NextMessageId": "202340064"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说，你们……",
+								"NextMessageId": "202340068"
+							}
+						]
+					},
+					"choice47": {
+						"Id": "choice47",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "艾利欧全肯定啊！",
+								"NextMessageId": "202340015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说，星穹列车……",
+								"NextMessageId": "202340017"
+							}
+						]
+					},
+					"choice50": {
+						"Id": "choice50",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "你赢了吗？",
+								"NextMessageId": "202340043"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说……",
+								"NextMessageId": "202340045"
+							}
+						]
+					},
+					"choice61": {
+						"Id": "choice61",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "钓鱼成功……",
+								"NextMessageId": "202340051"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说，狼尊……",
+								"NextMessageId": "202340053"
+							}
+						]
+					},
+					"choice75": {
+						"Id": "choice75",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "还有八卦说……",
+								"NextMessageId": "202340081"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"20998": {
 		"Id": "20998",

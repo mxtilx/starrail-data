@@ -1159,6 +1159,86 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
 		"VersionAdded": "4.1"
 	},
+	"2116": {
+		"Id": "2116",
+		"Name": "{RUBY_B#むてき}無敵{RUBY_E#}プレイヤー",
+		"Description": "限定キャラクターの出現率UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2117": {
+		"Id": "2117",
+		"Name": "銘心の萃・ダリア",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2118": {
+		"Id": "2118",
+		"Name": "銘心の萃・キャストリス",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2119": {
+		"Id": "2119",
+		"Name": "銘心の萃・ホタル",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2120": {
+		"Id": "2120",
+		"Name": "{RUBY_B#はなざか}花盛{RUBY_E#}りの{RUBY_B#さば}裁{RUBY_E#}き{RUBY_B#て}手{RUBY_E#}",
+		"Description": "限定キャラクターの出現率UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2121": {
+		"Id": "2121",
+		"Name": "銘心の萃・トリビー",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2122": {
+		"Id": "2122",
+		"Name": "銘心の萃・サンデー",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2123": {
+		"Id": "2123",
+		"Name": "銘心の萃・飛霄",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
+		"VersionAdded": "4.2"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "光陰を定めし影",
@@ -2308,6 +2388,86 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
 		"VersionAdded": "4.1"
+	},
+	"3116": {
+		"Id": "3116",
+		"Name": "光陰を定めし影",
+		"Description": "限定光円錐の出現率UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3117": {
+		"Id": "3117",
+		"Name": "真心の集・彼女の炎を忘れずに",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3118": {
+		"Id": "3118",
+		"Name": "真心の集・永訣よ美しくあれ",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3119": {
+		"Id": "3119",
+		"Name": "真心の集 ・ 夢が帰り着く場所",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3120": {
+		"Id": "3120",
+		"Name": "光陰を定めし影",
+		"Description": "限定光円錐の出現率UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3121": {
+		"Id": "3121",
+		"Name": "真心の集 ・ もしも時が花だったら",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3122": {
+		"Id": "3122",
+		"Name": "真心の集 ・ 大地より天を目指して",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3123": {
+		"Id": "3123",
+		"Name": "真心の集・我が征く巡狩の道",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
+		"VersionAdded": "4.2"
 	},
 	"4001": {
 		"Id": "4001",

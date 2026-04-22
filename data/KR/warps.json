@@ -1159,6 +1159,86 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
 		"VersionAdded": "4.1"
 	},
+	"2116": {
+		"Id": "2116",
+		"Name": "무적 플레이어",
+		"Description": "지정 캐릭터 출현 확률 UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2117": {
+		"Id": "2117",
+		"Name": "결집된 명심 • 달리아",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2118": {
+		"Id": "2118",
+		"Name": "결집된 명심 • 카스토리스",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2119": {
+		"Id": "2119",
+		"Name": "결집된 명심 • 반디",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2120": {
+		"Id": "2120",
+		"Name": "꽃피운 중재자",
+		"Description": "지정 캐릭터 출현 확률 UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2121": {
+		"Id": "2121",
+		"Name": "결집된 명심 • 트리비",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2122": {
+		"Id": "2122",
+		"Name": "결집된 명심 • 선데이",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2123": {
+		"Id": "2123",
+		"Name": "결집된 명심 • 비소",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "캐릭터 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
+		"VersionAdded": "4.2"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "세월의 응고",
@@ -2308,6 +2388,86 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
 		"VersionAdded": "4.1"
+	},
+	"3116": {
+		"Id": "3116",
+		"Name": "세월의 응고",
+		"Description": "지정 광추 출현 확률 UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3117": {
+		"Id": "3117",
+		"Name": "취합된 진의 • 그녀의 불꽃을 잊지 말라",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3118": {
+		"Id": "3118",
+		"Name": "취합된 진의 • 이별이 더 아름답도록",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3119": {
+		"Id": "3119",
+		"Name": "취합된 진의 • 꿈은 어디로 돌아가야 하는가",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3120": {
+		"Id": "3120",
+		"Name": "세월의 응고",
+		"Description": "지정 광추 출현 확률 UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3121": {
+		"Id": "3121",
+		"Name": "취합된 진의 • 시간이 한 송이 꽃이라면",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3122": {
+		"Id": "3122",
+		"Name": "취합된 진의 • 대지로 돌아온 비행",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3123": {
+		"Id": "3123",
+		"Name": "취합된 진의 • 정복하고 사냥하리",
+		"Description": "탭을 눌러 다른 워프로 변경",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "광추 이벤트 워프",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
+		"VersionAdded": "4.2"
 	},
 	"4001": {
 		"Id": "4001",

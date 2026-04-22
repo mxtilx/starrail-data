@@ -555,8 +555,8 @@
 			"TagTypeText": "Einzelangriff",
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
-			"EffectRaw": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Dan Hengs ANG zu.\nVerringert die GES des Ziels mit einer <u>Grundchance</u> von <unbreak>#4[i]%</unbreak> für <unbreak>#3[i]</unbreak> Rd. um <unbreak>#2[i]%</unbreak>, wenn der durch Fertigkeiten verursachte SCH einen Kritischen Treffer auslöst.",
-			"AbridgedEffect": "Fügt einem Gegner Wind-SCH zu. Nach einem KRIT wird das Ziel mit hoher Wahrscheinlichkeit verlangsamt.",
+			"EffectRaw": "Fügt einem anvisierten Gegner Wind-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Dan Hengs ANG zu.\nReduziert die GES des getroffenen Gegners mit einer <u>Grundchance</u> von <unbreak>#4[i]%</unbreak> für <unbreak>#3[i]</unbreak> Rd. um <unbreak>#2[i]%</unbreak>, wenn der durch Fertigkeiten verursachte SCH einen Kritischen Treffer auslöst.",
+			"AbridgedEffect": "Fügt einem Gegner Wind-SCH zu und verlangsamt ihn mit hoher Chance bei einem Kritischen Treffer.",
 			"ElementType": "Wind",
 			"Levels": {
 				"1": {
@@ -899,7 +899,7 @@
 			"TagTypeText": "Verstärkung",
 			"SkillTypeText": "Technik",
 			"MaxLevel": 1,
-			"EffectRaw": "Erhöht nach dem Einsatz der Technik Dan Hengs ANG im nächsten Kampf um <unbreak>#1[i]%</unbreak> für <unbreak>#2[i]</unbreak> Rd.",
+			"EffectRaw": "Erhöht nach dem Einsatz der Technik Dan Hengs ANG im nächsten Kampf um <unbreak>#1[i]%</unbreak> für <unbreak>#2[i]</unbreak> Rd.",
 			"AbridgedEffect": "Nach dem Einsatz der Technik wird der ANG zu Beginn des nächsten Kampfs erhöht.",
 			"Levels": {
 				"1": {
@@ -1397,7 +1397,7 @@
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
 			"EffectRaw": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Welts ANG zu und verursacht zusätzlich 2-mal SCH. Jedes Mal wird einem zufälligen Gegner imaginärer SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Welts ANG zugefügt. Beim Treffen hat eine <u>Grundchance</u> von <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, die GES des getroffenen Ziels für <unbreak>#4[i]</unbreak> Rd. um <unbreak>#3[i]%</unbreak> zu reduzieren.",
-			"AbridgedEffect": "Fügt einem Gegner geringen imaginären SCH zu. Dieser Angriff kann 3-mal abprallen und hat eine Chance, betroffene Ziele zu <color=#f29e38ff>verlangsamen</color>.",
+			"AbridgedEffect": "Fügt einem Gegner geringen imaginären SCH zu, der 3-mal abprallt. Hat eine Chance, Ziele zu <color=#f29e38ff>verlangsamen</color>.",
 			"ElementType": "Imaginary",
 			"Levels": {
 				"1": {
@@ -1531,7 +1531,7 @@
 			"TagTypeText": "Flächenangriff",
 			"SkillTypeText": "Ultimate",
 			"MaxLevel": 15,
-			"EffectRaw": "Fügt allen Gegnern imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Welts ANG zu und verursacht bei getroffenen Gegnern mit einer <u>Grundchance</u> von <unbreak>#3[i]%</unbreak> den Status Gefangenschaft, der für 1 Rd. hält.\nDie Aktionen der gefangenen Gegner werden um <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> <u>verzögert</u> und ihre GES sinkt um <unbreak>#4[i]%</unbreak>.",
+			"EffectRaw": "Fügt allen Gegnern imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Welts ANG zu und verursacht bei getroffenen Gegnern mit einer <u>Grundchance</u> von <unbreak>#3[i]%</unbreak> den Status Gefangenschaft, der 1 Rd. anhält.\nDie Aktionen der Gegner im Status Gefangenschaft werden um <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> <u>verzögert</u> und ihre GES um <unbreak>#4[i]%</unbreak> reduziert.",
 			"AbridgedEffect": "Fügt allen Gegnern imaginären SCH zu und <color=#f29e38ff>verursacht mit hoher Chance Gefangenschaft</color>.",
 			"ElementType": "Imaginary",
 			"Levels": {
@@ -1666,7 +1666,7 @@
 			"TagTypeText": "Verstärkung",
 			"SkillTypeText": "Talent",
 			"MaxLevel": 15,
-			"EffectRaw": "Fügt dem getroffenen Gegner 1-mal <u>zusätzlichen</u> imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Welts ANG zu, wenn der Gegner verlangsamt wird.",
+			"EffectRaw": "Wenn ein verlangsamter Gegner getroffen wird, wird noch 1-mal <u>zusätzlicher imaginärer SCH</u> in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Welts ANG verursacht.",
 			"AbridgedEffect": "Fügt einem verlangsamten Gegner <color=#f29e38ff>zusätzlich geringen <u>imaginären SCH</u></color> zu.",
 			"Levels": {
 				"1": {
@@ -4525,8 +4525,8 @@
 			"TagTypeText": "Einzelangriff",
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
-			"EffectRaw": "Erhöht Seeles GES für <unbreak>#3[i]</unbreak> Rd. um <unbreak>#2[i]%</unbreak> und fügt einem anvisierten Gegner Quanten-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ihres ANG zu.",
-			"AbridgedEffect": "Fügt einem Gegner Quanten-SCH zu und erhöht die GES.",
+			"EffectRaw": "Erhöht Seeles GES für <unbreak>#3[i]</unbreak> Rd. um <unbreak>#2[i]%</unbreak> und fügt einem anvisierten Gegner Quanten-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Seeles ANG zu.",
+			"AbridgedEffect": "Fügt einem Gegner Quanten-SCH zu und erhöht die eigene GES.",
 			"ElementType": "Quantum",
 			"Levels": {
 				"1": {
@@ -4645,8 +4645,8 @@
 			"TagTypeText": "Einzelangriff",
 			"SkillTypeText": "Ultimate",
 			"MaxLevel": 15,
-			"EffectRaw": "Tritt in den verstärkten Zustand ein und fügt einem anvisierten Gegner Quanten-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Seeles ANG zu.",
-			"AbridgedEffect": "Tritt in den <color=#f29e38ff>verstärkten Zustand</color> ein und fügt einem Gegner massiven Quanten-SCH zu.",
+			"EffectRaw": "Tritt in den Verstärkten Zustand ein und fügt einem anvisierten Gegner Quanten-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Seeles ANG zu.",
+			"AbridgedEffect": "Tritt in den <color=#f29e38ff>Verstärkten Zustand</color> ein und fügt einem Gegner massiven Quanten-SCH zu.",
 			"ElementType": "Quantum",
 			"Levels": {
 				"1": {
@@ -4735,8 +4735,8 @@
 			"TagTypeText": "Verstärkung",
 			"SkillTypeText": "Talent",
 			"MaxLevel": 15,
-			"EffectRaw": "Seele tritt beim Besiegen eines Gegners durch Standardangriff, Fertigkeit oder Ultimate in den verstärkten Zustand ein und erhält unmittelbar eine <u>zusätzliche Runde</u>. Während des verstärkten Zustands wird ihr SCH für <unbreak>#2[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> erhöht.\nGegner, die in der <u>zusätzlichen Runde</u> des Talents „Erneute Erscheinung“ besiegt werden, lösen das Talent nicht aus.",
-			"AbridgedEffect": "Seele tritt beim <color=#f29e38ff>Besiegen eines Gegners</color> durch Standardangriff, Fertigkeit oder Ultimate <color=#f29e38ff>in den verstärkten Zustand ein und erhält unmittelbar eine <u>zusätzliche Runde</u></color>. Während des verstärkten Zustands wird ihr SCH erhöht.",
+			"EffectRaw": "Tritt beim Besiegen eines Gegners durch Standardangriff, Fertigkeit oder Ultimate in den Verstärkten Zustand ein und erhält sofort eine <u>zusätzliche Runde</u>. Während des Verstärkten Zustands wird Seeles durch Angriffe verursachter SCH für <unbreak>#2[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> erhöht.\nGegner, die in der <u>zusätzlichen Runde</u> des Talents „Erneute Erscheinung“ besiegt werden, lösen dieses Talent nicht aus.",
+			"AbridgedEffect": "Tritt <color=#f29e38ff>beim Besiegen eines Gegners</color> durch Standardangriff, Fertigkeit oder Ultimate <color=#f29e38ff>in den Verstärkten Zustand ein und erhält eine <u>zusätzliche Runde</u></color>. Während des Verstärkten Zustands wird der verursachte SCH dieser Einheit erhöht.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -4839,8 +4839,8 @@
 			"TagTypeText": "Verstärkung",
 			"SkillTypeText": "Technik",
 			"MaxLevel": 1,
-			"EffectRaw": "Nach dem Einsatz der Technik erhält Seele für <unbreak>#1[i]</unbreak> s Tarnung. Während Tarnung aktiv ist, ist Seele für Gegner unsichtbar und tritt zu Beginn des Kampfs sofort in den verstärkten Zustand ein, wenn sie einen Gegner aktiv angreift.",
-			"AbridgedEffect": "Tritt in den Zustand <color=#f29e38ff>Tarnung</color> ein. Seele tritt zu Beginn des Kampfs sofort in den <color=#f29e38ff>verstärkten Zustand</color> ein, wenn sie einen Gegner aktiv angreift.",
+			"EffectRaw": "Nach dem Einsatz der Technik erhält Seele für <unbreak>#1[i]</unbreak> Sek. Tarnung. Während Tarnung aktiv ist, ist Seele für Gegner unsichtbar. Wenn sie durch einen aktiven Angriff auf Gegner in den Kampf eintritt, tritt Seele sofort in den Verstärkten Zustand ein.",
+			"AbridgedEffect": "Tritt in den Status <color=#f29e38ff>Tarnung</color> ein. Nachdem diese Einheit durch einen Angriff auf Gegner in den Kampf eingetreten ist, tritt sie sofort in den <color=#f29e38ff>Verstärkten Zustand</color> ein.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -17044,7 +17044,7 @@
 			"TagTypeText": "Wiederherstellung",
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
-			"EffectRaw": "Entfernt <unbreak>#5[i]</unbreak> <u>Debuff(s)</u> von einem Verbündeten und stellt bei ihm sofort LP in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> von Huohuos max. LP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color> wieder her. Stellt gleichzeitig bei angrenzenden Verbündeten LP in Höhe von <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> von Huohuos max. LP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> wieder her.",
+			"EffectRaw": "Entfernt <unbreak>#5[i]</unbreak> <u>Debuff</u> von einem anvisierten Verbündeten und stellt bei ihm sofort LP in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> von Huohuos max. LP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color> wieder her. Stellt gleichzeitig bei angrenzenden Verbündeten LP in Höhe von <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> von Huohuos max. LP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color> wieder her.",
 			"AbridgedEffect": "Entfernt 1 <u>Debuff</u> von einem Verbündeten und <color=#f29e38ff>stellt die LP</color> dieses Verbündeten und angrenzender Verbündeter wieder her.",
 			"Levels": {
 				"1": {
@@ -17193,8 +17193,8 @@
 			"TagTypeText": "Unterstützung",
 			"SkillTypeText": "Ultimate",
 			"MaxLevel": 15,
-			"EffectRaw": "Stellt Energie für alle Verbündeten außer Huohuo in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> ihrer jeweiligen max. Energie wieder her. Erhöht gleichzeitig den ANG für <unbreak>#3[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>.",
-			"AbridgedEffect": "<color=#f29e38ff>Energie-Wiederherstellung</color> für alle Verbündeten außer Huohuo und <color=#f29e38ff>ANG-Erhöhung</color>.",
+			"EffectRaw": "Stellt Energie für alle Teammitglieder außer dieser Einheit in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> ihrer jeweiligen max. Energie wieder her. Erhöht gleichzeitig ihren ANG für <unbreak>#3[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>.",
+			"AbridgedEffect": "Stellt bei allen Teammitgliedern außer dieser Einheit <color=#f29e38ff>Energie wieder her</color> und <color=#f29e38ff>erhöht ihren ANG</color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -17312,8 +17312,8 @@
 			"TagTypeText": "Wiederherstellung",
 			"SkillTypeText": "Talent",
 			"MaxLevel": 15,
-			"EffectRaw": "Nach dem Einsatz der Fertigkeit erhält Huohuo für <unbreak>#1[i]</unbreak> Rd. „Gesegnete Heilung“. Diese Dauer verringert sich zu Beginn jeder Runde von Huohuo um 1. Besitzt Huohuo Gesegnete Heilung, wird zu Beginn jeder Runde eines Verbündeten oder beim Einsatz eines Ultimates seine LP um <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> von Huohuos max. LP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color> wiederhergestellt. Gleichzeitig werden alle Verbündeten, deren LP-Prozentsatz zu diesem Zeitpunkt bei <unbreak>#6[i]%</unbreak> oder niedriger liegt, einmal geheilt.\nWird ein Verbündeter durch den Einsatz von Gesegnete Heilung geheilt, werden <unbreak>#2[i]</unbreak> <u>Debuff(s)</u> von ihm entfernt. Dieser Effekt kann <unbreak>#7[i]</unbreak>-mal ausgelöst werden. Bei erneutem Einsatz der Fertigkeit wird die Anzahl der Auslösungen zurückgesetzt.",
-			"AbridgedEffect": "Nach dem Einsatz der Fertigkeit erhält Huohuo „Gesegnete Heilung“. Besitzt Huohuo Gesegnete Heilung, wird zu Beginn jeder Runde eines Verbündeten oder beim Einsatz eines Ultimates <color=#f29e38ff>seine LP wiederhergestellt</color> und gleichzeitig <color=#f29e38ff>alle Verbündeten</color> mit niedrigen LP <color=#f29e38ff>1-mal geheilt</color>.Wird ein Verbündeter durch den Einsatz von Gesegnete Heilung geheilt, <color=#f29e38ff>wird 1 <u>Debuff</u> von ihm entfernt</color>.",
+			"EffectRaw": "Nach dem Einsatz der Fertigkeit erhält Huohuo für <unbreak>#1[i]</unbreak> Rd. „Gesegnete Heilung“. Diese Dauer wird zu Beginn jeder Runde von Huohuo um 1 verringert. Wenn Huohuo Gesegnete Heilung besitzt, wird zu Beginn der Runde eines Verbündeten oder beim Einsatz seines Ultimates dessen LP um <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> von Huohuos max. LP plus <color=#f29e38ff><unbreak>#5[i]</unbreak></color> wiederhergestellt. Gleichzeitig werden alle Verbündeten, deren LP-Prozentsatz zu diesem Zeitpunkt bei <unbreak>#6[i]%</unbreak> oder niedriger liegt, 1-mal geheilt.\nWird ein Verbündeter durch das Auslösen von Gesegnete Heilung geheilt, wird <unbreak>#2[i]</unbreak> <u>Debuff</u> von ihm entfernt. Dieser Effekt kann <unbreak>#7[i]</unbreak>-mal ausgelöst werden. Bei erneutem Einsatz der Fertigkeit wird die Auslösungsanzahl zurückgesetzt.",
+			"AbridgedEffect": "Nach dem Einsatz der Fertigkeit erhält Huohuo „Gesegnete Heilung“. Wenn Huohuo Gesegnete Heilung besitzt, wird zu Beginn der Runde eines Verbündeten oder beim Einsatz seines Ultimates <color=#f29e38ff>dessen LP wiederhergestellt</color> und gleichzeitig <color=#f29e38ff>alle Verbündeten</color> mit niedrigen LP <color=#f29e38ff>1-mal geheilt</color>. Wird ein Verbündeter durch das Auslösen von Gesegnete Heilung geheilt, <color=#f29e38ff>wird 1 <u>Debuff</u> von ihm entfernt</color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
 			"EffectRaw": "Lässt einen Verbündeten außer der Figur selbst zum „Meister“ werden. Seine GES wird um <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> erhöht. Nur das letzte Ziel der Fertigkeit gilt als Meister von 7. März.\nWenn der Meister mit bestimmten Pfaden auf dem Kampffeld ist, werden entsprechende Effekte beim Einsatz von Standardangriffen oder beim Verursachen von SCH durch verstärkte Standardangriffe mit 1 Treffer ausgelöst:\nDie Gelehrsamkeit, Die Zerstörung, Die Jagd, Das Gedenken, Das Hochgefühl: Verursacht basierend auf dem Typ des Meisters <u>zusätzlichen SCH</u> in Höhe von <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> von 7. März’ ANG.\nDie Harmonie, Die Nichtigkeit, Die Bewahrung, Der Überfluss: Erhöht den WDS-Reduzierungswert dieses SCH um <unbreak>#3[i]%</unbreak>.",
-			"AbridgedEffect": "Lässt einen Verbündeten zum „Meister“ werden. Wenn er seinen Standardangriff einsetzt oder SCH durch einen verstärkten Standardangriff verursacht, wird basierend auf dem <color=#f29e38ff>Pfad des Meisters</color> der entsprechende Effekt ausgelöst.\nDie Gelehrsamkeit, Die Zerstörung, Die Jagd, Das Gedenken: Verursacht basierend auf dem Typ des Meisters <color=#f29e38ff><u>zusätzlichen SCH</u></color>.\nDie Harmonie, Die Nichtigkeit, Die Bewahrung, Der Überfluss: Erhöht <color=#f29e38ff>WDS-Reduzierungswert</color>.",
+			"AbridgedEffect": "Lässt einen Verbündeten zum „Meister“ werden. Wenn er seinen Standardangriff einsetzt oder SCH durch einen verstärkten Standardangriff verursacht, wird basierend auf dem <color=#f29e38ff>Pfad des Meisters</color> der entsprechende Effekt ausgelöst.\nDie Gelehrsamkeit, Die Zerstörung, Die Jagd, Das Gedenken, Das Hochgefühl: Verursacht basierend auf dem Typ des Meisters <color=#f29e38ff><u>zusätzlichen SCH</u></color>.\nDie Harmonie, Die Nichtigkeit, Die Bewahrung, Der Überfluss: Erhöht <color=#f29e38ff>WDS-Reduzierungswert</color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -25921,7 +25921,7 @@
 			"SkillTypeText": "Fertigkeit",
 			"MaxLevel": 15,
 			"EffectRaw": "Stellt <unbreak>#3[i]%</unbreak> der eigenen max. LP wieder her. Implantiert einem anvisierten Gegner für <unbreak>#4[i]</unbreak> Rd. eine Feuer-Schwäche und fügt ihm Feuer-SCH in Höhe von <unbreak>#5[f1]</unbreak> × Brucheffekt + <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> von SAMs ANG zu. Fügt gleichzeitig angrenzenden Einheiten Feuer-SCH in Höhe von <unbreak>#6[f1]</unbreak> × Brucheffekt + <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> von SAMs ANG zu. Dabei werden max. <unbreak>#7[i]%</unbreak> des Brucheffekts berechnet.",
-			"AbridgedEffect": "Stellt einen Teil der eigenen LP wieder her. <color=#f29e38ff>Implantiert einem Gegner Feuer-Schwäche</color> und fügt ihm massiven Feuer-SCH zu. Fügt gleichzeitig angrenzenden Einheiten Feuer-SCH zu.",
+			"AbridgedEffect": "Stellt einen Teil der eigenen LP wieder her. <color=#f29e38ff>Implantiert einem Gegner Feuer-Schwäche</color>. Fügt ihm massiven Feuer-SCH und angrenzenden Einheiten Feuer-SCH zu.",
 			"ElementType": "Fire",
 			"Levels": {
 				"1": {
@@ -39812,6 +39812,1278 @@
 		},
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "Schularbeit: Überraschungstest",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "Fügt einem anvisierten Gegner physischen SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Evanescias ANG zu.",
+			"AbridgedEffect": "Fügt einem anvisierten Gegner geringen physischen SCH zu.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "Disziplin: Klares Urteil",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "Ausdehnung",
+			"SkillTypeText": "Fertigkeit",
+			"MaxLevel": 15,
+			"EffectRaw": "Fügt einem anvisierten Gegner physischen SCH in Höhe von <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> von Evanescias ANG und angrenzenden Einheiten physischen SCH in Höhe von <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> von Evanescias ANG zu. Erhält außerdem zusätzlich <unbreak>#4[i]</unbreak> <u>Lachpunkte</u>.",
+			"AbridgedEffect": "Fügt einem Gegner massiven physischen SCH und angrenzenden Einheiten physischen SCH zu. Erhält außerdem zusätzlich <u>Lachpunkte</u>.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "Schwertgesang: Keine Gnade",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Flächenangriff",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Fügt allen Gegnern physischen SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Evanescias ANG zu. Verursacht anschließend 5-mal SCH, wobei jedes Mal einem zufälligen Gegner physischer SCH in Höhe von <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> von Evanescias ANG zugefügt wird.",
+			"AbridgedEffect": "Fügt allen Gegnern physischen SCH zu. Fügt anschließend einem zufälligen Gegner physischen SCH zu, der insgesamt 5-mal abprallt.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "Jugend: Unendliche Pracht",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Verstärkung",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Evanescia erhält Hochgefühl in Höhe von <unbreak>#5[i]%</unbreak> ihres KRIT-SCH. Wenn Evanescia Energie erhält, erhält sie gleichzeitig <u>Verdiente Leistung</u> in gleicher Höhe; wenn Evanescia <u>Verdiente Leistung</u> erhält, erhält sie gleichzeitig Energie in gleicher Höhe. Die jedes Mal durch diese Methode berechnete Menge an <u>Verdiente Leistung</u> kann <unbreak>100</unbreak> Pkt. nicht überschreiten.\nWenn insgesamt <unbreak>#3[i]</unbreak> Energie gesammelt wurde, werden <unbreak>#3[i]</unbreak> Pkt. dieses kumulierten Werts verbraucht und „Fuchslehrer“ führt einen <u>Folgeangriff</u> aus, der allen Gegnern physischen SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Evanescias ANG zufügt und <unbreak>#4[i]</unbreak> Energie für Evanescia wiederherstellt, wobei bei jeder Energie-Wiederherstellung bis zu <unbreak>#3[i]</unbreak> Pkt. des kumulierten Werts erhalten werden. Wenn Evanescia <u>Verdiente Leistung</u> besitzt:\nDer Einsatz der Fertigkeit fügt dem Gegner <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> physischen <u>Hochgefühl-SCH</u> zu.\nDer Einsatz des Ultimates fügt allen Gegnern <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> physischen <u>Hochgefühl-SCH</u> und einem zufälligen Gegner, der durch den Ultimate SCH erleidet, <color=#f29e38ff><unbreak>#8[i]%</unbreak></color> physischen <u>Hochgefühl-SCH</u> zu. Wenn der Ultimate <u>Hochgefühl-SCH</u> verursacht, wird mindestens <u>Verdiente Leistung</u> in Höhe der max. Energie berechnet.\nDer <u>Folgeangriff</u> von Fuchslehrer fügt allen Gegnern <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> physischen <u>Hochgefühl-SCH</u> zu.",
+			"AbridgedEffect": "Wenn Evanescia Energie erhält, <color=#f29e38ff>erhält sie gleichzeitig <u>Verdiente Leistung</u> in gleicher Höhe</color>; wenn Evanescia <u>Verdiente Leistung</u> erhält, <color=#f29e38ff>erhält sie gleichzeitig Energie in gleicher Höhe</color>. Wenn eine bestimmte Menge Energie angesammelt wurde, führt „Fuchslehrer“ einen <u>Folgeangriff</u> aus, der allen Gegnern geringen physischen SCH zufügt und für Evanescia Energie wiederherstellt. Wenn Evanescia <u>Verdiente Leistung</u> besitzt, kann der Einsatz der Fertigkeit und des Ultimates sowie der <u>Folgeangriff</u> von Fuchslehrer den Gegnern geringen physischen <u>Hochgefühl-SCH</u> zufügen.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "Verblühen: Zerstreute Erinnerungen",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Technik",
+			"MaxLevel": 1,
+			"EffectRaw": "Greift sofort alle Gegner in einem bestimmten Bereich an. Fügt nach Kampfeintritt allen Gegnern physischen SCH in Höhe von <unbreak>#1[i]%</unbreak> von Evanescias ANG zu und erhält <unbreak>#2[i]</unbreak> Pkt. <u>Verdiente Leistung</u>.",
+			"AbridgedEffect": "Greift sofort alle Gegner in einem bestimmten Bereich an. Fügt nach Kampfeintritt allen Gegnern geringen physischen SCH zu und erhält <u>Verdiente Leistung</u>.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silberwolf St. <unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "Voll auf die Zwölf!",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "Fügt einem anvisierten Gegner imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG von Silberwolf St. <unbreak>999</unbreak> zu.",
+			"AbridgedEffect": "Fügt einem anvisierten Gegner geringen imaginären SCH zu.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "Bonuslevel: Zeit von αWolf",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "Abpraller",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "Verursacht insgesamt imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG von Silberwolf St. <unbreak>999</unbreak>, der gleichmäßig in <unbreak>#3[i]</unbreak> Abpraller aufgeteilt wird, die zufällige Gegner treffen. Nach einer bestimmten Anzahl an Abprallern pausiert das Abprallen und es wird 1-mal <u>Top-Lootbox</u> ausgelöst, bis zu <unbreak>#5[i]</unbreak>-mal.\nWenn allen Gegnern auf dem Kampffeld tödlicher SCH zugefügt wurde, endet diese Fähigkeit. Sobald ein angreifbarer Gegner vorhanden ist, wird 1 <u>zusätzliche Runde</u> gewährt, und die Fähigkeit basierend auf der verbleibenden Anzahl an Abprallern sowie der Auslösungsanzahl der <u>Top-Lootbox</u> erneut ausgeführt. Wird dieser Effekt zum ersten Mal in einer Runde ausgelöst, werden alle <u>Buffs</u> dieser Einheit um 1 Rd. verlängert.\nNachdem der gesamte oben genannte SCH berechnet wurde, wird ein letzter Schlag ausgeführt, der imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> des ANG von Silberwolf St. <unbreak>999</unbreak> verursacht und gleichmäßig auf alle Gegner aufgeteilt wird.\nDer verstärkte Standardangriff stellt keine Fertigkeitspunkte wieder her. Für jeweils <unbreak>#6[i]</unbreak> Pkt. „Verstecktes MMR“ wird der während des verstärkten Standardangriffs verursachte SCH um <unbreak>#8[i]%</unbreak> des ursprünglichen SCH erhöht. Dieser Effekt ist bis zu <unbreak>#7[i]</unbreak>-fach stapelbar.",
+			"AbridgedEffect": "Verursacht imaginären SCH, der mehrmals abprallt, wobei <color=#f29e38ff><unbreak>#5[i]</unbreak></color>-mal die „Top-Lootbox“ ausgelöst werden kann. Wenn <color=#f29e38ff>allen Gegnern tödlicher SCH zugefügt wurde, bleiben die restlichen Effekte erhalten</color> und werden auf neu im Kampf erscheinende Gegner weiter angewendet. Verursacht zuletzt imaginären SCH, der gleichmäßig unter allen Gegnern aufgeteilt wird.\nJedes Mal, wenn „Verstecktes MMR“ eine bestimmte Punktzahl erreicht wird, wird der SCH des verstärkten Standardangriffs zusätzlich erhöht.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Steigendes Shoot-Attribut",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Flächenangriff",
+			"SkillTypeText": "Fertigkeit",
+			"MaxLevel": 15,
+			"EffectRaw": "Erhält <unbreak>#2[i]</unbreak> <u>Lachpunkte</u> und fügt allen Gegnern imaginären SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG von Silberwolf St. <unbreak>999</unbreak> zu.",
+			"AbridgedEffect": "Erhält <u>Lachpunkte</u> und fügt allen Gegnern imaginären SCH zu.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "God-Mode: Aktiviert!",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Verstärkung",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Tritt in den Status „God-Mode-Spielerin“ ein und erhält einen <u>Aktionsvorzug</u> von <unbreak>100</unbreak> %.\nErzeugt im Status God-Mode-Spielerin ein Kraftfeld. Wenn Silberwolf St. <unbreak>999</unbreak> <u>Verdiente Leistung</u> besitzt, besteht jedes Mal, wenn ein Verbündeter im Kraftfeld 1 Fertigkeitspunkt verbraucht, die Chance, 1-mal die <u>Top-Lootbox</u> von Silberwolf St. <unbreak>999</unbreak> auszulösen. Diese verursacht <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> imaginären <u>Hochgefühl-SCH</u>, der gleichmäßig unter allen Gegnern aufgeteilt wird, und löst zufällig 1 der folgenden Effekte aus:\n„Riesen-Riesenschwert“: Fügt dem Gegner mit den höchsten LP zusätzlich <u>Tatsächlichen SCH</u> in Höhe von <unbreak>#5[i]%</unbreak> des dieses Mal verursachten Gesamtschadens zu.\n„Bumm-Bombenei“: Stellt <unbreak>#7[i]</unbreak> Fertigkeitspunkte wieder her.\n„Komisch-Knabberbohne“: Erhält <unbreak>#6[i]</unbreak> <u>Lachpunkte</u>.\nDie anfängliche <u>feste Chance</u> zur Auslösung dieses Effekts beträgt <unbreak>100</unbreak> %. Nach erfolgreicher Auslösung wird die <u>feste Chance</u> für die nächste Auslösung auf <unbreak>#4[i]%</unbreak> der aktuellen Chance reduziert. Wenn das Ziel vor der Auslösung besiegt wird, wird der Effekt bei einem neu im Kampf erscheinenden Gegner ausgelöst.",
+			"AbridgedEffect": "Verwandelt sich und erhält einen <u>Aktionsvorzug</u> von <unbreak>100</unbreak> %.\nErzeugt während der Verwandlung ein Kraftfeld. Wenn <u>Verdiente Leistung</u> vorhanden ist, wird jedes Mal, wenn ein Verbündeter <color=#f29e38ff>1 Fertigkeitspunkt verbraucht</color>, mit hoher Chance <color=#f29e38ff>1-mal die „Top-Lootbox“ ausgelöst</color>. Diese verursacht massiven imaginären <u>Hochgefühl-SCH</u>, der gleichmäßig unter allen Gegnern aufgeteilt wird, und löst zufällig 1 der folgenden Effekte aus:\nFügt dem Ziel mit den höchsten LP <color=#f29e38ff><u>Tatsächlichen SCH</u></color> basierend auf dem verursachten Gesamtschaden zu.\nStellt <color=#f29e38ff>Fertigkeitspunkte</color> wieder her.\nErhält <color=#f29e38ff><u>Lachpunkte</u></color>.\nNach jeder Auslösung verringert sich die Chance proportional.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "Riesen-Riesenschwert",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Flächenangriff",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "Fügt allen Gegnern massiven imaginären <u>Hochgefühl-SCH</u> zu, der gleichmäßig unter allen Gegnern aufgeteilt wird. Fügt dem Ziel mit den höchsten LP basierend auf dem Gesamtschaden <u>Tatsächlichen SCH</u> zu.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "Mit mir ist jedes Spiel ein Kinderspiel",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Verstärkung",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Wenn „Verstecktes MMR“ <unbreak>#1[i]</unbreak> Pkt. erreicht, kann der Ultimate aktiviert werden. Nach Erreichen der Obergrenze können bis zu <unbreak>#2[i]</unbreak> überschüssige Pkt. angesammelt werden.\nBeim Erhalt von <u>Lachpunkten</u> erhält Silberwolf St. <unbreak>999</unbreak> die gleiche Menge Verstecktes MMR. Jeder Punkt Verstecktes MMR erhöht die KRIT-Rate um <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Wenn die KRIT-Rate <unbreak>100</unbreak> % erreicht, erhöht jeder weitere Punkt Verstecktes MMR stattdessen den KRIT-SCH um <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\nIm Status „God-Mode-Spielerin“ ist Silberwolf St. <unbreak>999</unbreak> immun gegen <u>Mengenkontrolle-Debuffs</u>, kann keinen Ultimate einsetzen und verfügt über einen verstärkten Standardangriff sowie eine verstärkte Hochgefühl-Fähigkeit. Nachdem sie den verstärkten Standardangriff <unbreak>#5[i]</unbreak>-mal vollständig eingesetzt hat, verlässt sie den Status God-Mode-Spielerin. Beim Verlassen dieses Status wird Verstecktes MMR zurückgesetzt.\nWenn sie <u>Verdiente Leistung</u> besitzt, fügt der Einsatz des Standardangriffs oder der Fertigkeit dem getroffenen Gegner <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> imaginären <u>Hochgefühl-SCH</u> zu. Der Fähigkeits-SCH des verstärkten Standardangriffs wird in <u>Hochgefühl-SCH</u> mit demselben Multiplikator umgewandelt.",
+			"AbridgedEffect": "Wenn „Verstecktes MMR“ <color=#f29e38ff><unbreak>#1[i]</unbreak></color> Pkt. erreicht, kann der Ultimate aktiviert werden. <color=#f29e38ff>Beim Erhalt von <u>Lachpunkten</u> wird die gleiche Menge Verstecktes MMR erhalten.</color> Je höher das Versteckte MMR, desto höher die KRIT-Rate. Wenn die KRIT-Rate <unbreak>100</unbreak> % erreicht, wird stattdessen der KRIT-SCH erhöht.\nWährend der Verwandlung ist Silberwolf St. <unbreak>999</unbreak> immun gegen <u>Mengenkontrolle-Debuffs</u>, und Standardangriff sowie Hochgefühl-Fähigkeit werden verstärkt. Nachdem sie den verstärkten Standardangriff <color=#f29e38ff><unbreak>#5[i]</unbreak></color>-mal eingesetzt hat, endet die Verwandlung.\nWenn sie <u>Verdiente Leistung</u> besitzt, verursachen Standardangriff oder Fertigkeit zusätzlich imaginären <u>Hochgefühl-SCH</u>, und der Fähigkeits-SCH des verstärkten Standardangriffs wird in <u>Hochgefühl-SCH</u> umgewandelt.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "Glaub mir, das ist total Meta",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "Beschwörung",
+			"SkillTypeText": "Technik",
+			"MaxLevel": 1,
+			"EffectRaw": "Beschwört „Komisch-Knabberbohne“. Die Beschwörung wird aufgehoben, wenn die Technik erneut eingesetzt wird. Der Einsatz der Technik verbraucht keine Technikpunkte. Bei 0 Technikpunkten wird die Beschwörung aufgehoben und die Technik kann nicht eingesetzt werden.\nDie Komisch-Knabberbohne versetzt gewöhnliche Gegner in einem bestimmten Bereich in den Status Angst. Gleichzeitig sucht sie automatisch nach gewöhnlichen Gegnern, greift diese an und verbraucht 1 Technikpunkt, um sie sofort zu besiegen, ohne in den Kampf einzutreten.\nWenn die Komisch-Knabberbohne sich auf dem Kampffeld befindet, wird nach Kampfeintritt zu Beginn jeder Kampfwelle 1-mal die entsprechende <u>Top-Lootbox</u> der Komisch-Knabberbohne ausgelöst, wobei der dabei verursachte <u>Hochgefühl-SCH</u> fest als <unbreak>#1[i]</unbreak> Pkt. <u>Verdiente Leistung</u> angerechnet wird.",
+			"AbridgedEffect": "Beschwört „Komisch-Knabberbohne“. Die Beschwörung wird aufgehoben, wenn die Technik erneut eingesetzt wird. Beim Einsatz werden <color=#f29e38ff>keine Technikpunkte verbraucht</color>.\nDie Komisch-Knabberbohne sucht automatisch nach gewöhnlichen Gegnern, greift diese an und verbraucht 1 Technikpunkt, um <color=#f29e38ff>sie sofort zu besiegen, ohne in den Kampf einzutreten</color>.\nLöst nach Kampfeintritt zu Beginn jeder Kampfwelle die entsprechende „Top-Lootbox“ der Komisch-Knabberbohne aus.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "Hier ist meine Unterstützung",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG {F#der Trailblazerin}{M#des Trailblazers} zu.",
+			"AbridgedEffect": "Fügt einem Gegner geringen Blitz-SCH zu.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "Lass den Sturm toben",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Flächenangriff",
+			"SkillTypeText": "Fertigkeit",
+			"MaxLevel": 15,
+			"EffectRaw": "Fügt allen Gegnern Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG {F#der Trailblazerin}{M#des Trailblazers} zu und erhält <unbreak>#2[i]</unbreak> Pkt. <u>Verdiente Leistung</u>.",
+			"AbridgedEffect": "Fügt allen Gegnern geringen Blitz-SCH zu und erhält <u>Verdiente Leistung</u>.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "Flieg ruhig, der Trailblaze ist an deiner Seite!",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Unterstützung",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Erhält <unbreak>#6[i]</unbreak> <u>Lachpunkte</u>. Erhöht den KRIT-SCH eines anvisierten Verbündeten für <unbreak>#2[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> und entfernt 1 <u>Mengenkontrolle-Debuff</u> von diesem Ziel.\nWenn das Ziel über eine Hochgefühl-Fähigkeit verfügt, erhält es zusätzlich <unbreak>#4[i]</unbreak> Pkt. <u>Verdiente Leistung</u> und setzt sofort 1-mal seine Hochgefühl-Fähigkeit ein, für die eine feste Anzahl von <unbreak>#5[i]</unbreak> <u>Lachpunkten</u> angerechnet wird. Wenn der Gegner vor dem Einsatz der Hochgefühl-Fähigkeit besiegt wird, wird diese gegen einen neu im Kampf erscheinenden Gegner eingesetzt.\nVerfügt das Ziel über keine Hochgefühl-Fähigkeit, erhält es einen <u>Aktionsvorzug</u> von <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Erhält <u>Lachpunkte</u>. Erhöht den KRIT-SCH eines anvisierten Verbündeten und entfernt <u>Mengenkontrolle-Debuffs</u> von diesem Ziel. Wenn das Ziel über eine Hochgefühl-Fähigkeit verfügt, <color=#f29e38ff>erhält es zusätzlich <u>Verdiente Leistung</u></color> und <color=#f29e38ff>setzt seine Hochgefühl-Fähigkeit sofort ein</color>. Andernfalls wird seine <u>Aktion vorgezogen</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "Der Held lächelt, das Leben hängt in der Schwebe",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Unterstützung",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Stellt nach dem Ausführen eines Angriffs eine feste Menge von <unbreak>#1[i]</unbreak> Energie wieder her und erhält <unbreak>#2[i]</unbreak> <u>Lachpunkte</u>.\nWenn {F#die Trailblazerin}{M#der Trailblazer} <u>Verdiente Leistung</u> besitzt, fügt die Fertigkeit allen Gegnern zusätzlich <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Hochgefühl-SCH</u> vom Typ Blitz zu. Dieser SCH wird anhand des höchsten Werts von <u>Verdiente Leistung</u> der Verbündeten berechnet.",
+			"AbridgedEffect": "Stellt nach dem Ausführen eines Angriffs Energie wieder her und erhält <u>Lachpunkte</u>.\nWenn {F#die Trailblazerin}{M#der Trailblazer} <u>Verdiente Leistung</u> besitzt, fügt die Fertigkeit allen Gegnern zusätzlich geringen <u>Hochgefühl-SCH</u> vom Typ Blitz zu.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "Jetzt geht’s richtig los!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Verstärkung",
+			"SkillTypeText": "Technik",
+			"MaxLevel": 1,
+			"EffectRaw": "Nach dem Einsatz der Technik wird zufällig 1 der folgenden Effekte gewährt:\nGeringe Chance auf „Herzhaftes Gelächter“: Erhöht das Hochgefühl um <unbreak>#1[i]%</unbreak>.\nHohe Chance auf „Unhaltbares Lachen“: Erhöht das Hochgefühl um <unbreak>#3[i]%</unbreak>.\nErhöht zu Beginn des nächsten Kampfes das Hochgefühl aller Verbündeten für <unbreak>#5[i]</unbreak> Rd. um den entsprechenden Wert.",
+			"AbridgedEffect": "Erhöht nach dem Einsatz der Technik zu Beginn des nächsten Kampfes das <color=#f29e38ff>Hochgefühl aller Verbündeten</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "Hier ist meine Unterstützung",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Einzelangriff",
+			"SkillTypeText": "Standardangriff",
+			"MaxLevel": 10,
+			"EffectRaw": "Fügt einem anvisierten Gegner Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG {F#der Trailblazerin}{M#des Trailblazers} zu.",
+			"AbridgedEffect": "Fügt einem Gegner geringen Blitz-SCH zu.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "Lass den Sturm toben",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Flächenangriff",
+			"SkillTypeText": "Fertigkeit",
+			"MaxLevel": 15,
+			"EffectRaw": "Fügt allen Gegnern Blitz-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des ANG {F#der Trailblazerin}{M#des Trailblazers} zu und erhält <unbreak>#2[i]</unbreak> Pkt. <u>Verdiente Leistung</u>.",
+			"AbridgedEffect": "Fügt allen Gegnern geringen Blitz-SCH zu und erhält <u>Verdiente Leistung</u>.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "Flieg ruhig, der Trailblaze ist an deiner Seite!",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Unterstützung",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Erhält <unbreak>#6[i]</unbreak> <u>Lachpunkte</u>. Erhöht den KRIT-SCH eines anvisierten Verbündeten für <unbreak>#2[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> und entfernt 1 <u>Mengenkontrolle-Debuff</u> von diesem Ziel.\nWenn das Ziel über eine Hochgefühl-Fähigkeit verfügt, erhält es zusätzlich <unbreak>#4[i]</unbreak> Pkt. <u>Verdiente Leistung</u> und setzt sofort 1-mal seine Hochgefühl-Fähigkeit ein, für die eine feste Anzahl von <unbreak>#5[i]</unbreak> <u>Lachpunkten</u> angerechnet wird. Wenn der Gegner vor dem Einsatz der Hochgefühl-Fähigkeit besiegt wird, wird diese gegen einen neu im Kampf erscheinenden Gegner eingesetzt.\nVerfügt das Ziel über keine Hochgefühl-Fähigkeit, erhält es einen <u>Aktionsvorzug</u> von <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Erhält <u>Lachpunkte</u>. Erhöht den KRIT-SCH eines anvisierten Verbündeten und entfernt <u>Mengenkontrolle-Debuffs</u> von diesem Ziel. Wenn das Ziel über eine Hochgefühl-Fähigkeit verfügt, <color=#f29e38ff>erhält es zusätzlich <u>Verdiente Leistung</u></color> und <color=#f29e38ff>setzt seine Hochgefühl-Fähigkeit sofort ein</color>. Andernfalls wird seine <u>Aktion vorgezogen</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "Der Held lächelt, das Leben hängt in der Schwebe",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Unterstützung",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Stellt nach dem Ausführen eines Angriffs eine feste Menge von <unbreak>#1[i]</unbreak> Energie wieder her und erhält <unbreak>#2[i]</unbreak> <u>Lachpunkte</u>.\nWenn {F#die Trailblazerin}{M#der Trailblazer} <u>Verdiente Leistung</u> besitzt, fügt die Fertigkeit allen Gegnern zusätzlich <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Hochgefühl-SCH</u> vom Typ Blitz zu. Dieser SCH wird anhand des höchsten Werts von <u>Verdiente Leistung</u> der Verbündeten berechnet.",
+			"AbridgedEffect": "Stellt nach dem Ausführen eines Angriffs Energie wieder her und erhält <u>Lachpunkte</u>.\nWenn {F#die Trailblazerin}{M#der Trailblazer} <u>Verdiente Leistung</u> besitzt, fügt die Fertigkeit allen Gegnern zusätzlich geringen <u>Hochgefühl-SCH</u> vom Typ Blitz zu.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "Jetzt geht’s richtig los!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Verstärkung",
+			"SkillTypeText": "Technik",
+			"MaxLevel": 1,
+			"EffectRaw": "Nach dem Einsatz der Technik wird zufällig 1 der folgenden Effekte gewährt:\nGeringe Chance auf „Herzhaftes Gelächter“: Erhöht das Hochgefühl um <unbreak>#1[i]%</unbreak>.\nHohe Chance auf „Unhaltbares Lachen“: Erhöht das Hochgefühl um <unbreak>#3[i]%</unbreak>.\nErhöht zu Beginn des nächsten Kampfes das Hochgefühl aller Verbündeten für <unbreak>#5[i]</unbreak> Rd. um den entsprechenden Wert.",
+			"AbridgedEffect": "Erhöht nach dem Einsatz der Technik zu Beginn des nächsten Kampfes das <color=#f29e38ff>Hochgefühl aller Verbündeten</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

@@ -209,6 +209,16 @@
 		"Description": "开拓者踏上「记忆」命途",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "于是，要有笑声",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "我，开拓者",
+		"Description": "开拓者踏上「欢愉」命途",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "银河系搭车客指南",
@@ -2099,6 +2109,83 @@
 		"Description": "祂就这么一说，你就这么一听\n<color=#8790abff>※聆听幻月发表狂乱的宣言</color>",
 		"HiddenDescription": "祂就这么一说，你就这么一听",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "通勤旅行",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "就没有什么特别的移动方式吗？\n<color=#8790abff>※搭乘电车去拯救世界</color>",
+		"HiddenDescription": "就没有什么特别的移动方式吗？",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "裁决者的判词",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "裁决者身份的象征\n<color=#8790abff>※绯英取回了她的尺刀</color>",
+		"HiddenDescription": "裁决者身份的象征",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "乐园精神病人",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "没人关心你想什么，直到你决定摧毁世界\n<color=#8790abff>※踏入满愿心中的「裂缝」。</color>",
+		"HiddenDescription": "没人关心你想什么，直到你决定摧毁世界",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "娱乐至死",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "要么欢笑，要么去死\n<color=#8790abff>※目睹幻造瘟疫「乐变化天人」爆发</color>",
+		"HiddenDescription": "要么欢笑，要么去死",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "银河头号玩家",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "与其被混球夸赞，不如战死在它手中\n<color=#8790abff>※其实，也没人想战死在混球手里</color>",
+		"HiddenDescription": "与其被混球夸赞，不如战死在它手中",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "告死魔之死",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "宣告死亡者，死亡亦宣告其名\n<color=#8790abff>※击败新「告死魔」</color>",
+		"HiddenDescription": "宣告死亡者，死亡亦宣告其名",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "花信风过",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "她如风花飘然而过\n<color=#8790abff>※接下绯英的嘱托</color>",
+		"HiddenDescription": "她如风花飘然而过",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "众秘探奇",
-		"Description": "在泊地站「二次元JUMP！」的「Jump时刻」中反复改变重力，让尘灵来回跳动",
+		"Description": "在泊地站的「二次元JUMP！」中反复改变重力，让尘灵来回跳动",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "众秘探奇",
 		"Description": "演奏奇异乐章，找到藏在观览云岛站的迷之生物",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "余生皆假期",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "累计收集#1个「星轨之兔」的无名尘灵",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "伽利略的铁球",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "完成电视台顶的「Jump时刻」，从顶层跳至采访大厅",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "塔上钢琴师",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在电视台顶的「Jump时刻」中，拿到所有音符",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "并非刺客，不是信条",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "抵达海原电视塔的最高处",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "被重力束缚的灵魂",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」保持不落地的状态并连续触碰10次重力线",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "保龄球大师",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」用机械小帮手撞飞刺猬灵或者飘浮灵",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "为你的眼眸干杯",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在海原电视塔的「二次元JUMP！」中完成调饮关卡",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "海的那边是邻居",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」中抵达海对岸的居民区",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "奥菲斯的弦歌",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」中吹奏乐曲，驱散神秘小岛上的迷雾",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "划水就是上班",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」中搭乘机械小帮手滑行水面",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "不可承受之重",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」中被汪墩墩或皮皮豚挤压导致游戏失败",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "夺岛奇兵",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在海原市「二次元JUMP！」的影子竞速赛中最先登顶神秘小岛",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "回旋镖",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」射出弓箭，命中自己",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "终极驾驶机器",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」搭乘小帮手通过刺状障碍物",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "小帮手，进化！",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」解锁机械小帮手专属能力",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "乐园变奏：圆球公主",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "演奏奇异乐章，找到藏在海原电视塔的迷之生物",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "乐园变奏：水豚之歌",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "演奏奇异乐章，找到藏在海原市的迷之生物",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "与你同行的回忆",
-		"Description": "在自己的房间中观赏所有藏品",
+		"Description": "在收藏展柜的「纪念手办」区布设#1个纪念品",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11952,6 +12209,219 @@
 		"SeriesText": "与你同行的回忆",
 		"Description": "通关「魔王挑战」模式",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "虽远必诛",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "将杀害斯科特的凶手交给仙舟联盟\n<color=#8790abff>※希望她能习惯幽囚狱的伙食</color>",
+		"HiddenDescription": "将杀害斯科特的凶手交给仙舟联盟",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "属地原则",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "将杀害斯科特的凶手交给战略投资部\n<color=#8790abff>※就像什么都没发生过一样</color>",
+		"HiddenDescription": "将杀害斯科特的凶手交给战略投资部",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "江湖恩怨",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "将杀害斯科特的凶手交给公义\n<color=#8790abff>※「她要是不体面，你就帮她体面。」</color>",
+		"HiddenDescription": "将杀害斯科特的凶手交给公义",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "未知记忆",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "完成水上列车站台的调查",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "逆模因部不存在",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "调查电视台仓库里的电脑",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "何为英雄",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在电视台与灰烬战士重逢",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "演员的自我修养",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "完成噗噜一家的初见对话",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "所以爱会消失对吗",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "聆听路人为逃避见家长而编造的借口",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "九子夺嫡时代",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "咱们真是越来越狸丁兴旺了哩！\n<color=#8790abff>※《狸狸周刊》正式拥有了#1名常驻狸猫记者</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "世界中的另一个我",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在联机派对车厢中，与其他开拓者相遇",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "开拓车友会",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "拜访#1位其他开拓者的联机派对车厢",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "喵喵咪咪「开拓」令使",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "获得「阿基喵利」的馈赠",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "派对猎手",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "从派对车厢里的每处躲藏点都抓到过造物",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "最后的晚餐",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在造物布设区摆放#1只相同造物",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "博物学家",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "集齐「造物观察记录」中的#1只造物",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "好彩骰！好彩头！",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在银河战力党玩法中，累计收集「扩展包•2」中的#1个曜彩骰",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "你的骰子很想来我家",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「又上骰了！战力党！」中，累计交换骰子#1次",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "一键三连",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「又上骰了！战力党！」中，一回合内连续使用#1张战术卡",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "伤害超大杯",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「又上骰了！战力党！」中，一回合内造成#1点伤害",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "《狸狸周刊》向前冲",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「又上骰了！战力党！」中，代表《狸狸周刊》击败海原市商业街排行榜前五名：「海原五杰」",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "银河第一骰",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「又上骰了！战力党！」中，完成与银狼LV.999的最终对决",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "阿哈施放【要有笑声】消灭#1名敌人",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "喜人奇妙日",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "在上场#1名欢愉命途角色的情况下获得战斗胜利",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "三个火枪手",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "战意奔涌",
 		"Description": "在与「合金机铠•帕姆王」的单场战斗中，至少触发#1次【强效肥皂泡】的【锃亮】效果",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "谁都别板着脸",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "单场战斗中，使用「欢愉」命途开拓者累计对#1名不同队友各施放过一次终结技",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "感谢打赏",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "单次战斗中，使用「欢愉」命途开拓者对火花累计施放#1次终结技",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "众筹五百强",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "单场战斗中，绯英通过天赋【青春•韶华无限】从其他队友身上获得【好活当赏】的总数超过#1",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "好活不怕多",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "使用我方角色绯英在【好活当赏】数量达到#1的情况下施放终结技",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "别闹了，卡芙卡女士",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "触发银狼LV.999的【999安全卫士】，解除「星核猎手•卡芙卡」施加的【支配】状态",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "装备列表",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "单个回合中，队友触发了银狼LV.999的#1种不同的【头号补给盲盒】",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "金融街之狼",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "使用银狼LV.999的秘技【朋友，这才是T0级秘技】一次性吃到#1枚金币",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "生化危机",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "在与「极乐颠倒·邪愿莲华主」的战斗中，我方角色被转化为【幸福傀儡】后造成【会心一击】击败了任意目标",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "SAN值全满",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "在与「极乐颠倒·邪愿莲华主」的战斗中，没有角色因为触发【幸福】被转化为【幸福傀儡】",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "乐子的终结",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "在与「乐变化天人」的战斗中，单次攻击同时消灭#1个及以上的「乐变化天人•终」",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

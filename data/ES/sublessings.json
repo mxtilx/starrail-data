@@ -8119,6 +8119,20 @@
 		"Effect": "El daño de Ashveil se amplifica en el Universo Diferenciado.\n\nEl daño final infligido a los enemigos con un porcentaje de PV inferior al <color=#f29e38ff>50%</color> aumenta en un <color=#f29e38ff>30%</color>. Si es daño de ataque adicional, aumenta en un <color=#f29e38ff>15%</color> extra.",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "Evanescia",
+		"Rarity": 1,
+		"Effect": "El daño de Evanescia se amplifica en el Universo Diferenciado.\n\nMientras tiene ¡Bien hecho!, el daño final que inflige aumenta en un <color=#f29e38ff>15%</color>. Si tiene <color=#f29e38ff>100</color> pts. de ¡Bien hecho! o más, el daño final que inflige aumenta en un <color=#f29e38ff>15%</color> adicional.",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "Silver Wolf Niv. <unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "El daño de Silver Wolf Niv. 999 recibe una Amplificación en el Universo Diferenciado.\n\nAl comenzar el turno de Aha, por cada punto de Chiste, la Exultación de Silver Wolf Niv. 999 aumenta en un <color=#f29e38ff>0.5%</color> hasta el comienzo del siguiente turno de Aha.",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "El daño de {NICKNAME} se amplifica en el Universo Diferenciado.\n\nEl daño final infligido aumenta en un <color=#f29e38ff>15%</color>. Al entrar en combate, recupera un <color=#f29e38ff>50%</color> de su energía máxima.",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "El daño de {NICKNAME} se amplifica en el Universo Diferenciado.\n\nMientras está en el campo de batalla, la Exultación de los aliados aumenta en un <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "El daño de {NICKNAME} se amplifica en el Universo Diferenciado.\n\nMientras está en el campo de batalla, la Exultación de los aliados aumenta en un <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",

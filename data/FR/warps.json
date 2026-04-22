@@ -1159,6 +1159,86 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
 		"VersionAdded": "4.1"
 	},
+	"2116": {
+		"Id": "2116",
+		"Name": "MVP incontestée",
+		"Description": "Bonus au taux d'obtention des personnages en vedette",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2117": {
+		"Id": "2117",
+		"Name": "Figures indélébiles : Le Dahlia",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2118": {
+		"Id": "2118",
+		"Name": "Figures indélébiles : Castorice",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2119": {
+		"Id": "2119",
+		"Name": "Figures indélébiles : Luciole",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2120": {
+		"Id": "2120",
+		"Name": "Arbitre en herbe",
+		"Description": "Bonus au taux d'obtention des personnages en vedette",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2121": {
+		"Id": "2121",
+		"Name": "Figures indélébiles : Tribbie",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2122": {
+		"Id": "2122",
+		"Name": "Figures indélébiles : Sunday",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2123": {
+		"Id": "2123",
+		"Name": "Figures indélébiles : Feixiao",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Saut événement de personnage",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
+		"VersionAdded": "4.2"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Fixation brillante",
@@ -2308,6 +2388,86 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
 		"VersionAdded": "4.1"
+	},
+	"3116": {
+		"Id": "3116",
+		"Name": "Fixation brillante",
+		"Description": "Bonus au taux d'obtention des cônes de lumière en vedette",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3117": {
+		"Id": "3117",
+		"Name": "Vérités confluentes : Une flamme à graver",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3118": {
+		"Id": "3118",
+		"Name": "Vérités confluentes : Des adieux encore plus beaux",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3119": {
+		"Id": "3119",
+		"Name": "Vérités confluentes : Là où les rêves se reposent",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3120": {
+		"Id": "3120",
+		"Name": "Fixation brillante",
+		"Description": "Bonus au taux d'obtention des cônes de lumière en vedette",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3121": {
+		"Id": "3121",
+		"Name": "Vérités confluentes : Si le temps était une fleur",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3122": {
+		"Id": "3122",
+		"Name": "Vérités confluentes : Ascension terrestre",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3123": {
+		"Id": "3123",
+		"Name": "Vérités confluentes : La chasse est ouverte",
+		"Description": "{LAYOUT_MOBILE#Touchez}{LAYOUT_CONTROLLER#Appuyez sur}{LAYOUT_KEYBOARD#Cliquez sur} les onglets pour naviguer entre les différents Sauts hyperespace.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Saut événement de cône de lumière",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
+		"VersionAdded": "4.2"
 	},
 	"4001": {
 		"Id": "4001",

@@ -311,12 +311,6 @@
 		"Description": "Aliansi kuno yang terdiri dari banyak ras cerdas.\nMereka memimpin Xianzhou untuk melenyapkan Abominations of Abundance di alam semesta.",
 		"VersionAdded": "1.0"
 	},
-	"10053": {
-		"Id": "10053",
-		"Name": "Stellaron Hunter",
-		"Description": "Sebuah organisasi yang melakukan perjalanan antar dunia untuk berburu Stellaron.\nEntah Aeon mana yang menganugerahkan kekuatannya.",
-		"VersionAdded": "1.0"
-	},
 	"10054": {
 		"Id": "10054",
 		"Name": "Denizens of Abundance",
@@ -1931,6 +1925,30 @@
 		"Description": "Konglomerat hiburan antarbintang milik Pearl. Bisnis utamanya mencakup produksi dan penjualan \"mechatron\".\nKantor pusatnya yang megah, Gedung Pearluxe, adalah istana dambaan bagi banyaknya pencari kerja.",
 		"VersionAdded": "4.1"
 	},
+	"10426": {
+		"Id": "10426",
+		"Name": "Fulwish",
+		"Description": "Ketua \"Asosiasi Penelitian Senyum Bahagia\" sekaligus Direktur \"TV Penuh Harapan\". Yatim piatu dari Permainan Berlumur Darah.\nDemi melakukan pembalasan pada \"Elation\" di Planarcadia, dia menjelma menjadi musuhnya sendiri, memberikan penghakiman bagi utopia tersebut dalam wujud Pengantar Maut.",
+		"VersionAdded": "4.2"
+	},
+	"10427": {
+		"Id": "10427",
+		"Name": "Asosiasi Penelitian Senyum Bahagia",
+		"Description": "Organisasi amal berskala besar, yang sebelumnya merupakan Asosiasi Bantuan Mandiri Korban Insiden Pengantar Maut.\nMelalui metode seperti \"Bedah Kebahagiaan\", mereka mengubah warga kota menjadi monster buas yang hanya mengenal rasa kebahagiaan.",
+		"VersionAdded": "4.2"
+	},
+	"10428": {
+		"Id": "10428",
+		"Name": "Pengantar Maut",
+		"Description": "Dalang utama Permainan Berlumur Darah, monster yang menikmati pembantaian.\nKini dimanfaatkan oleh Fulwish sebagai simbol \"ketakutan\" untuk mengguncang arus pemikiran Planarcadia.",
+		"VersionAdded": "4.2"
+	},
+	"10429": {
+		"Id": "10429",
+		"Name": "Stellaron Hunter",
+		"Description": "Organisasi yang berkelana di antara berbagai dunia untuk memburu Stellaron.\nDemi suatu tujuan, mereka menelusuri hulu di dalam Path \"Finality\".",
+		"VersionAdded": "4.2"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Sedang kembali ke sudut pandang Trailblazer ....",
@@ -2356,5 +2374,29 @@
 		"Name": "Sedang berganti ke sudut pandang \"Ashveil\" ....",
 		"Description": "Saat menelusuri jejak pelaku, Ashveil berdiri di tepi jembatan dan teringat pada masa lalunya ....",
 		"VersionAdded": "4.1"
+	},
+	"20102": {
+		"Id": "20102",
+		"Name": "Sedang berganti ke sudut pandang \"Evanescia\" ....",
+		"Description": "Sementara itu, saat {NICKNAME} sedang melakukan penyelidikan di sekolah, Evanescia dan Yao Guang juga telah tiba di Kota Seafeld ....",
+		"VersionAdded": "4.2"
+	},
+	"20103": {
+		"Id": "20103",
+		"Name": "Sedang berganti ke sudut pandang \"Sparxie\" ....",
+		"Description": "Di sisi lain, Sparxie sedang asyik mengobrol dan bersenda gurau dengan orang-orang di \"bar\" ....",
+		"VersionAdded": "4.2"
+	},
+	"20104": {
+		"Id": "20104",
+		"Name": "Sedang berganti ke sudut pandang \"Evanescia\" ....",
+		"Description": "Evanescia mengeluarkan pedangnya, bersiap untuk menjalankan misinya ....",
+		"VersionAdded": "4.2"
+	},
+	"20105": {
+		"Id": "20105",
+		"Name": "Sedang berganti ke sudut pandang \"Silver Wolf\" ....",
+		"Description": "Saat ini, di Studio Lukis Pearl, Silver Wolf juga bersiap untuk memulai aksinya ....",
+		"VersionAdded": "4.2"
 	}
 }

@@ -158,7 +158,7 @@
 			{
 				"Id": "100406",
 				"Name": "Prospect of Glory",
-				"Effect": "When using Skill, deals DMG for 1 extra time to a random enemy."
+				"Effect": "When using Skill, deals DMG for 1 extra time to one random enemy."
 			}
 		],
 		"VersionAdded": "1.0"
@@ -420,7 +420,7 @@
 			{
 				"Id": "110201",
 				"Name": "Extirpating Slash",
-				"Effect": "When dealing DMG to an enemy whose HP percentage is 80% or lower, CRIT Rate increases by 15%."
+				"Effect": "When dealing DMG to an enemy whose HP percentage is 80% or lower, increases CRIT Rate by 15%."
 			},
 			{
 				"Id": "110202",
@@ -2495,7 +2495,7 @@
 			{
 				"Id": "140106",
 				"Name": "Sweet Lure of Answer",
-				"Effect": "The Herta's Ice RES PEN increases by 20%. When the number of enemy targets on the field is 3 (or more)/2/1, Ultimate's DMG multiplier increases by 140%/250%/400% respectively."
+				"Effect": "The Herta's Ice RES PEN increases by 20%. When the number of enemy targets on the field is (≥3)/2/1, Ultimate's DMG multiplier increases by 140%/250%/400% respectively."
 			}
 		],
 		"VersionAdded": "3.1"
@@ -2921,7 +2921,7 @@
 			{
 				"Id": "141301",
 				"Name": "Sleep Tight, the Night Dreams Long",
-				"Effect": "When Evernight is on the field, if there are (4 or more)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively."
+				"Effect": "When Evernight is on the field, if there are (≥4)/3/2/1 enemy targets on the field, ally memosprites deal DMG equal to 120%/125%/130%/150% of their original DMG respectively."
 			},
 			{
 				"Id": "141302",
@@ -3155,6 +3155,88 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"ElementType": "Physical",
+		"ElementTypeText": "Physical",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "150501",
+				"Name": "Home: A Prayer in Dance",
+				"Effect": "Increases All-Type RES PEN by 20%. After \"Master Fox\" uses an attack, additionally triggers 1 instance of Elation Skill. Elation Skill additionally grants this unit 10 \"<u>Certified Banger</u>\" point(s)."
+			},
+			{
+				"Id": "150502",
+				"Name": "Voyage: A Wish for Everbloom",
+				"Effect": "CRIT DMG increases by 36%. When triggering the Certified Banger gain effect from the Trace \"Watch All Revels\"/\"Best All Blooms\", additionally gains \"<u>Certified Banger</u>\" equal to 50%/100% of the \"<u>Certified Banger</u>\" gained this time."
+			},
+			{
+				"Id": "150503",
+				"Name": "Blade: A Feast on Evils",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "150504",
+				"Name": "Meadow: A Ruin by Vice",
+				"Effect": "Evanescia's DMG dealt ignores 15% of the enemy targets' DEF."
+			},
+			{
+				"Id": "150505",
+				"Name": "Arcadia: A Glimpse of Fates",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "150506",
+				"Name": "Maiden: A Step into Dreams",
+				"Effect": "The duration of Evanescia's \"<u>Certified Banger</u>\" increases by 1 turn(s). The <u>Elation DMG</u> dealt by Evanescia <u>merrymakes</u> by 15%. For every 100 points of \"<u>Certified Banger</u>\" held, it additionally <u>merrymakes</u> by 2.0%. Up to 1000 points of \"<u>Certified Banger</u>\" can be taken into account. After using Ultimate for the first time upon entering combat, regenerates a fixed amount of 120 Energy for Evanescia. This effect can trigger 1 time for every 4 more instances of Ultimate used."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silver Wolf LV.<unbreak>999</unbreak>",
+		"ElementType": "Imaginary",
+		"ElementTypeText": "Imaginary",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "150601",
+				"Name": "Aether Editing: Eidolon +1",
+				"Effect": "Enemy targets in the Zone take 20% increased DMG.\nWhen exiting the \"Godmode Player\" state, \"Hidden MMR\" will not be cleared. Instead, 20% of \"Hidden MMR\" will be retained."
+			},
+			{
+				"Id": "150602",
+				"Name": "It's a Feature, Not a Bug",
+				"Effect": "After entering the \"Godmode Player\" state, extends the duration of all <u>buffs</u> on this unit by 1 turn. In the current \"Godmode Player\" state, for every 120 point(s) of \"Hidden MMR\" increased (including the initial \"Hidden MMR\"), Silver Wolf LV.999 gains 1 <u>extra turn</u> and regains 1 use of Enhanced Basic ATK."
+			},
+			{
+				"Id": "150603",
+				"Name": "Max Lv. <unbreak>15</unbreak>? Says who?",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "150604",
+				"Name": "I Came. I Saw. I One-Shot.",
+				"Effect": "<u>Elation DMG</u> dealt by \"Honkai-DMG Demo\" additionally takes into account <u>Punchline</u>, equal to the original amount multiplied by 5."
+			},
+			{
+				"Id": "150605",
+				"Name": "Basic ATK Is the New Ultimate",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "150606",
+				"Name": "Solo Maxxing!",
+				"Effect": "<u>Elation DMG</u> dealt during Enhanced Basic ATK <u>merrymakes</u> by 50%.\nWhen enemy targets enter combat, they are implanted with \"Absolute Weakness\": Has All-Type Weakness, and reduces their All-Type <u>Base RES</u> to 0. (If <u>Base RES</u> is already at 0, then the corresponding Type RES decreases by 20% instead)."
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"8001": {
 		"Id": "8001",
@@ -3499,5 +3581,91 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "Trailblazer (Lightning)",
+		"TrailblazerCanonName": "Caelus",
+		"TrailblazerGender": "M",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lightning",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "800901",
+				"Name": "Believe In the Light",
+				"Effect": "After using Skill, the next Ultimate increases the amount of \"<u>Certified Banger</u>\" gained by ally targets by 2. This effect can stack up to 3 time(s)."
+			},
+			{
+				"Id": "800902",
+				"Name": "History in the Making...",
+				"Effect": "Ultimate additionally increases the Elation of one designated ally by 12%, lasting for 2 turn(s)."
+			},
+			{
+				"Id": "800903",
+				"Name": "Into the Spotlight",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "800904",
+				"Name": "Save the World. Just Because.",
+				"Effect": "When using Elation Skill, increases the DMG taken by enemy targets by 10%, lasting for 2 turn(s)."
+			},
+			{
+				"Id": "800905",
+				"Name": "Love & Courage: Always in Style",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "800906",
+				"Name": "The Cosmic Legend Cometh!",
+				"Effect": "When using Elation Skill, increases this unit's CRIT DMG by 100% for 3 turns."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "Trailblazer (Lightning)",
+		"TrailblazerCanonName": "Stelle",
+		"TrailblazerGender": "F",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lightning",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"Eidolons": [
+			{
+				"Id": "801001",
+				"Name": "Believe In the Light",
+				"Effect": "After using Skill, the next Ultimate increases the amount of \"<u>Certified Banger</u>\" gained by ally targets by 2. This effect can stack up to 3 time(s)."
+			},
+			{
+				"Id": "801002",
+				"Name": "History in the Making...",
+				"Effect": "Ultimate additionally increases the Elation of one designated ally by 12%, lasting for 2 turn(s)."
+			},
+			{
+				"Id": "801003",
+				"Name": "Into the Spotlight",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "801004",
+				"Name": "Save the World. Just Because.",
+				"Effect": "When using Elation Skill, increases the DMG taken by enemy targets by 10%, lasting for 2 turn(s)."
+			},
+			{
+				"Id": "801005",
+				"Name": "Love & Courage: Always in Style",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10.\nElation Skill Lv. +1, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "801006",
+				"Name": "The Cosmic Legend Cometh!",
+				"Effect": "When using Elation Skill, increases this unit's CRIT DMG by 100% for 3 turns."
+			}
+		],
+		"VersionAdded": "4.2"
 	}
 }

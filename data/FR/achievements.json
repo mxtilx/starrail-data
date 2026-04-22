@@ -196,7 +196,7 @@
 		"Rarity": "High",
 		"SeriesId": 1,
 		"SeriesText": "Moi, {M#pionnier}{F#pionnière}",
-		"Description": "Suivre la Voie de l'Harmonie",
+		"Description": "Emprunter la Voie de l'Harmonie",
 		"VersionAdded": "3.1"
 	},
 	"4014001": {
@@ -206,8 +206,18 @@
 		"Rarity": "High",
 		"SeriesId": 1,
 		"SeriesText": "Moi, {M#pionnier}{F#pionnière}",
-		"Description": "Suivre la Voie du Souvenir",
+		"Description": "Emprunter la Voie du Souvenir",
 		"VersionAdded": "3.1"
+	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "Que la rigolade soit",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "Moi, {M#pionnier}{F#pionnière}",
+		"Description": "Emprunter la Voie de l'Allégresse",
+		"VersionAdded": "4.2"
 	},
 	"4020201": {
 		"Id": "4020201",
@@ -2099,6 +2109,83 @@
 		"Description": "Elle le dit ainsi, et c'est ainsi que vous l'entendez\n<color=#8790abff>※ Écouter la délirante déclaration de la Fabulune</color>",
 		"HiddenDescription": "Elle le dit ainsi, et c'est ainsi que vous l'entendez",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "Chemin pittoresque vers le travail",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Il n'y aurait pas un moyen plus cool de se déplacer ?\n<color=#8790abff>※ Prendre le train pour sauver le monde</color>",
+		"HiddenDescription": "Il n'y aurait pas un moyen plus cool de se déplacer ?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "Verdict de l'arbitre",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Symbole d'autorité de l'arbitre\n<color=#8790abff>※ Evanescia récupère sa règlame</color>",
+		"HiddenDescription": "Symbole d'autorité de l'arbitre",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "Psychopathe de l'Arcadia",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Personne ne se soucie de ce que vous pensez... jusqu'à ce que vous décidiez de détruire le monde\n<color=#8790abff>※ Entrer dans la faille au cœur d'Exosouhait</color>",
+		"HiddenDescription": "Personne ne se soucie de ce que vous pensez... jusqu'à ce que vous décidiez de détruire le monde",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "Amusement mortel",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Rire ou mourir\n<color=#8790abff>※ Assister à l'épidémie d'imagénèse « Ascension joyeuse »</color>",
+		"HiddenDescription": "Rire ou mourir",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "N° 1 galactique",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Mieux vaut mourir de la main d'un méchant que d'être honoré par un type pareil\n<color=#8790abff>※ Cela dit, personne ne veut vraiment mourir de la main d'un méchant</color>",
+		"HiddenDescription": "Mieux vaut mourir de la main d'un méchant que d'être honoré par un type pareil",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "Mort du Héraut de la mort",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Ceux qui proclament la mort seront eux-mêmes réclamés par la mort\n<color=#8790abff>※ Vaincre le nouveau Héraut de la mort</color>",
+		"HiddenDescription": "Ceux qui proclament la mort seront eux-mêmes réclamés par la mort",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "Zéphyr des fleurs",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Emportée dans la brise fleurie\n<color=#8790abff>※ Accepter la requête d'Evanescia</color>",
+		"HiddenDescription": "Emportée par la brise fleurie",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Sonder l'insondable",
-		"Description": "Dans Saut interdimensionnel !, pendant l'heure du saut à la station Perdido, changer la gravité de manière répétée pour faire rebondir les Ætherae d'avant en arrière",
+		"Description": "Lors d'un Saut interdimensionnel ! à la station Perdido, changer la gravité de manière répétée pour faire rebondir les Ætherae d'avant en arrière",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "Sonder l'insondable",
 		"Description": "Jouer une mélodie étrange et découvrir la mystérieuse créature cachée à Vigîlonuage",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "Vacances pour le reste de la vie",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Récupérer un total de #1 Ætherae sans nom de Lapin stellaire",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "La bille de fer de Galilée",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Terminer l'Heure du saut sur le toit de la station de télévision et sauter depuis le sommet jusqu'à la salle d'interview",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "La légende de la tour",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Récupérer toutes les Mélodies dans l'Heure du saut sur le toit de la station de télévision",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "Pas d'assassin, pas de credo",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Atteindre le sommet de la tour de télévision de Merchamps",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "Âmes liées par la gravité",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Lors d'un Saut interdimensionnel !, rester dans les airs et toucher la ligne de gravité 10 fois d'affilée",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "Pro du bowling",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Lors d'un Saut interdimensionnel !, utiliser un Bot pour envoyer voler un Hérissae ou un flotergeist",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "Un toast à tes yeux",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Terminer la phase de préparation de cocktails lors d'un Saut interdimensionnel ! à la Tour de télévision de Merchamps.",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "Au-delà de la mer, les voisins",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Atteindre la zone résidentielle de l'autre côté de la mer lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "Lyre d'Orphée",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Jouer de la musique lors d'un Saut interdimensionnel ! pour dissiper la brume qui enveloppe l'île mystérieuse",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "Flemmarder, c'est travailler",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Traverser la surface de l'eau avec le Bot lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "Poids insoutenable",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Perdre après avoir été écrasé{F#e} par des Waldunduns ou des PiPinTuns lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "Les Aventuriers de l'Île Perdue",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Être {M#le premier}{F#la première} à atteindre le sommet de l'île mystérieuse lors de la course fantôme d'un Saut interdimensionnel ! à Merchamps",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "Boomerang",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Tirer et se faire toucher par votre propre flèche lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "Machine de conduite ultime",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Diriger le Bot à travers les obstacles épineux lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "Bot, évolution !",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Débloquer la capacité exclusive du robot assistant lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "Variation Arcadia : Princesse de l'orbe",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Jouer une mélodie étrange et trouver la mystérieuse créature cachée à la Tour de télévision de Merchamps",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "Variation Arcadia : Chanson du capybara",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Jouer une mélodie étrange et découvrir la mystérieuse créature qui se cache à Merchamps",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Souvenirs partagés",
-		"Description": "Admirer l'ensemble de vos collections dans votre chambre",
+		"Description": "Placer #1 souvenirs dans l'espace dédié aux figurines commémoratives dans le Cabinet de collections",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11652,7 +11909,7 @@
 	},
 	"4055024": {
 		"Id": "4055024",
-		"Name": "Ahalléluia !",
+		"Name": "Porte-Partutticanti !",
 		"SortOrder": 354,
 		"Rarity": "Low",
 		"SeriesId": 5,
@@ -11952,6 +12209,219 @@
 		"SeriesText": "Souvenirs partagés",
 		"Description": "Terminer le défi de la démone venue d'ailleurs",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "Chasse jusqu'au bout du monde",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Livrer l'assassin de Skott à l'Alliance Xianzhou\n<color=#8790abff>※ Il faut espérer que la nourriture de la Prison des enchaînés lui plaira</color>",
+		"HiddenDescription": "Livrer l'assassin de Skott à l'Alliance Xianzhou",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "Principe territorial",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Livrer l'assassin de Skott au Département des investissements stratégiques\n<color=#8790abff>※ Comme si de rien n'était</color>",
+		"HiddenDescription": "Livrer l'assassin de Skott au Département des investissements stratégiques",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "Toile enchevêtrée d'inimitié",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Traduire l'assassin de Skott en justice\n<color=#8790abff>※ « Si elle se comporte mal, aide-la à bien se comporter. »</color>",
+		"HiddenDescription": "Traduire l'assassin de Skott en justice",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "Souvenirs inconnus",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Terminer l'enquête sur la plateforme flottante de l'Express",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "La Division Antimémétique n'existe pas",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Inspecter l'ordinateur dans la réserve de la station de télévision",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "Ce qui fait un héros",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Retrouver le guerrier Anthracendre à la station de télévision",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "Artiste en devenir",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Terminer le dialogue de première rencontre avec la famille Cananar",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "L'amour dure trois ans",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Écouter un passant inventer des excuses pour éviter de rencontrer ses beaux-parents",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "Pandaroo-cession",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Regardez-nous ! Notre famille pandaroo s'agrandit !\n<color=#8790abff>※ <i>Pandaroo Hebdo</i> compte officiellement #1 journalistes pandaroos permanents dans son équipe</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "Mon double dans ce monde",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Rencontrer d'autres pionniers dans la Festi'Voiture multi",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "Club des pionniers de l'Astral Express",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Visiter la Festi'Voiture multi de #1 autres pionniers",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Miaou-gnifique Émanat{F#rice}{M#eur} du Pionnier",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Recevoir le cadeau de Chakivili",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "Chasseu{M#r}{F#se} de fêtes",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Attraper une création dans chaque cachette de la Festi'Voiture",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "La Cène",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Placer #1 créations identiques dans la zone de placement des créations",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "Naturaliste",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Rassembler #1 créations dans le Rapport d'observation des créations",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "Dé chanceux ! Départ chanceux !",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Dans Atout cosmique, récupérer #1 dés prismatiques de l'Extension II au total",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "Vos dés me manquent",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Dans Atout cosmique, à nous encore une fois !, échanger des dés #1 fois au total",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "Triple incantation",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Dans Atout cosmique, à nous encore une fois !, utiliser #1 cartes tactiques à la suite en un seul tour",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "DGT (XL)",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Infliger #1 de DGT en un seul tour dans Atout cosmique, à nous encore une fois !",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "Charge <i>Pandaroo Hebdo</i>",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Dans Atout cosmique, à nous encore une fois !, représenter <i>Pandaroo Hebdo</i> et triompher des cinq premiers du classement de la rue commerçante de Merchamps : la Quinte de Merchamps",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "Dé cosmique ultime",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Terminer l'affrontement final avec Louve d'argent Niv. 999 dans Atout cosmique, à nous encore une fois !",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "Aha utilise Que la rigolade soit pour vaincre #1 ennemis",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "Une journée délicieusement étrange",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Remporter un combat avec une équipe composée de #1 personnages de l'Allégresse",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "Les Trois Mousquetaires",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "Soif de combat",
 		"Description": "Déclencher au moins #1 fois l'effet Brillance du Savon super moussant au cours d'un même combat contre le Roi Pom-Pom en alliage",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "Interdiction de faire la tête",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Au cours d'un même combat, utiliser l'ultime {M#du pionnier}{F#de la pionnière} (L'Allégresse) sur #1 coéquipiers différents une fois chacun",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "Merci pour le don",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Au cours d'un même combat, utiliser l'ultime {M#du pionnier}{F#de la pionnière} (L'Allégresse) sur Sparxie #1 fois au total",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "Top <unbreak>500</unbreak> des donateurs",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Au cours d'un même combat, le nombre total de cumuls de Banger absolu qu'Evanescia obtient des autres coéquipiers via son talent Jouvence : Sérénité éternelle dépasse #1",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "Impossible d'abuser des bonnes choses",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Utiliser l'ultime du personnage allié Evanescia lorsque le nombre de cumuls de Banger absolu atteint #1",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "Et puis quoi encore, Kafka",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Déclencher Louvast antivirus de Louve d'argent Niv. 999 pour dissiper l'état Dominé appliqué par Kafka, la Chasseuse de Stellaron",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "Liste d'équipement",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "En un seul tour, les coéquipiers déclenchent #1 types d'effets de Butin légendaire de Louve d'argent Niv. 999",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "Le loup de Finance Street",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Utiliser la technique Ça, c'est meta ! de Louve d'argent Niv. 999 pour obtenir #1 pièces d'or d'un coup",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "Marionnette maléfique",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Durant le combat contre Béatitude suprême inversée : Archilotus malfaisant, un personnage allié est converti en Marionnette du bonheur, puis inflige En plein dans le mille et bat n'importe quelle cible",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "Santé mentale maximale",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Lors du combat contre Béatitude suprême inversée : Archilotus malfaisant, aucun personnage n'est transformé en Marionnette du bonheur lorsque Bonheur se déclenche",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "Les bons moments ont une fin",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Dans le combat contre les Ascendantes de la joie, éliminez #1 Ascendante de la joie : Omega ou plus en une seule attaque",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

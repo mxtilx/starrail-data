@@ -4469,6 +4469,57 @@
 		],
 		"VersionAdded": "3.7"
 	},
+	"22007": {
+		"Id": "22007",
+		"Name": "Tomorrow, Together",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Companion",
+		"EffectTemplate": "Meningkatkan <color=#f29e38ff>#1[i]%</color> CRIT DMG pengguna. Setelah pengguna melancarkan Ultimate, meningkatkan <color=#f29e38ff>#2[i]%</color> Tingkat Elation seluruh rekan tim selama #3[i] giliran.",
+		"Superimpositions": [
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>12%</color> CRIT DMG pengguna. Setelah pengguna melancarkan Ultimate, meningkatkan <color=#f29e38ff>8%</color> Tingkat Elation seluruh rekan tim selama 1 giliran.",
+				"Params": [
+					0.12,
+					0.08,
+					1
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>15%</color> CRIT DMG pengguna. Setelah pengguna melancarkan Ultimate, meningkatkan <color=#f29e38ff>9%</color> Tingkat Elation seluruh rekan tim selama 1 giliran.",
+				"Params": [
+					0.15,
+					0.09,
+					1
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>18%</color> CRIT DMG pengguna. Setelah pengguna melancarkan Ultimate, meningkatkan <color=#f29e38ff>10%</color> Tingkat Elation seluruh rekan tim selama 1 giliran.",
+				"Params": [
+					0.18,
+					0.1,
+					1
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>21%</color> CRIT DMG pengguna. Setelah pengguna melancarkan Ultimate, meningkatkan <color=#f29e38ff>11%</color> Tingkat Elation seluruh rekan tim selama 1 giliran.",
+				"Params": [
+					0.21,
+					0.11,
+					1
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>24%</color> CRIT DMG pengguna. Setelah pengguna melancarkan Ultimate, meningkatkan <color=#f29e38ff>12%</color> Tingkat Elation seluruh rekan tim selama 1 giliran.",
+				"Params": [
+					0.24,
+					0.12,
+					1
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"23000": {
 		"Id": "23000",
 		"Name": "Night on the Milky Way",
@@ -7769,6 +7820,133 @@
 			}
 		],
 		"VersionAdded": "4.1"
+	},
+	"23057": {
+		"Id": "23057",
+		"Name": "Welcome to the Cosmic City",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Guaranteed Victory",
+		"EffectTemplate": "Meningkatkan <color=#f29e38ff>#1[i]%</color> SPD pengguna, dan Elation DMG yang diakibatkan mengabaikan <color=#f29e38ff>#2[i]%</color> DEF target. Saat pengguna melancarkan Ultimate pada dirinya sendiri, memperoleh <color=#f29e38ff>#3[i]</color> poin \"Punchline\". Efek ini dapat dipicu hingga 1 kali, jumlah pemicuan akan di-reset setelah melancarkan #4[i] kali Basic Attack.",
+		"Superimpositions": [
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>18%</color> SPD pengguna, dan Elation DMG yang diakibatkan mengabaikan <color=#f29e38ff>20%</color> DEF target. Saat pengguna melancarkan Ultimate pada dirinya sendiri, memperoleh <color=#f29e38ff>20</color> poin \"Punchline\". Efek ini dapat dipicu hingga 1 kali, jumlah pemicuan akan di-reset setelah melancarkan 3 kali Basic Attack.",
+				"Params": [
+					0.18,
+					0.2,
+					20,
+					3
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>21%</color> SPD pengguna, dan Elation DMG yang diakibatkan mengabaikan <color=#f29e38ff>24%</color> DEF target. Saat pengguna melancarkan Ultimate pada dirinya sendiri, memperoleh <color=#f29e38ff>25</color> poin \"Punchline\". Efek ini dapat dipicu hingga 1 kali, jumlah pemicuan akan di-reset setelah melancarkan 3 kali Basic Attack.",
+				"Params": [
+					0.21,
+					0.24,
+					25,
+					3
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>24%</color> SPD pengguna, dan Elation DMG yang diakibatkan mengabaikan <color=#f29e38ff>28%</color> DEF target. Saat pengguna melancarkan Ultimate pada dirinya sendiri, memperoleh <color=#f29e38ff>30</color> poin \"Punchline\". Efek ini dapat dipicu hingga 1 kali, jumlah pemicuan akan di-reset setelah melancarkan 3 kali Basic Attack.",
+				"Params": [
+					0.24,
+					0.28,
+					30,
+					3
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>27%</color> SPD pengguna, dan Elation DMG yang diakibatkan mengabaikan <color=#f29e38ff>32%</color> DEF target. Saat pengguna melancarkan Ultimate pada dirinya sendiri, memperoleh <color=#f29e38ff>35</color> poin \"Punchline\". Efek ini dapat dipicu hingga 1 kali, jumlah pemicuan akan di-reset setelah melancarkan 3 kali Basic Attack.",
+				"Params": [
+					0.27,
+					0.32,
+					35,
+					3
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>30%</color> SPD pengguna, dan Elation DMG yang diakibatkan mengabaikan <color=#f29e38ff>36%</color> DEF target. Saat pengguna melancarkan Ultimate pada dirinya sendiri, memperoleh <color=#f29e38ff>40</color> poin \"Punchline\". Efek ini dapat dipicu hingga 1 kali, jumlah pemicuan akan di-reset setelah melancarkan 3 kali Basic Attack.",
+				"Params": [
+					0.3,
+					0.36,
+					40,
+					3
+				]
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"23058": {
+		"Id": "23058",
+		"Name": "Until the Flowers Bloom Again",
+		"PathType": "Elation",
+		"PathTypeText": "Elation",
+		"EffectName": "Daydream",
+		"EffectTemplate": "Meningkatkan <color=#f29e38ff>#1[i]%</color> CRIT DMG dan <color=#f29e38ff>#4[f1]%</color> Energy Regeneration Rate pengguna. Saat Max Energy pengguna lebih dari #5[i], setiap 10 poin Max Energy yang berlebih akan meningkatkan ekstra #6[f1]% Energy Regeneration Rate, maksimal menghitung #7[i] poin Max Energy yang berlebih. Saat pengguna melancarkan Elation Skill, meningkatkan <color=#f29e38ff>#2[f1]%</color> DMG yang diterima seluruh musuh selama #3[i] giliran, efek sejenis tidak dapat ditumpuk.",
+		"Superimpositions": [
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>60%</color> CRIT DMG dan <color=#f29e38ff>10.0%</color> Energy Regeneration Rate pengguna. Saat Max Energy pengguna lebih dari 120, setiap 10 poin Max Energy yang berlebih akan meningkatkan ekstra 0.3% Energy Regeneration Rate, maksimal menghitung 360 poin Max Energy yang berlebih. Saat pengguna melancarkan Elation Skill, meningkatkan <color=#f29e38ff>15.0%</color> DMG yang diterima seluruh musuh selama 2 giliran, efek sejenis tidak dapat ditumpuk.",
+				"Params": [
+					0.6,
+					0.15,
+					2,
+					0.1,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>75%</color> CRIT DMG dan <color=#f29e38ff>11.5%</color> Energy Regeneration Rate pengguna. Saat Max Energy pengguna lebih dari 120, setiap 10 poin Max Energy yang berlebih akan meningkatkan ekstra 0.3% Energy Regeneration Rate, maksimal menghitung 360 poin Max Energy yang berlebih. Saat pengguna melancarkan Elation Skill, meningkatkan <color=#f29e38ff>18.8%</color> DMG yang diterima seluruh musuh selama 2 giliran, efek sejenis tidak dapat ditumpuk.",
+				"Params": [
+					0.75,
+					0.1875,
+					2,
+					0.115,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>90%</color> CRIT DMG dan <color=#f29e38ff>13.0%</color> Energy Regeneration Rate pengguna. Saat Max Energy pengguna lebih dari 120, setiap 10 poin Max Energy yang berlebih akan meningkatkan ekstra 0.3% Energy Regeneration Rate, maksimal menghitung 360 poin Max Energy yang berlebih. Saat pengguna melancarkan Elation Skill, meningkatkan <color=#f29e38ff>22.5%</color> DMG yang diterima seluruh musuh selama 2 giliran, efek sejenis tidak dapat ditumpuk.",
+				"Params": [
+					0.9,
+					0.225,
+					2,
+					0.13,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>105%</color> CRIT DMG dan <color=#f29e38ff>14.5%</color> Energy Regeneration Rate pengguna. Saat Max Energy pengguna lebih dari 120, setiap 10 poin Max Energy yang berlebih akan meningkatkan ekstra 0.3% Energy Regeneration Rate, maksimal menghitung 360 poin Max Energy yang berlebih. Saat pengguna melancarkan Elation Skill, meningkatkan <color=#f29e38ff>26.3%</color> DMG yang diterima seluruh musuh selama 2 giliran, efek sejenis tidak dapat ditumpuk.",
+				"Params": [
+					1.05,
+					0.2625,
+					2,
+					0.145,
+					120,
+					0.003,
+					360
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>120%</color> CRIT DMG dan <color=#f29e38ff>16.0%</color> Energy Regeneration Rate pengguna. Saat Max Energy pengguna lebih dari 120, setiap 10 poin Max Energy yang berlebih akan meningkatkan ekstra 0.3% Energy Regeneration Rate, maksimal menghitung 360 poin Max Energy yang berlebih. Saat pengguna melancarkan Elation Skill, meningkatkan <color=#f29e38ff>30.0%</color> DMG yang diterima seluruh musuh selama 2 giliran, efek sejenis tidak dapat ditumpuk.",
+				"Params": [
+					1.2,
+					0.3,
+					2,
+					0.16,
+					120,
+					0.003,
+					360
+				]
+			}
+		],
+		"VersionAdded": "4.2"
 	},
 	"24000": {
 		"Id": "24000",

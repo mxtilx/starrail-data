@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "Chiến Kỹ",
 			"MaxLevel": 15,
 			"EffectRaw": "Giúp 1 đồng đội chỉ định (ngoại trừ bản thân) trở thành Sư Phụ, Tốc Độ của Sư Phụ tăng <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. Chỉ mục tiêu thi triển gần đây nhất của Chiến Kỹ được xem là Sư Phụ của March 7th.\nMỗi khi thi triển Tấn Công Thường hoặc gây ra 1 đòn sát thương Tấn Công Thường Cường Hóa, nếu trong trận có Sư Phụ thuộc Vận Mệnh được chỉ định, thì sẽ kích hoạt hiệu ứng tương ứng:\nTri Thức, Hủy Diệt, Săn Bắn, Ký Ức, Vui Vẻ: Gây thêm <u>Sát Thương Kèm Theo</u> dựa theo thuộc tính của Sư Phụ bằng <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Tấn Công của March 7th.\nHòa Hợp, Hư Vô, Bảo Hộ, Trù Phú: Tăng <unbreak>#3[i]%</unbreak> điểm Giảm Sức Bền của lần sát thương này.",
-			"AbridgedEffect": "Khiến 1 đồng đội phe ta trở thành Sư Phụ. Khi Tấn Công Thường hoặc gây sát thương Tấn Công Thường Cường Hóa, sẽ dựa vào <color=#f29e38ff>vận mệnh Sư Phụ</color> để kích hoạt hiệu ứng tương ứng:\nTri Thức, Hủy Diệt, Săn Bắn, Ký Ức: Gây thêm <color=#f29e38ff><u>Sát Thương Kèm Theo</u></color> dựa trên thuộc tính Sư Phụ.\nHòa Hợp, Hư Vô, Bảo Hộ, Trù Phú: Tăng điểm <color=#f29e38ff>Giảm Sức Bền</color>.",
+			"AbridgedEffect": "Khiến 1 đồng đội phe ta trở thành Sư Phụ. Khi Tấn Công Thường hoặc gây sát thương Tấn Công Thường Cường Hóa, sẽ dựa vào <color=#f29e38ff>vận mệnh Sư Phụ</color> để kích hoạt hiệu ứng tương ứng:\nTri Thức, Hủy Diệt, Săn Bắn, Ký Ức, Vui Vẻ: Gây thêm <color=#f29e38ff><u>Sát Thương Kèm Theo</u></color> dựa trên thuộc tính Sư Phụ.\nHòa Hợp, Hư Vô, Bảo Hộ, Trù Phú: Tăng điểm <color=#f29e38ff>Giảm Sức Bền</color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -39812,6 +39812,1278 @@
 		},
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "Bài Tập - Kiểm Tra Đột Xuất",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Vật Lý cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Evanescia.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Vật Lý cho 1 kẻ địch chỉ định.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "Kỷ Luật - Thước Đo Phán Quyết",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "Khuếch Tán",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Gây Sát Thương Vật Lý cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Tấn Công của Evanescia, gây Sát Thương Vật Lý cho mục tiêu lân cận bằng <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Tấn Công của Evanescia, và nhận thêm <unbreak>#4[i]</unbreak> điểm <u>Điểm Hài Hước</u>.",
+			"AbridgedEffect": "Gây lượng lớn Sát Thương Vật Lý cho 1 kẻ địch, gây Sát Thương Vật Lý cho mục tiêu lân cận, đồng thời nhận thêm <u>Điểm Hài Hước</u>.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "Kiếm Ca - Thần Quỷ Không Tha",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Gây Sát Thương Vật Lý lên toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Evanescia, sau đó gây 5 lần sát thương, mỗi lần sát thương gây Sát Thương Vật Lý lên 1 kẻ địch ngẫu nhiên bằng <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Tấn Công của Evanescia.",
+			"AbridgedEffect": "Gây Sát Thương Vật Lý lên toàn bộ phe địch, sau đó gây Sát Thương Vật Lý lên 1 kẻ địch ngẫu nhiên, tổng cộng nảy bật 5 lần.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "Thanh Xuân - Tuổi Trẻ Vô Hạn",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Evanescia nhận Độ Vui Vẻ bằng <unbreak>#5[i]%</unbreak> Sát Thương Bạo Kích. Khi Evanescia nhận Năng Lượng, sẽ đồng thời nhận \"<u>Việc Tốt Đáng Thưởng</u>\" có giá trị tương đương. Khi Evanescia nhận \"<u>Việc Tốt Đáng Thưởng</u>\", sẽ đồng thời nhận Năng Lượng có giá trị tương đương, \"<u>Việc Tốt Đáng Thưởng</u>\" được tính toán thông qua cách này trong một lần không vượt quá <unbreak>100</unbreak> điểm.\nKhi tích lũy nhận <unbreak>#3[i]</unbreak> điểm Năng Lượng, tiêu hao <unbreak>#3[i]</unbreak> điểm tích lũy, \"Giáo Viên Hồ Ly\" phát động <u>Đòn Đánh Theo Sau</u> gây Sát Thương Vật Lý bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Evanescia cho toàn bộ phe địch, hồi <unbreak>#4[i]</unbreak> điểm Năng Lượng cho Evanescia, khi nhận Năng Lượng trong một lần, tối đa nhận <unbreak>#3[i]</unbreak> điểm tích lũy. Khi Evanescia sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\":\nThi triển Chiến Kỹ có thể gây <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Vật Lý cho mục tiêu phe địch bị tấn công.\nThi triển Tuyệt Kỹ có thể gây <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Vật Lý cho toàn bộ phe địch, đồng thời gây <color=#f29e38ff><unbreak>#8[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Vật Lý cho mục tiêu phe địch ngẫu nhiên chịu sát thương từ Tuyệt Kỹ, khi Tuyệt Kỹ gây <u>Sát Thương Vui Vẻ</u>, ít nhất sẽ tính lượng \"<u>Việc Tốt Đáng Thưởng</u>\" bằng với Giới Hạn Năng Lượng.\n<u>Đòn Đánh Theo Sau</u> của \"Giáo Viên Hồ Ly\" có thể gây <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Vật Lý cho toàn bộ phe địch.",
+			"AbridgedEffect": "Khi Evanescia nhận Năng Lượng, sẽ đồng thời <color=#f29e38ff>nhận \"<u>Việc Tốt Đáng Thưởng</u>\" có giá trị tương đương</color>; Khi Evanescia nhận \"<u>Việc Tốt Đáng Thưởng</u>\", sẽ đồng thời <color=#f29e38ff>nhận Năng Lượng có giá trị tương đương</color>. Khi tích lũy nhận số lượng Năng Lượng nhất định, \"Giáo Viên Hồ Ly\" sẽ thi triển <u>Đòn Đánh Theo Sau</u> gây một lượng nhỏ Sát Thương Vật Lý cho toàn bộ phe địch, đồng thời hồi Năng Lượng cho Evanescia. Khi Evanescia sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", thi triển Chiến Kỹ, Tuyệt Kỹ và <u>Đòn Đánh Theo Sau</u> của \"Giáo Viên Hồ Ly\" có thể gây một lượng nhỏ <u>Sát Thương Vui Vẻ</u> thuộc tính Vật Lý cho phe địch.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "Hoa Rơi - Người Đi Còn Lại Ký Ức",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Lập tức tấn công tất cả kẻ địch trong phạm vi nhất định. Sau khi vào chiến đấu, gây Sát Thương Vật Lý cho toàn bộ phe địch bằng <unbreak>#1[i]%</unbreak> Tấn Công của Evanescia, đồng thời nhận <unbreak>#2[i]</unbreak> điểm \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"AbridgedEffect": "Lập tức tấn công tất cả kẻ địch trong phạm vi nhất định. Sau khi vào chiến đấu, gây lượng nhỏ Sát Thương Vật Lý cho toàn bộ phe địch và nhận \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Sói Bạc LV.<unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "Một Đấm!",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Số Ảo cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của \"Sói Bạc LV.<unbreak>999</unbreak>\".",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Số Ảo cho 1 kẻ địch chỉ định.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "Ải Thưởng: \"Thời Khắc Sói Tôn\"",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "Nảy Bật",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Số Ảo tổng cộng bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của \"Sói Bạc LV.<unbreak>999</unbreak>\", chia đều thành <unbreak>#3[i]</unbreak> đòn sát thương nảy bật lên các kẻ địch đơn lẻ ngẫu nhiên. Mỗi khi nảy bật đạt số đòn nhất định, tạm dừng nảy bật và kích hoạt 1 lần \"<u>Túi Mù Tiếp Tế Cực Phẩm</u>\", tổng cộng có thể kích hoạt <unbreak>#5[i]</unbreak> lần.\nNếu gây sát thương chí tử cho toàn bộ phe địch trên sân thì kết thúc kỹ năng lần này, sau khi xuất hiện mục tiêu phe địch có thể tấn công sẽ nhận 1 <u>hiệp tăng thêm</u> và dựa trên số đòn nảy bật còn lại và số lần \"<u>Túi Mù Tiếp Tế Cực Phẩm</u>\" để thi triển lại. Khi kích hoạt hiệu ứng này lần đầu mỗi hiệp, khiến tất cả <u>hiệu ứng buff</u> của bản thân kéo dài thêm 1 hiệp.\nSau khi tổng kết toàn bộ sát thương nói trên, sẽ phát động Đòn Đánh Cuối Cùng, gây Sát Thương Số Ảo bằng <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> Tấn Công của \"Sói Bạc LV.<unbreak>999</unbreak>\", chia đều cho toàn bộ phe địch.\nTấn Công Thường Cường Hóa không thể hồi Điểm Chiến Kỹ. Mỗi khi có <unbreak>#6[i]</unbreak> \"Điểm Ẩn\", sát thương gây ra trong thời gian Tấn Công Thường Cường Hóa tăng bằng <unbreak>#8[i]%</unbreak> sát thương gốc, tối đa cộng dồn <unbreak>#7[i]</unbreak> tầng.",
+			"AbridgedEffect": "Gây Sát Thương Số Ảo, tổng cộng nảy bật nhiều lần, trong thời gian này có thể kích hoạt <color=#f29e38ff><unbreak>#5[i]</unbreak></color> lần \"Túi Mù Tiếp Tế Cực Phẩm\". Nếu <color=#f29e38ff>gây sát thương chí tử cho toàn bộ phe địch, giữ lại hiệu ứng còn lại</color> tiếp tục thi triển lên mục tiêu phe địch mới vào trận. Cuối cùng gây Sát Thương Số Ảo, chia đều cho toàn bộ phe địch.\nMỗi khi \"Điểm Ẩn\" đạt số điểm nhất định, có thể tăng thêm sát thương của Tấn Công Thường Cường Hóa.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Bùng Nổ Thuộc Tính Shoot",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Nhận <unbreak>#2[i]</unbreak> <u>Điểm Hài Hước</u>, gây Sát Thương Số Ảo cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của \"Sói Bạc LV.<unbreak>999</unbreak>\".",
+			"AbridgedEffect": "Nhận <u>Điểm Hài Hước</u>, gây Sát Thương Số Ảo cho toàn bộ phe địch.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "Người Chơi Vô Địch: Khởi Động!",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Vào trạng thái \"Người Chơi Vô Địch\" và <u>Ưu Tiên Hành Động</u> <unbreak>100%</unbreak>.\nTrong trạng thái \"Người Chơi Vô Địch\" sẽ triển khai Kết Giới. Khi \"Sói Bạc LV.<unbreak>999</unbreak>\" sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", mỗi khi mục tiêu phe ta trong Kết Giới tiêu hao 1 Điểm Chiến Kỹ, có xác suất kích hoạt 1 lần \"<u>Túi Mù Tiếp Tế Cực Phẩm</u>\" của \"Sói Bạc LV.<unbreak>999</unbreak>\": Gây <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Số Ảo, chia đều cho toàn bộ phe địch, và kích hoạt ngẫu nhiên 1 loại hiệu ứng:\n\"Kiếm Siêu Siêu To\": Gây thêm <u>Sát Thương Chuẩn</u> bằng <unbreak>#5[i]%</unbreak> tổng sát thương lần này cho mục tiêu phe địch có HP cao nhất;\n\"Trứng Nổ Bùm Bùm\": Hồi <unbreak>#7[i]</unbreak> Điểm Chiến Kỹ;\n\"Đậu Vị Kỳ Quái\": Nhận <unbreak>#6[i]</unbreak> <u>Điểm Hài Hước</u>.\n<u>Xác suất cố định</u> ban đầu kích hoạt hiệu ứng này là <unbreak>100%</unbreak>, sau khi kích hoạt thành công, <u>xác suất cố định</u> cho lần kích hoạt tiếp theo sẽ giảm còn <unbreak>#4[i]%</unbreak> của xác suất hiện tại. Nếu trước khi kích hoạt mà mục tiêu đã bị tiêu diệt, thì sẽ kích hoạt lên mục tiêu phe địch mới vào trận.",
+			"AbridgedEffect": "Biến thân và <u>Ưu Tiên Hành Động</u> <unbreak>100%</unbreak>.\nTrong thời gian biến thân sẽ triển khai kết giới. Khi có \"<u>Việc Tốt Đáng Thưởng</u>\", mỗi khi phe ta <color=#f29e38ff>tiêu hao 1 Điểm Chiến Kỹ</color>, có xác suất lớn <color=#f29e38ff>kích hoạt 1 lần \"Túi Mù Tiếp Tế Cực Phẩm\"</color>: Gây lượng lớn <u>Sát Thương Vui Vẻ</u> thuộc tính Số Ảo, chia đều cho toàn bộ phe địch, và ngẫu nhiên kích hoạt 1 loại hiệu ứng:\nGây <color=#f29e38ff><u>Sát Thương Chuẩn</u></color> cho mục tiêu có HP cao nhất dựa trên tổng lượng sát thương;\nHồi phục <color=#f29e38ff>Điểm Chiến Kỹ</color>;\nNhận <color=#f29e38ff><u>Điểm Hài Hước</u></color>.\nSau mỗi lần kích hoạt, xác suất sẽ giảm dần theo tỷ lệ.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "Kiếm Siêu Siêu To",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "Gây lượng lớn <u>Sát Thương Vui Vẻ</u> thuộc tính Số Ảo cho toàn bộ phe địch, chia đều cho toàn bộ phe địch. Gây <u>Sát Thương Chuẩn</u> dựa trên tổng lượng sát thương cho mục tiêu có HP cao nhất.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "Tôi Gánh Team, Bao Thắng Chắc",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Sau khi \"Điểm Ẩn\" đạt <unbreak>#1[i]</unbreak> điểm có thể kích hoạt Tuyệt Kỹ, sau khi đạt giới hạn còn có thể dư ra <unbreak>#2[i]</unbreak> điểm.\nKhi nhận <u>Điểm Hài Hước</u>, \"Sói Bạc LV.<unbreak>999</unbreak>\" sẽ nhận lượng \"Điểm Ẩn\" tương đương. Mỗi \"Điểm Ẩn\" giúp tăng <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color> Tỷ Lệ Bạo Kích. Sau khi Tỷ Lệ Bạo Kích đạt <unbreak>100%</unbreak>, mỗi \"Điểm Ẩn\" còn lại sẽ chuyển thành tăng <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color> Sát Thương Bạo Kích.\nTrong trạng thái \"Người Chơi Vô Địch\", \"Sói Bạc LV.<unbreak>999</unbreak>\" miễn dịch <u>Hiệu Ứng Xấu Loại Khống Chế</u>, không thể thi triển Tuyệt Kỹ, sở hữu Tấn Công Thường Cường Hóa và Kỹ Năng Vui Vẻ Cường Hóa, sau khi thi triển hoàn tất <unbreak>#5[i]</unbreak> lần Tấn Công Thường Cường Hóa sẽ thoát trạng thái \"Người Chơi Vô Địch\". Khi thoát trạng thái \"Người Chơi Vô Địch\", \"Điểm Ẩn\" sẽ bị xóa sạch.\nKhi có \"<u>Việc Tốt Đáng Thưởng</u>\", thi triển Tấn Công Thường, Chiến Kỹ gây <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Số Ảo cho mục tiêu phe địch bị tấn công, sát thương kỹ năng của Tấn Công Thường Cường Hóa chuyển thành <u>Sát Thương Vui Vẻ</u> có cùng bội số.",
+			"AbridgedEffect": "Sau khi \"Điểm Ẩn\" đạt <color=#f29e38ff><unbreak>#1[i]</unbreak></color> điểm có thể kích hoạt Tuyệt Kỹ. <color=#f29e38ff>Khi nhận <u>Điểm Hài Hước</u> sẽ nhận lượng \"Điểm Ẩn\" tương đương</color>. \"Điểm Ẩn\" càng cao thì Tỷ Lệ Bạo Kích càng cao, sau khi Tỷ Lệ Bạo Kích đạt <unbreak>100%</unbreak> chuyển thành tăng Sát Thương Bạo Kích.\nTrong thời gian biến thân, \"Sói Bạc LV.<unbreak>999</unbreak>\" miễn dịch <u>Hiệu Ứng Xấu Loại Khống Chế</u>, Tấn Công Thường và Kỹ Năng Vui Vẻ được cường hóa, sau khi thi triển <color=#f29e38ff><unbreak>#5[i]</unbreak></color> lần Tấn Công Thường Cường Hóa sẽ thoát trạng thái biến thân.\nKhi có \"<u>Việc Tốt Đáng Thưởng</u>\", thi triển Tấn Công Thường, Chiến Kỹ gây thêm <u>Sát Thương Vui Vẻ</u> thuộc tính Số Ảo, sát thương kỹ năng của Tấn Công Thường Cường Hóa chuyển thành <u>Sát Thương Vui Vẻ</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "Ôi Bạn Ơi, Đây Mới Là Bí Kỹ Tier 0",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "Triệu Hồi",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Triệu hồi \"Đậu Vị Kỳ Quái\", sử dụng lần nữa sẽ hủy triệu hồi. Sử dụng Bí Kỹ không tiêu hao Điểm Bí Kỹ, khi Điểm Bí Kỹ bằng 0 sẽ hủy triệu hồi và không thể sử dụng Bí Kỹ.\n\"Đậu Vị Kỳ Quái\" sẽ khiến kẻ địch thường trong phạm vi nhất định rơi vào trạng thái Kinh Hãi, đồng thời tự động tìm kiếm và tấn công kẻ địch thường, tiêu hao 1 Điểm Bí Kỹ lập tức tiêu diệt kẻ địch đó mà không cần vào chiến đấu.\nKhi \"Đậu Vị Kỳ Quái\" ở trong trận, sau khi vào chiến đấu, khi bắt đầu mỗi đợt sẽ kích hoạt 1 lần \"<u>Túi Mù Tiếp Tế Cực Phẩm</u>\" tương ứng với \"Đậu Vị Kỳ Quái\", <u>Sát Thương Vui Vẻ</u> gây ra lần này tính cố định <unbreak>#1[i]</unbreak> điểm \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"AbridgedEffect": "Triệu hồi \"Đậu Vị Kỳ Quái\", sử dụng lần nữa sẽ giải trừ triệu hồi. Khi dùng <color=#f29e38ff>không tiêu hao Điểm Bí Kỹ</color>.\n\"Đậu Vị Kỳ Quái\" sẽ tự động tìm kiếm và tấn công kẻ địch thường, tiêu hao 1 Điểm Bí Kỹ <color=#f29e38ff>lập tức tiêu diệt kẻ địch đó mà không cần vào chiến đấu</color>.\nSau khi vào chiến đấu, khi bắt đầu mỗi đợt sẽ kích hoạt \"Túi Mù Tiếp Tế Cực Phẩm\" tương ứng với \"Đậu Vị Kỳ Quái\".",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "Đây Chính Là Cổ Vũ",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Lôi cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Nhà Khai Phá.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Lôi cho 1 kẻ địch.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "Cơn Bão Thật Ồn Ào",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Gây Sát Thương Lôi cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Nhà Khai Phá, nhận <unbreak>#2[i]</unbreak> điểm \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Lôi cho toàn phe địch, nhận \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "Yên Tâm Bay Đi, Khai Phá Mãi Đồng Hành!",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Hỗ Trợ",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Nhận <unbreak>#6[i]</unbreak> <u>Điểm Hài Hước</u>, khiến Sát Thương Bạo Kích của 1 đồng đội chỉ định tăng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, duy trì <unbreak>#2[i]</unbreak> hiệp, đồng thời giải trừ <u>Hiệu Ứng Xấu Loại Khống Chế</u> của mục tiêu này.\nNếu mục tiêu có Kỹ Năng Vui Vẻ, mục tiêu nhận thêm <unbreak>#4[i]</unbreak> điểm \"<u>Việc Tốt Đáng Thưởng</u>\", đồng thời khiến mục tiêu lập tức thi triển 1 lần Kỹ Năng Vui Vẻ được tính cố định <unbreak>#5[i]</unbreak> <u>Điểm Hài Hước</u>, nếu mục tiêu phe địch bị tiêu diệt trước khi thi triển Kỹ Năng Vui Vẻ, thì sẽ phát động Kỹ Năng Vui Vẻ lên mục tiêu phe địch mới vào trận.\nNếu mục tiêu không có Kỹ Năng Vui Vẻ, khiến mục tiêu đó <u>Ưu Tiên Hành Động</u> <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Nhận <u>Điểm Hài Hước</u>, khiến 1 đồng đội chỉ định tăng Sát Thương Bạo Kích, đồng thời giải trừ <u>Hiệu Ứng Xấu Loại Khống Chế</u> của mục tiêu này. Nếu mục tiêu có Kỹ Năng Vui Vẻ, <color=#f29e38ff>mục tiêu nhận thêm \"<u>Việc Tốt Đáng Thưởng</u>\"</color>, đồng thời khiến mục tiêu <color=#f29e38ff>lập tức thi triển Kỹ Năng Vui Vẻ</color>, nếu không sẽ khiến mục tiêu <u>Ưu Tiên Hành Động</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "Anh Hùng Mỉm Cười, Sinh Tử Khó Lường",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Hỗ Trợ",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Sau khi thi triển tấn công, hồi phục cố định <unbreak>#1[i]</unbreak> điểm Năng Lượng và nhận <unbreak>#2[i]</unbreak> <u>Điểm Hài Hước</u>.\nKhi Nhà Khai Phá sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", Chiến Kỹ gây thêm <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Lôi cho toàn bộ phe địch, sát thương này sử dụng giá trị \"<u>Việc Tốt Đáng Thưởng</u>\" cao nhất của phe ta để tính toán.",
+			"AbridgedEffect": "Sau khi thi triển tấn công sẽ hồi Năng Lượng và nhận <u>Điểm Hài Hước</u>.\nKhi Nhà Khai Phá sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", Chiến Kỹ sẽ gây thêm lượng nhỏ <u>Sát Thương Vui Vẻ</u> thuộc tính Lôi cho toàn bộ phe địch.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "Cháy Lên Nào!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Sau khi sử dụng Bí Kỹ sẽ nhận ngẫu nhiên 1 loại hiệu ứng sau:\nXác suất nhỏ nhận \"Cười Vang Sảng Khoái\": Độ Vui Vẻ tăng <unbreak>#1[i]%</unbreak>.\nXác suất lớn nhận \"Không Nhịn Được Cười\": Độ Vui Vẻ tăng <unbreak>#3[i]%</unbreak>.\nKhi bắt đầu trận chiến tiếp theo, khiến toàn phe ta tăng Độ Vui Vẻ theo giá trị tương ứng, duy trì <unbreak>#5[i]</unbreak> hiệp.",
+			"AbridgedEffect": "Sau khi dùng Bí Kỹ, lần tới khi vào chiến đấu sẽ <color=#f29e38ff>tăng Độ Vui Vẻ cho toàn bộ phe ta</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "Đây Chính Là Cổ Vũ",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Lôi cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Nhà Khai Phá.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Lôi cho 1 kẻ địch.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "Cơn Bão Thật Ồn Ào",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Gây Sát Thương Lôi cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Nhà Khai Phá, nhận <unbreak>#2[i]</unbreak> điểm \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Lôi cho toàn phe địch, nhận \"<u>Việc Tốt Đáng Thưởng</u>\".",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "Yên Tâm Bay Đi, Khai Phá Mãi Đồng Hành!",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Hỗ Trợ",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Nhận <unbreak>#6[i]</unbreak> <u>Điểm Hài Hước</u>, khiến Sát Thương Bạo Kích của 1 đồng đội chỉ định tăng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, duy trì <unbreak>#2[i]</unbreak> hiệp, đồng thời giải trừ <u>Hiệu Ứng Xấu Loại Khống Chế</u> của mục tiêu này.\nNếu mục tiêu có Kỹ Năng Vui Vẻ, mục tiêu nhận thêm <unbreak>#4[i]</unbreak> điểm \"<u>Việc Tốt Đáng Thưởng</u>\", đồng thời khiến mục tiêu lập tức thi triển 1 lần Kỹ Năng Vui Vẻ được tính cố định <unbreak>#5[i]</unbreak> <u>Điểm Hài Hước</u>, nếu mục tiêu phe địch bị tiêu diệt trước khi thi triển Kỹ Năng Vui Vẻ, thì sẽ phát động Kỹ Năng Vui Vẻ lên mục tiêu phe địch mới vào trận.\nNếu mục tiêu không có Kỹ Năng Vui Vẻ, khiến mục tiêu đó <u>Ưu Tiên Hành Động</u> <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Nhận <u>Điểm Hài Hước</u>, khiến 1 đồng đội chỉ định tăng Sát Thương Bạo Kích, đồng thời giải trừ <u>Hiệu Ứng Xấu Loại Khống Chế</u> của mục tiêu này. Nếu mục tiêu có Kỹ Năng Vui Vẻ, <color=#f29e38ff>mục tiêu nhận thêm \"<u>Việc Tốt Đáng Thưởng</u>\"</color>, đồng thời khiến mục tiêu <color=#f29e38ff>lập tức thi triển Kỹ Năng Vui Vẻ</color>, nếu không sẽ khiến mục tiêu <u>Ưu Tiên Hành Động</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "Anh Hùng Mỉm Cười, Sinh Tử Khó Lường",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Hỗ Trợ",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Sau khi thi triển tấn công, hồi phục cố định <unbreak>#1[i]</unbreak> điểm Năng Lượng và nhận <unbreak>#2[i]</unbreak> <u>Điểm Hài Hước</u>.\nKhi Nhà Khai Phá sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", Chiến Kỹ gây thêm <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> <u>Sát Thương Vui Vẻ</u> thuộc tính Lôi cho toàn bộ phe địch, sát thương này sử dụng giá trị \"<u>Việc Tốt Đáng Thưởng</u>\" cao nhất của phe ta để tính toán.",
+			"AbridgedEffect": "Sau khi thi triển tấn công sẽ hồi Năng Lượng và nhận <u>Điểm Hài Hước</u>.\nKhi Nhà Khai Phá sở hữu \"<u>Việc Tốt Đáng Thưởng</u>\", Chiến Kỹ sẽ gây thêm lượng nhỏ <u>Sát Thương Vui Vẻ</u> thuộc tính Lôi cho toàn bộ phe địch.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "Cháy Lên Nào!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Sau khi sử dụng Bí Kỹ sẽ nhận ngẫu nhiên 1 loại hiệu ứng sau:\nXác suất nhỏ nhận \"Cười Vang Sảng Khoái\": Độ Vui Vẻ tăng <unbreak>#1[i]%</unbreak>.\nXác suất lớn nhận \"Không Nhịn Được Cười\": Độ Vui Vẻ tăng <unbreak>#3[i]%</unbreak>.\nKhi bắt đầu trận chiến tiếp theo, khiến toàn phe ta tăng Độ Vui Vẻ theo giá trị tương ứng, duy trì <unbreak>#5[i]</unbreak> hiệp.",
+			"AbridgedEffect": "Sau khi dùng Bí Kỹ, lần tới khi vào chiến đấu sẽ <color=#f29e38ff>tăng Độ Vui Vẻ cho toàn bộ phe ta</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

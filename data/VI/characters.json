@@ -3156,6 +3156,88 @@
 		],
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"ElementType": "Physical",
+		"ElementTypeText": "Vật Lý",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"Eidolons": [
+			{
+				"Id": "150501",
+				"Name": "Cố Hương, Nhảy Múa Cầu Phúc",
+				"Effect": "Xuyên Kháng Toàn Thuộc Tính tăng 20%, sau khi \"Giáo Viên Hồ Ly\" thi triển tấn công sẽ kích hoạt thêm 1 lần Kỹ Năng Vui Vẻ. Kỹ Năng Vui Vẻ sẽ khiến bản thân nhận thêm 10 điểm \"<u>Việc Tốt Đáng Thưởng</u>\"."
+			},
+			{
+				"Id": "150502",
+				"Name": "Đường Xa, Cầu Nở Mãi Không Tàn",
+				"Effect": "Sát Thương Bạo Kích tăng 36%, khi kích hoạt hiệu ứng nhận Việc Tốt Đáng Thưởng của Vết Tích \"Cúi Nhìn Niềm Vui Chúng Sinh\"/Vết Tích \"Hoa Nở Mãi Không Tàn\", nhận thêm \"<u>Việc Tốt Đáng Thưởng</u>\" bằng 50%/100% \"<u>Việc Tốt Đáng Thưởng</u>\" nhận được lần này."
+			},
+			{
+				"Id": "150503",
+				"Name": "Thước Kiếm, Nuốt Yêu Tà Trăng Máu",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "150504",
+				"Name": "Cánh Đồng Hoa, Bị Kẻ Ác Vùi Dập",
+				"Effect": "Sát thương Evanescia gây ra bỏ qua 15% Phòng Thủ của mục tiêu phe địch."
+			},
+			{
+				"Id": "150505",
+				"Name": "Thiên Đường Vui Vẻ, Chứng Kiến Buồn Vui Sướng Khổ",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "150506",
+				"Name": "Thiếu Nữ, Nhìn Nhân Gian Bước Vào Mộng",
+				"Effect": "Thời gian duy trì \"<u>Việc Tốt Đáng Thưởng</u>\" của Evanescia tăng 1 hiệp. <u>Sát Thương Vui Vẻ</u> do Evanescia gây ra <u>tăng Hài Hước</u> 15%, mỗi khi sở hữu 100 điểm \"<u>Việc Tốt Đáng Thưởng</u>\" sẽ <u>tăng Hài Hước</u> thêm 2.0%, tính tối đa 1000 điểm \"<u>Việc Tốt Đáng Thưởng</u>\". Sau khi thi triển Tuyệt Kỹ lần đầu khi vào chiến đấu, hồi cố định 120 điểm Năng Lượng cho Evanescia, hiệu ứng này mỗi khi thi triển thêm 4 lần Tuyệt Kỹ có thể kích hoạt 1 lần."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Sói Bạc LV.<unbreak>999</unbreak>",
+		"ElementType": "Imaginary",
+		"ElementTypeText": "Số Ảo",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"Eidolons": [
+			{
+				"Id": "150601",
+				"Name": "Trình Chỉnh Sửa Aether: Tinh Hồn +1",
+				"Effect": "Sát thương mục tiêu phe địch trong Kết Giới phải chịu tăng 20%.\nKhi thoát trạng thái \"Người Chơi Vô Địch\" sẽ không xóa hết \"Điểm Ẩn\", đổi thành giữ lại 20% \"Điểm Ẩn\"."
+			},
+			{
+				"Id": "150602",
+				"Name": "Là Cơ Chế, Không Phải BUG",
+				"Effect": "Sau khi vào trạng thái \"Người Chơi Vô Địch\", khiến tất cả <u>hiệu ứng buff</u> bản thân đang có kéo dài 1 hiệp. Trong trạng thái \"Người Chơi Vô Địch\" lần này, mỗi khi khiến \"Điểm Ẩn\" tăng 120 điểm (bao gồm \"Điểm Ẩn\" ban đầu), \"Sói Bạc LV.999\" sẽ nhận 1 <u>hiệp tăng thêm</u> và hồi 1 lần số lần có thể thi triển Tấn Công Thường Cường Hóa."
+			},
+			{
+				"Id": "150603",
+				"Name": "Chỉ Có Cấp <unbreak>15</unbreak> Thôi À? Ai Điền Vậy",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "150604",
+				"Name": "Tôi Đến, Tôi Thấy, Tôi... One-Shot",
+				"Effect": "<u>Sát Thương Vui Vẻ</u> do \"Trình Diễn Sát Thương Cấp Honkai\" gây ra được tính thêm 5 lần <u>Điểm Hài Hước</u>."
+			},
+			{
+				"Id": "150605",
+				"Name": "Tấn Công Thường Chính Là Tuyệt Kỹ",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "150606",
+				"Name": "Tôi Tăng Max Cấp Một Mình!",
+				"Effect": "<u>Sát Thương Vui Vẻ</u> gây ra trong thời gian Tấn Công Thường Cường Hóa <u>tăng Hài Hước</u> 50%.\nKhi mục tiêu phe địch vào chiến đấu, sẽ bị gắn \"Điểm Yếu Tuyệt Đối\": Sở hữu Điểm Yếu Toàn Thuộc Tính và <u>Kháng Cơ Bản</u> Toàn Thuộc Tính giảm xuống 0 (Nếu <u>Kháng Cơ Bản</u> bằng 0 thì đổi thành Kháng Thuộc Tính tương ứng giảm 20%)."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Nhà Khai Phá (Vật Lý)",
@@ -3499,5 +3581,91 @@
 			}
 		],
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "Nhà Khai Phá (Lôi)",
+		"TrailblazerCanonName": "Caelus",
+		"TrailblazerGender": "M",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lôi",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"Eidolons": [
+			{
+				"Id": "800901",
+				"Name": "Thời Gian Tin Vào Ánh Sáng",
+				"Effect": "Sau khi thi triển Chiến Kỹ, lần tiếp theo thi triển Tuyệt Kỹ khiến \"<u>Việc Tốt Đáng Thưởng</u>\" mà mục tiêu phe ta nhận được tăng 2 điểm, hiệu ứng này tối đa cộng dồn 3 tầng."
+			},
+			{
+				"Id": "800902",
+				"Name": "Đang Tạo Nên Lịch Sử...",
+				"Effect": "Tuyệt Kỹ khiến Độ Vui Vẻ của 1 đồng đội chỉ định tăng thêm 12%, duy trì 2 hiệp."
+			},
+			{
+				"Id": "800903",
+				"Name": "Lại Đây Nào, Tiêu Điểm Của Ống Kính",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "800904",
+				"Name": "Giải Cứu Thế Giới, Không Cần Lý Do",
+				"Effect": "Khi thi triển Kỹ Năng Vui Vẻ, khiến sát thương mục tiêu phe địch phải chịu tăng 10%, duy trì 2 hiệp."
+			},
+			{
+				"Id": "800905",
+				"Name": "Tình Yêu Và Dũng Cảm, Không Bao Giờ Lỗi Thời",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "800906",
+				"Name": "Huyền Thoại Vũ Trụ, Xuất Hiện!",
+				"Effect": "Khi thi triển Kỹ Năng Vui Vẻ, khiến Sát Thương Bạo Kích của bản thân tăng 100%, duy trì 3 hiệp."
+			}
+		],
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "Nhà Khai Phá (Lôi)",
+		"TrailblazerCanonName": "Stelle",
+		"TrailblazerGender": "F",
+		"ElementType": "Thunder",
+		"ElementTypeText": "Lôi",
+		"PathType": "Elation",
+		"PathTypeText": "Vui Vẻ",
+		"Eidolons": [
+			{
+				"Id": "801001",
+				"Name": "Thời Gian Tin Vào Ánh Sáng",
+				"Effect": "Sau khi thi triển Chiến Kỹ, lần tiếp theo thi triển Tuyệt Kỹ khiến \"<u>Việc Tốt Đáng Thưởng</u>\" mà mục tiêu phe ta nhận được tăng 2 điểm, hiệu ứng này tối đa cộng dồn 3 tầng."
+			},
+			{
+				"Id": "801002",
+				"Name": "Đang Tạo Nên Lịch Sử...",
+				"Effect": "Tuyệt Kỹ khiến Độ Vui Vẻ của 1 đồng đội chỉ định tăng thêm 12%, duy trì 2 hiệp."
+			},
+			{
+				"Id": "801003",
+				"Name": "Lại Đây Nào, Tiêu Điểm Của Ống Kính",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "801004",
+				"Name": "Giải Cứu Thế Giới, Không Cần Lý Do",
+				"Effect": "Khi thi triển Kỹ Năng Vui Vẻ, khiến sát thương mục tiêu phe địch phải chịu tăng 10%, duy trì 2 hiệp."
+			},
+			{
+				"Id": "801005",
+				"Name": "Tình Yêu Và Dũng Cảm, Không Bao Giờ Lỗi Thời",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10; Cấp Kỹ Năng Vui Vẻ +1, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "801006",
+				"Name": "Huyền Thoại Vũ Trụ, Xuất Hiện!",
+				"Effect": "Khi thi triển Kỹ Năng Vui Vẻ, khiến Sát Thương Bạo Kích của bản thân tăng 100%, duy trì 3 hiệp."
+			}
+		],
+		"VersionAdded": "4.2"
 	}
 }

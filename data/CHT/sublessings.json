@@ -3161,9 +3161,9 @@
 		"Id": "615540",
 		"Name": "災難性共振",
 		"Rarity": 1,
-		"Effect": "持有【<u>戰意</u>】的角色，施放普通攻擊/戰技/終結技造成傷害時，敵方目標受到的傷害提高<color=#f29e38ff>10%</color>。【<u>戰意</u>】層數大於<color=#f29e38ff>10</color>層時，額外使敵方目標受到的擊破傷害提高<color=#f29e38ff>30%</color>。",
+		"Effect": "持有【<u>戰意</u>】的角色，發動普通攻擊/戰技/終結技造成傷害時，敵方目標受到的傷害提高<color=#f29e38ff>10%</color>。【<u>戰意</u>】層數大於<color=#f29e38ff>10</color>層時，額外使敵方目標受到的擊破傷害提高<color=#f29e38ff>30%</color>。",
 		"AbridgedEffect": "持有【<u>戰意</u>】的角色，施放技能造成傷害時敵方目標受到的傷害提高。【<u>戰意</u>】大於一定層數時，額外使敵方目標受到的擊破傷害提高。",
-		"EnhancedEffect": "持有【<u>戰意</u>】的角色，施放普通攻擊/戰技/終結技造成傷害時，敵方目標受到的傷害提高<color=#f29e38ff>15%</color>。【<u>戰意</u>】層數大於<color=#f29e38ff>10</color>層時，額外使敵方目標受到的擊破傷害提高<color=#f29e38ff>45%</color>。",
+		"EnhancedEffect": "持有【<u>戰意</u>】的角色，發動普通攻擊/戰技/終結技造成傷害時，敵方目標受到的傷害提高<color=#f29e38ff>15%</color>。【<u>戰意</u>】層數大於<color=#f29e38ff>10</color>層時，額外使敵方目標受到的擊破傷害提高<color=#f29e38ff>45%</color>。",
 		"EnhancedAbridgedEffect": "持有【<u>戰意</u>】的角色，施放技能造成傷害時敵方目標受到的傷害提高。【<u>戰意</u>】大於一定層數時，額外使敵方目標受到的擊破傷害提高。",
 		"VersionAdded": "3.1"
 	},
@@ -8119,6 +8119,20 @@
 		"Effect": "不死途在差分宇宙中的傷害獲得增幅。\n\n對生命值百分比小於<color=#f29e38ff>50%</color>的敵方目標，造成的最終傷害提高<color=#f29e38ff>30%</color>，若為追加攻擊傷害則額外提高<color=#f29e38ff>15%</color>。",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "緋英",
+		"Rarity": 1,
+		"Effect": "緋英在差分宇宙中的傷害獲得增幅。\n\n持有【好活當賞】時，自身造成的最終傷害提高<color=#f29e38ff>15%</color>，若【好活當賞】為<color=#f29e38ff>100</color>點以上，則造成的最終傷害額外提高<color=#f29e38ff>15%</color>。",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "銀狼LV.<unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "銀狼LV.999在差分宇宙中的傷害獲得增幅。\n\n阿哈回合開始時，每有1點笑點，使銀狼LV.999歡愉度提高<color=#f29e38ff>0.5%</color>，持續至阿哈下一回合開始時。",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n造成的最終傷害提高<color=#f29e38ff>15%</color>，進入戰鬥時，恢復等同於<color=#f29e38ff>50%</color>能量上限的能量。",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標歡愉度提高<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "{NICKNAME}在差分宇宙中的傷害獲得增幅。\n\n在場時，我方目標歡愉度提高<color=#f29e38ff>12%</color>。",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",
@@ -8924,7 +8952,7 @@
 		"Name": "碎星蠧役",
 		"Rarity": 1,
 		"Effect": "角色造成的普通攻擊傷害提高<color=#f29e38ff>80%</color>，發動普通攻擊時，若生命值百分比大於等於<color=#f29e38ff>50%</color>，則消耗等同於生命上限<color=#f29e38ff>5%</color>的生命值並額外恢復1點戰技點。",
-		"AbridgedEffect": "角色造成的普通攻擊傷害提高，施放普通攻擊時，若生命值百分比大於等於<color=#f29e38ff>50%</color>，則消耗生命值並恢復戰技點。",
+		"AbridgedEffect": "角色造成的普通攻擊傷害提高，發動普通攻擊時，若生命值百分比為<color=#f29e38ff>50%</color>以上，則消耗生命值並恢復戰技點。",
 		"VersionAdded": "3.1"
 	},
 	"672810": {

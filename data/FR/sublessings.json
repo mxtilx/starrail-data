@@ -8119,6 +8119,20 @@
 		"Effect": "Amplifie les DGT d'Ashveil dans l'Univers parallèle.\n\nLes DGT finaux qu'il inflige aux cibles ennemies dont le pourcentage de PV est inférieur à <color=#f29e38ff>50%</color> augmentent de <color=#f29e38ff>30%</color>. S'il s'agit de DGT d'ATQ de suivi, augmente de <color=#f29e38ff>15%</color> supplémentaires.",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "Evanescia",
+		"Rarity": 1,
+		"Effect": "Amplifie les DGT de Evanescia dans l'Univers parallèle.\n\nDans l'état Banger absolu, les DGT finaux infligés par cette unité augmentent de <color=#f29e38ff>15%</color>. Si le nombre de points de Banger absolu atteint <color=#f29e38ff>100</color> ou plus, augmente les DGT finaux infligés de <color=#f29e38ff>15%</color> supplémentaires.",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "Louve d'argent Niv. <unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "Amplifie les DGT de Louve d'argent Niv. 999 dans l'Univers parallèle.\n\nLorsque le tour d'Aha débute, l'Allégresse de Louve d'argent Niv. 999 augmente de <color=#f29e38ff>0.5%</color> pour chaque point de Panache possédé. Cet effet dure jusqu'au prochain tour d'Aha.",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "Amplifie les DGT de {NICKNAME} dans l'Univers parallèle.\n\nAugmente les DGT finaux infligés de <color=#f29e38ff>15%</color>. Au début du combat, régénère des points d'énergie équivalents à <color=#f29e38ff>50%</color> de l'énergie max.",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Amplifie les DGT de {NICKNAME} dans l'Univers parallèle.\n\nLorsqu'{M#il}{F#elle} est sur le champ de bataille, augmente l'Allégresse des cibles alliées de <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Amplifie les DGT de {NICKNAME} dans l'Univers parallèle.\n\nLorsqu'{M#il}{F#elle} est sur le champ de bataille, augmente l'Allégresse des cibles alliées de <color=#f29e38ff>12%</color>.",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",

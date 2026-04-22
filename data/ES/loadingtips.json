@@ -311,12 +311,6 @@
 		"Description": "Antigua alianza formada por muchas razas inteligentes.\nDirigen las naves de Xianzhou para erradicar las abominaciones de la Abundancia.",
 		"VersionAdded": "1.0"
 	},
-	"10053": {
-		"Id": "10053",
-		"Name": "Cazadores de Estelaron",
-		"Description": "Organización que viaja por los mundos en busca de Estelaron.\nNo se sabe qué Eón les proporcionó su poder.",
-		"VersionAdded": "1.0"
-	},
 	"10054": {
 		"Id": "10054",
 		"Name": "Moradores de la Abundancia",
@@ -1931,6 +1925,30 @@
 		"Description": "Grupo de entretenimiento interestelar a nombre de Perla. Sus principales actividades abarcan la producción y venta de mecatrones.\nLa Torre Perlux, su imponente sede, es un santuario anhelado por incontables buscadores de empleo.",
 		"VersionAdded": "4.1"
 	},
+	"10426": {
+		"Id": "10426",
+		"Name": "Buendeseo",
+		"Description": "Presidenta de la Sociedad de Investigación Sonrisa Feliz y directora del canal de televisión Buendeseo. Huérfana sobreviviente de los Juegos de Sangre.\nPara consumar su venganza contra la Exultación de Planarcadia, se transformó en su propio enemigo y, como Anunciamuertes, juzgó a la arcadia.",
+		"VersionAdded": "4.2"
+	},
+	"10427": {
+		"Id": "10427",
+		"Name": "Sociedad de Investigación Sonrisa Feliz",
+		"Description": "Una organización benéfica de gran envergadura que surgió de la Asociación de Apoyo Mutuo para víctimas del incidente del Anunciamuertes.\nMediante métodos como la cirugía de la felicidad, transforma a los ciudadanos en bestias que solo conocen el sabor de la felicidad.",
+		"VersionAdded": "4.2"
+	},
+	"10428": {
+		"Id": "10428",
+		"Name": "Anunciamuertes",
+		"Description": "El principal culpable de los Juegos de Sangre, un monstruo que se deleita con la masacre.\nAhora Buendeseo lo utiliza como símbolo del miedo para agitar la opinión pública de Planarcadia.",
+		"VersionAdded": "4.2"
+	},
+	"10429": {
+		"Id": "10429",
+		"Name": "Cazadores de Estelaron",
+		"Description": "Una organización que viaja entre los mundos en busca de Estelaron.\nPor cierto propósito, avanzan a contracorriente en la Vía de la Conclusión.",
+		"VersionAdded": "4.2"
+	},
 	"20000": {
 		"Id": "20000",
 		"Name": "Volviendo a la perspectiva {F#de la}{M#del} Trazacaminos...",
@@ -2356,5 +2374,29 @@
 		"Name": "Cambiando a la perspectiva de Ashveil...",
 		"Description": "Siguiendo el rastro del criminal, Ashveil se detuvo junto al puente y recordó brevemente el pasado...",
 		"VersionAdded": "4.1"
+	},
+	"20102": {
+		"Id": "20102",
+		"Name": "Cambiando a la perspectiva de Evanescia...",
+		"Description": "Por otro lado, mientras {NICKNAME} investigaba en la escuela, Evanescia y Yao Guang también llegaron a Manamar...",
+		"VersionAdded": "4.2"
+	},
+	"20103": {
+		"Id": "20103",
+		"Name": "Cambiando a la perspectiva de Chispa...",
+		"Description": "Por otro lado, Chispa está charlando animadamente con alguien en la taberna...",
+		"VersionAdded": "4.2"
+	},
+	"20104": {
+		"Id": "20104",
+		"Name": "Cambiando a la perspectiva de Evanescia...",
+		"Description": "Evanescia saca su espada regla y se prepara para cumplir su misión...",
+		"VersionAdded": "4.2"
+	},
+	"20105": {
+		"Id": "20105",
+		"Name": "Cambiando a la perspectiva de Silver Wolf...",
+		"Description": "Mientras tanto, en el estudio de Perla, Silver Wolf también se prepara para pasar a la acción...",
+		"VersionAdded": "4.2"
 	}
 }

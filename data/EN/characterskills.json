@@ -1396,7 +1396,7 @@
 			"TagTypeText": "Bounce",
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
-			"EffectRaw": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Welt's ATK to one designated enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Welt's ATK to a random enemy. On hit, there is a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> to reduce the enemy's SPD by <unbreak>#3[i]%</unbreak> for <unbreak>#4[i]</unbreak> turn(s).",
+			"EffectRaw": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Welt's ATK to one designated enemy and additionally deals 2 instances of DMG, with each time dealing Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Welt's ATK to a random enemy. On hit, there is a <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>base chance</u> to reduce the enemy's SPD by <unbreak>#3[i]%</unbreak> for <unbreak>#4[i]</unbreak> turn(s).",
 			"AbridgedEffect": "Deals minor Imaginary DMG to one enemy. This attack can Bounce 3 times, with a chance of <color=#f29e38ff>Slowing</color> the hit enemies.",
 			"ElementType": "Imaginary",
 			"Levels": {
@@ -4735,7 +4735,7 @@
 			"TagTypeText": "Enhance",
 			"SkillTypeText": "Talent",
 			"MaxLevel": 15,
-			"EffectRaw": "Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an <u>extra turn</u>. While in the Amplification state, the DMG of Seele's attacks increases by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).\nEnemies defeated in the <u>extra turn</u> provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
+			"EffectRaw": "Enters the Amplification state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an <u>extra turn</u>. While in the Amplification state, increases the DMG of Seele's attacks by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s).\nEnemies defeated in the <u>extra turn</u> provided by \"Resurgence\" will not trigger another \"Resurgence.\"",
 			"AbridgedEffect": "When <color=#f29e38ff>defeating enemy targets</color> with Basic ATK, Skill, or Ultimate, gains an <color=#f29e38ff><u>extra turn</u> and enters the Amplification state</color>. While in Amplification, increases the DMG dealt by this unit.",
 			"Levels": {
 				"1": {
@@ -16979,7 +16979,7 @@
 			"TagTypeText": "Single Target",
 			"SkillTypeText": "Basic ATK",
 			"MaxLevel": 10,
-			"EffectRaw": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Huohuo's Max HP to a target enemy.",
+			"EffectRaw": "Deals Wind DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Huohuo's Max HP to one designated enemy.",
 			"AbridgedEffect": "Deals minor Wind DMG to one enemy.",
 			"ElementType": "Wind",
 			"Levels": {
@@ -17044,8 +17044,8 @@
 			"TagTypeText": "Restore",
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
-			"EffectRaw": "Dispels <unbreak>#5[i]</unbreak> <u>debuff(s)</u> from a single target ally and immediately restores this ally's HP by an amount equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Huohuo's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Huohuo's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>.",
-			"AbridgedEffect": "Dispels 1 <u>debuff</u> from an ally and <color=#f29e38ff>restore HP</color> to that ally and their adjacent allies.",
+			"EffectRaw": "Dispels <unbreak>#5[i]</unbreak> <u>debuff(s)</u> from one designated ally and immediately restores this ally's HP by an amount equal to <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> of Huohuo's Max HP plus <color=#f29e38ff><unbreak>#2[i]</unbreak></color>. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> of Huohuo's Max HP plus <color=#f29e38ff><unbreak>#4[i]</unbreak></color>.",
+			"AbridgedEffect": "Dispels 1 <u>debuff</u> from one ally and <color=#f29e38ff>restore HP</color> to that ally and their adjacent allies.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
 			"EffectRaw": "Designates one ally (excluding this unit) as \"Shifu\" and increases \"Shifu\"'s SPD by <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. Only the most recent target of March 7th's Skill is considered as \"Shifu.\"\nWhenever using Basic ATK or dealing 1 hit of Enhanced Basic ATK's DMG, triggers the corresponding effect if \"Shifu\" with the specified Path is present on the field:\nErudition, Destruction, The Hunt, Remembrance, Elation: Deals <u>Additional DMG</u> (DMG Type based on \"Shifu\"'s Combat Type) equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of March 7th's ATK.\nHarmony, Nihility, Preservation, Abundance: Increases the Toughness Reduction of this instance of DMG by <unbreak>#3[i]%</unbreak>.",
-			"AbridgedEffect": "Makes a single ally become \"Shifu.\" When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on <color=#f29e38ff>the \"Shifu\"'s Path</color>:\nErudition, Destruction, The Hunt, Remembrance: Deals <color=#f29e38ff><u>Additional DMG</u></color> based on Shifu's Type.\nHarmony, Nihility, Preservation, Abundance: <color=#f29e38ff>Toughness Reduction</color> increases.",
+			"AbridgedEffect": "Makes a single ally become \"Shifu.\" When using Basic ATK or dealing Enhanced Basic ATK's DMG, triggers the corresponding effect based on <color=#f29e38ff>the \"Shifu\"'s Path</color>:\nErudition, Destruction, The Hunt, Remembrance, Elation: Deals <color=#f29e38ff><u>Additional DMG</u></color> based on Shifu's Type.\nHarmony, Nihility, Preservation, Abundance: <color=#f29e38ff>Toughness Reduction</color> increases.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -25645,7 +25645,7 @@
 			"TagTypeText": "Single Target",
 			"SkillTypeText": "Basic ATK",
 			"MaxLevel": 10,
-			"EffectRaw": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of SAM's ATK to one designated enemy target.",
+			"EffectRaw": "Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of SAM's ATK to one designated enemy.",
 			"AbridgedEffect": "Deals minor Fire DMG to one enemy.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -25710,7 +25710,7 @@
 			"TagTypeText": "Single Target",
 			"SkillTypeText": "Basic ATK",
 			"MaxLevel": 10,
-			"EffectRaw": "Restores HP by an amount equal to <unbreak>#2[i]%</unbreak> of this unit's Max HP. Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of SAM's ATK to one designated enemy target.",
+			"EffectRaw": "Restores HP by an amount equal to <unbreak>#2[i]%</unbreak> of this unit's Max HP. Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of SAM's ATK to one designated enemy.",
 			"AbridgedEffect": "Restores a portion of this unit's own HP and deals Fire DMG to one enemy.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -25785,7 +25785,7 @@
 			"TagTypeText": "Single Target",
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
-			"EffectRaw": "Consumes HP equal to <unbreak>#2[i]%</unbreak> of this unit's Max HP and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of this unit's Max Energy. Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of SAM's ATK to one designated enemy target. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. <u>Advances</u> this unit's next Action by <unbreak>#4[i]%</unbreak>.",
+			"EffectRaw": "Consumes HP equal to <unbreak>#2[i]%</unbreak> of this unit's Max HP and regenerates a fixed amount of Energy equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of this unit's Max Energy. Deals Fire DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of SAM's ATK to one designated enemy. If the current HP is not sufficient, reduces SAM's HP to 1 when using this Skill. <u>Advances</u> this unit's next Action by <unbreak>#4[i]%</unbreak>.",
 			"AbridgedEffect": "Consumes a portion of this unit's own HP to regenerate Energy. Deals Fire DMG to one enemy. <u>Advances</u> this unit's next Action.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -25920,7 +25920,7 @@
 			"TagTypeText": "Blast",
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
-			"EffectRaw": "Restores HP by an amount equal to <unbreak>#3[i]%</unbreak> of this unit's Max HP. Applies Fire Weakness to one designated enemy target, lasting for <unbreak>#4[i]</unbreak> turn(s). Deals Fire DMG equal to (<unbreak>#5[f1]</unbreak> × Break Effect + <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (<unbreak>#6[f1]</unbreak> × Break Effect + <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at <unbreak>#7[i]%</unbreak>.",
+			"EffectRaw": "Restores HP by an amount equal to <unbreak>#3[i]%</unbreak> of this unit's Max HP. Applies Fire Weakness to one designated enemy, lasting for <unbreak>#4[i]</unbreak> turn(s). Deals Fire DMG equal to (<unbreak>#5[f1]</unbreak> × Break Effect + <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>) of SAM's ATK to this target. At the same time, deals Fire DMG equal to (<unbreak>#6[f1]</unbreak> × Break Effect + <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>) of SAM's ATK to adjacent targets. The Break Effect taken into the calculation is capped at <unbreak>#7[i]%</unbreak>.",
 			"AbridgedEffect": "Restores a portion of this unit's own HP. <color=#f29e38ff>Applies Fire Weakness</color> to one enemy. Deals massive Fire DMG to this target and Fire DMG to adjacent targets.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -39812,6 +39812,1278 @@
 		},
 		"VersionAdded": "4.1"
 	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "Syllabus: Pop Quiz",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Evanescia's ATK to one designated enemy.",
+			"AbridgedEffect": "Deals minor Physical DMG to one designated enemy.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "Discipline: Final Verdict",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "Blast",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> of Evanescia's ATK to one designated enemy and Physical DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Evanescia's ATK to adjacent targets. Additionally gains <unbreak>#4[i]</unbreak> <u>Punchline</u>.",
+			"AbridgedEffect": "Deals massive Physical DMG to one enemy and Physical DMG to adjacent targets. Additionally gains <u>Punchline</u>.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "Swordsong: Absolution Denied",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Deals Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Evanescia's ATK to all enemy targets, then deals 5 instances of DMG, with each instance dealing Physical DMG equal to <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> of Evanescia's ATK to one random enemy.",
+			"AbridgedEffect": "Deals Physical DMG to all enemies. Then, deals Physical DMG to one random enemy, bouncing a total of 5 times.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "Youth: Halcyon Evermore",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Evanescia gains Elation equal to <unbreak>#5[i]%</unbreak> of CRIT DMG. When Evanescia gains Energy, she will simultaneously gain an equal amount of \"<u>Certified Banger</u>.\" When Evanescia gains \"<u>Certified Banger</u>,\" she will simultaneously gain an equal amount of Energy. The amount of \"<u>Certified Banger</u>\" taken into calculation via this method cannot exceed <unbreak>100</unbreak> points in a single instance.\nAfter accumulating <unbreak>#3[i]</unbreak> Energy, she consumes this accumulation of <unbreak>#3[i]</unbreak>, and \"Master Fox\" launches <u>Follow-Up ATK</u>, dealing Physical DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Evanescia's ATK to all enemies, and regenerates <unbreak>#4[i]</unbreak> Energy for Evanescia. Each instance of Energy regeneration grants up to an accumulation of <unbreak>#3[i]</unbreak>. While Evanescia holds \"<u>Certified Banger</u>\":\nUsing Skill can deal <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> Physical <u>Elation DMG</u> to the attacked enemy targets.\nUsing Ultimate can deal <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> Physical <u>Elation DMG</u> to all enemies and also deals <color=#f29e38ff><unbreak>#8[i]%</unbreak></color> Physical <u>Elation DMG</u> to the enemy targets that have been randomly dealt DMG by Ultimate. When Ultimate deals <u>Elation DMG</u>, the amount of \"<u>Certified Banger</u>\" taken into account is at least equal to Max Energy.\nMaster Fox's <u>Follow-Up ATK</u> deals <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> Physical <u>Elation DMG</u> to all enemies.",
+			"AbridgedEffect": "When Evanescia gains Energy, she will simultaneously <color=#f29e38ff>gain an equal amount of \"<u>Certified Banger</u>\"</color>. When Evanescia gains \"<u>Certified Banger</u>,\" she will simultaneously <color=#f29e38ff>gain an equal amount of Energy</color>. After a certain amount of Energy is accumulated, \"Master Fox\" launches <u>Follow-Up ATK</u>, dealing minor Physical DMG to all enemies, and regenerates Energy for Evanescia. While Evanescia holds \"<u>Certified Banger</u>,\" using Skill, Ultimate, or Master Fox's <u>Follow-Up ATK</u> can deal minor Physical <u>Elation DMG</u> to enemies.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "Petalfall: Floral Reminiscence",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Immediately attacks all enemies within a certain range. After entering combat, deals Physical DMG equal to <unbreak>#1[i]%</unbreak> of Evanescia's ATK to all enemies and gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>.\"",
+			"AbridgedEffect": "Immediately attacks all enemies within a certain range. After entering combat, deals minor Physical DMG to all enemies and gains \"<u>Certified Banger</u>\".",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silver Wolf LV.<unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "One Punch!",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK to one designated enemy.",
+			"AbridgedEffect": "Deals minor Imaginary DMG to one designated enemy.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "Bonus Stage: αWolf Instant",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "Bounce",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Deals Imaginary DMG equal to a total of <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK, split evenly into <unbreak>#3[i]</unbreak> hits that bounce onto random enemies. After every set number of bounces, the bouncing pauses and the <u>Top Loot Box</u> triggers 1 time. Can trigger up to <unbreak>#5[i]</unbreak> time(s) in total.\nWhen dealing fatal damage to all enemies on the field, this ability ends. After attackable enemy targets appear, gains 1 <u>extra turn</u> and uses this ability again based on the remaining number of bounces and <u>Top Loot Box</u> triggers. The first time this effect triggers in each turn, extends the duration of all <u>buffs</u> on this unit by 1 turn.\nAfter all of the above DMG is dealt, launches a Final Hit that deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK, split evenly among all enemies.\nEnhanced Basic ATK cannot recover Skill Points. For every <unbreak>#6[i]</unbreak> points of \"Hidden MMR\" held, increases DMG dealt during Enhanced Basic ATK by <unbreak>#8[i]%</unbreak> of the original DMG, stacking up to <unbreak>#7[i]</unbreak> time(s).",
+			"AbridgedEffect": "Deals Imaginary DMG, bouncing a large number of times, during which \"Top Loot Box\" can trigger <color=#f29e38ff><unbreak>#5[i]</unbreak></color> time(s). If <color=#f29e38ff>fatal damage is dealt to all enemies, the remaining effect is reserved</color> and can continue to be used on newly entering enemy targets. Finally, deals Imaginary DMG, split evenly among all enemies.\nEach time \"Hidden MMR\" reaches a set number, can additionally increase the DMG of Enhanced Basic ATK.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Trigger Happy",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Gains <unbreak>#2[i]</unbreak> <u>Punchline</u> point(s) and deals Imaginary DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Silver Wolf LV.<unbreak>999</unbreak>'s ATK to all enemies.",
+			"AbridgedEffect": "Gains <u>Punchline</u>. Deals Imaginary DMG to all enemies.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "God Mode: ON!",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Enters the \"Godmode Player\" state, and <u>advances action</u> by <unbreak>100%</unbreak>.\nDeploys a Zone while in the \"Godmode Player\" state. While Silver Wolf LV.<unbreak>999</unbreak> holds \"<u>Certified Banger</u>,\" for every 1 Skill Point consumed by an ally target within the Zone, there is a chance to trigger 1 instance of Silver Wolf LV.<unbreak>999</unbreak>'s \"<u>Top Loot Box</u>\": Deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Imaginary <u>Elation DMG</u> that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\n\"Big Flipping Sword\": Additionally deals <u>True DMG</u> equal to <unbreak>#5[i]%</unbreak> of the total DMG dealt this time to the enemy target with the highest HP.\n\"Kaboom Eggsplosion\": Recovers <unbreak>#7[i]</unbreak> Skill Point(s).\n\"Funky Munch Bean\": Gains <unbreak>#6[i]</unbreak> <u>Punchline</u> point(s).\nThe initial <u>fixed chance</u> to trigger the effect is <unbreak>100%</unbreak>. After a successfully trigger, the <u>fixed chance</u> for the next trigger is reduced to <unbreak>#4[i]%</unbreak> of the current chance. If the target is defeated before it triggers, it will instead trigger on a newly entering enemy target.",
+			"AbridgedEffect": "Transforms and <u>advances action</u> by <unbreak>100%</unbreak>.\nDeploys a Zone during Transformation. While holding \"<u>Certified Banger</u>,\" for every <color=#f29e38ff>1 Skill Point consumed</color> by allies, there is a high chance to <color=#f29e38ff>trigger 1 \"Top Loot Box\"</color>: Deals massive Imaginary <u>Elation DMG</u> that is distributed evenly among all enemies, and randomly triggers 1 of the following effects:\nDeals <color=#f29e38ff><u>True DMG</u></color> to the target with the highest HP based on total DMG dealt.\nRecovers <color=#f29e38ff>Skill Points</color>.\nGains <color=#f29e38ff><u>Punchline</u></color>.\nThe trigger chance decreases proportionally after each trigger.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "Big Flipping Sword",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "Deals massive Imaginary <u>Elation DMG</u> to all enemies, split evenly among them. And deals <u>True DMG</u> to the target with the highest HP based on the total DMG dealt.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "I Carry, We Win",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "After \"Hidden MMR\" reaches <unbreak>#1[i]</unbreak>, can activate Ultimate. And after reaching its maximum limit, it can overflow by an additional <unbreak>#2[i]</unbreak> point(s).\nWhen gaining <u>Punchline</u>, Silver Wolf LV.<unbreak>999</unbreak> gains an equal amount of \"Hidden MMR.\" Each point of \"Hidden MMR\" increases CRIT Rate by <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Once CRIT Rate reaches <unbreak>100%</unbreak>, each additional point of \"Hidden MMR\" instead increases CRIT DMG by <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\nWhile in the \"Godmode Player\" state, Silver Wolf LV.<unbreak>999</unbreak> becomes immune to <u>Crowd Control debuffs</u>, cannot use Ultimate, and gains Enhanced Basic ATK and Enhanced Elation Skill. After fully using Enhanced Basic ATK <unbreak>#5[i]</unbreak> time(s), she exits the \"Godmode Player\" state. When exiting the \"Godmode Player\" state, clears \"Hidden MMR\".\nWhile holding \"<u>Certified Banger</u>,\" using Basic ATK or Skill deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Imaginary <u>Elation DMG</u> to the attacked enemy targets. And the Enhanced Basic ATK's ability DMG changes to <u>Elation DMG</u> at the same multiplier.",
+			"AbridgedEffect": "After \"Hidden MMR\" reaches <color=#f29e38ff><unbreak>#1[i]</unbreak></color>, the Ultimate can be activated. <color=#f29e38ff>When gaining <u>Punchline</u>, gains an equal amount of \"Hidden MMR\"</color>. The higher the \"Hidden MMR\", the higher the CRIT Rate. Once CRIT Rate reaches <unbreak>100%</unbreak>, increases CRIT DMG instead.\nDuring Transformation, Silver Wolf LV.<unbreak>999</unbreak> becomes immune to <u>Crowd Control debuffs</u>, and her Basic ATK and Elation Skill get enhanced. She exits the Transformation after using Enhanced Basic ATK <color=#f29e38ff><unbreak>#5[i]</unbreak></color> time(s).\nWhile holding \"<u>Certified Banger</u>,\" using Basic ATK or Skill additionally deals Imaginary <u>Elation DMG</u>. And the Enhanced Basic ATK's ability DMG changes to <u>Elation DMG</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "This? Absolute Meta!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "Summon",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Summons \"Funky Munch Bean.\" Use again to dismiss. Using Technique does not consume Technique Points. When Technique Points reach 0, the summon is dismissed and Technique cannot be used.\n\"Funky Munch Bean\" causes Normal Enemies within a certain range to enter a Terrified state. It will also automatically search for and attack Normal Enemies, consuming 1 Technique Point to instantly defeat them without entering combat.\nWhile \"Funky Munch Bean\" is present, after entering combat, 1 instance of \"<u>Top Loot Box</u>\" from \"Funky Munch Bean\" is triggered at the start of each wave. A fixed amount of <unbreak>#1[i]</unbreak> \"<u>Certified Banger</u>\" is taken into account for the <u>Elation DMG</u> dealt in this instance.",
+			"AbridgedEffect": "Summons \"Funky Munch Bean.\" Use again to dismiss. Using Technique <color=#f29e38ff>does not consume Technique Points</color>.\n\"Funky Munch Bean\" will automatically seek out and attack Normal Enemies, consuming 1 Technique Point to <color=#f29e38ff>instantly defeat them without entering combat</color>.\nAfter entering combat, triggers the Top Loot Box corresponding to \"Funky Munch Bean\" at the start of each wave.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "Make Some Noise",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Trailblazer's ATK to one designated enemy.",
+			"AbridgedEffect": "Deals minor Lightning DMG to one enemy.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "Let the Storm Rage On",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the Trailblazer's ATK to all enemies and gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>.\"",
+			"AbridgedEffect": "Deals minor Lightning DMG to all enemies and gains \"<u>Certified Banger</u>.\"",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "May the Trailblaze Fly You Starward",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Gains <unbreak>#6[i]</unbreak> <u>Punchline</u> point(s). Increases the CRIT DMG of one designated ally by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s), and dispels <u>Crowd Control debuffs</u> on them.\nIf the target has Elation Skill, they additionally gain <unbreak>#4[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and immediately use their Elation Skill 1 time, taking into account a fixed amount of <unbreak>#5[i]</unbreak> <u>Punchline</u> point(s). If the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target.\nIf the target does not have Elation Skill, their <u>action advances</u> by <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Gains <u>Punchline</u>. Increases the CRIT DMG of one designated ally, and dispels <u>Crowd Control debuffs</u> on that target. If the target has Elation Skill, the <color=#f29e38ff>target additionally gains \"<u>Certified Banger</u>\"</color> and <color=#f29e38ff>immediately uses their Elation Skill</color>. Otherwise, their <u>action advances</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "That Smile Hits Different",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "After using an attack, regenerates a fixed amount of <unbreak>#1[i]</unbreak> Energy and gains <unbreak>#2[i]</unbreak> <u>Punchline</u> point(s).\nWhen the Trailblazer holds \"<u>Certified Banger</u>,\" their Skill additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Lightning <u>Elation DMG</u> to all enemies. This DMG is calculated using the highest \"<u>Certified Banger</u>\" value among all allies.",
+			"AbridgedEffect": "After using an attack, regenerates Energy and gains <u>Punchline</u>.\nWhen the Trailblazer holds \"<u>Certified Banger</u>,\" their Skill additionally deals minor Lightning <u>Elation DMG</u> to all enemies.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "We Are So Back!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "After using Technique, randomly gains 1 of the following effects:\nA low chance to gain \"Hearty Laughter\": Increases Elation by <unbreak>#1[i]%</unbreak>.\nA high chance to gain \"Irrepressible Laughter\": Increases Elation by <unbreak>#3[i]%</unbreak>.\nWhen the next battle begins, increases all allies' Elation stat by the corresponding amount for <unbreak>#5[i]</unbreak> turn(s).",
+			"AbridgedEffect": "After using Technique, <color=#f29e38ff>increases all allies' Elation</color> when entering the next battle.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "Make Some Noise",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of Trailblazer's ATK to one designated enemy.",
+			"AbridgedEffect": "Deals minor Lightning DMG to one enemy.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "Let the Storm Rage On",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Deals Lightning DMG equal to <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> of the Trailblazer's ATK to all enemies and gains <unbreak>#2[i]</unbreak> point(s) of \"<u>Certified Banger</u>.\"",
+			"AbridgedEffect": "Deals minor Lightning DMG to all enemies and gains \"<u>Certified Banger</u>.\"",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "May the Trailblaze Fly You Starward",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Gains <unbreak>#6[i]</unbreak> <u>Punchline</u> point(s). Increases the CRIT DMG of one designated ally by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> for <unbreak>#2[i]</unbreak> turn(s), and dispels <u>Crowd Control debuffs</u> on them.\nIf the target has Elation Skill, they additionally gain <unbreak>#4[i]</unbreak> point(s) of \"<u>Certified Banger</u>\" and immediately use their Elation Skill 1 time, taking into account a fixed amount of <unbreak>#5[i]</unbreak> <u>Punchline</u> point(s). If the enemy target is defeated before the Elation Skill is unleashed, then the Elation Skill is instead launched on a newly entering enemy target.\nIf the target does not have Elation Skill, their <u>action advances</u> by <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Gains <u>Punchline</u>. Increases the CRIT DMG of one designated ally, and dispels <u>Crowd Control debuffs</u> on that target. If the target has Elation Skill, the <color=#f29e38ff>target additionally gains \"<u>Certified Banger</u>\"</color> and <color=#f29e38ff>immediately uses their Elation Skill</color>. Otherwise, their <u>action advances</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "That Smile Hits Different",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "After using an attack, regenerates a fixed amount of <unbreak>#1[i]</unbreak> Energy and gains <unbreak>#2[i]</unbreak> <u>Punchline</u> point(s).\nWhen the Trailblazer holds \"<u>Certified Banger</u>,\" their Skill additionally deals <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Lightning <u>Elation DMG</u> to all enemies. This DMG is calculated using the highest \"<u>Certified Banger</u>\" value among all allies.",
+			"AbridgedEffect": "After using an attack, regenerates Energy and gains <u>Punchline</u>.\nWhen the Trailblazer holds \"<u>Certified Banger</u>,\" their Skill additionally deals minor Lightning <u>Elation DMG</u> to all enemies.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "We Are So Back!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "After using Technique, randomly gains 1 of the following effects:\nA low chance to gain \"Hearty Laughter\": Increases Elation by <unbreak>#1[i]%</unbreak>.\nA high chance to gain \"Irrepressible Laughter\": Increases Elation by <unbreak>#3[i]%</unbreak>.\nWhen the next battle begins, increases all allies' Elation stat by the corresponding amount for <unbreak>#5[i]</unbreak> turn(s).",
+			"AbridgedEffect": "After using Technique, <color=#f29e38ff>increases all allies' Elation</color> when entering the next battle.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

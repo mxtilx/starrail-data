@@ -8119,6 +8119,20 @@
 		"Effect": "Erhöht den von Ashveil verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH an Gegnern mit einem LP-Prozentsatz von weniger als <color=#f29e38ff>50%</color> um <color=#f29e38ff>30%</color>. Handelt es sich um Folgeangriff-SCH, wird er zusätzlich um <color=#f29e38ff>15%</color> erhöht.",
 		"VersionAdded": "4.1"
 	},
+	"661505": {
+		"Id": "661505",
+		"Name": "Evanescia",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Evanescia verursachten SCH in Divergentes Universum.\n\nWenn sie „Verdiente Leistung“ besitzt, wird ihr verursachter endgültiger SCH um <color=#f29e38ff>15%</color> erhöht. Liegt Verdiente Leistung bei <color=#f29e38ff>100</color> Pkt. oder mehr, wird der verursachte endgültige SCH zusätzlich um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.2"
+	},
+	"661506": {
+		"Id": "661506",
+		"Name": "Silberwolf St. <unbreak>999</unbreak>",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Silberwolf St. 999 verursachten SCH in Divergentes Universum.\n\nZu Beginn von Ahas Runde wird das Hochgefühl von Silberwolf St. 999 für jeden Lachpunkt um <color=#f29e38ff>0.5%</color> erhöht. Dieser Effekt hält bis zum Beginn von Ahas nächster Runde an.",
+		"VersionAdded": "4.2"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -8174,6 +8188,20 @@
 		"Rarity": 1,
 		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt beim Kampfeintritt Energie in Höhe von <color=#f29e38ff>50%</color> der max. Energie wieder her.",
 		"VersionAdded": "4.1"
+	},
+	"668009": {
+		"Id": "668009",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nWenn {NICKNAME} sich auf dem Kampffeld befindet, wird das Hochgefühl der Verbündeten um <color=#f29e38ff>12%</color> erhöht.",
+		"VersionAdded": "4.2"
+	},
+	"668010": {
+		"Id": "668010",
+		"Name": "{NICKNAME}",
+		"Rarity": 1,
+		"Effect": "Erhöht den von {NICKNAME} verursachten SCH in Divergentes Universum.\n\nWenn {NICKNAME} sich auf dem Kampffeld befindet, wird das Hochgefühl der Verbündeten um <color=#f29e38ff>12%</color> erhöht.",
+		"VersionAdded": "4.2"
 	},
 	"670010": {
 		"Id": "670010",

@@ -209,6 +209,16 @@
 		"Description": "Trailblazer melangkah ke Path \"Remembrance\"",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "Maka, Jadilah Tawa",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "Aku, si Trailblazer",
+		"Description": "Trailblazer melangkah ke Path \"Elation\"",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "Panduan Penumpang Express ke Galaksi",
@@ -2099,6 +2109,83 @@
 		"Description": "Saat \"Dia\" berbicara, dengarkan saja\n<color=#8790abff>※ Mendengarkan ocehan gila Bulan Imajinasi</color>",
 		"HiddenDescription": "Saat \"Dia\" berbicara, dengarkan saja",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "Perjalanan Komuter",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Apakah tidak ada cara bepergian yang lebih keren?\n<color=#8790abff>※ Naik kereta untuk menyelamatkan dunia</color>",
+		"HiddenDescription": "Apakah tidak ada cara bepergian yang lebih keren?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "Vonis Arbiter",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Simbol identitas sang arbiter\n<color=#8790abff>※ Evanescia telah mengambil kembali bilah penggarisnya</color>",
+		"HiddenDescription": "Simbol identitas sang arbiter",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "Pasien Gangguan Jiwa Utopia",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Tidak ada yang peduli dengan apa yang kamu pikirkan, sampai kamu memutuskan untuk menghancurkan dunia\n<color=#8790abff>※ Melangkah ke dalam \"retakan\" hati Fulwish</color>",
+		"HiddenDescription": "Tidak ada yang peduli dengan apa yang kamu pikirkan, sampai kamu memutuskan untuk menghancurkan dunia",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "Menghibur Sampai Ajal",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Tertawalah, atau mati\n<color=#8790abff>※ Saksikan pecahnya wabah imagenesis \"Joy Ascendant\"</color>",
+		"HiddenDescription": "Tertawalah, atau mati",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "Pemain Nomor Satu Galaksi",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Daripada dipuji oleh si Bajingan, lebih baik gugur di tangannya\n<color=#8790abff>※ Sebenarnya, tidak ada juga yang mau gugur di tangan si Bajingan</color>",
+		"HiddenDescription": "Daripada dipuji oleh si Bajingan, lebih baik gugur di tangannya",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "Kematian Pengantar Maut",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Dia yang menyerukan kematian, kematian juga akan menyerukan namanya\n<color=#8790abff>※ Kalahkan \"Pengantar Maut\" baru</color>",
+		"HiddenDescription": "Dia yang menyerukan kematian, kematian juga akan menyerukan namanya",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "Angin Pembawa Kabar Bunga Berlalu",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Dia berlalu bagaikan bunga tertiup angin\n<color=#8790abff>※ Menerima permintaan Evanescia</color>",
+		"HiddenDescription": "Dia berlalu bagaikan bunga tertiup angin",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Penyelidikan Misteri",
-		"Description": "Dalam \"Momen Jump\" di Stasiun Perdido \"Jump 2D!\", ubah gravitasi berulang kali agar wispae dapat melompat bolak-balik",
+		"Description": "Di \"Jump 2D!\" Stasiun Perdido, ubah gravitasi berulang kali agar wispae dapat melompat bolak-balik",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "Penyelidikan Misteri",
 		"Description": "Mainkan Simfoni Aneh dan temukan makhluk misterius yang bersembunyi di Awan Panorama",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "Sisa Hidup adalah Liburan",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Kumpulkan total #1 wispae tanpa nama \"Kelinci Rel Bintang\"",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "Bola Besi Galileo",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Selesaikan \"Momen Jump\" di atap stasiun TV, lompat dari lantai teratas ke aula wawancara",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "Pianis di Atas Menara",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Dapatkan semua Music Notes dalam \"Momen Jump\" di atap stasiun TV",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "Bukan Pembunuh, Bukan Keyakinan",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Tiba di puncak Menara TV Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "Jiwa yang Terbelenggu oleh Gravitasi",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di \"Jump 2D!\", sentuh Garis Gravitasi 10 kali berturut-turut tanpa menyentuh tanah",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "Master Bowling",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di \"Jump 2D!\", gunakan asisten mekanis untuk menabrak Hedgehogae atau Floatspirit hingga terpental",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "Bersulang untuk Matamu",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Selesaikan stage meracik minuman di \"Jump 2D!\" Menara TV Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "Tetangga di Seberang Lautan",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Tiba di area perumahan di seberang laut dalam \"Jump 2D!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "Senandung Dawai Orpheus",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Mainkan melodi di \"Jump 2D!\" untuk menghalau kabut di pulau kecil misterius",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "Bermalas-malasan Itu Bekerja",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di \"Jump 2D!\", naiki asisten mekanis untuk meluncur di atas permukaan air",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "Beban Tak Terhingga",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Kalah game karena tergencet Waldundun atau PiPinTun di \"Jump 2D!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "Penyerbu Pulau",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Jadi yang pertama mencapai puncak pulau misterius dalam Lomba Bayangan di \"Jump 2D!\" Kota Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "Bumerang",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di \"Jump 2D!\", tembakkan panah dan kenai diri sendiri",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "Mesin Berkendara Ultimate",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Di \"Jump 2D!\", naiki asisten mekanis untuk melewati rintangan berduri",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "Asisten Mekanis, Evolusi!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Buka kemampuan eksklusif asisten mekanis di \"Jump 2D!\"",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "Variasi Utopia: Putri Bola",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Mainkan Simfoni Aneh dan temukan makhluk misterius yang bersembunyi di Menara TV Seafeld",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "Variasi Utopia: Lagu Kapibara",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Mainkan Simfoni Aneh dan temukan makhluk misterius yang bersembunyi di Kota Seafeld",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Memori Bersamamu",
-		"Description": "Menikmati semua koleksi di kamarmu",
+		"Description": "Pajang #1 suvenir di area \"Figurin Peringatan\" pada Lemari Pajangan Koleksi",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11952,6 +12209,219 @@
 		"SeriesText": "Memori Bersamamu",
 		"Description": "Selesaikan \"Tantangan Raja Iblis\"",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "Sekalipun Jauh, Tetap Habisi",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Serahkan pembunuh Skott kepada Xianzhou Alliance\n<color=#8790abff>※Semoga dia bisa terbiasa dengan makanan di Shackling Prison</color>",
+		"HiddenDescription": "Serahkan pembunuh Skott kepada Xianzhou Alliance",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "Prinsip Teritorial",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Serahkan pembunuh Skott kepada Departemen Investasi Strategis\n<color=#8790abff>※ Seolah tidak terjadi apa-apa</color>",
+		"HiddenDescription": "Serahkan pembunuh Skott kepada Departemen Investasi Strategis",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "Hutang Budi dan Dendam",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Serahkan pembunuh Skott ke keadilan\n<color=#8790abff>※ \"Jika dia tidak bisa bersikap terhormat, bantulah dia.\"</color>",
+		"HiddenDescription": "Serahkan pembunuh Skott ke pengadilan",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "Memori Tak Dikenal",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Selesaikan penyelidikan di peron Express Air",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "Departemen Antimeme Tidak Ada",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Periksa komputer di ruang penyimpanan stasiun TV",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "Apa Itu Pahlawan",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Bertemu kembali dengan Prajurit Cinderborne di stasiun TV",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "Persiapan Seorang Aktor",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Selesaikan dialog pertemuan pertama keluarga Ploo",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "Jadi Cinta Bisa Menghilang, kan?",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Dengarkan alasan yang dikarang pejalan kaki untuk menghindari bertemu orang tua",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "Era Jurnalis Rakun",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Populasi rakun kita benar-benar makin bertambah banyak ya!\n<color=#8790abff>※\"Mingguan Rakun\" resmi memiliki #1 Furbo Journalist tetap</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "Diriku yang Lain",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Bertemu dengan Trailblazer lain di Party Car Multipemain",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "Klub Express Perintisan",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Kunjungi Party Car Multipemain milik #1 Trailblazer lain",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Emanator \"Perintisan\" Meongmi",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Memperoleh Hadiah \"Akivimeow\"",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "Pemburu Pesta",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Menangkap ciptaan dari setiap tempat persembunyian di Party Car",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "Perjamuan Terakhir",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Tempatkan #1 ciptaan yang sama di Area Penempatan Ciptaan",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "Naturalis",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Kumpulkan #1 ciptaan dalam \"Catatan Observasi Ciptaan\"",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "Dadu Keberuntungan! Pertanda Baik!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Dalam gameplay Kekuatan Galaksi, mengumpulkan total #1 Dadu Prismatik di \"Paket Ekspansi 2\"",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "Dadumu ingin Datang ke Rumahku",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Di \"Kekuatan Galaksi, Lempar Dadu Lagi!\", tukar dadu sebanyak total #1 kali",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "Satu Klik Tiga Combo",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Gunakan #1 Kartu Taktik secara berturut-turut dalam satu giliran di \"Kekuatan Galaksi, Lempar Dadu Lagi!\"",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "Damage Super Jumbo",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Dalam \"Kekuatan Galaksi, Lempar Dadu Lagi!\", akibatkan #1 poin DMG dalam satu giliran",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "\"Mingguan Rakun\" Maju Terus",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Dalam \"Kekuatan Galaksi, Lempar Dadu Lagi!\", mewakili \"Mingguan Rakun\" mengalahkan 5 peringkat teratas di papan peringkat pusat bisnis Kota Seafeld: \"Lima Jagoan Seafeld\"",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "Dadu Nomor Satu di Galaksi",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Selesaikan pertarungan terakhir dengan Silver Wolf LV.999 di \"Kekuatan Galaksi, Lempar Dadu Lagi!\"",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "Aha melancarkan \"Let There Be Laughter\" dan mengalahkan #1 musuh",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "Hari Aneh yang Menyenangkan",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Memenangkan pertempuran dengan mengerahkan #1 karakter Path Elation",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "Tiga Musketeer",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "Luapan Semangat Tempur",
 		"Description": "Dalam satu pertempuran melawan \"Alloy Mechatron: King Pom-Pom\", picu efek \"Shiny\" dari \"Potent Foam Soap\" setidaknya #1 kali",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "Jangan Ada yang Cemberut",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam 1 pertempuran, gunakan Trailblazer dengan Path \"Elation\" untuk melancarkan Ultimate pada #1 rekan berbeda masing-masing 1 kali.",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "Terima Kasih Buat Tipnya",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam satu pertempuran, gunakan Trailblazer Path \"Elation\" untuk melancarkan Ultimate pada Sparxie sebanyak total #1 kali",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "Top <unbreak>500</unbreak> Urun Dana",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam 1 pertempuran, total \"Certified Banger\" yang diperoleh Evanescia dari rekan lainnya melalui Talent \"Youth: Halcyon Evermore\" lebih dari #1.",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "Hal Bagus Tak Pernah Cukup",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Gunakan karakter tim Evanescia untuk melancarkan Ultimate saat jumlah \"Certified Banger\" mencapai #1",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "Jangan Bercanda, Nona Kafka",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Memicu \"McAwolfee 999\" milik Silver Wolf LV.999, menghapus status \"Dominated\" yang diberikan oleh \"Stellaron Hunter: Kafka\"",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "Daftar Equipment",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam satu giliran, rekan memicu #1 jenis \"Top Loot Box\" berbeda milik Silver Wolf LV.999",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "Serigala Jalan Finansial",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Gunakan Technique \"This? Absolute Meta!\" milik Silver Wolf LV.999 untuk mendapatkan #1 Koin Emas sekaligus",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "Krisis Biokimia",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Di pertempuran \"Paramount Bliss Inverted: Illwish Archlotus\", setelah karakter tim diubah menjadi \"Happiness Puppet\", mengakibatkan \"Serangan Vital\" dan mengalahkan target mana pun",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "SAN Penuh",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Di pertempuran \"Paramount Bliss Inverted: Illwish Archlotus\", tidak ada karakter yang diubah menjadi \"Happiness Puppet\" karena memicu \"Happiness\"",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "Akhir dari Kesenangan",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Di pertempuran \"Joy Ascendant\", kalahkan #1 \"Joy Ascendant: Finale\" atau lebih sekaligus dalam satu serangan",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

@@ -209,6 +209,16 @@
 		"Description": "Tritt auf den Pfad des Gedenkens.",
 		"VersionAdded": "3.1"
 	},
+	"4015201": {
+		"Id": "4015201",
+		"Name": "Somit, Gelächter im Anflug",
+		"SortOrder": 976,
+		"Rarity": "High",
+		"SeriesId": 1,
+		"SeriesText": "Ich, Trailblazer",
+		"Description": "Tritt auf den Pfad des Hochgefühls.",
+		"VersionAdded": "4.2"
+	},
 	"4020201": {
 		"Id": "4020201",
 		"Name": "Expresspassagier-Reiseführer durch die Galaxis",
@@ -2099,6 +2109,83 @@
 		"Description": "Er redet, du hörst zu.\n<color=#8790abff>※ Höre dir Phantasmonds wahnsinnige Ansprache an.</color>",
 		"HiddenDescription": "Er redet, du hörst zu.",
 		"VersionAdded": "4.1"
+	},
+	"4035201": {
+		"Id": "4035201",
+		"Name": "Pendelreise",
+		"SortOrder": 844,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Gibt es denn keine besondere Art der Fortbewegung?\n<color=#8790abff>※ Fahre mit dem Zug, um die Welt zu retten.</color>",
+		"HiddenDescription": "Gibt es denn keine besondere Art der Fortbewegung?",
+		"VersionAdded": "4.2"
+	},
+	"4035202": {
+		"Id": "4035202",
+		"Name": "Urteil der Schiedsrichterin",
+		"SortOrder": 843,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Symbol der Identität als Schiedsrichterin\n<color=#8790abff>※ Evanescia hat ihr Richtschwert zurückerlangt.</color>",
+		"HiddenDescription": "Symbol der Identität als Schiedsrichterin.",
+		"VersionAdded": "4.2"
+	},
+	"4035203": {
+		"Id": "4035203",
+		"Name": "Arcadia-Psycho",
+		"SortOrder": 842,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Niemanden interessiert, was du denkst, bis du beschließt, die Welt zu zerstören.\n<color=#8790abff>※ Betrete den „Riss“ im Herzen von Füllwunsch.</color>",
+		"HiddenDescription": "Niemanden interessiert, was du denkst, bis du beschließt, die Welt zu zerstören.",
+		"VersionAdded": "4.2"
+	},
+	"4035204": {
+		"Id": "4035204",
+		"Name": "Wir amüsieren uns zu Tode",
+		"SortOrder": 841,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Lache oder stirb.\n<color=#8790abff>※ Werde Zeuge des Ausbruchs der Imagenasis-Plage „Aszendent der Freude“.</color>",
+		"HiddenDescription": "Lache oder stirb.",
+		"VersionAdded": "4.2"
+	},
+	"4035205": {
+		"Id": "4035205",
+		"Name": "Galaktischer Top-Spieler",
+		"SortOrder": 840,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Lieber durch die Hand eines Halunken sterben, als von ihm gelobt zu werden.\n<color=#8790abff>※ Eigentlich will auch niemand durch die Hand eines Halunken sterben.</color>",
+		"HiddenDescription": "Lieber durch die Hand eines Halunken sterben, als von ihm gelobt zu werden.",
+		"VersionAdded": "4.2"
+	},
+	"4035206": {
+		"Id": "4035206",
+		"Name": "Tod des Herolds des Todes",
+		"SortOrder": 839,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Wer den Tod verkündet, dessen Namen verkündet auch der Tod.\n<color=#8790abff>※ Besiege den neuen „Herold des Todes“.</color>",
+		"HiddenDescription": "Wer den Tod verkündet, dessen Namen verkündet auch der Tod.",
+		"VersionAdded": "4.2"
+	},
+	"4035207": {
+		"Id": "4035207",
+		"Name": "Vorbeiziehende Blütenbrise",
+		"SortOrder": 838,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Sie wehte vorbei wie Blüten in der Brise.\n<color=#8790abff>※ Nimm Evanescias Auftrag an.</color>",
+		"HiddenDescription": "Sie wehte vorbei wie Blüten in der Brise.",
+		"VersionAdded": "4.2"
 	},
 	"4040101": {
 		"Id": "4040101",
@@ -4986,7 +5073,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Geheimnissen auf den Grund gehen",
-		"Description": "Ändere im Spielmodus „Sprung-Zeit“ an der Perdido-Station „Interplanarer Sprung!“ wiederholt die Schwerkraft, um die Wispaes hin- und herspringen zu lassen.",
+		"Description": "Ändere in „Interplanarer Sprung!“ an der Perdido-Station wiederholt die Schwerkraft, um die Wispaes hin- und herspringen zu lassen.",
 		"VersionAdded": "4.0"
 	},
 	"4045040": {
@@ -5301,6 +5388,176 @@
 		"SeriesText": "Geheimnissen auf den Grund gehen",
 		"Description": "Spiele die seltsame Melodie und finde die mysteriöse Kreatur, die sich in der Wolkenstation „Ausguck“ versteckt.",
 		"VersionAdded": "4.1"
+	},
+	"4045201": {
+		"Id": "4045201",
+		"Name": "Urlaub für den Rest des Lebens",
+		"SortOrder": 672,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Sammle insgesamt #1 Namenlose Wispaes in „Sternhase“.",
+		"VersionAdded": "4.2"
+	},
+	"4045202": {
+		"Id": "4045202",
+		"Name": "Galileos Eisenkugel",
+		"SortOrder": 671,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schließe die „Sprung-Zeit“ auf dem Dach des Fernsehsenders ab und springe von der obersten Etage in die Interviewhalle.",
+		"VersionAdded": "4.2"
+	},
+	"4045203": {
+		"Id": "4045203",
+		"Name": "Der Turmpianist",
+		"SortOrder": 670,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Sammle alle Noten in der „Sprung-Zeit“ auf dem Dach des Fernsehturms ein.",
+		"VersionAdded": "4.2"
+	},
+	"4045204": {
+		"Id": "4045204",
+		"Name": "Kein Assassine, kein Credo",
+		"SortOrder": 669,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Erreiche die Spitze des Fernsehturms von Seafeld.",
+		"VersionAdded": "4.2"
+	},
+	"4045205": {
+		"Id": "4045205",
+		"Name": "Seelen, gefesselt von der Schwerkraft",
+		"SortOrder": 668,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Behalte in „Interplanarer Sprung!“ bei, nicht den Boden zu berühren, und berühre 10-mal in Folge die Schwerkraftlinie.",
+		"VersionAdded": "4.2"
+	},
+	"4045206": {
+		"Id": "4045206",
+		"Name": "Bowlingmeister",
+		"SortOrder": 667,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schleudere in „Interplanarer Sprung!“ mit dem Helfer-Bot einen Igelgeist oder Schwebegeist weg.",
+		"VersionAdded": "4.2"
+	},
+	"4045207": {
+		"Id": "4045207",
+		"Name": "Ein Hoch auf deine Augen",
+		"SortOrder": 666,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schließe in „Interplanarer Sprung!“ die Getränkemix-Etappe im Fernsehturm von Seafeld ab.",
+		"VersionAdded": "4.2"
+	},
+	"4045208": {
+		"Id": "4045208",
+		"Name": "Jenseits des Meeres sind Nachbarn",
+		"SortOrder": 665,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Erreiche in „Interplanarer Sprung!“ das Wohngebiet auf der anderen Seite des Meeres.",
+		"VersionAdded": "4.2"
+	},
+	"4045209": {
+		"Id": "4045209",
+		"Name": "Orpheus’ Saitengesang",
+		"SortOrder": 664,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Spiele eine Melodie in „Interplanarer Sprung!“, um den Nebel auf der geheimnisvollen Insel aufzulösen.",
+		"VersionAdded": "4.2"
+	},
+	"4045210": {
+		"Id": "4045210",
+		"Name": "Faulenzen ist Arbeit",
+		"SortOrder": 663,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Gleite in „Interplanarer Sprung!“ auf einem Helfer-Bot über die Wasseroberfläche.",
+		"VersionAdded": "4.2"
+	},
+	"4045211": {
+		"Id": "4045211",
+		"Name": "Unerträgliches Gewicht",
+		"SortOrder": 662,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Verliere das Spiel, nachdem du in „Interplanarer Sprung!“ von einem Waldundun oder PiPinTun zerquetscht wurdest.",
+		"VersionAdded": "4.2"
+	},
+	"4045212": {
+		"Id": "4045212",
+		"Name": "Jäger der verlorenen Insel",
+		"SortOrder": 661,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Erreiche in „Interplanarer Sprung!“ als Erstes den Gipfel der mysteriösen Insel beim Schattenrennen in Seafeld City.",
+		"VersionAdded": "4.2"
+	},
+	"4045213": {
+		"Id": "4045213",
+		"Name": "Bumerang",
+		"SortOrder": 660,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Feuere in „Interplanarer Sprung!“ einen Pfeil ab, der dich selbst trifft.",
+		"VersionAdded": "4.2"
+	},
+	"4045214": {
+		"Id": "4045214",
+		"Name": "Ultimative Fahrmaschine",
+		"SortOrder": 659,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Fahre in „Interplanarer Sprung!“ auf einem Helfer-Bot durch die Stachelhindernisse.",
+		"VersionAdded": "4.2"
+	},
+	"4045215": {
+		"Id": "4045215",
+		"Name": "Helfer-Bot, Evolution!",
+		"SortOrder": 658,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schalte in „Interplanarer Sprung!“ die exklusive Fähigkeit des Helfer-Bots frei.",
+		"VersionAdded": "4.2"
+	},
+	"4045216": {
+		"Id": "4045216",
+		"Name": "Arcadia-Variation: Kugelprinzessin",
+		"SortOrder": 657,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Spiele die seltsame Melodie und finde die mysteriöse Kreatur, die sich im Fernsehturm von Seafeld versteckt.",
+		"VersionAdded": "4.2"
+	},
+	"4045217": {
+		"Id": "4045217",
+		"Name": "Arcadia-Variation: Capybaralied",
+		"SortOrder": 656,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Spiele die seltsame Melodie und finde die mysteriöse Kreatur, die sich in Seafeld City versteckt.",
+		"VersionAdded": "4.2"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -9070,7 +9327,7 @@
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "Erinnerungen mit dir",
-		"Description": "Sieh dir alle Sammlungen in deinem Zimmer an.",
+		"Description": "Platziere #1 Souvenirs im Bereich „Sammlerstücke“ der Sammlungsvitrine.",
 		"VersionAdded": "3.1"
 	},
 	"4053705": {
@@ -11952,6 +12209,219 @@
 		"SeriesText": "Erinnerungen mit dir",
 		"Description": "Schließe den Modus „Herausforderung der Dämonenfürstin“ ab.",
 		"VersionAdded": "4.1"
+	},
+	"4055201": {
+		"Id": "4055201",
+		"Name": "Ob nah oder fern, wir werden sie vernichten!",
+		"SortOrder": 318,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Übergib Skotts Mörder der Xianzhou-Allianz.\n<color=#8790abff>※ Hoffentlich gewöhnt sie sich an das Essen im Kerker der Ketten.</color>",
+		"HiddenDescription": "Übergib Skotts Mörder der Xianzhou-Allianz.",
+		"VersionAdded": "4.2"
+	},
+	"4055202": {
+		"Id": "4055202",
+		"Name": "Territorialprinzip",
+		"SortOrder": 317,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Übergib Skotts Mörder der Abteilung für strategische Investitionen.\n<color=#8790abff>※ Als wäre nichts geschehen.</color>",
+		"HiddenDescription": "Übergib Skotts Mörder der Abteilung für strategische Investitionen.",
+		"VersionAdded": "4.2"
+	},
+	"4055203": {
+		"Id": "4055203",
+		"Name": "Weitlaufende Feindseligkeit",
+		"SortOrder": 316,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Übergib Skotts Mörder der Gerechtigkeit.\n<color=#8790abff>※ „Wenn sie sich nicht würdevoll gibt, dann hilf ihr dabei.“</color>",
+		"HiddenDescription": "Übergib Skotts Mörder der Gerechtigkeit.",
+		"VersionAdded": "4.2"
+	},
+	"4055204": {
+		"Id": "4055204",
+		"Name": "Unbekannte Erinnerung",
+		"SortOrder": 315,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schließe die Ermittlung der Schwimmenden Express-Plattform ab.",
+		"VersionAdded": "4.2"
+	},
+	"4055205": {
+		"Id": "4055205",
+		"Name": "Die Antimem-Abteilung existiert nicht.",
+		"SortOrder": 314,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Untersuche den Computer im Lager des Fernsehsenders.",
+		"VersionAdded": "4.2"
+	},
+	"4055206": {
+		"Id": "4055206",
+		"Name": "Was ist ein Held?",
+		"SortOrder": 313,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Triff dich mit dem Cinderborne-Krieger im Fernsehsender wieder.",
+		"VersionAdded": "4.2"
+	},
+	"4055207": {
+		"Id": "4055207",
+		"Name": "Ein Schauspieler bereitet sich vor",
+		"SortOrder": 312,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schließe das erste Gespräch mit der Ploo-Familie ab.",
+		"VersionAdded": "4.2"
+	},
+	"4055208": {
+		"Id": "4055208",
+		"Name": "Also verschwindet die Liebe, was?",
+		"SortOrder": 311,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Höre dir die Ausrede an, die ein Passant erfunden hat, um einem Treffen mit den Eltern zu entgehen.",
+		"VersionAdded": "4.2"
+	},
+	"4055212": {
+		"Id": "4055212",
+		"Name": "Furbo-Fieber",
+		"SortOrder": 307,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Unsere Furbo-Familie wird wirklich immer größer!\n<color=#8790abff>※ Das „Furbobo-Wochenblatt“ hat offiziell #1 festangestellte Furbo-Journalisten.</color>",
+		"VersionAdded": "4.2"
+	},
+	"4055213": {
+		"Id": "4055213",
+		"Name": "Ein weiteres Ich in der Welt",
+		"SortOrder": 306,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Triff andere Trailblazer im Koop-Partywagen.",
+		"VersionAdded": "4.2"
+	},
+	"4055214": {
+		"Id": "4055214",
+		"Name": "Trailblaze-Express-Club",
+		"SortOrder": 305,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Besuche die Koop-Partywagen von #1 anderen Trailblazern.",
+		"VersionAdded": "4.2"
+	},
+	"4055215": {
+		"Id": "4055215",
+		"Name": "Miau-tastischer Trailblaze-Emanator",
+		"SortOrder": 304,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Erhalte das Geschenk von Akivimiau.",
+		"VersionAdded": "4.2"
+	},
+	"4055216": {
+		"Id": "4055216",
+		"Name": "Partyjäger",
+		"SortOrder": 303,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schöpfungen aus jedem Versteck im Partywagen gefangen.",
+		"VersionAdded": "4.2"
+	},
+	"4055217": {
+		"Id": "4055217",
+		"Name": "Das letzte Abendmahl",
+		"SortOrder": 302,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Platziere #1 identische Schöpfungen im Platzierungsbereich für Schöpfungen.",
+		"VersionAdded": "4.2"
+	},
+	"4055218": {
+		"Id": "4055218",
+		"Name": "Naturforscher",
+		"SortOrder": 301,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Sammle #1 Schöpfungen aus dem „Beobachtungseintrag über Schöpfungen“.",
+		"VersionAdded": "4.2"
+	},
+	"4055220": {
+		"Id": "4055220",
+		"Name": "Glückswürfel! Gutes Omen!",
+		"SortOrder": 299,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Sammle im Spielmodus „Kosmikon-Kollektiv“ insgesamt #1 Glanzfarbenwürfel aus dem „Erweiterungsset 2“.",
+		"VersionAdded": "4.2"
+	},
+	"4055221": {
+		"Id": "4055221",
+		"Name": "Dein Würfel möchte zu mir nach Hause",
+		"SortOrder": 298,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Tausche in „Lasst die Würfel erneut fallen! Kollektiv!“ insgesamt #1-mal die Würfel.",
+		"VersionAdded": "4.2"
+	},
+	"4055222": {
+		"Id": "4055222",
+		"Name": "Drei auf einen Streich",
+		"SortOrder": 297,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Setze in „Lasst die Würfel erneut fallen! Kollektiv!“ innerhalb einer Runde #1 Taktikkarten in Folge ein.",
+		"VersionAdded": "4.2"
+	},
+	"4055223": {
+		"Id": "4055223",
+		"Name": "Extragroßes Glas Schaden",
+		"SortOrder": 296,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Verursache in „Lasst die Würfel erneut fallen! Kollektiv!“ innerhalb einer Runde #1 SCH.",
+		"VersionAdded": "4.2"
+	},
+	"4055224": {
+		"Id": "4055224",
+		"Name": "„Furbobo-Wochenblatt“-Sprint",
+		"SortOrder": 295,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Besiege in „Lasst die Würfel erneut fallen! Kollektiv!“ als Vertreter des „Furbobo-Wochenblatts“ die fünf Besten der Rangliste der Einkaufsstraße von Seafeld City: die „Fünf Stars von Seafeld“.",
+		"VersionAdded": "4.2"
+	},
+	"4055225": {
+		"Id": "4055225",
+		"Name": "Kosmischer Würfel Nr. 1",
+		"SortOrder": 294,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schließe in „Lasst die Würfel erneut fallen! Kollektiv!“ das finale Duell mit Silberwolf St. 999 ab.",
+		"VersionAdded": "4.2"
 	},
 	"4060101": {
 		"Id": "4060101",
@@ -15181,6 +15651,16 @@
 		"Description": "Aha besiegt #1 Gegner mit „Gelächter im Anflug“.",
 		"VersionAdded": "4.0"
 	},
+	"4075015": {
+		"Id": "4075015",
+		"Name": "Herrlich seltsamer Tag",
+		"SortOrder": 700,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Gewinne einen Kampf mit #1 Hochgefühl-Figuren.",
+		"VersionAdded": "4.2"
+	},
 	"4075101": {
 		"Id": "4075101",
 		"Name": "Die drei Musketiere",
@@ -15250,6 +15730,106 @@
 		"SeriesText": "Vorfreude auf den Kampf",
 		"Description": "Löse in einem einzigen Kampf gegen „Legierungs-Mechatron: König Pom-Pom“ mindestens #1-mal den Effekt „Hochglanz“ von „Starke Schaumseife“ aus.",
 		"VersionAdded": "4.1"
+	},
+	"4075201": {
+		"Id": "4075201",
+		"Name": "Keine langen Gesichter",
+		"SortOrder": 707,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Setze in einem einzigen Kampf den Ultimate des Trailblazers (Das Hochgefühl) bei #1 verschiedenen Verbündeten jeweils einmal ein.",
+		"VersionAdded": "4.2"
+	},
+	"4075202": {
+		"Id": "4075202",
+		"Name": "Danke für die Spende",
+		"SortOrder": 706,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Setze in einem einzigen Kampf den Ultimate des Trailblazers (Das Hochgefühl) insgesamt #1-mal bei Sparxie ein.",
+		"VersionAdded": "4.2"
+	},
+	"4075203": {
+		"Id": "4075203",
+		"Name": "Crowdfunding Top <unbreak>500</unbreak>",
+		"SortOrder": 705,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Die Gesamtzahl an „Verdiente Leistung“, die Evanescia in einem einzigen Kampf durch das Talent „Jugend: Unendliche Pracht“ von anderen Teammitgliedern erhält, übersteigt #1.",
+		"VersionAdded": "4.2"
+	},
+	"4075204": {
+		"Id": "4075204",
+		"Name": "Es gibt nie zu viel des Guten",
+		"SortOrder": 704,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Setze den Ultimate der verbündeten Figur Evanescia ein, wenn die Anzahl von „Verdiente Leistung“ #1 erreicht.",
+		"VersionAdded": "4.2"
+	},
+	"4075205": {
+		"Id": "4075205",
+		"Name": "Du scheinst gerne Witze zu machen, Frau Kafka!",
+		"SortOrder": 703,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Löse „Firewall‑Wolf 999“ von Silberwolf St. 999 aus und hebe den von Stellaron-Jägerin Kafka verursachten Status „Dominiert“ auf.",
+		"VersionAdded": "4.2"
+	},
+	"4075206": {
+		"Id": "4075206",
+		"Name": "Ausrüstungsliste",
+		"SortOrder": 702,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "In einer einzigen Runde haben Verbündete #1 verschiedene „Top-Lootbox“ von Silberwolf St. 999 ausgelöst.",
+		"VersionAdded": "4.2"
+	},
+	"4075207": {
+		"Id": "4075207",
+		"Name": "Der Wolf der Finanzstraße",
+		"SortOrder": 701,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Setze die Technik „Glaub mir, das ist total Meta“ von Silberwolf St. 999 ein, um #1 Münzen auf einmal einzusammeln.",
+		"VersionAdded": "4.2"
+	},
+	"4075208": {
+		"Id": "4075208",
+		"Name": "Resident Marionette",
+		"SortOrder": 699,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Im Kampf gegen „Umgekehrte höchste Wonne: Erzlotos des bösen Willens“ hat eine verbündete Figur, nachdem sie in eine „Glücksmarionette“ verwandelt wurde, ein beliebiges Ziel mit „Passt genau“ besiegt.",
+		"VersionAdded": "4.2"
+	},
+	"4075209": {
+		"Id": "4075209",
+		"Name": "Maximaler Verstand",
+		"SortOrder": 698,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Im Kampf gegen „Umgekehrte höchste Wonne: Erzlotos des bösen Willens“ wurde keine Figur durch das Auslösen von „Glück“ in eine „Glücksmarionette“ verwandelt.",
+		"VersionAdded": "4.2"
+	},
+	"4075210": {
+		"Id": "4075210",
+		"Name": "Ende des Spaßes",
+		"SortOrder": 697,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Besiege im Kampf gegen „Aszendent der Freude“ mit einem einzigen Angriff gleichzeitig #1 oder mehr „Aszendent der Freude: Finale“.",
+		"VersionAdded": "4.2"
 	},
 	"4080101": {
 		"Id": "4080101",

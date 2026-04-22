@@ -20438,7 +20438,7 @@
 			"SkillTypeText": "Habilidad básica",
 			"MaxLevel": 15,
 			"EffectRaw": "Hace que otro aliado distinto a sí misma se convierta en Maestro. La VEL del Maestro aumenta en un <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>. Solo el último aliado que haya sido objetivo de la habilidad básica de Siete de Marzo se considera su \"Maestro\".\nCuando usa su ATQ básico o inflige daño 1 vez con su ATQ básico potenciado, se activa uno de los siguientes efectos en función de la Vía del Maestro que haya presente en el campo de batalla:\nErudición, Destrucción, Cacería, Reminiscencia o Exultación: inflige un <u>daño adicional</u> del mismo tipo que el Maestro equivalente al <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> del ATQ de Siete de Marzo.\nArmonía, Nihilidad, Conservación o Abundancia: la Reducción de Firmeza del daño infligido esta vez aumenta en un <unbreak>#3[i]%</unbreak>.",
-			"AbridgedEffect": "Designa a un aliado como Maestro. Al infligir daño el ATQ básico o ATQ básico potenciado, activa uno de los siguientes efectos según sea la <color=#f29e38ff>Vía del Maestro</color>:\nErudición, Destrucción, Cacería o Reminiscencia: inflige <color=#f29e38ff><u>daño adicional</u></color> extra del mismo tipo que el Maestro.\nArmonía, Nihilidad, Conservación o Abundancia: aumenta la <color=#f29e38ff>Reducción de Firmeza</color>.",
+			"AbridgedEffect": "Designa a un aliado como Maestro. Al infligir daño el ATQ básico o ATQ básico potenciado, activa uno de los siguientes efectos según sea la <color=#f29e38ff>Vía del Maestro</color>:\nErudición, Destrucción, Cacería, Reminiscencia o Exultación: inflige <color=#f29e38ff><u>daño adicional</u></color> extra del mismo tipo que el Maestro.\nArmonía, Nihilidad, Conservación o Abundancia: aumenta la <color=#f29e38ff>Reducción de Firmeza</color>.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -37845,7 +37845,7 @@
 			"TagTypeText": "Potenciación",
 			"SkillTypeText": "Talento",
 			"MaxLevel": 15,
-			"EffectRaw": "Al comenzar la batalla o después de que Cirene actúe, los demás personajes del equipo y sus mnemoduendes obtienen Futuro, independientemente del estado en que estén. Cuando un aliado con Futuro actúa, consume Futuro y otorga <unbreak>#1[i]</unbreak> punto de Remembranza a Cirene. Cirene activa su habilidad definitiva y disipa todos sus <u>estados negativos</u> cuando tiene <unbreak>#4[i]</unbreak> puntos de Remembranza. Si está en el estado de Ondas del pasado, Cirene puede activar su habilidad definitiva con <unbreak>#5[i]</unbreak> puntos de Remembranza. Tras alcanzar el límite, los puntos pueden seguir acumulándose hasta llegar a <unbreak>#3[i]</unbreak>. Cuando Cirene está en el campo de batalla, el daño que infligen todos los aliados aumenta en un <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>.",
+			"EffectRaw": "Al comenzar la batalla o después de que Cirene actúe, otros personajes del equipo con cualquier estado y sus mnemoduendes obtienen Futuro, independientemente del estado en que estén. Cuando un aliado con Futuro actúa, consume Futuro y otorga <unbreak>#1[i]</unbreak> punto de Remembranza a Cirene. Cirene activa su habilidad definitiva y disipa todos sus <u>estados negativos</u> cuando tiene <unbreak>#4[i]</unbreak> puntos de Remembranza. Si está en el estado de Ondas del pasado, Cirene puede activar su habilidad definitiva con <unbreak>#5[i]</unbreak> puntos de Remembranza. Tras alcanzar el límite, los puntos pueden seguir acumulándose hasta llegar a <unbreak>#3[i]</unbreak>. Cuando Cirene está en el campo de batalla, el daño que infligen todos los aliados aumenta en un <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>.",
 			"AbridgedEffect": "Al comenzar la batalla o después de que Cirene actúe, los compañeros de equipo y sus mnemoduendes obtienen Futuro. Cuando un aliado con Futuro actúa, Cirene obtiene Remembranza. Cuando Cirene está en el campo de batalla, el daño que infligen todos los aliados aumenta.",
 			"Levels": {
 				"1": {
@@ -37994,7 +37994,7 @@
 			"TagTypeText": "Apoyo",
 			"SkillTypeText": "Técnica",
 			"MaxLevel": 1,
-			"EffectRaw": "Tras usar la técnica, crea una zona especial a su alrededor que dura <unbreak>#1[i]</unbreak> segundos. Dentro de esta zona especial, los enemigos son afectados con el estado Momento eterno, con lo que detienen todas sus acciones, y los personajes aliados aumentan su VEL de movimiento en un <unbreak>#2[i]%</unbreak>. Tras entrar en combate mientras la zona está activa, despliega el campo de la habilidad básica. Solo puede haber una zona especial creada por los aliados a la vez.",
+			"EffectRaw": "Tras usar la técnica, crea una zona especial a su alrededor que dura <unbreak>#1[i]</unbreak> s. Dentro de esta zona especial, los enemigos son afectados con el estado Momento eterno, con lo que detienen todas sus acciones, y los personajes aliados aumentan su VEL de movimiento en un <unbreak>#2[i]%</unbreak>. Tras entrar en combate mientras la zona está activa, despliega el campo de la habilidad básica. Solo puede haber una zona especial creada por los aliados a la vez.",
 			"AbridgedEffect": "Crea una zona especial a su alrededor. Dentro de esta zona, los enemigos son afectados con el estado Momento eterno, y los personajes aliados aumentan su VEL de movimiento. Despliega el campo de la habilidad básica al entrar en combate.",
 			"Levels": {
 				"1": {
@@ -39811,6 +39811,1278 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1504/SkillIcon_1504_Maze.png"
 		},
 		"VersionAdded": "4.1"
+	},
+	"1505": {
+		"Id": "1505",
+		"Name": "Evanescia",
+		"BasicATK": {
+			"Id": "150501",
+			"Name": "Tarea: inspección sorpresa",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Evanescia como Daño Físico a un enemigo.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño Físico a un enemigo.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Normal.png"
+		},
+		"Skill": {
+			"Id": "150502",
+			"Name": "Disciplina: veredicto final",
+			"TriggerKey": "Skill02",
+			"TagType": "Blast",
+			"TagTypeText": "Ráfaga",
+			"SkillTypeText": "Habilidad básica",
+			"MaxLevel": 15,
+			"EffectRaw": "Evanescia inflige un <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> de su ATQ como Daño Físico a un enemigo y un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de su ATQ como Daño Físico a los objetivos adyacentes, y obtiene <unbreak>#4[i]</unbreak> pts. adicionales de <u>Chiste</u>.",
+			"AbridgedEffect": "Inflige una gran cantidad de Daño Físico a un enemigo y Daño Físico a los objetivos adyacentes, y obtiene adicionalmente <u>Chiste</u>.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						1.5,
+						0.75,
+						10
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1,
+						1.65,
+						0.825,
+						10
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1,
+						1.8,
+						0.9,
+						10
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1,
+						1.95,
+						0.975,
+						10
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1,
+						2.1,
+						1.05,
+						10
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1,
+						2.25,
+						1.125,
+						10
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1,
+						2.4375,
+						1.2188,
+						10
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1,
+						2.625,
+						1.3125,
+						10
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1,
+						2.8125,
+						1.4063,
+						10
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						3,
+						1.5,
+						10
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1,
+						3.15,
+						1.575,
+						10
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1,
+						3.3,
+						1.65,
+						10
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1,
+						3.45,
+						1.725,
+						10
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1,
+						3.6,
+						1.8,
+						10
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						3.75,
+						1.875,
+						10
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150503",
+			"Name": "Cantafilos: castigo implacable",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Evanescia como Daño Físico a todos los enemigos. A continuación, inflige daño 5 veces. Cada vez, inflige un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> del ATQ de Evanescia como Daño Físico a un enemigo al azar.",
+			"AbridgedEffect": "Inflige Daño Físico a todos los enemigos y, a continuación, inflige Daño Físico a enemigos al azar 5 veces.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5,
+						0.72,
+						88
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5,
+						0.768,
+						88
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5,
+						0.816,
+						88
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5,
+						0.864,
+						88
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5,
+						0.912,
+						88
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5,
+						0.96,
+						88
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5,
+						1.02,
+						88
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5,
+						1.08,
+						88
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5,
+						1.14,
+						88
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5,
+						1.2,
+						88
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5,
+						1.248,
+						88
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5,
+						1.296,
+						88
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5,
+						1.344,
+						88
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5,
+						1.392,
+						88
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5,
+						1.44,
+						88
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150504",
+			"Name": "Juventud: primavera eterna",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Talento",
+			"MaxLevel": 15,
+			"EffectRaw": "Evanescia obtiene una Exultación equivalente al <unbreak>#5[i]%</unbreak> de su Daño CRIT. Cuando Evanescia obtiene energía, obtiene a la vez la misma cantidad de <u>¡Bien hecho!</u>; cuando Evanescia obtiene <u>¡Bien hecho!</u>, obtiene a la vez la misma cantidad de energía. La cantidad de <u>¡Bien hecho!</u> calculada cada vez de esta forma no puede superar <unbreak>100</unbreak> pts.\nCuando acumula <unbreak>#3[i]</unbreak> pts. de energía, consume <unbreak>#3[i]</unbreak> pts. del valor acumulado para que el maestro zorro lance un <u>ataque adicional</u> que inflige un Daño Físico equivalente al <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Evanescia a todos los enemigos y recupera <unbreak>#4[i]</unbreak> pts. de energía para Evanescia. Cada vez que recupera energía, puede obtener hasta <unbreak>#3[i]</unbreak> pts. del valor acumulado. Cuando Evanescia tiene <u>¡Bien hecho!</u>:\nLanzar la habilidad básica inflige un <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> de <u>Daño de Exultación</u> Físico al enemigo atacado.\nLanzar la habilidad definitiva inflige un <color=#f29e38ff><unbreak>#6[i]%</unbreak></color> de <u>Daño de Exultación</u> Físico a todos los enemigos, y un <color=#f29e38ff><unbreak>#8[i]%</unbreak></color> de <u>Daño de Exultación</u> Físico a los enemigos que reciben daño aleatoriamente de la habilidad definitiva. Cuando la habilidad definitiva inflige <u>Daño de Exultación</u>, se cuenta un mínimo de <u>¡Bien hecho!</u> equivalente a la energía máxima.\nEl <u>ataque adicional</u> del maestro zorro inflige un <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> de <u>Daño de Exultación</u> Físico a todos los enemigos.",
+			"AbridgedEffect": "Cuando Evanescia obtiene energía, a la vez <color=#f29e38ff>obtiene la misma cantidad de <u>¡Bien hecho!</u></color>; cuando Evanescia obtiene <u>¡Bien hecho!</u>, a la vez <color=#f29e38ff>obtiene la misma cantidad de energía</color>. Cuando acumula cierta cantidad de energía, el maestro zorro lanza un <u>ataque adicional</u> que inflige una pequeña cantidad de Daño Físico a todos los enemigos y recupera la energía de Evanescia. Cuando Evanescia tiene <u>¡Bien hecho!</u>, lanzar la habilidad básica, la habilidad definitiva o el <u>ataque adicional</u> del maestro zorro inflige una pequeña cantidad de <u>Daño de Exultación</u> Físico a los enemigos.",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5,
+						0.125,
+						240,
+						10,
+						0.2,
+						0.12,
+						0.08,
+						0.14
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.55,
+						0.1375,
+						240,
+						10,
+						0.2,
+						0.132,
+						0.088,
+						0.154
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						240,
+						10,
+						0.2,
+						0.144,
+						0.096,
+						0.168
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						240,
+						10,
+						0.2,
+						0.156,
+						0.104,
+						0.182
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						240,
+						10,
+						0.2,
+						0.168,
+						0.112,
+						0.196
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						240,
+						10,
+						0.2,
+						0.18,
+						0.12,
+						0.21
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.8125,
+						0.2031,
+						240,
+						10,
+						0.2,
+						0.195,
+						0.13,
+						0.2275
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.875,
+						0.2188,
+						240,
+						10,
+						0.2,
+						0.21,
+						0.14,
+						0.245
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.9375,
+						0.2344,
+						240,
+						10,
+						0.2,
+						0.225,
+						0.15,
+						0.2625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1,
+						0.25,
+						240,
+						10,
+						0.2,
+						0.24,
+						0.16,
+						0.28
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.05,
+						0.2625,
+						240,
+						10,
+						0.2,
+						0.252,
+						0.168,
+						0.294
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.1,
+						0.275,
+						240,
+						10,
+						0.2,
+						0.264,
+						0.176,
+						0.308
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.15,
+						0.2875,
+						240,
+						10,
+						0.2,
+						0.276,
+						0.184,
+						0.322
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.2,
+						0.3,
+						240,
+						10,
+						0.2,
+						0.288,
+						0.192,
+						0.336
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1.25,
+						0.3125,
+						240,
+						10,
+						0.2,
+						0.3,
+						0.2,
+						0.35
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Passive.png"
+		},
+		"Technique": {
+			"Id": "150507",
+			"Name": "Pétalos: recuerdos esparcidos",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Técnica",
+			"MaxLevel": 1,
+			"EffectRaw": "Ataca inmediatamente a todos los enemigos en un área determinada y entra en combate. Inflige a todos los enemigos un <unbreak>#1[i]%</unbreak> del ATQ de Evanescia como Daño Físico y obtiene <unbreak>#2[i]</unbreak> pts. de <u>¡Bien hecho!</u>",
+			"AbridgedEffect": "Ataca inmediatamente a todos los enemigos en un área determinada y entra en combate. Inflige una pequeña cantidad de Daño Físico a todos los enemigos y obtiene <u>¡Bien hecho!</u>",
+			"ElementType": "Physical",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1505/SkillIcon_1505_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "Silver Wolf Niv. <unbreak>999</unbreak>",
+		"BasicATK": {
+			"Id": "150601",
+			"Name": "¡Come nudillos!",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Silver Wolf Niv. <unbreak>999</unbreak> como Daño Imaginario a un enemigo.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño Imaginario a un enemigo.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150608",
+			"Name": "Etapa de recompensa: Momento Loba Insigne",
+			"TriggerKey": "Skill11",
+			"TagType": "Bounce",
+			"TagTypeText": "Rebote",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige en total un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Silver Wolf Niv. <unbreak>999</unbreak> como Daño Imaginario, que se divide equitativamente en <unbreak>#3[i]</unbreak> rebotes contra enemigos al azar. Cada cierta cantidad de rebotes, estos se pausan y se activa <u>Caja de botín premium</u> una vez. Se puede activar hasta <unbreak>#5[i]</unbreak> veces en total.\nSi se inflige daño letal a todos los enemigos en el campo de batalla, esta habilidad finaliza. Cuando vuelve a haber enemigos a los que se puede atacar, obtiene un <u>turno adicional</u> y la habilidad se vuelve a lanzar en función de los rebotes y las activaciones de <u>Caja de botín premium</u> restantes. La primera vez que se activa este efecto en cada turno, todos los <u>efectos positivos</u> de esta unidad prolongan su duración un turno.\nUna vez infligido todo el daño antes mencionado, lanza un último golpe que inflige un <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> del ATQ de Silver Wolf Niv. <unbreak>999</unbreak> como Daño Imaginario, el cual se reparte equitativamente entre todos los enemigos.\nEl ATQ básico potenciado no recupera pts. de habilidad básica. Por cada <unbreak>#6[i]</unbreak> pts. de MMR oculto, el daño infligido durante el ATQ básico potenciado aumenta en un <unbreak>#8[i]%</unbreak> del daño original. Se puede acumular hasta <unbreak>#7[i]</unbreak> veces.",
+			"AbridgedEffect": "Inflige Daño Imaginario que rebota muchas veces, durante las cuales Caja de botín premium se puede activar <color=#f29e38ff><unbreak>#5[i]</unbreak></color> veces. <color=#f29e38ff>Si se inflige daño letal a todos los enemigos, se conserva el efecto restante</color> y se sigue lanzando contra los nuevos enemigos que entren en combate. Por último, inflige Daño Imaginario que se reparte equitativamente entre todos los enemigos.\nCada vez que el MMR oculto alcanza cierta cantidad de puntos, aumenta adicionalmente el daño del ATQ básico potenciado.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						1.2,
+						0,
+						100,
+						0.5,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						1.44,
+						0,
+						100,
+						0.6,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"3": {
+					"EffectValues": [
+						1.68,
+						0,
+						100,
+						0.7,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.92,
+						0,
+						100,
+						0.8,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"5": {
+					"EffectValues": [
+						2.16,
+						0,
+						100,
+						0.9,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"6": {
+					"EffectValues": [
+						2.4,
+						0,
+						100,
+						1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"7": {
+					"EffectValues": [
+						2.64,
+						0,
+						100,
+						1.1,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"8": {
+					"EffectValues": [
+						2.88,
+						0,
+						100,
+						1.2,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"9": {
+					"EffectValues": [
+						3.12,
+						0,
+						100,
+						1.3,
+						3,
+						60,
+						2,
+						0.15
+					]
+				},
+				"10": {
+					"EffectValues": [
+						3.36,
+						0,
+						100,
+						1.4,
+						3,
+						60,
+						2,
+						0.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_00.png"
+		},
+		"Skill": {
+			"Id": "150602",
+			"Name": "Disparo explosivo",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad básica",
+			"MaxLevel": 15,
+			"EffectRaw": "Obtiene <unbreak>#2[i]</unbreak> puntos de <u>Chiste</u> e inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Silver Wolf Niv. <unbreak>999</unbreak> como Daño Imaginario a todos los enemigos.",
+			"AbridgedEffect": "Obtiene <u>Chiste</u> e inflige Daño Imaginario a todos los enemigos.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.8,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.88,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.96,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						1.04,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						1.12,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1.2,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.3,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.4,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.5,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.6,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						1.68,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						1.76,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						1.84,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						1.92,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						2,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150603",
+			"Name": "¡Modo Dios activado!",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Entra en el estado de Jugadora imbatible y <u>adelanta su acción</u> un <unbreak>100%</unbreak>.\nEn el estado de Jugadora imbatible, despliega un campo. Mientras Silver Wolf Niv. <unbreak>999</unbreak> tenga <u>¡Bien hecho!</u>, cada vez que un aliado dentro del campo consume 1 pt. de habilidad básica, hay una probabilidad de activar una vez la <u>Caja de botín premium</u> de Silver Wolf Niv. <unbreak>999</unbreak>, que inflige un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>Daño de Exultación</u> Imaginario que se reparte equitativamente entre todos los enemigos y activa uno de los siguientes efectos al azar:\nMegaespadón: inflige adicionalmente al enemigo con más PV un <u>Daño verdadero</u> equivalente al <unbreak>#5[i]%</unbreak> del daño total infligido esta vez.\nHuevobomba: recupera <unbreak>#7[i]</unbreak> pts. de habilidad básica.\nZampacocos: obtiene <unbreak>#6[i]</unbreak> puntos de <u>Chiste</u>.\nLa <u>probabilidad fija</u> inicial de activar este efecto es del <unbreak>100%</unbreak>. Tras activarlo, la <u>probabilidad fija</u> de la siguiente activación se reduce al <unbreak>#4[i]%</unbreak> de la probabilidad actual. Si el objetivo es eliminado antes de la activación, se activa contra un nuevo enemigo que entre en combate.",
+			"AbridgedEffect": "Se transforma y <u>adelanta su acción</u> un <unbreak>100%</unbreak>.\nDurante la transformación, despliega un campo. Mientras tenga <u>¡Bien hecho!</u>, cada vez que los aliados <color=#f29e38ff>consumen 1 pt. de habilidad básica</color>, hay una gran probabilidad de <color=#f29e38ff>activar una vez Caja de botín premium</color>, la cual inflige una gran cantidad de <u>Daño de Exultación</u> Imaginario que se reparte equitativamente entre todos los enemigos, y activa uno de los siguientes efectos al azar:\nInflige <color=#f29e38ff><u>Daño verdadero</u></color> al objetivo con más PV en proporción al daño total.\nRecupera <color=#f29e38ff>pts. de habilidad básica</color>.\nObtiene <color=#f29e38ff><u>Chiste</u></color>.\nTras cada activación, la probabilidad se reduce proporcionalmente.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						0,
+						0.45,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						0,
+						0.495,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						0,
+						0.54,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						0,
+						0.585,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						0,
+						0.63,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						0,
+						0.675,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						0,
+						0.7313,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						0,
+						0.7875,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						0,
+						0.8438,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						0,
+						0.9,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						0,
+						0.945,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						0,
+						0.99,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						0,
+						1.035,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						0,
+						1.08,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						0,
+						1.125,
+						0.2,
+						0.2,
+						3,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Ultra.png"
+		},
+		"EnhancedBasicATK2": {
+			"Id": "150610",
+			"Name": "Megaespadón",
+			"TriggerKey": "Skill12",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "N/A",
+			"AbridgedEffect": "Inflige una gran cantidad de <u>Daño de Exultación</u> Imaginario a todos los enemigos, que se reparte a partes iguales entre ellos. Inflige <u>Daño verdadero</u> al objetivo con más PV en función del daño total.",
+			"ElementType": "Imaginary",
+			"Levels": {
+				"1": {
+					"EffectValues": []
+				},
+				"2": {
+					"EffectValues": []
+				},
+				"3": {
+					"EffectValues": []
+				},
+				"4": {
+					"EffectValues": []
+				},
+				"5": {
+					"EffectValues": []
+				},
+				"6": {
+					"EffectValues": []
+				},
+				"7": {
+					"EffectValues": []
+				},
+				"8": {
+					"EffectValues": []
+				},
+				"9": {
+					"EffectValues": []
+				},
+				"10": {
+					"EffectValues": []
+				}
+			},
+			"ImageIcon": "SpriteOutput/Battle/SpecialUltraSP/1506/UltraItem/Icon/UltraItem_1506_01.png"
+		},
+		"Talent": {
+			"Id": "150604",
+			"Name": "Aquí quien carrea soy yo",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Talento",
+			"MaxLevel": 15,
+			"EffectRaw": "Tras alcanzar <unbreak>#1[i]</unbreak> pts. de MMR oculto, se puede activar la habilidad definitiva. Puede haber un excedente de <unbreak>#2[i]</unbreak> pts. de MMR oculto tras alcanzar el máximo.\nAl obtenerse <u>Chiste</u>, Silver Wolf Niv. <unbreak>999</unbreak> obtiene la misma cantidad de MMR oculto. Cada pt. de MMR oculto aumenta la Prob. CRIT en un <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Una vez que la Prob. CRIT alcanza el <unbreak>100%</unbreak>, cada pt. del MMR oculto restante pasa a aumentar el Daño CRIT en un <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\nEn el estado de Jugadora imbatible, Silver Wolf Niv. <unbreak>999</unbreak> es inmune a los <u>estados negativos de Control</u>, no puede lanzar la habilidad definitiva y posee un ATQ básico potenciado y una habilidad de Exultación potenciada. Sale del estado de Jugadora imbatible tras terminar de lanzar <unbreak>#5[i]</unbreak> veces el ATQ básico potenciado. Al salir del estado de Jugadora imbatible, el MMR oculto se restablece.\nMientras tiene <u>¡Bien hecho!</u>, al lanzar el ATQ básico o la habilidad básica, inflige a los enemigos atacados un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>Daño de Exultación</u> Imaginario, y el daño de habilidad del ATQ básico potenciado se convierte en <u>Daño de Exultación</u> con el mismo multiplicador.",
+			"AbridgedEffect": "Tras alcanzar <color=#f29e38ff><unbreak>#1[i]</unbreak></color> pts. de MMR oculto, se puede activar la habilidad definitiva. <color=#f29e38ff>Cuando obtiene <u>Chiste</u>, obtiene la misma cantidad de MMR oculto</color>. Cuanto mayor es el MMR oculto, mayor es la Prob. CRIT. Cuando la Prob. CRIT alcanza el <unbreak>100%</unbreak>, el Daño CRIT aumenta en su lugar.\nDurante su transformación, Silver Wolf Niv. <unbreak>999</unbreak> es inmune a los <u>estados negativos de Control</u>, y su ATQ básico y habilidad de Exultación se potencian. Tras lanzar el ATQ básico potenciado <color=#f29e38ff><unbreak>#5[i]</unbreak></color> veces, sale de la transformación.\nMientras tiene <u>¡Bien hecho!</u>, inflige adicionalmente <u>Daño de Exultación</u> Imaginario al lanzar el ATQ básico o la habilidad básica, y el daño de habilidad del ATQ básico potenciado se convierte en <u>Daño de Exultación</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						60,
+						240,
+						0.2,
+						0.002,
+						3,
+						0.004
+					]
+				},
+				"2": {
+					"EffectValues": [
+						60,
+						240,
+						0.22,
+						0.0022,
+						3,
+						0.0044
+					]
+				},
+				"3": {
+					"EffectValues": [
+						60,
+						240,
+						0.24,
+						0.0024,
+						3,
+						0.0048
+					]
+				},
+				"4": {
+					"EffectValues": [
+						60,
+						240,
+						0.26,
+						0.0026,
+						3,
+						0.0052
+					]
+				},
+				"5": {
+					"EffectValues": [
+						60,
+						240,
+						0.28,
+						0.0028,
+						3,
+						0.0056
+					]
+				},
+				"6": {
+					"EffectValues": [
+						60,
+						240,
+						0.3,
+						0.003,
+						3,
+						0.006
+					]
+				},
+				"7": {
+					"EffectValues": [
+						60,
+						240,
+						0.325,
+						0.0033,
+						3,
+						0.0065
+					]
+				},
+				"8": {
+					"EffectValues": [
+						60,
+						240,
+						0.35,
+						0.0035,
+						3,
+						0.007
+					]
+				},
+				"9": {
+					"EffectValues": [
+						60,
+						240,
+						0.375,
+						0.0038,
+						3,
+						0.0075
+					]
+				},
+				"10": {
+					"EffectValues": [
+						60,
+						240,
+						0.4,
+						0.004,
+						3,
+						0.008
+					]
+				},
+				"11": {
+					"EffectValues": [
+						60,
+						240,
+						0.42,
+						0.0042,
+						3,
+						0.0084
+					]
+				},
+				"12": {
+					"EffectValues": [
+						60,
+						240,
+						0.44,
+						0.0044,
+						3,
+						0.0088
+					]
+				},
+				"13": {
+					"EffectValues": [
+						60,
+						240,
+						0.46,
+						0.0046,
+						3,
+						0.0092
+					]
+				},
+				"14": {
+					"EffectValues": [
+						60,
+						240,
+						0.48,
+						0.0048,
+						3,
+						0.0096
+					]
+				},
+				"15": {
+					"EffectValues": [
+						60,
+						240,
+						0.5,
+						0.005,
+						3,
+						0.01
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Passive.png"
+		},
+		"Technique": {
+			"Id": "150607",
+			"Name": "Esto sí es meta",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Summon",
+			"TagTypeText": "Invocación",
+			"SkillTypeText": "Técnica",
+			"MaxLevel": 1,
+			"EffectRaw": "Invoca a Zampacocos. Si se usa de nuevo, se disipa la invocación. Usar la técnica no consume puntos de técnica. Cuando los puntos de técnica llegan a 0, la invocación se disipa y no se puede usar la técnica.\nZampacocos afecta con el estado de Aterrorizado a los enemigos normales en un área determinada. A su vez, busca y ataca automáticamente a los enemigos normales, y consume 1 punto de técnica para eliminarlos de inmediato sin entrar en combate.\nTras entrar en combate mientras Zampacocos está en la escena, al comenzar cada oleada se activa una vez la <u>Caja de botín premium</u> correspondiente a Zampacocos. El <u>Daño de Exultación</u> infligido esta vez cuenta como <unbreak>#1[i]</unbreak> pts. fijos de <u>¡Bien hecho!</u>",
+			"AbridgedEffect": "Invoca a Zampacocos. Si se usa de nuevo, se disipa la invocación. Su uso <color=#f29e38ff>no consume puntos de técnica</color>.\nZampacocos busca y ataca automáticamente a los enemigos normales, y consume 1 punto de técnica para <color=#f29e38ff>eliminarlos de inmediato sin entrar en combate</color>.\nTras entrar en combate, al comienzo de cada oleada se activa la Caja de botín premium correspondiente a Zampacocos.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						99
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	},
 	"8001": {
 		"Id": "8001",
@@ -44017,5 +45289,967 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8007/SkillIcon_8007_Maze.png"
 		},
 		"VersionAdded": "3.1"
+	},
+	"8009": {
+		"Id": "8009",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "800901",
+			"Name": "Aquí está mi apoyo",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ {F#de la}{M#del} Trazacaminos como Daño de Rayo a un enemigo.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Rayo a un enemigo.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "800902",
+			"Name": "La tormenta suena agitada",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad básica",
+			"MaxLevel": 15,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ {F#de la}{M#del} Trazacaminos como Daño de Rayo a todos los enemigos y obtiene <unbreak>#2[i]</unbreak> pts. de <u>¡Bien hecho!</u>",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos y obtiene <u>¡Bien hecho!</u>",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "800903",
+			"Name": "Trazacaminos, ¡siempre contigo!",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Apoyo",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Obtiene <unbreak>#6[i]</unbreak> puntos de <u>Chiste</u>, aumenta el Daño CRIT de un aliado en un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> durante <unbreak>#2[i]</unbreak> turnos y disipa los <u>estados negativos de Control</u> de ese aliado.\nSi ese aliado tiene una habilidad de Exultación, obtiene adicionalmente <unbreak>#4[i]</unbreak> pts. de <u>¡Bien hecho!</u> y lanza inmediatamente una vez su habilidad de Exultación, que cuenta como <unbreak>#5[i]</unbreak> puntos fijos de <u>Chiste</u>. Si el enemigo es eliminado antes de lanzar la habilidad de Exultación, esta se lanza contra un nuevo enemigo que entre en combate.\nSi ese aliado no tiene una habilidad de Exultación, <u>adelanta su acción</u> un <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Obtiene <u>Chiste</u>, aumenta el Daño CRIT de un aliado y disipa los <u>estados negativos de Control</u> de ese aliado. Si ese aliado tiene una habilidad de Exultación, <color=#f29e38ff>obtiene <u>¡Bien hecho!</u> adicionalmente</color> y <color=#f29e38ff>lanza inmediatamente su habilidad de Exultación</color>. De lo contrario, su <u>acción se adelanta</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "800904",
+			"Name": "Sonrisa matadora",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Apoyo",
+			"SkillTypeText": "Talento",
+			"MaxLevel": 15,
+			"EffectRaw": "Después de atacar, recupera <unbreak>#1[i]</unbreak> pts. de energía fijos y obtiene <unbreak>#2[i]</unbreak> puntos de <u>Chiste</u>.\nCuando {F#la}{M#el} Trazacaminos tiene <u>¡Bien hecho!</u>, la habilidad básica inflige adicionalmente un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>Daño de Exultación</u> de Rayo a todos los enemigos. Este daño se calcula con el valor de <u>¡Bien hecho!</u> más alto de los aliados.",
+			"AbridgedEffect": "Después de atacar, recupera energía y obtiene <u>Chiste</u>.\nCuando {F#la}{M#el} Trazacaminos tiene <u>¡Bien hecho!</u>, la habilidad básica inflige adicionalmente una pequeña cantidad de <u>Daño de Exultación</u> de Rayo a todos los enemigos.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "800907",
+			"Name": "¡Esto está que arde!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Técnica",
+			"MaxLevel": 1,
+			"EffectRaw": "Tras usar la técnica, se obtiene al azar uno de los dos siguientes efectos:\nBaja probabilidad de obtener A mandíbula batiente: la Exultación aumenta en un <unbreak>#1[i]%</unbreak>.\nGran probabilidad de obtener Para partirse de risa: la Exultación aumenta en un <unbreak>#3[i]%</unbreak>.\nAl comenzar la siguiente batalla, aumenta la Exultación de todos los aliados en la cantidad correspondiente durante <unbreak>#5[i]</unbreak> turnos.",
+			"AbridgedEffect": "Al entrar en combate tras usar la técnica, <color=#f29e38ff>aumenta la Exultación de todos los aliados</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"8010": {
+		"Id": "8010",
+		"Name": "{NICKNAME}",
+		"BasicATK": {
+			"Id": "801001",
+			"Name": "Aquí está mi apoyo",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ {F#de la}{M#del} Trazacaminos como Daño de Rayo a un enemigo.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Rayo a un enemigo.",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Normal.png"
+		},
+		"Skill": {
+			"Id": "801002",
+			"Name": "La tormenta suena agitada",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad básica",
+			"MaxLevel": 15,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ {F#de la}{M#del} Trazacaminos como Daño de Rayo a todos los enemigos y obtiene <unbreak>#2[i]</unbreak> pts. de <u>¡Bien hecho!</u>",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Rayo a todos los enemigos y obtiene <u>¡Bien hecho!</u>",
+			"ElementType": "Thunder",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						20
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.33,
+						20
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.36,
+						20
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.39,
+						20
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.42,
+						20
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.45,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.4875,
+						20
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.525,
+						20
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.5625,
+						20
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.6,
+						20
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.63,
+						20
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.66,
+						20
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.69,
+						20
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.72,
+						20
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.75,
+						20
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_BP.png"
+		},
+		"Ultimate": {
+			"Id": "801003",
+			"Name": "Trazacaminos, ¡siempre contigo!",
+			"TriggerKey": "Skill03",
+			"TagType": "Support",
+			"TagTypeText": "Apoyo",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Obtiene <unbreak>#6[i]</unbreak> puntos de <u>Chiste</u>, aumenta el Daño CRIT de un aliado en un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> durante <unbreak>#2[i]</unbreak> turnos y disipa los <u>estados negativos de Control</u> de ese aliado.\nSi ese aliado tiene una habilidad de Exultación, obtiene adicionalmente <unbreak>#4[i]</unbreak> pts. de <u>¡Bien hecho!</u> y lanza inmediatamente una vez su habilidad de Exultación, que cuenta como <unbreak>#5[i]</unbreak> puntos fijos de <u>Chiste</u>. Si el enemigo es eliminado antes de lanzar la habilidad de Exultación, esta se lanza contra un nuevo enemigo que entre en combate.\nSi ese aliado no tiene una habilidad de Exultación, <u>adelanta su acción</u> un <unbreak>#3[i]%</unbreak>.",
+			"AbridgedEffect": "Obtiene <u>Chiste</u>, aumenta el Daño CRIT de un aliado y disipa los <u>estados negativos de Control</u> de ese aliado. Si ese aliado tiene una habilidad de Exultación, <color=#f29e38ff>obtiene <u>¡Bien hecho!</u> adicionalmente</color> y <color=#f29e38ff>lanza inmediatamente su habilidad de Exultación</color>. De lo contrario, su <u>acción se adelanta</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.32,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.34,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.36,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.38,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.4,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.425,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.45,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.475,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.5,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.52,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.54,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.56,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.58,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.6,
+						3,
+						0.5,
+						10,
+						20,
+						5
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Ultra.png"
+		},
+		"Talent": {
+			"Id": "801004",
+			"Name": "Sonrisa matadora",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Apoyo",
+			"SkillTypeText": "Talento",
+			"MaxLevel": 15,
+			"EffectRaw": "Después de atacar, recupera <unbreak>#1[i]</unbreak> pts. de energía fijos y obtiene <unbreak>#2[i]</unbreak> puntos de <u>Chiste</u>.\nCuando {F#la}{M#el} Trazacaminos tiene <u>¡Bien hecho!</u>, la habilidad básica inflige adicionalmente un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>Daño de Exultación</u> de Rayo a todos los enemigos. Este daño se calcula con el valor de <u>¡Bien hecho!</u> más alto de los aliados.",
+			"AbridgedEffect": "Después de atacar, recupera energía y obtiene <u>Chiste</u>.\nCuando {F#la}{M#el} Trazacaminos tiene <u>¡Bien hecho!</u>, la habilidad básica inflige adicionalmente una pequeña cantidad de <u>Daño de Exultación</u> de Rayo a todos los enemigos.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						10,
+						3,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						10,
+						3,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						10,
+						3,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						10,
+						3,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						10,
+						3,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						10,
+						3,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						10,
+						3,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						10,
+						3,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						10,
+						3,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						10,
+						3,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						10,
+						3,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						10,
+						3,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						10,
+						3,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						10,
+						3,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						10,
+						3,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Passive.png"
+		},
+		"Technique": {
+			"Id": "801007",
+			"Name": "¡Esto está que arde!",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Técnica",
+			"MaxLevel": 1,
+			"EffectRaw": "Tras usar la técnica, se obtiene al azar uno de los dos siguientes efectos:\nBaja probabilidad de obtener A mandíbula batiente: la Exultación aumenta en un <unbreak>#1[i]%</unbreak>.\nGran probabilidad de obtener Para partirse de risa: la Exultación aumenta en un <unbreak>#3[i]%</unbreak>.\nAl comenzar la siguiente batalla, aumenta la Exultación de todos los aliados en la cantidad correspondiente durante <unbreak>#5[i]</unbreak> turnos.",
+			"AbridgedEffect": "Al entrar en combate tras usar la técnica, <color=#f29e38ff>aumenta la Exultación de todos los aliados</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.3,
+						0.1,
+						0.2,
+						0.1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/8009/SkillIcon_8009_Maze.png"
+		},
+		"VersionAdded": "4.2"
 	}
 }

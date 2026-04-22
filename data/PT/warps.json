@@ -1159,6 +1159,86 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1315_Selected.png",
 		"VersionAdded": "4.1"
 	},
+	"2116": {
+		"Id": "2116",
+		"Name": "เพลย์เยอร์ขั้นเทพ",
+		"Description": "เพิ่มโอกาสได้รับตัวละคร ที่กำหนด",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1506_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2117": {
+		"Id": "2117",
+		"Name": "รวมพลในใต้หล้า: ดอกดาห์เลีย",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1321_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2118": {
+		"Id": "2118",
+		"Name": "รวมพลในใต้หล้า: Castorice",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1407_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2119": {
+		"Id": "2119",
+		"Name": "รวมพลในใต้หล้า: Firefly",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1310_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2120": {
+		"Id": "2120",
+		"Name": "พริ้งพิจพิจารณ์",
+		"Description": "เพิ่มโอกาสได้รับตัวละคร ที่กำหนด",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1505_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2121": {
+		"Id": "2121",
+		"Name": "รวมพลในใต้หล้า: Tribbie",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1403_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2122": {
+		"Id": "2122",
+		"Name": "รวมพลในใต้หล้า: Sunday",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1313_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"2123": {
+		"Id": "2123",
+		"Name": "รวมพลในใต้หล้า: Feixiao",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "กิจกรรมวาร์ปตัวละคร",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
+		"VersionAdded": "4.2"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "เปลวแสงที่พร่างพราว",
@@ -2308,6 +2388,86 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23027_Selected.png",
 		"VersionAdded": "4.1"
+	},
+	"3116": {
+		"Id": "3116",
+		"Name": "เปลวแสงที่พร่างพราว",
+		"Description": "เพิ่มโอกาสได้รับ Light Cone ที่กำหนด",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23057_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3117": {
+		"Id": "3117",
+		"Name": "สรรพสิ่งในดาราจักร: Never Forget Her Flame",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23050_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3118": {
+		"Id": "3118",
+		"Name": "สรรพสิ่งในดาราจักร: Make Farewells More Beautiful",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23040_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3119": {
+		"Id": "3119",
+		"Name": "สรรพสิ่งในดาราจักร: Whereabouts Should Dreams Rest",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23025_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3120": {
+		"Id": "3120",
+		"Name": "เปลวแสงที่พร่างพราว",
+		"Description": "เพิ่มโอกาสได้รับ Light Cone ที่กำหนด",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23058_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3121": {
+		"Id": "3121",
+		"Name": "สรรพสิ่งในดาราจักร: If Time Were a Flower",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23038_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3122": {
+		"Id": "3122",
+		"Name": "สรรพสิ่งในดาราจักร: A Grounded Ascent",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23034_Selected.png",
+		"VersionAdded": "4.2"
+	},
+	"3123": {
+		"Id": "3123",
+		"Name": "สรรพสิ่งในดาราจักร: I Venture Forth to Hunt",
+		"Description": "{LAYOUT_MOBILE#แตะ}{LAYOUT_CONTROLLER#กด}{LAYOUT_KEYBOARD#คลิก}ที่แท็บเพื่อสลับการวาร์ป ที่แตกต่างกันไป",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "กิจกรรมวาร์ป Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
+		"VersionAdded": "4.2"
 	},
 	"4001": {
 		"Id": "4001",

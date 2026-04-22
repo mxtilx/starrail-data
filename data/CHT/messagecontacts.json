@@ -138,7 +138,9 @@
 		"ConversationIds": [
 			"11513",
 			"13084",
-			"13085"
+			"13085",
+			"15031",
+			"15033"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
@@ -3021,7 +3023,8 @@
 		"FactionTypeText": "假面愚者",
 		"ConversationIds": [
 			"15026",
-			"15034"
+			"15034",
+			"15038"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Zhongshan.png"
@@ -3081,7 +3084,9 @@
 			"15029",
 			"15030",
 			"15035",
-			"15036"
+			"15036",
+			"15039",
+			"15040"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
@@ -3117,6 +3122,35 @@
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
 		},
 		"VersionAdded": "4.1"
+	},
+	"220": {
+		"Id": "220",
+		"Name": "銀狼（文豪版）",
+		"Signature": "不會玩遊戲就不要玩",
+		"ContactType": 1,
+		"ContactTypeText": "角色",
+		"FactionType": 5,
+		"FactionTypeText": "星核獵手",
+		"ConversationIds": [],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1006.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"221": {
+		"Id": "221",
+		"Name": "小高",
+		"ContactType": 2,
+		"ContactTypeText": "其他",
+		"FactionType": 99,
+		"FactionTypeText": "其他",
+		"ConversationIds": [
+			"15041"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
+		},
+		"VersionAdded": "4.2"
 	},
 	"1000": {
 		"Id": "1000",
@@ -3307,7 +3341,10 @@
 			"13388",
 			"20073",
 			"20074",
-			"20075"
+			"20075",
+			"20232",
+			"20233",
+			"20234"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1006.png"
@@ -4613,6 +4650,7 @@
 		"FactionTypeText": "假面愚者",
 		"ConversationIds": [
 			"15011",
+			"15032",
 			"20222",
 			"20223",
 			"20224"
@@ -4657,6 +4695,36 @@
 			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1504.png"
 		},
 		"VersionAdded": "4.1"
+	},
+	"1505": {
+		"Id": "1505",
+		"Name": "緋英",
+		"Signature": "長期接三月兔委託，也可以接別的！",
+		"ContactType": 1,
+		"ContactTypeText": "角色",
+		"FactionType": 21,
+		"FactionTypeText": "二相樂園",
+		"ConversationIds": [
+			"20231"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1505.png"
+		},
+		"VersionAdded": "4.2"
+	},
+	"1506": {
+		"Id": "1506",
+		"Name": "銀狼LV.<unbreak>999</unbreak>",
+		"Signature": "不會玩遊戲就不要玩",
+		"ContactType": 1,
+		"ContactTypeText": "角色",
+		"FactionType": 5,
+		"FactionTypeText": "星核獵手",
+		"ConversationIds": [],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1506.png"
+		},
+		"VersionAdded": "4.2"
 	},
 	"8000": {
 		"Id": "8000",
