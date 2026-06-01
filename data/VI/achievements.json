@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "Cô ấy lướt qua tựa cánh hoa trong gió",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "Suy Luận Cấm Kỵ",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Suy luận phải sau khi cụng ly\n<color=#8790abff>※Đến \"Quán Rượu\" điều tra manh mối về sự tồn tại của Asat Pramad</color>",
+		"HiddenDescription": "Suy luận phải sau khi cụng ly",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "Thắp Sáng Ngọn Đèn Năm Xưa",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Ra đây chơi ném tuyết nào!\n<color=#8790abff>※ Gọi Graphia đến bằng cách thức ước định trong quá khứ</color>",
+		"HiddenDescription": "Ra đây chơi ném tuyết nào!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "Khoảnh Khắc Dừng Chân Nơi Bỉ Ngạn",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Nhảy xuống đi, tan chảy trong Hố Xanh đó\n<color=#8790abff>※ Chứng kiến Blade tiến đến tận cùng của Thế Giới Trong Tranh</color>",
+		"HiddenDescription": "Nhảy xuống đi, tan chảy trong Hố Xanh đó",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "Thứ Gì Là Lưỡi Kiếm",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Thứ gì là lưỡi kiếm? Thứ gì bào mòn bản thân, xé nát kẻ thù?\n<color=#8790abff>※Blade đã có được câu trả lời của anh ấy</color>",
+		"HiddenDescription": "Thứ gì là lưỡi kiếm? Thứ gì bào mòn bản thân, xé nát kẻ thù?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "Trò Đùa Chìm Vào Tĩnh Lặng",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Đường Ray Đến Những Vì Sao",
+		"Description": "Giải thích chuyện cười là hành vi tồi tệ nhất\n<color=#8790abff>※ Chứng kiến Asat Pramad tiết lộ bộ mặt thật của mình</color>",
+		"HiddenDescription": "Giải thích chuyện cười, là hành vi tồi tệ nhất",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Người Chơi Nhập Vai Hợp Chuẩn",
@@ -5558,6 +5613,76 @@
 		"SeriesText": "Khám Phá Bí Ẩn",
 		"Description": "Diễn tấu Chương Nhạc Kỳ Dị, tìm ra sinh vật bí ẩn ẩn náu tại Thành Phố Seafeld",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "Kẻ Một Mình Trên Cao",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Hoàn thành \"Thời Khắc Jump\" của Suối Ẩn Xuyên Tranh",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "Né Tránh Thích Khách",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Vượt ải \"Thời Khắc Jump\" của Suối Ẩn Xuyên Tranh mà không bị Linh Thể Nhím chạm trúng",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "Người Khổng Lồ Băng Cuối Cùng",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Đánh ngất Casper",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "Vương Quốc Tuyết",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Tìm rương ẩn trong lâu đài khi chơi ném tuyết với Casper trong \"JUMP Không Gian 2D!\"",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "Chào Mừng Đến Bệ Hơi Nước",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Ngâm mình trong suối nước nóng trên tuyết ở Suối Ẩn Xuyên Tranh",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "Giai Thoại Kỵ Sĩ Không Đầu",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Đá bay đầu của tất cả \"Người Tuyết Bình Thường\" ở Suối Ẩn Xuyên Tranh",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "Biến Tấu Thiên Đường Vui Vẻ: Đứa Bé Tuyết",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Khám Phá Bí Ẩn",
+		"Description": "Diễn tấu Chương Nhạc Kỳ Dị, tìm ra sinh vật bí ẩn trốn trong Suối Ẩn Xuyên Tranh",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "Trong \"Lại Đổ Xúc Xắc Nào! Băng Lực Chiến!\", hoàn thành trận quyết đấu cuối cùng với Sói Bạc LV.999",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "Xuất Phát! Xe Buýt Astral!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Hỏi Nihilux về câu chuyện của \"Trò Chơi Ảo Nguyệt Mới\"",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "Truyền Thuyết Vô Tận",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Ủng hộ tiếp tục phát triển \"Thỏ Đường Ray Tinh Cầu\"",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "Từ Đó, Nó Hạnh Phúc Mãi Mãi...",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Phản đối tiếp tục phát triển \"Thỏ Đường Ray Tinh Cầu\"",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "Người Bảo Vệ Họa Giới",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Triệu hồi \"Graphia\" trong pháp trận Suối Ẩn Xuyên Tranh",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "Người Dồi Dào Năng Lượng",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Gặp gỡ Umbralle hai lần tại Quận Dovebrook và Suối Ẩn Xuyên Tranh, đồng thời tiến hành trò chuyện.",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "Chuyện Tình Cây Ngân Hạnh",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Chứng kiến hai người qua đường lưu luyến chia tay trước nhà ga",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "Vũ Khí Quyết Chiến Cuối Cùng",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Đại Chiến Máy Bay Pixel\", lần đầu nâng cấp 1 Trang Bị Lõi lên 3 sao",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "Khúc Ca Tiếp Nối Của Sparxie",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Đại Chiến Máy Bay Pixel\", sử dụng \"Ma Thuật Đường Đua\" đánh bại Sparxie",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "Ước Định Dưới Bầu Trời Xanh",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Đại Chiến Máy Bay Pixel\", mở khóa tất cả máy bay pixel",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "Không Chiến Át Chủ Bài",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Đại Chiến Máy Bay Pixel\", giành chiến thắng Quyết Đấu Đỉnh Cao mà không mất mạng",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "Bộ Tốt Nghiệp",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Đại Chiến Máy Bay Pixel\", sở hữu cùng lúc #1 trang bị 3 sao trong 1 ván",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "Chinh Phục Mọi Loại Hình",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Hồi Ức Đồng Hành Cùng Bạn",
+		"Description": "Trong \"Đại Chiến Máy Bay Pixel\", sử dụng từng chiếc máy bay để giành chiến thắng",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Trăm Ảnh Thoáng Qua 1",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Chiến Ý Sục Sôi",
-		"Description": "Trong một trận chiến, dùng Nhà Khai Phá vận mệnh \"Vui Vẻ\" tích lũy thi triển 1 lần Tuyệt Kỹ lên #1 đồng đội khác nhau",
+		"Description": "Trong một trận chiến, dùng Nhà Khai Phá vận mệnh \"Vui Vẻ\" tích lũy thi triển 1 lần Tuyệt Kỹ lên #1 nhân vật khác nhau",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "Chiến Ý Sục Sôi",
 		"Description": "Trong trận chiến với \"Lạc Biến Thiên Nhân\", 1 lần tấn công tiêu diệt cùng lúc từ #1 \"Lạc Biến Thiên Nhân - Kết Thúc\" trở lên",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "Lửa Lò Không Tắt, Bách Luyện Thành Binh",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Khi chiến đấu thắng lợi, HP còn lại của Mortenax Blade là #1",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "Tiếng Đao, Tiếng Kiếm, Tiếng Rèn Sắt, Từng Tiếng Lọt Vào Tai",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong một hiệp, sử dụng nhân vật phe ta Mortenax Blade thi triển #1 lần \"Mưa Kiếm, Quy Táng\"",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "Trưởng Đội Cứu Hỏa Rực Lửa",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong trận chiến với \"Họa Sĩ Khởi Nguồn - Murata Graphia\", ở tình trạng HP bản thân khá thấp và tỷ lệ dập lửa thành công thấp nhất, chọn \"Dập Tắt Ngọn Lửa\" và giải trừ thành công trạng thái \"Lửa Oán Thiêu Thân\"",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "Kẻ Dọn Dẹp Dạ Dày",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Trong chiến đấu với \"Hậu Duệ Nuốt Thần\", sử dụng nhân vật có Tấn Công cao nhất phe ta giải trừ trạng thái \"Nuốt Chửng\" và nhận thêm Tấn Công",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "Vạn Kiếp Bất Phục",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Chiến Ý Sục Sôi",
+		"Description": "Sử dụng nhân vật Mortenax Blade phe ta, trong thời gian duy trì một lần \"Vô Lượng Phẫn Nộ\" thi triển #1 lần \"Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt\"",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "Vui Vẻ Phút Chốc",
 		"Description": "Bị xe bay trên nước tông trúng trong \"JUMP Không Gian 2D!\"",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "Có Muốn Đắp Người Tuyết Không?",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "Vui Vẻ Phút Chốc",
+		"Description": "Trong \"JUMP Không Gian 2D!\", bị đóng băng trong khối băng",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

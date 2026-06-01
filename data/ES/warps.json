@@ -1239,6 +1239,46 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
 		"VersionAdded": "4.2"
 	},
+	"2124": {
+		"Id": "2124",
+		"Name": "Mi cuerpo es la espada",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2125": {
+		"Id": "2125",
+		"Name": "Luz reflejada en mil plumas",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2126": {
+		"Id": "2126",
+		"Name": "Ondas circulantes",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2127": {
+		"Id": "2127",
+		"Name": "En la perpetuidad de las llamas",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
+		"VersionAdded": "4.3"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Fijación brillante",
@@ -2468,6 +2508,46 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
 		"VersionAdded": "4.2"
+	},
+	"3124": {
+		"Id": "3124",
+		"Name": "Fijación brillante",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3125": {
+		"Id": "3125",
+		"Name": "Reminiscencia pasada",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3126": {
+		"Id": "3126",
+		"Name": "Reminiscencia pasada",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3127": {
+		"Id": "3127",
+		"Name": "Reminiscencia pasada",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
+		"VersionAdded": "4.3"
 	},
 	"4001": {
 		"Id": "4001",

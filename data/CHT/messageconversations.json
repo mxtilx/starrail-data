@@ -67668,9 +67668,9 @@
 	},
 	"15033": {
 		"Id": "15033",
-		"ContactId": "9",
+		"ContactId": "1505",
 		"ParticpatingContactIds": [
-			"9",
+			"1505",
 			"8001"
 		],
 		"Sections": [
@@ -67682,7 +67682,7 @@
 						"Id": "150330100",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "願力的海潮平息了",
 						"NextMessageId": "150330101"
 					},
@@ -67690,7 +67690,7 @@
 						"Id": "150330101",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "我沒有看錯，你又完成了承諾",
 						"NextMessageId": "150330102"
 					},
@@ -67698,7 +67698,7 @@
 						"Id": "150330102",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "現在，輪到我向你求助了",
 						"NextMessageId": "150330103"
 					},
@@ -67706,8 +67706,8 @@
 						"Id": "150330103",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
-						"Text": "我們在繪世學院校的上學路上見面吧？",
+						"SenderContactId": "1505",
+						"Text": "我們在繪世學院上學的路上見面吧？",
 						"NextMessageId": "choice4"
 					},
 					"150330104": {
@@ -68416,6 +68416,92 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"15043": {
+		"Id": "15043",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1504301",
+				"StartingMessageId": "150430100",
+				"Messages": {
+					"150430100": {
+						"Id": "150430100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "這裡是輪值調酒師鍾珊珊",
+						"NextMessageId": "150430101"
+					},
+					"150430101": {
+						"Id": "150430101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "之前寄存東西給「星軌之兔」的那兩位沒來",
+						"NextMessageId": "150430102"
+					},
+					"150430102": {
+						"Id": "150430102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "來個雨傘頭",
+						"NextMessageId": "150430103"
+					},
+					"150430103": {
+						"Id": "150430103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "他說「星軌之兔」不是每個「版本」都有獎品",
+						"NextMessageId": "150430104"
+					},
+					"150430104": {
+						"Id": "150430104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "希望你耐心等待什麼的",
+						"NextMessageId": "150430105"
+					},
+					"150430105": {
+						"Id": "150430105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "不知道會不會掃你的興（不用回覆，我還在上班哈）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"15044": {
+		"Id": "15044",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504401",
+				"StartingMessageId": "150440100",
+				"Messages": {
+					"150440100": {
+						"Id": "150440100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "恭喜您，您在「渡畫泉隱」已經蒐集了由「星軌之兔」計畫佈置的所有無名塵靈！您現在可以用最輕鬆的方式完成「星軌之兔」在這個地區配置的關卡。祝您遊戲愉快！（本條為系統自動推送廣告，請勿回覆～）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -135955,6 +136041,1223 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"20235": {
+		"Id": "20235",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023500",
+				"StartingMessageId": "202350000",
+				"Messages": {
+					"202350000": {
+						"Id": "202350000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "銀狼 已為你植入「找刃神器」聊天擴充功能",
+						"NextMessageId": "choice1"
+					},
+					"202350001": {
+						"Id": "202350001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "找刃神器？這是要我自己往刀口上撞嗎？",
+						"NextMessageId": "202350003"
+					},
+					"202350002": {
+						"Id": "202350002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "這是要我往刀口上撞，才找得到他嗎？",
+						"NextMessageId": "202350003"
+					},
+					"202350003": {
+						"Id": "202350003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你傳送了訊息，拍了拍 刃 的手機並震個不停",
+						"NextMessageId": "202350004"
+					},
+					"202350004": {
+						"Id": "202350004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你拍了拍 刃 的手機並震個不停",
+						"NextMessageId": "202350005"
+					},
+					"202350005": {
+						"Id": "202350005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你拍了拍 刃 的手機並震個不停",
+						"NextMessageId": "202350006"
+					},
+					"202350006": {
+						"Id": "202350006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你拍了拍 刃 的手機並震個不停",
+						"NextMessageId": "202350007"
+					},
+					"202350007": {
+						"Id": "202350007",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你拍了拍 刃 的手機並震個不停",
+						"NextMessageId": "202350008"
+					},
+					"202350008": {
+						"Id": "202350008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 刃 已上線",
+						"NextMessageId": "202350009"
+					},
+					"202350009": {
+						"Id": "202350009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "別拍了，麻了。",
+						"NextMessageId": "202350010"
+					},
+					"202350010": {
+						"Id": "202350010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "大腿麻了。",
+						"NextMessageId": "choice20"
+					},
+					"202350011": {
+						"Id": "202350011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "不是我拍麻的，全都是銀狼幹的",
+						"NextMessageId": "202350013"
+					},
+					"202350012": {
+						"Id": "202350012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "不好意思，把你腿拍麻了，但銀狼全責",
+						"NextMessageId": "202350013"
+					},
+					"202350013": {
+						"Id": "202350013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "我知道，她幫卡芙卡和流螢也安裝了這個東西。",
+						"NextMessageId": "202350014"
+					},
+					"202350014": {
+						"Id": "202350014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "有事嗎？我在出任務。",
+						"NextMessageId": "choice27"
+					},
+					"202350015": {
+						"Id": "202350015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你在忙什麼呢？秘密任務？",
+						"NextMessageId": "202350017"
+					},
+					"202350016": {
+						"Id": "202350016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "沒事就不能找你玩嗎？難道…你在做什麼秘密任務？",
+						"NextMessageId": "202350017"
+					},
+					"202350017": {
+						"Id": "202350017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202350018"
+					},
+					"202350018": {
+						"Id": "202350018",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202350019"
+					},
+					"202350019": {
+						"Id": "202350019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "別問了，不能說。",
+						"NextMessageId": "choice36"
+					},
+					"202350020": {
+						"Id": "202350020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "不讓我問，就更好奇了……",
+						"NextMessageId": "202350021"
+					},
+					"202350021": {
+						"Id": "202350021",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "是不讓你說話的任務嗎？",
+						"NextMessageId": "202350026"
+					},
+					"202350022": {
+						"Id": "202350022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "我之前看到……",
+						"NextMessageId": "202350023"
+					},
+					"202350023": {
+						"Id": "202350023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你好像在哪裡跳舞來著…是你的任務嗎？",
+						"NextMessageId": "202350026"
+					},
+					"202350024": {
+						"Id": "202350024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "是「仙舟第一殺手」的任務嗎？",
+						"NextMessageId": "202350025"
+					},
+					"202350025": {
+						"Id": "202350025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "……",
+						"NextMessageId": "202350026"
+					},
+					"202350026": {
+						"Id": "202350026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "不是。",
+						"NextMessageId": "202350027"
+					},
+					"202350027": {
+						"Id": "202350027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "更危險，更要命。",
+						"NextMessageId": "202350028"
+					},
+					"202350028": {
+						"Id": "202350028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "趕時間，先下線了。",
+						"NextMessageId": "202350029"
+					},
+					"202350029": {
+						"Id": "202350029",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 刃 已下線"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "找刃神器？",
+								"NextMessageId": "202350001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "要我往刀口上撞？",
+								"NextMessageId": "202350002"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "不是我幹的",
+								"NextMessageId": "202350011"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "銀狼全責",
+								"NextMessageId": "202350012"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "你在忙什麼呢？",
+								"NextMessageId": "202350015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "不能找你玩嗎？",
+								"NextMessageId": "202350016"
+							}
+						]
+					},
+					"choice36": {
+						"Id": "choice36",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "是不能說話的任務嗎？",
+								"NextMessageId": "202350020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "是讓你跳舞的任務嗎？",
+								"NextMessageId": "202350022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "是「第一殺手」的任務嗎？",
+								"NextMessageId": "202350024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20236": {
+		"Id": "20236",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023600",
+				"StartingMessageId": "202360000",
+				"Messages": {
+					"202360000": {
+						"Id": "202360000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "已為你更新「找刃神器」擴充功能版本",
+						"NextMessageId": "202360001"
+					},
+					"202360001": {
+						"Id": "202360001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "本次更新：解決了一些已知問題、新增了緩震功能",
+						"NextMessageId": "choice2"
+					},
+					"202360002": {
+						"Id": "202360002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "好快的更新，比我的遊戲版本更新還快",
+						"NextMessageId": "202360004"
+					},
+					"202360003": {
+						"Id": "202360003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "有多緩震？我試試",
+						"NextMessageId": "202360004"
+					},
+					"202360004": {
+						"Id": "202360004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你傳送了訊息，拍了拍 刃 的手機並震了一下",
+						"NextMessageId": "202360005"
+					},
+					"202360005": {
+						"Id": "202360005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你拍了拍 刃 的手機並震了一下",
+						"NextMessageId": "202360006"
+					},
+					"202360006": {
+						"Id": "202360006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 刃 已上線",
+						"NextMessageId": "202360007"
+					},
+					"202360007": {
+						"Id": "202360007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "噓。不要說話。",
+						"NextMessageId": "202360008"
+					},
+					"202360008": {
+						"Id": "202360008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "我在看監視錄影畫面。這次有什麼事？",
+						"NextMessageId": "choice15"
+					},
+					"202360009": {
+						"Id": "202360009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "是緊張刺激的監視鎖敵環節嗎？",
+						"NextMessageId": "202360013"
+					},
+					"202360010": {
+						"Id": "202360010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你又在出任務嗎？是緊張刺激的監視鎖敵環節嗎？",
+						"NextMessageId": "202360013"
+					},
+					"202360011": {
+						"Id": "202360011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "放心，我不傳語音。",
+						"NextMessageId": "202360012"
+					},
+					"202360012": {
+						"Id": "202360012",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "你在看什麼監視錄影畫面？是什麼緊張刺激的鎖敵環節嗎？",
+						"NextMessageId": "202360013"
+					},
+					"202360013": {
+						"Id": "202360013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "不是。",
+						"NextMessageId": "202360014"
+					},
+					"202360014": {
+						"Id": "202360014",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202360015"
+					},
+					"202360015": {
+						"Id": "202360015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202360016"
+					},
+					"202360016": {
+						"Id": "202360016",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202360017"
+					},
+					"202360017": {
+						"Id": "202360017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "我在看貓糕的監視錄影畫面。",
+						"NextMessageId": "choice34"
+					},
+					"202360018": {
+						"Id": "202360018",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你在偷看芝麻酥嗎？",
+						"NextMessageId": "202360019"
+					},
+					"202360019": {
+						"Id": "202360019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "嗯。",
+						"NextMessageId": "202360025"
+					},
+					"202360020": {
+						"Id": "202360020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你偷看貓糕多久了？",
+						"NextMessageId": "202360021"
+					},
+					"202360021": {
+						"Id": "202360021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "沒看時間。",
+						"NextMessageId": "202360025"
+					},
+					"202360022": {
+						"Id": "202360022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "貓貓糕呀！早說嘛",
+						"NextMessageId": "202360023"
+					},
+					"202360023": {
+						"Id": "202360023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "下次我帶你直接進去",
+						"NextMessageId": "202360024"
+					},
+					"202360024": {
+						"Id": "202360024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "好，下次一定。",
+						"NextMessageId": "202360025"
+					},
+					"202360025": {
+						"Id": "202360025",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "監視錄影畫面裡都看到了什麼？芝麻酥還好嗎？",
+						"NextMessageId": "202360026"
+					},
+					"202360026": {
+						"Id": "202360026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "它有了兩個新朋友。",
+						"NextMessageId": "202360027"
+					},
+					"202360027": {
+						"Id": "202360027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "一隻白色的，好像閒不下來，有脾氣，也愛說話。",
+						"NextMessageId": "202360028"
+					},
+					"202360028": {
+						"Id": "202360028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "一隻紅色的，不太愛說話，但也很有脾氣。",
+						"NextMessageId": "202360029"
+					},
+					"202360029": {
+						"Id": "202360029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "挺好，往常芝麻酥總是一隻糕。",
+						"NextMessageId": "choice57"
+					},
+					"202360030": {
+						"Id": "202360030",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "你有幫它們取名字嗎？",
+						"NextMessageId": "202360031"
+					},
+					"202360031": {
+						"Id": "202360031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "我取？",
+						"NextMessageId": "202360032"
+					},
+					"202360032": {
+						"Id": "202360032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "那就叫雪花酥，和紅棗糕吧。",
+						"NextMessageId": "202360037"
+					},
+					"202360033": {
+						"Id": "202360033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "它們也有點像你呢，我是說很有脾氣這點",
+						"NextMessageId": "202360034"
+					},
+					"202360034": {
+						"Id": "202360034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "新朋友有名字了嗎？",
+						"NextMessageId": "202360035"
+					},
+					"202360035": {
+						"Id": "202360035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "不知道，我想一下。",
+						"NextMessageId": "202360036"
+					},
+					"202360036": {
+						"Id": "202360036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "叫紅棗糕，和雪花酥吧。",
+						"NextMessageId": "202360037"
+					},
+					"202360037": {
+						"Id": "202360037",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202360038"
+					},
+					"202360038": {
+						"Id": "202360038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "打起來了。",
+						"NextMessageId": "202360039"
+					},
+					"202360039": {
+						"Id": "202360039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "關係好像有點差。",
+						"NextMessageId": "202360040"
+					},
+					"202360040": {
+						"Id": "202360040",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202360041"
+					},
+					"202360041": {
+						"Id": "202360041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "在互舔了。",
+						"NextMessageId": "202360042"
+					},
+					"202360042": {
+						"Id": "202360042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "原來是誤會，關係不錯。",
+						"NextMessageId": "202360043"
+					},
+					"202360043": {
+						"Id": "202360043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202360044"
+					},
+					"202360044": {
+						"Id": "202360044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "不見了。",
+						"NextMessageId": "202360045"
+					},
+					"202360045": {
+						"Id": "202360045",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "可能是發現我在看，躲起來了。",
+						"NextMessageId": "202360046"
+					},
+					"202360046": {
+						"Id": "202360046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "我去調出其他監視錄影畫面。",
+						"NextMessageId": "202360047"
+					},
+					"202360047": {
+						"Id": "202360047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "沒急事的話，下次見。",
+						"NextMessageId": "202360048"
+					},
+					"202360048": {
+						"Id": "202360048",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 刃 已下線"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "好快的更新",
+								"NextMessageId": "202360002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "有多緩震？我試試",
+								"NextMessageId": "202360003"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "在看什麼監視錄影畫面？",
+								"NextMessageId": "202360009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "你又在出任務嗎？",
+								"NextMessageId": "202360010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "訊息說不了話。",
+								"NextMessageId": "202360011"
+							}
+						]
+					},
+					"choice34": {
+						"Id": "choice34",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "在看芝麻酥嗎？",
+								"NextMessageId": "202360018"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "你看了多久了？",
+								"NextMessageId": "202360020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "這還要偷偷看嗎？",
+								"NextMessageId": "202360022"
+							}
+						]
+					},
+					"choice57": {
+						"Id": "choice57",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "你有幫它們取名嗎？",
+								"NextMessageId": "202360030"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "它們也有點像你呢",
+								"NextMessageId": "202360033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20237": {
+		"Id": "20237",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023700",
+				"StartingMessageId": "202370000",
+				"Messages": {
+					"202370000": {
+						"Id": "202370000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "已為你更新「找刃神器」擴充功能版本",
+						"NextMessageId": "202370001"
+					},
+					"202370001": {
+						"Id": "202370001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "本次更新：修正了已知問題、提升了緩震效能、看了更多貓糕影片",
+						"NextMessageId": "202370002"
+					},
+					"202370002": {
+						"Id": "202370002",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "你拍了拍 刃 的手機並震了一下",
+						"NextMessageId": "202370003"
+					},
+					"202370003": {
+						"Id": "202370003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 刃 已上線",
+						"NextMessageId": "202370004"
+					},
+					"202370004": {
+						"Id": "202370004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "正好，剛想到你。",
+						"NextMessageId": "choice5"
+					},
+					"202370005": {
+						"Id": "202370005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "受寵若驚啊！分享一下怎麼想的？",
+						"NextMessageId": "202370008"
+					},
+					"202370006": {
+						"Id": "202370006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "終於要和我敘舊了嗎？",
+						"NextMessageId": "202370007"
+					},
+					"202370007": {
+						"Id": "202370007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "不是。",
+						"NextMessageId": "202370008"
+					},
+					"202370008": {
+						"Id": "202370008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "對方正在輸入中",
+						"NextMessageId": "202370009"
+					},
+					"202370009": {
+						"Id": "202370009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "先前在軍火庫看到幾件磨損嚴重，但材質尚可的器物…無人認領，應是你過去留下的。",
+						"NextMessageId": "202370010"
+					},
+					"202370010": {
+						"Id": "202370010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "正巧你傳訊息，便問問，你想要什麼？之後回去，我可以改造重鑄。",
+						"NextMessageId": "202370011"
+					},
+					"202370011": {
+						"Id": "202370011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "我留下了什麼？武器嗎？",
+						"NextMessageId": "202370012"
+					},
+					"202370012": {
+						"Id": "202370012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "幾件已面目全非的物什，看構造應該都是日常家用。",
+						"NextMessageId": "202370013"
+					},
+					"202370013": {
+						"Id": "202370013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "物盡其用，你說，我都可以造。",
+						"NextMessageId": "choice20"
+					},
+					"202370014": {
+						"Id": "202370014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "高精力星際旅行，需要一個可以隨時隨地，能立刻哄我入睡的「哄睡機」",
+						"NextMessageId": "202370015"
+					},
+					"202370015": {
+						"Id": "202370015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "過去在仙舟，我們叫它「搖籃床」。",
+						"NextMessageId": "202370025"
+					},
+					"202370016": {
+						"Id": "202370016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "想要點不太日常的東西",
+						"NextMessageId": "202370017"
+					},
+					"202370017": {
+						"Id": "202370017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "你睡得好嗎？",
+						"NextMessageId": "202370018"
+					},
+					"202370018": {
+						"Id": "202370018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "前段時間在飛船上鑄造了幾件有助睡眠的器具。你意向如何？",
+						"NextMessageId": "202370019"
+					},
+					"202370019": {
+						"Id": "202370019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "那我要升級！想要一個可以隨時隨地，能立刻哄我入睡的東西",
+						"NextMessageId": "202370020"
+					},
+					"202370020": {
+						"Id": "202370020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "可以。",
+						"NextMessageId": "202370025"
+					},
+					"202370021": {
+						"Id": "202370021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "我不挑，你隨便造！",
+						"NextMessageId": "202370022"
+					},
+					"202370022": {
+						"Id": "202370022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "前段時間在飛船上鑄造了幾件有助睡眠的器具。你意向如何？",
+						"NextMessageId": "202370023"
+					},
+					"202370023": {
+						"Id": "202370023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "好耶，我想要一個可以隨時隨地，能立刻哄我入睡的哄睡機",
+						"NextMessageId": "202370024"
+					},
+					"202370024": {
+						"Id": "202370024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "可以。",
+						"NextMessageId": "202370025"
+					},
+					"202370025": {
+						"Id": "202370025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "哄睡不難，但達到強制入睡效果，需要額外設計。",
+						"NextMessageId": "choice31"
+					},
+					"202370026": {
+						"Id": "202370026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "可以加點白噪音，入睡更快",
+						"NextMessageId": "202370027"
+					},
+					"202370027": {
+						"Id": "202370027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "很簡單。加幾個鐵片，可以模擬鑄劍時的嗡鳴。",
+						"NextMessageId": "202370028"
+					},
+					"202370028": {
+						"Id": "202370028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "雖然這種聲音過去會令我更有精神。不過對你來說，或許能催眠。",
+						"NextMessageId": "202370038"
+					},
+					"202370029": {
+						"Id": "202370029",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "可以加點物理助眠功能？按摩、拍拍枕頭什麼的？",
+						"NextMessageId": "202370030"
+					},
+					"202370030": {
+						"Id": "202370030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "……好。",
+						"NextMessageId": "202370031"
+					},
+					"202370031": {
+						"Id": "202370031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "工具間有廢棄的機械臂關節部件，可以模擬這些動作。",
+						"NextMessageId": "202370032"
+					},
+					"202370032": {
+						"Id": "202370032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "只是噪音有些大，就當是白噪音吧。",
+						"NextMessageId": "202370038"
+					},
+					"202370033": {
+						"Id": "202370033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "可以加點帶人聲的搖籃曲？",
+						"NextMessageId": "202370034"
+					},
+					"202370034": {
+						"Id": "202370034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "……好。",
+						"NextMessageId": "202370035"
+					},
+					"202370035": {
+						"Id": "202370035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "內嵌一個播音機，可以錄一首進去。",
+						"NextMessageId": "202370036"
+					},
+					"202370036": {
+						"Id": "202370036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "但我唱歌不好聽，頂多念一些…歌詞給你。",
+						"NextMessageId": "202370037"
+					},
+					"202370037": {
+						"Id": "202370037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "好好好，此番美景這種也可以……",
+						"NextMessageId": "202370038"
+					},
+					"202370038": {
+						"Id": "202370038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "改造好後，寄送或上門自取，看你。",
+						"NextMessageId": "202370039"
+					},
+					"202370039": {
+						"Id": "202370039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "之後聯絡。",
+						"NextMessageId": "202370040"
+					},
+					"202370040": {
+						"Id": "202370040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "再見。",
+						"NextMessageId": "202370041"
+					},
+					"202370041": {
+						"Id": "202370041",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "您的好友 刃 已下線"
+					},
+					"choice5": {
+						"Id": "choice5",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "受寵若驚啊！",
+								"NextMessageId": "202370005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "要和我敘舊嗎？",
+								"NextMessageId": "202370006"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "想要日常家用的",
+								"NextMessageId": "202370014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "想要不太日常的",
+								"NextMessageId": "202370016"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "我不挑，隨便造",
+								"NextMessageId": "202370021"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "可以加點白噪音",
+								"NextMessageId": "202370026"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "可以加點物理助眠",
+								"NextMessageId": "202370029"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "可以加點搖籃曲嗎？",
+								"NextMessageId": "202370033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20998": {
 		"Id": "20998",

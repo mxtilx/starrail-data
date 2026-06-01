@@ -127933,6 +127933,1461 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Мортенакс Блэйд",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "Удар сломанного клинка",
+				"NodeType": 2,
+				"NodeTypeText": "Базовая атака",
+				"EffectRaw": "Наносит выбранному противнику огненный урон, равный <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> от макс. НР Мортенакса Блэйда, и накладывает на цель статус Насмешка на 1 ход.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Слёзы Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "Под клинком - последний приют",
+				"NodeType": 2,
+				"NodeTypeText": "Навык",
+				"EffectRaw": "Расходует НР в количестве, равном <unbreak>#4[i]%</unbreak> от макс. НР Мортенакса Блэйда, и наносит всем противникам огненный урон, равный <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> от макс. НР Мортенакса Блэйда, а также наносит дополнительно <unbreak>#2[i]</unbreak> раза урон, каждый раз нанося случайному противнику огненный урон, равный <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> от макс. НР Мортенакса Блэйда.\nЕсли текущего НР недостаточно, при использовании навыка текущее НР Мортенакса Блэйда понижается до 1 ед.\nМортенакс Блэйд не может использовать навык, если он не находится в состоянии Безмерная ярость или если его текущее НР меньше или равно 1.\nПри использовании навыка очки навыков не расходуются.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Слёзы Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "Скелет - горнило, плоть - топливо",
+				"NodeType": 2,
+				"NodeTypeText": "Сверхспособность",
+				"EffectRaw": "Накладывает на всех противников статус Пламенные путы. Защита противников со статусом Пламенные путы понижается на <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>, а получаемый урон повышается на <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>. Длится <unbreak>#8[i]</unbreak> хода. После этого Мортенакс Блэйд расходует НР в размере <unbreak>#1[i]%</unbreak> от макс. НР и создаёт зону. Пока зона активна, Мортенакс Блэйд входит в состояние Безмерная ярость.\nБезмерная ярость: крит. шанс повышается на <unbreak>#2[i]%</unbreak>, а крит. урон - на <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>, усиливает базовую атаку, высвобождает навык и получает новую сверхспособность «Закалка одного, забвение всего». Если персонаж получает добивающий удар, он не становится <u>неспособным сражаться</u>, но зона и состояние Безмерная ярость снимаются, а НР восстанавливается в размере <unbreak>#6[i]%</unbreak> от макс. НР.\nПри входе в состояние Безмерная ярость на панели порядка действий появляется счётчик, который имеет фиксированную скорость, равную <unbreak>#5[i]</unbreak>. В начале хода счётчика зона и состояние Безмерная ярость снимаются.\nЕсли текущее НР недостаточно для использования этого умения, текущее НР Мортенакса Блэйда снижается до 1 ед.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Слёзы Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "Устранение причин и следствий",
+				"NodeType": 2,
+				"NodeTypeText": "Талант",
+				"EffectRaw": "Пока зона активна, при каждой атаке союзника противник получает статус Пламенные путы, а Мортенакс Блэйд получает 1 ед. заряда. При достижении <unbreak>#1[i]</unbreak> ед. заряда и текущем НР больше 1 расходуется <unbreak>#1[i]</unbreak> ед. заряда и восстанавливается <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> ед. энергии, после чего Мортенакс Блэйд дополнительно применяет навык 1 раз. Этот навык считается <u>бонус-атакой</u>.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Слёзы Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "Всеобъемлющая беспощадность",
+				"NodeType": 2,
+				"NodeTypeText": "Техника",
+				"EffectRaw": "Немедленно атакует всех противников в определённом радиусе, в начале боя накладывает на всех противников статус Насмешка на 1 ход и понижает получаемый урон на <unbreak>#1[i]%</unbreak> на <unbreak>#2[i]</unbreak> хода.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "Сотня закалок костей",
+				"NodeType": 3,
+				"EffectRaw": "Мортенакс Блэйд может накапливать до <unbreak>#2[i]</unbreak> ед. энергии, превышающей его макс. энергию. После использования сверхспособности это значение сбрасывается и восстанавливается соответствующее количество энергии. В начале боя или при снятии зоны, если энергия ниже <unbreak>#1[i]%</unbreak>, то она мгновенно восстанавливается до <unbreak>#1[i]%</unbreak>. Когда энергия восстанавливается до максимума, с персонажа снимаются все <u>ослабления</u>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Слёзы Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "Тысяча ковок души",
+				"NodeType": 3,
+				"EffectRaw": "Пока зона активна, шанс быть атакованным противником повышается, получаемый урон понижается на <unbreak>#2[i]%</unbreak>, получаемое исцеление повышается на <unbreak>#3[i]%</unbreak>. После получения атаки накладывает на атакующего статус Пламенные путы, а Мортенакс Блэйд получает 1 заряд.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "Закалённое сердце",
+				"NodeType": 3,
+				"EffectRaw": "Пока зона активна, наносимый союзниками урон повышается на <unbreak>#1[i]%</unbreak>. Если в отряде есть персонаж Пути Небытия, помимо Мортенакса Блэйда, урон сверхспособности союзников повышается на <unbreak>#2[i]%</unbreak>. В противном случае наносимый Мортенаксом Блэйдом урон дополнительно повышается на <unbreak>#3[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Отпечатки судьбы",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Безмолвие поверженного потока",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "Усиление огненного урона",
+				"NodeType": 1,
+				"EffectRaw": "Огненный урон повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "Усиление крит. шанса",
+				"NodeType": 1,
+				"EffectRaw": "Крит. шанс повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Слёзы Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Мелок детства",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "Усиление огненного урона",
+				"NodeType": 1,
+				"EffectRaw": "Огненный урон повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "Усиление НР",
+				"NodeType": 1,
+				"EffectRaw": "Макс. НР повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "Усиление огненного урона",
+				"NodeType": 1,
+				"EffectRaw": "Огненный урон повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Вино Фагусы",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Сотканная из снов сталь",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "Усиление крит. шанса",
+				"NodeType": 1,
+				"EffectRaw": "Крит. шанс повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "Усиление огненного урона",
+				"NodeType": 1,
+				"EffectRaw": "Огненный урон повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "Усиление НР",
+				"NodeType": 1,
+				"EffectRaw": "Макс. НР повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "Усиление крит. шанса",
+				"NodeType": 1,
+				"EffectRaw": "Крит. шанс повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "Усиление огненного урона",
+				"NodeType": 1,
+				"EffectRaw": "Огненный урон повышается на <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Кредиты",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Сердце Фагусы",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Прозрачная кисть",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

@@ -4372,7 +4372,7 @@
 		"Name": "The Forever Victual",
 		"PathType": "Shaman",
 		"PathTypeText": "Harmony",
-		"EffectName": "So good!",
+		"EffectName": "So Good!",
 		"EffectTemplate": "Increases the wearer's ATK by <color=#f29e38ff>#1[i]%</color>. After the wearer uses Skill, increases ATK by <color=#f29e38ff>#2[i]%</color>, stacking up to #3[i] times.",
 		"Superimpositions": [
 			{
@@ -7947,6 +7947,67 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"23059": {
+		"Id": "23059",
+		"Name": "Reforged in Hellfire",
+		"PathType": "Warlock",
+		"PathTypeText": "Nihility",
+		"EffectName": "Tempering",
+		"EffectTemplate": "Increases the wearer's Max HP by <color=#f29e38ff>#1[i]%</color>. At the start of the wearer's turn, regenerates a fixed amount of #2[i] Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for #3[i] turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff>#4[i]%</color> increased CRIT DMG and <color=#f29e38ff>#5[i]%</color> additionally increased CRIT DMG from the wearer.",
+		"Superimpositions": [
+			{
+				"Effect": "Increases the wearer's Max HP by <color=#f29e38ff>30%</color>. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff>30%</color> increased CRIT DMG and <color=#f29e38ff>30%</color> additionally increased CRIT DMG from the wearer.",
+				"Params": [
+					0.3,
+					20,
+					2,
+					0.3,
+					0.3
+				]
+			},
+			{
+				"Effect": "Increases the wearer's Max HP by <color=#f29e38ff>37%</color>. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff>37%</color> increased CRIT DMG and <color=#f29e38ff>37%</color> additionally increased CRIT DMG from the wearer.",
+				"Params": [
+					0.375,
+					20,
+					2,
+					0.375,
+					0.375
+				]
+			},
+			{
+				"Effect": "Increases the wearer's Max HP by <color=#f29e38ff>45%</color>. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff>45%</color> increased CRIT DMG and <color=#f29e38ff>45%</color> additionally increased CRIT DMG from the wearer.",
+				"Params": [
+					0.45,
+					20,
+					2,
+					0.45,
+					0.45
+				]
+			},
+			{
+				"Effect": "Increases the wearer's Max HP by <color=#f29e38ff>52%</color>. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff>52%</color> increased CRIT DMG and <color=#f29e38ff>52%</color> additionally increased CRIT DMG from the wearer.",
+				"Params": [
+					0.525,
+					20,
+					2,
+					0.525,
+					0.525
+				]
+			},
+			{
+				"Effect": "Increases the wearer's Max HP by <color=#f29e38ff>60%</color>. At the start of the wearer's turn, regenerates a fixed amount of 20 Energy. This effect can trigger 1 time each wave. After the wearer uses Skill to attack, inflicts the target with the \"Purgatory\" state, lasting for 2 turn(s). While in the \"Purgatory\" state, the target receives <color=#f29e38ff>60%</color> increased CRIT DMG and <color=#f29e38ff>60%</color> additionally increased CRIT DMG from the wearer.",
+				"Params": [
+					0.6,
+					20,
+					2,
+					0.6,
+					0.6
+				]
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"24000": {
 		"Id": "24000",

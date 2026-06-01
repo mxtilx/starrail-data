@@ -485,6 +485,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10141": {
+		"Id": "10141",
+		"Name": "Stellar Companions",
+		"TabName": "Stellar Companions",
+		"Tag": "Event Details",
+		"Introduction": "◆ Event Rules ◆\nAfter logging into the game during the event period, Trailblazers can obtain Golden Companion Spirits as rewards through the Travel Log. Golden Companion Spirit has no time limit and will not expire after the event ends. It can be used to exchange for a 5-star character at the Stellar Convergence shop.\n\n◆ Exchange Shop ◆\n● The Stellar Convergence shop is always open, and characters that have been added to the shop will be permanently exchangeable.\n● Characters in the shop can be exchanged until their Eidolon level is maxed. When their Eidolon level is maxed, they cannot be exchanged.\n※ The shop will expand its catalog of exchangeable characters in the future.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestStoryTokens.png",
+		"VersionAdded": "4.3"
+	},
 	"10142": {
 		"Id": "10142",
 		"Name": "Gift of Odyssey",
@@ -502,6 +511,15 @@
 		"Introduction": "◆ Event Rules ◆\nTrailblazers can receive daily rewards in the Travel Log after logging in to the game each day.\n\n◆ Event Rewards ◆\nRewards will be unlocked in sequential order according to the Trailblazer's accrued login days. Daily rewards will be refreshed at <unbreak>04</unbreak>:<unbreak>00</unbreak> (server time).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAnniversarySevenDayVersion0210.png",
 		"VersionAdded": "4.2"
+	},
+	"10169": {
+		"Id": "10169",
+		"Name": "Gift of Odyssey",
+		"TabName": "Gift of Odyssey",
+		"Tag": "Event Details",
+		"Introduction": "◆ Event Rules ◆\nTrailblazers can receive daily rewards in the Travel Log after logging in to the game each day.\n\n◆ Event Rewards ◆\nRewards will be unlocked in sequential order according to the Trailblazer's accrued login days. Daily rewards will be refreshed at <unbreak>04</unbreak>:<unbreak>00</unbreak> (server time).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -895,7 +913,7 @@
 		"TabName": "Aptitude Showcase",
 		"Tag": "Character Trial",
 		"Introduction": "◆ Event Rules ◆\nDuring the character trial event \"Aptitude Showcase,\" Trailblazers can use set teams that include trial characters to repeatedly experience specific stages.\nTeam Lineup, character levels, and the equipped Light Cones and Relics cannot be changed while experiencing the event stage.\n\n◆ Event Rewards ◆\nRewards for the trial stage can be obtained from the event screen after completing the stage. Each trial stage reward may only be claimed once during the event.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial49.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1078,12 +1096,30 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial50.png",
 		"VersionAdded": "4.2"
 	},
+	"20083": {
+		"Id": "20083",
+		"Name": "Aptitude Showcase",
+		"TabName": "Aptitude Showcase",
+		"Tag": "Character Trial",
+		"Introduction": "◆ Event Rules ◆\nDuring the character trial event \"Aptitude Showcase,\" Trailblazers can use set teams that include trial characters to repeatedly experience specific stages.\nTeam Lineup, character levels, and the equipped Light Cones and Relics cannot be changed while experiencing the event stage.\n\n◆ Event Rewards ◆\nRewards for the trial stage can be obtained from the event screen after completing the stage. Each trial stage reward may only be claimed once during the event.\nIf Trailblazers have already completed the trials of corresponding characters in past versions, they can directly claim the rewards.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"VersionAdded": "4.3"
+	},
+	"20084": {
+		"Id": "20084",
+		"Name": "Aptitude Showcase",
+		"TabName": "Aptitude Showcase",
+		"Tag": "Character Trial",
+		"Introduction": "◆ Event Rules ◆\nDuring the character trial event \"Aptitude Showcase,\" Trailblazers can use set teams that include trial characters to repeatedly experience specific stages.\nTeam Lineup, character levels, and the equipped Light Cones and Relics cannot be changed while experiencing the event stage.\n\n◆ Event Rewards ◆\nRewards for the trial stage can be obtained from the event screen after completing the stage. Each trial stage reward may only be claimed once during the event.\nIf Trailblazers have already completed the trials of corresponding characters in past versions, they can directly claim the rewards.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
+		"VersionAdded": "4.3"
+	},
 	"21001": {
 		"Id": "21001",
 		"Name": "Treasures Lightward: High Difficulty",
 		"TabName": "Treasures Lightward: High Difficulty",
 		"Tag": "How to Play",
-		"Introduction": "◆ Gameplay Rules ◆\n● Treasures Lightward is a new series of permanent game modes with higher difficulty that refreshes periodically, including the Forgotten Hall: Memory of Chaos, Pure Fiction, Apocalyptic Shadow, and Anomaly Arbitration.\n● After completing The Last Vestiges of Towering Citadel: Memory (XV), Forgotten Hall: Memory of Chaos will be unlocked.\n● After completing the Adventure Mission \"Youci's Clever Decor,\" Pure Fiction will be unlocked.\n● After completing the Adventure Mission \"Grim Film of Finality,\" Apocalyptic Shadow will be unlocked.\n● After reaching Equilibrium Level 6, achieving a historical record of completing the highest stages with full stars in Forgotten Hall: Memory of Chaos, Pure Fiction, and Apocalyptic Shadow (these can be achieved across different versions), and have also completed the Adventure Mission \"Knot-Tier Saga,\" Anomaly Arbitration will be unlocked.\n● Treasures Lightward will periodically refresh the stage contents and rewards.\n\n◆ Refresh Rules ◆\n● Apocalyptic Shadow, Pure Fiction, and Forgotten Hall: Memory of Chaos will update alternatively every two weeks in the aforementioned order. Updates occur at <unbreak>04</unbreak>:<unbreak>00</unbreak> on Mondays (server time). After each update to a game mode, the updated mode will remain open for 6 weeks.\n● Anomaly Arbitration will update alongside Version updates, and lasts until the end of each Version.",
+		"Introduction": "◆ Gameplay Rules ◆\n● Treasures Lightward is a new series of permanent game modes with higher difficulty that refreshes periodically, including the Forgotten Hall: Memory of Chaos, Pure Fiction, Apocalyptic Shadow, and Anomaly Arbitration.\n● After completing The Last Vestiges of Towering Citadel: Memory (XV), Forgotten Hall: Memory of Chaos will be unlocked.\n● After completing the Adventure Mission \"Youci's Clever Decor,\" Pure Fiction will be unlocked.\n● After completing the Adventure Mission \"Grim Film of Finality,\" Apocalyptic Shadow will be unlocked.\n● After reaching Equilibrium Level 6, achieving a historical record of completing the highest stages with 3 stars in Forgotten Hall: Memory of Chaos, Pure Fiction, and Apocalyptic Shadow (these can be achieved across different versions), and have also completed the Adventure Mission \"Knot-Tier Saga,\" Anomaly Arbitration will be unlocked.\n● Treasures Lightward will periodically refresh the stage contents and rewards.\n\n◆ Refresh Rules ◆\n● Apocalyptic Shadow, Pure Fiction, and Forgotten Hall: Memory of Chaos will update alternatively every two weeks in the aforementioned order. Updates occur at <unbreak>04</unbreak>:<unbreak>00</unbreak> on Mondays (server time). After each update to a game mode, the updated mode will remain open for 6 weeks.\n● Anomaly Arbitration will update alongside Version updates, and lasts until the end of each Version.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAbyssAlternation.png",
 		"VersionAdded": "3.6"
 	},
@@ -1834,6 +1870,36 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestDiceCombatV2.png",
 		"VersionAdded": "4.2"
 	},
+	"50107": {
+		"Id": "50107",
+		"Name": "Wispae Amusement Park",
+		"TabName": "Wispae Amusement Park",
+		"Description": "Trendy styles change in the blink of an eye, bringing an opportunity for Star Rail FEST's renewal. Plan out the routes, cleverly arrange the facilities, and build an exclusive arcadia for the wispae in the World in Canvas! Your creative concepts will serve as the perfect inspiration for optimizing the Exhibition Area.",
+		"Tag": "Event Details",
+		"Introduction": "◆ Introduction ◆\nPlan out the routes, cleverly arrange the facilities, and build an exclusive arcadia for the wispae in the World in Canvas! Your creative concepts will serve as the perfect Inspiration for optimizing the Exhibition Area.\n\n◆ Event Rules ◆\n● The event features two distinct modes: \"Routine Test\" and \"Extended Test.\"\n● The \"Routine Test\" contains 4 stages in total. Successfully clearing a stage will unlock the next one.\n● Each stage in the \"Routine Test\" requires you to manage operations for 3 phases. A plan is considered successful once at least a 1-star Business Rating is achieved in every phase.\n● Completing all stages in the \"Routine Test\" unlocks the \"Extended Test\" mode, where you can keep the business booming for up to <unbreak>12</unbreak> phases.\n\n◆ Gameplay Intro ◆\n● Before opening each day, the Trailblazer must select facilities and place them on appropriate tiles.\n● Once open, wispae visitors will enter in turn and pay Arca Coins as they pass by the facilities.\n● The more Arca Coins earned, the higher the arcadia's Business Rating will be.\n\n◆ Event Rewards ◆\n● During the event, complete missions in \"Limited-Time Rewards\" to claim the corresponding rewards.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestChenLingFes.png",
+		"VersionAdded": "4.3"
+	},
+	"50112": {
+		"Id": "50112",
+		"Name": "Pixel Plane Rumble",
+		"TabName": "Pixel Plane Rumble",
+		"Description": "A classic game returns to the arcadian skies as pixel planes take flight once again. In a fierce dogfight between ninety-nine fighters, only the final victor can claim air superiority... Customize your ultimate aircraft, devise a winning strategy, and break through the bullet hell!",
+		"Tag": "Event Details",
+		"Introduction": "◆ Introduction ◆\nAmidst a fierce battle of ninety-nine fighters, only the victor can seize air superiority... Customize your ultimate fighter, devise winning strategies, and break through the endless bullet hell to emerge victorious!\n\n◆ Event Rules ◆\n● The event is divided into two modes: \"Path to Ascension\" and \"Playoffs.\"\n● \"Path to Ascension\" consists of four stages in total. The Trailblazer can accumulate points by participating in \"Path to Ascension,\" and the next stage will unlock once a certain point requirement is met.\n● The stages in \"Path to Ascension\" consist of five phases. The Trailblazer can clear the stage by defeating all enemies across the five phases.\n● Clearing all stages in \"Path to Ascension\" will unlock the \"Playoffs\" mode. In the \"Playoffs\" mode, the Trailblazer can clear the stage by defeating all enemies across the seven phases.\n\n◆ Gameplay Intro ◆\n● At the Respite Node, the Trailblazer can select equipment for their pixel plane and deploy them.\n● At the Surprise Attack Node, once deployed, the Trailblazer's pixel plane will automatically attack the enemy using equipment.\n\n◆ Permanent Rewards ◆\n● Keep participating in the tournament to accumulate Career Points and claim tournament payouts.\n\n◆ Limited-Time Rewards ◆\n● During the limited-time event, complete various gameplay goals to obtain limited-time rewards.\n\n◆ Event Reminders ◆\n● After the Pixel Plane Rumble limited-time event ends, Trailblazers will no longer be able to obtain the limited-time rewards during the event period, but they can still visit the Duomension City map to speak with Gaming Sage, experience the event, and obtain permanent rewards.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
+		"VersionAdded": "4.3"
+	},
+	"50115": {
+		"Id": "50115",
+		"Name": "Gift of Tempered Blade",
+		"TabName": "Gift of Tempered Blade",
+		"Description": "After obtaining \"Mortenax Blade\" from the Character Event Warp, you can receive a brand-new Trailblaze Outfit piece.",
+		"Tag": "Event Details",
+		"Introduction": "◆ Event Details ◆\nDuring the Version <unbreak>4.3</unbreak> \"Now I Am Become Blade\" Character Event Warp, obtain \"Mortenax Blade\" through the Character Event Warp to receive the new back accessory Trailblaze Outfit \"Karmic Fire of the Distant Shore.\"\n● After obtaining the Trailblaze Fashion outfit \"Karmic Fire of the Distant Shore,\" you can view and equip it via the Character — Outfits interface.\n● Trailblaze Fashion will be hidden in certain mission performances and cutscenes.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
+		"VersionAdded": "4.3"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "Simulated Universe",
@@ -2204,5 +2270,14 @@
 		"Tag": "Trailblaze Mission Available",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory420.png",
 		"VersionAdded": "4.2"
+	},
+	"80027": {
+		"Id": "80027",
+		"Name": "The Lethe Below the Living",
+		"TabName": "Trailblaze Mission",
+		"Description": "Wanderers seeking their final rest, travelers carrying warnings... People journey to the painting's edge where the ancient River Lethe flows, watching as memories of joy and sorrow rise from its depths...",
+		"Tag": "Trailblaze Mission Available",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
+		"VersionAdded": "4.3"
 	}
 }

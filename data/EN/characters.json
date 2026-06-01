@@ -2147,7 +2147,7 @@
 			{
 				"Id": "130902",
 				"Name": "Afternoon Tea For Two",
-				"Effect": "While the Concerto state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1."
+				"Effect": "While the \"Concerto\" state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1."
 			},
 			{
 				"Id": "130903",
@@ -3237,6 +3237,47 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"ElementType": "Fire",
+		"ElementTypeText": "Fire",
+		"PathType": "Warlock",
+		"PathTypeText": "Nihility",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "Ere My Death, I Stood Unmade",
+				"Effect": "While the Zone is active, decreases all enemies' All-Type RES by 20%. After using the extra Skill from Talent, the \"Infinite Fury\" countdown has its <u>action delayed</u> by 15%."
+			},
+			{
+				"Id": "150702",
+				"Name": "Ash Was My Heart, Yet the Flame Stayed",
+				"Effect": "When an ally character uses Ultimate to deal DMG, it is considered as having launched <u>Follow-Up ATK</u>. And the <u>Follow-Up ATK</u> DMG dealt by ally targets increases by 75%. The upper limit of Mortenax Blade's Charge decreases to 7."
+			},
+			{
+				"Id": "150703",
+				"Name": "Across the Shore, Wrath Laid Bare",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "150704",
+				"Name": "Odium I've Smitten, Thence Came the Blade",
+				"Effect": "\"Heart, Refined ad Infinitum\" additionally increases ally targets' DMG dealt by 50%."
+			},
+			{
+				"Id": "150705",
+				"Name": "I Severed My Woes, Knowing Death Begets Life",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+			},
+			{
+				"Id": "150706",
+				"Name": "If Immortality Could Die, I Swore THEM Slain",
+				"Effect": "As the Zone persists, when Mortenax Blade takes DMG or consumes HP, he gains 1 Charge. This effect can trigger again after any target's turn ends. The DMG multiplier of \"Tenax Per Ignem\" increases to 150% of its original value."
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"8001": {
 		"Id": "8001",

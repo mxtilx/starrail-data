@@ -3238,6 +3238,47 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"ElementType": "Fire",
+		"ElementTypeText": "Hỏa",
+		"PathType": "Warlock",
+		"PathTypeText": "Hư Vô",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "Trước Khi Ta Chết, Ta Vẫn Chưa Thành Hình",
+				"Effect": "Trong thời gian duy trì Kết Giới, giảm 20% Kháng Toàn Thuộc Tính của toàn phe địch, sau khi thi triển Chiến Kỹ tăng thêm của Thiên Phú, khiến đếm ngược \"Vô Lượng Phẫn Nộ\" <u>Trì Hoãn Hành Động</u> 15%."
+			},
+			{
+				"Id": "150702",
+				"Name": "Tâm Như Tro Tàn, Nhưng Lửa Lò Chưa Tắt",
+				"Effect": "Khi nhân vật phe ta thi triển Tuyệt Kỹ gây sát thương, sẽ xem như là phát động <u>Đòn Đánh Theo Sau</u>, sát thương <u>Đòn Đánh Theo Sau</u> do mục tiêu phe ta gây ra tăng 75%. Giới hạn điểm Nạp Năng Lượng của Mortenax Blade giảm xuống còn 7."
+			},
+			{
+				"Id": "150703",
+				"Name": "Thân Vượt Bỉ Ngạn, Bộc Lộ Bản Tướng Phẫn Nộ",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "150704",
+				"Name": "Rèn Tan Di Hận, Cốt Kiếm Tự Thành Hình",
+				"Effect": "\"Trái Tim Vạn Lần Tôi Luyện\" khiến sát thương mục tiêu phe ta gây ra tăng thêm 50%."
+			},
+			{
+				"Id": "150705",
+				"Name": "Đoạn Tuyệt Khổ Đau, Hiểu Cửa Tử Cầu Tân Sinh",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+			},
+			{
+				"Id": "150706",
+				"Name": "Nếu Thần Có Thể Chết, Thề Tự Tay Diệt Thọ Ôn",
+				"Effect": "Trong thời gian duy trì Kết Giới, khi Mortenax Blade chịu sát thương hoặc tiêu hao HP, nhận 1 điểm Nạp Năng Lượng, hiệu ứng này có thể kích hoạt lại sau khi hiệp của mục tiêu bất kỳ kết thúc. Bội Số Sát Thương của \"Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt\" tăng bằng 150% bội số ban đầu."
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Nhà Khai Phá (Vật Lý)",

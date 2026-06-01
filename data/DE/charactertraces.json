@@ -127933,6 +127933,1461 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "Zersplitterte Klinge, restlose Vernichtung",
+				"NodeType": 2,
+				"NodeTypeText": "Standardangriff",
+				"EffectRaw": "Fügt einem anvisierten Gegner Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> der max. LP von Mortenax Blade zu und verspottet das Ziel für 1 Rd.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Phagousas Träne",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "Unter der Klinge, letzte Ruhe",
+				"NodeType": 2,
+				"NodeTypeText": "Fertigkeit",
+				"EffectRaw": "Verbraucht LP in Höhe von <unbreak>#4[i]%</unbreak> der max. LP von Mortenax Blade und fügt allen Gegnern Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> der max. LP von Mortenax Blade zu. Verursacht zusätzlich <unbreak>#2[i]</unbreak>-mal SCH, wobei jedes Mal einem zufälligen Gegner Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> der max. LP von Mortenax Blade zugefügt wird.\nWenn die aktuellen LP nicht ausreichen, werden Mortenax Blades aktuelle LP beim Einsatz der Fertigkeit auf 1 reduziert.\nWenn sich Mortenax Blade nicht im Status „Grenzenloser Zorn“ befindet oder seine aktuellen LP 1 oder weniger betragen, kann er die Fertigkeit nicht einsetzen.\nBeim Einsatz der Fertigkeit werden keine Fertigkeitspunkte verbraucht.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Phagousas Träne",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "Knochen als Ofen, Fleisch als Brennstoff",
+				"NodeType": 2,
+				"NodeTypeText": "Ultimate",
+				"EffectRaw": "Versetzt alle Gegner in „Flammenfluch“. Die VTD von Gegnern im Status Flammenfluch wird für <unbreak>#8[i]</unbreak> Rd. um <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> verringert und ihr erlittener SCH um <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> erhöht. Verbraucht anschließend LP in Höhe von <unbreak>#1[i]%</unbreak> der max. LP von Mortenax Blade und erzeugt ein Kraftfeld. Solange das Kraftfeld aktiv ist, erhält Mortenax Blade den Status „Grenzenloser Zorn“.\nIm Status Grenzenloser Zorn werden die KRIT-Rate um <unbreak>#2[i]%</unbreak> und der KRIT-SCH um <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> erhöht sowie der Standardangriff verstärkt. Zudem wird die Fertigkeit freigeschaltet und der neue Ultimate „Schmiede des Einen, Vergessen des Allen“ gewährt. Wird beim Erleiden eines Todesstoßes nicht <u>handlungsunfähig</u>, sondern entfernt stattdessen das Kraftfeld, beendet den Status „Grenzenloser Zorn“ und stellt LP in Höhe von <unbreak>#6[i]%</unbreak> der eigenen max. LP wieder her.\nWenn der Status Grenzenloser Zorn gewährt wird, erscheint ein entsprechender Countdown in der Aktionsreihenfolge. Der Countdown hat eine feste GES von <unbreak>#5[i]</unbreak>. Zu Beginn der Runde des Countdowns wird das Kraftfeld entfernt und der Status Grenzenloser Zorn aufgehoben.\nWenn die aktuellen LP nicht ausreichen, werden Mortenax Blades aktuelle LP beim Einsatz dieser Fähigkeit auf 1 reduziert.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Phagousas Träne",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "Beglichenes Karma",
+				"NodeType": 2,
+				"NodeTypeText": "Talent",
+				"EffectRaw": "Während das Kraftfeld aktiv ist, versetzen Verbündete nach dem Ausführen jedes Angriffs den entsprechenden Gegner in den Status „Flammenfluch“ und Mortenax Blade erhält 1 Pkt. Aufladung. Wenn die Aufladung <unbreak>#1[i]</unbreak> Pkt. erreicht und Mortenax Blades aktuelle LP über 1 liegen, verbraucht er <unbreak>#1[i]</unbreak> Pkt. Aufladung, um <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> Energie wiederherzustellen, und Mortenax Blade setzt zusätzlich 1-mal seine Fertigkeit ein. Diese Fertigkeit gilt als <u>Folgeangriff</u>.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Phagousas Träne",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "Nirgendwo Gnade",
+				"NodeType": 2,
+				"NodeTypeText": "Technik",
+				"EffectRaw": "Greift sofort alle Gegner in Reichweite an. Verspottet nach Kampfeintritt alle Gegner für 1 Rd. und reduziert den eigenen erlittenen SCH für <unbreak>#2[i]</unbreak> Rd. um <unbreak>#1[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "Hundertfach verfeinerter Knochen",
+				"NodeType": 3,
+				"EffectRaw": "Mortenax Blade kann bis zu <unbreak>#2[i]</unbreak> Pkt. überschüssige Energie ansammeln. Nach dem Einsatz des Ultimates wird die überschüssige Energie zurückgesetzt und ein entsprechender Wert wiederhergestellt. Wenn die Energie zu Beginn des Kampfes oder beim Entfernen des Kraftfelds unter <unbreak>#1[i]%</unbreak> liegt, wird sie sofort auf <unbreak>#1[i]%</unbreak> wiederhergestellt. Sobald die Energie vollständig wiederhergestellt ist, werden alle <u>Debuffs</u> entfernt.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Phagousas Träne",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "Tausendfach geschmiedete Seele",
+				"NodeType": 3,
+				"EffectRaw": "Während das Kraftfeld aktiv ist, wird die Chance erhöht, von Gegnern angegriffen zu werden, der erlittene SCH dieser Einheit um <unbreak>#2[i]%</unbreak> verringert und die erhaltene Heilung um <unbreak>#3[i]%</unbreak> erhöht. Nach einem erlittenen Angriff wird das entsprechende Ziel in den Status „Flammenfluch“ versetzt und Mortenax Blade erhält 1 Pkt. Aufladung.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "Zehntausendfach gehärtetes Herz",
+				"NodeType": 3,
+				"EffectRaw": "Während das Kraftfeld aktiv ist, wird der von Verbündeten verursachte SCH um <unbreak>#1[i]%</unbreak> erhöht. Befindet sich im Team eine andere Figur als Mortenax Blade auf dem Pfad der Nichtigkeit, wird der von Verbündeten verursachte Ultimate-SCH um <unbreak>#2[i]%</unbreak> erhöht. Andernfalls wird der von Mortenax Blade verursachte SCH zusätzlich um <unbreak>#3[i]%</unbreak> erhöht.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "KRIT-Rate-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-Rate um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Phagousas Träne",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "LP-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht max. LP um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Phagousas Wein",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "KRIT-Rate-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-Rate um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "LP-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht max. LP um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "KRIT-Rate-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-Rate um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Phagousas Herz",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

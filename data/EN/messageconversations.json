@@ -67668,9 +67668,9 @@
 	},
 	"15033": {
 		"Id": "15033",
-		"ContactId": "9",
+		"ContactId": "1505",
 		"ParticpatingContactIds": [
-			"9",
+			"1505",
 			"8001"
 		],
 		"Sections": [
@@ -67682,7 +67682,7 @@
 						"Id": "150330100",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "The tide of Wishpower has subsided",
 						"NextMessageId": "150330101"
 					},
@@ -67690,7 +67690,7 @@
 						"Id": "150330101",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "I wasn't mistaken. You've kept your promise once again",
 						"NextMessageId": "150330102"
 					},
@@ -67698,7 +67698,7 @@
 						"Id": "150330102",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Now it's my turn to ask for your help",
 						"NextMessageId": "150330103"
 					},
@@ -67706,7 +67706,7 @@
 						"Id": "150330103",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Let's meet up on the way to Graphia Academy, yeah?",
 						"NextMessageId": "choice4"
 					},
@@ -68416,6 +68416,92 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"15043": {
+		"Id": "15043",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1504301",
+				"StartingMessageId": "150430100",
+				"Messages": {
+					"150430100": {
+						"Id": "150430100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Zhongshanshan here, drinksmith on duty",
+						"NextMessageId": "150430101"
+					},
+					"150430101": {
+						"Id": "150430101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Those two who left their stuff with Star Rabbit haven't shown up",
+						"NextMessageId": "150430102"
+					},
+					"150430102": {
+						"Id": "150430102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Here comes the umbrellahead",
+						"NextMessageId": "150430103"
+					},
+					"150430103": {
+						"Id": "150430103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "He said that not every version of Star Rabbit comes with prizes",
+						"NextMessageId": "150430104"
+					},
+					"150430104": {
+						"Id": "150430104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Maybe you could wait around patiently or something",
+						"NextMessageId": "150430105"
+					},
+					"150430105": {
+						"Id": "150430105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Hope I'm not killing the vibe (no need to reply, I'm still at work~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"15044": {
+		"Id": "15044",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504401",
+				"StartingMessageId": "150440100",
+				"Messages": {
+					"150440100": {
+						"Id": "150440100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Congratulations! You've collected all the Nameless Wispae placed by the Star Rabbit project in Inkford Hermitage! You can now breeze through the Stages that Star Rabbit has set up in this area. Enjoy the game! (This is an automated system advertisement. Please do not reply~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -135955,6 +136041,1223 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"20235": {
+		"Id": "20235",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023500",
+				"StartingMessageId": "202350000",
+				"Messages": {
+					"202350000": {
+						"Id": "202350000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Silver Wolf has installed the \"Blade Tracker\" chat plug-in for you",
+						"NextMessageId": "choice1"
+					},
+					"202350001": {
+						"Id": "202350001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Blade Tracker? Is it something to propel myself toward the sharp edge of a blade?",
+						"NextMessageId": "202350003"
+					},
+					"202350002": {
+						"Id": "202350002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Do I have to propel myself toward the sharp edge of a blade before I can find him?",
+						"NextMessageId": "202350003"
+					},
+					"202350003": {
+						"Id": "202350003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You sent a message, nudged Blade's phone, and made it buzz nonstop",
+						"NextMessageId": "202350004"
+					},
+					"202350004": {
+						"Id": "202350004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You nudged Blade's phone and made it buzz nonstop",
+						"NextMessageId": "202350005"
+					},
+					"202350005": {
+						"Id": "202350005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You nudged Blade's phone and made it buzz nonstop",
+						"NextMessageId": "202350006"
+					},
+					"202350006": {
+						"Id": "202350006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You nudged Blade's phone and made it buzz nonstop",
+						"NextMessageId": "202350007"
+					},
+					"202350007": {
+						"Id": "202350007",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You nudged Blade's phone and made it buzz nonstop",
+						"NextMessageId": "202350008"
+					},
+					"202350008": {
+						"Id": "202350008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend Blade has come online",
+						"NextMessageId": "202350009"
+					},
+					"202350009": {
+						"Id": "202350009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Enough nudging. I'm numb.",
+						"NextMessageId": "202350010"
+					},
+					"202350010": {
+						"Id": "202350010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "My thigh, that is.",
+						"NextMessageId": "choice20"
+					},
+					"202350011": {
+						"Id": "202350011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Don't blame me. It was Silver Wolf who did all the nudging",
+						"NextMessageId": "202350013"
+					},
+					"202350012": {
+						"Id": "202350012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sorry for nudging your thigh numb, but that's totally on Silver Wolf",
+						"NextMessageId": "202350013"
+					},
+					"202350013": {
+						"Id": "202350013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I know. She installed the same thing for Kafka and Firefly.",
+						"NextMessageId": "202350014"
+					},
+					"202350014": {
+						"Id": "202350014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "What's the matter? I'm on a mission.",
+						"NextMessageId": "choice27"
+					},
+					"202350015": {
+						"Id": "202350015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "What are you up to? Some kinda secret mission?",
+						"NextMessageId": "202350017"
+					},
+					"202350016": {
+						"Id": "202350016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Can't I just come hang out with you? Unless... you're on some secret mission?",
+						"NextMessageId": "202350017"
+					},
+					"202350017": {
+						"Id": "202350017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202350018"
+					},
+					"202350018": {
+						"Id": "202350018",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202350019"
+					},
+					"202350019": {
+						"Id": "202350019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Don't ask. I cannot say.",
+						"NextMessageId": "choice36"
+					},
+					"202350020": {
+						"Id": "202350020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "The more you tell me not to ask, the more curious I get...",
+						"NextMessageId": "202350021"
+					},
+					"202350021": {
+						"Id": "202350021",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Is this one of those missions where you just can't talk?",
+						"NextMessageId": "202350026"
+					},
+					"202350022": {
+						"Id": "202350022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I saw earlier...",
+						"NextMessageId": "202350023"
+					},
+					"202350023": {
+						"Id": "202350023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "I think I saw you dancing somewhere... Was that part of your mission?",
+						"NextMessageId": "202350026"
+					},
+					"202350024": {
+						"Id": "202350024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Is it a mission for \"Xianzhou's Number One Assassin\"?",
+						"NextMessageId": "202350025"
+					},
+					"202350025": {
+						"Id": "202350025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "...",
+						"NextMessageId": "202350026"
+					},
+					"202350026": {
+						"Id": "202350026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "No.",
+						"NextMessageId": "202350027"
+					},
+					"202350027": {
+						"Id": "202350027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Far more fatal.",
+						"NextMessageId": "202350028"
+					},
+					"202350028": {
+						"Id": "202350028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "In a hurry. Logging off.",
+						"NextMessageId": "202350029"
+					},
+					"202350029": {
+						"Id": "202350029",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend Blade has gone offline"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Blade Tracker?",
+								"NextMessageId": "202350001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "For propelling myself toward a blade?",
+								"NextMessageId": "202350002"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "That wasn't me",
+								"NextMessageId": "202350011"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "That's totally on Silver Wolf",
+								"NextMessageId": "202350012"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "What are you up to?",
+								"NextMessageId": "202350015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Can't I just come hang out with you?",
+								"NextMessageId": "202350016"
+							}
+						]
+					},
+					"choice36": {
+						"Id": "choice36",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "One of those \"be quiet\" missions?",
+								"NextMessageId": "202350020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "One of those dance missions?",
+								"NextMessageId": "202350022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "A mission for the \"Number One Assassin\"?",
+								"NextMessageId": "202350024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20236": {
+		"Id": "20236",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023600",
+				"StartingMessageId": "202360000",
+				"Messages": {
+					"202360000": {
+						"Id": "202360000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"Blade Tracker\" plug-in version has been updated for you",
+						"NextMessageId": "202360001"
+					},
+					"202360001": {
+						"Id": "202360001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "What's New: Resolved certain known issues and added vibration-reducing functionality",
+						"NextMessageId": "choice2"
+					},
+					"202360002": {
+						"Id": "202360002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Whoa, that was fast. Even faster than my game version update!",
+						"NextMessageId": "202360004"
+					},
+					"202360003": {
+						"Id": "202360003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "How's the vibration reduction? Let me try.",
+						"NextMessageId": "202360004"
+					},
+					"202360004": {
+						"Id": "202360004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You sent a message, nudged Blade's phone, and made it buzz once",
+						"NextMessageId": "202360005"
+					},
+					"202360005": {
+						"Id": "202360005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You nudged Blade's phone and made it buzz once",
+						"NextMessageId": "202360006"
+					},
+					"202360006": {
+						"Id": "202360006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend Blade has come online",
+						"NextMessageId": "202360007"
+					},
+					"202360007": {
+						"Id": "202360007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Shh. Be quiet.",
+						"NextMessageId": "202360008"
+					},
+					"202360008": {
+						"Id": "202360008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I'm watching the monitors. What is it this time?",
+						"NextMessageId": "choice15"
+					},
+					"202360009": {
+						"Id": "202360009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Doing some intense enemy-tracking on the surveillance feed?",
+						"NextMessageId": "202360013"
+					},
+					"202360010": {
+						"Id": "202360010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "On another mission? Doing some intense enemy-tracking on the surveillance feed?",
+						"NextMessageId": "202360013"
+					},
+					"202360011": {
+						"Id": "202360011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Don't worry, I won't send voice messages.",
+						"NextMessageId": "202360012"
+					},
+					"202360012": {
+						"Id": "202360012",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "What are you looking at on the monitors? Doing some intense enemy-tracking on the surveillance feed?",
+						"NextMessageId": "202360013"
+					},
+					"202360013": {
+						"Id": "202360013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "No.",
+						"NextMessageId": "202360014"
+					},
+					"202360014": {
+						"Id": "202360014",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202360015"
+					},
+					"202360015": {
+						"Id": "202360015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202360016"
+					},
+					"202360016": {
+						"Id": "202360016",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202360017"
+					},
+					"202360017": {
+						"Id": "202360017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I'm reviewing the surveillance footage of Cake Cat.",
+						"NextMessageId": "choice34"
+					},
+					"202360018": {
+						"Id": "202360018",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Are you sneaking a peek at Sesame Cake?",
+						"NextMessageId": "202360019"
+					},
+					"202360019": {
+						"Id": "202360019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Mm-hmm.",
+						"NextMessageId": "202360025"
+					},
+					"202360020": {
+						"Id": "202360020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "How long have you been spying on Cake Cat?",
+						"NextMessageId": "202360021"
+					},
+					"202360021": {
+						"Id": "202360021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I didn't pay attention to the time.",
+						"NextMessageId": "202360025"
+					},
+					"202360022": {
+						"Id": "202360022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Oh, Cake Cat! You could've just said so earlier!",
+						"NextMessageId": "202360023"
+					},
+					"202360023": {
+						"Id": "202360023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Next time I'll take you straight in",
+						"NextMessageId": "202360024"
+					},
+					"202360024": {
+						"Id": "202360024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Alright, next time for sure.",
+						"NextMessageId": "202360025"
+					},
+					"202360025": {
+						"Id": "202360025",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "What did you see on the monitors? Is Sesame Cake okay?",
+						"NextMessageId": "202360026"
+					},
+					"202360026": {
+						"Id": "202360026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "It has made two new friends.",
+						"NextMessageId": "202360027"
+					},
+					"202360027": {
+						"Id": "202360027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "One is white. Seems like this one can't sit tight, has quite the temper, and loves to talk.",
+						"NextMessageId": "202360028"
+					},
+					"202360028": {
+						"Id": "202360028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "The other is red. Doesn't talk much, but has quite the temper as well.",
+						"NextMessageId": "202360029"
+					},
+					"202360029": {
+						"Id": "202360029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "It's good. Sesame Cake used to keep to itself.",
+						"NextMessageId": "choice57"
+					},
+					"202360030": {
+						"Id": "202360030",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Did you give them names?",
+						"NextMessageId": "202360031"
+					},
+					"202360031": {
+						"Id": "202360031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Me?",
+						"NextMessageId": "202360032"
+					},
+					"202360032": {
+						"Id": "202360032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Then let's call them Snowflake Crisp and Red Date Pudding.",
+						"NextMessageId": "202360037"
+					},
+					"202360033": {
+						"Id": "202360033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Actually, they're kinda like you. You know, their temper",
+						"NextMessageId": "202360034"
+					},
+					"202360034": {
+						"Id": "202360034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "So, have our new friends got their names yet?",
+						"NextMessageId": "202360035"
+					},
+					"202360035": {
+						"Id": "202360035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I don't know. Let me think...",
+						"NextMessageId": "202360036"
+					},
+					"202360036": {
+						"Id": "202360036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "How about Red Date Pudding and Snowflake Crisp?",
+						"NextMessageId": "202360037"
+					},
+					"202360037": {
+						"Id": "202360037",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202360038"
+					},
+					"202360038": {
+						"Id": "202360038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Now they're fighting each other.",
+						"NextMessageId": "202360039"
+					},
+					"202360039": {
+						"Id": "202360039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Looks like their relationship is a bit... strained.",
+						"NextMessageId": "202360040"
+					},
+					"202360040": {
+						"Id": "202360040",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202360041"
+					},
+					"202360041": {
+						"Id": "202360041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Now they're licking each other.",
+						"NextMessageId": "202360042"
+					},
+					"202360042": {
+						"Id": "202360042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Turns out it was just a misunderstanding. They're fine with each other.",
+						"NextMessageId": "202360043"
+					},
+					"202360043": {
+						"Id": "202360043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202360044"
+					},
+					"202360044": {
+						"Id": "202360044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "They're gone.",
+						"NextMessageId": "202360045"
+					},
+					"202360045": {
+						"Id": "202360045",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Perhaps they noticed me watching and went into hiding.",
+						"NextMessageId": "202360046"
+					},
+					"202360046": {
+						"Id": "202360046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I'll check the other surveillance feeds.",
+						"NextMessageId": "202360047"
+					},
+					"202360047": {
+						"Id": "202360047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "If there is nothing important, I'll see you next time.",
+						"NextMessageId": "202360048"
+					},
+					"202360048": {
+						"Id": "202360048",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend Blade has gone offline"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Wow, that was fast!",
+								"NextMessageId": "202360002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "How's the vibration reduction? Let me try.",
+								"NextMessageId": "202360003"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "What are you looking at on the monitors?",
+								"NextMessageId": "202360009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Working on another mission?",
+								"NextMessageId": "202360010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I can't talk through text messages.",
+								"NextMessageId": "202360011"
+							}
+						]
+					},
+					"choice34": {
+						"Id": "choice34",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Are you peeking at Sesame Cake?",
+								"NextMessageId": "202360018"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "How long have you been doing this?",
+								"NextMessageId": "202360020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Do you really need to sneak a peek at this?",
+								"NextMessageId": "202360022"
+							}
+						]
+					},
+					"choice57": {
+						"Id": "choice57",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Did you give them names?",
+								"NextMessageId": "202360030"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "They're kinda like you",
+								"NextMessageId": "202360033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20237": {
+		"Id": "20237",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023700",
+				"StartingMessageId": "202370000",
+				"Messages": {
+					"202370000": {
+						"Id": "202370000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"Blade Tracker\" plug-in version has been updated for you",
+						"NextMessageId": "202370001"
+					},
+					"202370001": {
+						"Id": "202370001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "What's New: Fixed certain known issues, enhanced the vibration-reducing functionality, and watched more Cake Cat videos",
+						"NextMessageId": "202370002"
+					},
+					"202370002": {
+						"Id": "202370002",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "You nudged Blade's phone and made it buzz once",
+						"NextMessageId": "202370003"
+					},
+					"202370003": {
+						"Id": "202370003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend Blade has come online",
+						"NextMessageId": "202370004"
+					},
+					"202370004": {
+						"Id": "202370004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Perfect timing. I was just thinking of you.",
+						"NextMessageId": "choice5"
+					},
+					"202370005": {
+						"Id": "202370005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I'm flattered! What specifically made you think of me?",
+						"NextMessageId": "202370008"
+					},
+					"202370006": {
+						"Id": "202370006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Finally ready to catch up with me?",
+						"NextMessageId": "202370007"
+					},
+					"202370007": {
+						"Id": "202370007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "No.",
+						"NextMessageId": "202370008"
+					},
+					"202370008": {
+						"Id": "202370008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend is typing...",
+						"NextMessageId": "202370009"
+					},
+					"202370009": {
+						"Id": "202370009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Earlier, I noticed several unclaimed items in the arsenal, worn from heavy use, yet still serviceable in material... They must be relics from your past.",
+						"NextMessageId": "202370010"
+					},
+					"202370010": {
+						"Id": "202370010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Since you've sent me a message, I'll ask: What do you want? I can modify and refine it when I return.",
+						"NextMessageId": "202370011"
+					},
+					"202370011": {
+						"Id": "202370011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "What did I leave behind? Some weapon?",
+						"NextMessageId": "202370012"
+					},
+					"202370012": {
+						"Id": "202370012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "A few items that are unrecognizable in their current state. Judging by their construction, they were meant for everyday use.",
+						"NextMessageId": "202370013"
+					},
+					"202370013": {
+						"Id": "202370013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Make the most of what you have. Tell me what you need, and I can craft it.",
+						"NextMessageId": "choice20"
+					},
+					"202370014": {
+						"Id": "202370014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "For my high-energy interstellar travel, I need some kinda sleep machine that can lull me to sleep anytime, anywhere, at a moment's notice",
+						"NextMessageId": "202370015"
+					},
+					"202370015": {
+						"Id": "202370015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Back on the Xianzhou, we called it a \"cradle bed.\"",
+						"NextMessageId": "202370025"
+					},
+					"202370016": {
+						"Id": "202370016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Maybe something not so everyday-ish",
+						"NextMessageId": "202370017"
+					},
+					"202370017": {
+						"Id": "202370017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Do you sleep well?",
+						"NextMessageId": "202370018"
+					},
+					"202370018": {
+						"Id": "202370018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I made a few gadgets aboard the ship recently that aid sleep. Would you be interested in them?",
+						"NextMessageId": "202370019"
+					},
+					"202370019": {
+						"Id": "202370019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Then I want an upgrade! How about something that can lull me to sleep anytime, anywhere, at a moment's notice",
+						"NextMessageId": "202370020"
+					},
+					"202370020": {
+						"Id": "202370020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Sure.",
+						"NextMessageId": "202370025"
+					},
+					"202370021": {
+						"Id": "202370021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I'm not picky, I'll take whatever!",
+						"NextMessageId": "202370022"
+					},
+					"202370022": {
+						"Id": "202370022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I made a few gadgets aboard the ship recently that aid sleep. Would you be interested in them?",
+						"NextMessageId": "202370023"
+					},
+					"202370023": {
+						"Id": "202370023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Yay! I want a sleep machine that can lull me to sleep anytime, anywhere, at a moment's notice",
+						"NextMessageId": "202370024"
+					},
+					"202370024": {
+						"Id": "202370024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Sure.",
+						"NextMessageId": "202370025"
+					},
+					"202370025": {
+						"Id": "202370025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Lulling one to sleep is simple enough. But to force slumber... that requires special design.",
+						"NextMessageId": "choice31"
+					},
+					"202370026": {
+						"Id": "202370026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "You can add some white noise. That'll help me fall asleep even faster",
+						"NextMessageId": "202370027"
+					},
+					"202370027": {
+						"Id": "202370027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Simple. Add a few iron plates, and they should mimic the buzz when forging a blade.",
+						"NextMessageId": "202370028"
+					},
+					"202370028": {
+						"Id": "202370028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Though this sound used to invigorate me... it may well lull you to sleep.",
+						"NextMessageId": "202370038"
+					},
+					"202370029": {
+						"Id": "202370029",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "How about adding some physical sleep-aid features? Like a massage, pillow fluffing, that sort of thing?",
+						"NextMessageId": "202370030"
+					},
+					"202370030": {
+						"Id": "202370030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "...Alright.",
+						"NextMessageId": "202370031"
+					},
+					"202370031": {
+						"Id": "202370031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "There are discarded mechanical arm joints in the utility room that can simulate these movements.",
+						"NextMessageId": "202370032"
+					},
+					"202370032": {
+						"Id": "202370032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Might be a bit noisy, but you could treat it as white noise.",
+						"NextMessageId": "202370038"
+					},
+					"202370033": {
+						"Id": "202370033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Can you add some lullabies with vocals?",
+						"NextMessageId": "202370034"
+					},
+					"202370034": {
+						"Id": "202370034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "...Alright.",
+						"NextMessageId": "202370035"
+					},
+					"202370035": {
+						"Id": "202370035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "A music player is built in. You can record one song onto it.",
+						"NextMessageId": "202370036"
+					},
+					"202370036": {
+						"Id": "202370036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "But I'm not good at singing. I can recite some lyrics for you... at best.",
+						"NextMessageId": "202370037"
+					},
+					"202370037": {
+						"Id": "202370037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Alrighty! I guess that's a sort of paradise too...",
+						"NextMessageId": "202370038"
+					},
+					"202370038": {
+						"Id": "202370038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Once the modifications are complete, I can have it delivered, or you can pick it up in person. Your call.",
+						"NextMessageId": "202370039"
+					},
+					"202370039": {
+						"Id": "202370039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "I'll be in touch.",
+						"NextMessageId": "202370040"
+					},
+					"202370040": {
+						"Id": "202370040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "See you.",
+						"NextMessageId": "202370041"
+					},
+					"202370041": {
+						"Id": "202370041",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Your friend Blade has gone offline"
+					},
+					"choice5": {
+						"Id": "choice5",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "I'm flattered!",
+								"NextMessageId": "202370005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Wanna catch up?",
+								"NextMessageId": "202370006"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Maybe something for everyday use",
+								"NextMessageId": "202370014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Something not so everyday-ish",
+								"NextMessageId": "202370016"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I'm not picky, I'll take whatever",
+								"NextMessageId": "202370021"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Could use some white noise",
+								"NextMessageId": "202370026"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "How about adding some physical sleep-aid features?",
+								"NextMessageId": "202370029"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Can you add some lullabies?",
+								"NextMessageId": "202370033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20998": {
 		"Id": "20998",

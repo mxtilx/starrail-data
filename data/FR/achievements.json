@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "Emportée par la brise fleurie",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "Déduction taboue",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "La déduction vient après le tintement des verres\n<color=#8790abff>※ Se rendre à la taverne pour enquêter sur l'existence d'Asat Pramad</color>",
+		"HiddenDescription": "La déduction vient après le tintement des verres",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "Rallumer les lampes d'antan",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Venez faire une bataille de boules de neige !\n<color=#8790abff>※ Invoquer Graphia comme promis il y a longtemps</color>",
+		"HiddenDescription": "Venez faire une bataille de boules de neige !",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "Un instant sur l'autre rive",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Saute et engouffre-toi dans cette Gueule azurée\n<color=#8790abff>※ Assister au voyage de Blade jusqu'au bout du monde dans la Toile</color>",
+		"HiddenDescription": "Saute et engouffre-toi dans cette Gueule azurée",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "Ce qu'est une lame",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Qu'est-ce qu'une lame, en essence ? Qu'est-ce qui se réduit en poussière, déchire les ennemis ?\n<color=#8790abff>※ Blade a trouvé sa réponse</color>",
+		"HiddenDescription": "Qu'est-ce qu'une lame, en essence ? Qu'est-ce qui se réduit en poussière, déchire les ennemis ?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "Une plaisanterie qui s'évanouit dans le néant",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "La voie des étoiles",
+		"Description": "Rien n'est plus détestable que d'expliquer une blague\n<color=#8790abff>※ Être témoin de la véritable identité d'Asat Pramad</color>",
+		"HiddenDescription": "Rien n'est plus détestable que d'expliquer une blague",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "{M#Maître}{F#Maîtresse} du jeu de rôle",
@@ -5371,7 +5426,7 @@
 	},
 	"4045113": {
 		"Id": "4045113",
-		"Name": "Variations d'Arcadia : Boîte-de-conserve",
+		"Name": "Variation arcadienne : Boîte-de-conserve",
 		"SortOrder": 674,
 		"Rarity": "Low",
 		"SeriesId": 4,
@@ -5541,7 +5596,7 @@
 	},
 	"4045216": {
 		"Id": "4045216",
-		"Name": "Variation Arcadia : Princesse de l'orbe",
+		"Name": "Variation arcadienne : Princesse de l'orbe",
 		"SortOrder": 657,
 		"Rarity": "Low",
 		"SeriesId": 4,
@@ -5558,6 +5613,76 @@
 		"SeriesText": "Sonder l'insondable",
 		"Description": "Jouer une mélodie étrange et découvrir la mystérieuse créature qui se cache à Merchamps",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "Une vie de solitude",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Terminer l'Heure du saut au Picto-ermitage",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "Esquiver l'assassin",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Terminer l'Heure du saut au Picto-ermitage en évitant tous les Hérissae",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "Le dernier géant de givre",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Mettre Casper K.O",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "Le pays de l'hiver",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Trouver le coffre caché dans le château tout en vous livrant à une bataille de boules de neige avec Casper lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "Bienvenue sur cette plateforme vapeur",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Profiter des sources chaudes enneigées au Picto-ermitage",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "Contes du Cavalier sans tête",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Faire tomber les têtes de tous les bonhommes de neige ordinaires au Picto-ermitage",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "Variation arcadienne : l'enfant des neiges",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Sonder l'insondable",
+		"Description": "Jouer une mélodie étrange et découvrir la mystérieuse créature qui se cache au Picto-ermitage",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "Terminer l'affrontement final avec Louve d'argent Niv. 999 dans Atout cosmique, à nous encore une fois !",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "En route vers l'Astral bus !",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Interroger Nihilux sur l'histoire des Nouveaux Jeux Fabulunaires",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "Tales of Planarcadia",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Aider au développement de Lapin stellaire",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "Et il vécut heureux jusqu'à la fin des temps...",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "S'opposer au développement de Lapin stellaire",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "{M#Gardien}{F#Gardienne} du Pictomonde",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Invoquer Graphia dans le cercle magique du Picto-ermitage",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "Où trouve-t-il toute cette énergie ?",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Rencontrer et parler à Pluipara dans le quartier de Colombeaux et au Picto-ermitage",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "Amour du gingko",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Regarder deux passants faire leurs adieux émus devant la gare",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "Arme ultime pour la bataille décisive",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Améliorer un équipement principal jusqu'au niveau 3 étoiles pour la première fois dans Pixels en rafales",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "Suite du chat de Sparxie",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Vaincre Sparxie en utilisant Magie du circuit dans Pixels en rafales",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "Promesse sous le ciel azur",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Débloquer tous les avions pixélisés dans Pixels en rafales",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "L'as de l'aviation",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Remporter le duel ultime sans perdre une seule vie dans Pixels en rafales",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "Panoplie ultime",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Dans Pixels en rafales, avoir #1 équipements 3 étoiles simultanément en une seule session",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "Spécialiste de tous les modèles d'avion",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Souvenirs partagés",
+		"Description": "Remporter un match avec chaque avion dans Pixels en rafales",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Les mille morts d'une ombre (I)",
@@ -14538,7 +14783,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Soif de combat",
-		"Description": "Déclencher les répliques de « Tour inactif » de Jiaoqiu et de « Début du tour 2 » de Jing Yuan au cours du même combat",
+		"Description": "Déclencher les répliques « Début du tour 2 » de Jiaoqiu et de « Tour inactif » de Jing Yuan au cours du même combat",
 		"VersionAdded": "3.1"
 	},
 	"4073506": {
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Soif de combat",
-		"Description": "Au cours d'un même combat, utiliser l'ultime {M#du pionnier}{F#de la pionnière} (L'Allégresse) sur #1 coéquipiers différents une fois chacun",
+		"Description": "Au cours d'un même combat, utiliser l'ultime {M#du pionnier}{F#de la pionnière} (L'Allégresse) sur #1 personnages différents une fois chacun",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "Soif de combat",
 		"Description": "Dans le combat contre les Ascendantes de la joie, éliminez #1 Ascendante de la joie : Omega ou plus en une seule attaque",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "Guerriers nés de mille forges",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Faire en sorte que Blade Mortenax remporte un combat avec #1 de PV restants",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "Fracas de lames et martellement du fer, une symphonie pour les sens",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "En un seul tour, utiliser le personnage allié Blade Mortenax pour déclencher Inhumation sous la lame un total de #1 fois",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "Capitaine des flammes ardentes",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Durant le combat contre Murata Graphia, Architecte de l'œuvre, sélectionner Extinction des feux lorsque les PV sont faibles et que le taux de réussite d'extinction est au plus bas, puis dissiper avec succès l'état Rancune enflammée",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "Libérateur d'entrailles",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "En combat contre le Rejeton du théophage, utiliser le personnage allié ayant l'ATQ la plus élevée pour dissiper l'état Dévoration et obtenir un bonus d'ATQ",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "Condamnation éternelle",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Soif de combat",
+		"Description": "Utiliser Tenax Per Ignem #1 fois en une seule activation avec le personnage allié Blade Mortenax dans l'état Courroux éternel",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "Moment d'allégresse",
 		"Description": "Se faire percuter par une hydrauto durant lors d'un Saut interdimensionnel !",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "Je voudrais un bonhomme de neige",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "Moment d'allégresse",
+		"Description": "Se faire congeler dans un bloc de glace lors d'un Saut interdimensionnel !",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

@@ -1239,6 +1239,46 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
 		"VersionAdded": "4.2"
 	},
+	"2124": {
+		"Id": "2124",
+		"Name": "Ich selbst bin die Klinge",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Figuren",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Figuren-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2125": {
+		"Id": "2125",
+		"Name": "Lichtglanz der tausend Federn",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Figuren",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Figuren-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2126": {
+		"Id": "2126",
+		"Name": "Wiedervereinte Wellen",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Figuren",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Figuren-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2127": {
+		"Id": "2127",
+		"Name": "Ewig brennende Sonne",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Figuren",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Figuren-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
+		"VersionAdded": "4.3"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Strahlende Verankerung",
@@ -2468,6 +2508,46 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
 		"VersionAdded": "4.2"
+	},
+	"3124": {
+		"Id": "3124",
+		"Name": "Strahlende Verankerung",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Lichtkegel",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Lichtkegel-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3125": {
+		"Id": "3125",
+		"Name": "Reminiszenz an verflossene Zeiten",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Lichtkegel",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Lichtkegel-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3126": {
+		"Id": "3126",
+		"Name": "Reminiszenz an verflossene Zeiten",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Lichtkegel",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Lichtkegel-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3127": {
+		"Id": "3127",
+		"Name": "Reminiszenz an verflossene Zeiten",
+		"Description": "Erhöhte Chance zum Erhalt bestimmter Lichtkegel",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Lichtkegel-Aktionswarp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
+		"VersionAdded": "4.3"
 	},
 	"4001": {
 		"Id": "4001",

@@ -7948,6 +7948,67 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"23059": {
+		"Id": "23059",
+		"Name": "Neue Überreste des versengenden Fegefeuers",
+		"PathType": "Warlock",
+		"PathTypeText": "Die Nichtigkeit",
+		"EffectName": "Verfeinern",
+		"EffectTemplate": "Erhöht die max. LP des Trägers um <color=#f29e38ff>#1[i]%</color>. Stellt zu Beginn der Runde des Trägers eine feste Menge von #2[i] Energie wieder her. Dieser Effekt kann 1-mal pro Kampfwelle ausgelöst werden. Nachdem der Träger mit der Fertigkeit angegriffen hat, wird das Ziel für #3[i] Rd. in den Status „Fegefeuer“ versetzt. Im Status Fegefeuer wird der erlittene KRIT-SCH des Ziels um <color=#f29e38ff>#4[i]%</color> und sein erlittener KRIT-SCH, der durch den Träger verursacht wird, zusätzlich um <color=#f29e38ff>#5[i]%</color> erhöht.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht die max. LP des Trägers um <color=#f29e38ff>30%</color>. Stellt zu Beginn der Runde des Trägers eine feste Menge von 20 Energie wieder her. Dieser Effekt kann 1-mal pro Kampfwelle ausgelöst werden. Nachdem der Träger mit der Fertigkeit angegriffen hat, wird das Ziel für 2 Rd. in den Status „Fegefeuer“ versetzt. Im Status Fegefeuer wird der erlittene KRIT-SCH des Ziels um <color=#f29e38ff>30%</color> und sein erlittener KRIT-SCH, der durch den Träger verursacht wird, zusätzlich um <color=#f29e38ff>30%</color> erhöht.",
+				"Params": [
+					0.3,
+					20,
+					2,
+					0.3,
+					0.3
+				]
+			},
+			{
+				"Effect": "Erhöht die max. LP des Trägers um <color=#f29e38ff>37%</color>. Stellt zu Beginn der Runde des Trägers eine feste Menge von 20 Energie wieder her. Dieser Effekt kann 1-mal pro Kampfwelle ausgelöst werden. Nachdem der Träger mit der Fertigkeit angegriffen hat, wird das Ziel für 2 Rd. in den Status „Fegefeuer“ versetzt. Im Status Fegefeuer wird der erlittene KRIT-SCH des Ziels um <color=#f29e38ff>37%</color> und sein erlittener KRIT-SCH, der durch den Träger verursacht wird, zusätzlich um <color=#f29e38ff>37%</color> erhöht.",
+				"Params": [
+					0.375,
+					20,
+					2,
+					0.375,
+					0.375
+				]
+			},
+			{
+				"Effect": "Erhöht die max. LP des Trägers um <color=#f29e38ff>45%</color>. Stellt zu Beginn der Runde des Trägers eine feste Menge von 20 Energie wieder her. Dieser Effekt kann 1-mal pro Kampfwelle ausgelöst werden. Nachdem der Träger mit der Fertigkeit angegriffen hat, wird das Ziel für 2 Rd. in den Status „Fegefeuer“ versetzt. Im Status Fegefeuer wird der erlittene KRIT-SCH des Ziels um <color=#f29e38ff>45%</color> und sein erlittener KRIT-SCH, der durch den Träger verursacht wird, zusätzlich um <color=#f29e38ff>45%</color> erhöht.",
+				"Params": [
+					0.45,
+					20,
+					2,
+					0.45,
+					0.45
+				]
+			},
+			{
+				"Effect": "Erhöht die max. LP des Trägers um <color=#f29e38ff>52%</color>. Stellt zu Beginn der Runde des Trägers eine feste Menge von 20 Energie wieder her. Dieser Effekt kann 1-mal pro Kampfwelle ausgelöst werden. Nachdem der Träger mit der Fertigkeit angegriffen hat, wird das Ziel für 2 Rd. in den Status „Fegefeuer“ versetzt. Im Status Fegefeuer wird der erlittene KRIT-SCH des Ziels um <color=#f29e38ff>52%</color> und sein erlittener KRIT-SCH, der durch den Träger verursacht wird, zusätzlich um <color=#f29e38ff>52%</color> erhöht.",
+				"Params": [
+					0.525,
+					20,
+					2,
+					0.525,
+					0.525
+				]
+			},
+			{
+				"Effect": "Erhöht die max. LP des Trägers um <color=#f29e38ff>60%</color>. Stellt zu Beginn der Runde des Trägers eine feste Menge von 20 Energie wieder her. Dieser Effekt kann 1-mal pro Kampfwelle ausgelöst werden. Nachdem der Träger mit der Fertigkeit angegriffen hat, wird das Ziel für 2 Rd. in den Status „Fegefeuer“ versetzt. Im Status Fegefeuer wird der erlittene KRIT-SCH des Ziels um <color=#f29e38ff>60%</color> und sein erlittener KRIT-SCH, der durch den Träger verursacht wird, zusätzlich um <color=#f29e38ff>60%</color> erhöht.",
+				"Params": [
+					0.6,
+					20,
+					2,
+					0.6,
+					0.6
+				]
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Der Niedergang eines Äons",

@@ -329,6 +329,28 @@
 		"Pieces": {},
 		"VersionAdded": "4.0"
 	},
+	"131": {
+		"Id": "131",
+		"Name": "Piloto estelar como Yoveo",
+		"IsPlanarOrnament": false,
+		"SetEffects": {
+			"Pieces2": "ATQ +12%.",
+			"Pieces4": "Cuando el portador entra en combate/lanza la habilidad básica, el daño que infligen su habilidad básica y su habilidad definitiva aumenta en un 18%. Se puede acumular hasta 3 veces. Al comenzar el turno del portador/después de lanzar la habilidad definitiva, se disipa 1 acumulación de este efecto."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.3"
+	},
+	"132": {
+		"Id": "132",
+		"Name": "Gran forja del interrogante divino",
+		"IsPlanarOrnament": false,
+		"SetEffects": {
+			"Pieces2": "PV máx. +12%.",
+			"Pieces4": "El Daño CRIT que el portador inflige a los enemigos con reducción de DEF aumenta en un 28%. Cuando el portador aplica reducción de DEF a un enemigo, todos los aliados obtienen Ignición durante 2 turnos. Este efecto no se puede acumular. El daño que infligen los aliados con Ignición aumenta en un 15%. Este efecto se puede volver a activar después de que el portador lance un ataque."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.3"
+	},
 	"301": {
 		"Id": "301",
 		"Name": "Estación sellaespacios",

@@ -125609,7 +125609,7 @@
 				"Name": "Pluie de pétales : Souvenirs floraux",
 				"NodeType": 2,
 				"NodeTypeText": "Technique",
-				"EffectRaw": "Attaque immédiatement tous les ennemis dans une zone définie. Après être entré en combat, inflige des DGT physiques équivalents à <unbreak>#1[i]%</unbreak> de l'ATQ d'Evanescia à tous les ennemis et obtient <unbreak>#2[i]</unbreak> points de <u>Banger absolu</u>.",
+				"EffectRaw": "Attaque immédiatement tous les ennemis dans une zone définie. Après l'entrée en combat, inflige des DGT physiques équivalents à <unbreak>#1[i]%</unbreak> de l'ATQ d'Evanescia à tous les ennemis et obtient <unbreak>#2[i]</unbreak> points de <u>Banger absolu</u>.",
 				"MaxLevel": 1,
 				"LeveledSkillIds": [
 					"150507"
@@ -126676,7 +126676,7 @@
 				"Name": "Mode MVP activé !",
 				"NodeType": 2,
 				"NodeTypeText": "Ultime",
-				"EffectRaw": "Entre dans l'état MVP incontestée et <u>avance l'action</u> de <unbreak>100</unbreak> %.\nDans l'état MVP incontestée, déploie une zone. Lorsque Louve d'argent Niv. <unbreak>999</unbreak> bénéficie de <u>Banger absolu</u>, chaque fois qu'une cible alliée dans la zone consomme 1 point de compétence, il y a une chance de déclencher <u>Butin légendaire</u> 1 fois, ce qui inflige <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>comidégâts</u> imaginaires répartis équitablement entre tous les ennemis et déclenche aléatoirement 1 des effets suivants :\nGiga épée qui tue : inflige des <u>DGT réels</u> supplémentaires équivalents à <unbreak>#5[i]%</unbreak> du total des DGT infligés à la cible ennemie ayant le plus de PV.\nBomb'œuf : accorde <unbreak>#7[i]</unbreak> points de compétence aux alliés.\nBiz'haricot : accorde <unbreak>#6[i]</unbreak> points de <u>Panache</u>.\nLes <u>chances fixes</u> initiales de déclencher cet effet sont de <unbreak>100</unbreak> %. Après avoir déclenché cet effet avec succès, les <u>chances fixes</u> du déclenchement suivant sont réduites à <unbreak>#4[i]%</unbreak> des chances actuelles. Si la cible est éliminée avant le déclenchement, cet effet se déclenche sur une cible ennemie qui entre en combat.",
+				"EffectRaw": "Entre dans l'état MVP incontestée et <u>avance l'action</u> de <unbreak>100</unbreak> %.\nDans l'état MVP incontestée, déploie une zone. Lorsque Louve d'argent Niv. <unbreak>999</unbreak> bénéficie de <u>Banger absolu</u>, chaque fois qu'une cible alliée dans la zone consomme 1 point de compétence, il y a une chance de déclencher <u>Butin légendaire</u> 1 fois, ce qui inflige <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>comidégâts</u> imaginaires répartis équitablement entre tous les ennemis et déclenche aléatoirement l'un des effets suivants :\nGiga épée qui tue : inflige des <u>DGT réels</u> supplémentaires équivalents à <unbreak>#5[i]%</unbreak> du total des DGT infligés à la cible ennemie ayant le plus de PV.\nBomb'œuf : accorde <unbreak>#7[i]</unbreak> points de compétence aux alliés.\nBiz'haricot : obtient <unbreak>#6[i]</unbreak> points de <u>Panache</u>.\nLes <u>chances fixes</u> initiales de déclencher cet effet sont de <unbreak>100</unbreak> %. Après avoir déclenché cet effet avec succès, les <u>chances fixes</u> du déclenchement suivant sont réduites à <unbreak>#4[i]%</unbreak> des chances actuelles. Si la cible est éliminée avant le déclenchement, cet effet se déclenche sur une cible ennemie qui entre en combat.",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"150603"
@@ -127260,7 +127260,7 @@
 				"Name": "Ça, c'est meta !",
 				"NodeType": 2,
 				"NodeTypeText": "Technique",
-				"EffectRaw": "Invoque le Biz'haricot. Utiliser cette capacité à nouveau le renvoie. L'utilisation de la technique ne consomme pas de points de technique. Lorsque les points de technique tombent à 0, l'invocation est renvoyée et la technique ne peut plus être utilisée.\nLe Biz'haricot applique Terrifié aux ennemis normaux dans une zone définie. Il attaque automatiquement les ennemis normaux et consomme 1 point de technique pour les éliminer instantanément sans entrer en combat.\nAprès être entré en combat alors que le Biz'haricot est invoqué, 1 <u>Butin légendaire</u> correspondant au Biz'haricot est déclenché au début de chaque vague. Les <u>comidégâts</u> infligés lors de cette instance comptabilisent une quantité fixe de <unbreak>#1[i]</unbreak> points de <u>Banger absolu</u>.",
+				"EffectRaw": "Invoque le Biz'haricot. Utiliser cette capacité à nouveau le renvoie. L'utilisation de la technique ne consomme pas de points de technique. Lorsque les points de technique tombent à 0, l'invocation est renvoyée et la technique ne peut plus être utilisée.\nLe Biz'haricot applique Terrifié aux ennemis normaux dans une zone définie. Il attaque automatiquement les ennemis normaux et consomme 1 point de technique pour les éliminer instantanément sans entrer en combat.\nAprès l'entrée en combat alors que le Biz'haricot est invoqué, 1 <u>Butin légendaire</u> correspondant au Biz'haricot est déclenché au début de chaque vague. Les <u>comidégâts</u> infligés lors de cette instance comptabilisent une quantité fixe de <unbreak>#1[i]</unbreak> points de <u>Banger absolu</u>.",
 				"MaxLevel": 1,
 				"LeveledSkillIds": [
 					"150607"
@@ -127932,6 +127932,1461 @@
 			}
 		},
 		"VersionAdded": "4.2"
+	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Blade Mortenax",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "Tuer d'une lame brisée",
+				"NodeType": 2,
+				"NodeTypeText": "ATQ normale",
+				"EffectRaw": "Inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des PV max de Blade Mortenax à un ennemi désigné et lui applique l'état Provocation pour une durée de 1 tour.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Larme de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "Pluie de lames funeste",
+				"NodeType": 2,
+				"NodeTypeText": "Compétence",
+				"EffectRaw": "Consomme un montant de PV équivalents à <unbreak>#4[i]%</unbreak> des PV max de Blade Mortenax, inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> des PV max de Blade Mortenax à tous les ennemis, et inflige <unbreak>#2[i]</unbreak> instances de DGT supplémentaires, chacune infligeant des DGT de feu équivalents à <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> des PV max de Blade Mortenax à un ennemi aléatoire.\nSi les PV actuels de Blade Mortenax ne sont pas suffisants, ils tombent à 1 lors de l'utilisation de la compétence.\nSi Blade Mortenax n'est pas dans l'état Courroux éternel ou si ses PV sont égaux ou inférieurs à 1, il ne peut pas utiliser sa compétence.\nUtiliser la compétence ne consomme pas de points de compétence.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Larme de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "Fornax Ex Corpore",
+				"NodeType": 2,
+				"NodeTypeText": "Ultime",
+				"EffectRaw": "Applique Lien incandescent à tous les ennemis. Les cibles ennemies dans l'état Lien incandescent voient leur DÉF réduite de <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> et leurs DGT subis augmentés de <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> pour une durée de <unbreak>#8[i]</unbreak> tours. Consomme ensuite un montant de PV équivalent à <unbreak>#1[i]%</unbreak> des PV max de Blade Mortenax pour déployer une zone. Lorsque la zone est active, Blade Mortenax entre dans l'état Courroux éternel.\nDans l'état Courroux éternel, augmente les chances de coup critique de <unbreak>#2[i]%</unbreak> et les DGT critiques de <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>, renforce l'ATQ normale, débloque la compétence et accorde le nouvel ultime Tenax Per Ignem. En cas de coup fatal, cette unité ne tombe pas <u>à terre</u>, mais dissipe la zone, quitte l'état Courroux éternel et récupère un montant de PV équivalent à <unbreak>#6[i]%</unbreak> de ses PV max.\nLorsque Blade Mortenax obtient Courroux éternel, un compte à rebours correspondant apparaît dans l'ordre d'action. Le compte à rebours a une VIT fixe de <unbreak>#5[i]</unbreak>. Au début du tour du compte à rebours, la zone se dissipe et Blade Mortenax quitte l'état Courroux éternel.\nSi les PV actuels de Blade Mortenax sont insuffisants, ils tombent à 1 lors de l'utilisation de cette capacité.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Larme de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "Rétribution karmique",
+				"NodeType": 2,
+				"NodeTypeText": "Talent",
+				"EffectRaw": "Lorsque la zone est active, après chaque attaque lancée par une cible alliée sur une cible ennemie, applique l'état Lien incandescent à la cible ennemie correspondante et accorde 1 point de charge à Blade Mortenax. Lorsque la charge atteint <unbreak>#1[i]</unbreak> points et que les PV actuels de Blade Mortenax sont supérieurs à 1, consomme <unbreak>#1[i]</unbreak> points de charge pour régénérer <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> points d'énergie et permet à Blade Mortenax d'utiliser sa compétence 1 fois supplémentaire. Cette utilisation supplémentaire de compétence est considérée comme une <u>ATQ de suivi</u>.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Larme de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "Tous mourront de ma lame",
+				"NodeType": 2,
+				"NodeTypeText": "Technique",
+				"EffectRaw": "Attaque immédiatement tous les ennemis dans une zone définie. Après l'entrée en combat, applique l'état Provocation à tous les ennemis pendant 1 tour et réduit les DGT subis par cette unité de <unbreak>#1[i]%</unbreak> pendant <unbreak>#2[i]</unbreak> tours.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "Corps par mille fois poli",
+				"NodeType": 3,
+				"EffectRaw": "Blade Mortenax peut cumuler jusqu'à <unbreak>#2[i]</unbreak> points d'énergie en excédent. Après avoir utilisé un ultime, puise l'énergie en excédent et régénère une quantité correspondante de points d'énergie. Si l'énergie est inférieure à <unbreak>#1[i]%</unbreak> au début du combat ou lorsque la zone se dissipe, elle remonte immédiatement à <unbreak>#1[i]%</unbreak>. Lorsque la jauge d'énergie est entièrement régénérée, dissipe tous les <u>malus</u> de cette unité.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Larme de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "Âme par mille fois reforgée",
+				"NodeType": 3,
+				"EffectRaw": "Lorsque la zone est active, augmente les chances d'être attaqué par les ennemis, réduit les DGT subis de <unbreak>#2[i]%</unbreak> et augmente les soins reçus de <unbreak>#3[i]%</unbreak>. Après avoir été attaqué, applique l'état Lien incandescent à la cible correspondante et Blade Mortenax obtient 1 point de charge.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "Cœur par mille fois endurci",
+				"NodeType": 3,
+				"EffectRaw": "Lorsque la zone est active, augmente les DGT infligés par les cibles alliées de <unbreak>#1[i]%</unbreak>. Si l'équipe compte d'autres personnages de la Nihilité en plus de Blade Mortenax, les DGT d'ultime infligés par les cibles alliées augmentent de <unbreak>#2[i]%</unbreak>. Sinon, les DGT infligés par Blade Mortenax augmentent de <unbreak>#3[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Voies de la destinée",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Mutisme de l'unicité",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "Augmentation des DGT de feu",
+				"NodeType": 1,
+				"EffectRaw": "Les DGT de feu augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "Chances de coup critique ↑",
+				"NodeType": 1,
+				"EffectRaw": "Les chances de coup critique augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Larme de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Cire fantaisiste",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "Augmentation des DGT de feu",
+				"NodeType": 1,
+				"EffectRaw": "Les DGT de feu augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "Augmentation de PV",
+				"NodeType": 1,
+				"EffectRaw": "Les PV max augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "Augmentation des DGT de feu",
+				"NodeType": 1,
+				"EffectRaw": "Les DGT de feu augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vin de Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Plume tissée de rêves",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "Chances de coup critique ↑",
+				"NodeType": 1,
+				"EffectRaw": "Les chances de coup critique augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "Augmentation des DGT de feu",
+				"NodeType": 1,
+				"EffectRaw": "Les DGT de feu augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "Augmentation de PV",
+				"NodeType": 1,
+				"EffectRaw": "Les PV max augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "Chances de coup critique ↑",
+				"NodeType": 1,
+				"EffectRaw": "Les chances de coup critique augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "Augmentation des DGT de feu",
+				"NodeType": 1,
+				"EffectRaw": "Les DGT de feu augmentent de <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédits",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Cœur de Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pinceau lucide",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
 	},
 	"8001": {
 		"Id": "8001",

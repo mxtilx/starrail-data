@@ -3238,6 +3238,47 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}",
+		"ElementType": "Fire",
+		"ElementTypeText": "炎",
+		"PathType": "Warlock",
+		"PathTypeText": "{RUBY_B#きょむ}虚無{RUBY_E#}",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "{RUBY_B#し}死{RUBY_E#}するまで、\\nこの{RUBY_B#み}身{RUBY_E#}は{RUBY_B#な}成{RUBY_E#}らず",
+				"Effect": "結界が展開されている間、敵全体の全属性耐性-20%。天賦による追加の戦闘スキルを発動した後、「無量忿怒」のカウントダウンの<u>行動順</u>を15%<u>遅延</u>させる。"
+			},
+			{
+				"Id": "150702",
+				"Name": "{RUBY_B#こころ}心{RUBY_E#}は{RUBY_B#しかい}死灰{RUBY_E#}の{RUBY_B#ごと}如{RUBY_E#}く、\\nされど{RUBY_B#ほのお}炎{RUBY_E#}は{RUBY_B#き}消{RUBY_E#}えず",
+				"Effect": "味方キャラが必殺技を発動してダメージを与える時、<u>追加攻撃</u>を行うと見なされる。味方の<u>追加攻撃</u>ダメージ+75%。千冶・刃のチャージ上限が7にダウンする。"
+			},
+			{
+				"Id": "150703",
+				"Name": "{RUBY_B#ひがん}彼岸{RUBY_E#}に{RUBY_B#わた}渡{RUBY_E#}り、\\n{RUBY_B#ふんぬ}忿怒{RUBY_E#}の{RUBY_B#ほんそう}本相{RUBY_E#}を{RUBY_B#あらわ}現{RUBY_E#}さん",
+				"Effect": "必殺技のLv.+2、最大Lv.15まで。天賦のLv.+2、最大Lv.15まで。"
+			},
+			{
+				"Id": "150704",
+				"Name": "{RUBY_B#いこん}遺恨{RUBY_E#}に{RUBY_B#きた}鍛{RUBY_E#}えられ、\\n{RUBY_B#けんこつおの}剣骨自{RUBY_E#}ずと{RUBY_B#かたち}形{RUBY_E#}を{RUBY_B#な}成{RUBY_E#}す",
+				"Effect": "「万淬の心」は味方の与ダメージをさらに50%アップさせる。"
+			},
+			{
+				"Id": "150705",
+				"Name": "{RUBY_B#おの}己{RUBY_E#}が{RUBY_B#く}苦{RUBY_E#}を{RUBY_B#た}断{RUBY_E#}ち、\\n{RUBY_B#し}死{RUBY_E#}より{RUBY_B#せい}生{RUBY_E#}を{RUBY_B#し}知{RUBY_E#}る",
+				"Effect": "戦闘スキルのLv.+2、最大Lv.15まで。通常攻撃のLv.+1、最大Lv.10まで。"
+			},
+			{
+				"Id": "150706",
+				"Name": "{RUBY_B#かみ}神{RUBY_E#}が{RUBY_B#うんらく}殞落{RUBY_E#}するならば、\\n{RUBY_B#じゅおん}寿瘟{RUBY_E#}を{RUBY_B#う}討{RUBY_E#}つと{RUBY_B#ちか}誓{RUBY_E#}わん",
+				"Effect": "結界が展開されている間、千冶・刃がダメージを受ける、またはHPを消費した時、チャージを1獲得する。この効果はいずれかの味方または敵のターンが終了した後に再度発動可能になる。「千冶は一を鋳り、万劫を燼滅す」のダメージ倍率が元の倍率の150%になる。"
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "開拓者 (物理)",

@@ -67668,9 +67668,9 @@
 	},
 	"15033": {
 		"Id": "15033",
-		"ContactId": "9",
+		"ContactId": "1505",
 		"ParticpatingContactIds": [
-			"9",
+			"1505",
 			"8001"
 		],
 		"Sections": [
@@ -67682,7 +67682,7 @@
 						"Id": "150330100",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Sóng gió Nguyện Lực đã lắng xuống",
 						"NextMessageId": "150330101"
 					},
@@ -67690,7 +67690,7 @@
 						"Id": "150330101",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Tôi không nhìn nhầm, {F#cô}{M#anh} lại hoàn thành lời hứa.",
 						"NextMessageId": "150330102"
 					},
@@ -67698,7 +67698,7 @@
 						"Id": "150330102",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Bây giờ, đến lượt tôi nhờ {F#cô}{M#anh} giúp rồi",
 						"NextMessageId": "150330103"
 					},
@@ -67706,7 +67706,7 @@
 						"Id": "150330103",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Chúng ta gặp nhau trên đường đến Học Viện Graphia nhé?",
 						"NextMessageId": "choice4"
 					},
@@ -68416,6 +68416,92 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"15043": {
+		"Id": "15043",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1504301",
+				"StartingMessageId": "150430100",
+				"Messages": {
+					"150430100": {
+						"Id": "150430100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Đây là Zhongshanshan, bartender trực ca",
+						"NextMessageId": "150430101"
+					},
+					"150430101": {
+						"Id": "150430101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Hai người từng gửi đồ cho \"Thỏ Đường Ray Tinh Cầu\" lúc trước không đến",
+						"NextMessageId": "150430102"
+					},
+					"150430102": {
+						"Id": "150430102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Cho một Đầu Ô",
+						"NextMessageId": "150430103"
+					},
+					"150430103": {
+						"Id": "150430103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Anh ấy nói \"Thỏ Đường Ray Tinh Cầu\" không phải \"phiên bản\" nào cũng có phần thưởng",
+						"NextMessageId": "150430104"
+					},
+					"150430104": {
+						"Id": "150430104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Hy vọng {F#cô}{M#anh} kiên nhẫn chờ đợi điều gì đó",
+						"NextMessageId": "150430105"
+					},
+					"150430105": {
+						"Id": "150430105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Không biết có làm {F#cô}{M#anh} mất hứng không (không cần trả lời đâu, tôi vẫn đang làm việc nha)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"15044": {
+		"Id": "15044",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504401",
+				"StartingMessageId": "150440100",
+				"Messages": {
+					"150440100": {
+						"Id": "150440100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Chúc mừng bạn, bạn đã thu thập đủ tất cả Bụi Linh Vô Danh do dự án \"Thỏ Đường Ray Tinh Cầu\" bố trí tại Suối Ẩn Xuyên Tranh! Bây giờ bạn có thể dùng cách nhẹ nhàng nhất để vượt ải mà \"Thỏ Đường Ray Tinh Cầu\" đã thiết lập ở khu vực này. Chúc bạn chơi game vui vẻ! (Đây là quảng cáo tự động từ hệ thống, vui lòng không trả lời~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -135955,6 +136041,1223 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"20235": {
+		"Id": "20235",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023500",
+				"StartingMessageId": "202350000",
+				"Messages": {
+					"202350000": {
+						"Id": "202350000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Sói Bạc đã cài đặt trình cắm trò chuyện \"Thần Khí Tìm Blade\" cho {F#cô}{M#anh}",
+						"NextMessageId": "choice1"
+					},
+					"202350001": {
+						"Id": "202350001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Thần Khí Tìm Blade ư? Đây là muốn tôi tự mình lao đầu vào lưỡi đao sao?",
+						"NextMessageId": "202350003"
+					},
+					"202350002": {
+						"Id": "202350002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Đây là muốn tôi đâm đầu vào lưỡi đao mới tìm được anh ta sao?",
+						"NextMessageId": "202350003"
+					},
+					"202350003": {
+						"Id": "202350003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã gửi tin nhắn, vỗ điện thoại của Blade và khiến nó rung không ngừng",
+						"NextMessageId": "202350004"
+					},
+					"202350004": {
+						"Id": "202350004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã vỗ điện thoại của Blade và khiến nó rung không ngừng",
+						"NextMessageId": "202350005"
+					},
+					"202350005": {
+						"Id": "202350005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã vỗ điện thoại của Blade và khiến nó rung không ngừng",
+						"NextMessageId": "202350006"
+					},
+					"202350006": {
+						"Id": "202350006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã vỗ điện thoại của Blade và khiến nó rung không ngừng",
+						"NextMessageId": "202350007"
+					},
+					"202350007": {
+						"Id": "202350007",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã vỗ điện thoại của Blade và khiến nó rung không ngừng",
+						"NextMessageId": "202350008"
+					},
+					"202350008": {
+						"Id": "202350008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Blade đã online",
+						"NextMessageId": "202350009"
+					},
+					"202350009": {
+						"Id": "202350009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đừng vỗ nữa, tê rồi.",
+						"NextMessageId": "202350010"
+					},
+					"202350010": {
+						"Id": "202350010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tê đùi rồi.",
+						"NextMessageId": "choice20"
+					},
+					"202350011": {
+						"Id": "202350011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Không phải tôi làm tê đâu, tất cả đều do Sói Bạc làm đấy.",
+						"NextMessageId": "202350013"
+					},
+					"202350012": {
+						"Id": "202350012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Xin lỗi nhé, vỗ tê cả chân anh rồi, nhưng Sói Bạc chịu mọi trách nhiệm",
+						"NextMessageId": "202350013"
+					},
+					"202350013": {
+						"Id": "202350013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tôi biết, cô ấy cũng cài thứ này cho Kafka và Firefly.",
+						"NextMessageId": "202350014"
+					},
+					"202350014": {
+						"Id": "202350014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Có chuyện gì không? Tôi đang làm nhiệm vụ.",
+						"NextMessageId": "choice27"
+					},
+					"202350015": {
+						"Id": "202350015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh đang bận việc gì thế? Nhiệm vụ bí mật à?",
+						"NextMessageId": "202350017"
+					},
+					"202350016": {
+						"Id": "202350016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Không có chuyện gì thì không thể tìm anh chơi sao? Lẽ nào... anh đang làm nhiệm vụ bí mật gì à?",
+						"NextMessageId": "202350017"
+					},
+					"202350017": {
+						"Id": "202350017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202350018"
+					},
+					"202350018": {
+						"Id": "202350018",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202350019"
+					},
+					"202350019": {
+						"Id": "202350019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đừng hỏi nữa, không nói được.",
+						"NextMessageId": "choice36"
+					},
+					"202350020": {
+						"Id": "202350020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Không cho tôi hỏi, thì lại càng tò mò hơn...",
+						"NextMessageId": "202350021"
+					},
+					"202350021": {
+						"Id": "202350021",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Là nhiệm vụ không cho anh nói chuyện sao?",
+						"NextMessageId": "202350026"
+					},
+					"202350022": {
+						"Id": "202350022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Lúc trước tôi thấy...",
+						"NextMessageId": "202350023"
+					},
+					"202350023": {
+						"Id": "202350023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Hình như tôi thấy anh nhảy múa ở đâu đó thì phải... Đó là nhiệm vụ của anh sao?",
+						"NextMessageId": "202350026"
+					},
+					"202350024": {
+						"Id": "202350024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Là nhiệm vụ của \"Đệ Nhất Sát Thủ Xianzhou\" sao?",
+						"NextMessageId": "202350025"
+					},
+					"202350025": {
+						"Id": "202350025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "...",
+						"NextMessageId": "202350026"
+					},
+					"202350026": {
+						"Id": "202350026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Không phải.",
+						"NextMessageId": "202350027"
+					},
+					"202350027": {
+						"Id": "202350027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Nguy hiểm hơn, chết người hơn.",
+						"NextMessageId": "202350028"
+					},
+					"202350028": {
+						"Id": "202350028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đang vội, tôi đăng xuất trước đây.",
+						"NextMessageId": "202350029"
+					},
+					"202350029": {
+						"Id": "202350029",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Blade đã offline"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Thần Khí Tìm Blade?",
+								"NextMessageId": "202350001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Muốn tôi tự đâm đầu vào lưỡi đao sao?",
+								"NextMessageId": "202350002"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Không phải tôi làm",
+								"NextMessageId": "202350011"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Sói Bạc chịu mọi trách nhiệm",
+								"NextMessageId": "202350012"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Anh đang bận việc gì thế?",
+								"NextMessageId": "202350015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Không thể tìm anh chơi sao?",
+								"NextMessageId": "202350016"
+							}
+						]
+					},
+					"choice36": {
+						"Id": "choice36",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Là nhiệm vụ không được nói chuyện sao?",
+								"NextMessageId": "202350020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Là nhiệm vụ yêu cầu anh nhảy múa sao?",
+								"NextMessageId": "202350022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Là nhiệm vụ của \"Đệ Nhất Sát Thủ\" sao?",
+								"NextMessageId": "202350024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20236": {
+		"Id": "20236",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023600",
+				"StartingMessageId": "202360000",
+				"Messages": {
+					"202360000": {
+						"Id": "202360000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đã cập nhật phiên bản trình cắm \"Thần Khí Tìm Blade\" cho {F#cô}{M#anh}",
+						"NextMessageId": "202360001"
+					},
+					"202360001": {
+						"Id": "202360001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bản cập nhật này: Giải quyết một số vấn đề đã biết, thêm tính năng giảm rung",
+						"NextMessageId": "choice2"
+					},
+					"202360002": {
+						"Id": "202360002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Cập nhật nhanh thật, còn nhanh hơn cả bản cập nhật game của tôi",
+						"NextMessageId": "202360004"
+					},
+					"202360003": {
+						"Id": "202360003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Giảm rung cỡ nào? Để tôi thử xem",
+						"NextMessageId": "202360004"
+					},
+					"202360004": {
+						"Id": "202360004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã gửi tin nhắn, vỗ điện thoại của Blade và khiến nó rung một cái",
+						"NextMessageId": "202360005"
+					},
+					"202360005": {
+						"Id": "202360005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã vỗ điện thoại của Blade và khiến nó rung một cái",
+						"NextMessageId": "202360006"
+					},
+					"202360006": {
+						"Id": "202360006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Blade đã online",
+						"NextMessageId": "202360007"
+					},
+					"202360007": {
+						"Id": "202360007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Suỵt. Đừng lên tiếng.",
+						"NextMessageId": "202360008"
+					},
+					"202360008": {
+						"Id": "202360008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tôi đang xem camera giám sát. Lần này có chuyện gì?",
+						"NextMessageId": "choice15"
+					},
+					"202360009": {
+						"Id": "202360009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Là khâu theo dõi khóa mục tiêu đầy căng thẳng và kịch tính sao?",
+						"NextMessageId": "202360013"
+					},
+					"202360010": {
+						"Id": "202360010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh lại đang làm nhiệm vụ à? Có phải là khâu theo dõi khóa mục tiêu đầy căng thẳng và kịch tính không?",
+						"NextMessageId": "202360013"
+					},
+					"202360011": {
+						"Id": "202360011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Yên tâm, tôi không gửi tin nhắn thoại đâu.",
+						"NextMessageId": "202360012"
+					},
+					"202360012": {
+						"Id": "202360012",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Anh đang xem camera giám sát gì thế? Là khâu khóa mục tiêu đầy căng thẳng và kịch tính sao?",
+						"NextMessageId": "202360013"
+					},
+					"202360013": {
+						"Id": "202360013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Không phải.",
+						"NextMessageId": "202360014"
+					},
+					"202360014": {
+						"Id": "202360014",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202360015"
+					},
+					"202360015": {
+						"Id": "202360015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202360016"
+					},
+					"202360016": {
+						"Id": "202360016",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202360017"
+					},
+					"202360017": {
+						"Id": "202360017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tôi đang xem camera giám sát của Bánh Kem Mèo.",
+						"NextMessageId": "choice34"
+					},
+					"202360018": {
+						"Id": "202360018",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh đang nhìn trộm Bánh Xốp Mè à?",
+						"NextMessageId": "202360019"
+					},
+					"202360019": {
+						"Id": "202360019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Ừm.",
+						"NextMessageId": "202360025"
+					},
+					"202360020": {
+						"Id": "202360020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh nhìn trộm Bánh Kem Mèo bao lâu rồi?",
+						"NextMessageId": "202360021"
+					},
+					"202360021": {
+						"Id": "202360021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Không xem thời gian.",
+						"NextMessageId": "202360025"
+					},
+					"202360022": {
+						"Id": "202360022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bánh Mèo à! Sao không nói sớm chứ",
+						"NextMessageId": "202360023"
+					},
+					"202360023": {
+						"Id": "202360023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Lần sau tôi sẽ dẫn anh đi thẳng vào trong",
+						"NextMessageId": "202360024"
+					},
+					"202360024": {
+						"Id": "202360024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Được, chắc chắn lần sau.",
+						"NextMessageId": "202360025"
+					},
+					"202360025": {
+						"Id": "202360025",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Thấy được gì trong camera giám sát rồi? Bánh Xốp Mè vẫn ổn chứ?",
+						"NextMessageId": "202360026"
+					},
+					"202360026": {
+						"Id": "202360026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Nó đã có hai người bạn mới.",
+						"NextMessageId": "202360027"
+					},
+					"202360027": {
+						"Id": "202360027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Một con màu trắng, có vẻ không chịu ngồi yên, khá nóng nảy, lại còn nói nhiều nữa.",
+						"NextMessageId": "202360028"
+					},
+					"202360028": {
+						"Id": "202360028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Một con màu đỏ, ít nói, nhưng cũng khá nóng tính.",
+						"NextMessageId": "202360029"
+					},
+					"202360029": {
+						"Id": "202360029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Cũng tốt, bình thường Bánh Xốp Mè luôn chỉ có một mình.",
+						"NextMessageId": "choice57"
+					},
+					"202360030": {
+						"Id": "202360030",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Anh có đặt tên cho chúng không?",
+						"NextMessageId": "202360031"
+					},
+					"202360031": {
+						"Id": "202360031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tôi đặt sao?",
+						"NextMessageId": "202360032"
+					},
+					"202360032": {
+						"Id": "202360032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Vậy thì gọi là Bánh Bông Tuyết, và Bánh Táo Đỏ đi.",
+						"NextMessageId": "202360037"
+					},
+					"202360033": {
+						"Id": "202360033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Chúng cũng hơi giống anh đấy, ý tôi là ở cái tính nóng nảy ấy",
+						"NextMessageId": "202360034"
+					},
+					"202360034": {
+						"Id": "202360034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Người bạn mới đã có tên chưa?",
+						"NextMessageId": "202360035"
+					},
+					"202360035": {
+						"Id": "202360035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Không biết, để tôi nghĩ một chút.",
+						"NextMessageId": "202360036"
+					},
+					"202360036": {
+						"Id": "202360036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Gọi là Bánh Táo Đỏ, và Bánh Bông Tuyết đi.",
+						"NextMessageId": "202360037"
+					},
+					"202360037": {
+						"Id": "202360037",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202360038"
+					},
+					"202360038": {
+						"Id": "202360038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đánh nhau rồi.",
+						"NextMessageId": "202360039"
+					},
+					"202360039": {
+						"Id": "202360039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Mối quan hệ có vẻ hơi tệ.",
+						"NextMessageId": "202360040"
+					},
+					"202360040": {
+						"Id": "202360040",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202360041"
+					},
+					"202360041": {
+						"Id": "202360041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đang liếm láp nhau rồi.",
+						"NextMessageId": "202360042"
+					},
+					"202360042": {
+						"Id": "202360042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Thì ra là hiểu lầm, mối quan hệ không tệ.",
+						"NextMessageId": "202360043"
+					},
+					"202360043": {
+						"Id": "202360043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202360044"
+					},
+					"202360044": {
+						"Id": "202360044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Biến mất rồi.",
+						"NextMessageId": "202360045"
+					},
+					"202360045": {
+						"Id": "202360045",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Có lẽ phát hiện tôi đang nhìn nên trốn đi rồi.",
+						"NextMessageId": "202360046"
+					},
+					"202360046": {
+						"Id": "202360046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tôi đi trích xuất camera giám sát khác.",
+						"NextMessageId": "202360047"
+					},
+					"202360047": {
+						"Id": "202360047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Nếu không có việc gấp, lần sau gặp.",
+						"NextMessageId": "202360048"
+					},
+					"202360048": {
+						"Id": "202360048",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Blade đã offline"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Cập nhật nhanh thật",
+								"NextMessageId": "202360002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Giảm rung cỡ nào? Để tôi thử xem",
+								"NextMessageId": "202360003"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Đang xem camera giám sát gì vậy?",
+								"NextMessageId": "202360009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Anh lại đang làm nhiệm vụ à?",
+								"NextMessageId": "202360010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Tin nhắn làm sao lên tiếng được.",
+								"NextMessageId": "202360011"
+							}
+						]
+					},
+					"choice34": {
+						"Id": "choice34",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Đang xem Bánh Xốp Mè à?",
+								"NextMessageId": "202360018"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Anh đã xem bao lâu rồi?",
+								"NextMessageId": "202360020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Cái này mà cũng phải nhìn trộm sao?",
+								"NextMessageId": "202360022"
+							}
+						]
+					},
+					"choice57": {
+						"Id": "choice57",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Anh có đặt tên cho chúng không?",
+								"NextMessageId": "202360030"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Chúng cũng hơi giống anh đấy",
+								"NextMessageId": "202360033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20237": {
+		"Id": "20237",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023700",
+				"StartingMessageId": "202370000",
+				"Messages": {
+					"202370000": {
+						"Id": "202370000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đã cập nhật phiên bản trình cắm \"Thần Khí Tìm Blade\" cho {F#cô}{M#anh}",
+						"NextMessageId": "202370001"
+					},
+					"202370001": {
+						"Id": "202370001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bản cập nhật này: Sửa các lỗi đã biết, cải thiện hiệu suất giảm rung, xem thêm nhiều video Bánh Kem Mèo",
+						"NextMessageId": "202370002"
+					},
+					"202370002": {
+						"Id": "202370002",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "{F#Cô}{M#Anh} đã vỗ điện thoại của Blade và khiến nó rung một cái",
+						"NextMessageId": "202370003"
+					},
+					"202370003": {
+						"Id": "202370003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Blade đã online",
+						"NextMessageId": "202370004"
+					},
+					"202370004": {
+						"Id": "202370004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đúng lúc lắm, tôi vừa nghĩ đến {F#cô}{M#anh}.",
+						"NextMessageId": "choice5"
+					},
+					"202370005": {
+						"Id": "202370005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Thật vinh hạnh quá! Kể chi tiết xem anh nghĩ gì nào?",
+						"NextMessageId": "202370008"
+					},
+					"202370006": {
+						"Id": "202370006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Cuối cùng cũng muốn ôn lại chuyện cũ với tôi rồi sao?",
+						"NextMessageId": "202370007"
+					},
+					"202370007": {
+						"Id": "202370007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Không phải.",
+						"NextMessageId": "202370008"
+					},
+					"202370008": {
+						"Id": "202370008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Đối phương đang nhập...",
+						"NextMessageId": "202370009"
+					},
+					"202370009": {
+						"Id": "202370009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Trước đây tôi có thấy vài món đồ tại Kho Quân Dược tuy bị hao mòn nghiêm trọng, nhưng chất liệu vẫn còn tốt... Chẳng thấy ai nhận cả, chắc là của {F#cô}{M#anh} để lại ngày xưa.",
+						"NextMessageId": "202370010"
+					},
+					"202370010": {
+						"Id": "202370010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Đúng lúc {F#cô}{M#anh} gửi tin nhắn, tiện thể hỏi luôn, {F#cô}{M#anh} muốn gì? Sau khi trở về, tôi có thể cải tạo và đúc lại.",
+						"NextMessageId": "202370011"
+					},
+					"202370011": {
+						"Id": "202370011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tôi đã để lại gì? Vũ khí sao?",
+						"NextMessageId": "202370012"
+					},
+					"202370012": {
+						"Id": "202370012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Vài món đồ đã biến dạng hoàn toàn, nhìn cấu tạo chắc đều là đồ gia dụng.",
+						"NextMessageId": "202370013"
+					},
+					"202370013": {
+						"Id": "202370013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tận dụng tối đa mọi vật, {F#cô}{M#anh} nói đi, tôi đều có thể chế tạo.",
+						"NextMessageId": "choice20"
+					},
+					"202370014": {
+						"Id": "202370014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Du hành giữa các vì sao tốn nhiều sức lực, cần một \"máy ru ngủ\" có thể lập tức ru tôi ngủ mọi lúc mọi nơi",
+						"NextMessageId": "202370015"
+					},
+					"202370015": {
+						"Id": "202370015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Trước đây ở Xianzhou, chúng tôi gọi nó là \"giường nôi\".",
+						"NextMessageId": "202370025"
+					},
+					"202370016": {
+						"Id": "202370016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Muốn thứ gì đó không quá phổ thông",
+						"NextMessageId": "202370017"
+					},
+					"202370017": {
+						"Id": "202370017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "{F#Cô}{M#Anh} ngủ có ngon không?",
+						"NextMessageId": "202370018"
+					},
+					"202370018": {
+						"Id": "202370018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Dạo trước tôi có đúc được mấy món đồ hỗ trợ giấc ngủ trên phi thuyền. Ý {F#cô}{M#anh} thế nào?",
+						"NextMessageId": "202370019"
+					},
+					"202370019": {
+						"Id": "202370019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Vậy tôi muốn nâng cấp! Tôi muốn một thứ có thể ru tôi ngủ ngay lập tức, mọi lúc mọi nơi",
+						"NextMessageId": "202370020"
+					},
+					"202370020": {
+						"Id": "202370020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Được.",
+						"NextMessageId": "202370025"
+					},
+					"202370021": {
+						"Id": "202370021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tôi không kén đâu, anh cứ thoải mái mà làm!",
+						"NextMessageId": "202370022"
+					},
+					"202370022": {
+						"Id": "202370022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Dạo trước tôi có đúc được mấy món đồ hỗ trợ giấc ngủ trên phi thuyền. Ý {F#cô}{M#anh} thế nào?",
+						"NextMessageId": "202370023"
+					},
+					"202370023": {
+						"Id": "202370023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Được đấy, tôi muốn một chiếc máy ru ngủ có thể ru tôi ngủ ngay lập tức, mọi lúc mọi nơi",
+						"NextMessageId": "202370024"
+					},
+					"202370024": {
+						"Id": "202370024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Được.",
+						"NextMessageId": "202370025"
+					},
+					"202370025": {
+						"Id": "202370025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Ru ngủ không khó, nhưng để đạt được hiệu quả cưỡng chế chìm vào giấc ngủ, cần phải thiết kế thêm.",
+						"NextMessageId": "choice31"
+					},
+					"202370026": {
+						"Id": "202370026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Có thể thêm chút tiếng ồn trắng, sẽ chìm vào giấc ngủ nhanh hơn",
+						"NextMessageId": "202370027"
+					},
+					"202370027": {
+						"Id": "202370027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Rất đơn giản. Thêm vài miếng sắt vào là có thể mô phỏng âm thanh khi đúc kiếm.",
+						"NextMessageId": "202370028"
+					},
+					"202370028": {
+						"Id": "202370028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Mặc dù trước đây âm thanh này từng khiến tôi tỉnh táo hơn. Nhưng đối với {F#cô}{M#anh}, có lẽ nó có tác dụng ru ngủ.",
+						"NextMessageId": "202370038"
+					},
+					"202370029": {
+						"Id": "202370029",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Có thể thêm vài tính năng hỗ trợ giấc ngủ bằng vật lý không? Mát-xa, vỗ gối hay đại loại vậy?",
+						"NextMessageId": "202370030"
+					},
+					"202370030": {
+						"Id": "202370030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "...Được.",
+						"NextMessageId": "202370031"
+					},
+					"202370031": {
+						"Id": "202370031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Trong phòng dụng cụ có mấy bộ phận khớp cánh tay robot bỏ đi, có thể mô phỏng những động tác này.",
+						"NextMessageId": "202370032"
+					},
+					"202370032": {
+						"Id": "202370032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Chỉ là tiếng ồn hơi lớn, cứ coi như là tiếng ồn trắng đi.",
+						"NextMessageId": "202370038"
+					},
+					"202370033": {
+						"Id": "202370033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Có thể thêm chút bài hát ru giọng người không?",
+						"NextMessageId": "202370034"
+					},
+					"202370034": {
+						"Id": "202370034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "...Được.",
+						"NextMessageId": "202370035"
+					},
+					"202370035": {
+						"Id": "202370035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Gắn thêm một cái máy phát nhạc bên trong, có thể ghi âm một bài vào đó.",
+						"NextMessageId": "202370036"
+					},
+					"202370036": {
+						"Id": "202370036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Nhưng tôi hát không hay, cùng lắm là đọc cho {F#cô}{M#anh} nghe vài... lời bài hát.",
+						"NextMessageId": "202370037"
+					},
+					"202370037": {
+						"Id": "202370037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Được được được, kiểu thiên đường thế này cũng được đấy...",
+						"NextMessageId": "202370038"
+					},
+					"202370038": {
+						"Id": "202370038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Sau khi cải tạo xong, có thể gửi đi hoặc tự đến lấy, tùy {F#cô}{M#anh}.",
+						"NextMessageId": "202370039"
+					},
+					"202370039": {
+						"Id": "202370039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tôi sẽ liên lạc sau.",
+						"NextMessageId": "202370040"
+					},
+					"202370040": {
+						"Id": "202370040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tạm biệt.",
+						"NextMessageId": "202370041"
+					},
+					"202370041": {
+						"Id": "202370041",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Bạn của bạn Blade đã offline"
+					},
+					"choice5": {
+						"Id": "choice5",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Thật vinh hạnh quá!",
+								"NextMessageId": "202370005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Muốn ôn lại chuyện cũ với tôi sao?",
+								"NextMessageId": "202370006"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Muốn loại đồ gia dụng thường ngày",
+								"NextMessageId": "202370014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Thứ gì đó không quá phổ thông",
+								"NextMessageId": "202370016"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Tôi không kén đâu, cứ thoải mái làm",
+								"NextMessageId": "202370021"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Có thể thêm chút tiếng ồn trắng",
+								"NextMessageId": "202370026"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Có thể thêm hỗ trợ giấc ngủ bằng vật lý",
+								"NextMessageId": "202370029"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Có thể thêm chút bài hát ru không?",
+								"NextMessageId": "202370033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20998": {
 		"Id": "20998",

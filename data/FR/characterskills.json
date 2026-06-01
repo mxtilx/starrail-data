@@ -40352,7 +40352,7 @@
 			"TagType": "MazeAttack",
 			"SkillTypeText": "Technique",
 			"MaxLevel": 1,
-			"EffectRaw": "Attaque immédiatement tous les ennemis dans une zone définie. Après être entré en combat, inflige des DGT physiques équivalents à <unbreak>#1[i]%</unbreak> de l'ATQ d'Evanescia à tous les ennemis et obtient <unbreak>#2[i]</unbreak> points de <u>Banger absolu</u>.",
+			"EffectRaw": "Attaque immédiatement tous les ennemis dans une zone définie. Après l'entrée en combat, inflige des DGT physiques équivalents à <unbreak>#1[i]%</unbreak> de l'ATQ d'Evanescia à tous les ennemis et obtient <unbreak>#2[i]</unbreak> points de <u>Banger absolu</u>.",
 			"AbridgedEffect": "Attaque immédiatement tous les ennemis dans une zone définie. Une fois le combat engagé, inflige des DGT physiques mineurs à tous les ennemis et obtient <u>Banger absolu</u>.",
 			"ElementType": "Physical",
 			"Levels": {
@@ -40443,7 +40443,7 @@
 			"TagTypeText": "Rebond",
 			"SkillTypeText": "ATQ normale",
 			"MaxLevel": 10,
-			"EffectRaw": "Inflige des DGT imaginaires équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de l'ATQ de Louve d'argent Niv. <unbreak>999</unbreak>, répartis équitablement en <unbreak>#3[i]</unbreak> rebonds frappant des ennemis uniques aléatoires. Après un certain nombre de rebonds, la série s'interrompt et <u>Butin légendaire</u> se déclenche 1 fois, pour un total de <unbreak>#5[i]</unbreak> déclenchements.\nSi tous les ennemis sur le champ de bataille subissent un coup fatal, cette capacité prend fin. Après l'apparition de cibles ennemies à attaquer, accorde 1 <u>tour supplémentaire</u> et utilise à nouveau cette capacité en fonction des rebonds et des déclenchements de <u>Butin légendaire</u> restants. La première fois que cet effet se déclenche par tour, prolonge la durée de tous les <u>bonus</u> de cette unité de 1 tour.\nAprès avoir infligé tous les DGT ci-dessus, déclenche une frappe finale qui inflige des DGT imaginaires équivalents à <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> de l'ATQ de Louve d'argent Niv. <unbreak>999</unbreak>, répartis équitablement entre tous les ennemis.\nL'ATQ normale renforcée ne permet pas de récupérer de points de compétence. Pour chaque tranche de <unbreak>#6[i]</unbreak> points de Score caché, augmente les DGT infligés lors de l'ATQ normale renforcée d'un montant équivalent à <unbreak>#8[i]%</unbreak> des DGT initiaux. Cet effet est cumulable jusqu'à <unbreak>#7[i]</unbreak> fois.",
+			"EffectRaw": "Inflige des DGT imaginaires équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de l'ATQ de Louve d'argent Niv. <unbreak>999</unbreak>, répartis équitablement en <unbreak>#3[i]</unbreak> rebonds frappant des ennemis uniques aléatoires. Après un certain nombre de rebonds, la série s'interrompt et <u>Butin légendaire</u> se déclenche 1 fois, pour un total de <unbreak>#5[i]</unbreak> déclenchements.\nSi tous les ennemis sur le champ de bataille subissent un coup fatal, cette capacité prend fin. Après l'apparition de cibles ennemies à attaquer, accorde 1 <u>tour supplémentaire</u> et utilise à nouveau cette capacité en fonction des rebonds et des déclenchements de <u>Butin légendaire</u> restants. La première fois que cet effet se déclenche par tour, prolonge la durée de tous les <u>bonus</u> de cette unité de 1 tour.\nAprès avoir infligé tous les DGT ci-dessus, déclenche une frappe finale qui inflige des DGT imaginaires équivalents à <color=#f29e38ff><unbreak>#4[i]%</unbreak></color> de l'ATQ de Louve d'argent Niv. <unbreak>999</unbreak>, répartis équitablement entre tous les ennemis.\nL'ATQ normale renforcée ne permet pas de récupérer de points de compétence. Pour chaque tranche de <unbreak>#6[i]</unbreak> points de Score caché, augmente les DGT infligés lors de l'ATQ normale renforcée d'un montant équivalent à <unbreak>#8[i]%</unbreak> des DGT initiaux, jusqu'à <unbreak>#7[i]</unbreak> cumuls de cet effet.",
 			"AbridgedEffect": "Inflige des DGT imaginaires avec un grand nombre de rebonds, au cours desquels Butin légendaire peut se déclencher <color=#f29e38ff><unbreak>#5[i]</unbreak></color> fois. <color=#f29e38ff>Si un coup fatal est infligé à tous les ennemis, l'effet restant est conservé</color> et continue de s'appliquer aux cibles ennemies qui entrent en combat. Enfin, inflige des DGT imaginaires répartis équitablement entre tous les ennemis.\nChaque fois que le Score caché atteint un certain nombre de points, les DGT de l'ATQ normale renforcée augmentent.",
 			"ElementType": "Imaginary",
 			"Levels": {
@@ -40683,8 +40683,8 @@
 			"TagTypeText": "Renforcement",
 			"SkillTypeText": "Ultime",
 			"MaxLevel": 15,
-			"EffectRaw": "Entre dans l'état MVP incontestée et <u>avance l'action</u> de <unbreak>100</unbreak> %.\nDans l'état MVP incontestée, déploie une zone. Lorsque Louve d'argent Niv. <unbreak>999</unbreak> bénéficie de <u>Banger absolu</u>, chaque fois qu'une cible alliée dans la zone consomme 1 point de compétence, il y a une chance de déclencher <u>Butin légendaire</u> 1 fois, ce qui inflige <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>comidégâts</u> imaginaires répartis équitablement entre tous les ennemis et déclenche aléatoirement 1 des effets suivants :\nGiga épée qui tue : inflige des <u>DGT réels</u> supplémentaires équivalents à <unbreak>#5[i]%</unbreak> du total des DGT infligés à la cible ennemie ayant le plus de PV.\nBomb'œuf : accorde <unbreak>#7[i]</unbreak> points de compétence aux alliés.\nBiz'haricot : accorde <unbreak>#6[i]</unbreak> points de <u>Panache</u>.\nLes <u>chances fixes</u> initiales de déclencher cet effet sont de <unbreak>100</unbreak> %. Après avoir déclenché cet effet avec succès, les <u>chances fixes</u> du déclenchement suivant sont réduites à <unbreak>#4[i]%</unbreak> des chances actuelles. Si la cible est éliminée avant le déclenchement, cet effet se déclenche sur une cible ennemie qui entre en combat.",
-			"AbridgedEffect": "Se transforme et <u>avance l'action</u> de <unbreak>100</unbreak> %.\nAu cours de la transformation, déploie une zone. Lorsque le personnage bénéficie de <u>Banger absolu</u>, à chaque fois qu'un allié <color=#f29e38ff>consomme 1 point de compétence</color>, il y a de <color=#f29e38ff>fortes chances de déclencher 1 Butin légendaire</color>, ce qui inflige des <u>comidégâts</u> imaginaires massifs répartis équitablement entre tous les ennemis et déclenche aléatoirement 1 des effets suivants :\nInflige des <color=#f29e38ff><u>DGT réels</u></color> à la cible ayant le plus de PV en fonction du total de DGT infligés.\nAccorde des <color=#f29e38ff>points de compétence</color>.\nAccorde du <color=#f29e38ff><u>Panache</u></color>.\nLes chances de déclenchement diminuent proportionnellement après chaque déclenchement.",
+			"EffectRaw": "Entre dans l'état MVP incontestée et <u>avance l'action</u> de <unbreak>100</unbreak> %.\nDans l'état MVP incontestée, déploie une zone. Lorsque Louve d'argent Niv. <unbreak>999</unbreak> bénéficie de <u>Banger absolu</u>, chaque fois qu'une cible alliée dans la zone consomme 1 point de compétence, il y a une chance de déclencher <u>Butin légendaire</u> 1 fois, ce qui inflige <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>comidégâts</u> imaginaires répartis équitablement entre tous les ennemis et déclenche aléatoirement l'un des effets suivants :\nGiga épée qui tue : inflige des <u>DGT réels</u> supplémentaires équivalents à <unbreak>#5[i]%</unbreak> du total des DGT infligés à la cible ennemie ayant le plus de PV.\nBomb'œuf : accorde <unbreak>#7[i]</unbreak> points de compétence aux alliés.\nBiz'haricot : obtient <unbreak>#6[i]</unbreak> points de <u>Panache</u>.\nLes <u>chances fixes</u> initiales de déclencher cet effet sont de <unbreak>100</unbreak> %. Après avoir déclenché cet effet avec succès, les <u>chances fixes</u> du déclenchement suivant sont réduites à <unbreak>#4[i]%</unbreak> des chances actuelles. Si la cible est éliminée avant le déclenchement, cet effet se déclenche sur une cible ennemie qui entre en combat.",
+			"AbridgedEffect": "Se transforme et <u>avance l'action</u> de <unbreak>100</unbreak> %.\nAu cours de la transformation, déploie une zone. Lorsque le personnage bénéficie de <u>Banger absolu</u>, à chaque fois qu'un allié <color=#f29e38ff>consomme 1 point de compétence</color>, il y a de <color=#f29e38ff>fortes chances de déclencher 1 Butin légendaire</color>, ce qui inflige des <u>comidégâts</u> imaginaires massifs répartis équitablement entre tous les ennemis et déclenche aléatoirement l'un des effets suivants :\nInflige des <color=#f29e38ff><u>DGT réels</u></color> à la cible ayant le plus de PV en fonction du total de DGT infligés.\nAccorde des <color=#f29e38ff>points de compétence</color>.\nAccorde du <color=#f29e38ff><u>Panache</u></color>.\nLes chances de déclenchement diminuent proportionnellement après chaque déclenchement.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -41071,8 +41071,8 @@
 			"TagTypeText": "Invocation",
 			"SkillTypeText": "Technique",
 			"MaxLevel": 1,
-			"EffectRaw": "Invoque le Biz'haricot. Utiliser cette capacité à nouveau le renvoie. L'utilisation de la technique ne consomme pas de points de technique. Lorsque les points de technique tombent à 0, l'invocation est renvoyée et la technique ne peut plus être utilisée.\nLe Biz'haricot applique Terrifié aux ennemis normaux dans une zone définie. Il attaque automatiquement les ennemis normaux et consomme 1 point de technique pour les éliminer instantanément sans entrer en combat.\nAprès être entré en combat alors que le Biz'haricot est invoqué, 1 <u>Butin légendaire</u> correspondant au Biz'haricot est déclenché au début de chaque vague. Les <u>comidégâts</u> infligés lors de cette instance comptabilisent une quantité fixe de <unbreak>#1[i]</unbreak> points de <u>Banger absolu</u>.",
-			"AbridgedEffect": "Invoque le Biz'haricot. Utiliser à nouveau la technique le renvoie. L'utilisation de cette technique <color=#f29e38ff>ne consomme pas de points de technique</color>.\nLe Biz'haricot attaque automatiquement les ennemis normaux, et consomme 1 point de technique pour <color=#f29e38ff>les éliminer instantanément sans entrer en combat</color>.\nAprès être entré en combat, déclenche le Butin légendaire correspondant au Biz'haricot au début de chaque vague.",
+			"EffectRaw": "Invoque le Biz'haricot. Utiliser cette capacité à nouveau le renvoie. L'utilisation de la technique ne consomme pas de points de technique. Lorsque les points de technique tombent à 0, l'invocation est renvoyée et la technique ne peut plus être utilisée.\nLe Biz'haricot applique Terrifié aux ennemis normaux dans une zone définie. Il attaque automatiquement les ennemis normaux et consomme 1 point de technique pour les éliminer instantanément sans entrer en combat.\nAprès l'entrée en combat alors que le Biz'haricot est invoqué, 1 <u>Butin légendaire</u> correspondant au Biz'haricot est déclenché au début de chaque vague. Les <u>comidégâts</u> infligés lors de cette instance comptabilisent une quantité fixe de <unbreak>#1[i]</unbreak> points de <u>Banger absolu</u>.",
+			"AbridgedEffect": "Invoque le Biz'haricot. Utiliser à nouveau la technique le renvoie. L'utilisation de cette technique <color=#f29e38ff>ne consomme pas de points de technique</color>.\nLe Biz'haricot attaque automatiquement les ennemis normaux, et consomme 1 point de technique pour <color=#f29e38ff>les éliminer instantanément sans entrer en combat</color>.\nAprès l'entrée en combat, déclenche le Butin légendaire correspondant au Biz'haricot au début de chaque vague.",
 			"Levels": {
 				"1": {
 					"EffectValues": [
@@ -41083,6 +41083,684 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1506/SkillIcon_1506_Maze.png"
 		},
 		"VersionAdded": "4.2"
+	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Blade Mortenax",
+		"BasicATK": {
+			"Id": "150701",
+			"Name": "Tuer d'une lame brisée",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Cible unique",
+			"SkillTypeText": "ATQ normale",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des PV max de Blade Mortenax à un ennemi désigné et lui applique l'état Provocation pour une durée de 1 tour.",
+			"AbridgedEffect": "Inflige des DGT de feu mineurs à un ennemi unique et lui applique l'état Provocation.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.25
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.35
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.45
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.55
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.65
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.7
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150708",
+			"Name": "Lame trempée, âme damnée",
+			"TriggerKey": "Skill11",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Cible unique",
+			"SkillTypeText": "ATQ normale",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des PV max de Blade Mortenax à un ennemi désigné et lui applique l'état Provocation pour une durée de 1 tour.",
+			"AbridgedEffect": "Inflige des DGT de feu à un ennemi unique et lui applique l'état Provocation.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal02.png"
+		},
+		"Skill": {
+			"Id": "150702",
+			"Name": "Pluie de lames funeste",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ZdE",
+			"SkillTypeText": "Compétence",
+			"MaxLevel": 15,
+			"EffectRaw": "Consomme un montant de PV équivalents à <unbreak>#4[i]%</unbreak> des PV max de Blade Mortenax, inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> des PV max de Blade Mortenax à tous les ennemis, et inflige <unbreak>#2[i]</unbreak> instances de DGT supplémentaires, chacune infligeant des DGT de feu équivalents à <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> des PV max de Blade Mortenax à un ennemi aléatoire.\nSi les PV actuels de Blade Mortenax ne sont pas suffisants, ils tombent à 1 lors de l'utilisation de la compétence.\nSi Blade Mortenax n'est pas dans l'état Courroux éternel ou si ses PV sont égaux ou inférieurs à 1, il ne peut pas utiliser sa compétence.\nUtiliser la compétence ne consomme pas de points de compétence.",
+			"AbridgedEffect": "Consomme des PV et inflige des DGT de feu à tous les ennemis. Inflige ensuite des DGT de feu mineurs à des ennemis uniques qui rebondissent <color=#f29e38ff><unbreak>#2[i]</unbreak></color> fois.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.36,
+						4,
+						0.12,
+						0.1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.396,
+						4,
+						0.132,
+						0.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.432,
+						4,
+						0.144,
+						0.1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.468,
+						4,
+						0.156,
+						0.1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.504,
+						4,
+						0.168,
+						0.1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.54,
+						4,
+						0.18,
+						0.1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.585,
+						4,
+						0.195,
+						0.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.63,
+						4,
+						0.21,
+						0.1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.675,
+						4,
+						0.225,
+						0.1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.72,
+						4,
+						0.24,
+						0.1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.756,
+						4,
+						0.252,
+						0.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.792,
+						4,
+						0.264,
+						0.1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.828,
+						4,
+						0.276,
+						0.1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.864,
+						4,
+						0.288,
+						0.1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.9,
+						4,
+						0.3,
+						0.1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "150709",
+			"Name": "Pluie de lames funeste",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ZdE",
+			"SkillTypeText": "Compétence",
+			"MaxLevel": 15,
+			"EffectRaw": "N/A",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150703",
+			"Name": "Fornax Ex Corpore",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Renforcement",
+			"SkillTypeText": "Ultime",
+			"MaxLevel": 15,
+			"EffectRaw": "Applique Lien incandescent à tous les ennemis. Les cibles ennemies dans l'état Lien incandescent voient leur DÉF réduite de <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> et leurs DGT subis augmentés de <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> pour une durée de <unbreak>#8[i]</unbreak> tours. Consomme ensuite un montant de PV équivalent à <unbreak>#1[i]%</unbreak> des PV max de Blade Mortenax pour déployer une zone. Lorsque la zone est active, Blade Mortenax entre dans l'état Courroux éternel.\nDans l'état Courroux éternel, augmente les chances de coup critique de <unbreak>#2[i]%</unbreak> et les DGT critiques de <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>, renforce l'ATQ normale, débloque la compétence et accorde le nouvel ultime Tenax Per Ignem. En cas de coup fatal, cette unité ne tombe pas <u>à terre</u>, mais dissipe la zone, quitte l'état Courroux éternel et récupère un montant de PV équivalent à <unbreak>#6[i]%</unbreak> de ses PV max.\nLorsque Blade Mortenax obtient Courroux éternel, un compte à rebours correspondant apparaît dans l'ordre d'action. Le compte à rebours a une VIT fixe de <unbreak>#5[i]</unbreak>. Au début du tour du compte à rebours, la zone se dissipe et Blade Mortenax quitte l'état Courroux éternel.\nSi les PV actuels de Blade Mortenax sont insuffisants, ils tombent à 1 lors de l'utilisation de cette capacité.",
+			"AbridgedEffect": "Applique Lien incandescent à tous les ennemis, ce qui <color=#f29e38ff>réduit la DÉF des cibles et augmente les DGT qu'elles subissent</color>. Consomme ensuite les PV de Blade Mortenax pour déployer une zone. Lorsque la zone est active, Blade Mortenax obtient Courroux éternel, augmente ses chances de coup critique, augmente ses DGT critiques, renforce son ATQ normale, débloque sa compétence et obtient un <color=#f29e38ff>nouvel ultime</color> jusqu'à la fin du compte à rebours.\nLa zone se dissipe lorsque Blade Mortenax subit un coup fatal.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.3,
+						0.3,
+						70,
+						0.5,
+						0.2,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.33,
+						0.32,
+						70,
+						0.5,
+						0.21,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.36,
+						0.34,
+						70,
+						0.5,
+						0.22,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.39,
+						0.36,
+						70,
+						0.5,
+						0.23,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.42,
+						0.38,
+						70,
+						0.5,
+						0.24,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.45,
+						0.4,
+						70,
+						0.5,
+						0.25,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.4875,
+						0.425,
+						70,
+						0.5,
+						0.2625,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.525,
+						0.45,
+						70,
+						0.5,
+						0.275,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.5625,
+						0.475,
+						70,
+						0.5,
+						0.2875,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.6,
+						0.5,
+						70,
+						0.5,
+						0.3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.63,
+						0.52,
+						70,
+						0.5,
+						0.31,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.66,
+						0.54,
+						70,
+						0.5,
+						0.32,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.69,
+						0.56,
+						70,
+						0.5,
+						0.33,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.72,
+						0.58,
+						70,
+						0.5,
+						0.34,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.75,
+						0.6,
+						70,
+						0.5,
+						0.35,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150704",
+			"Name": "Rétribution karmique",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Soutien",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Lorsque la zone est active, après chaque attaque lancée par une cible alliée sur une cible ennemie, applique l'état Lien incandescent à la cible ennemie correspondante et accorde 1 point de charge à Blade Mortenax. Lorsque la charge atteint <unbreak>#1[i]</unbreak> points et que les PV actuels de Blade Mortenax sont supérieurs à 1, consomme <unbreak>#1[i]</unbreak> points de charge pour régénérer <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> points d'énergie et permet à Blade Mortenax d'utiliser sa compétence 1 fois supplémentaire. Cette utilisation supplémentaire de compétence est considérée comme une <u>ATQ de suivi</u>.",
+			"AbridgedEffect": "Lorsque la zone est active, après l'attaque d'une cible alliée contre un ennemi, lui applique Lien incandescent et accorde de la charge à Blade Mortenax. Lorsque la charge atteint <color=#f29e38ff><unbreak>#1[i]</unbreak></color> points et que ses PV sont supérieurs à 1, consomme <color=#f29e38ff><unbreak>#1[i]</unbreak></color> points de charge pour régénérer de l'énergie et permet à Blade Mortenax d'utiliser sa <color=#f29e38ff>compétence</color> <color=#f29e38ff>1 fois supplémentaire</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						9,
+						15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						9,
+						16
+					]
+				},
+				"3": {
+					"EffectValues": [
+						9,
+						17
+					]
+				},
+				"4": {
+					"EffectValues": [
+						9,
+						18
+					]
+				},
+				"5": {
+					"EffectValues": [
+						9,
+						19
+					]
+				},
+				"6": {
+					"EffectValues": [
+						9,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						9,
+						21.25
+					]
+				},
+				"8": {
+					"EffectValues": [
+						9,
+						22.5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						9,
+						23.75
+					]
+				},
+				"10": {
+					"EffectValues": [
+						9,
+						25
+					]
+				},
+				"11": {
+					"EffectValues": [
+						9,
+						26
+					]
+				},
+				"12": {
+					"EffectValues": [
+						9,
+						27
+					]
+				},
+				"13": {
+					"EffectValues": [
+						9,
+						28
+					]
+				},
+				"14": {
+					"EffectValues": [
+						9,
+						29
+					]
+				},
+				"15": {
+					"EffectValues": [
+						9,
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png"
+		},
+		"Technique": {
+			"Id": "150707",
+			"Name": "Tous mourront de ma lame",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Attaque immédiatement tous les ennemis dans une zone définie. Après l'entrée en combat, applique l'état Provocation à tous les ennemis pendant 1 tour et réduit les DGT subis par cette unité de <unbreak>#1[i]%</unbreak> pendant <unbreak>#2[i]</unbreak> tours.",
+			"AbridgedEffect": "Attaque tous les ennemis à portée. Après l'entrée en combat, applique l'état Provocation à tous les ennemis et réduit les DGT subis par cette unité.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.9,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
+		},
+		"VersionAdded": "4.3"
 	},
 	"8001": {
 		"Id": "8001",

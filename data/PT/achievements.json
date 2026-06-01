@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "เธอล่องลอยผ่านไป ดั่งดอกไม้ในสายลม",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "ห้ามสืบสวน",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "เรื่องสืบสวนต้องเอาไว้หลังชนแก้ว\n<color=#8790abff>※ ไปยัง \"บาร์\" เพื่อตรวจสอบเบาะแสเกี่ยวกับการมีอยู่ของ Asat Pramad</color>",
+		"HiddenDescription": "เรื่องสืบสวนต้องเอาไว้หลังชนแก้ว",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "จุดประกายไฟแห่งวันวาน",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "ออกมาเล่นปาหิมะกันเถอะ!\n<color=#8790abff>※ อัญเชิญ Graphia ตามวิธีที่สัญญาไว้ในอดีต</color>",
+		"HiddenDescription": "ออกมาเล่นปาหิมะกันเถอะ!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "ช่วงเวลา ณ อีกฟากฝั่ง",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "กระโดดลงไป แล้วหลอมละลายอยู่ในหลุมยุบนั้น\n<color=#8790abff>※ เป็นสักขีพยานดู Blade ไปยังสุดขอบโลกในภาพวาด</color>",
+		"HiddenDescription": "กระโดดลงไป แล้วหลอมละลายอยู่ในหลุมยุบนั้น",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "ดาบคือสิ่งใด",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "สิ่งใดคือดาบ? สิ่งใดทำลายตัวเอง และฉีกศัตรูเป็นชิ้นๆ?\n<color=#8790abff>※ Blade ได้รับคำตอบของเขาแล้ว</color>",
+		"HiddenDescription": "สิ่งใดคือดาบ? สิ่งใดทำลายตัวเอง และฉีกศัตรูเป็นชิ้นๆ?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "เรื่องตลกที่กลับสู่ความว่างเปล่า",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "เส้นทาง<unbreak>สู่หมู่ดาว</unbreak>",
+		"Description": "การอธิบายมุกตลก เป็นการกระทำที่เลวร้ายที่สุด\n<color=#8790abff>※ได้เห็น Asat Pramad เผยโฉมหน้าที่แท้จริงของตน</color>",
+		"HiddenDescription": "การอธิบายมุกตลก เป็นการกระทำที่เลวร้ายที่สุด",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "เกมสวมบทบาทที่ถูกต้อง",
@@ -5558,6 +5613,76 @@
 		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
 		"Description": "บรรเลงโน้ตเพลงพิลึก เพื่อตามหาสิ่งมีชีวิตลึกลับที่ซ่อนอยู่ในเมืองห้วงสมุทร",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "ผู้โดดเดี่ยวเย็นชา",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "สำเร็จ \"ช่วงเวลา Jump\" ของธาราเร้นสู่ภาพ",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "หลบหลีกนักฆ่า",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ผ่านด่าน \"ช่วงเวลา Jump\" ของธาราเร้นสู่ภาพ โดยไม่ถูกวิญญาณเม่นสัมผัส",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "ยักษ์น้ำแข็งตนสุดท้าย",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "ทำให้ Casper หมดสติ",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "ดินแดนหิมะ",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "เจอหีบสมบัติที่ซ่อนอยู่ในปราสาท ขณะที่เล่นปาหิมะกับ Casper ใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "ยินดีต้อนรับสู่แพลตฟอร์ม Steam",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "แช่น้ำในบ่อน้ำพุร้อนกลางหิมะ ของธาราเร้นสู่ภาพ",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "บันทึกเรื่องเล่าอัศวินไร้หัว",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "เตะหัว \"ตุ๊กตาหิมะแสนธรรมดา\" ทั้งหมดในธาราเร้นสู่ภาพให้ปลิว",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "บทเพลงแดนสุขาวดี: เด็กหิมะ",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "ความลับแห่ง<unbreak>การสำรวจ</unbreak>",
+		"Description": "บรรเลงโน้ตเพลงพิลึก เพื่อตามหาสิ่งมีชีวิตลึกลับที่ซ่อนตัวอยู่ในธาราเร้นสู่ภาพ",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "สำเร็จการดวลสุดท้ายกับ Silver Wolf LV.999 ใน \"ทอยเต๋าอีกครั้ง! ศึกดวลพลัง!\"",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "ออกเดินทาง! Astral Bus!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "สอบถาม Nihilux เกี่ยวกับเรื่องราวของ \"จันทร์มายาเกมใหม่\"",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "ตำนานที่ไม่สิ้นสุด",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "สนับสนุนการพัฒนา \"กระต่ายรางดาว\" ต่อไป",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "ตั้งแต่นั้นมา มันก็มีความสุขตลอดไป...",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "คัดค้านการพัฒนา \"กระต่ายรางดาว\" ต่อไป",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "ผู้พิทักษ์โลกในภาพวาด",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "อัญเชิญ \"Graphia\" ออกมาในค่ายกลของธาราเร้นสู่ภาพ",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "ผู้มีพลังกายสูง",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "พบและพูดคุยกับ Umbralle ที่เขตธารพิราบและธาราเร้นสู่ภาพสองครั้ง",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "ความรักแห่งต้นแปะก๊วย",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "เป็นสักขีพยานในการร่ำลาของคนข้างถนนทั้งสองที่หน้าสถานีรถไฟ",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "อาวุธขั้นสุดยอดแห่งศึกตัดสิน",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ศึกดวลเครื่องบินพิกเซล\" อัปเกรดอุปกรณ์แกนกลาง 1 ชิ้น ให้ถึง 3 ดาวเป็นครั้งแรก",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "บทเพลงแห่งสายสปาร์ก",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ศึกดวลเครื่องบินพิกเซล\" ใช้ \"มายากลสนามแข่ง\" เอาชนะ Sparxie",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "คำสัญญาใต้ฟ้าสีคราม",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ปลดล็อกเครื่องบินพิกเซลทั้งหมดใน \"ศึกดวลเครื่องบินพิกเซล\"",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "ศึกจ้าวเวหา",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ชนะการแข่งขันขั้นสูงสุดใน \"ศึกดวลเครื่องบินพิกเซล\" โดยไม่สูญเสียชีวิต",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "เซ็ตตัวเทพของเต็ม",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "ใน \"ศึกดวลเครื่องบินพิกเซล\" มีอุปกรณ์ระดับ 3 ดาวพร้อมกัน #1 ชิ้นภายในหนึ่งรอบ",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "เหนือกว่าทุกรุ่น",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "ความทรงจำที่<unbreak>ไปพร้อมกัน</unbreak>",
+		"Description": "เอาชนะการแข่งขันโดยใช้เครื่องบินทุกลำใน \"ศึกดวลเครื่องบินพิกเซล\"",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "สิ้นเงาร้อยเล่มเกวียน (1)",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
-		"Description": "ในหนึ่งการต่อสู้ ใช้ผู้บุกเบิก Path \"ปิติสุข\" ปล่อยท่าไม้ตายใส่เพื่อนร่วมทีมที่ต่างกันทั้งหมด #1 คน คนละ 1 ครั้ง",
+		"Description": "ในหนึ่งการต่อสู้ ใช้ผู้บุกเบิก Path \"ปิติสุข\" ปล่อยท่าไม้ตายใส่ตัวละครที่ต่างกันทั้งหมด #1 คน คนละ 1 ครั้ง",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
 		"Description": "ในการต่อสู้กับ \"ชาวสวรรค์สู่สุข\" ใช้การโจมตีกำจัด \"ชาวสวรรค์สู่สุข: จบ\" จำนวน #1 ตัวขึ้นไปในครั้งเดียว",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "ไฟหลอมมิดับมอด นักรบขัดเกลาจนแกร่งกล้า",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "เมื่อชนะการต่อสู้ HP ที่เหลืออยู่ของผู้ฝ่าบ่วงมฤตยู Blade เป็น #1",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "เสียงดาบแลกระบี่ เสียงตีเหล็ก ล้วนแว่วเข้าหู",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในหนึ่งเทิร์น ใช้ตัวละครผู้ฝ่าบ่วงมฤตยู Blade ฝ่ายเราปล่อย \"A Rain of Blades Seals Fate\" #1 ครั้ง",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "กัปตันหน่วยดับเพลิงสุดระอุ",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในการต่อสู้กับ \"จิตรกรแรกเริ่ม Murata Graphia\" เลือก \"ดับเพลิง\" ในสถานการณ์ที่ HP ของตัวเองค่อนข้างต่ำ และมีอัตราความสำเร็จในการดับไฟต่ำที่สุด โดยที่สามารถลบล้างสถานะ \"ไฟแค้นเผาร่าง\" ได้สำเร็จ",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "นักทำความสะอาดกระเพาะ",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ในการต่อสู้กับ \"ทายาทผู้กลืนเทพ\" ใช้ตัวละครฝ่ายเราที่มี ATK สูงสุด ลบล้างสถานะ \"กลืนกิน\" และได้รับโบนัส ATK เพิ่มเติม",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "จงมลายนิรันดร์กาล",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "จิตวิญญาณที่<unbreak>เปี่ยมล้น</unbreak>",
+		"Description": "ใช้ตัวละครผู้ฝ่าบ่วงมฤตยู Blade ฝ่ายเราปล่อย \"Tenax Per Ignem\" #1 ครั้ง ในช่วงเวลาต่อเนื่องของ \"โทสะนับอนันต์\" หนึ่งครั้ง",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "ความสุข<unbreak>ชั่วขณะ</unbreak>",
 		"Description": "ถูกรถสปีดสเตอร์บนน้ำชนใน \"JUMP ทะลุมิติ!\"",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "ปั้นมนุษย์หิมะด้วยกันไหม",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "ความสุข<unbreak>ชั่วขณะ</unbreak>",
+		"Description": "ถูกแช่แข็งในก้อนน้ำแข็งใน \"JUMP ทะลุมิติ!\"",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

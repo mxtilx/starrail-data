@@ -67668,9 +67668,9 @@
 	},
 	"15033": {
 		"Id": "15033",
-		"ContactId": "9",
+		"ContactId": "1505",
 		"ParticpatingContactIds": [
-			"9",
+			"1505",
 			"8001"
 		],
 		"Sections": [
@@ -67682,7 +67682,7 @@
 						"Id": "150330100",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "願力の波は収まったか",
 						"NextMessageId": "150330101"
 					},
@@ -67690,7 +67690,7 @@
 						"Id": "150330101",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "妾の目に狂いはなかった、また約束を果たしてくれたようじゃな",
 						"NextMessageId": "150330102"
 					},
@@ -67698,7 +67698,7 @@
 						"Id": "150330102",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "では、次はこちらを手伝ってくれ",
 						"NextMessageId": "150330103"
 					},
@@ -67706,8 +67706,8 @@
 						"Id": "150330103",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
-						"Text": "グラフィエ学院への通学路で会えぬか？",
+						"SenderContactId": "1505",
+						"Text": "グラフィエ学院の通学路で会えぬか？",
 						"NextMessageId": "choice4"
 					},
 					"150330104": {
@@ -68416,6 +68416,92 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"15043": {
+		"Id": "15043",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1504301",
+				"StartingMessageId": "150430100",
+				"Messages": {
+					"150430100": {
+						"Id": "150430100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "当番バーテンダーの鐘珊です",
+						"NextMessageId": "150430101"
+					},
+					"150430101": {
+						"Id": "150430101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "前に「星軌の兎」に荷物を預けたあの2人は来ませんでした",
+						"NextMessageId": "150430102"
+					},
+					"150430102": {
+						"Id": "150430102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "傘頭なら1人現れましたが",
+						"NextMessageId": "150430103"
+					},
+					"150430103": {
+						"Id": "150430103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "彼は「星軌の兎」は各「バージョン」に景品があるわけではないから",
+						"NextMessageId": "150430104"
+					},
+					"150430104": {
+						"Id": "150430104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "気長に待っててほしいと言っていました",
+						"NextMessageId": "150430105"
+					},
+					"150430105": {
+						"Id": "150430105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "がっかりさせちゃったらごめんなさいね（まだ仕事中ですから、返信しなくても大丈夫ですよ）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"15044": {
+		"Id": "15044",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504401",
+				"StartingMessageId": "150440100",
+				"Messages": {
+					"150440100": {
+						"Id": "150440100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "おめでとうございます。あなたは「星軌の兎」プロジェクトが「渡画泉隠」に配置した「名もなき初」をすべて収集しました！これにより、このエリアに配置された「星軌の兎」のステージを、最も簡単な方法でクリアできるようになります。引き続きゲームをお楽しみください！（このメッセージは自動送信広告です。このメッセージに返信されても返答は致しかねます、予めご了承ください）"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -135955,6 +136041,1223 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"20235": {
+		"Id": "20235",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023500",
+				"StartingMessageId": "202350000",
+				"Messages": {
+					"202350000": {
+						"Id": "202350000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "銀狼がチャットプラグイン「刃探しレーダー」をインストールしました",
+						"NextMessageId": "choice1"
+					},
+					"202350001": {
+						"Id": "202350001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "刃探しレーダー？これって自分から「刃先」に飛び込めってこと{F#}{M#か}？",
+						"NextMessageId": "202350003"
+					},
+					"202350002": {
+						"Id": "202350002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "自分から「刃先」に飛び込まないと、彼を見つけられないってこと{F#}{M#か}？",
+						"NextMessageId": "202350003"
+					},
+					"202350003": {
+						"Id": "202350003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "メッセージを送信しました。刃のスマホが反応し、振動が止まりません",
+						"NextMessageId": "202350004"
+					},
+					"202350004": {
+						"Id": "202350004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃のスマホが反応し、振動が止まりません",
+						"NextMessageId": "202350005"
+					},
+					"202350005": {
+						"Id": "202350005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃のスマホが反応し、振動が止まりません",
+						"NextMessageId": "202350006"
+					},
+					"202350006": {
+						"Id": "202350006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃のスマホが反応し、振動が止まりません",
+						"NextMessageId": "202350007"
+					},
+					"202350007": {
+						"Id": "202350007",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃のスマホが反応し、振動が止まりません",
+						"NextMessageId": "202350008"
+					},
+					"202350008": {
+						"Id": "202350008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 刃 がオンラインになりました",
+						"NextMessageId": "202350009"
+					},
+					"202350009": {
+						"Id": "202350009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "よせ、煩わしい。",
+						"NextMessageId": "202350010"
+					},
+					"202350010": {
+						"Id": "202350010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "振動で太ももが痺れた。",
+						"NextMessageId": "choice20"
+					},
+					"202350011": {
+						"Id": "202350011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}のせいじゃない、全部銀狼の仕業だ{F#よ}{M#}！",
+						"NextMessageId": "202350013"
+					},
+					"202350012": {
+						"Id": "202350012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "太ももを痺れさせ{F#ちゃってごめん}{M#てごめん}。でも全部、銀狼のせいなんだ",
+						"NextMessageId": "202350013"
+					},
+					"202350013": {
+						"Id": "202350013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "知っている。彼女はカフカとホタルにもこれを入れた。",
+						"NextMessageId": "202350014"
+					},
+					"202350014": {
+						"Id": "202350014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "何か用か？俺は任務中なのだが。",
+						"NextMessageId": "choice27"
+					},
+					"202350015": {
+						"Id": "202350015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "何してる{F#の}{M#んだ}？秘密の任務{F#}{M#か}？",
+						"NextMessageId": "202350017"
+					},
+					"202350016": {
+						"Id": "202350016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "用が{F#なきゃ}{M#ないと}連絡しちゃダメ{F#なの}{M#か}？もしかして…秘密の任務中？",
+						"NextMessageId": "202350017"
+					},
+					"202350017": {
+						"Id": "202350017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202350018"
+					},
+					"202350018": {
+						"Id": "202350018",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202350019"
+					},
+					"202350019": {
+						"Id": "202350019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "聞くな、言えない。",
+						"NextMessageId": "choice36"
+					},
+					"202350020": {
+						"Id": "202350020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "聞{F#いちゃダメ}{M#くな}って言われると、余計気にな{F#っちゃう}{M#るな}…",
+						"NextMessageId": "202350021"
+					},
+					"202350021": {
+						"Id": "202350021",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "しゃべっ{F#ちゃ}{M#たら}いけない任務？",
+						"NextMessageId": "202350026"
+					},
+					"202350022": {
+						"Id": "202350022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "前に見たんだけど…",
+						"NextMessageId": "202350023"
+					},
+					"202350023": {
+						"Id": "202350023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "なんか踊ってなかった？…あれが{F#あんた}{M#お前}の任務だったりして？",
+						"NextMessageId": "202350026"
+					},
+					"202350024": {
+						"Id": "202350024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "「仙舟最強の殺し屋」の任務{F#}{M#か}？",
+						"NextMessageId": "202350025"
+					},
+					"202350025": {
+						"Id": "202350025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "……",
+						"NextMessageId": "202350026"
+					},
+					"202350026": {
+						"Id": "202350026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "違う。",
+						"NextMessageId": "202350027"
+					},
+					"202350027": {
+						"Id": "202350027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "もっと危険で、命がけの任務だ。",
+						"NextMessageId": "202350028"
+					},
+					"202350028": {
+						"Id": "202350028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "あまり時間に余裕がない、さらばだ。",
+						"NextMessageId": "202350029"
+					},
+					"202350029": {
+						"Id": "202350029",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 刃 がオフラインになりました"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "刃探しレーダー？",
+								"NextMessageId": "202350001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "自分から刃先に飛び込めってこと{F#}{M#か}？",
+								"NextMessageId": "202350002"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "{F#私}{M#俺}がやったんじゃない",
+								"NextMessageId": "202350011"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "銀狼のせい",
+								"NextMessageId": "202350012"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "なんの任務？",
+								"NextMessageId": "202350015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "連絡しちゃ{F#ダメなの}{M#ダメか}？",
+								"NextMessageId": "202350016"
+							}
+						]
+					},
+					"choice36": {
+						"Id": "choice36",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "しゃべっ{F#ちゃ}{M#たら}いけない任務{F#なの}{M#なのか}？",
+								"NextMessageId": "202350020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "踊る任務とか？",
+								"NextMessageId": "202350022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "「最強の殺し屋」の任務？",
+								"NextMessageId": "202350024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20236": {
+		"Id": "20236",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023600",
+				"StartingMessageId": "202360000",
+				"Messages": {
+					"202360000": {
+						"Id": "202360000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "プラグイン「刃探しレーダー」をアップデートしました",
+						"NextMessageId": "202360001"
+					},
+					"202360001": {
+						"Id": "202360001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "いくつかの既知の問題を修正し、振動軽減機能を追加しました",
+						"NextMessageId": "choice2"
+					},
+					"202360002": {
+						"Id": "202360002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "アプデが早い{F#ね}{M#な}。{F#私}{M#俺}がやってるゲームよりも早い",
+						"NextMessageId": "202360004"
+					},
+					"202360003": {
+						"Id": "202360003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "どれくらい振動が軽減されるのか、試してみよう",
+						"NextMessageId": "202360004"
+					},
+					"202360004": {
+						"Id": "202360004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "メッセージを送信しました。刃のスマホが反応し、1回振動しました",
+						"NextMessageId": "202360005"
+					},
+					"202360005": {
+						"Id": "202360005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃のスマホが反応し、1回振動しました",
+						"NextMessageId": "202360006"
+					},
+					"202360006": {
+						"Id": "202360006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 刃 がオンラインになりました",
+						"NextMessageId": "202360007"
+					},
+					"202360007": {
+						"Id": "202360007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "静かにしろ。",
+						"NextMessageId": "202360008"
+					},
+					"202360008": {
+						"Id": "202360008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "いま監視モニターを見ているところなんだが、今度はなんの用だ？",
+						"NextMessageId": "choice15"
+					},
+					"202360009": {
+						"Id": "202360009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "監視モニターで、ハラハラドキドキの索敵パート{F#ってやつ}{M#ってやつか}？",
+						"NextMessageId": "202360013"
+					},
+					"202360010": {
+						"Id": "202360010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "また任務？監視モニターで、ハラハラドキドキの索敵パート{F#ってやつ}{M#ってやつか}？",
+						"NextMessageId": "202360013"
+					},
+					"202360011": {
+						"Id": "202360011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "安心して、ボイスメッセージは送らないから",
+						"NextMessageId": "202360012"
+					},
+					"202360012": {
+						"Id": "202360012",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "なんの監視モニターを見てる{F#の}{M#んだ}？監視モニターで、ハラハラドキドキの索敵パート{F#ってやつ}{M#ってやつか}？",
+						"NextMessageId": "202360013"
+					},
+					"202360013": {
+						"Id": "202360013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "違う。",
+						"NextMessageId": "202360014"
+					},
+					"202360014": {
+						"Id": "202360014",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202360015"
+					},
+					"202360015": {
+						"Id": "202360015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202360016"
+					},
+					"202360016": {
+						"Id": "202360016",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202360017"
+					},
+					"202360017": {
+						"Id": "202360017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "にゃんこケーキの監視モニターを見ている。",
+						"NextMessageId": "choice34"
+					},
+					"202360018": {
+						"Id": "202360018",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "胡麻パイを覗き見してるの{F#}{M#か}？",
+						"NextMessageId": "202360019"
+					},
+					"202360019": {
+						"Id": "202360019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "ああ。",
+						"NextMessageId": "202360025"
+					},
+					"202360020": {
+						"Id": "202360020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "どれくらい、にゃんこケーキを覗き見して{F#るの}{M#るんだ}？",
+						"NextMessageId": "202360021"
+					},
+					"202360021": {
+						"Id": "202360021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "時間は確認していない。",
+						"NextMessageId": "202360025"
+					},
+					"202360022": {
+						"Id": "202360022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "にゃんこケーキを？早く言って{F#}{M#くれ}よ！",
+						"NextMessageId": "202360023"
+					},
+					"202360023": {
+						"Id": "202360023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "今度、直接中で見せてあげる{F#よ}{M#}",
+						"NextMessageId": "202360024"
+					},
+					"202360024": {
+						"Id": "202360024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "ああ、いつかな。",
+						"NextMessageId": "202360025"
+					},
+					"202360025": {
+						"Id": "202360025",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "監視モニターには何が映ってた？胡麻パイはどんな感じ？",
+						"NextMessageId": "202360026"
+					},
+					"202360026": {
+						"Id": "202360026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "あいつに新しい友人が2匹できた。",
+						"NextMessageId": "202360027"
+					},
+					"202360027": {
+						"Id": "202360027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "1匹は落ち着きのない白いやつ。負けず嫌いで、よく喋る。",
+						"NextMessageId": "202360028"
+					},
+					"202360028": {
+						"Id": "202360028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "もう1匹は赤いやつだ。口数は少ないが、なかなか気難しいところがある。",
+						"NextMessageId": "202360029"
+					},
+					"202360029": {
+						"Id": "202360029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "悪くない。胡麻パイはいつもひとりぼっちだったからな。",
+						"NextMessageId": "choice57"
+					},
+					"202360030": {
+						"Id": "202360030",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "名前はつけてあげた{F#}{M#か}？",
+						"NextMessageId": "202360031"
+					},
+					"202360031": {
+						"Id": "202360031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "俺がつけるのか？",
+						"NextMessageId": "202360032"
+					},
+					"202360032": {
+						"Id": "202360032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "ならば、雪花パイと、なつめケーキにしよう。",
+						"NextMessageId": "202360037"
+					},
+					"202360033": {
+						"Id": "202360033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "その子たち、少し{F#あんた}{M#お前}に似てる{F#ね}{M#な}。気が強いところとか",
+						"NextMessageId": "202360034"
+					},
+					"202360034": {
+						"Id": "202360034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "新しい友達に名前はあるの{F#}{M#か}？",
+						"NextMessageId": "202360035"
+					},
+					"202360035": {
+						"Id": "202360035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "さあな。せっかくだ、名を考えるとしよう。",
+						"NextMessageId": "202360036"
+					},
+					"202360036": {
+						"Id": "202360036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "「なつめケーキ」と「雪花パイ」、これがよさそうだ。",
+						"NextMessageId": "202360037"
+					},
+					"202360037": {
+						"Id": "202360037",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202360038"
+					},
+					"202360038": {
+						"Id": "202360038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "喧嘩が始まった。",
+						"NextMessageId": "202360039"
+					},
+					"202360039": {
+						"Id": "202360039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "少し仲が悪いようだ。",
+						"NextMessageId": "202360040"
+					},
+					"202360040": {
+						"Id": "202360040",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202360041"
+					},
+					"202360041": {
+						"Id": "202360041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "毛繕いし合っているな。",
+						"NextMessageId": "202360042"
+					},
+					"202360042": {
+						"Id": "202360042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "誤解だったか。仲がいいようだ。",
+						"NextMessageId": "202360043"
+					},
+					"202360043": {
+						"Id": "202360043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202360044"
+					},
+					"202360044": {
+						"Id": "202360044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "いなくなった。",
+						"NextMessageId": "202360045"
+					},
+					"202360045": {
+						"Id": "202360045",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "見られているのに気づき、隠れてしまったようだ。",
+						"NextMessageId": "202360046"
+					},
+					"202360046": {
+						"Id": "202360046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "別の監視モニターを調べてくる。",
+						"NextMessageId": "202360047"
+					},
+					"202360047": {
+						"Id": "202360047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "急ぎの用がないなら、失礼する。",
+						"NextMessageId": "202360048"
+					},
+					"202360048": {
+						"Id": "202360048",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 刃 がオフラインになりました"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "アプデが早い",
+								"NextMessageId": "202360002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "どれくらい振動が軽減されるのか、試してみよう",
+								"NextMessageId": "202360003"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "なんの監視モニターを見てる{F#の}{M#んだ}？",
+								"NextMessageId": "202360009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "また任務？",
+								"NextMessageId": "202360010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "ボイスメッセージは送らないから",
+								"NextMessageId": "202360011"
+							}
+						]
+					},
+					"choice34": {
+						"Id": "choice34",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "胡麻パイを見てるの{F#}{M#か}？",
+								"NextMessageId": "202360018"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "どれくらい見てる{F#の}{M#んだ}？",
+								"NextMessageId": "202360020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "こっそり見る必要ある{F#}{M#か}？",
+								"NextMessageId": "202360022"
+							}
+						]
+					},
+					"choice57": {
+						"Id": "choice57",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "名前はつけた？",
+								"NextMessageId": "202360030"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "その子たち、少し{F#あんた}{M#お前}に似てる{F#ね}{M#な}",
+								"NextMessageId": "202360033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20237": {
+		"Id": "20237",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023700",
+				"StartingMessageId": "202370000",
+				"Messages": {
+					"202370000": {
+						"Id": "202370000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "プラグイン「刃探しレーダー」をアップデートしました",
+						"NextMessageId": "202370001"
+					},
+					"202370001": {
+						"Id": "202370001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "既知の問題の修正、振動軽減機能の向上、および「にゃんこケーキ」動画の視聴時間の増加",
+						"NextMessageId": "202370002"
+					},
+					"202370002": {
+						"Id": "202370002",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃のスマホが反応し、1回振動しました",
+						"NextMessageId": "202370003"
+					},
+					"202370003": {
+						"Id": "202370003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 刃 がオンラインになりました",
+						"NextMessageId": "202370004"
+					},
+					"202370004": {
+						"Id": "202370004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "ちょうどいい、お前のことを考えていたところだ。",
+						"NextMessageId": "choice5"
+					},
+					"202370005": {
+						"Id": "202370005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "なんだか照れる{F#ね}{M#な}。で、なんで{F#私}{M#俺}のことを？",
+						"NextMessageId": "202370008"
+					},
+					"202370006": {
+						"Id": "202370006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "やっと昔話してくれる気になったの{F#}{M#か}？",
+						"NextMessageId": "202370007"
+					},
+					"202370007": {
+						"Id": "202370007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "違う。",
+						"NextMessageId": "202370008"
+					},
+					"202370008": {
+						"Id": "202370008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "刃が入力中…",
+						"NextMessageId": "202370009"
+					},
+					"202370009": {
+						"Id": "202370009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "この間、武器庫で酷く劣化してはいるものの、材質の悪くない品をいくつか見つけた…持ち主がいないようだから、おそらくお前がかつて残したものだろう。",
+						"NextMessageId": "202370010"
+					},
+					"202370010": {
+						"Id": "202370010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "ちょうどいいから聞いておこう。何か欲しいものはあるか？戻ったら、それを使って改造なり、鍛造なりしてやろう。",
+						"NextMessageId": "202370011"
+					},
+					"202370011": {
+						"Id": "202370011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#私}{M#俺}が残したもの？それって武器？",
+						"NextMessageId": "202370012"
+					},
+					"202370012": {
+						"Id": "202370012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "原型をとどめていない品物がいくつかあるが、構造から見て、どれも日用品のようだ。",
+						"NextMessageId": "202370013"
+					},
+					"202370013": {
+						"Id": "202370013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "無駄を惜しみ、活かす。言ってみろ、俺はなんでも造れる。",
+						"NextMessageId": "choice20"
+					},
+					"202370014": {
+						"Id": "202370014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "星間旅行は体力勝負だから、いつでもどこでもすぐに寝かしつけてくれる「安眠導入機」が必要{F#かな}{M#だ}",
+						"NextMessageId": "202370015"
+					},
+					"202370015": {
+						"Id": "202370015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "仙舟では昔、それを「揺りかご」と呼んでいた。",
+						"NextMessageId": "202370025"
+					},
+					"202370016": {
+						"Id": "202370016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "日々の疲れを忘れさせてくれるものが欲しい{F#な}{M#}",
+						"NextMessageId": "202370017"
+					},
+					"202370017": {
+						"Id": "202370017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "そうか。よく眠れているか？",
+						"NextMessageId": "202370018"
+					},
+					"202370018": {
+						"Id": "202370018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "先日、船で睡眠に役立つ道具をいくつか作った。どうだ？",
+						"NextMessageId": "202370019"
+					},
+					"202370019": {
+						"Id": "202370019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "じゃあ、いつでもどこでも、すぐに寝かしつけてくれる便利グッズをお願い！",
+						"NextMessageId": "202370020"
+					},
+					"202370020": {
+						"Id": "202370020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "いいだろう。",
+						"NextMessageId": "202370025"
+					},
+					"202370021": {
+						"Id": "202370021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "なんでもいいよ、好きに作って{F#}{M#くれ}！",
+						"NextMessageId": "202370022"
+					},
+					"202370022": {
+						"Id": "202370022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "この前、船で睡眠に役立つ道具をいくつか作った。どうだ？",
+						"NextMessageId": "202370023"
+					},
+					"202370023": {
+						"Id": "202370023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "やったー！いつでもどこでも、すぐに寝かしつけてくれる「安眠導入機」が欲しい！",
+						"NextMessageId": "202370024"
+					},
+					"202370024": {
+						"Id": "202370024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "いいだろう。",
+						"NextMessageId": "202370025"
+					},
+					"202370025": {
+						"Id": "202370025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "睡眠を誘導するのは難しくないが、強制的な入眠効果を得るとなると、追加で調整が必要だ。",
+						"NextMessageId": "choice31"
+					},
+					"202370026": {
+						"Id": "202370026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "ホワイトノイズを少し入れると、早く眠れるんだって{F#}{M#さ}",
+						"NextMessageId": "202370027"
+					},
+					"202370027": {
+						"Id": "202370027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "簡単だ。鉄片をいくつか加えれば、剣を打つ時の音を再現できる。",
+						"NextMessageId": "202370028"
+					},
+					"202370028": {
+						"Id": "202370028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "俺の場合、昔はこの音を聞くと目が冴えたものだが、お前にはいい子守歌になるかもしれん。",
+						"NextMessageId": "202370038"
+					},
+					"202370029": {
+						"Id": "202370029",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "物理的な安眠サポートを追加できない{F#かな}{M#か}？マッサージとか、枕をポンポン叩いてくれるとか",
+						"NextMessageId": "202370030"
+					},
+					"202370030": {
+						"Id": "202370030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "…わかった。",
+						"NextMessageId": "202370031"
+					},
+					"202370031": {
+						"Id": "202370031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "工具室に廃棄されたアームの関節パーツがある。それで実現できるだろう。",
+						"NextMessageId": "202370032"
+					},
+					"202370032": {
+						"Id": "202370032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "少し音は大きくなるが、ホワイトノイズだと思えばいい。",
+						"NextMessageId": "202370038"
+					},
+					"202370033": {
+						"Id": "202370033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "子守唄が流れるようにはできない？",
+						"NextMessageId": "202370034"
+					},
+					"202370034": {
+						"Id": "202370034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "…わかった。",
+						"NextMessageId": "202370035"
+					},
+					"202370035": {
+						"Id": "202370035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "蓄音機を内蔵すれば、1曲だけ録音ができる。",
+						"NextMessageId": "202370036"
+					},
+					"202370036": {
+						"Id": "202370036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "だが、あいにく俺は歌が得意じゃない。せいぜい…いくつか歌詞を読んでやるのが関の山だ。",
+						"NextMessageId": "202370037"
+					},
+					"202370037": {
+						"Id": "202370037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "{F#いいね}{M#いいな}！それもありかも…",
+						"NextMessageId": "202370038"
+					},
+					"202370038": {
+						"Id": "202370038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "完成した後、送るか自分で取りに来るか、好きに選べ。",
+						"NextMessageId": "202370039"
+					},
+					"202370039": {
+						"Id": "202370039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "あとで連絡する。",
+						"NextMessageId": "202370040"
+					},
+					"202370040": {
+						"Id": "202370040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "じゃあな。",
+						"NextMessageId": "202370041"
+					},
+					"202370041": {
+						"Id": "202370041",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "フレンド 刃 がオフラインになりました"
+					},
+					"choice5": {
+						"Id": "choice5",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "なんだか照れる{F#ね}{M#な}",
+								"NextMessageId": "202370005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "昔話でもしてくれるの{F#}{M#か}？",
+								"NextMessageId": "202370006"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "普段使いできるものが欲しい",
+								"NextMessageId": "202370014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "日々の疲れを忘れさせてくれるものが欲しい",
+								"NextMessageId": "202370016"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "なんでもいいよ、好きに作って{F#}{M#くれ}",
+								"NextMessageId": "202370021"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "ホワイトノイズを少し入れてみるといいかも",
+								"NextMessageId": "202370026"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "物理的な安眠サポートがあるといいかも",
+								"NextMessageId": "202370029"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "子守唄が流れたらいいかも",
+								"NextMessageId": "202370033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20998": {
 		"Id": "20998",

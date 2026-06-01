@@ -127933,6 +127933,1461 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "ผู้ฝ่าบ่วงมฤตยู Blade",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "A Broken Blade Still Slays",
+				"NodeType": 2,
+				"NodeTypeText": "โจมตีปกติ",
+				"EffectRaw": "สร้าง DMG ไฟ <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ของ HP สูงสุด ของผู้ฝ่าบ่วงมฤตยู Blade แก่ศัตรูที่กำหนดหนึ่งตัว และทำให้เป้าหมายติดสถานะยั่วยุ เป็นเวลา 1 เทิร์น",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Tears of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "A Rain of Blades Seals Fate",
+				"NodeType": 2,
+				"NodeTypeText": "สกิลต่อสู้",
+				"EffectRaw": "ใช้ HP <unbreak>#4[i]%</unbreak> ของ HP สูงสุด ของผู้ฝ่าบ่วงมฤตยู Blade เพื่อสร้าง DMG ไฟ <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> ของ HP สูงสุด ของผู้ฝ่าบ่วงมฤตยู Blade แก่ศัตรูทั้งหมด และสร้าง DMG เพิ่มอีก <unbreak>#2[i]</unbreak> ครั้ง โดย DMG แต่ละครั้ง จะสร้าง DMG ไฟ <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> ของ HP สูงสุดของผู้ฝ่าบ่วงมฤตยู Blade แก่ศัตรูหนึ่งตัวแบบสุ่มเป้าหมาย\nหาก HP ปัจจุบันไม่เพียงพอ เมื่อปล่อยสกิลต่อสู้แล้ว ผู้ฝ่าบ่วงมฤตยู Blade จะมี HP ปัจจุบันลดลงเหลือ 1 หน่วย\nเมื่อไม่ได้อยู่ในสถานะ \"โทสะนับอนันต์\" หรือ HP ปัจจุบันน้อยกว่าหรือเท่ากับ 1 ผู้ฝ่าบ่วงมฤตยู Blade จะไม่สามารถปล่อยสกิลต่อสู้ได้\nทั้งนี้ เมื่อปล่อยสกิลต่อสู้จะไม่เสียแต้มสกิลต่อสู้",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Tears of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "Fornax Ex Corpore",
+				"NodeType": 2,
+				"NodeTypeText": "ท่าไม้ตาย",
+				"EffectRaw": "ทำให้ศัตรูทั้งหมดติด \"บ่วงเพลิงมรณะ\" ศัตรูเป้าหมายที่ติดสถานะ \"บ่วงเพลิงมรณะ\" จะมี DEF ลดลง <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> และได้รับ DMG เพิ่มขึ้น <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> เป็นเวลา <unbreak>#8[i]</unbreak> เทิร์น จากนั้นจะใช้ HP เท่ากับ <unbreak>#1[i]%</unbreak> ของ HP สูงสุดของผู้ฝ่าบ่วงมฤตยู Blade มาเปิดเขตแดน ในช่วงที่เขตแดนคงอยู่ ผู้ฝ่าบ่วงมฤตยู Blade จะได้รับสถานะ \"โทสะนับอนันต์\"\nภายใต้สถานะ \"โทสะนับอนันต์\" อัตราคริติคอลจะเพิ่มขึ้น <unbreak>#2[i]%</unbreak> และ DMG คริติคอลจะเพิ่มขึ้น <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> รวมถึงเสริมพลังการโจมตีปกติ พร้อมทั้งปลดสกิลต่อสู้ และได้รับท่าไม้ตายใหม่ \"Tenax Per Ignem\" หากถูกโจมตีถึงตาย จะไม่<u>หมดสติ</u> แต่จะยกเลิกเขตแดน แล้วออกจากสถานะ \"โทสะนับอนันต์\" พร้อมกับฟื้นฟู HP เท่ากับ <unbreak>#6[i]%</unbreak> ของ HP สูงสุดของตัวเอง\nตอนได้รับสถานะ \"โทสะนับอนันต์\" บนแถบแอ็กชัน จะปรากฏการนับถอยหลังที่สอดคล้อง โดยการนับถอยหลัง จะมีความเร็วคงที่ <unbreak>#5[i]</unbreak> เมื่อถึงเทิร์นการนับถอยหลัง เขตแดนจะสิ้นสุดและออกจากสถานะ \"โทสะนับอนันต์\"\nหาก HP ปัจจุบันไม่เพียงพอ เมื่อปล่อยสกิลนี้ HP ปัจจุบันของผู้ฝ่าบ่วงมฤตยู Blade จะลดลงเหลือ 1 หน่วย",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Tears of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "All Karma Comes Due",
+				"NodeType": 2,
+				"NodeTypeText": "พรสวรรค์",
+				"EffectRaw": "ในช่วงที่เขตแดนคงอยู่ ทุกครั้งหลังเป้าหมายฝ่ายเราโจมตีศัตรู จะทำให้ศัตรูเป้าหมายดังกล่าวติดสถานะ \"บ่วงเพลิงมรณะ\" และทำให้ผู้ฝ่าบ่วงมฤตยู Blade ชาร์จพลัง 1 หน่วย เมื่อชาร์จพลังถึง <unbreak>#1[i]</unbreak> หน่วยและ HP ปัจจุบันมากกว่า 1 หน่วย จะใช้การชาร์จพลัง <unbreak>#1[i]</unbreak> หน่วย เพื่อฟื้นฟูพลังงาน <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> หน่วย พร้อมทั้งทำให้ผู้ฝ่าบ่วงมฤตยู Blade ปล่อยสกิลต่อสู้เพิ่มเติม 1 ครั้ง โดยสกิลต่อสู้ครั้งนี้ จะถือว่าเป็นการ <u>โจมตีต่อเนื่อง</u>",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Tears of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "Blade's Reach Spares None",
+				"NodeType": 2,
+				"NodeTypeText": "เทคนิค",
+				"EffectRaw": "โจมตีศัตรูทั้งหมดในขอบเขตที่กำหนดทันที หลังเข้าสู่การต่อสู้ จะทำให้ศัตรูทั้งหมดติดสถานะยั่วยุ เป็นเวลา 1 เทิร์น อีกทั้งจะทำให้ตัวเองได้รับ DMG ลดลง <unbreak>#1[i]%</unbreak> เป็นเวลา <unbreak>#2[i]</unbreak> เทิร์น",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "Bone, Hardened ad Nauseam",
+				"NodeType": 3,
+				"EffectRaw": "ผู้ฝ่าบ่วงมฤตยู Blade สามารถสะสมพลังงานที่เกินออกมา ได้มากสุด <unbreak>#2[i]</unbreak> หน่วย หลังจากปล่อยท่าไม้ตาย จะล้างค่าพลังงานที่เกินออกมา และฟื้นฟูค่าพลังงานในปริมาณที่สอดคล้อง เมื่อเริ่มต้นการต่อสู้ หรือเมื่อเขตแดนสิ้นสุด หากพลังงานไม่ถึง <unbreak>#1[i]%</unbreak> ก็จะทำให้ฟื้นฟูถึง <unbreak>#1[i]%</unbreak> ทันที เมื่อพลังงานฟื้นฟูถึงขีดจำกัด จะลบล้าง <u>เอฟเฟกต์ Debuff</u> ทั้งหมดของตัวเอง",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Tears of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "Soul, Tempered ad Mortem",
+				"NodeType": 3,
+				"EffectRaw": "ในช่วงที่เขตแดนคงอยู่ โอกาสถูกศัตรูโจมตีจะเพิ่มขึ้น และตัวเองได้รับ DMG ลดลง <unbreak>#2[i]%</unbreak> รวมถึงปริมาณการรักษาที่ได้รับเพิ่มขึ้น <unbreak>#3[i]%</unbreak> อีกทั้งหลังถูกโจมตี จะทำให้เป้าหมายที่เกี่ยวข้องติดสถานะ \"บ่วงเพลิงมรณะ\" และทำให้ผู้ฝ่าบ่วงมฤตยู Blade ได้รับการชาร์จพลัง 1 หน่วย",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "Heart, Refined ad Infinitum",
+				"NodeType": 3,
+				"EffectRaw": "ในช่วงที่เขตแดนคงอยู่ เป้าหมายฝ่ายเราจะสร้าง DMG เพิ่มขึ้น <unbreak>#1[i]%</unbreak> เมื่อในทีมฝ่ายเรามีตัวละคร Path \"ลบล้าง\" ตัวอื่น (นอกจากผู้ฝ่าบ่วงมฤตยู Blade) จะทำให้เป้าหมายฝ่ายเราสร้าง DMG ท่าไม้ตายเพิ่มขึ้น <unbreak>#2[i]%</unbreak> หากไม่เป็นเช่นนั้น จะทำให้ผู้ฝ่าบ่วงมฤตยู Blade สร้าง DMG เพิ่มขึ้นอีก <unbreak>#3[i]%</unbreak>",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Tracks of Destiny",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Vanquished Flow's Reticence",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "เสริม DMG - ไฟ",
+				"NodeType": 1,
+				"EffectRaw": "DMG ไฟเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "เสริมอัตราคริติคอล",
+				"NodeType": 1,
+				"EffectRaw": "อัตราคริติคอลเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Tears of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Whimsy Wax",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "เสริม DMG - ไฟ",
+				"NodeType": 1,
+				"EffectRaw": "DMG ไฟเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "เสริม HP",
+				"NodeType": 1,
+				"EffectRaw": "HP สูงสุดเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "เสริม DMG - ไฟ",
+				"NodeType": 1,
+				"EffectRaw": "DMG ไฟเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Wine of Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Dreamweave Steel",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "เสริมอัตราคริติคอล",
+				"NodeType": 1,
+				"EffectRaw": "อัตราคริติคอลเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "เสริม DMG - ไฟ",
+				"NodeType": 1,
+				"EffectRaw": "DMG ไฟเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "เสริม HP",
+				"NodeType": 1,
+				"EffectRaw": "HP สูงสุดเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "เสริมอัตราคริติคอล",
+				"NodeType": 1,
+				"EffectRaw": "อัตราคริติคอลเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "เสริม DMG - ไฟ",
+				"NodeType": 1,
+				"EffectRaw": "DMG ไฟเพิ่มขึ้น <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "เครดิต",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Heart of Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Lucid Awl",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

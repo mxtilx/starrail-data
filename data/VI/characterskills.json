@@ -41084,6 +41084,684 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"BasicATK": {
+			"Id": "150701",
+			"Name": "Kiếm Gãy, Càn Quét",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời khiến mục tiêu rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch, và khiến mục tiêu rơi vào trạng thái Khiêu Khích.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.25
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.35
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.45
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.55
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.65
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.7
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150708",
+			"Name": "Rèn Kiếm, Đoạn Phách",
+			"TriggerKey": "Skill11",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời khiến mục tiêu rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp.",
+			"AbridgedEffect": "Gây Sát Thương Hỏa cho 1 kẻ địch, và khiến mục tiêu rơi vào trạng thái Khiêu Khích.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal02.png"
+		},
+		"Skill": {
+			"Id": "150702",
+			"Name": "Mưa Kiếm, Quy Táng",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Tiêu hao HP bằng <unbreak>#4[i]%</unbreak> Giới Hạn HP của Mortenax Blade, gây Sát Thương Hỏa cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời gây thêm <unbreak>#2[i]</unbreak> lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên bằng <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade.\nNếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Mortenax Blade giảm còn 1.\nKhi không ở trạng thái \"Vô Lượng Phẫn Nộ\" hoặc HP hiện tại nhỏ hơn hoặc bằng 1, Mortenax Blade không thể thi triển Chiến Kỹ.\nThi triển Chiến Kỹ không tiêu hao Điểm Chiến Kỹ.",
+			"AbridgedEffect": "Tiêu hao HP gây Sát Thương Hỏa cho toàn bộ phe địch, sau đó gây lượng nhỏ Sát Thương Hỏa lên 1 kẻ địch, Nảy Bật <color=#f29e38ff><unbreak>#2[i]</unbreak></color> lần.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.36,
+						4,
+						0.12,
+						0.1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.396,
+						4,
+						0.132,
+						0.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.432,
+						4,
+						0.144,
+						0.1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.468,
+						4,
+						0.156,
+						0.1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.504,
+						4,
+						0.168,
+						0.1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.54,
+						4,
+						0.18,
+						0.1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.585,
+						4,
+						0.195,
+						0.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.63,
+						4,
+						0.21,
+						0.1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.675,
+						4,
+						0.225,
+						0.1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.72,
+						4,
+						0.24,
+						0.1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.756,
+						4,
+						0.252,
+						0.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.792,
+						4,
+						0.264,
+						0.1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.828,
+						4,
+						0.276,
+						0.1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.864,
+						4,
+						0.288,
+						0.1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.9,
+						4,
+						0.3,
+						0.1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "150709",
+			"Name": "Mưa Kiếm, Quy Táng",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "N/A",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150703",
+			"Name": "Xương Cốt Làm Lò, Máu Thịt Làm Củi",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Khiến toàn phe địch rơi vào trạng thái \"Sát Hỏa Quấn Thân\", Phòng Thủ của mục tiêu phe địch ở trạng thái \"Sát Hỏa Quấn Thân\" giảm <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>, sát thương phải chịu tăng <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, duy trì <unbreak>#8[i]</unbreak> hiệp. Sau đó tiêu hao HP bằng <unbreak>#1[i]%</unbreak> Giới Hạn HP của Mortenax Blade để triển khai Kết Giới, trong thời gian duy trì Kết Giới, Mortenax Blade nhận trạng thái \"Vô Lượng Phẫn Nộ\".\nTrong trạng thái \"Vô Lượng Phẫn Nộ\", Tỷ Lệ Bạo Kích tăng <unbreak>#2[i]%</unbreak>, Sát Thương Bạo Kích tăng <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>, Tấn Công Thường được cường hóa, đồng thời giải phóng Chiến Kỹ và nhận Tuyệt Kỹ mới \"Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt\", nếu chịu tấn công chí tử sẽ không rơi vào <u>trạng thái không thể chiến đấu</u>, nhưng sẽ giải trừ Kết Giới, thoát trạng thái \"Vô Lượng Phẫn Nộ\" và hồi HP bằng <unbreak>#6[i]%</unbreak> Giới Hạn HP của bản thân.\nKhi nhận trạng thái \"Vô Lượng Phẫn Nộ\", trên thứ tự hành động xuất hiện đếm ngược tương ứng, đếm ngược cố định có <unbreak>#5[i]</unbreak> Tốc Độ, khi bắt đầu hiệp đếm ngược sẽ giải trừ Kết Giới và thoát trạng thái \"Vô Lượng Phẫn Nộ\".\nNếu HP hiện tại không đủ, khi thi triển kỹ năng này HP hiện tại của Mortenax Blade sẽ giảm xuống còn 1 điểm.",
+			"AbridgedEffect": "Khiến toàn bộ phe địch rơi vào trạng thái \"Sát Hỏa Quấn Thân\", khiến mục tiêu <color=#f29e38ff>giảm Phòng Thủ, tăng sát thương phải chịu</color>. Sau đó tiêu hao HP bản thân để mở Kết Giới. Trong thời gian duy trì Kết Giới, bản thân nhận trạng thái \"Vô Lượng Phẫn Nộ\", tăng Tỷ Lệ Bạo Kích, tăng Sát Thương Bạo Kích, Tấn Công Thường được cường hóa, giải phóng Chiến Kỹ và nhận <color=#f29e38ff>Tuyệt Kỹ hoàn toàn mới</color>, cho đến khi đếm ngược kết thúc.\nKhi Mortenax Blade chịu tấn công chí tử sẽ giải trừ Kết Giới.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.3,
+						0.3,
+						70,
+						0.5,
+						0.2,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.33,
+						0.32,
+						70,
+						0.5,
+						0.21,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.36,
+						0.34,
+						70,
+						0.5,
+						0.22,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.39,
+						0.36,
+						70,
+						0.5,
+						0.23,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.42,
+						0.38,
+						70,
+						0.5,
+						0.24,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.45,
+						0.4,
+						70,
+						0.5,
+						0.25,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.4875,
+						0.425,
+						70,
+						0.5,
+						0.2625,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.525,
+						0.45,
+						70,
+						0.5,
+						0.275,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.5625,
+						0.475,
+						70,
+						0.5,
+						0.2875,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.6,
+						0.5,
+						70,
+						0.5,
+						0.3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.63,
+						0.52,
+						70,
+						0.5,
+						0.31,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.66,
+						0.54,
+						70,
+						0.5,
+						0.32,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.69,
+						0.56,
+						70,
+						0.5,
+						0.33,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.72,
+						0.58,
+						70,
+						0.5,
+						0.34,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.75,
+						0.6,
+						70,
+						0.5,
+						0.35,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150704",
+			"Name": "Trả Hết Nhân Quả",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "Hỗ Trợ",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Trong thời gian duy trì Kết Giới, sau mỗi lần mục tiêu phe ta tấn công phe địch, khiến mục tiêu phe địch tương ứng rơi vào trạng thái \"Sát Hỏa Quấn Thân\" và khiến Mortenax Blade nhận 1 điểm Nạp Năng Lượng, khi Nạp Năng Lượng đạt <unbreak>#1[i]</unbreak> điểm và HP hiện tại lớn hơn 1, sẽ tiêu hao <unbreak>#1[i]</unbreak> điểm Nạp Năng Lượng, hồi <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> điểm Năng Lượng, đồng thời khiến Mortenax Blade thi triển thêm 1 lần Chiến Kỹ, Chiến Kỹ lần này được xem là <u>Đòn Đánh Theo Sau</u>.",
+			"AbridgedEffect": "Trong thời gian duy trì Kết Giới, sau khi mục tiêu phe ta tấn công phe địch, khiến phe địch rơi vào trạng thái \"Sát Hỏa Quấn Thân\" và khiến Mortenax Blade nhận Nạp Năng Lượng, khi Nạp Năng Lượng đạt <color=#f29e38ff><unbreak>#1[i]</unbreak></color> điểm và HP lớn hơn 1, sẽ tiêu hao <color=#f29e38ff><unbreak>#1[i]</unbreak></color> điểm Nạp Năng Lượng để hồi Năng Lượng, đồng thời khiến Mortenax Blade <color=#f29e38ff>thi triển thêm</color> 1 lần <color=#f29e38ff>Chiến Kỹ</color>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						9,
+						15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						9,
+						16
+					]
+				},
+				"3": {
+					"EffectValues": [
+						9,
+						17
+					]
+				},
+				"4": {
+					"EffectValues": [
+						9,
+						18
+					]
+				},
+				"5": {
+					"EffectValues": [
+						9,
+						19
+					]
+				},
+				"6": {
+					"EffectValues": [
+						9,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						9,
+						21.25
+					]
+				},
+				"8": {
+					"EffectValues": [
+						9,
+						22.5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						9,
+						23.75
+					]
+				},
+				"10": {
+					"EffectValues": [
+						9,
+						25
+					]
+				},
+				"11": {
+					"EffectValues": [
+						9,
+						26
+					]
+				},
+				"12": {
+					"EffectValues": [
+						9,
+						27
+					]
+				},
+				"13": {
+					"EffectValues": [
+						9,
+						28
+					]
+				},
+				"14": {
+					"EffectValues": [
+						9,
+						29
+					]
+				},
+				"15": {
+					"EffectValues": [
+						9,
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png"
+		},
+		"Technique": {
+			"Id": "150707",
+			"Name": "Thập Phương Vô Xá",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Lập tức tấn công tất cả kẻ địch trong phạm vi nhất định, sau khi vào chiến đấu, khiến toàn bộ phe địch rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp, đồng thời khiến sát thương bản thân phải chịu giảm <unbreak>#1[i]%</unbreak>, duy trì <unbreak>#2[i]</unbreak> hiệp.",
+			"AbridgedEffect": "Tấn công tất cả kẻ địch trong phạm vi, sau khi vào chiến đấu khiến toàn bộ phe địch rơi vào trạng thái Khiêu Khích, đồng thời giảm sát thương bản thân phải chịu.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.9,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

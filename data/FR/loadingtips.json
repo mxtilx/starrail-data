@@ -2375,6 +2375,18 @@
 		"Description": "En traquant le criminel, Ashveil décide de s'arrêter sur un pont alors que les souvenirs du passé refont surface...",
 		"VersionAdded": "4.1"
 	},
+	"20100": {
+		"Id": "20100",
+		"Name": "Adoption du point de vue d'Ashveil...",
+		"Description": "De retour au Bout du monde, Ashveil flaire une cible extrêmement dangereuse...",
+		"VersionAdded": "4.3"
+	},
+	"20101": {
+		"Id": "20101",
+		"Name": "Adoption du point de vue de Himeko...",
+		"Description": "Pour découvrir la vérité sur son père, Himeko se remémore brièvement ces œuvres d'art dédiées à la Destruction...",
+		"VersionAdded": "4.3"
+	},
 	"20102": {
 		"Id": "20102",
 		"Name": "Adoption du point de vue d'Evanescia...",

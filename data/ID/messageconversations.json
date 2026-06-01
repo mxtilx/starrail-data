@@ -67668,9 +67668,9 @@
 	},
 	"15033": {
 		"Id": "15033",
-		"ContactId": "9",
+		"ContactId": "1505",
 		"ParticpatingContactIds": [
-			"9",
+			"1505",
 			"8001"
 		],
 		"Sections": [
@@ -67682,7 +67682,7 @@
 						"Id": "150330100",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Gelombang pasang Wishpower sudah reda.",
 						"NextMessageId": "150330101"
 					},
@@ -67690,7 +67690,7 @@
 						"Id": "150330101",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Aku tidak salah lihat, kamu menepati janjimu lagi.",
 						"NextMessageId": "150330102"
 					},
@@ -67698,7 +67698,7 @@
 						"Id": "150330102",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
+						"SenderContactId": "1505",
 						"Text": "Sekarang, giliran aku yang minta bantuanmu.",
 						"NextMessageId": "150330103"
 					},
@@ -67706,8 +67706,8 @@
 						"Id": "150330103",
 						"MessageType": "Text",
 						"SenderType": "NPC",
-						"SenderContactId": "9",
-						"Text": "Bagaimana kalau kita bertemu di jalan menuju Akademi Graphia?",
+						"SenderContactId": "1505",
+						"Text": "Kita ketemu di jalan ke Akademi Graphia, ya?",
 						"NextMessageId": "choice4"
 					},
 					"150330104": {
@@ -68416,6 +68416,92 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"15043": {
+		"Id": "15043",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1504301",
+				"StartingMessageId": "150430100",
+				"Messages": {
+					"150430100": {
+						"Id": "150430100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Aku Zhongshanshan, bartender yang bertugas.",
+						"NextMessageId": "150430101"
+					},
+					"150430101": {
+						"Id": "150430101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Dua orang yang sebelumnya menitipkan barang di \"Kelinci Rel Bintang\" tidak datang.",
+						"NextMessageId": "150430102"
+					},
+					"150430102": {
+						"Id": "150430102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Aku mau gaya rambut payung.",
+						"NextMessageId": "150430103"
+					},
+					"150430103": {
+						"Id": "150430103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Dia bilang, hadiah \"Kelinci Rel Bintang\" tidak ada di setiap \"versi\".",
+						"NextMessageId": "150430104"
+					},
+					"150430104": {
+						"Id": "150430104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Semoga kamu bisa bersabar menunggu.",
+						"NextMessageId": "150430105"
+					},
+					"150430105": {
+						"Id": "150430105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Entah ini akan buat kamu kesal atau tidak .... (tidak perlu dibalas, aku masih kerja)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"15044": {
+		"Id": "15044",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1504401",
+				"StartingMessageId": "150440100",
+				"Messages": {
+					"150440100": {
+						"Id": "150440100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Selamat! Kamu telah mengumpulkan semua wispae tanpa nama yang ditempatkan oleh proyek \"Kelinci Rel Bintang\" di \"Pertapaan Inkford\"! Sekarang kamu dapat menyelesaikan stage yang disiapkan oleh \"Kelinci Rel Bintang\" di area ini dengan cara termudah. Selamat bermain! (Ini adalah iklan otomatis sistem, mohon jangan dibalas~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -135955,6 +136041,1223 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"20235": {
+		"Id": "20235",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023500",
+				"StartingMessageId": "202350000",
+				"Messages": {
+					"202350000": {
+						"Id": "202350000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Silver Wolf sudah mengimplan plug-in obrolan \"Alat Pencari Blade\" untukmu.",
+						"NextMessageId": "choice1"
+					},
+					"202350001": {
+						"Id": "202350001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Alat Pencari Blade? Jadi aku harus menabrakkan diri ke mata pisau?",
+						"NextMessageId": "202350003"
+					},
+					"202350002": {
+						"Id": "202350002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Jadi aku harus menabrakkan diir ke mata pisau, baru aku bisa menemukannya?",
+						"NextMessageId": "202350003"
+					},
+					"202350003": {
+						"Id": "202350003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu mengirim pesan, menepuk-nepuk ponsel Blade dan membuatnya bergetar terus-menerus.",
+						"NextMessageId": "202350004"
+					},
+					"202350004": {
+						"Id": "202350004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu menepuk-nepuk ponsel Blade dan membuatnya bergetar terus-menerus.",
+						"NextMessageId": "202350005"
+					},
+					"202350005": {
+						"Id": "202350005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu menepuk-nepuk ponsel Blade dan membuatnya bergetar terus-menerus.",
+						"NextMessageId": "202350006"
+					},
+					"202350006": {
+						"Id": "202350006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu menepuk-nepuk ponsel Blade dan membuatnya bergetar terus-menerus.",
+						"NextMessageId": "202350007"
+					},
+					"202350007": {
+						"Id": "202350007",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu menepuk-nepuk ponsel Blade dan membuatnya bergetar terus-menerus.",
+						"NextMessageId": "202350008"
+					},
+					"202350008": {
+						"Id": "202350008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu Blade sedang online",
+						"NextMessageId": "202350009"
+					},
+					"202350009": {
+						"Id": "202350009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Jangan tepuk lagi, aku sampai kesemutan.",
+						"NextMessageId": "202350010"
+					},
+					"202350010": {
+						"Id": "202350010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Pahaku kesemutan.",
+						"NextMessageId": "choice20"
+					},
+					"202350011": {
+						"Id": "202350011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bukan aku yang menepuk-nepuk sampai kaku, semuanya ulah Silver Wolf.",
+						"NextMessageId": "202350013"
+					},
+					"202350012": {
+						"Id": "202350012",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Maaf ya, kakimu kesemutan karena aku tepuk-tepuk, tapi semua ini salah Silver Wolf.",
+						"NextMessageId": "202350013"
+					},
+					"202350013": {
+						"Id": "202350013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku tahu. Dia juga memasang benda ini pada Kafka dan Firefly.",
+						"NextMessageId": "202350014"
+					},
+					"202350014": {
+						"Id": "202350014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Ada apa? Aku sedang menjalankan misi.",
+						"NextMessageId": "choice27"
+					},
+					"202350015": {
+						"Id": "202350015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu lagi sibuk apa? Misi rahasia?",
+						"NextMessageId": "202350017"
+					},
+					"202350016": {
+						"Id": "202350016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kalau lagi gabut, memangnya aku gak boleh ajak kamu main? Jangan-jangan ... kamu lagi ada misi rahasia ya?",
+						"NextMessageId": "202350017"
+					},
+					"202350017": {
+						"Id": "202350017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202350018"
+					},
+					"202350018": {
+						"Id": "202350018",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202350019"
+					},
+					"202350019": {
+						"Id": "202350019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Jangan bertanya lagi, aku tidak boleh bilang.",
+						"NextMessageId": "choice36"
+					},
+					"202350020": {
+						"Id": "202350020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Semakin gak boleh tanya, aku malah jadi makin penasaran ....",
+						"NextMessageId": "202350021"
+					},
+					"202350021": {
+						"Id": "202350021",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Di misi itu, kamu gak boleh bicara ya?",
+						"NextMessageId": "202350026"
+					},
+					"202350022": {
+						"Id": "202350022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tadi aku lihat ....",
+						"NextMessageId": "202350023"
+					},
+					"202350023": {
+						"Id": "202350023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Sepertinya kamu sedang menari di suatu tempat ... itu misimu?",
+						"NextMessageId": "202350026"
+					},
+					"202350024": {
+						"Id": "202350024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Apakah ini misi \"Pembunuh Top Xianzhou\"?",
+						"NextMessageId": "202350025"
+					},
+					"202350025": {
+						"Id": "202350025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "....",
+						"NextMessageId": "202350026"
+					},
+					"202350026": {
+						"Id": "202350026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Bukan.",
+						"NextMessageId": "202350027"
+					},
+					"202350027": {
+						"Id": "202350027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Lebih berbahaya, lebih mematikan.",
+						"NextMessageId": "202350028"
+					},
+					"202350028": {
+						"Id": "202350028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku lagi buru-buru, offline duluan ya.",
+						"NextMessageId": "202350029"
+					},
+					"202350029": {
+						"Id": "202350029",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu Blade sedang offline"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Alat Pencari Blade?",
+								"NextMessageId": "202350001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku harus menabrakkan diri ke mata pisau?",
+								"NextMessageId": "202350002"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Bukan aku!",
+								"NextMessageId": "202350011"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Semuanya gara-gara Silver Wolf.",
+								"NextMessageId": "202350012"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Kamu sedang sibuk apa?",
+								"NextMessageId": "202350015"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku tidak boleh ajak kamu main?",
+								"NextMessageId": "202350016"
+							}
+						]
+					},
+					"choice36": {
+						"Id": "choice36",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Misinya \"gak boleh bicara\"?",
+								"NextMessageId": "202350020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Di misi itu, kamu harus menari ya?",
+								"NextMessageId": "202350022"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Apakah ini misi \"Pembunuh Top\"?",
+								"NextMessageId": "202350024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20236": {
+		"Id": "20236",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023600",
+				"StartingMessageId": "202360000",
+				"Messages": {
+					"202360000": {
+						"Id": "202360000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Versi plug-in \"Alat Pencari Blade\" telah diperbarui untukmu",
+						"NextMessageId": "202360001"
+					},
+					"202360001": {
+						"Id": "202360001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Update kali ini: Memperbaiki beberapa masalah yang diketahui, menambahkan fitur peredam getaran.",
+						"NextMessageId": "choice2"
+					},
+					"202360002": {
+						"Id": "202360002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Cepat sekali update-nya, bahkan lebih cepat dari update versi game-ku.",
+						"NextMessageId": "202360004"
+					},
+					"202360003": {
+						"Id": "202360003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Peredam getarnya sebagus apa? Aku mau coba.",
+						"NextMessageId": "202360004"
+					},
+					"202360004": {
+						"Id": "202360004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu mengirim pesan, menepuk ponsel Blade dan membuatnya bergetar.",
+						"NextMessageId": "202360005"
+					},
+					"202360005": {
+						"Id": "202360005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu menepuk ponsel Blade dan membuatnya bergetar.",
+						"NextMessageId": "202360006"
+					},
+					"202360006": {
+						"Id": "202360006",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu Blade sedang online",
+						"NextMessageId": "202360007"
+					},
+					"202360007": {
+						"Id": "202360007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "*Sstt*! Jangan bicara.",
+						"NextMessageId": "202360008"
+					},
+					"202360008": {
+						"Id": "202360008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku sedang melihat monitor pengawas. Ada urusan apa kali ini?",
+						"NextMessageId": "choice15"
+					},
+					"202360009": {
+						"Id": "202360009",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Ini sesi pemantauan dan penguncian musuh yang menegangkan dan seru?",
+						"NextMessageId": "202360013"
+					},
+					"202360010": {
+						"Id": "202360010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Lagi ada misi lagi? Ini sesi pemantauan dan penguncian musuh yang menegangkan dan seru?",
+						"NextMessageId": "202360013"
+					},
+					"202360011": {
+						"Id": "202360011",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tenana, aku tidak akan kirim pesan suara.",
+						"NextMessageId": "202360012"
+					},
+					"202360012": {
+						"Id": "202360012",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Kamu lihat rekaman pengawasan apa? Apa ini sesi penguncian musuh yang menegangkan dan seru?",
+						"NextMessageId": "202360013"
+					},
+					"202360013": {
+						"Id": "202360013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Bukan.",
+						"NextMessageId": "202360014"
+					},
+					"202360014": {
+						"Id": "202360014",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202360015"
+					},
+					"202360015": {
+						"Id": "202360015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202360016"
+					},
+					"202360016": {
+						"Id": "202360016",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202360017"
+					},
+					"202360017": {
+						"Id": "202360017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku lagi lihat rekaman pengawasan Camilan Kucing.",
+						"NextMessageId": "choice34"
+					},
+					"202360018": {
+						"Id": "202360018",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Apa lagi mengintip Onde-Onde?",
+						"NextMessageId": "202360019"
+					},
+					"202360019": {
+						"Id": "202360019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Iya.",
+						"NextMessageId": "202360025"
+					},
+					"202360020": {
+						"Id": "202360020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sudah berapa lama kamu mengintip Camilan Kucing?",
+						"NextMessageId": "202360021"
+					},
+					"202360021": {
+						"Id": "202360021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku tidak lihat waktu.",
+						"NextMessageId": "202360025"
+					},
+					"202360022": {
+						"Id": "202360022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Camilan Kucing ya?! Bilang dari tadi dong.",
+						"NextMessageId": "202360023"
+					},
+					"202360023": {
+						"Id": "202360023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Lain kali aku bawa kamu masuk langsung.",
+						"NextMessageId": "202360024"
+					},
+					"202360024": {
+						"Id": "202360024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Oke, lain kali harus ya.",
+						"NextMessageId": "202360025"
+					},
+					"202360025": {
+						"Id": "202360025",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Apa saja yang kelihatan di CCTV? Apa Onde-Onde baik-baik saja?",
+						"NextMessageId": "202360026"
+					},
+					"202360026": {
+						"Id": "202360026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Ia punya dua teman baru.",
+						"NextMessageId": "202360027"
+					},
+					"202360027": {
+						"Id": "202360027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Yang satu putih ... sepertinya tak bisa diam, pemarah, dan cerewet.",
+						"NextMessageId": "202360028"
+					},
+					"202360028": {
+						"Id": "202360028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Yang satunya merah ... tidak banyak bicara, tapi sangat pemarah.",
+						"NextMessageId": "202360029"
+					},
+					"202360029": {
+						"Id": "202360029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Bagus. Biasanya Onde-Onde selalu sendirian.",
+						"NextMessageId": "choice57"
+					},
+					"202360030": {
+						"Id": "202360030",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu sudah kasih mereka nama?",
+						"NextMessageId": "202360031"
+					},
+					"202360031": {
+						"Id": "202360031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku nih?",
+						"NextMessageId": "202360032"
+					},
+					"202360032": {
+						"Id": "202360032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Kalau begitu, Permen Nougat dan Kue Kurma Merah saja.",
+						"NextMessageId": "202360037"
+					},
+					"202360033": {
+						"Id": "202360033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Mereka juga agak mirip denganmu, maksudku \"sifat pemarah\"-nya.",
+						"NextMessageId": "202360034"
+					},
+					"202360034": {
+						"Id": "202360034",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Mereka sudah punya nama belum?",
+						"NextMessageId": "202360035"
+					},
+					"202360035": {
+						"Id": "202360035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tidak tahu. Biar kupikirkan.",
+						"NextMessageId": "202360036"
+					},
+					"202360036": {
+						"Id": "202360036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Permen Nougat dan Kue Kurma Merah saja.",
+						"NextMessageId": "202360037"
+					},
+					"202360037": {
+						"Id": "202360037",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202360038"
+					},
+					"202360038": {
+						"Id": "202360038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Berantem nih.",
+						"NextMessageId": "202360039"
+					},
+					"202360039": {
+						"Id": "202360039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Sepertinya hubungannya agak buruk.",
+						"NextMessageId": "202360040"
+					},
+					"202360040": {
+						"Id": "202360040",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202360041"
+					},
+					"202360041": {
+						"Id": "202360041",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Mereka saling menjilat ....",
+						"NextMessageId": "202360042"
+					},
+					"202360042": {
+						"Id": "202360042",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Ternyata salah paham. Hubungan mereka lumayan bagus.",
+						"NextMessageId": "202360043"
+					},
+					"202360043": {
+						"Id": "202360043",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202360044"
+					},
+					"202360044": {
+						"Id": "202360044",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Mereka hilang.",
+						"NextMessageId": "202360045"
+					},
+					"202360045": {
+						"Id": "202360045",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Mungkin karena sadar sedang aku perhatikan, jadi mereka bersembunyi.",
+						"NextMessageId": "202360046"
+					},
+					"202360046": {
+						"Id": "202360046",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Aku akan ambil rekaman pengawasan lainnya.",
+						"NextMessageId": "202360047"
+					},
+					"202360047": {
+						"Id": "202360047",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Kalau tidak ada urusan mendesak, sampai nanti ya.",
+						"NextMessageId": "202360048"
+					},
+					"202360048": {
+						"Id": "202360048",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu Blade sedang offline"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Updatenya cepat banget!",
+								"NextMessageId": "202360002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Peredam getarnya sebagus apa? Aku mau coba.",
+								"NextMessageId": "202360003"
+							}
+						]
+					},
+					"choice15": {
+						"Id": "choice15",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Lagi lihat rekaman CCTV apa?",
+								"NextMessageId": "202360009"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Lagi ada misi lagi?",
+								"NextMessageId": "202360010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Tidak bisa bicara lewat pesan.",
+								"NextMessageId": "202360011"
+							}
+						]
+					},
+					"choice34": {
+						"Id": "choice34",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Lagi lihat Onde-Onde ya?",
+								"NextMessageId": "202360018"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kamu sudah lihat berapa lama?",
+								"NextMessageId": "202360020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Memangnya harus sampai mengintip segala?",
+								"NextMessageId": "202360022"
+							}
+						]
+					},
+					"choice57": {
+						"Id": "choice57",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Kamu sudah kasih mereka nama?",
+								"NextMessageId": "202360030"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Mereka juga agak mirip denganmu.",
+								"NextMessageId": "202360033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
+	},
+	"20237": {
+		"Id": "20237",
+		"ContactId": "1205",
+		"ParticpatingContactIds": [
+			"8001",
+			"1205"
+		],
+		"Sections": [
+			{
+				"Id": "2023700",
+				"StartingMessageId": "202370000",
+				"Messages": {
+					"202370000": {
+						"Id": "202370000",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Versi plug-in \"Alat Pencari Blade\" telah diperbarui untukmu",
+						"NextMessageId": "202370001"
+					},
+					"202370001": {
+						"Id": "202370001",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Update kali ini: Memperbaiki masalah yang diketahui, meningkatkan performa peredam getaran, menonton lebih banyak video Camilan Kucing.",
+						"NextMessageId": "202370002"
+					},
+					"202370002": {
+						"Id": "202370002",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Kamu menepuk ponsel Blade dan membuatnya bergetar.",
+						"NextMessageId": "202370003"
+					},
+					"202370003": {
+						"Id": "202370003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu Blade sedang online",
+						"NextMessageId": "202370004"
+					},
+					"202370004": {
+						"Id": "202370004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Kebetulan, tadi aku baru kepikiran kamu.",
+						"NextMessageId": "choice5"
+					},
+					"202370005": {
+						"Id": "202370005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Wah, aku gak nyangka loh! Coba kasih tahu aku, kamu kepikiran tentang apa?",
+						"NextMessageId": "202370008"
+					},
+					"202370006": {
+						"Id": "202370006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Akhirnya kamu mau nostalgia sama aku ya?",
+						"NextMessageId": "202370007"
+					},
+					"202370007": {
+						"Id": "202370007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Bukan.",
+						"NextMessageId": "202370008"
+					},
+					"202370008": {
+						"Id": "202370008",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu sedang mengetik ....",
+						"NextMessageId": "202370009"
+					},
+					"202370009": {
+						"Id": "202370009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tadi aku lihat beberapa benda yang sudah rusak parah di Gudang Senjata, tapi materialnya masih lumayan bagus ... Tidak ada yang mengakuinya, jadi itu pasti peninggalanmu.",
+						"NextMessageId": "202370010"
+					},
+					"202370010": {
+						"Id": "202370010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Kebetulan kamu mengirim pesan, jadi aku sekalian tanya kamu mau apa? Nanti waktu pulang, aku bisa modifikasi dan tempa ulang.",
+						"NextMessageId": "202370011"
+					},
+					"202370011": {
+						"Id": "202370011",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Peninggalanku? Senjata?",
+						"NextMessageId": "202370012"
+					},
+					"202370012": {
+						"Id": "202370012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Beberapa benda yang sudah hancur dan tidak berbentuk. Melihat strukturnya, sepertinya semuanya peralatan rumah tangga sehari-hari.",
+						"NextMessageId": "202370013"
+					},
+					"202370013": {
+						"Id": "202370013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Manfaatkan yang ada dengan semaksimal mungkin. Katakan saja, aku bisa membuat apa pun.",
+						"NextMessageId": "choice20"
+					},
+					"202370014": {
+						"Id": "202370014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Perjalanan Antarbintang berenergi tinggi membutuhkan sebuah \"mesin pengantar tidur\" yang bisa langsung membuatku tidur kapan pun dan di mana pun.",
+						"NextMessageId": "202370015"
+					},
+					"202370015": {
+						"Id": "202370015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Dulu di Xianzhou, kami menyebutnya \"ranjang ayun\".",
+						"NextMessageId": "202370025"
+					},
+					"202370016": {
+						"Id": "202370016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku mau sesuatu yang tidak biasa.",
+						"NextMessageId": "202370017"
+					},
+					"202370017": {
+						"Id": "202370017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tidurmu nyenyak tidak?",
+						"NextMessageId": "202370018"
+					},
+					"202370018": {
+						"Id": "202370018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Beberapa waktu lalu di kapal, aku menempa beberapa alat bantu tidur. Bagaimana menurutmu?",
+						"NextMessageId": "202370019"
+					},
+					"202370019": {
+						"Id": "202370019",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Aku mau yang lebih hebat! Aku butuh sesuatu yang bisa langsung membuatku tidur kapan pun dan di mana pun.",
+						"NextMessageId": "202370020"
+					},
+					"202370020": {
+						"Id": "202370020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Boleh.",
+						"NextMessageId": "202370025"
+					},
+					"202370021": {
+						"Id": "202370021",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku tidak pilih-pilih kok, berkreasi saja sesukamu!",
+						"NextMessageId": "202370022"
+					},
+					"202370022": {
+						"Id": "202370022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Beberapa waktu lalu di kapal, aku menempa beberapa alat bantu tidur. Bagaimana menurutmu?",
+						"NextMessageId": "202370023"
+					},
+					"202370023": {
+						"Id": "202370023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Hore! Aku mau mesin pengantar tidur yang bisa langsung membuatku tidur kapan pun dan di mana pun.",
+						"NextMessageId": "202370024"
+					},
+					"202370024": {
+						"Id": "202370024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Boleh.",
+						"NextMessageId": "202370025"
+					},
+					"202370025": {
+						"Id": "202370025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Kalau cuma supaya tidur sih tidak sulit ... tapi kalau butuh efek tidur paksa, butuh desain tambahan.",
+						"NextMessageId": "choice31"
+					},
+					"202370026": {
+						"Id": "202370026",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bisa tambah sedikit derau putih, supaya bisa tidur lebih cepat.",
+						"NextMessageId": "202370027"
+					},
+					"202370027": {
+						"Id": "202370027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Sangat sederhana. Tambahkan beberapa potongan besi untuk meniru suara tempaan pedang.",
+						"NextMessageId": "202370028"
+					},
+					"202370028": {
+						"Id": "202370028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Dulu suara seperti ini membuatku tetap terjaga. Tapi ini mungkin bisa membuatmu tidur.",
+						"NextMessageId": "202370038"
+					},
+					"202370029": {
+						"Id": "202370029",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bisa tambah fitur bantuan tidur fisik? Misalnya pijatan, bantal tepuk, atau apa gitu?",
+						"NextMessageId": "202370030"
+					},
+					"202370030": {
+						"Id": "202370030",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Oke.",
+						"NextMessageId": "202370031"
+					},
+					"202370031": {
+						"Id": "202370031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Ada komponen persendian lengan mekanis yang sudah tidak terpakai di ruang peralatan, bisa meniru gerakan ini.",
+						"NextMessageId": "202370032"
+					},
+					"202370032": {
+						"Id": "202370032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tapi agak berisik ... aggap saja derau putih.",
+						"NextMessageId": "202370038"
+					},
+					"202370033": {
+						"Id": "202370033",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bisa tambah lagu pengantar tidur yang ada vokalnya?",
+						"NextMessageId": "202370034"
+					},
+					"202370034": {
+						"Id": "202370034",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Oke.",
+						"NextMessageId": "202370035"
+					},
+					"202370035": {
+						"Id": "202370035",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Di dalamnya ada pemutar suara, bisa merekam satu lagu.",
+						"NextMessageId": "202370036"
+					},
+					"202370036": {
+						"Id": "202370036",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Tapi suara nyanyianku jelek, kalau mau aku bisa bacakan untukmu ... lirik lagunya.",
+						"NextMessageId": "202370037"
+					},
+					"202370037": {
+						"Id": "202370037",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Oke deh, begitu juga boleh ....",
+						"NextMessageId": "202370038"
+					},
+					"202370038": {
+						"Id": "202370038",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Kalau sudah dimodifikasi, terserah kamu mau diantar atau ambil sendiri.",
+						"NextMessageId": "202370039"
+					},
+					"202370039": {
+						"Id": "202370039",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Nanti kita mengobrol lagi.",
+						"NextMessageId": "202370040"
+					},
+					"202370040": {
+						"Id": "202370040",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1205",
+						"Text": "Sampai jumpa.",
+						"NextMessageId": "202370041"
+					},
+					"202370041": {
+						"Id": "202370041",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Temanmu Blade sedang offline"
+					},
+					"choice5": {
+						"Id": "choice5",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Gak nyangka deh!",
+								"NextMessageId": "202370005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Mau bernostalgia denganku?",
+								"NextMessageId": "202370006"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku mau peralatan untuk sehari-hari.",
+								"NextMessageId": "202370014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku mau yang tidak biasa.",
+								"NextMessageId": "202370016"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku tidak pilih-pilih kok, berkreasi saja sesukamu!",
+								"NextMessageId": "202370021"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Bisa tambah sedikit derau putih.",
+								"NextMessageId": "202370026"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Bisa tambah bantuan tidur fisik?",
+								"NextMessageId": "202370029"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Bisa tambah lagu pengantar tidur?",
+								"NextMessageId": "202370033"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"20998": {
 		"Id": "20998",

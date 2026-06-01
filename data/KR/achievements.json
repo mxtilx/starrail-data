@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "그녀는 꽃필 무렵의 바람처럼 사뿐히 스쳐 지나갔다",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "금기 추리",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "추리는 건배 후에\n<color=#8790abff>※「술집」으로 가서 아삿 프라마드 존재에 관한 단서 조사하기</color>",
+		"HiddenDescription": "추리는 건배 후에",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "옛 등불을 밝히다",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "눈싸움하러 나와!\n<color=#8790abff>※과거에 약속한 방법으로 그래피아 소환하기</color>",
+		"HiddenDescription": "눈싸움하러 나와!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "피안에 머무는 순간",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "뛰어내려, 저 블루홀 속으로 녹아드는 거야\n<color=#8790abff>※ 블레이드가 그림 속 세계의 끝으로 향하는 것을 목격하기</color>",
+		"HiddenDescription": "뛰어내려, 저 블루홀 속으로 녹아드는 거야",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "검이라는 것",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "검이란 무엇인가? 무엇이 자신을 깎아내고 적을 찢어발기는가?\n<color=#8790abff>※블레이드는 자신의 해답을 얻었다</color>",
+		"HiddenDescription": "검이란 무엇인가? 무엇이 자신을 깎아내고 적을 찢어발기는가?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "적막으로 돌아가는 농담",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "뭇별로 향하는 궤도",
+		"Description": "농담을 설명하는 건 최악의 행위다\n<color=#8790abff>※아삿 프라마드가 자신의 정체를 드러내는 것을 목격하기</color>",
+		"HiddenDescription": "농담을 설명하는 건 최악의 행위다",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "롤플레잉 게임에서는 합법",
@@ -5558,6 +5613,76 @@
 		"SeriesText": "신비에 대한 탐구",
 		"Description": "기이한 악장을 연주하고 시필드 시티에 숨은 수수께끼의 생물체 찾기",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "고고한 사람",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "화중은천의 「Jump 타임」 완료하기",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "자객 회피",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "고슴도치 진령과 부딪히지 않고 화중은천의 「Jump 타임」 클리어하기",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "최후의 서리 거인",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "카스페 기절시키기",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "설국",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "「2차원 JUMP!」에서 카스페와 눈싸움할 때 성루에 숨겨진 보물상자 찾기",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "스팀 플랫폼에 오신 것을 환영합니다",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "화중은천의 설원 온천에서 목욕하기",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "목 없는 라이더 일화록",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "화중은천의 모든 「평범한 눈사람」 머리 걷어차기",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "낙원 변주: 눈의 아이",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "신비에 대한 탐구",
+		"Description": "기이한 악장을 연주하고 화중은천에 숨은 수수께끼의 생물체 찾기",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "「또 주사위를 던져라! 코스믹 포스!」에서 은랑 LV.999와의 최종 대결 완료하기",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "출발! 은하버스!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "나힐럭스에게 ≪환월 신작 게임≫의 이야기 알아보기",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "끝나지 않는 전설",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "≪별의 궤도 토끼≫ 개발을 계속 지원하기",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "그 후로 그것은 영원히 행복했답니다…",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "≪별의 궤도 토끼≫ 추가 개발 반대하기",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "그림 세계의 수호자",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "화중은천의 법진에서 「그래피아」 소환하기",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "갓생러",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "도브브룩 구역과 화중은천에서 엄브렐라를 두 번 만나 대화하기",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "은행나무 아래",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "역 앞에서 두 행인이 애틋하게 작별하는 모습 지켜보기",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "최종 결전 병기",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「픽셀 비행기 대난투」에서 처음으로 핵심 장비 1개를 ★3으로 승급하기",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "끝나지 않은 스파키의 노래",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「픽셀 비행기 대난투」에서 「트랙 마술」을 사용해 스파키 쓰러트리기",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "푸른 하늘 아래의 약속",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「픽셀 비행기 대난투」에서 모든 픽셀 비행기 개방하기",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "에이스 컴뱃",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「픽셀 비행기 대난투」에서 HP 손실 없이 파이널 매치에서 승리하기",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "졸업 세트",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「픽셀 비행기 대난투」에서 단일 게임 내 동시에 ★3 장비 #1개 보유하기",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "전 기종 제패",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "너와 동행한 추억",
+		"Description": "「픽셀 비행기 대난투」에서 모든 비행기를 사용해 경기에서 승리하기",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "영서백도 (1)",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "솟구치는 전의",
-		"Description": "단일 전투에서 「환락」 운명의 길 개척자로 서로 다른 동료 #1명에게 각각 필살기 1회 발동하기",
+		"Description": "단일 전투에서 「환락」 운명의 길 개척자로 서로 다른 캐릭터 #1명에게 각각 필살기 1회 발동하기",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "솟구치는 전의",
 		"Description": "「낙변화천인」과의 전투에서 단일 공격으로 「낙변화천인•종(終)」을 #1기 이상 동시에 처치하기",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "꺼지지 않는 용광로, 견고한 무기",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "전투 승리 시 천야•블레이드의 남은 HP #1 달성하기",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "칼 소리, 검 소리, 쇠 두드리는 소리, 모두 귀에 들어오네",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "단일 턴에서 아군 캐릭터 천야•블레이드로 [검날 아래, 귀장] #1회 발동하기",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "불꽃 소방대장",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「창시의 화가, 무라타 그래피아」와의 전투에서 자신의 HP가 낮고 화염 진화 성공률이 가장 낮은 상태에서 [화염 진압]을 선택해 [몸을 불태우는 원념] 상태 해제하기",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "위장 청소부",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "「포식의 신의 후예」와의 전투에서 아군 중 공격력이 가장 높은 캐릭터를 사용해 [포식] 상태를 해제하고 추가 공격력 보너스 획득하기",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "영겁의 재난",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "솟구치는 전의",
+		"Description": "아군 캐릭터 천야•블레이드로 단일 [끝없는 분노] 지속 시간에 [천야로 빚어내어, 영겁토록 신멸하리] #1회 발동하기",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "순간의 환락",
 		"Description": "「2차원 JUMP!」에서 수상 플라잉 카에 부딪히기",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "Do You Want to Build a Snowman?",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "순간의 환락",
+		"Description": "「2차원 JUMP!」에서 얼음 속에 갇히기",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

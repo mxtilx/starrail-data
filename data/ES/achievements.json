@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "Ella pasó flotando como una flor al viento.",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "Deducción prohibida",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Las deducciones vienen después del brindis.\n<color=#8790abff>※Dirígete a la taberna e investiga pistas sobre la existencia de Asat Pramad.</color>",
+		"HiddenDescription": "Las deducciones vienen después del brindis.",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "Enciende el fuego del pasado",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "¡Ven a jugar a una guerra de bolas de nieve!\n<color=#8790abff>※Invoca a Grafía utilizando el método acordado en el pasado.</color>",
+		"HiddenDescription": "¡Ven a jugar a una guerra de bolas de nieve!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "Un instante en la otra orilla",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Salta y fúndete en esa Boca Azul\n<color=#8790abff>※Observa a Blade dirigirse al extremo del mundo del cuadro.</color>",
+		"HiddenDescription": "Salta y fúndete en esa Boca Azul",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "La esencia de una espada",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "¿Qué es una espada? ¿Qué se desgasta a sí misma para despedazar a sus enemigos?\n<color=#8790abff>※Blade obtiene su respuesta.</color>",
+		"HiddenDescription": "¿Qué es una espada? ¿Qué se desgasta a sí misma para despedazar a sus enemigos?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "Una broma que cae en el vacío",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Ferrocarril a las estrellas",
+		"Description": "Explicar un chiste es lo peor que se puede hacer.\n<color=#8790abff>※Presencia la revelación del verdadero rostro de Asat Pramad.</color>",
+		"HiddenDescription": "Explicar un chiste es lo peor que se puede hacer.",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "{F#Jugadora}{M#Jugador} legítim{F#a}{M#o} de juegos de rol",
@@ -5506,7 +5561,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "Indagación de misterios",
-		"Description": "Alcanza antes que nadie la cima de la isla misteriosa en la carrera de sombras de Salto bidimensional en Manamar.",
+		"Description": "Alcanza antes que nadie la cima de la isla misteriosa en la Carrera de sombras de Salto bidimensional en Manamar.",
 		"VersionAdded": "4.2"
 	},
 	"4045213": {
@@ -5558,6 +5613,76 @@
 		"SeriesText": "Indagación de misterios",
 		"Description": "Toca la melodía extraña y encuentra a la misteriosa criatura oculta en Manamar.",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "Una vida solitaria",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Completa \"Hora del salto\" en el Hotel Retiro Pictovado.",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "Esquiva al asesino",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Completa \"Hora del salto\" en el Hotel Retiro Pictovado sin que te toque ningún fabuespín.",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "El último gigante de hielo",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Aturde a Casper.",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "Reino nevado",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Encuentra el cofre oculto en el castillo durante la guerra de bolas de nieve con Casper en Salto bidimensional.",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "¡Más vapor!",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toma un baño en las aguas termales entre la nieve del Hotel Retiro Pictovado.",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "La leyenda del jinete sin cabeza",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Patea las cabezas de todos los muñecos de nieve comunes y corrientes del Hotel Retiro Pictovado.",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "Variación de la arcadia: el niño de nieve",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Indagación de misterios",
+		"Description": "Toca una melodía extraña y encuentra a la misteriosa criatura oculta en el Hotel Retiro Pictovado.",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "Completa el duelo final contra Silver Wolf Niv. 999 en «¡Fuerza Cósmica, a tirar de nuevo!».",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "¡En marcha, Bus Astral!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Pregunta a Nihilux sobre la historia del Nuevo juego Fabuluna.",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "Leyenda sin fin",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Elige que sigan desarrollando Conejo estelar.",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "Final feliz",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Oponte a que sigan desarrollando Conejo estelar.",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "Guardiana del mundo del cuadro",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Invoca a Grafía en el círculo mágico del Hotel Retiro Pictovado.",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "Cuánta energía",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Encuentra a Umbrello en el distrito Palomaguas y en el Hotel Retiro Pictovado y habla con él.",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "Amor de ginkgo",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Presencia la emotiva despedida de dos transeúntes frente a la estación.",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "Arma decisiva definitiva",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "En «Batalla de aviones pixelados», mejora un equipamiento principal a 3 estrellas por primera vez.",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "Canción de la Chispa continua",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Derrota a Chispa usando Magia del Circuito en «Batalla de aviones pixelados».",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "Promesa bajo el cielo azul",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Desbloquea todos los aviones pixelados en «Batalla de aviones pixelados»",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "As del combate aéreo",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Gana el duelo culminante en «Batalla de aviones pixelados» sin perder ninguna vida.",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "Conjunto de equipamiento definitivo",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Ten #1 piezas de equipamiento de 3 estrellas a la vez en una misma partida de «Batalla de aviones pixelados».",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "Dominio de todos los modelos",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Recuerdos de un viaje contigo",
+		"Description": "Gana una partida con cada avión en «Batalla de aviones pixelados».",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Las sombras mueren varias veces (I)",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Ansia de batalla",
-		"Description": "En una sola batalla, usa {F#a la}{M#al} Trazacaminos de la Vía de la Exultación para lanzar la habilidad definitiva una vez sobre #1 compañeros de equipo diferentes.",
+		"Description": "En una sola batalla, usa {F#a la}{M#al} Trazacaminos de la Vía de la Exultación para lanzar la habilidad definitiva una vez sobre #1 personajes diferentes.",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "Ansia de batalla",
 		"Description": "En una batalla contra Ascendentes del Gozo, elimina a #1 o más Ascendente del Gozo: Final con un solo ataque.",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "Guerrero forjado en la fragua eterna",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Al ganar la batalla, los PV restantes de Mortenax Blade son #1.",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "Fragor de martillos y espadas",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En un solo turno, usa al personaje aliado Mortenax Blade para lanzar Tumba bajo las espadas #1 veces.",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "Jef{F#a}{M#e} de bomberos al rojo vivo",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En el combate contra Grafía Murata, Artista Original, selecciona Extinción de llamas cuando tengas pocos PV y tu probabilidad de extinción sea mínima, y logra disipar el estado de Pira del rencor.",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "Limpiador gastrointestinal",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "En la batalla contra Vástago Devorador de Dioses, usa el personaje aliado con el ATQ más alto para disipar el estado de Devoración y obtener una bonificación de ATQ adicional.",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "Condena eterna",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Ansia de batalla",
+		"Description": "Usa al personaje aliado Mortenax Blade para lanzar Forja de uno, olvido de todos #1 veces durante una sola activación de Ira inconmensurable.",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "Alegrías efímeras",
 		"Description": "Sé atropellad{F#a}{M#o} por un volauto en el agua en Salto bidimensional.",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "¿Quieres hacer un muñeco de nieve?",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "Alegrías efímeras",
+		"Description": "Queda congelad{F#a}{M#o} en un bloque de hielo en Salto bidimensional.",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

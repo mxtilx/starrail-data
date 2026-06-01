@@ -8133,6 +8133,13 @@
 		"Effect": "Silver Wolf LV.999's DMG gains Amplification in the Divergent Universe.\n\nWhen Aha's turn begins, Silver Wolf LV.999's Elation increases by <color=#f29e38ff>0.5%</color> for every 1 Punchline possessed, lasting until Aha's next turn begins.",
 		"VersionAdded": "4.2"
 	},
+	"661507": {
+		"Id": "661507",
+		"Name": "Mortenax Blade",
+		"Rarity": 1,
+		"Effect": "Mortenax Blade's DMG is amplified in the Divergent Universe.\n\nAfter losing HP, increases HP restored by <color=#f29e38ff>15%</color> and increases final DMG dealt by <color=#f29e38ff>15%</color>. Lasts for <color=#f29e38ff>2</color> turn(s).",
+		"VersionAdded": "4.3"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

@@ -485,6 +485,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10141": {
+		"Id": "10141",
+		"Name": "Compagnons stellaires",
+		"TabName": "Compagnons stellaires",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Règles ◆\nEn vous connectant pendant la période de l'événement, vous pouvez obtenir un esprit de compagnon doré dans le Carnet de voyage. Les esprits de compagnon dorés n'ont pas de limite d'utilisation dans le temps et n'expirent pas après la fin de l'événement. Vous pouvez les échanger contre un personnage 5 étoiles dans la boutique de Convergence stellaire.\n\n◆ Boutique d'échange ◆\n● La boutique de Convergence stellaire reste toujours ouverte, et les personnages qui y sont ajoutés peuvent y être échangés sans restriction de temps.\n● Les personnages de la boutique peuvent être échangés jusqu'à ce que leur niveau d'Eidolon soit au maximum. Une fois leur niveau d'Eidolon au maximum, ils ne peuvent plus être échangés.\n※ La boutique verra son catalogue de personnages échangeables s'étoffer à l'avenir.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestStoryTokens.png",
+		"VersionAdded": "4.3"
+	},
 	"10142": {
 		"Id": "10142",
 		"Name": "Cadeau de l'odyssée",
@@ -502,6 +511,15 @@
 		"Introduction": "◆ Règles de l'événement ◆\nVous pouvez recevoir des récompenses tous les jours en vous connectant et en allant dans le Carnet de voyage.\n\n◆ Récompenses ◆\nLes récompenses se débloquent les unes après les autres, en fonction du nombre de jours de connexion cumulés. Les récompenses quotidiennes sont actualisées à 4 h <unbreak>00</unbreak> (heure du serveur).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAnniversarySevenDayVersion0210.png",
 		"VersionAdded": "4.2"
+	},
+	"10169": {
+		"Id": "10169",
+		"Name": "Cadeau de l'odyssée",
+		"TabName": "Cadeau de l'odyssée",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Règles de l'événement ◆\nVous pouvez recevoir des récompenses tous les jours en vous connectant et en allant dans le Carnet de voyage.\n\n◆ Récompenses ◆\nLes récompenses se débloquent les unes après les autres, en fonction du nombre de jours de connexion cumulés. Les récompenses quotidiennes sont actualisées à 4 h <unbreak>00</unbreak> (heure du serveur).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -895,7 +913,7 @@
 		"TabName": "Démonstration d'aptitudes",
 		"Tag": "Essai de personnage",
 		"Introduction": "◆ Règles de l'événement ◆\nLors de l'événement Démonstration d'aptitudes, vous pouvez utiliser des équipes prédéfinies qui comportent des personnages d'essai dans des niveaux spécifiques.\nLa composition de l'équipe, le niveau des personnages ainsi que les reliques et les cônes de lumière équipés ne peuvent pas être modifiés au cours du niveau.\n\n◆ Récompenses ◆\nVous pouvez obtenir les récompenses de niveau d'essai dans l'interface de l'événement après avoir terminé le défi associé. Chaque récompense ne peut être obtenue qu'une seule fois au cours de l'événement.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial49.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1078,12 +1096,30 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial50.png",
 		"VersionAdded": "4.2"
 	},
+	"20083": {
+		"Id": "20083",
+		"Name": "Démonstration d'aptitudes",
+		"TabName": "Démonstration d'aptitudes",
+		"Tag": "Essai de personnage",
+		"Introduction": "◆ Règles de l'événement ◆\nLors de l'événement Démonstration d'aptitudes, vous avez l'opportunité d'utiliser des équipes prédéfinies qui comportent des personnages d'essai dans un niveau spécifique.\nLa composition de l'équipe, le niveau des personnages ainsi que les reliques et cônes de lumière équipés ne peuvent pas être modifiés au cours du niveau.\n\n◆ Récompenses ◆\nUne fois le défi du niveau relevé, vous pouvez récupérer les récompenses du niveau d'essai depuis l'interface de l'événement. Chaque récompense ne peut être obtenue qu'une seule fois pendant la période de l'événement.\nSi vous avez déjà terminé le niveau d'essai d'un personnage lors d'une version précédente, vous pouvez récupérer les récompenses directement.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"VersionAdded": "4.3"
+	},
+	"20084": {
+		"Id": "20084",
+		"Name": "Démonstration d'aptitudes",
+		"TabName": "Démonstration d'aptitudes",
+		"Tag": "Essai de personnage",
+		"Introduction": "◆ Règles de l'événement ◆\nLors de l'événement Démonstration d'aptitudes, vous avez l'opportunité d'utiliser des équipes prédéfinies qui comportent des personnages d'essai dans un niveau spécifique.\nLa composition de l'équipe, le niveau des personnages ainsi que les reliques et cônes de lumière équipés ne peuvent pas être modifiés au cours du niveau.\n\n◆ Récompenses ◆\nUne fois le défi du niveau relevé, vous pouvez récupérer les récompenses du niveau d'essai depuis l'interface de l'événement. Chaque récompense ne peut être obtenue qu'une seule fois pendant la période de l'événement.\nSi vous avez déjà terminé le niveau d'essai d'un personnage lors d'une version précédente, vous pouvez récupérer les récompenses directement.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
+		"VersionAdded": "4.3"
+	},
 	"21001": {
 		"Id": "21001",
 		"Name": "La voie des trésors : Difficulté élevée",
 		"TabName": "La voie des trésors : Difficulté élevée",
 		"Tag": "Comment jouer",
-		"Introduction": "◆ Règles du jeu ◆\n● La voie des trésors est une nouvelle série de modes de jeu permanents de difficulté élevée comprenant la Salle oubliée : Mémoire du Chaos, Pure fiction, Fantômes de l'apocalypse et Arbitre de l'instable.\n● La Salle oubliée : Mémoire du Chaos se débloque après avoir terminé les Derniers vestiges de la Grande citadelle : Mémoire (XV).\n● Pure fiction se débloque après avoir terminé la mission d'aventure « Enjolivements ingénieux de Youci ».\n● Fantômes de l'apocalypse se débloque après avoir terminé la mission d'aventure « Film sombre de la Finalité ».\n● Arbitre de l'instable se débloque après avoir atteint le niveau d'équilibre 6, obtenu le niveau maximum d'étoiles dans la Salle oubliée : Mémoire du Chaos, Pure fiction et Fantômes de l'apocalypse (réalisable sur différentes versions), et terminé la mission d'aventure « Chronique des nœuds ».\n● Le contenu et les récompenses de La voie des trésors sont mis à jour régulièrement.\n\n◆ Règles de réinitialisation ◆\n● Les modes Fantômes de l'apocalypse, Pure fiction et Salle oubliée : Mémoire du Chaos sont mis à jour en alternance toutes les deux semaines dans l'ordre mentionné ci-dessus. Les mises à jour ont lieu le lundi à 4 h <unbreak>00</unbreak> (heure du serveur). Après chaque mise à jour d'un mode de jeu, le mode mis à jour reste accessible pendant 6 semaines.\n● Arbitre de l'instable est mis à jour en même temps que les mises à jour de version et dure jusqu'à la fin de chaque version.",
+		"Introduction": "◆ Règles du jeu ◆\n● La voie des trésors est une nouvelle série de modes de jeu permanents de difficulté élevée comprenant la Salle oubliée : Mémoire du Chaos, Pure fiction, Fantômes de l'apocalypse et Arbitre de l'instable.\n● La Salle oubliée : Mémoire du Chaos se débloque après avoir terminé les Derniers vestiges de la Grande citadelle : Mémoire (XV).\n● Pure fiction se débloque après avoir terminé la mission d'aventure « Enjolivements ingénieux de Youci ».\n● Fantômes de l'apocalypse se débloque après avoir terminé la mission d'aventure « Film sombre de la Finalité ».\n● Arbitre de l'instable se débloque après avoir atteint le niveau d'équilibre 6, obtenu le niveau 3 étoiles dans la Salle oubliée : Mémoire du Chaos, Pure fiction et Fantômes de l'apocalypse (réalisable sur différentes versions), et terminé la mission d'aventure « Chronique des nœuds ».\n● Le contenu et les récompenses de La voie des trésors sont mis à jour régulièrement.\n\n◆ Règles de réinitialisation ◆\n● Les modes Fantômes de l'apocalypse, Pure fiction et Salle oubliée : Mémoire du Chaos sont mis à jour en alternance toutes les deux semaines dans l'ordre mentionné ci-dessus. Les mises à jour ont lieu le lundi à 4 h <unbreak>00</unbreak> (heure du serveur). Après chaque mise à jour d'un mode de jeu, le mode mis à jour reste accessible pendant 6 semaines.\n● Arbitre de l'instable est mis à jour en même temps que les mises à jour de version et dure jusqu'à la fin de chaque version.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAbyssAlternation.png",
 		"VersionAdded": "3.6"
 	},
@@ -1834,6 +1870,36 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestDiceCombatV2.png",
 		"VersionAdded": "4.2"
 	},
+	"50107": {
+		"Id": "50107",
+		"Name": "Parc Ætherae",
+		"TabName": "Parc Ætherae",
+		"Description": "Les tendances filent, et c'est l'occasion pour le Star Rail Fest de se renouveler. Optimisez les parcours des visiteurs, disposez les structures avec soin et érigez une Arcadie dédiée aux Ætherae dans le Pictomonde ! Vos idées seront essentielles pour parfaire l'aménagement de cet espace.",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Introduction ◆\nOptimisez les parcours, disposez les installations avec soin et érigez une Arcadia dédiée aux Ætherae dans le Pictomonde ! Vos idées seront essentielles pour parfaire l'aménagement de cet espace.\n\n◆ Règles de l'événement ◆\n● L'événement propose deux modes distincts : Essai de routine et Essai prolongé.\n● L'Essai de routine se divise en 4 étapes au total. Réussir un niveau débloque le suivant.\n● À chaque étape de l'Essai de routine, vous devez conduire 3 phases. Si une note commerciale d'au moins une étoile est obtenue à chaque phase, la planification sera considérée comme réussie.\n● Terminer tous les niveaux de l'Essai de routine débloque le mode Essai prolongé, au cours duquel vous pourrez assurer la prospérité de l'entreprise sur une période allant jusqu'à <unbreak>12</unbreak> phases.\n\n◆ Présentation du mode de jeu ◆\n● Avant le début de chaque journée, vous devez sélectionner des installations et les placer sur les emplacements appropriés.\n● Après ouverture, les visiteurs Ætherae entreront à tour de rôle et paieront des récréapièces en passant devant les installations.\n● Plus vous gagnez de récréapièces, plus la cote commerciale de votre Arcadia augmentera.\n\n◆ Récompenses de l'événement ◆\n● Pendant l'événement, accomplissez les missions de récompenses à durée limitée pour obtenir les récompenses correspondantes.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestChenLingFes.png",
+		"VersionAdded": "4.3"
+	},
+	"50112": {
+		"Id": "50112",
+		"Name": "Pixels en rafales",
+		"TabName": "Pixels en rafales",
+		"Description": "Un jeu classique fait son grand retour dans les cieux de l'Arcadia, et les avions en pixels reprennent leur envol. Dans cette bataille acharnée opposant <unbreak>99</unbreak> avions de chasse, seul le grand vainqueur pourra s'emparer de la suprématie aérienne... Personnalisez votre meilleur avion de chasse, élaborez des stratégies gagnantes et frayez-vous un chemin à travers la pluie de munitions pour remporter la victoire !",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Introduction ◆\nDans cette bataille acharnée opposant <unbreak>99</unbreak> avions, seul le grand vainqueur pourra s'emparer de la suprématie aérienne... Personnalisez votre meilleur avion de chasse, élaborez des stratégies gagnantes et frayez vous un chemin à travers la pluie de munitions pour remporter la victoire !\n\n◆ Règles de l'événement ◆\n● L'événement comporte deux modes : Voie de l'élévation et Phases éliminatoires.\n● Voie de l'élévation se compose d'un total de quatre niveaux. Vous pouvez accumuler des points en participant à la Voie de l'élévation, et le niveau suivant se débloquera une fois les conditions de points remplies.\n● Les niveaux de la Voie de l'élévation se composent de cinq phases. Remportez la victoire en éliminant tous les ennemis au cours de ces phases.\n● Terminez tous les niveaux de la Voie de l'élévation pour débloquer le mode de Phases éliminatoires. Dans ce mode, éliminez tous les ennemis au cours des sept phases pour remporter la victoire.\n\n◆ Introduction du gameplay ◆\n● Au nœud de repos, vous pouvez sélectionner l'équipement de votre avion pixelisé et l'envoyer au combat.\n● Au nœud d'assaut, votre avion pixelisé utilisera son équipement pour attaquer automatiquement l'ennemi.\n\n◆ Récompenses permanentes ◆\n● Continuez à participer au tournoi pour accumuler des points de carrière et récupérer les gains du tournoi.\n\n◆ Récompenses à durée limitée ◆\n● Durant cet événement, remplissez divers objectifs de jeu pour obtenir des récompenses à durée limitée.\n\n◆ Rappel ◆\n● Une fois l'événement à durée limitée Pixels en rafales terminé, vous ne pourrez plus obtenir les récompenses à durée limitée. Cependant, vous pourrez toujours vous rendre sur la carte de Duopolis pour parler au Sage du gaming, participer à l'événement et obtenir des récompenses permanentes.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
+		"VersionAdded": "4.3"
+	},
+	"50115": {
+		"Id": "50115",
+		"Name": "Cadeau de la forge",
+		"TabName": "Cadeau de la forge",
+		"Description": "Après avoir obtenu Blade Mortenax à partir du Saut événement de personnage, vous pouvez récupérer une toute nouvelle pièce de Tenue pionnière.",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Détails de l'événement ◆\nDurant le Saut événement de personnage de la version <unbreak>4.3</unbreak> « Sur le fil de l'être », obtenez Blade Mortenax via le Saut événement de personnage pour recevoir l'accessoire dorsal de Tenue pionnière Feu karmique de l'autre rive.\n● Après avoir obtenu l'accessoire de Tenue pionnière Feu karmique de l'autre rive, vous pouvez le consulter et l'équiper via l'interface Personnages - Tenues.\n● L'accessoire de Tenue pionnière sera masqué dans certains segments de missions et cinématiques.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
+		"VersionAdded": "4.3"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "Univers simulé",
@@ -2204,5 +2270,14 @@
 		"Tag": "Mission pionnière disponible",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory420.png",
 		"VersionAdded": "4.2"
+	},
+	"80027": {
+		"Id": "80027",
+		"Name": "Dans les tréfonds du Léthé",
+		"TabName": "Mission pionnière",
+		"Description": "Des voyageurs en quête de leur dernier repos, des messagers porteurs d'avertissements... Tous se rendent au bord de la toile où coule l'antique fleuve Léthé, contemplant les souvenirs de joie et de tristesse qui émergent de ses profondeurs...",
+		"Tag": "Mission pionnière disponible",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
+		"VersionAdded": "4.3"
 	}
 }

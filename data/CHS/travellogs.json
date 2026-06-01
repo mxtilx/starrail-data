@@ -485,6 +485,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10141": {
+		"Id": "10141",
+		"Name": "千星旅伴",
+		"TabName": "千星旅伴",
+		"Tag": "活动说明",
+		"Introduction": "◆ 活动规则 ◆\n活动期间登录游戏，开拓者即可在「旅情事记」中领取奖励「旅伴金灵」。「旅伴金灵」无使用时间限制，活动结束后不会销毁，可用于在「聚灵铸星」商店中兑换5星角色。\n\n◆ 兑换商店 ◆\n● 「聚灵铸星」商店常驻开放，已加入商店的角色兑换时无时间限制。\n● 商店内角色可以兑换至星魂满阶，星魂已满时不可兑换。\n※商店可兑换角色后续会扩充。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestStoryTokens.png",
+		"VersionAdded": "4.3"
+	},
 	"10142": {
 		"Id": "10142",
 		"Name": "巡星之礼",
@@ -502,6 +511,15 @@
 		"Introduction": "◆ 活动规则 ◆\n开拓者每日登录游戏后，可在「旅情事记」中领取当日奖励。\n\n◆ 活动奖励 ◆\n奖励将根据开拓者累计登录天数依次解锁，当日奖励将在<unbreak>04</unbreak>:<unbreak>00</unbreak>（服务器时间）刷新。",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAnniversarySevenDayVersion0210.png",
 		"VersionAdded": "4.2"
+	},
+	"10169": {
+		"Id": "10169",
+		"Name": "巡星之礼",
+		"TabName": "巡星之礼",
+		"Tag": "活动说明",
+		"Introduction": "◆ 活动规则 ◆\n开拓者每日登录游戏后，可在「旅情事记」中领取当日奖励。\n\n◆ 活动奖励 ◆\n奖励将根据开拓者累计登录天数依次解锁，当日奖励将在<unbreak>04</unbreak>:<unbreak>00</unbreak>（服务器时间）刷新。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -895,7 +913,7 @@
 		"TabName": "锋芒崭露",
 		"Tag": "角色试用",
 		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial49.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1078,12 +1096,30 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial50.png",
 		"VersionAdded": "4.2"
 	},
+	"20083": {
+		"Id": "20083",
+		"Name": "锋芒崭露",
+		"TabName": "锋芒崭露",
+		"Tag": "角色试用",
+		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。\n若开拓者在以往版本完成过对应角色的试用关，可以直接领取奖励。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"VersionAdded": "4.3"
+	},
+	"20084": {
+		"Id": "20084",
+		"Name": "锋芒崭露",
+		"TabName": "锋芒崭露",
+		"Tag": "角色试用",
+		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。\n若开拓者在以往版本完成过对应角色的试用关，可以直接领取奖励。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
+		"VersionAdded": "4.3"
+	},
 	"21001": {
 		"Id": "21001",
 		"Name": "逐光捡金·高难挑战",
 		"TabName": "逐光捡金·高难挑战",
 		"Tag": "玩法说明",
-		"Introduction": "◆ 玩法规则 ◆\n● 逐光捡金为游戏内周期性更新的一系列常驻高难挑战玩法，包含「忘却之庭•混沌回忆」，「虚构叙事」，「末日幻影」和「异相仲裁」。\n● 完成永屹之城遗秘•「回忆其十五」后，将解锁「忘却之庭•混沌回忆」。\n● 完成冒险任务「游辞巧饰」后，将解锁「虚构叙事」。\n● 完成冒险任务「终末鼻烟胶卷」后，将解锁「末日幻影」。\n● 达到均衡等级6，且「忘却之庭•混沌回忆」、「虚构叙事」、「末日幻影」历史记录均达到最高层满星（可分别在不同版本达成），并完成冒险任务「结绳记事」后，将解锁「异相仲裁」。\n● 逐光捡金会周期性更新关卡内容与奖励。\n\n◆ 更新规则 ◆\n● 「末日幻影」，「虚构叙事」，「忘却之庭•混沌回忆」将会按照顺序每两周交替更新，更新时间为当周周一<unbreak>04</unbreak>:<unbreak>00</unbreak>（服务器时间），每期玩法更新后持续开放六周。\n● 「异相仲裁」将随版本更新，持续至版本末。",
+		"Introduction": "◆ 玩法规则 ◆\n● 逐光捡金为游戏内周期性更新的一系列常驻高难挑战玩法，包含「忘却之庭•混沌回忆」，「虚构叙事」，「末日幻影」和「异相仲裁」。\n● 完成永屹之城遗秘•「回忆其十五」后，将解锁「忘却之庭•混沌回忆」。\n● 完成冒险任务「游辞巧饰」后，将解锁「虚构叙事」。\n● 完成冒险任务「终末鼻烟胶卷」后，将解锁「末日幻影」。\n● 达到均衡等级6，且「忘却之庭•混沌回忆」、「虚构叙事」、「末日幻影」历史记录均达到最高层3星（可分别在不同版本达成），并完成冒险任务「结绳记事」后，将解锁「异相仲裁」。\n● 逐光捡金会周期性更新关卡内容与奖励。\n\n◆ 更新规则 ◆\n● 「末日幻影」，「虚构叙事」，「忘却之庭•混沌回忆」将会按照顺序每两周交替更新，更新时间为当周周一<unbreak>04</unbreak>:<unbreak>00</unbreak>（服务器时间），每期玩法更新后持续开放六周。\n● 「异相仲裁」将随版本更新，持续至版本末。",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAbyssAlternation.png",
 		"VersionAdded": "3.6"
 	},
@@ -1834,6 +1870,36 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestDiceCombatV2.png",
 		"VersionAdded": "4.2"
 	},
+	"50107": {
+		"Id": "50107",
+		"Name": "尘灵游乐园",
+		"TabName": "尘灵游乐园",
+		"Description": "流行风尚瞬息万变，星铁FES也迎来焕新契机。合理规划动线，巧妙布置设施，在画中世界为尘灵们建造专属游乐园吧！你的创想将成为展区优化的绝佳灵感。",
+		"Tag": "活动说明",
+		"Introduction": "◆ 简介 ◆\n合理规划动线，巧妙布置设施，在画中世界为尘灵们建造专属游乐园吧！你的创想将成为展区优化的绝佳灵感。\n\n◆ 活动规则 ◆\n● 活动分为「常规测试」与「长线测试」两个模式。\n● 「常规测试」总共包含4个关卡，成功完成前一个关卡后将解锁下一关卡。\n● 「常规测试」中的每个关卡都需要经营3个阶段，在各阶段中达成至少1星营业评级后即视为规划成功。\n● 完成「常规测试」的所有关卡后，将解锁「长线测试」模式。「长线测试」模式中最多可以经营<unbreak>12</unbreak>个阶段。\n\n◆ 玩法简介 ◆\n● 每日开园营业前开拓者需要挑选设施，并将其放置到合适的地格上。\n● 开园营业后，尘灵游客们会依次入场，并在经过设施时交付游乐币。\n● 赚取的游乐币越多、乐园的营业评级将会越高。\n\n◆ 活动奖励 ◆\n● 活动期间，完成「限时奖励」中的任务后，可以领取相应奖励。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestChenLingFes.png",
+		"VersionAdded": "4.3"
+	},
+	"50112": {
+		"Id": "50112",
+		"Name": "像素飞机大乱斗",
+		"TabName": "像素飞机大乱斗",
+		"Description": "经典游戏重返乐园天际，「像素飞机」再度启航。在九十九架战机的激烈厮杀中，唯有最后的赢家才能夺取制空权…定制你的最强战机，运筹制胜策略，冲破重重弹幕突围而出吧！",
+		"Tag": "活动说明",
+		"Introduction": "◆ 简介 ◆\n在九十九架战机的激烈厮杀中，唯有最后的赢家才能夺取制空权…定制你的最强战机，运筹制胜策略，冲破重重弹幕突围而出吧！\n\n◆ 活动规则 ◆\n● 活动分为「晋级之路」与「季后赛」两个模式。\n●「晋级之路」共包含四个关卡，开拓者可以通过参加「晋级之路」积累积分，当积分达到一定条件后即可解锁下一关卡。\n● 「晋级之路」中的关卡包含五个区段，开拓者击败五个区段中的全部敌人后，即可通关关卡。\n● 通关「晋级之路」的全部关卡后，将解锁「季后赛」模式。「季后赛」模式中，开拓者击败七个区段里的全部敌人后，即可通关关卡。\n\n◆ 玩法简介 ◆\n● 在修整节点，开拓者可以为像素飞机挑选装备，并将它们上阵。\n● 在突袭节点，开拓者的像素飞机上阵后，会自动使用装备迎击敌方。\n\n◆ 常驻奖励 ◆\n● 持续参与赛事，累计获取职业积分，即可领取赛事薪金。\n\n◆ 限时奖励 ◆\n● 限时活动期间，完成限时奖励中的各类玩法目标，可获取对应奖励。\n\n◆ 活动提示 ◆\n● 「像素飞机大乱斗」限时活动结束后，开拓者将无法获取活动期间的限时奖励，但仍可前往场景二维市与「游戏仙人」对话体验活动并获取常驻奖励。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
+		"VersionAdded": "4.3"
+	},
+	"50115": {
+		"Id": "50115",
+		"Name": "淬锋之礼",
+		"TabName": "淬锋之礼",
+		"Description": "通过角色活动跃迁获得「千冶·刃」后，可获得全新部位开拓穿搭。",
+		"Tag": "活动说明",
+		"Introduction": "◆ 活动说明◆\n● <unbreak>4.3</unbreak>版本「我身即刃」角色活动跃迁期间，通过角色活动跃迁获得「千冶·刃」后，可获得全新背部部位开拓穿搭「彼岸业火」。\n● 获得开拓穿搭「彼岸业火」后可以在【角色-装扮】界面查看和选择穿戴。\n● 「开拓穿搭」在部分任务演出及过场动画中将会隐藏。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
+		"VersionAdded": "4.3"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "模拟宇宙",
@@ -2204,5 +2270,14 @@
 		"Tag": "开拓任务开启",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory420.png",
 		"VersionAdded": "4.2"
+	},
+	"80027": {
+		"Id": "80027",
+		"Name": "沉于生者的忘川",
+		"TabName": "开拓任务",
+		"Description": "寻求归葬的过客，带去警告的旅者，人们前往流淌古老忘川的画中尽头，目睹过往的悲喜从中浮现……",
+		"Tag": "开拓任务开启",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
+		"VersionAdded": "4.3"
 	}
 }

@@ -485,6 +485,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10141": {
+		"Id": "10141",
+		"Name": "Rekan Perjalanan Ribuan Bintang",
+		"TabName": "Rekan Perjalanan Ribuan Bintang",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Peraturan Event ◆\nSelama event berlangsung, Trailblazer dapat log in ke dalam game untuk mengambil hadiah \"Golden Companion Spirit\" di \"Catatan Perjalanan\". \"Golden Companion Spirit\" tidak memiliki batas waktu penggunaan dan tidak akan kedaluwarsa setelah event berakhir. Item tersebut dapat ditukarkan untuk karakter 5★ di toko \"Pertemuan Bintang-Bintang\".\n\n◆ Toko Penukaran ◆\n● Toko \"Pertemuan Bintang-Bintang\" dibuka permanen, dan karakter yang telah ditambahkan ke toko dapat ditukar tanpa batas waktu.\n● Karakter di toko dapat ditukar hingga Eidolon mencapai level maksimum. Setelah Eidolon mencapai level maksimum, karakter terkait tidak dapat ditukar lagi.\n※ Lebih banyak karakter yang dapat ditukar di toko akan tersedia di waktu mendatang.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestStoryTokens.png",
+		"VersionAdded": "4.3"
+	},
 	"10142": {
 		"Id": "10142",
 		"Name": "Karunia Pengembaraan",
@@ -502,6 +511,15 @@
 		"Introduction": "◆ Peraturan Event ◆\nSetiap harinya, Trailblazer dapat mengambil hadiah login harian di \"Catatan Perjalanan\".\n\n◆ Hadiah Event ◆\nHadiah yang terbuka akan disesuaikan dengan jumlah login Trailblazer. Diperbarui setiap harinya pukul <unbreak>04</unbreak>:<unbreak>00</unbreak> (waktu server).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAnniversarySevenDayVersion0210.png",
 		"VersionAdded": "4.2"
+	},
+	"10169": {
+		"Id": "10169",
+		"Name": "Karunia Pengembaraan",
+		"TabName": "Karunia Pengembaraan",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Peraturan Event ◆\nSetiap harinya, Trailblazer dapat mengambil hadiah login harian di \"Catatan Perjalanan\".\n\n◆ Hadiah Event ◆\nHadiah yang terbuka akan disesuaikan dengan jumlah login Trailblazer. Diperbarui setiap harinya pukul <unbreak>04</unbreak>:<unbreak>00</unbreak> (waktu server).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -895,7 +913,7 @@
 		"TabName": "Pamer Bakat",
 		"Tag": "Trial Karakter",
 		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial49.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1078,12 +1096,30 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial50.png",
 		"VersionAdded": "4.2"
 	},
+	"20083": {
+		"Id": "20083",
+		"Name": "Pamer Bakat",
+		"TabName": "Pamer Bakat",
+		"Tag": "Trial Karakter",
+		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.\nJika Trailblazer sudah menyelesaikan stage trial karakter yang sesuai di versi-versi sebelumnya, Trailblazer dapat langsung mengambil hadiah.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"VersionAdded": "4.3"
+	},
+	"20084": {
+		"Id": "20084",
+		"Name": "Pamer Bakat",
+		"TabName": "Pamer Bakat",
+		"Tag": "Trial Karakter",
+		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.\nJika Trailblazer sudah menyelesaikan stage trial karakter yang sesuai di versi-versi sebelumnya, Trailblazer dapat langsung mengambil hadiah.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
+		"VersionAdded": "4.3"
+	},
 	"21001": {
 		"Id": "21001",
 		"Name": "Harta Menuju Cahaya: Tantangan Kesulitan Tinggi",
 		"TabName": "Harta Menuju Cahaya: Tantangan Kesulitan Tinggi",
 		"Tag": "Panduan Bermain",
-		"Introduction": "◆ Peraturan Gameplay ◆\n● Harta Menuju Cahaya mencakup serangkaian gameplay permanen tantangan dengan tingkat kesulitan tinggi yang akan diperbarui secara berkala, yang mencakup \"Forgotten Hall: Memory of Chaos\", \"Pure Fiction\", \"Apocalyptic Shadow\", dan \"Arbitrase Anomali\".\n● \"Forgotten Hall: Memory of Chaos\" akan terbuka setelah menyelesaikan Sisa-sisa Terakhir Benteng yang Menjulang: \"Memory <unbreak>15</unbreak>\".\n● \"Pure Fiction\" akan terbuka setelah menyelesaikan Misi Petualangan \"Dekorasi Cerdik Youci\".\n● \"Apocalyptic Shadow\" akan terbuka setelah menyelesaikan Misi Petualangan \"Rol Film 'Finality' yang Kelam\".\n● \"Arbitrase Anomali\" akan terbuka setelah Level Equilibrium mencapai Lv. 6, riwayat \"Forgotten Hall: Memory of Chaos\", \"Pure Fiction\", beserta \"Apocalyptic Shadow\" mencapai stage tertinggi dengan bintang penuh (dapat dicapai di versi yang berbeda), dan Misi Petualangan \"Kronik Simpul Tali\" diselesaikan.\n● \"Harta Menuju Cahaya\" akan melakukan update hadiah dan konten stage baru secara berkala.\n\n◆ Peraturan Pembaruan ◆\n● \"Apocalyptic Shadow\", \"Pure Fiction\", dan \"Forgotten Hall: Memory of Chaos\" akan secara berurutan diperbarui bergantian setiap dua minggu. Waktu pembaruan adalah hari Senin pukul <unbreak>04</unbreak>:<unbreak>00</unbreak> (waktu server). Setiap gameplay akan berlangsung selama enam minggu setelah diperbarui.\n● \"Arbitrase Anomali\" akan diperbarui seiring dengan update versi, berlangsung hingga akhir setiap versi.",
+		"Introduction": "◆ Peraturan Gameplay ◆\n● Harta Menuju Cahaya mencakup serangkaian gameplay permanen tantangan dengan tingkat kesulitan tinggi yang akan diperbarui secara berkala, yang mencakup \"Forgotten Hall: Memory of Chaos\", \"Pure Fiction\", \"Apocalyptic Shadow\", dan \"Arbitrase Anomali\".\n● \"Forgotten Hall: Memory of Chaos\" akan terbuka setelah menyelesaikan Sisa-sisa Terakhir Benteng yang Menjulang: \"Memory <unbreak>15</unbreak>\".\n● \"Pure Fiction\" akan terbuka setelah menyelesaikan Misi Petualangan \"Dekorasi Cerdik Youci\".\n● \"Apocalyptic Shadow\" akan terbuka setelah menyelesaikan Misi Petualangan \"Rol Film 'Finality' yang Kelam\".\n● \"Arbitrase Anomali\" akan terbuka setelah Level Equilibrium mencapai Lv. 6, riwayat \"Forgotten Hall: Memory of Chaos\", \"Pure Fiction\", beserta \"Apocalyptic Shadow\" mencapai stage tertinggi dengan 3★ (dapat dicapai di versi yang berbeda), dan Misi Petualangan \"Kronik Simpul Tali\" diselesaikan.\n● \"Harta Menuju Cahaya\" akan melakukan update hadiah dan konten stage baru secara berkala.\n\n◆ Peraturan Pembaruan ◆\n● \"Apocalyptic Shadow\", \"Pure Fiction\", dan \"Forgotten Hall: Memory of Chaos\" akan secara berurutan diperbarui bergantian setiap dua minggu. Waktu pembaruan adalah hari Senin pukul <unbreak>04</unbreak>:<unbreak>00</unbreak> (waktu server). Setiap gameplay akan berlangsung selama enam minggu setelah diperbarui.\n● \"Arbitrase Anomali\" akan diperbarui seiring dengan update versi, berlangsung hingga akhir setiap versi.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAbyssAlternation.png",
 		"VersionAdded": "3.6"
 	},
@@ -1834,6 +1870,36 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestDiceCombatV2.png",
 		"VersionAdded": "4.2"
 	},
+	"50107": {
+		"Id": "50107",
+		"Name": "Taman Hiburan Wispae",
+		"TabName": "Taman Hiburan Wispae",
+		"Description": "Tren selalu berubah, demikian pula Festival Star Rail yang turut menyambut kesempatan baru. Rencanakan jalur dengan baik, tata fasilitas dengan cerdik, dan bangun taman hiburan khusus untuk para wispae di Dunia dalam Lukisan! Ide kreatifmu akan menjadi inspirasi untuk optimalisasi area pameran.",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Pengenalan ◆\nRencanakan jalur dengan baik, tata fasilitas dengan cerdik, dan bangun taman hiburan khusus untuk para wispae di Dunia dalam Lukisan! Ide kreatifmu akan menjadi inspirasi untuk optimalisasi area pameran.\n\n◆ Aturan Event ◆\n● Event dibagi menjadi 2 mode: \"Tes Reguler\" dan \"Tes Jangka Panjang\".\n● \"Tes Reguler\" terdiri dari total 4 stage. Lolos stage sebelumnya untuk membuka stage berikutnya.\n● Setiap stage dalam \"Tes Reguler\" perlu dikelola selama 3 tahap. Perencanaan dianggap berhasil setelah mencapai setidaknya rating operasional 1★ di setiap tahap.\n● Setelah menyelesaikan semua stage \"Tes Reguler\", mode \"Tes Jangka Panjang\" akan terbuka. Dalam mode \"Tes Jangka Panjang\", kamu dapat mengelola hingga maksimal <unbreak>12</unbreak> tahap.\n\n◆ Pengenalan Gameplay ◆\n● Setiap hari sebelum taman beroperasi, Trailblazer perlu memilih fasilitas dan meletakkannya di petak yang sesuai.\n● Setelah taman beroperasi, pengunjung wispae akan masuk secara berurutan dan membayar Koin Hiburan saat melewati fasilitas.\n● Semakin banyak Koin Hiburan yang diperoleh, rating operasional utopia akan semakin tinggi.\n\n◆ Hadiah Event ◆\n● Selama event berlangsung, selesaikan misi di \"Hadiah Waktu Terbatas\" untuk mengambil hadiah yang sesuai.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestChenLingFes.png",
+		"VersionAdded": "4.3"
+	},
+	"50112": {
+		"Id": "50112",
+		"Name": "Pertempuran Pesawat Piksel",
+		"TabName": "Pertempuran Pesawat Piksel",
+		"Description": "Game klasik kembali ke langit utopia, \"Pesawat Piksel\" kembali mengudara. Dalam pertempuran sengit antara <unbreak>99</unbreak> pesawat tempur, hanya pemenang terakhir yang dapat menguasai wilayah udara ... Kustomisasi pesawat tempur terkuatmu, rancang strategi kemenangan, terobos hujan peluru yang bertubi-tubi, dan raih kemenangan!",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Pengenalan ◆\nGame klasik kembali ke langit utopia, \"Pesawat Piksel\" kembali mengudara. Dalam pertempuran sengit antara <unbreak>99</unbreak> pesawat tempur, hanya pemenang terakhir yang dapat menguasai wilayah udara ... Kustomisasi pesawat tempur terkuatmu, rancang strategi kemenangan, terobos hujan peluru yang bertubi-tubi, dan raih kemenangan!\n\n◆ Perturan Event ◆\n● Event terbagi menjadi dua mode: \"Jalur Promosi\" dan \"Playoff\".\n● \"Jalur Promosi\" memiliki total empat stage. Trailblazer dapat mengumpulkan poin dengan berpartisipasi dalam \"Jalur Promosi\", dan tahap berikutnya akan terbuka setelah poin mencapai syarat tertentu.\n● Stage dalam \"Jalur Promosi\" mencakup lima segmen. Trailblazer dapat menyelesaikan stage setelah mengalahkan semua musuh di kelima segmen tersebut.\n● Setelah menyelesaikan semua stage \"Jalur Promosi\", mode \"Playoff\" akan terbuka. Di mode \"Playoff\", Trailblazer dapat menyelesaikan stage setelah mengalahkan semua musuh di ketujuh segmen tersebut.\n\n◆ Pengenalan Gameplay ◆\n● Di Node Pemulihan, Trailblazer dapat memilih equipment untuk Pesawat Piksel dan mengerahkan mereka.\n● Di Node Serangan, setelah Pesawat Piksel Trailblazer dikerahkan, pesawat akan otomatis menggunakan equipment untuk menyerang musuh.\n\n◆ Hadiah Permanen ◆\n● Terus berpartisipasi dalam turnamen dan kumpulkan Poin Karier untuk mengambil Gaji Turnamen.\n\n◆ Hadiah Waktu Terbatas ◆\n● Selama event waktu terbatas berlangsung, selesaikan berbagai target gameplay dalam Hadiah Waktu Terbatas untuk memperoleh hadiah yang sesuai.\n\n◆ Petunjuk Event ◆\n● Setelah event waktu terbatas \"Pertempuran Pesawat Piksel\" berakhir, Trailblazer tidak lagi dapat memperoleh hadiah waktu terbatas dari event, tapi tetap dapat mengunjungi latar tempat Kota Dua Dimensi dan berbicara dengan \"Mahaguru Game\" untuk memainkan event dan memperoleh hadiah permanen.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
+		"VersionAdded": "4.3"
+	},
+	"50115": {
+		"Id": "50115",
+		"Name": "Hadiah Penempaan Ketajaman",
+		"TabName": "Hadiah Penempaan Ketajaman",
+		"Description": "Setelah memperoleh \"Mortenax Blade\" melalui event Warp Karakter, dapatkan Gaya Perintis untuk bagian tubuh terbaru.",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Penjelasan Event ◆\n● Selama event Warp Karakter \"Kini, Akulah Sang Bilah\" Versi <unbreak>4.3</unbreak> berlangsung, setelah memperoleh \"Mortenax Blade\" melalui event Warp Karakter, Trailblazer dapat memperoleh Gaya Perintis untuk bagian punggung baru \"Api Karma Seberang\".\n● Setelah memperoleh Gaya Perintis \"Api Karma Seberang\", dapat melihat dan memilih untuk mengenakannya di antarmuka [Karakter-Kostum].\n● \"Gaya Perintis\" akan disembunyikan dalam beberapa cutscene dan misi tertentu.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
+		"VersionAdded": "4.3"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "Simulated Universe",
@@ -2204,5 +2270,14 @@
 		"Tag": "Misi Trailblaze Terbuka",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory420.png",
 		"VersionAdded": "4.2"
+	},
+	"80027": {
+		"Id": "80027",
+		"Name": "Terbenam di Sungai Kelupaan Milik Kehidupan",
+		"TabName": "Misi Trailblaze",
+		"Description": "Pengembara yang rindu 'tuk dimakamkan, pelancong yang membawa peringatan ... Mereka mendatangi aliran Sungai Kelupaan kuno di ujung lukisan, menyaksikan suka dan duka masa lalu yang muncul dari dalam ....",
+		"Tag": "Misi Trailblaze Terbuka",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
+		"VersionAdded": "4.3"
 	}
 }

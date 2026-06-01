@@ -1239,6 +1239,46 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
 		"VersionAdded": "4.2"
 	},
+	"2124": {
+		"Id": "2124",
+		"Name": "我身即刃",
+		"Description": "指定角色出现概率提升",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2125": {
+		"Id": "2125",
+		"Name": "光映千翎",
+		"Description": "指定角色出现概率提升",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2126": {
+		"Id": "2126",
+		"Name": "涟漪回环",
+		"Description": "指定角色出现概率提升",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2127": {
+		"Id": "2127",
+		"Name": "永劫燔阳",
+		"Description": "指定角色出现概率提升",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
+		"VersionAdded": "4.3"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "流光定影",
@@ -2468,6 +2508,46 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
 		"VersionAdded": "4.2"
+	},
+	"3124": {
+		"Id": "3124",
+		"Name": "流光定影",
+		"Description": "指定光锥出现概率提升",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光锥活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3125": {
+		"Id": "3125",
+		"Name": "溯回忆象",
+		"Description": "指定光锥出现概率提升",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光锥活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3126": {
+		"Id": "3126",
+		"Name": "溯回忆象",
+		"Description": "指定光锥出现概率提升",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光锥活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3127": {
+		"Id": "3127",
+		"Name": "溯回忆象",
+		"Description": "指定光锥出现概率提升",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光锥活动跃迁",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
+		"VersionAdded": "4.3"
 	},
 	"4001": {
 		"Id": "4001",

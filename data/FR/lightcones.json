@@ -1007,7 +1007,7 @@
 		"Name": "Ricanement",
 		"PathType": "Elation",
 		"PathTypeText": "L'Allégresse",
-		"EffectName": "Réjouissance",
+		"EffectName": "Indulgence",
 		"EffectTemplate": "Lorsque le Moment d'Aha est activé, l'Allégresse du porteur augmente de <color=#f29e38ff>#1[i]%</color> jusqu'à la fin du Moment d'Aha.",
 		"Superimpositions": [
 			{
@@ -7947,6 +7947,67 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"23059": {
+		"Id": "23059",
+		"Name": "Refonte infernale",
+		"PathType": "Warlock",
+		"PathTypeText": "La Nihilité",
+		"EffectName": "Trempe",
+		"EffectTemplate": "Augmente les PV max du porteur de <color=#f29e38ff>#1[i]%</color>. Au début de son tour, le porteur régénère un montant fixe de #2[i] points d'énergie. Cet effet peut s'activer 1 fois par vague. Après que le porteur a utilisé sa compétence pour attaquer, applique Purgatoire aux cibles pour une durée de #3[i] tours. Dans l'état Purgatoire, les DGT critiques subis par les cibles augmentent de <color=#f29e38ff>#4[i]%</color>, et les DGT critiques subis lors des attaques du porteur augmentent de <color=#f29e38ff>#5[i]%</color> supplémentaires.",
+		"Superimpositions": [
+			{
+				"Effect": "Augmente les PV max du porteur de <color=#f29e38ff>30%</color>. Au début de son tour, le porteur régénère un montant fixe de 20 points d'énergie. Cet effet peut s'activer 1 fois par vague. Après que le porteur a utilisé sa compétence pour attaquer, applique Purgatoire aux cibles pour une durée de 2 tours. Dans l'état Purgatoire, les DGT critiques subis par les cibles augmentent de <color=#f29e38ff>30%</color>, et les DGT critiques subis lors des attaques du porteur augmentent de <color=#f29e38ff>30%</color> supplémentaires.",
+				"Params": [
+					0.3,
+					20,
+					2,
+					0.3,
+					0.3
+				]
+			},
+			{
+				"Effect": "Augmente les PV max du porteur de <color=#f29e38ff>37%</color>. Au début de son tour, le porteur régénère un montant fixe de 20 points d'énergie. Cet effet peut s'activer 1 fois par vague. Après que le porteur a utilisé sa compétence pour attaquer, applique Purgatoire aux cibles pour une durée de 2 tours. Dans l'état Purgatoire, les DGT critiques subis par les cibles augmentent de <color=#f29e38ff>37%</color>, et les DGT critiques subis lors des attaques du porteur augmentent de <color=#f29e38ff>37%</color> supplémentaires.",
+				"Params": [
+					0.375,
+					20,
+					2,
+					0.375,
+					0.375
+				]
+			},
+			{
+				"Effect": "Augmente les PV max du porteur de <color=#f29e38ff>45%</color>. Au début de son tour, le porteur régénère un montant fixe de 20 points d'énergie. Cet effet peut s'activer 1 fois par vague. Après que le porteur a utilisé sa compétence pour attaquer, applique Purgatoire aux cibles pour une durée de 2 tours. Dans l'état Purgatoire, les DGT critiques subis par les cibles augmentent de <color=#f29e38ff>45%</color>, et les DGT critiques subis lors des attaques du porteur augmentent de <color=#f29e38ff>45%</color> supplémentaires.",
+				"Params": [
+					0.45,
+					20,
+					2,
+					0.45,
+					0.45
+				]
+			},
+			{
+				"Effect": "Augmente les PV max du porteur de <color=#f29e38ff>52%</color>. Au début de son tour, le porteur régénère un montant fixe de 20 points d'énergie. Cet effet peut s'activer 1 fois par vague. Après que le porteur a utilisé sa compétence pour attaquer, applique Purgatoire aux cibles pour une durée de 2 tours. Dans l'état Purgatoire, les DGT critiques subis par les cibles augmentent de <color=#f29e38ff>52%</color>, et les DGT critiques subis lors des attaques du porteur augmentent de <color=#f29e38ff>52%</color> supplémentaires.",
+				"Params": [
+					0.525,
+					20,
+					2,
+					0.525,
+					0.525
+				]
+			},
+			{
+				"Effect": "Augmente les PV max du porteur de <color=#f29e38ff>60%</color>. Au début de son tour, le porteur régénère un montant fixe de 20 points d'énergie. Cet effet peut s'activer 1 fois par vague. Après que le porteur a utilisé sa compétence pour attaquer, applique Purgatoire aux cibles pour une durée de 2 tours. Dans l'état Purgatoire, les DGT critiques subis par les cibles augmentent de <color=#f29e38ff>60%</color>, et les DGT critiques subis lors des attaques du porteur augmentent de <color=#f29e38ff>60%</color> supplémentaires.",
+				"Params": [
+					0.6,
+					20,
+					2,
+					0.6,
+					0.6
+				]
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"24000": {
 		"Id": "24000",

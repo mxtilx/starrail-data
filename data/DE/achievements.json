@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "Sie wehte vorbei wie Blüten in der Brise.",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "Verbotene Deduktion",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Die Deduktion kommt nach dem Anstoßen.\n<color=#8790abff>※ Begib dich in die Taverne, um Hinweise auf Asat Pramad zu untersuchen.</color>",
+		"HiddenDescription": "Die Deduktion kommt nach dem Anstoßen.",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "Entzünde die Lampen von einst",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Komm raus zur Schneeballschlacht!\n<color=#8790abff>※ Rufe Graphia mit der Methode aus einem vor langer Zeit gegebenen Versprechen herbei.</color>",
+		"HiddenDescription": "Komm raus zur Schneeballschlacht!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "Ein Augenblick am anderen Ufer",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Spring hinab und verschmilz mit dem Azurschlund.\n<color=#8790abff>※ Werde Zeuge, wie Blade sich ans Ende der Welt auf Leinwand begibt.</color>",
+		"HiddenDescription": "Spring hinab und verschmilz mit dem Azurschlund.",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "Was ist eine Klinge?",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Was macht eine Klinge aus? Was zermahlt sich zu Staub, reißt Gegner in Stücke?\n<color=#8790abff>※ Blade hat seine Antwort gefunden.</color>",
+		"HiddenDescription": "Was macht eine Klinge aus? Was zermahlt sich zu Staub, reißt Gegner in Stücke?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "Ein Scherz, der in der Leere vergeht",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Schienen zu den Sternen",
+		"Description": "Nichts ruiniert einen Witz so sehr, wie ihn zu erklären.\n<color=#8790abff>※ Werde Zeuge von Asat Pramads wahrer Identität.</color>",
+		"HiddenDescription": "Nichts ruiniert einen Witz so sehr, wie ihn zu erklären.",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Echter Rollenspieler",
@@ -5558,6 +5613,76 @@
 		"SeriesText": "Geheimnissen auf den Grund gehen",
 		"Description": "Spiele die seltsame Melodie und finde die mysteriöse Kreatur, die sich in Seafeld City versteckt.",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "Ein einsames Leben",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schließe „Sprung-Zeit“ im Hotel „Artford Crossing“ ab.",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "Entgehe dem Attentäter",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schließe „Sprung-Zeit“ im Hotel „Artford Crossing“ ab, ohne dabei von einem Igelgeist getroffen zu werden.",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "Der letzte Frostriese",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Schalte Casper aus.",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "Die Winterlande",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Finde die versteckte Truhe im Schloss, während du dir in „Interplanarer Sprung!“ eine Schneeballschlacht mit Casper lieferst.",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "Willkommen auf der dampfenden Plattform",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Bade in den verschneiten heißen Quellen des Hotels „Artford Crossing“.",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "Geschichten des kopflosen Ritters",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Tritt allen unscheinbaren Schneemännern im Hotel „Artford Crossing“ die Köpfe ab.",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "Arcadia-Variation: Schneekind",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Geheimnissen auf den Grund gehen",
+		"Description": "Spiele die Seltsame Melodie und finde die mysteriöse Kreatur, die sich im Hotel „Artford Crossing“ versteckt.",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "Schließe in „Lasst die Würfel erneut fallen! Kollektiv!“ das finale Duell mit Silberwolf St. 999 ab.",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "Astralbus, wir kommen!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Frage Nihilux nach der Geschichte des Neuen Phantasmond-Spiels.",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "Unendliche Legenden",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Unterstütze die Weiterentwicklung von Sternhase.",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "Und so lebte es glücklich bis zuletzt ...",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Sei gegen die Weiterentwicklung von Sternhase.",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "Wächterin der Welt auf Leinwand",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Beschwöre Graphia im Magiekreis des Hotels „Artford Crossing“.",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "Energiegeladener Typ",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Triff Umbrall sowohl in Dovebrook als auch im Hotel „Artford Crossing“ und sprich jeweils einmal mit ihm.",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "Die Liebe des Ginkgobaums",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Werde vor der Station Zeuge des wehmütigen Abschieds zweier Passanten.",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "Ultimative Entscheidungswaffe für den Kampf",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Werte im Kampf der Pixelflugzeuge zum ersten Mal eine Kernausrüstung auf 3 Sterne auf.",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "Das Lied von Sparxie geht weiter",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Besiege Sparxie im Kampf der Pixelflugzeuge mithilfe von „Streckenmagie“.",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "Das Versprechen unter dem blauen Himmel",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Schalte in „Kampf der Pixelflugzeuge“ alle Pixelflugzeuge frei.",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "Ass der Lüfte",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Gewinne den ultimativen Showdown des Kampfs der Pixelflugzeuge, ohne dabei ein Leben zu verlieren.",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "Abschluss-Set",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Besitze im Kampf der Pixelflugzeuge in einem Spiel gleichzeitig 3-Sterne-Ausrüstung ×#1.",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "Ass aller Modelle",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Erinnerungen mit dir",
+		"Description": "Gewinne im Kampf der Pixelflugzeuge ein Match mit jedem Flugzeug.",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Schatten sterben unendlich oft (I)",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Vorfreude auf den Kampf",
-		"Description": "Setze in einem einzigen Kampf den Ultimate des Trailblazers (Das Hochgefühl) bei #1 verschiedenen Verbündeten jeweils einmal ein.",
+		"Description": "Setze in einem einzigen Kampf den Ultimate des Trailblazers (Das Hochgefühl) bei #1 verschiedenen Figuren jeweils einmal ein.",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "Vorfreude auf den Kampf",
 		"Description": "Besiege im Kampf gegen „Aszendent der Freude“ mit einem einzigen Angriff gleichzeitig #1 oder mehr „Aszendent der Freude: Finale“.",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "Ewige Schmiede, geschmiedete Krieger",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Nach einem gewonnenen Kampf betragen die verbleibenden LP von Mortenax Blade #1.",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "Klingenklirren, Hämmerdröhnen, jede Note ein Schwur",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Setze in einer einzigen Runde mit der verbündeten Figur Mortenax Blade #1-mal „Unter der Klinge, letzte Ruhe“ ein.",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "Feuermeister der Flammen",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Wähle im Kampf gegen Gründungsmalerin Murata Graphia „Flammen löschen“, wenn deine LP niedrig sind und die Erfolgsquote beim Löschen am niedrigsten ist, und hebe dann erfolgreich den Status „Brennender Groll“ auf.",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "Magenreiniger",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Verwende im Kampf gegen Gottverschlingende Brut den Verbündeten mit dem höchsten ANG, um den Status „Verschlingen“ aufzuheben und zusätzlich ANG-Bonus zu erhalten.",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "Ewige Verdammnis",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Vorfreude auf den Kampf",
+		"Description": "Verwende die verbündete Figur Mortenax Blade, um während einer einzigen Dauer von „Grenzenloser Zorn“ #1-mal „Schmiede des Einen, Vergessen des Allen“ einzusetzen.",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "Moment der Freude",
 		"Description": "Werde beim „Interplanarer Sprung!“ von einem Jetski angefahren.",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "Willst du einen Schneemann bauen?",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "Moment der Freude",
+		"Description": "Werde während „Interplanarer Sprung!“ in einem Eisblock eingefroren.",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

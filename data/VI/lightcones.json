@@ -7948,6 +7948,67 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"23059": {
+		"Id": "23059",
+		"Name": "Hình Hài Tái Sinh Từ Hỏa Ngục",
+		"PathType": "Warlock",
+		"PathTypeText": "Hư Vô",
+		"EffectName": "Tôi Luyện",
+		"EffectTemplate": "Khiến Giới Hạn HP của người trang bị tăng <color=#f29e38ff>#1[i]%</color>, khi bắt đầu hiệp của người trang bị, hồi cố định #2[i] điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì #3[i] hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng <color=#f29e38ff>#4[i]%</color>, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm <color=#f29e38ff>#5[i]%</color>.",
+		"Superimpositions": [
+			{
+				"Effect": "Khiến Giới Hạn HP của người trang bị tăng <color=#f29e38ff>30%</color>, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng <color=#f29e38ff>30%</color>, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm <color=#f29e38ff>30%</color>.",
+				"Params": [
+					0.3,
+					20,
+					2,
+					0.3,
+					0.3
+				]
+			},
+			{
+				"Effect": "Khiến Giới Hạn HP của người trang bị tăng <color=#f29e38ff>37%</color>, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng <color=#f29e38ff>37%</color>, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm <color=#f29e38ff>37%</color>.",
+				"Params": [
+					0.375,
+					20,
+					2,
+					0.375,
+					0.375
+				]
+			},
+			{
+				"Effect": "Khiến Giới Hạn HP của người trang bị tăng <color=#f29e38ff>45%</color>, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng <color=#f29e38ff>45%</color>, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm <color=#f29e38ff>45%</color>.",
+				"Params": [
+					0.45,
+					20,
+					2,
+					0.45,
+					0.45
+				]
+			},
+			{
+				"Effect": "Khiến Giới Hạn HP của người trang bị tăng <color=#f29e38ff>52%</color>, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng <color=#f29e38ff>52%</color>, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm <color=#f29e38ff>52%</color>.",
+				"Params": [
+					0.525,
+					20,
+					2,
+					0.525,
+					0.525
+				]
+			},
+			{
+				"Effect": "Khiến Giới Hạn HP của người trang bị tăng <color=#f29e38ff>60%</color>, khi bắt đầu hiệp của người trang bị, hồi cố định 20 điểm Năng Lượng, hiệu ứng này mỗi đợt có thể kích hoạt 1 lần. Sau khi người trang bị thi triển Chiến Kỹ tấn công, khiến mục tiêu rơi vào trạng thái \"Luyện Ngục\", duy trì 2 hiệp, Sát Thương Bạo Kích mục tiêu trong trạng thái \"Luyện Ngục\" phải chịu tăng <color=#f29e38ff>60%</color>, Sát Thương Bạo Kích phải chịu từ người trang bị tăng thêm <color=#f29e38ff>60%</color>.",
+				"Params": [
+					0.6,
+					20,
+					2,
+					0.6,
+					0.6
+				]
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Sự Sụp Đổ Của Aeon",

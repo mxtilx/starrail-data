@@ -3238,6 +3238,47 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"ElementType": "Fire",
+		"ElementTypeText": "Fire",
+		"PathType": "Warlock",
+		"PathTypeText": "Nihility",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "Ere My Death, I Stood Unmade",
+				"Effect": "Selama durasi area pembatas, mengurangi RES Seluruh Tipe dari seluruh musuh sebesar 20%. Setelah melancarkan Skill ekstra dari Talent, hitung mundur \"Infinite Fury\" mengalami 15% <u>Penundaan Aksi</u>."
+			},
+			{
+				"Id": "150702",
+				"Name": "Ash Was My Heart, Yet the Flame Stayed",
+				"Effect": "Saat karakter tim melancarkan Ultimate untuk mengakibatkan DMG, akan dianggap melancarkan <u>Serangan Lanjutan</u>. DMG <u>Serangan Lanjutan</u> yang diakibatkan rekan tim meningkat 75%. Batas maksimum poin Charge Mortenax Blade berkurang menjadi 7."
+			},
+			{
+				"Id": "150703",
+				"Name": "Across the Shore, Wrath Laid Bare",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15."
+			},
+			{
+				"Id": "150704",
+				"Name": "Odium I've Smitten, Thence Came the Blade",
+				"Effect": "\"Heart, Refined ad Infinitum\" membuat DMG yang diakibatkan rekan tim meningkat ekstra 50%."
+			},
+			{
+				"Id": "150705",
+				"Name": "I Severed My Woes, Knowing Death Begets Life",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10."
+			},
+			{
+				"Id": "150706",
+				"Name": "If Immortality Could Die, I Swore THEM Slain",
+				"Effect": "Selama area pembatas berlangsung, saat Mortenax Blade menerima DMG atau mengonsumsi HP, akan memperoleh 1 poin Charge. Efek ini dapat dipicu kembali setelah giliran target mana pun berakhir. DMG Multiplier \"Tenax Per Ignem\" meningkat menjadi 150% dari Multiplier aslinya."
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physical)",

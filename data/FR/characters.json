@@ -3167,7 +3167,7 @@
 			{
 				"Id": "150501",
 				"Name": "Terre natale : Une prière dansée",
-				"Effect": "Augmente la PÉN de RÉS à tous les types de 20%. Après une attaque de Maître renard, déclenche la comicompétence 1 fois supplémentaire. La comicompétence accorde 10 points de <u>Banger absolu</u> supplémentaires à cette unité."
+				"Effect": "Augmente la PÉN de RÉS à tous les types de 20%. Après une attaque de Maître renard, déclenche la comicompétence 1 fois supplémentaire. La comicompétence accorde 10 points supplémentaires de <u>Banger absolu</u> à cette unité."
 			},
 			{
 				"Id": "150502",
@@ -3237,6 +3237,47 @@
 			}
 		],
 		"VersionAdded": "4.2"
+	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Blade Mortenax",
+		"ElementType": "Fire",
+		"ElementTypeText": "Feu",
+		"PathType": "Warlock",
+		"PathTypeText": "La Nihilité",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "Absolution par la mort",
+				"Effect": "Lorsque la zone est active, réduit toutes les RÉS de type de tous les ennemis de 20%. Après avoir lancé la compétence supplémentaire du talent, <u>retarde l'action</u> du compte à rebours de Courroux éternel de 15%."
+			},
+			{
+				"Id": "150702",
+				"Name": "Feu d'un cœur en cendres",
+				"Effect": "Lorsqu'un personnage allié utilise son ultime pour infliger des DGT, il est considéré comme ayant lancé une <u>ATQ de suivi</u>. Les DGT infligés par les <u>ATQ de suivi</u> des cibles alliées augmentent de 75%. La limite de points de charge de Blade Mortenax diminue et passe à 7."
+			},
+			{
+				"Id": "150703",
+				"Name": "Colère de l'autre rive",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "150704",
+				"Name": "Au fil de la haine",
+				"Effect": "Cœur par mille fois endurci augmente les DGT infligés par les cibles alliées de 50% supplémentaires."
+			},
+			{
+				"Id": "150705",
+				"Name": "Une vie née dans l'amertume",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum."
+			},
+			{
+				"Id": "150706",
+				"Name": "Mort à l'immortalité",
+				"Effect": "Lorsque la zone est active, Blade Mortenax obtient 1 point de charge quand il subit des DGT ou consomme des PV. Cet effet peut se déclencher à nouveau après la fin du tour de n'importe quelle cible. Le multiplicateur de DGT de Tenax Per Ignem augmente jusqu'à 150% de la valeur initiale."
+			}
+		],
+		"VersionAdded": "4.3"
 	},
 	"8001": {
 		"Id": "8001",
@@ -3600,7 +3641,7 @@
 			{
 				"Id": "800902",
 				"Name": "Moment incroyable en préparation...",
-				"Effect": "L'ultime augmente l'Allégresse d'un allié désigné de 12% supplémentaires pendant 2 tours."
+				"Effect": "L'ultime augmente également l'Allégresse d'un allié désigné de 12% pendant 2 tours."
 			},
 			{
 				"Id": "800903",
@@ -3643,7 +3684,7 @@
 			{
 				"Id": "801002",
 				"Name": "Moment incroyable en préparation...",
-				"Effect": "L'ultime augmente l'Allégresse d'un allié désigné de 12% supplémentaires pendant 2 tours."
+				"Effect": "L'ultime augmente également l'Allégresse d'un allié désigné de 12% pendant 2 tours."
 			},
 			{
 				"Id": "801003",

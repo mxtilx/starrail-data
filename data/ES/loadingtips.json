@@ -2375,6 +2375,18 @@
 		"Description": "Siguiendo el rastro del criminal, Ashveil se detuvo junto al puente y recordó brevemente el pasado...",
 		"VersionAdded": "4.1"
 	},
+	"20100": {
+		"Id": "20100",
+		"Name": "Cambiando a la perspectiva de Ashveil...",
+		"Description": "De vuelta en El Fin del Mundo, Ashveil persigue de cerca a un objetivo extremadamente peligroso...",
+		"VersionAdded": "4.3"
+	},
+	"20101": {
+		"Id": "20101",
+		"Name": "Cambiando a la perspectiva de Himeko...",
+		"Description": "Siguiendo la pista de las incógnitas sobre su padre, Himeko recordó brevemente aquellas pinturas relacionadas con la Destrucción...",
+		"VersionAdded": "4.3"
+	},
 	"20102": {
 		"Id": "20102",
 		"Name": "Cambiando a la perspectiva de Evanescia...",

@@ -127933,6 +127933,1461 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "{RUBY_B#センヤ}千冶{RUBY_E#}・{RUBY_B#ジン}刃{RUBY_E#}",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "{RUBY_B#か}刈{RUBY_E#}り{RUBY_B#つ}尽{RUBY_E#}くす{RUBY_B#きじん}毀刃{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "通常攻撃",
+				"EffectRaw": "指定した敵単体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与え、ターゲットを挑発状態にする。挑発状態は1ターン継続する。",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "ファジェイナの涙",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "{RUBY_B#ほうむ}葬{RUBY_E#}り{RUBY_B#さ}去{RUBY_E#}る{RUBY_B#せんじん}千刃{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "戦闘スキル",
+				"EffectRaw": "千冶・刃の最大HP<unbreak>#4[i]%</unbreak>分のHPを消費し、敵全体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>分の炎属性ダメージを与え、さらに<unbreak>#2[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>分の炎属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、千冶・刃の残りHPが1になる。\n「無量忿怒」状態ではない場合、または残りHPが1以下の時、千冶・刃は戦闘スキルを発動できない。\n戦闘スキルを発動する時、SPを消費しない。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "ファジェイナの涙",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "{RUBY_B#ほね}骨{RUBY_E#}は{RUBY_B#ろ}炉{RUBY_E#}に、{RUBY_B#ちにく}血肉{RUBY_E#}は{RUBY_B#まき}薪{RUBY_E#}にす",
+				"NodeType": 2,
+				"NodeTypeText": "必殺技",
+				"EffectRaw": "敵全体を「修羅の炎」状態にする。「修羅の炎」状態の敵は防御力-<color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>、受けるダメージ+<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>、<unbreak>#8[i]</unbreak>ターン継続。その後、千冶・刃は最大HP<unbreak>#1[i]%</unbreak>分のHPを消費して結界を展開する。結界が展開されている間、千冶・刃は「無量忿怒」状態になる。\n「無量忿怒」状態では、会心率+<unbreak>#2[i]%</unbreak>、会心ダメージ+<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>。通常攻撃は「魂魄を断つ鋭刃」に強化される。同時に戦闘スキルが解放され、新たな必殺技「千冶は一を鋳り、万劫を燼滅す」を獲得する。またHPが0になる攻撃を受けた時、<u>戦闘不能状態</u>にならない代わりに結界を解除し、「無量忿怒」状態を終了して、自身の最大HP<unbreak>#6[i]%</unbreak>分のHPを回復する。\n「無量忿怒」状態になった時、アクションバーに「無量忿怒」のカウントダウンが出現する。カウントダウンの速度は<unbreak>#5[i]</unbreak>で固定されており、カウントダウンのターンが回ってきた時、結界は解除され「無量忿怒」状態が終了する。\n残りHPが足りない状態でこのスキルを発動すると、千冶・刃の残りHPが1になる。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "ファジェイナの涙",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "{RUBY_B#いんがせいさん}因果清算{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "天賦",
+				"EffectRaw": "結界が展開されている間、味方は敵を攻撃するたびに、ターゲットに「修羅の炎」を付与する。同時に、千冶・刃はチャージを1獲得する。チャージが<unbreak>#1[i]</unbreak>に達し、かつ残りHPが1を超えた時、千冶・刃はチャージを<unbreak>#1[i]</unbreak>消費して、EPを<color=#f29e38ff><unbreak>#2[f1]</unbreak></color>回復し、追加で戦闘スキルを1回発動する。なお、この回の戦闘スキルは<u>追加攻撃</u>と見なされる。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "ファジェイナの涙",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "{RUBY_B#じっぽうふしゃ}十方不赦{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "秘技",
+				"EffectRaw": "一定範囲内のすべての敵を即座に攻撃する。戦闘に入った後、敵全体を挑発状態にする。挑発状態は1ターン継続する。また、自身の受けるダメージ-<unbreak>#1[i]%</unbreak>、<unbreak>#2[i]</unbreak>ターン継続。",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "{RUBY_B#ひゃくれん}百錬{RUBY_E#}の{RUBY_B#ほね}骨{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "千冶・刃は最大EPを超えた分のEPを<unbreak>#2[i]</unbreak>まで蓄積できる。必殺技を発動した後、上限を超えて蓄積された分のEPを回復し、蓄積した超過分をクリアする。戦闘開始時または結界が解除された時、EPが<unbreak>#1[i]%</unbreak>未満の場合、即座に<unbreak>#1[i]%</unbreak>まで回復する。EPが上限まで回復した時、自身のすべての<u>デバフ</u>を解除する。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "ファジェイナの涙",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "{RUBY_B#せんたん}千鍛{RUBY_E#}の{RUBY_B#たましい}魂{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "結界が展開されている間、敵に攻撃される確率がアップ、自身の受けるダメージ-<unbreak>#2[i]%</unbreak>、受ける治癒量+<unbreak>#3[i]%</unbreak>。攻撃を受けた後、攻撃者に「修羅の炎」状態を付与し、千冶・刃はチャージを1獲得する。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "{RUBY_B#ばんさい}万淬{RUBY_E#}の{RUBY_B#こころ}心{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "結界が展開されている間、味方の与ダメージ+<unbreak>#1[i]%</unbreak>。パーティに千冶・刃以外の「虚無」の運命を歩むキャラがいる場合、味方の必殺技ダメージ+<unbreak>#2[i]%</unbreak>。また、パーティに千冶・刃以外の「虚無」の運命を歩むキャラがいない場合、千冶・刃の与ダメージがさらに+<unbreak>#3[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "会心率強化",
+				"NodeType": 1,
+				"EffectRaw": "会心率+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "ファジェイナの涙",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "HP強化",
+				"NodeType": 1,
+				"EffectRaw": "最大HP+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "ファジェイナの酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "会心率強化",
+				"NodeType": 1,
+				"EffectRaw": "会心率+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "HP強化",
+				"NodeType": 1,
+				"EffectRaw": "最大HP+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "会心率強化",
+				"NodeType": 1,
+				"EffectRaw": "会心率+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "ファジェイナの心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

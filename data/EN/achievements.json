@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "Gone with the blossom on the breeze",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "Forbidden Deduction",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Deduction comes after the clink\n<color=#8790abff>※ Head to the tavern to investigate clues about Asat Pramad</color>",
+		"HiddenDescription": "Deduction comes after the clink",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "Light the Lamps of Yesteryear",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Come out for a snowball fight!\n<color=#8790abff>※ Summon Graphia using the method from a promise made long ago</color>",
+		"HiddenDescription": "Come out for a snowball fight!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "A Moment on the Distant Shore",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Jump down, and melt into that blue hole\n<color=#8790abff>※ Witness Blade's journey to the end of the World in Canvas</color>",
+		"HiddenDescription": "Jump down, and melt into that blue hole.",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "What Is a Blade",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "What makes a blade? What grinds itself to dust, tears enemies asunder?\n<color=#8790abff>※ Blade has found his answer</color>",
+		"HiddenDescription": "What makes a blade? What grinds itself to dust, tears enemies asunder?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "A Jest That Fades Into the Void",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "The Rail Unto the Stars",
+		"Description": "Nothing kills a joke quite like explaining it\n<color=#8790abff>※ Bear witness to Asat Pramad's revelation of his true identity</color>",
+		"HiddenDescription": "Nothing kills a joke quite like explaining it",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Proper Role-Playing Gamer",
@@ -5559,6 +5614,76 @@
 		"Description": "Play a Bizarre Melody and find the mysterious creature hiding in Seafeld City",
 		"VersionAdded": "4.2"
 	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "A Solitary Life",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Complete the \"Jump Time\" at Inkford Hermitage",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "Dodge the Assassin",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Complete the \"Jump Time\" at Inkford Hermitage without being hit by any Hedgehogae",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "The Last Frost Giant",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Knock out Casper",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "The Winterlands",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Find the hidden chest in the castle while having a snowball fight with Casper during \"Interplanar Jump!\"",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "Welcome to the Steam Platform",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Soak in the snowside hot springs at Inkford Hermitage",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "Tales of the Headless Knight",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Kick off the heads of all \"Unremarkable Snowmen\" in Inkford Hermitage",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "Arcadia Variation: Snow Child",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Fathom the Unfathomable",
+		"Description": "Play a Bizarre Melody and find the mysterious creature hiding in Inkford Hermitage",
+		"VersionAdded": "4.3"
+	},
 	"4051001": {
 		"Id": "4051001",
 		"Name": "Guess Who I Am",
@@ -6785,12 +6910,12 @@
 	},
 	"4052722": {
 		"Id": "4052722",
-		"Name": "Journey to the Arctic Bear Cub",
+		"Name": "Journey of the Ice Bear",
 		"SortOrder": 941,
 		"Rarity": "Low",
 		"SeriesId": 5,
 		"SeriesText": "The Memories We Share",
-		"Description": "Interact warmly with the arctic bear cub",
+		"Description": "Interact warmly with the Ice Bear cub",
 		"VersionAdded": "1.4"
 	},
 	"4052723": {
@@ -12423,6 +12548,126 @@
 		"Description": "Complete the final showdown with Silver Wolf LV.999 in \"Cosmicon, Roll On Again!\"",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "Astral Bus, Here We Come!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Ask Nihilux about the story of Phantasmoon New Game",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "Infinite Legends",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Support the continued development of Star Rabbit",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "And So, It Lived Happily Ever After...",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Oppose the continued development of Star Rabbit",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "Guardian of the World in Canvas",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Summon \"Graphia\" within the magic circle at Inkford Hermitage",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "High-Energy Type",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Encounter and speak with Umbralle in both Dovebrook District and Inkford Hermitage, once in each location",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "Ginkgo Tree Romance",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Witness two passersby bidding a fond farewell in front of the station",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "Ultimate Decisive Battle Weapon",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Pixel Plane Rumble,\" upgrade a core equipment to 3-star for the first time",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "Song of Sparxie Continued",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Pixel Plane Rumble,\" defeat Sparxie using \"Track Magic\"",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "Covenant Beneath the Azure",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "Unlock all pixel planes in \"Pixel Plane Rumble\"",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "Ace in the Air",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Pixel Plane Rumble,\" win the Ultimate Showdown without losing a single life",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "Graduation Set",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Pixel Plane Rumble,\" possess #1 3-star equipment simultaneously in a single run",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "Ace of All Models",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "The Memories We Share",
+		"Description": "In \"Pixel Plane Rumble,\" win a match with every plane",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Shadows Die Ad Infinitum (I)",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Eager for Battle",
-		"Description": "In a single battle, use Trailblazer (Elation)'s Ultimate on #1 different teammates once each",
+		"Description": "In a single battle, use Trailblazer (Elation)'s Ultimate on #1 different characters once each",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "Eager for Battle",
 		"Description": "In the battle against \"Joy Ascendant\", defeat #1 or more \"Joy Ascendant: Finale\" in a single attack",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "Forge Everlasting, Warriors Forged",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "When winning the battle, Mortenax Blade's remaining HP is #1.",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "Clash of Blades, Ring of Hammers, Each Note a Testament",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In a single turn, use ally character Mortenax Blade to trigger \"A Rain of Blades Seals Fate\" a total of #1 time(s)",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "Flame-Flame Firemaster",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "During combat with Murata Graphia, Founding Artist, select \"Extinguish Flames\" when your HP is low and the success rate for extinguishing is at its lowest, then successfully dispel the \"Grudge Ablaze\" state",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "Gut Liberator",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "In combat against God-Devourer Offspring, use ally character with the highest ATK to dispel the \"Devour\" state and gain bonus ATK",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "Eternal Condemnation",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Eager for Battle",
+		"Description": "Have ally character Mortenax Blade use \"Tenax Per Ignem\" #1 time(s) during a single activation of the \"Infinite Fury\" state",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "Moment of Joy",
 		"Description": "Hit by a hydro-car during an Interplanar Jump! sequence",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "Do You Wanna Build a Snowman?",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "Moment of Joy",
+		"Description": "Frozen in an ice block during \"Interplanar Jump!\"",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

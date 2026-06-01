@@ -112889,7 +112889,7 @@
 				"Name": "Serenata de sirena",
 				"NodeType": 2,
 				"NodeTypeText": "Talento",
-				"EffectRaw": "Cuando un aliado ataca, Hysilens tiene una <u>probabilidad base</u> del <unbreak>#1[i]%</unbreak> de afectar a los enemigos atacados con uno de estos estados: Intemperie, Sangrado, Quemadura o Electrocución. Prioriza aplicar estados diferentes.\nEn los estados de Intemperie, Quemadura o Electrocución, el enemigo recibe un Daño con el tiempo de tipo Viento, Fuego o Rayo equivalente al <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> del ATQ de Hysilens al comienzo de cada turno durante <unbreak>#5[i]</unbreak> turnos.\nEn el estado de Sangrado, el enemigo recibe un Daño Físico con el tiempo equivalente al <unbreak>#3[f1]%</unbreak> de los PV máx. de esta unidad al comienzo de cada turno, hasta un máximo del <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> del ATQ de Hysilens, durante <unbreak>#5[i]</unbreak> turnos.",
+				"EffectRaw": "Cuando un aliado ataca, Hysilens tiene una <u>probabilidad base</u> del <unbreak>#1[i]%</unbreak> de afectar a los enemigos atacados con uno de estos estados: Intemperie, Sangrado, Quemadura o Electrocución. Prioriza aplicar estados diferentes.\nEn los estados de Intemperie, Quemadura o Electrocución, el enemigo recibe un Daño con el tiempo de tipo Viento, Fuego o Rayo equivalente al <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> del ATQ de Hysilens al comienzo de cada turno durante <unbreak>#5[i]</unbreak> turnos.\nEn el estado de Sangrado, el enemigo recibe un Daño Físico con el tiempo equivalente al <unbreak>#3[f1]%</unbreak> de sus PV máx. al comienzo de cada turno, hasta un máximo del <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> del ATQ de Hysilens, durante <unbreak>#5[i]</unbreak> turnos.",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"141004"
@@ -126973,7 +126973,7 @@
 				"Name": "Aquí quien carrea soy yo",
 				"NodeType": 2,
 				"NodeTypeText": "Talento",
-				"EffectRaw": "Tras alcanzar <unbreak>#1[i]</unbreak> pts. de MMR oculto, se puede activar la habilidad definitiva. Puede haber un excedente de <unbreak>#2[i]</unbreak> pts. de MMR oculto tras alcanzar el máximo.\nAl obtenerse <u>Chiste</u>, Silver Wolf Niv. <unbreak>999</unbreak> obtiene la misma cantidad de MMR oculto. Cada pt. de MMR oculto aumenta la Prob. CRIT en un <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Una vez que la Prob. CRIT alcanza el <unbreak>100%</unbreak>, cada pt. del MMR oculto restante pasa a aumentar el Daño CRIT en un <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\nEn el estado de Jugadora imbatible, Silver Wolf Niv. <unbreak>999</unbreak> es inmune a los <u>estados negativos de Control</u>, no puede lanzar la habilidad definitiva y posee un ATQ básico potenciado y una habilidad de Exultación potenciada. Sale del estado de Jugadora imbatible tras terminar de lanzar <unbreak>#5[i]</unbreak> veces el ATQ básico potenciado. Al salir del estado de Jugadora imbatible, el MMR oculto se restablece.\nMientras tiene <u>¡Bien hecho!</u>, al lanzar el ATQ básico o la habilidad básica, inflige a los enemigos atacados un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>Daño de Exultación</u> Imaginario, y el daño de habilidad del ATQ básico potenciado se convierte en <u>Daño de Exultación</u> con el mismo multiplicador.",
+				"EffectRaw": "Tras alcanzar <unbreak>#1[i]</unbreak> pts. de MMR oculto, se puede activar la habilidad definitiva. Puede haber un excedente de <unbreak>#2[i]</unbreak> pts. de MMR oculto tras alcanzar el máximo.\nAl obtenerse <u>Chiste</u>, Silver Wolf Niv. <unbreak>999</unbreak> obtiene la misma cantidad de MMR oculto. Cada pt. de MMR oculto aumenta la Prob. CRIT en un <color=#f29e38ff><unbreak>#4[f2]%</unbreak></color>. Una vez que la Prob. CRIT alcanza el <unbreak>100%</unbreak>, cada pt. del MMR oculto restante pasa a aumentar el Daño CRIT en un <color=#f29e38ff><unbreak>#6[f2]%</unbreak></color>.\nEn el estado de Jugadora imbatible, Silver Wolf Niv. <unbreak>999</unbreak> es inmune a los <u>estados negativos de Control</u>, no puede lanzar la habilidad definitiva y posee un ATQ básico potenciado y una habilidad de Exultación potenciada. Sale del estado de Jugadora imbatible tras haber lanzado <unbreak>#5[i]</unbreak> veces el ATQ básico potenciado. Al salir del estado de Jugadora imbatible, el MMR oculto se restablece.\nMientras tiene <u>¡Bien hecho!</u>, al lanzar el ATQ básico o la habilidad básica, inflige a los enemigos atacados un <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de <u>Daño de Exultación</u> Imaginario, y el daño de habilidad del ATQ básico potenciado se convierte en <u>Daño de Exultación</u> con el mismo multiplicador.",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"150604"
@@ -127932,6 +127932,1461 @@
 			}
 		},
 		"VersionAdded": "4.2"
+	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "Espada rota, arrasa con todo",
+				"NodeType": 2,
+				"NodeTypeText": "ATQ básico",
+				"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de los PV máx. de Mortenax Blade como Daño de Fuego a un enemigo y lo afecta con Provocación durante 1 turno.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Lágrima de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "Tumba bajo las espadas",
+				"NodeType": 2,
+				"NodeTypeText": "Habilidad básica",
+				"EffectRaw": "Mortenax Blade consume un <unbreak>#4[i]%</unbreak> de sus PV máx., inflige un <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> de sus PV máx. como Daño de Fuego a todos los enemigos e inflige daño <unbreak>#2[i]</unbreak> veces más. Cada vez inflige un <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> de los PV máx. de Mortenax Blade como Daño de Fuego a un enemigo al azar.\nSi Mortenax Blade no tiene suficientes PV, sus PV actuales se reducen a 1 al lanzar la habilidad básica.\nSi no está en el estado de Ira inconmensurable o si sus PV actuales son iguales o inferiores a 1, Mortenax Blade no puede lanzar la habilidad básica.\nLanzar la habilidad básica no consume pts. de habilidad básica.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Lágrima de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "Huesos como fragua, carne como leña",
+				"NodeType": 2,
+				"NodeTypeText": "Habilidad definitiva",
+				"EffectRaw": "Afecta a todos los enemigos con Abrazo flamígero. La DEF de los enemigos afectados con Abrazo flamígero se reduce en un <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> y el daño que reciben aumenta en un <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> durante <unbreak>#8[i]</unbreak> turnos. A continuación, consume un <unbreak>#1[i]%</unbreak> de los PV máx. de Mortenax Blade y despliega un campo. Mientras el campo está activo, Mortenax Blade tiene el estado Ira inconmensurable.\nEn el estado de Ira inconmensurable, la Prob. CRIT y el Daño CRIT aumentan en un <unbreak>#2[i]%</unbreak> y un <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> respectivamente. Además, su ATQ básico se potencia, desbloquea la habilidad básica y obtiene la nueva habilidad definitiva Forja de uno, olvido de todos. Si recibe un golpe letal, no cae <u>derrotado</u>, pero el campo se disipa, sale del estado de Ira inconmensurable y regenera una cantidad de PV equivalente al <unbreak>#6[i]%</unbreak> de sus PV máx.\nAl obtener el estado de Ira inconmensurable, en el orden de acción aparece una cuenta regresiva con una VEL fija de <unbreak>#5[i]</unbreak>. Cuando comienza el turno de la cuenta regresiva, el campo se disipa y sale del estado de Ira inconmensurable.\nSi Mortenax Blade no tiene suficientes PV al lanzar esta habilidad, sus PV actuales se reducen a 1.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Lágrima de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "Retribución kármica",
+				"NodeType": 2,
+				"NodeTypeText": "Talento",
+				"EffectRaw": "Mientras el campo está activo, cada vez que un aliado ataca a un enemigo, lo afecta con el estado Abrazo flamígero y Mortenax Blade obtiene 1 pt. de carga. Cuando la carga llega a <unbreak>#1[i]</unbreak> pts. y sus PV actuales son superiores a 1, consume <unbreak>#1[i]</unbreak> pts. de carga, recupera <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> pts. de energía y Mortenax Blade lanza la habilidad básica 1 vez adicional. Este lanzamiento de la habilidad básica se considera un <u>ataque adicional</u>.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Lágrima de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "Condena absoluta",
+				"NodeType": 2,
+				"NodeTypeText": "Técnica",
+				"EffectRaw": "Ataca inmediatamente a todos los enemigos de un área determinada. Tras entrar en combate, afecta a todos los enemigos con Provocación durante 1 turno y reduce el daño recibido en un <unbreak>#1[i]%</unbreak> durante <unbreak>#2[i]</unbreak> turnos.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "Huesos cien veces pulidos",
+				"NodeType": 3,
+				"EffectRaw": "Mortenax Blade puede acumular hasta <unbreak>#2[i]</unbreak> pts. de energía excedente. Tras lanzar la habilidad definitiva, la energía excedente se restablece y recupera la cantidad correspondiente de energía. Si la energía está por debajo del <unbreak>#1[i]%</unbreak> al comenzar la batalla o cuando el campo se disipa, la recupera inmediatamente hasta el <unbreak>#1[i]%</unbreak>. Cuando la energía se recupera al máximo, se disipan todos los <u>estados negativos</u> que tenga.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Lágrima de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "Alma mil veces reforjada",
+				"NodeType": 3,
+				"EffectRaw": "Mientras el campo está activo, aumenta la probabilidad de recibir ataques de los enemigos, el daño recibido se reduce en un <unbreak>#2[i]%</unbreak> y la curación recibida aumenta en un <unbreak>#3[i]%</unbreak>. Además, tras recibir un ataque, el objetivo correspondiente es afectado con el estado Abrazo flamígero y Mortenax Blade obtiene 1 pt. de carga.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "Corazón infinitamente templado",
+				"NodeType": 3,
+				"EffectRaw": "Mientras el campo está activo, el daño que infligen los aliados aumenta en un <unbreak>#1[i]%</unbreak>. Si en el equipo aliado hay algún personaje de la Vía de la Nihilidad aparte de Mortenax Blade, el daño de habilidad definitiva que infligen los aliados aumenta en un <unbreak>#2[i]%</unbreak>. De lo contrario, el daño que inflige Mortenax Blade aumenta adicionalmente en un <unbreak>#3[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "Bonificación de Prob. CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Prob. CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Lágrima de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "Bonificación de PV",
+				"NodeType": 1,
+				"EffectRaw": "PV máx. +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Vino de Fagusa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "Bonificación de Prob. CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Prob. CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "Bonificación de PV",
+				"NodeType": 1,
+				"EffectRaw": "PV máx. +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "Bonificación de Prob. CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Prob. CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Corazón de Fagusa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
 	},
 	"8001": {
 		"Id": "8001",

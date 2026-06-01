@@ -508,7 +508,7 @@
 		"Name": "Resonanzausprägung: Leiden und Sonnenschein",
 		"Rarity": 1,
 		"Effect": "Die Angriffe von Pfadresonanz: Die Nichtigkeit verursachen bei allen Gegnern mit einer Grundchance von 100 % für <color=#f29e38ff>2</color> Rd. 2 Stapelungen <u>Verwirrung</u> und 2 Stapelungen <u>Leere</u>.",
-		"AbridgedEffect": "Die Anriffe von Pfadresonanz: Die Nichtigkeit verursachen mit hoher Chance <u>Verwirrung</u> und <u>Leere</u>.",
+		"AbridgedEffect": "Die Angriffe von Pfadresonanz: Die Nichtigkeit verursachen mit hoher Chance <u>Verwirrung</u> und <u>Leere</u>.",
 		"VersionAdded": "1.0"
 	},
 	"612223": {
@@ -8132,6 +8132,13 @@
 		"Rarity": 1,
 		"Effect": "Erhöht den von Silberwolf St. 999 verursachten SCH in Divergentes Universum.\n\nZu Beginn von Ahas Runde wird das Hochgefühl von Silberwolf St. 999 für jeden Lachpunkt um <color=#f29e38ff>0.5%</color> erhöht. Dieser Effekt hält bis zum Beginn von Ahas nächster Runde an.",
 		"VersionAdded": "4.2"
+	},
+	"661507": {
+		"Id": "661507",
+		"Name": "Mortenax Blade",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Mortenax Blade verursachten SCH in Divergentes Universum.\n\nNach LP-Verlust wird für <color=#f29e38ff>2</color> Rd. die LP-Wiederherstellung um <color=#f29e38ff>15%</color> und der endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
+		"VersionAdded": "4.3"
 	},
 	"668001": {
 		"Id": "668001",

@@ -1239,6 +1239,46 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1220_Selected.png",
 		"VersionAdded": "4.2"
 	},
+	"2124": {
+		"Id": "2124",
+		"Name": "Now I Am Become Blade",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1507_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2125": {
+		"Id": "2125",
+		"Name": "Gleam of a Thousand Plumes",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1502_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2126": {
+		"Id": "2126",
+		"Name": "Ripples Rejoined",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1415_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"2127": {
+		"Id": "2127",
+		"Name": "To Evermore Burn as the Sun",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
+		"VersionAdded": "4.3"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Brilliant Fixation",
@@ -2468,6 +2508,46 @@
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23031_Selected.png",
 		"VersionAdded": "4.2"
+	},
+	"3124": {
+		"Id": "3124",
+		"Name": "Brilliant Fixation",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23059_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3125": {
+		"Id": "3125",
+		"Name": "Bygone Reminiscence",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23054_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3126": {
+		"Id": "3126",
+		"Name": "Bygone Reminiscence",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23052_Selected.png",
+		"VersionAdded": "4.3"
+	},
+	"3127": {
+		"Id": "3127",
+		"Name": "Bygone Reminiscence",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
+		"VersionAdded": "4.3"
 	},
 	"4001": {
 		"Id": "4001",

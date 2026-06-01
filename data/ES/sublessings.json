@@ -8133,6 +8133,13 @@
 		"Effect": "El daño de Silver Wolf Niv. 999 recibe una Amplificación en el Universo Diferenciado.\n\nAl comenzar el turno de Aha, por cada punto de Chiste, la Exultación de Silver Wolf Niv. 999 aumenta en un <color=#f29e38ff>0.5%</color> hasta el comienzo del siguiente turno de Aha.",
 		"VersionAdded": "4.2"
 	},
+	"661507": {
+		"Id": "661507",
+		"Name": "Mortenax Blade",
+		"Rarity": 1,
+		"Effect": "El daño de Mortenax Blade se amplifica en el Universo Diferenciado.\n\nTras reducirse sus PV, los PV regenerados aumentan en un <color=#f29e38ff>15%</color> y el daño final aumenta en un <color=#f29e38ff>15%</color> durante <color=#f29e38ff>2</color> turno(s).",
+		"VersionAdded": "4.3"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "彼女は風花のようにひらりと過ぎていった",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "禁忌の推理",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "謎解きは乾杯のあとで\n<color=#8790abff>※「パブ」に向かい、帰寂の存在に関する手がかりを調べる</color>",
+		"HiddenDescription": "謎解きは乾杯のあとで",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "昔日の明かりを灯す",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "雪合戦しようよ！\n<color=#8790abff>※昔の約束どおりの方法でグラフィエを呼び出す</color>",
+		"HiddenDescription": "雪合戦しようよ！",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "彼岸に立ち止まる時",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "飛び降りて、あの藍洞に溶け込もう\n<color=#8790abff>※ 刃が絵の世界の果てへ向かうのを見届ける</color>",
+		"HiddenDescription": "飛び降りて、あの藍洞に溶け込もう。",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "刃のごとし",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "何をもって刃となすか？何ゆえ身を削り、敵を切り裂くのか？\n<color=#8790abff>※刃は答えを得た</color>",
+		"HiddenDescription": "何をもって刃となすか？何ゆえ身を削り、敵を切り裂くのか？",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "静寂に帰す冗談",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "星へ続くレイル",
+		"Description": "ジョークを説明するのは最低の行為だ\n<color=#8790abff>※帰寂が自らの正体を明かすのを見届ける</color>",
+		"HiddenDescription": "ジョークを説明するのは最低の行為だ",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "RPGでは合法的",
@@ -5558,6 +5613,76 @@
 		"SeriesText": "衆秘探奇",
 		"Description": "奇妙な楽章を演奏して、海原市に潜む謎の生き物を見つけ出す",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "孤高なる者",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "渡画泉隠の「ジャンプタイム」をクリアする",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "刺客を避ける",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "ハリネズミの初に当たることなく、渡画泉隠の「ジャンプタイム」をクリアする",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "最後の氷の巨人",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "カスペを気絶させる",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "雪国",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "「二次元ジャンプ！」でカスペと雪合戦をしている最中に、城内の隠し宝箱を見つける",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "スチームプラットフォームへようこそ",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "渡画泉隠の雪見温泉でお風呂に入る",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "雪見デュラハンの噂",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "渡画泉隠にあるすべての「ごく普通の雪だるま」の頭部を蹴り飛ばす",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "楽園変奏曲：雪ん子",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "衆秘探奇",
+		"Description": "奇妙な楽章を奏でて、渡画泉隠に潜む謎の生き物を見つけ出す",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "「ふたたび！サイコロ最高！コズミック・フォース！」で、銀狼LV.999との最終決戦を終える",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "出発！星穹バス！",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "虚照から「幻月遊儀（新）」の物語を聞く",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "終わりなき伝説",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「星軌の兎」の開発継続を支援する",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "いつまでも幸せに暮らしたとさ。めでたしめでたし……",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「星軌の兎」の開発継続に反対する",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "絵の世界の守護者",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "渡画泉隠の法陣で「グラフィエ」を召喚する",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "元気に満ちあふれた人",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "鳩川区と渡画泉隠でアンブレラに2回出会い、会話する",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "イチョウの木の恋",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "駅前で、2人の通行人が別れを惜しむ姿を見届ける。",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "最終決戦兵器",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ドット絵飛行機ウォーズ」で、初めてコア装備を1つ★3にする",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "続・火花の歌",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ドット絵飛行機ウォーズ」で、「コースの魔術」を使って火花を倒す",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "青空の下の約束",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ドット絵飛行機ウォーズ」で、すべてのドット絵飛行機を解放する",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "エースバトル",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ドット絵飛行機ウォーズ」で、HPを失わずに頂上決戦に勝利する",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "最終装備",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ドット絵飛行機ウォーズ」で、1プレイ中に★3装備を同時に#1個持つ",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "全機体制覇",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "君との思い出",
+		"Description": "「ドット絵飛行機ウォーズ」で、すべての飛行機を使って試合に勝利する",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "影は百度死ぬ（一）",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "戦意奔湧",
-		"Description": "一度の戦闘中に、「愉悦」の運命を歩む開拓者が#1名の異なる味方に必殺技を1回ずつ発動する",
+		"Description": "一度の戦闘中に、「愉悦」の運命を歩む開拓者が#1名の異なるキャラに必殺技を1回ずつ発動する",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "戦意奔湧",
 		"Description": "「楽変天人」との戦闘中、1回の攻撃で同時に#1体以上の「楽変天人・終」を倒す",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "炉火は絶えず、刃は折れず",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "戦闘勝利時、千冶・刃の残りHPが#1になる",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "刀声、剣声、鍛冶の響き",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "1ターン中に、味方の「千冶・刃」を使用して「葬り去る千刃」を#1回発動する",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "消防隊長",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「創始の絵師、無量塔グラフィエ」との戦闘中、自身のHPが低く、かつ炎を消す成功率が最も低い状況で「炎を消す」を選択し、「身を焼く怨炎」状態の解除に成功する",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "お腹の掃除屋",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "「呑神の子」との戦闘中、攻撃力が最も高い味方キャラで「貪り食い」状態を解除し、追加の攻撃力アップを獲得する",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "未来永劫に戻らぬ",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "戦意奔湧",
+		"Description": "味方の千冶・刃を使用し、1回の「無量忿怒」状態継続中に「千冶は一を鋳り、万劫を燼滅す」を#1回発動する",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "瞬く間の喜び",
 		"Description": "「二次元ジャンプ！」で水上車にぶつかる",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "雪だるまつくろう",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "瞬く間の喜び",
+		"Description": "「二次元ジャンプ！」で氷ブロックに閉じ込められる",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

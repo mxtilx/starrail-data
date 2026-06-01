@@ -41084,6 +41084,684 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "천야•블레이드",
+		"BasicATK": {
+			"Id": "150701",
+			"Name": "부러진 검, 전멸",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "단일 공격",
+			"SkillTypeText": "일반 공격",
+			"MaxLevel": 10,
+			"EffectRaw": "지정된 단일 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: 1턴",
+			"AbridgedEffect": "단일 적에게 소량의 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.25
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.35
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.45
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.55
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.65
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.7
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "150708",
+			"Name": "벼려진 검, 단혼",
+			"TriggerKey": "Skill11",
+			"TagType": "SingleAttack",
+			"TagTypeText": "단일 공격",
+			"SkillTypeText": "일반 공격",
+			"MaxLevel": 10,
+			"EffectRaw": "지정된 단일 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다, 지속 시간: 1턴",
+			"AbridgedEffect": "단일 적에게 화염 속성 피해를 가하고, 목표를 도발 상태에 빠트린다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal02.png"
+		},
+		"Skill": {
+			"Id": "150702",
+			"Name": "검날 아래, 귀장",
+			"TriggerKey": "Skill02",
+			"TagType": "AoEAttack",
+			"TagTypeText": "범위 공격",
+			"SkillTypeText": "전투 스킬",
+			"MaxLevel": 15,
+			"EffectRaw": "천야•블레이드 HP 최대치의 <unbreak>#4[i]%</unbreak>만큼 HP를 소모해 모든 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>만큼 화염 속성 피해를 가하고, 추가로 피해를 <unbreak>#2[i]</unbreak>회 가한다. 피해당 랜덤 단일 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>만큼 화염 속성 피해를 가한다.\n현재 HP가 부족할 시, 전투 스킬을 발동하면 천야•블레이드의 현재 HP가 1pt로 감소한다.\n[끝없는 분노] 상태가 아니거나 현재 HP가 1 이하일 시 천야•블레이드는 전투 스킬을 발동할 수 없다.\n전투 스킬 발동 시 전투 스킬 포인트를 소모하지 않는다",
+			"AbridgedEffect": "HP를 소모해 모든 적에게 화염 속성 피해를 가하고, 이후 단일 적에게 소량의 화염 속성 피해를 가하며, <color=#f29e38ff><unbreak>#2[i]</unbreak></color>회 바운스한다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.36,
+						4,
+						0.12,
+						0.1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.396,
+						4,
+						0.132,
+						0.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.432,
+						4,
+						0.144,
+						0.1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.468,
+						4,
+						0.156,
+						0.1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.504,
+						4,
+						0.168,
+						0.1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.54,
+						4,
+						0.18,
+						0.1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.585,
+						4,
+						0.195,
+						0.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.63,
+						4,
+						0.21,
+						0.1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.675,
+						4,
+						0.225,
+						0.1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.72,
+						4,
+						0.24,
+						0.1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.756,
+						4,
+						0.252,
+						0.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.792,
+						4,
+						0.264,
+						0.1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.828,
+						4,
+						0.276,
+						0.1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.864,
+						4,
+						0.288,
+						0.1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.9,
+						4,
+						0.3,
+						0.1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "150709",
+			"Name": "검날 아래, 귀장",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "범위 공격",
+			"SkillTypeText": "전투 스킬",
+			"MaxLevel": 15,
+			"EffectRaw": "N/A",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.1
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.1
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png"
+		},
+		"Ultimate": {
+			"Id": "150703",
+			"Name": "뼈는 화로요, <unbreak>피와 살은 땔감이니</unbreak>",
+			"TriggerKey": "Skill03",
+			"TagType": "Enhance",
+			"TagTypeText": "강화",
+			"SkillTypeText": "필살기",
+			"MaxLevel": 15,
+			"EffectRaw": "모든 적을 [전신살화] 상태에 빠트린다. [전신살화] 상태의 적은 방어력이 <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color> 감소하고, 받는 피해가 <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color> 증가한다, 지속 시간: <unbreak>#8[i]</unbreak>턴. 이후 천야•블레이드 HP 최대치의 <unbreak>#1[i]%</unbreak>만큼 HP를 소모해 결계를 펼치며, 결계가 지속되는 동안 천야•블레이드는 [끝없는 분노] 상태를 획득한다.\n[끝없는 분노] 상태에서는 치명타 확률이 <unbreak>#2[i]%</unbreak> 증가하고, 치명타 피해가 <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> 증가하며, 일반 공격이 강화되는 동시에 전투 스킬이 해방되고 새로운 필살기 [천야로 빚어내어, 영겁토록 신멸하리]를 획득한다. 또한, 치명적인 공격을 받으면 <u>전투 불능 상태</u>에 빠지지 않지만, 결계를 해제하고 [끝없는 분노] 상태를 종료하며, 자신의 HP 최대치의 <unbreak>#6[i]%</unbreak>만큼 HP를 회복한다.\n[끝없는 분노] 상태 획득 시 행동 서열에 상응하는 카운트다운이 나타난다. 카운트다운은 <unbreak>#5[i]</unbreak>의 고정 속도를 가지며, 카운트다운 턴 시작 시 결계가 해제되고 [끝없는 분노] 상태가 종료된다.\n현재 HP가 부족하면, 해당 스킬 발동 시 천야•블레이드의 HP가 1pt로 감소한다",
+			"AbridgedEffect": "모든 적을 [전신살화] 상태에 빠트리며, 목표의 <color=#f29e38ff>방어력을 감소시키고, 받는 피해를 증가시킨다</color>. 이후 자신의 HP를 소모해 결계를 활성화한다. 결계가 지속되는 동안 자신은 [끝없는 분노] 상태를 획득하고, 치명타 확률 및 치명타 피해가 증가하며, 일반 공격이 강화되고, 전투 스킬을 해방하며 카운트다운이 종료될 때까지 <color=#f29e38ff>새로운 필살기</color>를 획득한다.\n천야•블레이드가 치명적인 공격을 받으면 결계가 해제된다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.3,
+						0.3,
+						70,
+						0.5,
+						0.2,
+						2
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.33,
+						0.32,
+						70,
+						0.5,
+						0.21,
+						2
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.36,
+						0.34,
+						70,
+						0.5,
+						0.22,
+						2
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.39,
+						0.36,
+						70,
+						0.5,
+						0.23,
+						2
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.42,
+						0.38,
+						70,
+						0.5,
+						0.24,
+						2
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.45,
+						0.4,
+						70,
+						0.5,
+						0.25,
+						2
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.4875,
+						0.425,
+						70,
+						0.5,
+						0.2625,
+						2
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.525,
+						0.45,
+						70,
+						0.5,
+						0.275,
+						2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.5625,
+						0.475,
+						70,
+						0.5,
+						0.2875,
+						2
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.6,
+						0.5,
+						70,
+						0.5,
+						0.3,
+						2
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.63,
+						0.52,
+						70,
+						0.5,
+						0.31,
+						2
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.66,
+						0.54,
+						70,
+						0.5,
+						0.32,
+						2
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.69,
+						0.56,
+						70,
+						0.5,
+						0.33,
+						2
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.72,
+						0.58,
+						70,
+						0.5,
+						0.34,
+						2
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.2,
+						0.2,
+						0.75,
+						0.6,
+						70,
+						0.5,
+						0.35,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png"
+		},
+		"Talent": {
+			"Id": "150704",
+			"Name": "인과 청산",
+			"TriggerKey": "SkillP01",
+			"TagType": "Support",
+			"TagTypeText": "서포트",
+			"SkillTypeText": "특성",
+			"MaxLevel": 15,
+			"EffectRaw": "결계가 지속되는 동안 아군이 적을 공격할 때마다 해당 적을 [전신살화] 상태에 빠트리고, 천야•블레이드가 충전을 1pt 획득한다. 충전 <unbreak>#1[i]</unbreak>pt 도달 및 현재 HP가 1 보다 높을 시, 충전을 <unbreak>#1[i]</unbreak>pt 소모해 에너지를 <color=#f29e38ff><unbreak>#2[f1]</unbreak></color>pt 회복하고, 천야•블레이드가 추가로 전투 스킬을 1회 발동한다. 이번 전투 스킬은 <u>추가 공격</u>으로 간주한다",
+			"AbridgedEffect": "결계가 지속되는 동안 아군이 적을 공격하면 적을 [전신살화] 상태에 빠트리고, 천야•블레이드가 충전을 획득한다. 충전이 <color=#f29e38ff><unbreak>#1[i]</unbreak></color>pt 도달 및 HP가 1보다 높을 시, 충전을 <color=#f29e38ff><unbreak>#1[i]</unbreak></color>pt 소모해 에너지를 회복하고, 천야•블레이드가 <color=#f29e38ff>추가로</color> <color=#f29e38ff>전투 스킬</color>을 1회 발동한다",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						9,
+						15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						9,
+						16
+					]
+				},
+				"3": {
+					"EffectValues": [
+						9,
+						17
+					]
+				},
+				"4": {
+					"EffectValues": [
+						9,
+						18
+					]
+				},
+				"5": {
+					"EffectValues": [
+						9,
+						19
+					]
+				},
+				"6": {
+					"EffectValues": [
+						9,
+						20
+					]
+				},
+				"7": {
+					"EffectValues": [
+						9,
+						21.25
+					]
+				},
+				"8": {
+					"EffectValues": [
+						9,
+						22.5
+					]
+				},
+				"9": {
+					"EffectValues": [
+						9,
+						23.75
+					]
+				},
+				"10": {
+					"EffectValues": [
+						9,
+						25
+					]
+				},
+				"11": {
+					"EffectValues": [
+						9,
+						26
+					]
+				},
+				"12": {
+					"EffectValues": [
+						9,
+						27
+					]
+				},
+				"13": {
+					"EffectValues": [
+						9,
+						28
+					]
+				},
+				"14": {
+					"EffectValues": [
+						9,
+						29
+					]
+				},
+				"15": {
+					"EffectValues": [
+						9,
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png"
+		},
+		"Technique": {
+			"Id": "150707",
+			"Name": "십방 처결",
+			"TriggerKey": "SkillMaze",
+			"TagType": "MazeAttack",
+			"SkillTypeText": "비술",
+			"MaxLevel": 1,
+			"EffectRaw": "즉시 일정 범위 내의 모든 적을 공격하고, 전투 진입 후 모든 적을 도발 상태에 빠트린다, 지속 시간: 1턴. 또한, 자신이 받는 피해를 <unbreak>#1[i]%</unbreak> 감소시킨다, 지속 시간: <unbreak>#2[i]</unbreak>턴",
+			"AbridgedEffect": "범위 내의 모든 적을 공격하며, 전투 진입 후 모든 적을 도발 상태에 빠트리고 자신이 받는 피해를 감소시킨다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.9,
+						2
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

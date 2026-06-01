@@ -127933,6 +127933,1461 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "千冶•刃",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "残锋，掠尽",
+				"NodeType": 2,
+				"NodeTypeText": "普攻",
+				"EffectRaw": "对指定敌方单体造成等同于千冶•刃<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>生命上限的火属性伤害，并使目标陷入嘲讽状态，持续1回合。",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "法吉娜之泪",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "刃下，归葬",
+				"NodeType": 2,
+				"NodeTypeText": "战技",
+				"EffectRaw": "消耗等同于千冶•刃生命上限<unbreak>#4[i]%</unbreak>的生命值对敌方全体造成等同于千冶•刃<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>生命上限的火属性伤害，并额外造成<unbreak>#2[i]</unbreak>次伤害，每次伤害对随机敌方单体造成等同于千冶•刃<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>生命上限的火属性伤害。\n若当前生命值不足，施放战技时千冶•刃的当前生命值降低至1点。\n未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。\n施放战技时不消耗战技点。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "法吉娜之泪",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "骸骨当炉，血肉即薪",
+				"NodeType": 2,
+				"NodeTypeText": "终结技",
+				"EffectRaw": "使敌方全体陷入【煞火缠身】，【煞火缠身】状态下的敌方目标防御力降低<color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>，受到的伤害提高<color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>，持续<unbreak>#8[i]</unbreak>回合。随后消耗等同于千冶•刃生命上限<unbreak>#1[i]%</unbreak>的生命值展开结界，结界持续期间，千冶•刃获得【无量忿怒】状态。\n【无量忿怒】状态下暴击率提高<unbreak>#2[i]%</unbreak>，暴击伤害提高<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>，普攻获得强化，同时解放战技并获得全新终结技【千冶铸一，万劫烬灭】，若受到致命攻击时，不会陷入<u>无法战斗状态</u>，但会解除结界退出【无量忿怒】状态并回复等同于自身<unbreak>#6[i]%</unbreak>生命上限的生命值。\n获得【无量忿怒】状态时，行动序列上出现对应倒计时，倒计时固定拥有<unbreak>#5[i]</unbreak>速度，倒计时回合开始时结界解除且退出【无量忿怒】状态。\n若当前生命值不足，施放本技能时千冶•刃的当前生命值降低至1点。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "法吉娜之泪",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "因果尽偿",
+				"NodeType": 2,
+				"NodeTypeText": "天赋",
+				"EffectRaw": "结界持续期间，我方目标每次攻击敌方后，使对应敌方目标陷入【煞火缠身】状态并使千冶•刃获得1点充能，当充能达到<unbreak>#1[i]</unbreak>点且当前生命值大于1时，消耗<unbreak>#1[i]</unbreak>点充能，恢复<color=#f29e38ff><unbreak>#2[f1]</unbreak></color>点能量，并使千冶•刃额外施放1次战技，本次战技视为<u>追加攻击</u>。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "法吉娜之泪",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "十方无赦",
+				"NodeType": 2,
+				"NodeTypeText": "秘技",
+				"EffectRaw": "立即攻击一定范围内的所有敌人，进入战斗后，使敌方全体陷入嘲讽状态，持续1回合，并使自身受到的伤害降低<unbreak>#1[i]%</unbreak>，持续<unbreak>#2[i]</unbreak>回合。",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "百炼骨",
+				"NodeType": 3,
+				"EffectRaw": "千冶•刃可积攒最多<unbreak>#2[i]</unbreak>点溢出能量，施放终结技后清空并恢复相应的能量值。战斗开始时或结界解除时，若能量不足<unbreak>#1[i]%</unbreak>则立刻恢复至<unbreak>#1[i]%</unbreak>。当能量恢复至上限时解除自身所有<u>负面效果</u>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "法吉娜之泪",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "千锻魂",
+				"NodeType": 3,
+				"EffectRaw": "结界持续期间，被敌方攻击的概率提高，自身受到的伤害降低<unbreak>#2[i]%</unbreak>，受到的治疗量提高<unbreak>#3[i]%</unbreak>，且受到攻击后使对应目标陷入【煞火缠身】状态并使千冶•刃获得1点充能。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "万淬心",
+				"NodeType": 3,
+				"EffectRaw": "结界持续期间，我方目标造成的伤害提高<unbreak>#1[i]%</unbreak>，我方队伍中存在除千冶•刃之外的「虚无」命途角色时，使我方目标造成的终结技伤害提高<unbreak>#2[i]%</unbreak>，否则，使千冶•刃造成的伤害额外提高<unbreak>#3[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命运的足迹",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "灭流绝溢的缄默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "伤害强化•火",
+				"NodeType": 1,
+				"EffectRaw": "火属性伤害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "暴击率强化",
+				"NodeType": 1,
+				"EffectRaw": "暴击率提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "法吉娜之泪",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蜡笔",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "伤害强化•火",
+				"NodeType": 1,
+				"EffectRaw": "火属性伤害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "生命强化",
+				"NodeType": 1,
+				"EffectRaw": "生命值上限提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "伤害强化•火",
+				"NodeType": 1,
+				"EffectRaw": "火属性伤害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "法吉娜之酒",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造梦蘸钢",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "暴击率强化",
+				"NodeType": 1,
+				"EffectRaw": "暴击率提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "伤害强化•火",
+				"NodeType": 1,
+				"EffectRaw": "火属性伤害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "生命强化",
+				"NodeType": 1,
+				"EffectRaw": "生命值上限提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "暴击率强化",
+				"NodeType": 1,
+				"EffectRaw": "暴击率提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "伤害强化•火",
+				"NodeType": 1,
+				"EffectRaw": "火属性伤害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用点",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "法吉娜之心",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "梦现管锥",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

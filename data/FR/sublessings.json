@@ -8133,6 +8133,13 @@
 		"Effect": "Amplifie les DGT de Louve d'argent Niv. 999 dans l'Univers parallèle.\n\nLorsque le tour d'Aha débute, l'Allégresse de Louve d'argent Niv. 999 augmente de <color=#f29e38ff>0.5%</color> pour chaque point de Panache possédé. Cet effet dure jusqu'au prochain tour d'Aha.",
 		"VersionAdded": "4.2"
 	},
+	"661507": {
+		"Id": "661507",
+		"Name": "Blade Mortenax",
+		"Rarity": 1,
+		"Effect": "Amplifie les DGT de Blade Mortenax dans l'Univers parallèle.\n\nAprès avoir perdu des PV, augmente les PV restaurés de <color=#f29e38ff>15%</color> et augmente les DGT finaux infligés de <color=#f29e38ff>15%</color>. Dure pendant <color=#f29e38ff>2</color> tours.",
+		"VersionAdded": "4.3"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",
@@ -10375,7 +10382,7 @@
 		"Id": "678910",
 		"Name": "Reconstructeur de la patrie",
 		"Rarity": 1,
-		"Effect": "Chaque cumul d'<u>Obsession</u> augmente l'effet de Rupture de <color=#f29e38ff>0.8%</color>. L'effet de Rupture des mnémespritd augmente de <color=#f29e38ff>0.5%</color> supplémentaire.",
+		"Effect": "Chaque cumul d'<u>Obsession</u> augmente l'effet de Rupture de <color=#f29e38ff>0.8%</color>. L'effet de Rupture des mnémesprit augmente de <color=#f29e38ff>0.5%</color> supplémentaire.",
 		"AbridgedEffect": "<u>Obsession</u> augmente l'effet de Rupture. Cet effet est plus important sur les mnémesprits.",
 		"VersionAdded": "4.1"
 	},

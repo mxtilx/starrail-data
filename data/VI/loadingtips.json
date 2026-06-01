@@ -2375,6 +2375,18 @@
 		"Description": "Lần theo dấu vết của tội phạm, Ashveil đứng bên cầu, thoáng hồi tưởng về quá khứ...",
 		"VersionAdded": "4.1"
 	},
+	"20100": {
+		"Id": "20100",
+		"Name": "Đang chuyển sang góc nhìn của Ashveil...",
+		"Description": "Trở lại \"Tận Thế\", Ashveil đã bám sát một mục tiêu cực kỳ nguy hiểm...",
+		"VersionAdded": "4.3"
+	},
+	"20101": {
+		"Id": "20101",
+		"Name": "Đang chuyển sang góc nhìn của Himeko...",
+		"Description": "Himeko lần theo những điểm đáng ngờ của cha, thoáng nhớ lại những bức tranh liên quan đến Hủy Diệt...",
+		"VersionAdded": "4.3"
+	},
 	"20102": {
 		"Id": "20102",
 		"Name": "Đang chuyển sang góc nhìn của \"Evanescia\"...",

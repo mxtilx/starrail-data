@@ -2375,6 +2375,18 @@
 		"Description": "While tracking the culprit, Ashveil stops by the bridge as memories of the past come flooding back...",
 		"VersionAdded": "4.1"
 	},
+	"20100": {
+		"Id": "20100",
+		"Name": "Switching to Ashveil's POV...",
+		"Description": "Returning to \"World's End,\" Ashveil locks onto an extremely dangerous target...",
+		"VersionAdded": "4.3"
+	},
+	"20101": {
+		"Id": "20101",
+		"Name": "Switching to Himeko's POV...",
+		"Description": "As Himeko pursues the mysteries surrounding her father, she briefly recalls those artworks related to the Destruction...",
+		"VersionAdded": "4.3"
+	},
 	"20102": {
 		"Id": "20102",
 		"Name": "Switching to Evanescia's POV...",

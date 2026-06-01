@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "Dia berlalu bagaikan bunga tertiup angin",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "Deduksi Terlarang",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Deduksi harus dilakukan setelah bersulang\n<color=#8790abff>※ Pergi ke \"bar\" untuk menyelidiki keberadaan Asat Pramad</color>",
+		"HiddenDescription": "Deduksi harus dilakukan setelah bersulang",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "Nyalakan Pelita Masa Lalu",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Ayo main perang bola salju!\n<color=#8790abff>※ Panggil Graphia dengan cara yang sudah disepakati di masa lalu</color>",
+		"HiddenDescription": "Ayo main perang bola salju!",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "Berhenti Sejenak di Seberang",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Lompatlah ke bawah, melebur di dalam Lubang Biru itu\n<color=#8790abff>※ Saksikan Blade menuju ujung Dunia dalam Lukisan</color>",
+		"HiddenDescription": "Lompatlah ke bawah, melebur di dalam Lubang Biru itu",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "Apa itu Bilah",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Apa itu bilah? Apa yang mengikis diri sendiri dan mencabik-cabik musuh?\n<color=#8790abff>※ Blade telah mendapatkan jawabannya</color>",
+		"HiddenDescription": "Apa itu bilah? Apa yang mengikis diri sendiri dan mencabik-cabik musuh?",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "Lelucon yang Lenyap dalam Kesunyian",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "Rel Menuju Ribuan Bintang",
+		"Description": "Menjelaskan lelucon adalah tindakan yang paling buruk\n<color=#8790abff>※ Saksikan Asat Pramad mengungkap jati dirinya</color>",
+		"HiddenDescription": "Menjelaskan lelucon adalah tindakan yang paling buruk",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "Karakter Permainan Peran yang Legal",
@@ -5558,6 +5613,76 @@
 		"SeriesText": "Penyelidikan Misteri",
 		"Description": "Mainkan Simfoni Aneh dan temukan makhluk misterius yang bersembunyi di Kota Seafeld",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "Sang Penyendiri",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Selesaikan \"Momen Jump\" di Pertapaan Inkford",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "Hindari Pembunuh",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Selesaikan \"Momen Jump\" di Pertapaan Inkford tanpa tersentuh Hedgehogae",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "Raksasa Es Terakhir",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Lumpuhkan Casper",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "Negeri Salju",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Temukan peti harta yang tersembunyi di dalam kastil saat bermain perang salju dengan Casper di \"Jump 2D!\"",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "Selamat Datang di Platform Uap",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Berendam di pemandian air panas di \"Pertapaan Inkford\" yang tertutup salju",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "Kisah Kesatria Tanpa Kepala",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Tendang semua kepala \"manusia salju yang biasa saja\" di \"Pertapaan Inkford\" sampai terlepas",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "Variasi Utopia: Anak Salju",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "Penyelidikan Misteri",
+		"Description": "Mainkan simfoni aneh dan temukan makhluk misterius yang bersembunyi di \"Pertapaan Inkford\"",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "Selesaikan pertarungan terakhir dengan Silver Wolf LV.999 di \"Kekuatan Galaksi, Lempar Dadu Lagi!\"",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "Bus Astral, Berangkat!",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Pelajari kisah \"Permainan Baru Bulan Imajinasi\" dari Nihilux",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "Legenda Tanpa Akhir",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Dukung pengembangan \"Kelinci Rel Bintang\"",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "Dan Ia Hidup Bahagia Selamanya ....",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Tolak pengembangan \"Kelinci Rel Bintang\"",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "Pelindung Dunia Lukisan",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Panggil \"Graphia\" melalui lingkaran sihir Pertapaan Inkford",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "Orang Berstamina Tinggi",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Temui dan bicara dengan Umbralle dua kali, di Distrik Dovebrook dan Pertapaan Inkford",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "Cinta Pohon Ginkgo",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Menyaksikan dua pejalan kaki berpisah dengan berat hati di depan stasiun",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "Senjata Pertempuran Final",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Tingkatkan satu equipment inti ke 3★ untuk pertama kalinya di \"Pertempuran Pesawat Piksel\"",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "Lanjutan Nyanyian Sparxie",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Gunakan \"Sulap Lintasan\" untuk mengalahkan Sparxie di \"Pertempuran Pesawat Piksel\"",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "Janji di Bawah Langit Biru",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Buka semua Pesawat Piksel di \"Pertempuran Pesawat Piksel\"",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "Pertarungan Udara Para Elite",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Menangkan pertarungan puncak tanpa kehilangan HP di \"Pertempuran Pesawat Piksel\"",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "Set Kelulusan",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Miliki #1 equipment 3★ secara bersamaan dalam satu ronde di \"Pertempuran Pesawat Piksel\"",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "Dominasi Semua Model",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "Memori Bersamamu",
+		"Description": "Gunakan setiap pesawat untuk memenangkan pertandingan di \"Pertempuran Pesawat Piksel\"",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "Ratusan Kematian Bayangan (1)",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Luapan Semangat Tempur",
-		"Description": "Dalam 1 pertempuran, gunakan Trailblazer dengan Path \"Elation\" untuk melancarkan Ultimate pada #1 rekan berbeda masing-masing 1 kali.",
+		"Description": "Dalam 1 pertempuran, gunakan Trailblazer dengan Path \"Elation\" untuk melancarkan Ultimate pada #1 karakter berbeda masing-masing 1 kali",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15748,7 +15993,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "Luapan Semangat Tempur",
-		"Description": "Dalam satu pertempuran, gunakan Trailblazer Path \"Elation\" untuk melancarkan Ultimate pada Sparxie sebanyak total #1 kali",
+		"Description": "Dalam 1 pertempuran, gunakan Trailblazer Path \"Elation\" untuk melancarkan Ultimate pada Sparxie sebanyak total #1 kali",
 		"VersionAdded": "4.2"
 	},
 	"4075203": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "Luapan Semangat Tempur",
 		"Description": "Di pertempuran \"Joy Ascendant\", kalahkan #1 \"Joy Ascendant: Finale\" atau lebih sekaligus dalam satu serangan",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "Api Tanpa Akhir dan Penempaan",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Saat memenangkan pertempuran, sisa HP Mortenax Blade adalah #1",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "Dentang Senjata yang Tak Henti",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam satu giliran, gunakan karakter tim Mortenax Blade untuk melancarkan \"A Rain of Blades Seals Fate\" sebanyak #1 kali",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "Ketua Tim Pemadam Berapi-Api",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam pertempuran melawan \"Murata Graphia, Founding Artist\", pilih \"Extinguish Flames\" saat HP diri rendah dan tingkat keberhasilan memadamkan api berada di titik terendah, serta berhasil menghapus status \"Grudge Ablaze\"",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "Pembersih Saluran Cerna",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Dalam pertempuran melawan \"God-Devourer Offspring\", gunakan karakter tim dengan ATK tertinggi untuk menghapus status \"Devour\" dan memperoleh bonus ATK tambahan",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "Kehancuran Abadi",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "Luapan Semangat Tempur",
+		"Description": "Gunakan karakter tim Mortenax Blade untuk melancarkan \"Tenax Per Ignem\" sebanyak #1 kali selama 1 kali durasi \"Infinite Fury\"",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "Kegembiraan Sesaat",
 		"Description": "Tertabrak kendaraan air di \"Jump 2D!\"",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "Mau Buat Boneka Salju?",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "Kegembiraan Sesaat",
+		"Description": "Dibekukan di dalam balok es di \"Jump 2D!\"",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

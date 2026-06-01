@@ -3238,6 +3238,47 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"ElementType": "Fire",
+		"ElementTypeText": "Feuer",
+		"PathType": "Warlock",
+		"PathTypeText": "Die Nichtigkeit",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "Leben ohne Gestalt, Formung durch den Tod",
+				"Effect": "Während das Kraftfeld aktiv ist, wird der WDS aller Typen aller Gegner um 20% verringert. Nach dem Einsatz der zusätzlichen Fertigkeit des Talents wird die Aktion des Countdowns von „Grenzenloser Zorn“ um 15% <u>verzögert</u>."
+			},
+			{
+				"Id": "150702",
+				"Name": "Aschenes Herz, lodernder Ofen",
+				"Effect": "Wenn verbündete Figuren durch Ultimates SCH verursachen, wird der Angriff als <u>Folgeangriff</u> gewertet. Erhöht den von Verbündeten verursachten <u>Folgeangriff-SCH</u> um 75%. Reduziert die max. Aufladung von Mortenax Blade auf 7."
+			},
+			{
+				"Id": "150703",
+				"Name": "Übergang ins Jenseits, wahre Gestalt des Zorns",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15."
+			},
+			{
+				"Id": "150704",
+				"Name": "Schmiede den Groll, forme die Klinge",
+				"Effect": "„Zehntausendfach gehärtetes Herz“ erhöht den von Verbündeten verursachten SCH zusätzlich um 50%."
+			},
+			{
+				"Id": "150705",
+				"Name": "Beenden des Leids, Beginnen des Lebens",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10."
+			},
+			{
+				"Id": "150706",
+				"Name": "Fall der Unsterblichkeit, Schwur der Vernichtung",
+				"Effect": "Während das Kraftfeld aktiv ist, erhält Mortenax Blade 1 Pkt. Aufladung, wenn er SCH erleidet oder LP verbraucht. Dieser Effekt kann nach dem Ende der Runde eines beliebigen Ziels erneut ausgelöst werden. Der SCH-Multiplikator von „Schmiede des Einen, Vergessen des Allen“ wird auf 150% des ursprünglichen Multiplikators erhöht."
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physisch)",

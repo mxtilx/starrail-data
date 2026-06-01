@@ -8133,6 +8133,13 @@
 		"Effect": "Silver Wolf LV.999 di Divergent Universe memperoleh Amplifikasi DMG.\n\nSaat giliran Aha dimulai, setiap memiliki 1 poin Punchline, Tingkat Elation Silver Wolf LV.999 meningkat <color=#f29e38ff>0.5%</color>, berlangsung hingga giliran Aha berikutnya dimulai.",
 		"VersionAdded": "4.2"
 	},
+	"661507": {
+		"Id": "661507",
+		"Name": "Mortenax Blade",
+		"Rarity": 1,
+		"Effect": "Mortenax Blade memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah HP berkurang, Pemulihan HP meningkat <color=#f29e38ff>15%</color>, DMG final meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
+		"VersionAdded": "4.3"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

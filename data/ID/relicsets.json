@@ -269,7 +269,7 @@
 		"IsPlanarOrnament": false,
 		"SetEffects": {
 			"Pieces2": "SPD +6%.",
-			"Pieces4": "Setelah pengguna dan Memosprite miliknya memberikan pemulihan pada rekan tim selain pengguna dan Memosprite miliknya, pengguna akan memperoleh \"Gentle Rain\", yang dapat dipicu hingga 1 kali setiap giliran dan berlangsung selama 2 giliran. Saat pengguna memiliki \"Gentle Rain\", SPD pengguna akan meningkat 6%, dan CRIT DMG seluruh rekan tim akan meningkat 15%. Efek ini tidak dapat ditumpuk."
+			"Pieces4": "Setelah pengguna atau Memosprite miliknya memberikan pemulihan pada rekan tim selain pengguna atau Memosprite miliknya, pengguna akan memperoleh \"Gentle Rain\", yang dapat dipicu hingga 1 kali setiap giliran dan berlangsung selama 2 giliran. Saat pengguna memiliki \"Gentle Rain\", SPD pengguna akan meningkat 6%, dan CRIT DMG seluruh rekan tim akan meningkat 15%. Efek ini tidak dapat ditumpuk."
 		},
 		"Pieces": {},
 		"VersionAdded": "3.3"
@@ -328,6 +328,28 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.0"
+	},
+	"131": {
+		"Id": "131",
+		"Name": "As Navigator Isee Sees It",
+		"IsPlanarOrnament": false,
+		"SetEffects": {
+			"Pieces2": "ATK +12%.",
+			"Pieces4": "Saat pengguna memasuki pertempuran/melancarkan Skill, meningkatkan 18% DMG yang diakibatkan Skill dan Ultimate, dapat ditumpuk hingga 3 lapis. Saat giliran pengguna dimulai/setelah melancarkan Ultimate, menghapus 1 lapis efek ini."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.3"
+	},
+	"132": {
+		"Id": "132",
+		"Name": "Divine-Querying Master Smith",
+		"IsPlanarOrnament": false,
+		"SetEffects": {
+			"Pieces2": "Max HP +12%.",
+			"Pieces4": "CRIT DMG yang diakibatkan pengguna pada target musuh yang terkena status Pengurangan DEF meningkat 28%. Setelah pengguna memberikan status Pengurangan DEF pada target musuh, seluruh rekan tim memperoleh \"Comburent\" selama 2 giliran. Efek ini tidak dapat ditumpuk. DMG yang diakibatkan rekan tim yang memiliki \"Comburent\" meningkat 15%. Efek ini dapat dipicu kembali setelah pengguna melancarkan serangan."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.3"
 	},
 	"301": {
 		"Id": "301",

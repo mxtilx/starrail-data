@@ -485,6 +485,15 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0400.png",
 		"VersionAdded": "4.0"
 	},
+	"10141": {
+		"Id": "10141",
+		"Name": "Ngàn Sao Đồng Hành",
+		"TabName": "Ngàn Sao Đồng Hành",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nĐăng nhập game trong thời gian sự kiện, Nhà Khai Phá có thể nhận Kim Linh Đồng Hành trong Ký Sự Du Hành. Kim Linh Đồng Hành không giới hạn thời gian sử dụng, sau khi sự kiện kết thúc sẽ không bị tiêu hủy, có thể dùng trong cửa hàng Tụ Hồn Đúc Sao để đổi nhân vật 5 sao.\n\n◆ Cửa Hàng Đổi ◆\n● Cửa hàng Tụ Hồn Đúc Sao mở vĩnh viễn, nhân vật đã vào cửa hàng có thể đổi không giới hạn thời gian.\n● Nhân vật trong cửa hàng có thể đổi đến Tinh Hồn bậc tối đa, khi Tinh Hồn đã đầy sẽ không thể đổi nữa.\n※ Nhân vật có thể đổi tại Cửa Hàng sẽ được mở rộng trong tương lai.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestStoryTokens.png",
+		"VersionAdded": "4.3"
+	},
 	"10142": {
 		"Id": "10142",
 		"Name": "Món Quà Phiêu Lưu",
@@ -502,6 +511,15 @@
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nNhà Khai Phá mỗi ngày sau khi đăng nhập game, có thể nhận phần thưởng ngày trong Ký Sự Du Hành.\n\n◆ Thưởng Sự Kiện ◆\nPhần thưởng sẽ lần lượt mở khóa dựa theo số ngày tích lũy đăng nhập của Nhà Khai Phá, phần thưởng ngày sẽ làm mới vào <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAnniversarySevenDayVersion0210.png",
 		"VersionAdded": "4.2"
+	},
+	"10169": {
+		"Id": "10169",
+		"Name": "Món Quà Phiêu Lưu",
+		"TabName": "Món Quà Phiêu Lưu",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nNhà Khai Phá mỗi ngày sau khi đăng nhập game, có thể nhận phần thưởng ngày trong Ký Sự Du Hành.\n\n◆ Thưởng Sự Kiện ◆\nPhần thưởng sẽ lần lượt mở khóa dựa theo số ngày tích lũy đăng nhập của Nhà Khai Phá, phần thưởng ngày sẽ làm mới vào <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
+		"VersionAdded": "4.3"
 	},
 	"20001": {
 		"Id": "20001",
@@ -895,7 +913,7 @@
 		"TabName": "Bộc Lộ Tài Năng",
 		"Tag": "Dùng Thử Nhân Vật",
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial49.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1078,12 +1096,30 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial50.png",
 		"VersionAdded": "4.2"
 	},
+	"20083": {
+		"Id": "20083",
+		"Name": "Bộc Lộ Tài Năng",
+		"TabName": "Bộc Lộ Tài Năng",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"VersionAdded": "4.3"
+	},
+	"20084": {
+		"Id": "20084",
+		"Name": "Bộc Lộ Tài Năng",
+		"TabName": "Bộc Lộ Tài Năng",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
+		"VersionAdded": "4.3"
+	},
 	"21001": {
 		"Id": "21001",
 		"Name": "Ánh Sáng Kho Báu: Độ Khó Cao",
 		"TabName": "Ánh Sáng Kho Báu: Độ Khó Cao",
 		"Tag": "Hướng Dẫn Cách Chơi",
-		"Introduction": "◆ Quy Tắc Cách Chơi ◆\n● Ánh Sáng Kho Báu là loạt cách chơi khiêu chiến có độ khó cao và dài hạn được cập nhật định kỳ, bao gồm \"Sảnh Đường Lãng Quên: Hồi Ức Hỗn Độn\", \"Kể Chuyện Hư Cấu\", \"Ảo Ảnh Tận Thế\" và \"Trọng Tài Dị Tướng\".\n● Sau khi hoàn thành Bí Mật Thành Trì Sừng Sững: \"Hồi Ức <unbreak>15</unbreak>\", sẽ mở khóa \"Sảnh Đường Lãng Quên - Hồi Ức Hỗn Độn\".\n● Hoàn thành Nhiệm Vụ Thám Hiểm \"Trang Trí Thông Minh Của Youci\" sẽ mở khóa \"Kể Chuyện Hư Cấu\".\n● Hoàn thành Nhiệm Vụ Thám Hiểm \"Cuốn Phim Ác Nghiệt Cuối Cùng\" sẽ mở khóa \"Ảo Ảnh Tận Thế\".\n● Cấp Cân Bằng đạt cấp 6, kỷ lục lịch sử \"Sảnh Đường Lãng Quên - Hồi Ức Hỗn Độn\", \"Kể Chuyện Hư Cấu\", \"Ảo Ảnh Tận Thế\" đều đạt đầy sao tầng cao nhất (có thể lần lượt đạt ở các phiên bản khác nhau), và sau khi hoàn thành Nhiệm Vụ Thám Hiểm \"Ký Sự Nút Thắt\", sẽ mở khóa \"Trọng Tài Dị Tướng\".\n● Ánh Sáng Kho Báu sẽ cập nhật nội dung ải và phần thưởng theo chu kỳ.\n\n◆ Quy Tắc Cập Nhật ◆\n● \"Ảo Ảnh Tận Thế\", \"Kể Chuyện Hư Cấu\", \"Sảnh Đường Lãng Quên - Hồi Ức Hỗn Độn\" sẽ cập nhật luân phiên 2 tuần một lần theo thứ tự, thời gian cập nhật là <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server) thứ Hai của tuần đó, sau khi cập nhật mỗi kỳ sẽ mở liên tục 6 tuần.\n● \"Trọng Tài Dị Tướng\" sẽ cập nhật theo phiên bản và kéo dài đến cuối phiên bản.",
+		"Introduction": "◆ Quy Tắc Cách Chơi ◆\n● Ánh Sáng Kho Báu là loạt cách chơi khiêu chiến có độ khó cao và dài hạn được cập nhật định kỳ, bao gồm \"Sảnh Đường Lãng Quên: Hồi Ức Hỗn Độn\", \"Kể Chuyện Hư Cấu\", \"Ảo Ảnh Tận Thế\" và \"Trọng Tài Dị Tướng\".\n● Sau khi hoàn thành Bí Mật Thành Trì Sừng Sững: \"Hồi Ức <unbreak>15</unbreak>\", sẽ mở khóa \"Sảnh Đường Lãng Quên - Hồi Ức Hỗn Độn\".\n● Hoàn thành Nhiệm Vụ Thám Hiểm \"Trang Trí Thông Minh Của Youci\" sẽ mở khóa \"Kể Chuyện Hư Cấu\".\n● Hoàn thành Nhiệm Vụ Thám Hiểm \"Cuốn Phim Ác Nghiệt Cuối Cùng\" sẽ mở khóa \"Ảo Ảnh Tận Thế\".\n● Cấp Cân Bằng đạt cấp 6, kỷ lục lịch sử \"Sảnh Đường Lãng Quên - Hồi Ức Hỗn Độn\", \"Kể Chuyện Hư Cấu\", \"Ảo Ảnh Tận Thế\" đều đạt 3 sao tầng cao nhất (có thể lần lượt đạt ở các phiên bản khác nhau), và sau khi hoàn thành Nhiệm Vụ Thám Hiểm \"Ký Sự Nút Thắt\", sẽ mở khóa \"Trọng Tài Dị Tướng\".\n● Ánh Sáng Kho Báu sẽ cập nhật nội dung ải và phần thưởng theo chu kỳ.\n\n◆ Quy Tắc Cập Nhật ◆\n● \"Ảo Ảnh Tận Thế\", \"Kể Chuyện Hư Cấu\", \"Sảnh Đường Lãng Quên - Hồi Ức Hỗn Độn\" sẽ cập nhật luân phiên 2 tuần một lần theo thứ tự, thời gian cập nhật là <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server) thứ Hai của tuần đó, sau khi cập nhật mỗi kỳ sẽ mở liên tục 6 tuần.\n● \"Trọng Tài Dị Tướng\" sẽ cập nhật theo phiên bản và kéo dài đến cuối phiên bản.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnAbyssAlternation.png",
 		"VersionAdded": "3.6"
 	},
@@ -1834,6 +1870,36 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestDiceCombatV2.png",
 		"VersionAdded": "4.2"
 	},
+	"50107": {
+		"Id": "50107",
+		"Name": "Công Viên Giải Trí Bụi Linh",
+		"TabName": "Công Viên Giải Trí Bụi Linh",
+		"Description": "Xu hướng thịnh hành thay đổi trong chớp mắt, Star Rail FES cũng đón nhận cơ hội đổi mới. Quy hoạch tuyến đường hợp lý, khéo léo bố trí thiết bị, và xây dựng công viên giải trí dành riêng cho các Bụi Linh ở Thế Giới Trong Tranh nhé! Ý tưởng sáng tạo của bạn sẽ trở thành cảm hứng tuyệt vời để tối ưu hóa khu trưng bày.",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Giới Thiệu ◆\nQuy hoạch tuyến đường hợp lý, khéo léo bố trí thiết bị, và xây dựng công viên giải trí dành riêng cho các Bụi Linh ở Thế Giới Trong Tranh nhé! Ý tưởng sáng tạo của bạn sẽ trở thành cảm hứng tuyệt vời để tối ưu hóa khu trưng bày.\n\n◆ Quy Tắc Sự Kiện ◆\n● Sự kiện chia thành 2 chế độ \"Thử Nghiệm Thông Thường\" và \"Thử Nghiệm Dài Hạn\".\n● \"Thử Nghiệm Thông Thường\" có tổng cộng 4 ải, sau khi hoàn thành ải trước sẽ mở khóa ải tiếp theo.\n● Mỗi ải trong \"Thử Nghiệm Thông Thường\" đều cần kinh doanh 3 giai đoạn, sau khi đạt đánh giá kinh doanh ít nhất 1 sao ở mỗi giai đoạn sẽ được coi là quy hoạch thành công.\n● Sau khi hoàn thành tất cả ải của \"Thử Nghiệm Thông Thường\", sẽ mở khóa chế độ \"Thử Nghiệm Dài Hạn\". Trong chế độ \"Thử Nghiệm Dài Hạn\" có thể kinh doanh tối đa <unbreak>12</unbreak> giai đoạn.\n\n◆ Giới Thiệu Cách Chơi ◆\n● Trước khi mở cửa kinh doanh mỗi ngày, Nhà Khai Phá cần chọn thiết bị, và đặt lên các ô đất thích hợp.\n● Sau khi mở cửa kinh doanh, du khách Bụi Linh sẽ lần lượt tiến vào, và trả Xu Vui Chơi khi đi ngang qua thiết bị.\n● Kiếm được càng nhiều Xu Vui Chơi, xếp hạng kinh doanh của công viên sẽ càng cao.\n\n◆ Thưởng Sự Kiện ◆\n● Trong thời gian sự kiện, sau khi hoàn thành nhiệm vụ trong \"Thưởng Hạn Giờ\", có thể nhận thưởng tương ứng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestChenLingFes.png",
+		"VersionAdded": "4.3"
+	},
+	"50112": {
+		"Id": "50112",
+		"Name": "Đại Chiến Máy Bay Pixel",
+		"TabName": "Đại Chiến Máy Bay Pixel",
+		"Description": "Trò chơi kinh điển trở lại bầu trời thiên đường vui vẻ, \"Máy Bay Pixel\" một lần nữa cất cánh. Trong cuộc chiến khốc liệt giữa <unbreak>99</unbreak> máy bay chiến đấu, chỉ có người chiến thắng cuối cùng mới có thể giành quyền làm chủ bầu trời... Hãy chế tạo chiến cơ mạnh nhất của bạn, vạch ra chiến lược giành chiến thắng, chọc thủng màn đạn và đột phá vòng vây đi nào!",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Giới Thiệu ◆\nTrong cuộc chiến khốc liệt giữa <unbreak>99</unbreak> máy bay chiến đấu, chỉ có người chiến thắng cuối cùng mới có thể giành quyền làm chủ bầu trời... Hãy chế tạo chiến cơ mạnh nhất của bạn, vạch ra chiến lược giành chiến thắng, chọc thủng màn đạn và đột phá vòng vây đi nào!\n\n◆ Quy Tắc Sự Kiện ◆\n● Sự kiện chia thành 2 chế độ là \"Con Đường Thăng Cấp\" và \"Vòng Play-off\".\n● \"Con Đường Thăng Cấp\" tổng cộng gồm 4 ải, Nhà Khai Phá có thể tham gia \"Con Đường Thăng Cấp\" để tích lũy điểm, khi điểm đạt đến điều kiện nhất định thì sẽ mở khóa ải tiếp theo.\n● Ải trong \"Con Đường Thăng Cấp\" bao gồm 5 giai đoạn, sau khi Nhà Khai Phá đánh bại toàn bộ kẻ địch trong 5 giai đoạn thì sẽ vượt ải.\n● Sau khi vượt toàn bộ ải của \"Con Đường Thăng Cấp\", sẽ mở khóa chế độ \"Vòng Play-off\". Trong chế độ \"Vòng Play-off\", sau khi Nhà Khai Phá đánh bại toàn bộ kẻ địch trong 7 giai đoạn thì sẽ vượt ải.\n\n◆ Giới Thiệu Cách Chơi ◆\n● Tại Điểm Mốc Điều Chỉnh, Nhà Khai Phá có thể chọn trang bị cho máy bay pixel, và đưa chúng ra trận.\n● Tại Điểm Mốc Đột Kích, sau khi máy bay pixel của Nhà Khai Phá ra trận, sẽ tự động dùng trang bị để nghênh chiến phe địch.\n\n◆ Thưởng Vĩnh Viễn ◆\n● Liên tục tham gia giải đấu, tích lũy Điểm Chuyên Nghiệp để nhận thù lao giải đấu.\n\n◆ Thưởng Hạn Giờ ◆\n● Trong Sự Kiện Hạn Giờ, hoàn thành các loại mục tiêu cách chơi trong Thưởng Hạn Giờ để nhận thưởng tương ứng.\n\n◆ Nhắc Nhở Sự Kiện ◆\n● Sau khi kết thúc Sự Kiện Hạn Giờ \"Đại Chiến Máy Bay Pixel\", Nhà Khai Phá sẽ không thể nhận Thưởng Hạn Giờ trong thời gian sự kiện nữa, nhưng vẫn có thể đến Thành Phố Duomension nói chuyện với \"Tiên Nhân Trò Chơi\" để trải nghiệm sự kiện và nhận thưởng vĩnh viễn.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
+		"VersionAdded": "4.3"
+	},
+	"50115": {
+		"Id": "50115",
+		"Name": "Món Quà Tôi Luyện",
+		"TabName": "Món Quà Tôi Luyện",
+		"Description": "Sau khi thông qua Bước Nhảy Sự Kiện Nhân Vật nhận \"Mortenax Blade\", có thể nhận Bộ Phận Thời Trang Khai Phá hoàn toàn mới.",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Chi Tiết Sự Kiện ◆\n● Trong thời gian Bước Nhảy Sự Kiện Nhân Vật \"Thân Ta Là Lưỡi Kiếm\" phiên bản <unbreak>4.3</unbreak>, sau khi nhận \"Mortenax Blade\" thông qua Bước Nhảy Sự Kiện Nhân Vật, có thể nhận Thời Trang Khai Phá phần lưng mới \"Bỉ Ngạn Nghiệp Hỏa\".\n● Sau khi nhận Thời Trang Khai Phá \"Bỉ Ngạn Nghiệp Hỏa\", có thể xem và chọn mặc tại giao diện \"Nhân Vật - Thời Trang\".\n● \"Thời Trang Khai Phá\" sẽ bị ẩn đi trong một số cảnh diễn xuất nhiệm vụ và đoạn cắt cảnh.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
+		"VersionAdded": "4.3"
+	},
 	"60001": {
 		"Id": "60001",
 		"Name": "Vũ Trụ Mô Phỏng",
@@ -2204,5 +2270,14 @@
 		"Tag": "Mở Nhiệm Vụ Khai Phá",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory420.png",
 		"VersionAdded": "4.2"
+	},
+	"80027": {
+		"Id": "80027",
+		"Name": "Chìm Trong Vong Xuyên Của Người Sống",
+		"TabName": "Nhiệm Vụ Khai Phá",
+		"Description": "Lãng khách tìm nơi chôn cất, lữ khách mang theo lời cảnh báo, mọi người đi đến điểm cuối trong bức tranh nơi dòng Vong Xuyên cổ xưa tuôn chảy, chứng kiến những buồn vui của quá khứ hiện lên từ trong đó...",
+		"Tag": "Mở Nhiệm Vụ Khai Phá",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
+		"VersionAdded": "4.3"
 	}
 }

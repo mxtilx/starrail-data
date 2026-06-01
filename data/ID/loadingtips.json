@@ -2375,6 +2375,18 @@
 		"Description": "Saat menelusuri jejak pelaku, Ashveil berdiri di tepi jembatan dan teringat pada masa lalunya ....",
 		"VersionAdded": "4.1"
 	},
+	"20100": {
+		"Id": "20100",
+		"Name": "Sedang berganti ke sudut pandang \"Ashveil\" ....",
+		"Description": "Kembali ke \"Ujung Dunia\", Ashveil mengincar sesosok target yang sangat berbahaya ....",
+		"VersionAdded": "4.3"
+	},
+	"20101": {
+		"Id": "20101",
+		"Name": "Sedang berganti ke sudut pandang \"Himeko\" ....",
+		"Description": "Himeko menyelidiki kejanggalan tentang ayahnya dan teringat pada lukisan-lukisan yang berkaitan dengan Destruction ....",
+		"VersionAdded": "4.3"
+	},
 	"20102": {
 		"Id": "20102",
 		"Name": "Sedang berganti ke sudut pandang \"Evanescia\" ....",

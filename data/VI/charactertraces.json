@@ -127933,6 +127933,1461 @@
 		},
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"Nodes": {
+			"1507001": {
+				"Id": "1507001",
+				"Name": "Kiếm Gãy, Càn Quét",
+				"NodeType": 2,
+				"NodeTypeText": "Tấn Công Thường",
+				"EffectRaw": "Gây Sát Thương Hỏa cho 1 kẻ địch chỉ định bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời khiến mục tiêu rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"150701",
+					"150708"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.25
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Nước Mắt Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.35
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.45
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.5
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507002": {
+				"Id": "1507002",
+				"Name": "Mưa Kiếm, Quy Táng",
+				"NodeType": 2,
+				"NodeTypeText": "Chiến Kỹ",
+				"EffectRaw": "Tiêu hao HP bằng <unbreak>#4[i]%</unbreak> Giới Hạn HP của Mortenax Blade, gây Sát Thương Hỏa cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời gây thêm <unbreak>#2[i]</unbreak> lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên bằng <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade.\nNếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Mortenax Blade giảm còn 1.\nKhi không ở trạng thái \"Vô Lượng Phẫn Nộ\" hoặc HP hiện tại nhỏ hơn hoặc bằng 1, Mortenax Blade không thể thi triển Chiến Kỹ.\nThi triển Chiến Kỹ không tiêu hao Điểm Chiến Kỹ.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150702",
+					"150709"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.36,
+							4,
+							0.12,
+							0.1
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.396,
+							4,
+							0.132,
+							0.1
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.432,
+							4,
+							0.144,
+							0.1
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Nước Mắt Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.468,
+							4,
+							0.156,
+							0.1
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.504,
+							4,
+							0.168,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.54,
+							4,
+							0.18,
+							0.1
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.585,
+							4,
+							0.195,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.63,
+							4,
+							0.21,
+							0.1
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.675,
+							4,
+							0.225,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.72,
+							4,
+							0.24,
+							0.1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507003": {
+				"Id": "1507003",
+				"Name": "Xương Cốt Làm Lò, Máu Thịt Làm Củi",
+				"NodeType": 2,
+				"NodeTypeText": "Tuyệt Kỹ",
+				"EffectRaw": "Khiến toàn phe địch rơi vào trạng thái \"Sát Hỏa Quấn Thân\", Phòng Thủ của mục tiêu phe địch ở trạng thái \"Sát Hỏa Quấn Thân\" giảm <color=#f29e38ff><unbreak>#7[f1]%</unbreak></color>, sát thương phải chịu tăng <color=#f29e38ff><unbreak>#4[f1]%</unbreak></color>, duy trì <unbreak>#8[i]</unbreak> hiệp. Sau đó tiêu hao HP bằng <unbreak>#1[i]%</unbreak> Giới Hạn HP của Mortenax Blade để triển khai Kết Giới, trong thời gian duy trì Kết Giới, Mortenax Blade nhận trạng thái \"Vô Lượng Phẫn Nộ\".\nTrong trạng thái \"Vô Lượng Phẫn Nộ\", Tỷ Lệ Bạo Kích tăng <unbreak>#2[i]%</unbreak>, Sát Thương Bạo Kích tăng <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>, Tấn Công Thường được cường hóa, đồng thời giải phóng Chiến Kỹ và nhận Tuyệt Kỹ mới \"Ngàn Lần Rèn Đúc, Vạn Kiếp Tẫn Diệt\", nếu chịu tấn công chí tử sẽ không rơi vào <u>trạng thái không thể chiến đấu</u>, nhưng sẽ giải trừ Kết Giới, thoát trạng thái \"Vô Lượng Phẫn Nộ\" và hồi HP bằng <unbreak>#6[i]%</unbreak> Giới Hạn HP của bản thân.\nKhi nhận trạng thái \"Vô Lượng Phẫn Nộ\", trên thứ tự hành động xuất hiện đếm ngược tương ứng, đếm ngược cố định có <unbreak>#5[i]</unbreak> Tốc Độ, khi bắt đầu hiệp đếm ngược sẽ giải trừ Kết Giới và thoát trạng thái \"Vô Lượng Phẫn Nộ\".\nNếu HP hiện tại không đủ, khi thi triển kỹ năng này HP hiện tại của Mortenax Blade sẽ giảm xuống còn 1 điểm.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150703",
+					"150714"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.3,
+							0.3,
+							70,
+							0.5,
+							0.2,
+							2
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.33,
+							0.32,
+							70,
+							0.5,
+							0.21,
+							2
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.36,
+							0.34,
+							70,
+							0.5,
+							0.22,
+							2
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Nước Mắt Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.39,
+							0.36,
+							70,
+							0.5,
+							0.23,
+							2
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.42,
+							0.38,
+							70,
+							0.5,
+							0.24,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.45,
+							0.4,
+							70,
+							0.5,
+							0.25,
+							2
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.4875,
+							0.425,
+							70,
+							0.5,
+							0.2625,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.525,
+							0.45,
+							70,
+							0.5,
+							0.275,
+							2
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.5625,
+							0.475,
+							70,
+							0.5,
+							0.2875,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							0.2,
+							0.6,
+							0.5,
+							70,
+							0.5,
+							0.3,
+							2
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507004": {
+				"Id": "1507004",
+				"Name": "Trả Hết Nhân Quả",
+				"NodeType": 2,
+				"NodeTypeText": "Thiên Phú",
+				"EffectRaw": "Trong thời gian duy trì Kết Giới, sau mỗi lần mục tiêu phe ta tấn công phe địch, khiến mục tiêu phe địch tương ứng rơi vào trạng thái \"Sát Hỏa Quấn Thân\" và khiến Mortenax Blade nhận 1 điểm Nạp Năng Lượng, khi Nạp Năng Lượng đạt <unbreak>#1[i]</unbreak> điểm và HP hiện tại lớn hơn 1, sẽ tiêu hao <unbreak>#1[i]</unbreak> điểm Nạp Năng Lượng, hồi <color=#f29e38ff><unbreak>#2[f1]</unbreak></color> điểm Năng Lượng, đồng thời khiến Mortenax Blade thi triển thêm 1 lần Chiến Kỹ, Chiến Kỹ lần này được xem là <u>Đòn Đánh Theo Sau</u>.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"150704"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							9,
+							15
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							9,
+							16
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							9,
+							17
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Nước Mắt Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							9,
+							18
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							9,
+							19
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							9,
+							20
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 30000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							9,
+							21.25
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							9,
+							22.5
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 80000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							9,
+							23.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							9,
+							25
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 300000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507007": {
+				"Id": "1507007",
+				"Name": "Thập Phương Vô Xá",
+				"NodeType": 2,
+				"NodeTypeText": "Bí Kỹ",
+				"EffectRaw": "Lập tức tấn công tất cả kẻ địch trong phạm vi nhất định, sau khi vào chiến đấu, khiến toàn bộ phe địch rơi vào trạng thái Khiêu Khích, duy trì 1 hiệp, đồng thời khiến sát thương bản thân phải chịu giảm <unbreak>#1[i]%</unbreak>, duy trì <unbreak>#2[i]</unbreak> hiệp.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"150707"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.9,
+							2
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1507101": {
+				"Id": "1507101",
+				"Name": "Xương Cốt Trăm Lần Tinh Luyện",
+				"NodeType": 3,
+				"EffectRaw": "Mortenax Blade có thể tích lũy tối đa <unbreak>#2[i]</unbreak> điểm Năng Lượng vượt mức, sau khi thi triển Tuyệt Kỹ sẽ xóa và hồi Năng Lượng tương ứng. Khi bắt đầu chiến đấu hoặc khi giải trừ Kết Giới, nếu Năng Lượng không đủ <unbreak>#1[i]%</unbreak> thì lập tức hồi đến <unbreak>#1[i]%</unbreak>. Khi Năng Lượng hồi đến giới hạn sẽ giải trừ toàn bộ <u>Hiệu Ứng Xấu</u> của bản thân.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.75,
+							80
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Nước Mắt Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507102": {
+				"Id": "1507102",
+				"Name": "Hồn Phách Nghìn Lần Rèn Đúc",
+				"NodeType": 3,
+				"EffectRaw": "Trong thời gian duy trì Kết Giới, tăng xác suất bị phe địch tấn công, sát thương bản thân phải chịu giảm <unbreak>#2[i]%</unbreak>, lượng trị liệu nhận được tăng <unbreak>#3[i]%</unbreak>, và sau khi bị tấn công sẽ khiến mục tiêu tương ứng rơi vào trạng thái \"Sát Hỏa Quấn Thân\", đồng thời khiến Mortenax Blade nhận 1 điểm Nạp Năng Lượng.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							10,
+							0.5,
+							0.5
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507103": {
+				"Id": "1507103",
+				"Name": "Trái Tim Vạn Lần Tôi Luyện",
+				"NodeType": 3,
+				"EffectRaw": "Trong thời gian duy trì Kết Giới, sát thương do mục tiêu phe ta gây ra tăng <unbreak>#1[i]%</unbreak>, khi trong đội phe ta có nhân vật vận mệnh \"Hư Vô\" ngoại trừ Mortenax Blade, khiến Sát Thương Tuyệt Kỹ do mục tiêu phe ta gây ra tăng <unbreak>#2[i]%</unbreak>, nếu không, khiến sát thương do Mortenax Blade gây ra tăng thêm <unbreak>#3[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5,
+							0.75,
+							0.75
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Dấu Chân Vận Mệnh",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Sự Im Lặng Của Dòng Chảy Bị Hủy Diệt",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1507201": {
+				"Id": "1507201",
+				"Name": "Cường Hóa Sát Thương - Hỏa",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Sát Thương Hỏa <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1507202": {
+				"Id": "1507202",
+				"Name": "Cường Hóa Tỷ Lệ Bạo Kích",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Tỷ Lệ Bạo Kích <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1507101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 5000
+							},
+							{
+								"Id": "110311",
+								"Name": "Nước Mắt Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Bút Sáp Chất Phác",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1507203": {
+				"Id": "1507203",
+				"Name": "Cường Hóa Sát Thương - Hỏa",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Sát Thương Hỏa <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507204": {
+				"Id": "1507204",
+				"Name": "Cường Hóa HP",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Giới Hạn HP <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1507203",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 10000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507205": {
+				"Id": "1507205",
+				"Name": "Cường Hóa Sát Thương - Hỏa",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Sát Thương Hỏa <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1507102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 20000
+							},
+							{
+								"Id": "110312",
+								"Name": "Rượu Phagousa",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Thép Luyện Xây Mộng",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1507206": {
+				"Id": "1507206",
+				"Name": "Cường Hóa Tỷ Lệ Bạo Kích",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Tỷ Lệ Bạo Kích <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507207": {
+				"Id": "1507207",
+				"Name": "Cường Hóa Sát Thương - Hỏa",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Sát Thương Hỏa <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1507206",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 45000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1507208": {
+				"Id": "1507208",
+				"Name": "Cường Hóa HP",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Giới Hạn HP <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "HPAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconMaxHP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507209": {
+				"Id": "1507209",
+				"Name": "Cường Hóa Tỷ Lệ Bạo Kích",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Tỷ Lệ Bạo Kích <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1507103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1507210": {
+				"Id": "1507210",
+				"Name": "Cường Hóa Sát Thương - Hỏa",
+				"NodeType": 1,
+				"EffectRaw": "Tăng Sát Thương Hỏa <unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.064,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.064
+						],
+						"LevelRequired": 80,
+						"NodeRequired": "1507201",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Điểm Tín Dụng",
+								"Count": 160000
+							},
+							{
+								"Id": "110313",
+								"Name": "Trái Tim Phagousa",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Ống Nhìn Giấc Mộng",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "{NICKNAME}",

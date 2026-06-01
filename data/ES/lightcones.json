@@ -7948,6 +7948,67 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"23059": {
+		"Id": "23059",
+		"Name": "Nuevo cuerpo del averno ardiente",
+		"PathType": "Warlock",
+		"PathTypeText": "Nihilidad",
+		"EffectName": "Templado",
+		"EffectTemplate": "Los PV máx. del portador aumentan en un <color=#f29e38ff>#1[i]%</color>. Cuando el portador comienza su turno, recupera #2[i] pts. de energía fijos. Este efecto se puede activar 1 vez por oleada. Después de que el portador lance su habilidad básica para atacar, afecta a los objetivos con Purgatorio durante #3[i] turnos. En el estado de Purgatorio, el Daño CRIT que un objetivo recibe aumenta en un <color=#f29e38ff>#4[i]%</color>, y el que recibe del portador aumenta en un <color=#f29e38ff>#5[i]%</color> adicional.",
+		"Superimpositions": [
+			{
+				"Effect": "Los PV máx. del portador aumentan en un <color=#f29e38ff>30%</color>. Cuando el portador comienza su turno, recupera 20 pts. de energía fijos. Este efecto se puede activar 1 vez por oleada. Después de que el portador lance su habilidad básica para atacar, afecta a los objetivos con Purgatorio durante 2 turnos. En el estado de Purgatorio, el Daño CRIT que un objetivo recibe aumenta en un <color=#f29e38ff>30%</color>, y el que recibe del portador aumenta en un <color=#f29e38ff>30%</color> adicional.",
+				"Params": [
+					0.3,
+					20,
+					2,
+					0.3,
+					0.3
+				]
+			},
+			{
+				"Effect": "Los PV máx. del portador aumentan en un <color=#f29e38ff>37%</color>. Cuando el portador comienza su turno, recupera 20 pts. de energía fijos. Este efecto se puede activar 1 vez por oleada. Después de que el portador lance su habilidad básica para atacar, afecta a los objetivos con Purgatorio durante 2 turnos. En el estado de Purgatorio, el Daño CRIT que un objetivo recibe aumenta en un <color=#f29e38ff>37%</color>, y el que recibe del portador aumenta en un <color=#f29e38ff>37%</color> adicional.",
+				"Params": [
+					0.375,
+					20,
+					2,
+					0.375,
+					0.375
+				]
+			},
+			{
+				"Effect": "Los PV máx. del portador aumentan en un <color=#f29e38ff>45%</color>. Cuando el portador comienza su turno, recupera 20 pts. de energía fijos. Este efecto se puede activar 1 vez por oleada. Después de que el portador lance su habilidad básica para atacar, afecta a los objetivos con Purgatorio durante 2 turnos. En el estado de Purgatorio, el Daño CRIT que un objetivo recibe aumenta en un <color=#f29e38ff>45%</color>, y el que recibe del portador aumenta en un <color=#f29e38ff>45%</color> adicional.",
+				"Params": [
+					0.45,
+					20,
+					2,
+					0.45,
+					0.45
+				]
+			},
+			{
+				"Effect": "Los PV máx. del portador aumentan en un <color=#f29e38ff>52%</color>. Cuando el portador comienza su turno, recupera 20 pts. de energía fijos. Este efecto se puede activar 1 vez por oleada. Después de que el portador lance su habilidad básica para atacar, afecta a los objetivos con Purgatorio durante 2 turnos. En el estado de Purgatorio, el Daño CRIT que un objetivo recibe aumenta en un <color=#f29e38ff>52%</color>, y el que recibe del portador aumenta en un <color=#f29e38ff>52%</color> adicional.",
+				"Params": [
+					0.525,
+					20,
+					2,
+					0.525,
+					0.525
+				]
+			},
+			{
+				"Effect": "Los PV máx. del portador aumentan en un <color=#f29e38ff>60%</color>. Cuando el portador comienza su turno, recupera 20 pts. de energía fijos. Este efecto se puede activar 1 vez por oleada. Después de que el portador lance su habilidad básica para atacar, afecta a los objetivos con Purgatorio durante 2 turnos. En el estado de Purgatorio, el Daño CRIT que un objetivo recibe aumenta en un <color=#f29e38ff>60%</color>, y el que recibe del portador aumenta en un <color=#f29e38ff>60%</color> adicional.",
+				"Params": [
+					0.6,
+					20,
+					2,
+					0.6,
+					0.6
+				]
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Sobre la caída de un Eón",

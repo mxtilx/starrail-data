@@ -2187,6 +2187,61 @@
 		"HiddenDescription": "她如风花飘然而过",
 		"VersionAdded": "4.2"
 	},
+	"4035301": {
+		"Id": "4035301",
+		"Name": "禁忌推理",
+		"SortOrder": 837,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "推理要在碰杯之后\n<color=#8790abff>※前往「酒馆」调查关于归寂存在的线索</color>",
+		"HiddenDescription": "推理要在碰杯之后",
+		"VersionAdded": "4.3"
+	},
+	"4035302": {
+		"Id": "4035302",
+		"Name": "点亮旧日的灯火",
+		"SortOrder": 836,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "出来打雪仗哟！\n<color=#8790abff>※以过去的约定方式唤来绘世</color>",
+		"HiddenDescription": "出来打雪仗哟！",
+		"VersionAdded": "4.3"
+	},
+	"4035303": {
+		"Id": "4035303",
+		"Name": "驻足彼岸一刻",
+		"SortOrder": 835,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "跳下去吧，融化在那片蓝洞里\n<color=#8790abff>※目睹刃前往画中世界的尽头</color>",
+		"HiddenDescription": "跳下去吧，融化在那片蓝洞里",
+		"VersionAdded": "4.3"
+	},
+	"4035304": {
+		"Id": "4035304",
+		"Name": "刃之为物",
+		"SortOrder": 834,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "何物为刃？何物消磨自身，撕碎敌雠？\n<color=#8790abff>※刃得到了他的答案</color>",
+		"HiddenDescription": "何物为刃？何物消磨自身，撕碎敌雠？",
+		"VersionAdded": "4.3"
+	},
+	"4035305": {
+		"Id": "4035305",
+		"Name": "归于空寂的玩笑",
+		"SortOrder": 833,
+		"Rarity": "Mid",
+		"SeriesId": 3,
+		"SeriesText": "通往群星的轨道",
+		"Description": "解释笑话，是最恶劣的行为\n<color=#8790abff>※目睹归寂揭晓自己的真面目</color>",
+		"HiddenDescription": "解释笑话，是最恶劣的行为",
+		"VersionAdded": "4.3"
+	},
 	"4040101": {
 		"Id": "4040101",
 		"Name": "角色扮演游戏里合法",
@@ -4872,7 +4927,7 @@
 		"Rarity": "Low",
 		"SeriesId": 4,
 		"SeriesText": "众秘探奇",
-		"Description": "进去玩具琴中的秘密空间",
+		"Description": "进入玩具琴中的秘密空间",
 		"VersionAdded": "4.0"
 	},
 	"4045019": {
@@ -5558,6 +5613,76 @@
 		"SeriesText": "众秘探奇",
 		"Description": "演奏奇异乐章，找到藏在海原市的迷之生物",
 		"VersionAdded": "4.2"
+	},
+	"4045301": {
+		"Id": "4045301",
+		"Name": "孤高之人",
+		"SortOrder": 655,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "完成渡画泉隐的「Jump时刻」",
+		"VersionAdded": "4.3"
+	},
+	"4045302": {
+		"Id": "4045302",
+		"Name": "躲避刺客",
+		"SortOrder": 654,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在不被刺猬灵碰到的情况下通关渡画泉隐的「Jump时刻」",
+		"VersionAdded": "4.3"
+	},
+	"4045303": {
+		"Id": "4045303",
+		"Name": "最后的冰霜巨人",
+		"SortOrder": 653,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "击晕卡斯佩",
+		"VersionAdded": "4.3"
+	},
+	"4045304": {
+		"Id": "4045304",
+		"Name": "雪国",
+		"SortOrder": 652,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在「二次元JUMP！」和卡斯佩打雪仗时，找到城堡中的隐藏宝箱",
+		"VersionAdded": "4.3"
+	},
+	"4045305": {
+		"Id": "4045305",
+		"Name": "欢迎来到蒸汽平台",
+		"SortOrder": 651,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "在渡画泉隐的雪地温泉里泡澡",
+		"VersionAdded": "4.3"
+	},
+	"4045306": {
+		"Id": "4045306",
+		"Name": "无头骑士逸闻录",
+		"SortOrder": 650,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "踢飞渡画泉隐所有「平平无奇的雪人」的头",
+		"VersionAdded": "4.3"
+	},
+	"4045307": {
+		"Id": "4045307",
+		"Name": "乐园变奏：雪孩子",
+		"SortOrder": 649,
+		"Rarity": "Low",
+		"SeriesId": 4,
+		"SeriesText": "众秘探奇",
+		"Description": "演奏奇异乐章，找到藏在渡画泉隐的迷之生物",
+		"VersionAdded": "4.3"
 	},
 	"4051001": {
 		"Id": "4051001",
@@ -12423,6 +12548,126 @@
 		"Description": "在「又上骰了！战力党！」中，完成与银狼LV.999的最终对决",
 		"VersionAdded": "4.2"
 	},
+	"4055301": {
+		"Id": "4055301",
+		"Name": "出发！星穹巴士！",
+		"SortOrder": 293,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "向虚照了解《幻月新游戏》的故事",
+		"VersionAdded": "4.3"
+	},
+	"4055302": {
+		"Id": "4055302",
+		"Name": "无尽传说",
+		"SortOrder": 292,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "支持《星轨之兔》继续研发",
+		"VersionAdded": "4.3"
+	},
+	"4055303": {
+		"Id": "4055303",
+		"Name": "从此，它幸福直到永远…",
+		"SortOrder": 291,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "反对《星轨之兔》继续研发",
+		"VersionAdded": "4.3"
+	},
+	"4055304": {
+		"Id": "4055304",
+		"Name": "画界的守护者",
+		"SortOrder": 290,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在渡画泉隐的法阵中召唤出「绘世」",
+		"VersionAdded": "4.3"
+	},
+	"4055305": {
+		"Id": "4055305",
+		"Name": "高精力人士",
+		"SortOrder": 289,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在鸽川区和渡画泉隐两度遇见暗布雷拉，并与其对话",
+		"VersionAdded": "4.3"
+	},
+	"4055306": {
+		"Id": "4055306",
+		"Name": "银杏树之恋",
+		"SortOrder": 288,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在车站前见证两位路人依依惜别",
+		"VersionAdded": "4.3"
+	},
+	"4055307": {
+		"Id": "4055307",
+		"Name": "最终决战兵器",
+		"SortOrder": 287,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「像素飞机大乱斗」中，首次将一个核心装备升到三星",
+		"VersionAdded": "4.3"
+	},
+	"4055308": {
+		"Id": "4055308",
+		"Name": "续火花之歌",
+		"SortOrder": 286,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「像素飞机大乱斗」中，使用「赛道魔术」击败火花",
+		"VersionAdded": "4.3"
+	},
+	"4055309": {
+		"Id": "4055309",
+		"Name": "蓝天之下的约定",
+		"SortOrder": 285,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「像素飞机大乱斗」中，解锁全部像素飞机",
+		"VersionAdded": "4.3"
+	},
+	"4055310": {
+		"Id": "4055310",
+		"Name": "王牌空战",
+		"SortOrder": 284,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「像素飞机大乱斗」中，在没有生命损失的情况下赢得巅峰对决",
+		"VersionAdded": "4.3"
+	},
+	"4055311": {
+		"Id": "4055311",
+		"Name": "毕业套",
+		"SortOrder": 283,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「像素飞机大乱斗」中，在单局内同时拥有#1个三星级装备",
+		"VersionAdded": "4.3"
+	},
+	"4055312": {
+		"Id": "4055312",
+		"Name": "全机型制霸",
+		"SortOrder": 282,
+		"Rarity": "Low",
+		"SeriesId": 5,
+		"SeriesText": "与你同行的回忆",
+		"Description": "在「像素飞机大乱斗」中，使用每一架飞机赢得过比赛",
+		"VersionAdded": "4.3"
+	},
 	"4060101": {
 		"Id": "4060101",
 		"Name": "影逝百度（一）",
@@ -15738,7 +15983,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "战意奔涌",
-		"Description": "单场战斗中，使用「欢愉」命途开拓者累计对#1名不同队友各施放过一次终结技",
+		"Description": "单场战斗中，使用「欢愉」命途开拓者累计对#1名不同角色各施放过一次终结技",
 		"VersionAdded": "4.2"
 	},
 	"4075202": {
@@ -15748,7 +15993,7 @@
 		"Rarity": "Low",
 		"SeriesId": 7,
 		"SeriesText": "战意奔涌",
-		"Description": "单次战斗中，使用「欢愉」命途开拓者对火花累计施放#1次终结技",
+		"Description": "单场战斗中，使用「欢愉」命途开拓者对火花累计施放#1次终结技",
 		"VersionAdded": "4.2"
 	},
 	"4075203": {
@@ -15830,6 +16075,56 @@
 		"SeriesText": "战意奔涌",
 		"Description": "在与「乐变化天人」的战斗中，单次攻击同时消灭#1个及以上的「乐变化天人•终」",
 		"VersionAdded": "4.2"
+	},
+	"4075301": {
+		"Id": "4075301",
+		"Name": "炉火不熄，百炼成兵",
+		"SortOrder": 696,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "战斗胜利时，千冶•刃的剩余生命值为#1",
+		"VersionAdded": "4.3"
+	},
+	"4075302": {
+		"Id": "4075302",
+		"Name": "刀声剑声打铁声，声声入耳",
+		"SortOrder": 695,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "单个回合中，使用我方角色千冶•刃施放#1次【刃下，归葬】",
+		"VersionAdded": "4.3"
+	},
+	"4075303": {
+		"Id": "4075303",
+		"Name": "炎炎消防队长",
+		"SortOrder": 693,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "在与「始作画者，无量塔绘世」的战斗中，在自身生命值较低且灭火成功率最低的情况下选择【扑灭火焰】，并成功解除【怨火灼身】状态",
+		"VersionAdded": "4.3"
+	},
+	"4075304": {
+		"Id": "4075304",
+		"Name": "肠胃清道夫",
+		"SortOrder": 692,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "在与「吞神子嗣」的战斗中，使用我方攻击力最高的角色解除【吞噬】状态并获得额外攻击力加成",
+		"VersionAdded": "4.3"
+	},
+	"4075305": {
+		"Id": "4075305",
+		"Name": "万劫不复",
+		"SortOrder": 694,
+		"Rarity": "Low",
+		"SeriesId": 7,
+		"SeriesText": "战意奔涌",
+		"Description": "使用我方角色千冶•刃，在单次【无量忿怒】持续期间施放#1次【千冶铸一，万劫烬灭】",
+		"VersionAdded": "4.3"
 	},
 	"4080101": {
 		"Id": "4080101",
@@ -16594,6 +16889,16 @@
 		"SeriesText": "瞬息欢愉",
 		"Description": "在「二次元JUMP！」中遭到水上飞车撞击",
 		"VersionAdded": "4.0"
+	},
+	"4085301": {
+		"Id": "4085301",
+		"Name": "你想堆雪人吗",
+		"SortOrder": 900,
+		"Rarity": "Low",
+		"SeriesId": 8,
+		"SeriesText": "瞬息欢愉",
+		"Description": "在「二次元JUMP！」中，被冻进冰块里",
+		"VersionAdded": "4.3"
 	},
 	"4090201": {
 		"Id": "4090201",

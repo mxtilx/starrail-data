@@ -3238,6 +3238,47 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"1507": {
+		"Id": "1507",
+		"Name": "Mortenax Blade",
+		"ElementType": "Fire",
+		"ElementTypeText": "Fuego",
+		"PathType": "Warlock",
+		"PathTypeText": "Nihilidad",
+		"Eidolons": [
+			{
+				"Id": "150701",
+				"Name": "Completo solo tras la muerte",
+				"Effect": "Mientras el campo está activo, la RES a todos los tipos de todos los enemigos se reduce en un 20%. Tras lanzar la habilidad básica adicional del talento, la cuenta regresiva de Ira inconmensurable <u>retrasa su acción</u> en un 15%."
+			},
+			{
+				"Id": "150702",
+				"Name": "Fuego vivo en corazón ceniciento",
+				"Effect": "Cuando los personajes aliados infligen daño con su habilidad definitiva, se considera que han lanzado un <u>ataque adicional</u>. El daño de <u>ataque adicional</u> que infligen los aliados aumenta en un 75%. El límite de puntos de carga de Mortenax Blade se reduce a 7."
+			},
+			{
+				"Id": "150703",
+				"Name": "Ira encarnada en la otra orilla",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15)."
+			},
+			{
+				"Id": "150704",
+				"Name": "Espada nacida del remordimiento",
+				"Effect": "Corazón infinitamente templado aumenta en un 50% adicional el daño que infligen los aliados."
+			},
+			{
+				"Id": "150705",
+				"Name": "Antigua amargura que anima a vivir",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10)."
+			},
+			{
+				"Id": "150706",
+				"Name": "Acabaré con la Hacedora de Plagas",
+				"Effect": "Mientras el campo está activo, Mortenax Blade obtiene 1 pt. de carga cuando recibe daño o consume PV. Este efecto se puede volver a activar tras terminar el turno de cualquier objetivo. El multiplicador de daño de Forja de uno, olvido de todos aumenta hasta el 150% del multiplicador original."
+			}
+		],
+		"VersionAdded": "4.3"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trazacaminos (Físico)",
