@@ -1279,6 +1279,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"2128": {
+		"Id": "2128",
+		"Name": "拓星啟明",
+		"Description": "指定角色出現機率提升",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2129": {
+		"Id": "2129",
+		"Name": "銘心之萃•火花",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2130": {
+		"Id": "2130",
+		"Name": "銘心之萃•丹恆•騰荒",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2131": {
+		"Id": "2131",
+		"Name": "銘心之萃•長夜月",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2132": {
+		"Id": "2132",
+		"Name": "銘心之萃•那刻夏",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2133": {
+		"Id": "2133",
+		"Name": "銘心之萃•刻律德菈",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2134": {
+		"Id": "2134",
+		"Name": "銘心之萃•砂金",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "角色活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "流光定影",
@@ -2549,6 +2619,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"3128": {
+		"Id": "3128",
+		"Name": "流光定影",
+		"Description": "指定光錐出現機率提升",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3129": {
+		"Id": "3129",
+		"Name": "真意之匯•花花世界迷人眼",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3130": {
+		"Id": "3130",
+		"Name": "真意之匯•縱然山河萬程",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3131": {
+		"Id": "3131",
+		"Name": "真意之匯•致長夜的星光",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3132": {
+		"Id": "3132",
+		"Name": "真意之匯•生命當付之一炬",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3133": {
+		"Id": "3133",
+		"Name": "真意之匯•金血銘刻的時代",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3134": {
+		"Id": "3134",
+		"Name": "真意之匯•命運從未公平",
+		"Description": "點選分頁切換不同躍遷",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "光錐活動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"4001": {
 		"Id": "4001",
 		"Name": "始發躍遷",
@@ -2564,7 +2704,7 @@
 		"Name": "聖劍輝烈之誓",
 		"Description": "指定角色出現機率提升",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "角色聯動躍遷",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014_Selected.png",
 		"VersionAdded": "3.4"
@@ -2574,17 +2714,37 @@
 		"Name": "此身劍所天成",
 		"Description": "指定角色出現機率提升",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "角色聯動躍遷",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"5003": {
+		"Id": "5003",
+		"Name": "魔石赤染流光",
+		"Description": "指定角色出現機率提升",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"5004": {
+		"Id": "5004",
+		"Name": "原初開闢之星",
+		"Description": "指定角色出現機率提升",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509_Selected.png",
+		"VersionAdded": "4.4"
 	},
 	"6001": {
 		"Id": "6001",
 		"Name": "王的誕生",
 		"Description": "指定光錐出現機率提升",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "光錐聯動躍遷",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045_Selected.png",
 		"VersionAdded": "3.4"
@@ -2594,9 +2754,29 @@
 		"Name": "冬木赤影",
 		"Description": "指定光錐出現機率提升",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "光錐聯動躍遷",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"6003": {
+		"Id": "6003",
+		"Name": "萬華驕芒",
+		"Description": "指定光錐出現機率提升",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"6004": {
+		"Id": "6004",
+		"Name": "神代金扉",
+		"Description": "指定光錐出現機率提升",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Fate[UBW] 聯動躍遷",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062_Selected.png",
+		"VersionAdded": "4.4"
 	}
 }

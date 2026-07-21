@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "Ankerplatz des gefallenen Sterns",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Erhöht die KRIT-Rate des Trägers um 8%. Wenn beim Kampfeintritt sowohl der Träger als auch ein weiteres Teammitglied Trailblaze-Gefährten sind, wird der KRIT-SCH des Trägers um 32% erhöht."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "Institut für kosmische Biowissenschaften",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Wenn die max. Energie des Trägers beim Kampfeintritt mindestens 200 Pkt. beträgt, wird der verursachte SCH des Trägers für jeden überschüssigen Pkt. um 0.2% erhöht, bis zu einem Maximum von 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

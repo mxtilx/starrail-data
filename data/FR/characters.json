@@ -3279,6 +3279,47 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko • Nova",
+		"ElementType": "Fire",
+		"ElementTypeText": "Feu",
+		"PathType": "Mage",
+		"PathTypeText": "L'Érudition",
+		"Eidolons": [
+			{
+				"Id": "151001",
+				"Name": "Notre chemin, c'est l'exploration pionnière",
+				"Effect": "Augmente de 1 le nombre d'utilisations supplémentaires de la <u>compétence de soutien</u> du talent. Dans l'état Protocole de compagnon : Verdict, réduit le nombre d'utilisations de l'ultime requises pour lancer la <u>compétence de soutien</u> de 1. Dans l'état Protocole de compagnon : Anéantissement, réduit la charge requise pour lancer la <u>compétence de soutien</u> de 3. Lorsque Himeko • Nova lance la <u>compétence de soutien</u>, augmente le nombre d'instances de DGT supplémentaire de 1."
+			},
+			{
+				"Id": "151002",
+				"Name": "L'étendard, une voile à jamais déployée",
+				"Effect": "La limite d'utilisations de la <u>compétence de soutien</u> monte à 2 et les DGT infligés par l'ultime et la <u>compétence de soutien</u> sont équivalents à 130% des DGT initiaux. Au début de chaque tour dans l'état Sémaphore de navigation, récupère immédiatement 1 utilisation supplémentaire de la <u>compétence de soutien</u>. Les personnages qui ne sont pas des <u>Compagnons pionniers</u> activent également l'effet de la Trace Rugissement du pouls de l'Astral Express et obtiennent 1 <u>tour supplémentaire</u> lorsqu'ils utilisent la <u>compétence de soutien</u>."
+			},
+			{
+				"Id": "151003",
+				"Name": "L'enfant des étoiles rêve des astres",
+				"Effect": "Niv. de l'ultime +2, jusqu'au Niv. 15 maximum.\nNiv. de l'ATQ normale +1, jusqu'au Niv. 10 maximum."
+			},
+			{
+				"Id": "151004",
+				"Name": "Un objectif partagé",
+				"Effect": "Lors de l'utilisation de la <u>compétence de soutien</u> via le talent Voyage commun sur un chemin brûlant, l'effet d'augmentation de PÉN de RÉS à tous les types s'applique à tous les alliés. Lorsque Himeko • Nova bénéficie de cet effet, sa PÉN de RÉS à tous les types augmente de 10% supplémentaires."
+			},
+			{
+				"Id": "151005",
+				"Name": "Traverser le cosmos et au-delà",
+				"Effect": "Niv. de la compétence +2, jusqu'au Niv. 15 maximum.\nNiv. du talent +2, jusqu'au Niv. 15 maximum."
+			},
+			{
+				"Id": "151006",
+				"Name": "Notre serment est de naviguer vers les étoiles",
+				"Effect": "La <u>PÉN de RÉS</u> au feu de Himeko • Nova augmente de 20%. La limite d'<u>Énergie primordiale</u> monte à 6 points. Lorsqu'un allié utilise ou active la <u>compétence de soutien</u>, les DGT infligés par la <u>compétence de soutien</u> augmentent de 75% et Himeko • Nova obtient 1 point d'<u>Énergie primordiale</u>. Lors de l'activation de Rayon de particules hyperluminales pendant l'ultime, obtient 1 point d'<u>Énergie primordiale</u> supplémentaire. Lors de l'activation d'Impulsion d'annihilation orbitale, si l'<u>Énergie primordiale</u> actuelle est supérieure ou égale à 6 points, inflige 1 instance supplémentaire de DGT de feu équivalents à 160% de l'ATQ de Himeko • Nova à tous les ennemis."
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Pionnier (Physique)",

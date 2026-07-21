@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "Fallen Star Anchorage",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Meningkatkan 8% CRIT Rate pengguna. Saat memasuki pertempuran, CRIT DMG pengguna meningkat 32% jika pengguna dan satu rekan lainnya sama-sama karakter Rekan Perintisan."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "Cosmic Life Sciences Institute",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Saat memasuki pertempuran, jika Max Energy pengguna lebih dari atau sama dengan 200 poin, setiap 1 poin yang berlebih akan meningkatkan 0.2% DMG yang diakibatkan pengguna, maksimal meningkat 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

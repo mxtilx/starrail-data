@@ -8009,6 +8009,204 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"23060": {
+		"Id": "23060",
+		"Name": "Cuando una estrella ilumina la noche",
+		"PathType": "Mage",
+		"PathTypeText": "Erudición",
+		"EffectName": "Deseo inicial",
+		"EffectTemplate": "El portador ignora un <color=#f29e38ff>#7[i]%</color> de la DEF del objetivo al infligirle daño. Cuando el portador lanza la habilidad de apoyo, recupera #2[i] pts. de energía y obtiene Partida, que dura 2 turnos y se puede acumular hasta #3[i] veces. Cada acumulación de Partida aumenta el daño de habilidad de apoyo en un <color=#f29e38ff>#4[i]%</color>. Cuando Partida alcanza #5[i] acumulaciones, cada acumulación aumenta el daño de habilidad definitiva en un <color=#f29e38ff>#6[i]%</color>.",
+		"Superimpositions": [
+			{
+				"Effect": "El portador ignora un <color=#f29e38ff>32%</color> de la DEF del objetivo al infligirle daño. Cuando el portador lanza la habilidad de apoyo, recupera 6 pts. de energía y obtiene Partida, que dura 2 turnos y se puede acumular hasta 3 veces. Cada acumulación de Partida aumenta el daño de habilidad de apoyo en un <color=#f29e38ff>20%</color>. Cuando Partida alcanza 3 acumulaciones, cada acumulación aumenta el daño de habilidad definitiva en un <color=#f29e38ff>20%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.2,
+					3,
+					0.2,
+					0.32
+				]
+			},
+			{
+				"Effect": "El portador ignora un <color=#f29e38ff>36%</color> de la DEF del objetivo al infligirle daño. Cuando el portador lanza la habilidad de apoyo, recupera 6 pts. de energía y obtiene Partida, que dura 2 turnos y se puede acumular hasta 3 veces. Cada acumulación de Partida aumenta el daño de habilidad de apoyo en un <color=#f29e38ff>25%</color>. Cuando Partida alcanza 3 acumulaciones, cada acumulación aumenta el daño de habilidad definitiva en un <color=#f29e38ff>25%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.25,
+					3,
+					0.25,
+					0.36
+				]
+			},
+			{
+				"Effect": "El portador ignora un <color=#f29e38ff>40%</color> de la DEF del objetivo al infligirle daño. Cuando el portador lanza la habilidad de apoyo, recupera 6 pts. de energía y obtiene Partida, que dura 2 turnos y se puede acumular hasta 3 veces. Cada acumulación de Partida aumenta el daño de habilidad de apoyo en un <color=#f29e38ff>30%</color>. Cuando Partida alcanza 3 acumulaciones, cada acumulación aumenta el daño de habilidad definitiva en un <color=#f29e38ff>30%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.3,
+					3,
+					0.3,
+					0.4
+				]
+			},
+			{
+				"Effect": "El portador ignora un <color=#f29e38ff>44%</color> de la DEF del objetivo al infligirle daño. Cuando el portador lanza la habilidad de apoyo, recupera 6 pts. de energía y obtiene Partida, que dura 2 turnos y se puede acumular hasta 3 veces. Cada acumulación de Partida aumenta el daño de habilidad de apoyo en un <color=#f29e38ff>35%</color>. Cuando Partida alcanza 3 acumulaciones, cada acumulación aumenta el daño de habilidad definitiva en un <color=#f29e38ff>35%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.35,
+					3,
+					0.35,
+					0.44
+				]
+			},
+			{
+				"Effect": "El portador ignora un <color=#f29e38ff>48%</color> de la DEF del objetivo al infligirle daño. Cuando el portador lanza la habilidad de apoyo, recupera 6 pts. de energía y obtiene Partida, que dura 2 turnos y se puede acumular hasta 3 veces. Cada acumulación de Partida aumenta el daño de habilidad de apoyo en un <color=#f29e38ff>40%</color>. Cuando Partida alcanza 3 acumulaciones, cada acumulación aumenta el daño de habilidad definitiva en un <color=#f29e38ff>40%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.4,
+					3,
+					0.4,
+					0.48
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23061": {
+		"Id": "23061",
+		"Name": "Destelleos silentes",
+		"PathType": "Mage",
+		"PathTypeText": "Erudición",
+		"EffectName": "Brote",
+		"EffectTemplate": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>#1[i]%</color>. Cuando cualquier personaje aliado consume un total de #3[i] pts. de habilidad básica o más en un mismo turno, el portador obtiene Corona brillante durante #4[i] turnos. Mientras el portador tiene Corona brillante, el daño que infligen todos los aliados ignora un <color=#f29e38ff>#5[i]%</color> de la DEF del objetivo, y el daño de habilidad básica que inflige el portador aumenta en un <color=#f29e38ff>#2[i]%</color>. Los efectos del mismo tipo no se pueden acumular.",
+		"Superimpositions": [
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>18%</color>. Cuando cualquier personaje aliado consume un total de 4 pts. de habilidad básica o más en un mismo turno, el portador obtiene Corona brillante durante 3 turnos. Mientras el portador tiene Corona brillante, el daño que infligen todos los aliados ignora un <color=#f29e38ff>20%</color> de la DEF del objetivo, y el daño de habilidad básica que inflige el portador aumenta en un <color=#f29e38ff>72%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.18,
+					0.72,
+					4,
+					3,
+					0.2
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>21%</color>. Cuando cualquier personaje aliado consume un total de 4 pts. de habilidad básica o más en un mismo turno, el portador obtiene Corona brillante durante 3 turnos. Mientras el portador tiene Corona brillante, el daño que infligen todos los aliados ignora un <color=#f29e38ff>24%</color> de la DEF del objetivo, y el daño de habilidad básica que inflige el portador aumenta en un <color=#f29e38ff>84%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.21,
+					0.84,
+					4,
+					3,
+					0.24
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>24%</color>. Cuando cualquier personaje aliado consume un total de 4 pts. de habilidad básica o más en un mismo turno, el portador obtiene Corona brillante durante 3 turnos. Mientras el portador tiene Corona brillante, el daño que infligen todos los aliados ignora un <color=#f29e38ff>28%</color> de la DEF del objetivo, y el daño de habilidad básica que inflige el portador aumenta en un <color=#f29e38ff>96%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.24,
+					0.96,
+					4,
+					3,
+					0.28
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>27%</color>. Cuando cualquier personaje aliado consume un total de 4 pts. de habilidad básica o más en un mismo turno, el portador obtiene Corona brillante durante 3 turnos. Mientras el portador tiene Corona brillante, el daño que infligen todos los aliados ignora un <color=#f29e38ff>32%</color> de la DEF del objetivo, y el daño de habilidad básica que inflige el portador aumenta en un <color=#f29e38ff>108%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.27,
+					1.08,
+					4,
+					3,
+					0.32
+				]
+			},
+			{
+				"Effect": "La Prob. CRIT del portador aumenta en un <color=#f29e38ff>30%</color>. Cuando cualquier personaje aliado consume un total de 4 pts. de habilidad básica o más en un mismo turno, el portador obtiene Corona brillante durante 3 turnos. Mientras el portador tiene Corona brillante, el daño que infligen todos los aliados ignora un <color=#f29e38ff>36%</color> de la DEF del objetivo, y el daño de habilidad básica que inflige el portador aumenta en un <color=#f29e38ff>120%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.3,
+					1.2,
+					4,
+					3,
+					0.36
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23062": {
+		"Id": "23062",
+		"Name": "Soy lo que ves",
+		"PathType": "Warrior",
+		"PathTypeText": "Destrucción",
+		"EffectName": "A voluntad",
+		"EffectTemplate": "El ATQ y la recuperación de energía del portador aumentan en un <color=#f29e38ff>#1[i]%</color> y un <color=#f29e38ff>#2[f1]%</color> respectivamente. Cuando el portador lanza su habilidad definitiva, el daño de habilidad definitiva que inflige esta vez aumenta en un <color=#f29e38ff>#3[f2]%</color> por cada punto de energía consumido, hasta un máximo del <color=#f29e38ff>#6[i]%</color>. Al entrar en combate o lanzar su habilidad definitiva, el portador obtiene Diversión del monarca durante #4[i] turnos. Mientras tiene Diversión del monarca, el Daño CRIT de todos los aliados aumenta en un <color=#f29e38ff>#5[i]%</color>. Los efectos del mismo tipo no se pueden acumular.",
+		"Superimpositions": [
+			{
+				"Effect": "El ATQ y la recuperación de energía del portador aumentan en un <color=#f29e38ff>18%</color> y un <color=#f29e38ff>10.0%</color> respectivamente. Cuando el portador lanza su habilidad definitiva, el daño de habilidad definitiva que inflige esta vez aumenta en un <color=#f29e38ff>0.20%</color> por cada punto de energía consumido, hasta un máximo del <color=#f29e38ff>72%</color>. Al entrar en combate o lanzar su habilidad definitiva, el portador obtiene Diversión del monarca durante 3 turnos. Mientras tiene Diversión del monarca, el Daño CRIT de todos los aliados aumenta en un <color=#f29e38ff>24%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.18,
+					0.1,
+					0.002,
+					3,
+					0.24,
+					0.72
+				]
+			},
+			{
+				"Effect": "El ATQ y la recuperación de energía del portador aumentan en un <color=#f29e38ff>21%</color> y un <color=#f29e38ff>12.5%</color> respectivamente. Cuando el portador lanza su habilidad definitiva, el daño de habilidad definitiva que inflige esta vez aumenta en un <color=#f29e38ff>0.25%</color> por cada punto de energía consumido, hasta un máximo del <color=#f29e38ff>90%</color>. Al entrar en combate o lanzar su habilidad definitiva, el portador obtiene Diversión del monarca durante 3 turnos. Mientras tiene Diversión del monarca, el Daño CRIT de todos los aliados aumenta en un <color=#f29e38ff>30%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.21,
+					0.125,
+					0.0025,
+					3,
+					0.3,
+					0.9
+				]
+			},
+			{
+				"Effect": "El ATQ y la recuperación de energía del portador aumentan en un <color=#f29e38ff>24%</color> y un <color=#f29e38ff>15.0%</color> respectivamente. Cuando el portador lanza su habilidad definitiva, el daño de habilidad definitiva que inflige esta vez aumenta en un <color=#f29e38ff>0.30%</color> por cada punto de energía consumido, hasta un máximo del <color=#f29e38ff>108%</color>. Al entrar en combate o lanzar su habilidad definitiva, el portador obtiene Diversión del monarca durante 3 turnos. Mientras tiene Diversión del monarca, el Daño CRIT de todos los aliados aumenta en un <color=#f29e38ff>36%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.24,
+					0.15,
+					0.003,
+					3,
+					0.36,
+					1.08
+				]
+			},
+			{
+				"Effect": "El ATQ y la recuperación de energía del portador aumentan en un <color=#f29e38ff>27%</color> y un <color=#f29e38ff>17.5%</color> respectivamente. Cuando el portador lanza su habilidad definitiva, el daño de habilidad definitiva que inflige esta vez aumenta en un <color=#f29e38ff>0.35%</color> por cada punto de energía consumido, hasta un máximo del <color=#f29e38ff>126%</color>. Al entrar en combate o lanzar su habilidad definitiva, el portador obtiene Diversión del monarca durante 3 turnos. Mientras tiene Diversión del monarca, el Daño CRIT de todos los aliados aumenta en un <color=#f29e38ff>42%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.27,
+					0.175,
+					0.0035,
+					3,
+					0.42,
+					1.26
+				]
+			},
+			{
+				"Effect": "El ATQ y la recuperación de energía del portador aumentan en un <color=#f29e38ff>30%</color> y un <color=#f29e38ff>20.0%</color> respectivamente. Cuando el portador lanza su habilidad definitiva, el daño de habilidad definitiva que inflige esta vez aumenta en un <color=#f29e38ff>0.40%</color> por cada punto de energía consumido, hasta un máximo del <color=#f29e38ff>144%</color>. Al entrar en combate o lanzar su habilidad definitiva, el portador obtiene Diversión del monarca durante 3 turnos. Mientras tiene Diversión del monarca, el Daño CRIT de todos los aliados aumenta en un <color=#f29e38ff>48%</color>. Los efectos del mismo tipo no se pueden acumular.",
+				"Params": [
+					0.3,
+					0.2,
+					0.004,
+					3,
+					0.48,
+					1.44
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Sobre la caída de un Eón",

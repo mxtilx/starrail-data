@@ -2410,5 +2410,11 @@
 		"Name": "Switching to Silver Wolf's POV...",
 		"Description": "Meanwhile, in Pearl's Studio, Silver Wolf is lining up her next move...",
 		"VersionAdded": "4.2"
+	},
+	"20106": {
+		"Id": "20106",
+		"Name": "Switching to Himeko's POV...",
+		"Description": "Some time ago, Himeko was drawn into a World in Canvas by Asat Pramad...",
+		"VersionAdded": "4.4"
 	}
 }

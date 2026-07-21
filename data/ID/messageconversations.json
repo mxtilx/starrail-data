@@ -68417,6 +68417,192 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"15042": {
+		"Id": "15042",
+		"ContactId": "222",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001",
+			"1503",
+			"1003",
+			"223"
+		],
+		"Sections": [
+			{
+				"Id": "1504201",
+				"StartingMessageId": "150420100",
+				"Messages": {
+					"150420100": {
+						"Id": "150420100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Sudah aku bereskan dong. Ayo, puji aku, puja aku!",
+						"NextMessageId": "150420101"
+					},
+					"150420101": {
+						"Id": "150420101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Wolf bilang, \"Harus ada koneksi!\" Maka, jaringan Planarcadia pun pulih!",
+						"NextMessageId": "choice2"
+					},
+					"150420102": {
+						"Id": "150420102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu datang di saat yang tepat!",
+						"NextMessageId": "150420104"
+					},
+					"150420103": {
+						"Id": "150420103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sudah kuduga, mana boleh tidak ada kamu di saat penting seperti ini.",
+						"NextMessageId": "150420104"
+					},
+					"150420104": {
+						"Id": "150420104",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "[Silver Wolf menambahkan Dan Heng, Sunday, March 7th, Welt, Pearl, dan Blade ke grup obrolan]",
+						"NextMessageId": "150420105"
+					},
+					"150420105": {
+						"Id": "150420105",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "[Silver Wolf menambahkan Himeko ke grup obrolan]",
+						"NextMessageId": "150420106"
+					},
+					"150420106": {
+						"Id": "150420106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1503",
+						"Text": "Nona Himeko sudah diselamatkan oleh Express dan sedang menuju ke arahmu saat ini.",
+						"NextMessageId": "150420107"
+					},
+					"150420107": {
+						"Id": "150420107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "{NICKNAME}, bertahanlah, kami akan segera tiba!",
+						"NextMessageId": "150420108"
+					},
+					"150420108": {
+						"Id": "150420108",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "[Silver Wolf menambahkan Ryusuke ke grup obrolan]",
+						"NextMessageId": "150420109"
+					},
+					"150420109": {
+						"Id": "150420109",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "223",
+						"Text": "...?",
+						"NextMessageId": "150420110"
+					},
+					"150420110": {
+						"Id": "150420110",
+						"MessageType": "Video",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "[Tangkapan Layar Video: Himeko Lolos]",
+						"NextMessageId": "150420111"
+					},
+					"150420111": {
+						"Id": "150420111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "@Ryusuke Eh brengsek, lihat kan? Rencanamu gagal total!",
+						"NextMessageId": "150420112"
+					},
+					"150420112": {
+						"Id": "150420112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Oh iya, satu hal lagi. Akun asuransi hari tuamu di utopia udah aku apus.",
+						"NextMessageId": "150420113"
+					},
+					"150420113": {
+						"Id": "150420113",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "223",
+						"Text": "....",
+						"NextMessageId": "150420114"
+					},
+					"150420114": {
+						"Id": "150420114",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "[Silver Wolf mengeluarkan Ryusuke dari grup obrolan]",
+						"NextMessageId": "choice27"
+					},
+					"150420115": {
+						"Id": "150420115",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku sudah nggak sabar pengin hajar si kepala dadu tua brengsek itu bareng kalian!"
+					},
+					"150420116": {
+						"Id": "150420116",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku sudah nggak sabar pengin hajar si kepala dadu tua brengsek itu bareng kalian!"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Akhirnya kamu datang juga.",
+								"NextMessageId": "150420102"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Serigala Terhormat, aku kangen.",
+								"NextMessageId": "150420103"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Baguslah!",
+								"NextMessageId": "150420115"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Teman-teman, biar aku yang maju duluan!",
+								"NextMessageId": "150420116"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"15043": {
 		"Id": "15043",
 		"ContactId": "213",
@@ -68502,6 +68688,1127 @@
 			}
 		],
 		"VersionAdded": "4.3"
+	},
+	"15045": {
+		"Id": "15045",
+		"ContactId": "1407",
+		"ParticpatingContactIds": [
+			"1407"
+		],
+		"Sections": [
+			{
+				"Id": "1504502",
+				"StartingMessageId": "150540101",
+				"Messages": {
+					"150540101": {
+						"Id": "150540101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "{NICKNAME}, kamu lagi bareng Nona Tohsaka?",
+						"NextMessageId": "150540102"
+					},
+					"150540102": {
+						"Id": "150540102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Kalau boleh ....",
+						"NextMessageId": "150540103"
+					},
+					"150540103": {
+						"Id": "150540103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Aku mau ajak kamu ketemuan di Gedung Pearluxe sore ini.",
+						"NextMessageId": "150540104"
+					},
+					"150540104": {
+						"Id": "150540104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Aku mau bilang sesuatu ....",
+						"NextMessageId": "150540105"
+					},
+					"150540105": {
+						"Id": "150540105",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Image": "SpriteOutput/Emoji/122003.png",
+						"Text": "(Stiker Castorice malu)",
+						"NextMessageId": "150540106"
+					},
+					"150540106": {
+						"Id": "150540106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Ah, ini tentang pertempuran yang sebelumnya.",
+						"NextMessageId": "150540107"
+					},
+					"150540107": {
+						"Id": "150540107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Kamu harus datang ya ...!"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15046": {
+		"Id": "15046",
+		"ContactId": "1508",
+		"ParticpatingContactIds": [
+			"1508"
+		],
+		"Sections": [
+			{
+				"Id": "1504602",
+				"StartingMessageId": "150550101",
+				"Messages": {
+					"150550101": {
+						"Id": "150550101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Selamat pagi, Trailblazer-ku.",
+						"NextMessageId": "150550102"
+					},
+					"150550102": {
+						"Id": "150550102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Sebuah pesan untukmu: Kalau sudah bangun, datanglah ke atap Akademi Graphia. Mari bertemu di tempat kita pertama kali berjumpa.",
+						"NextMessageId": "150550103"
+					},
+					"150550103": {
+						"Id": "150550103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Ada kejutan."
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15047": {
+		"Id": "15047",
+		"ContactId": "1014",
+		"ParticpatingContactIds": [
+			"1014"
+		],
+		"Sections": [
+			{
+				"Id": "1504702",
+				"StartingMessageId": "150560101",
+				"Messages": {
+					"150560101": {
+						"Id": "150560101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "{NICKNAME}, pesanku sudah diterima?",
+						"NextMessageId": "150560102"
+					},
+					"150560102": {
+						"Id": "150560102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Ah, berhasil terkirim.",
+						"NextMessageId": "150560103"
+					},
+					"150560103": {
+						"Id": "150560103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Begini, aku dan Tuan Phainon lagi melakukan pertandingan yang mendebarkan dan seru, sayangnya dia dipanggil balik ke Amphoreus, jadi dia tidak bisa membantumu mengambil kembali harta karun yang hilang.",
+						"NextMessageId": "150560104"
+					},
+					"150560104": {
+						"Id": "150560104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Makanya sebagai Servant, aku datang untuk memenuhi keinginan terakhir Master.",
+						"NextMessageId": "150560105"
+					},
+					"150560105": {
+						"Id": "150560105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Demi kenyamanan, kita ketemuan di kantor Tuan Detektif lagi saja.",
+						"NextMessageId": "150560106"
+					},
+					"150560106": {
+						"Id": "150560106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Sama seperti petualangan di dunia mimpi, mari kita bertarung bersama lagi!"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15048": {
+		"Id": "15048",
+		"ContactId": "1504",
+		"ParticpatingContactIds": [
+			"1504",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1504802",
+				"StartingMessageId": "150530102",
+				"Messages": {
+					"150530102": {
+						"Id": "150530102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Kabar baik: Setelah Pak N berjuang semalaman, dia ....",
+						"NextMessageId": "150530103"
+					},
+					"150530103": {
+						"Id": "150530103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Akhirnya pingsan kecapekan. Jadi, aku yang akan menyampaikan pesannya.",
+						"NextMessageId": "150530104"
+					},
+					"150530104": {
+						"Id": "150530104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Master-Servant Caster ada di Kota Seafeld sekarang.",
+						"NextMessageId": "150530105"
+					},
+					"150530105": {
+						"Id": "150530105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Kuchiba sampai pada kesimpulan yang sama dengan kita. Harusnya dia bisa diandalkan.",
+						"NextMessageId": "150530106"
+					},
+					"150530106": {
+						"Id": "150530106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Nona Tohsaka sudah berangkat lebih dulu, dia bilang akan menunggumu di stasiun.",
+						"NextMessageId": "150530107"
+					},
+					"150530107": {
+						"Id": "150530107",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Ashveil membagikan lokasi."
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15049": {
+		"Id": "15049",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1504900",
+				"StartingMessageId": "150490000",
+				"Messages": {
+					"150490000": {
+						"Id": "150490000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Nih, hadiah yang aku janjiin sebelumnya.",
+						"NextMessageId": "150490001"
+					},
+					"150490001": {
+						"Id": "150490001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Kupilihin beberapa Koin Emas punya orang itu yang bisa kamu pakai.",
+						"NextMessageId": "150490002"
+					},
+					"150490002": {
+						"Id": "150490002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Udah aku urus semuanya, aman. IPC pasti nggak bisa ngelacak data ini.",
+						"NextMessageId": "choice3"
+					},
+					"150490003": {
+						"Id": "150490003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Wow, banyak sekali! Thanks banget, Serigala Terhormat!",
+						"NextMessageId": "150490004"
+					},
+					"150490004": {
+						"Id": "150490004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Ah, bukan apa-apa. Ikuti Serigala Terhormat, dijamin nggak bakal rugi.",
+						"NextMessageId": "150490008"
+					},
+					"150490005": {
+						"Id": "150490005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Ternyata aku dapat bagian juga?",
+						"NextMessageId": "150490006"
+					},
+					"150490006": {
+						"Id": "150490006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Tentu saja, kamu teman mabarku juga, toh?",
+						"NextMessageId": "150490007"
+					},
+					"150490007": {
+						"Id": "150490007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Anggap aja, ini bonus dari gamenya.",
+						"NextMessageId": "150490008"
+					},
+					"150490008": {
+						"Id": "150490008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Kalau bukan demi kamu, aku nggak sudi bantu IPC.",
+						"NextMessageId": "150490009"
+					},
+					"150490009": {
+						"Id": "150490009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Ngomong-ngomong, proses peretasan IPC udah aku jadiin Aether Cartridge dan sekarang viral banget di jaringan peretas karena tingkat kesulitannya hardcore.",
+						"NextMessageId": "150490010"
+					},
+					"150490010": {
+						"Id": "150490010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Kamu bisa coba juga, siapa tahu kamu bisa ngalahin peretas lain."
+					},
+					"choice3": {
+						"Id": "choice3",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Thanks banget, Serigala Terhormat!",
+								"NextMessageId": "150490003"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku dapat bagian juga?",
+								"NextMessageId": "150490005"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15057": {
+		"Id": "15057",
+		"ContactId": "1108",
+		"ParticpatingContactIds": [
+			"1108",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1505701",
+				"StartingMessageId": "150570101",
+				"Messages": {
+					"150570101": {
+						"Id": "150570101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Hei, {F#sis}{M#bro} {NICKNAME}!",
+						"NextMessageId": "choice1"
+					},
+					"150570102": {
+						"Id": "150570102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku baru mau cari kamu, kamu malah kirim pesan.",
+						"NextMessageId": "150570103"
+					},
+					"150570103": {
+						"Id": "150570103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Ikatan batin kita memang kuat ya.",
+						"NextMessageId": "150570104"
+					},
+					"150570104": {
+						"Id": "150570104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Ada kabar baik buat kamu.",
+						"NextMessageId": "150570105"
+					},
+					"150570105": {
+						"Id": "150570105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Buku bergambar kolaborasi kita laku keras! Begitu duitnya masuk, anak-anak itu bakal selangkah lebih dekat untuk mewujudkan impian mereka~",
+						"NextMessageId": "choice6"
+					},
+					"150570106": {
+						"Id": "150570106",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Mantap, semoga semuanya lancar ya.",
+						"NextMessageId": "150570108"
+					},
+					"150570107": {
+						"Id": "150570107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu sudah bekerja keras, terima kasih ya.",
+						"NextMessageId": "150570108"
+					},
+					"150570108": {
+						"Id": "150570108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tapi aku masih agak penasaran, sebenarnya apa tujuanmu melakukan semua ini?",
+						"NextMessageId": "150570109"
+					},
+					"150570109": {
+						"Id": "150570109",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Aku tahu kamu suka anak-anak, tapi aku tidak menyangka kamu sampai niat membuat kapal bintang yang cuma ada di dalam imajinasi.",
+						"NextMessageId": "150570110"
+					},
+					"150570110": {
+						"Id": "150570110",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Haha, aku tetep merasa Swooshy lebih susah dimengerti.",
+						"NextMessageId": "150570111"
+					},
+					"150570111": {
+						"Id": "150570111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Meskipun ini aku yang bikin, jujur saja, aku tidak mengerti kenapa dia mau bantu aku mengurus hal-hal ribet begini.",
+						"NextMessageId": "150570112"
+					},
+					"150570112": {
+						"Id": "150570112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Wishpower yang membentuknya berasal dari planet yang jauh, tapi ia belum pernah datang ke planet itu, dan imagenae juga tidak mungkin bisa menjangkau tempat sejauh itu.",
+						"NextMessageId": "150570113"
+					},
+					"150570113": {
+						"Id": "150570113",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Yang namanya \"Interstellar\" itu, kalaupun benaran selesai dibangun puluhan tahun lagi, ia juga tidak mungkin bisa mengendarainya ke luar angkasa.",
+						"NextMessageId": "150570114"
+					},
+					"150570114": {
+						"Id": "150570114",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Kalau soal ini, ia yang paling mengerti.",
+						"NextMessageId": "150570115"
+					},
+					"150570115": {
+						"Id": "150570115",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Tapi, ia tetap menyebut dirinya \"Kapten\", tetap berjuang keras demi masa depan yang tidak akan pernah bisa ia raih.",
+						"NextMessageId": "150570116"
+					},
+					"150570116": {
+						"Id": "150570116",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Sampai hari ini, aku lihat gambar terbaru yang dibagikan anak-anak, dan akhirnya aku bisa mengerti tentang Swooshy.",
+						"NextMessageId": "150570117"
+					},
+					"150570117": {
+						"Id": "150570117",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Masa depan yang diimpikan anak-anak ternyata keren dan mengharukan banget.",
+						"NextMessageId": "150570118"
+					},
+					"150570118": {
+						"Id": "150570118",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Kapten Swooshy pasti mau ini jadi masa depan yang sudah ditetapkan.",
+						"NextMessageId": "choice31"
+					},
+					"150570119": {
+						"Id": "150570119",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku akhirnya benar-benar paham bahwa melakukan semua ini memang sepadan.",
+						"NextMessageId": "150570121"
+					},
+					"150570120": {
+						"Id": "150570120",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku masih tidak paham.",
+						"NextMessageId": "150570121"
+					},
+					"150570121": {
+						"Id": "150570121",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Meskipun di galaksi ini cuma ada beberapa tempat yang bisa mewujudkan Wishpower secara nyata, tapi sebenarnya di tempat lain pun, Wishpower tetap sesuatu yang keren banget!",
+						"NextMessageId": "150570122"
+					},
+					"150570122": {
+						"Id": "150570122",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "\"Harapan\" adalah sumber energi terhebat yang bisa diciptakan manusia, lebih dahsyat dari energi nuklir, lebih dahsyat dari Imaginary.",
+						"NextMessageId": "150570123"
+					},
+					"150570123": {
+						"Id": "150570123",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Ia bisa membuat percikan api yang terikat nasib di jurang kegelapan, menjelma menjadi kembang api yang terbang menuju langit, bisa membuat anak-anak yang tersesat menatap lautan bintang yang jauh, dan percaya bahwa suatu hari nanti mereka bisa meraih masa depan yang belum pernah ada.",
+						"NextMessageId": "150570124"
+					},
+					"150570124": {
+						"Id": "150570124",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Mungkin, kilatan cahaya sesaat yang dilihat anak-anak di tengah lautan bintang yang luas itu adalah sisa cahaya dari keberangkatan Nona Himeko dan para The Nameless.",
+						"NextMessageId": "choice42"
+					},
+					"150570125": {
+						"Id": "150570125",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kata-katamu sangat bagus, kamu punya jiwa sastra ya.",
+						"NextMessageId": "150570126"
+					},
+					"150570126": {
+						"Id": "150570126",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Duh, {F#sis}{M#bro}, aku jadi salting nih.",
+						"NextMessageId": "150570129"
+					},
+					"150570127": {
+						"Id": "150570127",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kenapa tiba-tiba jadi emosional begini?",
+						"NextMessageId": "150570128"
+					},
+					"150570128": {
+						"Id": "150570128",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Duh, namanya juga sudah mulai tua.",
+						"NextMessageId": "150570129"
+					},
+					"150570129": {
+						"Id": "150570129",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Oke deh, sudah dulu, aku mau lanjut kerja dulu."
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku baru mau cari kamu.",
+								"NextMessageId": "150570102"
+							}
+						]
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Syukurlah.",
+								"NextMessageId": "150570106"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kamu sudah bekerja keras.",
+								"NextMessageId": "150570107"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku juga paham.",
+								"NextMessageId": "150570119"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku masih tidak paham.",
+								"NextMessageId": "150570120"
+							}
+						]
+					},
+					"choice42": {
+						"Id": "choice42",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Kata-katanya bagus banget.",
+								"NextMessageId": "150570125"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kenapa tiba-tiba jadi emosional begini?",
+								"NextMessageId": "150570127"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15058": {
+		"Id": "15058",
+		"ContactId": "205",
+		"ParticpatingContactIds": [
+			"205",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1505801",
+				"StartingMessageId": "150580101",
+				"Messages": {
+					"150580101": {
+						"Id": "150580101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Aku perhatikan gaya puisinya sepertinya sudah berubah.",
+						"NextMessageId": "150580102"
+					},
+					"150580102": {
+						"Id": "150580102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Mungkin asal-usul syair dalam \"Kisah Lemak Melayang\" jauh lebih kompleks dari yang kubayangkan sebelumnya.",
+						"NextMessageId": "150580103"
+					},
+					"150580103": {
+						"Id": "150580103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Oh ya, aku juga sudah menemukan beberapa petunjuk.",
+						"NextMessageId": "150580104"
+					},
+					"150580104": {
+						"Id": "150580104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Planarcadia sekarang sedang agak kacau.",
+						"NextMessageId": "150580105"
+					},
+					"150580105": {
+						"Id": "150580105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Kalau aku tidak kirim pesan lagi ...",
+						"NextMessageId": "150580106"
+					},
+					"150580106": {
+						"Id": "150580106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "tolong datang ke sini untuk melanjutkan perjuanganku yang belum selesai.",
+						"NextMessageId": "choice6"
+					},
+					"150580107": {
+						"Id": "150580107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Jangan terlalu memaksakan diri.",
+						"NextMessageId": "150580108"
+					},
+					"150580108": {
+						"Id": "150580108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Jangan sampai mati."
+					},
+					"150580109": {
+						"Id": "150580109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Baiklah, aku akan mewarisi tekadmu.",
+						"NextMessageId": "150580110"
+					},
+					"150580110": {
+						"Id": "150580110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tapi lebih baik jangan sampai mati."
+					},
+					"150580111": {
+						"Id": "150580111",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu masih hidup?",
+						"NextMessageId": "150580112"
+					},
+					"150580112": {
+						"Id": "150580112",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Aku baru lihat. Jangan mati dong!"
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Jangan terlalu memaksakan diri.",
+								"NextMessageId": "150580107"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku akan mewarisi tekadmu.",
+								"NextMessageId": "150580109"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kamu masih hidup?",
+								"NextMessageId": "150580111"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15059": {
+		"Id": "15059",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1505901",
+				"StartingMessageId": "150590100",
+				"Messages": {
+					"150590100": {
+						"Id": "150590100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Dikirim oleh bartender yang bertugas, Zhongshanshan.",
+						"NextMessageId": "150590101"
+					},
+					"150590101": {
+						"Id": "150590101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Kepada The Nameless yang agung, penentu takdir para wispae ....\"",
+						"NextMessageId": "150590102"
+					},
+					"150590102": {
+						"Id": "150590102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Jamur Pemeriksa Pohon kesayanganmu mengalami sedikit kesulitan, jadi ia meminta Nyonya Zhong yang kita semua kenal untuk menyampaikan pesan ini.\"",
+						"NextMessageId": "150590103"
+					},
+					"150590103": {
+						"Id": "150590103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Seperti yang kamu duga saat ini, versi ini masih belum ada hadiah. Rencana tidak selalu berjalan sesuai harapan. Kalau kamu mau melengkapi set kartu ini, kamu mungkin perlu menunggu beberapa waktu lagi.\"",
+						"NextMessageId": "150590104"
+					},
+					"150590104": {
+						"Id": "150590104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Planarcadia sedang menghadapi bahaya besar, bagaikan skenario kiamat fiksi dari Kelinci Rel Bintang. Semoga kita semua cukup beruntung untuk bisa bertemu kembali ketika kedamaian kembali hadir.\"",
+						"NextMessageId": "150590105"
+					},
+					"150590105": {
+						"Id": "150590105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "(Aku harap kamu yang mengirimkan pesannya. Kalau aku tiba-tiba mengirim pesan dari nomorku sendiri, dia mungkin akan bingung. Aku yang akan bayar biayanya.)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15060": {
+		"Id": "15060",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1506001",
+				"StartingMessageId": "150600100",
+				"Messages": {
+					"150600100": {
+						"Id": "150600100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Selamat! Kamu telah mengumpulkan semua wispae tanpa nama yang ditempatkan oleh proyek \"Kelinci Rel Bintang\" di Jamuan Kehampaan Ibu Kota Iblis! Sekarang kamu dapat menyelesaikan stage yang disiapkan oleh \"Kelinci Rel Bintang\" di area ini dengan cara termudah. Selamat bermain! (Ini adalah iklan otomatis sistem, mohon jangan dibalas~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15061": {
+		"Id": "15061",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1506101",
+				"StartingMessageId": "150610100",
+				"Messages": {
+					"150610100": {
+						"Id": "150610100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Selamat! Kamu telah mengumpulkan semua wispae tanpa nama yang ditempatkan oleh proyek \"Kelinci Rel Bintang\" di Buaian Bintang Jatuh! Sekarang kamu dapat menyelesaikan stage yang disiapkan oleh \"Kelinci Rel Bintang\" di area ini dengan cara termudah. Selamat bermain! (Ini adalah iklan otomatis sistem, mohon jangan dibalas~ Sebenarnya dibalas pun tidak apa-apa, ini kan cuma mimpi!)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15069": {
+		"Id": "15069",
+		"ContactId": "232",
+		"ParticpatingContactIds": [
+			"232",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1506901",
+				"StartingMessageId": "150690100",
+				"Messages": {
+					"150690100": {
+						"Id": "150690100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Halo, Karakter Utama",
+						"NextMessageId": "150690101"
+					},
+					"150690101": {
+						"Id": "150690101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Kalau kamu menerima pesan terjadwal ini, berarti rencanaku sudah pasti terganggu lagi dan lagi.",
+						"NextMessageId": "150690102"
+					},
+					"150690102": {
+						"Id": "150690102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Tentu saja, tidak menutup kemungkinan kamu sudah diledakkan ke angkasa oleh Stellaron, dan saat ini, yang melihat pesan ini adalah diriku di masa depan",
+						"NextMessageId": "150690103"
+					},
+					"150690103": {
+						"Id": "150690103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Tapi kurasa, ponselmu seharusnya tidak punya kualitas sebaik ini.",
+						"NextMessageId": "choice4"
+					},
+					"150690104": {
+						"Id": "150690104",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Asat Pramad? Kok kamu lagi?",
+						"NextMessageId": "150690106"
+					},
+					"150690105": {
+						"Id": "150690105",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Rencanamu gagal, kami sudah mengalahkanmu!",
+						"NextMessageId": "150690106"
+					},
+					"150690106": {
+						"Id": "150690106",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "[Nomor yang kamu hubungi tidak terdaftar, pesan gagal terkirim]",
+						"NextMessageId": "150690107"
+					},
+					"150690107": {
+						"Id": "150690107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Sejujurnya, aku tidak keberatan dengan perkembangan alur cerita ini.",
+						"NextMessageId": "150690108"
+					},
+					"150690108": {
+						"Id": "150690108",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Sebaliknya, aku sangat menantikan kemenangan kalian",
+						"NextMessageId": "150690109"
+					},
+					"150690109": {
+						"Id": "150690109",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Ini mungkin bisa membuktikan bahwa aku salah",
+						"NextMessageId": "150690110"
+					},
+					"150690110": {
+						"Id": "150690110",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Syaratnya, kalian bisa menyelesaikan permainan ini",
+						"NextMessageId": "150690111"
+					},
+					"150690111": {
+						"Id": "150690111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Siapa pun yang menang, \"Dia\" akan terbangun dan menelan kita bulat-bulat.",
+						"NextMessageId": "choice19"
+					},
+					"150690112": {
+						"Id": "150690112",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Meskipun kamu tidak bisa menerima pesannya, tapi ... kenapa kamu berbuat seperti ini?",
+						"NextMessageId": "150690114"
+					},
+					"150690113": {
+						"Id": "150690113",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu pasti tahu apa yang mau kutanyakan.",
+						"NextMessageId": "150690114"
+					},
+					"150690114": {
+						"Id": "150690114",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "[Nomor yang kamu hubungi tidak terdaftar, pesan gagal terkirim]",
+						"NextMessageId": "150690115"
+					},
+					"150690115": {
+						"Id": "150690115",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Aduh ... kenapa begitu?",
+						"NextMessageId": "150690116"
+					},
+					"150690116": {
+						"Id": "150690116",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Karena Aha bersembunyi di balik layar dan mengabaikan kebusukan dunia, maka biar aku yang menggantikannya, menantang alam semesta.",
+						"NextMessageId": "150690117"
+					},
+					"150690117": {
+						"Id": "150690117",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Dan sekarang, tantangan baru menanti: Kalahkan \"Voracity\" yang bangkit kembali.",
+						"NextMessageId": "150690118"
+					},
+					"150690118": {
+						"Id": "150690118",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Adalah seorang pahlawan yang lahir dari Destruction, melewati berbagai tantangan, dan membawa Elation sejati kembali ke dunia",
+						"NextMessageId": "150690119"
+					},
+					"150690119": {
+						"Id": "150690119",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Atau sang buas menyelesaikan balas dendamnya, membiarkan Elation menemui kebinasaan yang bermartabat sebelum terjerumus ke dalam kegilaan",
+						"NextMessageId": "150690120"
+					},
+					"150690120": {
+						"Id": "150690120",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Tokoh utama, bisakah kamu menulis akhir yang lebih baik untuk lelucon ini?"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Asat Pramad? Kok kamu?",
+								"NextMessageId": "150690104"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Lupakan saja, kamu sudah dikalahkan!",
+								"NextMessageId": "150690105"
+							}
+						]
+					},
+					"choice19": {
+						"Id": "choice19",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Kenapa kamu berbuat seperti itu?",
+								"NextMessageId": "150690112"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kamu tahu apa yang mau kutanyakan.",
+								"NextMessageId": "150690113"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -137258,6 +138565,1422 @@
 			}
 		],
 		"VersionAdded": "4.3"
+	},
+	"20238": {
+		"Id": "20238",
+		"ContactId": "1508",
+		"ParticpatingContactIds": [
+			"1508",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023800",
+				"StartingMessageId": "202380000",
+				"Messages": {
+					"202380000": {
+						"Id": "202380000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "{NICKNAME}, bisa bantu aku memotret kondektur?",
+						"NextMessageId": "choice1"
+					},
+					"202380001": {
+						"Id": "202380001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tidak bisa, harap hargai hak potret kondektur.",
+						"NextMessageId": "202380002"
+					},
+					"202380002": {
+						"Id": "202380002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Eh, kalau begitu biar aku tanya dengan cara lain.",
+						"NextMessageId": "202380003"
+					},
+					"202380003": {
+						"Id": "202380003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Aku adalah seorang seniman yang sedang membuat karya sekunder berdasarkan Alloy King Pom-Pom. Apa kamu bisa dapatkan gambar referensi untukku?",
+						"NextMessageId": "202380004"
+					},
+					"202380004": {
+						"Id": "202380004",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Sedang berpikir keras ....",
+						"NextMessageId": "202380010"
+					},
+					"202380005": {
+						"Id": "202380005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tentu saja, tunggu sebentar.",
+						"NextMessageId": "202380006"
+					},
+					"202380006": {
+						"Id": "202380006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Terima kasih!",
+						"NextMessageId": "202380010"
+					},
+					"202380007": {
+						"Id": "202380007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kamu bukannya sudah berangkat ke dunia lain?",
+						"NextMessageId": "202380008"
+					},
+					"202380008": {
+						"Id": "202380008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Aku baru ingat kalau masih ada keinginan yang belum terwujud.",
+						"NextMessageId": "202380009"
+					},
+					"202380009": {
+						"Id": "202380009",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Oke.",
+						"NextMessageId": "202380010"
+					},
+					"202380010": {
+						"Id": "202380010",
+						"MessageType": "Image",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10061.png",
+						"Text": "Kamu mengirim sebuah foto.",
+						"NextMessageId": "202380011"
+					},
+					"202380011": {
+						"Id": "202380011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Imut banget!",
+						"NextMessageId": "202380012"
+					},
+					"202380012": {
+						"Id": "202380012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Terima kasih, {NICKNAME}, keinginanku sudah terpenuhi!",
+						"NextMessageId": "202380013"
+					},
+					"202380013": {
+						"Id": "202380013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Awalnya aku berencana mengunjungi Astral Express, sayangnya kali ini tidak sempat ....",
+						"NextMessageId": "202380014"
+					},
+					"202380014": {
+						"Id": "202380014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Nanti kamu harus benar-benar memperkenalkan aku pada kondektur, biar aku elus-elus kgfpoirfqialkfjwe.",
+						"NextMessageId": "202380015"
+					},
+					"202380015": {
+						"Id": "202380015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Penerimaan pesan gagal",
+						"NextMessageId": "choice27"
+					},
+					"202380016": {
+						"Id": "202380016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Rin, kamu sudah pergi?",
+						"NextMessageId": "202380017"
+					},
+					"202380017": {
+						"Id": "202380017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Pengiriman pesan gagal",
+						"NextMessageId": "202380018"
+					},
+					"202380018": {
+						"Id": "202380018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Karena, aku merasa sangat beruntung bisa bertemu kalian, {NICKNAME}.",
+						"NextMessageId": "choice33"
+					},
+					"202380019": {
+						"Id": "202380019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku senang bisa jadi temanmu, Rin.",
+						"NextMessageId": "202380021"
+					},
+					"202380020": {
+						"Id": "202380020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Bisa bertarung bersamamu adalah kehormatanku, Master.",
+						"NextMessageId": "202380021"
+					},
+					"202380021": {
+						"Id": "202380021",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Penerimaan pesan gagal",
+						"NextMessageId": "202380022"
+					},
+					"202380022": {
+						"Id": "202380022",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Pengguna berada di luar jangkauan, silakan coba lagi nanti"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Sepertinya tidak bisa.",
+								"NextMessageId": "202380001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Tentu saja.",
+								"NextMessageId": "202380005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Masih belum pergi?",
+								"NextMessageId": "202380007"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Rin?",
+								"NextMessageId": "202380016"
+							}
+						]
+					},
+					"choice33": {
+						"Id": "choice33",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku juga, Rin.",
+								"NextMessageId": "202380019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku juga, Master.",
+								"NextMessageId": "202380020"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20239": {
+		"Id": "20239",
+		"ContactId": "1509",
+		"ParticpatingContactIds": [
+			"1509",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023900",
+				"StartingMessageId": "202390000",
+				"Messages": {
+					"202390000": {
+						"Id": "202390000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Oh hartaku!",
+						"NextMessageId": "202390001"
+					},
+					"202390001": {
+						"Id": "202390001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Aku sudah memutuskan: Hari ini adalah hari kehancuran Planarcadia!",
+						"NextMessageId": "202390002"
+					},
+					"202390002": {
+						"Id": "202390002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Kalau mau ikut aku kembali ke Uruk, segera datang ke alun-alun Kota Dua Dimensi!",
+						"NextMessageId": "202390003"
+					},
+					"202390003": {
+						"Id": "202390003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Pesawat Vimana milikku hanya akan berhenti selama lima menit, lewat dari waktu itu akan ditinggal!",
+						"NextMessageId": "choice4"
+					},
+					"202390004": {
+						"Id": "202390004",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sudah tanya pendapatku belum?",
+						"NextMessageId": "202390005"
+					},
+					"202390005": {
+						"Id": "202390005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Tentu tidak! Aku sedang menginterogasimu loh?!",
+						"NextMessageId": "202390009"
+					},
+					"202390006": {
+						"Id": "202390006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Apa sih???",
+						"NextMessageId": "202390009"
+					},
+					"202390007": {
+						"Id": "202390007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tanda serunya banyak amat, mataku jadi sakit nih.",
+						"NextMessageId": "202390008"
+					},
+					"202390008": {
+						"Id": "202390008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Tentu saja, raja memang sudah seharusnya punya suara yang menggelegar!",
+						"NextMessageId": "202390009"
+					},
+					"202390009": {
+						"Id": "202390009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Biar kuberi tahu alasan kemarahanku: Jalanan Kuliner Gil milikku ternyata sangat sepi pengunjung sejak pembukaannya.",
+						"NextMessageId": "202390010"
+					},
+					"202390010": {
+						"Id": "202390010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Es krim lapis emas! Salad tuna lapis emas! Bistik ular Vonwacq lapis emas! BBQ Doomsday Beast utuh lapis emas!",
+						"NextMessageId": "202390011"
+					},
+					"202390011": {
+						"Id": "202390011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Semua ini adalah barang pilihan premium yang kupilih sendiri berdasarkan seleraku yang luar biasa, tapi makhluk-makhluk rendahan itu malah memandangnya sebelah mata ....",
+						"NextMessageId": "202390012"
+					},
+					"202390012": {
+						"Id": "202390012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Sudahlah, tidak perlu tunggu lima menit lagi, sekarang aku akan menjatuhkan hukuman!",
+						"NextMessageId": "choice21"
+					},
+					"202390013": {
+						"Id": "202390013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Baginda, mohon jangan marah. Merekalah yang seleranya jelek.",
+						"NextMessageId": "202390014"
+					},
+					"202390014": {
+						"Id": "202390014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Huh, di tanah ini ternyata cuma kamu yang menghargai kemurahan hatiku ... luar biasa.",
+						"NextMessageId": "202390017"
+					},
+					"202390015": {
+						"Id": "202390015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Es krim lapis emas sih ya sudahlah, tapi beberapa menu setelahnya itu apa?",
+						"NextMessageId": "202390016"
+					},
+					"202390016": {
+						"Id": "202390016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Bahkan kamu pun tidak tahu diuntung? Galaksi ini benar-benar sudah tidak tertolong lagi.",
+						"NextMessageId": "202390017"
+					},
+					"202390017": {
+						"Id": "202390017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Heh, kalau sudah begini, bahkan menghancurkan tanah ini pun terasa berlebihan.",
+						"NextMessageId": "202390018"
+					},
+					"202390018": {
+						"Id": "202390018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Aku dengan berat hati memaafkan makhluk-makhluk rendahan ini. Mengingat mereka hanya bisa makan ampas setiap hari, wajar saja kalau mereka tidak mampu mengapresiasi seleraku.",
+						"NextMessageId": "202390019"
+					},
+					"202390019": {
+						"Id": "202390019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Mundurlah, hartaku! Aku akan lanjut meneliti SoulGlad lapis emas.",
+						"NextMessageId": "202390020"
+					},
+					"202390020": {
+						"Id": "202390020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Dalam tiga hari, aku pasti akan membuat utopia ini tunduk dan patuh padaku dengan sukarela!",
+						"NextMessageId": "202390021"
+					},
+					"202390021": {
+						"Id": "202390021",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Pengguna berada di luar jangkauan, silakan coba lagi nanti"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Jangan bercanda.",
+								"NextMessageId": "202390004"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Ada apa?",
+								"NextMessageId": "202390006"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Semuanya tanda seru.",
+								"NextMessageId": "202390007"
+							}
+						]
+					},
+					"choice21": {
+						"Id": "choice21",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Selera mereka saja yang jelek.",
+								"NextMessageId": "202390013"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kelihatannya tidak bisa dimakan.",
+								"NextMessageId": "202390015"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20240": {
+		"Id": "20240",
+		"ContactId": "1003",
+		"ParticpatingContactIds": [
+			"1003",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2024000",
+				"StartingMessageId": "202400000",
+				"Messages": {
+					"202400000": {
+						"Id": "202400000",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20001.png",
+						"Text": "[Halo~]",
+						"NextMessageId": "202400001"
+					},
+					"202400001": {
+						"Id": "202400001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Saat membersihkan file cakram keras Express, aku menemukan beberapa \"Log Perbaikan\" dari saat aku pertama kali naik ke Express.",
+						"NextMessageId": "202400002"
+					},
+					"202400002": {
+						"Id": "202400002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Aku lihat kamu lumayan tertarik dengan struktur Express, dan kebetulan aku bisa kirimkan padamu~",
+						"NextMessageId": "202400003"
+					},
+					"202400003": {
+						"Id": "202400003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Lampiran \"Pemeliharaan dan Perawatan Rutin Astral Express (Versi Draf)\" sudah dikirim.",
+						"NextMessageId": "202400004"
+					},
+					"202400004": {
+						"Id": "202400004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Lampiran \"Pemeliharaan dan Perawatan Rutin Astral Express (Versi Anotasi)\" sudah dikirim.",
+						"NextMessageId": "202400005"
+					},
+					"202400005": {
+						"Id": "202400005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Lampiran \"Pemeliharaan dan Perawatan Rutin Astral Express (Versi Ilustrasi)\" sudah dikirim.",
+						"NextMessageId": "202400006"
+					},
+					"202400006": {
+						"Id": "202400006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Jangan pedulikan judulnya, tidak seserius itu kok ... ini cuma catatan harian perbaikan biasa.",
+						"NextMessageId": "202400007"
+					},
+					"202400007": {
+						"Id": "202400007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Waktu itu aku ingin memberinya judul yang bisa membuat kondektur percaya padaku saat melihatnya.",
+						"NextMessageId": "choice8"
+					},
+					"202400008": {
+						"Id": "202400008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Mana mungkin kondektur tidak percaya pada Himeko?!",
+						"NextMessageId": "202400009"
+					},
+					"202400009": {
+						"Id": "202400009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Bagaimanapun juga, saat itu aku masih pemula, jadi pemahamanku tentang Express cukup subjektif ....",
+						"NextMessageId": "202400016"
+					},
+					"202400010": {
+						"Id": "202400010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Jangan-jangan! Versi ilustrasi ini karya tangan Himeko sendiri?",
+						"NextMessageId": "202400011"
+					},
+					"202400011": {
+						"Id": "202400011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Ya, menggambar adalah caraku untuk mengingat kembali struktur dan detail Astral Express.",
+						"NextMessageId": "202400012"
+					},
+					"202400012": {
+						"Id": "202400012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tapi pemahamanku tentang Astral Express saat itu masih agak naif dan subjektif ....",
+						"NextMessageId": "202400016"
+					},
+					"202400013": {
+						"Id": "202400013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Ini benaran cuma catatan perbaikan \"biasa\"?",
+						"NextMessageId": "202400014"
+					},
+					"202400014": {
+						"Id": "202400014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Ya, aku hanya mencatat beberapa masalah yang ditemui saat praktik langsung.",
+						"NextMessageId": "202400015"
+					},
+					"202400015": {
+						"Id": "202400015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Bagaimanapun juga, pemahamanku tentang Astral Express saat itu masih agak naif dan subjektif ....",
+						"NextMessageId": "202400016"
+					},
+					"202400016": {
+						"Id": "202400016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Suatu kali, aku menghitung berdasarkan fungsi kecepatan rata-rata Astral Express, lalu sedikit menyesuaikan chip sensor peredam tekanan, dan memasang sistem kemudi otomatis ... tujuannya agar pengoperasiannya bisa lebih efisien dan mudah.",
+						"NextMessageId": "202400017"
+					},
+					"202400017": {
+						"Id": "202400017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tidak kusangka, setelah aku dan kondektur mulai menggunakannya, ternyata malah jadi terlalu santai, sampai-sampai aku tertidur saat berkendara, jadi langsung saja kuganti semuanya.",
+						"NextMessageId": "202400018"
+					},
+					"202400018": {
+						"Id": "202400018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Hmm ... lampiran log perbaikan, dan juga catatan penelitian tentang gaya berkendara serta kebiasaan para navigator dari era terdahulu.",
+						"NextMessageId": "choice24"
+					},
+					"202400019": {
+						"Id": "202400019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Auto-pilot cocok untukku, lain kali gantian aku yang mengemudikan Astral Express ya!",
+						"NextMessageId": "202400020"
+					},
+					"202400020": {
+						"Id": "202400020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Oke, nanti kalau ada waktu, kita pasang dual sistem yang bisa kamu pakai juga.",
+						"NextMessageId": "202400021"
+					},
+					"202400021": {
+						"Id": "202400021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Sudah lama sekali tidak ada perubahan sebesar ini, jujur saja, aku sudah tidak sabar.",
+						"NextMessageId": "202400026"
+					},
+					"202400022": {
+						"Id": "202400022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Gaya mengemudi Himeko seperti apa?",
+						"NextMessageId": "202400023"
+					},
+					"202400023": {
+						"Id": "202400023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Dibandingkan dulu, harusnya sudah jauh lebih lembut dan tenang ... ya kan?",
+						"NextMessageId": "202400024"
+					},
+					"202400024": {
+						"Id": "202400024",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Ya kan?",
+						"NextMessageId": "202400025"
+					},
+					"202400025": {
+						"Id": "202400025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tapi dibandingkan mengemudi, aku tetap lebih suka memperbaiki kereta.",
+						"NextMessageId": "202400026"
+					},
+					"202400026": {
+						"Id": "202400026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Ngomong-ngomong, dulu waktu begadang untuk menggambar dan memperbaiki kereta, aku pernah sampai minum belasan cangkir kopi berturut-turut.",
+						"NextMessageId": "202400027"
+					},
+					"202400027": {
+						"Id": "202400027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kalau dipikir-pikir sekarang, aku cukup merindukannya. Sudah lama aku tidak seantusias itu.",
+						"NextMessageId": "202400028"
+					},
+					"202400028": {
+						"Id": "202400028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kalau kamu tertarik, lain kali saat perawatan Express, aku akan ajak kamu juga.",
+						"NextMessageId": "202400029"
+					},
+					"202400029": {
+						"Id": "202400029",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/128004.png",
+						"Text": "[Memperbaiki]"
+					},
+					"choice8": {
+						"Id": "choice8",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Mana mungkin tidak percaya pada Himeko?!",
+								"NextMessageId": "202400008"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Versi ilustrasi ini dilukis langsung oleh Himeko?",
+								"NextMessageId": "202400010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Catatan perbaikan \"biasa\"?",
+								"NextMessageId": "202400013"
+							}
+						]
+					},
+					"choice24": {
+						"Id": "choice24",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Auto-pilot cocok untukku.",
+								"NextMessageId": "202400019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Gaya mengemudi Himeko kayak gimana sih?",
+								"NextMessageId": "202400022"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20241": {
+		"Id": "20241",
+		"ContactId": "1003",
+		"ParticpatingContactIds": [
+			"1003",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2024100",
+				"StartingMessageId": "202410000",
+				"Messages": {
+					"202410000": {
+						"Id": "202410000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Aku membereskan koper dan menemukan kartu anggota seumur hidup yang berlaku di semua salon di seluruh Planarcadia.",
+						"NextMessageId": "202410001"
+					},
+					"202410001": {
+						"Id": "202410001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kasih ke siapa ya ...?",
+						"NextMessageId": "choice2"
+					},
+					"202410002": {
+						"Id": "202410002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku satu-satunya yang masih di bawah umur di Express ini, buat aku saja!",
+						"NextMessageId": "202410003"
+					},
+					"202410003": {
+						"Id": "202410003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Aku tahu kamu pasti suka~ Ini untukmu, nanti kamu bisa ajak semua orang pergi ke salon~",
+						"NextMessageId": "202410009"
+					},
+					"202410004": {
+						"Id": "202410004",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku pikir ... March pasti suka, Dan Heng harusnya tidak akan menolak, Sunny juga sangat elegan, dan Tuan Yang juga punya rambut ....",
+						"NextMessageId": "202410005"
+					},
+					"202410005": {
+						"Id": "202410005",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Buat aku saja Aku akan ajak semua orang pergi ke salon~",
+						"NextMessageId": "202410006"
+					},
+					"202410006": {
+						"Id": "202410006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tentu saja, aku juga berpikir begitu~",
+						"NextMessageId": "202410009"
+					},
+					"202410007": {
+						"Id": "202410007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Keluarga kita bisa bergantian menikmati layanan desainer utama dan merias rambut bersama-sama!",
+						"NextMessageId": "202410008"
+					},
+					"202410008": {
+						"Id": "202410008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Aku juga berpikir begitu~",
+						"NextMessageId": "202410009"
+					},
+					"202410009": {
+						"Id": "202410009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Dulu waktu sekolah di Planarcadia, aku juga suka mencoba gaya rambut yang berbeda-beda.",
+						"NextMessageId": "202410010"
+					},
+					"202410010": {
+						"Id": "202410010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kalau tidak salah ingat, aku pernah mewarnai rambutku dengan warna yang mirip dengan March. Potongan rambut pendek ala Dan Heng juga pernah ingin aku coba, tapi penata rambutku mencegahku mati-matian.",
+						"NextMessageId": "202410011"
+					},
+					"202410011": {
+						"Id": "202410011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Gaya rambutku akhirnya mungkin lebih mirip gaya \"mullet\", agak mirip dengan rambut Sunday.",
+						"NextMessageId": "202410012"
+					},
+					"202410012": {
+						"Id": "202410012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kalau dipikir-pikir, waktu mereka pilih kartu ini sebagai uang perlindungan rambut, mereka benar-benar sudah memikirkannya matang-matang.",
+						"NextMessageId": "choice21"
+					},
+					"202410013": {
+						"Id": "202410013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku mau lihat album gaya rambut Himeko deh! Ada fotonya gak?",
+						"NextMessageId": "202410014"
+					},
+					"202410014": {
+						"Id": "202410014",
+						"MessageType": "Sticker",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/Emoji/126016.png",
+						"Text": "[Syuting]",
+						"NextMessageId": "202410015"
+					},
+					"202410015": {
+						"Id": "202410015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tunggu, biaya apa itu??",
+						"NextMessageId": "202410016"
+					},
+					"202410016": {
+						"Id": "202410016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Hm? Oh, ini suvenir persahabatan yang kudapat semasa sekolah dulu.",
+						"NextMessageId": "202410017"
+					},
+					"202410017": {
+						"Id": "202410017",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Ternyata begini caramu bersahabat ya!",
+						"NextMessageId": "202410018"
+					},
+					"202410018": {
+						"Id": "202410018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kalau soal foto, aku lupa waktu itu kubawa ke Express atau tidak. Biar kucari dulu.",
+						"NextMessageId": "202410029"
+					},
+					"202410019": {
+						"Id": "202410019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Kak Himeko punya rekomendasi gaya rambut tidak? Aku juga mau coba ganti gaya rambut.",
+						"NextMessageId": "202410020"
+					},
+					"202410020": {
+						"Id": "202410020",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tunggu, uang perlindungan apa??",
+						"NextMessageId": "202410021"
+					},
+					"202410021": {
+						"Id": "202410021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Hm? Oh, ini ... kenang-kenangan dari masa sekolah dulu ... tanda persahabatan yang manis.",
+						"NextMessageId": "202410022"
+					},
+					"202410022": {
+						"Id": "202410022",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Ternyata begini caramu bersahabat ya!",
+						"NextMessageId": "202410023"
+					},
+					"202410023": {
+						"Id": "202410023",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20004.png",
+						"Text": "[Oke]",
+						"NextMessageId": "202410029"
+					},
+					"202410024": {
+						"Id": "202410024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Tunggu, biaya apa?",
+						"NextMessageId": "202410025"
+					},
+					"202410025": {
+						"Id": "202410025",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20007.png",
+						"Text": "[Bingung]",
+						"NextMessageId": "202410026"
+					},
+					"202410026": {
+						"Id": "202410026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Oh, ini suvenir persahabatan ... yang kudapat semasa sekolah dulu.",
+						"NextMessageId": "202410027"
+					},
+					"202410027": {
+						"Id": "202410027",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Ternyata begini caramu bersahabat ya!",
+						"NextMessageId": "202410028"
+					},
+					"202410028": {
+						"Id": "202410028",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20004.png",
+						"Text": "[Oke]",
+						"NextMessageId": "202410029"
+					},
+					"202410029": {
+						"Id": "202410029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Sebenarnya aku masih punya belasan wig yang tersimpan rapi di dalam lemari ... Waktu kuliah dulu, setiap kali aku dan Motoko menggambar atau mengubah sesuatu sampai kelelahan, kami juga sering membuat dan memangkas berbagai wig untuk saling dicoba.",
+						"NextMessageId": "202410030"
+					},
+					"202410030": {
+						"Id": "202410030",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Kamu mengalihkan pembicaraan loh!",
+						"NextMessageId": "202410031"
+					},
+					"202410031": {
+						"Id": "202410031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Sekarang aku punya alasan untuk membagikannya dengan kalian semua~ Aku ingin tahu gaya rambut dan warna rambut apa yang kalian sukai!",
+						"NextMessageId": "202410032"
+					},
+					"202410032": {
+						"Id": "202410032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Meski tidak cocok, tapi aku masih bisa mengubah penampilanku.",
+						"NextMessageId": "202410033"
+					},
+					"202410033": {
+						"Id": "202410033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tunggu sampai semua orang sudah di Express, biar aku yang memimpin ya.",
+						"NextMessageId": "202410034"
+					},
+					"202410034": {
+						"Id": "202410034",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/128001.png",
+						"Text": "[Memimpin]"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku masih di bawah umur, buat aku saja!",
+								"NextMessageId": "202410002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "March, Dan Heng, Sunday ....",
+								"NextMessageId": "202410004"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Bisa digunakan bersama oleh seluruh kru Astral Express~",
+								"NextMessageId": "202410007"
+							}
+						]
+					},
+					"choice21": {
+						"Id": "choice21",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Mau lihat fotonya ih!",
+								"NextMessageId": "202410013"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku cocok sama gaya rambut apa ya?",
+								"NextMessageId": "202410019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Tunggu, biaya apa itu??",
+								"NextMessageId": "202410024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20242": {
+		"Id": "20242",
+		"ContactId": "1003",
+		"ParticpatingContactIds": [
+			"1003",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2024200",
+				"StartingMessageId": "202420000",
+				"Messages": {
+					"202420000": {
+						"Id": "202420000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Kalian semua sudah bekerja keras akhir-akhir ini. Setelah urusan ini selesai, aku akan adakan acara makan-makan untuk seluruh kru.",
+						"NextMessageId": "202420001"
+					},
+					"202420001": {
+						"Id": "202420001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Aku juga akan unjuk keahlianku, mau ikut aku bantu-bantu menyiapkan makanan?",
+						"NextMessageId": "choice2"
+					},
+					"202420002": {
+						"Id": "202420002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Oke, siapa yang masak? Aku? Atau Kak Himeko?",
+						"NextMessageId": "202420003"
+					},
+					"202420003": {
+						"Id": "202420003",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Meskipun kedengarannya agak mengkhawatirkan ya ....",
+						"NextMessageId": "202420004"
+					},
+					"202420004": {
+						"Id": "202420004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tenang saja, aku tidak akan masak.",
+						"NextMessageId": "202420010"
+					},
+					"202420005": {
+						"Id": "202420005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Oke! Kak Himeko yang masak, aku yang bantu icip-icip!",
+						"NextMessageId": "202420006"
+					},
+					"202420006": {
+						"Id": "202420006",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tunggu, Kak Himeko yang memasak ....",
+						"NextMessageId": "202420007"
+					},
+					"202420007": {
+						"Id": "202420007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tenang saja, aku tidak akan masak.",
+						"NextMessageId": "202420010"
+					},
+					"202420008": {
+						"Id": "202420008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Setelah Kak Himeko unjuk kebolehan kemarin, kita jadi sering bolak-balik ke kamar mandi ... lumayan buat olahraga!",
+						"NextMessageId": "202420009"
+					},
+					"202420009": {
+						"Id": "202420009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tenang saja, itu tidak akan terjadi lagi.",
+						"NextMessageId": "202420010"
+					},
+					"202420010": {
+						"Id": "202420010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Ada mesin masak yang kubuat sendiri di ruang penyimpanan, aku rasa sudah saatnya ia beraksi.",
+						"NextMessageId": "202420011"
+					},
+					"202420011": {
+						"Id": "202420011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Meskipun beberapa bagiannya sudah berkarat ... tapi sudah waktunya untuk diperbaiki.",
+						"NextMessageId": "202420012"
+					},
+					"202420012": {
+						"Id": "202420012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Waktu itu aku bilang akan mengajakmu saat memeriksa Astral Express, dan kebetulan sekarang ada mesin masak yang perlu diperbaiki ... prinsipnya sama, jadi aku pikir bisa mengajakmu sekalian.",
+						"NextMessageId": "choice20"
+					},
+					"202420013": {
+						"Id": "202420013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Memangnya apa kesamaan antara memperbaiki kereta dan memperbaiki mesin masak ...?",
+						"NextMessageId": "202420017"
+					},
+					"202420014": {
+						"Id": "202420014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Jadi ini yang dimaksud \"unjuk kebolehan\" ya ... Kak Himeko memang hebat!",
+						"NextMessageId": "202420015"
+					},
+					"202420015": {
+						"Id": "202420015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Tapi ... kesamaannya di mana?",
+						"NextMessageId": "202420017"
+					},
+					"202420016": {
+						"Id": "202420016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Aku juga harus memperbaiki Astral Express ... bukan, aku juga harus memperbaiki mesin masak ... tapi kesamaannya di mana?",
+						"NextMessageId": "202420017"
+					},
+					"202420017": {
+						"Id": "202420017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Prinsip transmisi energi, sirkulasi panas, dan rotasi mekanis sangat mirip ... satu menggerakkan bintang-bintang, satu lagi menggerakkan spatula.",
+						"NextMessageId": "202420018"
+					},
+					"202420018": {
+						"Id": "202420018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Selain itu, dibutuhkan juga sistem memasak cerdas untuk menyesuaikan tingkat panas dan keasinan sesuai selera yang berbeda-beda.",
+						"NextMessageId": "202420019"
+					},
+					"202420019": {
+						"Id": "202420019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Ini juga sejalan dengan kebiasaan mengemudi navigator dan kondektur.",
+						"NextMessageId": "choice33"
+					},
+					"202420020": {
+						"Id": "202420020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Artinya, selama aku bisa memperbaiki mesin masak, aku pasti bisa memperbaiki Astral Express ....",
+						"NextMessageId": "202420021"
+					},
+					"202420021": {
+						"Id": "202420021",
+						"MessageType": "Sticker",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/Emoji/20008.png",
+						"Text": "[Kaget]",
+						"NextMessageId": "202420022"
+					},
+					"202420022": {
+						"Id": "202420022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Iya, begitu prinsipnya.",
+						"NextMessageId": "202420023"
+					},
+					"202420023": {
+						"Id": "202420023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Aku cuma asal bicara loh!",
+						"NextMessageId": "202420024"
+					},
+					"202420024": {
+						"Id": "202420024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Tidak apa-apa, aku tidak asal bicara.",
+						"NextMessageId": "202420025"
+					},
+					"202420025": {
+						"Id": "202420025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Percayakan saja padaku, nanti kalau sudah mencobanya, kamu pasti akan mengerti~",
+						"NextMessageId": "202420026"
+					},
+					"202420026": {
+						"Id": "202420026",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/128003.png",
+						"Text": "[Berangkat]"
+					},
+					"202420027": {
+						"Id": "202420027",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Artinya, selama aku bisa memperbaiki mesin masak, aku pasti bisa memperbaiki Astral Express ....",
+						"NextMessageId": "202420021"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku yang memasak?",
+								"NextMessageId": "202420002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku datang untuk bantu mencicipi.",
+								"NextMessageId": "202420005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Terakhir kali aku menunjukkan keahlian ... sudah lama sekali ....",
+								"NextMessageId": "202420008"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Kesamaannya di mana?",
+								"NextMessageId": "202420013"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Jadi ini yang dimaksud \"unjuk kebolehan\" ya ....",
+								"NextMessageId": "202420014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Aku juga harus memperbaiki mesin masak?",
+								"NextMessageId": "202420016"
+							}
+						]
+					},
+					"choice33": {
+						"Id": "choice33",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Artinya, selama aku ....",
+								"NextMessageId": "202420020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Kalau bisa memperbaiki mesin masak, berarti pasti bisa memperbaiki ....",
+								"NextMessageId": "202420027"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
 	},
 	"20998": {
 		"Id": "20998",

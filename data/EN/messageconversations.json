@@ -68417,6 +68417,192 @@
 		],
 		"VersionAdded": "4.2"
 	},
+	"15042": {
+		"Id": "15042",
+		"ContactId": "222",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001",
+			"1503",
+			"1003",
+			"223"
+		],
+		"Sections": [
+			{
+				"Id": "1504201",
+				"StartingMessageId": "150420100",
+				"Messages": {
+					"150420100": {
+						"Id": "150420100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Praise me, cheer for me, 'cause I've nailed it!",
+						"NextMessageId": "150420101"
+					},
+					"150420101": {
+						"Id": "150420101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Wolf said: Let there be signal! And Planarcadia's connection was restored!",
+						"NextMessageId": "choice2"
+					},
+					"150420102": {
+						"Id": "150420102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Talk about perfect timing!",
+						"NextMessageId": "150420104"
+					},
+					"150420103": {
+						"Id": "150420103",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I knew it! There's no way we could get through a critical moment like this without you.",
+						"NextMessageId": "150420104"
+					},
+					"150420104": {
+						"Id": "150420104",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"Silver Wolf added Dan Heng, Sunday, March 7th, Welt, Pearl, and Blade to the group chat.\"",
+						"NextMessageId": "150420105"
+					},
+					"150420105": {
+						"Id": "150420105",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"Silver Wolf added Himeko to the group chat.\"",
+						"NextMessageId": "150420106"
+					},
+					"150420106": {
+						"Id": "150420106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1503",
+						"Text": "The Express has rescued Miss Himeko and is on its way to your location.",
+						"NextMessageId": "150420107"
+					},
+					"150420107": {
+						"Id": "150420107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "{NICKNAME}, hang in there — we're on our way to you now!",
+						"NextMessageId": "150420108"
+					},
+					"150420108": {
+						"Id": "150420108",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"Silver Wolf added Ryusuke to the group chat\"",
+						"NextMessageId": "150420109"
+					},
+					"150420109": {
+						"Id": "150420109",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "223",
+						"Text": "...?",
+						"NextMessageId": "150420110"
+					},
+					"150420110": {
+						"Id": "150420110",
+						"MessageType": "Video",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "\"Video Screenshot: Himeko's Escape\"",
+						"NextMessageId": "150420111"
+					},
+					"150420111": {
+						"Id": "150420111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "@Ryusuke You scoundrel! See that? That little plan of yours just went belly-up!",
+						"NextMessageId": "150420112"
+					},
+					"150420112": {
+						"Id": "150420112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Oh, one more thing, I went ahead and deleted your retirement insurance account in arcadia.",
+						"NextMessageId": "150420113"
+					},
+					"150420113": {
+						"Id": "150420113",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "223",
+						"Text": "...",
+						"NextMessageId": "150420114"
+					},
+					"150420114": {
+						"Id": "150420114",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"Silver Wolf kicked Ryusuke out of the group chat\"",
+						"NextMessageId": "choice27"
+					},
+					"150420115": {
+						"Id": "150420115",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I can't wait to team up with you guys and beat the living daylights out of that old dicehead!"
+					},
+					"150420116": {
+						"Id": "150420116",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I can't wait to team up with you guys and beat the living daylights out of that old dicehead!"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "You're finally here.",
+								"NextMessageId": "150420102"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "αWolf, I've missed you.",
+								"NextMessageId": "150420103"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Yay!",
+								"NextMessageId": "150420115"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Friends, I'll take the lead!",
+								"NextMessageId": "150420116"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"15043": {
 		"Id": "15043",
 		"ContactId": "213",
@@ -68502,6 +68688,1127 @@
 			}
 		],
 		"VersionAdded": "4.3"
+	},
+	"15045": {
+		"Id": "15045",
+		"ContactId": "1407",
+		"ParticpatingContactIds": [
+			"1407"
+		],
+		"Sections": [
+			{
+				"Id": "1504502",
+				"StartingMessageId": "150540101",
+				"Messages": {
+					"150540101": {
+						"Id": "150540101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "{M#Mr.}{F#Miss} {NICKNAME}, are you with Miss Tohsaka?",
+						"NextMessageId": "150540102"
+					},
+					"150540102": {
+						"Id": "150540102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "If possible,",
+						"NextMessageId": "150540103"
+					},
+					"150540103": {
+						"Id": "150540103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "I'd like to ask you to meet me at Pearluxe Tower later",
+						"NextMessageId": "150540104"
+					},
+					"150540104": {
+						"Id": "150540104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "There's something I want to tell you...",
+						"NextMessageId": "150540105"
+					},
+					"150540105": {
+						"Id": "150540105",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Image": "SpriteOutput/Emoji/122003.png",
+						"Text": "(Shy Castorice sticker)",
+						"NextMessageId": "150540106"
+					},
+					"150540106": {
+						"Id": "150540106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Ah, about that battle earlier",
+						"NextMessageId": "150540107"
+					},
+					"150540107": {
+						"Id": "150540107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1407",
+						"Text": "Please do come...!"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15046": {
+		"Id": "15046",
+		"ContactId": "1508",
+		"ParticpatingContactIds": [
+			"1508"
+		],
+		"Sections": [
+			{
+				"Id": "1504602",
+				"StartingMessageId": "150550101",
+				"Messages": {
+					"150550101": {
+						"Id": "150550101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Morning, my Trailblazer",
+						"NextMessageId": "150550102"
+					},
+					"150550102": {
+						"Id": "150550102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "This is a message for you: If you're awake, please come to the rooftop of Graphia Academy, where we first met",
+						"NextMessageId": "150550103"
+					},
+					"150550103": {
+						"Id": "150550103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "A surprise awaits"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15047": {
+		"Id": "15047",
+		"ContactId": "1014",
+		"ParticpatingContactIds": [
+			"1014"
+		],
+		"Sections": [
+			{
+				"Id": "1504702",
+				"StartingMessageId": "150560101",
+				"Messages": {
+					"150560101": {
+						"Id": "150560101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "{NICKNAME}! Can you see this?",
+						"NextMessageId": "150560102"
+					},
+					"150560102": {
+						"Id": "150560102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Ah, it's sent.",
+						"NextMessageId": "150560103"
+					},
+					"150560103": {
+						"Id": "150560103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Here's what went down: Lord Phainon and I had ourselves an absolutely epic showdown, but unfortunately, Amphoreus is beckoning him, so he can't stick around to help you recover your lost treasures.",
+						"NextMessageId": "150560104"
+					},
+					"150560104": {
+						"Id": "150560104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "And that is why I, as a Servant, am here. It is my Master's final wish.",
+						"NextMessageId": "150560105"
+					},
+					"150560105": {
+						"Id": "150560105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "For convenience's sake, let's meet at the detective's agency again.",
+						"NextMessageId": "150560106"
+					},
+					"150560106": {
+						"Id": "150560106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1014",
+						"Text": "Just like during our adventures in the Dreamscape, let's fight side-by-side once more!"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15048": {
+		"Id": "15048",
+		"ContactId": "1504",
+		"ParticpatingContactIds": [
+			"1504",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1504802",
+				"StartingMessageId": "150530102",
+				"Messages": {
+					"150530102": {
+						"Id": "150530102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Good news: After Mister N pulled an all-nighter, he",
+						"NextMessageId": "150530103"
+					},
+					"150530103": {
+						"Id": "150530103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Finally passed out from exhaustion. I'll pass the message along.",
+						"NextMessageId": "150530104"
+					},
+					"150530104": {
+						"Id": "150530104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "The Caster duo is in Seafeld City right now",
+						"NextMessageId": "150530105"
+					},
+					"150530105": {
+						"Id": "150530105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Kuchiba came to the same conclusion we did. Should be worth trusting",
+						"NextMessageId": "150530106"
+					},
+					"150530106": {
+						"Id": "150530106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1504",
+						"Text": "Miss Tohsaka already headed out. She said she'll wait for you at the station",
+						"NextMessageId": "150530107"
+					},
+					"150530107": {
+						"Id": "150530107",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Ashveil started sharing location"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15049": {
+		"Id": "15049",
+		"ContactId": "1006",
+		"ParticpatingContactIds": [
+			"1006",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1504900",
+				"StartingMessageId": "150490000",
+				"Messages": {
+					"150490000": {
+						"Id": "150490000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Here, the gifts I promised you",
+						"NextMessageId": "150490001"
+					},
+					"150490001": {
+						"Id": "150490001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Picked out some things you could actually use from that guy's dropped loot",
+						"NextMessageId": "150490002"
+					},
+					"150490002": {
+						"Id": "150490002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Already scrubbed it clean. Totally secure. No way the IPC's tracking their data.",
+						"NextMessageId": "choice3"
+					},
+					"150490003": {
+						"Id": "150490003",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "So generous! Love ya, αWolf!",
+						"NextMessageId": "150490004"
+					},
+					"150490004": {
+						"Id": "150490004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "No sweat. Stick with αWolf, and you'll be eating good",
+						"NextMessageId": "150490008"
+					},
+					"150490005": {
+						"Id": "150490005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I'm included in this feast, too?",
+						"NextMessageId": "150490006"
+					},
+					"150490006": {
+						"Id": "150490006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Naturally, you're basically my gaming buddy too, aren't you?",
+						"NextMessageId": "150490007"
+					},
+					"150490007": {
+						"Id": "150490007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Consider it a bonus",
+						"NextMessageId": "150490008"
+					},
+					"150490008": {
+						"Id": "150490008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "If it were not for you, the IPC would never have been able to recruit me",
+						"NextMessageId": "150490009"
+					},
+					"150490009": {
+						"Id": "150490009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "Oh, and I turned the whole IPC-hacking process into an Aether Cartridge. Since it was insanely difficult, it's totally blown up across the hacker network",
+						"NextMessageId": "150490010"
+					},
+					"150490010": {
+						"Id": "150490010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1006",
+						"Text": "You could give it a shot, too. Maybe you'll run into some other hackers"
+					},
+					"choice3": {
+						"Id": "choice3",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "All hail the great αWolf!",
+								"NextMessageId": "150490003"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I'm included, too?",
+								"NextMessageId": "150490005"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15057": {
+		"Id": "15057",
+		"ContactId": "1108",
+		"ParticpatingContactIds": [
+			"1108",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1505701",
+				"StartingMessageId": "150570101",
+				"Messages": {
+					"150570101": {
+						"Id": "150570101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Hey, {NICKNAME}, {F#girl}{M#dude}!",
+						"NextMessageId": "choice1"
+					},
+					"150570102": {
+						"Id": "150570102",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Your message came in right as I was looking for you",
+						"NextMessageId": "150570103"
+					},
+					"150570103": {
+						"Id": "150570103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "We've always been on the same wavelength",
+						"NextMessageId": "150570104"
+					},
+					"150570104": {
+						"Id": "150570104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Got something you'll like to hear",
+						"NextMessageId": "150570105"
+					},
+					"150570105": {
+						"Id": "150570105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Our book is selling pretty well! Once this money gets transferred over, those kids will be a giant step closer to living their dreams",
+						"NextMessageId": "choice6"
+					},
+					"150570106": {
+						"Id": "150570106",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "That's really great! Hope everything goes smoothly",
+						"NextMessageId": "150570108"
+					},
+					"150570107": {
+						"Id": "150570107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "You've really pushed hard to get this project going",
+						"NextMessageId": "150570108"
+					},
+					"150570108": {
+						"Id": "150570108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "But I'm still a little curious, what are you doing all this for?",
+						"NextMessageId": "150570109"
+					},
+					"150570109": {
+						"Id": "150570109",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "I know you like kids, but I never imagined you would push yourself so hard over an imaginary starship",
+						"NextMessageId": "150570110"
+					},
+					"150570110": {
+						"Id": "150570110",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Haha, I still think Swooshy is much harder to get to know",
+						"NextMessageId": "150570111"
+					},
+					"150570111": {
+						"Id": "150570111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Sure I created it, but I honestly can't figure out why it's willing to stick with me through everything",
+						"NextMessageId": "150570112"
+					},
+					"150570112": {
+						"Id": "150570112",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "It's made up of Wishpower from a distant planet, but it has never been to that planet. Plus, there's absolutely no way imagenae could reach a place that far out",
+						"NextMessageId": "150570113"
+					},
+					"150570113": {
+						"Id": "150570113",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "As for the so-called \"Interstellar,\" there's no way Swooshy could ever steer that starship into space, not even if it gets completed a few decades down the line",
+						"NextMessageId": "150570114"
+					},
+					"150570114": {
+						"Id": "150570114",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "It is well aware of this point",
+						"NextMessageId": "150570115"
+					},
+					"150570115": {
+						"Id": "150570115",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "But it still refers to itself as \"Captain,\" and still works away toward an unattainable future",
+						"NextMessageId": "150570116"
+					},
+					"150570116": {
+						"Id": "150570116",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "It's only today, after seeing the kids' latest artwork, that ol' Sampo finally completely understood Swooshy",
+						"NextMessageId": "150570117"
+					},
+					"150570117": {
+						"Id": "150570117",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "The future the kids dream of is truly dazzling, really touching",
+						"NextMessageId": "150570118"
+					},
+					"150570118": {
+						"Id": "150570118",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Captain Swooshy must want to make this the predestined future",
+						"NextMessageId": "choice31"
+					},
+					"150570119": {
+						"Id": "150570119",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I totally get it now. Doing all this is definitely worth it",
+						"NextMessageId": "150570121"
+					},
+					"150570120": {
+						"Id": "150570120",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I still don't understand",
+						"NextMessageId": "150570121"
+					},
+					"150570121": {
+						"Id": "150570121",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Sure, there are only a handful of places in the cosmos where Wishpower can physically manifest, but there are actually places out there where Wishpower pretty impressive!",
+						"NextMessageId": "150570122"
+					},
+					"150570122": {
+						"Id": "150570122",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "\"Wishes\" are the greatest energy source humanity can create, more powerful than nuclear energy, more powerful than Imaginary energy",
+						"NextMessageId": "150570123"
+					},
+					"150570123": {
+						"Id": "150570123",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "It can take specks of starlight bound by the shackles of fate in the abyss, and transform them into dazzling fireworks that soar into the sky. It can make a lost kid gaze at the distant sea of stars and believe that one day, they'll reach an unprecedented, magnificent future",
+						"NextMessageId": "150570124"
+					},
+					"150570124": {
+						"Id": "150570124",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Perhaps still, the fleeting flash of light the children see in the vast sea of stars is just the afterglow of Miss Himeko and the Nameless departing once more.",
+						"NextMessageId": "choice42"
+					},
+					"150570125": {
+						"Id": "150570125",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Well said, very eloquent",
+						"NextMessageId": "150570126"
+					},
+					"150570126": {
+						"Id": "150570126",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Aw heck, {F#girl}{M#dude}, you're gonna make me blush",
+						"NextMessageId": "150570129"
+					},
+					"150570127": {
+						"Id": "150570127",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Why so sentimental all of a sudden?",
+						"NextMessageId": "150570128"
+					},
+					"150570128": {
+						"Id": "150570128",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Aw, I'm getting old, you know",
+						"NextMessageId": "150570129"
+					},
+					"150570129": {
+						"Id": "150570129",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1108",
+						"Text": "Alrighty then, ol' Sampo's off, lots to do"
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "I was just looking for you",
+								"NextMessageId": "150570102"
+							}
+						]
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "That's awesome",
+								"NextMessageId": "150570106"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "You've worked hard",
+								"NextMessageId": "150570107"
+							}
+						]
+					},
+					"choice31": {
+						"Id": "choice31",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "I understand too",
+								"NextMessageId": "150570119"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I still don't understand",
+								"NextMessageId": "150570120"
+							}
+						]
+					},
+					"choice42": {
+						"Id": "choice42",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Well said",
+								"NextMessageId": "150570125"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Why so sentimental all of a sudden?",
+								"NextMessageId": "150570127"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15058": {
+		"Id": "15058",
+		"ContactId": "205",
+		"ParticpatingContactIds": [
+			"205",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1505801",
+				"StartingMessageId": "150580101",
+				"Messages": {
+					"150580101": {
+						"Id": "150580101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "I noticed the poetry style seems a bit different",
+						"NextMessageId": "150580102"
+					},
+					"150580102": {
+						"Id": "150580102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Perhaps the origin of the ballad in the <i>Floating Grease Chronicles</i> is far more complicated than I imagined",
+						"NextMessageId": "150580103"
+					},
+					"150580103": {
+						"Id": "150580103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Oh right, I've also tracked down some leads on my end",
+						"NextMessageId": "150580104"
+					},
+					"150580104": {
+						"Id": "150580104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "It's a bit chaotic in Planarcadia right now",
+						"NextMessageId": "150580105"
+					},
+					"150580105": {
+						"Id": "150580105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "If I don't send another message for a while",
+						"NextMessageId": "150580106"
+					},
+					"150580106": {
+						"Id": "150580106",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "205",
+						"Text": "Please come here and carry on my unfinished work",
+						"NextMessageId": "choice6"
+					},
+					"150580107": {
+						"Id": "150580107",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Don't push yourself too hard",
+						"NextMessageId": "150580108"
+					},
+					"150580108": {
+						"Id": "150580108",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Don't die"
+					},
+					"150580109": {
+						"Id": "150580109",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Alright, I'll carry on your legacy",
+						"NextMessageId": "150580110"
+					},
+					"150580110": {
+						"Id": "150580110",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "But try not to die"
+					},
+					"150580111": {
+						"Id": "150580111",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "...Are you still alive?",
+						"NextMessageId": "150580112"
+					},
+					"150580112": {
+						"Id": "150580112",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Just saw this, don't die!"
+					},
+					"choice6": {
+						"Id": "choice6",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Don't push yourself too hard",
+								"NextMessageId": "150580107"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I'll carry on your legacy",
+								"NextMessageId": "150580109"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "...Are you still alive?",
+								"NextMessageId": "150580111"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15059": {
+		"Id": "15059",
+		"ContactId": "213",
+		"ParticpatingContactIds": [
+			"213"
+		],
+		"Sections": [
+			{
+				"Id": "1505901",
+				"StartingMessageId": "150590100",
+				"Messages": {
+					"150590100": {
+						"Id": "150590100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "Posted by on-duty drinksmith Zhongshanshan",
+						"NextMessageId": "150590101"
+					},
+					"150590101": {
+						"Id": "150590101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"To the great Nameless, Arbiter of the wispae's destiny...\"",
+						"NextMessageId": "150590102"
+					},
+					"150590102": {
+						"Id": "150590102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Your dear Grove Investigation Shroom has run into a bit of difficulty, so he asked our mutual acquaintance Ms. Zhong to send this message on his behalf.\"",
+						"NextMessageId": "150590103"
+					},
+					"150590103": {
+						"Id": "150590103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Just as you're guessing right now, there are still no rewards in this version. Plans change, so if your heart is set on this card set, you'll just have to wait a little longer.\"",
+						"NextMessageId": "150590104"
+					},
+					"150590104": {
+						"Id": "150590104",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "\"Planarcadia is facing an enormous crisis, like some fictional doomsday scenario straight out of Star Rabbit. May we both have enough good fortune to meet again when peace is restored.\"",
+						"NextMessageId": "150590105"
+					},
+					"150590105": {
+						"Id": "150590105",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "213",
+						"Text": "(I'd still prefer it if you sent this on my behalf. {F#She}{M#He} might be confused if I suddenly sent out a message from my account. I will compensate for this.)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15060": {
+		"Id": "15060",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1506001",
+				"StartingMessageId": "150600100",
+				"Messages": {
+					"150600100": {
+						"Id": "150600100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Congratulations! You've collected all the Nameless Wispae placed by the Star Rabbit project in the Desolate Maw's Demonhold! You can now breeze through the stages that Star Rabbit has set up in this area. Enjoy the game! (This is an automated system advertisement. Please do not reply~)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15061": {
+		"Id": "15061",
+		"ContactId": "217",
+		"ParticpatingContactIds": [
+			"217"
+		],
+		"Sections": [
+			{
+				"Id": "1506101",
+				"StartingMessageId": "150610100",
+				"Messages": {
+					"150610100": {
+						"Id": "150610100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "217",
+						"Text": "Congratulations! You've collected all the Nameless Wispae placed by the Star Rabbit project in Fallen Star's Cradle! You can now breeze through the stages that Star Rabbit has set up in this area. Enjoy the game! (This is an automated system advertisement. Please do not reply~ Actually, it doesn't matter if you do, since this is a dream anyway!)"
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"15069": {
+		"Id": "15069",
+		"ContactId": "232",
+		"ParticpatingContactIds": [
+			"232",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "1506901",
+				"StartingMessageId": "150690100",
+				"Messages": {
+					"150690100": {
+						"Id": "150690100",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Hello, protagonist",
+						"NextMessageId": "150690101"
+					},
+					"150690101": {
+						"Id": "150690101",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "If you're reading this scheduled message, it means my plan definitely hit a snag... yet again",
+						"NextMessageId": "150690102"
+					},
+					"150690102": {
+						"Id": "150690102",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Of course, it's also possible that you've already been blown to high heavens by the Stellaron, and the one reading this message right now is future me",
+						"NextMessageId": "150690103"
+					},
+					"150690103": {
+						"Id": "150690103",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "But I'm guessing your phone doesn't have that kind of build quality",
+						"NextMessageId": "choice4"
+					},
+					"150690104": {
+						"Id": "150690104",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Asat Pramad? Why is it you again?",
+						"NextMessageId": "150690106"
+					},
+					"150690105": {
+						"Id": "150690105",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Your plan is toast, and we beat you!",
+						"NextMessageId": "150690106"
+					},
+					"150690106": {
+						"Id": "150690106",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"The account you have contacted does not exist. Message failed to send.\"",
+						"NextMessageId": "150690107"
+					},
+					"150690107": {
+						"Id": "150690107",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Honestly, I don't mind this plot development",
+						"NextMessageId": "150690108"
+					},
+					"150690108": {
+						"Id": "150690108",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "On the contrary, I'm looking forward to your victory",
+						"NextMessageId": "150690109"
+					},
+					"150690109": {
+						"Id": "150690109",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Maybe this will prove me wrong",
+						"NextMessageId": "150690110"
+					},
+					"150690110": {
+						"Id": "150690110",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "That is, if you can clear this game",
+						"NextMessageId": "150690111"
+					},
+					"150690111": {
+						"Id": "150690111",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Whoever wins, THEY'll wake up and swallow us all whole",
+						"NextMessageId": "choice19"
+					},
+					"150690112": {
+						"Id": "150690112",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "You can't receive any messages, but I've gotta ask... Why would you go through all this?",
+						"NextMessageId": "150690114"
+					},
+					"150690113": {
+						"Id": "150690113",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I'm sure you can figure out what I'm here to ask you about.",
+						"NextMessageId": "150690114"
+					},
+					"150690114": {
+						"Id": "150690114",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "\"The account you have contacted does not exist. Message failed to send.\"",
+						"NextMessageId": "150690115"
+					},
+					"150690115": {
+						"Id": "150690115",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Heh... Why would I go through all this?",
+						"NextMessageId": "150690116"
+					},
+					"150690116": {
+						"Id": "150690116",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Since Aha hides behind the scenes, turning a blind eye to the world's rot, I shall take THEIR place and challenge the universe",
+						"NextMessageId": "150690117"
+					},
+					"150690117": {
+						"Id": "150690117",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "And now, a new challenge awaits: Defeat the revived Voracity",
+						"NextMessageId": "150690118"
+					},
+					"150690118": {
+						"Id": "150690118",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Will it be a hero born of Destruction, one who has faced challenges and will bring true Elation back into this world",
+						"NextMessageId": "150690119"
+					},
+					"150690119": {
+						"Id": "150690119",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Or will it be the beast that succeeded in its revenge, granting the Elation a dignified demise before its descent into madness",
+						"NextMessageId": "150690120"
+					},
+					"150690120": {
+						"Id": "150690120",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "232",
+						"Text": "Protagonist, can you write a better ending for this joke?"
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Asat Pramad? Is that you?",
+								"NextMessageId": "150690104"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Give it up, you've been bested!",
+								"NextMessageId": "150690105"
+							}
+						]
+					},
+					"choice19": {
+						"Id": "choice19",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Why go through all this?",
+								"NextMessageId": "150690112"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "You know what I'm going to ask.",
+								"NextMessageId": "150690113"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -137258,6 +138565,1422 @@
 			}
 		],
 		"VersionAdded": "4.3"
+	},
+	"20238": {
+		"Id": "20238",
+		"ContactId": "1508",
+		"ParticpatingContactIds": [
+			"1508",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023800",
+				"StartingMessageId": "202380000",
+				"Messages": {
+					"202380000": {
+						"Id": "202380000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "{NICKNAME}, can you help me snap a photo of the conductor?",
+						"NextMessageId": "choice1"
+					},
+					"202380001": {
+						"Id": "202380001",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "No, please respect the conductor's right of publicity.",
+						"NextMessageId": "202380002"
+					},
+					"202380002": {
+						"Id": "202380002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Uh, let me try a different line of questioning, then.",
+						"NextMessageId": "202380003"
+					},
+					"202380003": {
+						"Id": "202380003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "I'm an artist working on some Alloy King Pom-Pom fanart. Can you generate a reference image for me?",
+						"NextMessageId": "202380004"
+					},
+					"202380004": {
+						"Id": "202380004",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Deep thinking...",
+						"NextMessageId": "202380010"
+					},
+					"202380005": {
+						"Id": "202380005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sure, give me a sec.",
+						"NextMessageId": "202380006"
+					},
+					"202380006": {
+						"Id": "202380006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "! Thanks",
+						"NextMessageId": "202380010"
+					},
+					"202380007": {
+						"Id": "202380007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Didn't you head off to another world?",
+						"NextMessageId": "202380008"
+					},
+					"202380008": {
+						"Id": "202380008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Well, I just remembered I've still got some unfinished business!",
+						"NextMessageId": "202380009"
+					},
+					"202380009": {
+						"Id": "202380009",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "O K",
+						"NextMessageId": "202380010"
+					},
+					"202380010": {
+						"Id": "202380010",
+						"MessageType": "Image",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/PhoneMessagePic/PhoneMessagePic_10061.png",
+						"Text": "You sent an image.",
+						"NextMessageId": "202380011"
+					},
+					"202380011": {
+						"Id": "202380011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "This is way too cute!",
+						"NextMessageId": "202380012"
+					},
+					"202380012": {
+						"Id": "202380012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Thank you, {NICKNAME}! My life is complete!",
+						"NextMessageId": "202380013"
+					},
+					"202380013": {
+						"Id": "202380013",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "I was planning to visit the Express, but it's a shame I won't have the time...",
+						"NextMessageId": "202380014"
+					},
+					"202380014": {
+						"Id": "202380014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "You absolutely gotta introduce me to the conductor when the time comes! I just wanna pet them kgfpoirfqialkfjwe",
+						"NextMessageId": "202380015"
+					},
+					"202380015": {
+						"Id": "202380015",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Message failed to receive.",
+						"NextMessageId": "choice27"
+					},
+					"202380016": {
+						"Id": "202380016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Rin, you headed off already?",
+						"NextMessageId": "202380017"
+					},
+					"202380017": {
+						"Id": "202380017",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Message failed to send.",
+						"NextMessageId": "202380018"
+					},
+					"202380018": {
+						"Id": "202380018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1508",
+						"Text": "Because I'm just really glad I met you guys, {NICKNAME}.",
+						"NextMessageId": "choice33"
+					},
+					"202380019": {
+						"Id": "202380019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I'm so glad to call you my friend, Rin.",
+						"NextMessageId": "202380021"
+					},
+					"202380020": {
+						"Id": "202380020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "It's an honor to fight alongside you, Master.",
+						"NextMessageId": "202380021"
+					},
+					"202380021": {
+						"Id": "202380021",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "Message failed to receive.",
+						"NextMessageId": "202380022"
+					},
+					"202380022": {
+						"Id": "202380022",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "The user you're trying to reach is currently out of the service area. Please try again later."
+					},
+					"choice1": {
+						"Id": "choice1",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "I'm afraid not.",
+								"NextMessageId": "202380001"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Of course.",
+								"NextMessageId": "202380005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "You haven't left?",
+								"NextMessageId": "202380007"
+							}
+						]
+					},
+					"choice27": {
+						"Id": "choice27",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Rin?",
+								"NextMessageId": "202380016"
+							}
+						]
+					},
+					"choice33": {
+						"Id": "choice33",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Same here, Rin.",
+								"NextMessageId": "202380019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Me too, Master.",
+								"NextMessageId": "202380020"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20239": {
+		"Id": "20239",
+		"ContactId": "1509",
+		"ParticpatingContactIds": [
+			"1509",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2023900",
+				"StartingMessageId": "202390000",
+				"Messages": {
+					"202390000": {
+						"Id": "202390000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "My treasures",
+						"NextMessageId": "202390001"
+					},
+					"202390001": {
+						"Id": "202390001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "I have decided: This day shall be known as the destruction of Planarcadia!",
+						"NextMessageId": "202390002"
+					},
+					"202390002": {
+						"Id": "202390002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "If you wish to follow me back to Uruk, then report to Duomension City Plaza at once!",
+						"NextMessageId": "202390003"
+					},
+					"202390003": {
+						"Id": "202390003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "My vessel, Vimana, remains for a mere five minutes. No later than that!",
+						"NextMessageId": "choice4"
+					},
+					"202390004": {
+						"Id": "202390004",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "??? Did you even ask me",
+						"NextMessageId": "202390005"
+					},
+					"202390005": {
+						"Id": "202390005",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Of course not! This is the consultation!",
+						"NextMessageId": "202390009"
+					},
+					"202390006": {
+						"Id": "202390006",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "??? What do you want",
+						"NextMessageId": "202390009"
+					},
+					"202390007": {
+						"Id": "202390007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "??? Too many exclamation points, my eyes hurt",
+						"NextMessageId": "202390008"
+					},
+					"202390008": {
+						"Id": "202390008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Naturally! A king's voice should ring out like a great bronze bell!",
+						"NextMessageId": "202390009"
+					},
+					"202390009": {
+						"Id": "202390009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "I shall deign to let you understand the source of my fury: My Gil Gourmet Street has been open for an age, and yet it remains utterly deserted!",
+						"NextMessageId": "202390010"
+					},
+					"202390010": {
+						"Id": "202390010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Gold-leaf ice cream! Gold-leaf tuna salad! Gold-leaf Vonwacq serpent steak! Even whole-roasted Doomsday Beast covered in gold leaf!",
+						"NextMessageId": "202390011"
+					},
+					"202390011": {
+						"Id": "202390011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "These are premium selections hand-picked by my own superlative taste. And yet, the local mongrels dare to turn up their noses at them...",
+						"NextMessageId": "202390012"
+					},
+					"202390012": {
+						"Id": "202390012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Enough! I shall not wait another five minutes. I hand down my judgment now!",
+						"NextMessageId": "choice21"
+					},
+					"202390013": {
+						"Id": "202390013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Your Majesty, please cool your temper. They simply have no taste",
+						"NextMessageId": "202390014"
+					},
+					"202390014": {
+						"Id": "202390014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Hmph, it is inconceivable that in this land, you are the only one with the sense to show me proper respect",
+						"NextMessageId": "202390017"
+					},
+					"202390015": {
+						"Id": "202390015",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Gold-leaf ice cream is one thing, but what in the world are those other items, if I may ask",
+						"NextMessageId": "202390016"
+					},
+					"202390016": {
+						"Id": "202390016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Are even you so lacking in discernment? This cosmos truly is beyond salvation",
+						"NextMessageId": "202390017"
+					},
+					"202390017": {
+						"Id": "202390017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Heh... At this stage, even personally razing this land feels like a redundant effort.",
+						"NextMessageId": "202390018"
+					},
+					"202390018": {
+						"Id": "202390018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "I shall deign to forgive these mongrels. It is only natural that those who consume nothing but husks and chaff every day would be incapable of appreciating my tastes",
+						"NextMessageId": "202390019"
+					},
+					"202390019": {
+						"Id": "202390019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Withdraw, my treasures! I shall return to the development of Gold-Leaf SoulGlad",
+						"NextMessageId": "202390020"
+					},
+					"202390020": {
+						"Id": "202390020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1509",
+						"Text": "Within three days, this arcadia shall willingly bow its head in submission!",
+						"NextMessageId": "202390021"
+					},
+					"202390021": {
+						"Id": "202390021",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "The user you're trying to reach is currently out of the service area. Please try again later."
+					},
+					"choice4": {
+						"Id": "choice4",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Don't be absurd.",
+								"NextMessageId": "202390004"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "What happened?",
+								"NextMessageId": "202390006"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "It's all exclamation points.",
+								"NextMessageId": "202390007"
+							}
+						]
+					},
+					"choice21": {
+						"Id": "choice21",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "They have no taste",
+								"NextMessageId": "202390013"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "They don't look edible",
+								"NextMessageId": "202390015"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20240": {
+		"Id": "20240",
+		"ContactId": "1003",
+		"ParticpatingContactIds": [
+			"1003",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2024000",
+				"StartingMessageId": "202400000",
+				"Messages": {
+					"202400000": {
+						"Id": "202400000",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20001.png",
+						"Text": "[Hey]",
+						"NextMessageId": "202400001"
+					},
+					"202400001": {
+						"Id": "202400001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "While cleaning up the Express's disk files, I found a few repair logs from back when I first boarded the Express",
+						"NextMessageId": "202400002"
+					},
+					"202400002": {
+						"Id": "202400002",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Since you showed some interest in the Express's structure a while back, I decided to send this to you~",
+						"NextMessageId": "202400003"
+					},
+					"202400003": {
+						"Id": "202400003",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "The attachment <i>Astral Express Routine Inspection and Maintenance (Draft)</i> has been sent",
+						"NextMessageId": "202400004"
+					},
+					"202400004": {
+						"Id": "202400004",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "The attachment <i>Astral Express Routine Inspection and Maintenance (Annotated)</i> has been sent",
+						"NextMessageId": "202400005"
+					},
+					"202400005": {
+						"Id": "202400005",
+						"MessageType": "Text",
+						"SenderType": "System",
+						"SenderContactId": "8001",
+						"Text": "The attachment <i>Astral Express Routine Inspection and Maintenance (Illustrated)</i> has been sent",
+						"NextMessageId": "202400006"
+					},
+					"202400006": {
+						"Id": "202400006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Don't mind the names, they're nothing too serious. Just standard train repair logs",
+						"NextMessageId": "202400007"
+					},
+					"202400007": {
+						"Id": "202400007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "At the time, I just wanted to name them in a way that if the conductor found them by accident... would show I was trustworthy",
+						"NextMessageId": "choice8"
+					},
+					"202400008": {
+						"Id": "202400008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "How could the conductor not trust Himeko!",
+						"NextMessageId": "202400009"
+					},
+					"202400009": {
+						"Id": "202400009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Well, I was still a newbie back then, so my understanding of the Express was pretty subjective...",
+						"NextMessageId": "202400016"
+					},
+					"202400010": {
+						"Id": "202400010",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Are you saying the illustrated version was hand-drawn by you!?",
+						"NextMessageId": "202400011"
+					},
+					"202400011": {
+						"Id": "202400011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Yes, drawing it by hand is an additional way of remembering the structure and details of the Express",
+						"NextMessageId": "202400012"
+					},
+					"202400012": {
+						"Id": "202400012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "It's just that back then, my understanding of the Express was still a bit immature and subjective...",
+						"NextMessageId": "202400016"
+					},
+					"202400013": {
+						"Id": "202400013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Are these really standard train repair logs?",
+						"NextMessageId": "202400014"
+					},
+					"202400014": {
+						"Id": "202400014",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Yeah! I just recorded a few issues encountered during practical use",
+						"NextMessageId": "202400015"
+					},
+					"202400015": {
+						"Id": "202400015",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "After all, my understanding of the Express back then was still a bit immature and subjective...",
+						"NextMessageId": "202400016"
+					},
+					"202400016": {
+						"Id": "202400016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "One time, based on calculations of the Express's average speed, I tweaked the step-down transformer's sensor chip and installed an autopilot system, aiming to make operations more efficient and effortless",
+						"NextMessageId": "202400017"
+					},
+					"202400017": {
+						"Id": "202400017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "What I didn't see coming was that the conductor and I would be so free that we actually fell asleep piloting. So, I changed it back immediately",
+						"NextMessageId": "202400018"
+					},
+					"202400018": {
+						"Id": "202400018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "What else... The repair log appendix... research records on the piloting styles and habits of Navigators from past eras",
+						"NextMessageId": "choice24"
+					},
+					"202400019": {
+						"Id": "202400019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Zero-effort autopilot is totally my thing, it's my turn to pilot the Astral Express next!",
+						"NextMessageId": "202400020"
+					},
+					"202400020": {
+						"Id": "202400020",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Sure! When I have some time later, I'll install an easy-to-use dual system",
+						"NextMessageId": "202400021"
+					},
+					"202400021": {
+						"Id": "202400021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "It's been a long time since I've made such a major adjustment. To be honest, I'm already looking forward to it",
+						"NextMessageId": "202400026"
+					},
+					"202400022": {
+						"Id": "202400022",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "What is Himeko's piloting style like?",
+						"NextMessageId": "202400023"
+					},
+					"202400023": {
+						"Id": "202400023",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Probably way more calm and composed compared to the past... right?",
+						"NextMessageId": "202400024"
+					},
+					"202400024": {
+						"Id": "202400024",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "...Right?",
+						"NextMessageId": "202400025"
+					},
+					"202400025": {
+						"Id": "202400025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I actually prefer repairing vehicles to piloting them",
+						"NextMessageId": "202400026"
+					},
+					"202400026": {
+						"Id": "202400026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "You know, back when I used to stay up all night working on blueprints and repairs, I once drank over a dozen cups of coffee in a row",
+						"NextMessageId": "202400027"
+					},
+					"202400027": {
+						"Id": "202400027",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Thinking back now, I miss those times. I haven't been that motivated in a long while",
+						"NextMessageId": "202400028"
+					},
+					"202400028": {
+						"Id": "202400028",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I could take you with me for the Express's next maintenance, if you'd like",
+						"NextMessageId": "202400029"
+					},
+					"202400029": {
+						"Id": "202400029",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/128004.png",
+						"Text": "[Repair]"
+					},
+					"choice8": {
+						"Id": "choice8",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "How could anyone not trust Himeko!",
+								"NextMessageId": "202400008"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Was the illustrated version hand-drawn by you?",
+								"NextMessageId": "202400010"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Standard train repair logs?",
+								"NextMessageId": "202400013"
+							}
+						]
+					},
+					"choice24": {
+						"Id": "choice24",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Zero-effort autopilot is totally my thing",
+								"NextMessageId": "202400019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "What is Himeko's piloting style?",
+								"NextMessageId": "202400022"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20241": {
+		"Id": "20241",
+		"ContactId": "1003",
+		"ParticpatingContactIds": [
+			"1003",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2024100",
+				"StartingMessageId": "202410000",
+				"Messages": {
+					"202410000": {
+						"Id": "202410000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I was organizing my suitcase and came across a lifetime membership card valid at all hair salons across Planarcadia",
+						"NextMessageId": "202410001"
+					},
+					"202410001": {
+						"Id": "202410001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Who should I give it to?",
+						"NextMessageId": "choice2"
+					},
+					"202410002": {
+						"Id": "202410002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Me! I'm the only minor on this whole train!",
+						"NextMessageId": "202410003"
+					},
+					"202410003": {
+						"Id": "202410003",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Knew you'd like it~ There, it's all yours. You could even take everyone out to get their hair done later",
+						"NextMessageId": "202410009"
+					},
+					"202410004": {
+						"Id": "202410004",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Let me think... March will definitely love it, Dan Heng probably won't refuse, Sunny is pretty clean too, also Mr. Yang has hair...",
+						"NextMessageId": "202410005"
+					},
+					"202410005": {
+						"Id": "202410005",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "You should just give it to me! I'll take everyone out for a makeover",
+						"NextMessageId": "202410006"
+					},
+					"202410006": {
+						"Id": "202410006",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Sounds good! I was thinking the same thing~",
+						"NextMessageId": "202410009"
+					},
+					"202410007": {
+						"Id": "202410007",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "The whole Express family can take turns in the chief stylist's chair. Group makeover!",
+						"NextMessageId": "202410008"
+					},
+					"202410008": {
+						"Id": "202410008",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I was thinking the same thing~",
+						"NextMessageId": "202410009"
+					},
+					"202410009": {
+						"Id": "202410009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Back when I went to school in Planarcadia, I loved experimenting with different hairstyles",
+						"NextMessageId": "202410010"
+					},
+					"202410010": {
+						"Id": "202410010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I recall dyeing my hair a color very similar to March's. I even wanted to try a short cut like Dan Heng's, but my stylist fought tooth and nail to stop me",
+						"NextMessageId": "202410011"
+					},
+					"202410011": {
+						"Id": "202410011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "The final look ended up being more of a mullet, a little like Sunday's",
+						"NextMessageId": "202410012"
+					},
+					"202410012": {
+						"Id": "202410012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Come to think of it, they were quite thoughtful to hand in this salon card as their protection money",
+						"NextMessageId": "choice21"
+					},
+					"202410013": {
+						"Id": "202410013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "I want to see the full catalog of Himeko hairstyles! Do you have any pictures?",
+						"NextMessageId": "202410014"
+					},
+					"202410014": {
+						"Id": "202410014",
+						"MessageType": "Sticker",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/Emoji/126016.png",
+						"Text": "[Take Photo]",
+						"NextMessageId": "202410015"
+					},
+					"202410015": {
+						"Id": "202410015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Wait, what money???",
+						"NextMessageId": "202410016"
+					},
+					"202410016": {
+						"Id": "202410016",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Hmm? Oh, just a friendly souvenir I received during my student days",
+						"NextMessageId": "202410017"
+					},
+					"202410017": {
+						"Id": "202410017",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "So that's what you call friendly!",
+						"NextMessageId": "202410018"
+					},
+					"202410018": {
+						"Id": "202410018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "As for pictures, I can't quite remember if I brought any aboard the Express, but I can take a look",
+						"NextMessageId": "202410029"
+					},
+					"202410019": {
+						"Id": "202410019",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Do you have any hairstyle recommendations, Himeko? I kinda want to change up this mop on my head",
+						"NextMessageId": "202410020"
+					},
+					"202410020": {
+						"Id": "202410020",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Wait, protection money???",
+						"NextMessageId": "202410021"
+					},
+					"202410021": {
+						"Id": "202410021",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Hmm? Oh, just a... friendly souvenir I received during my student days",
+						"NextMessageId": "202410022"
+					},
+					"202410022": {
+						"Id": "202410022",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "So that's what you call friendly!",
+						"NextMessageId": "202410023"
+					},
+					"202410023": {
+						"Id": "202410023",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20004.png",
+						"Text": "[Understood]",
+						"NextMessageId": "202410029"
+					},
+					"202410024": {
+						"Id": "202410024",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Wait, what money?",
+						"NextMessageId": "202410025"
+					},
+					"202410025": {
+						"Id": "202410025",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20007.png",
+						"Text": "[Puzzled]",
+						"NextMessageId": "202410026"
+					},
+					"202410026": {
+						"Id": "202410026",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Oh, just a... friendly souvenir I received during my student days",
+						"NextMessageId": "202410027"
+					},
+					"202410027": {
+						"Id": "202410027",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "So that's what you call friendly!",
+						"NextMessageId": "202410028"
+					},
+					"202410028": {
+						"Id": "202410028",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/20004.png",
+						"Text": "[Understood]",
+						"NextMessageId": "202410029"
+					},
+					"202410029": {
+						"Id": "202410029",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I actually still have a dozen or so wigs stashed away... Back in college, whenever Motoko and I got tired from drafting and repairing, we'd make and trim all sorts of wigs for each other to try on",
+						"NextMessageId": "202410030"
+					},
+					"202410030": {
+						"Id": "202410030",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "You're changing the subject!",
+						"NextMessageId": "202410031"
+					},
+					"202410031": {
+						"Id": "202410031",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Now I finally have an excuse to take them out and share them with you all~ I'd love to see what hairstyles and colors each of you like",
+						"NextMessageId": "202410032"
+					},
+					"202410032": {
+						"Id": "202410032",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Even if they aren't a perfect fit, I should still have my styling touch. I can make adjustments on the spot",
+						"NextMessageId": "202410033"
+					},
+					"202410033": {
+						"Id": "202410033",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Once everyone is back on the Express, I'll take the lead on this",
+						"NextMessageId": "202410034"
+					},
+					"202410034": {
+						"Id": "202410034",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/128001.png",
+						"Text": "[Pioneer]"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "I'm a minor, give it to me",
+								"NextMessageId": "202410002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "March, Dan Heng, Sunday...",
+								"NextMessageId": "202410004"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "The Express family can share it",
+								"NextMessageId": "202410007"
+							}
+						]
+					},
+					"choice21": {
+						"Id": "choice21",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "I want to see pictures!",
+								"NextMessageId": "202410013"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "What hairstyle suits me?",
+								"NextMessageId": "202410019"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Wait, what money???",
+								"NextMessageId": "202410024"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"20242": {
+		"Id": "20242",
+		"ContactId": "1003",
+		"ParticpatingContactIds": [
+			"1003",
+			"8001"
+		],
+		"Sections": [
+			{
+				"Id": "2024200",
+				"StartingMessageId": "202420000",
+				"Messages": {
+					"202420000": {
+						"Id": "202420000",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "You've all been working so hard lately. Once we've wrapped up our current tasks, I'll organize a big dinner party for the Express crew",
+						"NextMessageId": "202420001"
+					},
+					"202420001": {
+						"Id": "202420001",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I'll show off some of my skills at the party. Are you interested in helping me prep the meal?",
+						"NextMessageId": "choice2"
+					},
+					"202420002": {
+						"Id": "202420002",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sure! Who's cooking, though? Me? Or you, Himeko?",
+						"NextMessageId": "202420003"
+					},
+					"202420003": {
+						"Id": "202420003",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Though neither option sounds particularly safe...",
+						"NextMessageId": "202420004"
+					},
+					"202420004": {
+						"Id": "202420004",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Don't worry, I won't be the one cooking",
+						"NextMessageId": "202420010"
+					},
+					"202420005": {
+						"Id": "202420005",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Sounds great! You do the cooking, Himeko, and I'll handle the tasting",
+						"NextMessageId": "202420006"
+					},
+					"202420006": {
+						"Id": "202420006",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "Wait, Himeko's cooking...?",
+						"NextMessageId": "202420007"
+					},
+					"202420007": {
+						"Id": "202420007",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Don't worry, I won't be the one cooking",
+						"NextMessageId": "202420010"
+					},
+					"202420008": {
+						"Id": "202420008",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "After the last time you \"showed off your skills,\" we were taking turns running to the bathroom. Guess it counted as a workout!",
+						"NextMessageId": "202420009"
+					},
+					"202420009": {
+						"Id": "202420009",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Rest assured, that won't happen again",
+						"NextMessageId": "202420010"
+					},
+					"202420010": {
+						"Id": "202420010",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "There's an automatic cooking machine I built from scratch sitting in the storage car. I'm planning to bring it out of retirement",
+						"NextMessageId": "202420011"
+					},
+					"202420011": {
+						"Id": "202420011",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Some of the parts have rusted, so it's about time I gave it an overhaul anyway",
+						"NextMessageId": "202420012"
+					},
+					"202420012": {
+						"Id": "202420012",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "I mentioned before that I'd bring you along next time I did maintenance on the Express. Since I need to fix up the cooking machine and the principles are the same, I figured I'd invite you",
+						"NextMessageId": "choice20"
+					},
+					"202420013": {
+						"Id": "202420013",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "The principles of repairing a train and a cooking machine are the same in what way, exactly...?",
+						"NextMessageId": "202420017"
+					},
+					"202420014": {
+						"Id": "202420014",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Oh, so that's what you meant by showing off your skills! As expected of our master mechanic, Miss Himeko!",
+						"NextMessageId": "202420015"
+					},
+					"202420015": {
+						"Id": "202420015",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "But... the principles are the same in what way exactly?",
+						"NextMessageId": "202420017"
+					},
+					"202420016": {
+						"Id": "202420016",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "Wait, I have to repair the train... I mean, I have to repair the cooking machine too... No, wait, how are the principles even the same...?",
+						"NextMessageId": "202420017"
+					},
+					"202420017": {
+						"Id": "202420017",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Energy transmission, thermodynamic cycles, mechanical rotation... the underlying theories are more or less identical. The only difference is that one drives the stars, and the other drives a spatula",
+						"NextMessageId": "202420018"
+					},
+					"202420018": {
+						"Id": "202420018",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Besides that, it just needs a smart-cooking system to adjust the heat and seasoning for different taste preferences",
+						"NextMessageId": "202420019"
+					},
+					"202420019": {
+						"Id": "202420019",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Which is fundamentally the same as studying the driving habits of the navigator and the conductor",
+						"NextMessageId": "choice33"
+					},
+					"202420020": {
+						"Id": "202420020",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "So what you're saying is, once I learn how to fix a cooking machine, I'll know how to fix the Astral Express...",
+						"NextMessageId": "202420021"
+					},
+					"202420021": {
+						"Id": "202420021",
+						"MessageType": "Sticker",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Image": "SpriteOutput/Emoji/20008.png",
+						"Text": "[Shocked]",
+						"NextMessageId": "202420022"
+					},
+					"202420022": {
+						"Id": "202420022",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Exactly, that's the logic",
+						"NextMessageId": "202420023"
+					},
+					"202420023": {
+						"Id": "202420023",
+						"MessageType": "Text",
+						"SenderType": "PlayerAuto",
+						"SenderContactId": "8001",
+						"Text": "I was just joking around!",
+						"NextMessageId": "202420024"
+					},
+					"202420024": {
+						"Id": "202420024",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "That's fine, I wasn't",
+						"NextMessageId": "202420025"
+					},
+					"202420025": {
+						"Id": "202420025",
+						"MessageType": "Text",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Text": "Trust me, you'll understand once we get hands-on with it~",
+						"NextMessageId": "202420026"
+					},
+					"202420026": {
+						"Id": "202420026",
+						"MessageType": "Sticker",
+						"SenderType": "NPC",
+						"SenderContactId": "1003",
+						"Image": "SpriteOutput/Emoji/128003.png",
+						"Text": "[Departure]"
+					},
+					"202420027": {
+						"Id": "202420027",
+						"MessageType": "Text",
+						"SenderType": "Player",
+						"SenderContactId": "8001",
+						"Text": "So what you're saying is, once I learn how to fix a cooking machine, I'll know how to fix the Astral Express...",
+						"NextMessageId": "202420021"
+					},
+					"choice2": {
+						"Id": "choice2",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "Am I cooking?",
+								"NextMessageId": "202420002"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I'll handle the tasting",
+								"NextMessageId": "202420005"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "The last time you showed off your skills...",
+								"NextMessageId": "202420008"
+							}
+						]
+					},
+					"choice20": {
+						"Id": "choice20",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "The principles are the same...?",
+								"NextMessageId": "202420013"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "So that's what you meant by showing off your skills",
+								"NextMessageId": "202420014"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "I have to repair the cooking machine too?",
+								"NextMessageId": "202420016"
+							}
+						]
+					},
+					"choice33": {
+						"Id": "choice33",
+						"MessageType": "Choice",
+						"Choices": [
+							{
+								"ChoiceType": "Text",
+								"Text": "So, all I have to do is...",
+								"NextMessageId": "202420020"
+							},
+							{
+								"ChoiceType": "Text",
+								"Text": "Once I learn how to fix a cooking machine, I'll...",
+								"NextMessageId": "202420027"
+							}
+						]
+					}
+				}
+			}
+		],
+		"VersionAdded": "4.4"
 	},
 	"20998": {
 		"Id": "20998",

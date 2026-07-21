@@ -1279,6 +1279,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"2128": {
+		"Id": "2128",
+		"Name": "{RUBY_B#ほし}星{RUBY_E#}を{RUBY_B#ひら}拓{RUBY_E#}く{RUBY_B#みょうじょう}明星{RUBY_E#}",
+		"Description": "限定キャラクターの出現率UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2129": {
+		"Id": "2129",
+		"Name": "銘心の萃・火花",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2130": {
+		"Id": "2130",
+		"Name": "銘心の萃・丹恒・騰荒",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2131": {
+		"Id": "2131",
+		"Name": "銘心の萃・長夜月",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2132": {
+		"Id": "2132",
+		"Name": "銘心の萃・アナイクス",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2133": {
+		"Id": "2133",
+		"Name": "銘心の萃・ケリュドラ",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2134": {
+		"Id": "2134",
+		"Name": "銘心の萃・アベンチュリン",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "イベント跳躍・キャラクター",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "光陰を定めし影",
@@ -2549,6 +2619,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"3128": {
+		"Id": "3128",
+		"Name": "光陰を定めし影",
+		"Description": "限定光円錐の出現率UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3129": {
+		"Id": "3129",
+		"Name": "真心の集・きらびやかな世界",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3130": {
+		"Id": "3130",
+		"Name": "真心の集・万里の山河を越えて",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3131": {
+		"Id": "3131",
+		"Name": "真心の集・長き夜に輝く星へ",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3132": {
+		"Id": "3132",
+		"Name": "真心の集・生命、焼滅すべし",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3133": {
+		"Id": "3133",
+		"Name": "真心の集・黄金の血で刻む時代",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3134": {
+		"Id": "3134",
+		"Name": "真心の集・運命は常に不公平",
+		"Description": "タブを{LAYOUT_MOBILE#タップして}{LAYOUT_CONTROLLER#押して}{LAYOUT_KEYBOARD#クリックして}跳躍を切替",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "イベント跳躍・光円錐",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"4001": {
 		"Id": "4001",
 		"Name": "始発跳躍",
@@ -2564,7 +2704,7 @@
 		"Name": "{RUBY_B#かがや}輝{RUBY_E#}く{RUBY_B#せいけん}聖剣{RUBY_E#}の{RUBY_B#ちか}誓{RUBY_E#}い",
 		"Description": "限定キャラクターの出現率UP",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "コラボ跳躍・キャラクター",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014_Selected.png",
 		"VersionAdded": "3.4"
@@ -2574,17 +2714,37 @@
 		"Name": "{RUBY_B#からだ}体{RUBY_E#}は{RUBY_B#つるぎ}剣{RUBY_E#}で{RUBY_B#でき}出来{RUBY_E#}ている",
 		"Description": "限定キャラクターの出現率UP",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "コラボ跳躍・キャラクター",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"5003": {
+		"Id": "5003",
+		"Name": "{RUBY_B#かがや}輝{RUBY_E#}ける{RUBY_B#あか}赤{RUBY_E#}き{RUBY_B#ほうせき}宝石{RUBY_E#}",
+		"Description": "限定キャラクターの出現率UP",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"5004": {
+		"Id": "5004",
+		"Name": "{RUBY_B#げんしょ}原初{RUBY_E#}なる{RUBY_B#かいびゃく}開闢{RUBY_E#}の{RUBY_B#ほし}星{RUBY_E#}",
+		"Description": "限定キャラクターの出現率UP",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509_Selected.png",
+		"VersionAdded": "4.4"
 	},
 	"6001": {
 		"Id": "6001",
 		"Name": "{RUBY_B#おう}王{RUBY_E#}の{RUBY_B#たんじょう}誕生{RUBY_E#}",
 		"Description": "限定光円錐の出現率UP",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "コラボ跳躍・光円錐",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045_Selected.png",
 		"VersionAdded": "3.4"
@@ -2594,9 +2754,29 @@
 		"Name": "{RUBY_B#ふゆき}冬木{RUBY_E#}の{RUBY_B#あか}赤{RUBY_E#}い{RUBY_B#かげ}影{RUBY_E#}",
 		"Description": "限定光円錐の出現率UP",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "コラボ跳躍・光円錐",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"6003": {
+		"Id": "6003",
+		"Name": "{RUBY_B#きら}煌{RUBY_E#}めく{RUBY_B#ばんか}万華{RUBY_E#}",
+		"Description": "限定光円錐の出現率UP",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"6004": {
+		"Id": "6004",
+		"Name": "{RUBY_B#しんだい}神代{RUBY_E#}の{RUBY_B#おうごん}黄金{RUBY_E#}の{RUBY_B#とびら}扉{RUBY_E#}",
+		"Description": "限定光円錐の出現率UP",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Fate[UBW]コラボ跳躍",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062_Selected.png",
+		"VersionAdded": "4.4"
 	}
 }

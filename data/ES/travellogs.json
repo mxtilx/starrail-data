@@ -174,7 +174,7 @@
 		"Description": "Querid{F#a}{M#o} Trazacaminos, ¡tus compañeros a bordo del Expreso te están esperando para que vuelvas a embarcarte en grandes aventuras cósmicas a su lado! ¡Gana hasta <unbreak>480</unbreak> Jades estelares!",
 		"Tag": "Detalles del evento",
 		"Introduction": "◆Detalles del evento◆\n● Durante el evento, podrás invitar a otros Trazacaminos a que regresen y así obtener Jade estelar y otras jugosas recompensas.\n● Si eres un Trazacaminos activo, puedes compartir tu código de invitación personal para invitar a regresar a otros Trazacaminos que cumplan los requisitos, y obtener recompensas de Jade estelar y oportunidades de sorteo.\n● Tras iniciar sesión en el juego, los Trazacaminos de regreso también podrán compartir su código de invitación personal con otros Trazacaminos elegibles para que regresen y participen en el evento web.\n※ Si eres un Trazacaminos de regreso, la actualización de tu estado en la página del evento puede demorarse un poco. Espera 2 minutos y vuelve a refrescar la página.\n\n◆Trazacaminos de regreso◆\nLos Trazacaminos que pueden participar en el evento «Regreso a las estrellas» se consideran Trazacaminos de regreso. Los requisitos de participación para el evento «Regreso a las estrellas» son:\n● Haber alcanzado el nivel trazacaminos <unbreak>10</unbreak> o superior.\n● Haber completado la misión trazacaminos «La larga espera del filo de espada» de Jarilo-VI.\n● Llevar <unbreak>14</unbreak> días consecutivos o más sin iniciar sesión en el juego.\n● Haber pasado <unbreak>40</unbreak> días o más desde la última activación del evento «Regreso a las estrellas».\n※ La duración del estado de Trazacaminos de regreso es la misma que la duración del evento «Regreso a las estrellas» en el juego.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer420.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer440.png",
 		"VersionAdded": "2.0"
 	},
 	"10047": {
@@ -520,6 +520,15 @@
 		"Introduction": "◆Información del evento◆\nInicia sesión en el juego cada día y recibe recompensas en el Diario de viaje.\n\n◆Recompensas◆\nLas recompensas se desbloquean en orden según la cantidad de días que hayas iniciado sesión. Las recompensas diarias se actualizan a las <unbreak>04</unbreak>:<unbreak>00</unbreak> (hora del servidor).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
 		"VersionAdded": "4.3"
+	},
+	"10172": {
+		"Id": "10172",
+		"Name": "Presente del cometa",
+		"TabName": "Presente del cometa",
+		"Tag": "Detalles del evento",
+		"Introduction": "◆Información del evento◆\nInicia sesión en el juego cada día y recibe recompensas en el Diario de viaje.\n\n◆Recompensas◆\nLas recompensas se desbloquean en orden según la cantidad de días que hayas iniciado sesión. Las recompensas diarias se actualizan a las <unbreak>04</unbreak>:<unbreak>00</unbreak> (hora del servidor).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0440.png",
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -913,7 +922,7 @@
 		"TabName": "Demostración de aptitudes",
 		"Tag": "Prueba de personajes",
 		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1113,6 +1122,33 @@
 		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.\nSi ya completaste la etapa de prueba de un personaje en versiones pasadas, puedes recoger las recompensas directamente.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
 		"VersionAdded": "4.3"
+	},
+	"20086": {
+		"Id": "20086",
+		"Name": "Demostración de aptitudes",
+		"TabName": "Demostración de aptitudes",
+		"Tag": "Prueba de personajes",
+		"Introduction": "◆Información del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.\nSi ya completaste la etapa de prueba de un personaje en versiones pasadas, puedes recoger las recompensas directamente.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
+	},
+	"20087": {
+		"Id": "20087",
+		"Name": "Filo del destino",
+		"TabName": "Filo del destino",
+		"Tag": "Prueba de personajes",
+		"Introduction": "◆Detalles del evento◆\nDurante el evento de prueba de personajes «Filo del destino», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento «Filo del destino». Solo puedes reclamar cada recompensa una vez.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial53.png",
+		"VersionAdded": "4.4"
+	},
+	"20088": {
+		"Id": "20088",
+		"Name": "Demostración de aptitudes",
+		"TabName": "Demostración de aptitudes",
+		"Tag": "Prueba de personajes",
+		"Introduction": "◆Información del evento◆\nDurante el evento de prueba de personajes «Demostración de aptitudes», puedes usar equipos preconfigurados que incluyen personajes de prueba para experimentar repetidamente etapas específicas.\nLa composición del equipo, el nivel de los personajes y los conos de luz y artefactos equipados no se pueden cambiar mientras pruebas las etapas del evento.\n\n◆Recompensas◆\nTras completar los desafíos de las etapas, puedes recoger las recompensas en la pantalla del evento. Solo puedes reclamar cada recompensa una vez.\nSi ya completaste la etapa de prueba de un personaje en versiones pasadas, puedes recoger las recompensas directamente.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1890,6 +1926,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
 		"VersionAdded": "4.3"
 	},
+	"50114": {
+		"Id": "50114",
+		"Name": "Experto del ladrillo anticorrupción",
+		"TabName": "Experto del ladrillo anticorrupción",
+		"Description": "No hay rincón en el mundo que no acabe cubierto de polvo. Por encargo de Aventurino, inicias una investigación anticorrupción de la Corporación mediante un hackeo a su base de datos.",
+		"Tag": "Detalles del evento",
+		"Introduction": "◆Introducción◆\nNo hay rincón en el mundo que no acabe cubierto de polvo. Por encargo de Aventurino, inicias una investigación anticorrupción de la Corporación mediante un hackeo a su base de datos.\n\n◆Información del evento◆\n● En la operación de hackeo, contarás con la ayuda de Silver Wolf y Prometeo para colocar los bloques de datos extraídos, contrarrestar las mecánicas de las habilidades del cortafuegos y completar el hackeo de la forma más segura posible.\n● Al superar los niveles del modo historia, conseguirás gradualmente habilidades más poderosas, aumentarás tu nivel de hacker y te enfrentarás a enemigos más fuertes.\n● Tras finalizar el modo historia, podrás continuar en el modo multijugador para enfrentarte a desafíos de mayor dificultad junto a Silver Wolf, Prometeo u otros hackers de la red.\n\n◆Recompensas permanentes◆\n● Gana experiencia en las etapas del juego para aumentar tu nivel de hacker y obtener las recompensas correspondientes.\n\n◆Recompensas de duración limitada◆\n● Durante el evento, completa las misiones de duración limitada para obtener recompensas de duración limitada.\n\n",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestTeamTower.png",
+		"VersionAdded": "4.4"
+	},
 	"50115": {
 		"Id": "50115",
 		"Name": "Regalo de la forja",
@@ -1899,6 +1945,34 @@
 		"Introduction": "◆Detalles del evento◆\n● Durante el Salto de evento de personaje «Mi cuerpo es la espada» de la versión <unbreak>4.3</unbreak>, obtén a Mortenax Blade a través del Salto de evento de personaje para recibir el nuevo atuendo trazacaminos para la espalda Fuego kármico del más allá.\n● Después de obtener el atuendo trazacaminos Fuego kármico del más allá, podrás verlo y equiparlo en la interfaz de Personaje - Adornos.\n● El atuendo trazacaminos se ocultará en algunas representaciones de misiones y escenas cinemáticas.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
 		"VersionAdded": "4.3"
+	},
+	"50116": {
+		"Id": "50116",
+		"Name": "Guerra del Santo Grial Fabularia",
+		"TabName": "Guerra del Santo Grial Fabularia",
+		"Description": "Una lluvia de oro, un Santo Grial robado... En las sombras del otro lado, donde no llega la luz de la fabuluna, la bóveda de tesoros de cierto rey se desmoronó de forma inesperada.\nPara evitar que haya disturbios, tendrás que acompañar a la maga de otro mundo, Rin Tohsaka, a mantener el orden... y, además, a reclamar la parte del tesoro que les corresponde.",
+		"Tag": "Detalles del evento",
+		"Introduction": "▌ Los personajes de la colaboración <color=#f29e38ff>no tienen voces en inglés</color>. Puedes cambiar a otro idioma de audio si lo prefieres.\n\n▌ Guerra del Santo Grial Fabularia\n● Una lluvia de oro y un Santo Grial robado... En las sombras donde la fabuluna no alcanza a iluminar, te adentrarás en el campo de batalla de la Guerra del Santo Grial Fabularia junto a Rin Tohsaka, una maga de otro mundo...\n\n▌ Noche de Fate/Star Rail\n◆Información del evento◆\n● En Noche de Fate/Star Rail, el Trazacaminos participará en la Guerra del Santo Grial Fabularia, recogerá los tesoros dispersos y combatirá utilizando Códigos Místicos Conceptuales.\n\n◆Recompensas permanentes◆\n● Completa misiones permanentes en Noche de Fate/Star Rail para obtener recompensas permanentes.\n\n◆Recompensas de duración limitada◆\n● Durante el evento de duración limitada, completa misiones de duración limitada para obtener recompensas de duración limitada en Noche de Fate/Star Rail.\n\n◆Aviso◆\n● Una vez finalizado el evento de duración limitada Noche de Fate/Star Rail, no podrás obtener las recompensas de duración limitada, pero aún podrás dirigirte al distrito Palomaguas para participar en el evento y obtener las recompensas permanentes.\n\n▌ Regalo Fate\n● Durante el evento, consume en total <unbreak>200</unbreak> Pases especiales de los raíles estelares en cualquier Salto de la versión <unbreak>4.4</unbreak> para recibir recompensas tras la apertura del Salto de colaboración.\n● Se cuentan los Pases especiales de los raíles estelares que hayas utilizado en todos los Saltos de la versión <unbreak>4.4</unbreak>.\n● Solo se puede obtener la recompensa una vez durante el evento.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50117": {
+		"Id": "50117",
+		"Name": "Guerra del Santo Grial Fabularia",
+		"TabName": "Guerra del Santo Grial Fabularia",
+		"Tag": "Detalles del evento",
+		"Introduction": "▌ Cuando esté disponible «Guerra del Santo Grial Fabularia», podrás participar en la continuación trazacaminos y el modo de juego del evento de colaboración. Los personajes de la colaboración <color=#f29e38ff>no tienen voces en inglés</color>. Puedes cambiar a otro idioma de audio si lo prefieres.\n\n▌ Guerra del Santo Grial Fabularia\n◆Introducción◆\n● Una lluvia de oro y un Santo Grial robado... En las sombras donde la fabuluna no alcanza a iluminar, te adentrarás en el campo de batalla de la Guerra del Santo Grial Fabularia junto a Rin Tohsaka, una maga de otro mundo...\n◆Información del evento◆\n● En Noche de Fate/Star Rail, participa en la Guerra del Santo Grial Fabularia, recoge los tesoros dispersos y combate utilizando Códigos Místicos Conceptuales.\n\n▌ Regalo Fate\n● Durante el evento, consume en total <unbreak>200</unbreak> Pases especiales de los raíles estelares en cualquier Salto de la versión <unbreak>4.4</unbreak> para recibir recompensas tras la apertura del Salto de colaboración.\n● Se cuentan los Pases especiales de los raíles estelares que hayas utilizado en todos los Saltos de la versión <unbreak>4.4</unbreak>.\n● Solo se puede obtener la recompensa una vez durante el evento.\n\n▌ Contrato Fate: Renovación\n● Durante el evento, todos los Trazacaminos que hayan alcanzado el nivel trazacaminos 3 o superior podrán iniciar sesión para elegir y recibir al personaje exclusivo de 5 estrellas de la colaboración Gilgamesh o Archer.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50118": {
+		"Id": "50118",
+		"Name": "Contrato Fate: Renovación",
+		"TabName": "Contrato Fate: Renovación",
+		"Tag": "Detalles del evento",
+		"Introduction": "Contrato Fate: Renovación",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionChoose0440.png",
+		"VersionAdded": "4.4"
 	},
 	"60001": {
 		"Id": "60001",
@@ -2279,5 +2353,14 @@
 		"Tag": "Comienzo de misión trazacaminos",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
 		"VersionAdded": "4.3"
+	},
+	"80028": {
+		"Id": "80028",
+		"Name": "El silbato que rompe el silencio",
+		"TabName": "Misión trazacaminos",
+		"Description": "La piloto traza la carta que conduce al fin del mundo. El sonido triste de un silbato resuena por el cosmos. Solo quienes trazan caminos podrán encontrar el riel para cruzar el reino de la muerte...",
+		"Tag": "Comienzo de misión trazacaminos",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory440.png",
+		"VersionAdded": "4.4"
 	}
 }

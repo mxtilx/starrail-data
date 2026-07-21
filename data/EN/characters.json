@@ -3279,6 +3279,47 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko • Nova",
+		"ElementType": "Fire",
+		"ElementTypeText": "Fire",
+		"PathType": "Mage",
+		"PathTypeText": "Erudition",
+		"Eidolons": [
+			{
+				"Id": "151001",
+				"Name": "That Which We Stride Is the Trailblaze",
+				"Effect": "The number of extra <u>Assist Skill</u> uses from Talent additionally increases by 1. While in the \"Companion Protocol: Verdict\" state, reduces the number of Ultimate uses required to launch <u>Assist Skill</u> by 1. While in the \"Companion Protocol: Decimation\" state, reduces the Charge required to launch <u>Assist Skill</u> by 3. When Himeko • Nova launches <u>Assist Skill</u>, the number of extra DMG instances increases by 1."
+			},
+			{
+				"Id": "151002",
+				"Name": "The Colors We Never Strike",
+				"Effect": "The cap of Himeko • Nova's <u>Assist Skill</u> uses increases to 2, and the DMG dealt by Ultimate and <u>Assist Skill</u> becomes 130% of their original DMG. During the \"Navigator's Semaphore\" state, at the start of each turn , additionally recovers 1 use of <u>Assist Skill</u> immediately. When a non-<u>Trailblaze Companions</u> character uses <u>Assist Skill</u>, the Trace \"Hark! The Express's Pulse Roars\" now also grants them 1 <u>extra turn</u>."
+			},
+			{
+				"Id": "151003",
+				"Name": "We Who Are Starborn Muse Starward",
+				"Effect": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+			},
+			{
+				"Id": "151004",
+				"Name": "Let No Skyward Hand Stay Unheld",
+				"Effect": "When using <u>Assist Skill</u> via the Talent \"Of Fire and Far Faring,\" the All-Type RES PEN boost now applies to all allies. And when Himeko • Nova gains this effect, her All-Type RES PEN additionally increases by 10%."
+			},
+			{
+				"Id": "151005",
+				"Name": "To Cross the Cosmos and Beyond",
+				"Effect": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+			},
+			{
+				"Id": "151006",
+				"Name": "Ours Is the Oath to Sail Starward",
+				"Effect": "Himeko • Nova's Fire <u>RES PEN</u> increases by 20%. The cap of <u>\"Source Energy\"</u> increases to 6. When an ally uses or launches <u>Assist Skill</u>, DMG dealt by <u>Assist Skill</u> increases by 75%, and Himeko • Nova gains 1 <u>\"Source Energy.\"</u> When launching \"Hyperluminal Particle Beam\" during Ultimate, additionally gains 1 <u>\"Source Energy\"</u>. When launching \"Orbital Annihilation Pulse,\" if the current <u>\"Source Energy\"</u> is 6 or more, additionally deals 1 instance of Fire DMG to all enemies, equal to 160% of Himeko • Nova's ATK."
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physical)",

@@ -3279,6 +3279,47 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko • Nova",
+		"ElementType": "Fire",
+		"ElementTypeText": "Fire",
+		"PathType": "Mage",
+		"PathTypeText": "Erudition",
+		"Eidolons": [
+			{
+				"Id": "151001",
+				"Name": "That Which We Stride Is the Trailblaze",
+				"Effect": "Jumlah pelancaran tambahan efek <u>Skill Dukungan</u> dari Talent meningkat sebanyak 1 kali. Dalam status \"Companion Protocol: Verdict\", jumlah pelancaran Ultimate yang diperlukan untuk melancarkan <u>Skill Dukungan</u> berkurang sebanyak 1 kali. Dalam status \"Companion Protocol: Decimation\", Charge yang diperlukan untuk melancarkan <u>Skill Dukungan</u> berkurang sebanyak 3 poin. Saat Himeko • Nova melancarkan <u>Skill Dukungan</u>, jumlah efek yang mengakibatkan DMG tambahan meningkat sebanyak 1 kali."
+			},
+			{
+				"Id": "151002",
+				"Name": "The Colors We Never Strike",
+				"Effect": "Batas maksimum penggunaan <u>Skill Dukungan</u> Himeko • Nova meningkat menjadi 2 kali, DMG yang diakibatkan oleh Ultimate dan <u>Skill Dukungan</u> menjadi 130% dari DMG aslinya. Saat setiap giliran dimulai ketika berstatus \"Navigator's Semaphore\", segera memulihkan ekstra 1 kali kesempatan penggunaan <u>Skill Dukungan</u>. Efek Trace \"Hark! The Express's Pulse Roars\": Saat karakter non-<u>Rekan Perintisan</u> menggunakan <u>Skill Dukungan</u>, karakter tersebut juga memperoleh 1 <u>giliran tambahan</u>."
+			},
+			{
+				"Id": "151003",
+				"Name": "We Who Are Starborn Muse Starward",
+				"Effect": "Level Ultimate +2, maksimal Lv. 15. Level Basic Attack +1, maksimal Lv. 10."
+			},
+			{
+				"Id": "151004",
+				"Name": "Let No Skyward Hand Stay Unheld",
+				"Effect": "Saat menggunakan <u>Skill Dukungan</u> melalui Talent \"Of Fire and Far Faring\", efek peningkatan RES PEN Seluruh Tipe berlaku untuk seluruh rekan tim. Saat Himeko • Nova memperoleh efek tersebut, RES PEN Seluruh Tipe meningkat ekstra 10%."
+			},
+			{
+				"Id": "151005",
+				"Name": "To Cross the Cosmos and Beyond",
+				"Effect": "Level Skill +2, maksimal Lv. 15. Level Talent +2, maksimal Lv. 15."
+			},
+			{
+				"Id": "151006",
+				"Name": "Ours Is the Oath to Sail Starward",
+				"Effect": "Fire <u>RES PEN</u> Himeko • Nova meningkat 20%. Batas maksimum <u>\"Source Energy\"</u> meningkat menjadi 6 poin. Saat rekan tim menggunakan atau melancarkan <u>Skill Dukungan</u>, DMG yang diakibatkan oleh <u>Skill Dukungan</u> meningkat 75%, Himeko • Nova akan memperoleh 1 poin <u>\"Source Energy\"</u>. Saat melancarkan serangan \"Hyperluminal Particle Beam\" selama Ultimate berlangsung, memperoleh ekstra 1 poin <u>\"Source Energy\"</u>. Saat melancarkan \"Orbital Annihilation Pulse\", jika <u>\"Source Energy\"</u> saat ini lebih dari atau sama dengan 6 poin, maka mengakibatkan ekstra 1 kali Fire DMG sebesar 160% ATK Himeko • Nova pada seluruh musuh."
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physical)",

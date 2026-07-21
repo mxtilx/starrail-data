@@ -41225,7 +41225,7 @@
 			"TagTypeText": "ZdE",
 			"SkillTypeText": "Compétence",
 			"MaxLevel": 15,
-			"EffectRaw": "Consomme un montant de PV équivalents à <unbreak>#4[i]%</unbreak> des PV max de Blade Mortenax, inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> des PV max de Blade Mortenax à tous les ennemis, et inflige <unbreak>#2[i]</unbreak> instances de DGT supplémentaires, chacune infligeant des DGT de feu équivalents à <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> des PV max de Blade Mortenax à un ennemi aléatoire.\nSi les PV actuels de Blade Mortenax ne sont pas suffisants, ils tombent à 1 lors de l'utilisation de la compétence.\nSi Blade Mortenax n'est pas dans l'état Courroux éternel ou si ses PV sont égaux ou inférieurs à 1, il ne peut pas utiliser sa compétence.\nUtiliser la compétence ne consomme pas de points de compétence.",
+			"EffectRaw": "Consomme un montant de PV équivalents à <unbreak>#4[f1]%</unbreak> des PV max de Blade Mortenax, inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> des PV max de Blade Mortenax à tous les ennemis, et inflige <unbreak>#2[i]</unbreak> instances de DGT supplémentaires, chacune infligeant des DGT de feu équivalents à <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> des PV max de Blade Mortenax à un ennemi aléatoire.\nSi les PV actuels de Blade Mortenax ne sont pas suffisants, ils tombent à 1 lors de l'utilisation de la compétence.\nSi Blade Mortenax n'est pas dans l'état Courroux éternel ou si ses PV sont égaux ou inférieurs à 1, il ne peut pas utiliser sa compétence.\nUtiliser la compétence ne consomme pas de points de compétence.",
 			"AbridgedEffect": "Consomme des PV et inflige des DGT de feu à tous les ennemis. Inflige ensuite des DGT de feu mineurs à des ennemis uniques qui rebondissent <color=#f29e38ff><unbreak>#2[i]</unbreak></color> fois.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko • Nova",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "Première balise céleste allumée",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Cible unique",
+			"SkillTypeText": "ATQ normale",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de l'ATQ de Himeko • Nova à un ennemi unique.",
+			"AbridgedEffect": "Inflige des DGT de feu mineurs à un ennemi.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "Rayon de particules hyperluminales",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ZdE",
+			"SkillTypeText": "Ultime",
+			"MaxLevel": 15,
+			"EffectRaw": "Inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de l'ATQ de Himeko • Nova à tous les ennemis et obtient <unbreak>#2[i]</unbreak> point d'<u>Énergie primordiale</u>. La limite de points d'<u>Énergie primordiale</u> est de <unbreak>#3[i]</unbreak>.",
+			"AbridgedEffect": "Inflige des DGT de feu mineurs à tous les ennemis et obtient <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point d'<u>Énergie primordiale</u>. La limite de points <u>d'Énergie primordiale</u> est de <color=#f29e38ff><unbreak>#3[i]</unbreak></color>.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "Phare dans l'obscurité",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "Soutien",
+			"SkillTypeText": "Compétence",
+			"MaxLevel": 15,
+			"EffectRaw": "Après avoir utilisé sa compétence, récupère immédiatement toutes les utilisations de la <u>compétence de soutien</u> et Himeko • Nova obtient Sémaphore de navigation pour une durée de <unbreak>#2[i]</unbreak> tours. Au début du tour de Himeko • Nova, le nombre de tours diminue de 1. Lorsque Himeko • Nova bénéficie de Sémaphore de navigation, les DGT infligés par tous les alliés augmentent de <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Au début de chaque tour, récupère immédiatement 1 utilisation de la <u>compétence de soutien</u>.",
+			"AbridgedEffect": "Après avoir utilisé la compétence, récupère immédiatement toutes les utilisations de la <u>compétence de soutien</u> et Himeko • Nova obtient Sémaphore de navigation. Lorsque Himeko • Nova bénéficie de Sémaphore de navigation, les DGT infligés augmentent. Au début de chaque tour, récupère immédiatement 1 utilisation de la <u>compétence de soutien</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "Impulsion d'annihilation orbitale",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ZdE",
+			"SkillTypeText": "Ultime",
+			"MaxLevel": 15,
+			"EffectRaw": "Consomme 1 point d'<u>Énergie primordiale</u> pour infliger des DGT de feu équivalents à <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de l'ATQ de Himeko • Nova à tous les ennemis. Lorsque l'<u>Énergie primordiale</u> actuelle est supérieure à 1 point, pour chaque <unbreak>#2[i]</unbreak> point d'<u>Énergie primordiale</u> consommé, inflige 1 instance supplémentaire de DGT de feu équivalents à <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> de l'ATQ de Himeko • Nova à un ennemi aléatoire.",
+			"AbridgedEffect": "Consomme 1 point d'<u>Énergie primordiale</u> pour infliger des DGT de feu mineurs à tous les ennemis. Lorsque l'<u>Énergie primordiale</u> actuelle est supérieure à 1 point, pour chaque <color=#f29e38ff><unbreak>#2[i]</unbreak></color> point d'<u>Énergie primordiale</u> consommé, inflige 1 instance de DGT de feu mineurs à un ennemi aléatoire.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "Nous aussi, nous poursuivons les étoiles",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ZdE",
+			"SkillTypeText": "Ultime",
+			"MaxLevel": 15,
+			"EffectRaw": "Himeko • Nova entre immédiatement aux commandes de l'Astroïde. L'Astroïde peut utiliser Rayon de particules hyperluminales 6 fois contre les ennemis, ou consommer l'<u>Énergie primordiale</u> pour lancer Impulsion d'annihilation orbitale et infliger des DGT de feu pouvant atteindre <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> de l'ATQ de Himeko • Nova à un ennemi désigné et des DGT de feu pouvant atteindre <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> de l'ATQ de Himeko • Nova aux autres cibles.\nLorsque les utilisations de Rayon de particules hyperluminales sont épuisées, lance automatiquement Impulsion d'annihilation orbitale, suivi d'un coup de grâce infligeant <unbreak>#6[i]</unbreak> instances de DGT. Chaque instance inflige des DGT de feu équivalents à <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> de l'ATQ de Himeko • Nova à un ennemi aléatoire.\nLorsque Rayon de particules hyperluminales ou Impulsion d'annihilation orbitale inflige un coup fatal à tous les ennemis sur le champ de bataille, ou lorsque les PV des ennemis ne peuvent plus être réduits, lance immédiatement le coup de grâce.",
+			"AbridgedEffect": "Lors de l'ultime, lance Rayon de particules hyperluminales ou Impulsion d'annihilation orbitale sur tous les ennemis. Inflige ensuite des DGT de feu à <color=#f29e38ff><unbreak>#6[i]</unbreak></color> ennemis uniques aléatoires.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "Voyage commun sur un chemin brûlant",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Renforcement",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Lorsque Himeko • Nova est sur le champ de bataille, déploie immédiatement le <u>territoire</u> Vision de l'Astroïde. L'Astroïde apparaît alors sur le champ de bataille et accorde 1 utilisation de la <u>compétence de soutien</u> à tous les personnages alliés. Les personnages alliés peuvent utiliser la <u>compétence de soutien</u> pour attaquer les ennemis avec l'Astroïde.\nUtiliser la <u>compétence de soutien</u> est considéré comme l'utilisation de la compétence de Himeko • Nova. Augmente la <u>PÉN de RÉS</u> à tous les types de Himeko • Nova de <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> et ses DGT critiques de <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Ses attaques peuvent ignorer les types de faiblesses pour réduire la robustesse des ennemis. En cas de Rupture de faiblesse, déclenche l'effet de Rupture de faiblesse au feu.\nLorsqu'un personnage allié autre que Himeko • Nova utilise la <u>compétence de soutien</u>, il régénère <unbreak>#3[i]</unbreak> points d'énergie.",
+			"AbridgedEffect": "Lorsque Himeko • Nova est sur le champ de bataille, déploie un <u>territoire</u> et tous les personnages alliés obtiennent la <u>compétence de soutien</u>. Lorsqu'un personnage allié utilise la <u>compétence de soutien</u>, la <u>PÉN de RÉS</u> à tous les types et les DGT critiques de Himeko • Nova augmentent, et les attaques de Himeko • Nova réduisent la robustesse qu'importent les types de faiblesses.\nLorsqu'un personnage allié autre que Himeko • Nova utilise la <u>compétence de soutien</u>, il régénère de l'énergie.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "Croisière d'exploration stellaire",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Renforcement",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Lorsque Himeko • Nova est dans l'équipe, la limite de points de technique augmente de 3 points.\nAprès utilisation de la technique, Himeko • Nova entre dans l'état Croisière pour une durée de <unbreak>#1[i]</unbreak> secondes. L'utilisation active de la technique consomme 2 points de technique et lance immédiatement une attaque contre tous les ennemis dans une zone définie. Après l'entrée en combat, utilise immédiatement la compétence 1 fois au début de chaque vague.\nSi Himeko • Nova attaque un ennemi normal, il est immédiatement éliminé sans entrer en combat. Aucun point de technique n'est consommé si aucun ennemi n'est touché.",
+			"AbridgedEffect": "Augmente <color=#f29e38ff>la limite de points de technique</color> de 3 points. Après utilisation active de la technique, entre dans l'état Croisière et dépense 2 points de technique pour attaquer tous les ennemis dans une zone définie. Après l'entrée en combat, utilise la compétence 1 fois au début de chaque vague.\nSi un ennemi normal est attaqué, il est <color=#f29e38ff>immédiatement éliminé</color> sans entrer en combat. Aucun point de technique n'est dépensé si aucun ennemi n'est touché.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

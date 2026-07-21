@@ -128078,7 +128078,7 @@
 				"Name": "Tumba bajo las espadas",
 				"NodeType": 2,
 				"NodeTypeText": "Habilidad básica",
-				"EffectRaw": "Mortenax Blade consume un <unbreak>#4[i]%</unbreak> de sus PV máx., inflige un <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> de sus PV máx. como Daño de Fuego a todos los enemigos e inflige daño <unbreak>#2[i]</unbreak> veces más. Cada vez inflige un <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> de los PV máx. de Mortenax Blade como Daño de Fuego a un enemigo al azar.\nSi Mortenax Blade no tiene suficientes PV, sus PV actuales se reducen a 1 al lanzar la habilidad básica.\nSi no está en el estado de Ira inconmensurable o si sus PV actuales son iguales o inferiores a 1, Mortenax Blade no puede lanzar la habilidad básica.\nLanzar la habilidad básica no consume pts. de habilidad básica.",
+				"EffectRaw": "Mortenax Blade consume un <unbreak>#4[f1]%</unbreak> de sus PV máx., inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de sus PV máx. como Daño de Fuego a todos los enemigos e inflige daño <unbreak>#2[i]</unbreak> veces más. Cada vez inflige un <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> de los PV máx. de Mortenax Blade como Daño de Fuego a un enemigo al azar.\nSi Mortenax Blade no tiene suficientes PV, sus PV actuales se reducen a 1 al lanzar la habilidad básica.\nSi no está en el estado de Ira inconmensurable o si sus PV actuales son iguales o inferiores a 1, Mortenax Blade no puede lanzar la habilidad básica.\nLanzar la habilidad básica no consume pts. de habilidad básica.",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"150702",
@@ -129387,6 +129387,1467 @@
 			}
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko Nova",
+		"Nodes": {
+			"1510001": {
+				"Id": "1510001",
+				"Name": "Primera baliza, encendida",
+				"NodeType": 2,
+				"NodeTypeText": "ATQ básico",
+				"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Himeko Nova como Daño de Fuego a un enemigo.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"151001"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Maqueta del cuerpo celeste",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510002": {
+				"Id": "1510002",
+				"Name": "Antorcha de piloto, alzada",
+				"NodeType": 2,
+				"NodeTypeText": "Habilidad básica",
+				"EffectRaw": "Tras lanzar la habilidad básica, recupera inmediatamente todos los usos de la <u>habilidad de apoyo</u> y Himeko Nova obtiene Señales de navegación durante <unbreak>#2[i]</unbreak> turnos. La duración se reduce en 1 turno al comenzar cada turno de Himeko Nova. Cuando Himeko Nova tiene Señales de navegación, el daño que infligen todos los aliados aumenta en un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> y, al comenzar cada turno, recupera inmediatamente 1 uso de la <u>habilidad de apoyo</u>.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151002"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.1,
+							3
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.11,
+							3
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.12,
+							3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Maqueta del cuerpo celeste",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.13,
+							3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.14,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.15,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.1625,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.175,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.1875,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510003": {
+				"Id": "1510003",
+				"Name": "También somos gigantes persigueestrellas",
+				"NodeType": 2,
+				"NodeTypeText": "Habilidad definitiva",
+				"EffectRaw": "Controla de inmediato al Trazaestrellas. El Trazaestrellas tiene un Rayo de partículas superaceleradas que puede lanzarse 6 veces a los enemigos y un Pulso de aniquilación orbital que se lanza consumiendo <u>Energía primordial</u>, los cuales infligen como máximo un <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> y un <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> del ATQ de Himeko Nova como Daño de Fuego a un enemigo y a los demás objetivos respectivamente.\nCuando se agotan los usos de Rayo de partículas superaceleradas, lanza automáticamente Pulso de aniquilación orbital. Después, lanza un último ataque que inflige daño <unbreak>#6[i]</unbreak> veces. Cada vez inflige un Daño de Fuego equivalente al <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> del ATQ de Himeko Nova a un enemigo al azar.\nSi al lanzar Rayo de partículas superaceleradas o Pulso de aniquilación orbital se inflige daño letal a todos los enemigos en el campo de batalla o no se puede seguir reduciendo sus PV, se lanza inmediatamente el último ataque.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151003",
+					"151008",
+					"151009",
+					"151014"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.16,
+							1,
+							0.1,
+							1,
+							0.15,
+							3,
+							0.4,
+							3,
+							3.81,
+							1.26
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.176,
+							1,
+							0.11,
+							1,
+							0.165,
+							3,
+							0.44,
+							3,
+							4.191,
+							1.386
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.192,
+							1,
+							0.12,
+							1,
+							0.18,
+							3,
+							0.48,
+							3,
+							4.572,
+							1.512
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Maqueta del cuerpo celeste",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.208,
+							1,
+							0.13,
+							1,
+							0.195,
+							3,
+							0.52,
+							3,
+							4.953,
+							1.638
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.224,
+							1,
+							0.14,
+							1,
+							0.21,
+							3,
+							0.56,
+							3,
+							5.334,
+							1.764
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.24,
+							1,
+							0.15,
+							1,
+							0.225,
+							3,
+							0.6,
+							3,
+							5.715,
+							1.89
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.26,
+							1,
+							0.1625,
+							1,
+							0.2438,
+							3,
+							0.65,
+							3,
+							6.1913,
+							2.0475
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.28,
+							1,
+							0.175,
+							1,
+							0.2625,
+							3,
+							0.7,
+							3,
+							6.6675,
+							2.205
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.3,
+							1,
+							0.1875,
+							1,
+							0.2813,
+							3,
+							0.75,
+							3,
+							7.1438,
+							2.3625
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.32,
+							1,
+							0.2,
+							1,
+							0.3,
+							3,
+							0.8,
+							3,
+							7.62,
+							2.52
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510004": {
+				"Id": "1510004",
+				"Name": "Emprendamos la expedición ardiente",
+				"NodeType": 2,
+				"NodeTypeText": "Talento",
+				"EffectRaw": "Cuando Himeko Nova está en el campo, despliega de inmediato el <u>Territorio</u> Horizonte de la exploración estelar. El Trazaestrellas aparece en el campo de batalla y todos los personajes aliados obtienen 1 uso de la <u>habilidad de apoyo</u>. Los personajes aliados pueden usar la <u>habilidad de apoyo</u> para invocar al Trazaestrellas y atacar a los enemigos.\nUsar la <u>habilidad de apoyo</u> se considera como si Himeko Nova lanzara la habilidad básica. La <u>PEN de la RES</u> a todos los tipos de Himeko Nova aumenta en un <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> y su Daño CRIT aumenta en un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Al atacar, puede reducir la Firmeza del enemigo ignorando sus tipos de Debilidad. Al romper la Debilidad, activa el efecto de Ruptura de Debilidad de Fuego.\nCuando un personaje aliado que no sea Himeko Nova usa la <u>habilidad de apoyo</u>, este recupera <unbreak>#3[i]</unbreak> pts. de energía.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151004",
+					"151022",
+					"151025",
+					"151026"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.1,
+							4
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.44,
+							0.11,
+							4
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.48,
+							0.12,
+							4
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Maqueta del cuerpo celeste",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.52,
+							0.13,
+							4
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.56,
+							0.14,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.6,
+							0.15,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.65,
+							0.1625,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.7,
+							0.175,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.75,
+							0.1875,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.8,
+							0.2,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510007": {
+				"Id": "1510007",
+				"Name": "Crucero de exploración estelar",
+				"NodeType": 2,
+				"NodeTypeText": "Técnica",
+				"EffectRaw": "Cuando Himeko Nova está en el equipo, el límite de pts. de técnica aumenta en 3.\nTras usar la técnica, entra en el estado de Crucero durante <unbreak>#1[i]</unbreak> s. Lanzar la técnica de forma activa consume 2 pts. de técnica y ataca de inmediato a todos los enemigos en un área determinada. Tras entrar en combate, lanza inmediatamente la habilidad básica 1 vez al comienzo de cada oleada.\nSi ataca a un enemigo normal, lo elimina al instante y no entra en combate. Si no golpea a ningún enemigo, no consume pts. de técnica.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"151007"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							30
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1510101": {
+				"Id": "1510101",
+				"Name": "¿A dónde irá la humanidad?",
+				"NodeType": 3,
+				"EffectRaw": "Cuando Himeko Nova usa la <u>habilidad de apoyo</u>, no consume usos de la <u>habilidad de apoyo</u>. Al comenzar el turno, si la cantidad de usos actuales de la <u>habilidad de apoyo</u> es igual al límite actual de usos, Himeko Nova recupera <unbreak>#1[i]</unbreak> pts. de energía adicionales.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							5
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Maqueta del cuerpo celeste",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510102": {
+				"Id": "1510102",
+				"Name": "Pulso atronador del Expreso",
+				"NodeType": 3,
+				"EffectRaw": "Cuando un personaje <u>Camarada trazacaminos</u> que no sea Himeko Nova usa la <u>habilidad de apoyo</u>, dicho personaje obtiene de inmediato 1 <u>turno adicional</u> en el que puede lanzar su habilidad definitiva. El <u>turno adicional</u> obtenido mediante la <u>habilidad de apoyo</u> no puede activar repetidamente el efecto de este Rastro.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510103": {
+				"Id": "1510103",
+				"Name": "Raíles estelares en el silencio inmemorial",
+				"NodeType": 3,
+				"EffectRaw": "Al lanzar la habilidad definitiva, obtiene inmediatamente <unbreak>#1[i]</unbreak> pts. de <u>Energía primordial</u>. Si la <u>Energía primordial</u> actual es igual o superior a <unbreak>#2[i]</unbreak> pts. al lanzar el ataque Pulso de aniquilación orbital, el multiplicador del daño que Pulso de aniquilación orbital inflige a los enemigos al azar aumenta en un <unbreak>#3[i]%</unbreak>.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							3,
+							3,
+							0.3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Huellas del destino",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Silencio taponador",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510201": {
+				"Id": "1510201",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1510202": {
+				"Id": "1510202",
+				"Name": "Bonificación de Prob. CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Prob. CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1510101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Maqueta del cuerpo celeste",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Crayón de la inocencia",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1510203": {
+				"Id": "1510203",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510204": {
+				"Id": "1510204",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510205": {
+				"Id": "1510205",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1510102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Marco galáctico",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Pluma creasueños",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510206": {
+				"Id": "1510206",
+				"Name": "Bonificación de Prob. CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Prob. CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510207": {
+				"Id": "1510207",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510208": {
+				"Id": "1510208",
+				"Name": "Bonificación de daño: Fuego",
+				"NodeType": 1,
+				"EffectRaw": "Daño de Fuego +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510209": {
+				"Id": "1510209",
+				"Name": "Bonificación de Prob. CRIT",
+				"NodeType": 1,
+				"EffectRaw": "Prob. CRIT +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510210": {
+				"Id": "1510210",
+				"Name": "Bonificación de ATQ",
+				"NodeType": 1,
+				"EffectRaw": "ATQ +<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"LevelRequired": 80,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Crédito",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Maqueta del cosmos",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Pincel de los sueños",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

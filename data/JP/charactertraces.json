@@ -128078,7 +128078,7 @@
 				"Name": "{RUBY_B#ほうむ}葬{RUBY_E#}り{RUBY_B#さ}去{RUBY_E#}る{RUBY_B#せんじん}千刃{RUBY_E#}",
 				"NodeType": 2,
 				"NodeTypeText": "戦闘スキル",
-				"EffectRaw": "千冶・刃の最大HP<unbreak>#4[i]%</unbreak>分のHPを消費し、敵全体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>分の炎属性ダメージを与え、さらに<unbreak>#2[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>分の炎属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、千冶・刃の残りHPが1になる。\n「無量忿怒」状態ではない場合、または残りHPが1以下の時、千冶・刃は戦闘スキルを発動できない。\n戦闘スキルを発動する時、SPを消費しない。",
+				"EffectRaw": "千冶・刃の最大HP<unbreak>#4[f1]%</unbreak>分のHPを消費し、敵全体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与え、さらに<unbreak>#2[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>分の炎属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、千冶・刃の残りHPが1になる。\n「無量忿怒」状態ではない場合、または残りHPが1以下の時、千冶・刃は戦闘スキルを発動できない。\n戦闘スキルを発動する時、SPを消費しない。",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"150702",
@@ -129387,6 +129387,1467 @@
 			}
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち",
+		"Nodes": {
+			"1510001": {
+				"Id": "1510001",
+				"Name": "はじまりの{RUBY_B#こうろひょうしき}航路標識{RUBY_E#}を{RUBY_B#とも}灯{RUBY_E#}して",
+				"NodeType": 2,
+				"NodeTypeText": "通常攻撃",
+				"EffectRaw": "敵単体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与える。",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"151001"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天体模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510002": {
+				"Id": "1510002",
+				"Name": "{RUBY_B#た}立{RUBY_E#}ち{RUBY_B#のぼ}昇{RUBY_E#}る{RUBY_B#みちび}導{RUBY_E#}きの{RUBY_B#のろし}狼煙{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "戦闘スキル",
+				"EffectRaw": "戦闘スキルを発動した後、姫子・旅立ちは即座に<u>支援スキル</u>の使用可能回数をすべて回復し、「導く旗印」を獲得する、<unbreak>#2[i]</unbreak>ターン継続。姫子・旅立ちのターンが回ってくるたびに継続ターン数-1。姫子・旅立ちが「導く旗印」を持つ時、味方全体の与ダメージ+<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>、ターンが回ってくるたびに、<u>支援スキル</u>の使用可能回数を1回復する。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151002"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.1,
+							3
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.11,
+							3
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.12,
+							3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天体模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.13,
+							3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.14,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.15,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.1625,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.175,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.1875,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510003": {
+				"Id": "1510003",
+				"Name": "{RUBY_B#われ}我{RUBY_E#}ら、{RUBY_B#ほし}星{RUBY_E#}を{RUBY_B#お}追{RUBY_E#}う{RUBY_B#きょじん}巨人{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "必殺技",
+				"EffectRaw": "即座に「星を拓く者」を操縦する。「星を拓く者」は、敵に6回発動できる「超光速粒子ビーム」と<u>「原動力」</u>を消費して発動できる「軌道殲滅パルス砲」を持つ。\n指定した敵単体に最大で姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#9[i]%</unbreak></color>分の炎属性ダメージを与え、その他の敵に最大で姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#10[i]%</unbreak></color>分の炎属性ダメージを与える。\n「超光速粒子ビーム」の発動可能回数が尽きた時、自動で「軌道殲滅パルス砲」が発動する。その後、ラストアタックを発動し、<unbreak>#6[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#7[i]%</unbreak></color>分の炎属性ダメージを与える。\n「超光速粒子ビーム」または「軌道殲滅パルス砲」を発動し、フィールドにいるすべての敵にHPが0になるダメージを与えた時、または敵のHPがそれ以上削れない時、即座にラストアタックを発動する。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151003",
+					"151008",
+					"151009",
+					"151014"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.16,
+							1,
+							0.1,
+							1,
+							0.15,
+							3,
+							0.4,
+							3,
+							3.81,
+							1.26
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.176,
+							1,
+							0.11,
+							1,
+							0.165,
+							3,
+							0.44,
+							3,
+							4.191,
+							1.386
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.192,
+							1,
+							0.12,
+							1,
+							0.18,
+							3,
+							0.48,
+							3,
+							4.572,
+							1.512
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天体模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.208,
+							1,
+							0.13,
+							1,
+							0.195,
+							3,
+							0.52,
+							3,
+							4.953,
+							1.638
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.224,
+							1,
+							0.14,
+							1,
+							0.21,
+							3,
+							0.56,
+							3,
+							5.334,
+							1.764
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.24,
+							1,
+							0.15,
+							1,
+							0.225,
+							3,
+							0.6,
+							3,
+							5.715,
+							1.89
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.26,
+							1,
+							0.1625,
+							1,
+							0.2438,
+							3,
+							0.65,
+							3,
+							6.1913,
+							2.0475
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.28,
+							1,
+							0.175,
+							1,
+							0.2625,
+							3,
+							0.7,
+							3,
+							6.6675,
+							2.205
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.3,
+							1,
+							0.1875,
+							1,
+							0.2813,
+							3,
+							0.75,
+							3,
+							7.1438,
+							2.3625
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.32,
+							1,
+							0.2,
+							1,
+							0.3,
+							3,
+							0.8,
+							3,
+							7.62,
+							2.52
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510004": {
+				"Id": "1510004",
+				"Name": "{RUBY_B#とも}共{RUBY_E#}に{RUBY_B#しゃくねつ}灼熱{RUBY_E#}の{RUBY_B#えんせい}遠征{RUBY_E#}へ",
+				"NodeType": 2,
+				"NodeTypeText": "天賦",
+				"EffectRaw": "姫子・旅立ちはフィールド上にいる時、<u>境界</u>「星拓きの視界」を展開する。フィールドに「星を拓く者」が出現し、味方キャラ全体が<u>支援スキル</u>の使用可能回数を1獲得する。味方キャラは<u>支援スキル</u>を使用して「星を拓く者」を呼び、敵を攻撃できる。\n<u>支援スキル</u>の使用は「姫子・旅立ち」が戦闘スキルを発動したものと見なされる。同時に姫子・旅立ちの全属性<u>耐性貫通</u>+<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>、会心ダメージ+<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>。なお、姫子・旅立ちは攻撃を行う時、弱点属性を無視して敵の靭性を削るようになる。敵を弱点撃破をした時、炎属性の弱点撃破効果を発動する。\n「姫子・旅立ち」以外の味方キャラが<u>支援スキル</u>を使用した時、その使用したキャラのEPを<unbreak>#3[i]</unbreak>回復する。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151004",
+					"151022",
+					"151025",
+					"151026"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.1,
+							4
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.44,
+							0.11,
+							4
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.48,
+							0.12,
+							4
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天体模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.52,
+							0.13,
+							4
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.56,
+							0.14,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.6,
+							0.15,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.65,
+							0.1625,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.7,
+							0.175,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.75,
+							0.1875,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.8,
+							0.2,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510007": {
+				"Id": "1510007",
+				"Name": "{RUBY_B#ほし}星{RUBY_E#}を{RUBY_B#ひら}拓{RUBY_E#}く{RUBY_B#じゅんこう}巡航{RUBY_E#}",
+				"NodeType": 2,
+				"NodeTypeText": "秘技",
+				"EffectRaw": "「姫子・旅立ち」がパーティにいる時、秘技PT上限+3。\n秘技を使用した後、<unbreak>#1[i]</unbreak>秒継続する「巡航」状態に入る。秘技を使用すると秘技PTを2消費し、即座に一定範囲内にいるすべての敵を攻撃する。戦闘に入った後、各ウェーブ開始時に即座に戦闘スキルを1回発動する。\n通常エネミーを攻撃するとターゲットはその場で倒され、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"151007"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							30
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1510101": {
+				"Id": "1510101",
+				"Name": "{RUBY_B#しゅう}終{RUBY_E#}と{RUBY_B#し}始{RUBY_E#}の{RUBY_B#もの}者{RUBY_E#}が{RUBY_B#い}行{RUBY_E#}くべきは？",
+				"NodeType": 3,
+				"EffectRaw": "姫子・旅立ちが<u>支援スキル</u>を使用する時、<u>支援スキル</u>の使用可能回数を消費しない。ターンが回ってきた時、現在の<u>支援スキル</u>の使用可能回数が現在のその上限と同じ場合、姫子・旅立ちはさらにEPを<unbreak>#1[i]</unbreak>回復する。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							5
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天体模型",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510102": {
+				"Id": "1510102",
+				"Name": "{RUBY_B#な}鳴{RUBY_E#}り{RUBY_B#ひび}響{RUBY_E#}く{RUBY_B#れっしゃ}列車{RUBY_E#}の{RUBY_B#こどう}鼓動{RUBY_E#}",
+				"NodeType": 3,
+				"EffectRaw": "姫子・旅立ち以外の<u>開拓仲間</u>キャラクターが<u>支援スキル</u>を使用する時、そのキャラクターは即座に<u>追加ターン</u>を1獲得する。なお、この<u>追加ターン</u>には、必殺技を割り込ませることができる。また、<u>支援スキル</u>によって獲得した<u>追加ターン</u>で、この追加能力は重複して発動させられない。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510103": {
+				"Id": "1510103",
+				"Name": "{RUBY_B#たいこ}太古{RUBY_E#}より{RUBY_B#ちんもく}沈黙{RUBY_E#}するレール",
+				"NodeType": 3,
+				"EffectRaw": "必殺技を発動する時、即座に<u>「原動力」</u>を<unbreak>#1[i]</unbreak>獲得する。所持している<u>「原動力」</u>が<unbreak>#2[i]</unbreak>以上の場合、「軌道殲滅パルス砲」を発動して攻撃を行う時、「軌道殲滅パルス砲」がランダムな敵単体に与えるダメージのダメージ倍率+<unbreak>#3[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							3,
+							3,
+							0.3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "運命の足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流の沈黙",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510201": {
+				"Id": "1510201",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1510202": {
+				"Id": "1510202",
+				"Name": "会心率強化",
+				"NodeType": 1,
+				"EffectRaw": "会心率+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1510101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天体模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童心のクレヨン",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1510203": {
+				"Id": "1510203",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510204": {
+				"Id": "1510204",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510205": {
+				"Id": "1510205",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1510102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系模型",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "夢作りの鋼材",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510206": {
+				"Id": "1510206",
+				"Name": "会心率強化",
+				"NodeType": 1,
+				"EffectRaw": "会心率+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510207": {
+				"Id": "1510207",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510208": {
+				"Id": "1510208",
+				"Name": "ダメージ強化・炎",
+				"NodeType": 1,
+				"EffectRaw": "炎属性ダメージ+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510209": {
+				"Id": "1510209",
+				"Name": "会心率強化",
+				"NodeType": 1,
+				"EffectRaw": "会心率+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510210": {
+				"Id": "1510210",
+				"Name": "攻撃強化",
+				"NodeType": 1,
+				"EffectRaw": "攻撃力+<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"LevelRequired": 80,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用ポイント",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河のサンドボックス",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢見の絵筆",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

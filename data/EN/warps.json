@@ -1279,6 +1279,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"2128": {
+		"Id": "2128",
+		"Name": "Ad Astra Nova",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2129": {
+		"Id": "2129",
+		"Name": "Indelible Coterie: Sparxie",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2130": {
+		"Id": "2130",
+		"Name": "Indelible Coterie: Dan Heng • Permansor Terrae",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2131": {
+		"Id": "2131",
+		"Name": "Indelible Coterie: Evernight",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2132": {
+		"Id": "2132",
+		"Name": "Indelible Coterie: Anaxa",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2133": {
+		"Id": "2133",
+		"Name": "Indelible Coterie: Cerydra",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2134": {
+		"Id": "2134",
+		"Name": "Indelible Coterie: Aventurine",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Character Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Brilliant Fixation",
@@ -2549,6 +2619,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"3128": {
+		"Id": "3128",
+		"Name": "Brilliant Fixation",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3129": {
+		"Id": "3129",
+		"Name": "Coalesced Truths: Dazzled by a Flowery World",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3130": {
+		"Id": "3130",
+		"Name": "Coalesced Truths: Though Worlds Apart",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3131": {
+		"Id": "3131",
+		"Name": "Coalesced Truths: To Evernight's Stars",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3132": {
+		"Id": "3132",
+		"Name": "Coalesced Truths: Life Should Be Cast to Flames",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3133": {
+		"Id": "3133",
+		"Name": "Coalesced Truths: Epoch Etched in Golden Blood",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3134": {
+		"Id": "3134",
+		"Name": "Coalesced Truths: Inherently Unjust Destiny",
+		"Description": "{LAYOUT_MOBILE#Tap}{LAYOUT_CONTROLLER#Press}{LAYOUT_KEYBOARD#Click} tabs to switch between different Warp banners",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Light Cone Event Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"4001": {
 		"Id": "4001",
 		"Name": "Departure Warp",
@@ -2564,7 +2704,7 @@
 		"Name": "Excalibur Excelsior",
 		"Description": "Featured characters receive a drop-rate boost",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Character Collaboration Warp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014_Selected.png",
 		"VersionAdded": "3.4"
@@ -2574,17 +2714,37 @@
 		"Name": "I Am the Bone of My Sword",
 		"Description": "Featured characters receive a drop-rate boost",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Character Collaboration Warp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"5003": {
+		"Id": "5003",
+		"Name": "The Gem Coursing in Red",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"5004": {
+		"Id": "5004",
+		"Name": "Of the Beginning, Enuma Elish",
+		"Description": "Featured characters receive a drop-rate boost",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509_Selected.png",
+		"VersionAdded": "4.4"
 	},
 	"6001": {
 		"Id": "6001",
 		"Name": "Birth of a King",
 		"Description": "Featured Light Cones receive a drop-rate boost",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Light Cone Collaboration Warp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045_Selected.png",
 		"VersionAdded": "3.4"
@@ -2594,9 +2754,29 @@
 		"Name": "Red Radiance of Fuyuki",
 		"Description": "Featured Light Cones receive a drop-rate boost",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Light Cone Collaboration Warp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"6003": {
+		"Id": "6003",
+		"Name": "Kaleidic Coruscation",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"6004": {
+		"Id": "6004",
+		"Name": "Age of Gods Golden Gate",
+		"Description": "Featured Light Cones receive a drop-rate boost",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Fate[UBW] Collaboration Warp",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062_Selected.png",
+		"VersionAdded": "4.4"
 	}
 }

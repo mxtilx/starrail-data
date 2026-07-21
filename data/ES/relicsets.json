@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "Punto de partida de la estrella caída",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "La Prob. CRIT del portador aumenta en un 8%. Al entrar en combate, si tanto el portador como otro compañero de equipo son personajes de Camarada trazacaminos, el Daño CRIT del portador aumenta en un 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "Instituto de Ciencias de la Vida Cósmica",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Al entrar en combate, si la energía máxima del portador es igual o superior a 200 pts., el daño infligido por el portador aumenta en un 0.2% por cada punto que supere este valor, hasta un máximo del 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

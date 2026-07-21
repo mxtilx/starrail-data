@@ -41225,7 +41225,7 @@
 			"TagTypeText": "ATQ AdE",
 			"SkillTypeText": "Habilidad básica",
 			"MaxLevel": 15,
-			"EffectRaw": "Mortenax Blade consume un <unbreak>#4[i]%</unbreak> de sus PV máx., inflige un <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> de sus PV máx. como Daño de Fuego a todos los enemigos e inflige daño <unbreak>#2[i]</unbreak> veces más. Cada vez inflige un <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> de los PV máx. de Mortenax Blade como Daño de Fuego a un enemigo al azar.\nSi Mortenax Blade no tiene suficientes PV, sus PV actuales se reducen a 1 al lanzar la habilidad básica.\nSi no está en el estado de Ira inconmensurable o si sus PV actuales son iguales o inferiores a 1, Mortenax Blade no puede lanzar la habilidad básica.\nLanzar la habilidad básica no consume pts. de habilidad básica.",
+			"EffectRaw": "Mortenax Blade consume un <unbreak>#4[f1]%</unbreak> de sus PV máx., inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de sus PV máx. como Daño de Fuego a todos los enemigos e inflige daño <unbreak>#2[i]</unbreak> veces más. Cada vez inflige un <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> de los PV máx. de Mortenax Blade como Daño de Fuego a un enemigo al azar.\nSi Mortenax Blade no tiene suficientes PV, sus PV actuales se reducen a 1 al lanzar la habilidad básica.\nSi no está en el estado de Ira inconmensurable o si sus PV actuales son iguales o inferiores a 1, Mortenax Blade no puede lanzar la habilidad básica.\nLanzar la habilidad básica no consume pts. de habilidad básica.",
 			"AbridgedEffect": "Consume PV para infligir Daño de Fuego a todos los enemigos. A continuación, inflige a un enemigo una pequeña cantidad de Daño de Fuego que se dispara <color=#f29e38ff><unbreak>#2[i]</unbreak></color> veces.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko Nova",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "Primera baliza, encendida",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "ATQ individual",
+			"SkillTypeText": "ATQ básico",
+			"MaxLevel": 10,
+			"EffectRaw": "Inflige un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Himeko Nova como Daño de Fuego a un enemigo.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Fuego a un enemigo.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "Rayo de partículas superaceleradas",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Himeko Nova inflige un Daño de Fuego equivalente al <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> de su ATQ a todos los enemigos y obtiene <unbreak>#2[i]</unbreak> pt. de <u>Energía primordial</u>. Puede tener un máximo de <unbreak>#3[i]</unbreak> pts. de <u>Energía primordial</u>.",
+			"AbridgedEffect": "Inflige una pequeña cantidad de Daño de Fuego a todos los enemigos y obtiene <color=#f29e38ff><unbreak>#2[i]</unbreak></color> pt. de <u>Energía primordial</u>. Puede tener un máximo de <color=#f29e38ff><unbreak>#3[i]</unbreak></color> pts. de <u>Energía primordial</u>.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "Antorcha de piloto, alzada",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "Apoyo",
+			"SkillTypeText": "Habilidad básica",
+			"MaxLevel": 15,
+			"EffectRaw": "Tras lanzar la habilidad básica, recupera inmediatamente todos los usos de la <u>habilidad de apoyo</u> y Himeko Nova obtiene Señales de navegación durante <unbreak>#2[i]</unbreak> turnos. La duración se reduce en 1 turno al comenzar cada turno de Himeko Nova. Cuando Himeko Nova tiene Señales de navegación, el daño que infligen todos los aliados aumenta en un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> y, al comenzar cada turno, recupera inmediatamente 1 uso de la <u>habilidad de apoyo</u>.",
+			"AbridgedEffect": "Tras lanzar la habilidad básica, recupera inmediatamente todos los usos de la <u>habilidad de apoyo</u> y Himeko Nova obtiene Señales de navegación. Cuando Himeko Nova tiene Señales de navegación, el daño infligido aumenta y, al comienzo de cada turno, recupera inmediatamente 1 uso de la <u>habilidad de apoyo</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "Pulso de aniquilación orbital",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Consume 1 pt. de <u>Energía primordial</u> e inflige un Daño de Fuego equivalente al <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> del ATQ de Himeko Nova a todos los enemigos. Cuando tiene más de 1 pt. de <u>Energía primordial</u>, inflige 1 vez adicional a un enemigo al azar un Daño de Fuego equivalente al <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> del ATQ de Himeko Nova por cada <unbreak>#2[i]</unbreak> pt. de <u>Energía primordial</u> consumido.",
+			"AbridgedEffect": "Consume 1 pt. de <u>Energía primordial</u> e inflige una pequeña cantidad de Daño de Fuego a todos los enemigos. Cuando tiene más de 1 pt. de <u>Energía primordial</u>, inflige una pequeña cantidad de Daño de Fuego 1 vez a un enemigo al azar por cada <color=#f29e38ff><unbreak>#2[i]</unbreak></color> pt. de <u>Energía primordial</u> consumido.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "También somos gigantes persigueestrellas",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "ATQ AdE",
+			"SkillTypeText": "Habilidad definitiva",
+			"MaxLevel": 15,
+			"EffectRaw": "Controla de inmediato al Trazaestrellas. El Trazaestrellas tiene un Rayo de partículas superaceleradas que puede lanzarse 6 veces a los enemigos y un Pulso de aniquilación orbital que se lanza consumiendo <u>Energía primordial</u>, los cuales infligen como máximo un <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> y un <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> del ATQ de Himeko Nova como Daño de Fuego a un enemigo y a los demás objetivos respectivamente.\nCuando se agotan los usos de Rayo de partículas superaceleradas, lanza automáticamente Pulso de aniquilación orbital. Después, lanza un último ataque que inflige daño <unbreak>#6[i]</unbreak> veces. Cada vez inflige un Daño de Fuego equivalente al <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> del ATQ de Himeko Nova a un enemigo al azar.\nSi al lanzar Rayo de partículas superaceleradas o Pulso de aniquilación orbital se inflige daño letal a todos los enemigos en el campo de batalla o no se puede seguir reduciendo sus PV, se lanza inmediatamente el último ataque.",
+			"AbridgedEffect": "Durante la habilidad definitiva, lanza Rayo de partículas superaceleradas o Pulso de aniquilación orbital a todos los enemigos. Después inflige Daño de Fuego a <color=#f29e38ff><unbreak>#6[i]</unbreak></color> enemigos al azar.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "Emprendamos la expedición ardiente",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Talento",
+			"MaxLevel": 15,
+			"EffectRaw": "Cuando Himeko Nova está en el campo, despliega de inmediato el <u>Territorio</u> Horizonte de la exploración estelar. El Trazaestrellas aparece en el campo de batalla y todos los personajes aliados obtienen 1 uso de la <u>habilidad de apoyo</u>. Los personajes aliados pueden usar la <u>habilidad de apoyo</u> para invocar al Trazaestrellas y atacar a los enemigos.\nUsar la <u>habilidad de apoyo</u> se considera como si Himeko Nova lanzara la habilidad básica. La <u>PEN de la RES</u> a todos los tipos de Himeko Nova aumenta en un <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> y su Daño CRIT aumenta en un <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Al atacar, puede reducir la Firmeza del enemigo ignorando sus tipos de Debilidad. Al romper la Debilidad, activa el efecto de Ruptura de Debilidad de Fuego.\nCuando un personaje aliado que no sea Himeko Nova usa la <u>habilidad de apoyo</u>, este recupera <unbreak>#3[i]</unbreak> pts. de energía.",
+			"AbridgedEffect": "Cuando Himeko Nova está en el campo de batalla, despliega un <u>Territorio</u> y todos los personajes aliados obtienen la <u>habilidad de apoyo</u>. Cuando un personaje aliado usa la <u>habilidad de apoyo</u>, la <u>PEN de la RES</u> a todos los tipos y el Daño CRIT de Himeko Nova aumentan y, al atacar, reduce la Firmeza ignorando los tipos de Debilidad.\nCuando un personaje aliado que no sea Himeko Nova usa la <u>habilidad de apoyo</u>, este recupera energía.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "Crucero de exploración estelar",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Potenciación",
+			"SkillTypeText": "Técnica",
+			"MaxLevel": 1,
+			"EffectRaw": "Cuando Himeko Nova está en el equipo, el límite de pts. de técnica aumenta en 3.\nTras usar la técnica, entra en el estado de Crucero durante <unbreak>#1[i]</unbreak> s. Lanzar la técnica de forma activa consume 2 pts. de técnica y ataca de inmediato a todos los enemigos en un área determinada. Tras entrar en combate, lanza inmediatamente la habilidad básica 1 vez al comienzo de cada oleada.\nSi ataca a un enemigo normal, lo elimina al instante y no entra en combate. Si no golpea a ningún enemigo, no consume pts. de técnica.",
+			"AbridgedEffect": "<color=#f29e38ff>El límite de pts. de técnica aumenta</color> en 3 pts. Al lanzar esta técnica de forma activa, entra en el estado de Crucero, consume 2 pts. de técnica y ataca a todos los enemigos en un área determinada. Tras entrar en combate, lanza la habilidad básica 1 vez al comienzo de cada oleada.\nSi ataca a un enemigo normal, <color=#f29e38ff>lo elimina de inmediato</color> y no entra en combate. Si no golpea a ningún enemigo, no consume pts. de técnica.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

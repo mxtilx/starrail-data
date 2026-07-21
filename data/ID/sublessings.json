@@ -8140,6 +8140,27 @@
 		"Effect": "Mortenax Blade memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetelah HP berkurang, Pemulihan HP meningkat <color=#f29e38ff>15%</color>, DMG final meningkat <color=#f29e38ff>15%</color>, berlangsung selama <color=#f29e38ff>2</color> giliran.",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "Rin Tohsaka",
+		"Rarity": 1,
+		"Effect": "Rin Tohsaka memperoleh Amplifikasi DMG di Divergent Universe.\n\nDMG final yang diakibatkan meningkat <color=#f29e38ff>15%</color>. Saat giliran dimulai, memulihkan <color=#f29e38ff>1</color> Poin Skill.",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "Gilgamesh",
+		"Rarity": 1,
+		"Effect": "Gilgamesh memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali melancarkan Ultimate, DMG final yang diakibatkan diri meningkat <color=#f29e38ff>6%</color>, dapat ditumpuk maksimal <color=#f29e38ff>5</color> lapis.",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "Himeko • Nova",
+		"Rarity": 1,
+		"Effect": "Himeko • Nova memperoleh Amplifikasi DMG di Divergent Universe.\n\nSetiap kali melancarkan Skill Dukungan, DMG final yang diakibatkan diri meningkat <color=#f29e38ff>3%</color>, dapat ditumpuk hingga <color=#f29e38ff>10</color> lapis.",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

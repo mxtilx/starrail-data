@@ -2410,5 +2410,11 @@
 		"Name": "Đang chuyển sang góc nhìn của \"Sói Bạc\"...",
 		"Description": "Lúc này, tại Phòng Tranh Của Pearl, Sói Bạc cũng chuẩn bị bắt đầu hành động...",
 		"VersionAdded": "4.2"
+	},
+	"20106": {
+		"Id": "20106",
+		"Name": "Đang chuyển sang góc nhìn của Himeko...",
+		"Description": "Một thời gian trước, Himeko đã bị Asat Pramad đưa vào Thế Giới Trong Tranh nào đó...",
+		"VersionAdded": "4.4"
 	}
 }

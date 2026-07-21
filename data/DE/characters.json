@@ -3279,6 +3279,47 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko – Nova",
+		"ElementType": "Fire",
+		"ElementTypeText": "Feuer",
+		"PathType": "Mage",
+		"PathTypeText": "Die Gelehrsamkeit",
+		"Eidolons": [
+			{
+				"Id": "151001",
+				"Name": "Der Trailblaze ist der Weg",
+				"Effect": "Die Anzahl der zusätzlichen Auslösungen des Effekts der <u>Unterstützungsfertigkeit</u> durch das Talent wird um 1 erhöht. Im Status „Gefährtenprotokoll: Richterspruch“ wird die zum Auslösen der <u>Unterstützungsfertigkeit</u> erforderliche Anzahl an Ultimate-Anwendungen um 1 verringert. Im Status „Gefährtenprotokoll: Annihilation“ wird die zum Auslösen der <u>Unterstützungsfertigkeit</u> benötigte Aufladung um 3 Pkt. verringert. Wenn Himeko – Nova die <u>Unterstützungsfertigkeit</u> auslöst, wird die Anzahl des zusätzlichen SCH um 1 erhöht."
+			},
+			{
+				"Id": "151002",
+				"Name": "Die Flagge ist das nie eingeholte Segel",
+				"Effect": "Erhöht die max. Verwendungen von Himeko – Novas <u>Unterstützungsfertigkeit</u> auf 2. Der durch den Ultimate und die <u>Unterstützungsfertigkeit</u> verursachte SCH entspricht 130% des ursprünglichen SCH. Im Status „Navigationssignal“ wird zu Beginn jeder Runde sofort 1 Verwendung der <u>Unterstützungsfertigkeit</u> zusätzlich wiederhergestellt. Im Rahmen des Effekts der Spur „Der Puls des Expresses dröhnt“ erhält auch eine Figur, die kein <u>Trailblaze-Gefährte</u> ist, beim Einsatz der <u>Unterstützungsfertigkeit</u> 1 <u>zusätzliche Runde</u>."
+			},
+			{
+				"Id": "151003",
+				"Name": "Auch Sternenkinder sinnieren über die Sterne",
+				"Effect": "Ultimate-Stufe +2 bis max. St. 15. Standardangriff-Stufe +1 bis max. St. 10."
+			},
+			{
+				"Id": "151004",
+				"Name": "Ergreife jede himmelwärts gereckte Hand",
+				"Effect": "Beim Einsatz der <u>Unterstützungsfertigkeit</u> des Talents „Gemeinsam zur brennenden Expedition“ gilt die Erhöhung der WDS-DUR aller Typen für alle Verbündeten. Wenn Himeko – Nova diesen Effekt erhält, wird ihre WDS-DUR aller Typen zusätzlich um 10% erhöht."
+			},
+			{
+				"Id": "151005",
+				"Name": "Bis ans Ende des Kosmos und darüber hinaus",
+				"Effect": "Fertigkeitsstufe +2 bis max. St. 15. Talentstufe +2 bis max. St. 15."
+			},
+			{
+				"Id": "151006",
+				"Name": "Denke an den Schwur, sternwärts zu reisen",
+				"Effect": "Erhöht die <u>Feuer-WDS-DUR</u> von Himeko – Nova um 20%. Erhöht die max. <u>Quellenergie</u> auf 6. Wenn ein Verbündeter eine <u>Unterstützungsfertigkeit</u> einsetzt oder auslöst, wird der von der <u>Unterstützungsfertigkeit</u> verursachte SCH um 75% erhöht und Himeko – Nova erhält 1 Pkt. <u>Quellenergie</u>. Wenn während des Ultimates der Angriff „Übertakteter Partikelstrahl“ ausgelöst wird, erhält sie zusätzlich 1 Pkt. <u>Quellenergie</u>. Wenn „Orbitaler Vernichtungsimpuls“ ausgelöst wird und die aktuelle <u>Quellenergie</u> mindestens 6 Pkt. beträgt, wird zusätzlich allen Gegnern 1-mal Feuer-SCH in Höhe von 160% von Himeko – Novas ANG zugefügt."
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trailblazer (Physisch)",

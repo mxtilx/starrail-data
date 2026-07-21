@@ -8009,6 +8009,204 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"23060": {
+		"Id": "23060",
+		"Name": "Khi Một Vì Sao Chiếu Sáng Trời Đêm",
+		"PathType": "Mage",
+		"PathTypeText": "Tri Thức",
+		"EffectName": "Ước Nguyện Ban Đầu",
+		"EffectTemplate": "Khi người trang bị gây sát thương sẽ bỏ qua <color=#f29e38ff>#7[i]%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi #2[i] điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn #3[i] tầng. Mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>#4[i]%</color> sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt #5[i] tầng, mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>#6[i]%</color> Sát Thương Tuyệt Kỹ.",
+		"Superimpositions": [
+			{
+				"Effect": "Khi người trang bị gây sát thương sẽ bỏ qua <color=#f29e38ff>32%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>20%</color> sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>20%</color> Sát Thương Tuyệt Kỹ.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.2,
+					3,
+					0.2,
+					0.32
+				]
+			},
+			{
+				"Effect": "Khi người trang bị gây sát thương sẽ bỏ qua <color=#f29e38ff>36%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>25%</color> sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>25%</color> Sát Thương Tuyệt Kỹ.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.25,
+					3,
+					0.25,
+					0.36
+				]
+			},
+			{
+				"Effect": "Khi người trang bị gây sát thương sẽ bỏ qua <color=#f29e38ff>40%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>30%</color> sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>30%</color> Sát Thương Tuyệt Kỹ.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.3,
+					3,
+					0.3,
+					0.4
+				]
+			},
+			{
+				"Effect": "Khi người trang bị gây sát thương sẽ bỏ qua <color=#f29e38ff>44%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>35%</color> sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>35%</color> Sát Thương Tuyệt Kỹ.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.35,
+					3,
+					0.35,
+					0.44
+				]
+			},
+			{
+				"Effect": "Khi người trang bị gây sát thương sẽ bỏ qua <color=#f29e38ff>48%</color> Phòng Thủ của mục tiêu. Khi người trang bị thi triển Kỹ Năng Trợ Chiến sẽ hồi 6 điểm Năng Lượng và nhận \"Khởi Hành\", duy trì 2 hiệp, tối đa cộng dồn 3 tầng. Mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>40%</color> sát thương Kỹ Năng Trợ Chiến, khi \"Khởi Hành\" đạt 3 tầng, mỗi tầng \"Khởi Hành\" tăng <color=#f29e38ff>40%</color> Sát Thương Tuyệt Kỹ.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.4,
+					3,
+					0.4,
+					0.48
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23061": {
+		"Id": "23061",
+		"Name": "Ngọn Lửa Nhỏ Thầm Lặng Tỏa Sáng",
+		"PathType": "Mage",
+		"PathTypeText": "Tri Thức",
+		"EffectName": "Mầm Non",
+		"EffectTemplate": "Tăng <color=#f29e38ff>#1[i]%</color> Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng #3[i] Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì #4[i] hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua <color=#f29e38ff>#5[i]%</color> Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng <color=#f29e38ff>#2[i]%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+		"Superimpositions": [
+			{
+				"Effect": "Tăng <color=#f29e38ff>18%</color> Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua <color=#f29e38ff>20%</color> Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng <color=#f29e38ff>72%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.18,
+					0.72,
+					4,
+					3,
+					0.2
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>21%</color> Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua <color=#f29e38ff>24%</color> Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng <color=#f29e38ff>84%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.21,
+					0.84,
+					4,
+					3,
+					0.24
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>24%</color> Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua <color=#f29e38ff>28%</color> Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng <color=#f29e38ff>96%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.24,
+					0.96,
+					4,
+					3,
+					0.28
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>27%</color> Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua <color=#f29e38ff>32%</color> Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng <color=#f29e38ff>108%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.27,
+					1.08,
+					4,
+					3,
+					0.32
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>30%</color> Tỷ Lệ Bạo Kích của người trang bị. Khi nhân vật bất kỳ phe ta tích lũy tiêu hao lớn hơn hoặc bằng 4 Điểm Chiến Kỹ trong cùng một hiệp của bản thân, người trang bị nhận \"Vương Miện Lấp Lánh\", duy trì 3 hiệp. Khi người trang bị có \"Vương Miện Lấp Lánh\", sát thương do toàn thể phe ta gây ra bỏ qua <color=#f29e38ff>36%</color> Phòng Thủ của mục tiêu, sát thương Chiến Kỹ do người trang bị gây ra tăng <color=#f29e38ff>120%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.3,
+					1.2,
+					4,
+					3,
+					0.36
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23062": {
+		"Id": "23062",
+		"Name": "Ngươi Thấy Chính Là Ta",
+		"PathType": "Warrior",
+		"PathTypeText": "Hủy Diệt",
+		"EffectName": "Tùy Tâm",
+		"EffectTemplate": "Tăng <color=#f29e38ff>#1[i]%</color> Tấn Công của người trang bị, tăng <color=#f29e38ff>#2[f1]%</color> hiệu suất hồi Năng Lượng. Khi người trang bị thi triển Tuyệt Kỹ, cứ tiêu hao 1 điểm Năng Lượng, sẽ khiến Sát Thương Tuyệt Kỹ gây ra lần này tăng <color=#f29e38ff>#3[f2]%</color>, tối đa tăng <color=#f29e38ff>#6[i]%</color>. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ, khiến người trang bị nhận \"Thú Vui Của Vua\", duy trì #4[i] hiệp. Khi người trang bị có \"Thú Vui Của Vua\", Sát Thương Bạo Kích của toàn phe ta tăng <color=#f29e38ff>#5[i]%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+		"Superimpositions": [
+			{
+				"Effect": "Tăng <color=#f29e38ff>18%</color> Tấn Công của người trang bị, tăng <color=#f29e38ff>10.0%</color> hiệu suất hồi Năng Lượng. Khi người trang bị thi triển Tuyệt Kỹ, cứ tiêu hao 1 điểm Năng Lượng, sẽ khiến Sát Thương Tuyệt Kỹ gây ra lần này tăng <color=#f29e38ff>0.20%</color>, tối đa tăng <color=#f29e38ff>72%</color>. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ, khiến người trang bị nhận \"Thú Vui Của Vua\", duy trì 3 hiệp. Khi người trang bị có \"Thú Vui Của Vua\", Sát Thương Bạo Kích của toàn phe ta tăng <color=#f29e38ff>24%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.18,
+					0.1,
+					0.002,
+					3,
+					0.24,
+					0.72
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>21%</color> Tấn Công của người trang bị, tăng <color=#f29e38ff>12.5%</color> hiệu suất hồi Năng Lượng. Khi người trang bị thi triển Tuyệt Kỹ, cứ tiêu hao 1 điểm Năng Lượng, sẽ khiến Sát Thương Tuyệt Kỹ gây ra lần này tăng <color=#f29e38ff>0.25%</color>, tối đa tăng <color=#f29e38ff>90%</color>. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ, khiến người trang bị nhận \"Thú Vui Của Vua\", duy trì 3 hiệp. Khi người trang bị có \"Thú Vui Của Vua\", Sát Thương Bạo Kích của toàn phe ta tăng <color=#f29e38ff>30%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.21,
+					0.125,
+					0.0025,
+					3,
+					0.3,
+					0.9
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>24%</color> Tấn Công của người trang bị, tăng <color=#f29e38ff>15.0%</color> hiệu suất hồi Năng Lượng. Khi người trang bị thi triển Tuyệt Kỹ, cứ tiêu hao 1 điểm Năng Lượng, sẽ khiến Sát Thương Tuyệt Kỹ gây ra lần này tăng <color=#f29e38ff>0.30%</color>, tối đa tăng <color=#f29e38ff>108%</color>. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ, khiến người trang bị nhận \"Thú Vui Của Vua\", duy trì 3 hiệp. Khi người trang bị có \"Thú Vui Của Vua\", Sát Thương Bạo Kích của toàn phe ta tăng <color=#f29e38ff>36%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.24,
+					0.15,
+					0.003,
+					3,
+					0.36,
+					1.08
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>27%</color> Tấn Công của người trang bị, tăng <color=#f29e38ff>17.5%</color> hiệu suất hồi Năng Lượng. Khi người trang bị thi triển Tuyệt Kỹ, cứ tiêu hao 1 điểm Năng Lượng, sẽ khiến Sát Thương Tuyệt Kỹ gây ra lần này tăng <color=#f29e38ff>0.35%</color>, tối đa tăng <color=#f29e38ff>126%</color>. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ, khiến người trang bị nhận \"Thú Vui Của Vua\", duy trì 3 hiệp. Khi người trang bị có \"Thú Vui Của Vua\", Sát Thương Bạo Kích của toàn phe ta tăng <color=#f29e38ff>42%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.27,
+					0.175,
+					0.0035,
+					3,
+					0.42,
+					1.26
+				]
+			},
+			{
+				"Effect": "Tăng <color=#f29e38ff>30%</color> Tấn Công của người trang bị, tăng <color=#f29e38ff>20.0%</color> hiệu suất hồi Năng Lượng. Khi người trang bị thi triển Tuyệt Kỹ, cứ tiêu hao 1 điểm Năng Lượng, sẽ khiến Sát Thương Tuyệt Kỹ gây ra lần này tăng <color=#f29e38ff>0.40%</color>, tối đa tăng <color=#f29e38ff>144%</color>. Khi người trang bị vào chiến đấu hoặc thi triển Tuyệt Kỹ, khiến người trang bị nhận \"Thú Vui Của Vua\", duy trì 3 hiệp. Khi người trang bị có \"Thú Vui Của Vua\", Sát Thương Bạo Kích của toàn phe ta tăng <color=#f29e38ff>48%</color>, hiệu ứng cùng loại không thể cộng dồn.",
+				"Params": [
+					0.3,
+					0.2,
+					0.004,
+					3,
+					0.48,
+					1.44
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Sự Sụp Đổ Của Aeon",

@@ -174,7 +174,7 @@
 		"Description": "Hallo, Trailblazer! Deine Freunde auf dem Express warten darauf, dass du die Reise mit ihnen antrittst und dich auf ein neues galaktisches Abenteuer begibst! Erhalte bis zu Stellare Jade ×<unbreak>480</unbreak>!",
 		"Tag": "Aktionsdetails",
 		"Introduction": "◆ Aktionsdetails ◆\n● Lade während der Aktion andere Trailblazer zur Rückkehr ein, um tolle Belohnungen wie Stellare Jade zu erhalten.\n● Aktive Trailblazer können ihren persönlichen Einladungscode teilen und andere Trailblazer, die die Teilnahmebedingungen erfüllen, einladen, Webaktion-Missionen abzuschließen, um Stellare Jade und Verlosungskarten als Belohnung zu erhalten.\n● Auch rückkehrende Trailblazer können nach Anmeldung im Spiel ihren persönlichen Einladungscode teilen und weitere Trailblazer, die die Teilnahmebedingungen erfüllen, einladen, Webaktion-Missionen abzuschließen.\n※ Die Aktualisierung vom Zustand der rückkehrenden Trailblazer können sich etwas verzögern. Du kannst die Website nach 2 Minuten erneut laden, um den Zustand zu überprüfen.\n\n◆ Rückkehrende Trailblazer ◆\nTrailblazer, die an der Aktion „Heimkehr im Sternenlicht“ teilnehmen können, gelten als rückkehrende Trailblazer. Die Teilnahmebedingungen für Heimkehr im Sternenlicht sind wie folgt:\n● Trailblaze-Stufe <unbreak>10</unbreak> oder höher\n● Abschluss der Trailblaze-Mission „Jarilo-VI“ – „Langes Warten auf die Schneide der Klinge“\n● Keine Anmeldung im Spiel seit <unbreak>14</unbreak> Tagen oder mehr\n● Keine Aktivierung der Aktion „Heimkehr im Sternenlicht“ seit <unbreak>40</unbreak> Tagen oder mehr\n※ Die Dauer des Status „Rückkehrende Trailblazer“ entspricht der Dauer der Aktion Heimkehr im Sternenlicht.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer420.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer440.png",
 		"VersionAdded": "2.0"
 	},
 	"10047": {
@@ -520,6 +520,15 @@
 		"Introduction": "◆ Aktionsregeln ◆\nDurch tägliches Anmelden im Spiel kannst du jeden Tag Belohnungen im Reise-Log freischalten.\n\n◆ Aktionsbelohnungen ◆\nDie Belohnungen werden deinen angesammelten Login-Tagen entsprechend nacheinander freigeschaltet. Die täglichen Belohnungen werden jeden Tag um <unbreak>04</unbreak>:<unbreak>00</unbreak> Uhr (Serverzeit) aktualisiert.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
 		"VersionAdded": "4.3"
+	},
+	"10172": {
+		"Id": "10172",
+		"Name": "Geschenk der Odyssee",
+		"TabName": "Geschenk der Odyssee",
+		"Tag": "Aktionsdetails",
+		"Introduction": "◆ Aktionsregeln ◆\nDurch tägliches Anmelden im Spiel kannst du jeden Tag Belohnungen im Reise-Log freischalten.\n\n◆ Aktionsbelohnungen ◆\nDie Belohnungen werden deinen angesammelten Login-Tagen entsprechend nacheinander freigeschaltet. Die täglichen Belohnungen werden jeden Tag um <unbreak>04</unbreak>:<unbreak>00</unbreak> Uhr (Serverzeit) aktualisiert.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0440.png",
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -913,7 +922,7 @@
 		"TabName": "Eignungsdemonstration",
 		"Tag": "Figurenprobe",
 		"Introduction": "◆ Aktionsdetails ◆\nWährend der Figurenprobieraktion „Eignungsdemonstration“ kannst du festgelegte Teams nutzen, die Probefiguren enthalten, um bestimmte Etappen wiederholt zu erleben.\nTeamformation, Figurenstufen sowie die ausgerüsteten Lichtkegel und Relikte können während einer Aktionsetappe nicht geändert werden.\n\n◆ Aktionsbelohnungen ◆\nBelohnungen für die Probe können nach Abschluss der Herausforderung im Aktionsmenü abgeholt werden. Für jede Etappe kann während der Aktion nur einmal die entsprechende Belohnung erhalten werden.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1113,6 +1122,33 @@
 		"Introduction": "◆ Aktionsdetails ◆\nWährend der Figurenprobieraktion „Eignungsdemonstration“ kannst du festgelegte Teams nutzen, die Probefiguren enthalten, um bestimmte Etappen wiederholt zu erleben.\nTeamformation, Figurenstufen sowie die ausgerüsteten Lichtkegel und Relikte können während einer Aktionsetappe nicht geändert werden.\n\n◆ Aktionsbelohnungen ◆\nBelohnungen für die Probe können nach Abschluss der Herausforderung im Aktionsmenü abgeholt werden. Für jede Etappe kann während der Aktion nur einmal die entsprechende Belohnung erhalten werden.\nWenn du die entsprechende Probeetappe der Figur bereits in einer früheren Version abgeschlossen hast, kannst du die Belohnung direkt abholen.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
 		"VersionAdded": "4.3"
+	},
+	"20086": {
+		"Id": "20086",
+		"Name": "Eignungsdemonstration",
+		"TabName": "Eignungsdemonstration",
+		"Tag": "Figurenprobe",
+		"Introduction": "◆ Aktionsdetails ◆\nWährend der Figurenprobieraktion „Eignungsdemonstration“ kannst du festgelegte Teams nutzen, die Probefiguren enthalten, um bestimmte Etappen wiederholt zu erleben.\nTeamformation, Figurenstufen sowie die ausgerüsteten Lichtkegel und Relikte können während einer Aktionsetappe nicht geändert werden.\n\n◆ Aktionsbelohnungen ◆\nBelohnungen für die Probe können nach Abschluss der Herausforderung im Aktionsmenü abgeholt werden. Für jede Etappe kann während der Aktion nur einmal die entsprechende Belohnung erhalten werden.\nWenn du die entsprechende Probeetappe der Figur bereits in einer früheren Version abgeschlossen hast, kannst du die Belohnung direkt abholen.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
+	},
+	"20087": {
+		"Id": "20087",
+		"Name": "Jagd nach der Schicksalsschneide",
+		"TabName": "Jagd nach der Schicksalsschneide",
+		"Tag": "Figurenprobe",
+		"Introduction": "◆ Aktionsdetails ◆\nWährend der Figurenprobieraktion „Jagd nach der Schicksalsschneide“ kannst du festgelegte Teams nutzen, die Probefiguren enthalten, um bestimmte Etappen wiederholt zu erleben.\nTeamformation, Figurenstufen sowie die ausgerüsteten Lichtkegel und Relikte können während einer Aktionsetappe nicht geändert werden.\n\n◆ Aktionsbelohnungen ◆\nBelohnungen für die Probe können nach Abschluss der Herausforderung im Aktionsmenü von „Jagd nach der Schicksalsschneide“ abgeholt werden. Für jede Etappe kann während der Aktion nur einmal die entsprechende Belohnung erhalten werden.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial53.png",
+		"VersionAdded": "4.4"
+	},
+	"20088": {
+		"Id": "20088",
+		"Name": "Eignungsdemonstration",
+		"TabName": "Eignungsdemonstration",
+		"Tag": "Figurenprobe",
+		"Introduction": "◆ Aktionsdetails ◆\nWährend der Figurenprobieraktion „Eignungsdemonstration“ kannst du festgelegte Teams nutzen, die Probefiguren enthalten, um bestimmte Etappen wiederholt zu erleben.\nTeamformation, Figurenstufen sowie die ausgerüsteten Lichtkegel und Relikte können während einer Aktionsetappe nicht geändert werden.\n\n◆ Aktionsbelohnungen ◆\nBelohnungen für die Probe können nach Abschluss der Herausforderung im Aktionsmenü abgeholt werden. Für jede Etappe kann während der Aktion nur einmal die entsprechende Belohnung erhalten werden.\nWenn du die entsprechende Probeetappe der Figur bereits in einer früheren Version abgeschlossen hast, kannst du die Belohnung direkt abholen.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1890,6 +1926,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
 		"VersionAdded": "4.3"
 	},
+	"50114": {
+		"Id": "50114",
+		"Name": "Antikorruptions-Brickbuster",
+		"TabName": "Antikorruptions-Brickbuster",
+		"Description": "Keine Ecke bleibt für immer sauber. Auf Aventurins Bitte hin hast du eine Untersuchung zur Korruption innerhalb der IFK eingeleitet, indem du dich in ihre Datenbank gehackt hast.",
+		"Tag": "Aktionsdetails",
+		"Introduction": "◆ Einführung ◆\nKeine Ecke bleibt für immer sauber. Auf Aventurins Bitte hin hast du eine Untersuchung zur Korruption innerhalb der IFK eingeleitet, indem du dich in ihre Datenbank gehackt hast.\n\n◆ Aktionsregeln ◆\n● Während der Hacking-Operation arbeiten Trailblazer mit Silberwolf und Prometheus zusammen, um zerlegte Datenblöcke zu platzieren, die Mechaniken der Firewall zu überwinden und den Hack so reibungslos wie möglich abzuschließen.\n● Im Verlauf der Etappen des Handlungsmodus erhalten Trailblazer nach und nach Zugriff auf mächtigere Fähigkeiten, erhöhen ihre Hackerstufe und stellen sich immer stärkeren Gegnern.\n● Nach Abschluss des Handlungsmodus können Trailblazer in den Koop-Modus wechseln, um zusammen mit Silberwolf, Prometheus oder anderen Hackern Herausforderungen mit höherem Schwierigkeitsgrad anzunehmen.\n\n◆ Dauerhaft verfügbare Belohnungen ◆\n● Sammle Erfahrung in Etappen, um deine Hackerstufe zu erhöhen und die entsprechenden Belohnungen einzufordern.\n\n◆ Zeitlich begrenzte Belohnungen ◆\nSchließe während der Aktion die zeitlich begrenzten Missionen ab, um exklusive Belohnungen zu erhalten.\n\n",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestTeamTower.png",
+		"VersionAdded": "4.4"
+	},
 	"50115": {
 		"Id": "50115",
 		"Name": "Geschenk der Schmiede",
@@ -1899,6 +1945,34 @@
 		"Introduction": "◆ Aktionsdetails ◆\n● Während des Figuren-Aktionswarps „Ich selbst bin die Klinge“ in Version <unbreak>4.3</unbreak> bekommst du nach dem Erhalt von Mortenax Blade durch den Figuren-Aktionswarp die brandneue Trailblaze-Mode für den Rücken „Karmisches Feuer des Jenseits“.\n● Nach dem Erhalt der Trailblaze-Mode „Karmisches Feuer des Jenseits“ kannst du sie im Menü „Figur – Aussehen“ ansehen und anlegen.\n● Die Trailblaze-Mode wird in bestimmten Missionsabschnitten und Zwischensequenzen ausgeblendet.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
 		"VersionAdded": "4.3"
+	},
+	"50116": {
+		"Id": "50116",
+		"Name": "Imagenae-Krieg um den Heiligen Kelch",
+		"TabName": "Imagenae-Krieg um den Heiligen Kelch",
+		"Description": "Ein goldener Regen, ein gestohlener Heiliger Kelch: In einem anderen Schatten, den der Phantasmond nicht erreicht, kam es unerwartet zum Zerfall der Schatzkammer eines Königs.\nUm Chaos zu verhindern, bleibt dir nichts anderes übrig, als mit der Magierin Rin Tohsaka aus einer anderen Welt loszuziehen, um für Ordnung zu sorgen ... und euren Anteil am Schatz zu erlangen.",
+		"Tag": "Aktionsdetails",
+		"Introduction": "▌ Die Kollaborationsfiguren haben <color=#f29e38ff>keine englische Synchronisation</color>. Du kannst bei Bedarf zu einer anderen Sprachversion wechseln.\n\n▌ Imagenae-Krieg um den Heiligen Kelch\nEin goldener Regen, ein gestohlener Heiliger Kelch: Im Schatten, den der Phantasmond nicht erreicht, wirst du gemeinsam mit der Magierin Rin Tohsaka aus einer anderen Welt das Schlachtfeld des Imagenae-Kriegs um den Heiligen Kelch betreten ...\n\n▌ Fate/Star Rail Night\n◆ Aktionsregeln ◆\n● In „Fate/Star Rail Night“ nehmen Trailblazer am Imagenae-Krieg um den Heiligen Kelch teil, sammeln verstreute Schätze und ziehen, ausgerüstet mit Konzeptionellen Mystischen Codes in die Schlacht.\n\n◆ Dauerhaft verfügbare Belohnungen ◆\n● Schließe dauerhaft verfügbare Missionen in „Fate/Star Rail Night“ ab, um dauerhaft verfügbare Belohnungen zu erhalten.\n\n◆ Zeitlich begrenzte Belohnungen ◆\n● Schließe während der Aktion in „Fate/Star Rail Night“ zeitlich begrenzte Missionen ab, um zeitlich begrenzte Belohnungen zu erhalten.\n\n◆ Aktionshinweis ◆\n● Nachdem die zeitlich begrenzte Aktion „Fate/Star Rail Night“ beendet ist, können ihre zeitlich begrenzten Belohnungen nicht mehr erhalten werden, aber du kannst in Dovebrook weiterhin die Aktion erleben und die dauerhaft verfügbaren Belohnungen erhalten.\n\n▌ Fate-Geschenk\n● Verbrauche während des Aktionszeitraums insgesamt <unbreak>200</unbreak> Star-Rail-Sonderpässe in beliebigen Warpaktionen von Version <unbreak>4.4</unbreak>, um die Belohnungen nach dem Beginn des Kollaborationswarps abzuholen.\n● Alle Warpaktionen in Version <unbreak>4.4</unbreak> teilen sich die Gesamtzahl der verbrauchten Star-Rail-Sonderpässe.\n● Diese Belohnung kann während der Aktion nur einmal erhalten werden.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50117": {
+		"Id": "50117",
+		"Name": "Imagenae-Krieg um den Heiligen Kelch",
+		"TabName": "Imagenae-Krieg um den Heiligen Kelch",
+		"Tag": "Aktionsdetails",
+		"Introduction": "▌ Nach Beginn der Aktion „Imagenae-Krieg um den Heiligen Kelch“ kannst du an der Trailblaze-Fortsetzung sowie Kollaborationsaktion teilnehmen. Die Kollaborationsfiguren haben <color=#f29e38ff>keine englische Synchronisation</color>. Du kannst bei Bedarf zu einer anderen Sprachversion wechseln.\n\n▌ Imagenae-Krieg um den Heiligen Kelch\n◆ Übersicht ◆\n● Ein goldener Regen, ein gestohlener Heiliger Kelch: Im Schatten, den der Phantasmond nicht erreicht, wirst du gemeinsam mit der Magierin Rin Tohsaka aus einer anderen Welt das Schlachtfeld des Imagenae-Kriegs um den Heiligen Kelch betreten ...\n◆ Aktionsregeln ◆\n● In „Fate/Star Rail Night“ nehmen Trailblazer am Imagenae-Krieg um den Heiligen Kelch teil, sammeln verstreute Schätze und ziehen, ausgerüstet mit Mystischen Codes in die Schlacht.\n\n▌ Fate-Geschenk\n● Verbrauche während des Aktionszeitraums insgesamt <unbreak>200</unbreak> Star-Rail-Sonderpässe in beliebigen Warpaktionen von Version <unbreak>4.4</unbreak>, um die Belohnungen nach dem Beginn des Kollaborationswarps abzuholen.\n● Alle Warpaktionen in Version <unbreak>4.4</unbreak> teilen sich die Gesamtzahl der verbrauchten Star-Rail-Sonderpässe.\n● Diese Belohnung kann während der Aktion nur einmal erhalten werden.\n\n▌ Fate-Vertrag: Neustart\n● Während der Aktion können alle Trailblazer ab Trailblaze-Stufe 3 sofort nach dem Einloggen die limitierte 5-Sterne-Kollaborationsfigur Gilgamesh oder Archer auswählen und erhalten.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50118": {
+		"Id": "50118",
+		"Name": "Fate-Vertrag: Neustart",
+		"TabName": "Fate-Vertrag: Neustart",
+		"Tag": "Aktionsdetails",
+		"Introduction": "Fate-Vertrag: Neustart",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionChoose0440.png",
+		"VersionAdded": "4.4"
 	},
 	"60001": {
 		"Id": "60001",
@@ -2279,5 +2353,14 @@
 		"Tag": "Neue Trailblaze-Mission",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
 		"VersionAdded": "4.3"
+	},
+	"80028": {
+		"Id": "80028",
+		"Name": "Ein Pfeifen in stiller Verwüstung",
+		"TabName": "Trailblaze-Mission",
+		"Description": "Die Navigatorin zeichnet eine Karte in Richtung Apokalypse. Eine klägliche Zugpfeife erschallt, und nur jene, die dem Trailblaze verschrieben sind, können einen Weg ins Totenreich ausfindig machen ...",
+		"Tag": "Neue Trailblaze-Mission",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory440.png",
+		"VersionAdded": "4.4"
 	}
 }

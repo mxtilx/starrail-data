@@ -2900,7 +2900,8 @@
 		"FactionType": 99,
 		"FactionTypeText": "Lainnya",
 		"ConversationIds": [
-			"15009"
+			"15009",
+			"15058"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
@@ -3024,7 +3025,8 @@
 			"15026",
 			"15034",
 			"15038",
-			"15043"
+			"15043",
+			"15059"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Zhongshan.png"
@@ -3087,7 +3089,9 @@
 			"15036",
 			"15039",
 			"15040",
-			"15044"
+			"15044",
+			"15060",
+			"15061"
 		],
 		"Images": {
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
@@ -3152,6 +3156,49 @@
 			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
 		},
 		"VersionAdded": "4.2"
+	},
+	"222": {
+		"Id": "222",
+		"Name": "PlanarvilleOnline",
+		"ContactType": 3,
+		"ContactTypeText": "Grup Chat",
+		"FactionType": 99,
+		"FactionTypeText": "Lainnya",
+		"ConversationIds": [
+			"15042"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
+		},
+		"VersionAdded": "4.4"
+	},
+	"223": {
+		"Id": "223",
+		"Name": "Ryusuke",
+		"ContactType": 2,
+		"ContactTypeText": "Lainnya",
+		"FactionType": 21,
+		"FactionTypeText": "Planarcadia",
+		"ConversationIds": [],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_LongJie.png"
+		},
+		"VersionAdded": "4.4"
+	},
+	"232": {
+		"Id": "232",
+		"Name": "???",
+		"ContactType": 2,
+		"ContactTypeText": "Lainnya",
+		"FactionType": 99,
+		"FactionTypeText": "Lainnya",
+		"ConversationIds": [
+			"15069"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Anonymous.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"1000": {
 		"Id": "1000",
@@ -3270,6 +3317,9 @@
 			"20007",
 			"20008",
 			"20009",
+			"20240",
+			"20241",
+			"20242",
 			"50008"
 		],
 		"Images": {
@@ -3340,6 +3390,7 @@
 			"12225",
 			"13122",
 			"13388",
+			"15049",
 			"20073",
 			"20074",
 			"20075",
@@ -3460,6 +3511,7 @@
 		"FactionType": 18,
 		"FactionTypeText": "Dunia Lain",
 		"ConversationIds": [
+			"15047",
 			"20189"
 		],
 		"Images": {
@@ -3644,6 +3696,7 @@
 			"11102",
 			"15017",
 			"15021",
+			"15057",
 			"20020",
 			"20039",
 			"20040"
@@ -4526,6 +4579,7 @@
 		"FactionType": 17,
 		"FactionTypeText": "Amphoreus",
 		"ConversationIds": [
+			"15045",
 			"20185",
 			"20198",
 			"20199"
@@ -4682,6 +4736,19 @@
 		},
 		"VersionAdded": "4.0"
 	},
+	"1503": {
+		"Id": "1503",
+		"Name": "Pearl",
+		"ContactType": 1,
+		"ContactTypeText": "Karakter",
+		"FactionType": 21,
+		"FactionTypeText": "Planarcadia",
+		"ConversationIds": [],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/UI_Message_Contacts_Pearl.png"
+		},
+		"VersionAdded": "4.4"
+	},
 	"1504": {
 		"Id": "1504",
 		"Name": "Ashveil",
@@ -4691,6 +4758,7 @@
 		"FactionType": 12,
 		"FactionTypeText": "Galaxy Ranger",
 		"ConversationIds": [
+			"15048",
 			"20228",
 			"20229",
 			"20230"
@@ -4730,6 +4798,39 @@
 			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1506.png"
 		},
 		"VersionAdded": "4.2"
+	},
+	"1508": {
+		"Id": "1508",
+		"Name": "Rin Tohsaka",
+		"Signature": "Daur ulang permata, hubungi aku kapan saja!",
+		"ContactType": 1,
+		"ContactTypeText": "Karakter",
+		"FactionType": 18,
+		"FactionTypeText": "Dunia Lain",
+		"ConversationIds": [
+			"15046",
+			"20238"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1508.png"
+		},
+		"VersionAdded": "4.4"
+	},
+	"1509": {
+		"Id": "1509",
+		"Name": "Gilgamesh",
+		"Signature": "Perhatikan baik-baik, begini cara menggunakan Hukum Emas.",
+		"ContactType": 1,
+		"ContactTypeText": "Karakter",
+		"FactionType": 18,
+		"FactionTypeText": "Dunia Lain",
+		"ConversationIds": [
+			"20239"
+		],
+		"Images": {
+			"Icon": "SpriteOutput/AvatarRoundIcon/Avatar/1509.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8000": {
 		"Id": "8000",

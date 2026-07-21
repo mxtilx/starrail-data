@@ -174,7 +174,7 @@
 		"Description": "{M#Cher pionnier}{F#Chère pionnière}, vos compagnons à bord de l'Express attendent votre retour avec impatience pour continuer cette aventure cosmique à vos côtés ! Gagnez jusqu'à <unbreak>480</unbreak> jades stellaires !",
 		"Tag": "Détails de l'événement",
 		"Introduction": "◆ Détails de l'événement ◆\n● Pendant l'événement, vous pouvez inviter des Pionnières et Pionniers de retour pour gagner des récompenses telles que des jades stellaires.\n● Si vous êtes encore en activité sur le jeu, vous pouvez partager votre code d'invitation pour inviter d'autres Pionniers éligibles à revenir et gagner des récompenses en jades stellaires ainsi que des chances de participer à un tirage au sort.\n● Après s'être connectés au jeu, les Pionniers de retour peuvent à leur tour partager leur propre code d'invitation pour inviter d'autres Pionniers éligibles à revenir et participer à l'événement web.\n※ Il peut y avoir un délai dans la mise à jour du statut des Pionniers de retour. Lorsque c'est le cas, attendez 2 minutes avant de rafraîchir la page web.\n\n◆ Pionniers de retour ◆\nLes Pionniers et Pionnières qui peuvent participer à l'événement Retour des étoiles sont considérés comme des Pionniers de retour. Les conditions de participation à l'événement Retour des étoiles sont les suivantes :\n● Niveau de pionnier supérieur ou égal à <unbreak>10</unbreak>.\n● Avoir terminé la mission pionnière « La longue attente du fil de la lame » sur Jarilo-VI ;\n● Ne pas s'être connecté(e) pendant <unbreak>14</unbreak> jours d'affilée ou plus ; \n● <unbreak>40</unbreak> jours ou plus se sont écoulés depuis la dernière activation de l'événement Retour des étoiles sur ce compte.\n※ La durée du statut Pionnier de retour sera la même que celle de l'événement Retour des étoiles.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer420.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer440.png",
 		"VersionAdded": "2.0"
 	},
 	"10047": {
@@ -520,6 +520,15 @@
 		"Introduction": "◆ Règles de l'événement ◆\nVous pouvez recevoir des récompenses tous les jours en vous connectant et en allant dans le Carnet de voyage.\n\n◆ Récompenses ◆\nLes récompenses se débloquent les unes après les autres, en fonction du nombre de jours de connexion cumulés. Les récompenses quotidiennes sont actualisées à 4 h <unbreak>00</unbreak> (heure du serveur).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
 		"VersionAdded": "4.3"
+	},
+	"10172": {
+		"Id": "10172",
+		"Name": "Cadeau de l'odyssée",
+		"TabName": "Cadeau de l'odyssée",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Règles de l'événement ◆\nVous pouvez recevoir des récompenses tous les jours en vous connectant et en allant dans le Carnet de voyage.\n\n◆ Récompenses ◆\nLes récompenses se débloquent les unes après les autres, en fonction du nombre de jours de connexion cumulés. Les récompenses quotidiennes sont actualisées à 4 h <unbreak>00</unbreak> (heure du serveur).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0440.png",
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -913,7 +922,7 @@
 		"TabName": "Démonstration d'aptitudes",
 		"Tag": "Essai de personnage",
 		"Introduction": "◆ Règles de l'événement ◆\nLors de l'événement Démonstration d'aptitudes, vous pouvez utiliser des équipes prédéfinies qui comportent des personnages d'essai dans des niveaux spécifiques.\nLa composition de l'équipe, le niveau des personnages ainsi que les reliques et les cônes de lumière équipés ne peuvent pas être modifiés au cours du niveau.\n\n◆ Récompenses ◆\nVous pouvez obtenir les récompenses de niveau d'essai dans l'interface de l'événement après avoir terminé le défi associé. Chaque récompense ne peut être obtenue qu'une seule fois au cours de l'événement.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1113,6 +1122,33 @@
 		"Introduction": "◆ Règles de l'événement ◆\nLors de l'événement Démonstration d'aptitudes, vous avez l'opportunité d'utiliser des équipes prédéfinies qui comportent des personnages d'essai dans un niveau spécifique.\nLa composition de l'équipe, le niveau des personnages ainsi que les reliques et cônes de lumière équipés ne peuvent pas être modifiés au cours du niveau.\n\n◆ Récompenses ◆\nUne fois le défi du niveau relevé, vous pouvez récupérer les récompenses du niveau d'essai depuis l'interface de l'événement. Chaque récompense ne peut être obtenue qu'une seule fois pendant la période de l'événement.\nSi vous avez déjà terminé le niveau d'essai d'un personnage lors d'une version précédente, vous pouvez récupérer les récompenses directement.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
 		"VersionAdded": "4.3"
+	},
+	"20086": {
+		"Id": "20086",
+		"Name": "Démonstration d'aptitudes",
+		"TabName": "Démonstration d'aptitudes",
+		"Tag": "Essai de personnage",
+		"Introduction": "◆ Règles ◆\nPendant l'événement d'essai de personnage Démonstration d'aptitudes, vous pouvez utiliser des équipes prédéfinies contenant le personnage d'essai sélectionné et jouer aux niveaux désignés sans aucune restriction.\nLes personnages, leurs niveaux, les cônes de lumière et les reliques ne peuvent être ajustés dans ces niveaux.\n\n◆ Récompenses ◆\nUne fois le défi du niveau relevé, vous pouvez récupérer les récompenses du niveau d'essai depuis l'interface de l'événement. Chaque récompense ne peut être obtenue qu'une seule fois pendant la période de l'événement.\nSi vous avez déjà terminé le niveau d'essai d'un personnage lors d'une version précédente, vous pouvez récupérer les récompenses directement.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
+	},
+	"20087": {
+		"Id": "20087",
+		"Name": "Destins à vif",
+		"TabName": "Destins à vif",
+		"Tag": "Essai de personnage",
+		"Introduction": "◆ Règles de l'événement ◆\nLors de l'événement Destins à vif, vous avez l'opportunité d'utiliser des équipes prédéfinies qui comportent des personnages d'essai dans un niveau spécifique.\nLa composition de l'équipe, le niveau des personnages ainsi que les reliques et cônes de lumière équipés ne peuvent pas être modifiés au cours du niveau.\n\n◆ Récompenses ◆\nVous pouvez obtenir les récompenses de niveau d'essai dans l'interface de l'événement après avoir terminé le défi associé. Chaque récompense ne peut être obtenue qu'une seule fois au cours de l'événement.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial53.png",
+		"VersionAdded": "4.4"
+	},
+	"20088": {
+		"Id": "20088",
+		"Name": "Démonstration d'aptitudes",
+		"TabName": "Démonstration d'aptitudes",
+		"Tag": "Essai de personnage",
+		"Introduction": "◆ Règles ◆\nPendant l'événement d'essai de personnage Démonstration d'aptitudes, vous pouvez utiliser des équipes prédéfinies contenant le personnage d'essai sélectionné et jouer aux niveaux désignés sans aucune restriction.\nLes personnages, leurs niveaux, les cônes de lumière et les reliques ne peuvent être ajustés dans ces niveaux.\n\n◆ Récompenses ◆\nUne fois le défi du niveau relevé, vous pouvez récupérer les récompenses du niveau d'essai depuis l'interface de l'événement. Chaque récompense ne peut être obtenue qu'une seule fois pendant la période de l'événement.\nSi vous avez déjà terminé le niveau d'essai d'un personnage lors d'une version précédente, vous pouvez récupérer les récompenses directement.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1316,7 +1352,7 @@
 		"TabName": "Ramdam à l'allée des Aurums",
 		"Description": "L'allée des Aurums se voit offrir une nouvelle chance. Elle a le choix entre accepter le financement de la CPI qui souhaite tout remanier ou être relancée par la Guilde des commerçants locaux. Vous êtes en mesure d'influencer le cours des événements...",
 		"Tag": "Détails de l'événement",
-		"Introduction": "◆ Introduction ◆\nL'allée des Aurums se voit offrir une nouvelle chance. Elle a le choix entre accepter le financement de la CPI qui souhaite tout remanier ou être relancée par la Guide des commerçants locaux. Vous êtes en mesure d'influencer le cours des événements...\n\n◆ Remarques ◆\n● Lorsque l'événement est lancé, une nouvelle série de missions d'aventure, « Les affaires reprennent », devient disponible. Vous devez terminer « Les affaires reprennent (I) » pour lancer les opérations de l'allée des Aurums. Il y a 4 phases en tout.\n● Vous ne pourrez plus récupérer les récompenses à durée limitée une fois l'événement à durée limitée Ramdam à l'allée des Aurums terminé. Cependant, vous pourrez accéder à l'événement pour obtenir les récompenses normales.\n\n◆ Gestion du chargement ◆\n● Vous pouvez gagner des fonds pour le compte de la Guilde des commerçants au cours de la période des opérations de l'allée des Aurums grâce à la gestion du chargement.\n● Vous aurez accès à de nouvelles livraisons et marchandises en terminant des événements de magasin.\n● Lorsque vous aurez atteint les objectifs de phase, vous débloquerez les « livraisons personnalisées » de chaque magasin sous forme de défis.\n● Lorsque vous aurez suffisamment progressé dans les opérations de l'allée des Aurums, vous aurez accès à un astroskiff de fret de plus grande capacité, ce qui vous permettra d'améliorer la rentabilité des livraisons.\n\n◆ Gestion du chargement ◆\n● Vous pouvez gagner des fonds pour le compte de la Guilde des commerçants au cours de la période des opérations de l'allée des Aurums grâce à la gestion du chargement.\n● Vous aurez accès à de nouvelles livraisons et marchandises en terminant des événements de magasin.\n● Lorsque vous aurez atteint les objectifs de phase, vous débloquerez les « livraisons personnalisées » de chaque magasin sous forme de défis.\n● Lorsque vous aurez suffisamment progressé dans les opérations de l'allée des Aurums, vous aurez accès à un astroskiff de fret de plus grande capacité, ce qui vous permettra d'améliorer la rentabilité des livraisons.\n\n◆ Planification logistique ◆\n● Au cours des opérations de l'allée des Aurums, vous pouvez planifier des itinéraires grâce à la « planification logistique » et obtenir les récompenses correspondantes en réalisant certains scores.\n● Vous aurez la possibilité de débloquer des magasins dans la planification logistique en terminant les événements de magasin correspondants et de planifier leur itinéraire logistique jusqu'aux docks.\n● Lorsque vous aurez atteint les objectifs de phase, vous aurez accès aux « événements de rue ». Terminez-les pour obtenir des récompenses et débloquer des bonus d'itinéraire dans la planification logistique.\n● Lorsque vous aurez suffisamment progressé dans les phases d'opération de l'allée des Aurums, vous aurez accès aux itinéraires logistiques à basse, moyenne et haute altitude ce qui vous permettra de toucher plus de magasins.\n\n◆ Récompenses permanentes ◆\n● Récupérez des certificats de prospérité grâce à la planification logistique, aux événements de magasin, aux événements de rue et aux livraisons personnalisées.\n● Vous pouvez les échanger contre des récompenses via les avantages de guilde.\n\n◆ Récompenses à durée limitée ◆\n● Vous pouvez obtenir des récompenses à durée limitée en participant à la gestion du chargement et à la planification logistique pendant la période de l'événement à durée limitée.\n● Terminez des événements de magasin et des événements de rue pendant la période de l'événement à durée limitée pour obtenir des récompenses de relance à durée limitée.",
+		"Introduction": "◆ Introduction ◆\nL'allée des Aurums se voit offrir une nouvelle chance. Elle a le choix entre accepter le financement de la CPI qui souhaite tout remanier ou être relancée par la Guide des commerçants locaux. Vous êtes en mesure d'influencer le cours des événements...\n\n◆ Remarques ◆\n● Lorsque l'événement est lancé, une nouvelle série de missions d'aventure, « Les affaires reprennent », devient disponible. Vous devez terminer « Les affaires reprennent (I) » pour lancer les opérations de l'allée des Aurums. Il y a 4 phases en tout.\n● Vous ne pourrez plus récupérer les récompenses à durée limitée une fois l'événement à durée limitée Ramdam à l'allée des Aurums terminé. Cependant, vous pourrez accéder à l'événement au Sanctuaire de l'exaltation du Luofu pour obtenir les récompenses permanentes.\n\n◆ Gestion du chargement ◆\n● Vous pouvez gagner des fonds pour le compte de la Guilde des commerçants au cours de la période des opérations de l'allée des Aurums grâce à la gestion du chargement.\n● Vous aurez accès à de nouvelles livraisons et marchandises en terminant des événements de magasin.\n● Lorsque vous aurez atteint les objectifs de phase, vous débloquerez les « livraisons personnalisées » de chaque magasin sous forme de défis.\n● Lorsque vous aurez suffisamment progressé dans les opérations de l'allée des Aurums, vous aurez accès à un astroskiff de fret de plus grande capacité, ce qui vous permettra d'améliorer la rentabilité des livraisons.\n\n◆ Gestion du chargement ◆\n● Vous pouvez gagner des fonds pour le compte de la Guilde des commerçants au cours de la période des opérations de l'allée des Aurums grâce à la gestion du chargement.\n● Vous aurez accès à de nouvelles livraisons et marchandises en terminant des événements de magasin.\n● Lorsque vous aurez atteint les objectifs de phase, vous débloquerez les « livraisons personnalisées » de chaque magasin sous forme de défis.\n● Lorsque vous aurez suffisamment progressé dans les opérations de l'allée des Aurums, vous aurez accès à un astroskiff de fret de plus grande capacité, ce qui vous permettra d'améliorer la rentabilité des livraisons.\n\n◆ Planification logistique ◆\n● Au cours des opérations de l'allée des Aurums, vous pouvez planifier des itinéraires grâce à la « planification logistique » et obtenir les récompenses correspondantes en réalisant certains scores.\n● Vous aurez la possibilité de débloquer des magasins dans la planification logistique en terminant les événements de magasin correspondants et de planifier leur itinéraire logistique jusqu'aux docks.\n● Lorsque vous aurez atteint les objectifs de phase, vous aurez accès aux « événements de rue ». Terminez-les pour obtenir des récompenses et débloquer des bonus d'itinéraire dans la planification logistique.\n● Lorsque vous aurez suffisamment progressé dans les phases d'opération de l'allée des Aurums, vous aurez accès aux itinéraires logistiques à basse, moyenne et haute altitude ce qui vous permettra de toucher plus de magasins.\n\n◆ Récompenses permanentes ◆\n● Récupérez des certificats de prospérité grâce à la planification logistique, aux événements de magasin, à l'événement de rue et aux livraisons personnalisées.\n● Vous pouvez les échanger contre des récompenses via les avantages de guilde.\n\n◆ Récompenses à durée limitée ◆\n● Vous pouvez obtenir des récompenses à durée limitée en participant à la gestion du chargement et à la planification logistique pendant la période de l'événement à durée limitée.\n● Terminez des événements de magasin et des événements de rue pendant la période de l'événement à durée limitée pour obtenir des récompenses de relance à durée limitée.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuesAlley.png",
 		"VersionAdded": "1.3"
 	},
@@ -1890,6 +1926,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
 		"VersionAdded": "4.3"
 	},
+	"50114": {
+		"Id": "50114",
+		"Name": "Enquête de brique et de bloc",
+		"TabName": "Enquête de brique et de bloc",
+		"Description": "Il n'existe aucun recoin dans le monde qui puisse demeurer parfaitement propre. À la demande d'Aventurine, vous piratez la base de données de la CPI pour mener une enquête anticorruption.",
+		"Tag": "Détails de l'événement",
+		"Introduction": "◆ Introduction ◆\nIl n'existe aucun recoin dans le monde qui puisse demeurer parfaitement propre. À la demande d'Aventurine, vous piratez la base de données de la CPI pour mener une enquête anticorruption.\n\n◆ Règles de l'événement ◆\n● Lors d'une opération de piratage, vous collaborez avec Louve d'argent et Prométhée pour placer des blocs de données démantelés, contrer les mécaniques de capacité du pare-feu et terminer le piratage avec la plus grande efficacité.\n● Au fil des niveaux du Mode histoire, vous gagnez progressivement accès à des capacités plus puissantes, améliorez votre niveau de piratage et affrontez des ennemis de plus en plus redoutables.\n● Une fois le Mode histoire terminé, vous pourrez rejoindre le Mode coop pour relever des défis de plus grande difficulté aux côtés de Louve d'argent, de Prométhée ou d'autres hackers.\n\n◆ Récompenses permanentes ◆\n● Défiez les niveaux du jeu et gagnez de l'expérience pour augmenter votre niveau de piratage et récupérer les récompenses correspondantes.\n\n◆ Récompenses à durée limitée ◆\nLors de l'événement, terminez les missions à durée limitée pour obtenir des récompenses à durée limitée.\n\n",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestTeamTower.png",
+		"VersionAdded": "4.4"
+	},
 	"50115": {
 		"Id": "50115",
 		"Name": "Cadeau de la forge",
@@ -1899,6 +1945,34 @@
 		"Introduction": "◆ Détails de l'événement ◆\nDurant le Saut événement de personnage de la version <unbreak>4.3</unbreak> « Sur le fil de l'être », obtenez Blade Mortenax via le Saut événement de personnage pour recevoir l'accessoire dorsal de Tenue pionnière Feu karmique de l'autre rive.\n● Après avoir obtenu l'accessoire de Tenue pionnière Feu karmique de l'autre rive, vous pouvez le consulter et l'équiper via l'interface Personnages - Tenues.\n● L'accessoire de Tenue pionnière sera masqué dans certains segments de missions et cinématiques.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
 		"VersionAdded": "4.3"
+	},
+	"50116": {
+		"Id": "50116",
+		"Name": "Guerre du Saint Graal imagénérée",
+		"TabName": "Guerre du Saint Graal imagénérée",
+		"Description": "Une pluie d'or s'abat. Le Saint Graal a été dérobé. Dans l'ombre loin du clair de la Fabulune, le trésor d'un roi se disperse soudain aux quatre vents.\nPour éviter que tout ne sombre dans le chaos, vous n'aurez d'autre choix que de faire équipe avec Rin Tohsaka, une mage venue d'un autre monde, afin de restaurer l'ordre... et, bien entendu, de mettre la main sur votre part du trésor.",
+		"Tag": "Détails de l'événement",
+		"Introduction": "▌ Le jeu ne propose <color=#f29e38ff>aucun doublage anglais</color> pour les personnages de la collaboration. Vous pouvez changer de langue si vous le désirez.\n\n▌ Guerre du Saint Graal imagénérée\n● Une pluie d'or s'abat. Le Saint Graal a été dérobé. Dans l'ombre loin du clair de la Fabulune, vous foulerez le champ de bataille de la Guerre du Saint Graal imagénérée, accompagné de Rin Tohsaka, une mage venue d'un autre monde...\n\n▌ Fate/Star Rail Night\n◆ Règles de l'événement ◆\n● Dans Fate/Star Rail Night, vous rejoignez la Guerre du Saint Graal imagénérée pour y rassembler des trésors perdus et mener des combats à l'aide de Codes mystiques conceptuels.\n\n◆ Récompenses permanentes ◆\n● Terminez des missions permanentes dans Fate/Star Rail Night pour obtenir des récompenses permanentes.\n\n◆ Récompenses à durée limitée ◆\n● Pendant l'événement à durée limitée, terminez les missions à durée limitée dans Fate/Star Rail Night pour obtenir des récompenses à durée limitée.\n\n◆ Rappel de l'événement ◆\n● Une fois l'événement à durée limitée Fate/Star Rail Night terminé, vous ne pourrez plus obtenir les récompenses à durée limitée. Cependant, vous pourrez toujours vous rendre dans le quartier de Colombeaux pour profiter de l'événement et obtenir les récompenses permanentes.\n\n▌ Cadeau Fate\n● Pendant la période de l'événement, dépensez un total de <unbreak>200</unbreak> Pass spéciaux du Star Rail dans n'importe quel Saut événement de la version <unbreak>4.4</unbreak>. Cela vous permettra d'obtenir la récompense une fois que le Saut de collaboration sera disponible.\n● Le compte du nombre total de Pass spéciaux du Star Rail dépensés est commun à tous les Sauts événements de la version <unbreak>4.4</unbreak>.\n● Cette récompense ne peut être récupérée qu'une seule fois au cours de l'événement.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50117": {
+		"Id": "50117",
+		"Name": "Guerre du Saint Graal imagénérée",
+		"TabName": "Guerre du Saint Graal imagénérée",
+		"Tag": "Détails de l'événement",
+		"Introduction": "▌ Après le début de l'événement Guerre du Saint Graal imagénérée, vous pourrez participer à la continuité pionnière et au mode de jeu de l'événement de collaboration. Le jeu ne propose <color=#f29e38ff>aucun doublage anglais</color> pour les personnages de la collaboration. Vous pouvez changer de langue pour en profiter.\n\n▌ Guerre du Saint Graal imagénérée\n◆ Présentation ◆\n● Une pluie dorée, un Saint Graal dérobé... Dans les ombres que le clair de Fabulune n'atteint jamais, vous foulerez aux côtés de Rin Tohsaka, une mage venue d'un autre monde, le champ de bataille de la Guerre du Saint Graal imagénérée...\n◆ Règles de l'événement ◆\n● Dans Fate/Star Rail Night, vous rejoignez la Guerre du Saint Graal imagénérée pour y rassembler des trésors perdus et mener des combats à l'aide de Codes mystiques.\n\n▌ Cadeau Fate\n● Pendant la période de l'événement, dépensez un total de <unbreak>200</unbreak> Pass spéciaux du Star Rail dans n'importe quel Saut événement de la version <unbreak>4.4</unbreak>. Cela vous permettra d'obtenir la récompense une fois que le Saut de collaboration sera disponible.\n● Le compte du nombre total de Pass spéciaux du Star Rail dépensés est commun à tous les Sauts événements de la version <unbreak>4.4</unbreak>.\n● Cette récompense ne peut être récupérée qu'une seule fois au cours de l'événement.\n\n▌ Contrat Fate : Renouveau\n● Pendant l'événement, tous les Pionniers au Niveau de pionnier 3 ou supérieur peuvent se connecter et recevoir immédiatement le personnage 5 étoiles de collaboration exclusif Gilgamesh ou Archer.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50118": {
+		"Id": "50118",
+		"Name": "Contrat Fate : Renouveau",
+		"TabName": "Contrat Fate : Renouveau",
+		"Tag": "Détails de l'événement",
+		"Introduction": "Contrat Fate : Renouveau",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionChoose0440.png",
+		"VersionAdded": "4.4"
 	},
 	"60001": {
 		"Id": "60001",
@@ -2279,5 +2353,14 @@
 		"Tag": "Mission pionnière disponible",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
 		"VersionAdded": "4.3"
+	},
+	"80028": {
+		"Id": "80028",
+		"Name": "Sifflement à l'heure du silence",
+		"TabName": "Mission pionnière",
+		"Description": "La navigatrice trace la route vers l'apocalypse. Un sifflet lugubre retentit... Seule l'expédition pionnière ouvrira une voie pour se sortir de cette impasse mortelle.",
+		"Tag": "Mission pionnière disponible",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory440.png",
+		"VersionAdded": "4.4"
 	}
 }

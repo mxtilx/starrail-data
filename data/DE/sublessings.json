@@ -8140,6 +8140,27 @@
 		"Effect": "Erhöht den von Mortenax Blade verursachten SCH in Divergentes Universum.\n\nNach LP-Verlust wird für <color=#f29e38ff>2</color> Rd. die LP-Wiederherstellung um <color=#f29e38ff>15%</color> und der endgültige SCH um <color=#f29e38ff>15%</color> erhöht.",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "Rin Tohsaka",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Rin Tohsaka verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH um <color=#f29e38ff>15%</color>. Stellt zu Beginn der Runde <color=#f29e38ff>1</color> Fertigkeitspunkt(e) wieder her.",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "Gilgamesh",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Gilgamesh verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem Einsatz des Ultimates um <color=#f29e38ff>6%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>5</color>-fach stapelbar.",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "Himeko – Nova",
+		"Rarity": 1,
+		"Effect": "Erhöht den von Himeko – Nova verursachten SCH in Divergentes Universum.\n\nErhöht den verursachten endgültigen SCH bei jedem Einsatz der Unterstützungsfertigkeit um <color=#f29e38ff>3%</color>. Dieser Effekt ist bis zu <color=#f29e38ff>10</color>-fach stapelbar.",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

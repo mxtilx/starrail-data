@@ -128078,7 +128078,7 @@
 				"Name": "刃下，歸葬",
 				"NodeType": 2,
 				"NodeTypeText": "戰技",
-				"EffectRaw": "消耗等同於千冶•刃生命上限<unbreak>#4[i]%</unbreak>的生命值對敵方全體造成等同於千冶•刃<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>生命上限的火屬性傷害，並額外造成<unbreak>#2[i]</unbreak>次傷害，每次傷害對隨機敵方單體造成等同於千冶•刃<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>生命上限的火屬性傷害。\n若現有生命值不足，施放戰技時千冶•刃的現有生命值降低至1點。\n未處於【無量忿怒】狀態或現有生命值小於等於1時，千冶•刃無法施放戰技。\n施放戰技時不消耗戰技點。",
+				"EffectRaw": "消耗等同於千冶•刃生命上限<unbreak>#4[f1]%</unbreak>的生命值對敵方全體造成等同於千冶•刃<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>生命上限的火屬性傷害，並額外造成<unbreak>#2[i]</unbreak>次傷害，每次傷害對隨機敵方單體造成等同於千冶•刃<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>生命上限的火屬性傷害。\n若現有生命值不足，施放戰技時千冶•刃的現有生命值降低至1點。\n未處於【無量忿怒】狀態或現有生命值小於等於1點時，千冶•刃無法施放戰技。\n施放戰技時不消耗戰技點。",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"150702",
@@ -129387,6 +129387,1467 @@
 			}
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "姬子•啟行",
+		"Nodes": {
+			"1510001": {
+				"Id": "1510001",
+				"Name": "點燃第一里航標",
+				"NodeType": 2,
+				"NodeTypeText": "普通攻擊",
+				"EffectRaw": "對敵方單體造成等同於姬子•啟行<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻擊力的火屬性傷害。",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"151001"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天體模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510002": {
+				"Id": "1510002",
+				"Name": "升起領航的烽火",
+				"NodeType": 2,
+				"NodeTypeText": "戰技",
+				"EffectRaw": "施放戰技後立即恢復所有<u>助戰技</u>使用次數，姬子•啟行獲得【領航旗語】，持續<unbreak>#2[i]</unbreak>回合，姬子•啟行每回合開始時持續回合數減1。當姬子•啟行擁有【領航旗語】時，我方全體造成的傷害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，每個回合開始時，立即恢復1次<u>助戰技</u>使用次數。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151002"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.1,
+							3
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.11,
+							3
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.12,
+							3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天體模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.13,
+							3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.14,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.15,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.1625,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.175,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.1875,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510003": {
+				"Id": "1510003",
+				"Name": "我們，亦是逐星的巨人",
+				"NodeType": 2,
+				"NodeTypeText": "終結技",
+				"EffectRaw": "立即操控「拓星者」，「拓星者」擁有可對敵方施放6次的【超頻粒子光束】或消耗<u>【源能】</u>施放的【軌道殲滅脈衝】，對指定敵方單體最多造成等同於姬子•啟行<color=#f29e38ff><unbreak>#9[i]%</unbreak></color>攻擊力的火屬性傷害，對其他目標最多造成等同於姬子•啟行<color=#f29e38ff><unbreak>#10[i]%</unbreak></color>攻擊力的火屬性傷害。\n當【超頻粒子光束】次數耗盡時，會自動施放【軌道殲滅脈衝】，隨後施放最後一擊，造成<unbreak>#6[i]</unbreak>次傷害，每次傷害對敵方隨機單體造成等同於姬子•啟行<color=#f29e38ff><unbreak>#7[i]%</unbreak></color>攻擊力的火屬性傷害。\n施放【超頻粒子光束】或【軌道殲滅脈衝】對場上所有敵方造成致命傷害或敵方無法被繼續削減生命值時，會立即施放最後一擊。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151003",
+					"151008",
+					"151009",
+					"151014"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.16,
+							1,
+							0.1,
+							1,
+							0.15,
+							3,
+							0.4,
+							3,
+							3.81,
+							1.26
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.176,
+							1,
+							0.11,
+							1,
+							0.165,
+							3,
+							0.44,
+							3,
+							4.191,
+							1.386
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.192,
+							1,
+							0.12,
+							1,
+							0.18,
+							3,
+							0.48,
+							3,
+							4.572,
+							1.512
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天體模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.208,
+							1,
+							0.13,
+							1,
+							0.195,
+							3,
+							0.52,
+							3,
+							4.953,
+							1.638
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.224,
+							1,
+							0.14,
+							1,
+							0.21,
+							3,
+							0.56,
+							3,
+							5.334,
+							1.764
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.24,
+							1,
+							0.15,
+							1,
+							0.225,
+							3,
+							0.6,
+							3,
+							5.715,
+							1.89
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.26,
+							1,
+							0.1625,
+							1,
+							0.2438,
+							3,
+							0.65,
+							3,
+							6.1913,
+							2.0475
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.28,
+							1,
+							0.175,
+							1,
+							0.2625,
+							3,
+							0.7,
+							3,
+							6.6675,
+							2.205
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.3,
+							1,
+							0.1875,
+							1,
+							0.2813,
+							3,
+							0.75,
+							3,
+							7.1438,
+							2.3625
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.32,
+							1,
+							0.2,
+							1,
+							0.3,
+							3,
+							0.8,
+							3,
+							7.62,
+							2.52
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510004": {
+				"Id": "1510004",
+				"Name": "共赴灼熱的遠征",
+				"NodeType": 2,
+				"NodeTypeText": "天賦",
+				"EffectRaw": "姬子•啟行在場時立即展開<u>境界</u>【拓星視界】，場上出現「拓星者」，並使我方全體角色獲得1次<u>助戰技</u>使用次數。我方角色可使用<u>助戰技</u>呼喚「拓星者」攻擊敵人。\n使用<u>助戰技</u>視為姬子•啟行施放了戰技，姬子•啟行獲得全屬性<u>抗性穿透</u>提高<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>、暴擊傷害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，攻擊時可無視弱點屬性削減敵方韌性，擊破弱點時，觸發火屬性的弱點擊破效果。\n除姬子•啟行外的我方角色使用<u>助戰技</u>時，會使其恢復<unbreak>#3[i]</unbreak>點能量。",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151004",
+					"151022",
+					"151025",
+					"151026"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.1,
+							4
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.44,
+							0.11,
+							4
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.48,
+							0.12,
+							4
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天體模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.52,
+							0.13,
+							4
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.56,
+							0.14,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.6,
+							0.15,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.65,
+							0.1625,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.7,
+							0.175,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.75,
+							0.1875,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.8,
+							0.2,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510007": {
+				"Id": "1510007",
+				"Name": "拓星巡航",
+				"NodeType": 2,
+				"NodeTypeText": "秘技",
+				"EffectRaw": "姬子•啟行在隊伍中時，使秘技點上限提高3點。\n使用秘技後進入持續<unbreak>#1[i]</unbreak>秒的【巡航】狀態，主動施放秘技消耗2點秘技點，立即攻擊一定範圍內的所有敵人。進入戰鬥後，每一波開始時立即施放1次戰技。\n若攻擊普通敵人則立即將其消滅，不會進入戰鬥。未命中敵人時不消耗秘技點。",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"151007"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							30
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1510101": {
+				"Id": "1510101",
+				"Name": "人類該向何處去",
+				"NodeType": 3,
+				"EffectRaw": "姬子•啟行使用<u>助戰技</u>不消耗<u>助戰技</u>使用次數。回合開始時，若當下<u>助戰技</u>使用次數等於當下使用次數上限，姬子•啟行額外恢復<unbreak>#1[i]</unbreak>點能量。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							5
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天體模型",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510102": {
+				"Id": "1510102",
+				"Name": "列車的脈搏在轟鳴",
+				"NodeType": 3,
+				"EffectRaw": "除姬子•啟行外的<u>開拓同行</u>角色使用<u>助戰技</u>時，該角色會立即獲得1個可插入施放終結技的<u>額外回合</u>，因<u>助戰技</u>獲得的<u>額外回合</u>不會重複觸發此行跡效果。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510103": {
+				"Id": "1510103",
+				"Name": "銀軌在曠古中靜默",
+				"NodeType": 3,
+				"EffectRaw": "施放終結技時，立即獲得<unbreak>#1[i]</unbreak>點<u>【源能】</u>。若當下<u>【源能】</u>達到<unbreak>#2[i]</unbreak>點，則施放【軌道殲滅脈衝】攻擊時，【軌道殲滅脈衝】對敵方隨機單體造成的傷害倍率提高<unbreak>#3[i]%</unbreak>。",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							3,
+							3,
+							0.3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "命運的足跡",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "滅流絕溢的緘默",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510201": {
+				"Id": "1510201",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1510202": {
+				"Id": "1510202",
+				"Name": "暴擊率強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊率提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1510101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "天體模型",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "童真蠟筆",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1510203": {
+				"Id": "1510203",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510204": {
+				"Id": "1510204",
+				"Name": "傷害強化•火",
+				"NodeType": 1,
+				"EffectRaw": "火屬性傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510205": {
+				"Id": "1510205",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1510102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "星系框架",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "造夢蘸鋼",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510206": {
+				"Id": "1510206",
+				"Name": "暴擊率強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊率提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510207": {
+				"Id": "1510207",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510208": {
+				"Id": "1510208",
+				"Name": "傷害強化•火",
+				"NodeType": 1,
+				"EffectRaw": "火屬性傷害提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510209": {
+				"Id": "1510209",
+				"Name": "暴擊率強化",
+				"NodeType": 1,
+				"EffectRaw": "暴擊率提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510210": {
+				"Id": "1510210",
+				"Name": "攻擊強化",
+				"NodeType": 1,
+				"EffectRaw": "攻擊力提高<unbreak>#1[f1]%</unbreak>",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"LevelRequired": 80,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "信用點",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "銀河沙盤",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "夢現管錐",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

@@ -3279,6 +3279,47 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko Nova",
+		"ElementType": "Fire",
+		"ElementTypeText": "Fuego",
+		"PathType": "Mage",
+		"PathTypeText": "Erudición",
+		"Eidolons": [
+			{
+				"Id": "151001",
+				"Name": "Nuestro porvenir es trazar caminos",
+				"Effect": "El lanzamiento adicional de la <u>habilidad de apoyo</u> del talento se puede activar 1 vez más. En el estado Protocolo de acompañante: Veredicto, los usos de la habilidad definitiva necesarios para lanzar la <u>habilidad de apoyo</u> se reducen en 1. En el estado Protocolo de acompañante: Aniquilación, la carga necesaria para lanzar la <u>habilidad de apoyo</u> se reduce en 3 puntos. Cuando Himeko Nova lanza la <u>habilidad de apoyo</u>, las veces que el efecto inflige daño extra aumentan en 1."
+			},
+			{
+				"Id": "151002",
+				"Name": "Estandarte, vela que nunca se arría",
+				"Effect": "La <u>habilidad de apoyo</u> de Himeko Nova aumenta su límite de usos a 2 y el daño que infligen la habilidad definitiva y la <u>habilidad de apoyo</u> es un 130% del daño original. En el estado Señales de navegación, al comenzar cada turno se recupera inmediatamente 1 uso adicional de la <u>habilidad de apoyo</u>. Los personajes que no sean <u>Camaradas trazacaminos</u> también activan el efecto del Rastro Pulso atronador del Expreso y obtienen 1 <u>turno adicional</u> al usar la <u>habilidad de apoyo</u>."
+			},
+			{
+				"Id": "151003",
+				"Name": "Los hijos de las estrellas contemplamos el cosmos",
+				"Effect": "Niv. de habilidad definitiva +2 (máximo: nivel 15). Niv. de ATQ básico +1 (máximo: nivel 10)."
+			},
+			{
+				"Id": "151004",
+				"Name": "Toma cada mano que se alza hacia el cielo",
+				"Effect": "Cuando el talento Emprendamos la expedición ardiente usa la <u>habilidad de apoyo</u>, el efecto de aumento de la PEN de la RES a todos los tipos se aplica a todos los aliados. Cuando Himeko Nova obtiene este efecto, su PEN de la RES a todos los tipos aumenta en un 10% adicional."
+			},
+			{
+				"Id": "151005",
+				"Name": "Y recorre los confines del universo",
+				"Effect": "Niv. de habilidad básica +2 (máximo: nivel 15). Niv. de talento +2 (máximo: nivel 15)."
+			},
+			{
+				"Id": "151006",
+				"Name": "Juro que llegaré a las estrellas",
+				"Effect": "La <u>PEN de la RES</u> a Fuego de Himeko Nova aumenta en un 20%. El límite de <u>Energía primordial</u> aumenta a 6 pts. Cuando los aliados usan o lanzan la <u>habilidad de apoyo</u>, el daño que inflige la <u>habilidad de apoyo</u> aumenta en un 75% y Himeko Nova obtiene 1 pto. de <u>Energía primordial</u>. Cuando se lanza Rayo de partículas superaceleradas durante la habilidad definitiva, obtiene 1 pto. de <u>Energía primordial</u> adicional. Cuando se lanza Pulso de aniquilación orbital, si en ese momento hay 6 o más pts. de <u>Energía primordial</u>, inflige 1 vez a todos los enemigos un Daño de Fuego equivalente al 160% del ATQ de Himeko Nova."
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Trazacaminos (Físico)",

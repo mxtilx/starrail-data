@@ -8009,6 +8009,204 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"23060": {
+		"Id": "23060",
+		"Name": "Une étoile illuminant la nuit",
+		"PathType": "Mage",
+		"PathTypeText": "L'Érudition",
+		"EffectName": "Premier vœu",
+		"EffectTemplate": "Les DGT infligés par le porteur ignorent <color=#f29e38ff>#7[i]%</color> de la DÉF des cibles. Lorsque le porteur utilise une compétence de soutien, il régénère #2[i] points d'énergie et obtient l'état Voile pour une durée de 2 tours, cumulable jusqu'à #3[i] fois. Chaque cumul de Voile augmente les DGT de la compétence de soutien de <color=#f29e38ff>#4[i]%</color>. Lorsque les cumuls de Voile atteignent le nombre de #5[i], chaque cumul augmente les DGT d'ultime de <color=#f29e38ff>#6[i]%</color>.",
+		"Superimpositions": [
+			{
+				"Effect": "Les DGT infligés par le porteur ignorent <color=#f29e38ff>32%</color> de la DÉF des cibles. Lorsque le porteur utilise une compétence de soutien, il régénère 6 points d'énergie et obtient l'état Voile pour une durée de 2 tours, cumulable jusqu'à 3 fois. Chaque cumul de Voile augmente les DGT de la compétence de soutien de <color=#f29e38ff>20%</color>. Lorsque les cumuls de Voile atteignent le nombre de 3, chaque cumul augmente les DGT d'ultime de <color=#f29e38ff>20%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.2,
+					3,
+					0.2,
+					0.32
+				]
+			},
+			{
+				"Effect": "Les DGT infligés par le porteur ignorent <color=#f29e38ff>36%</color> de la DÉF des cibles. Lorsque le porteur utilise une compétence de soutien, il régénère 6 points d'énergie et obtient l'état Voile pour une durée de 2 tours, cumulable jusqu'à 3 fois. Chaque cumul de Voile augmente les DGT de la compétence de soutien de <color=#f29e38ff>25%</color>. Lorsque les cumuls de Voile atteignent le nombre de 3, chaque cumul augmente les DGT d'ultime de <color=#f29e38ff>25%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.25,
+					3,
+					0.25,
+					0.36
+				]
+			},
+			{
+				"Effect": "Les DGT infligés par le porteur ignorent <color=#f29e38ff>40%</color> de la DÉF des cibles. Lorsque le porteur utilise une compétence de soutien, il régénère 6 points d'énergie et obtient l'état Voile pour une durée de 2 tours, cumulable jusqu'à 3 fois. Chaque cumul de Voile augmente les DGT de la compétence de soutien de <color=#f29e38ff>30%</color>. Lorsque les cumuls de Voile atteignent le nombre de 3, chaque cumul augmente les DGT d'ultime de <color=#f29e38ff>30%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.3,
+					3,
+					0.3,
+					0.4
+				]
+			},
+			{
+				"Effect": "Les DGT infligés par le porteur ignorent <color=#f29e38ff>44%</color> de la DÉF des cibles. Lorsque le porteur utilise une compétence de soutien, il régénère 6 points d'énergie et obtient l'état Voile pour une durée de 2 tours, cumulable jusqu'à 3 fois. Chaque cumul de Voile augmente les DGT de la compétence de soutien de <color=#f29e38ff>35%</color>. Lorsque les cumuls de Voile atteignent le nombre de 3, chaque cumul augmente les DGT d'ultime de <color=#f29e38ff>35%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.35,
+					3,
+					0.35,
+					0.44
+				]
+			},
+			{
+				"Effect": "Les DGT infligés par le porteur ignorent <color=#f29e38ff>48%</color> de la DÉF des cibles. Lorsque le porteur utilise une compétence de soutien, il régénère 6 points d'énergie et obtient l'état Voile pour une durée de 2 tours, cumulable jusqu'à 3 fois. Chaque cumul de Voile augmente les DGT de la compétence de soutien de <color=#f29e38ff>40%</color>. Lorsque les cumuls de Voile atteignent le nombre de 3, chaque cumul augmente les DGT d'ultime de <color=#f29e38ff>40%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.4,
+					3,
+					0.4,
+					0.48
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23061": {
+		"Id": "23061",
+		"Name": "Étoiles scintillantes",
+		"PathType": "Mage",
+		"PathTypeText": "L'Érudition",
+		"EffectName": "Pousse",
+		"EffectTemplate": "Augmente les chances de coup critique du porteur de <color=#f29e38ff>#1[i]%</color>. Lorsqu'un allié consomme un total d'au moins #3[i] points de compétence en un seul tour, le porteur obtient Couronne radieuse pour une durée de #4[i] tours. Lorsque le porteur bénéficie de Couronne radieuse, les DGT infligés par tous les alliés ignorent <color=#f29e38ff>#5[i]%</color> de la DÉF des cibles, et les DGT infligés par la compétence du porteur augmentent de <color=#f29e38ff>#2[i]%</color>. Les effets du même type ne peuvent pas être cumulés.",
+		"Superimpositions": [
+			{
+				"Effect": "Augmente les chances de coup critique du porteur de <color=#f29e38ff>18%</color>. Lorsqu'un allié consomme un total d'au moins 4 points de compétence en un seul tour, le porteur obtient Couronne radieuse pour une durée de 3 tours. Lorsque le porteur bénéficie de Couronne radieuse, les DGT infligés par tous les alliés ignorent <color=#f29e38ff>20%</color> de la DÉF des cibles, et les DGT infligés par la compétence du porteur augmentent de <color=#f29e38ff>72%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.18,
+					0.72,
+					4,
+					3,
+					0.2
+				]
+			},
+			{
+				"Effect": "Augmente les chances de coup critique du porteur de <color=#f29e38ff>21%</color>. Lorsqu'un allié consomme un total d'au moins 4 points de compétence en un seul tour, le porteur obtient Couronne radieuse pour une durée de 3 tours. Lorsque le porteur bénéficie de Couronne radieuse, les DGT infligés par tous les alliés ignorent <color=#f29e38ff>24%</color> de la DÉF des cibles, et les DGT infligés par la compétence du porteur augmentent de <color=#f29e38ff>84%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.21,
+					0.84,
+					4,
+					3,
+					0.24
+				]
+			},
+			{
+				"Effect": "Augmente les chances de coup critique du porteur de <color=#f29e38ff>24%</color>. Lorsqu'un allié consomme un total d'au moins 4 points de compétence en un seul tour, le porteur obtient Couronne radieuse pour une durée de 3 tours. Lorsque le porteur bénéficie de Couronne radieuse, les DGT infligés par tous les alliés ignorent <color=#f29e38ff>28%</color> de la DÉF des cibles, et les DGT infligés par la compétence du porteur augmentent de <color=#f29e38ff>96%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.24,
+					0.96,
+					4,
+					3,
+					0.28
+				]
+			},
+			{
+				"Effect": "Augmente les chances de coup critique du porteur de <color=#f29e38ff>27%</color>. Lorsqu'un allié consomme un total d'au moins 4 points de compétence en un seul tour, le porteur obtient Couronne radieuse pour une durée de 3 tours. Lorsque le porteur bénéficie de Couronne radieuse, les DGT infligés par tous les alliés ignorent <color=#f29e38ff>32%</color> de la DÉF des cibles, et les DGT infligés par la compétence du porteur augmentent de <color=#f29e38ff>108%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.27,
+					1.08,
+					4,
+					3,
+					0.32
+				]
+			},
+			{
+				"Effect": "Augmente les chances de coup critique du porteur de <color=#f29e38ff>30%</color>. Lorsqu'un allié consomme un total d'au moins 4 points de compétence en un seul tour, le porteur obtient Couronne radieuse pour une durée de 3 tours. Lorsque le porteur bénéficie de Couronne radieuse, les DGT infligés par tous les alliés ignorent <color=#f29e38ff>36%</color> de la DÉF des cibles, et les DGT infligés par la compétence du porteur augmentent de <color=#f29e38ff>120%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.3,
+					1.2,
+					4,
+					3,
+					0.36
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23062": {
+		"Id": "23062",
+		"Name": "Je suis tel que tu me vois",
+		"PathType": "Warrior",
+		"PathTypeText": "La Destruction",
+		"EffectName": "À volonté",
+		"EffectTemplate": "Augmente l'ATQ du porteur de <color=#f29e38ff>#1[i]%</color> et son taux de régénération d'énergie de <color=#f29e38ff>#2[f1]%</color>. Lorsque le porteur utilise son ultime, augmente les DGT d'ultime infligés par cette attaque de <color=#f29e38ff>#3[f2]%</color> pour chaque point d'énergie consommé, jusqu'à un maximum de <color=#f29e38ff>#6[i]%</color>. Lorsque le porteur entre en combat ou utilise son ultime, il obtient l'état Amusement royal pour une durée de #4[i] tours. Lorsque le porteur est dans l'état Amusement royal, augmente les DGT critiques de tous les alliés de <color=#f29e38ff>#5[i]%</color>. Les effets du même type ne peuvent pas être cumulés.",
+		"Superimpositions": [
+			{
+				"Effect": "Augmente l'ATQ du porteur de <color=#f29e38ff>18%</color> et son taux de régénération d'énergie de <color=#f29e38ff>10.0%</color>. Lorsque le porteur utilise son ultime, augmente les DGT d'ultime infligés par cette attaque de <color=#f29e38ff>0.20%</color> pour chaque point d'énergie consommé, jusqu'à un maximum de <color=#f29e38ff>72%</color>. Lorsque le porteur entre en combat ou utilise son ultime, il obtient l'état Amusement royal pour une durée de 3 tours. Lorsque le porteur est dans l'état Amusement royal, augmente les DGT critiques de tous les alliés de <color=#f29e38ff>24%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.18,
+					0.1,
+					0.002,
+					3,
+					0.24,
+					0.72
+				]
+			},
+			{
+				"Effect": "Augmente l'ATQ du porteur de <color=#f29e38ff>21%</color> et son taux de régénération d'énergie de <color=#f29e38ff>12.5%</color>. Lorsque le porteur utilise son ultime, augmente les DGT d'ultime infligés par cette attaque de <color=#f29e38ff>0.25%</color> pour chaque point d'énergie consommé, jusqu'à un maximum de <color=#f29e38ff>90%</color>. Lorsque le porteur entre en combat ou utilise son ultime, il obtient l'état Amusement royal pour une durée de 3 tours. Lorsque le porteur est dans l'état Amusement royal, augmente les DGT critiques de tous les alliés de <color=#f29e38ff>30%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.21,
+					0.125,
+					0.0025,
+					3,
+					0.3,
+					0.9
+				]
+			},
+			{
+				"Effect": "Augmente l'ATQ du porteur de <color=#f29e38ff>24%</color> et son taux de régénération d'énergie de <color=#f29e38ff>15.0%</color>. Lorsque le porteur utilise son ultime, augmente les DGT d'ultime infligés par cette attaque de <color=#f29e38ff>0.30%</color> pour chaque point d'énergie consommé, jusqu'à un maximum de <color=#f29e38ff>108%</color>. Lorsque le porteur entre en combat ou utilise son ultime, il obtient l'état Amusement royal pour une durée de 3 tours. Lorsque le porteur est dans l'état Amusement royal, augmente les DGT critiques de tous les alliés de <color=#f29e38ff>36%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.24,
+					0.15,
+					0.003,
+					3,
+					0.36,
+					1.08
+				]
+			},
+			{
+				"Effect": "Augmente l'ATQ du porteur de <color=#f29e38ff>27%</color> et son taux de régénération d'énergie de <color=#f29e38ff>17.5%</color>. Lorsque le porteur utilise son ultime, augmente les DGT d'ultime infligés par cette attaque de <color=#f29e38ff>0.35%</color> pour chaque point d'énergie consommé, jusqu'à un maximum de <color=#f29e38ff>126%</color>. Lorsque le porteur entre en combat ou utilise son ultime, il obtient l'état Amusement royal pour une durée de 3 tours. Lorsque le porteur est dans l'état Amusement royal, augmente les DGT critiques de tous les alliés de <color=#f29e38ff>42%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.27,
+					0.175,
+					0.0035,
+					3,
+					0.42,
+					1.26
+				]
+			},
+			{
+				"Effect": "Augmente l'ATQ du porteur de <color=#f29e38ff>30%</color> et son taux de régénération d'énergie de <color=#f29e38ff>20.0%</color>. Lorsque le porteur utilise son ultime, augmente les DGT d'ultime infligés par cette attaque de <color=#f29e38ff>0.40%</color> pour chaque point d'énergie consommé, jusqu'à un maximum de <color=#f29e38ff>144%</color>. Lorsque le porteur entre en combat ou utilise son ultime, il obtient l'état Amusement royal pour une durée de 3 tours. Lorsque le porteur est dans l'état Amusement royal, augmente les DGT critiques de tous les alliés de <color=#f29e38ff>48%</color>. Les effets du même type ne peuvent pas être cumulés.",
+				"Params": [
+					0.3,
+					0.2,
+					0.004,
+					3,
+					0.48,
+					1.44
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "La chute d'un Aiôn",

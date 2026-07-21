@@ -8140,6 +8140,27 @@
 		"Effect": "階差宇宙において、千冶・刃のダメージが増幅される。\n\nHPが減少した後、HP回復量+<color=#f29e38ff>15%</color>、最終ダメージ+<color=#f29e38ff>15%</color>、<color=#f29e38ff>2</color>ターン継続。",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "遠坂凛",
+		"Rarity": 1,
+		"Effect": "階差宇宙において、遠坂凛のダメージが増幅される。\n\n与える最終ダメージ+<color=#f29e38ff>15%</color>。ターンが回ってきた時、SPを<color=#f29e38ff>1</color>回復する。",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "ギルガメッシュ",
+		"Rarity": 1,
+		"Effect": "階差宇宙において、ギルガメッシュのダメージが増幅される。\n\n必殺技を発動するたび、自身が与える最終ダメージ+<color=#f29e38ff>6%</color>。最大で<color=#f29e38ff>5</color>層累積できる。",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "姫子・旅立ち",
+		"Rarity": 1,
+		"Effect": "階差宇宙において、姫子・旅立ちのダメージが増幅される。\n\n支援スキルを発動するたび、自身が与える最終ダメージ+<color=#f29e38ff>3%</color>。最大で<color=#f29e38ff>10</color>層累積できる。",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

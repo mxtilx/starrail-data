@@ -8009,6 +8009,204 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"23060": {
+		"Id": "23060",
+		"Name": "A Star That Lights the Night",
+		"PathType": "Mage",
+		"PathTypeText": "Erudition",
+		"EffectName": "First Wish",
+		"EffectTemplate": "Saat mengakibatkan DMG, pengguna akan mengabaikan <color=#f29e38ff>#7[i]%</color> DEF target. Saat melancarkan Skill Dukungan, pengguna memulihkan #2[i] Energy dan memperoleh \"Sail\", berlangsung selama 2 giliran, dan dapat ditumpuk hingga #3[i] lapis. Setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>#4[i]%</color> DMG Skill Dukungan. Saat \"Sail\" mencapai #5[i] lapis, setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>#6[i]%</color> Ultimate DMG.",
+		"Superimpositions": [
+			{
+				"Effect": "Saat mengakibatkan DMG, pengguna akan mengabaikan <color=#f29e38ff>32%</color> DEF target. Saat melancarkan Skill Dukungan, pengguna memulihkan 6 Energy dan memperoleh \"Sail\", berlangsung selama 2 giliran, dan dapat ditumpuk hingga 3 lapis. Setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>20%</color> DMG Skill Dukungan. Saat \"Sail\" mencapai 3 lapis, setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>20%</color> Ultimate DMG.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.2,
+					3,
+					0.2,
+					0.32
+				]
+			},
+			{
+				"Effect": "Saat mengakibatkan DMG, pengguna akan mengabaikan <color=#f29e38ff>36%</color> DEF target. Saat melancarkan Skill Dukungan, pengguna memulihkan 6 Energy dan memperoleh \"Sail\", berlangsung selama 2 giliran, dan dapat ditumpuk hingga 3 lapis. Setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>25%</color> DMG Skill Dukungan. Saat \"Sail\" mencapai 3 lapis, setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>25%</color> Ultimate DMG.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.25,
+					3,
+					0.25,
+					0.36
+				]
+			},
+			{
+				"Effect": "Saat mengakibatkan DMG, pengguna akan mengabaikan <color=#f29e38ff>40%</color> DEF target. Saat melancarkan Skill Dukungan, pengguna memulihkan 6 Energy dan memperoleh \"Sail\", berlangsung selama 2 giliran, dan dapat ditumpuk hingga 3 lapis. Setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>30%</color> DMG Skill Dukungan. Saat \"Sail\" mencapai 3 lapis, setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>30%</color> Ultimate DMG.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.3,
+					3,
+					0.3,
+					0.4
+				]
+			},
+			{
+				"Effect": "Saat mengakibatkan DMG, pengguna akan mengabaikan <color=#f29e38ff>44%</color> DEF target. Saat melancarkan Skill Dukungan, pengguna memulihkan 6 Energy dan memperoleh \"Sail\", berlangsung selama 2 giliran, dan dapat ditumpuk hingga 3 lapis. Setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>35%</color> DMG Skill Dukungan. Saat \"Sail\" mencapai 3 lapis, setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>35%</color> Ultimate DMG.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.35,
+					3,
+					0.35,
+					0.44
+				]
+			},
+			{
+				"Effect": "Saat mengakibatkan DMG, pengguna akan mengabaikan <color=#f29e38ff>48%</color> DEF target. Saat melancarkan Skill Dukungan, pengguna memulihkan 6 Energy dan memperoleh \"Sail\", berlangsung selama 2 giliran, dan dapat ditumpuk hingga 3 lapis. Setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>40%</color> DMG Skill Dukungan. Saat \"Sail\" mencapai 3 lapis, setiap lapis \"Sail\" meningkatkan <color=#f29e38ff>40%</color> Ultimate DMG.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.4,
+					3,
+					0.4,
+					0.48
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23061": {
+		"Id": "23061",
+		"Name": "Flickering Stars",
+		"PathType": "Mage",
+		"PathTypeText": "Erudition",
+		"EffectName": "Sprout",
+		"EffectTemplate": "CRIT Rate pengguna meningkat <color=#f29e38ff>#1[i]%</color>. Saat karakter tim mana pun mengonsumsi total lebih dari atau sama dengan #3[i] Poin Skill dalam satu gilirannya sendiri, pengguna memperoleh \"Radiant Crown\" selama #4[i] giliran. Saat pengguna memiliki \"Radiant Crown\", DMG yang diakibatkan seluruh rekan tim mengabaikan <color=#f29e38ff>#5[i]%</color> DEF target, dan Skill DMG yang diakibatkan pengguna meningkat <color=#f29e38ff>#2[i]%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+		"Superimpositions": [
+			{
+				"Effect": "CRIT Rate pengguna meningkat <color=#f29e38ff>18%</color>. Saat karakter tim mana pun mengonsumsi total lebih dari atau sama dengan 4 Poin Skill dalam satu gilirannya sendiri, pengguna memperoleh \"Radiant Crown\" selama 3 giliran. Saat pengguna memiliki \"Radiant Crown\", DMG yang diakibatkan seluruh rekan tim mengabaikan <color=#f29e38ff>20%</color> DEF target, dan Skill DMG yang diakibatkan pengguna meningkat <color=#f29e38ff>72%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.18,
+					0.72,
+					4,
+					3,
+					0.2
+				]
+			},
+			{
+				"Effect": "CRIT Rate pengguna meningkat <color=#f29e38ff>21%</color>. Saat karakter tim mana pun mengonsumsi total lebih dari atau sama dengan 4 Poin Skill dalam satu gilirannya sendiri, pengguna memperoleh \"Radiant Crown\" selama 3 giliran. Saat pengguna memiliki \"Radiant Crown\", DMG yang diakibatkan seluruh rekan tim mengabaikan <color=#f29e38ff>24%</color> DEF target, dan Skill DMG yang diakibatkan pengguna meningkat <color=#f29e38ff>84%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.21,
+					0.84,
+					4,
+					3,
+					0.24
+				]
+			},
+			{
+				"Effect": "CRIT Rate pengguna meningkat <color=#f29e38ff>24%</color>. Saat karakter tim mana pun mengonsumsi total lebih dari atau sama dengan 4 Poin Skill dalam satu gilirannya sendiri, pengguna memperoleh \"Radiant Crown\" selama 3 giliran. Saat pengguna memiliki \"Radiant Crown\", DMG yang diakibatkan seluruh rekan tim mengabaikan <color=#f29e38ff>28%</color> DEF target, dan Skill DMG yang diakibatkan pengguna meningkat <color=#f29e38ff>96%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.24,
+					0.96,
+					4,
+					3,
+					0.28
+				]
+			},
+			{
+				"Effect": "CRIT Rate pengguna meningkat <color=#f29e38ff>27%</color>. Saat karakter tim mana pun mengonsumsi total lebih dari atau sama dengan 4 Poin Skill dalam satu gilirannya sendiri, pengguna memperoleh \"Radiant Crown\" selama 3 giliran. Saat pengguna memiliki \"Radiant Crown\", DMG yang diakibatkan seluruh rekan tim mengabaikan <color=#f29e38ff>32%</color> DEF target, dan Skill DMG yang diakibatkan pengguna meningkat <color=#f29e38ff>108%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.27,
+					1.08,
+					4,
+					3,
+					0.32
+				]
+			},
+			{
+				"Effect": "CRIT Rate pengguna meningkat <color=#f29e38ff>30%</color>. Saat karakter tim mana pun mengonsumsi total lebih dari atau sama dengan 4 Poin Skill dalam satu gilirannya sendiri, pengguna memperoleh \"Radiant Crown\" selama 3 giliran. Saat pengguna memiliki \"Radiant Crown\", DMG yang diakibatkan seluruh rekan tim mengabaikan <color=#f29e38ff>36%</color> DEF target, dan Skill DMG yang diakibatkan pengguna meningkat <color=#f29e38ff>120%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.3,
+					1.2,
+					4,
+					3,
+					0.36
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23062": {
+		"Id": "23062",
+		"Name": "I Am As You Behold",
+		"PathType": "Warrior",
+		"PathTypeText": "Destruction",
+		"EffectName": "At Will",
+		"EffectTemplate": "Meningkatkan <color=#f29e38ff>#1[i]%</color> ATK dan <color=#f29e38ff>#2[f1]%</color> Energy Regeneration Rate pengguna. Saat pengguna melancarkan Ultimate, untuk setiap 1 poin Energy yang dikonsumsi, meningkatkan Ultimate DMG yang diakibatkan kali ini sebesar <color=#f29e38ff>#3[f2]%</color>, maksimal meningkat <color=#f29e38ff>#6[i]%</color>. Saat pengguna memasuki pertempuran atau melancarkan Ultimate, pengguna akan memperoleh \"King's Entertainment\" selama #4[i] giliran. Saat pengguna memiliki \"King's Entertainment\", CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>#5[i]%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+		"Superimpositions": [
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>18%</color> ATK dan <color=#f29e38ff>10.0%</color> Energy Regeneration Rate pengguna. Saat pengguna melancarkan Ultimate, untuk setiap 1 poin Energy yang dikonsumsi, meningkatkan Ultimate DMG yang diakibatkan kali ini sebesar <color=#f29e38ff>0.20%</color>, maksimal meningkat <color=#f29e38ff>72%</color>. Saat pengguna memasuki pertempuran atau melancarkan Ultimate, pengguna akan memperoleh \"King's Entertainment\" selama 3 giliran. Saat pengguna memiliki \"King's Entertainment\", CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>24%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.18,
+					0.1,
+					0.002,
+					3,
+					0.24,
+					0.72
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>21%</color> ATK dan <color=#f29e38ff>12.5%</color> Energy Regeneration Rate pengguna. Saat pengguna melancarkan Ultimate, untuk setiap 1 poin Energy yang dikonsumsi, meningkatkan Ultimate DMG yang diakibatkan kali ini sebesar <color=#f29e38ff>0.25%</color>, maksimal meningkat <color=#f29e38ff>90%</color>. Saat pengguna memasuki pertempuran atau melancarkan Ultimate, pengguna akan memperoleh \"King's Entertainment\" selama 3 giliran. Saat pengguna memiliki \"King's Entertainment\", CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>30%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.21,
+					0.125,
+					0.0025,
+					3,
+					0.3,
+					0.9
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>24%</color> ATK dan <color=#f29e38ff>15.0%</color> Energy Regeneration Rate pengguna. Saat pengguna melancarkan Ultimate, untuk setiap 1 poin Energy yang dikonsumsi, meningkatkan Ultimate DMG yang diakibatkan kali ini sebesar <color=#f29e38ff>0.30%</color>, maksimal meningkat <color=#f29e38ff>108%</color>. Saat pengguna memasuki pertempuran atau melancarkan Ultimate, pengguna akan memperoleh \"King's Entertainment\" selama 3 giliran. Saat pengguna memiliki \"King's Entertainment\", CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>36%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.24,
+					0.15,
+					0.003,
+					3,
+					0.36,
+					1.08
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>27%</color> ATK dan <color=#f29e38ff>17.5%</color> Energy Regeneration Rate pengguna. Saat pengguna melancarkan Ultimate, untuk setiap 1 poin Energy yang dikonsumsi, meningkatkan Ultimate DMG yang diakibatkan kali ini sebesar <color=#f29e38ff>0.35%</color>, maksimal meningkat <color=#f29e38ff>126%</color>. Saat pengguna memasuki pertempuran atau melancarkan Ultimate, pengguna akan memperoleh \"King's Entertainment\" selama 3 giliran. Saat pengguna memiliki \"King's Entertainment\", CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>42%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.27,
+					0.175,
+					0.0035,
+					3,
+					0.42,
+					1.26
+				]
+			},
+			{
+				"Effect": "Meningkatkan <color=#f29e38ff>30%</color> ATK dan <color=#f29e38ff>20.0%</color> Energy Regeneration Rate pengguna. Saat pengguna melancarkan Ultimate, untuk setiap 1 poin Energy yang dikonsumsi, meningkatkan Ultimate DMG yang diakibatkan kali ini sebesar <color=#f29e38ff>0.40%</color>, maksimal meningkat <color=#f29e38ff>144%</color>. Saat pengguna memasuki pertempuran atau melancarkan Ultimate, pengguna akan memperoleh \"King's Entertainment\" selama 3 giliran. Saat pengguna memiliki \"King's Entertainment\", CRIT DMG seluruh rekan tim meningkat <color=#f29e38ff>48%</color>. Efek dengan jenis serupa tidak dapat ditumpuk.",
+				"Params": [
+					0.3,
+					0.2,
+					0.004,
+					3,
+					0.48,
+					1.44
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "On the Fall of an Aeon",

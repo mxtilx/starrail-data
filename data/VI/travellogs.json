@@ -174,7 +174,7 @@
 		"Description": "Nhà Khai Phá thân mến, đồng đội trên tàu đang chờ bạn đó, hãy cùng bước vào hành trình, bắt đầu lại cuộc phiêu lưu ngân hà nào! Tối đa có thể nhận <unbreak>480</unbreak> Ngọc Ánh Sao!",
 		"Tag": "Chi Tiết Sự Kiện",
 		"Introduction": "◆Giới Thiệu Sự Kiện◆\n● Trong thời gian sự kiện, Nhà Khai Phá có thể mời Nhà Khai Phá Trở Về để nhận Ngọc Ánh Sao và quà xịn khác.\n● Nhà Khai Phá Năng Động có thể chia sẻ mã mời riêng của cá nhân, mời Nhà Khai Phá khác thỏa mãn điều kiện trở về, nhận thưởng Ngọc Ánh Sao và cơ hội rút thưởng.\n● Nhà Khai Phá Trở Về sau khi đăng nhập game, cũng có thể chia sẻ mã mời riêng của cá nhân, để mời Nhà Khai Phá khác thỏa mãn điều kiện trở về, tham gia sự kiện web.\n※ Cập nhật trạng thái của Nhà Khai Phá Trở Về bị trì hoãn, Nhà Khai Phá có thể làm mới trang web sau 2 phút để xem.\n\n◆Nhà Khai Phá Trở Về◆\nNhà Khai Phá tham gia sự kiện Hành Trình Trở Về được xem là Nhà Khai Phá Trở Về, điều kiện tham gia Hành Trình Trở Về như sau:\n● Cấp Khai Phá ≥<unbreak>10</unbreak>.\n● Hoàn thành nhiệm vụ khai phá \"Jarilo-VI\" - \"Cô Ấy Chờ Lưỡi Kiếm Đã Quá Lâu Rồi\".\n● Số ngày liên tục không đăng nhập game ≥ <unbreak>14</unbreak> ngày.\n● Cách thời gian tham gia sự kiện Hành Trình Trở Về lần trước ≥<unbreak>40</unbreak> ngày.\n※ Thời gian duy trì trạng thái Nhà Khai Phá Trở Về sẽ nhất quán với thời gian mở sự kiện Hành Trình Trở Về.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer420.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer440.png",
 		"VersionAdded": "2.0"
 	},
 	"10047": {
@@ -520,6 +520,15 @@
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nNhà Khai Phá mỗi ngày sau khi đăng nhập game, có thể nhận phần thưởng ngày trong Ký Sự Du Hành.\n\n◆ Thưởng Sự Kiện ◆\nPhần thưởng sẽ lần lượt mở khóa dựa theo số ngày tích lũy đăng nhập của Nhà Khai Phá, phần thưởng ngày sẽ làm mới vào <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
 		"VersionAdded": "4.3"
+	},
+	"10172": {
+		"Id": "10172",
+		"Name": "Món Quà Phiêu Lưu",
+		"TabName": "Món Quà Phiêu Lưu",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nNhà Khai Phá mỗi ngày sau khi đăng nhập game, có thể nhận phần thưởng ngày trong Ký Sự Du Hành.\n\n◆ Thưởng Sự Kiện ◆\nPhần thưởng sẽ lần lượt mở khóa dựa theo số ngày tích lũy đăng nhập của Nhà Khai Phá, phần thưởng ngày sẽ làm mới vào <unbreak>04</unbreak>:<unbreak>00</unbreak> (thời gian server).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0440.png",
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -913,7 +922,7 @@
 		"TabName": "Bộc Lộ Tài Năng",
 		"Tag": "Dùng Thử Nhân Vật",
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1113,6 +1122,33 @@
 		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
 		"VersionAdded": "4.3"
+	},
+	"20086": {
+		"Id": "20086",
+		"Name": "Bộc Lộ Tài Năng",
+		"TabName": "Bộc Lộ Tài Năng",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
+	},
+	"20087": {
+		"Id": "20087",
+		"Name": "Vận Mệnh Truy Đuổi",
+		"TabName": "Vận Mệnh Truy Đuổi",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Vận Mệnh Truy Đuổi\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện \"Vận Mệnh Truy Đuổi\" để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial53.png",
+		"VersionAdded": "4.4"
+	},
+	"20088": {
+		"Id": "20088",
+		"Name": "Bộc Lộ Tài Năng",
+		"TabName": "Bộc Lộ Tài Năng",
+		"Tag": "Dùng Thử Nhân Vật",
+		"Introduction": "◆ Quy Tắc Sự Kiện ◆\nTrong thời gian mở sự kiện Dùng Thử Nhân Vật \"Bộc Lộ Tài Năng\", Nhà Khai Phá có thể dùng đội cố định bao gồm nhân vật đã chọn dùng thử, để trải nghiệm ải chỉ định không hạn chế số lần.\nKhi trải nghiệm ải sự kiện, sẽ không thể điều chỉnh nhân vật, cấp nhân vật và Nón Ánh Sáng, Di Vật của nhân vật trong đội.\n\n◆ Thưởng Sự Kiện ◆\nSau khi hoàn thành khiêu chiến ải, có thể vào giao diện sự kiện để nhận phần thưởng ải dùng thử. Phần thưởng của các ải dùng thử chỉ được nhận 1 lần trong thời gian sự kiện.\nNếu Nhà Khai Phá đã từng hoàn thành ải dùng thử nhân vật tương ứng trong những phiên bản trước, thì có thể trực tiếp nhận thưởng.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1890,6 +1926,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
 		"VersionAdded": "4.3"
 	},
+	"50114": {
+		"Id": "50114",
+		"Name": "Chuyên Gia Chống Tham Nhũng",
+		"TabName": "Chuyên Gia Chống Tham Nhũng",
+		"Description": "Trên đời không có góc khuất nào không bám bụi. Dưới ủy thác của Aventurine, bạn đã phát động một cuộc điều tra chống tham nhũng nhắm vào Công Ty - thông qua việc hack vào cơ sở dữ liệu.",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "◆ Giới Thiệu ◆\nTrên đời không có góc khuất nào không bám bụi. Dưới ủy thác của Aventurine, bạn đã phát động một cuộc điều tra chống tham nhũng nhắm vào Công Ty - thông qua việc hack vào cơ sở dữ liệu.\n\n◆ Quy Tắc Sự Kiện ◆\n● Trong hành động hack, dưới sự hỗ trợ của Sói Bạc và Prometheus, Nhà Khai Phá sẽ sắp xếp các khối dữ liệu đã tháo gỡ, đối phó với cơ chế kỹ năng của Tường Lửa, cố gắng hoàn thành việc hack một cách an toàn nhất.\n● Trong quá trình vượt ải của chế độ cốt truyện, Nhà Khai Phá sẽ dần nhận được kỹ năng mạnh hơn, và tăng cấp Hacker, đối mặt với kẻ địch mạnh hơn.\n● Sau khi chế độ cốt truyện kết thúc, Nhà Khai Phá có thể tiếp tục cùng Sói Bạc và Prometheus, hoặc cùng các Hacker mạng khác tiến hành những thử thách có độ khó cao hơn trong chế độ Chơi Nhiều Người\n\n◆ Thưởng Vĩnh Viễn ◆\n● Nhận kinh nghiệm tại các ải trong trò chơi, tăng cấp Hacker sẽ nhận được phần thưởng tương ứng.\n\n◆ Thưởng Hạn Giờ ◆\n● Hoàn thành nhiệm vụ hạn giờ trong thời gian sự kiện có thể nhận Thưởng Hạn Giờ.\n\n",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestTeamTower.png",
+		"VersionAdded": "4.4"
+	},
 	"50115": {
 		"Id": "50115",
 		"Name": "Món Quà Tôi Luyện",
@@ -1899,6 +1945,34 @@
 		"Introduction": "◆ Chi Tiết Sự Kiện ◆\n● Trong thời gian Bước Nhảy Sự Kiện Nhân Vật \"Thân Ta Là Lưỡi Kiếm\" phiên bản <unbreak>4.3</unbreak>, sau khi nhận \"Mortenax Blade\" thông qua Bước Nhảy Sự Kiện Nhân Vật, có thể nhận Thời Trang Khai Phá phần lưng mới \"Bỉ Ngạn Nghiệp Hỏa\".\n● Sau khi nhận Thời Trang Khai Phá \"Bỉ Ngạn Nghiệp Hỏa\", có thể xem và chọn mặc tại giao diện \"Nhân Vật - Thời Trang\".\n● \"Thời Trang Khai Phá\" sẽ bị ẩn đi trong một số cảnh diễn xuất nhiệm vụ và đoạn cắt cảnh.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
 		"VersionAdded": "4.3"
+	},
+	"50116": {
+		"Id": "50116",
+		"Name": "Cuộc Chiến Chén Thánh Huyễn Tạo",
+		"TabName": "Cuộc Chiến Chén Thánh Huyễn Tạo",
+		"Description": "Một cơn mưa vàng, một chiếc Chén Thánh bị mất cắp... Trong một vùng bóng tối khác nơi Ảo Nguyệt không thể chiếu tới, kho báu của một vị vua nào đó lại bất ngờ tan rã và sụp đổ.\nĐể tránh gây ra hỗn loạn, bạn sẽ phải cùng pháp sư dị giới Rin Tohsaka, đến nơi đó duy trì trị an... và, thu thập phần kho báu thuộc về hai người.",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "▌ Nhân vật hợp tác <color=#f29e38ff>không hỗ trợ lồng tiếng tiếng Anh</color>, bạn có thể chuyển sang ngôn ngữ lồng tiếng khác để trải nghiệm.\n\n▌\"Cuộc Chiến Chén Thánh Huyễn Tạo\"\n● Một cơn mưa vàng, một chiếc Chén Thánh bị mất cắp... Trong bóng tối nơi Ảo Nguyệt không thể chiếu tới, bạn sẽ cùng pháp sư dị giới Rin Tohsaka bước vào chiến trường của Cuộc Chiến Chén Thánh Huyễn Tạo...\n\n▌\"Fate/Star Rail Night\"\n◆ Quy Tắc Sự Kiện ◆\n● Trong \"Fate/Star Rail Night\", Nhà Khai Phá sẽ tham gia Cuộc Chiến Chén Thánh Huyễn Tạo, thu thập kho báu rải rác và sử dụng Lễ Khí Khái Niệm để chiến đấu.\n\n◆ Thưởng Vĩnh Viễn ◆\n● Hoàn thành nhiệm vụ vĩnh viễn trong \"Fate/Star Rail Night\" có thể nhận Thưởng Vĩnh Viễn.\n\n◆ Thưởng Hạn Giờ ◆\n● Trong thời gian Sự Kiện Hạn Giờ, hoàn thành nhiệm vụ hạn giờ trong \"Fate/Star Rail Night\", có thể nhận được Thưởng Hạn Giờ.\n\n◆ Nhắc Nhở Sự Kiện ◆\n● Sau khi kết thúc Sự Kiện Hạn Giờ \"Fate/Star Rail Night\", Nhà Khai Phá sẽ không thể nhận Thưởng Hạn Giờ, nhưng vẫn có thể đến Quận Dovebrook trải nghiệm sự kiện và nhận thưởng vĩnh viễn.\n\n▌ Quà Tặng Fate\n● Trong sự kiện, Nhà Khai Phá tích lũy tiêu hao <unbreak>200</unbreak> Vé Tinh Cầu Đặc Biệt ở Sự Kiện Bước Nhảy bất kỳ phiên bản <unbreak>4.4</unbreak> sẽ có thể nhận thưởng sau khi Bước Nhảy Hợp Tác bắt đầu.\n● Tất cả Sự Kiện Bước Nhảy phiên bản <unbreak>4.4</unbreak> dùng chung số lượng Vé Tinh Cầu Đặc Biệt tích lũy tiêu hao.\n● Phần thưởng chỉ được nhận 1 lần trong thời gian sự kiện.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50117": {
+		"Id": "50117",
+		"Name": "Cuộc Chiến Chén Thánh Huyễn Tạo",
+		"TabName": "Cuộc Chiến Chén Thánh Huyễn Tạo",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "▌Sau khi sự kiện \"Cuộc Chiến Chén Thánh Huyễn Tạo\" bắt đầu, có thể tham gia Khai Phá Tiếp Diễn và cách chơi sự kiện hợp tác. Nhân vật hợp tác <color=#f29e38ff>không hỗ trợ lồng tiếng tiếng Anh</color>, bạn có thể chuyển sang ngôn ngữ lồng tiếng khác để trải nghiệm.\n\n▌\"Cuộc Chiến Chén Thánh Huyễn Tạo\"\n◆ Giới Thiệu ◆\n● Một cơn mưa vàng, một chiếc Chén Thánh bị mất cắp... Trong bóng tối nơi Ảo Nguyệt không thể chiếu tới, bạn sẽ cùng pháp sư dị giới Rin Tohsaka bước vào chiến trường của Cuộc Chiến Chén Thánh Huyễn Tạo...\n◆ Quy Tắc Sự Kiện ◆\n● Trong \"Fate/Star Rail Night\", Nhà Khai Phá sẽ tham gia Cuộc Chiến Chén Thánh Huyễn Tạo, thu thập kho báu rải rác, và sử dụng Lễ Khí Khái Niệm để chiến đấu.\n\n▌ Quà Tặng Fate\n● Trong sự kiện, Nhà Khai Phá tích lũy tiêu hao <unbreak>200</unbreak> Vé Tinh Cầu Đặc Biệt ở Sự Kiện Bước Nhảy bất kỳ phiên bản <unbreak>4.4</unbreak> sẽ có thể nhận thưởng sau khi Bước Nhảy Hợp Tác bắt đầu.\n● Tất cả Sự Kiện Bước Nhảy phiên bản <unbreak>4.4</unbreak> dùng chung số lượng Vé Tinh Cầu Đặc Biệt tích lũy tiêu hao.\n● Phần thưởng chỉ được nhận 1 lần trong thời gian sự kiện.\n\n▌ \"Khế Ước Fate - Tái Khởi Động\"\n● Trong thời gian sự kiện, tất cả Nhà Khai Phá có cấp Khai Phá đạt Lv3, sau khi đăng nhập có thể tự chọn nhận được nhân vật 5 sao hợp tác giới hạn \"Gilgamesh\" hoặc \"Archer\"",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50118": {
+		"Id": "50118",
+		"Name": "Khế Ước Fate - Tái Khởi Động",
+		"TabName": "Khế Ước Fate - Tái Khởi Động",
+		"Tag": "Chi Tiết Sự Kiện",
+		"Introduction": "Khế Ước Fate - Tái Khởi Động",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionChoose0440.png",
+		"VersionAdded": "4.4"
 	},
 	"60001": {
 		"Id": "60001",
@@ -2279,5 +2353,14 @@
 		"Tag": "Mở Nhiệm Vụ Khai Phá",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
 		"VersionAdded": "4.3"
+	},
+	"80028": {
+		"Id": "80028",
+		"Name": "Tiếng Còi Lúc Trở Về Tĩnh Lặng",
+		"TabName": "Nhiệm Vụ Khai Phá",
+		"Description": "Hoa tiêu vẽ ra bản đồ dẫn đến tận thế. Tiếng còi bi thương vang vọng, chỉ có người Khai Phá mới có thể tìm được con đường sống vượt qua cõi chết...",
+		"Tag": "Mở Nhiệm Vụ Khai Phá",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory440.png",
+		"VersionAdded": "4.4"
 	}
 }

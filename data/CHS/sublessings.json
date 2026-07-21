@@ -8140,6 +8140,27 @@
 		"Effect": "千冶•刃在差分宇宙中的伤害获得增幅。\n\n生命值降低后，回复量提高<color=#f29e38ff>15%</color>，最终伤害提高<color=#f29e38ff>15%</color>，持续<color=#f29e38ff>2</color>回合。",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "远坂凛",
+		"Rarity": 1,
+		"Effect": "远坂凛在差分宇宙中的伤害获得增幅。\n\n造成的最终伤害提高<color=#f29e38ff>15%</color>。回合开始时，恢复<color=#f29e38ff>1</color>点战技点。",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "吉尔伽美什",
+		"Rarity": 1,
+		"Effect": "吉尔伽美什在差分宇宙中的伤害获得增幅。\n\n每次施放终结技时，使自身造成的最终伤害提高<color=#f29e38ff>6%</color>，最多叠加<color=#f29e38ff>5</color>层。",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "姬子•启行",
+		"Rarity": 1,
+		"Effect": "姬子•启行在差分宇宙中的伤害获得增幅。\n\n每次施放助战技时，使自身造成的最终伤害提高<color=#f29e38ff>3%</color>，最多叠加<color=#f29e38ff>10</color>层。",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

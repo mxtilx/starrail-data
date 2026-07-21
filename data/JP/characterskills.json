@@ -41225,7 +41225,7 @@
 			"TagTypeText": "全体攻撃",
 			"SkillTypeText": "戦闘スキル",
 			"MaxLevel": 15,
-			"EffectRaw": "千冶・刃の最大HP<unbreak>#4[i]%</unbreak>分のHPを消費し、敵全体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>分の炎属性ダメージを与え、さらに<unbreak>#2[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>分の炎属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、千冶・刃の残りHPが1になる。\n「無量忿怒」状態ではない場合、または残りHPが1以下の時、千冶・刃は戦闘スキルを発動できない。\n戦闘スキルを発動する時、SPを消費しない。",
+			"EffectRaw": "千冶・刃の最大HP<unbreak>#4[f1]%</unbreak>分のHPを消費し、敵全体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与え、さらに<unbreak>#2[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に千冶・刃の最大HP<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>分の炎属性ダメージを与える。\n残りHPが足りない場合、戦闘スキルを発動した時、千冶・刃の残りHPが1になる。\n「無量忿怒」状態ではない場合、または残りHPが1以下の時、千冶・刃は戦闘スキルを発動できない。\n戦闘スキルを発動する時、SPを消費しない。",
 			"AbridgedEffect": "HPを消費し、敵全体に炎属性ダメージを与える。その後、敵単体に少量の炎属性ダメージを与え、<color=#f29e38ff><unbreak>#2[i]</unbreak></color>回バウンドする。",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "{RUBY_B#ひめこ}姫子{RUBY_E#}・{RUBY_B#たびだ}旅立{RUBY_E#}ち",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "はじまりの{RUBY_B#こうろひょうしき}航路標識{RUBY_E#}を{RUBY_B#とも}灯{RUBY_E#}して",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "単体攻撃",
+			"SkillTypeText": "通常攻撃",
+			"MaxLevel": 10,
+			"EffectRaw": "敵単体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与える。",
+			"AbridgedEffect": "敵単体に少量の炎属性ダメージを与える。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "{RUBY_B#ちょうこうそくりゅうし}超光速粒子{RUBY_E#}ビーム",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "敵全体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与え、<u>「原動力」</u>を<unbreak>#2[i]</unbreak>獲得する。<u>「原動力」</u>は最大<unbreak>#3[i]</unbreak>まで獲得できる。",
+			"AbridgedEffect": "敵全体に少量の炎属性ダメージを与え、<u>「原動力」</u>を<color=#f29e38ff><unbreak>#2[i]</unbreak></color>獲得する。<u>「原動力」</u>は最大<color=#f29e38ff><unbreak>#3[i]</unbreak></color>まで獲得できる。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "{RUBY_B#た}立{RUBY_E#}ち{RUBY_B#のぼ}昇{RUBY_E#}る{RUBY_B#みちび}導{RUBY_E#}きの{RUBY_B#のろし}狼煙{RUBY_E#}",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "サポート",
+			"SkillTypeText": "戦闘スキル",
+			"MaxLevel": 15,
+			"EffectRaw": "戦闘スキルを発動した後、姫子・旅立ちは即座に<u>支援スキル</u>の使用可能回数をすべて回復し、「導く旗印」を獲得する、<unbreak>#2[i]</unbreak>ターン継続。姫子・旅立ちのターンが回ってくるたびに継続ターン数-1。姫子・旅立ちが「導く旗印」を持つ時、味方全体の与ダメージ+<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>、ターンが回ってくるたびに、<u>支援スキル</u>の使用可能回数を1回復する。",
+			"AbridgedEffect": "戦闘スキルを発動した後、即座に<u>支援スキル</u>の使用可能回数をすべて回復し、姫子・旅立ちは「導く旗印」を獲得する。姫子・旅立ちが「導く旗印」を所持している時、与ダメージがアップする。ターンが回ってくるたびに、<u>支援スキル</u>の使用回数を1回復する。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "{RUBY_B#きどうせんめつ}軌道殲滅{RUBY_E#}パルス{RUBY_B#ほう}砲{RUBY_E#}",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "<u>「原動力」</u>を1消費し、敵全体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>分の炎属性ダメージを与える。所持している<u>「原動力」</u>が1を超えた場合、<u>「原動力」</u>を<unbreak>#2[i]</unbreak>消費するごとに、追加でランダムな敵単体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>分の炎属性ダメージを1回与える。",
+			"AbridgedEffect": "<u>「原動力」</u>を1消費して、敵全体に少量の炎属性ダメージを与える。所持している<u>「原動力」</u>が1を超えた時、<u>「原動力」</u>を<color=#f29e38ff><unbreak>#2[i]</unbreak></color>消費するごとに、ランダムな敵単体に少量の炎属性ダメージを1回与える。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "{RUBY_B#われ}我{RUBY_E#}ら、{RUBY_B#ほし}星{RUBY_E#}を{RUBY_B#お}追{RUBY_E#}う{RUBY_B#きょじん}巨人{RUBY_E#}",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "全体攻撃",
+			"SkillTypeText": "必殺技",
+			"MaxLevel": 15,
+			"EffectRaw": "即座に「星を拓く者」を操縦する。「星を拓く者」は、敵に6回発動できる「超光速粒子ビーム」と<u>「原動力」</u>を消費して発動できる「軌道殲滅パルス砲」を持つ。\n指定した敵単体に最大で姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#9[i]%</unbreak></color>分の炎属性ダメージを与え、その他の敵に最大で姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#10[i]%</unbreak></color>分の炎属性ダメージを与える。\n「超光速粒子ビーム」の発動可能回数が尽きた時、自動で「軌道殲滅パルス砲」が発動する。その後、ラストアタックを発動し、<unbreak>#6[i]</unbreak>ヒットする。1ヒットごとにランダムな敵単体に姫子・旅立ちの攻撃力<color=#f29e38ff><unbreak>#7[i]%</unbreak></color>分の炎属性ダメージを与える。\n「超光速粒子ビーム」または「軌道殲滅パルス砲」を発動し、フィールドにいるすべての敵にHPが0になるダメージを与えた時、または敵のHPがそれ以上削れない時、即座にラストアタックを発動する。",
+			"AbridgedEffect": "必殺技期間中、敵全体に「超光速粒子ビーム」または「軌道殲滅パルス砲」を発動できる。最後に、ランダムな敵<color=#f29e38ff><unbreak>#6[i]</unbreak></color>体に炎属性ダメージを与える。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "{RUBY_B#とも}共{RUBY_E#}に{RUBY_B#しゃくねつ}灼熱{RUBY_E#}の{RUBY_B#えんせい}遠征{RUBY_E#}へ",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "天賦",
+			"MaxLevel": 15,
+			"EffectRaw": "姫子・旅立ちはフィールド上にいる時、<u>境界</u>「星拓きの視界」を展開する。フィールドに「星を拓く者」が出現し、味方キャラ全体が<u>支援スキル</u>の使用可能回数を1獲得する。味方キャラは<u>支援スキル</u>を使用して「星を拓く者」を呼び、敵を攻撃できる。\n<u>支援スキル</u>の使用は「姫子・旅立ち」が戦闘スキルを発動したものと見なされる。同時に姫子・旅立ちの全属性<u>耐性貫通</u>+<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>、会心ダメージ+<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>。なお、姫子・旅立ちは攻撃を行う時、弱点属性を無視して敵の靭性を削るようになる。敵を弱点撃破をした時、炎属性の弱点撃破効果を発動する。\n「姫子・旅立ち」以外の味方キャラが<u>支援スキル</u>を使用した時、その使用したキャラのEPを<unbreak>#3[i]</unbreak>回復する。",
+			"AbridgedEffect": "姫子・旅立ちはフィールド上にいる時、<u>境界</u>を展開し、味方キャラ全体が<u>支援スキル</u>を獲得する。味方キャラが<u>支援スキル</u>を使用すると、姫子・旅立ちの全属性<u>耐性貫通</u>と会心ダメージがアップし、姫子・旅立ちの攻撃が、弱点属性を無視して靭性を削るようになる。\n姫子・旅立ち以外の味方キャラが<u>支援スキル</u>を使用した時、その使用したキャラのEPを回復する。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "{RUBY_B#ほし}星{RUBY_E#}を{RUBY_B#ひら}拓{RUBY_E#}く{RUBY_B#じゅんこう}巡航{RUBY_E#}",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "強化",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "「姫子・旅立ち」がパーティにいる時、秘技PT上限+3。\n秘技を使用した後、<unbreak>#1[i]</unbreak>秒継続する「巡航」状態に入る。秘技を使用すると秘技PTを2消費し、即座に一定範囲内にいるすべての敵を攻撃する。戦闘に入った後、各ウェーブ開始時に即座に戦闘スキルを1回発動する。\n通常エネミーを攻撃するとターゲットはその場で倒され、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
+			"AbridgedEffect": "<color=#f29e38ff>秘技PT上限</color>+3。発動すると「巡航」状態に入り、秘技PTを2消費して、一定範囲内のすべての敵を攻撃する。戦闘に入った後、各ウェーブ開始時に戦闘スキルを1回発動する。\n通常エネミーを攻撃すると<color=#f29e38ff>ターゲットはその場で倒され</color>、戦闘に入らない。敵に命中しなかった場合、秘技PTは消費されない。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

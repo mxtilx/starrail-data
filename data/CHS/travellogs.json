@@ -174,7 +174,7 @@
 		"Description": "亲爱的开拓者，列车的伙伴们都等着你哦，一同踏上旅途，重新出发银河大冒险吧！最高可获<unbreak>480</unbreak>星琼！",
 		"Tag": "活动说明",
 		"Introduction": "◆ 活动介绍 ◆\n● 活动期间开拓者可通过邀请回归开拓者来获得星琼奖励等好礼。\n● 活跃开拓者可分享个人专属邀请码，邀请其他满足条件的开拓者回归，获得星琼奖励与抽奖机会。\n● 回归开拓者登录游戏后，也可分享个人专属邀请码，邀请其他满足条件的开拓者回归，参与网页活动。\n※回归开拓者的状态更新存在延迟，开拓者可以等待2分钟后刷新网页查看。\n\n◆ 回归开拓者 ◆\n可参与活动「循星归程」的开拓者将被视为「回归开拓者」， 「循星归程」参与条件如下：\n● 开拓等级≥<unbreak>10</unbreak>级；\n● 完成开拓任务「雅利洛-VI」-「她等待刀尖已经太久」；\n● 连续未登录游戏天数≥<unbreak>14</unbreak>天；\n● 距离上一次参与活动「循星归程」≥<unbreak>40</unbreak>天。\n※回归开拓者状态持续时间，与活动「循星归程」开启时间保持一致。",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer420.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer440.png",
 		"VersionAdded": "2.0"
 	},
 	"10047": {
@@ -520,6 +520,15 @@
 		"Introduction": "◆ 活动规则 ◆\n开拓者每日登录游戏后，可在「旅情事记」中领取当日奖励。\n\n◆ 活动奖励 ◆\n奖励将根据开拓者累计登录天数依次解锁，当日奖励将在<unbreak>04</unbreak>:<unbreak>00</unbreak>（服务器时间）刷新。",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
 		"VersionAdded": "4.3"
+	},
+	"10172": {
+		"Id": "10172",
+		"Name": "巡星之礼",
+		"TabName": "巡星之礼",
+		"Tag": "活动说明",
+		"Introduction": "◆ 活动规则 ◆\n开拓者每日登录游戏后，可在「旅情事记」中领取当日奖励。\n\n◆ 活动奖励 ◆\n奖励将根据开拓者累计登录天数依次解锁，当日奖励将在<unbreak>04</unbreak>:<unbreak>00</unbreak>（服务器时间）刷新。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0440.png",
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -913,7 +922,7 @@
 		"TabName": "锋芒崭露",
 		"Tag": "角色试用",
 		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1113,6 +1122,33 @@
 		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。\n若开拓者在以往版本完成过对应角色的试用关，可以直接领取奖励。",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
 		"VersionAdded": "4.3"
+	},
+	"20086": {
+		"Id": "20086",
+		"Name": "锋芒崭露",
+		"TabName": "锋芒崭露",
+		"Tag": "角色试用",
+		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。\n若开拓者在以往版本完成过对应角色的试用关，可以直接领取奖励。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
+	},
+	"20087": {
+		"Id": "20087",
+		"Name": "命运逐锋",
+		"TabName": "命运逐锋",
+		"Tag": "角色试用",
+		"Introduction": "◆ 活动规则 ◆\n角色试用活动「命运逐锋」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在「命运逐锋」界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial53.png",
+		"VersionAdded": "4.4"
+	},
+	"20088": {
+		"Id": "20088",
+		"Name": "锋芒崭露",
+		"TabName": "锋芒崭露",
+		"Tag": "角色试用",
+		"Introduction": "◆ 活动规则 ◆\n角色试用活动「锋芒崭露」开启期间，开拓者可使用包含所选试用角色的固定队伍，无限次体验指定关卡。\n体验活动关卡时，将无法调整编队中角色、角色等级及角色装备的光锥、遗器。\n\n◆ 活动奖励 ◆\n达成关卡挑战后，将可以在活动界面领取试用关卡奖励。各试用关卡奖励在活动期间仅可领取一次。\n若开拓者在以往版本完成过对应角色的试用关，可以直接领取奖励。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1890,6 +1926,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
 		"VersionAdded": "4.3"
 	},
+	"50114": {
+		"Id": "50114",
+		"Name": "反贪「砖」家",
+		"TabName": "反贪「砖」家",
+		"Description": "世上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。",
+		"Tag": "活动说明",
+		"Introduction": "◆ 简介 ◆\n世上没有不落灰的角落。在砂金的委托下，你发起了一场针对公司的反贪调查——通过骇入数据库的方式。\n\n◆ 活动规则 ◆\n● 在骇入行动中，开拓者将在银狼与普罗米修斯的协助下，摆放拆出的数据砖块，应对防火墙的技能机制，尽可能平安地完成骇入。\n● 在剧情模式的闯关过程中，开拓者将逐步获得更强的技能，并提升骇客等级，面对更强的敌人。\n● 剧情模式结束后，开拓者可以在联机模式中继续和银狼与普罗米修斯，或者其他网络骇客一起进行更高难度的挑战\n\n◆ 常驻奖励 ◆\n● 在游戏内的关卡获得经验，提升骇客等级，即可获得相应奖励。\n\n◆ 限时奖励 ◆\n● 在活动期间内完成限时任务，能够获得限时奖励。\n\n",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestTeamTower.png",
+		"VersionAdded": "4.4"
+	},
 	"50115": {
 		"Id": "50115",
 		"Name": "淬锋之礼",
@@ -1899,6 +1945,34 @@
 		"Introduction": "◆ 活动说明◆\n● <unbreak>4.3</unbreak>版本「我身即刃」角色活动跃迁期间，通过角色活动跃迁获得「千冶·刃」后，可获得全新背部部位开拓穿搭「彼岸业火」。\n● 获得开拓穿搭「彼岸业火」后可以在【角色-装扮】界面查看和选择穿戴。\n● 「开拓穿搭」在部分任务演出及过场动画中将会隐藏。",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
 		"VersionAdded": "4.3"
+	},
+	"50116": {
+		"Id": "50116",
+		"Name": "幻造：圣杯战争",
+		"TabName": "幻造：圣杯战争",
+		"Description": "一场黄金雨，一尊失窃的圣杯——在另一片幻月遍照不到的阴影中，某位王者的宝库竟意外分崩离析。\n为了避免引发骚乱，你将不得不和异界的魔术师远坂凛一起，前去维持治安…还有，收获属于你们的那份财宝。",
+		"Tag": "活动说明",
+		"Introduction": "▌联动角色<color=#f29e38ff>不支持英语配音</color>，您可以切换至其他语音语言进行体验。\n\n▌「幻造：圣杯战争」\n● 一场黄金雨，一尊失窃的圣杯——在幻月遍照不到的阴影中，你将与异界的魔术师远坂凛一起，踏入幻造圣杯战争的战场……\n\n▌「命运/银河铁道之夜」\n◆ 活动规则 ◆\n● 在「命运/银河铁道之夜」中，开拓者将参与幻造圣杯战争，收集散落的财宝，并使用概念礼装进行作战。 \n\n◆ 常驻奖励 ◆\n● 通过完成「命运/银河铁道之夜」中的常驻任务，可以获得常驻奖励。\n\n◆ 限时奖励 ◆\n● 限时活动期间， 通过完成「命运/银河铁道之夜」中的限时任务，能够获得限时奖励。\n\n◆ 活动提示 ◆\n● 「命运/银河铁道之夜」限时活动结束后，开拓者将无法获取限时奖励，但仍可前往场景「鸽川区」体验活动并获取常驻奖励。\n\n▌「命运赠礼」\n● 活动期间，开拓者在<unbreak>4.4</unbreak>版本任意跃迁活动中，累计消耗<unbreak>200</unbreak>张「星轨专票」，即可于联动跃迁开启后领取奖励。\n● <unbreak>4.4</unbreak>版本所有跃迁活动共享「星轨专票」累计消耗数量。\n● 奖励在活动期间仅可领取一次。",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50117": {
+		"Id": "50117",
+		"Name": "幻造：圣杯战争",
+		"TabName": "幻造：圣杯战争",
+		"Tag": "活动说明",
+		"Introduction": "▌「幻造：圣杯战争」活动开启后，可以参与开拓续闻以及联动活动玩法。联动角色<color=#f29e38ff>不支持英语配音</color>，您可以切换至其他语音语言进行体验。\n\n▌「幻造：圣杯战争」\n◆ 简介 ◆\n●一场黄金雨，一尊失窃的圣杯——在幻月遍照不到的阴影中，你将与异界的魔术师远坂凛一起，踏入幻造圣杯战争的战场……\n◆ 活动规则 ◆\n● 在「命运/银河铁道之夜」中，开拓者将参与幻造圣杯战争，收集散落的财宝，并使用概念礼装进行作战。\n\n▌「命运赠礼」\n● 活动期间，开拓者在<unbreak>4.4</unbreak>版本任意跃迁活动中，累计消耗<unbreak>200</unbreak>张「星轨专票」，即可于联动跃迁开启后领取奖励。\n● <unbreak>4.4</unbreak>版本所有跃迁活动共享「星轨专票」累计消耗数量。\n● 奖励在活动期间仅可领取一次。\n\n▌「命运契约•再启」\n● 活动期间，所有开拓等级达到3级的开拓者，登录后即可自选获得联动限定5星角色「吉尔伽美什」或「Archer」",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50118": {
+		"Id": "50118",
+		"Name": "命运契约•再启",
+		"TabName": "命运契约•再启",
+		"Tag": "活动说明",
+		"Introduction": "命运契约•再启",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionChoose0440.png",
+		"VersionAdded": "4.4"
 	},
 	"60001": {
 		"Id": "60001",
@@ -2279,5 +2353,14 @@
 		"Tag": "开拓任务开启",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
 		"VersionAdded": "4.3"
+	},
+	"80028": {
+		"Id": "80028",
+		"Name": "鸣笛于归寂之时",
+		"TabName": "开拓任务",
+		"Description": "领航者绘出通往末日的航图。哀切的鸣笛响彻，唯有开拓之人才能寻得跨越死境的生路……",
+		"Tag": "开拓任务开启",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory440.png",
+		"VersionAdded": "4.4"
 	}
 }

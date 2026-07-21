@@ -8140,6 +8140,27 @@
 		"Effect": "Mortenax Blade's DMG is amplified in the Divergent Universe.\n\nAfter losing HP, increases HP restored by <color=#f29e38ff>15%</color> and increases final DMG dealt by <color=#f29e38ff>15%</color>. Lasts for <color=#f29e38ff>2</color> turn(s).",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "Rin Tohsaka",
+		"Rarity": 1,
+		"Effect": "Rin Tohsaka's DMG is amplified in the Divergent Universe.\n\nIncreases final DMG dealt by <color=#f29e38ff>15%</color>. Recovers <color=#f29e38ff>1</color> Skill Point(s) at the start of every turn.",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "Gilgamesh",
+		"Rarity": 1,
+		"Effect": "Gilgamesh's DMG is amplified in the Divergent Universe.\n\nEach time he uses Ultimate, increases his own final DMG dealt by <color=#f29e38ff>6%</color>. Stacks up to <color=#f29e38ff>5</color> time(s).",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "Himeko • Nova",
+		"Rarity": 1,
+		"Effect": "Himeko • Nova's DMG is amplified in the Divergent Universe.\n\nEach time she uses her Assist Skill, increases her own final DMG dealt by <color=#f29e38ff>3%</color>. Stacks up to <color=#f29e38ff>10</color> time(s).",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

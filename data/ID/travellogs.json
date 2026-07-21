@@ -174,7 +174,7 @@
 		"Description": "Dear Trailblazer, rekan-rekan Express sedang menunggumu loh! Ayo mulai perjalanan bersama-sama dan kembali bertualang di galaksi! Dapatkan hingga Stellar Jade ×<unbreak>480</unbreak>!",
 		"Tag": "Penjelasan Event",
 		"Introduction": "◆ Pengenalan Event ◆\n● Selama event berlangsung, Trailblazer dapat mengundang Trailblazer lain untuk kembali memainkan \"Honkai: Star Rail\" untuk memperoleh Stellar Jade dan hadiah lainnya.\n● Trailblazer aktif dapat membagikan kode undangan eksklusif miliknya untuk mengundang Trailblazer yang memenuhi syarat untuk kembali memainkan \"Honkai: Star Rail\", dan mendapatkan hadiah Stellar Jade serta kesempatan undian.\n● Setelah Trailblazer yang Kembali log in ke dalam game, juga dapat membagikan kode undangan eksklusif miliknya untuk mengundang Trailblazer yang memenuhi syarat untuk kembali memainkan \"Honkai: Star Rail\" dan mengikuti event web.\n※ Update status Trailblazer yang Kembali mungkin akan mengalami penundaan. Harap Trailblazer refresh halaman web setelah 2 menit.\n\n◆ Trailblazer yang Kembali ◆\nTrailblazer yang dapat mengikuti event \"Kembalinya Cahaya Bintang\" dianggap sebagai \"Trailblazer yang Kembali\". Syarat Partisipasi \"Kembalinya Cahaya Bintang\":\n● Level Trailblaze ≥ Lv. <unbreak>10</unbreak>.\n● Menyelesaikan Misi Trailblaze \"Jarilo-Ⅵ\" - \"Penantian Lama Menunggu Ujung Pisau\".\n● Belum log in ke dalam game selama ≥ <unbreak>14</unbreak> hari berturut-turut.\n● Waktu terakhir kali mengaktifkan event \"Kembalinya Cahaya Bintang\" ≥ <unbreak>40</unbreak> hari yang lalu.\n※ Durasi status \"Trailblazer yang Kembali\" sama dengan waktu dibukanya event \"Kembalinya Cahaya Bintang\" di dalam game.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer420.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRetrunRecallVer440.png",
 		"VersionAdded": "2.0"
 	},
 	"10047": {
@@ -520,6 +520,15 @@
 		"Introduction": "◆ Peraturan Event ◆\nSetiap harinya, Trailblazer dapat mengambil hadiah login harian di \"Catatan Perjalanan\".\n\n◆ Hadiah Event ◆\nHadiah yang terbuka akan disesuaikan dengan jumlah login Trailblazer. Diperbarui setiap harinya pukul <unbreak>04</unbreak>:<unbreak>00</unbreak> (waktu server).",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0430.png",
 		"VersionAdded": "4.3"
+	},
+	"10172": {
+		"Id": "10172",
+		"Name": "Karunia Pengembaraan",
+		"TabName": "Karunia Pengembaraan",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Peraturan Event ◆\nSetiap harinya, Trailblazer dapat mengambil hadiah login harian di \"Catatan Perjalanan\".\n\n◆ Hadiah Event ◆\nHadiah yang terbuka akan disesuaikan dengan jumlah login Trailblazer. Diperbarui setiap harinya pukul <unbreak>04</unbreak>:<unbreak>00</unbreak> (waktu server).",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/SignInRewardTabIcon/BtnSevenDayVersion0440.png",
+		"VersionAdded": "4.4"
 	},
 	"20001": {
 		"Id": "20001",
@@ -913,7 +922,7 @@
 		"TabName": "Pamer Bakat",
 		"Tag": "Trial Karakter",
 		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.",
-		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial51.png",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
 		"VersionAdded": "3.2"
 	},
 	"20060": {
@@ -1113,6 +1122,33 @@
 		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.\nJika Trailblazer sudah menyelesaikan stage trial karakter yang sesuai di versi-versi sebelumnya, Trailblazer dapat langsung mengambil hadiah.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial44.png",
 		"VersionAdded": "4.3"
+	},
+	"20086": {
+		"Id": "20086",
+		"Name": "Pamer Bakat",
+		"TabName": "Pamer Bakat",
+		"Tag": "Trial Karakter",
+		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.\nJika Trailblazer sudah menyelesaikan stage trial karakter yang sesuai di versi-versi sebelumnya, Trailblazer dapat langsung mengambil hadiah.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
+	},
+	"20087": {
+		"Id": "20087",
+		"Name": "Mengejar Ujung Takdir",
+		"TabName": "Mengejar Ujung Takdir",
+		"Tag": "Trial Karakter",
+		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Mengejar Ujung Takdir\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman \"Mengejar Ujung Takdir\" setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial53.png",
+		"VersionAdded": "4.4"
+	},
+	"20088": {
+		"Id": "20088",
+		"Name": "Pamer Bakat",
+		"TabName": "Pamer Bakat",
+		"Tag": "Trial Karakter",
+		"Introduction": "◆ Penjelasan Event ◆\nSelama event trial karakter \"Pamer Bakat\" berlangsung, Trailblazer dapat menggunakan tim tetap yang berisi karakter trial untuk memainkan stage yang ditentukan.\nSaat memainkan stage event, kamu tidak dapat menyesuaikan karakter dalam tim, level karakter, serta Light Cone dan Relic yang dikenakan karakter.\n\n◆ Hadiah Event ◆\nHadiah stage trial dapat diambil di halaman event setelah menyelesaikan tantangan stage. Hadiah setiap stage trial hanya dapat diambil satu kali selama periode event.\nJika Trailblazer sudah menyelesaikan stage trial karakter yang sesuai di versi-versi sebelumnya, Trailblazer dapat langsung mengambil hadiah.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestRoleTrial52.png",
+		"VersionAdded": "4.4"
 	},
 	"21001": {
 		"Id": "21001",
@@ -1890,6 +1926,16 @@
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestPixAir.png",
 		"VersionAdded": "4.3"
 	},
+	"50114": {
+		"Id": "50114",
+		"Name": "Tukang Balok Anti Korup",
+		"TabName": "Tukang Balok Anti Korup",
+		"Description": "Tidak ada sudut di dunia ini yang bersih tanpa cela. Atas permintaan Aventurine, kamu mulai menyelidiki korupsi internal IPC dengan meretas database mereka.",
+		"Tag": "Penjelasan Event",
+		"Introduction": "◆ Pengenalan ◆\nTidak ada sudut di dunia ini yang bersih tanpa cela. Atas permintaan Aventurine, kamu mulai menyelidiki korupsi internal IPC dengan meretas database mereka.\n\n◆ Peraturan Event ◆\n● Dalam aksi peretasan, Trailblazer akan dibantu oleh Silver Wolf dan Prometheus untuk menempatkan balok data yang telah dibongkar, menghadapi mekanisme kemampuan Firewall, dan menyelesaikan proses peretasan dengan selamat.\n● Selama menyelesaikan stage dalam Mode Alur Cerita, Trailblazer akan memperoleh kemampuan yang lebih kuat secara bertahap, dan meningkatkan Level Peretas untuk menghadapi musuh yang lebih tangguh.\n● Setelah Mode Alur Cerita berakhir, Trailblazer dapat bergabung ke Mode Multipemain untuk menghadapi tantangan dengan tingkat kesulitan lebih tinggi bersama Silver Wolf, Prometheus, atau peretas lainnya.\n\n◆ Hadiah Permanen ◆\n● Dapatkan EXP di stage dalam game untuk meningkatkan Level Peretas dan memperoleh hadiah yang sesuai.\n\n◆ Hadiah Waktu Terbatas ◆\n● Selama event berlangsung, selesaikan misi waktu terbatas untuk memperoleh hadiah waktu terbatas.\n\n",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnQuestTeamTower.png",
+		"VersionAdded": "4.4"
+	},
 	"50115": {
 		"Id": "50115",
 		"Name": "Hadiah Penempaan Ketajaman",
@@ -1899,6 +1945,34 @@
 		"Introduction": "◆ Penjelasan Event ◆\n● Selama event Warp Karakter \"Kini, Akulah Sang Bilah\" Versi <unbreak>4.3</unbreak> berlangsung, setelah memperoleh \"Mortenax Blade\" melalui event Warp Karakter, Trailblazer dapat memperoleh Gaya Perintis untuk bagian punggung baru \"Api Karma Seberang\".\n● Setelah memperoleh Gaya Perintis \"Api Karma Seberang\", dapat melihat dan memilih untuk mengenakannya di antarmuka [Karakter-Kostum].\n● \"Gaya Perintis\" akan disembunyikan dalam beberapa cutscene dan misi tertentu.",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnNewPlayerOutfit_227015.png",
 		"VersionAdded": "4.3"
+	},
+	"50116": {
+		"Id": "50116",
+		"Name": "Perang Cawan Suci Imagenae",
+		"TabName": "Perang Cawan Suci Imagenae",
+		"Description": "Hujan emas, Cawan Suci yang dicuri ... di balik kegelapan yang tak tersentuh cahaya Bulan Imajinasi, gudang harta milik seorang raja porak-poranda secara tidak terduga.\nUntuk menghindari kekacauan, kamu terpaksa bekerja sama dengan mage dari dunia lain, Rin Tohsaka, untuk menjaga ketertiban ... dan tentu juga untuk memanen harta yang menjadi bagian kalian.",
+		"Tag": "Penjelasan Event",
+		"Introduction": "▌ Karakter kolaborasi <color=#f29e38ff>tidak memiliki pengisi suara Bahasa Inggris</color>, kamu bisa beralih ke suara bahasa lain untuk memainkannya.\n\n▌ \"Perang Cawan Suci Imagenae\"\nHujan emas, Cawan Suci yang dicuri. Di dalam bayangan yang tak terjangkau oleh cahaya Bulan Imajinasi, kamu bersama mage dari dunia lain, Rin Tohsaka, akan melangkah ke medan tempur Perang Cawan Suci Imagenae ....\n\n▌ \"Fate/Malam Rel Bintang\"\n◆ Peraturan Event ◆\n● Di \"Fate/Malam Rel Bintang\", Trailblazer akan berpartisipasi dalam Perang Cawan Suci Imagenae, mengumpulkan harta karun yang tersebar, dan bertarung menggunakan Mystic Code Konseptual.\n\n◆ Hadiah Permanen ◆\n● Selesaikan misi permanen dalam \"Fate/Malam Rel Bintang\" untuk memperoleh Hadiah Permanen.\n\n◆ Hadiah Terbatas ◆\n● Selama event berlangsung, selesaikan misi waktu terbatas dalam \"Fate/Malam Rel Bintang\" untuk memperoleh hadiah waktu terbatas.\n\n◆ Petunjuk Event ◆\n● Setelah event waktu terbatas \"Fate/Malam Rel Bintang\" berakhir, Trailblazer tidak lagi dapat memperoleh hadiah waktu terbatas, tapi tetap dapat mengunjungi latar tempat \"Distrik Dovebrook\" untuk memainkan event dan memperoleh hadiah permanen.\n\n▌ \"Hadiah Takdir\"\n● Selama event berlangsung, dengan mengonsumsi total <unbreak>200</unbreak> \"Star Rail Special Pass\" di event Warp Versi <unbreak>4.4</unbreak> mana pun, Trailblazer dapat langsung mengambil hadiah setelah Warp Kolaborasi dibuka.\n● Semua event Warp di Versi <unbreak>4.4</unbreak> akan berbagi jumlah akumulasi konsumsi \"Star Rail Special Pass\"\n● Hadiah hanya dapat diambil satu kali selama event.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50117": {
+		"Id": "50117",
+		"Name": "Perang Cawan Suci Imagenae",
+		"TabName": "Perang Cawan Suci Imagenae",
+		"Tag": "Penjelasan Event",
+		"Introduction": "▌ Setelah event \"Perang Cawan Suci Imagenae\" dibuka, Trailblazer dapat memainkan Misi Trailblaze Lanjutan dan gameplay Event Kolaborasi. Karakter kolaborasi <color=#f29e38ff>tidak memiliki pengisi suara Bahasa Inggris</color>, kamu bisa beralih ke suara bahasa lain untuk memainkannya.\n\n▌ \"Perang Cawan Suci Imagenae\"\n◆ Pengenalan ◆\n● Hujan emas, Cawan Suci yang dicuri. Di dalam bayangan yang tak terjangkau oleh cahaya Bulan Imajinasi, kamu bersama penyihir dari dunia lain, Rin Tohsaka, akan melangkah ke medan tempur Perang Cawan Suci Imagenae ....\n◆ Peraturan Event ◆\n● Di \"Fate/Malam Rel Bintang\", Trailblazer akan berpartisipasi dalam Perang Cawan Suci Imagenae, mengumpulkan harta karun yang tersebar, dan bertarung menggunakan Mystic Code Konseptual.\n\n▌ \"Hadiah Takdir\"\n● Selama event berlangsung, dengan mengonsumsi total <unbreak>200</unbreak> \"Star Rail Special Pass\" di event Warp Versi <unbreak>4.4</unbreak> mana pun, Trailblazer dapat langsung mengambil hadiah setelah Warp Kolaborasi dibuka.\n● Semua event Warp di Versi <unbreak>4.4</unbreak> akan berbagi jumlah akumulasi konsumsi \"Star Rail Special Pass\"\n● Hadiah hanya dapat diambil satu kali selama event.\n\n▌ \"Kontrak Takdir: Mulai Kembali\"\n● Selama event berlangsung, semua Trailblazer yang telah mencapai Level Trailblaze Lv. 3 dapat memilih untuk memperoleh karakter 5★ eksklusif kolaborasi \"Gilgamesh\" atau \"Archer\" setelah log in.",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionQuest0440.png",
+		"VersionAdded": "4.4"
+	},
+	"50118": {
+		"Id": "50118",
+		"Name": "Kontrak Takdir: Mulai Kembali",
+		"TabName": "Kontrak Takdir: Mulai Kembali",
+		"Tag": "Penjelasan Event",
+		"Introduction": "Kontrak Takdir: Mulai Kembali",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/BtnCollaborationEventVersionChoose0440.png",
+		"VersionAdded": "4.4"
 	},
 	"60001": {
 		"Id": "60001",
@@ -2279,5 +2353,14 @@
 		"Tag": "Misi Trailblaze Terbuka",
 		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory430.png",
 		"VersionAdded": "4.3"
+	},
+	"80028": {
+		"Id": "80028",
+		"Name": "Gema Peluit di Ambang Kesunyian",
+		"TabName": "Misi Trailblaze",
+		"Description": "Navigator memetakan rute menuju akhir zaman. Suara peluit yang memilukan bergema, hanya mereka yang merintis yang dapat menemukan jalan keselamatan untuk melintasi alam kematian ....",
+		"Tag": "Misi Trailblaze Terbuka",
+		"ImageIconTab": "SpriteOutput/Quest/TabIcon/MainStoryTabIcon/BtnMainStory440.png",
+		"VersionAdded": "4.4"
 	}
 }

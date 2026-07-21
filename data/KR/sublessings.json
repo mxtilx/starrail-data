@@ -8140,6 +8140,27 @@
 		"Effect": "천야•블레이드가 차분화 우주에서 피해가 증폭된다.\n\nHP 감소 후, 회복량이 <color=#f29e38ff>15%</color> 증가하고, 최종 피해가 <color=#f29e38ff>15%</color> 증가한다, 지속 시간: <color=#f29e38ff>2</color>턴",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "토오사카 린",
+		"Rarity": 1,
+		"Effect": "토오사카 린이 차분화 우주에서 피해가 증폭된다.\n\n가하는 최종 피해가 <color=#f29e38ff>15%</color> 증가한다. 턴 시작 시, 전투 스킬 포인트를 <color=#f29e38ff>1</color>pt 회복한다",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "길가메시",
+		"Rarity": 1,
+		"Effect": "길가메시가 차분화 우주에서 피해가 증폭된다.\n\n필살기를 발동할 때마다 자신이 가하는 최종 피해가 <color=#f29e38ff>6%</color> 증가한다, 최대 중첩수: <color=#f29e38ff>5</color>스택",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "히메코•노바",
+		"Rarity": 1,
+		"Effect": "히메코•노바가 차분화 우주에서 피해가 증폭된다.\n\n전투 지원 스킬을 발동할 때마다 자신이 가하는 최종 피해가 <color=#f29e38ff>3%</color> 증가한다, 최대 중첩수: <color=#f29e38ff>10</color>스택",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

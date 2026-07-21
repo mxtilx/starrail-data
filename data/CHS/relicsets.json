@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "坠星启航地",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "使装备者的暴击率提高8%。进入战斗时，若装备者与另一名队友均为开拓同行角色，使装备者的暴击伤害提高32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "寰宇生研院",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "进入战斗时，若装备者能量上限大于等于200点，每超过1点使装备者造成的伤害提高0.2%，最多提高32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

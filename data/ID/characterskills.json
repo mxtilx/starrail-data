@@ -41225,7 +41225,7 @@
 			"TagTypeText": "AoE",
 			"SkillTypeText": "Skill",
 			"MaxLevel": 15,
-			"EffectRaw": "Mengonsumsi HP sebesar <unbreak>#4[i]%</unbreak> Max HP Mortenax Blade untuk mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> Max HP Mortenax Blade pada seluruh musuh, dan mengakibatkan ekstra DMG sebanyak <unbreak>#2[i]</unbreak> kali, setiap kalinya mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> Max HP Mortenax Blade pada 1 musuh acak.\nJika HP saat ini tidak mencukupi, HP Mortenax Blade saat ini akan berkurang menjadi 1 saat melancarkan Skill.\nSaat tidak berstatus \"Infinite Fury\" atau HP saat ini kurang dari atau sama dengan 1, Mortenax Blade tidak dapat melancarkan Skill.\nMelancarkan Skill tidak mengonsumsi Poin Skill.",
+			"EffectRaw": "Mengonsumsi HP sebesar <unbreak>#4[f1]%</unbreak> Max HP Mortenax Blade untuk mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Max HP Mortenax Blade pada seluruh musuh, dan mengakibatkan ekstra DMG sebanyak <unbreak>#2[i]</unbreak> kali, setiap kalinya mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> Max HP Mortenax Blade pada 1 musuh acak.\nJika HP saat ini tidak mencukupi, HP Mortenax Blade saat ini akan berkurang menjadi 1 saat melancarkan Skill.\nSaat tidak berstatus \"Infinite Fury\" atau HP saat ini kurang dari atau sama dengan 1, Mortenax Blade tidak dapat melancarkan Skill.\nMelancarkan Skill tidak mengonsumsi Poin Skill.",
 			"AbridgedEffect": "Mengonsumsi HP untuk mengakibatkan Fire DMG pada seluruh musuh, kemudian mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh, Bounce <color=#f29e38ff><unbreak>#2[i]</unbreak></color> kali.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko • Nova",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "Enkindle the First Lodestar",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Single Target",
+			"SkillTypeText": "Basic ATK",
+			"MaxLevel": 10,
+			"EffectRaw": "Mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Himeko • Nova pada 1 musuh.",
+			"AbridgedEffect": "Mengakibatkan Fire DMG dalam jumlah kecil pada 1 musuh.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "Hyperluminal Particle Beam",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Himeko • Nova pada seluruh musuh, memperoleh <unbreak>#2[i]</unbreak> poin <u>\"Source Energy\"</u>, maksimal dapat memperoleh <unbreak>#3[i]</unbreak> <u>\"Source Energy\"</u>.",
+			"AbridgedEffect": "Mengakibatkan Fire DMG dalam jumlah kecil pada seluruh musuh. Memperoleh <color=#f29e38ff><unbreak>#2[i]</unbreak></color> poin <u>\"Source Energy\"</u>, maksimal dapat memperoleh <color=#f29e38ff><unbreak>#3[i]</unbreak></color> <u>\"Source Energy\"</u>.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "Upraise the Vanward Cresset",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "Support",
+			"SkillTypeText": "Skill",
+			"MaxLevel": 15,
+			"EffectRaw": "Setelah melancarkan Skill, segera memulihkan semua kesempatan penggunaan <u>Skill Dukungan</u>, dan Himeko • Nova memperoleh \"Navigator's Semaphore\", berlangsung selama <unbreak>#2[i]</unbreak> giliran, dan durasinya berkurang 1 setiap saat giliran Himeko • Nova dimulai. Saat Himeko • Nova memiliki \"Navigator's Semaphore\", DMG yang diakibatkan seluruh rekan tim meningkat <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, dan setiap saat giliran dimulai, segera memulihkan 1 kesempatan penggunaan <u>Skill Dukungan</u>.",
+			"AbridgedEffect": "Setelah melancarkan Skill, segera memulihkan seluruh kesempatan penggunaan <u>Skill Dukungan</u>, dan Himeko • Nova memperoleh \"Navigator's Semaphore\". Saat Himeko • Nova memiliki \"Navigator's Semaphore\", DMG yang diakibatkan meningkat, dan pada awal setiap giliran, segera memulihkan 1 kali kesempatan penggunaan <u>Skill Dukungan</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "Orbital Annihilation Pulse",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Mengonsumsi 1 poin <u>\"Source Energy\"</u> untuk mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> ATK Himeko • Nova pada seluruh musuh. Saat <u>\"Source Energy\"</u> saat ini lebih dari 1 poin, setiap mengonsumsi <unbreak>#2[i]</unbreak> poin <u>\"Source Energy\"</u>, akan mengakibatkan ekstra 1 kali Fire DMG sebesar <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> ATK Himeko • Nova pada 1 musuh acak.",
+			"AbridgedEffect": "Mengonsumsi 1 poin <u>\"Source Energy\"</u> untuk mengakibatkan Fire DMG dalam jumlah kecil pada seluruh musuh. Saat <u>\"Source Energy\"</u> saat ini lebih dari 1 poin, setiap mengonsumsi <color=#f29e38ff><unbreak>#2[i]</unbreak></color> poin <u>\"Source Energy\"</u>, mengakibatkan 1 kali Fire DMG dalam jumlah kecil pada 1 musuh acak.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "We, Too, Stride the Stars",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "AoE",
+			"SkillTypeText": "Ultimate",
+			"MaxLevel": 15,
+			"EffectRaw": "Segera mengendalikan \"Starblazer\". \"Starblazer\" memiliki \"Hyperluminal Particle Beam\" yang dapat dilancarkan 6 kali pada musuh, atau memiliki \"Orbital Annihilation Pulse\" yang dapat dilancarkan pada 1 musuh yang ditargetkan dengan mengonsumsi <u>\"Source Energy\"</u>, yang mengakibatkan Fire DMG maksimal hingga <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> ATK Himeko • Nova, mengakibatkan Fire DMG maksimal hingga <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> ATK Himeko • Nova pada target lainnya.\nSaat kesempatan pelancaran \"Hyperluminal Particle Beam\" habis, akan otomatis melancarkan \"Orbital Annihilation Pulse\", kemudian melancarkan Final Hit, mengakibatkan DMG sebanyak <unbreak>#6[i]</unbreak> kali, yang setiap kalinya mengakibatkan Fire DMG sebesar <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> ATK Himeko • Nova pada 1 musuh acak.\nSaat \"Hyperluminal Particle Beam\" atau \"Orbital Annihilation Pulse\" yang dilancarkan pada seluruh musuh di medan pertempuran mengakibatkan DMG mematikan atau HP musuh tidak bisa dikurangi lagi, akan segera melancarkan Final Hit.",
+			"AbridgedEffect": "Selama Ultimate, dapat melancarkan \"Hyperluminal Particle Beam\" atau \"Orbital Annihilation Pulse\" pada seluruh musuh. Terakhir, mengakibatkan Fire DMG pada <color=#f29e38ff><unbreak>#6[i]</unbreak></color> target musuh acak.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "Of Fire and Far Faring",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Talent",
+			"MaxLevel": 15,
+			"EffectRaw": "Saat Himeko • Nova berada di medan pertempuran, segera menciptakan <u>Teritorial</u> \"Starblazer Visioscape\", \"Starblazer\" muncul di medan pertempuran, dan membuat seluruh karakter tim memperoleh 1 kali penggunaan <u>Skill Dukungan</u>. Karakter tim dapat menggunakan <u>Skill Dukungan</u> untuk memanggil \"Starblazer\" menyerang musuh.\nPenggunaan <u>Skill Dukungan</u> dianggap sebagai Himeko • Nova melancarkan Skill, Himeko • Nova memperoleh peningkatan <u>RES PEN</u> seluruh tipe sebesar <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> dan peningkatan CRIT DMG sebesar <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, saat menyerang dapat mengabaikan Tipe Weakness untuk mengurangi Toughness musuh, dan saat mengakibatkan Weakness Break, memicu efek Fire Weakness Break.\nSaat karakter tim selain Himeko • Nova menggunakan <u>Skill Dukungan</u>, akan memulihkan <unbreak>#3[i]</unbreak> Energy untuknya.",
+			"AbridgedEffect": "Saat Himeko • Nova berada di medan pertempuran, akan menciptakan <u>Teritorial</u>, membuat seluruh karakter tim memperoleh <u>Skill Dukungan</u>. Saat karakter tim menggunakan <u>Skill Dukungan</u>, Himeko • Nova memperoleh peningkatan <u>RES PEN</u> Seluruh Tipe dan CRIT DMG, serta saat menyerang akan mengabaikan Tipe Weakness untuk mengurangi Toughness.\nSaat karakter tim selain Himeko • Nova menggunakan <u>Skill Dukungan</u>, akan memulihkan Energy-nya.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "Starcharter Cruise",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Enhance",
+			"SkillTypeText": "Technique",
+			"MaxLevel": 1,
+			"EffectRaw": "Saat Himeko • Nova berada di dalam tim, batas maksimum Poin Technique meningkat 3 poin.\nSetelah menggunakan Technique, memasuki status \"Cruise\" selama <unbreak>#1[i]</unbreak> detik. Melancarkan Technique secara aktif dapat mengonsumsi 2 Poin Technique untuk segera menyerang semua musuh dalam jangkauan tertentu. Setelah memasuki pertempuran, segera melancarkan 1 kali Skill saat setiap gelombang dimulai.\nJika menyerang musuh biasa, akan segera memusnahkannya dan tidak akan memasuki pertempuran. Poin Technique tidak akan dikonsumsi jika tidak mengenai musuh.",
+			"AbridgedEffect": "<color=#f29e38ff>Batas maksimum Poin Technique meningkat</color> 3 poin. Aktif menggunakan Technique akan memasuki status \"Cruise\", mengonsumsi 2 Poin Technique untuk menyerang semua musuh dalam jangkauan tertentu. Setelah memasuki pertempuran, melancarkan 1 kali Skill saat setiap gelombang dimulai.\nJika menyerang musuh biasa, akan <color=#f29e38ff>segera memusnahkannya</color> dan tidak akan memasuki pertempuran. Poin Technique tidak akan dikonsumsi jika tidak mengenai musuh.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

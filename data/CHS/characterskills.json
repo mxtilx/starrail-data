@@ -41225,7 +41225,7 @@
 			"TagTypeText": "群攻",
 			"SkillTypeText": "战技",
 			"MaxLevel": 15,
-			"EffectRaw": "消耗等同于千冶•刃生命上限<unbreak>#4[i]%</unbreak>的生命值对敌方全体造成等同于千冶•刃<color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>生命上限的火属性伤害，并额外造成<unbreak>#2[i]</unbreak>次伤害，每次伤害对随机敌方单体造成等同于千冶•刃<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>生命上限的火属性伤害。\n若当前生命值不足，施放战技时千冶•刃的当前生命值降低至1点。\n未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。\n施放战技时不消耗战技点。",
+			"EffectRaw": "消耗等同于千冶•刃生命上限<unbreak>#4[f1]%</unbreak>的生命值对敌方全体造成等同于千冶•刃<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>生命上限的火属性伤害，并额外造成<unbreak>#2[i]</unbreak>次伤害，每次伤害对随机敌方单体造成等同于千冶•刃<color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>生命上限的火属性伤害。\n若当前生命值不足，施放战技时千冶•刃的当前生命值降低至1点。\n未处于【无量忿怒】状态或当前生命值小于等于1时，千冶•刃无法施放战技。\n施放战技时不消耗战技点。",
 			"AbridgedEffect": "消耗生命值对敌方全体造成火属性伤害，随后对敌方单体造成少量火属性伤害，弹射<color=#f29e38ff><unbreak>#2[i]</unbreak></color>次。",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "姬子•启行",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "点燃第一里航标",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "单攻",
+			"SkillTypeText": "普攻",
+			"MaxLevel": 10,
+			"EffectRaw": "对敌方单体造成等同于姬子•启行<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻击力的火属性伤害。",
+			"AbridgedEffect": "对敌方单体造成少量火属性伤害。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "超频粒子光束",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群攻",
+			"SkillTypeText": "终结技",
+			"MaxLevel": 15,
+			"EffectRaw": "对敌方全体造成等同于姬子•启行<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻击力的火属性伤害，获得<unbreak>#2[i]</unbreak>点<u>【源能】</u>，<u>【源能】</u>最多获得<unbreak>#3[i]</unbreak>个。",
+			"AbridgedEffect": "对敌方全体造成少量火属性伤害。获得<color=#f29e38ff><unbreak>#2[i]</unbreak></color>点<u>【源能】</u>，<u>【源能】</u>最多获得<color=#f29e38ff><unbreak>#3[i]</unbreak></color>个。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "升起领航的烽火",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "辅助",
+			"SkillTypeText": "战技",
+			"MaxLevel": 15,
+			"EffectRaw": "施放战技后立即恢复所有<u>助战技</u>使用次数，姬子•启行获得【领航旗语】，持续<unbreak>#2[i]</unbreak>回合，姬子•启行每回合开始时持续回合数减1。当姬子•启行拥有【领航旗语】时，我方全体造成的伤害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，每个回合开始时，立即恢复1次<u>助战技</u>使用次数。",
+			"AbridgedEffect": "施放战技后立即恢复所有<u>助战技</u>使用次数，姬子•启行获得【领航旗语】。当姬子•启行拥有【领航旗语】时，造成的伤害提高，每个回合开始时，立即恢复1次<u>助战技</u>使用次数。",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "轨道歼灭脉冲",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群攻",
+			"SkillTypeText": "终结技",
+			"MaxLevel": 15,
+			"EffectRaw": "消耗1点<u>【源能】</u>对敌方全体造成等同于姬子•启行<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>攻击力的火属性伤害。当前<u>【源能】</u>大于1点时，每消耗<unbreak>#2[i]</unbreak>点<u>【源能】</u>，额外对敌方随机单体造成1次等同于姬子•启行<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>攻击力的火属性伤害。",
+			"AbridgedEffect": "消耗1点<u>【源能】</u>对敌方全体造成少量火属性伤害。当前<u>【源能】</u>大于1点时，每消耗<color=#f29e38ff><unbreak>#2[i]</unbreak></color>点<u>【源能】</u>，随机对敌方单体造成1次少量火属性伤害。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "我们，亦是逐星的巨人",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "群攻",
+			"SkillTypeText": "终结技",
+			"MaxLevel": 15,
+			"EffectRaw": "立即操控「拓星者」，「拓星者」拥有可对敌方发动6次的【超频粒子光束】或消耗<u>【源能】</u>发动的【轨道歼灭脉冲】，对指定敌方单体最多造成等同于姬子•启行<color=#f29e38ff><unbreak>#9[i]%</unbreak></color>攻击力的火属性伤害，对其他目标最多造成等同于姬子•启行<color=#f29e38ff><unbreak>#10[i]%</unbreak></color>攻击力的火属性伤害。\n当【超频粒子光束】次数耗尽时，会自动发动【轨道歼灭脉冲】，随后发动最后一击，造成<unbreak>#6[i]</unbreak>次伤害，每次伤害对敌方随机单体造成等同于姬子•启行<color=#f29e38ff><unbreak>#7[i]%</unbreak></color>攻击力的火属性伤害。\n施放【超频粒子光束】或【轨道歼灭脉冲】对场上所有敌方造成致命伤害或敌方无法被继续削减生命值时，会立即发动最后一击。",
+			"AbridgedEffect": "终结技期间可对敌方全体发动【超频粒子光束】或【轨道歼灭脉冲】。最后对敌方<color=#f29e38ff><unbreak>#6[i]</unbreak></color>个随机单体造成火属性伤害。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "共赴灼热的远征",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "强化",
+			"SkillTypeText": "天赋",
+			"MaxLevel": 15,
+			"EffectRaw": "姬子•启行在场时立即展开<u>境界</u>【拓星视界】，场上出现「拓星者」，并使我方全体角色获得1次<u>助战技</u>使用次数。我方角色可使用<u>助战技</u>呼唤「拓星者」攻击敌人。\n使用<u>助战技</u>视为姬子•启行施放了战技，姬子•启行获得全属性<u>抗性穿透</u>提高<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>、暴击伤害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，攻击时可无视弱点属性削减敌方韧性，击破弱点时，触发火属性的弱点击破效果。\n除姬子•启行外的我方角色使用<u>助战技</u>时，会使其恢复<unbreak>#3[i]</unbreak>点能量。",
+			"AbridgedEffect": "姬子•启行在场时展开<u>境界</u>，使我方全体角色获得<u>助战技</u>。我方角色使用<u>助战技</u>，姬子•启行获得全属性<u>抗性穿透</u>提高、暴击伤害提高，攻击时无视弱点属性削减韧性。\n除姬子•启行外的我方角色使用<u>助战技</u>时，会使其恢复能量。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "拓星巡航",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "强化",
+			"SkillTypeText": "秘技",
+			"MaxLevel": 1,
+			"EffectRaw": "姬子•启行在队伍中时，使秘技点上限提高3点。\n使用秘技后进入持续<unbreak>#1[i]</unbreak>秒的【巡航】状态，主动施放秘技消耗2点秘技点，立即攻击一定范围内的所有敌人。进入战斗后，每个波次开始时立即施放1次战技。\n若攻击普通敌人则立即将其消灭，不会进入战斗。未击中敌人时不消耗秘技点。",
+			"AbridgedEffect": "<color=#f29e38ff>秘技点上限提高</color>3点。主动施放进入【巡航】状态，消耗2点秘技点攻击一定范围内的所有敌人。进入战斗后，每个波次开始时施放1次战技。\n若攻击普通敌人则<color=#f29e38ff>立即将其消灭</color>，不会进入战斗。未击中敌人时不消耗秘技点。",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

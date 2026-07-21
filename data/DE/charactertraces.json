@@ -128078,7 +128078,7 @@
 				"Name": "Unter der Klinge, letzte Ruhe",
 				"NodeType": 2,
 				"NodeTypeText": "Fertigkeit",
-				"EffectRaw": "Verbraucht LP in Höhe von <unbreak>#4[i]%</unbreak> der max. LP von Mortenax Blade und fügt allen Gegnern Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> der max. LP von Mortenax Blade zu. Verursacht zusätzlich <unbreak>#2[i]</unbreak>-mal SCH, wobei jedes Mal einem zufälligen Gegner Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> der max. LP von Mortenax Blade zugefügt wird.\nWenn die aktuellen LP nicht ausreichen, werden Mortenax Blades aktuelle LP beim Einsatz der Fertigkeit auf 1 reduziert.\nWenn sich Mortenax Blade nicht im Status „Grenzenloser Zorn“ befindet oder seine aktuellen LP 1 oder weniger betragen, kann er die Fertigkeit nicht einsetzen.\nBeim Einsatz der Fertigkeit werden keine Fertigkeitspunkte verbraucht.",
+				"EffectRaw": "Verbraucht LP in Höhe von <unbreak>#4[f1]%</unbreak> der max. LP von Mortenax Blade und fügt allen Gegnern Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> der max. LP von Mortenax Blade zu. Verursacht zusätzlich <unbreak>#2[i]</unbreak>-mal SCH, wobei jedes Mal einem zufälligen Gegner Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> der max. LP von Mortenax Blade zugefügt wird.\nWenn die aktuellen LP nicht ausreichen, werden Mortenax Blades aktuelle LP beim Einsatz der Fertigkeit auf 1 reduziert.\nWenn sich Mortenax Blade nicht im Status „Grenzenloser Zorn“ befindet oder seine aktuellen LP 1 oder weniger betragen, kann er die Fertigkeit nicht einsetzen.\nBeim Einsatz der Fertigkeit werden keine Fertigkeitspunkte verbraucht.",
 				"MaxLevel": 10,
 				"LeveledSkillIds": [
 					"150702",
@@ -129387,6 +129387,1467 @@
 			}
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko – Nova",
+		"Nodes": {
+			"1510001": {
+				"Id": "1510001",
+				"Name": "Entzünde das Leuchtfeuer der ersten Meile",
+				"NodeType": 2,
+				"NodeTypeText": "Standardangriff",
+				"EffectRaw": "Fügt einem Gegner Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> von Himeko – Novas ANG zu.",
+				"MaxLevel": 6,
+				"LeveledSkillIds": [
+					"151001"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.5
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.6
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Himmelsmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.7
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.8
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.9
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							1
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510002": {
+				"Id": "1510002",
+				"Name": "Entfache die Flamme der Wegweisung",
+				"NodeType": 2,
+				"NodeTypeText": "Fertigkeit",
+				"EffectRaw": "Nach dem Einsatz der Fertigkeit werden alle Verwendungen der <u>Unterstützungsfertigkeit</u> sofort wiederhergestellt und Himeko – Nova erhält für <unbreak>#2[i]</unbreak> Rd. „Navigationssignal“. Zu Beginn jeder Runde von Himeko – Nova wird die Dauer um 1 Rd. verringert. Wenn Himeko – Nova Navigationssignal besitzt, wird der von allen Verbündeten verursachte SCH um <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> erhöht. Zu Beginn jeder Runde wird sofort 1 Verwendung der <u>Unterstützungsfertigkeit</u> wiederhergestellt.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151002"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.1,
+							3
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.11,
+							3
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.12,
+							3
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Himmelsmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.13,
+							3
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.14,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.15,
+							3
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.1625,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.175,
+							3
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.1875,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.2,
+							3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510003": {
+				"Id": "1510003",
+				"Name": "Auch wir sind sternenjagende Giganten",
+				"NodeType": 2,
+				"NodeTypeText": "Ultimate",
+				"EffectRaw": "Übernimm sofort die Kontrolle über den „Starblazer“. Starblazer verfügt über den „Übertakteter Partikelstrahl“, der 6-mal gegen Gegner eingesetzt werden kann, sowie auch den durch Verbrauch von <u>Quellenergie</u> ausgelösten „Orbitalen Vernichtungsimpuls“, wodurch einem anvisierten Gegner Feuer-SCH in Höhe von bis zu <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> von Himeko – Novas ANG sowie anderen Zielen Feuer-SCH in Höhe von bis zu <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> von Himeko – Novas ANG zugefügt wird.\nWenn die Verwendungen von Übertakteter Partikelstrahl aufgebraucht sind, wird automatisch der Orbitale Vernichtungsimpuls ausgelöst und anschließend der letzte Schlag ausgeführt, der <unbreak>#6[i]</unbreak>-mal SCH verursacht. Jeder Treffer fügt einem zufälligen Gegner Feuer-SCH in Höhe von <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> von Himeko – Novas ANG zu.\nWenn der Einsatz von Übertakteter Partikelstrahl oder Orbitaler Vernichtungsimpuls allen Gegnern auf dem Kampffeld tödlichen SCH zufügt oder die LP der Gegner nicht weiter reduziert werden können, wird sofort der letzte Schlag ausgeführt.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151003",
+					"151008",
+					"151009",
+					"151014"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.16,
+							1,
+							0.1,
+							1,
+							0.15,
+							3,
+							0.4,
+							3,
+							3.81,
+							1.26
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.176,
+							1,
+							0.11,
+							1,
+							0.165,
+							3,
+							0.44,
+							3,
+							4.191,
+							1.386
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.192,
+							1,
+							0.12,
+							1,
+							0.18,
+							3,
+							0.48,
+							3,
+							4.572,
+							1.512
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Himmelsmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.208,
+							1,
+							0.13,
+							1,
+							0.195,
+							3,
+							0.52,
+							3,
+							4.953,
+							1.638
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.224,
+							1,
+							0.14,
+							1,
+							0.21,
+							3,
+							0.56,
+							3,
+							5.334,
+							1.764
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.24,
+							1,
+							0.15,
+							1,
+							0.225,
+							3,
+							0.6,
+							3,
+							5.715,
+							1.89
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.26,
+							1,
+							0.1625,
+							1,
+							0.2438,
+							3,
+							0.65,
+							3,
+							6.1913,
+							2.0475
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.28,
+							1,
+							0.175,
+							1,
+							0.2625,
+							3,
+							0.7,
+							3,
+							6.6675,
+							2.205
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.3,
+							1,
+							0.1875,
+							1,
+							0.2813,
+							3,
+							0.75,
+							3,
+							7.1438,
+							2.3625
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.32,
+							1,
+							0.2,
+							1,
+							0.3,
+							3,
+							0.8,
+							3,
+							7.62,
+							2.52
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510004": {
+				"Id": "1510004",
+				"Name": "Gemeinsam zur brennenden Expedition",
+				"NodeType": 2,
+				"NodeTypeText": "Talent",
+				"EffectRaw": "Wenn Himeko – Nova sich auf dem Kampffeld befindet, wird sofort der <u>Bereich</u> „Horizont des Starblazers“ erschaffen. Der „Starblazer“ erscheint auf dem Kampffeld und alle verbündeten Figuren erhalten 1 Verwendung der <u>Unterstützungsfertigkeit</u>. Verbündete Figuren können die <u>Unterstützungsfertigkeit</u> einsetzen, um den Starblazer herbeizurufen und Gegner anzugreifen.\nDer Einsatz der <u>Unterstützungsfertigkeit</u> gilt als Einsatz von Himeko – Novas Fertigkeit. Himeko – Nova erhält eine Erhöhung der <u>WDS-DUR</u> aller Typen um <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> sowie eine KRIT-SCH-Erhöhung um <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. Ihre Angriffe können den WDS von Gegnern unabhängig vom Schwächetyp reduzieren. Beim Schwächebruch wird der Effekt Schwächebruch: Feuer ausgelöst.\nWenn eine verbündete Figur außer Himeko – Nova eine <u>Unterstützungsfertigkeit</u> einsetzt, stellt diese Figur <unbreak>#3[i]</unbreak> Pkt. Energie wieder her.",
+				"MaxLevel": 10,
+				"LeveledSkillIds": [
+					"151004",
+					"151022",
+					"151025",
+					"151026"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.4,
+							0.1,
+							4
+						],
+						"Costs": []
+					},
+					"2": {
+						"EffectValues": [
+							0.44,
+							0.11,
+							4
+						],
+						"AscensionRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 3
+							}
+						]
+					},
+					"3": {
+						"EffectValues": [
+							0.48,
+							0.12,
+							4
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Himmelsmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					},
+					"4": {
+						"EffectValues": [
+							0.52,
+							0.13,
+							4
+						],
+						"AscensionRequired": 3,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					},
+					"5": {
+						"EffectValues": [
+							0.56,
+							0.14,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					},
+					"6": {
+						"EffectValues": [
+							0.6,
+							0.15,
+							4
+						],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 30000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 7
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 6
+							}
+						]
+					},
+					"7": {
+						"EffectValues": [
+							0.65,
+							0.1625,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					},
+					"8": {
+						"EffectValues": [
+							0.7,
+							0.175,
+							4
+						],
+						"AscensionRequired": 5,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 80000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 5
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 4
+							}
+						]
+					},
+					"9": {
+						"EffectValues": [
+							0.75,
+							0.1875,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					},
+					"10": {
+						"EffectValues": [
+							0.8,
+							0.2,
+							4
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 300000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 14
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510007": {
+				"Id": "1510007",
+				"Name": "Sternenexpedition",
+				"NodeType": 2,
+				"NodeTypeText": "Technik",
+				"EffectRaw": "Wenn Himeko – Nova sich im Team befindet, werden die max. Technikpunkte um 3 erhöht.\nTritt nach dem Einsatz der Technik für <unbreak>#1[i]</unbreak> Sek. in den Status „Reiseflug“ ein. Der aktive Einsatz der Technik verbraucht 2 Technikpunkte, um sofort alle Gegner in einem bestimmten Bereich anzugreifen. Nach Kampfeintritt wird zu Beginn jeder Kampfwelle sofort 1-mal die Fertigkeit eingesetzt.\nWenn normale Gegner angegriffen werden, werden diese sofort besiegt, ohne in den Kampf einzutreten. Werden keine Gegner getroffen, werden keine Technikpunkte verbraucht.",
+				"MaxLevel": 1,
+				"LeveledSkillIds": [
+					"151007"
+				],
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							30
+						],
+						"Costs": []
+					}
+				}
+			},
+			"1510101": {
+				"Id": "1510101",
+				"Name": "Wohin soll die Menschheit gehen?",
+				"NodeType": 3,
+				"EffectRaw": "Der Einsatz der <u>Unterstützungsfertigkeit</u> von Himeko – Nova verbraucht keine Verwendungen der <u>Unterstützungsfertigkeit</u>. Entspricht die aktuelle Anzahl der Verwendungen zu Beginn der Runde der maximalen Anzahl der Verwendungen, stellt Himeko – Nova zusätzlich <unbreak>#1[i]</unbreak> Energie wieder her.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree1.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							5
+						],
+						"AscensionRequired": 2,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Himmelsmodell",
+								"Count": 3
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510102": {
+				"Id": "1510102",
+				"Name": "Der Puls des Expresses dröhnt",
+				"NodeType": 3,
+				"EffectRaw": "Wenn eine Figur der <u>Trailblaze-Gefährten</u> außer Himeko – Nova eine <u>Unterstützungsfertigkeit</u> einsetzt, erhält diese Figur sofort 1 <u>zusätzliche Runde</u>, in der sie ihren Ultimate einsetzen kann. Eine durch die <u>Unterstützungsfertigkeit</u> erhaltene <u>zusätzliche Runde</u> löst diesen Spureneffekt nicht erneut aus.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree2.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [],
+						"AscensionRequired": 4,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 5
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510103": {
+				"Id": "1510103",
+				"Name": "Die silberne Schiene schweigt seit Urzeiten",
+				"NodeType": 3,
+				"EffectRaw": "Erhält beim Einsatz des Ultimates sofort <unbreak>#1[i]</unbreak> Pkt. <u>Quellenergie</u>. Beträgt die aktuelle <u>Quellenergie</u> beim Ausführen des Angriffs „Orbitaler Vernichtungsimpuls“ mindestens <unbreak>#2[i]</unbreak> Pkt., wird der SCH-Multiplikator von Orbitaler Vernichtungsimpuls gegen einen zufälligen Gegner um <unbreak>#3[i]%</unbreak> erhöht.",
+				"MaxLevel": 1,
+				"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_SkillTree3.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							3,
+							3,
+							0.3
+						],
+						"AscensionRequired": 6,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "241",
+								"Name": "Spuren des Schicksals",
+								"Count": 1
+							},
+							{
+								"Id": "110508",
+								"Name": "Zurückhaltung des überwundenen Stroms",
+								"Count": 1
+							}
+						]
+					}
+				}
+			},
+			"1510201": {
+				"Id": "1510201",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"LevelRequired": 1,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 2500
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 2
+							}
+						]
+					}
+				}
+			},
+			"1510202": {
+				"Id": "1510202",
+				"Name": "KRIT-Rate-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-Rate um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.027,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.027
+						],
+						"AscensionRequired": 2,
+						"NodeRequired": "1510101",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 5000
+							},
+							{
+								"Id": "110291",
+								"Name": "Himmelsmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116001",
+								"Name": "Unschuldiger Wachsmalstift",
+								"Count": 6
+							}
+						]
+					}
+				}
+			},
+			"1510203": {
+				"Id": "1510203",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510204": {
+				"Id": "1510204",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.032,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.032
+						],
+						"AscensionRequired": 3,
+						"NodeRequired": "1510202",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 10000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 3
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510205": {
+				"Id": "1510205",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 4,
+						"NodeRequired": "1510102",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 20000
+							},
+							{
+								"Id": "110292",
+								"Name": "Galaktisches Rahmenwerk",
+								"Count": 5
+							},
+							{
+								"Id": "116002",
+								"Name": "Traum-Tauchfüller",
+								"Count": 4
+							}
+						]
+					}
+				}
+			},
+			"1510206": {
+				"Id": "1510206",
+				"Name": "KRIT-Rate-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-Rate um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.04,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.04
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510207": {
+				"Id": "1510207",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.06,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.06
+						],
+						"AscensionRequired": 5,
+						"NodeRequired": "1510205",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 45000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 3
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 3
+							}
+						]
+					}
+				}
+			},
+			"1510208": {
+				"Id": "1510208",
+				"Name": "SCH-Verstärkung: Feuer",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht Feuer-SCH um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "FireAddedRatio",
+				"StatBonusValue": 0.048,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconFireAddedRatio.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.048
+						],
+						"AscensionRequired": 6,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510209": {
+				"Id": "1510209",
+				"Name": "KRIT-Rate-Erhöhung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht KRIT-Rate um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "CriticalChanceBase",
+				"StatBonusValue": 0.053,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconCriticalChance.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.053
+						],
+						"LevelRequired": 75,
+						"NodeRequired": "1510103",
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			},
+			"1510210": {
+				"Id": "1510210",
+				"Name": "ANG-Verstärkung",
+				"NodeType": 1,
+				"EffectRaw": "Erhöht ANG um <unbreak>#1[f1]%</unbreak>.",
+				"MaxLevel": 1,
+				"StatBonusType": "AttackAddedRatio",
+				"StatBonusValue": 0.08,
+				"ImageIcon": "SpriteOutput/UI/Avatar/Icon/IconAttack.png",
+				"Levels": {
+					"1": {
+						"EffectValues": [
+							0.08
+						],
+						"LevelRequired": 80,
+						"Costs": [
+							{
+								"Id": "2",
+								"Name": "Credit",
+								"Count": 160000
+							},
+							{
+								"Id": "110293",
+								"Name": "Kosmisches Sandmodell",
+								"Count": 8
+							},
+							{
+								"Id": "116003",
+								"Name": "Luzide Ahle",
+								"Count": 8
+							}
+						]
+					}
+				}
+			}
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

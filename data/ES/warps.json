@@ -1279,6 +1279,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"2128": {
+		"Id": "2128",
+		"Name": "Ad Astra Nova",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2129": {
+		"Id": "2129",
+		"Name": "Reuniones inolvidables: Chispa",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2130": {
+		"Id": "2130",
+		"Name": "Reuniones inolvidables: Dan Heng - Permansor Terrae",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2131": {
+		"Id": "2131",
+		"Name": "Reuniones inolvidables: Larganoche",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2132": {
+		"Id": "2132",
+		"Name": "Reuniones inolvidables: Anaxa",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2133": {
+		"Id": "2133",
+		"Name": "Reuniones inolvidables: Céridra",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2134": {
+		"Id": "2134",
+		"Name": "Reuniones inolvidables: Aventurino",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Salto de evento de personaje",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Fijación brillante",
@@ -2549,6 +2619,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"3128": {
+		"Id": "3128",
+		"Name": "Fijación brillante",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3129": {
+		"Id": "3129",
+		"Name": "Convergencia verdadera: El cautivador mundochispa",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3130": {
+		"Id": "3130",
+		"Name": "Convergencia verdadera: A través de montañas y ríos",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3131": {
+		"Id": "3131",
+		"Name": "Convergencia verdadera: A la estrella de la larga noche",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3132": {
+		"Id": "3132",
+		"Name": "Convergencia verdadera: La vida en llamas",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3133": {
+		"Id": "3133",
+		"Name": "Convergencia verdadera: Era grabada en sangre dorada",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3134": {
+		"Id": "3134",
+		"Name": "Convergencia verdadera: El destino nunca es justo",
+		"Description": "{LAYOUT_MOBILE#Toca}{LAYOUT_CONTROLLER#Presiona}{LAYOUT_KEYBOARD#Haz clic} en las pestañas para cambiar entre los distintos Saltos.",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Salto de evento de cono de luz",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"4001": {
 		"Id": "4001",
 		"Name": "Salto de partida",
@@ -2564,7 +2704,7 @@
 		"Name": "Juramento glorioso de una espada sagrada",
 		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Salto de colaboración de personaje",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014_Selected.png",
 		"VersionAdded": "3.4"
@@ -2574,17 +2714,37 @@
 		"Name": "Espada forjada por el cielo",
 		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Salto de colaboración de personaje",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"5003": {
+		"Id": "5003",
+		"Name": "Resplandor de la gema escarlata",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"5004": {
+		"Id": "5004",
+		"Name": "Estrella del amanecer primigenio",
+		"Description": "¡Los personajes destacados tienen más probabilidades de salir!",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509_Selected.png",
+		"VersionAdded": "4.4"
 	},
 	"6001": {
 		"Id": "6001",
 		"Name": "El nacimiento de un rey",
 		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Salto de colaboración de cono de luz",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045_Selected.png",
 		"VersionAdded": "3.4"
@@ -2594,9 +2754,29 @@
 		"Name": "Sombra escarlata de Fuyuki",
 		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Salto de colaboración de cono de luz",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"6003": {
+		"Id": "6003",
+		"Name": "Esplendor caleidoscópico",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"6004": {
+		"Id": "6004",
+		"Name": "Puerta dorada de la era divina",
+		"Description": "¡Los conos de luz destacados tienen más probabilidades de salir!",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Saltos de colaboración de Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062_Selected.png",
+		"VersionAdded": "4.4"
 	}
 }

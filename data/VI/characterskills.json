@@ -41225,7 +41225,7 @@
 			"TagTypeText": "Đánh Lan",
 			"SkillTypeText": "Chiến Kỹ",
 			"MaxLevel": 15,
-			"EffectRaw": "Tiêu hao HP bằng <unbreak>#4[i]%</unbreak> Giới Hạn HP của Mortenax Blade, gây Sát Thương Hỏa cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời gây thêm <unbreak>#2[i]</unbreak> lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên bằng <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade.\nNếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Mortenax Blade giảm còn 1.\nKhi không ở trạng thái \"Vô Lượng Phẫn Nộ\" hoặc HP hiện tại nhỏ hơn hoặc bằng 1, Mortenax Blade không thể thi triển Chiến Kỹ.\nThi triển Chiến Kỹ không tiêu hao Điểm Chiến Kỹ.",
+			"EffectRaw": "Tiêu hao HP bằng <unbreak>#4[f1]%</unbreak> Giới Hạn HP của Mortenax Blade, gây Sát Thương Hỏa cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Giới Hạn HP của Mortenax Blade, đồng thời gây thêm <unbreak>#2[i]</unbreak> lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa cho 1 kẻ địch ngẫu nhiên bằng <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color> Giới Hạn HP của Mortenax Blade.\nNếu HP hiện tại không đủ, khi thi triển Chiến Kỹ, HP hiện tại của Mortenax Blade giảm còn 1.\nKhi không ở trạng thái \"Vô Lượng Phẫn Nộ\" hoặc HP hiện tại nhỏ hơn hoặc bằng 1, Mortenax Blade không thể thi triển Chiến Kỹ.\nThi triển Chiến Kỹ không tiêu hao Điểm Chiến Kỹ.",
 			"AbridgedEffect": "Tiêu hao HP gây Sát Thương Hỏa cho toàn bộ phe địch, sau đó gây lượng nhỏ Sát Thương Hỏa lên 1 kẻ địch, Nảy Bật <color=#f29e38ff><unbreak>#2[i]</unbreak></color> lần.",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko - Nova",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "Thắp Sáng Mốc Dẫn Đường Đầu Tiên",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "Đánh Đơn",
+			"SkillTypeText": "Tấn Công Thường",
+			"MaxLevel": 10,
+			"EffectRaw": "Gây Sát Thương Hỏa cho 1 kẻ địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Himeko - Nova.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "Chùm Tia Hạt Siêu Tần",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Gây Sát Thương Hỏa cho toàn bộ phe địch bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Himeko - Nova, nhận <unbreak>#2[i]</unbreak> điểm <u>\"Nguyên Năng\"</u>, tối đa nhận được <unbreak>#3[i]</unbreak> <u>\"Nguyên Năng\"</u>.",
+			"AbridgedEffect": "Gây lượng nhỏ Sát Thương Hỏa cho toàn phe địch. Nhận <color=#f29e38ff><unbreak>#2[i]</unbreak></color> điểm <u>\"Nguyên Năng\"</u>, tối đa nhận được <color=#f29e38ff><unbreak>#3[i]</unbreak></color> điểm <u>\"Nguyên Năng\"</u>.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "Giương Cao Ngọn Lửa Dẫn Đường",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "Hỗ Trợ",
+			"SkillTypeText": "Chiến Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Sau khi thi triển Chiến Kỹ, lập tức hồi phục tất cả số lần sử dụng <u>Kỹ Năng Trợ Chiến</u>, Himeko - Nova nhận được \"Cờ Hiệu Dẫn Đường\", duy trì <unbreak>#2[i]</unbreak> hiệp, khi bắt đầu mỗi hiệp của Himeko - Nova, số hiệp duy trì giảm 1. Khi Himeko - Nova có \"Cờ Hiệu Dẫn Đường\", sát thương do toàn phe ta gây ra tăng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>, khi bắt đầu mỗi hiệp, lập tức hồi phục 1 lần sử dụng <u>Kỹ Năng Trợ Chiến</u>.",
+			"AbridgedEffect": "Sau khi thi triển Chiến Kỹ, lập tức hồi phục tất cả số lần sử dụng <u>Kỹ Năng Trợ Chiến</u>, Himeko - Nova nhận được \"Cờ Hiệu Dẫn Đường\". Khi Himeko - Nova có \"Cờ Hiệu Dẫn Đường\", sát thương gây ra tăng, khi bắt đầu mỗi hiệp, lập tức hồi phục 1 lần sử dụng <u>Kỹ Năng Trợ Chiến</u>.",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "Xung Mạch Hủy Diệt Quỹ Đạo",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Tiêu hao 1 điểm <u>\"Nguyên Năng\"</u>, gây Sát Thương Hỏa bằng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Tấn Công của Himeko - Nova cho toàn bộ phe địch. Khi <u>\"Nguyên Năng\"</u> hiện tại lớn hơn 1 điểm, cứ tiêu hao <unbreak>#2[i]</unbreak> điểm <u>\"Nguyên Năng\"</u>, sẽ gây thêm 1 lần Sát Thương Hỏa bằng <color=#f29e38ff><unbreak>#3[i]%</unbreak></color> Tấn Công của Himeko - Nova cho 1 kẻ địch ngẫu nhiên.",
+			"AbridgedEffect": "Tiêu hao 1 điểm <u>\"Nguyên Năng\"</u> gây lượng nhỏ Sát Thương Hỏa cho toàn bộ phe địch. Khi <u>\"Nguyên Năng\"</u> hiện tại lớn hơn 1 điểm, cứ tiêu hao <color=#f29e38ff><unbreak>#2[i]</unbreak></color> điểm <u>\"Nguyên Năng\"</u>, ngẫu nhiên gây 1 lần lượng nhỏ Sát Thương Hỏa cho 1 kẻ địch.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "Chúng Ta, Cũng Hướng Đến Những Vì Sao",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "Đánh Lan",
+			"SkillTypeText": "Tuyệt Kỹ",
+			"MaxLevel": 15,
+			"EffectRaw": "Lập tức điều khiển \"Người Khai Phá Sao\", \"Người Khai Phá Sao\" sở hữu \"Chùm Tia Hạt Siêu Tần\" có thể phát động 6 lần lên phe địch hoặc \"Xung Mạch Hủy Diệt Quỹ Đạo\" được phát động bằng cách tiêu hao <u>\"Nguyên Năng\"</u>, gây Sát Thương Hỏa tối đa bằng <color=#f29e38ff><unbreak>#9[i]%</unbreak></color> Tấn Công của Himeko - Nova cho 1 kẻ địch chỉ định, gây Sát Thương Hỏa tối đa bằng <color=#f29e38ff><unbreak>#10[i]%</unbreak></color> Tấn Công của Himeko - Nova cho các mục tiêu khác.\nKhi dùng hết số lần \"Chùm Tia Hạt Siêu Tần\", sẽ tự động phát động \"Xung Mạch Hủy Diệt Quỹ Đạo\", sau đó phát động Đòn Đánh Cuối Cùng, gây <unbreak>#6[i]</unbreak> lần sát thương, mỗi lần sát thương gây Sát Thương Hỏa bằng <color=#f29e38ff><unbreak>#7[i]%</unbreak></color> Tấn Công của Himeko - Nova cho 1 kẻ địch ngẫu nhiên.\nKhi thi triển \"Chùm Tia Hạt Siêu Tần\" hoặc \"Xung Mạch Hủy Diệt Quỹ Đạo\" gây sát thương chí tử cho toàn bộ phe địch trên sân hoặc khi phe địch không thể tiếp tục bị giảm HP, sẽ lập tức thi triển Đòn Đánh Cuối Cùng.",
+			"AbridgedEffect": "Trong thời gian Tuyệt Kỹ có thể thi triển \"Chùm Tia Hạt Siêu Tần\" hoặc \"Xung Mạch Hủy Diệt Quỹ Đạo\" lên toàn phe địch. Cuối cùng gây Sát Thương Hỏa cho <color=#f29e38ff><unbreak>#6[i]</unbreak></color> mục tiêu phe địch ngẫu nhiên.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "Cùng Bước Vào Cuộc Viễn Chinh Rực Cháy",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Thiên Phú",
+			"MaxLevel": 15,
+			"EffectRaw": "Khi Himeko - Nova ở trên sân sẽ lập tức mở ra <u>Vùng Lãnh Thổ</u> \"Tầm Nhìn Khai Phá Sao\", trên sân xuất hiện \"Người Khai Phá Sao\", đồng thời khiến toàn bộ nhân vật phe ta nhận 1 lần sử dụng <u>Kỹ Năng Trợ Chiến</u>. Nhân vật phe ta có thể sử dụng <u>Kỹ Năng Trợ Chiến</u> triệu hồi \"Người Khai Phá Sao\" tấn công kẻ địch.\nSử dụng <u>Kỹ Năng Trợ Chiến</u> được xem như Himeko - Nova thi triển Chiến Kỹ, Himeko - Nova được tăng <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> <u>Xuyên Kháng</u> Toàn Thuộc Tính, tăng <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> Sát Thương Bạo Kích, khi tấn công có thể bỏ qua Thuộc Tính Điểm Yếu làm giảm Sức Bền phe địch, khi Phá Vỡ Điểm Yếu, kích hoạt hiệu ứng Phá Vỡ Điểm Yếu thuộc tính Hỏa.\nKhi nhân vật phe ta ngoài Himeko - Nova sử dụng <u>Kỹ Năng Trợ Chiến</u>, sẽ hồi <unbreak>#3[i]</unbreak> điểm Năng Lượng.",
+			"AbridgedEffect": "Khi Himeko - Nova trong trận sẽ triển khai <u>Vùng Lãnh Thổ</u>, khiến toàn bộ nhân vật phe ta nhận được <u>Kỹ Năng Trợ Chiến</u>. Khi nhân vật phe ta sử dụng <u>Kỹ Năng Trợ Chiến</u>, Himeko - Nova nhận được tăng <u>Xuyên Kháng</u> Toàn Thuộc Tính, tăng Sát Thương Bạo Kích, khi tấn công bỏ qua Thuộc Tính Điểm Yếu giảm Sức Bền.\nKhi nhân vật phe ta ngoài Himeko - Nova sử dụng <u>Kỹ Năng Trợ Chiến</u>, sẽ khiến nhân vật đó hồi Năng Lượng.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "Du Hành Khai Phá Sao",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "Cường Hóa",
+			"SkillTypeText": "Bí Kỹ",
+			"MaxLevel": 1,
+			"EffectRaw": "Khi Himeko - Nova ở trong đội, khiến giới hạn Điểm Bí Kỹ tăng 3 điểm.\nSau khi sử dụng Bí Kỹ sẽ vào trạng thái \"Du Hành\" duy trì <unbreak>#1[i]</unbreak> giây, chủ động thi triển Bí Kỹ tiêu hao 2 Điểm Bí Kỹ, lập tức tấn công toàn bộ kẻ địch trong phạm vi nhất định. Sau khi vào chiến đấu, khi bắt đầu mỗi đợt lập tức thi triển 1 lần Chiến Kỹ.\nNếu tấn công kẻ địch thường sẽ lập tức tiêu diệt kẻ địch đó, không vào chiến đấu. Khi không đánh trúng kẻ địch sẽ không tiêu hao Điểm Bí Kỹ.",
+			"AbridgedEffect": "<color=#f29e38ff>Giới hạn Điểm Bí Kỹ tăng</color> 3 điểm. Chủ động thi triển vào trạng thái \"Du Hành\", tiêu hao 2 Điểm Bí Kỹ tấn công tất cả kẻ địch trong phạm vi nhất định. Sau khi vào chiến đấu, khi bắt đầu mỗi đợt sẽ thi triển 1 lần Chiến Kỹ.\nNếu tấn công kẻ địch thường sẽ <color=#f29e38ff>lập tức tiêu diệt kẻ địch đó</color>, không vào chiến đấu. Khi chưa đánh trúng kẻ địch sẽ không tiêu hao Điểm Bí Kỹ.",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

@@ -8009,6 +8009,204 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"23060": {
+		"Id": "23060",
+		"Name": "Wenn ein Stern den Nachthimmel erhellt",
+		"PathType": "Mage",
+		"PathTypeText": "Die Gelehrsamkeit",
+		"EffectName": "Erster Wunsch",
+		"EffectTemplate": "Der Träger ignoriert beim Verursachen von SCH <color=#f29e38ff>#7[i]%</color> der VTD des Ziels. Wenn der Träger die Unterstützungsfertigkeit einsetzt, stellt er #2[i] Energie wieder her und erhält „Segeln“, der 2 Rd. anhält und bis zu #3[i]-fach stapelbar ist. Jede Stapelung von Segeln erhöht den Unterstützungsfertigkeits-SCH um <color=#f29e38ff>#4[i]%</color>. Erreicht Segeln #5[i] Stapelungen, erhöht jede Stapelung von Segeln den Ultimate-SCH um <color=#f29e38ff>#6[i]%</color>.",
+		"Superimpositions": [
+			{
+				"Effect": "Der Träger ignoriert beim Verursachen von SCH <color=#f29e38ff>32%</color> der VTD des Ziels. Wenn der Träger die Unterstützungsfertigkeit einsetzt, stellt er 6 Energie wieder her und erhält „Segeln“, der 2 Rd. anhält und bis zu 3-fach stapelbar ist. Jede Stapelung von Segeln erhöht den Unterstützungsfertigkeits-SCH um <color=#f29e38ff>20%</color>. Erreicht Segeln 3 Stapelungen, erhöht jede Stapelung von Segeln den Ultimate-SCH um <color=#f29e38ff>20%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.2,
+					3,
+					0.2,
+					0.32
+				]
+			},
+			{
+				"Effect": "Der Träger ignoriert beim Verursachen von SCH <color=#f29e38ff>36%</color> der VTD des Ziels. Wenn der Träger die Unterstützungsfertigkeit einsetzt, stellt er 6 Energie wieder her und erhält „Segeln“, der 2 Rd. anhält und bis zu 3-fach stapelbar ist. Jede Stapelung von Segeln erhöht den Unterstützungsfertigkeits-SCH um <color=#f29e38ff>25%</color>. Erreicht Segeln 3 Stapelungen, erhöht jede Stapelung von Segeln den Ultimate-SCH um <color=#f29e38ff>25%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.25,
+					3,
+					0.25,
+					0.36
+				]
+			},
+			{
+				"Effect": "Der Träger ignoriert beim Verursachen von SCH <color=#f29e38ff>40%</color> der VTD des Ziels. Wenn der Träger die Unterstützungsfertigkeit einsetzt, stellt er 6 Energie wieder her und erhält „Segeln“, der 2 Rd. anhält und bis zu 3-fach stapelbar ist. Jede Stapelung von Segeln erhöht den Unterstützungsfertigkeits-SCH um <color=#f29e38ff>30%</color>. Erreicht Segeln 3 Stapelungen, erhöht jede Stapelung von Segeln den Ultimate-SCH um <color=#f29e38ff>30%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.3,
+					3,
+					0.3,
+					0.4
+				]
+			},
+			{
+				"Effect": "Der Träger ignoriert beim Verursachen von SCH <color=#f29e38ff>44%</color> der VTD des Ziels. Wenn der Träger die Unterstützungsfertigkeit einsetzt, stellt er 6 Energie wieder her und erhält „Segeln“, der 2 Rd. anhält und bis zu 3-fach stapelbar ist. Jede Stapelung von Segeln erhöht den Unterstützungsfertigkeits-SCH um <color=#f29e38ff>35%</color>. Erreicht Segeln 3 Stapelungen, erhöht jede Stapelung von Segeln den Ultimate-SCH um <color=#f29e38ff>35%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.35,
+					3,
+					0.35,
+					0.44
+				]
+			},
+			{
+				"Effect": "Der Träger ignoriert beim Verursachen von SCH <color=#f29e38ff>48%</color> der VTD des Ziels. Wenn der Träger die Unterstützungsfertigkeit einsetzt, stellt er 6 Energie wieder her und erhält „Segeln“, der 2 Rd. anhält und bis zu 3-fach stapelbar ist. Jede Stapelung von Segeln erhöht den Unterstützungsfertigkeits-SCH um <color=#f29e38ff>40%</color>. Erreicht Segeln 3 Stapelungen, erhöht jede Stapelung von Segeln den Ultimate-SCH um <color=#f29e38ff>40%</color>.",
+				"Params": [
+					0,
+					6,
+					3,
+					0.4,
+					3,
+					0.4,
+					0.48
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23061": {
+		"Id": "23061",
+		"Name": "Die leise flackernde Sternenflamme",
+		"PathType": "Mage",
+		"PathTypeText": "Die Gelehrsamkeit",
+		"EffectName": "Keim",
+		"EffectTemplate": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>#1[i]%</color>. Wenn eine beliebige verbündete Figur in ihrer eigenen Runde insgesamt mindestens #3[i] Fertigkeitspunkte verbraucht, erhält der Träger für #4[i] Rd. „Strahlende Krone“. Wenn der Träger Strahlende Krone besitzt, ignoriert der von allen Verbündeten verursachte SCH <color=#f29e38ff>#5[i]%</color> der VTD des Ziels und der vom Träger verursachte Fertigkeits-SCH wird um <color=#f29e38ff>#2[i]%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>18%</color>. Wenn eine beliebige verbündete Figur in ihrer eigenen Runde insgesamt mindestens 4 Fertigkeitspunkte verbraucht, erhält der Träger für 3 Rd. „Strahlende Krone“. Wenn der Träger Strahlende Krone besitzt, ignoriert der von allen Verbündeten verursachte SCH <color=#f29e38ff>20%</color> der VTD des Ziels und der vom Träger verursachte Fertigkeits-SCH wird um <color=#f29e38ff>72%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.18,
+					0.72,
+					4,
+					3,
+					0.2
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>21%</color>. Wenn eine beliebige verbündete Figur in ihrer eigenen Runde insgesamt mindestens 4 Fertigkeitspunkte verbraucht, erhält der Träger für 3 Rd. „Strahlende Krone“. Wenn der Träger Strahlende Krone besitzt, ignoriert der von allen Verbündeten verursachte SCH <color=#f29e38ff>24%</color> der VTD des Ziels und der vom Träger verursachte Fertigkeits-SCH wird um <color=#f29e38ff>84%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.21,
+					0.84,
+					4,
+					3,
+					0.24
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>24%</color>. Wenn eine beliebige verbündete Figur in ihrer eigenen Runde insgesamt mindestens 4 Fertigkeitspunkte verbraucht, erhält der Träger für 3 Rd. „Strahlende Krone“. Wenn der Träger Strahlende Krone besitzt, ignoriert der von allen Verbündeten verursachte SCH <color=#f29e38ff>28%</color> der VTD des Ziels und der vom Träger verursachte Fertigkeits-SCH wird um <color=#f29e38ff>96%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.24,
+					0.96,
+					4,
+					3,
+					0.28
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>27%</color>. Wenn eine beliebige verbündete Figur in ihrer eigenen Runde insgesamt mindestens 4 Fertigkeitspunkte verbraucht, erhält der Träger für 3 Rd. „Strahlende Krone“. Wenn der Träger Strahlende Krone besitzt, ignoriert der von allen Verbündeten verursachte SCH <color=#f29e38ff>32%</color> der VTD des Ziels und der vom Träger verursachte Fertigkeits-SCH wird um <color=#f29e38ff>108%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.27,
+					1.08,
+					4,
+					3,
+					0.32
+				]
+			},
+			{
+				"Effect": "Erhöht die KRIT-Rate des Trägers um <color=#f29e38ff>30%</color>. Wenn eine beliebige verbündete Figur in ihrer eigenen Runde insgesamt mindestens 4 Fertigkeitspunkte verbraucht, erhält der Träger für 3 Rd. „Strahlende Krone“. Wenn der Träger Strahlende Krone besitzt, ignoriert der von allen Verbündeten verursachte SCH <color=#f29e38ff>36%</color> der VTD des Ziels und der vom Träger verursachte Fertigkeits-SCH wird um <color=#f29e38ff>120%</color> erhöht. Effekte desselben Typs sind nicht stapelbar.",
+				"Params": [
+					0.3,
+					1.2,
+					4,
+					3,
+					0.36
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
+	"23062": {
+		"Id": "23062",
+		"Name": "Ich bin, wie du mich siehst",
+		"PathType": "Warrior",
+		"PathTypeText": "Die Zerstörung",
+		"EffectName": "Nach Belieben",
+		"EffectTemplate": "Erhöht den ANG des Trägers um <color=#f29e38ff>#1[i]%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>#2[f1]%</color>. Wenn der Träger seinen Ultimate einsetzt, wird der diesmal verursachte Ultimate-SCH für jeden verbrauchten Punkt Energie um <color=#f29e38ff>#3[f2]%</color> erhöht, bis zu <color=#f29e38ff>#6[i]%</color>. Wenn der Träger in den Kampf eintritt oder seinen Ultimate einsetzt, erhält er für #4[i] Rd. „Unterhaltung des Königs“. Solange der Träger Unterhaltung des Königs besitzt, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>#5[i]%</color> erhöht. Effekte desselben Typs können nicht gestapelt werden.",
+		"Superimpositions": [
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>18%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>10.0%</color>. Wenn der Träger seinen Ultimate einsetzt, wird der diesmal verursachte Ultimate-SCH für jeden verbrauchten Punkt Energie um <color=#f29e38ff>0.20%</color> erhöht, bis zu <color=#f29e38ff>72%</color>. Wenn der Träger in den Kampf eintritt oder seinen Ultimate einsetzt, erhält er für 3 Rd. „Unterhaltung des Königs“. Solange der Träger Unterhaltung des Königs besitzt, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>24%</color> erhöht. Effekte desselben Typs können nicht gestapelt werden.",
+				"Params": [
+					0.18,
+					0.1,
+					0.002,
+					3,
+					0.24,
+					0.72
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>21%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>12.5%</color>. Wenn der Träger seinen Ultimate einsetzt, wird der diesmal verursachte Ultimate-SCH für jeden verbrauchten Punkt Energie um <color=#f29e38ff>0.25%</color> erhöht, bis zu <color=#f29e38ff>90%</color>. Wenn der Träger in den Kampf eintritt oder seinen Ultimate einsetzt, erhält er für 3 Rd. „Unterhaltung des Königs“. Solange der Träger Unterhaltung des Königs besitzt, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>30%</color> erhöht. Effekte desselben Typs können nicht gestapelt werden.",
+				"Params": [
+					0.21,
+					0.125,
+					0.0025,
+					3,
+					0.3,
+					0.9
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>24%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>15.0%</color>. Wenn der Träger seinen Ultimate einsetzt, wird der diesmal verursachte Ultimate-SCH für jeden verbrauchten Punkt Energie um <color=#f29e38ff>0.30%</color> erhöht, bis zu <color=#f29e38ff>108%</color>. Wenn der Träger in den Kampf eintritt oder seinen Ultimate einsetzt, erhält er für 3 Rd. „Unterhaltung des Königs“. Solange der Träger Unterhaltung des Königs besitzt, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>36%</color> erhöht. Effekte desselben Typs können nicht gestapelt werden.",
+				"Params": [
+					0.24,
+					0.15,
+					0.003,
+					3,
+					0.36,
+					1.08
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>27%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>17.5%</color>. Wenn der Träger seinen Ultimate einsetzt, wird der diesmal verursachte Ultimate-SCH für jeden verbrauchten Punkt Energie um <color=#f29e38ff>0.35%</color> erhöht, bis zu <color=#f29e38ff>126%</color>. Wenn der Träger in den Kampf eintritt oder seinen Ultimate einsetzt, erhält er für 3 Rd. „Unterhaltung des Königs“. Solange der Träger Unterhaltung des Königs besitzt, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>42%</color> erhöht. Effekte desselben Typs können nicht gestapelt werden.",
+				"Params": [
+					0.27,
+					0.175,
+					0.0035,
+					3,
+					0.42,
+					1.26
+				]
+			},
+			{
+				"Effect": "Erhöht den ANG des Trägers um <color=#f29e38ff>30%</color> und die Energie-Wiederherstellungsrate um <color=#f29e38ff>20.0%</color>. Wenn der Träger seinen Ultimate einsetzt, wird der diesmal verursachte Ultimate-SCH für jeden verbrauchten Punkt Energie um <color=#f29e38ff>0.40%</color> erhöht, bis zu <color=#f29e38ff>144%</color>. Wenn der Träger in den Kampf eintritt oder seinen Ultimate einsetzt, erhält er für 3 Rd. „Unterhaltung des Königs“. Solange der Träger Unterhaltung des Königs besitzt, wird der KRIT-SCH aller Verbündeten um <color=#f29e38ff>48%</color> erhöht. Effekte desselben Typs können nicht gestapelt werden.",
+				"Params": [
+					0.3,
+					0.2,
+					0.004,
+					3,
+					0.48,
+					1.44
+				]
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"24000": {
 		"Id": "24000",
 		"Name": "Der Niedergang eines Äons",

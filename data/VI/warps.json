@@ -1279,6 +1279,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"2128": {
+		"Id": "2128",
+		"Name": "Ánh Sao Khai Phá Dẫn Đường",
+		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2129": {
+		"Id": "2129",
+		"Name": "Gặp Gỡ Khó Phai - Sparxie",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2130": {
+		"Id": "2130",
+		"Name": "Gặp Gỡ Khó Phai - Dan Heng - Permansor Terrae",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2131": {
+		"Id": "2131",
+		"Name": "Gặp Gỡ Khó Phai - Evernight",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2132": {
+		"Id": "2132",
+		"Name": "Gặp Gỡ Khó Phai - Anaxa",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2133": {
+		"Id": "2133",
+		"Name": "Gặp Gỡ Khó Phai - Cerydra",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2134": {
+		"Id": "2134",
+		"Name": "Gặp Gỡ Khó Phai - Aventurine",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nhân Vật",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Định Hình Năm Tháng",
@@ -2549,6 +2619,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"3128": {
+		"Id": "3128",
+		"Name": "Định Hình Năm Tháng",
+		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3129": {
+		"Id": "3129",
+		"Name": "Chân Ý Hội Tụ - Thế Giới Hoa Lệ Choáng Ngợp",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3130": {
+		"Id": "3130",
+		"Name": "Chân Ý Hội Tụ - Dù Núi Sông Vạn Dặm",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3131": {
+		"Id": "3131",
+		"Name": "Chân Ý Hội Tụ - Gửi Ánh Sao Của Đêm Dài",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3132": {
+		"Id": "3132",
+		"Name": "Chân Ý Hội Tụ - Sinh Mệnh Đáng Bị Thiêu Rụi",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3133": {
+		"Id": "3133",
+		"Name": "Chân Ý Hội Tụ - Thời Đại Máu Vàng Khắc Ghi",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3134": {
+		"Id": "3134",
+		"Name": "Chân Ý Hội Tụ - Vận Mệnh Chưa Từng Công Bằng",
+		"Description": "Nhấn vào thẻ trang để chuyển đổi giữa các Bước Nhảy khác nhau",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Bước Nhảy Sự Kiện Nón Ánh Sáng",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"4001": {
 		"Id": "4001",
 		"Name": "Bước Nhảy Đầu Tiên",
@@ -2564,7 +2704,7 @@
 		"Name": "Lời Thề Của Thánh Kiếm Rực Cháy",
 		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Bước Nhảy Nhân Vật Hợp Tác",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014_Selected.png",
 		"VersionAdded": "3.4"
@@ -2574,17 +2714,37 @@
 		"Name": "Thân Này Là Kiếm Trời Sinh",
 		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Bước Nhảy Nhân Vật Hợp Tác",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"5003": {
+		"Id": "5003",
+		"Name": "Lưu Quang Nhuốm Đỏ Ma Thạch",
+		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"5004": {
+		"Id": "5004",
+		"Name": "Tinh Tú Khai Tịch Nguyên Sơ",
+		"Description": "Tăng tỷ lệ xuất hiện Nhân Vật chỉ định",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509_Selected.png",
+		"VersionAdded": "4.4"
 	},
 	"6001": {
 		"Id": "6001",
 		"Name": "Sự Ra Đời Của Vị Vua",
 		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Bước Nhảy Nón Ánh Sáng Hợp Tác",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045_Selected.png",
 		"VersionAdded": "3.4"
@@ -2594,9 +2754,29 @@
 		"Name": "Sắc Đỏ Fuyuki",
 		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Bước Nhảy Nón Ánh Sáng Hợp Tác",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"6003": {
+		"Id": "6003",
+		"Name": "Ánh Sáng Vạn Hoa Rực Rỡ",
+		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"6004": {
+		"Id": "6004",
+		"Name": "Cổng Vàng Kỷ Nguyên Thần Thánh",
+		"Description": "Tăng tỷ lệ xuất hiện Nón Ánh Sáng chỉ định",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Bước Nhảy Hợp Tác Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062_Selected.png",
+		"VersionAdded": "4.4"
 	}
 }

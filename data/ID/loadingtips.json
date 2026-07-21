@@ -2410,5 +2410,11 @@
 		"Name": "Sedang berganti ke sudut pandang \"Silver Wolf\" ....",
 		"Description": "Saat ini, di Studio Lukis Pearl, Silver Wolf juga bersiap untuk memulai aksinya ....",
 		"VersionAdded": "4.2"
+	},
+	"20106": {
+		"Id": "20106",
+		"Name": "Sedang berganti ke sudut pandang \"Himeko\" ....",
+		"Description": "Beberapa waktu lalu, Asat Pramad membawa Himeko ke dalam sebuah Dunia dalam Lukisan ....",
+		"VersionAdded": "4.4"
 	}
 }

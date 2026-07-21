@@ -3279,6 +3279,47 @@
 		],
 		"VersionAdded": "4.3"
 	},
+	"1510": {
+		"Id": "1510",
+		"Name": "Himeko - Nova",
+		"ElementType": "Fire",
+		"ElementTypeText": "Hỏa",
+		"PathType": "Mage",
+		"PathTypeText": "Tri Thức",
+		"Eidolons": [
+			{
+				"Id": "151001",
+				"Name": "Thứ Chúng Ta Gọi Là Con Đường, Chính Là Khai Phá",
+				"Effect": "Số lần Thiên Phú phát động thêm hiệu ứng <u>Kỹ Năng Trợ Chiến</u> tăng thêm 1 lần. Trong trạng thái \"Giao Ước Đồng Hành: Phán Quyết\", số lần thi triển Tuyệt Kỹ cần để phát động <u>Kỹ Năng Trợ Chiến</u> giảm 1 lần. Trong trạng thái \"Giao Ước Đồng Hành: Diệt Phá\", Nạp Năng Lượng cần để phát động <u>Kỹ Năng Trợ Chiến</u> giảm 3 điểm. Khi Himeko - Nova phát động <u>Kỹ Năng Trợ Chiến</u>, số lần hiệu ứng gây thêm sát thương tăng 1 lần."
+			},
+			{
+				"Id": "151002",
+				"Name": "Ngọn Cờ, Cánh Buồm Không Bao Giờ Hạ Xuống",
+				"Effect": "Giới hạn sử dụng <u>Kỹ Năng Trợ Chiến</u> của Himeko - Nova tăng đến 2 lần, sát thương do Tuyệt Kỹ và <u>Kỹ Năng Trợ Chiến</u> gây ra bằng 130% sát thương gốc. Trong trạng thái \"Cờ Hiệu Dẫn Đường\", khi bắt đầu mỗi hiệp, lập tức hồi phục thêm 1 lần sử dụng <u>Kỹ Năng Trợ Chiến</u>. Hiệu ứng Vết Tích \"Nhịp Đập Của Đội Tàu Đang Rền Vang\" khi nhân vật không phải <u>Đồng Hành Khai Phá</u> sử dụng <u>Kỹ Năng Trợ Chiến</u>, cũng sẽ nhận 1 <u>hiệp tăng thêm</u>."
+			},
+			{
+				"Id": "151003",
+				"Name": "Đứa Con Của Tinh Tú, Cũng Đang Suy Tư Về Muôn Vì Sao",
+				"Effect": "Cấp Tuyệt Kỹ +2, tối đa không quá cấp 15; Cấp Tấn Công Thường +1, tối đa không quá cấp 10."
+			},
+			{
+				"Id": "151004",
+				"Name": "Nắm Lấy Tất Cả Những Bàn Tay Vươn Tới Bầu Trời",
+				"Effect": "Khi sử dụng <u>Kỹ Năng Trợ Chiến</u> của Thiên Phú \"Cùng Bước Vào Cuộc Viễn Chinh Rực Cháy\", hiệu ứng tăng Xuyên Kháng Toàn Thuộc Tính sẽ có hiệu lực với toàn bộ phe ta, khi Himeko - Nova nhận được hiệu ứng này, Xuyên Kháng Toàn Thuộc Tính tăng thêm 10%."
+			},
+			{
+				"Id": "151005",
+				"Name": "Băng Qua Toàn Cõi Vũ Trụ",
+				"Effect": "Cấp Chiến Kỹ +2, tối đa không quá cấp 15; Cấp Thiên Phú +2, tối đa không quá cấp 15."
+			},
+			{
+				"Id": "151006",
+				"Name": "Khắc Ghi, Lời Thề Vươn Tới Những Vì Sao",
+				"Effect": "<u>Xuyên Kháng</u> Hỏa của Himeko - Nova tăng 20%. Giới hạn của <u>\"Nguyên Năng\"</u> tăng đến 6 điểm, khi phe ta sử dụng hoặc phát động <u>Kỹ Năng Trợ Chiến</u>, sát thương do <u>Kỹ Năng Trợ Chiến</u> gây ra tăng 75%, Himeko - Nova nhận 1 điểm <u>\"Nguyên Năng\"</u>. Trong thời gian Tuyệt Kỹ, khi phát động \"Chùm Tia Hạt Siêu Tần\" tấn công, nhận thêm 1 điểm <u>\"Nguyên Năng\"</u>. Khi phát động \"Xung Mạch Hủy Diệt Quỹ Đạo\", nếu <u>\"Nguyên Năng\"</u> hiện tại lớn hơn hoặc bằng 6 điểm, sẽ gây thêm cho toàn phe địch 1 lần Sát Thương Hỏa bằng 160% Tấn Công của Himeko - Nova."
+			}
+		],
+		"VersionAdded": "4.4"
+	},
 	"8001": {
 		"Id": "8001",
 		"Name": "Nhà Khai Phá (Vật Lý)",

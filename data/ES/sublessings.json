@@ -8140,6 +8140,27 @@
 		"Effect": "El daño de Mortenax Blade se amplifica en el Universo Diferenciado.\n\nTras reducirse sus PV, los PV regenerados aumentan en un <color=#f29e38ff>15%</color> y el daño final aumenta en un <color=#f29e38ff>15%</color> durante <color=#f29e38ff>2</color> turno(s).",
 		"VersionAdded": "4.3"
 	},
+	"661508": {
+		"Id": "661508",
+		"Name": "Rin Tohsaka",
+		"Rarity": 1,
+		"Effect": "El daño de Rin Tohsaka se amplifica en el Universo Diferenciado.\n\nEl daño final infligido aumenta en un <color=#f29e38ff>15%</color>. Al comenzar el turno, recupera <color=#f29e38ff>1</color> pt(s). de habilidad básica.",
+		"VersionAdded": "4.4"
+	},
+	"661509": {
+		"Id": "661509",
+		"Name": "Gilgamesh",
+		"Rarity": 1,
+		"Effect": "El daño de Gilgamesh se amplifica en el Universo Diferenciado.\n\nCada vez que lanza la habilidad definitiva, el daño final que inflige aumenta en un <color=#f29e38ff>6%</color>. Este efecto se puede acumular hasta <color=#f29e38ff>5</color> veces.",
+		"VersionAdded": "4.4"
+	},
+	"661510": {
+		"Id": "661510",
+		"Name": "Himeko Nova",
+		"Rarity": 1,
+		"Effect": "El daño de Himeko Nova se amplifica en el Universo Diferenciado.\n\nCada vez que lanza la habilidad de apoyo, el daño final que inflige aumenta en un <color=#f29e38ff>3%</color>. Este efecto se puede acumular hasta <color=#f29e38ff>10</color> veces.",
+		"VersionAdded": "4.4"
+	},
 	"668001": {
 		"Id": "668001",
 		"Name": "{NICKNAME}",

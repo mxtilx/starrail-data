@@ -1279,6 +1279,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1408_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"2128": {
+		"Id": "2128",
+		"Name": "Fajar Perintisan Bintang",
+		"Description": "Persentase Karakter yang ditentukan UP",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_1510_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2129": {
+		"Id": "2129",
+		"Name": "Rekan dalam Sanubari: Sparxie",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1501_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2130": {
+		"Id": "2130",
+		"Name": "Rekan dalam Sanubari: Dan Heng • Permansor Terrae",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1414_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2131": {
+		"Id": "2131",
+		"Name": "Rekan dalam Sanubari: Evernight",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1413_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2132": {
+		"Id": "2132",
+		"Name": "Rekan dalam Sanubari: Anaxa",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1405_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2133": {
+		"Id": "2133",
+		"Name": "Rekan dalam Sanubari: Cerydra",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1412_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"2134": {
+		"Id": "2134",
+		"Name": "Rekan dalam Sanubari: Aventurine",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "AvatarUp",
+		"WarpTypeText": "Event Warp Karakter",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_1304_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"3001": {
 		"Id": "3001",
 		"Name": "Fiksasi Brilian",
@@ -2549,6 +2619,76 @@
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23044_Selected.png",
 		"VersionAdded": "4.3"
 	},
+	"3128": {
+		"Id": "3128",
+		"Name": "Fiksasi Brilian",
+		"Description": "Persentase Light Cone yang ditentukan UP",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/TabIcon_LightCone_23060_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3129": {
+		"Id": "3129",
+		"Name": "Kumpulan Makna Sejati: Dazzled by a Flowery World",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23053_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3130": {
+		"Id": "3130",
+		"Name": "Kumpulan Makna Sejati: Though Worlds Apart",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23051_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3131": {
+		"Id": "3131",
+		"Name": "Kumpulan Makna Sejati: To Evernight's Stars",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23049_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3132": {
+		"Id": "3132",
+		"Name": "Kumpulan Makna Sejati: Life Should Be Cast to Flames",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23041_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3133": {
+		"Id": "3133",
+		"Name": "Kumpulan Makna Sejati: Epoch Etched in Golden Blood",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23048_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"3134": {
+		"Id": "3134",
+		"Name": "Kumpulan Makna Sejati: Inherently Unjust Destiny",
+		"Description": "Tekan tab untuk mengganti ke halaman Warp yang berbeda",
+		"WarpType": "WeaponUp",
+		"WarpTypeText": "Event Warp Light Cone",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaTabIconLimited/SubTabIcon_LightCone_23023_Selected.png",
+		"VersionAdded": "4.4"
+	},
 	"4001": {
 		"Id": "4001",
 		"Name": "Warp Keberangkatan",
@@ -2564,7 +2704,7 @@
 		"Name": "Ikrar Gemilang Pedang Suci",
 		"Description": "Persentase Karakter yang ditentukan UP",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Warp Kolaborasi Karakter",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1014_Selected.png",
 		"VersionAdded": "3.4"
@@ -2574,17 +2714,37 @@
 		"Name": "Dengan Bilah Tubuh Ini Ditempa",
 		"Description": "Persentase Karakter yang ditentukan UP",
 		"WarpType": "CollaborationAvatarUp",
-		"WarpTypeText": "Warp Kolaborasi Karakter",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1015_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"5003": {
+		"Id": "5003",
+		"Name": "Kilau Permata Merah Darah",
+		"Description": "Persentase Karakter yang ditentukan UP",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1508_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"5004": {
+		"Id": "5004",
+		"Name": "Bintang Awal Mula",
+		"Description": "Persentase Karakter yang ditentukan UP",
+		"WarpType": "CollaborationAvatarUp",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_1509_Selected.png",
+		"VersionAdded": "4.4"
 	},
 	"6001": {
 		"Id": "6001",
 		"Name": "Kelahiran sang Raja",
 		"Description": "Persentase Light Cone yang ditentukan UP",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Warp Kolaborasi Light Cone",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23045_Selected.png",
 		"VersionAdded": "3.4"
@@ -2594,9 +2754,29 @@
 		"Name": "Siluet Merah Fuyuki",
 		"Description": "Persentase Light Cone yang ditentukan UP",
 		"WarpType": "CollaborationWeaponUp",
-		"WarpTypeText": "Warp Kolaborasi Light Cone",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
 		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046.png",
 		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23046_Selected.png",
 		"VersionAdded": "3.4"
+	},
+	"6003": {
+		"Id": "6003",
+		"Name": "Gemerlap Seribu Cahaya",
+		"Description": "Persentase Light Cone yang ditentukan UP",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23061_Selected.png",
+		"VersionAdded": "4.4"
+	},
+	"6004": {
+		"Id": "6004",
+		"Name": "Gerbang Emas Era Ilahi",
+		"Description": "Persentase Light Cone yang ditentukan UP",
+		"WarpType": "CollaborationWeaponUp",
+		"WarpTypeText": "Warp Kolaborasi Fate[UBW]",
+		"ImageIconTab": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062.png",
+		"ImageIconTabSelected": "SpriteOutput/DrawCardPic/GachaCollaborationTabIcon/SubTabIcon_23062_Selected.png",
+		"VersionAdded": "4.4"
 	}
 }

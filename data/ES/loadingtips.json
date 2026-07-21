@@ -248,7 +248,7 @@
 	"10042": {
 		"Id": "10042",
 		"Name": "Akivili",
-		"Description": "Eón que preside la Vía Trazacaminos. Partió de Pegana, el mundo solitario, y siguió trazando caminos en las fronteras inexploradas.\nSu destino finalizó de forma inesperada.",
+		"Description": "Eón que preside la Vía Trazacaminos. Partió de Pegana, el mundo aislado, y siguió trazando caminos en las fronteras inexploradas.\nSu destino finalizó de forma inesperada.",
 		"VersionAdded": "1.0"
 	},
 	"10043": {
@@ -2410,5 +2410,11 @@
 		"Name": "Cambiando a la perspectiva de Silver Wolf...",
 		"Description": "Mientras tanto, en el estudio de Perla, Silver Wolf también se prepara para pasar a la acción...",
 		"VersionAdded": "4.2"
+	},
+	"20106": {
+		"Id": "20106",
+		"Name": "Cambiando a la perspectiva de Himeko...",
+		"Description": "Hace un tiempo, Asat Pramad se llevó a Himeko a cierto mundo del cuadro...",
+		"VersionAdded": "4.4"
 	}
 }

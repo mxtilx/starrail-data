@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "墜星の出航地",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "装備キャラの会心率+8%。戦闘に入る時、装備キャラおよび自身以外にもう1名の味方キャラが「開拓仲間」である場合、装備キャラの会心ダメージ+32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "宇宙生命科学研究院",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "戦闘に入る時、装備キャラの最大EPが200以上の場合、超過分1につき、装備キャラの与ダメージ+0.2%、最大で+32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

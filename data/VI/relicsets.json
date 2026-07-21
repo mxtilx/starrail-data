@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "Điểm Khởi Hành Sao Rơi",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Tăng 8% Tỷ Lệ Bạo Kích của người trang bị. Khi vào chiến đấu, nếu người trang bị và một đồng đội khác đều là nhân vật Đồng Hành Khai Phá, tăng 32% Sát Thương Bạo Kích của người trang bị."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "Viện Nghiên Cứu Sinh Học Vũ Trụ",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Khi vào chiến đấu, nếu Giới Hạn Năng Lượng của người trang bị lớn hơn hoặc bằng 200 điểm, cứ vượt quá 1 điểm sẽ khiến sát thương do người trang bị gây ra tăng 0.2%, tối đa tăng 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

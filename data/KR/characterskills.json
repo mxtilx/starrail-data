@@ -41225,7 +41225,7 @@
 			"TagTypeText": "범위 공격",
 			"SkillTypeText": "전투 스킬",
 			"MaxLevel": 15,
-			"EffectRaw": "천야•블레이드 HP 최대치의 <unbreak>#4[i]%</unbreak>만큼 HP를 소모해 모든 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#1[f1]%</unbreak></color>만큼 화염 속성 피해를 가하고, 추가로 피해를 <unbreak>#2[i]</unbreak>회 가한다. 피해당 랜덤 단일 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>만큼 화염 속성 피해를 가한다.\n현재 HP가 부족할 시, 전투 스킬을 발동하면 천야•블레이드의 현재 HP가 1pt로 감소한다.\n[끝없는 분노] 상태가 아니거나 현재 HP가 1 이하일 시 천야•블레이드는 전투 스킬을 발동할 수 없다.\n전투 스킬 발동 시 전투 스킬 포인트를 소모하지 않는다",
+			"EffectRaw": "천야•블레이드 HP 최대치의 <unbreak>#4[f1]%</unbreak>만큼 HP를 소모해 모든 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 화염 속성 피해를 가하고, 추가로 피해를 <unbreak>#2[i]</unbreak>회 가한다. 피해당 랜덤 단일 적에게 천야•블레이드 HP 최대치의 <color=#f29e38ff><unbreak>#3[f1]%</unbreak></color>만큼 화염 속성 피해를 가한다.\n현재 HP가 부족할 시, 전투 스킬을 발동하면 천야•블레이드의 현재 HP가 1pt로 감소한다.\n[끝없는 분노] 상태가 아니거나 현재 HP가 1 이하일 시 천야•블레이드는 전투 스킬을 발동할 수 없다.\n전투 스킬 발동 시 전투 스킬 포인트를 소모하지 않는다",
 			"AbridgedEffect": "HP를 소모해 모든 적에게 화염 속성 피해를 가하고, 이후 단일 적에게 소량의 화염 속성 피해를 가하며, <color=#f29e38ff><unbreak>#2[i]</unbreak></color>회 바운스한다",
 			"ElementType": "Fire",
 			"Levels": {
@@ -41761,6 +41761,785 @@
 			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1507/SkillIcon_1507_Maze.png"
 		},
 		"VersionAdded": "4.3"
+	},
+	"1510": {
+		"Id": "1510",
+		"Name": "히메코•노바",
+		"BasicATK": {
+			"Id": "151001",
+			"Name": "첫 번째 이정표를 밝혀",
+			"TriggerKey": "Skill01",
+			"TagType": "SingleAttack",
+			"TagTypeText": "단일 공격",
+			"SkillTypeText": "일반 공격",
+			"MaxLevel": 10,
+			"EffectRaw": "단일 적에게 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 화염 속성 피해를 가한다",
+			"AbridgedEffect": "단일 적에게 소량의 화염 속성 피해를 가한다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.5
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.6
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.7
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.8
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.9
+					]
+				},
+				"6": {
+					"EffectValues": [
+						1
+					]
+				},
+				"7": {
+					"EffectValues": [
+						1.1
+					]
+				},
+				"8": {
+					"EffectValues": [
+						1.2
+					]
+				},
+				"9": {
+					"EffectValues": [
+						1.3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						1.4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal.png"
+		},
+		"EnhancedBasicATK": {
+			"Id": "151008",
+			"Name": "초주파 입자 광선",
+			"TriggerKey": "Skill11",
+			"TagType": "AoEAttack",
+			"TagTypeText": "범위 공격",
+			"SkillTypeText": "필살기",
+			"MaxLevel": 15,
+			"EffectRaw": "모든 적에게 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 화염 속성 피해를 가하고, <u>[코어 동력]</u>을 <unbreak>#2[i]</unbreak>pt 획득한다. <u>[코어 동력]</u>은 최대 <unbreak>#3[i]</unbreak>개까지 획득할 수 있다",
+			"AbridgedEffect": "모든 적에게 소량의 화염 속성 피해를 가한다. <u>[코어 동력]</u>을 <color=#f29e38ff><unbreak>#2[i]</unbreak></color>pt를 획득하며, <u>[코어 동력]</u>은 최대 <color=#f29e38ff><unbreak>#3[i]</unbreak></color>개까지 획득할 수 있다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Normal02.png"
+		},
+		"Skill": {
+			"Id": "151002",
+			"Name": "항법의 봉화를 올려",
+			"TriggerKey": "Skill02",
+			"TagType": "Support",
+			"TagTypeText": "서포트",
+			"SkillTypeText": "전투 스킬",
+			"MaxLevel": 15,
+			"EffectRaw": "전투 스킬 발동 후 즉시 모든 <u>전투 지원 스킬</u> 사용 횟수를 회복하고, 히메코•노바는 [항법 수기 신호]를 획득한다, 지속 시간: <unbreak>#2[i]</unbreak>턴, 히메코•노바의 턴이 시작될 때마다 지속 턴 수가 1 감소한다. 히메코•노바가 [항법 수기 신호] 보유 시, 모든 아군이 가하는 피해가 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> 증가하며, 턴이 시작될 때마다 즉시 <u>전투 지원 스킬</u> 사용 횟수를 1회 회복한다",
+			"AbridgedEffect": "전투 스킬 발동 후 즉시 모든 <u>전투 지원 스킬</u> 사용 횟수를 회복하고, 히메코•노바는 [항법 수기 신호]를 획득한다. 히메코•노바가 [항법 수기 신호] 보유 시, 가하는 피해가 증가하며, 턴이 시작될 때마다 즉시 <u>전투 지원 스킬</u> 사용 횟수를 1회 회복한다",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						3
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						3
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						3
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						3
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						3
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						3
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						3
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						3
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						3
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						3
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						3
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						3
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						3
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						3
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP.png"
+		},
+		"EnhancedSkill": {
+			"Id": "151009",
+			"Name": "궤도 섬멸 펄스",
+			"TriggerKey": "Skill21",
+			"TagType": "AoEAttack",
+			"TagTypeText": "범위 공격",
+			"SkillTypeText": "필살기",
+			"MaxLevel": 15,
+			"EffectRaw": "<u>[코어 동력]</u>을 1pt 소모해 모든 적에게 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>만큼 화염 속성 피해를 가한다. 현재 <u>[코어 동력]</u>이 1pt보다 많을 경우, <u>[코어 동력]</u>을 <unbreak>#2[i]</unbreak>pt 소모할 때마다 추가로 랜덤 단일 적에게 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>만큼 화염 속성 피해를 1회 가한다",
+			"AbridgedEffect": "<u>[코어 동력]</u>을 1pt 소모해 모든 적에게 소량의 화염 속성 피해를 가한다. 현재 <u>[코어 동력]</u>이 1pt보다 많을 경우, <u>[코어 동력]</u>을 <color=#f29e38ff><unbreak>#2[i]</unbreak></color>pt 소모할 때마다 랜덤으로 단일 적에게 소량의 화염 속성 피해를 1회 가한다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.1,
+						1,
+						0.15
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.11,
+						1,
+						0.165
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.12,
+						1,
+						0.18
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.13,
+						1,
+						0.195
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.14,
+						1,
+						0.21
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.15,
+						1,
+						0.225
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.1625,
+						1,
+						0.2438
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.175,
+						1,
+						0.2625
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.1875,
+						1,
+						0.2813
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.2,
+						1,
+						0.3
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.21,
+						1,
+						0.315
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.22,
+						1,
+						0.33
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.23,
+						1,
+						0.345
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.36
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.25,
+						1,
+						0.375
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_BP02.png"
+		},
+		"Ultimate": {
+			"Id": "151003",
+			"Name": "우리 또한 별을 좇는 거인",
+			"TriggerKey": "Skill03",
+			"TagType": "AoEAttack",
+			"TagTypeText": "범위 공격",
+			"SkillTypeText": "필살기",
+			"MaxLevel": 15,
+			"EffectRaw": "즉시 「별의 인도자」를 조종한다. 「별의 인도자」는 적에게 6회 발동할 수 있는 [초주파 입자 광선] 또는 <u>[코어 동력]</u>을 소모하여 발동하는 [궤도 섬멸 펄스]를 보유하며, 지정된 단일 적에게 최대 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#9[i]%</unbreak></color>만큼 화염 속성 피해를 가하고, 다른 목표에게 최대 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#10[i]%</unbreak></color>만큼 화염 속성 피해를 가한다.\n[초주파 입자 광선] 횟수를 소진하면 자동으로 [궤도 섬멸 펄스]를 발동하며, 이후 마지막 일격을 발동하여 피해를 <unbreak>#6[i]</unbreak>회 가하고, 피해당 랜덤 단일 적에게 히메코•노바 공격력의 <color=#f29e38ff><unbreak>#7[i]%</unbreak></color>만큼 화염 속성 피해를 가한다.\n[초주파 입자 광선] 또는 [궤도 섬멸 펄스]를 발동하여 필드 위의 모든 적에게 치명적인 피해를 가하거나 적의 HP를 더 이상 감소시킬 수 없을 시, 즉시 마지막 일격을 발동한다",
+			"AbridgedEffect": "필살기 발동 중 모든 적에게 [초주파 입자 광선] 또는 [궤도 섬멸 펄스]를 발동할 수 있다. 마지막으로 랜덤 단일 적 <color=#f29e38ff><unbreak>#6[i]</unbreak></color>기에게 화염 속성 피해를 가한다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.16,
+						1,
+						0.1,
+						1,
+						0.15,
+						3,
+						0.4,
+						3,
+						3.81,
+						1.26
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.176,
+						1,
+						0.11,
+						1,
+						0.165,
+						3,
+						0.44,
+						3,
+						4.191,
+						1.386
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.192,
+						1,
+						0.12,
+						1,
+						0.18,
+						3,
+						0.48,
+						3,
+						4.572,
+						1.512
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.208,
+						1,
+						0.13,
+						1,
+						0.195,
+						3,
+						0.52,
+						3,
+						4.953,
+						1.638
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.224,
+						1,
+						0.14,
+						1,
+						0.21,
+						3,
+						0.56,
+						3,
+						5.334,
+						1.764
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.24,
+						1,
+						0.15,
+						1,
+						0.225,
+						3,
+						0.6,
+						3,
+						5.715,
+						1.89
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.26,
+						1,
+						0.1625,
+						1,
+						0.2438,
+						3,
+						0.65,
+						3,
+						6.1913,
+						2.0475
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.28,
+						1,
+						0.175,
+						1,
+						0.2625,
+						3,
+						0.7,
+						3,
+						6.6675,
+						2.205
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.3,
+						1,
+						0.1875,
+						1,
+						0.2813,
+						3,
+						0.75,
+						3,
+						7.1438,
+						2.3625
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.32,
+						1,
+						0.2,
+						1,
+						0.3,
+						3,
+						0.8,
+						3,
+						7.62,
+						2.52
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.336,
+						1,
+						0.21,
+						1,
+						0.315,
+						3,
+						0.84,
+						3,
+						8.001,
+						2.646
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.352,
+						1,
+						0.22,
+						1,
+						0.33,
+						3,
+						0.88,
+						3,
+						8.382,
+						2.772
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.368,
+						1,
+						0.23,
+						1,
+						0.345,
+						3,
+						0.92,
+						3,
+						8.763,
+						2.898
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.384,
+						1,
+						0.24,
+						1,
+						0.36,
+						3,
+						0.96,
+						3,
+						9.144,
+						3.024
+					]
+				},
+				"15": {
+					"EffectValues": [
+						0.4,
+						1,
+						0.25,
+						1,
+						0.375,
+						3,
+						1,
+						3,
+						9.525,
+						3.15
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Ultra.png"
+		},
+		"Talent": {
+			"Id": "151004",
+			"Name": "함께 타오르는 여정을 향해",
+			"TriggerKey": "SkillP01",
+			"TagType": "Enhance",
+			"TagTypeText": "강화",
+			"SkillTypeText": "특성",
+			"MaxLevel": 15,
+			"EffectRaw": "히메코•노바가 필드에 있을 시 즉시 <u>경계</u> [별을 인도하는 시야]를 펼치며, 필드에 「별의 인도자」가 나타나고, 모든 아군 캐릭터가 <u>전투 지원 스킬</u> 사용 횟수를 1회 획득한다. 아군 캐릭터는 <u>전투 지원 스킬</u>을 사용하여 「별의 인도자」를 소환해 적을 공격할 수 있다.\n<u>전투 지원 스킬</u>을 사용하면 히메코•노바가 전투 스킬을 발동한 것으로 간주하고, 히메코•노바는 모든 속성 <u>저항 관통</u> <color=#f29e38ff><unbreak>#2[i]%</unbreak></color> 증가, 치명타 피해 <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> 증가를 획득하며, 공격 시 약점 속성을 무시하고 적의 강인성을 소모할 수 있고, 약점 격파 시 화염 속성의 약점 격파 효과를 발동한다.\n히메코•노바를 제외한 아군 캐릭터가 <u>전투 지원 스킬</u> 사용 시, 해당 아군 캐릭터의 에너지를 <unbreak>#3[i]</unbreak>pt 회복한다",
+			"AbridgedEffect": "히메코•노바가 필드에 있을 시 <u>경계</u>를 전개하며, 모든 아군 캐릭터가 <u>전투 지원 스킬</u>을 획득한다. 아군 캐릭터가 <u>전투 지원 스킬</u>을 사용하면 히메코•노바는 모든 속성 <u>저항 관통</u> 증가 및 치명타 피해 증가를 획득하며, 공격 시 약점 속성을 무시하고 강인성을 감소시킨다.\n히메코•노바를 제외한 아군 캐릭터가 <u>전투 지원 스킬</u> 사용 시 해당 캐릭터의 에너지를 회복한다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						0.4,
+						0.1,
+						4
+					]
+				},
+				"2": {
+					"EffectValues": [
+						0.44,
+						0.11,
+						4
+					]
+				},
+				"3": {
+					"EffectValues": [
+						0.48,
+						0.12,
+						4
+					]
+				},
+				"4": {
+					"EffectValues": [
+						0.52,
+						0.13,
+						4
+					]
+				},
+				"5": {
+					"EffectValues": [
+						0.56,
+						0.14,
+						4
+					]
+				},
+				"6": {
+					"EffectValues": [
+						0.6,
+						0.15,
+						4
+					]
+				},
+				"7": {
+					"EffectValues": [
+						0.65,
+						0.1625,
+						4
+					]
+				},
+				"8": {
+					"EffectValues": [
+						0.7,
+						0.175,
+						4
+					]
+				},
+				"9": {
+					"EffectValues": [
+						0.75,
+						0.1875,
+						4
+					]
+				},
+				"10": {
+					"EffectValues": [
+						0.8,
+						0.2,
+						4
+					]
+				},
+				"11": {
+					"EffectValues": [
+						0.84,
+						0.21,
+						4
+					]
+				},
+				"12": {
+					"EffectValues": [
+						0.88,
+						0.22,
+						4
+					]
+				},
+				"13": {
+					"EffectValues": [
+						0.92,
+						0.23,
+						4
+					]
+				},
+				"14": {
+					"EffectValues": [
+						0.96,
+						0.24,
+						4
+					]
+				},
+				"15": {
+					"EffectValues": [
+						1,
+						0.25,
+						4
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Passive.png"
+		},
+		"Technique": {
+			"Id": "151007",
+			"Name": "별의 인도 순항",
+			"TriggerKey": "SkillMaze",
+			"TagType": "Enhance",
+			"TagTypeText": "강화",
+			"SkillTypeText": "비술",
+			"MaxLevel": 1,
+			"EffectRaw": "히메코•노바가 파티에 있을 시 비술 포인트 최대치가 3pt 증가한다.\n비술 사용 후 <unbreak>#1[i]</unbreak>초 동안 지속되는 [순항] 상태에 진입하며, 직접 비술을 발동하면 비술 포인트를 2pt 소모하고 즉시 일정 범위 내의 모든 적을 공격한다. 전투 진입 후 웨이브가 시작될 때마다 즉시 전투 스킬을 1회 발동한다.\n일반 적을 공격하면 즉시 처치하며 전투에 진입하지 않는다. 적을 명중하지 않으면 비술 포인트를 소모하지 않는다",
+			"AbridgedEffect": "<color=#f29e38ff>비술 포인트 최대치가 3pt 증가</color>한다. 직접 발동 시 [순항] 상태에 진입하며, 비술 포인트를 2pt 소모하고 일정 범위 내의 모든 적을 공격한다. 전투 진입 후, 웨이브가 시작될 때마다 전투 스킬을 1회 발동한다.\n일반 적을 공격하면 <color=#f29e38ff>대상을 즉시 처치</color>하며 전투에 진입하지 않는다. 적을 명중하지 않으면 비술 포인트를 소모하지 않는다",
+			"ElementType": "Fire",
+			"Levels": {
+				"1": {
+					"EffectValues": [
+						30
+					]
+				}
+			},
+			"ImageIcon": "SpriteOutput/SkillIcons/Avatar/1510/SkillIcon_1510_Maze.png"
+		},
+		"VersionAdded": "4.4"
 	},
 	"8001": {
 		"Id": "8001",

@@ -2410,5 +2410,11 @@
 		"Name": "Adoption du point de vue de Louve d'argent...",
 		"Description": "Pendant ce temps, dans le studio de Perle, Louve d'argent prépare son prochain coup...",
 		"VersionAdded": "4.2"
+	},
+	"20106": {
+		"Id": "20106",
+		"Name": "Adoption du point de vue de Himeko...",
+		"Description": "Il y a quelque temps, Himeko a été entraînée dans un Pictomonde par Asat Pramad...",
+		"VersionAdded": "4.4"
 	}
 }

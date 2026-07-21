@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "墜星啟航地",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "使裝備者的暴擊率提高8%。進入戰鬥時，若裝備者與另一名隊友均為開拓同行角色，使裝備者的暴擊傷害提高32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "寰宇生研院",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "進入戰鬥時，若裝備者能量上限達到200點，每超過1點使裝備者造成的傷害提高0.2%，最多提高32%。"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

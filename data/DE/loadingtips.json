@@ -2410,5 +2410,11 @@
 		"Name": "Wechsel zur Perspektive von Silberwolf ...",
 		"Description": "Währenddessen bereitet sich auch Silberwolf in Pearls Studio darauf vor, in Aktion zu treten ...",
 		"VersionAdded": "4.2"
+	},
+	"20106": {
+		"Id": "20106",
+		"Name": "Wechsel zur Perspektive von Himeko ...",
+		"Description": "Vor einiger Zeit wurde Himeko von Asat Pramad in eine Welt auf Leinwand gebracht ...",
+		"VersionAdded": "4.4"
 	}
 }

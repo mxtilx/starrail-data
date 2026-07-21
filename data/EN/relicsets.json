@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "Fallen Star Anchorage",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "Increases the wearer's CRIT Rate by 8%. When entering combat, if the wearer and another teammate are both Trailblaze Companions characters, increases the wearer's CRIT DMG by 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "Cosmic Life Sciences Institute",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "When entering combat, if the wearer's Max Energy is greater than or equal to 200, for every 1 excess point, increases the wearer's DMG dealt by 0.2%, up to a max increase of 32%."
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }

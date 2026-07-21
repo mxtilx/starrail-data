@@ -610,5 +610,25 @@
 		},
 		"Pieces": {},
 		"VersionAdded": "4.1"
+	},
+	"327": {
+		"Id": "327",
+		"Name": "추락한 별의 출항지",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "장착한 캐릭터의 치명타 확률이 8% 증가한다. 전투 진입 시, 장착한 캐릭터와 다른 동료 1명이 모두 개척 동행 캐릭터일 경우, 장착한 캐릭터의 치명타 피해가 32% 증가한다"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
+	},
+	"328": {
+		"Id": "328",
+		"Name": "우주 생명과학연구원",
+		"IsPlanarOrnament": true,
+		"SetEffects": {
+			"Pieces2": "전투 진입 시 장착한 캐릭터의 에너지 최대치가 200pt 이상일 경우, 초과한 에너지 최대치 1pt당 장착한 캐릭터가 가하는 피해가 0.2% 증가하며, 최대 32% 증가한다"
+		},
+		"Pieces": {},
+		"VersionAdded": "4.4"
 	}
 }
